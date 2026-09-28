@@ -47,9 +47,15 @@
       </ul>
     </div>
     <div class="title-actions">
-      <!-- Download link: always the latest GitHub release zip. CurseForge is a second option once it's approved. -->
-      <a class="btn-download" id="download" href="https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip">Download</a>
-      <span class="file-note">Free &middot; LoreForever.zip &middot; 51 MB</span>
+      <!-- Download: always the latest GitHub release zip. Don't rename the release asset; this link depends on it. -->
+      <a class="btn-download dl-link" id="download" href="https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip">Download</a>
+      <span class="file-note">Free &middot; LoreForever.zip &middot; 48 MB &middot; CurseForge app support coming soon</span>
+      <ol class="quick-install">
+        <li>Unzip into <code>World of Warcraft\_classic_beta_\Interface\AddOns</code></li>
+        <li>Check you have <code>AddOns\LoreForever\LoreForever.toc</code></li>
+        <li>Restart WoW and type <code>/lore</code></li>
+      </ol>
+      <a class="quick-install-more" href="#install">Step-by-step install guide</a>
     </div>
   </div>
 </section>
@@ -222,8 +228,7 @@
           <h3>Levels 30 to 60</h3>
           <p>Place lore for the rest of the world: each zone, its subzones and notable characters. Tell us where
             you want full quest and NPC lore next.</p>
-          <!-- TODO: real Discord invite link (same as the sidebar) -->
-          <a class="btn-small" href="#" data-todo="discord">Vote on Discord</a>
+                    <a class="btn-small" href="https://discord.gg/fQWrAscHbu">Vote on Discord</a>
         </div>
       </article>
     </div>
@@ -303,14 +308,7 @@
 
       <section class="tab-panel" id="install" role="tabpanel">
         <h2>Install</h2>
-        <h3>With the CurseForge app (once it's approved there)</h3>
-        <ol>
-          <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
-            add your <code>_classic_beta_</code> folder, or use the manual steps below.</li>
-          <li>Search for <strong>Lore Forever</strong> and click <strong>Install</strong>.</li>
-          <li>Start the game. On the character screen, open <strong>AddOns</strong> and make sure Lore Forever is ticked.</li>
-        </ol>
-        <h3>By hand</h3>
+        <h3>Install the zip</h3>
         <ol>
           <li>Click <strong>Download</strong> at the top of this page to get <code>LoreForever.zip</code>.</li>
           <li>Open your WoW folder, then <code>_classic_beta_\Interface\AddOns</code> (create <code>Interface\AddOns</code>
@@ -320,6 +318,16 @@
             <code>AddOns\LoreForever\LoreForever\</code> won't load.</li>
           <li>Restart WoW (or <code>/reload</code> if you're already in game).</li>
         </ol>
+        <h3>With the CurseForge app (coming soon)</h3>
+        <p>Lore Forever is waiting for approval on CurseForge. Once it's live there, you'll be able to install and
+          update it from the CurseForge app:</p>
+        <ol>
+          <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
+            add your <code>_classic_beta_</code> folder, or use the zip steps above.</li>
+          <li>Search for <strong>Lore Forever</strong> and click <strong>Install</strong>.</li>
+          <li>Start the game. On the character screen, open <strong>AddOns</strong> and make sure Lore Forever is ticked.</li>
+        </ol>
+
         <p>On your first login it asks you to pick a key for the panel. You can change it later with <code>/lore key</code>.</p>
         <p>Not showing up? On the character screen, click <strong>AddOns</strong> and tick
           <strong>Load out of date AddOns</strong>.</p>
@@ -375,10 +383,9 @@
         <h3>Links</h3>
         <ul class="links">
           <li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li>
-          <li><a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge page</a> (awaiting approval)</li>
-          <!-- TODO: real Twitch and Discord links -->
-          <li><a href="#" data-todo="twitch">Twitch</a></li>
-          <li><a href="#" data-todo="discord">Discord</a></li>
+          <li>CurseForge: coming soon</li>
+                    <li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li>
+          <li><a href="https://discord.gg/fQWrAscHbu">Discord</a></li>
         </ul>
       </div>
     </aside>
@@ -393,19 +400,19 @@
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>
 
-<!-- Shown when someone clicks Download: an optional email sign-up, then the download starts either way. -->
+<!-- Shown when someone clicks Download: an email is required, then the download starts right away
+     (no waiting for Buttondown's confirmation email). -->
 <dialog class="dl-dialog" id="dl-dialog" aria-labelledby="dl-title">
   <button type="button" class="dl-close" id="dl-close" aria-label="Close">&times;</button>
-  <h2 id="dl-title">Get new features?</h2>
-  <p>One email when something new ships. Unsubscribe anytime.</p>
+  <h2 id="dl-title">Enter your email to download</h2>
+  <p>We'll email you when new features ship. Unsubscribe anytime.</p>
   <form class="signup-form embeddable-buttondown-form" id="dl-signup" method="post" target="popupwindow">
     <label for="dl-email" class="visually-hidden">Email address</label>
     <input type="email" name="email" id="dl-email" required placeholder="you@example.com" autocomplete="email">
     <input type="hidden" name="embed" value="1">
     <input type="hidden" name="tag" value="download-popup">
-    <button type="submit" class="btn-small">Notify me and download</button>
+    <button type="submit" class="btn-small">Download</button>
   </form>
-  <button type="button" class="dl-skip" id="dl-skip">No thanks, just download</button>
 </dialog>
 
 <script>
@@ -440,20 +447,26 @@ if (BUTTONDOWN_USERNAME) {
   document.getElementById("signup-note").hidden = false;
 }
 
-// Download button: ask for an email first (skippable), then start the download. Skipped when sign-ups are
-// off, when this browser already subscribed, or for ctrl/cmd/middle clicks that open a new tab.
+// Download button: ask for an email first (required), then start the download. Skipped only when sign-ups
+// are off or this browser already subscribed.
 (function setUpDownloadDialog() {
-  const link = document.getElementById("download");
   const dialog = document.getElementById("dl-dialog");
   if (!BUTTONDOWN_USERNAME || typeof dialog.showModal !== "function") return;
-  const startDownload = () => { dialog.close(); location.href = link.href; };
+  let chosen = document.getElementById("download").href;   // the file the player clicked
+  const startDownload = () => { dialog.close(); location.href = chosen; };
   wireSignup(document.getElementById("dl-signup"), startDownload);
-  link.addEventListener("click", e => {
-    if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || recall("lf-subscribed")) return;
+  // Every click on a download link asks first, including ctrl/cmd/shift and middle clicks, unless this browser
+  // already subscribed. Without JavaScript the link still downloads directly.
+  const ask = (link, e) => {
+    if (recall("lf-subscribed")) return;
     e.preventDefault();
+    chosen = link.href;
     dialog.showModal();
+  };
+  document.querySelectorAll(".dl-link").forEach(link => {
+    link.addEventListener("click", e => ask(link, e));
+    link.addEventListener("auxclick", e => { if (e.button === 1) ask(link, e); });
   });
-  document.getElementById("dl-skip").addEventListener("click", startDownload);
   document.getElementById("dl-close").addEventListener("click", () => dialog.close());
   dialog.addEventListener("click", e => { if (e.target === dialog) dialog.close(); });   // backdrop click
 })();
@@ -469,8 +482,15 @@ tabs.forEach(t => t.addEventListener("click", () => {
   showTab(t.dataset.tab);
   history.replaceState(null, "", "#" + t.dataset.tab);
 }));
-showTab(document.getElementById(location.hash.slice(1))?.classList.contains("tab-panel")
-  ? location.hash.slice(1) : "description");
+function showTabFromHash(scroll) {
+  const id = location.hash.slice(1);
+  if (!document.getElementById(id)?.classList.contains("tab-panel")) return false;
+  showTab(id);
+  if (scroll) document.querySelector(".tabs").scrollIntoView({ behavior: "smooth" });
+  return true;
+}
+if (!showTabFromHash(false)) showTab("description");
+window.addEventListener("hashchange", () => showTabFromHash(true));   // e.g. the "install guide" link
 
 
 // Download counter. Stays "New release" until the combined count is above 0.
@@ -490,15 +510,15 @@ showTab(document.getElementById(location.hash.slice(1))?.classList.contains("tab
   const total = Math.round((await github) + (await curseforge));
   if (total > 0) {
     const el = document.getElementById("downloads");
-    el.innerHTML = "<strong></strong> downloads";
+    el.innerHTML = "<strong></strong> " + (total === 1 ? "download" : "downloads");
     el.firstChild.textContent = total.toLocaleString("en-US");
   }
 })();
 
 // Count clicks on the download button (functions/api/click.js). Best effort: the link works either way.
-document.getElementById("download").addEventListener("click", () => {
+document.querySelectorAll(".dl-link").forEach(link => link.addEventListener("click", () => {
   try { navigator.sendBeacon("/api/click"); } catch (e) {}
-});
+}));
 </script>
 </body>
 </html>

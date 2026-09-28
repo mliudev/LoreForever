@@ -19,7 +19,7 @@ word from `addon/LoreForever/Data`. Regenerating lore can reword them, so rechec
 | --- | --- |
 | Download link and count | The Download button fetches the latest GitHub release zip (`mliudev/LoreForever`). The count adds GitHub release downloads (public API) and CurseForge project `1715510` (`CURSEFORGE_PROJECT_ID` in the `<script>` at the bottom of `public/index.html`). The page shows "New release" until the count is above 0. |
 | Buttondown username (the "Get new features" sign-up) | Set to `mikeliudev` (`BUTTONDOWN_USERNAME` in the same `<script>`). If it is ever emptied, the form shows "Sign-ups open soon" and can't be submitted. Sign-ups are tagged `landing-page`. In Buttondown, keep double opt-in (confirmation email) on. |
-| Twitch and Discord links | `data-todo="twitch"` / `data-todo="discord"` in `public/index.html` (Discord is in two places: the sidebar and the "Levels 30 to 60" card) |
+| Twitch and Discord links | Set: twitch.tv/jiuthaimike and discord.gg/fQWrAscHbu (sidebar and the "Vote on Discord" button) |
 
 The download button goes to https://www.curseforge.com/wow/addons/lore-forever, which won't work until the
 CurseForge project is created.

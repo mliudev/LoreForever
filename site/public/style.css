@@ -175,7 +175,7 @@ dd { margin: 0; }
 .feature-text { max-width: 760px; }
 .feature-text li { margin-bottom: 6px; }
 .feature-note { color: var(--muted); margin-bottom: 0; }
-.samples { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 14px; }
+.samples { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 14px; align-items: start; }
 .audio-sample {
   margin: 0; padding: 14px 16px; background: var(--panel); border: 1px solid var(--panel-line); border-radius: 5px;
   box-shadow: inset 0 0 0 1px #000, 0 4px 14px rgba(0, 0, 0, 0.5);
@@ -186,7 +186,7 @@ dd { margin: 0; }
 .audio-sample audio { width: 100%; }
 .audio-sample details { margin-top: 8px; font-size: 0.9rem; }
 .audio-sample summary { cursor: pointer; color: var(--link); }
-.audio-sample details p { color: var(--muted); max-height: 220px; overflow-y: auto; }
+.audio-sample details p { color: var(--text); margin: 8px 0 0; line-height: 1.6; }
 
 .feature-ask { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 28px; align-items: start; }
 @media (max-width: 860px) { .feature-ask { grid-template-columns: minmax(0, 1fr); } }
@@ -237,3 +237,12 @@ dd { margin: 0; }
   font-size: 0.9rem; text-decoration: underline; cursor: pointer;
 }
 .dl-skip:hover { color: var(--text); }
+
+/* Three-step install hint under the Download button */
+.quick-install {
+  margin: 6px 0 0; padding: 8px 12px 8px 30px; max-width: 320px; font-size: 0.82rem; line-height: 1.5;
+  color: var(--muted); background: #00000066; border: 1px solid var(--line); border-radius: 4px; text-align: left;
+}
+.quick-install li { margin: 2px 0; }
+.quick-install code { font-size: 0.78rem; }
+.quick-install-more { font-size: 0.85rem; }
