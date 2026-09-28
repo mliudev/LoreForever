@@ -35,28 +35,44 @@
 
 <!-- Hero banner, with the Stormwind screenshot as its background. -->
 <section class="hero" style="--hero-img: url('screenshots/01-stormwind-panel.jpg')">
-  <div class="wrap title-bar">
-    <div class="title-text">
+  <div class="wrap hero-grid">
+    <div class="hero-main">
       <h1>Lore Forever <span class="subtitle">- Zone &amp; Quest Story</span></h1>
       <p class="pitch">Hear the story of where you are, and ask about the people, places and quests around you, right in game.</p>
       <ul class="stats">
         <li>by <strong>Mike</strong></li>
         <li id="downloads"><strong>New release</strong></li>
-        <li>Version <strong>0.2.0</strong></li>
+        <li>Version <strong>0.2.1</strong></li>
         <li>Game <strong>WoW Forever 1.60.1</strong></li>
       </ul>
+      <!-- Downloads: always the latest GitHub release. Don't rename these assets; the links depend on them. -->
+      <div class="dl-row">
+        <a class="btn-download dl-link" id="download" href="https://www.curseforge.com/wow/addons/lore-forever">Get it on CurseForge</a>
+        <div class="dl-alt">
+          <a class="btn-zip dl-link" href="https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever-Setup.exe">or download the Windows installer</a>
+          <a class="btn-zip dl-link" href="https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip">or download the zip</a>
+          <span class="file-note">Free &middot; 48 MB</span>
+        </div>
+      </div>
     </div>
-    <div class="title-actions">
-      <!-- Download: always the latest GitHub release zip. Don't rename the release asset; this link depends on it. -->
-      <a class="btn-download dl-link" id="download" href="https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip">Download</a>
-      <span class="file-note">Free &middot; LoreForever.zip &middot; 48 MB &middot; CurseForge app support coming soon</span>
-      <ol class="quick-install">
-        <li>Unzip into <code>World of Warcraft\_classic_beta_\Interface\AddOns</code></li>
-        <li>Check you have <code>AddOns\LoreForever\LoreForever.toc</code></li>
-        <li>Restart WoW and type <code>/lore</code></li>
+
+    <aside class="install-card" aria-labelledby="install-card-title">
+      <h2 id="install-card-title">Install in 3 steps</h2>
+      <ol class="steps">
+        <li><strong>Install it with the CurseForge app.</strong> Search for Lore Forever and click Install. The app
+          keeps it updated.</li>
+        <li><strong>Restart WoW</strong>, or type <code>/reload</code> if you're already in game.</li>
+        <li><strong>Type <code>/lore</code></strong> or press the key you pick on first login.</li>
       </ol>
-      <a class="quick-install-more" href="#install">Step-by-step install guide</a>
-    </div>
+      <p class="install-note">No CurseForge app? The signed <strong>Windows installer</strong> finds your WoW folder
+        for you. If Windows shows a SmartScreen prompt, click <strong>More info</strong>, then <strong>Run anyway</strong>.</p>
+      <details class="zip-steps">
+        <summary>Using the zip instead?</summary>
+        <p>Unzip into <code>World of Warcraft\_classic_beta_\Interface\AddOns</code> so you have
+          <code>AddOns\LoreForever\LoreForever.toc</code>, then restart WoW.</p>
+      </details>
+      <a class="install-more" href="#install">Full install guide</a>
+    </aside>
   </div>
 </section>
 
@@ -308,24 +324,33 @@
 
       <section class="tab-panel" id="install" role="tabpanel">
         <h2>Install</h2>
-        <h3>Install the zip</h3>
+        <h3>With the CurseForge app (easiest)</h3>
+        <p>Lore Forever is on <a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge</a>, so the app can install it and keep it updated:</p>
         <ol>
-          <li>Click <strong>Download</strong> at the top of this page to get <code>LoreForever.zip</code>.</li>
+          <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
+            add your <code>_classic_beta_</code> folder, or use the installer or zip below.</li>
+          <li>Search for <strong>Lore Forever</strong> and click <strong>Install</strong>.</li>
+          <li>Start the game. On the character screen, open <strong>AddOns</strong> and make sure Lore Forever is ticked.</li>
+        </ol>
+        <h3>With the Windows installer</h3>
+        <ol>
+          <li>Click <strong>or download the Windows installer</strong> at the top of this page and run <code>LoreForever-Setup.exe</code>.
+            It's signed; Windows shows the publisher as Mei Liu.</li>
+          <li>If Windows shows a SmartScreen prompt, click <strong>More info</strong>, then <strong>Run anyway</strong>.
+            (New publishers can see this for a few weeks.)</li>
+          <li>It finds your World of Warcraft folder and installs into <code>_classic_beta_\Interface\AddOns</code>.
+            No admin rights needed. To update later, run a newer installer.</li>
+          <li>Restart WoW (or <code>/reload</code> if you're already in game).</li>
+        </ol>
+        <h3>With the zip</h3>
+        <ol>
+          <li>Click <strong>or download the zip</strong> at the top of this page to get <code>LoreForever.zip</code>.</li>
           <li>Open your WoW folder, then <code>_classic_beta_\Interface\AddOns</code> (create <code>Interface\AddOns</code>
             if it isn't there). On Windows the default is
             <code>C:\Program Files (x86)\World of Warcraft\_classic_beta_\Interface\AddOns</code>.</li>
           <li>Unzip so you end up with <code>...\AddOns\LoreForever\LoreForever.toc</code>. A doubled folder like
             <code>AddOns\LoreForever\LoreForever\</code> won't load.</li>
           <li>Restart WoW (or <code>/reload</code> if you're already in game).</li>
-        </ol>
-        <h3>With the CurseForge app (coming soon)</h3>
-        <p>Lore Forever is waiting for approval on CurseForge. Once it's live there, you'll be able to install and
-          update it from the CurseForge app:</p>
-        <ol>
-          <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
-            add your <code>_classic_beta_</code> folder, or use the zip steps above.</li>
-          <li>Search for <strong>Lore Forever</strong> and click <strong>Install</strong>.</li>
-          <li>Start the game. On the character screen, open <strong>AddOns</strong> and make sure Lore Forever is ticked.</li>
         </ol>
 
         <p>On your first login it asks you to pick a key for the panel. You can change it later with <code>/lore key</code>.</p>
@@ -349,6 +374,10 @@
 
       <section class="tab-panel" id="changelog" role="tabpanel">
         <h2>Changelog</h2>
+        <h3>0.2.1</h3>
+        <ul>
+          <li>The Windows installer now lists its publisher as Mei Liu, matching its code signature. The add-on itself is unchanged.</li>
+        </ul>
         <h3>0.2.0</h3>
         <ul>
           <li>Every zone, city and dungeon up to level 30, including Zephras Isle, the Hall of Thanes and the
@@ -383,7 +412,7 @@
         <h3>Links</h3>
         <ul class="links">
           <li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li>
-          <li>CurseForge: coming soon</li>
+          <li><a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge page</a></li>
                     <li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li>
           <li><a href="https://discord.gg/fQWrAscHbu">Discord</a></li>
         </ul>
@@ -501,7 +530,8 @@ window.addEventListener("hashchange", () => showTabFromHash(true));   // e.g. th
   };
   const github = fetch("https://api.github.com/repos/" + GITHUB_REPO + "/releases")
     .then(r => r.ok ? r.json() : [])
-    .then(rels => rels.reduce((n, rel) => n + (rel.assets || []).reduce((a, x) => a + (x.download_count || 0), 0), 0))
+    .then(rels => rels.reduce((n, rel) => n + (rel.assets || []).filter(x => /\.(zip|exe)$/i.test(x.name))
+      .reduce((a, x) => a + (x.download_count || 0), 0), 0))
     .catch(() => 0);
   const curseforge = CURSEFORGE_PROJECT_ID
     ? fetch("https://img.shields.io/curseforge/dt/" + CURSEFORGE_PROJECT_ID + ".json")
