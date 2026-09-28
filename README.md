@@ -10,6 +10,19 @@ Narrated intros for every starting zone, capital and early dungeon, and answers 
 
 ## Install
 
+**Quick install (Windows):** press the Windows key, type `powershell`, press Enter, then paste this and press
+Enter:
+
+```powershell
+irm https://loreforever.mliu.io/install.ps1 | iex
+```
+
+It finds your World of Warcraft folder, downloads the latest release from this repo and puts it in
+`_classic_beta_\Interface\AddOns`. Run it again any time to update. The script is
+[site/public/install.ps1](site/public/install.ps1) if you'd like to read it first.
+
+**By hand:**
+
 1. Download [LoreForever.zip](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip).
 2. Open your WoW folder, then `_classic_beta_\Interface\AddOns` (create `Interface\AddOns` if it isn't there).
 3. Unzip it there, so you end up with `...\AddOns\LoreForever\LoreForever.toc`. Watch out for a doubled folder

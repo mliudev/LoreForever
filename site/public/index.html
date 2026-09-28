@@ -47,10 +47,9 @@
       </ul>
     </div>
     <div class="title-actions">
-      <!-- Download link: the CurseForge project page. It won't work until the project is created there. -->
-      <a class="btn-download" id="download"
-         href="https://www.curseforge.com/wow/addons/lore-forever">Download on CurseForge</a>
-      <span class="file-note">Free &middot; no account needed</span>
+      <!-- Download link: always the latest GitHub release zip. CurseForge is a second option once it's approved. -->
+      <a class="btn-download" id="download" href="https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip">Download</a>
+      <span class="file-note">Free &middot; LoreForever.zip &middot; 51 MB</span>
     </div>
   </div>
 </section>
@@ -304,7 +303,7 @@
 
       <section class="tab-panel" id="install" role="tabpanel">
         <h2>Install</h2>
-        <h3>With the CurseForge app</h3>
+        <h3>With the CurseForge app (once it's approved there)</h3>
         <ol>
           <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
             add your <code>_classic_beta_</code> folder, or use the manual steps below.</li>
@@ -313,7 +312,7 @@
         </ol>
         <h3>By hand</h3>
         <ol>
-          <li>Download the Lore Forever zip from CurseForge.</li>
+          <li>Click <strong>Download</strong> at the top of this page to get <code>LoreForever.zip</code>.</li>
           <li>Open your WoW folder, then <code>_classic_beta_\Interface\AddOns</code> (create <code>Interface\AddOns</code>
             if it isn't there). On Windows the default is
             <code>C:\Program Files (x86)\World of Warcraft\_classic_beta_\Interface\AddOns</code>.</li>
@@ -375,7 +374,8 @@
       <div class="box">
         <h3>Links</h3>
         <ul class="links">
-          <li><a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge page</a></li>
+          <li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li>
+          <li><a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge page</a> (awaiting approval)</li>
           <!-- TODO: real Twitch and Discord links -->
           <li><a href="#" data-todo="twitch">Twitch</a></li>
           <li><a href="#" data-todo="discord">Discord</a></li>
@@ -393,7 +393,7 @@
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>
 
-<!-- Shown when someone clicks Download: an optional email sign-up, then on to CurseForge either way. -->
+<!-- Shown when someone clicks Download: an optional email sign-up, then the download starts either way. -->
 <dialog class="dl-dialog" id="dl-dialog" aria-labelledby="dl-title">
   <button type="button" class="dl-close" id="dl-close" aria-label="Close">&times;</button>
   <h2 id="dl-title">Get new features?</h2>
@@ -409,8 +409,9 @@
 </dialog>
 
 <script>
-// Public download count from CurseForge, through shields.io (no key needed).
-// Fill in the numeric project ID once the CurseForge project exists (shown on the project page, "About Project").
+// Download count: GitHub release downloads (exact, from the public API, no key) plus CurseForge's total
+// (through shields.io) once the project there is approved and counting.
+const GITHUB_REPO = "mliudev/LoreForever";
 const CURSEFORGE_PROJECT_ID = "1715510";
 
 // Buttondown newsletter username (buttondown.com/<username>). Empty keeps the sign-up form disabled.
@@ -439,20 +440,20 @@ if (BUTTONDOWN_USERNAME) {
   document.getElementById("signup-note").hidden = false;
 }
 
-// Download button: ask for an email first (skippable), then go to CurseForge. Skipped when sign-ups are
+// Download button: ask for an email first (skippable), then start the download. Skipped when sign-ups are
 // off, when this browser already subscribed, or for ctrl/cmd/middle clicks that open a new tab.
 (function setUpDownloadDialog() {
   const link = document.getElementById("download");
   const dialog = document.getElementById("dl-dialog");
   if (!BUTTONDOWN_USERNAME || typeof dialog.showModal !== "function") return;
-  const goToCurseForge = () => { location.href = link.href; };
-  wireSignup(document.getElementById("dl-signup"), goToCurseForge);
+  const startDownload = () => { dialog.close(); location.href = link.href; };
+  wireSignup(document.getElementById("dl-signup"), startDownload);
   link.addEventListener("click", e => {
     if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || recall("lf-subscribed")) return;
     e.preventDefault();
     dialog.showModal();
   });
-  document.getElementById("dl-skip").addEventListener("click", goToCurseForge);
+  document.getElementById("dl-skip").addEventListener("click", startDownload);
   document.getElementById("dl-close").addEventListener("click", () => dialog.close());
   dialog.addEventListener("click", e => { if (e.target === dialog) dialog.close(); });   // backdrop click
 })();
@@ -472,20 +473,27 @@ showTab(document.getElementById(location.hash.slice(1))?.classList.contains("tab
   ? location.hash.slice(1) : "description");
 
 
-// Download counter.
-if (CURSEFORGE_PROJECT_ID) {
-  const el = document.getElementById("downloads");
-  const badge = "https://img.shields.io/curseforge/dt/" + CURSEFORGE_PROJECT_ID;
-  // Keep "New release" until there's a real count (the badge says "0" at first, or an error word).
-  fetch(badge + ".json")
-    .then(r => r.json())
-    .then(d => {
-      if (!/^[1-9][\d.,]*[kKmM]?$/.test(d.message || "")) return;
-      el.innerHTML = "<strong></strong> downloads";
-      el.firstChild.textContent = d.message;
-    })
-    .catch(() => {});
-}
+// Download counter. Stays "New release" until the combined count is above 0.
+(async function showDownloadCount() {
+  const toNumber = m => {   // shields.io messages look like "0", "950", "1.2k" or "3M"
+    const x = /^([\d.]+)([kKmM]?)$/.exec(m || "");
+    return x ? parseFloat(x[1]) * ({ k: 1e3, K: 1e3, m: 1e6, M: 1e6 }[x[2]] || 1) : 0;
+  };
+  const github = fetch("https://api.github.com/repos/" + GITHUB_REPO + "/releases")
+    .then(r => r.ok ? r.json() : [])
+    .then(rels => rels.reduce((n, rel) => n + (rel.assets || []).reduce((a, x) => a + (x.download_count || 0), 0), 0))
+    .catch(() => 0);
+  const curseforge = CURSEFORGE_PROJECT_ID
+    ? fetch("https://img.shields.io/curseforge/dt/" + CURSEFORGE_PROJECT_ID + ".json")
+        .then(r => r.json()).then(d => toNumber(d.message)).catch(() => 0)
+    : Promise.resolve(0);
+  const total = Math.round((await github) + (await curseforge));
+  if (total > 0) {
+    const el = document.getElementById("downloads");
+    el.innerHTML = "<strong></strong> downloads";
+    el.firstChild.textContent = total.toLocaleString("en-US");
+  }
+})();
 
 // Count clicks on the download button (functions/api/click.js). Best effort: the link works either way.
 document.getElementById("download").addEventListener("click", () => {
