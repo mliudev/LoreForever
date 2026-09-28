@@ -3,14 +3,20 @@
 The story behind the zones, quests, people and items around you, in game, for **World of Warcraft: Forever**.
 Narrated intros for every starting zone, capital and early dungeon, and answers to whatever you ask.
 
-**[Download the latest version](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip)**
-· [Website](https://loreforever.mliu.io) · [CurseForge](https://www.curseforge.com/wow/addons/lore-forever)
+**[Download the installer (Windows)](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever-Setup.exe)**
+· [Zip](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip) · [Website](https://loreforever.mliu.io) · [CurseForge](https://www.curseforge.com/wow/addons/lore-forever)
 
 ![Lore Forever in Stormwind](site/public/screenshots/01-stormwind-panel.jpg)
 
 ## Install
 
-**Quick install (Windows):** press the Windows key, type `powershell`, press Enter, then paste this and press
+**Installer (Windows):** download
+[LoreForever-Setup.exe](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever-Setup.exe)
+and run it. It finds your World of Warcraft folder and puts the add-on in `_classic_beta_\Interface\AddOns`. No
+admin rights needed. To update, run the newest installer. Windows may show "Windows protected your PC" because the
+installer isn't signed yet: click **More info**, then **Run anyway**.
+
+**One command (Windows):** press the Windows key, type `powershell`, press Enter, then paste this and press
 Enter:
 
 ```powershell
@@ -70,6 +76,8 @@ plus place lore for the rest of the world: about 3,460 entries, 43 narrated intr
 | `data/overrides/`, `data/spoilers.json` | Hand-made corrections and the list of answers held behind a spoiler warning. |
 | `site/` | The website ([loreforever.mliu.io](https://loreforever.mliu.io)). |
 | `scripts/build-release.sh` | Builds the download zip into `dist/`. |
+| `release/installer/` | The Windows installer (Inno Setup). |
+| `.github/workflows/release.yml` | On a version tag, builds the zip and the installer and publishes the release. |
 | `scripts/install-addon.sh` | Copies the add-on into your Forever install from WSL (set `WOW_DIR` if it isn't found). |
 
 The data files are built with a separate tool that isn't part of this repo, so fixes to lore text are best sent
