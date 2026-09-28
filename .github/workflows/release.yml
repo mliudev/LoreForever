@@ -46,6 +46,12 @@ jobs:
   installer:
     needs: zip
     runs-on: windows-latest
+    # Signing logs in to Azure with OIDC. The federated credential trusts this environment
+    # (subject repo:mliudev/LoreForever:environment:release), so only jobs in it can sign.
+    environment: release
+    permissions:
+      id-token: write
+      contents: read
     steps:
       - uses: actions/checkout@v4
         with:
@@ -65,6 +71,34 @@ jobs:
           & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /Q "/DAppVersion=${{ needs.zip.outputs.version }}" `
             "/DSourceDir=$PWD\dist\stage" "/DOutputDir=$PWD\dist" release\installer\LoreForever.iss
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
+      # Code signing (Azure Artifact Signing). Skipped until SIGNING_PROFILE is set (after identity validation), so unsigned
+      # releases keep working: AZURE_CLIENT_ID, AZURE_TENANT_ID, AZURE_SUBSCRIPTION_ID, SIGNING_ENDPOINT,
+      # SIGNING_ACCOUNT, SIGNING_PROFILE.
+      - name: Azure login
+        if: vars.SIGNING_PROFILE != ''
+        uses: azure/login@v3
+        with:
+          client-id: ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id: ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+      - name: Sign the installer
+        if: vars.SIGNING_PROFILE != ''
+        uses: azure/artifact-signing-action@v2
+        with:
+          endpoint: ${{ vars.SIGNING_ENDPOINT }}
+          signing-account-name: ${{ vars.SIGNING_ACCOUNT }}
+          certificate-profile-name: ${{ vars.SIGNING_PROFILE }}
+          files: ${{ github.workspace }}\dist\LoreForever-Setup.exe
+          file-digest: SHA256
+          timestamp-rfc3161: http://timestamp.acs.microsoft.com
+          timestamp-digest: SHA256
+      - name: Check the signature
+        if: vars.SIGNING_PROFILE != ''
+        shell: pwsh
+        run: |
+          $sig = Get-AuthenticodeSignature dist\LoreForever-Setup.exe
+          "status: $($sig.Status); signer: $($sig.SignerCertificate.Subject)"
+          if ($sig.Status -ne 'Valid') { exit 1 }
       - name: Smoke test (silent install into a fake WoW folder)
         shell: pwsh
         run: |
