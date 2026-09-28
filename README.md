@@ -13,8 +13,8 @@ Narrated intros for every starting zone, capital and early dungeon, and answers 
 **Installer (Windows):** download
 [LoreForever-Setup.exe](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever-Setup.exe)
 and run it. It finds your World of Warcraft folder and puts the add-on in `_classic_beta_\Interface\AddOns`. No
-admin rights needed. To update, run the newest installer. Windows may show "Windows protected your PC" because the
-installer isn't signed yet: click **More info**, then **Run anyway**.
+admin rights needed. To update, run the newest installer. The installer is code-signed (publisher: Mei Liu). If
+Windows still shows "Windows protected your PC", click **More info**, then **Run anyway**.
 
 **One command (Windows):** press the Windows key, type `powershell`, press Enter, then paste this and press
 Enter:
