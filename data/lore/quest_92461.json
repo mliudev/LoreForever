@@ -1,0 +1,111 @@
+{
+ "key": "quest:92461",
+ "type": "quest",
+ "name": "Harmony in Balance",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92461
+  ],
+  "level": "1",
+  "faction": null,
+  "start": "Rorian the Dayseeker",
+  "end": "",
+  "previous": "Coming of Age (Forever)",
+  "next": "Elemental Unrest (quest), class quest",
+  "wiki": "Harmony in Balance",
+  "chain": []
+ },
+ "summary": "Harmony in Balance is an early rite of duty given to fledgling adventurers on Zephras Isle by Rorian the Dayseeker. It tasks the player with culling juvenile vuldren in Thendal Grove to preserve the natural equilibrium of the island. Through this mundane necessity, novices learn how sensitive local beasts are to the shifting magical currents around them.",
+ "sections": [
+  {
+   "title": "Tending the Grove",
+   "body": "Even in an era defined by uncertain futures and mounting peril, daily survival on Zephras Isle requires humble diligence. In Thendal Grove, the local vuldren population has grown at an unsustainable rate, threatening the delicate environmental harmony that sustains the island's wildlife. Rorian the Dayseeker assigns young protectors the sober task of thinning their numbers to avert widespread ecological strain.",
+   "spoiler": 0
+  },
+  {
+   "title": "Winds of Unrest",
+   "body": "While culling wild beasts may appear to be ordinary gamekeeping, the vuldren's surge reflects deeper concerns. Though typically docile creatures, the wildlife of Zephras is attuned to the island's atmosphere and reacts sharply when the magic carried on the winds falls out of balance. Correcting imbalances early prevents docile creatures from degenerating into unpredictable and dangerous pests.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do the vuldren need to be culled?",
+   "aliases": [
+    "why kill vuldren",
+    "vuldren overpopulation",
+    "thendal grove vuldren"
+   ],
+   "answer": "The vuldren population in Thendal Grove has surged beyond sustainable numbers. If left unchecked, they risk exhausting local resources and disrupting the delicate ecological balance that sustains the grove's other inhabitants."
+  },
+  {
+   "q": "Who is Rorian the Dayseeker?",
+   "aliases": [
+    "rorian lore",
+    "who is rorian"
+   ],
+   "answer": "Rorian the Dayseeker is an elder guide and mentor on Zephras Isle. He oversees the training of young adventurers, reminding them that protecting their home requires attentiveness to both grand crises and everyday ecological stewardship."
+  },
+  {
+   "q": "What makes the vuldren act up?",
+   "aliases": [
+    "why are vuldren aggressive",
+    "vuldren behavior"
+   ],
+   "answer": "Vuldren are normally docile creatures, but the native fauna of Zephras can sense when the ambient magic woven into the island's winds is drifting out of balance, prompting sudden shifts in behavior."
+  },
+  {
+   "q": "Where does this task take place?",
+   "aliases": [
+    "thendal grove location",
+    "where is thendal grove"
+   ],
+   "answer": "The task is carried out in Thendal Grove, an area lying just east and southeast of the settlement on Zephras Isle."
+  },
+  {
+   "q": "What lesson is Rorian trying to teach?",
+   "aliases": [
+    "rorian lesson",
+    "meaning of harmony in balance"
+   ],
+   "answer": "Rorian teaches that protecting one's homeland often demands difficult, unsavory measures. Taking a firm guiding hand to restore natural order is an essential responsibility for any burgeoning guardian."
+  },
+  {
+   "q": "What should be done while hunting the vuldren?",
+   "aliases": [
+    "other quests nearby",
+    "infestation investigation"
+   ],
+   "answer": "Elatrell Featherlight nearby asks adventurers to look into a swarm of pesky cirrusflies, making it practical to investigate the insect infestation in the grove at the same time."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The mandate to cull overpopulated vuldren resonates strongly with druidic philosophy, where culling is sometimes required to preserve the larger health of the ecosystem."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Managing herd numbers and observing how native beasts respond to environmental disturbances is foundational training for any tracker in Thendal Grove."
+  }
+ ],
+ "keywords": [
+  "harmony in balance",
+  "juvenile vuldren",
+  "rorian the dayseeker",
+  "thendal grove",
+  "vuldren",
+  "zephras",
+  "zephras isle"
+ ],
+ "related": [
+  "npc:rorian-the-dayseeker",
+  "zone:zephras",
+  "quest:92462"
+ ],
+ "attribution": [
+  "Harmony in Balance"
+ ]
+}

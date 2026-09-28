@@ -1,0 +1,123 @@
+{
+ "key": "quest:407",
+ "type": "quest",
+ "name": "Fields of Grief",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   407
+  ],
+  "level": "7",
+  "faction": "Horde",
+  "start": "Apothecary Johaan",
+  "end": "Captured Scarlet Zealot",
+  "previous": "Fields of Grief (Classic)",
+  "next": null,
+  "wiki": "Fields of Grief (2)",
+  "chain": [
+   "Fields of Grief (Classic)",
+   "Fields of Grief (2)"
+  ]
+ },
+ "summary": "Fields of Grief concludes Apothecary Johaan's experiment to weaponize ordinary pumpkins gathered from Solliden Farmstead. Having infused the crop with his latest alchemical concotion, Johaan dispatches you to feed the laced vegetable to a captive Scarlet Crusader languishing in Brill.",
+ "sections": [
+  {
+   "title": "A Weapon of Ingenuity",
+   "body": "Apothecary Johaan of the Royal Apothecary Society believes the Forsaken must exploit every tactical advantage to fend off the Scourge from the north and human incursions from the south. Rather than relying solely on raw blade-work or dark sorcery, the Society seeks to harness ordinary staples of the land. By tainting the pumpkins recovered from the mortal farmers of Solliden Farmstead, Johaan intends to prove that even common produce can be transformed into an instrument of death on behalf of the Dark Lady.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cellar Test",
+   "body": "The test subject awaits beneath the floorboards of the Gallows' End Tavern in Brill. Chained and starved, the captured Scarlet Zealot greets Forsaken callers with typical fanatic defiance, invoking the Holy Light to purge the undead. Hunger quickly breaks the crusader's resolve, however. Mistaking the tainted pumpkin for genuine relief, the captive devours it eagerly, only to rapidly deform into a rotting ghoul before collapsing lifeless in the dirt.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Apothecary Johaan use a pumpkin for his poison?",
+   "aliases": [
+    "why a pumpkin",
+    "why poison pumpkin",
+    "laced pumpkin lore"
+   ],
+   "answer": "Johaan wants to demonstrate that mundane crops can be turned into subtle, effective weapons against the living. By lacing everyday produce from nearby human farms with alchemical mixtures, the Royal Apothecary Society tests delivery methods that prey on the basic survival needs of mortal foes."
+  },
+  {
+   "q": "Who is the prisoner in the tavern cellar?",
+   "aliases": [
+    "who is captured zealot",
+    "zealot in gallows end",
+    "brill cellar prisoner"
+   ],
+   "answer": "The prisoner is a Captured Scarlet Zealot, a fanatic of the Scarlet Crusade captured by Forsaken forces in Tirisfal Glades. Weakened by starvation and isolation, the zealot clings to religious fervor until presented with food."
+  },
+  {
+   "q": "What happens to the Scarlet Zealot after eating the pumpkin?",
+   "aliases": [
+    "what happens to zealot",
+    "zealot transformation",
+    "does zealot turn into ghoul"
+   ],
+   "answer": "Upon consuming the laced pumpkin, the zealot mutates rapidly into a ravenous ghoul, wanders aimlessly across the cellar floor, and collapses dead shortly thereafter, proving the fatal potency of Johaan's formulation."
+  },
+  {
+   "q": "Where is the Gallows' End Tavern cellar?",
+   "aliases": [
+    "how to find cellar",
+    "where is zealot located",
+    "gallows end cellar entrance"
+   ],
+   "answer": "The cellar is located directly beneath the Gallows' End Tavern in Brill. A ramp behind the front counter leads down into the holding area where Forsaken guards keep prisoners."
+  },
+  {
+   "q": "What is the Royal Apothecary Society trying to achieve here?",
+   "aliases": [
+    "apothecary society goal",
+    "why test plague",
+    "royal apothecary society tirisfal"
+   ],
+   "answer": "The Society works under Lady Sylvanas Windrunner to invent biological and alchemical agents capable of destroying both the Scourge and mortal threats like the Scarlet Crusade. Small-scale experiments on captives in Brill serve as trial runs for these concoctions."
+  },
+  {
+   "q": "Why is the Scarlet Crusade active in Tirisfal Glades?",
+   "aliases": [
+    "scarlet crusade tirisfal",
+    "why are scarlets here",
+    "crusade presence brill"
+   ],
+   "answer": "The Scarlet Crusade considers all undead abominations that must be exterminated, making no distinction between the mindless Scourge and the free-willed Forsaken. They maintain camps and garrisons across the former kingdom of Lordaeron to reclaim the land by holy fire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, this experiment showcases the ruthless pragmatism required to survive surrounded by mortal zealots to the south and the Lich King's armies to the north."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Royal Apothecary Society's biochemical research often unsettles the Forsaken's new allies, yet it remains central to securing Tirisfal Glades for the Horde."
+  }
+ ],
+ "keywords": [
+  "apothecary johaan",
+  "brill",
+  "captured scarlet zealot",
+  "fields of grief",
+  "gallows end tavern",
+  "laced pumpkin",
+  "royal apothecary society",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:apothecary-johaan",
+  "npc:captured-scarlet-zealot",
+  "quest:365",
+  "topic:scarlet-crusade",
+  "zone:tirisfal",
+  "topic:light"
+ ],
+ "attribution": [
+  "Fields of Grief (2)"
+ ]
+}

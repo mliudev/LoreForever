@@ -1,0 +1,85 @@
+{
+ "key": "npc:innkeeper-firebrew",
+ "type": "npc",
+ "name": "Innkeeper Firebrew",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Innkeeper Firebrew",
+  "refs": 1
+ },
+ "summary": "Innkeeper Firebrew manages the Stonefire Tavern in the bustling Commons of Ironforge. A genial host to weary mountaineers and visiting dignitaries alike, he serves hearty dwarven staples and keeps travelers rested beneath the mountain.",
+ "sections": [
+  {
+   "title": "Keeper of the Stonefire",
+   "body": "Situated in the central ring of the Commons, Innkeeper Firebrew's establishment is often the first sanctuary encountered by travelers entering through the Great Gates of Ironforge. Behind a counter laden with flagons of ale, skins of stout, and roasted joints of meat, Firebrew offers hospitality to adventurers bound for the snowy passes of Dun Morogh or deeper into the mountain kingdom. His tavern remains a lively crossroad where miners, riflemen, and emissaries gather to escape the drafty tunnels and exchange tales around the hearth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Innkeeper Firebrew?",
+   "aliases": [
+    "firebrew location",
+    "where is innkeeper firebrew",
+    "ironforge tavern keeper"
+   ],
+   "answer": "Innkeeper Firebrew is found inside the Stonefire Tavern, located along the southern edge of the Commons in Ironforge."
+  },
+  {
+   "q": "What kind of goods does Firebrew sell?",
+   "aliases": [
+    "what does firebrew sell",
+    "firebrew drinks",
+    "stonefire tavern food"
+   ],
+   "answer": "He offers standard innkeeper provisions, specializing in robust dwarven rations. Travelers can purchase drinks ranging from local Dwarven Stout and Mead to imported vintages like Dalaran Noir, alongside meats and hearty meals suited for long journeys."
+  },
+  {
+   "q": "Is Firebrew part of any dwarven brewing family?",
+   "aliases": [
+    "firebrew family",
+    "who is firebrew related to"
+   ],
+   "answer": "Bearing the surname Firebrew, he shares his lineage with several notable dwarven brewers and mountaineers across the Eastern Kingdoms, including Flynn and Beathan Firebrew."
+  },
+  {
+   "q": "What services does he provide to travelers?",
+   "aliases": [
+    "can i bind hearthstone here",
+    "ironforge hearthstone inn"
+   ],
+   "answer": "As a tavern keeper, Firebrew allows travelers of the Alliance to bind their hearthstones to the Stonefire Tavern and provides a warm bed to rest and recover beneath the mountain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves returning from patrols across Khaz Modan, Firebrew's tavern offers the comforting warmth of home and a reliable mug of dwarven stout."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "As the primary innkeeper near the front gates, Firebrew provides foreign Alliance travelers a central, safe haven to rest when visiting King Magni Bronzebeard's capital."
+  }
+ ],
+ "keywords": [
+  "commons",
+  "dwarf",
+  "firebrew",
+  "hearthstone",
+  "innkeeper",
+  "ironforge",
+  "stonefire tavern"
+ ],
+ "related": [
+  "subzone:stonefire-tavern",
+  "subzone:commons",
+  "zone:ironforge",
+  "topic:dwarf",
+  "topic:alliance",
+  "quest:8353"
+ ],
+ "attribution": [
+  "Innkeeper Firebrew"
+ ]
+}

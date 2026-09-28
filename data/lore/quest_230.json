@@ -1,0 +1,111 @@
+{
+ "key": "quest:230",
+ "type": "quest",
+ "name": "Sven's Camp",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   230
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Mound of loose dirt",
+  "end": "Sven Yorgen",
+  "previous": "Sven's Revenge",
+  "next": "The Shadowy Figure",
+  "wiki": "Sven's Camp",
+  "chain": []
+ },
+ "summary": "Sven's Camp is an Alliance quest in Duskwood that uncovers a crucial clue regarding the tragedy at the Yorgen homestead. By unearthing a buried, untitled journal from a mound of loose dirt on the abandoned farm, adventurers piece together who witnessed the slaughter of Sven Yorgen's family.",
+ "sections": [
+  {
+   "title": "A Clue in the Dirt",
+   "body": "Sven Yorgen was driven from his home by dark riders, returning only to find his family murdered and his farm in ruins. Consumed by grief and vengeance, he sent allies to search the wreckage of the homestead. Hidden beneath a mound of freshly turned earth, a small, dirt-stained book lay buried, abandoned in the chaos.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Silent Witness",
+   "body": "When brought to Sven at his camp in the western hills, the book reveals a chilling detail. It proves that a shadowy figure had watched the horrific massacre of his family take place. Rather than granting Sven peace, the journal turns his grief toward finding this unknown onlooker and demanding answers.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the book found in the mound of dirt?",
+   "aliases": [
+    "what book is this",
+    "book from svens farm",
+    "what did i dig up"
+   ],
+   "answer": "It is an untitled, dirt-stained journal buried at the Yorgen farm. Its entries prove that an unidentified onlooker watched the massacre of Sven Yorgen's family."
+  },
+  {
+   "q": "Where does this quest lead next?",
+   "aliases": [
+    "what comes next",
+    "next quest after svens camp",
+    "who is the shadowy figure"
+   ],
+   "answer": "Delivering the book to Sven Yorgen leads directly into the quest 'The Shadowy Figure', setting off a search for the mysterious witness."
+  },
+  {
+   "q": "Where is Sven Yorgen located?",
+   "aliases": [
+    "where is sven",
+    "sven yorgen location",
+    "where do i turn this in"
+   ],
+   "answer": "Sven has taken refuge in an encampment in the northwestern hills of Duskwood, brooding over the fate of his family and plotting his retribution."
+  },
+  {
+   "q": "Why was the book buried at the farm?",
+   "aliases": [
+    "why buried",
+    "who hid the book",
+    "mound of loose dirt"
+   ],
+   "answer": "The book was hidden in a mound of loose dirt amidst the ruined homestead, either hastily discarded or concealed by the observer who lingered at the scene of the attack."
+  },
+  {
+   "q": "Who killed Sven's family?",
+   "aliases": [
+    "who attacked the farm",
+    "who killed svens family",
+    "svens family killers"
+   ],
+   "answer": "Mysterious, dark riders rampaged through the farm, slaughtering Sven's kin and turning the once-peaceful homestead into an undead-infested ruin."
+  },
+  {
+   "q": "What faction can complete this quest?",
+   "aliases": [
+    "is this alliance only",
+    "can horde do svens camp"
+   ],
+   "answer": "This quest is exclusive to Alliance players, as Sven Yorgen only seeks aid from the defenders of Duskwood and the Alliance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Investigating the Yorgen massacre is part of the Alliance's broader struggle to comprehend the dark forces encroaching upon Duskwood."
+  }
+ ],
+ "keywords": [
+  "dark riders",
+  "duskwood",
+  "mound of loose dirt",
+  "shadowy figure",
+  "sven yorgen",
+  "yorgen farm"
+ ],
+ "related": [
+  "quest:95",
+  "quest:262",
+  "npc:sven-yorgen",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Sven's Camp"
+ ]
+}

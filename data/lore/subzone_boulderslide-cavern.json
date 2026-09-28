@@ -1,0 +1,88 @@
+{
+ "key": "subzone:boulderslide-cavern",
+ "type": "subzone",
+ "name": "Boulderslide Cavern",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Boulderslide Cavern"
+ },
+ "summary": "Boulderslide Cavern is a subterranean warren tucked at the deepest end of Boulderslide Ravine in the Stonetalon Mountains. It serves as the primary den and excavation site for the local Boulderslide kobolds, who obsessively tunnel in search of glowing mineral formations.",
+ "sections": [
+  {
+   "title": "The Resonite Dig",
+   "body": "The Boulderslide kobolds have burrowed deep into the crags of Stonetalon, establishing Boulderslide Cavern as their stronghold. Unlike ordinary vermin merely seeking shelter, these kobolds mine frantically for resonite, a rare glowing purple crystal embedded throughout the stone. The crystals pulse with lingering earthen magic, driving the creatures into a defensive frenzy against any intruders who approach their dig.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Slumbering Giant",
+   "body": "Deeper inside the caverns, reckless excavation has breached ancient secrets. Embedded in the subterranean rock lies a resonite cask containing Goggeroc, a slumbering earthen from ages past. The kobolds' relentless digging around this mystical relic risks awakening a being imbued with primordial stone magic, posing a sudden danger to the entire ravine.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the kobolds mining here?",
+   "aliases": [
+    "what is resonite",
+    "purple crystals stonetalon",
+    "why are kobolds mining"
+   ],
+   "answer": "The kobolds are mining resonite, a rare purple crystal found embedded in the cavern's rock walls. The mineral hums with faint traces of earthen magic, making it a valuable prize and causing the kobolds to guard their caches fanatically."
+  },
+  {
+   "q": "Who is Goggeroc?",
+   "aliases": [
+    "goggeroc lore",
+    "earthen in boulderslide",
+    "sleeping giant in cave"
+   ],
+   "answer": "Goggeroc is an ancient earthen who lies dormant within a resonite cask deep inside the cavern. The kobolds' excavation around his resting place risks disturbing his centuries-long slumber."
+  },
+  {
+   "q": "Where is Boulderslide Cavern located?",
+   "aliases": [
+    "boulderslide cavern location",
+    "how to find boulderslide cavern",
+    "where is the cave"
+   ],
+   "answer": "The cavern entrance sits at the far end of Boulderslide Ravine, nestled in the craggy mountains of southern Stonetalon Mountains, just northeast of the path toward the Barrens."
+  },
+  {
+   "q": "Why is the Horde interested in this cavern?",
+   "aliases": [
+    "horde quests boulderslide",
+    "why send me to boulderslide"
+   ],
+   "answer": "The Horde keeps watch on the cavern to curb the aggressive kobold infestation spilling into the ravine, and out of interest in the magical properties of the resonite crystals they mine."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The cavern is intensely worked by the Boulderslide clan, who tunnel relentlessly to uncover glowing veins of magical resonite."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The resonite crystals and the slumbering earthen Goggeroc both resonate with primordial earth magic, an echo of the world's ancient stone shapers."
+  }
+ ],
+ "keywords": [
+  "boulderslide",
+  "cavern",
+  "earthen",
+  "goggeroc",
+  "kobold",
+  "resonite",
+  "stonetalon"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "quest:6421",
+  "quest:6481",
+  "topic:kobold"
+ ],
+ "attribution": [
+  "Boulderslide Cavern"
+ ]
+}

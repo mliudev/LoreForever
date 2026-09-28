@@ -1,0 +1,119 @@
+{
+ "key": "quest:98601",
+ "type": "quest",
+ "name": "A Difficult Path",
+ "era": "forever",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   98601
+  ],
+  "level": "1",
+  "faction": "Horde",
+  "start": "Shadow Priest Sarvis",
+  "end": "Aramis Hammerhand",
+  "previous": "The Mindless Ones",
+  "next": null,
+  "wiki": "A Difficult Path (Forever)",
+  "chain": []
+ },
+ "summary": "A Difficult Path marks the formal beginning of a Forsaken paladin's training in Deathknell. After dealing with the mindless undead rising from the crypts, newly awakened champions of the Light are directed to Aramis Hammerhand within the village church to confront the agonizing reality of wielding holy energy in undeath.",
+ "sections": [
+  {
+   "title": "A Reeking Scroll",
+   "body": "When a freshly awakened Forsaken paladin finishes culling the feral undead outside the crypt, Shadow Priest Sarvis hands over an unexpected delivery. The Consecrated Scroll radiates holy energy so intensely that the shadow priest visibly recoils, bluntly asking the bearer to step aside. To a practitioner of shadow and decay, the very aura of the Holy Light feels like an open flame.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Crucible of Holy Fire",
+   "body": "Inside the desecrated church of Deathknell awaits Aramis Hammerhand, the Forsaken paladin trainer. Where other races wield the Light naturally and joyfully, undead who call upon it endure searing, visceral agony. Aramis makes no attempt to soften the blow: channeling holy power through a rotting vessel is sheer torment, but he demands his disciples embrace the pain rather than flinch away, using it as a crucible to temper their newfound resolve.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Shadow Priest Sarvis dislike the scroll?",
+   "aliases": [
+    "sarvis holy scroll",
+    "why is sarvis uneasy",
+    "shadow priest reacts to scroll"
+   ],
+   "answer": "Shadow Priest Sarvis is devoted to shadow magic and the preservation of his fellow undead. The Consecrated Scroll radiates pure holy energy, which is inherently hostile to undead flesh and deeply unsettling to practitioners of the Shadow."
+  },
+  {
+   "q": "Can Forsaken truly wield the Holy Light without dying?",
+   "aliases": [
+    "forsaken paladins lore",
+    "undead using the light",
+    "does the light hurt forsaken"
+   ],
+   "answer": "Forsaken can wield the Light through sheer willpower and faith, but doing so causes them intense internal pain and rekindles deadened nerve endings, making them feel their own decay. It demands immense mental endurance to channel."
+  },
+  {
+   "q": "Who is Aramis Hammerhand?",
+   "aliases": [
+    "who is aramis hammerhand",
+    "deathknell paladin trainer",
+    "aramis role"
+   ],
+   "answer": "Aramis Hammerhand is the paladin trainer stationed in the Deathknell chapel. He guides newly risen Forsaken paladins, teaching them to withstand the agony of wielding the Light in undeath and forge it into an effective weapon."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "where is a difficult path",
+    "quest location",
+    "where is deathknell church"
+   ],
+   "answer": "The quest begins with Shadow Priest Sarvis in the central clearing of Deathknell and concludes just steps away inside the village's ruined chapel, where Aramis Hammerhand resides."
+  },
+  {
+   "q": "Do I have to read the Consecrated Scroll to complete the quest?",
+   "aliases": [
+    "read consecrated scroll",
+    "is scroll reading required",
+    "skip reading scroll"
+   ],
+   "answer": "No, reading the scroll is not strictly required to complete the objective; speaking directly to Aramis Hammerhand inside the church will advance your training."
+  },
+  {
+   "q": "Why is the path called 'difficult'?",
+   "aliases": [
+    "why difficult path",
+    "meaning of quest name"
+   ],
+   "answer": "The name reflects the brutal path of the Forsaken paladin. While other warriors of the Light draw comfort and solace from their faith, an undead paladin must withstand searing holy fire coursing through dead flesh every time they cast a blessing or strike."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This quest represents the foundational trial of the Forsaken paladin, framing holy power not as an easy blessing, but as an agonizing crucible of discipline and endurance."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, calling upon the Light proves that devotion and discipline can survive physical death, even if the magic actively burns the vessel channeling it."
+  }
+ ],
+ "keywords": [
+  "a difficult path",
+  "aramis hammerhand",
+  "consecrated scroll",
+  "deathknell",
+  "forsaken paladin",
+  "holy light",
+  "shadow priest sarvis",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:aramis-hammerhand",
+  "npc:shadow-priest-sarvis",
+  "subzone:deathknell",
+  "zone:tirisfal",
+  "topic:light",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "A Difficult Path (Forever)"
+ ]
+}

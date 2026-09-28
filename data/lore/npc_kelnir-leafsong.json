@@ -1,0 +1,75 @@
+{
+ "key": "npc:kelnir-leafsong",
+ "type": "npc",
+ "name": "Kelnir Leafsong",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": "Kelnir Leafsong",
+  "refs": 2
+ },
+ "summary": "Kelnir Leafsong is a dryad found standing along the thoroughfare east of Bloodvenom Post in Felwood. Like her sisters throughout Kalimdor, she watches over the corrupted woodland, monitoring the blighted surroundings and the nearby encampments that exploit or threaten what remains of nature.",
+ "sections": [
+  {
+   "title": "A Watcher on the Corrupted Road",
+   "body": "Daughters of Cenarius, dryads are intrinsically tied to the well-being of the wild. In Felwood, where demonic taint and rotting ichor choke every copse, their vigilance is tested to its absolute limit. Kelnir Leafsong stands alongside the main trail near the tauren Altsoba Ragetotem, keeping watch over both the polluted wilderness and the encroaching presence of Bloodvenom Post to the west. Her focus lies in curbing the vile slimes and hazards that seep into the soil and directing allies toward safer sanctuaries like Whisperwind Grove.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kelnir Leafsong?",
+   "aliases": [
+    "who is kelnir",
+    "kelnir leafsong lore",
+    "who is the dryad near bloodvenom post"
+   ],
+   "answer": "Kelnir Leafsong is a dryad, one of the nature-bound daughters of the demigod Cenarius. She is stationed along the road in central Felwood to observe the surrounding corruption and assist travelers trying to survive or cleanse the tainted woods."
+  },
+  {
+   "q": "Why is Kelnir stationed so close to Bloodvenom Post?",
+   "aliases": [
+    "why near bloodvenom post",
+    "kelnir location felwood",
+    "what is she watching"
+   ],
+   "answer": "She keeps a close eye on the region around the Forsaken and Horde encampment at Bloodvenom Post, where the festering rot, slime hazards, and local wildlife pose constant danger to the forest's fragile balance."
+  },
+  {
+   "q": "What is Kelnir's connection to Whisperwind Grove?",
+   "aliases": [
+    "kelnir whisperwind grove",
+    "whisperwind connection"
+   ],
+   "answer": "Whisperwind Grove serves as a central night elf haven and sanctuary for natural guardians in northern Felwood. Kelnir acts as a roadside contact who guides wanderers toward the grove away from the tainted lowlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a daughter of Cenarius, Kelnir embodies the sacred kinship druids hold with the wild, striving to contain the vile slimes and blighted corruption choking Felwood's roots."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For night elves traveling the blighted roads of Felwood, Kelnir offers a familiar, reassuring ally dedicated to guarding the woods and directing travelers toward Whisperwind Grove."
+  }
+ ],
+ "keywords": [
+  "altsoba ragetotem",
+  "bloodvenom post",
+  "cenarius daughter",
+  "dryad",
+  "felwood",
+  "kelnir leafsong",
+  "whisperwind grove"
+ ],
+ "related": [
+  "zone:felwood",
+  "subzone:bloodvenom-post",
+  "subzone:whisperwind-grove",
+  "npc:altsoba-ragetotem"
+ ],
+ "attribution": [
+  "Kelnir Leafsong"
+ ]
+}

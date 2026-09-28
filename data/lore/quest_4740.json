@@ -1,0 +1,124 @@
+{
+ "key": "quest:4740",
+ "type": "quest",
+ "name": "WANTED: Murkdeep!",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   4740
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "WANTED: Murkdeep!",
+  "end": "Sentinel Glynda Nal'Shea",
+  "previous": null,
+  "next": null,
+  "wiki": "WANTED: Murkdeep! (quest)",
+  "chain": []
+ },
+ "summary": "WANTED: Murkdeep! is an Alliance bounty posted on the notice board outside the inn in Auberdine. The village council seeks the death of Murkdeep, a dangerous murloc chieftain blamed for slaying a night elf Sentinel and sinking merchant vessels off Darkshore. Adventurers must march south along the mist-shrouded coast to draw out the raider and deliver justice.",
+ "sections": [
+  {
+   "title": "A Threat on the Mist-Shrouded Shoals",
+   "body": "The Greymist murlocs along the Darkshore coastline are usually considered a nuisance, but Murkdeep escalated matters into open warfare against Auberdine. According to the wanted poster pinned outside the town inn, the ferocious beast is directly responsible for killing at least one night elf Sentinel and is suspected of sabotaging or wrecking two cargo vessels in the waters offshore. Facing mounting maritime losses and coastal raids, the Auberdine Village Council authorized a public bounty to put an end to the rampaging murloc leader.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ambush at the Huts",
+   "body": "Murkdeep does not idly wander the open shoreline. He lurks off the southern coast near a cluster of murloc huts centered around a bonfire. Anyone trespassing into the encampment triggers an organized defense: waves of Greymist coastrunners and shore-crawlers surge from the surf to protect their settlement before Murkdeep himself emerges alongside his vanguard to strike down intruders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Justice for the Fallen",
+   "body": "Returning to Auberdine with proof of Murkdeep's demise fulfills a grim necessity for the Sentinels. Sentinel Glynda Nal'Shea handles the bounty payout on behalf of the council. By breaking the Greymist leadership, travelers and shipping lanes traveling through the Darkshore fog are granted a reprieve from coastal sabotage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I pick up the bounty on Murkdeep?",
+   "aliases": [
+    "where to start wanted murkdeep",
+    "murkdeep quest start",
+    "auberdine wanted poster"
+   ],
+   "answer": "You can accept the quest from the wanted poster posted right outside the inn in the center of Auberdine in Darkshore."
+  },
+  {
+   "q": "Why is the Auberdine council offering a bounty on Murkdeep?",
+   "aliases": [
+    "why kill murkdeep",
+    "what did murkdeep do",
+    "murkdeep crimes"
+   ],
+   "answer": "Murkdeep is a particularly violent murloc responsible for slaying at least one night elf Sentinel and suspected of sinking two cargo vessels off the coast of Darkshore."
+  },
+  {
+   "q": "Where can I find Murkdeep?",
+   "aliases": [
+    "murkdeep location",
+    "where is murkdeep",
+    "murkdeep camp"
+   ],
+   "answer": "Murkdeep is found far south of Auberdine along the beach, guarding a cluster of three murloc huts positioned around a central bonfire."
+  },
+  {
+   "q": "Why isn't Murkdeep at the murloc camp when I arrive?",
+   "aliases": [
+    "murkdeep not there",
+    "murkdeep spawn",
+    "how to summon murkdeep"
+   ],
+   "answer": "Murkdeep does not stand out in the open. Stepping between the huts near the bonfire triggers waves of Greymist murlocs emerging from the ocean. Murkdeep appears with the final wave once the initial defenders are slain."
+  },
+  {
+   "q": "Who turns in the quest once Murkdeep is dead?",
+   "aliases": [
+    "who to turn in murkdeep",
+    "murkdeep turn in",
+    "glynda nalshea location"
+   ],
+   "answer": "Report the death of Murkdeep to Sentinel Glynda Nal'Shea, who is stationed on duty in Auberdine."
+  },
+  {
+   "q": "Are the murlocs at this camp different from other murlocs in Darkshore?",
+   "aliases": [
+    "greymist murlocs",
+    "murkdeep tribe",
+    "what murlocs are with murkdeep"
+   ],
+   "answer": "Murkdeep commands members of the Greymist murloc tribe, including coastal scouts and warriors that work in coordinated waves to defend their seaside encampment."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei defending Darkshore, slaying Murkdeep avenges a fallen sister of the Sentinels and safeguards the fragile lifeline Auberdine's docks provide."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Auberdine serves as a vital northern trade hub, making the cargo ships Murkdeep sank a costly strike against Alliance logistics in Kalimdor."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "glynda nal'shea",
+  "greymist",
+  "murkdeep",
+  "murloc",
+  "sentinels",
+  "wanted poster"
+ ],
+ "related": [
+  "zone:darkshore",
+  "subzone:auberdine",
+  "topic:murloc",
+  "topic:sentinels",
+  "quest:938"
+ ],
+ "attribution": [
+  "WANTED: Murkdeep! (quest)"
+ ]
+}

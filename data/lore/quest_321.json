@@ -1,0 +1,128 @@
+{
+ "key": "quest:321",
+ "type": "quest",
+ "name": "Lightforge Iron",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   321
+  ],
+  "level": "29",
+  "faction": "Alliance",
+  "start": "Glorin Steelbrow",
+  "end": "Waterlogged Chest",
+  "previous": "The Doomed Fleet",
+  "next": "The Lost Ingots",
+  "wiki": "Lightforge Iron (quest)",
+  "chain": []
+ },
+ "summary": "Lightforge Iron is an Alliance salvage task given by Glorin Steelbrow in Menethil Harbor. Adventurers are sent to scour the wreckage of the Flying Osprey, an elven destroyer carrying rare sacred metal that was lost alongside the Third Fleet of Kul Tiras during the Second War.",
+ "sections": [
+  {
+   "title": "A Sacred Cargo",
+   "body": "While most of the sunken hulls littering the Wetlands coastline belonged to the famed Third Fleet of Kul Tiras, one vessel was distinct: an elven destroyer christened the Flying Osprey. Bound from Lordaeron, the ship sought safety in numbers alongside the naval fleet, carrying a precious cargo of Lightforge iron. Unfortunately, convoying with war galleys did little to spare it when the Dragonmaw clan's enslaved red dragons descended from the sky, setting the fleet ablaze and plunging both soldiers and sanctified metal beneath the tides.",
+   "spoiler": 0
+  },
+  {
+   "title": "Plundered by the Tides",
+   "body": "Reaching the shattered remains of the Flying Osprey south of Menethil Harbor reveals that time and the sea have not been the only forces at work. The waterlogged chest holding the shipment has been battered open and clawed through. Coastal murlocs, always eager scavengers of wrecks, have ransacked the hold and scattered the ingots, leaving behind barely a trace of the precious ore Glorin Steelbrow seeks.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Flying Osprey?",
+   "aliases": [
+    "flying osprey lore",
+    "elven destroyer wetlands",
+    "what ship had the iron"
+   ],
+   "answer": "The Flying Osprey was an elven destroyer sailing out of Lordaeron during the Second War. It carried a shipment of rare Lightforge iron and traveled alongside the Third Fleet of Kul Tiras for protection, only to be burned and sunk along with the rest of the fleet by orc-enslaved red dragons."
+  },
+  {
+   "q": "Who is Glorin Steelbrow?",
+   "aliases": [
+    "glorin steelbrow",
+    "dwarf in menethil",
+    "who gives lightforge iron"
+   ],
+   "answer": "Glorin Steelbrow is a dwarf stationed at Menethil Harbor in the Wetlands. He is interested in recovering historical salvage and valuable materials from the sunken ships along the coastline, particularly legendary metals like Lightforge iron."
+  },
+  {
+   "q": "What is Lightforge iron?",
+   "aliases": [
+    "lightforge metal",
+    "what is lightforge iron",
+    "lightforge ingots"
+   ],
+   "answer": "Lightforge iron is an exceptionally rare, sanctified metal used to forge consecrated arms and armor. It is prized by smiths and champions of the Holy Light for its purity and resilient spiritual properties."
+  },
+  {
+   "q": "Why were the ships sunk in the Wetlands?",
+   "aliases": [
+    "who sunk the third fleet",
+    "why are ships wrecked wetlands",
+    "red dragons wetlands fleet"
+   ],
+   "answer": "During the Second War, the Horde's Dragonmaw clan used the Demon Chain to enslave the Red Dragonflight. Dragonriders attacked Kul Tiras's Third Fleet off the coast of the Wetlands, burning the ships and sending them to the ocean floor."
+  },
+  {
+   "q": "Why is the chest nearly empty?",
+   "aliases": [
+    "where are the ingots",
+    "why claw marks on chest",
+    "who stole the lightforge iron"
+   ],
+   "answer": "The waterlogged chest aboard the Flying Osprey bears fresh claw marks from coastal murlocs. The creatures pried it open and plundered the cargo, making off with most of the ingots and scattering them along the marshy shore."
+  },
+  {
+   "q": "Where is the wreckage of the Flying Osprey located?",
+   "aliases": [
+    "flying osprey location",
+    "where is the chest",
+    "wetlands shipwreck location"
+   ],
+   "answer": "The wreckage lies among the coastal shoals just south of Menethil Harbor along the western shore of the Wetlands, split across the shallows near local murloc settlements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Smiths of all disciplines revere Lightforge iron as a holy grail of materials, known for holding powerful blessings and retaining unmatched structural integrity."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Weapons wrought from Lightforge iron are deeply attuned to the Holy Light, making the recovery of even a single lost ingot of spiritual importance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The sunken vessels off Menethil Harbor are somber memorials to the Second War, where brave sailors from Kul Tiras and Lordaeron fell to dragonfire."
+  }
+ ],
+ "keywords": [
+  "flying osprey",
+  "glorin steelbrow",
+  "ingot",
+  "kul tiras",
+  "lightforge iron",
+  "menethil harbor",
+  "murloc",
+  "third fleet",
+  "waterlogged chest",
+  "wetlands"
+ ],
+ "related": [
+  "npc:glorin-steelbrow",
+  "quest:270",
+  "quest:324",
+  "quest:288",
+  "subzone:menethil-harbor",
+  "zone:wetlands",
+  "topic:murloc",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Lightforge Iron (quest)"
+ ]
+}

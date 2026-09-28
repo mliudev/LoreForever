@@ -1,0 +1,124 @@
+{
+ "key": "quest:324",
+ "type": "quest",
+ "name": "The Lost Ingots",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   324
+  ],
+  "level": "29",
+  "faction": "Alliance",
+  "start": "Waterlogged Chest",
+  "end": "Glorin Steelbrow",
+  "previous": "Lightforge Iron (quest)",
+  "next": "Blessed Arm",
+  "wiki": "The Lost Ingots",
+  "chain": []
+ },
+ "summary": "The Lost Ingots is an Alliance task in the Wetlands to recover consecrated metal from a shipwreck. After finding only a single bar in a sunken chest, travelers must hunt down the local Bluegill murlocs who looted the remaining shipment.",
+ "sections": [
+  {
+   "title": "A Plundered Shipwreck",
+   "body": "Off the misty shores of the Wetlands lies the shattered wreckage of the Flying Osprey. Sent to retrieve precious Lightforge iron for the dwarven smith Glorin Steelbrow, seekers discovered that the cargo hold's waterlogged chest was nearly empty. The ravenous local Bluegill murlocs had already scavenged the rest of the vessel, taking the gleaming ingots for themselves.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reclaiming the Sacred Metal",
+   "body": "Lightforge iron is no ordinary ore; it is rare, specialized metal attuned to work sacred smithing craft. Allowing it to rot in murloc encampments is unthinkable for a dwarven craftsman. By hunting down the Bluegill raiders swarming the shallows near the broken hull, adventurers prise back the scattered bars so Glorin Steelbrow can finally stoke his forge and begin crafting.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What ship carried the Lightforge iron?",
+   "aliases": [
+    "which ship",
+    "flying osprey",
+    "shipwreck name"
+   ],
+   "answer": "The cargo arrived aboard the Flying Osprey, an unfortunate vessel that met its demise off the coast of the Wetlands. Its broken timbers now lie partially submerged in the shallows."
+  },
+  {
+   "q": "Why were the ingots not in the chest?",
+   "aliases": [
+    "where are the ingots",
+    "why are murlocs holding iron",
+    "chest empty"
+   ],
+   "answer": "Only a single ingot remained locked within the waterlogged chest. The coastal Bluegill murlocs had already pried into the sunken wreckage and scavenged the rest of the shipment to scatter among their coastal raiders."
+  },
+  {
+   "q": "Who is Glorin Steelbrow?",
+   "aliases": [
+    "glorin",
+    "who is glorin steelbrow",
+    "quest giver"
+   ],
+   "answer": "Glorin Steelbrow is a dwarven artisan residing in the Wetlands who requires Lightforge iron to craft specialized arms and equipment for holy crusaders and defenders of the Alliance."
+  },
+  {
+   "q": "What is special about Lightforge iron?",
+   "aliases": [
+    "lightforge iron lore",
+    "what is lightforge iron",
+    "why is the iron important"
+   ],
+   "answer": "Lightforge iron is a rare, sanctified metal uniquely receptive to holy enchantments and smithing. It is prized by artisans crafting armaments aligned with the Holy Light."
+  },
+  {
+   "q": "Which murlocs took the iron?",
+   "aliases": [
+    "who stole the ingots",
+    "which tribe",
+    "bluegill raiders"
+   ],
+   "answer": "The Bluegill tribe, specifically the murloc raiders that prowl the shallows and beaches around the wreckage of the Flying Osprey, seized the missing bars."
+  },
+  {
+   "q": "What comes next after returning the ingots?",
+   "aliases": [
+    "next quest",
+    "what does glorin do",
+    "blessed arm quest"
+   ],
+   "answer": "Once Glorin Steelbrow receives the full set of ingots, he is ready to forge the sanctified metal into a Blessed Arm, continuing the sacred forging process."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Recovering lost masterwork ore and putting it into the hands of an artisan like Glorin Steelbrow honors the long tradition of dwarven craftsmanship and reclaimers."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Reclaiming Lightforge iron from primitive murlocs ensures holy materials are preserved to fashion consecrated weaponry fit to champion the Light."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Every metalworker knows the tragedy of seeing superior stock like Lightforge iron end up as curios in a coastal murloc nest instead of an anvil."
+  }
+ ],
+ "keywords": [
+  "bluegill",
+  "flying osprey",
+  "glorin steelbrow",
+  "ingots",
+  "lightforge iron",
+  "murloc",
+  "waterlogged chest",
+  "wetlands"
+ ],
+ "related": [
+  "quest:321",
+  "quest:322",
+  "npc:glorin-steelbrow",
+  "zone:wetlands",
+  "topic:murloc",
+  "topic:light"
+ ],
+ "attribution": [
+  "The Lost Ingots"
+ ]
+}

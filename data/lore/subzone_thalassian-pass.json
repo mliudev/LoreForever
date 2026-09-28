@@ -1,0 +1,71 @@
+{
+ "key": "subzone:thalassian-pass",
+ "type": "subzone",
+ "name": "Thalassian Pass",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Thalassian Pass"
+ },
+ "summary": "The Thalassian Pass is a mountain crossing on the northern edge of the Eastern Plaguelands, forming the historic threshold between Lordaeron and the elven kingdom of Quel'Thalas. Guarded by the remnants of an ancient elfgate, the way north remains sealed and overshadowed by the lingering ruin of the Third War.",
+ "sections": [
+  {
+   "title": "Gateway to the North",
+   "body": "Carved into the rugged peaks separating the Plaguelands from Quel'Thalas, the Thalassian Pass long served as the main overland route connecting the high elves to the northern kingdoms of Lordaeron. Fortified with grand elfgates, it was meant to isolate the high elven kingdom from external threats. During the Third War, those very defenses were breached when the Scourge marched north under Prince Arthas, devastating the kingdom beyond. Today, the passage stands silent and impassable, heavily marked by the Scourge invasion that shattered the elven realm.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Thalassian Pass lead?",
+   "aliases": [
+    "where does thalassian pass go",
+    "thalassian pass destination",
+    "what is behind the gate"
+   ],
+   "answer": "The pass cuts directly through the northern mountain range of the Eastern Plaguelands, leading toward the southern borders of Quel'Thalas. Historically, travelers from Lordaeron used this route to enter the elven dominion."
+  },
+  {
+   "q": "Can you enter Quel'Thalas through this gate right now?",
+   "aliases": [
+    "can i open thalassian pass",
+    "enter quel thalas classic",
+    "is thalassian pass open"
+   ],
+   "answer": "No. The heavy portal and fortifications are sealed shut, cutting off northern travel between the plagued lands of Lordaeron and the ruins of Quel'Thalas."
+  },
+  {
+   "q": "What happened to the defenses guarding the pass?",
+   "aliases": [
+    "why is it ruined",
+    "who destroyed thalassian gate",
+    "scourge attack pass"
+   ],
+   "answer": "During the Third War, the Scourge bypassed and broke through the elfgates barring the road to Silvermoon, aided by the betrayal of the elven magister Dar'Khan Drathir. The defiled ruins and lingering banners bear witness to that assault."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, especially those who recall the fall of Quel'Thalas alongside the Dark Lady, the sealed northern pass serves as a stark reminder of the Scourge's initial, merciless advance."
+  }
+ ],
+ "keywords": [
+  "eastern plaguelands",
+  "elfgate",
+  "high elves",
+  "lordaeron",
+  "quel'thalas",
+  "scourge",
+  "thalassian pass"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "topic:scourge",
+  "topic:lordaeron",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Thalassian Pass"
+ ]
+}

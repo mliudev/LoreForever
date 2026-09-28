@@ -1,0 +1,121 @@
+{
+ "key": "quest:855",
+ "type": "quest",
+ "name": "Centaur Bracers",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   855
+  ],
+  "level": "14",
+  "faction": "Horde",
+  "start": "Regthar Deathgate",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Centaur Bracers (Classic)",
+  "chain": []
+ },
+ "summary": "Centaur Bracers is a military bounty offered by Regthar Deathgate west of the Crossroads. It tasks Horde champions with thinning the aggressive Kolkar centaur ranks contesting control of the central Barrens.",
+ "sections": [
+  {
+   "title": "Securing the Plains",
+   "body": "The fledgling Horde is engaged in a broad struggle to carve out safe territory across Kalimdor, and the Barrens serve as the vital crossroads between Durotar and Mulgore. However, violent nomadic tribes of Kolkar centaur contest every watering hole and plain, attacking supply trains and scouting parties. From his bunker west of the Crossroads, the orc warrior Regthar Deathgate coordinates defensive efforts to stem their relentless advances.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Gruesome Accounting",
+   "body": "Rather than relying on empty reports, Regthar demands tangible proof of action against the horse-tribes. Soldiers venturing into Kolkar territory are tasked with returning with severed bracers taken directly from slain centaur warriors. This grim accounting serves both as verification for Horde bounties and as a calculated message intended to intimidate surviving Kolkar raiders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Regthar Deathgate?",
+   "aliases": [
+    "who is regthar",
+    "regthar deathgate lore",
+    "who gives centaur bracers"
+   ],
+   "answer": "Regthar Deathgate is an orc military commander stationed in a fortified bunker west of the Crossroads. He spearheads the Horde's local efforts to suppress centaur raiding bands across the Barrens."
+  },
+  {
+   "q": "Why does the Horde want centaur bracers?",
+   "aliases": [
+    "why bracers",
+    "what are centaur bracers for",
+    "why collect bracers"
+   ],
+   "answer": "Centaur bracers serve as indisputable physical proof of enemy warriors slain in the field. Collecting them guarantees that bounty rewards are paid only for actual casualties inflicted upon the hostile Kolkar tribes."
+  },
+  {
+   "q": "Why are the Kolkar attacking the Horde?",
+   "aliases": [
+    "why do centaur hate horde",
+    "centaur conflict",
+    "kolkar aggression"
+   ],
+   "answer": "The Kolkar are a brutal, expansionist centaur clan native to central Kalimdor. They view the Barrens as their hunting grounds and fiercely oppose the new settlements, encampments, and alliances formed by the orcs and tauren."
+  },
+  {
+   "q": "Where are the Kolkar centaurs located in the Barrens?",
+   "aliases": [
+    "where to find centaurs",
+    "kolkar locations",
+    "centaur camps"
+   ],
+   "answer": "Kolkar raiding camps are clustered around vital oases and rugged ridges throughout the central and southern Barrens, frequently disputing access to water and travel corridors."
+  },
+  {
+   "q": "Does collecting these bracers stop the Kolkar attacks?",
+   "aliases": [
+    "did centaur bracers work",
+    "do the centaur stop"
+   ],
+   "answer": "No. While Regthar hopes the culling sends a message to intimidate the surviving raiders, he openly doubts the savage Kolkar will ever voluntarily halt their bloodthirsty advances."
+  },
+  {
+   "q": "What is the strategic value of the Crossroads?",
+   "aliases": [
+    "why defend crossroads",
+    "crossroads importance"
+   ],
+   "answer": "The Crossroads is the central transit hub connecting the orc homeland of Durotar, the tauren plains of Mulgore, and northern routes into Ashenvale. Neutralizing nearby centaur war parties is essential to keep Horde supply lines intact."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Clearing out the Kolkar protects vital supply links running between Orgrimmar and Thunder Bluff."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The centaur have brought centuries of devastation and genocide upon the tauren tribes; thinning their numbers in the Barrens is personal retribution."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For the orcs, securing the perimeter around Durotar against nomadic raiders is vital to establishing a permanent and stable new homeland."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bounty",
+  "bracers",
+  "centaur",
+  "crossroads",
+  "horde",
+  "kolkar",
+  "regthar deathgate"
+ ],
+ "related": [
+  "quest:1361",
+  "topic:centaur",
+  "zone:barrens",
+  "subzone:crossroads",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Centaur Bracers (Classic)"
+ ]
+}

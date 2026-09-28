@@ -1,0 +1,89 @@
+{
+ "key": "subzone:ironband-s-compound",
+ "type": "subzone",
+ "name": "Ironband's Compound",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Ironband's Compound"
+ },
+ "summary": "Ironband's Compound is a fortified outpost tucked into the snowy hills south of Helm's Bed Lake in eastern Dun Morogh. Formerly home to the prospector Sturgy Ironband, the camp has been overrun by hostile Dark Iron dwarves who attack anyone venturing too close.",
+ "sections": [
+  {
+   "title": "A Fall to the Dark Irons",
+   "body": "Originally established by Sturgy Ironband, this compound south of Helm's Bed Lake once served as a staging post in the snowy wilderness of Dun Morogh. That changed when Dark Iron infiltrators pushed deep into Bronzebeard territory and seized the site for themselves. Now bristling with hostile dwarves, the compound serves as an enemy forward base threatening travelers and nearby settlements, right under the nose of Ironforge.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Threat to Ironforge",
+   "body": "The presence of a fortified Dark Iron camp within Dun Morogh's own borders is a serious provocation. Ironforge keeps a wary eye on the compound, dispatching seasoned warriors to recover fallen scouts and secure vital intelligence proving the extent of the Dark Iron threat in the mountain kingdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who originally built Ironband's Compound?",
+   "aliases": [
+    "who made this camp",
+    "sturgy ironband",
+    "who owns ironbands compound"
+   ],
+   "answer": "The outpost was formerly inhabited and used by Sturgy Ironband before hostile forces drove him out and took control of the site."
+  },
+  {
+   "q": "Who controls Ironband's Compound now?",
+   "aliases": [
+    "who is here",
+    "what enemies are here",
+    "dark irons dun morogh"
+   ],
+   "answer": "The camp has been seized by a band of hostile Dark Iron dwarves who readily assault any wanderers or Ironforge patrols that approach."
+  },
+  {
+   "q": "Where is Ironband's Compound located?",
+   "aliases": [
+    "where is ironbands compound",
+    "how to find ironband compound",
+    "ironband location"
+   ],
+   "answer": "You can find it nestled in the snowy hills of eastern Dun Morogh, just south of Helm's Bed Lake."
+  },
+  {
+   "q": "Why is this camp important to the leaders of Ironforge?",
+   "aliases": [
+    "why care about this camp",
+    "ironforge response",
+    "dark iron threat"
+   ],
+   "answer": "Having an enemy clan establish a fortified base so close to the dwarf capital is an alarming security breach. Ironforge authorities send fighters here to gather hard evidence of Dark Iron infiltration."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For the Bronzebeards, seeing the treacherous Dark Irons entrenching themselves within Dun Morogh's borders is a direct insult and a persistent danger to their homeland."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Aspiring warriors are dispatched here by Ironforge's veteran trainers to prove their mettle by aiding fallen comrades and collecting proof of the Dark Iron presence."
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "dun morogh",
+  "dwarf",
+  "helm's bed lake",
+  "ironband's compound",
+  "ironforge",
+  "sturgy ironband"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "subzone:helm-s-bed-lake",
+  "zone:ironforge",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Ironband's Compound"
+ ]
+}

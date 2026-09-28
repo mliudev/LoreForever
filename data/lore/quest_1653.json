@@ -1,0 +1,122 @@
+{
+ "key": "quest:1653",
+ "type": "quest",
+ "name": "The Test of Righteousness",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1653
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Duthorian Rall",
+  "end": "Jordan Stilwell",
+  "previous": "The Tome of Valor (4)",
+  "next": "The Test of Righteousness (2)",
+  "wiki": "The Test of Righteousness",
+  "chain": []
+ },
+ "summary": "The Test of Righteousness marks the transition from defending the innocent in Westfall to embarking on the construction of a paladin's sacred weapon. Entrusted by Duthorian Rall, the initiate travels to Ironforge to bring glad tidings to the devout smith Jordan Stilwell.",
+ "sections": [
+  {
+   "title": "A Messenger of Good News",
+   "body": "Having stood guard over Daphne Stilwell during a harrowing Defias ambush on her Westfall homestead, a paladin initiate returns to Cathedral Square to report. Lord Duthorian Rall recognizes that word must reach her husband, Jordan Stilwell, who left for Ironforge believing his family in jeopardy. Rall sends the young knight to deliver the relief in person, serving both as an act of fellowship and the prelude to a deeper undertaking.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Smith of Dun Morogh",
+   "body": "Jordan Stilwell was originally destined for the holy order of paladins, yet chose to honor his father's craft as a master weapon-smith without ever forsaking his faith. Setting up his anvil outside the gates of Ironforge to work in the bracing mountain air, Jordan relies on his spiritual devotion to guide his hammer. Upon hearing that his wife survived the Defias assault, his profound gratitude moves him to aid the paladin in forging a blessed weapon of righteousness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jordan Stilwell?",
+   "aliases": [
+    "jordan stilwell",
+    "who is jordan",
+    "the smith in ironforge"
+   ],
+   "answer": "Jordan Stilwell is a devout weaponsmith stationed outside the massive front gates of Ironforge. Though he originally studied alongside the paladins in the ways of the Light, he ultimately chose to dedicate his life to continuing his late father's smithing craft."
+  },
+  {
+   "q": "Why was Jordan's wife in danger?",
+   "aliases": [
+    "daphne stilwell danger",
+    "what happened to jordan's wife",
+    "why defias attacked"
+   ],
+   "answer": "Daphne Stilwell lives on a farmstead in Westfall, an untamed territory swarming with Defias Brotherhood outlaws. Her husband had feared an impending attack when he departed for the dwarf capital, a fear realized when bandits stormed the farm before being driven off by paladin initiates."
+  },
+  {
+   "q": "Where can Jordan Stilwell be found?",
+   "aliases": [
+    "where is jordan stilwell",
+    "stilwell location",
+    "jordan ironforge location"
+   ],
+   "answer": "Jordan Stilwell works outside the main gates of Ironforge in the frigid snow of Dun Morogh. He prefers the crisp mountain air to the stifling heat of the Great Forge within the mountain city."
+  },
+  {
+   "q": "Why does Duthorian Rall send the player to Ironforge?",
+   "aliases": [
+    "why go to ironforge",
+    "duthorian rall errand",
+    "reason for message"
+   ],
+   "answer": "Lord Duthorian Rall wishes for Jordan to hear directly from his wife's rescuer that she survived the Defias attack. The journey also connects the initiate with a master smith capable of guiding them through the creation of a sacred paladin armament."
+  },
+  {
+   "q": "What comes after speaking with Jordan?",
+   "aliases": [
+    "test of righteousness next",
+    "what does jordan want",
+    "after talking to jordan"
+   ],
+   "answer": "Relieved by the news, Jordan offers his expertise to forge a magnificent holy warhammer for the initiate, requiring the gathering of rare materials and sanctified relics scattered across distant lands."
+  },
+  {
+   "q": "How does Jordan feel about the Defias threat?",
+   "aliases": [
+    "jordan defias opinion",
+    "stilwell king advisors",
+    "defias in westfall"
+   ],
+   "answer": "Jordan is incensed by the council of Stormwind's blind negligence. He notes that the Defias Brotherhood has plagued Westfall for a long time, but hopes that attacks reaching deep into honest homesteads will force the boy-king's regents to finally acknowledge the crisis."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This leg of your trials represents the shift from protecting the weak to crafting the sacred tools necessary to purge evil across the lands of the Alliance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Stilwell family's plight reflects the growing instability in Westfall, where common folk struggle against the Defias while royal advisors in Stormwind dither."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Jordan Stilwell proves that true dedication to the anvil can be just as holy an expression of devotion as wielding a consecrated blade on the battlefield."
+  }
+ ],
+ "keywords": [
+  "daphne stilwell",
+  "defias brotherhood",
+  "dun morogh",
+  "duthorian rall",
+  "ironforge",
+  "jordan stilwell",
+  "stormwind",
+  "test of righteousness"
+ ],
+ "related": [
+  "npc:jordan-stilwell",
+  "npc:duthorian-rall",
+  "zone:ironforge",
+  "topic:light"
+ ],
+ "attribution": [
+  "The Test of Righteousness"
+ ]
+}

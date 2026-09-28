@@ -1,0 +1,114 @@
+{
+ "key": "quest:7493",
+ "type": "quest",
+ "name": "The Journey Has Just Begun",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   7493
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Overlord Natoj",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Journey Has Just Begun (Horde)",
+  "chain": []
+ },
+ "summary": "\"The Journey Has Just Begun\" is a Horde quest offered in Orgrimmar to skilled leatherworkers following the defeat of Onyxia. Overlord Natoj recognizes the hero's craft and imparts the rare technique required to fashion protective cloaks from the broodmother's scales. This vital craft prepares the Horde for the deadly flames of Blackrock Spire.",
+ "sections": [
+  {
+   "title": "A Broodmother's Legacy",
+   "body": "The fall of Onyxia represents a triumph for the Horde, but it does not mark the end of the threat posed by the black dragonflight. The broodmother's scaled hide possesses remarkable resilience against draconic flame. Rather than letting such materials go to waste, Horde leadership seeks craftsmen capable of turning the dragon's remains into defensive armor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shield Against Shadow Flame",
+   "body": "Overlord Natoj teaches gifted leatherworkers how to stitch together the Onyxia Scale Cloak. This knowledge is not meant merely for show or prestige. Deep within Blackrock Mountain, Onyxia's brother, Nefarian, wields devastating incendiary breath. Without the enchanted protection offered by their broodmother's own scales, any vanguard confronting the Lord of Blackrock would be reduced to ash.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this quest and where are they located?",
+   "aliases": [
+    "natoj quest giver",
+    "where is overlord natoj",
+    "quest start"
+   ],
+   "answer": "The quest is provided by Overlord Natoj in Orgrimmar. He recognizes champions of the Horde who possess master leatherworking expertise and have aided in the downfall of Onyxia."
+  },
+  {
+   "q": "What requirement is needed to receive this quest?",
+   "aliases": [
+    "leatherworking requirement",
+    "how to get quest",
+    "prerequisites"
+   ],
+   "answer": "This quest is only offered to skilled leatherworkers who have completed the triumphant aftermath of Onyxia's defeat, such as 'Victory for the Horde' or 'A Most Puzzling Circumstance'."
+  },
+  {
+   "q": "What does Overlord Natoj teach?",
+   "aliases": [
+    "quest reward recipe",
+    "onyxia cloak pattern",
+    "what do i learn"
+   ],
+   "answer": "Overlord Natoj instructs the leatherworker in the technique needed to craft the Onyxia Scale Cloak using scales harvested from the fallen broodmother."
+  },
+  {
+   "q": "Why is the Onyxia Scale Cloak important?",
+   "aliases": [
+    "why make cloak",
+    "cloak purpose",
+    "nefarian cloak"
+   ],
+   "answer": "The cloak shields its wearer from the deadly, incendiary breath of Nefarian, the Lord of Blackrock. Without its unique protective properties, facing the brood's master would prove fatal."
+  },
+  {
+   "q": "Who is the Lord of Blackrock?",
+   "aliases": [
+    "who is lord of blackrock",
+    "nefarian identity",
+    "blackrock lord"
+   ],
+   "answer": "The Lord of Blackrock is Nefarian, a powerful black dragon and Onyxia's brother, who plots from the heights of Blackrock Mountain to dominate the mortal races."
+  },
+  {
+   "q": "Why does the quest state that the journey has just begun?",
+   "aliases": [
+    "meaning of title",
+    "journey just begun why"
+   ],
+   "answer": "Though Onyxia has been slain, the broader war against the black dragonflight and Nefarian's schemes inside Blackrock Mountain has only escalated."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, securing protective gear forged from their fallen enemies is vital to safeguarding their forces against further draconic devastation."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "broodmother",
+  "cloak",
+  "leatherworking",
+  "natoj",
+  "nefarian",
+  "onyxia",
+  "scale"
+ ],
+ "related": [
+  "npc:onyxia",
+  "topic:black-dragonflight",
+  "quest:7781",
+  "topic:horde",
+  "subzone:drag"
+ ],
+ "attribution": [
+  "The Journey Has Just Begun (Horde)"
+ ]
+}

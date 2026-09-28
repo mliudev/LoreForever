@@ -1,0 +1,134 @@
+{
+ "key": "topic:worgen",
+ "type": "topic",
+ "name": "Worgen",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Worgen"
+ },
+ "summary": "Worgen are fierce, lupine humanoids cursed with uncontrollable primal rage, moving upright yet hunting with bestial swiftness. Once thought to be mere nightmares conjured from other planes, these savage pack-hunters now terrorize Silverpine Forest, Ashenvale, and Duskwood.",
+ "sections": [
+  {
+   "title": "Children of the Pack",
+   "body": "Long before their recent emergence in Lordaeron and Kalimdor, wolf-men were whispered of in folktales and cautionary fables. In reality, their origins date back over nine millennia to the War of the Satyr. Seeking to harness the untamed fury of the wolf Ancient Goldrinn, radical night elf druids led by Ralaar Fangfire embraced the forbidden wolf pack form. When combined with the sacred Scythe of Elune, the magic violently backfired, transforming them into ferocious lupine monsters driven by bloodlust. Incapable of distinguishing friend from foe, their virulent bite spread the affliction to fellow night elves. To halt the nightmare, Malfurion Stormrage and the Cenarion Circle banished the cursed shapeshifters beneath the sacred boughs of Daral'nir into an eternal slumber within the Emerald Dream.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arugal's Folly",
+   "body": "During the Third War, as the Scourge hordes overran Lordaeron and descended toward the Greymane Wall, Archmage Arugal sought a weapon to save Gilneas. Drawing from the forbidden research of the Dalaran wizard Ur, Arugal pierced the veil and summoned the slumbering beasts into Silverpine Forest. The summoned worgen devastated the undead invaders with savage abandon, but the archmage could not leash their fury. The beasts turned on Gilnean soldiers, spreading their curse through fang and claw. Driven mad by guilt and fascination, Arugal adopted the monsters as his children, seizing Baron Silverlaine's ancestral seat\u2014now rechristened Shadowfang Keep\u2014and cursing nearby villagers into monstrous nocturnal servitude.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scythe Awoken",
+   "body": "Across the sea in Kalimdor, another summoning unleashed the worgen anew. Desperate to purge the lingering demonic remnants of the Burning Legion from Felwood, the night elf Sentinel Velinde Starsong unearthed the Scythe of Elune. Channelling the ancient relic, she called forth wolf-men to tear apart the demonic satyrs. Yet as battles raged, Velinde realized that the scythe had slipped beyond her command\u2014the beasts began to manifest without her consent, slipping into the dark forests of Ashenvale and beyond. Now roaming in wild, feral packs, the worgen spread terror wherever the shadow of their moonlit hunts falls.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are worgen?",
+   "aliases": [
+    "what is a worgen",
+    "worgen lore",
+    "wolf men"
+   ],
+   "answer": "Worgen are ferocious, upright lupine humanoids possessed of terrifying strength, predatory senses, and dark shadow magic. They primarily dwell in secluded woodlands and ruins, hunting in packs under the thrall of uncontrollable bestial fury."
+  },
+  {
+   "q": "Where did the worgen originally come from?",
+   "aliases": [
+    "worgen origin",
+    "who made worgen",
+    "how were worgen created"
+   ],
+   "answer": "They were originally night elf druids known as the Druids of the Pack. Seeking to master the untamed spirit of the wolf Ancient Goldrinn during the War of the Satyr, their ritual using the Scythe of Elune corrupted them into ravenous beasts, prompting Malfurion Stormrage to banish them into the Emerald Dream."
+  },
+  {
+   "q": "How did worgen end up in Silverpine Forest?",
+   "aliases": [
+    "silverpine worgen",
+    "why are worgen in silverpine",
+    "who summoned worgen"
+   ],
+   "answer": "During the Third War, Archmage Arugal summoned them from their slumber using the esoteric research of the late Dalaran wizard Ur. Arugal hoped they would repel the Scourge battering the Greymane Wall, but the unleashed beasts turned on everyone."
+  },
+  {
+   "q": "How does someone become a worgen?",
+   "aliases": [
+    "worgen curse",
+    "can you turn into a worgen",
+    "worgen bite"
+   ],
+   "answer": "The condition spreads as a virulent supernatural affliction. A bite or scratch from an active worgen infects humanoids, eventually causing victims to succumb to feral urges and transform into wolf-beasts unless restrained by potent discipline or specialized sorcery."
+  },
+  {
+   "q": "What is the Scythe of Elune?",
+   "aliases": [
+    "scythe of elune",
+    "scythe elune lore"
+   ],
+   "answer": "The Scythe of Elune is a powerful relic created during the War of the Satyr by binding a fang of the wolf Ancient Goldrinn to a staff of Elune. It holds deep, volatile dominion over the worgen curse and possesses the power to summon and agitate them."
+  },
+  {
+   "q": "Who is Archmage Arugal?",
+   "aliases": [
+    "arugal",
+    "who is arugal"
+   ],
+   "answer": "Arugal was a Dalaran archmage who served Gilneas. After summoning the worgen to fight the Scourge, he succumbed to madness, abandoning Gilneas to rule over the haunted ruins of Shadowfang Keep alongside his monstrous 'children.'"
+  },
+  {
+   "q": "Why are worgen in Ashenvale and Kalimdor?",
+   "aliases": [
+    "ashenvale worgen",
+    "kalimdor worgen",
+    "terrowulf"
+   ],
+   "answer": "The night elf Sentinel Velinde Starsong used the recovered Scythe of Elune to summon worgen against demonic invaders in Felwood. The relic soon began pulling worgen into the world autonomously, allowing packs to break loose into Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The worgen are an enduring cautionary tale of the wolf pack form, demonstrating the fatal danger of invoking Goldrinn's untamed wrath without the balance of the Cenarion Circle."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The existence of the worgen remains a heavily veiled chapter of ancient kaldorei history, tied directly to the War of the Satyr and the sorrow of Priestess Belysra and Malfurion Stormrage."
+  },
+  {
+   "target": "race:Undead",
+   "text": "In Silverpine Forest, the Forsaken battle feral worgen packs and Arugal's twisted cultists for mastery over the region south of the Ruins of Lordaeron."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Dalaran's Kirin Tor long debated the research in Ur's mystical treatises; Arugal's catastrophic conjuring proved Ur's warnings that these nightmare creatures should never be summoned."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "druids of the pack",
+  "goldrinn",
+  "pyrewood",
+  "scythe of elune",
+  "shadowfang keep",
+  "silverpine",
+  "ur",
+  "velinde starsong",
+  "worgen"
+ ],
+ "related": [
+  "npc:arugal",
+  "zone:shadowfang",
+  "zone:silverpine",
+  "quest:1043",
+  "quest:1013",
+  "topic:druid",
+  "topic:emerald-dream",
+  "npc:baron-silverlaine"
+ ],
+ "attribution": [
+  "Worgen"
+ ]
+}

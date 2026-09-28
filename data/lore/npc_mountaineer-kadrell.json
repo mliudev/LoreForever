@@ -1,0 +1,92 @@
+{
+ "key": "npc:mountaineer-kadrell",
+ "type": "npc",
+ "name": "Mountaineer Kadrell",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Mountaineer Kadrell",
+  "refs": 3
+ },
+ "summary": "Mountaineer Kadrell is a stalwart dwarven sentry stationed across from the Stoutlager Inn in Thelsamar. Serving as a crucial liaison within the Loch Modan Mountaineers, he coordinates reconnaissance, supply deliveries, and border defense across the region.",
+ "sections": [
+  {
+   "title": "The Sentry of Thelsamar",
+   "body": "Standing watch in the bustling settlement of Thelsamar, Mountaineer Kadrell acts as an anchor for dwarven defenses throughout Loch Modan. While outposts on the valley's fringes face relentless pressure from troggs, gnolls, and native beasts, Kadrell remains at the center of town to organize reinforcements, relay orders, and assess incoming field reports from wandering scouts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Keeping the Lines Open",
+   "body": "Kadrell's duties frequently involve maintaining contact between Thelsamar and remote forward positions. Whether coordinating with Mountaineer Stormpike or sending adventurers to report to sentries like Mountaineer Rockgar, Kadrell ensures that the isolated outposts guarding the mountain passes receive vital supplies, reinforcements, and defensive intelligence.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Mountaineer Kadrell be found?",
+   "aliases": [
+    "kadrell location",
+    "where is kadrell",
+    "find kadrell"
+   ],
+   "answer": "Kadrell is stationed directly across the road from the Stoutlager Inn in the town of Thelsamar, located within the rolling hills of Loch Modan."
+  },
+  {
+   "q": "What is Kadrell's role in Loch Modan?",
+   "aliases": [
+    "what does kadrell do",
+    "kadrell purpose",
+    "kadrell job"
+   ],
+   "answer": "He is a member of the dwarven Mountaineers tasked with liaising between Thelsamar's local leadership and the remote guard posts scattered across the region, coordinating patrols, supplies, and border reports."
+  },
+  {
+   "q": "Why do other mountaineers send runners to Kadrell?",
+   "aliases": [
+    "report to kadrell",
+    "why report to kadrell"
+   ],
+   "answer": "Because of his central position right by the inn and main thoroughfare in Thelsamar, Kadrell serves as the hub for field dispatches, ensuring that urgent reports from distant scouts reach the settlement's defense network."
+  },
+  {
+   "q": "Who does Kadrell coordinate with?",
+   "aliases": [
+    "kadrell contacts",
+    "who does kadrell know"
+   ],
+   "answer": "Kadrell frequently works with other mountaineers in the field, including Mountaineer Stormpike and Mountaineer Rockgar, managing scouting updates and defense assignments against local threats."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Kadrell relies on Alliance travelers passing through Thelsamar to carry messages and lend a hand to distant mountaineer outposts struggling against regional threats."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "As part of the renowned Mountaineer corps, Kadrell represents the frontline watch that keeps Ironforge's eastern territories safe from encroaching wilderness dangers."
+  }
+ ],
+ "keywords": [
+  "kadrell",
+  "loch modan",
+  "mountaineer",
+  "rockgar",
+  "stormpike",
+  "stoutlager inn",
+  "thelsamar"
+ ],
+ "related": [
+  "subzone:thelsamar",
+  "zone:lochmodan",
+  "subzone:stoutlager-inn",
+  "quest:414",
+  "quest:468",
+  "npc:mountaineer-stormpike",
+  "quest:1339",
+  "quest:467"
+ ],
+ "attribution": [
+  "Mountaineer Kadrell"
+ ]
+}

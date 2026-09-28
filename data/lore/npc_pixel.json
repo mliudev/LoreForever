@@ -1,0 +1,83 @@
+{
+ "key": "npc:pixel",
+ "type": "npc",
+ "name": "Pixel",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Pixel",
+  "refs": 2
+ },
+ "summary": "Pixel is an enterprising goblin courier operating out of Splintertree Post in Ashenvale. Making her living delivering heavy goods across dangerous territories, she handles shipments like Warsong saw blades for the local Horde forces\u2014though she never lets any cargo go without proper compensation.",
+ "sections": [
+  {
+   "title": "Business in the Deep Woods",
+   "body": "While Splintertree Post serves as a fortified bastion for the Horde amidst the hostile canopies of Ashenvale, Pixel remains firmly focused on profit. As an independent courier willing to haul freight into active war zones, she provides essential logistics for the Warsong Clan's logging efforts. However, true to goblin custom, contracts and coin dictate her cooperation. She holds fast to her deliveries until the client produces payment, often demanding practical bounties like satyr horns from passing adventurers before relinquishing valuable lumbering supplies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Pixel?",
+   "aliases": [
+    "who is this goblin",
+    "pixel lore",
+    "splintertree goblin"
+   ],
+   "answer": "Pixel is a freelance goblin courier stationed at Splintertree Post in eastern Ashenvale. She makes her trade hauling cargo through perilous lands, currently managing a shipment of saw blades vital to the local Warsong logging campaign."
+  },
+  {
+   "q": "Why won't Pixel hand over the saw blades immediately?",
+   "aliases": [
+    "why does pixel want payment",
+    "warsong saw blades delivery",
+    "saw blades quest"
+   ],
+   "answer": "Like any savvy goblin, Pixel operates strictly on business principles. Despite the Horde's urgency in Ashenvale, she refuses to release her cargo of saw blades without proper compensation or trade goods to cover her fee."
+  },
+  {
+   "q": "Why does she want satyr horns?",
+   "aliases": [
+    "why satyr horns",
+    "pixel satyrs",
+    "satyr quest splintertree"
+   ],
+   "answer": "Pixel accepts valuable trophies from the local forests, such as satyr horns, as currency or collateral. Satyrs are plentiful and hostile in Ashenvale, making their horns a recognizable and lucrative prize for a merchant willing to trade."
+  },
+  {
+   "q": "Is Pixel officially a member of the Horde?",
+   "aliases": [
+    "is pixel horde",
+    "pixel faction",
+    "is pixel neutral"
+   ],
+   "answer": "Pixel works closely with the Horde at Splintertree Post due to lucrative contracts with the Warsong lumber operations, but her primary loyalty lies with trade, profit, and fulfilling her delivery agreements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For Horde champions fighting to establish a foothold in Ashenvale, Pixel provides the industrial hardware the Warsong Clan desperately needs to keep their logging machinery running."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "courier",
+  "goblin",
+  "pixel",
+  "satyr horns",
+  "splintertree post",
+  "warsong saw blades"
+ ],
+ "related": [
+  "subzone:splintertree-post",
+  "zone:ashenvale",
+  "quest:6581",
+  "quest:6441",
+  "topic:goblin",
+  "topic:satyr"
+ ],
+ "attribution": [
+  "Pixel"
+ ]
+}

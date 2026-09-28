@@ -1,0 +1,89 @@
+{
+ "key": "npc:innkeeper-norman",
+ "type": "npc",
+ "name": "Innkeeper Norman",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Innkeeper Norman",
+  "refs": 1
+ },
+ "summary": "Innkeeper Norman tends the hearth at the primary tavern in the Trade Quarter of the Undercity. A quiet, diligent Forsaken, he offers travelers of the Horde respite, hearthstone bindings, and food suited to the varied tastes of both the living and the dead.",
+ "sections": [
+  {
+   "title": "Hospitality in the Sewers",
+   "body": "Located in the bustling Trade Quarter beneath the ruined Capital City of Lordaeron, Innkeeper Norman provides lodging for emissaries, mercenaries, and adventurers passing through the Forsaken stronghold. Despite the damp chill and alchemical stenches of the Undercity, Norman's tavern remains a bustling hub for travelers looking to anchor their hearthstones, share news from across Azeroth, or prepare for expeditions into the Plaguelands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Festive Eccentricities",
+   "body": "While Norman typically keeps to his duties selling provisions and managing rooms, the seasonal arrival of Hallow's End reveals a more peculiar side. During the holiday, Norman participates in the seasonal revelry, demanding peculiar displays\u2014such as clucking like a chicken\u2014from adventurous patrons eager to earn holiday treats like Undercity mints.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Innkeeper Norman?",
+   "aliases": [
+    "norman location",
+    "undercity innkeeper location",
+    "where is norman"
+   ],
+   "answer": "Innkeeper Norman is found inside the main tavern in the Trade Quarter of the Undercity, situated along the southern curve of the inner ring."
+  },
+  {
+   "q": "What services does Innkeeper Norman provide?",
+   "aliases": [
+    "norman services",
+    "undercity hearthstone"
+   ],
+   "answer": "He serves as a primary innkeeper for the Undercity. Players can bind their hearthstones to his tavern, purchase food and drink suited for both the living and the undead, or log out safely to earn rest."
+  },
+  {
+   "q": "Why does Norman ask patrons to cluck like a chicken?",
+   "aliases": [
+    "chicken clucking mints",
+    "norman chicken quest"
+   ],
+   "answer": "During the Hallow's End festival, Norman participates in traditional holiday trickery. Adventurers seeking special holiday mints must swallow their pride and cluck like a chicken to earn his favor."
+  },
+  {
+   "q": "Is Norman related to Innkeeper Bates?",
+   "aliases": [
+    "norman bates connection",
+    "innkeeper bates norman"
+   ],
+   "answer": "While they do not mention each other directly in life or undeath, their names are a grim nod by the Forsaken to the notorious Norman Bates, fitting the dark and macabre nature of Lordaeron's new masters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For living Horde allies visiting the Undercity, Norman's tavern is one of the few places offering a secure place to rest and recover amid an otherwise unwelcoming subterranean fortress."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Norman offers fellow Forsaken a central gathering place in the heart of the Trade Quarter to rest their bones between assignments for the Dark Lady."
+  }
+ ],
+ "keywords": [
+  "bates",
+  "hallow's end",
+  "hearthstone",
+  "innkeeper",
+  "norman",
+  "trade quarter",
+  "undercity"
+ ],
+ "related": [
+  "subzone:trade-quarter",
+  "zone:undercity",
+  "topic:forsaken",
+  "topic:horde",
+  "quest:8353",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Innkeeper Norman"
+ ]
+}

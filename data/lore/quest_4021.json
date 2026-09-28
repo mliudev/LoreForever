@@ -1,0 +1,133 @@
+{
+ "key": "quest:4021",
+ "type": "quest",
+ "name": "Counterattack!",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   4021
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Regthar Deathgate",
+  "end": "",
+  "previous": "Hezrul Bloodmark (Classic)",
+  "next": null,
+  "wiki": "Counterattack! (Classic)",
+  "chain": [
+   "Kolkar Leaders (Classic)",
+   "Verog the Dervish (Classic)",
+   "Hezrul Bloodmark (Classic)",
+   "Counterattack! (Classic)"
+  ]
+ },
+ "summary": "Following the systematic elimination of their local chieftains in the Barrens, the Kolkar centaur mount a desperate retaliation out of Desolace. An invading force marches directly upon Regthar Deathgate's outpost west of the Crossroads, culminating in a fierce confrontation with Warlord Krom'zar.",
+ "sections": [
+  {
+   "title": "Vengeance from Desolace",
+   "body": "The campaign against the Kolkar centaur in the Barrens struck deep into their tribal leadership. With Barak Kodobane, Verog the Dervish, and Hezrul Bloodmark dead, the remaining centaur found themselves shattered and without direction. In response to this humiliation, word traveled west across the mountains to their ancestral homeland in Desolace. Rather than scattering into the scrubland, a fresh contingent of hardened Kolkar warriors rallied and crossed into the Barrens, burning for blood and retribution against the fledgling Horde encampments.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defense of the Bunkers",
+   "body": "The retaliatory force targets the fortified Horde bunkers west of the Crossroads manned by Regthar Deathgate. Waves of Kolkar invaders assault the defensive line, clashing violently with stationed Horde grunts. At the spearhead of this warband is Warlord Krom'zar, an imposing commander whose banner serves as a rallying cry for the invaders. By holding the line against the charge, felling Krom'zar, and tearing down his war banner, defenders permanently break the back of the centaur threat across the central plains.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the Kolkar attacking this specific outpost?",
+   "aliases": [
+    "why attack regthar",
+    "why barrens bunker attacked",
+    "centaur counterattack reason"
+   ],
+   "answer": "Regthar Deathgate orchestrated the systematic assassinations of the Kolkar leadership around the lush oases of the Barrens. Seeking vengeance for their fallen chieftains, the centaur marched directly upon his fortified bunkers west of the Crossroads to crush the Horde command post responsible."
+  },
+  {
+   "q": "Where did these centaur reinforcements come from?",
+   "aliases": [
+    "where do kolkar come from",
+    "kolkar reinforcements source",
+    "desolace centaur"
+   ],
+   "answer": "The invading warband traveled across the western mountain passes from Desolace, the rugged and barren heartland where the majority of the centaur clans dwell."
+  },
+  {
+   "q": "Who is Warlord Krom'zar?",
+   "aliases": [
+    "who is kromzar",
+    "krom'zar lore",
+    "warlord kromzar"
+   ],
+   "answer": "Warlord Krom'zar is the leader of the Kolkar retaliatory warband sent from Desolace. He personally leads the charge against Regthar's bunkers, fighting under a distinct war banner until cut down by Horde defenders."
+  },
+  {
+   "q": "Does Thrall learn about this battle?",
+   "aliases": [
+    "thrall counterattack",
+    "does thrall hear about this",
+    "warchief reward"
+   ],
+   "answer": "Yes. Upon presenting the torn remnants of Krom'zar's banner, Regthar Deathgate promises to send formal word directly to Warchief Thrall in Orgrimmar, honoring the defense of the Barrens."
+  },
+  {
+   "q": "What happens to the Kolkar presence after this battle?",
+   "aliases": [
+    "are kolkar defeated",
+    "barrens centaur fate",
+    "end of kolkar questline"
+   ],
+   "answer": "The defeat of Warlord Krom'zar breaks the last organized offensive force of the Kolkar in the central Barrens, securing the trade routes around the Crossroads and leaving the remaining tribes fragmented and leaderless."
+  },
+  {
+   "q": "What is the piece of Krom'zar's banner used for?",
+   "aliases": [
+    "kromzar banner",
+    "banner piece quest item",
+    "why take banner"
+   ],
+   "answer": "Tearing a piece of Krom'zar's battle standard serves as undeniable physical proof of the warlord's death, symbolizing the complete collapse of the centaur invasion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Defending the bunkers cements the Horde's territorial grip on the central Barrens, securing vital supply lines between Durotar, Mulgore, and the Crossroads."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The defeat of Krom'zar's invasion brings vital security to the plains, pushing back the ancient and bitter centaur menace that has hounded the tauren people for generations."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Standing beside the outpost grunts against relentless charges of centaur invaders makes this defense a quintessential trial of front-line endurance and battlefield discipline."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bunkers",
+  "centaur",
+  "counterattack",
+  "crossroads",
+  "desolace",
+  "kolkar",
+  "kromzar",
+  "regthar deathgate",
+  "warlord krom'zar"
+ ],
+ "related": [
+  "quest:852",
+  "quest:851",
+  "quest:850",
+  "quest:1361",
+  "subzone:crossroads",
+  "zone:barrens",
+  "zone:desolace",
+  "npc:thrall"
+ ],
+ "attribution": [
+  "Counterattack! (Classic)"
+ ]
+}

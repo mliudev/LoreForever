@@ -1,0 +1,118 @@
+{
+ "key": "quest:1149",
+ "type": "quest",
+ "name": "Test of Faith",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1149
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Dorn Plainstalker",
+  "end": "",
+  "previous": null,
+  "next": "Test of Endurance",
+  "wiki": "Test of Faith (quest)",
+  "chain": []
+ },
+ "summary": "The Test of Faith is a spiritual rite administered by the hermit Dorn Plainstalker high above the canyon floor of Thousand Needles. It challenges Horde adventurers to prove their resolve by stepping off a precarious wooden plank into the open chasm below.",
+ "sections": [
+  {
+   "title": "A Measure of the Spirit",
+   "body": "Dorn Plainstalker dwells in a secluded vantage overlooking the wind-carved spires of Thousand Needles, pondering the facets that make up a living being: the mind, the body, and the spirit. Rather than relying on simple tribal traditions, Dorn administers his own trials to measure what truly lies within an adventurer. He posits that while conviction can take many forms, the essential quality is simply having the fortitude to believe in something strongly enough to risk one's life on it.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Leap into the Void",
+   "body": "The trial is deceptively direct. Transported to the sheer summit of one of the towering stone needles, the supplicant stands atop weathered wooden planks suspended over empty air. To pass, one must conquer self-preservation and step off into the abyss without any tangible guarantee of survival. Those who jump find their descent broken by arcane or spiritual forces and are whisked back to safety, having demonstrated that their spirit is tempered enough to face unforeseen trials ahead.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dorn Plainstalker?",
+   "aliases": [
+    "dorn plainstalker lore",
+    "who gives test of faith",
+    "quest giver thousand needles"
+   ],
+   "answer": "Dorn Plainstalker is a tauren hermit residing in a remote cliffside camp above Thousand Needles. He serves as a spiritual proctor, seeking out adventurers of the Horde to test the various aspects of their mortal makeup: faith, endurance, and strength."
+  },
+  {
+   "q": "Will jumping off the plank kill me?",
+   "aliases": [
+    "do i die jumping",
+    "will fall damage kill me test of faith",
+    "is test of faith dangerous"
+   ],
+   "answer": "No. While the drop off the needle spire looks entirely fatal, the trial functions as an act of trust. Once you step off the wooden planks, magical warding catches you mid-fall and teleports you directly back to Dorn Plainstalker's cave unscathed."
+  },
+  {
+   "q": "What happens after passing the Test of Faith?",
+   "aliases": [
+    "what comes after test of faith",
+    "test of faith chain",
+    "dorn plainstalker next quest"
+   ],
+   "answer": "Proving your faith is merely the opening rite in Dorn's series of trials. Once your spirit is deemed receptive, Dorn immediately challenges your physical resilience in the Test of Endurance."
+  },
+  {
+   "q": "Why does Dorn say failure means realizing the vastness of the Nether?",
+   "aliases": [
+    "vastness of the nether meaning",
+    "dorn plainstalker nether quote"
+   ],
+   "answer": "It is Dorn's grim philosophical reminder of mortality. In his eyes, those who lack the inner fire to commit fully to the challenge risk losing their lives\u2014and their souls\u2014to the endless void beyond the living world."
+  },
+  {
+   "q": "Can Alliance adventurers take this test?",
+   "aliases": [
+    "is test of faith horde only",
+    "can alliance do test of faith"
+   ],
+   "answer": "No. Dorn Plainstalker only extends his wisdom and spiritual guidance to champions aligned with the Horde traversing the dangerous canyons of southern Kalimdor."
+  },
+  {
+   "q": "Where does the Test of Faith take place?",
+   "aliases": [
+    "test of faith location",
+    "where is the plank thousand needles"
+   ],
+   "answer": "The trial begins at Dorn's camp in the Thousand Needles canyon walls, which magically connects to the dizzying precipice of an isolated stone spire jutting out over the gorge floor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo, undergoing rites of passage across Kalimdor's sacred geography is an ancient tradition, and Dorn's trial demands a visceral display of trust in the unseen."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests who spend their days cultivating faith in higher powers find themselves challenged to put their theoretical convictions into literal physical motion."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The trials reflect the core values binding the fledgling Horde together in Kalimdor: absolute conviction, resilience against hostile environments, and unyielding will."
+  }
+ ],
+ "keywords": [
+  "dorn plainstalker",
+  "horde",
+  "leap of faith",
+  "planks",
+  "test of endurance",
+  "test of faith",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:dorn-plainstalker",
+  "quest:1150",
+  "zone:thousandneedles",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Test of Faith (quest)"
+ ]
+}

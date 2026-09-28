@@ -1,0 +1,93 @@
+{
+ "key": "subzone:raven-hill",
+ "type": "subzone",
+ "name": "Raven Hill",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Raven Hill"
+ },
+ "summary": "Raven Hill is a desolate, ruined village in western Duskwood sitting in the long shadow of the vast Raven Hill Cemetery. Once a lively human settlement, it lies abandoned by all but a handful of frightened squatters and invisible spirits.",
+ "sections": [
+  {
+   "title": "A Town Lost to Darkness",
+   "body": "Situated along the western thoroughfare of Duskwood just north of Addle's Stead, Raven Hill is a tragic shell of its former self. When dark magic and undead horrors swept through the Grand Hamlet region, the living evacuated eastward toward Darkshire or fled the territory entirely. Today, ruined timber homes rot beneath perpetual gloom, avoided by travelers who fear both the restless dead wandering down from the neighboring cemetery and the invisible Unseen lurking between the crumbling walls.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Few Who Remain",
+   "body": "Despite its bleak reputation, Raven Hill is not entirely uninhabited. A nervous wreck of an adventurer named Jitters hides among the abandoned structures, terrified of the horrors his own past curiosity helped unleash. Higher up in one of the dilapidated attics, an entrepreneurial goblin named Bliztik ekes out a solitary living selling supplies to wary passersby. They share the ruins with invisible spirits known as the Unseen, living on borrowed time at the edge of the sprawling burial grounds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Raven Hill abandoned?",
+   "aliases": [
+    "what happened to raven hill",
+    "why is raven hill ruined",
+    "who lived in raven hill"
+   ],
+   "answer": "Raven Hill was abandoned when the shadow fell over Duskwood, bringing forth undead horrors, dark magic, and predatory beasts. The town's proximity to the massive Raven Hill Cemetery made it especially indefensible, forcing surviving residents to flee eastward toward the fortified settlement of Darkshire."
+  },
+  {
+   "q": "Who actually lives in the village now?",
+   "aliases": [
+    "who is in raven hill",
+    "raven hill npcs",
+    "living people raven hill"
+   ],
+   "answer": "Only a few daring or desperate souls dwell here. The terrified human Jitters hides among the ruined foundations, plagued by guilt and fear, while a goblin vendor named Bliztik operates out of an upper floor, trading with anyone brave enough to search the abandoned buildings."
+  },
+  {
+   "q": "What are the Unseen haunting Raven Hill?",
+   "aliases": [
+    "unseen raven hill",
+    "invisible monsters raven hill",
+    "ghosts in raven hill"
+   ],
+   "answer": "The Unseen are invisible, hostile spirits that wander through Raven Hill and the nearby cemetery. While invisible to ordinary sight, their presence poses a sudden and deadly threat to any unwary traveler exploring the desolate township."
+  },
+  {
+   "q": "Where does the road through Raven Hill lead?",
+   "aliases": [
+    "raven hill road",
+    "where does road go",
+    "travel raven hill"
+   ],
+   "answer": "The road running past Raven Hill connects westward toward the river bridge into Westfall, southward toward Addle's Stead and the border of Stranglethorn Vale, and eastward through the heart of Duskwood to Darkshire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers crossing the bridge from Westfall, Raven Hill serves as an ominous welcome to the nightmare overtaking western Duskwood."
+  },
+  {
+   "target": "race:Human",
+   "text": "The decaying cottages stand as a grim reminder of how much territory the kingdom of Stormwind has lost to creeping darkness and neglect."
+  }
+ ],
+ "keywords": [
+  "abandoned town",
+  "bliztik",
+  "cemetery",
+  "duskwood",
+  "jitters",
+  "raven hill",
+  "unseen"
+ ],
+ "related": [
+  "subzone:raven-hill-cemetery",
+  "npc:jitters",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "subzone:addle-s-stead",
+  "zone:westfall",
+  "topic:goblin",
+  "quest:163"
+ ],
+ "attribution": [
+  "Raven Hill"
+ ]
+}

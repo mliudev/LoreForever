@@ -1,0 +1,111 @@
+{
+ "key": "npc:old-serra-kis",
+ "type": "npc",
+ "name": "Old Serra'kis",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Old Serra'kis",
+  "refs": 5
+ },
+ "summary": "Old Serra'kis is an ancient, massive threshadon dwelling in the submerged subterranean waters of Blackfathom Deeps. While the invading Twilight's Hammer culled much of the temple's aquatic life for provisions, this enormous beast proved entirely lethal to any who attempted to hunt it.",
+ "sections": [
+  {
+   "title": "Unconquered in the Depths",
+   "body": "When the Twilight's Hammer cultists descended upon the sunken Moonshrine Ruins, they slaughtered the native wildlife beneath the waters for sustenance. Yet beneath the Moonshrine Sanctum, one primeval creature refused to become prey. Old Serra'kis, the largest threshadon in the sunken temple, made short work of any cultist brazen enough to spear him. Eventually, the hunters abandoned their efforts, leaving the ancient carnivore undisturbed in his watery domain.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Hidden Threat",
+   "body": "Reaching Old Serra'kis requires plunging deep beneath the temple floor into a flooded cavern beneath the ruins. Lacking air pockets, the cave itself is as deadly as the beast within. Those who corner him find that Serra'kis possesses an unnatural shadow-leeching resilience, draining the life from his attackers while sustaining his own vitality in the murky darkness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What kind of creature is Old Serra'kis?",
+   "aliases": [
+    "what is serrakis",
+    "is serrakis a hydra",
+    "serrakis creature type"
+   ],
+   "answer": "Old Serra'kis is a massive, ancient threshadon\u2014a long-necked, aquatic reptile native to the lakes and coastal waters of Azeroth."
+  },
+  {
+   "q": "Why didn't the Twilight's Hammer kill him?",
+   "aliases": [
+    "why is serrakis still alive",
+    "twilights hammer serrakis"
+   ],
+   "answer": "The cult slaughtered most aquatic life beneath the Moonshrine Ruins for food, but Serra'kis was too powerful and cunning. Cultists who persisted in attempting to hunt him inevitably ended up as his meals instead, leading the cult to avoid his cave entirely."
+  },
+  {
+   "q": "Where is Old Serra'kis located?",
+   "aliases": [
+    "how to find serrakis",
+    "serrakis location",
+    "where is old serrakis"
+   ],
+   "answer": "He lurks in a submerged cavern beneath the water surrounding the Moonshrine Sanctum within Blackfathom Deeps. Swimmers must dive under the ruins into an airless pool to encounter him."
+  },
+  {
+   "q": "What makes fighting him dangerous?",
+   "aliases": [
+    "serrakis abilities",
+    "how to beat serrakis"
+   ],
+   "answer": "Beyond fighting entirely underwater without natural pockets of air, Old Serra'kis leeches shadow energy from all nearby foes to heal his own wounds throughout combat."
+  },
+  {
+   "q": "Does Serra'kis serve the Twilight's Hammer?",
+   "aliases": [
+    "is serrakis a cultist pet",
+    "who controls serrakis"
+   ],
+   "answer": "No. Unlike other beasts corrupted or trained by the cult, Old Serra'kis remains a completely untamed wild predator defending his subterranean lair."
+  },
+  {
+   "q": "Can you breathe during the battle with Serra'kis?",
+   "aliases": [
+    "drowning serrakis",
+    "breath underwater serrakis"
+   ],
+   "answer": "His enclosed cave offers no ceiling air pockets, forcing underwater fighters to either manage their breath, use magical water-breathing aid, or kite the beast out toward open water."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druids of the wild will find Aquatic Form indispensable when diving into the lightless pool to confront this prehistoric predator."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "A warlock's ability to bestow Unending Breath turns an otherwise deadly, airless subterranean ambush into a manageable fight."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Water Breathing spells granted by spiritual communion with the elements ensure your companions don't drown while grappling with the ancient thresher."
+  }
+ ],
+ "keywords": [
+  "blackfathom deeps",
+  "forgotten pool",
+  "moonshrine sanctum",
+  "old serrakis",
+  "serrakis",
+  "threshadon",
+  "twilight's hammer",
+  "underwater boss"
+ ],
+ "related": [
+  "zone:blackfathom",
+  "subzone:moonshrine-sanctum",
+  "subzone:moonshrine-ruins",
+  "subzone:forgotten-pool",
+  "topic:twilight-s-hammer",
+  "npc:ghamoo-ra-classic"
+ ],
+ "attribution": [
+  "Old Serra'kis"
+ ]
+}

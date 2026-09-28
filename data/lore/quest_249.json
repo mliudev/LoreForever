@@ -1,0 +1,140 @@
+{
+ "key": "quest:249",
+ "type": "quest",
+ "name": "Morganth",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   249
+  ],
+  "level": "26",
+  "faction": "Alliance",
+  "start": "Old Lion Statue / Theocritus",
+  "end": "Theocritus",
+  "previous": "Looking Further",
+  "next": null,
+  "wiki": "Morganth (quest)",
+  "chain": [
+   "Theocritus' Retrieval",
+   "A Watchful Eye",
+   "Looking Further",
+   "Morganth (quest)"
+  ]
+ },
+ "summary": "Morganth is the climactic quest concluding a long investigation by the mage Theocritus into a sinister rival perched in Redridge. Entrusted with stopping a dark warlock seeking an ancient relic of horrific power, adventurers must breach the Tower of Ilgalar and put an end to his machinations.",
+ "sections": [
+  {
+   "title": "A Watcher Across the Border",
+   "body": "From his sanctum at the Tower of Azora in eastern Elwynn Forest, the mage Theocritus kept a vigilant scrying eye trained upon the crags of Redridge. What he observed confirmed his deepest anxieties: the warlock Morganth, holed up in the Tower of Ilgalar, was actively seeking the legendary Scythe of Elune. Realizing the warlock stood on the precipice of securing this dark might, Theocritus called upon bold Alliance champions to intervene before Morganth's shadow fell across the entire kingdom of Stormwind.",
+   "spoiler": 0
+  },
+  {
+   "title": "Storming the Spire",
+   "body": "The Tower of Ilgalar looms high above the Redridge basin, infested with gnolls and twisted arcane energies. Morganth awaited at its summit, wielding shadow magic and guarding his research. Confronting the warlock required ascending through hostile grounds to cut down the caster directly and claim his Pendant of Shadow as undeniable proof that the spire had fallen and the threat was broken.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scythe's Lingering Shadow",
+   "body": "Though Morganth's defeat removes an immediate and catastrophic threat to Stormwind, his pursuit of the Scythe of Elune reveals just how far the artifact's dark legend reaches. While Theocritus breathes a sigh of relief upon receiving the Pendant of Shadow, the true whereabouts of the ancient scythe and the havoc it might bring remain an unsettling mystery across the surrounding provinces.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Morganth?",
+   "aliases": [
+    "morganth identity",
+    "who is morganth",
+    "morganth backstory"
+   ],
+   "answer": "Morganth is a powerful rogue warlock residing at the summit of the Tower of Ilgalar in the Redridge Mountains. He has spent his time studying dark arts and pursuing the Scythe of Elune, an artifact capable of wielding disastrous magic."
+  },
+  {
+   "q": "Where is the Tower of Ilgalar?",
+   "aliases": [
+    "tower of ilgalar location",
+    "where is morganth tower",
+    "redridge tower"
+   ],
+   "answer": "The Tower of Ilgalar is located in the northeastern heights of the Redridge Mountains, north of Lake Everstill and past the gnoll-infested camps of the Ridgepoint area."
+  },
+  {
+   "q": "Why does Theocritus want Morganth dead?",
+   "aliases": [
+    "theocritus motive",
+    "why kill morganth",
+    "theocritus quest reason"
+   ],
+   "answer": "Through his scrying spells, Theocritus learned that Morganth was hunting the Scythe of Elune and feared the warlock was close to obtaining it. Such dark power would pose a catastrophic threat to Redridge and the neighboring kingdom of Stormwind."
+  },
+  {
+   "q": "What is the Scythe of Elune?",
+   "aliases": [
+    "scythe of elune lore",
+    "what is the scythe",
+    "why is the scythe dangerous"
+   ],
+   "answer": "The Scythe of Elune is an ancient artifact steeped in mystery, renowned for immense, chaotic power that can warp beasts, summon nightmarish horrors, and corrupt magic. Warlocks and dark spellcasters covet it for the vast shadow energies it unleashes."
+  },
+  {
+   "q": "What is the Pendant of Shadow?",
+   "aliases": [
+    "pendant of shadow",
+    "morganth pendant",
+    "proof of morganth death"
+   ],
+   "answer": "The Pendant of Shadow is Morganth's magical talisman, functioning both as a focus for his dark arts and as definitive proof of his defeat when brought back to Theocritus at the Tower of Azora."
+  },
+  {
+   "q": "What quest chain leads up to this?",
+   "aliases": [
+    "morganth quest chain",
+    "morganth prerequisites",
+    "how to unlock morganth"
+   ],
+   "answer": "This quest is the finale of a four-part chain starting with 'Theocritus' Retrieval' in Elwynn Forest, followed by 'A Watchful Eye' and 'Looking Further', which involve recovering tools and setting up scrying to observe Morganth's tower."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Theocritus represents the diligent, scholarly tradition of human mages watching from high towers to safeguard the realm from rogue spellcasters."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Morganth represents the danger of unchecked fel and shadow ambitions, proving that grasping for relics like the Scythe of Elune invites swift destruction."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Whispers of the Scythe of Elune in human hands should deeply alarm the kaldorei, as the relic's name touches upon sacred and volatile mysteries."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Defeating Morganth protects the exposed eastern borders of Stormwind, ensuring that the Redridge region does not collapse into dark sorcery."
+  }
+ ],
+ "keywords": [
+  "elwynn",
+  "morganth",
+  "pendant of shadow",
+  "redridge",
+  "scythe of elune",
+  "theocritus",
+  "tower of azora",
+  "tower of ilgalar"
+ ],
+ "related": [
+  "quest:248",
+  "quest:94",
+  "quest:178",
+  "npc:theocritus",
+  "subzone:tower-of-ilgalar",
+  "subzone:tower-of-azora",
+  "quest:1043",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Morganth (quest)"
+ ]
+}

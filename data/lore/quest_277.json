@@ -1,0 +1,120 @@
+{
+ "key": "quest:277",
+ "type": "quest",
+ "name": "Fire Taboo",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   277
+  ],
+  "level": "23",
+  "faction": "Alliance",
+  "start": "Rethiel the Greenwarden",
+  "end": "",
+  "previous": "Tramping Paws",
+  "next": "Blisters on The Land",
+  "wiki": "Fire Taboo",
+  "chain": []
+ },
+ "summary": "Fire Taboo is a task assigned by Rethiel the Greenwarden along the marshy roads of the Wetlands. Tormented by the suffering of the local forest, the dryad sends travelers to strip the Mosshide gnolls of the crude flints they use to ignite and burn living wood. By depriving the gnolls of fire, Rethiel hopes to spare the bog's ancient boughs from being consumed.",
+ "sections": [
+  {
+   "title": "A Dryad's Anguish",
+   "body": "Rethiel the Greenwarden watches over the wilds of the Wetlands, maintaining a profound spiritual kinship with the trees of the marsh. While the natural cycle of rot and renewal belongs in a swamp, the deliberate destruction of the timber cuts deep into her spirit. To a child of Cenarius, hearing the groans of living boughs chopped down and cast into hearthfires is an agony she can no longer endure in silence.",
+   "spoiler": 0
+  },
+  {
+   "title": "Extinguishing the Mosshides",
+   "body": "The Mosshide pack ravages the wetlands for warmth and territory, felling green trees rather than gathering fallen deadwood. To curb their expansion without a prolonged war of attrition, Rethiel targets the key tool of their destruction: the crude flints used by the stronger gnolls. By stripping the pack of fire-making implements, she renders them unable to burn the felled timber. She personally shatters each collected stone and casts the dust into the sea, ensuring those sparks will never ignite the forest again.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rethiel the Greenwarden?",
+   "aliases": [
+    "who is rethiel",
+    "rethiel greenwarden lore",
+    "who gives fire taboo"
+   ],
+   "answer": "Rethiel the Greenwarden is a daughter of Cenarius stationed in the Wetlands. Bound deeply to the vitality of the local trees and plant life, she seeks to protect the wounded swamp from the depredations of the Mosshide gnolls."
+  },
+  {
+   "q": "Why does Rethiel want crude flints instead of killing the gnoll leaders?",
+   "aliases": [
+    "why flints",
+    "why take flints",
+    "crude flint purpose"
+   ],
+   "answer": "Rethiel considers burning living wood an unpardonable violation. By seizing the flints, she directly prevents the gnolls from lighting fires to consume the wetland's trees, crippling their encampments and ending the destruction of living wood."
+  },
+  {
+   "q": "What happens to the flints once they are turned in?",
+   "aliases": [
+    "what does she do with flints",
+    "flint destruction"
+   ],
+   "answer": "Rethiel smashes the crude flints to pieces and casts the remnants into the sea so they can never again be struck to produce a spark against living timber."
+  },
+  {
+   "q": "Which gnolls carry the flints?",
+   "aliases": [
+    "who drops flints",
+    "which gnolls have crude flint"
+   ],
+   "answer": "The stronger members of the Mosshide pack carry crude flints. The smaller Mosshide gnolls and the weaker mongrels are not trusted with fire-making tools and do not carry them."
+  },
+  {
+   "q": "Why are the Mosshides cutting down trees?",
+   "aliases": [
+    "why gnolls cut trees",
+    "mosshide woodcutting"
+   ],
+   "answer": "The Mosshide gnolls cut down living trees to fuel their campfires and warm themselves in the damp swamp, rather than relying on dry, fallen timber."
+  },
+  {
+   "q": "What comes next after gathering the flints?",
+   "aliases": [
+    "what quest is after fire taboo",
+    "next quest after flints"
+   ],
+   "answer": "After you deprive the gnolls of fire, Rethiel sends you to deal with another blight afflicting the marshes in the follow-up quest, Blisters on The Land."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As guardians of the wild, druids share Rethiel's reverent bond with the trees and understand the unnatural pain of living wood subjected to gnoll firepits."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elves revere the daughters of Cenarius, recognizing Rethiel's sacred duty to guard the spirits of the boughs from barbaric desecration."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Mosshide gnolls threaten travelers passing through the Wetlands; aiding the local spirits helps secure the trade routes connecting Dun Morogh and Arathi."
+  }
+ ],
+ "keywords": [
+  "crude flint",
+  "fire taboo",
+  "gnolls",
+  "greenwarden",
+  "living wood",
+  "mosshide",
+  "rethiel",
+  "wetlands"
+ ],
+ "related": [
+  "npc:rethiel-the-greenwarden",
+  "quest:276",
+  "quest:275",
+  "topic:gnoll",
+  "zone:wetlands",
+  "quest:463"
+ ],
+ "attribution": [
+  "Fire Taboo"
+ ]
+}

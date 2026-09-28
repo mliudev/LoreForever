@@ -1,0 +1,94 @@
+{
+ "key": "subzone:camp-narache",
+ "type": "subzone",
+ "name": "Camp Narache",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Camp Narache"
+ },
+ "summary": "Camp Narache is a secluded village nestled upon Red Cloud Mesa in southern Mulgore. It serves as the ancestral home of the Hawkwind tribe and the proving ground where young tauren begin their training. Sheltered high above the plains, the camp maintains ancient traditions while constantly guarding against encroaching quilboar and lingering centaur threats.",
+ "sections": [
+  {
+   "title": "Heart of the Hawkwind Tribe",
+   "body": "Situated at the northern edge of the elevated Red Cloud Mesa, Camp Narache is the primary settlement of the Hawkwind tribe. The village consists of several large hide lodges and pavilions, including a communal tent for wounded braves, an armory, a bakery tent, and a spirit lounge dedicated to meditation and ancestral communion. At the center of the camp, tribal elders and path trainers stand in a solemn circle honoring the memory of Greatmother Hawkwind, guiding newly initiated youth as they step into their roles as defenders of the Earth Mother.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Proving Ground Under Threat",
+   "body": "Though naturally fortified by the steep sheer cliffs of the mesa, Camp Narache faces persistent unrest. Bristleback quilboar from Brambleblade Ravine continuously encroach upon Hawkwind lands, while centaur scouts linger in the distance. Young hunters, shamans, druids, and warriors prove their mettle here by culling the aggressive local wildlife, protecting the village's water well, and turning back quilboar raiders before descending the grand path into the wider valleys of Mulgore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Camp Narache?",
+   "aliases": [
+    "what is camp narache",
+    "narache lore",
+    "tauren starting town"
+   ],
+   "answer": "Camp Narache is the starting village for young tauren, located atop Red Cloud Mesa in southern Mulgore. It is the central encampment of the Hawkwind tribe, serving as a sanctuary where fledgling hunters, warriors, druids, and shamans master their crafts before traveling outward to Bloodhoof Village and Thunder Bluff."
+  },
+  {
+   "q": "Who leads the village?",
+   "aliases": [
+    "who leads camp narache",
+    "camp narache chief",
+    "hawkwind leader"
+   ],
+   "answer": "Chief Hawkwind guides the tribe's braves and coordinates the defenses of the mesa, carrying on the sacred legacy of the fallen matriarch, Greatmother Hawkwind. The tribe's trainers and elders gather at the center of the camp to instruct young adventurers."
+  },
+  {
+   "q": "What threats does the camp face?",
+   "aliases": [
+    "camp narache enemies",
+    "who attacks camp narache",
+    "mesa threats"
+   ],
+   "answer": "The encampment is continually harassed by Bristleback quilboar operating out of Brambleblade Ravine to the east. In addition to feral battleboars and striders wandering the surrounding bluffs, the lingering danger of predatory centaur bands keeps the Hawkwind braves on constant alert."
+  },
+  {
+   "q": "Can travelers easily leave the mesa?",
+   "aliases": [
+    "leaving red cloud mesa",
+    "exit camp narache",
+    "path off the mesa"
+   ],
+   "answer": "Red Cloud Mesa is naturally bounded by sheer cliffs. The only way down into the greater plains of Mulgore is along a guarded mountain path leading north, watched over by Hawkwind braves to prevent hostile beasts and quilboar from ambushing travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, Camp Narache represents childhood's end\u2014the sacred earth where you take your first rites of the hunt and attune yourself to the ancestral spirits under the watchful gaze of the Hawkwind elders."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Young shaman take their very first steps along the spiritual path here, undertaking trials to earn their Earth Totem and speak directly with the elementals of the mesa."
+  }
+ ],
+ "keywords": [
+  "bristleback",
+  "greatmother hawkwind",
+  "hawkwind",
+  "mulgore",
+  "narache",
+  "red cloud mesa",
+  "spirit lounge",
+  "tauren"
+ ],
+ "related": [
+  "subzone:red-cloud-mesa",
+  "zone:mulgore",
+  "npc:greatmother-hawkwind",
+  "subzone:brambleblade-ravine",
+  "subzone:fargaze-mesa",
+  "subzone:battleboar-pen",
+  "topic:tauren",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Camp Narache"
+ ]
+}

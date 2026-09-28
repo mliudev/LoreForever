@@ -1,0 +1,129 @@
+{
+ "key": "quest:849",
+ "type": "quest",
+ "name": "Revenge of Gann",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   849
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Gann Stonespire",
+  "end": "",
+  "previous": "Revenge of Gann",
+  "next": null,
+  "wiki": "Revenge of Gann (2)",
+  "chain": [
+   "Gann's Reclamation",
+   "Revenge of Gann",
+   "Revenge of Gann (2)"
+  ]
+ },
+ "summary": "Revenge of Gann marks the final strike in Gann Stonespire's vendetta against the dwarves of Bael Modan. Armed with a tailored explosive charge crafted from stolen dwarven plans, an agent of the Horde is tasked with detonating the expedition's prized flying machine to avenge the fallen Stonespire tribe.",
+ "sections": [
+  {
+   "title": "A Symbol of Domination",
+   "body": "The Bael Modan excavation is more than an intrusive mining operation; it is an armed fortress planted directly atop the ancestral grounds of the displaced Stonespire tauren. Key to the Prospectors' operational reach and military prowess is their gyrocopter flying machine. Stationed on a watchtower above the dig, the mechanical aircraft surveys the surrounding Barrens, protects supply lines, and acts as a hovering symbol of the Alliance's brazen intrusion into kalimdorian soil.",
+   "spoiler": 0
+  },
+  {
+   "title": "Turned Upon Its Makers",
+   "body": "Having recovered stolen blueprinted plans from Chief Engineer Khazgorm, Gann Stonespire crafts a specialized explosive charge dubbed the Explosive Stick of Gann. By planting this volatile munition upon the flying machine, Gann ensures the dwarves' technological hubris becomes their undoing. The resulting explosion shatters a vital military asset, dealing a humiliating blow to the Bael'dan contingent and honoring the spirits of the lost tribe.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Gann want to destroy the flying machine specifically?",
+   "aliases": [
+    "why destroy gyrocopter",
+    "flying machine purpose",
+    "why target flying machine"
+   ],
+   "answer": "The flying machine is both a weapon of war and a crucial part of Bael Modan's infrastructure, granting the dwarves aerial reconnaissance. More importantly to Gann, it represents a blatant icon of dwarven power and an insulting presence towering over the land his slaughtered tribe once called home."
+  },
+  {
+   "q": "Where is the flying machine located at Bael Modan?",
+   "aliases": [
+    "where is flying machine",
+    "flying machine location",
+    "bael modan gyrocopter spot"
+   ],
+   "answer": "The flying machine is perched on a wooden tower platform halfway down the ramp leading into the main excavation pit, rather than inside or adjacent to the primary dwarven fortress."
+  },
+  {
+   "q": "How did Gann create the explosive device?",
+   "aliases": [
+    "how made bomb",
+    "explosive stick origin",
+    "khazgorm plans explosive"
+   ],
+   "answer": "Gann fashioned the Explosive Stick of Gann using technical schematics and engineering plans recently recovered from Chief Engineer Khazgorm, turning the dwarves' own designs against them."
+  },
+  {
+   "q": "What tribe does Gann belong to?",
+   "aliases": [
+    "gann tribe",
+    "what is stonespire tribe",
+    "who are stonespire tauren"
+   ],
+   "answer": "Gann belongs to the Stonespire tribe, a tauren clan that historically inhabited the southern Barrens until the Ironforge dwarven excavation violently drove them out and destroyed their settlement."
+  },
+  {
+   "q": "Does destroying the machine stop the excavation permanently?",
+   "aliases": [
+    "is bael modan stopped",
+    "does bael modan fall",
+    "did gann win"
+   ],
+   "answer": "It significantly cripples Bael Modan's air superiority and infrastructure while granting Gann personal retribution, but the heavily entrenched dwarven diggers and their fortress remain an active Alliance bastion in the region."
+  },
+  {
+   "q": "What recognition does Gann offer upon finishing this mission?",
+   "aliases": [
+    "gann completion",
+    "gann quest end",
+    "what does gann say"
+   ],
+   "answer": "Gann declares that the hero who destroyed the machine will be revered in Thunder Bluff as a defender of sacred tauren lands and an enduring champion of his lost tribe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Avenging the Stonespire clan by destroying dwarven warmachines strikes a profound chord with any tauren defending their ancestral homeland from desecration."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Crippling the Bael Modan flying machine neutralizes an Alliance aerial weapon capable of scouting and striking deep into the southern Barrens."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The explosive used on the machine is constructed by turning Ironforge blueprints against a gyrocopter, an ironic masterstroke of field sabotage."
+  }
+ ],
+ "keywords": [
+  "bael modan",
+  "explosive stick of gann",
+  "flying machine",
+  "gann stonespire",
+  "khazgorm",
+  "stonespire tribe",
+  "the barrens",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:gann-stonespire",
+  "quest:846",
+  "quest:843",
+  "subzone:bael-modan",
+  "topic:tauren",
+  "zone:barrens",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Revenge of Gann (2)"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "subzone:horizon-scout",
+ "type": "subzone",
+ "name": "Horizon Scout",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Horizon Scout"
+ },
+ "summary": "The Horizon Scout is a sunken vessel resting on the ocean floor in the Ruined Reaches off the southern coast of Azshara. While its captain remains stranded ashore, several crew members remain trapped in the submerged hull, kept alive beneath the waves by an arcane water-breathing enchantment.",
+ "sections": [
+  {
+   "title": "Trapped on the Ocean Floor",
+   "body": "Resting beneath the waves among the treacherous shoals of the Ruined Reaches, the Horizon Scout met a violent end off Azshara's jagged coast. While Captain Vanessa Beltis managed to reach land on a nearby peninsula, a portion of the crew went down with the hull. Miraculously, the survivors inside have not drowned; a gnome named Roland Geardabbler maintains a sustained magical bubble of water breathing that preserves them within the wreckage. Surrounded by hostile aquatic predators and predatory naga, the remaining sailors wait in the dark forward compartments, unable to surface on their own.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Naga Ambush",
+   "body": "Evidence aboard the ship hints at the sinister forces behind its destruction. In the forward stairwell lies a small shard of raw Azsharite, a mysterious mineral unique to these shores. The Spitelash naga prowling the waters around the Ruined Reaches likely struck the Horizon Scout to plunder whatever artifacts or resources the expedition carried, dragging the vessel down to ensure no survivors could escape with secrets or treasures of the coast.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Horizon Scout located?",
+   "aliases": [
+    "horizon scout location",
+    "where is horizon scout",
+    "find horizon scout"
+   ],
+   "answer": "The wreck of the Horizon Scout sits submerged at the bottom of the bay in the Ruined Reaches, located off the southern coast of Azshara."
+  },
+  {
+   "q": "How is the crew still alive underwater?",
+   "aliases": [
+    "how are they breathing",
+    "why crew not dead",
+    "roland geardabbler aura"
+   ],
+   "answer": "A gnomish engineer or mage named Roland Geardabbler continuously channels an aura of water breathing inside the sunken hull, keeping the trapped crew members alive in a sustained pocket of breathable air."
+  },
+  {
+   "q": "Who is Captain Vanessa Beltis?",
+   "aliases": [
+    "vanessa beltis",
+    "horizon scout captain",
+    "ship captain"
+   ],
+   "answer": "Captain Vanessa Beltis is the commander of the Horizon Scout. Unlike the sailors trapped in the hull, she managed to reach the safety of Azshara's southern peninsula alongside a few stranded survivors."
+  },
+  {
+   "q": "What caused the Horizon Scout to sink?",
+   "aliases": [
+    "why did horizon scout sink",
+    "who sank horizon scout",
+    "what happened to the ship"
+   ],
+   "answer": "The ship was almost certainly ambushed and sunk by the local Spitelash naga. A piece of raw Azsharite resting in the lower deck suggests the naga attacked to seize whatever mineral riches or artifacts the expedition had gathered."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "The entire surviving crew owes their breath to Roland Geardabbler, whose relentless spellcasting holds back the ocean depths inside the flooded hull."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Horizon Scout represents a disastrous Alliance-aligned maritime venture into the perilous waters of Azshara, leaving its crew divided between the shore and a watery tomb."
+  }
+ ],
+ "keywords": [
+  "azshara shipwreck",
+  "azsharite",
+  "horizon scout",
+  "roland geardabbler",
+  "ruined reaches",
+  "spitelash",
+  "vanessa beltis"
+ ],
+ "related": [
+  "subzone:ruined-reaches",
+  "zone:azshara",
+  "topic:naga",
+  "subzone:faldir-s-cove"
+ ],
+ "attribution": [
+  "Horizon Scout"
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "key": "quest:6545",
+ "type": "quest",
+ "name": "Warsong Runner Update",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6545
+  ],
+  "level": "19",
+  "faction": "Horde",
+  "start": "Warsong Runner",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Warsong Runner Update (quest)",
+  "chain": []
+ },
+ "summary": "Warsong Runner Update is a Horde communication task connecting the forward defenses of Ashenvale with commanders along the border. Entrusted to couriers and fresh recruits, the missive details the rising military pressure facing Warsong scouts, notably the aggression of encroaching naga.",
+ "sections": [
+  {
+   "title": "Frontline Dispatches",
+   "body": "The Warsong Clan maintains a string of scouts and runners throughout Ashenvale to monitor surrounding hostilities and keep lines of supply intact. Between territorial skirmishes with night elf sentinels and the harsh environment, swift intelligence is vital. Couriers carrying frontline dispatches are essential in ensuring remote garrisons remain coordinated with commanders like Kadrak posted on the Mor'shan Rampart.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Naga Threat",
+   "body": "While the Horde expects fierce opposition from the night elves among the trees, outpost sentries have reported increasingly bold assaults from the naga. These serpentine invaders strike from waterways and ancient ruins, testing the outpost's barricades and forcing defenders to divert attention away from forestry and border patrols. The update carried back to the Mor'shan Rampart sounds the alarm regarding these coordinated amphibious attacks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the report being sent to?",
+   "aliases": [
+    "who receives update",
+    "kadrak report",
+    "where does report go"
+   ],
+   "answer": "The report is carried directly back to Kadrak, an overseer stationed at the Mor'shan Rampart along the border between Ashenvale and the Northern Barrens."
+  },
+  {
+   "q": "What threats are mentioned in the update?",
+   "aliases": [
+    "what is in report",
+    "runner update content",
+    "naga attacks"
+   ],
+   "answer": "The scout reports that the local outpost has weathered repeated assaults, highlighting an escalating threat from hostile naga operating in the nearby waters."
+  },
+  {
+   "q": "Why does the Horde rely on foot runners here?",
+   "aliases": [
+    "why runners",
+    "warsong runners lore",
+    "why not wyverns"
+   ],
+   "answer": "Dense foliage, active night elf marksmen, and isolated outposts make aerial transit difficult or exposed across parts of Ashenvale. Ground messengers allow swift, discreet communication along guarded paths."
+  },
+  {
+   "q": "Who are the Warsong Outrunners?",
+   "aliases": [
+    "warsong clan ashenvale",
+    "who are warsong runners"
+   ],
+   "answer": "They are scouts, couriers, and vanguard fighters of the Warsong Clan tasked with securing supply lines and watching enemy movements around the forest's contested borders."
+  },
+  {
+   "q": "Where are the naga attacking in Ashenvale?",
+   "aliases": [
+    "where are naga",
+    "ashenvale naga"
+   ],
+   "answer": "Naga have established strongholds in the ruins along the shores and lakes of Ashenvale, often ambushing travelers and raiding nearby camps."
+  },
+  {
+   "q": "What is the outpost's purpose in this area?",
+   "aliases": [
+    "why is the outpost here",
+    "horde camp purpose"
+   ],
+   "answer": "The post serves as an early warning station and defensive anchor, ensuring hostile forces cannot sever communications between deep forest lumber operations and the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Every soldier counts along the forest frontier, where maintaining communication lines between the Barrens and forward outposts is critical to survival."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The Warsong Clan depends on the grit and vigilance of its runners to hold ground claimed under Warchief Thrall's command."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "kadrak",
+  "mor'shan",
+  "naga",
+  "rampart",
+  "report",
+  "runner",
+  "scout",
+  "warsong"
+ ],
+ "related": [
+  "npc:kadrak",
+  "topic:naga",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Warsong Runner Update (quest)"
+ ]
+}

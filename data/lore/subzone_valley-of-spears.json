@@ -1,0 +1,86 @@
+{
+ "key": "subzone:valley-of-spears",
+ "type": "subzone",
+ "name": "Valley of Spears",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Valley of Spears"
+ },
+ "summary": "The Valley of Spears is a rugged canyon nestled in western Desolace, serving as the stronghold of the Maraudine centaur clan. Enclosed by steep cliffs and guarded passes, the valley leads directly to Maraudon, the sacred ancestral burial ground of all centaurkind.",
+ "sections": [
+  {
+   "title": "Stronghold of the Maraudine",
+   "body": "Carved into the rugged heights of western Desolace, the Valley of Spears earned its name from the bristling defensive stakes and warlike presence of the Maraudine clan. Accessible on foot only through narrow, easily defended mountain passes from the south and east, this enclosed valley provides the centaur with a natural bastion. Travelers who venture past the rocky chokepoints face dense encampments of hostile nomads guarding the approach to their most revered holy site.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threshold of Maraudon",
+   "body": "Tucked away at the southwestern end of the valley lies the entrance to Maraudon, the subterranean tomb complex holding the remains of the first centaur and their earth-mother, Theradras. Because of this proximity, the Maraudine defend the canyon with zealous fury against rival clans and outside interlopers alike. Anyone foolish enough to stumble into the valley unawares\u2014such as careless gnome cartographers or scouts\u2014frequently ends up captured or slain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls the Valley of Spears?",
+   "aliases": [
+    "who lives here",
+    "valley of spears centaur clan",
+    "maraudine base"
+   ],
+   "answer": "The valley is the primary territory of the Maraudine clan, one of the warring centaur factions fighting for dominance in Desolace."
+  },
+  {
+   "q": "Where does the Valley of Spears lead?",
+   "aliases": [
+    "how to get to maraudon",
+    "maraudon entrance",
+    "what is at the end of valley of spears"
+   ],
+   "answer": "At the southwestern extremity of the valley lies the entrance to Maraudon, the holy ancestral cavern and burial ground of the centaur race."
+  },
+  {
+   "q": "How do you enter the valley?",
+   "aliases": [
+    "valley of spears entrance",
+    "how to get in",
+    "passes into valley of spears"
+   ],
+   "answer": "The valley is surrounded by sheer mountain ridges and can only be entered on foot through narrow mountain defiles in the east and south."
+  },
+  {
+   "q": "Is anyone trapped in the valley?",
+   "aliases": [
+    "melizza brimbuzzle",
+    "captive in valley of spears",
+    "gnome prisoner"
+   ],
+   "answer": "Yes, an unfortunate gnome named Melizza Brimbuzzle has been taken prisoner by the Maraudine centaur and is held within their camps."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Centaur savagery has plagued the tribes of Kalimdor for generations; navigating this stronghold brings the tauren face-to-face with the heart of that ancient enmity."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance keeps a cautious eye on the region, particularly after exploratory travelers like the gnome Melizza Brimbuzzle were captured by the hostile Maraudine clan."
+  }
+ ],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "maraudine",
+  "maraudon",
+  "melizza brimbuzzle",
+  "valley of spears"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Valley of Spears"
+ ]
+}

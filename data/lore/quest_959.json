@@ -1,0 +1,128 @@
+{
+ "key": "quest:959",
+ "type": "quest",
+ "name": "Trouble at the Docks",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "ids": [
+   959
+  ],
+  "level": "18",
+  "faction": null,
+  "start": "Crane Operator Bigglefuzz",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Trouble at the Docks",
+  "chain": []
+ },
+ "summary": "Crane Operator Bigglefuzz caused a clumsy cargo accident on the Ratchet docks, allowing a petty troublemaker named Mad Magglish to snatch a priceless vintage bottle. The vintage\u2014a 99-Year-Old Port sent directly from Baron Revilgaz to Gazlowe\u2014must be recovered from the shadows of the Wailing Caverns before the dockmaster fires the negligent crane operator.",
+ "sections": [
+  {
+   "title": "A Clumsy Mishap",
+   "body": "Ratchet thrives on constant sea trade with Booty Bay across the Great Sea, but its goblin efficiency occasionally cracks under sheer volume. When an unusually massive morning shipment arrived at the port, Crane Operator Bigglefuzz tried to cut corners to speed up the unloading process. Lifting far more than his crane could manage, he dropped the entire haul across the docks. In the ensuing chaos, a local nuisance named Mad Magglish took advantage of the spilled crates, snatched a single valuable bottle of liquor, and fled inland.",
+   "spoiler": 0
+  },
+  {
+   "title": "Diplomatic Vintage",
+   "body": "The stolen cargo was far more than an ordinary ration of dockside spirits. The bottle was a 99-Year-Old Port sent as a personal diplomatic gift from Baron Revilgaz, the notorious Blackwater ruler of Booty Bay, to Gazlowe, the chief engineer and overseer of Ratchet. Losing such a lavish offering threatens to humiliate Bigglefuzz and enrage both trade moguls. Faced with losing his job or worse, Bigglefuzz tracked the thief to the ominous mouth of the Wailing Caverns, though fear kept him from following Magglish inside.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cavern Hideout",
+   "body": "Rather than venturing deep into the corrupted dreamscape of the dungeon itself, Mad Magglish chose to hide within the sprawling, damp natural tunnels outside the inner gateway. Relying on clumsy stealth and dark alcoves, Magglish skulks through the subterranean caverns hoping pursuers will give up. Retrieving the port requires flushing out the thief from the outer reaches before the vintage is uncorked or destroyed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this bottle of port so important?",
+   "aliases": [
+    "why does bigglefuzz care",
+    "what is the 99-year-old port",
+    "why is the wine important"
+   ],
+   "answer": "The 99-Year-Old Port is not ordinary grog; it is an extravagant personal gift sent by Baron Revilgaz of Booty Bay to Gazlowe, the boss of Ratchet. Losing it in a dock mishap threatens to deeply anger Ratchet's leadership and cost Crane Operator Bigglefuzz his livelihood."
+  },
+  {
+   "q": "Who is Mad Magglish?",
+   "aliases": [
+    "who is magglish",
+    "who stole the port",
+    "mad magglish lore"
+   ],
+   "answer": "Mad Magglish is an opportunistic thief and troublemaker hanging around Ratchet. When Bigglefuzz dropped a massive cargo load on the docks, Magglish grabbed the rare bottle of port and fled straight into the nearby Wailing Caverns to hide."
+  },
+  {
+   "q": "Do I have to enter the Wailing Caverns dungeon to find the thief?",
+   "aliases": [
+    "is magglish inside the instance",
+    "where is mad magglish",
+    "find magglish"
+   ],
+   "answer": "No. Mad Magglish hides in the winding, public cave passages outside the instance portal. He uses weak stealth and lurks in the upper side tunnels or near the flooded chambers leading toward the main entrance."
+  },
+  {
+   "q": "How did the cargo spill happen?",
+   "aliases": [
+    "why did the crates drop",
+    "what did bigglefuzz do",
+    "crane mishap ratchet"
+   ],
+   "answer": "A massive cargo shipment arrived from Booty Bay, and Crane Operator Bigglefuzz tried to unload more crates at once than his equipment could handle. The overloaded crane dropped the haul, scattering valuable freight across the Ratchet docks."
+  },
+  {
+   "q": "What is the relationship between Ratchet and Booty Bay?",
+   "aliases": [
+    "ratchet and booty bay connection",
+    "steamwheedle ports",
+    "revilgaz and gazlowe"
+   ],
+   "answer": "Both port towns are vital strongholds of the Steamwheedle Cartel, bound by commerce and privateer fleets. Regular trade shipments and formal courtesies pass between Baron Revilgaz in the south and Gazlowe in the Barrens to maintain their mutual trade empire."
+  },
+  {
+   "q": "Why didn't Bigglefuzz retrieve the bottle himself?",
+   "aliases": [
+    "why didn't the goblin get it",
+    "why did bigglefuzz stop chasing"
+   ],
+   "answer": "Bigglefuzz pursued the thief right to the entrance of the Wailing Caverns, but the eerie reputation and monstrous inhabitants of the underground labyrinth terrified the goblin into stopping at the threshold."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Hunting Mad Magglish is an exercise in spotting sloppy concealment, as the thief relies on rudimentary stealth within the cavern crannies to escape notice."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting Ratchet's dockhands helps maintain smooth operations for the primary neutral port connecting Kalimdor to the Eastern Kingdoms."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though operating deep within the Horde-dominated Barrens, staying on the good side of Steamwheedle port operators ensures safe passage through neutral waters."
+  }
+ ],
+ "keywords": [
+  "bigglefuzz",
+  "booty bay",
+  "gazlowe",
+  "magglish",
+  "port",
+  "ratchet",
+  "revilgaz",
+  "wailing caverns"
+ ],
+ "related": [
+  "npc:crane-operator-bigglefuzz",
+  "subzone:ratchet",
+  "zone:wailing",
+  "npc:baron-revilgaz",
+  "subzone:booty-bay",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Trouble at the Docks"
+ ]
+}

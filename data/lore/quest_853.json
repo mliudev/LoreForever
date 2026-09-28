@@ -1,0 +1,124 @@
+{
+ "key": "quest:853",
+ "type": "quest",
+ "name": "Apothecary Zamah",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   853
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "",
+  "end": "",
+  "previous": "Fungal Spores (Classic)",
+  "next": null,
+  "wiki": "Apothecary Zamah (quest)",
+  "chain": [
+   "Fungal Spores (Classic)",
+   "Apothecary Zamah (quest)"
+  ]
+ },
+ "summary": "This errand sends an adventurer racing from the arid Barrens to Thunder Bluff carrying a volatile, rendered fungal emulsion. Apothecary Helbrim needs the potent mixture delivered swiftly to his colleague, Apothecary Zamah, tucked away in the shadowy depths beneath Spirit Rise.",
+ "sections": [
+  {
+   "title": "A Fragile Cargo",
+   "body": "After studying the peculiar fungal blooms thriving across the oases of the Barrens, Apothecary Helbrim cooks down a batch into a delicate emulsion. The unstable brew degrades rapidly once prepared. Lacking the time to travel to Mulgore himself, Helbrim entrusts the flask to a reliable runner to make the climb up the bluffs before the solution loses its chemical potency.",
+   "spoiler": 0
+  },
+  {
+   "title": "Under the Gazes of the Shamans",
+   "body": "Apothecary Zamah maintains her laboratory far from the open plains of Mulgore, sequestered inside the Pools of Vision. This subterranean cavern rests deep beneath the sacred heights of Spirit Rise, shared with secretive warlocks and contemplative seers. Here, beneath the floor of the tauren sanctuary, the Royal Apothecary Society quietly conducts its research using raw materials gathered throughout the continent.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is there a time limit on this delivery?",
+   "aliases": [
+    "why timed",
+    "quest timer",
+    "rendered spores timer"
+   ],
+   "answer": "Helbrim's rendered fungal emulsion is chemically volatile. Left exposed or untreated for too long, the compounds break down and lose their potency, rendering the mixture useless for Zamah's work."
+  },
+  {
+   "q": "Where can I find Apothecary Zamah?",
+   "aliases": [
+    "where is zamah",
+    "zamah location",
+    "find zamah"
+   ],
+   "answer": "Apothecary Zamah is located inside the Pools of Vision in Thunder Bluff. The entrance to this cavern is somewhat concealed on Spirit Rise, leading down beneath the tents of the shamans."
+  },
+  {
+   "q": "Who is Apothecary Helbrim?",
+   "aliases": [
+    "who is helbrim",
+    "helbrim crossroad"
+   ],
+   "answer": "Apothecary Helbrim is an alchemist representing the Royal Apothecary Society stationed at the Crossroads in the Barrens. He analyzes local flora and fauna to see how Kalimdor's native organisms might serve the Forsaken."
+  },
+  {
+   "q": "What is the Royal Apothecary Society doing in Thunder Bluff?",
+   "aliases": [
+    "why forsaken in thunder bluff",
+    "apothecaries in pools of vision"
+   ],
+   "answer": "As allies within the Horde, the Forsaken station representatives like Zamah in Thunder Bluff. Operating quietly in the subterranean Pools of Vision, they analyze specimens gathered across Kalimdor and maintain supply links with other outposts."
+  },
+  {
+   "q": "What were the fungal spores originally used for?",
+   "aliases": [
+    "why spores",
+    "barrens fungi use"
+   ],
+   "answer": "The spores grow around the lush oases in the Barrens, flourishing unnaturally in the desert. Helbrim rendered them down to study their biological traits and alchemical applications before handing them off to Zamah."
+  },
+  {
+   "q": "What happens if the timer runs out?",
+   "aliases": [
+    "failed timer",
+    "spores expired"
+   ],
+   "answer": "If the timer expires, the emulsion degrades and spoils. You must return to Apothecary Helbrim at the Crossroads to acquire a fresh batch to deliver to Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Carrying Helbrim's work to Zamah strengthens the clandestine research network the Royal Apothecary Society maintains across the dusty frontier of central Kalimdor."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "While welcoming their new allies, traditional tauren often look askance at the strange bubbling concoctions the Forsaken brew deep inside the sacred Pools of Vision."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Swift communication between outposts in the Barrens and the high mesa of Thunder Bluff ensures regional supply chains stay linked."
+  }
+ ],
+ "keywords": [
+  "apothecary helbrim",
+  "apothecary zamah",
+  "fungal spores",
+  "pools of vision",
+  "rendered spores",
+  "royal apothecary society",
+  "spirit rise",
+  "the barrens",
+  "thunder bluff"
+ ],
+ "related": [
+  "quest:848",
+  "npc:apothecary-helbrim",
+  "subzone:pools-of-vision",
+  "subzone:spirit-rise",
+  "zone:thunderbluff",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Apothecary Zamah (quest)"
+ ]
+}

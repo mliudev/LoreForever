@@ -1,0 +1,114 @@
+{
+ "key": "quest:89",
+ "type": "quest",
+ "name": "The Everstill Bridge",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   89
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Foreman Oslow",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Everstill Bridge",
+  "chain": []
+ },
+ "summary": "The Everstill Bridge is a rebuilding effort led by Foreman Oslow in Lakeshire to repair the town's damaged stone bridge. Progress has ground to a halt because iron meant for the project was redirected into weapons during the last orc invasion, and the replacement caravan from Stormwind was ambushed by Redridge gnolls.",
+ "sections": [
+  {
+   "title": "A Town Cut Off",
+   "body": "The stone bridge spanning Lake Everstill is the lifeblood of Lakeshire, connecting the western roads back toward Elwynn Forest with the far bank and the northern passes. During the recent orc incursions, the town was pushed to the brink. With survival hanging in the balance, Lakeshire melted down its structural iron supplies to forge munitions, blades, and plate armor to repel the Blackrock invaders, leaving the bridge incomplete and vulnerable.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stolen Shipments",
+   "body": "Foreman Oslow petitioned the House of Nobles and Stormwind for fresh construction materials to finish repairs. A supply caravan laden with iron was dispatched, but it never arrived. A warband of Redridge gnolls ambushed the convoy along the road, carting away vital iron pikes and rivets into their camps in the northern hills. Without adventurous travelers willing to reclaim the stolen hardware, the bridge project remains stalled while gnolls and orcs tighten their grip on the mountains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Everstill Bridge unfinished?",
+   "aliases": [
+    "why broken bridge",
+    "who broke everstill bridge",
+    "lakeshire bridge broken"
+   ],
+   "answer": "Lakeshire had to melt down its construction iron into weapons, bullets, and armor to survive the recent orc invasion. A replacement supply shipment sent from Stormwind was subsequently ambushed and looted by local gnolls, leaving Foreman Oslow without the materials needed to finish the work."
+  },
+  {
+   "q": "Who is Foreman Oslow?",
+   "aliases": [
+    "foreman oslow",
+    "who is oslow"
+   ],
+   "answer": "Foreman Oslow is the master builder supervising the reconstruction of the bridge across Lake Everstill. Stranded without support or materials from the capital, he relies on passing adventurers to recover stolen building supplies from the hills."
+  },
+  {
+   "q": "Who stole the bridge supplies?",
+   "aliases": [
+    "who stole iron rivets",
+    "who took the bridge iron"
+   ],
+   "answer": "The Redridge gnolls ambushed the supply caravan coming from Stormwind and carried the iron pikes and rivets off into their encampments in the hills behind Lakeshire."
+  },
+  {
+   "q": "Why didn't Stormwind send guards to protect the caravan?",
+   "aliases": [
+    "stormwind help lakeshire",
+    "why no guards"
+   ],
+   "answer": "With King Varian Wrynn missing, the Stormwind House of Nobles has largely withheld military aid from outlying territories. Redridge Mountains has been left to fend for itself against gnolls and Blackrock orcs with only minimal support from town militias."
+  },
+  {
+   "q": "Why did Lakeshire melt down their iron?",
+   "aliases": [
+    "why melt iron",
+    "orc invasion redridge"
+   ],
+   "answer": "During the last orc invasion, the defenders of Lakeshire ran desperately low on war materiel. To survive the onslaught, the town melted down its stockpiles of construction iron into armor, swords, and ammunition."
+  },
+  {
+   "q": "What supplies are needed to repair the bridge?",
+   "aliases": [
+    "bridge materials",
+    "what does oslow need"
+   ],
+   "answer": "Foreman Oslow specifically needs heavy iron pikes and iron rivets to securely shore up and anchor the bridge spans across Lake Everstill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The shortage shows how desperate Lakeshire's defenders were: forging weapons out of structural pikes and rivets was a last-ditch effort that saved lives at the expense of vital infrastructure."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire's stranded supply lines are another glaring symptom of Stormwind's neglect of its outer territories, leaving local foremen to rely on hired blades to safeguard road commerce."
+  }
+ ],
+ "keywords": [
+  "everstill bridge",
+  "foreman oslow",
+  "iron pikes",
+  "iron rivets",
+  "lakeshire",
+  "redridge",
+  "redridge gnolls"
+ ],
+ "related": [
+  "npc:foreman-oslow",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "quest:124",
+  "topic:gnoll",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "The Everstill Bridge"
+ ]
+}

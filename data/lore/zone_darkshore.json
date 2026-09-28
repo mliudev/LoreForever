@@ -1,0 +1,132 @@
+{
+ "key": "zone:darkshore",
+ "type": "zone",
+ "name": "Darkshore",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": [
+   "Darkshore (Classic)",
+   "Darkshore"
+  ],
+  "levels": "10-20",
+  "aliases": []
+ },
+ "summary": "Darkshore is a cold, mist-shrouded strip of coast lining northwestern Kalimdor, dotted with ancient Kaldorei ruins and troubled wildlife. Anchored by the Alliance harbor town of Auberdine, it serves as the primary continental gateway for travelers arriving from Teldrassil and the Eastern Kingdoms. Beyond the patrolled road, demonic cults, encroaching naga, and a creeping corruption from the highlands threaten the region's delicate balance.",
+ "sections": [
+  {
+   "title": "A Land of Mist and Memory",
+   "body": "Stretching beneath the western shadows of Mount Hyjal and Felwood, Darkshore is characterized by pine groves, sea fog, and rocky beaches beaten by cold waves. Millennia ago, this coast was home to the flourishing Kaldorei twin cities of Ameth'Aran and Bashal'Aran. Shattered during the Great Sundering, their skeletal pillars and marble arches now lie half-drowned in the surf or overgrown with roots, haunted by restless Highborne spirits and overrun by scavenger murlocs and invasive naga.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Haven of Auberdine",
+   "body": "Following the Third War and the planting of Teldrassil, the night elves established Auberdine as a bustling maritime haven amidst the wilderness. Featuring wooden piers that welcome regular vessels from Rut'theran Village and Menethil Harbor in the distant Wetlands, Auberdine is the lifeline linking night elf territory to the rest of the Alliance. Sentinels diligently patrol the trade highway south toward Ashenvale, though their small garrison struggles to police the deep wilds beyond the path.",
+   "spoiler": 0
+  },
+  {
+   "title": "Poisoned Waters and Whispering Depths",
+   "body": "Despite its shelter against the eastern mountains, Darkshore suffers from a slow, malignant rot. Corrupted run-off trickling down from Felwood poisons sources like Cliffspring Falls, fouling the water table and driving the local bears, stags, and furbolgs of Blackwood Den into violent madness. Worse still, sinister organizations have established footholds in the shadows: the Dark Strand and Twilight's Hammer cultists perform foul rituals at the Tower of Althalaxx and convene around the terrifying, ancient monument known as the Master's Glaive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I get to Darkshore?",
+   "aliases": [
+    "getting to darkshore",
+    "how to reach auberdine",
+    "darkshore boat"
+   ],
+   "answer": "Alliance players can take a boat directly to Auberdine from either Rut'theran Village at the base of Teldrassil or from Menethil Harbor in the Wetlands. Horde travelers journeying north must walk through Ashenvale, following the main road northeast from Zoram'gar Outpost up across the border."
+  },
+  {
+   "q": "What is wrong with the local wildlife and furbolgs?",
+   "aliases": [
+    "why are animals sick",
+    "furbolg corruption",
+    "darkshore taint"
+   ],
+   "answer": "Rivers running out of the tainted heights of Felwood, such as the Cliffspring River, wash demonic pollution straight down into Darkshore's water table. Drinking from these foul streams has driven the native furbolg tribes feral and infected the local deer and predators with disease and aggression."
+  },
+  {
+   "q": "What happened to Ameth'Aran and Bashal'Aran?",
+   "aliases": [
+    "ameth'aran history",
+    "bashal'aran lore",
+    "ruins in darkshore"
+   ],
+   "answer": "They were prosperous twin Kaldorei cities destroyed ten thousand years ago during the Great Sundering. Their ruler, Athrikus Narassin, claimed he would rescue his people from the cataclysm, but he instead bound their souls into gems to preserve them as eternal power sources for himself, leaving the ruins full of weeping ghosts."
+  },
+  {
+   "q": "What is the Master's Glaive?",
+   "aliases": [
+    "what is the masters glaive",
+    "giant skull darkshore",
+    "masters glaive monster"
+   ],
+   "answer": "Located in southern Darkshore, the Master's Glaive is a massive petrified skull impaled by an enormous stone weapon. It is an ancient relic associated with the primordial Old Gods and their servitors, and it currently attracts dangerous cultists from the Twilight's Hammer."
+  },
+  {
+   "q": "Who is the giant tree in the Grove of the Ancients?",
+   "aliases": [
+    "ancient of lore darkshore",
+    "who is onu",
+    "tree person darkshore"
+   ],
+   "answer": "That is Onu, a wise and venerable Ancient of Lore. Resting in his tranquil grove south of Auberdine, he ponders the disturbing encroachment of the Twilight's Hammer cult and assists travelers in investigating disturbances throughout the forest."
+  },
+  {
+   "q": "Who lives in the Tower of Althalaxx?",
+   "aliases": [
+    "tower of althalaxx",
+    "darkshore tower cultists",
+    "althalaxx cult"
+   ],
+   "answer": "The tower is occupied by the Dark Strand, a vicious cult practicing dark sorcery and summoning demonic entities. Their cabal actively ambushes unwary travelers along the northern reaches of the coastal woods."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Darkshore serves as the front line for Cenarion Circle initiates answering summons from Moonglade to diagnose tainted waterways and brew cleansers for sick forest creatures."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves leaving Teldrassil, Darkshore is their first step onto mainland Kalimdor, confronting the painful ruins of their ancient civilization and the spreading corruption of the wild."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Auberdine represents the Alliance's primary trade nexus in northern Kalimdor, maintaining the direct maritime link connecting Stormwind and Ironforge to the night elf capital of Darnassus."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "A remote, heavily patrolled Alliance bastion, Darkshore sits directly north of Horde encampments in Ashenvale, offering a treacherous coastline prowled by hostile sentinels and dangerous cults."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "auberdine",
+  "bashal'aran",
+  "blackwood den",
+  "cliffspring falls",
+  "darkshore",
+  "master's glaive",
+  "onu",
+  "tower of althalaxx"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "subzone:ameth-aran",
+  "subzone:master-s-glaive",
+  "quest:952",
+  "quest:965",
+  "quest:6122",
+  "subzone:menethil-harbor",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Darkshore (Classic)",
+  "Darkshore"
+ ]
+}

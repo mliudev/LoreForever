@@ -1,0 +1,123 @@
+{
+ "key": "topic:varian-wrynn",
+ "type": "topic",
+ "name": "Varian Wrynn",
+ "era": "classic",
+ "zone": "multi",
+ "meta": {
+  "wiki": "Varian Wrynn"
+ },
+ "summary": "King Varian Wrynn is the rightful ruler of the Kingdom of Stormwind, currently missing after vanishing en route to a diplomatic summit in Theramore. In his absence, his ten-year-old son Anduin wears the crown, guided by Highlord Bolvar Fordragon and Lady Katrana Prestor.",
+ "sections": [
+  {
+   "title": "A Boyhood in Ash",
+   "body": "Varian was just a boy when the First War shattered his life. He watched his father, King Llane Wrynn, die by the hand of the assassin Garona Halforcen as the Old Horde stormed the capital. Rescued by Anduin Lothar, the orphaned prince fled north with the kingdom's survivors to Southshore. In Capital City, King Terenas Menethil II took Varian in like a second son. The young prince grew up in exile alongside Prince Arthas Menethil, bearing the memory of a burned home until the Alliance of Lordaeron broke the Horde and reclaimed Stormwind.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Troubled Restoration",
+   "body": "Crowned at eighteen, Varian took on the immense task of resurrecting his ruined kingdom. To restore the capital, he commissioned the Stonemasons Guild under Edwin VanCleef. But when the grand work was finished, the corrupt House of Nobles refused to pay the promised wages, and the stonemasons refused to back down. Varian found himself paralyzed between the entrenched nobility and the furious artisans. The dispute erupted into violent riots in the streets of Stormwind, during which a tossed paving stone struck and killed Varian's beloved wife, Queen Tiffin.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Vanished King",
+   "body": "Devastated by Tiffin's death, Varian spent years in deep melancholy, though he eventually rallied to care for his son, Anduin. Seeking to defuse simmering tensions across the sea, Varian recently departed Stormwind on a private voyage to Theramore Isle for peace talks arranged by Lady Jaina Proudmoore. He never reached the summit. The king disappeared without a trace along the crossing, leaving Stormwind vulnerable, whispers of conspiracy spreading through the court, and the regency in the hands of Highlord Bolvar.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is King Varian right now?",
+   "aliases": [
+    "where is varian",
+    "where did the king go",
+    "is varian alive",
+    "varian location"
+   ],
+   "answer": "Officially, no one in Stormwind knows. Varian vanished while sailing across the Great Sea to Theramore for secret diplomatic talks. The House of Nobles and the palace guard have concealed the full truth from the public to avoid panic, claiming simply that the king is indisposed."
+  },
+  {
+   "q": "Who is currently ruling Stormwind in his place?",
+   "aliases": [
+    "who rules stormwind",
+    "who is king now",
+    "stormwind leader"
+   ],
+   "answer": "His young son, Anduin Wrynn, holds the throne as the child-king. Because Anduin is only ten years old, real administrative and military authority rests with Highlord Bolvar Fordragon, who acts as Prince Regent, heavily influenced by the royal counselor Lady Katrana Prestor."
+  },
+  {
+   "q": "What happened to Varian's wife?",
+   "aliases": [
+    "what happened to tiffin",
+    "queen of stormwind",
+    "how did varian's wife die"
+   ],
+   "answer": "Queen Tiffin was killed during the Stonemason Riots in Stormwind. When negotiations collapsed over unpaid wages for the city's reconstruction, rioting stonemasons hurled stones into the crowd, and a stray rock struck the queen in the head, killing her."
+  },
+  {
+   "q": "Why was Varian going to Theramore?",
+   "aliases": [
+    "why did varian leave",
+    "theramore summit",
+    "varian peace talks"
+   ],
+   "answer": "Varian was traveling to Theramore Isle at the invitation of Lady Jaina Proudmoore to attend a high-level diplomatic summit aimed at easing hostilities between the Alliance and Thrall's Horde."
+  },
+  {
+   "q": "How did Varian escape the First War?",
+   "aliases": [
+    "varian first war",
+    "young varian",
+    "fall of stormwind varian"
+   ],
+   "answer": "After King Llane was assassinated and the Horde burned Stormwind, High Commander Anduin Lothar evacuated Prince Varian and the remaining civilian survivors by sea. They sailed north to Lordaeron, where King Terenas Menethil II took the young prince into his court."
+  },
+  {
+   "q": "What was Varian's relationship with Arthas Menethil?",
+   "aliases": [
+    "did varian know arthas",
+    "varian and arthas",
+    "were arthas and varian friends"
+   ],
+   "answer": "They grew up as close companions and rivals in Lordaeron while Varian lived in exile. The two princes often sparred together. However, Arthas's descent into madness, the murder of his father Terenas, and his betrayal of Lordaeron turned that past friendship into bitter hatred."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, Varian is the beloved son of King Llane who returned from exile to rebuild their home; his sudden disappearance casts a shadow of dread over the entire realm."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Trained by veteran knights and hardened by the horrors of the First War, King Varian is admired across the Alliance as a formidable warrior and a fierce martial leader."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Varian's absence leaves the Alliance without its strongest southern monarch, creating a political vacuum that emboldens dissidents and threatens border security from Westfall to Redridge."
+  }
+ ],
+ "keywords": [
+  "anduin",
+  "king",
+  "missing",
+  "stonemasons",
+  "stormwind",
+  "theramore",
+  "tiffin",
+  "varian",
+  "wrynn"
+ ],
+ "related": [
+  "topic:anduin-wrynn",
+  "topic:bolvar-fordragon",
+  "zone:stormwind",
+  "topic:stormwind-kingdom",
+  "topic:house-of-nobles",
+  "topic:anduin-lothar",
+  "topic:arthas-menethil",
+  "topic:terenas-menethil-ii"
+ ],
+ "attribution": [
+  "Varian Wrynn"
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "key": "quest:401",
+ "type": "quest",
+ "name": "Wait for Sirra to Finish",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   401
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Sirra Von'Indi",
+  "end": "",
+  "previous": "Translate Abercrombie's Note",
+  "next": "Translation to Ello",
+  "wiki": "Wait for Sirra to Finish",
+  "chain": []
+ },
+ "summary": "This brief pause marks the moment Sirra Von'Indi deciphers the cryptic note delivered from the reclusive hermit Abercrombie. As she puts quill to paper in Darkshire's Town Hall, an ominous dread settles over the room, hinting that the hermit's words are far darker than expected.",
+ "sections": [
+  {
+   "title": "A Moment of Translation",
+   "body": "After receiving the mysterious note penned by the hermit Abercrombie, Sirra Von'Indi requires only a short spell to decipher its text. As a resident scholar aiding the Night Watch and town leadership, she undertakes the task without realizing immediately what horrors the message conceals.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Ominous Chill",
+   "body": "The moment Sirra completes the transcription, the atmosphere shifts palpably. A sudden heaviness hangs over the room, likened to a thick black curtain dropping over the region. The deciphered note portends great danger for Darkshire, revealing that Abercrombie's seemingly harmless errands were part of a sinister, vengeful design.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sirra Von'Indi?",
+   "aliases": [
+    "sirra von'indi",
+    "who is sirra",
+    "sirra duskwood"
+   ],
+   "answer": "Sirra Von'Indi is an educated scholar residing in Darkshire's Town Hall. She assists Mayor Ello Ebonlocke and the local authorities by translating ancient scripts, strange documents, and ciphered messages brought in from the gloomy wilds of Duskwood."
+  },
+  {
+   "q": "What note is Sirra translating?",
+   "aliases": [
+    "what is the note",
+    "abercrombie note",
+    "what did abercrombie write"
+   ],
+   "answer": "The note was penned by Abercrombie, the hermit who lives secluded in a shack near the western edge of Duskwood. Throughout his errands, he claimed to be innocent and frail, but his encrypted letter reveals his true, malicious intentions toward Darkshire."
+  },
+  {
+   "q": "Why does the air feel heavy when she finishes?",
+   "aliases": [
+    "why does air grow heavy",
+    "black curtain over land",
+    "duskwood dark air"
+   ],
+   "answer": "The sudden oppressive chill represents an impending doom. By translating the letter, Sirra uncovers Abercrombie's final threat: the creation and unleashing of Stitches, a massive undead abomination sent to march upon Darkshire."
+  },
+  {
+   "q": "Who should receive the translated letter next?",
+   "aliases": [
+    "where do i take the translation",
+    "who gets the note next",
+    "next step after sirra"
+   ],
+   "answer": "Once Sirra finishes the translation, she instructs you to carry the chilling words directly across the room to Mayor Ello Ebonlocke so the Night Watch can prepare for what is to come."
+  },
+  {
+   "q": "Is Abercrombie actually an enemy of Darkshire?",
+   "aliases": [
+    "is abercrombie evil",
+    "hermit enemy",
+    "abercrombie lore"
+   ],
+   "answer": "Yes. While Abercrombie presents himself as a harmless, reclusive old man needing assistance to survive, he is in fact a vengeful necromancer who tricked traveling adventurers into gathering the components needed to construct his monstrous creation."
+  },
+  {
+   "q": "Why do you have to wait for her?",
+   "aliases": [
+    "why wait for sirra",
+    "how long do i wait",
+    "sirra waiting"
+   ],
+   "answer": "Translating ancient ciphers takes time and focus. The brief delay gives Sirra a moment to parse the hermit's handwriting and coded phrasing before producing the readable transcript for the mayor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Darkshire's fragile safety hangs by a thread, and uncovering Abercrombie's treachery is vital to defending the town before his abomination reaches the gates."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages studying arcane scripts and runes will recognize the dark, lingering resonance of a cursed message as its contents are laid bare."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "darkshire",
+  "duskwood",
+  "ello ebonlocke",
+  "sirra von'indi",
+  "stitches",
+  "translation"
+ ],
+ "related": [
+  "npc:sirra-von-indi",
+  "quest:251",
+  "quest:252",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Wait for Sirra to Finish"
+ ]
+}

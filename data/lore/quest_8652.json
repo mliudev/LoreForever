@@ -1,0 +1,117 @@
+{
+ "key": "quest:8652",
+ "type": "quest",
+ "name": "Graveborn the Elder",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   8652
+  ],
+  "level": "",
+  "faction": null,
+  "start": "Elder Graveborn",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Graveborn the Elder",
+  "chain": []
+ },
+ "summary": "Graveborn the Elder is a Lunar Festival encounter situated near the town of Brill in Tirisfal Glades. During the celebration, travelers seek out Elder Graveborn among the blighted groves to honor the ancient forebears of Azeroth. Paying respects to this spirit earns his blessing and a token of the holiday.",
+ "sections": [
+  {
+   "title": "A Ghostly Vigil in Brill",
+   "body": "While the Forsaken dwell among ruined manors and grave sites in Tirisfal Glades, the Lunar Festival brings an unexpected communion with ancient times. Elder Graveborn appears as a spectral elder stationed just outside Brill. Even in a realm shattered by the Scourge and reclaimed by the undead, he welcomes pilgrims who pause to honor the ancient ways.",
+   "spoiler": 0
+  },
+  {
+   "title": "Honoring the Olden Races",
+   "body": "The Lunar Festival marks a time when the great spirits of long-past eras return to offer wisdom and gratitude. When travelers approach Elder Graveborn, he remarks on how heartening it is that the inhabitants of Tirisfal still offer homage to the ancestors despite the land's current decay, bestowing a Coin of Ancestry upon those who greet him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Elder Graveborn located?",
+   "aliases": [
+    "elder graveborn location",
+    "where is graveborn",
+    "graveborn coords"
+   ],
+   "answer": "Elder Graveborn is found near the settlement of Brill in Tirisfal Glades, standing quietly near the roadside outside the town."
+  },
+  {
+   "q": "What happens when you speak to Elder Graveborn?",
+   "aliases": [
+    "graveborn reward",
+    "lunar festival graveborn",
+    "what does he give you"
+   ],
+   "answer": "Upon greeting him, Elder Graveborn commends you for honoring the ancient peoples of Azeroth and awards a Coin of Ancestry as part of the Lunar Festival celebrations."
+  },
+  {
+   "q": "Why is an ancient elder standing in Tirisfal Glades?",
+   "aliases": [
+    "why is he in tirisfal",
+    "graveborn lore",
+    "who is elder graveborn"
+   ],
+   "answer": "During the Lunar Festival, the spirits of ancient ancestors manifest across all of Azeroth, from the kaldorei forests to lands torn by war and plague. Elder Graveborn watches over the northern reaches of Lordaeron to ensure its history is not entirely eclipsed by death."
+  },
+  {
+   "q": "Can Alliance players visit Elder Graveborn?",
+   "aliases": [
+    "can alliance talk to graveborn",
+    "alliance graveborn the elder",
+    "graveborn hostile"
+   ],
+   "answer": "Elder Graveborn himself is a neutral spirit of wisdom and will speak with members of both the Alliance and the Horde. However, because he is right outside the Forsaken town of Brill, Alliance adventurers must beware the local guards."
+  },
+  {
+   "q": "What is the Coin of Ancestry used for?",
+   "aliases": [
+    "coin of ancestry use",
+    "what are lunar coins for"
+   ],
+   "answer": "Coins of Ancestry gathered from elders like Graveborn can be traded in Moonglade during the Lunar Festival for festive garments, firework recipes, and other celebratory tokens."
+  },
+  {
+   "q": "Is Elder Graveborn one of the Forsaken?",
+   "aliases": [
+    "is graveborn undead",
+    "is elder graveborn forsaken"
+   ],
+   "answer": "No. Despite his name and ghostly visage near Brill, Elder Graveborn is one of the ancient spirits celebrated during the Lunar Festival, belonging to the long lineage of Azeroth's elders rather than Sylvanas's Forsaken."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken living in Brill, the arrival of ancient ancestral spirits provides a stark reminder of Azeroth's deeper history beyond the recent tragedies of the Scourge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers seeking out Elder Graveborn must tread carefully through Tirisfal Glades, as Brill is a heavily fortified Forsaken haven."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids reverence the Lunar Festival elders as links to the ancient world before the Sundering, heedless of the troubled faction boundaries they inhabit."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "coin of ancestry",
+  "elder graveborn",
+  "graveborn",
+  "lunar festival",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:elder-graveborn",
+  "subzone:brill",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Graveborn the Elder"
+ ]
+}

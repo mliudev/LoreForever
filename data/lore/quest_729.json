@@ -1,0 +1,120 @@
+{
+ "key": "quest:729",
+ "type": "quest",
+ "name": "The Absent Minded Prospector",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   729
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Archaeologist Hollee",
+  "end": "Prospector Remtravel",
+  "previous": "Trouble in Darkshore?",
+  "next": "The Absent Minded Prospector (2)",
+  "wiki": "The Absent Minded Prospector",
+  "chain": []
+ },
+ "summary": "Archaeologist Hollee has fled to Auberdine after an excavation site in southern Darkshore was overrun by hostile stone golems. Terrified for her senior colleague, she asks travelers to rush south and rescue Prospector Remtravel, an esteemed dwarven scholar who is notoriously blind to mortal danger when engrossed in his research.",
+ "sections": [
+  {
+   "title": "A Perilous Dig",
+   "body": "Dispatched across the sea by the Explorers' League under orders from Master Greywhisker, Archaeologist Hollee was thrilled to apprentice under Prospector Remtravel. Renowned among Ironforge's academic circles for his groundbreaking discoveries, Remtravel was sent to investigate ancient ruins along the untamed coast of Darkshore. However, during an excavation into what appeared to be the remnants of an ancient, great civilization, violent stone golems burst forth from the earth, rapidly overrunning the dig site.",
+   "spoiler": 0
+  },
+  {
+   "title": "Oblivious to Doom",
+   "body": "While Hollee fled in panic to seek help in the night elven port of Auberdine, Remtravel barely batted an eye. Wholly consumed by the relics he uncovered, the elderly prospector remained knee-deep in rubble, completely unbothered by the lumbering constructs surrounding his camp. Anyone who reaches him south of Auberdine finds him not cowering in fear, but grumbling about missing stone brushes and misplaced fossils.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Prospector Remtravel?",
+   "aliases": [
+    "remtravel",
+    "prospector remtravel lore",
+    "who is the prospector"
+   ],
+   "answer": "Prospector Remtravel is a celebrated dwarven researcher belonging to the Explorers' League of Ironforge. Famous in the dwarven academies for his monumental discoveries, he is equally infamous for an extreme lack of situational awareness whenever valuable relics are nearby."
+  },
+  {
+   "q": "Why is Archaeologist Hollee in Auberdine?",
+   "aliases": [
+    "archaeologist hollee",
+    "hollee auberdine",
+    "why did hollee run"
+   ],
+   "answer": "Hollee was assigned as an assistant to Remtravel by Master Greywhisker. When dangerous golems emerged from the ground at their dig site, she fled northward to Auberdine seeking reinforcements to mount a rescue."
+  },
+  {
+   "q": "What were the dwarves excavating in Darkshore?",
+   "aliases": [
+    "what was remtravel digging",
+    "darkshore dig site",
+    "remtravel fossil"
+   ],
+   "answer": "The expedition had uncovered evidence of an ancient, advanced society buried beneath Darkshore. Remtravel discovered a mysterious fossil and various stone artifacts before the site was overtaken by subterranean constructs."
+  },
+  {
+   "q": "Where can Prospector Remtravel be found?",
+   "aliases": [
+    "where is remtravel",
+    "remtravel location",
+    "find prospector remtravel"
+   ],
+   "answer": "Remtravel is located in southern Darkshore, perched among ancient ruins south of Auberdine, surrounded by dangerous golems while obsessively looking for his stone brush and fossil."
+  },
+  {
+   "q": "Who sent this expedition to Darkshore?",
+   "aliases": [
+    "who sent hollee",
+    "master greywhisker",
+    "explorers league darkshore"
+   ],
+   "answer": "The expedition was organized by the Explorers' League in Ironforge and directly assigned by Master Greywhisker, who tasked Hollee with assisting Remtravel in cataloging the region's ancient wonders."
+  },
+  {
+   "q": "Is Remtravel in actual danger?",
+   "aliases": [
+    "is remtravel dead",
+    "remtravel alive",
+    "help remtravel"
+   ],
+   "answer": "Yes. Hostile golems prowl the ruins directly around him. Remtravel is oblivious to the imminent threat, focusing entirely on cataloging his findings and wondering where his tools and assistant have wandered off to."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, Remtravel embodies the obsessive curiosity and tunnel vision of the Explorers' League, willing to risk limb and life over an uncatalogued fossil."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This mission highlights the cooperative presence of Ironforge researchers attempting to study the unfamiliar, ancient lands of their night elf allies in Kalimdor."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "explorers league",
+  "fossil",
+  "golems",
+  "greywhisker",
+  "hollee",
+  "remtravel"
+ ],
+ "related": [
+  "npc:prospector-remtravel",
+  "npc:archaeologist-hollee",
+  "quest:730",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "The Absent Minded Prospector"
+ ]
+}

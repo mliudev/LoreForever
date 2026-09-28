@@ -1,0 +1,91 @@
+{
+ "key": "subzone:darnassian-base-camp",
+ "type": "subzone",
+ "name": "Darnassian Base Camp",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Darnassian Base Camp"
+ },
+ "summary": "The Darnassian Base Camp is an encampment established in the ancient ruins of northern Azshara. While formerly held by expeditionary high elves, night elves operating under the authority of Darnassus have claimed the site to survey the area's arcane secrets and historical remnants.",
+ "sections": [
+  {
+   "title": "A Foothold in Azshara",
+   "body": "Situated amidst the ruined coastlands of northern Azshara, the Darnassian Base Camp occupies grounds formerly known as the Thalassian Base Camp. After displacing the eastern elven expedition that originally anchored here, night elven scholars and operatives moved in under the direction of Darnassus. The encampment serves as a forward scientific outpost, dedicated to probing the surrounding Kaldorei ruins for relics of ancient power before rivals or remnants of the Burning Legion can unearth them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arcane Studies and Kaldorei Caution",
+   "body": "Led by figures such as Lorekeeper Amberwind, researchers at the camp delve into the volatile remnants of arcane energy lingering across Azshara's fallen temples. The presence of magic study and even an Arcane Construct causes unease among traditional Kaldorei Sentinels, who view arcane experimentation with enduring distrust. Nevertheless, the researchers continue their probing, drawing on both guarded scholarship and nearby sanctified moonwell waters as they endeavor to reclaim their lost ancestral heritage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Darnassian Base Camp?",
+   "aliases": [
+    "what is this camp",
+    "darnassian camp azshara",
+    "azshara elf camp"
+   ],
+   "answer": "It is an expeditionary outpost located in northern Azshara, occupied by night elves loyal to Darnassus who are investigating the ancient arcane ruins of their ancestral empire."
+  },
+  {
+   "q": "Why was it previously called Thalassian Base Camp?",
+   "aliases": [
+    "thalassian base camp",
+    "why thalassian",
+    "who lived here before"
+   ],
+   "answer": "The site was originally claimed and established by an expedition of eastern high elves, or blood elves, who were later driven out or supplanted by night elven forces."
+  },
+  {
+   "q": "Who leads the encampment?",
+   "aliases": [
+    "who is in charge",
+    "camp leader",
+    "lorekeeper amberwind"
+   ],
+   "answer": "The encampment's research and operations are supervised on-site by Lorekeeper Amberwind, who coordinates the investigation of Azshara's ancient relics."
+  },
+  {
+   "q": "Why are night elves using arcane magic here?",
+   "aliases": [
+    "why are night elves mages",
+    "kaldorei arcane",
+    "arcane construct azshara"
+   ],
+   "answer": "Scholars at the camp are actively researching Azshara's ruins and utilizing constructs to unearth long-buried artifacts, despite the lingering wariness among traditional Kaldorei sentinels toward the arcane."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The camp represents a rare and controversial venture by Kaldorei scholars to directly inspect and study the ancient arcane ruins of the pre-Sundering empire."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Practitioners of the arcane will recognize the unusual employment of an Arcane Construct and the volatile research being conducted into Azshara's ancient ley lines."
+  }
+ ],
+ "keywords": [
+  "arcane construct",
+  "azshara",
+  "darnassian base camp",
+  "highborne",
+  "kaldorei",
+  "lorekeeper amberwind",
+  "thalassian base camp"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:thalassian-base-camp",
+  "topic:night-elf",
+  "topic:highborne",
+  "topic:sentinels",
+  "subzone:moonwell-ashenvale"
+ ],
+ "attribution": [
+  "Darnassian Base Camp"
+ ]
+}

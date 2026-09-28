@@ -1,0 +1,126 @@
+{
+ "key": "quest:248",
+ "type": "quest",
+ "name": "Looking Further",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   248
+  ],
+  "level": "22",
+  "faction": "Alliance",
+  "start": "Old Lion Statue",
+  "end": "An Empty Jar",
+  "previous": "A Watchful Eye",
+  "next": null,
+  "wiki": "Looking Further",
+  "chain": [
+   "Theocritus' Retrieval",
+   "A Watchful Eye",
+   "Looking Further",
+   "Morganth (quest)"
+  ]
+ },
+ "summary": "Looking Further is an Alliance espionage mission directed by the wizard Theocritus via an enchanted conduit. To investigate tensions between the rogue mage Morganth and the Blackrock orcs, you must infiltrate the watch tower beside Stonewatch Keep and plant an enchanted glyph inside an unnoticed container.",
+ "sections": [
+  {
+   "title": "A Rift in Redridge",
+   "body": "From his sanctum in Elwynn Forest, the wizard Theocritus maintains a vigilant watch over eastern Redridge through scrying magic. While monitoring the Tower of Ilgalar, he detects sudden contention between the renegade human warlock Morganth and the Blackrock orcs entrenched in Stonewatch Keep. Rather than working together against the Kingdom of Stormwind, these hostile factions are locked in conflict over an unknown prize, prompting Theocritus to intervene before the balance shifts.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Eye on Stonewatch",
+   "body": "To pierce the defenses of Stonewatch Keep, Theocritus requires a second magical anchor point. He commands adventurers to scale the intact watch tower standing adjacent to the ruined fortress. There, among the garrison's clutter, an empty jar discarded by orcish sentries provides the perfect mundane hiding spot. Once the Glyph of Azora is affixed inside the vessel, Theocritus can telepathically sift through the minds within Stonewatch to uncover what drove Morganth and the Blackrocks apart.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this mission?",
+   "aliases": [
+    "who gives quest",
+    "quest giver",
+    "old lion statue"
+   ],
+   "answer": "The quest is imparted by Theocritus, the Mage of Azora, speaking through the Old Lion Statue in the Redridge Mountains after you completed his prior task."
+  },
+  {
+   "q": "Why is Theocritus spying on Stonewatch Keep?",
+   "aliases": [
+    "why spy on orcs",
+    "theocritus purpose",
+    "why stonewatch"
+   ],
+   "answer": "Theocritus detected active hostility brewing between Morganth, the rogue dark wizard in the Tower of Ilgalar, and the Blackrock orcs occupying Stonewatch Keep. He wishes to discover what sparked their conflict."
+  },
+  {
+   "q": "Where is the container located?",
+   "aliases": [
+    "empty jar location",
+    "where to plant glyph",
+    "where is watch tower"
+   ],
+   "answer": "The container is an empty jar resting atop barrels at the very summit of the intact watch tower standing right beside the main entrance of Stonewatch Keep."
+  },
+  {
+   "q": "What does the Glyph of Azora do?",
+   "aliases": [
+    "glyph of azora purpose",
+    "what does glyph do"
+   ],
+   "answer": "It serves as a magical scrying and divination focus, allowing Theocritus to remotely monitor the surrounding area and delve into the minds of the Blackrock orcs inside the keep."
+  },
+  {
+   "q": "What follows after planting the glyph?",
+   "aliases": [
+    "next quest",
+    "what happens next",
+    "looking further follow up"
+   ],
+   "answer": "Once Theocritus divines the source of the conflict\u2014learning Morganth stole a powerful artifact, the Pendant of Shadow\u2014he assigns you to hunt down Morganth himself in the Tower of Ilgalar."
+  },
+  {
+   "q": "Why use an empty jar?",
+   "aliases": [
+    "why the jar",
+    "empty jar lore"
+   ],
+   "answer": "A magical spy rune needs an inconspicuous vessel so guards do not spot or destroy it. The abandoned, foul-smelling liquor jar left forgotten on barrels makes an ideal hiding spot."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Theocritus relies on sophisticated long-range scrying magic through the Glyph of Azora, demonstrating how the Kirin Tor and Azora mages establish magical surveillance across hostile territories."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stonewatch Keep remains the primary stronghold of the Blackrock clan in Redridge. Gathering intelligence on their infighting with Morganth is vital to defending Lakeshire."
+  }
+ ],
+ "keywords": [
+  "empty jar",
+  "glyph of azora",
+  "looking further",
+  "morganth",
+  "old lion statue",
+  "stonewatch",
+  "stonewatch keep",
+  "theocritus",
+  "tower of ilgalar"
+ ],
+ "related": [
+  "quest:94",
+  "quest:249",
+  "quest:178",
+  "npc:theocritus",
+  "subzone:stonewatch-keep",
+  "subzone:stonewatch",
+  "subzone:tower-of-ilgalar",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Looking Further"
+ ]
+}

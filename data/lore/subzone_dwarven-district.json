@@ -1,0 +1,88 @@
+{
+ "key": "subzone:dwarven-district",
+ "type": "subzone",
+ "name": "Dwarven District",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Dwarven District"
+ },
+ "summary": "Tucked into the northern corner of Stormwind City, the Dwarven District is a bustling industrial enclave filled with roaring furnaces, ringing anvils, and thick smog. Established by Ironforge craftsmen who arrived to help rebuild the capital after the Second War, it serves as the beating mechanical heart of the city.",
+ "sections": [
+  {
+   "title": "A Home Away from Khaz Modan",
+   "body": "Following the devastation of the Second War, King Magni Bronzebeard sent hundreds of dwarven artisans, stonemasons, and engineers south to assist their human allies in rebuilding Stormwind. Rather than dispersing throughout the capital, they established their own enclave in the northern quarter. Today, the district retains the unmistakable character of Ironforge, dominated by heavy stone masonry, sprawling smelting operations, and bustling craft shops. Between the heat of Potts' Plates and the tavern chatter of The Golden Keg, the enclave provides a familiar haven for travelers from Khaz Modan. It also houses the Stormwind portal to the Deeprun Tram, tethering the human capital directly to Ironforge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is there a dwarven enclave in Stormwind?",
+   "aliases": [
+    "why dwarves in stormwind",
+    "dwarf area origin",
+    "why is it called dwarven district"
+   ],
+   "answer": "After Stormwind was destroyed during the First War and retaken in the Second War, King Magni Bronzebeard sent dwarven craftsmen and laborers south to aid in the capital's reconstruction. The workers settled in this northern sector, building workshops and homes suited to their tastes."
+  },
+  {
+   "q": "How do you get to Ironforge from here?",
+   "aliases": [
+    "how to get to ironforge",
+    "where is the tram",
+    "deeprun tram entrance"
+   ],
+   "answer": "On the eastern side of the district, an open arched tunnel leads directly into the Deeprun Tram station. This subterranean marvel connects Stormwind to Ironforge within minutes."
+  },
+  {
+   "q": "What professions are trained in the Dwarven District?",
+   "aliases": [
+    "professions dwarven district",
+    "trainers in dwarven district",
+    "blacksmith trainer stormwind"
+   ],
+   "answer": "Given its industrial character, the district is the city's premier hub for mining, blacksmithing, and engineering. It features heavy forges, anvils, and dedicated trainers for these craft disciplines."
+  },
+  {
+   "q": "Where can hunters train in Stormwind?",
+   "aliases": [
+    "hunter trainer stormwind",
+    "hunter lodge",
+    "stormwind hunter guild"
+   ],
+   "answer": "Stormwind's hunters make their headquarters in the Dwarven District's Hunter's Guild, fittingly sharing quarters and trade supplies alongside dwarven marksmen."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves far from Khaz Modan, this district offers a familiar comfort: the roar of working blast furnaces, stout ale at The Golden Keg, and quick passage back to Ironforge."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The district provides Stormwind's most capable smithing facilities, equipped with expansive smelting forges, sturdy anvils, and veteran instructors."
+  }
+ ],
+ "keywords": [
+  "deeprun tram",
+  "dwarven district",
+  "hunters guild",
+  "ironforge",
+  "magni bronzebeard",
+  "potts plates",
+  "stormwind",
+  "the golden keg"
+ ],
+ "related": [
+  "subzone:deeprun-tram",
+  "zone:stormwind",
+  "zone:ironforge",
+  "subzone:cathedral-square",
+  "subzone:old-town",
+  "subzone:cut-throat-alley",
+  "topic:second-war"
+ ],
+ "attribution": [
+  "Dwarven District"
+ ]
+}

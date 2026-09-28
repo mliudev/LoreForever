@@ -1,0 +1,120 @@
+{
+ "key": "quest:5650",
+ "type": "quest",
+ "name": "Garments of Darkness",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   5650
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Dark Cleric Beryl",
+  "end": "",
+  "previous": "In Favor of Darkness",
+  "next": null,
+  "wiki": "Garments of Darkness",
+  "chain": [
+   "In Favor of Darkness",
+   "Garments of Darkness"
+  ]
+ },
+ "summary": "Garments of Darkness is a foundational rite of passage for fledgling Forsaken priests in Brill. Dark Cleric Beryl tasks initiates with healing and fortifying an injured Deathguard, testing their grasp of supportive magics before they delve deeper into the shadows.",
+ "sections": [
+  {
+   "title": "A Balance of Dark and Light",
+   "body": "While the Forsaken priesthood draws renown and distinct identity from shadow and darkness, its elders recognize the enduring pragmatic necessity of restoration. Dark Cleric Beryl teaches that understanding the dark demands an understanding of the light and restorative arts. A priest who seeks only ruin is cautioned to study arcane magic instead; the priesthood's true calling involves strengthening and preserving comrades just as much as afflicting enemies.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Duty in the Graveyard",
+   "body": "To demonstrate mastery, the initiate is sent north of Brill's cemetery to aid Deathguard Kel. Stationed against prowling gnoll packs, Kel has sustained injuries holding the line. By binding his wounds with healing spells and bolstering his stamina with protective enchantments, the acolyte proves capable of maintaining the defenders of Tirisfal Glades, earning Beryl's vestment and acceptance into the priesthood's higher mysteries.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do Forsaken priests use healing magic if their power comes from darkness?",
+   "aliases": [
+    "why do undead heal",
+    "forsaken priest healing lore",
+    "shadow vs light undead"
+   ],
+   "answer": "Dark Cleric Beryl explains that while Forsaken priests draw exceptional strength from shadow, healing remains essential. Before mastering darkness, an acolyte must understand supportive and restorative magic to keep Forsaken defenders standing on the battlefield."
+  },
+  {
+   "q": "Who is Deathguard Kel?",
+   "aliases": [
+    "deathguard kel lore",
+    "who is deathguard kel",
+    "wounded deathguard"
+   ],
+   "answer": "Deathguard Kel is a Forsaken sentry stationed north of the cemetery in Brill. He defends the local settlements against aggressive gnoll packs wandering the woods and requires aid when injured in the line of duty."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "who starts garments of darkness",
+    "garments of darkness quest giver"
+   ],
+   "answer": "Dark Cleric Beryl, the priest trainer located in Brill within Tirisfal Glades, offers the quest after you complete the preliminary task, In Favor of Darkness."
+  },
+  {
+   "q": "What vestments are granted upon finishing the trial?",
+   "aliases": [
+    "what robe do you get",
+    "garments reward priest"
+   ],
+   "answer": "Beryl awards a tailored robe as a badge of station and accomplishment, symbolizing that the priest has mastered their fundamental duties and is recognized by their peers."
+  },
+  {
+   "q": "What threats was Deathguard Kel fighting?",
+   "aliases": [
+    "what attacked kel",
+    "kel gnolls"
+   ],
+   "answer": "Kel was wounded while fighting the local gnolls that infest the surrounding wilderness of Tirisfal Glades north of the Brill cemetery."
+  },
+  {
+   "q": "What darker powers does Dark Cleric Beryl hint at?",
+   "aliases": [
+    "forsaken priest unique spells",
+    "darker powers hint"
+   ],
+   "answer": "Beryl hints at shadow techniques unique to the Forsaken priesthood\u2014distinctive manifestations of shadow magic and mental affliction not practiced by priests of other races."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This rite encapsulates the Forsaken philosophy of the priesthood: balancing the grim utility of shadow with the irreplaceable duty of fortifying and healing allies."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, healing magic is a pragmatic tool of survival used to sustain front-line soldiers like Deathguard Kel against gnolls and Scourge remnants."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "dark cleric beryl",
+  "deathguard kel",
+  "fortitude",
+  "garments of darkness",
+  "lesser heal",
+  "priest",
+  "shadow",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:5651",
+  "npc:dark-cleric-beryl",
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:light",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Garments of Darkness"
+ ]
+}

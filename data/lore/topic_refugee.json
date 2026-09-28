@@ -1,0 +1,125 @@
+{
+ "key": "topic:refugee",
+ "type": "topic",
+ "name": "Refugee",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Refugee"
+ },
+ "summary": "Throughout the violent history of Azeroth, constant warfare has repeatedly driven civilian populations from their homes. From the exodus of Stormwind during the First War to the tragic flight from Lordaeron in the Third War, refugees remain living testaments to the devastating costs of invasion, plague, and betrayal.",
+ "sections": [
+  {
+   "title": "The Exodus of Stormwind",
+   "body": "When the Orcish Horde swept through the kingdom of Stormwind during the First War, settlements like Goldshire, Moonbrook, and Grand Hamlet burned. Following the assassination of King Llane Wrynn, Sir Anduin Lothar took command of the kingdom's remnants. He gathered surviving soldiers and desperate civilians, escorting them to the harbor as the city burned. While some citizens hid in the catacombs beneath the Cathedral of Light, Lothar led a massive fleet across the Great Sea to the northern shores of Lordaeron. Arriving at Southshore, the exiled survivors\u2014including the young Prince Varian Wrynn and High Clerist Lady Mara Fordragon\u2014were granted sanctuary by King Terenas Menethil II.",
+   "spoiler": 0
+  },
+  {
+   "title": "Flight from the Scourge",
+   "body": "A generation after welcoming Stormwind's exiles, the people of Lordaeron faced ruin of their own. During the Third War, the Scourge plague and the legions of the undead systematically dismantled the kingdom. Prince Arthas Menethil slaughtered his own subjects as he swept across the realm, leaving survivors scattered and terrified. Lady Jaina Proudmoore managed to lead an expedition of refugees across the sea to Kalimdor, eventually establishing a settlement at Theramore. However, countless others remained behind in the Eastern Kingdoms, hunted relentlessly by the Scourge, the Forsaken, and monstrous horrors that arose in the ruins.",
+   "spoiler": 0
+  },
+  {
+   "title": "Turned Away at the Gate",
+   "body": "Those fleeing the devastation of Lordaeron who could not escape across the sea desperately sought shelter wherever walls still stood. Many traveled south to the massive Greymane Wall, begging for entry into the isolationist kingdom of Gilneas. Instead of sanctuary, they found sealed gates and armed indifference. Left destitute on the borders of Silverpine Forest, these haggard survivors huddled in makeshift camps, supported only by selfless caretakers like Dalin Forgewright while facing starvation, undead raiders, and the predatory worgen roaming near Shadowfang Keep.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the people who fled Stormwind during the First War?",
+   "aliases": [
+    "stormwind refugees first war",
+    "where did stormwind flee",
+    "exodus of stormwind"
+   ],
+   "answer": "Sir Anduin Lothar led thousands of survivors aboard a desperate fleet across the Great Sea to the northern kingdom of Lordaeron. They made landfall at the port village of Southshore and were granted refuge by King Terenas Menethil II until Stormwind was eventually reclaimed and rebuilt."
+  },
+  {
+   "q": "Did all of Stormwind's citizens escape the First War?",
+   "aliases": [
+    "stormwind survivors",
+    "who stayed in stormwind",
+    "cathedral of light refugees"
+   ],
+   "answer": "No. Many died in the streets, while others hid in the vast rooms and catacombs beneath the Cathedral of Light. Uncounted survivors wandered the wilderness of Azeroth aimlessly, where orcish hunters ruthlessly tracked and killed them for sport."
+  },
+  {
+   "q": "Where did the survivors of Lordaeron go?",
+   "aliases": [
+    "lordaeron refugees",
+    "where did lordaeron people go",
+    "survivors of the plague"
+   ],
+   "answer": "Many boarded ships under Lady Jaina Proudmoore and sailed west to Kalimdor, eventually settling the island outpost of Theramore. Others scattered across the Eastern Kingdoms, seeking haven in places like Southshore, the Hinterlands, or futilely pleading at the sealed Greymane Wall."
+  },
+  {
+   "q": "Why didn't Gilneas let the refugees from Lordaeron in?",
+   "aliases": [
+    "greymane wall refugees",
+    "gilneas closed gates",
+    "why did greymane lock out survivors"
+   ],
+   "answer": "Gilneas chose complete isolationism, closing and barring the massive Greymane Wall to cut itself off from the rest of the world and avoid external wars. When the desperate, sickly victims of the Scourge arrived at the gates, they were firmly turned away and left exposed in Silverpine Forest."
+  },
+  {
+   "q": "Who helped the refugees stranded outside the Greymane Wall?",
+   "aliases": [
+    "dalin forgewright",
+    "who helped silverpine refugees"
+   ],
+   "answer": "Dalin Forgewright dedicated his life to caring for the haggard and sickly refugees trapped outside the gates of Gilneas, tending to their ailments and offering what solace he could in the perilous wilderness."
+  },
+  {
+   "q": "Who took in the Stormwind exiles when they reached Lordaeron?",
+   "aliases": [
+    "southshore landing",
+    "marcus redpath refugees",
+    "who greeted stormwind"
+   ],
+   "answer": "Marshal Marcus Redpath greeted the exhausted fleets when they landed at Southshore. He immediately dispatched a messenger to Capital City to notify King Terenas Menethil II, who welcomed the southern survivors with open arms."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Almost every human family carries the trauma of displacement, whether fleeing the burning of Stormwind to Southshore a generation ago or escaping the butcher's work of Arthas in Lordaeron."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance of Lordaeron was born directly from the plea of homeless Stormwind refugees, proving that shared survival and sanctuary are the foundations of the modern Alliance."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The Holy Light compels clergy to aid the dispossessed, following the example of High Clerist Lady Mara Fordragon and the caretakers who sheltered the wounded in ruined sanctuaries."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Many of the Forsaken were once the very Lordaeron refugees who failed to outrun the plague and the Scourge, now inhabiting the ruined kingdom they died trying to flee."
+  }
+ ],
+ "keywords": [
+  "exodus",
+  "greymane wall",
+  "jaina proudmoore",
+  "lordaeron",
+  "lothar",
+  "refugee",
+  "silverpine",
+  "southshore",
+  "stormwind"
+ ],
+ "related": [
+  "topic:first-war",
+  "topic:third-war",
+  "topic:anduin-lothar",
+  "topic:lordaeron",
+  "subzone:southshore",
+  "subzone:greymane-wall",
+  "npc:jaina-proudmoore",
+  "quest:1476"
+ ],
+ "attribution": [
+  "Refugee"
+ ]
+}

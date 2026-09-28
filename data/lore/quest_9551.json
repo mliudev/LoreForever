@@ -1,0 +1,118 @@
+{
+ "key": "quest:9551",
+ "type": "quest",
+ "name": "Call of Air",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   9551
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Sulaa / Farseer Javad / Farseer Umbrua",
+  "end": "Farseer Nobundo",
+  "previous": null,
+  "next": "Call of Air (Draenei 2)",
+  "wiki": "Call of Air (Draenei)",
+  "chain": [
+   "Call of Air (Draenei)",
+   "Call of Air (Draenei 2)",
+   "Call of Air (Draenei 3)",
+   "Call of Air (Draenei 4)"
+  ]
+ },
+ "summary": "The Call of Air marks the commencement of a shaman's journey to commune with the fourth and final primal element. Guided by veteran farseers, aspiring practitioners are summoned to seek out Farseer Nobundo to undertake trials that test their wisdom and spirit.",
+ "sections": [
+  {
+   "title": "The Final Element",
+   "body": "A shaman's training demands harmony with each fundamental force of nature: earth, fire, water, and finally, air. While the first three ground, ignite, and soothe the spirit, air embodies freedom, swiftness, and unfettered thought. Mastery of air grants a shaman the ability to channel the wind itself, but communing with such an elusive and erratic force requires exceptional readiness and mental discipline.",
+   "spoiler": 0
+  },
+  {
+   "title": "Summons to Nobundo",
+   "body": "When young shamans prove their worthiness across previous rites, their mentors deliver word that Farseer Nobundo requires their presence. As the foremost guide of this spiritual path, Nobundo directly oversees the critical transition into air communion, challenging initiates to weigh their inner wisdom before granting them permission to seek the spirits of the wind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Call of Air?",
+   "aliases": [
+    "what is call of air",
+    "call of air quest",
+    "purpose of call of air"
+   ],
+   "answer": "The Call of Air is the initial summons initiating a shaman's attunement to the element of air. It marks the culmination of their basic elemental studies, following mastery over earth, fire, and water."
+  },
+  {
+   "q": "Who is Farseer Nobundo?",
+   "aliases": [
+    "who is nobundo",
+    "farseer nobundo"
+   ],
+   "answer": "Farseer Nobundo is a revered spiritual teacher and master of the elements. He guides aspiring shamans through the sacred trials necessary to commune with the primal forces of Azeroth."
+  },
+  {
+   "q": "Why is air studied last among the elements?",
+   "aliases": [
+    "why air last",
+    "element order",
+    "air totem last"
+   ],
+   "answer": "Air is traditionally studied last because its temperament is volatile, elusive, and swift. Without the grounding foundation of earth, the passion of fire, and the balance of water, a shaman risks being overwhelmed by the tempestuous nature of the winds."
+  },
+  {
+   "q": "What does a shaman gain from answering this call?",
+   "aliases": [
+    "call of air reward",
+    "air totem quest benefit"
+   ],
+   "answer": "Answering the summons begins a multi-part trial that ultimately allows a shaman to craft an Air Totem, unlocking the ability to call upon wind spirits and manifest aerial elemental wards."
+  },
+  {
+   "q": "Who directs shamans to Nobundo for this trial?",
+   "aliases": [
+    "who starts call of air",
+    "call of air questgiver"
+   ],
+   "answer": "Senior practitioners such as Farseer Javad, Farseer Umbrua, or Sulaa acknowledge the initiate's past accomplishments and send them to Nobundo to begin the final rites."
+  },
+  {
+   "q": "Where does this trial take place?",
+   "aliases": [
+    "where is call of air",
+    "call of air location"
+   ],
+   "answer": "The initial summons sends the initiate to the Crystal Hall, where Farseer Nobundo awaits to test whether the student is wise enough to proceed with the rites of wind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This rite marks the fourth and final pillar of your spiritual training, completing your attunement to all cardinal elements."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance's growing understanding of shamanic tradition rests heavily on Farseer Nobundo and the elemental teachings passed down through rites like this."
+  }
+ ],
+ "keywords": [
+  "air totem",
+  "call of air",
+  "elements",
+  "farseer",
+  "javad",
+  "nobundo",
+  "shaman",
+  "umbrua",
+  "wind"
+ ],
+ "related": [
+  "npc:farseer-nobundo",
+  "quest:1531"
+ ],
+ "attribution": [
+  "Call of Air (Draenei)"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "npc:magis-sparkmantle",
+ "type": "npc",
+ "name": "Magis Sparkmantle",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Magis Sparkmantle",
+  "refs": 1
+ },
+ "summary": "Magis Sparkmantle is a gnome mage trainer stationed inside the Thunderbrew Distillery in Kharanos. He offers guidance and training to fledgling spellcasters who venture out from Coldridge Valley into the heart of Dun Morogh.",
+ "sections": [
+  {
+   "title": "A Spellcaster in the Distillery",
+   "body": "While dwarves gather in the Thunderbrew Distillery for hearty ales, Magis Sparkmantle provides an arcane presence among the casks and kegs of Kharanos. Gnome mages often integrate closely with their dwarven allies across Dun Morogh, and Sparkmantle serves as a key mentor for novice spellcasters ready to expand their theoretical and practical grasp of the arcane arts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Directing Young Arcanists",
+   "body": "Beyond instructing novices in basic incantations, Magis ensures that promising students connect with broader magical circles. When mages outgrow early local instruction or require specialized guidance, Sparkmantle directs them further afield, sending them toward fellow practitioners like Bink or mentors stationed across the Alliance's primary hubs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Magis Sparkmantle?",
+   "aliases": [
+    "magis sparkmantle",
+    "who is magis",
+    "kharanos mage trainer"
+   ],
+   "answer": "Magis Sparkmantle is a gnome mage trainer residing in Kharanos, Dun Morogh. He instructs novice spellcasters in arcane fundamentals."
+  },
+  {
+   "q": "Where can Magis Sparkmantle be found?",
+   "aliases": [
+    "magis location",
+    "where is magis",
+    "find sparkmantle"
+   ],
+   "answer": "He can be found inside the Thunderbrew Distillery, the main inn and gathering hall of the town of Kharanos."
+  },
+  {
+   "q": "Why is a gnome mage trainer staying in a dwarven distillery?",
+   "aliases": [
+    "why in distillery",
+    "gnome in distillery",
+    "why thunderbrew distillery"
+   ],
+   "answer": "Following the fall of Gnomeregan, many gnomes settled among their dwarven cousins in Dun Morogh. The Thunderbrew Distillery acts as the central hub of Kharanos, making it an ideal post for mentoring wandering spellcasters."
+  },
+  {
+   "q": "Does Magis Sparkmantle offer any quests?",
+   "aliases": [
+    "sparkmantle quests",
+    "magis quests"
+   ],
+   "answer": "Magis directs developing mages toward other arcane mentors as they advance, including sending practitioners to speak with Bink or report to instructors in human territories."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For Alliance mages traversing Dun Morogh, Sparkmantle is an essential local contact for spell training and referrals to broader arcane networks."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomes exiled from Gnomeregan often rely on mentors like Sparkmantle to keep their scholarly and arcane traditions flourishing while living among the dwarves."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "gnome mage",
+  "kharanos",
+  "mage trainer",
+  "magis",
+  "magis sparkmantle",
+  "sparkmantle",
+  "thunderbrew distillery"
+ ],
+ "related": [
+  "subzone:thunderbrew-distillery",
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "npc:bink",
+  "quest:1879",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Magis Sparkmantle"
+ ]
+}

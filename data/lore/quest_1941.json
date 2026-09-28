@@ -1,0 +1,120 @@
+{
+ "key": "quest:1941",
+ "type": "quest",
+ "name": "Manaweave Robe",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1941
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Wynne Larson",
+  "end": "Wynne Larson",
+  "previous": null,
+  "next": null,
+  "wiki": "Manaweave Robe (quest)",
+  "chain": []
+ },
+ "summary": "Manaweave Robe marks the conclusion of a tailor's ambitious crafting commission in the heart of Stormwind. Wynne Larson presents a finished enchanted vestment woven from fine materials, standing as a proud showcase for her family's shop. For emerging spellcasters, it represents an early badge of arcane dedication and quality human craftsmanship.",
+ "sections": [
+  {
+   "title": "Larson Clothiers",
+   "body": "In the bustling Mage Quarter of Stormwind, Larson Clothiers caters to practitioners of the arcane arts who require garments suited to channeling volatile energies. Crafting fine magical vestments demands rare materials, meticulous needlework, and a keen eye for threadwork that will not unravel under mystic resonance. Wynne Larson takes personal pride in the garments leaving her shop, viewing every robe worn into the field as a walking testament to the Larson name.",
+   "spoiler": 0
+  },
+  {
+   "title": "Woven Sorcery",
+   "body": "The manaweave robe is designed to assist apprentice mages, providing comfort, mobility, and the practical resilience required when roaming contested lands. Upon the delivery of the necessary components, Wynne weaves the final stitch herself, presenting the finished garment not merely as a transaction, but as a masterpiece intended to turn heads and advertise the quality of Larson tailoring across the kingdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who crafts the Manaweave Robe?",
+   "aliases": [
+    "who makes manaweave robe",
+    "wynne larson robe",
+    "larson clothiers"
+   ],
+   "answer": "Wynne Larson crafts the garment at Larson Clothiers, situated in Stormwind City's Mage Quarter."
+  },
+  {
+   "q": "Why does Wynne Larson want you to wear the robe with pride?",
+   "aliases": [
+    "why tell people larson",
+    "larson advertising",
+    "wynne dialogue"
+   ],
+   "answer": "Wynne considers the robe one of her finest creations yet. She asks adventurers to spread the word about Larson Clothiers whenever others admire the craftsmanship, treating it as living promotion for her shop."
+  },
+  {
+   "q": "Where is Larson Clothiers located?",
+   "aliases": [
+    "larson shop location",
+    "where is wynne larson",
+    "mage quarter tailoring shop"
+   ],
+   "answer": "The shop is located in the Mage Quarter of Stormwind City, close to the academies and sanctums where Alliance spellcasters congregate."
+  },
+  {
+   "q": "What kind of garment is a Manaweave Robe?",
+   "aliases": [
+    "manaweave robe lore",
+    "what is manaweave robe",
+    "what does the robe do"
+   ],
+   "answer": "It is an enchanted cloth robe designed for practitioners of magic, tailored to channel mystic energies while offering practical wear during dangerous journeys."
+  },
+  {
+   "q": "Is this part of a longer questline?",
+   "aliases": [
+    "manaweave chain",
+    "robe quest chain",
+    "questline end"
+   ],
+   "answer": "Yes, completing this commission serves as the final step of a tailoring quest chain assisting Wynne Larson with materials for her work."
+  },
+  {
+   "q": "What faction can undertake this quest?",
+   "aliases": [
+    "alliance or horde robe",
+    "can horde get manaweave robe",
+    "faction requirement"
+   ],
+   "answer": "This quest is strictly for members of the Alliance, as Wynne Larson operates entirely within the capital city of Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For an apprentice mage studying in the towers of Stormwind, donning a tailored manaweave robe signals graduation into serious field research and independent spellcraft."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Wynne Larson's work illustrates the high standard of human tailoring, demonstrating how worldly materials can be woven to harness and temper volatile arcane power."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Outfitting promising champions from local shops in the capital helps project Stormwind's prestige and self-sufficiency across troubled territories."
+  }
+ ],
+ "keywords": [
+  "apprentice robe",
+  "clothier",
+  "larson clothiers",
+  "mage quarter",
+  "manaweave robe",
+  "stormwind",
+  "tailor",
+  "wynne larson"
+ ],
+ "related": [
+  "npc:wynne-larson",
+  "npc:lars"
+ ],
+ "attribution": [
+  "Manaweave Robe (quest)"
+ ]
+}

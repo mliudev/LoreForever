@@ -1,0 +1,123 @@
+{
+ "key": "quest:19",
+ "type": "quest",
+ "name": "Tharil'zun",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   19
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Marshal Marris",
+  "end": "",
+  "previous": "Blackrock Menace",
+  "next": null,
+  "wiki": "Tharil'zun (quest)",
+  "chain": [
+   "Blackrock Menace",
+   "Tharil'zun (quest)"
+  ]
+ },
+ "summary": "Marshal Marris places a bounty on Tharil'zun, the cunning leader of the Blackrock outrunners harassing the roads near Stonewatch Keep. Striking him down serves as a critical step in breaking the Blackrock clan's hold over northern Redridge. Bringing his severed head back to Lakeshire marks a hard-fought victory for the embattled town watch.",
+ "sections": [
+  {
+   "title": "The Road to Stonewatch",
+   "body": "The winding pass between Lakeshire and Stonewatch Keep has become a gauntlet of sudden ambushes. Blackrock outrunners and renegades prowl the rocky ridges, cutting off scouts and threatening any reinforcements attempting to push toward the fortress. Marshal Marris identifies Tharil'zun as the commander orchestrating these coordinated strikes, declaring his elimination necessary to prevent Lakeshire from being entirely hemmed in.",
+   "spoiler": 0
+  },
+  {
+   "title": "Decapitating the Outrunners",
+   "body": "Tharil'zun represents a dangerous breed of battlefield leader: vicious, crafty, and capable of coordinating the disparate orc raiders into an effective raiding force. Taking his head inside the shadow of Stonewatch requires cutting through entrenched Blackrock outposts. His death breaks the cohesion of the outrunner patrols, clearing a path for the Alliance to confront the garrison entrenched within the keep itself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tharil'zun?",
+   "aliases": [
+    "who is tharilzun",
+    "tharil'zun lore",
+    "tharilzun boss"
+   ],
+   "answer": "Tharil'zun is a formidable Blackrock orc commander responsible for leading the outrunners and renegades staging ambushes along the trails between Lakeshire and Stonewatch Keep."
+  },
+  {
+   "q": "Where can Tharil'zun be found?",
+   "aliases": [
+    "where is tharil'zun",
+    "tharilzun location",
+    "find tharil'zun"
+   ],
+   "answer": "Tharil'zun is stationed near Stonewatch Keep in northeastern Redridge, commanding the outrunners who patrol the surrounding passes and outposts."
+  },
+  {
+   "q": "Why does Marshal Marris want his head?",
+   "aliases": [
+    "why kill tharilzun",
+    "tharilzun bounty reason"
+   ],
+   "answer": "Marris recognizes Tharil'zun as the cunning tactician directing the ambushes harassing Redridge. Demanding his head ensures the outrunner leadership is severed and offers undeniable proof of the threat's elimination."
+  },
+  {
+   "q": "What happens after Tharil'zun is defeated?",
+   "aliases": [
+    "quest after tharilzun",
+    "what follows tharil'zun"
+   ],
+   "answer": "Eliminating Tharil'zun cripples the outrunners' coordination, allowing Lakeshire's defenders and adventurers to push deeper into Stonewatch Keep to confront the main Blackrock garrison."
+  },
+  {
+   "q": "Why are Blackrock orcs in Redridge Mountains?",
+   "aliases": [
+    "why are blackrock orcs in redridge",
+    "stonewatch orcs background"
+   ],
+   "answer": "Remnants of the Blackrock clan pushed south from the Burning Steppes into Redridge, fortifying old human outposts like Stonewatch Keep to threaten the Eastern Kingdoms while Stormwind's military remains stretched thin."
+  },
+  {
+   "q": "What prerequisite must be completed before hunting Tharil'zun?",
+   "aliases": [
+    "tharilzun prereq",
+    "how to unlock tharilzun quest"
+   ],
+   "answer": "Marshal Marris requires adventurers to first prove their mettle by thinning the invading forces in the quest 'Blackrock Menace' before sending them after Tharil'zun himself."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire stands largely isolated without direct reinforcements from Stormwind, making the bounty on Tharil'zun a vital local measure to prevent the town from being besieged."
+  },
+  {
+   "target": "race:Human",
+   "text": "The Blackrock presence in Redridge is a painful reminder of the First and Second Wars, and slaying Tharil'zun reclaims ground stolen from the kingdom."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Tharil'zun belongs to the dark remnants of the Old Horde under the Blackrock banner, serving masters who reject Thrall's new order across the sea."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "lakeshire",
+  "marshal marris",
+  "outrunners",
+  "redridge",
+  "stonewatch",
+  "stonewatch keep",
+  "tharil'zun",
+  "tharilzun"
+ ],
+ "related": [
+  "npc:marshal-marris",
+  "quest:20",
+  "subzone:stonewatch-keep",
+  "subzone:stonewatch",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Tharil'zun (quest)"
+ ]
+}

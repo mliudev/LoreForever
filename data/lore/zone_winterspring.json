@@ -1,0 +1,152 @@
+{
+ "key": "zone:winterspring",
+ "type": "zone",
+ "name": "Winterspring",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": [
+   "Winterspring (Classic)",
+   "Winterspring"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Winterspring is a vast, snow-covered valley nestled high along the northeastern slopes of Mount Hyjal, directly above the enchanted forests of Moonglade and Felwood. Known for its bitter cold, ancient Highborne ruins, and wandering apex predators, the region is anchored by the neutral goblin outpost of Everlook. It remains a land of fierce natural perils, sheltering remnants of the blue dragonflight while confronting demonic corruption along its southern heights.",
+ "sections": [
+  {
+   "title": "A Realm of Perpetual Frost",
+   "body": "Perched thousands of feet above the surrounding wilderness, Winterspring rests beneath crisp mountain air and relentless snowstorms. Enormous exposed roots of the World Tree, Nordrassil, cut through the snowdrifts like towering wooden arches, warped and twisted during the climactic struggles of the Third War. While much of northern Kalimdor is dominated by dense woodlands and warm climates, Winterspring is a quiet land of medium alpine forests, rocky bluffs, and frozen lakes, home to formidable frostsabers, chimaeras, yetis, and thick-furred winter bears.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crossroads and Outposts",
+   "body": "Reaching this high plateau requires traversing the ancient carved passages of Timbermaw Hold, guarded by uncorrupted furbolgs who closely scrutinize any travelers passing from Felwood or Moonglade. At the valley's center sits Everlook, a thriving trading town operated by the Steamwheedle Cartel. Goblins welcome both Alliance and Horde adventurers with open registers, acting as an indispensable haven of engineering, trade, and warm fires against the biting mountain frost.",
+   "spoiler": 0
+  },
+  {
+   "title": "Old Ghosts and Blue Drakes",
+   "body": "Centuries before modern settlements arose, ancient elves built the lakeside city of Kel'Theril. After reckless Highborne sorcerers shattered the cursed Crystal of Zin-Malor, madness claimed them, leaving restless phantoms to wander the ruined pillars and frozen waters to this day. Further south rise the cavernous heights of Mazthoril, the traditional Kalimdor stronghold of the blue dragonflight. Here, the brood of the Spell-Weaver Malygos, overseen by the matron protector Haleh, watches over arcane currents and contests local threats.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Looming Shadow of the Gorge",
+   "body": "The serenity of Winterspring is sharply broken along its southernmost border at Darkwhisper Gorge. There, elite demonic forces, remnant legions from the Third War, crawl along jagged canyons blocking the high approaches toward the summit of Mount Hyjal. Meanwhile, the native Winterfall furbolgs have succumbed to foul corruptions, prompting independent researchers like Donova Snowden to investigate the encroaching taint before the entire valley's wildlife is consumed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I get to Winterspring?",
+   "aliases": [
+    "getting to winterspring",
+    "how to enter winterspring",
+    "winterspring entrance",
+    "timbermaw tunnel winterspring"
+   ],
+   "answer": "Travelers must journey through Timbermaw Hold, a subterranean network of tunnels located in northeastern Felwood. Navigating the caves peacefully requires earning the trust of the native Timbermaw furbolgs, who will attack any trespassers they deem hostile. Once through the eastern exit, the snowy slopes of Winterspring open up immediately."
+  },
+  {
+   "q": "Who runs the town of Everlook?",
+   "aliases": [
+    "who controls everlook",
+    "everlook faction",
+    "is everlook neutral"
+   ],
+   "answer": "Everlook is managed by the Steamwheedle Cartel, the goblin trading conglomerate. Because of the goblins' strict profit motive and neutrality, both Horde and Alliance travelers can access its flight masters, repair vendors, banking vaults, and trade goods, provided visitors do not break the peace within town limits."
+  },
+  {
+   "q": "What are the ghosts haunting Lake Kel'Theril?",
+   "aliases": [
+    "lake kel'theril ghosts",
+    "ruins of kel'theril spirits",
+    "who is at kel'theril"
+   ],
+   "answer": "They are the spirits of Highborne night elves who once inhabited the ancient city of Kel'Theril ten thousand years ago. When their sorcerers tampered with the stolen Crystal of Zin-Malor, its shattering unleashed a catastrophic curse. Subsequent expeditions of high elves centuries later were similarly driven to madness, doomed to haunt the frozen ruins alongside their ancestors."
+  },
+  {
+   "q": "Why are the Winterfall furbolgs aggressive?",
+   "aliases": [
+    "why are winterfall hostile",
+    "winterfall tribe corruption",
+    "donova snowden furbolgs"
+   ],
+   "answer": "The Winterfall furbolgs have succumbed to a spreading, unnatural corruption that has driven their clan into maddened hostility. While the nearby Timbermaw hold tightly to their sanity, the Winterfall have fallen under dark influences, prompting researchers like Donova Snowden to study their taint and clear their encampments."
+  },
+  {
+   "q": "What lives inside Mazthoril?",
+   "aliases": [
+    "mazthoril dragons",
+    "what is mazthoril",
+    "blue dragons in winterspring"
+   ],
+   "answer": "Mazthoril is the primary roost and sanctuary of the blue dragonflight on Kalimdor. Deep within its cavernous spires, wyrmkin, elite whelps, and ancient drakes guard powerful draconic relics and arcane secrets under the watchful eye of Haleh, consort to the Aspect Malygos."
+  },
+  {
+   "q": "What is Darkwhisper Gorge?",
+   "aliases": [
+    "darkwhisper gorge demons",
+    "what is in darkwhisper gorge",
+    "hyjal gate winterspring"
+   ],
+   "answer": "Darkwhisper Gorge is a treacherous canyon in the southernmost reaches of the valley, occupied by powerful elite demons leftover from the Third War. It serves as a heavily guarded perimeter along the treacherous trails leading toward the heights of Mount Hyjal."
+  },
+  {
+   "q": "Can you train or tame frostsabers here?",
+   "aliases": [
+    "frostsaber mount",
+    "rivern frostwind frostsaber",
+    "how to get frostsaber"
+   ],
+   "answer": "At Frostsaber Rock in the far northern reaches of the valley, the night elf Rivern Frostwind tends to the native white cats. Adventurers who assist him with securing provisions and safeguarding the pride may prove themselves worthy of learning the secrets to rearing and riding a Frostsaber."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Winterspring is the only known habitat for Icecap, an indispensable alpine herb heavily sought after for advanced alchemical concoctions, along with scattered Mountain Silversage and rare Black Lotus blooms."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The icy crags and cavern walls across the valley are rich with valuable minerals, frequently yielding Small and Rich Thorium Veins alongside rare Truesilver deposits."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Winterspring is intimately tied to elven history, featuring the barrow dens where the Druids of the Talon rested for millennia, the tragic ruins of Kel'Theril, and exposed roots of Nordrassil damaged during the Battle of Mount Hyjal."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Located high above Moonglade, Winterspring holds sacred significance as the place where Malfurion Stormrage awakened the Druids of the Talon from their ancient sleep during the Third War."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance heroes frequently visit Rivern Frostwind at Frostsaber Rock, working tirelessly in the extreme cold to earn the loyalty of the prestigious Winterspring Frostsaber mounts."
+  }
+ ],
+ "keywords": [
+  "blue dragons",
+  "darkwhisper gorge",
+  "donova snowden",
+  "everlook",
+  "frostsaber",
+  "icecap",
+  "kel'theril",
+  "mazthoril",
+  "timbermaw",
+  "winterspring"
+ ],
+ "related": [
+  "subzone:everlook",
+  "subzone:timbermaw-hold",
+  "subzone:mazthoril",
+  "subzone:darkwhisper-gorge",
+  "subzone:ruins-of-kel-theril",
+  "subzone:frostsaber-rock",
+  "npc:donova-snowden",
+  "npc:rivern-frostwind"
+ ],
+ "attribution": [
+  "Winterspring (Classic)",
+  "Winterspring"
+ ]
+}

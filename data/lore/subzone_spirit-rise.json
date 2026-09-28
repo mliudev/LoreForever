@@ -1,0 +1,89 @@
+{
+ "key": "subzone:spirit-rise",
+ "type": "subzone",
+ "name": "Spirit Rise",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Spirit Rise"
+ },
+ "summary": "Spirit Rise is the northwest mesa of Thunder Bluff, serving as the tauren capital's premier sanctum for spiritual and shamanic study. Overseen by spiritual guides such as the Skychaser tribe, it features sacred training halls above and descends into the cavernous Pools of Vision below.",
+ "sections": [
+  {
+   "title": "A Sanctuary of the Spirits",
+   "body": "Perched high upon the bluffs overlooking the plains of Mulgore, Spirit Rise is devoted to communion with the elements and ancestor spirits. Connected to the central mesa by rope bridges, it houses the Hall of Spirits and the Spiritual Healing pavilion, where young and veteran shaman gather to deepen their connection with the earth, air, fire, and water. The Skychaser tribe maintains a strong presence across the rise, guiding seekers through ancient traditions.",
+   "spoiler": 0
+  },
+  {
+   "title": "Caves and Crossings",
+   "body": "Beneath the breezy huts and open-air totem shrines lies an entrance burrowing into the mesa itself: the steamy Pools of Vision, a sacred subterranean cavern where seers peer into spirit-touched waters. In addition to its contemplative quiet, the rise serves as a vital transit hub, linking Thunder Bluff across the continent via zeppelin towers that connect travelers directly to Orgrimmar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Spirit Rise known for?",
+   "aliases": [
+    "what is spirit rise",
+    "spirit rise purpose",
+    "why visit spirit rise"
+   ],
+   "answer": "Spirit Rise is the spiritual heart of Thunder Bluff, primarily dedicated to shamanic practice, healing, and communing with nature spirits and ancestors. It also serves as the entryway to the Pools of Vision and hosts the city's zeppelin dock."
+  },
+  {
+   "q": "Which tauren tribe leads activities on Spirit Rise?",
+   "aliases": [
+    "who runs spirit rise",
+    "spirit rise tribe",
+    "skychaser tribe"
+   ],
+   "answer": "The Skychaser tribe holds prominent influence here, fostering the spiritual traditions, divination rituals, and shamanic training that define the rise."
+  },
+  {
+   "q": "What can I find underneath Spirit Rise?",
+   "aliases": [
+    "spirit rise cave",
+    "below spirit rise",
+    "pools of vision entrance"
+   ],
+   "answer": "A descent through the rise leads into the Pools of Vision, a humid subterranean cavern filled with steaming waters where seers and spiritual practitioners meditate and seek visions."
+  },
+  {
+   "q": "How do I travel to Orgrimmar from Spirit Rise?",
+   "aliases": [
+    "zeppelin to orgrimmar",
+    "spirit rise zeppelin",
+    "thunder bluff zeppelin"
+   ],
+   "answer": "Spirit Rise features a zeppelin dock servicing airships that ferry Horde travelers across the Barrens and directly into the orcish capital of Orgrimmar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "For shaman of the Horde, Spirit Rise serves as an essential gathering place to consult trainers, perform elemental rites, and commune with ancestral spirits."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The rise embodies the deep spiritual roots of your people, offering solace away from secular duties alongside the mystical waters of the Pools of Vision."
+  }
+ ],
+ "keywords": [
+  "hall of spirits",
+  "mulgore",
+  "pools of vision",
+  "shaman",
+  "skychaser",
+  "spirit rise",
+  "thunder bluff",
+  "zeppelin"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "subzone:pools-of-vision",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Spirit Rise"
+ ]
+}

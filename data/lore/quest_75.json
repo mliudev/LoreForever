@@ -1,0 +1,114 @@
+{
+ "key": "quest:75",
+ "type": "quest",
+ "name": "The Legend of Stalvan",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   75
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Marshal Haggard",
+  "end": "",
+  "previous": "The Legend of Stalvan (7)",
+  "next": "The Legend of Stalvan (9)",
+  "wiki": "The Legend of Stalvan (8)",
+  "chain": []
+ },
+ "summary": "This investigation into Stalvan Mistmantle leads out of Duskwood to an isolated home in southeastern Elwynn Forest. Marshal Haggard, an aging veteran whose eyesight has deteriorated, directs you to an upstairs chest containing an old bundle of papers left behind when he moved in.",
+ "sections": [
+  {
+   "title": "A Veteran's Attic",
+   "body": "Marshal Haggard lives far from town on the southeastern fringes of Elwynn Forest, near the borders of Duskwood and Redridge. When he moved into his secluded home, he found a chest tucked away upstairs packed with old parchments. With his failing eyesight clouding over, he abandoned any effort to read them, leaving the documents undisturbed until an investigator comes asking about Stalvan.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lingering Shadows",
+   "body": "The papers left in the upstairs chest are not ordinary household debris. Disturbance of Stalvan's belongings routinely agitates restless magic, drawing forth a Forlorn Spirit bound to Mistmantle's past. The journal page hidden inside provides a direct record of Stalvan's private writings, offering concrete proof that the reclusive scholar left his mark in Elwynn before vanishing.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Marshal Haggard?",
+   "aliases": [
+    "marshal haggard",
+    "haggard elwynn",
+    "who is haggard"
+   ],
+   "answer": "Marshal Haggard is an elderly, near-blind veteran living quietly in a secluded cabin in southeastern Elwynn Forest. He holds onto long-forgotten papers discovered inside his house that belonged to Stalvan Mistmantle."
+  },
+  {
+   "q": "Why did the trail lead back to Elwynn Forest?",
+   "aliases": [
+    "why elwynn forest",
+    "stalvan elwynn",
+    "why go to haggard"
+   ],
+   "answer": "Clues gathered in Darkshire and Moonbrook trace Stalvan's wanderings across southern Stormwind territory. Haggard's homestead held old possessions Stalvan discarded or left behind before his descent into madness."
+  },
+  {
+   "q": "What is inside the chest upstairs?",
+   "aliases": [
+    "upstairs chest",
+    "faded journal page",
+    "what is in the chest"
+   ],
+   "answer": "The chest contains a faded journal page written by Stalvan Mistmantle, preserved among a bundle of parchments that Haggard never managed to inspect properly."
+  },
+  {
+   "q": "Why does a spirit attack when the chest is opened?",
+   "aliases": [
+    "forlorn spirit",
+    "why ghost attacks",
+    "ghost in haggard house"
+   ],
+   "answer": "A Forlorn Spirit haunts the relics of Stalvan's former life, manifesting violently when an outsider disturbs his personal writings and memories."
+  },
+  {
+   "q": "How does this advance the Stalvan investigation?",
+   "aliases": [
+    "stalvan mystery",
+    "what does the page reveal",
+    "stalvan questline step"
+   ],
+   "answer": "The faded page provides firsthand evidence in Stalvan's own hand, helping assemble the tragic chronology of his employment, unrequited obsession, and eventual murder spree."
+  },
+  {
+   "q": "Why couldn't Marshal Haggard read the papers himself?",
+   "aliases": [
+    "haggard blind",
+    "why haggard needs help"
+   ],
+   "answer": "Haggard's eyesight has grown hazed and weak with age, preventing him from deciphering small or weathered handwriting on the faded documents."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Unraveling Stalvan's legacy exposes dark chapters tucked quietly inside Elwynn's otherwise peaceful pastoral borders."
+  },
+  {
+   "target": "race:Human",
+   "text": "Stalvan's path winds through ordinary human settlements, serving as a cautionary tale of isolation and malice hidden in plain sight."
+  }
+ ],
+ "keywords": [
+  "duskwood",
+  "elwynn forest",
+  "faded journal page",
+  "forlorn spirit",
+  "marshal haggard",
+  "stalvan"
+ ],
+ "related": [
+  "zone:elwynn",
+  "zone:duskwood",
+  "quest:1666"
+ ],
+ "attribution": [
+  "The Legend of Stalvan (8)"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "key": "subzone:shady-rest-inn",
+ "type": "subzone",
+ "name": "Shady Rest Inn",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Shady Rest Inn"
+ },
+ "summary": "The Shady Rest Inn was once a welcoming human-built waystation sitting just off the road between the Southern Barrens and Theramore Isle. Today, only charred timbers and smoldering ashes remain following a sudden and violent arson attack. The tragedy left the innkeeper shattered and sparked tension across the marsh as investigators sift through the wreckage for clues.",
+ "sections": [
+  {
+   "title": "Ashes on the Border",
+   "body": "Built to serve travelers navigating the treacherous crossing between Dustwallow Marsh and the Barrens, the Shady Rest Inn stood as an outpost of civilized comfort in a harsh wilderness. That ended when the inn was abruptly razed to the ground in a devastating fire. Innkeeper James Hyal managed to survive the inferno, but the blaze claimed the lives of his wife and child. Traumatized and grief-stricken, Hyal was left with nothing as the ruins became an active crime scene, drawing scrutiny from Theramore authorities desperate to identify who ignited the flames.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Web of Suspicion",
+   "body": "Initial inquiries into the arson pointed toward human deserters and suspicious soldiers, with figures such as Paval Reethe and Lieutenant Caldwell falling under heavy suspicion before meeting untimely ends. However, physical evidence recovered from the ashes\u2014including distinctive hoofprints and ritual badges\u2014revealed that the attack was not merely an act of internal treachery. The arson was carried out by the ruthless Grimtotem tauren, who strike from the deep marsh to sow discord between Theramore and its neighbors.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the Shady Rest Inn?",
+   "aliases": [
+    "why is shady rest inn burned",
+    "what happened to the inn",
+    "who burned shady rest"
+   ],
+   "answer": "The inn was attacked and burned to the ground. While deserters and rogue Alliance soldiers were initially suspected, evidence in the ashes proves that the Grimtotem tauren orchestrated and carried out the arson."
+  },
+  {
+   "q": "Who owned and operated the inn?",
+   "aliases": [
+    "innkeeper shady rest",
+    "who ran shady rest",
+    "james hyal"
+   ],
+   "answer": "James Hyal ran the Shady Rest Inn. He survived the blaze, but his wife and child perished in the flames, leaving him deeply traumatized."
+  },
+  {
+   "q": "Where is the Shady Rest Inn located?",
+   "aliases": [
+    "shady rest location",
+    "where is shady rest inn"
+   ],
+   "answer": "The ruins lie along the main road in western Dustwallow Marsh, right near the border where the marsh gives way to the Southern Barrens."
+  },
+  {
+   "q": "Who are Paval Reethe and Lieutenant Caldwell?",
+   "aliases": [
+    "who is reethe",
+    "lieutenant caldwell shady rest",
+    "reethe and caldwell"
+   ],
+   "answer": "They were human suspects implicated during the early investigation into the fire. Both died before investigators could extract confessions or definitively uncover the full extent of their involvement."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The destruction of the inn represents a severe security breach on the main overland route to Theramore Isle, threatening travelers and inflaming fears of hidden enemies."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The Grimtotem clan's violent, unprovoked raid threatens to shatter the fragile peace between the Horde and Jaina Proudmoore's forces in Dustwallow Marsh."
+  }
+ ],
+ "keywords": [
+  "arson",
+  "barrens border",
+  "dustwallow marsh",
+  "grimtotem",
+  "james hyal",
+  "paval reethe",
+  "shady rest inn",
+  "theramore"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Shady Rest Inn"
+ ]
+}

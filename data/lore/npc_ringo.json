@@ -1,0 +1,99 @@
+{
+ "key": "npc:ringo",
+ "type": "npc",
+ "name": "Ringo",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Ringo",
+  "refs": 4
+ },
+ "summary": "Ringo is an unfortunate goblin explorer who ventured up the blistering heights of Fire Plume Ridge in Un'Goro Crater. Overwhelmed by the volcano's stifling heat and noxious vapors, he collapsed inside a cave, desperate for someone to help him back down. His close friend Spraggle Frock remains worried sick back at Marshal's Stand.",
+ "sections": [
+  {
+   "title": "A Venture Too Close to the Flame",
+   "body": "While goblins are known for braving hazardous environments in search of wealth or oddities, Fire Plume Ridge proves harsh even by their standards. Towering in the center of Un'Goro Crater, the active volcano spews ash, magma, and boiling steam. Ringo climbed about halfway up the southern face before the suffocating heat finally proved too much for him. Leaving his belongings scattered just outside, he crawled into a cave to shelter from the sweltering atmosphere, completely incapacitated by heat exhaustion.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Grueling Trek Down the Slopes",
+   "body": "Getting Ringo off the mountain is an ordeal in itself. The goblin is so weakened by dehydration and heatstroke that he repeatedly faints along the descent. Keeping him on his feet requires liberal splashes from a canteen\u2014or an occasional brisk slap across the face to shake him conscious. Escorting him past the mountain's volatile elementals and predators all the way back to the safety of Marshal's Stand requires constant vigilance until he can be reunited with his friend Spraggle.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ringo?",
+   "aliases": [
+    "ringo",
+    "who is ringo",
+    "ringo goblin"
+   ],
+   "answer": "Ringo is a goblin explorer in Un'Goro Crater who climbed up the volcanic slopes of Fire Plume Ridge, only to succumb to intense heat exhaustion inside a cave."
+  },
+  {
+   "q": "Where is Ringo located?",
+   "aliases": [
+    "ringo location",
+    "where is ringo",
+    "find ringo"
+   ],
+   "answer": "He can be found resting inside a south-facing cave roughly halfway up the slopes of Fire Plume Ridge, in the center of Un'Goro Crater."
+  },
+  {
+   "q": "Who is looking for Ringo?",
+   "aliases": [
+    "who is spraggle",
+    "ringo friend",
+    "spraggle frock"
+   ],
+   "answer": "His good friend Spraggle Frock, who is stationed at Marshal's Stand in northern Un'Goro, is deeply concerned about Ringo's disappearance."
+  },
+  {
+   "q": "Why keeps fainting on the way down?",
+   "aliases": [
+    "why does ringo faint",
+    "ringo passing out",
+    "ringo collapses"
+   ],
+   "answer": "Ringo is suffering from severe heat exhaustion and dehydration caused by the active volcanic heat and fumes of Fire Plume Ridge. Spraggle's canteen is needed to wake him up whenever he passes out."
+  },
+  {
+   "q": "What is Ringo's Sack?",
+   "aliases": [
+    "ringo's sack",
+    "ringo bag",
+    "lost bag ringo"
+   ],
+   "answer": "It is Ringo's personal pack, which he dropped just outside the mouth of his cave when he collapsed from the heat before retreating inside."
+  },
+  {
+   "q": "Where does Ringo need to go?",
+   "aliases": [
+    "where do i take ringo",
+    "ringo destination",
+    "ringo escort end"
+   ],
+   "answer": "He needs a safe escort off the volcano and across the crater floor to Marshal's Stand, where his friend Spraggle Frock is waiting."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fire plume ridge",
+  "goblin",
+  "heat exhaustion",
+  "marshal's stand",
+  "ringo",
+  "spraggle frock",
+  "un'goro crater"
+ ],
+ "related": [
+  "subzone:fire-plume-ridge",
+  "subzone:marshal-s-stand",
+  "zone:ungoro",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Ringo"
+ ]
+}

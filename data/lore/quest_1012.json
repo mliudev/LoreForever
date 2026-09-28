@@ -1,0 +1,129 @@
+{
+ "key": "quest:1012",
+ "type": "quest",
+ "name": "Insane Druids",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1012
+  ],
+  "level": "32",
+  "faction": "Alliance",
+  "start": "Kayneth Stillwind",
+  "end": "",
+  "previous": "Forsaken Diseases",
+  "next": null,
+  "wiki": "Insane Druids (Classic)",
+  "chain": [
+   "Forsaken Diseases",
+   "Insane Druids (Classic)"
+  ]
+ },
+ "summary": "Investigating Forsaken incursions in eastern Ashenvale, Kayneth Stillwind uncovers a tragic massacre deep within the Dor'Danil Barrow Den. The resident druids were poisoned and slaughtered in their sleep by undead agents, leaving their maddened spirits trapped in torment. Alliance adventurers are tasked with granting eternal rest to their slain leaders to soothe the agonizing spiritual blight.",
+ "sections": [
+  {
+   "title": "A Vision of Slaughter",
+   "body": "While battling the effects of virulent Forsaken toxins recovered in eastern Ashenvale, the night elf sentinel Kayneth Stillwind was struck by a terrifying waking vision. Beneath the earthen mounds of the nearby Dor'Danil Barrow Den, he witnessed an atrocity: the druids resting within had been quietly poisoned and slaughtered by undead infiltrators. Rather than passing peacefully into nature's embrace, their souls were severed violently from their flesh, warped by unnatural venom into shrieking, errant specters.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mercy for the Slain Leaders",
+   "body": "Driven mad by the unnatural circumstances of their deaths, the druids' phantoms haunt the subterranean chambers of Dor'Danil, unable to find release. To quiet the echoing anguish beneath the earth, Kayneth bids champions to venture into the depths and strike down the lingering spirits of the circle's three venerable leaders: Taneel Darkwood, Uthil Mooncall, and Mavoris Cloudsbreak. Only by laying these tortured figures to rest can the restless den begin to heal from the defilement.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who poisoned the druids in Dor'Danil Barrow Den?",
+   "aliases": [
+    "who killed dor'danil druids",
+    "who murdered the druids",
+    "forsaken poison druids"
+   ],
+   "answer": "The druids were poisoned and murdered by Forsaken infiltrators. Kayneth Stillwind perceived this foul crime in a vision while suffering from the effects of Forsaken toxins collected from undead agents active in Ashenvale."
+  },
+  {
+   "q": "Why did the druids become insane ghosts?",
+   "aliases": [
+    "why are the druids ghosts",
+    "why are druids mad",
+    "why insane druids"
+   ],
+   "answer": "The druids were killed abruptly while resting in their barrows. The vile nature of the Forsaken's alchemical poisons severed their souls from their bodies in an unnatural, agonizing fashion, twisting their disembodied spirits with madness."
+  },
+  {
+   "q": "Who are Taneel Darkwood, Uthil Mooncall, and Mavoris Cloudsbreak?",
+   "aliases": [
+    "druid leaders",
+    "taneel darkwood",
+    "uthil mooncall",
+    "mavoris cloudsbreak"
+   ],
+   "answer": "They were the venerable leaders of the druidic circle dwelling within Dor'Danil Barrow Den. In death, their spirits anchor the madness of the den, making their destruction necessary to grant peace to the rest of the haunting."
+  },
+  {
+   "q": "Where is the Dor'Danil Barrow Den located?",
+   "aliases": [
+    "dor'danil location",
+    "where is dor danil",
+    "barrow den ashenvale"
+   ],
+   "answer": "Dor'Danil Barrow Den is an underground night elven earthen barrow located in the southeastern reaches of Ashenvale, not far south of the outpost at Forest Song."
+  },
+  {
+   "q": "Who gives the quest to put the druids to rest?",
+   "aliases": [
+    "who gives insane druids",
+    "kayneth stillwind quest",
+    "where to start insane druids"
+   ],
+   "answer": "Kayneth Stillwind, a night elf stationed at Forest Song in eastern Ashenvale, offers the quest after you assist him with researching Forsaken diseases."
+  },
+  {
+   "q": "Does slaying the leaders purge the den entirely?",
+   "aliases": [
+    "is dor'danil saved",
+    "does the den get cleansed"
+   ],
+   "answer": "Destroying the three leaders significantly lessens the spiritual anguish gripping the barrow den, but Kayneth notes it is merely a step toward allowing the remaining maddened spirits to gradually find peace."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of Dor'Danil Barrow Den and the slaughter of sleeping druids is an outrageous crime against nature and the Kaldorei, demanding swift vengeance against the Forsaken."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Putting down Taneel Darkwood, Uthil Mooncall, and Mavoris Cloudsbreak is a solemn act of mercy, freeing fellow practitioners of the Cenarion arts from alchemical madness."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This tragedy reveals the horrifying reach and cruelty of the Horde's Forsaken, who smuggle insidious plagues far beyond Lordaeron to slaughter sleeping innocents."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "dor'danil barrow den",
+  "forest song",
+  "forsaken",
+  "insane druids",
+  "kayneth stillwind",
+  "mavoris cloudsbreak",
+  "taneel darkwood",
+  "uthil mooncall"
+ ],
+ "related": [
+  "quest:1011",
+  "quest:4581",
+  "subzone:dor-danil-barrow-den",
+  "subzone:forest-song",
+  "topic:druid",
+  "topic:forsaken",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Insane Druids (Classic)"
+ ]
+}

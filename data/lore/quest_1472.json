@@ -1,0 +1,111 @@
+{
+ "key": "quest:1472",
+ "type": "quest",
+ "name": "Devourer of Souls",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1472
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Carendin Halgar",
+  "end": "Godrick Farsan",
+  "previous": "Carendin Summons",
+  "next": "Hearts of the Pure",
+  "wiki": "Devourer of Souls (Undercity)",
+  "chain": []
+ },
+ "summary": "Devourer of Souls is an introductory step in a Forsaken warlock's journey to summon and bind a succubus. Directed by Carendin Halgar in the Undercity's Temple of the Damned, the practitioner must confer with his assistant, Godrick Farsan, to learn how to lure such a creature from the Twisting Nether. The ritual demands an irresistible stimulus: the hearts of pure and loving mortals.",
+ "sections": [
+  {
+   "title": "Baiting the Nether",
+   "body": "Carendin Halgar teaches that a succubus cannot simply be pulled across the threshold on command; it must be enticed. Driven by an insatiable hunger to ruin virtue and consume mortal essence, the demon requires a specific lure. The warlock's strategy relies on exploiting this singular desire by offering up the hearts of genuinely virtuous, loving men as bait. Halgar directs his acolytes to Godrick Farsan, who knows where such rare quarry can be harvested.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Blind Assistant",
+   "body": "Located deeper within the Temple of the Damned, Godrick Farsan assists Carendin with the practical preparations of demonic binding. Though Farsan has lost his physical eyesight, he claims his condition grants him a profound second sight\u2014allowing him to perceive underlying spiritual currents and far-off souls with uncanny clarity. He serves as the guide for locating the pure hearts necessary to draw the demon forth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do devourer of souls",
+    "succubus quest undercity",
+    "warlock quest level 20"
+   ],
+   "answer": "This quest bridges Carendin Halgar's initial summons with the practical hunting phase required to bind a succubus. It sends the warlock to Godrick Farsan, who details the morbid components needed for the ritual."
+  },
+  {
+   "q": "Why does a succubus need pure hearts to be summoned?",
+   "aliases": [
+    "why hearts of the pure",
+    "succubus bait lore"
+   ],
+   "answer": "A succubus thrives on corrupting goodness, tempting mortal hearts, and devouring virtuous souls. Carendin Halgar explains that the demon cannot easily breach into this world without an irresistible stimulus, making the untainted devotion of good men the ideal bait to lure it across."
+  },
+  {
+   "q": "Who is Godrick Farsan?",
+   "aliases": [
+    "who is farsan",
+    "blind warlock assistant"
+   ],
+   "answer": "Godrick Farsan is an undead warlock acolyte assisting Carendin Halgar in the Temple of the Damned. Despite being physically blind, he possesses mystical senses that allow him to perceive spiritual truths and locate suitable prey across the Eastern Kingdoms."
+  },
+  {
+   "q": "Where is this quest completed?",
+   "aliases": [
+    "where is godrick farsan",
+    "devourer of souls turn in"
+   ],
+   "answer": "The quest is turned in directly within the Temple of the Damned in the Undercity, just a few paces away from Carendin Halgar, where Godrick Farsan stands waiting."
+  },
+  {
+   "q": "What comes after Devourer of Souls?",
+   "aliases": [
+    "next quest after devourer of souls",
+    "hearts of the pure next"
+   ],
+   "answer": "Farsan immediately assigns the quest 'Hearts of the Pure,' tasking the warlock with traveling to the Wetlands and the Hillsbrad Foothills to claim the hearts of two virtuous mortals."
+  },
+  {
+   "q": "Can any race undertake this ritual?",
+   "aliases": [
+    "who can do devourer of souls",
+    "undead only warlock quest"
+   ],
+   "answer": "While it is situated in the Undercity and instructed by Forsaken practitioners, any Horde warlock seeking to bind a succubus through Undercity mentors can perform the ritual steps provided by Halgar and Farsan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Binding a succubus is a major milestone in a warlock's training, demonstrating the dark art of leveraging a demon's inherent vices and appetites to enslave it."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The Forsaken warlock trainers in the Temple of the Damned operate without moral restraint, casually treating living purity and devotion as disposable reagents for Nether rituals."
+  }
+ ],
+ "keywords": [
+  "bait",
+  "carendin halgar",
+  "godrick farsan",
+  "hearts of the pure",
+  "succubus",
+  "temple of the damned",
+  "undercity"
+ ],
+ "related": [
+  "npc:carendin-halgar",
+  "npc:godrick-farsan",
+  "quest:1476"
+ ],
+ "attribution": [
+  "Devourer of Souls (Undercity)"
+ ]
+}

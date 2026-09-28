@@ -1,0 +1,80 @@
+{
+ "key": "subzone:agmond-s-end",
+ "type": "subzone",
+ "name": "Agmond's End",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Agmond's End"
+ },
+ "summary": "Agmond's End is an abandoned dwarven excavation site tucked into the southern hills of the Badlands. Once a hopeful exploratory dig led by the prospector Agmond, the camp turned into a slaughterhouse when burrowing troggs overran the operation and killed its leader.",
+ "sections": [
+  {
+   "title": "A Gruesome Excavation",
+   "body": "Like many sites in the arid Badlands, Agmond's End began as a dwarven venture to uncover ancient relics and delve into the earth's buried history. That dream ended abruptly when savage troggs surged from the surrounding crevices and overwhelmed the miners. Agmond himself was cut down during the attack, giving the site its grim name. Today, the ruined dig remains utterly infested by Stonevault troggs, with shattered crates and abandoned tools left exactly where they fell.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Lonely Neighbor",
+   "body": "Just north of the ruined excavation sits a solitary camp inhabited by Theldurin the Lost. Living in close proximity to the violent troggs has done little for his sanity, though he remains one of the few souls willing to brave the southern desert near the doomed site.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Agmond?",
+   "aliases": [
+    "who is agmond",
+    "agmond lore"
+   ],
+   "answer": "Agmond was a dwarven prospector who led an excavation into the southern Badlands. His survey ended in disaster when subterranean troggs emerged and butchered him and his expedition."
+  },
+  {
+   "q": "What creatures inhabit Agmond's End?",
+   "aliases": [
+    "mobs at agmonds end",
+    "who lives here"
+   ],
+   "answer": "The ruined dig site is completely overrun by hostile troggs who slaughtered the dwarven miners and claimed the ruined camp and surrounding crags as their own."
+  },
+  {
+   "q": "Who lives near Agmond's End?",
+   "aliases": [
+    "npc nearby",
+    "theldurin location"
+   ],
+   "answer": "A hermit dwarf known as Theldurin the Lost maintains a camp nearby in the southern hills, keeping a wary watch over the barren landscape."
+  },
+  {
+   "q": "Why were dwarves digging here in the first place?",
+   "aliases": [
+    "why dwarven dig",
+    "purpose of excavation"
+   ],
+   "answer": "Dwarven prospectors frequently survey the Badlands in search of titan artifacts, ancient ruins, and rich mineral seams, though many such expeditions underestimate the savage creatures lurking underground."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The camp serves as a sobering reminder of the hazards of unearthing ancient earthen ground without sufficient martial support."
+  }
+ ],
+ "keywords": [
+  "agmond",
+  "agmond's end",
+  "badlands",
+  "dig site",
+  "prospector",
+  "theldurin the lost",
+  "trogg"
+ ],
+ "related": [
+  "zone:badlands",
+  "npc:theldurin-the-lost",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Agmond's End"
+ ]
+}

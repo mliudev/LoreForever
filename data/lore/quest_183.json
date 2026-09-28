@@ -1,0 +1,119 @@
+{
+ "key": "quest:183",
+ "type": "quest",
+ "name": "The Boar Hunter",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   183
+  ],
+  "level": "3",
+  "faction": "Alliance",
+  "start": "Talin Keeneye",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Boar Hunter",
+  "chain": []
+ },
+ "summary": "The Boar Hunter is an early errand given by the dwarf hunter Talin Keeneye in Coldridge Valley. A surge in the local crag boar population has made the woods overly dangerous, and young recruits are tasked with culling the aggressive beasts so seasoned hunters can track in peace.",
+ "sections": [
+  {
+   "title": "A Crowded Valley",
+   "body": "Coldridge Valley is typically a quiet, protected training ground for young mountaineers and scholars of Ironforge. However, the wildlife often grows restless and overabundant in the harsh winter climate. Talin Keeneye, a veteran hunter stationed outside Anvilmar, notices that the aggressive small crag boars have multiplied so rapidly that they pose a genuine threat to anyone wandering the snow-covered trails.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tending the Snows",
+   "body": "Hunting is a cornerstone of dwarven life, providing meat, hide, and essential fieldcraft practice. Yet when game becomes a nuisance that attacks on sight, culling is required to restore balance. By trimming the crag boar numbers across the valley slopes, young adventurers prove their combat readiness while giving local hunters room to pursue their sport without getting overwhelmed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Talin Keeneye?",
+   "aliases": [
+    "talin keeneye",
+    "who gives the boar hunter quest",
+    "boar hunter npc"
+   ],
+   "answer": "Talin Keeneye is a dwarven hunter stationed in Coldridge Valley, near Anvilmar. He spends his days tracking game in the snow and helps train novice adventurers in the practical realities of clearing hostile beasts."
+  },
+  {
+   "q": "Why are the crag boars such a problem?",
+   "aliases": [
+    "why kill boars",
+    "boar problem coldridge",
+    "why are boars dangerous"
+   ],
+   "answer": "The small crag boars in Coldridge Valley have grown unusually thick on the ground and attack anyone in sight without provocation. Their high numbers make ordinary travel and hunting dangerous for locals."
+  },
+  {
+   "q": "Where can the crag boars be found?",
+   "aliases": [
+    "where are the boars",
+    "crag boar location",
+    "small crag boar map"
+   ],
+   "answer": "Small crag boars roam the open snowy plains and lightly forested areas surrounding Anvilmar throughout Coldridge Valley."
+  },
+  {
+   "q": "Does this quest connect to a larger threat in the valley?",
+   "aliases": [
+    "is there a follow up quest",
+    "boar hunter chain",
+    "story behind boars"
+   ],
+   "answer": "No. Unlike the trogg infestations unsettling the dwarven outposts, this task is simply local wildlife management to keep the footpaths safe and let Talin hunt in peace."
+  },
+  {
+   "q": "What makes crag boars suited to Dun Morogh?",
+   "aliases": [
+    "crag boar lore",
+    "dwarf boars",
+    "dun morogh wildlife"
+   ],
+   "answer": "Crag boars are tough, thick-hided swine built to endure the freezing temperatures of Dun Morogh. Their aggressive temperament and sharp tusks allow them to forage through frozen soil and fend off mountain predators."
+  },
+  {
+   "q": "Why doesn't Talin Keeneye kill the boars himself?",
+   "aliases": [
+    "why does talin need help",
+    "talin lazy",
+    "why can't talin hunt them"
+   ],
+   "answer": "Talin notes that there are so many aggressive boars that his leisurely hunts have become unpleasantly dangerous. He enlists eager new adventurers passing through Anvilmar to thin the pack so he can return to normal tracking."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Living in the mountains means sharing the land with fierce wildlife. Culling the belligerent crag boars around Anvilmar is a rite of passage for every young dwarf taking their first steps outside the forge."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Talin Keeneye embodies the straightforward dwarven attitude toward tracking: keep your aim true, respect the beasts, and clear the brush when game becomes overly hostile."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "For gnome refugees newly arrived from Gnomeregan, facing Dun Morogh's ferocious wild boars is a harsh, practical introduction to life in the rugged dwarf country."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "boar hunter",
+  "coldridge valley",
+  "crag boar",
+  "dun morogh",
+  "hunting",
+  "talin keeneye"
+ ],
+ "related": [
+  "subzone:coldridge-valley",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "The Boar Hunter"
+ ]
+}

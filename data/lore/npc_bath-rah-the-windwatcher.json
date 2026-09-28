@@ -1,0 +1,96 @@
+{
+ "key": "npc:bath-rah-the-windwatcher",
+ "type": "npc",
+ "name": "Bath'rah the Windwatcher",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Bath'rah the Windwatcher",
+  "refs": 1
+ },
+ "summary": "Bath'rah the Windwatcher is a solitary jungle troll shaman and weaponcrafter dwelling amidst the ruins near Chillwind Point. Far from his tropical homelands, he studies the tempestuous elements of the northern mountains, seeking champions powerful enough to help him craft formidable weapons of wind.",
+ "sections": [
+  {
+   "title": "Hermit of the Peaks",
+   "body": "While most jungle trolls keep to the warm forests and coasts of the south, Bath'rah has embraced the solitary life of a mountain hermit among the cold ruins of the Alterac Mountains. A seasoned shaman and craftsman, he devotes his days to listening to the howling winds and communing with nature spirits. His obsession is not merely philosophical; he seeks to bind the fury of violent elemental storms into tangible armaments for those who possess the strength to wield them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Master of Cyclonian",
+   "body": "Bath'rah's greatest ambition revolves around Cyclonian, a monstrous wind elemental dwelling within the surrounding peaks. Unable to best such an entity alone, the Windwatcher enlists seasoned warriors and shamans to gather exotic elemental essences and call forth the beast. By slaying Cyclonian and claiming its elemental heart, Bath'rah harnesses raw tempests into legendary weapons renowned across Azeroth.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bath'rah the Windwatcher?",
+   "aliases": [
+    "bathrah identity",
+    "who is bathrah",
+    "windwatcher lore"
+   ],
+   "answer": "Bath'rah is an eccentric jungle troll shaman and armorsmith living in seclusion among the ruins of the Alterac Mountains near Chillwind Point. He helps seasoned adventurers harness elemental powers into mighty weapons."
+  },
+  {
+   "q": "Why is a jungle troll living in Alterac?",
+   "aliases": [
+    "why is bathrah in alterac",
+    "troll in alterac mountains"
+   ],
+   "answer": "Though native to warmer climates, Bath'rah chose a hermit's life in the northern highlands to study wild mountain tempests and track the great elemental Cyclonian, which he could not encounter in his homeland."
+  },
+  {
+   "q": "What is Cyclonian?",
+   "aliases": [
+    "who is cyclonian",
+    "what does bathrah summon"
+   ],
+   "answer": "Cyclonian is a massive, violent wind elemental haunting the ruins around Bath'rah's sanctuary. Bath'rah requires the creature's core to forge weapons infused with elemental wind."
+  },
+  {
+   "q": "Why do warriors seek him out?",
+   "aliases": [
+    "bathrah warrior quest",
+    "whirlwind axe guy"
+   ],
+   "answer": "Warriors travel from all across the world to Bath'rah because he knows how to forge the iconic Whirlwind weapons. Defeating Cyclonian under his guidance yields arms infused with howling gales."
+  },
+  {
+   "q": "Does Bath'rah only help members of the Horde?",
+   "aliases": [
+    "is bathrah hostile",
+    "bathrah alliance"
+   ],
+   "answer": "Bath'rah lives apart from major faction politics as a solitary hermit. He is primarily focused on elemental craftsmanship and will assist capable warriors and shamans who respect the spirits and aid his elemental work."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Bath'rah is famous among veteran fighters for guiding them through the trials necessary to forge iconic Whirlwind armaments using the essence of the elemental Cyclonian."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "As a fellow master of the elements, Bath'rah shares a deep spiritual connection with shamans pursuing deeper communion with the spirits of earth, water, and air."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "bath'rah",
+  "chillwind",
+  "cyclonian",
+  "elemental",
+  "shaman",
+  "whirlwind",
+  "windwatcher"
+ ],
+ "related": [
+  "subzone:chillwind-point",
+  "zone:alterac",
+  "quest:1791",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Bath'rah the Windwatcher"
+ ]
+}

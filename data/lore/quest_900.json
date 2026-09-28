@@ -1,0 +1,109 @@
+{
+ "key": "quest:900",
+ "type": "quest",
+ "name": "Samophlange",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   900
+  ],
+  "level": "14",
+  "faction": null,
+  "start": "Control Console",
+  "end": "",
+  "previous": "Samophlange (Classic)",
+  "next": "Samophlange (Classic 3)",
+  "wiki": "Samophlange (Classic 2)",
+  "chain": []
+ },
+ "summary": "This task requires shutting down the intricate machinery powering the Venture Company's digging operations in the northern Barrens. By cutting off three separate control valves, adventurers can safely power down the central apparatus. Turning off these valves halts the volatile flow of fuel and pressure keeping the machine active.",
+ "sections": [
+  {
+   "title": "Taming the Apparatus",
+   "body": "The Venture Company's machinery at the Sludge Fen is as dangerous as it is complex. When confronting the central control console, the dials and indicators make it clear that the core mechanism cannot simply be shut down at the flip of a switch. To prevent an explosion or mechanical failure, the feed lines must be handled manually first.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Three Valves",
+   "body": "Three distinct valves govern the flow into the rig: the Main Control Valve, the Fuel Control Valve, and the Regulator Valve. Each must be manually sealed against high pressure. As each valve closes, the glowing status indicators on the console fade from green to yellow, finally allowing the central shutoff mechanism to be engaged safely.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of shutting off these valves?",
+   "aliases": [
+    "why shut valves",
+    "samophlange valves purpose",
+    "what do valves do"
+   ],
+   "answer": "The console monitors pressure and fuel lines running into the machine. Attempting to shut down the apparatus while the lines are open could damage the unit or trigger a disaster, so the fuel, regulation, and main lines must be sealed off beforehand."
+  },
+  {
+   "q": "What happens once all three valves are closed?",
+   "aliases": [
+    "console lights",
+    "valves closed what next"
+   ],
+   "answer": "Closing the three valves drops the internal pressure and cuts off the fuel. The blinking indicator lights on the console dim and shift from green to yellow, allowing the main shutoff switch to finally move freely."
+  },
+  {
+   "q": "Who built this machine?",
+   "aliases": [
+    "who made the samophlange",
+    "venture co machine"
+   ],
+   "answer": "The apparatus was constructed by the Venture Company, a ruthless goblin trading cartel extracting oil and raw resources from the northern Barrens."
+  },
+  {
+   "q": "Where are the valves located?",
+   "aliases": [
+    "valve location",
+    "where are the valves"
+   ],
+   "answer": "The three valves are positioned right around the central control console and the primary machinery at the Venture Company dig site in the Barrens."
+  },
+  {
+   "q": "Why is the Horde interested in this device?",
+   "aliases": [
+    "why does horde care",
+    "horde samophlange"
+   ],
+   "answer": "The Venture Company's heavy industry damages the Barrens and encroaches on Horde lands. Understanding and sabotaging their technology helps curb their destructive exploitation."
+  },
+  {
+   "q": "What is a samophlange?",
+   "aliases": [
+    "samophlange meaning",
+    "what is a samophlange"
+   ],
+   "answer": "A samophlange is an obscure, technical goblin component whose exact internal function is rarely understood by non-engineers, though it appears essential to high-pressure drilling equipment."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will recognize the classic goblin design: overpowered, volatile fuel lines with minimal automated failsafes, requiring manual shutoffs to avoid catastrophic pressure backfire."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Stopping the Venture Company's machines safeguards the northern Barrens from unchecked industrial exploitation."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "control console",
+  "fuel valve",
+  "regulator valve",
+  "samophlange",
+  "sludge fen",
+  "venture company"
+ ],
+ "related": [
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Samophlange (Classic 2)"
+ ]
+}

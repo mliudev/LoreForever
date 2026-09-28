@@ -1,0 +1,88 @@
+{
+ "key": "subzone:blackwood-lake",
+ "type": "subzone",
+ "name": "Blackwood Lake",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Blackwood Lake"
+ },
+ "summary": "Blackwood Lake is a blighted body of water situated in the southern Eastern Plaguelands, teeming with hostile, corrupted elementals. Once the site of a peaceful Lordaeron village, the area is now haunted by memories of tragedy and war, watched over by a small frontline camp of the Argent Dawn.",
+ "sections": [
+  {
+   "title": "A Polluted Memory",
+   "body": "Before the Third War, a quiet settlement named Blackwood rested along these shores. It was the ancestral home of Grand Marshal Othmar Garithos, whose family holdings and subjects were slaughtered during the Second War while he defended Quel'Thalas. Today, the town is utterly gone, and the lake itself has been poisoned by the rampant plague of undeath. Diseased and foul water elementals churn beneath the murky surface, attacking anyone who ventures near the shoreline.",
+   "spoiler": 0
+  },
+  {
+   "title": "Relics of the Fallen",
+   "body": "The lake also holds grim relics from the Battle of Darrowshire. Local historical accounts, such as the Extended Annals of Darrowshire, record that the severed skull of the Scourge warlord Horgus the Ravager was cast into Blackwood Lake's rancid depths. Nearby, an Argent Dawn medic tends to battered infantry at a small forward outpost, struggling to keep soldiers alive in the shadow of the Scourge's devastation.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures lurk in Blackwood Lake?",
+   "aliases": [
+    "what is in the water",
+    "lake monsters",
+    "elementals in blackwood lake"
+   ],
+   "answer": "The lake is infested with corrupted water elementals. Like much of the freshwater in the Plaguelands, the waters have been twisted by necromantic runoff and filth, warping the local spirits into violent, toxic entities."
+  },
+  {
+   "q": "What town used to stand here?",
+   "aliases": [
+    "blackwood town",
+    "who lived here",
+    "garithos hometown"
+   ],
+   "answer": "A Lordaeron village called Blackwood once stood on these shores. It was ruled by the family of Grand Marshal Othmar Garithos before it was sacked and destroyed by an orcish raiding party during the Second War."
+  },
+  {
+   "q": "Why is the Argent Dawn stationed at the lake?",
+   "aliases": [
+    "argent camp",
+    "argent medic",
+    "why are there soldiers here"
+   ],
+   "answer": "The Argent Dawn maintains a small field camp near the lake where an Argent Medic cares for wounded infantry. It acts as an emergency station for patrols fighting along the roads between Darrowshire and nearby Scourge strongholds."
+  },
+  {
+   "q": "What Darrowshire relic is buried in Blackwood Lake?",
+   "aliases": [
+    "horgus the ravager head",
+    "quest item in lake",
+    "annals of darrowshire lake"
+   ],
+   "answer": "According to the Annals of Darrowshire, the skull of Horgus the Ravager, one of the primary Scourge leaders during the assault on Darrowshire, was hurled into the lake's depths after he was brought down."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Lordaeron, Blackwood Lake is a bitter reminder of the fall of Grand Marshal Garithos's line and the sheer totality with which the Scourge erased the kingdom's rural townships."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The polluted waters and decaying atmosphere around Blackwood Lake are a stark display of the blight corrupting Lordaeron's natural elementals, demanding the purifying touch of the Light."
+  }
+ ],
+ "keywords": [
+  "blackwood",
+  "darrowshire",
+  "elementals",
+  "garithos",
+  "horgus",
+  "lake",
+  "plaguelands"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "subzone:darrowshire",
+  "topic:argent-dawn"
+ ],
+ "attribution": [
+  "Blackwood Lake"
+ ]
+}

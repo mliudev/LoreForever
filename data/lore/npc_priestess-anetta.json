@@ -1,0 +1,93 @@
+{
+ "key": "npc:priestess-anetta",
+ "type": "npc",
+ "name": "Priestess Anetta",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Priestess Anetta",
+  "refs": 2
+ },
+ "summary": "Priestess Anetta is a human cleric of the Holy Light stationed inside Northshire Abbey. As a member of the Brotherhood of Northshire, she tends to wounded trainees and instructs newly arrived priests in their first sacred rites.",
+ "sections": [
+  {
+   "title": "Tender of the Faithful",
+   "body": "Priestess Anetta can be found on the ground floor of Northshire Abbey within its quiet library wing. Amid the threat of Defias bandits and encroaching blackrock orcs pressing into the valley, Anetta works tirelessly to care for injured recruits brought back from the field. She serves as a grounding presence for the Brotherhood of Northshire, ensuring that those fighting to defend the abbey are restored in body and spirit through the grace of the Holy Light.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guiding Novice Priests",
+   "body": "Beyond her duties as a field healer within the cloister, Anetta acts as the primary mentor for budding human priests. Novices who arrive with a hallowed letter of introduction seek her out to learn the fundamentals of faith: channeling holy words to mend flesh and unleashing smiting radiance to repel evil. Under her tutelage, young acolytes prepare to carry the Light beyond Northshire's secluded walls.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Priestess Anetta?",
+   "aliases": [
+    "who is anetta",
+    "priestess anetta lore",
+    "priestess anetta northshire"
+   ],
+   "answer": "Priestess Anetta is a human priest trainer and healer belonging to the Brotherhood of Northshire. She resides on the ground floor of Northshire Abbey in the library wing, where she aids wounded soldiers and mentors novice priests."
+  },
+  {
+   "q": "Where can I find Priestess Anetta?",
+   "aliases": [
+    "where is priestess anetta",
+    "anetta location",
+    "find anetta"
+   ],
+   "answer": "She is located inside Northshire Abbey in northern Elwynn Forest. Enter the front gates of the abbey, proceed into the main hall, and look to the ground floor of the library wing."
+  },
+  {
+   "q": "What role does she play in the Abbey's defense?",
+   "aliases": [
+    "what does anetta do",
+    "anetta role"
+   ],
+   "answer": "While Stormwind marshals and recruits fight to reclaim the valley from Defias bandits and kobolds, Anetta provides vital medical care. She treats wounded trainees brought back to the abbey and calls upon the Light to mend their injuries."
+  },
+  {
+   "q": "What training does she offer?",
+   "aliases": [
+    "can anetta teach me spells",
+    "anetta priest spells"
+   ],
+   "answer": "Anetta teaches entry-level clerical spells and prayers to young priests, instructing them in the fundamentals of healing and smiting enemies in the name of the Holy Light."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "For young human priests starting in Northshire, Priestess Anetta is your very first mentor, validating your holy calling and teaching you how to commune directly with the Light."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Anetta represents the enduring spiritual core of the Alliance, ensuring recruits injured defending Northshire Valley survive to continue the fight."
+  }
+ ],
+ "keywords": [
+  "anetta",
+  "brotherhood of northshire",
+  "elwynn forest",
+  "holy light",
+  "library wing",
+  "northshire abbey",
+  "priest trainer",
+  "priestess anetta"
+ ],
+ "related": [
+  "subzone:northshire-abbey",
+  "topic:brotherhood-of-northshire",
+  "topic:light",
+  "subzone:library-wing-northshire",
+  "quest:3103",
+  "quest:5623",
+  "zone:elwynn",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Priestess Anetta"
+ ]
+}

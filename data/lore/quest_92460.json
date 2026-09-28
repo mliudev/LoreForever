@@ -1,0 +1,113 @@
+{
+ "key": "quest:92460",
+ "type": "quest",
+ "name": "Coming of Age",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92460
+  ],
+  "level": "1",
+  "faction": null,
+  "start": "Ailee Farheart",
+  "end": "Rorian the Dayseeker",
+  "previous": null,
+  "next": "Harmony in Balance, Infestation Investigation",
+  "wiki": "Coming of Age (Forever)",
+  "chain": []
+ },
+ "summary": "Coming of Age marks the initial rite of passage for young Skyborne taking their first steps beyond Thendal Village on Zephras Isle. Guided by Ailee Farheart, novices report to village leader Rorian the Dayseeker to receive an ancestral relic and formally pledge their aid to the shen'dorei.",
+ "sections": [
+  {
+   "title": "A Rite of Passage",
+   "body": "For every young Skyborne coming into adulthood, the journey begins in Thendal Village. Guided forward by Ailee Farheart, fledglings make their way just west to the greatfather tree where the village elder awaits. Passing into maturity among the shen'dorei is not merely a social milestone, but a ceremonial commitment to serve their community amid rising local troubles.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ancestral Relic",
+   "body": "At the entrance of the greatfather tree, Rorian the Dayseeker presides over the ceremony. He formally bestows an ancestral relic upon the initiate\u2014an heirloom passed through generations of shen'dorei. Borne by many who came before, the relic serves as a lasting token of the winds of home, destined to return to the people only when its bearer's ashes are scattered to the breeze.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Coming of Age ceremony?",
+   "aliases": [
+    "why coming of age",
+    "coming of age purpose",
+    "skyborne rite of passage"
+   ],
+   "answer": "It serves as the formal transition into adulthood for young Skyborne, officially welcoming them into active service for the shen'dorei and granting them an ancestral heirloom."
+  },
+  {
+   "q": "Who initiates the quest?",
+   "aliases": [
+    "who gives coming of age",
+    "where does coming of age start",
+    "ailee farheart location"
+   ],
+   "answer": "Ailee Farheart, who watches over the village novices in Thendal Village on Zephras Isle, welcomes you and sends you to meet the village leadership."
+  },
+  {
+   "q": "Who do you report to for the ritual?",
+   "aliases": [
+    "who is rorian",
+    "where is rorian",
+    "rorian the dayseeker location"
+   ],
+   "answer": "Rorian the Dayseeker, the village leader of Thendal Village, who stands at the entrance to the greatfather tree just west of the settlement."
+  },
+  {
+   "q": "What relic is bestowed during the ceremony?",
+   "aliases": [
+    "what is the relic",
+    "skyborne relic",
+    "what do you get"
+   ],
+   "answer": "Rorian presents an inherited coming-of-age relic that has been carried by generations of shen'dorei before you. Tradition dictates it remains with you until death, when it passes to the next generation."
+  },
+  {
+   "q": "What does 'shen'dorei' mean in this context?",
+   "aliases": [
+    "who are the shendorei",
+    "shendorei meaning",
+    "skyborne shendorei"
+   ],
+   "answer": "Rorian uses 'shen'dorei' to refer to the Skyborne, evoking their complex history, shared trials, and enduring identity on Zephras Isle."
+  },
+  {
+   "q": "Where does your journey lead immediately after this?",
+   "aliases": [
+    "what quest is next",
+    "next steps after coming of age",
+    "after rorian"
+   ],
+   "answer": "After completing your rite of passage, Rorian directs your attention to local matters threatening the island, beginning with quests such as Harmony in Balance and Infestation Investigation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "This rite of passage defines your entry into adulthood, granting you a sacred family heirloom to carry wherever the winds blow."
+  }
+ ],
+ "keywords": [
+  "ailee farheart",
+  "coming of age",
+  "rorian the dayseeker",
+  "shen'dorei",
+  "skyborne",
+  "thendal grove",
+  "thendal village",
+  "zephras isle"
+ ],
+ "related": [
+  "zone:zephras",
+  "npc:rorian-the-dayseeker",
+  "topic:skyborne"
+ ],
+ "attribution": [
+  "Coming of Age (Forever)"
+ ]
+}

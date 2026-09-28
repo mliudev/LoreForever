@@ -1,0 +1,118 @@
+{
+ "key": "quest:8353",
+ "type": "quest",
+ "name": "Chicken Clucking for a Mint",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   8353
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Innkeeper Firebrew",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Chicken Clucking for a Mint (Alliance)",
+  "chain": []
+ },
+ "summary": "Chicken Clucking for a Mint is a lighthearted seasonal Alliance quest offered in Ironforge during the Hallow's End festival. To earn a traditional Ironforge Mint on behalf of the young orphan Jesper, adventurers must put aside their battle-hardened dignity and flap their arms while clucking like a chicken for the tavern's amusement. Innkeeper Firebrew gladly rewards anyone willing to swallow their pride to bring holiday cheer to a child.",
+ "sections": [
+  {
+   "title": "A Hallow's End Tradition",
+   "body": "During Hallow's End, spirits run high across Azeroth as folk celebrate the break between harvest and winter with costumed revelry and seasonal treats. While seasoned heroes might normally feel too old to go door-to-door begging for candy, the plight of sick or orphaned children offers an honorable excuse. In Ironforge, young Jesper longs for holiday sweets, prompting visiting Alliance champions to gather iconic regional confections from innkeepers across the Alliance capitals.",
+   "spoiler": 0
+  },
+  {
+   "title": "Innkeeper Firebrew's Price",
+   "body": "Behind the counter at Ironforge's bustling tavern stands Innkeeper Firebrew, guardian of the famed Ironforge Mints. Never one to let an adventurer off easy, Firebrew refuses to hand over the confection simply for asking. He insists on entertainment, demanding that hardened warriors and stoic spellcasters flap and squawk like barnyard fowl before coughing up the prize. It is all in the name of festival merriment, providing tavern patrons with a good laugh at a hero's expense.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Innkeeper Firebrew want me to cluck like a chicken?",
+   "aliases": [
+    "why chicken cluck",
+    "firebrew chicken reason",
+    "why do i have to cluck"
+   ],
+   "answer": "Innkeeper Firebrew is embracing the playful spirit of Hallow's End. Since seasoned adventurers are far too old to trick-or-treat normally, he demands a comical trick before parting with his treat. Believing that watching a mighty champion flap their arms and squawk provides good tavern entertainment, he cheerfully trades an Ironforge Mint for a bit of public humiliation."
+  },
+  {
+   "q": "Who is Jesper and why am I getting mints for him?",
+   "aliases": [
+    "who is jesper",
+    "why get mints",
+    "jesper orphan"
+   ],
+   "answer": "Jesper is a sick orphan staying in Stormwind who cannot partake in the city's Hallow's End festivities himself. To bring him joy, Alliance adventurers run seasonal errands across the world to collect four special holiday candies from each major Alliance city, including the crisp Ironforge Mint from Dun Morogh."
+  },
+  {
+   "q": "Where does this quest fit into the Hallow's End holiday?",
+   "aliases": [
+    "hallows end chain",
+    "jesper candy questline",
+    "quest order"
+   ],
+   "answer": "This quest is one of four regional tasks tied to the overarching seasonal mission 'Hallow's End Treats for Jesper!' alongside requests in Stormwind, Darnassus, and the Exodar. Each innkeeper demands a specific humiliating or theatrical emote before surrendering their city's signature candy."
+  },
+  {
+   "q": "Where can I find Innkeeper Firebrew?",
+   "aliases": [
+    "where is firebrew",
+    "firebrew location",
+    "ironforge innkeeper"
+   ],
+   "answer": "Innkeeper Firebrew is stationed behind the hearth bar inside the main tavern in Ironforge's bustling Great Forge area, serving drinks and boarding travelers right in the heart of the dwarven capital."
+  },
+  {
+   "q": "What do I receive for clucking?",
+   "aliases": [
+    "quest reward",
+    "what is the mint",
+    "ironforge mint"
+   ],
+   "answer": "Upon clucking, Innkeeper Firebrew hands you an Ironforge Mint, an event-exclusive holiday candy needed to bring back to Stormwind to complete Jesper's assortment of Hallow's End treats."
+  },
+  {
+   "q": "Can Horde players complete this task?",
+   "aliases": [
+    "is this alliance only",
+    "horde chicken quest",
+    "can horde do this"
+   ],
+   "answer": "No, this quest is exclusive to the Alliance. Horde adventurers have their own counterpart in the orphan Spoops, who sends champions across Horde capitals to collect confections from innkeepers in Orgrimmar, the Undercity, and Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This seasonal errand highlights the camaraderie of the Alliance capitals, connecting the dwarven hospitality of Ironforge directly to cheering up an orphaned child in Stormwind."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarves appreciate good humor, hearty drink, and festival traditions, and Firebrew's demand shows that no Ironforge patron takes themselves entirely too seriously."
+  }
+ ],
+ "keywords": [
+  "chicken",
+  "cluck",
+  "firebrew",
+  "hallow's end",
+  "innkeeper",
+  "ironforge mint",
+  "jesper",
+  "treats"
+ ],
+ "related": [
+  "quest:8311",
+  "npc:innkeeper-firebrew",
+  "npc:jesper",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Chicken Clucking for a Mint (Alliance)"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:chillwind-point",
+ "type": "subzone",
+ "name": "Chillwind Point",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Chillwind Point"
+ },
+ "summary": "Chillwind Point is a rocky rise and ancient troll ruin sitting on the high frontier between the Alterac Mountains, Hillsbrad Foothills, and the Western Plaguelands. It gets its name from the freezing drafts howling through the mountain pass out of the blighted north. Today, it serves as a lonely vantage point inhabited primarily by a lone troll mystic.",
+ "sections": [
+  {
+   "title": "A Bitter Crossroads",
+   "body": "Perched on the borderlands where Hillsbrad gives way to Alterac and the plagued north, Chillwind Point looks out over the mountain ravine leading directly into the Western Plaguelands. Long before Lordaeron claimed these passes, ancient trolls built stone structures upon these heights, the remnants of which still stand weather-beaten against the elements. Today, cold winds blow south through the ravine, carrying the chill of the fallen north into the foothill valleys below.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Windwatcher",
+   "body": "Despite its bleak exposure and proximity to Scourge-ravaged lands, Chillwind Point is not entirely deserted. The ancient masonry provides shelter for Bath'rah the Windwatcher, a jungle troll hermit who communes with the violent gales coursing through the gap. Travelers and shamans venturing north often seek out his solitary camp amid the ruins to learn the secrets of the mountain currents.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Chillwind Point?",
+   "aliases": [
+    "chillwind point overview",
+    "where is chillwind point",
+    "what is this place"
+   ],
+   "answer": "Chillwind Point is an ancient troll ruin situated on a high rise overlooking the pass between Hillsbrad, Alterac, and the Western Plaguelands. It takes its name from the biting drafts that constantly whistle through the adjacent gorge."
+  },
+  {
+   "q": "Is Chillwind Point the same as Chillwind Camp?",
+   "aliases": [
+    "chillwind point vs camp",
+    "chillwind camp difference",
+    "is this chillwind camp"
+   ],
+   "answer": "No, though they are frequently confused. Chillwind Camp is the fortified Alliance and Argent Dawn outpost just north across the border inside the Western Plaguelands, whereas Chillwind Point is the ruined troll rise slightly to the south."
+  },
+  {
+   "q": "Who lives at Chillwind Point?",
+   "aliases": [
+    "who is here",
+    "who is the troll",
+    "bathrah"
+   ],
+   "answer": "The solitary occupant of the ruins is Bath'rah the Windwatcher, a friendly jungle troll who studies the winds and aids elemental seekers and shamans who brave the mountain pass."
+  },
+  {
+   "q": "Why is it so cold here?",
+   "aliases": [
+    "why is it chilly",
+    "chill winds",
+    "freezing wind"
+   ],
+   "answer": "The point sits directly adjacent to a narrow mountain ravine that funnels freezing drafts down from the high northern regions and the blighted expanse of the Western Plaguelands into the lower foothills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The wild, funneling gusts of the pass make Chillwind Point a place of elemental focus, drawing practitioners to study with the hermit Bath'rah the Windwatcher."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Lying just south of the border post at Chillwind Camp, these ancient ruins mark the transition between the contested foothills and the terrifying territory of the Plaguelands."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "bath'rah",
+  "chillwind",
+  "chillwind point",
+  "hillsbrad",
+  "plaguelands",
+  "troll ruins",
+  "windwatcher"
+ ],
+ "related": [
+  "npc:bath-rah-the-windwatcher",
+  "subzone:chillwind-camp",
+  "zone:westernplaguelands",
+  "zone:alterac",
+  "zone:hillsbrad",
+  "quest:1791",
+  "topic:troll",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Chillwind Point"
+ ]
+}

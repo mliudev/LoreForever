@@ -1,0 +1,122 @@
+{
+ "key": "quest:1046",
+ "type": "quest",
+ "name": "Raene's Cleansing",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1046
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Krolg",
+  "end": "Raene Wolfrunner",
+  "previous": "Raene's Cleansing (10)",
+  "next": null,
+  "wiki": "Raene's Cleansing (11)",
+  "chain": []
+ },
+ "summary": "This quest marks the final chapter in the search to uncover what befell Teronis and halt the furbolg threat looming over Ashenvale. Bearing Ran Bloodtooth's skull from Krolg, an adventurer returns to Sentinel Raene Wolfrunner in Astranaar to report the culmination of their perilous journey.",
+ "sections": [
+  {
+   "title": "A Bitter Trophy",
+   "body": "Following the defeat of the fierce corrupted furbolg chieftain Ran Bloodtooth, Krolg sends the champion back to Astranaar. With Bloodtooth's severed skull in hand, you return as proof that the savage threat prowling the forest depths has been decisively struck down.",
+   "spoiler": 0
+  },
+  {
+   "title": "In Memory of Teronis",
+   "body": "Upon receiving the skull, Raene Wolfrunner places it alongside Dartol's Rod in a place of reverence. The grim token honors the memory of Teronis, whose tragic investigation into cleansing the corrupted furbolgs set the entire desperate effort into motion.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ran Bloodtooth?",
+   "aliases": [
+    "ran bloodtooth",
+    "bloodtooth skull",
+    "who was ran bloodtooth"
+   ],
+   "answer": "Ran Bloodtooth was considered the fiercest corrupted furbolg threat terrorizing the forests of Ashenvale. His defeat removes a dangerous chieftain actively preying upon the woodland."
+  },
+  {
+   "q": "Why does Raene Wolfrunner want the skull?",
+   "aliases": [
+    "why skull",
+    "wolfrunner skull",
+    "what does raene do with the skull"
+   ],
+   "answer": "Raene Wolfrunner keeps the skull alongside Dartol's Rod as a symbol of victory and remembrance. It serves as undeniable proof that the Sentinel forces and their allies struck down a mortal danger to Ashenvale."
+  },
+  {
+   "q": "Who was Teronis?",
+   "aliases": [
+    "teronis",
+    "who is teronis",
+    "teronis proud"
+   ],
+   "answer": "Teronis was a night elf investigator whose death early in the questline spurred the search for the cleansing gemstones and Dartol's Rod. Finishing the task fulfills his unfinished mission."
+  },
+  {
+   "q": "Where does this quest end?",
+   "aliases": [
+    "turn in location",
+    "where is raene",
+    "raene wolfrunner location"
+   ],
+   "answer": "It is completed in Astranaar, the primary night elf hub in Ashenvale, by speaking with Sentinel Raene Wolfrunner."
+  },
+  {
+   "q": "Who is Krolg?",
+   "aliases": [
+    "krolg",
+    "who gives quest",
+    "npc krolg"
+   ],
+   "answer": "Krolg is an ally who directs you to carry the severed skull of Ran Bloodtooth back to Astranaar to claim your recognition and bask in victory among your own people."
+  },
+  {
+   "q": "What is Dartol's Rod?",
+   "aliases": [
+    "dartol's rod",
+    "rod of transformation",
+    "furbolg rod"
+   ],
+   "answer": "Dartol's Rod is a powerful enchanted relic assembled during the quest chain that holds deep magical connections to furbolg nature and cleansing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, ending the fury of Ran Bloodtooth honors fallen Sentinels like Teronis and helps reclaim the sanctity of Ashenvale's sacred groves."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Delivering Bloodtooth's skull cements the Alliance's commitment to defending Astranaar and standing shoulder to shoulder with the night elf Sentinels."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "dartol's rod",
+  "furbolg",
+  "krolg",
+  "raene wolfrunner",
+  "raene's cleansing",
+  "ran bloodtooth",
+  "teronis"
+ ],
+ "related": [
+  "npc:raene-wolfrunner",
+  "subzone:astranaar",
+  "zone:ashenvale",
+  "topic:furbolg",
+  "topic:sentinels",
+  "npc:krolg",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Raene's Cleansing (11)"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "subzone:felstone-field",
+ "type": "subzone",
+ "name": "Felstone Field",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Felstone Field"
+ },
+ "summary": "Felstone Field is a blighted farmstead located in the northwestern Western Plaguelands. Once a thriving piece of Lordaeron agricultural land, it has been claimed by the Scourge and anchored by a plague cauldron spewing toxic fumes across the ruined soil.",
+ "sections": [
+  {
+   "title": "A Blighted Homestead",
+   "body": "Before the Third War, Felstone Field was a peaceful, productive family farm feeding the citizens of Lordaeron. When the plague swept through the north, the homestead fell swiftly to the Cult of the Damned and the Scourge. Today, the fields sprout dead weeds and creeping rot instead of grain. At the heart of the farmland sits an enormous plague cauldron, continuously churning foul vapors into the sky under the watch of Cauldron Lord Bilemaw and legions of skeletal flayers, sorcerers, and ravenous ghouls.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lingering Ghosts and Zealots",
+   "body": "Despite the undead occupation, traces of the living world remain trapped in the ruins. Inside the northeastern farmhouse lingers the ghost of Janice Felstone, wandering the shell of her former home in sorrow. Meanwhile, patrols from the nearby Scarlet Crusade prowl the borders of the property, violently purging any undead they cross while striking down any outsiders who venture too close to their crusade.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the cauldron in the center of the field doing?",
+   "aliases": [
+    "felstone cauldron",
+    "why is there a cauldron",
+    "plague cauldron felstone"
+   ],
+   "answer": "The cauldron is a Scourge plague engine designed to saturate the surrounding land and atmosphere with pestilence, corrupting the soil and raising the dead. It is guarded by a powerful Scourge overseer, Cauldron Lord Bilemaw, along with skeletal minions and ghouls."
+  },
+  {
+   "q": "Who is the ghost inside the farmhouse?",
+   "aliases": [
+    "janice felstone",
+    "ghost in felstone house",
+    "who is in the house"
+   ],
+   "answer": "The ghost is Janice Felstone, the former mistress of the farmstead who died when the Scourge overran the territory. Unwilling or unable to rest, her spirit remains tied to the ruins of her family's house."
+  },
+  {
+   "q": "Why are there Scarlet Crusaders patrolling the farm?",
+   "aliases": [
+    "scarlet crusade felstone",
+    "crusaders at felstone field"
+   ],
+   "answer": "The Scarlet Crusade frequently dispatches aggressive strike teams into the Western Plaguelands to destroy the Scourge. They treat any trespassing travelers, Horde or Alliance, as potential plague-bearers or enemies, attacking everything on sight."
+  },
+  {
+   "q": "Who actually owns the deed to Felstone Field?",
+   "aliases": [
+    "felstone field deed",
+    "who owns felstone",
+    "better late than never deed"
+   ],
+   "answer": "Both Jeremiah Payson in the Undercity and Ol' Emma in Stormwind claim to have received the deed from their sister, Janice Felstone. It remains a mystery whether two deeds were drafted or if the chaos of the plague left inheritance hopelessly tangled between living and undead family members."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The ruined farm stands as a stark reminder of the lives Forsaken once led in Lordaeron, brought home by relatives like Jeremiah Payson who survived only through undeath."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance survivors in Stormwind, sites like Felstone Field represent lost ancestral lands and displaced kin such as Ol' Emma, who clings to claims of a ruined northern inheritance."
+  }
+ ],
+ "keywords": [
+  "cauldron lord bilemaw",
+  "felstone field",
+  "janice felstone",
+  "jeremiah payson",
+  "lordaeron",
+  "ol' emma",
+  "plague cauldron",
+  "scarlet crusade",
+  "western plaguelands"
+ ],
+ "related": [
+  "zone:westernplaguelands",
+  "subzone:cauldron",
+  "topic:scourge",
+  "topic:scarlet-crusade",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Felstone Field"
+ ]
+}

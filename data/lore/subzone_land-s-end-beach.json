@@ -1,0 +1,80 @@
+{
+ "key": "subzone:land-s-end-beach",
+ "type": "subzone",
+ "name": "Land's End Beach",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Land's End Beach"
+ },
+ "summary": "Land's End Beach is a desolate stretch of coastline at the far southern tip of Tanaris, effectively marking the southern edge of Kalimdor. Shielded by towering mountain ridges and vast ocean waters, it remains one of the most secluded and inaccessible shores on the continent.",
+ "sections": [
+  {
+   "title": "The Edge of the World",
+   "body": "Tucked away behind the southern mountain ranges of Tanaris and the sealed titan gateway to Uldum, Land's End Beach represents the absolute southern edge of Kalimdor's mainland. Cut off from overland routes across the desert dunes, reaching this windswept coast requires swimming along the dangerous, fatigue-inducing open waters of the South Seas. The beach is a barren frontier of crashing surf, shifting sand, and quiet isolation, largely untamed by the cartels or desert explorers who dwell farther north around Gadgetzan.",
+   "spoiler": 0
+  },
+  {
+   "title": "Offshore Mysteries",
+   "body": "Beyond the breakers of the beach lie lonely, unnamed islets separated from the mainland by vast expanses of exhausting deep water. Navigating to these distant specks of rock is treacherous enough to push even seasoned swimmers to their physical limits. Few mortals have any reason to seek out the lonely waters at Kalimdor's end, leaving the beach and its surrounding shoals undisturbed beneath the blazing southern sun.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Land's End Beach located?",
+   "aliases": [
+    "where is lands end beach",
+    "lands end beach location",
+    "how to find lands end beach"
+   ],
+   "answer": "Land's End Beach is located along the southernmost coast of Tanaris, directly south of the mountains that seal off the ancient titan gates of Uldum at the far southern tip of Kalimdor."
+  },
+  {
+   "q": "How do you reach Land's End Beach?",
+   "aliases": [
+    "how do i get to lands end beach",
+    "get to lands end tanaris",
+    "reach lands end"
+   ],
+   "answer": "Because massive mountain ranges block overland access from the desert interior, travelers typically must swim along the southern coastline from eastern Tanaris or navigate around the perilous open waters, being careful not to succumb to fatigue in the deep sea."
+  },
+  {
+   "q": "What is on the islands off the coast of the beach?",
+   "aliases": [
+    "unnamed islands lands end",
+    "offshore islands tanaris",
+    "islands near lands end"
+   ],
+   "answer": "Remote, unnamed islands sit far off the shoreline across a wide channel of deep, fatigue-inducing ocean. They are desolate rocky spits that very few travelers have ever reached or explored."
+  },
+  {
+   "q": "Does anyone live on Land's End Beach?",
+   "aliases": [
+    "who lives at lands end",
+    "lands end beach inhabitants",
+    "is anyone at lands end"
+   ],
+   "answer": "The shoreline is uninhabited by any major settlements. Cut off from trade and civilization, it remains a barren natural shore buffeted by the ocean winds."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "beach",
+  "coast",
+  "kalimdor",
+  "land's end beach",
+  "shore",
+  "south seas",
+  "tanaris",
+  "uldum"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:uldum",
+  "subzone:gadgetzan"
+ ],
+ "attribution": [
+  "Land's End Beach"
+ ]
+}

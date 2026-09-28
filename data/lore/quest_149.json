@@ -1,0 +1,121 @@
+{
+ "key": "quest:149",
+ "type": "quest",
+ "name": "Ghost Hair Thread",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   149
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Madame Eva",
+  "end": "Blind Mary",
+  "previous": "Supplies from Darkshire (Classic)",
+  "next": "Return the Comb (Classic)",
+  "wiki": "Ghost Hair Thread (Classic)",
+  "chain": []
+ },
+ "summary": "Ghost Hair Thread is an errand undertaken for the fortune-teller Madame Eva in Darkshire. In order to gather spectral thread for an enchanted garment, travelers are sent south to seek out Blind Mary, a tormented spirit who dwells in an abandoned farmhouse. By presenting her with an ethereal comb, one can gather the necessary strands from her ghostly tresses.",
+ "sections": [
+  {
+   "title": "A Fortuneteller's Request",
+   "body": "Madame Eva of Darkshire requires specialized, otherworldly materials to weave a garment of protective magic. Standard threads of linen and wool will not suffice for the rituals of Duskwood; instead, she requires ethereal strands harvested directly from a spirit. To secure this macabre component without violence, Eva provides a delicate Spectral Comb capable of passing through the veil of death to gather loose spectral hair.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Sorrow of Blind Mary",
+   "body": "South of Darkshire, tucked away in the shadowy hills, lies an abandoned farmstead haunted by the wailing apparition known as Blind Mary. Consumed by self-loathing, the spirit constantly laments her hideous appearance and screams at intruders to avert their eyes, having torn out her own eyes in anguish before or upon her death. The gift of the Spectral Comb offers her a fleeting moment of comfort, coaxing her to groom her ghostly hair despite her unending torment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Blind Mary?",
+   "aliases": [
+    "blind mary lore",
+    "who is mary duskwood",
+    "spectral comb woman"
+   ],
+   "answer": "Blind Mary is a sorrowful ghost haunting a derelict farmhouse in the hills south of Darkshire. Driven mad by despair and perceived ugliness, she tore out her own eyes so she would never have to see herself again. Despite her lack of sight, she remains acutely and agonizingly aware of anyone looking at her."
+  },
+  {
+   "q": "Why does Madame Eva need ghost hair?",
+   "aliases": [
+    "why ghost hair",
+    "what is ghost hair thread for",
+    "madame eva hair thread"
+   ],
+   "answer": "Madame Eva requires strands of ghost hair to spin spectral thread. In the haunted environment of Duskwood, mundane craft supplies are often inadequate, and she relies on occult components to complete her rituals and protective enchantments."
+  },
+  {
+   "q": "Where can Blind Mary's house be found?",
+   "aliases": [
+    "where is blind mary",
+    "blind mary location",
+    "farmhouse south of darkshire"
+   ],
+   "answer": "Her ruined homestead sits in the hills directly south of Darkshire, past the town cemetery and surrounded by the prowling horrors and undead that plague the darkened woods."
+  },
+  {
+   "q": "How does the Spectral Comb work on a spirit?",
+   "aliases": [
+    "how does spectral comb work",
+    "spectral comb lore",
+    "comb ghost hair"
+   ],
+   "answer": "Crafted or enchanted for the unseen world, the Spectral Comb can interact with intangible apparitions. It glides through spiritual matter just as a physical comb passes through living hair, collecting dropped strands that retain an ethereal form."
+  },
+  {
+   "q": "Is Blind Mary hostile to travelers?",
+   "aliases": [
+    "will blind mary attack",
+    "is blind mary dangerous"
+   ],
+   "answer": "No. Despite her terrifying screams and weeping, Blind Mary is not hostile toward living visitors. Her anguish is turned entirely inward, though the surrounding woods and nearby structures harbor many aggressive creatures and undead."
+  },
+  {
+   "q": "What happens after giving Mary the comb?",
+   "aliases": [
+    "what next ghost hair",
+    "return the comb quest",
+    "after ghost hair thread"
+   ],
+   "answer": "Once Mary uses the comb, she returns it tangled with her spectral hair. Adventurers must bring the comb back to Madame Eva in Darkshire so she can spin the strands into ghost hair thread."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "Spinning thread from the incorporeal remains of a ghost is a rare occult technique far removed from standard spinning wheels and looms."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Witnessing a spirit who gouged out her own eyes out of spiritual torment illustrates the profound tragedy and lingering shadows that afflict Duskwood's restless dead."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The tragic specters haunting the farms around Darkshire serve as a reminder of how quickly prosperous Grand Hamlet fell to darkness and isolation."
+  }
+ ],
+ "keywords": [
+  "blind mary",
+  "darkshire",
+  "duskwood",
+  "farmhouse",
+  "ghost",
+  "ghost hair thread",
+  "madame eva",
+  "spectral comb"
+ ],
+ "related": [
+  "npc:blind-mary",
+  "npc:madame-eva",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Ghost Hair Thread (Classic)"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "npc:sara-balloo",
+ "type": "npc",
+ "name": "Sara Balloo",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Sara Balloo",
+  "refs": 2
+ },
+ "summary": "Sara Balloo is a grieving dwarven widow residing in the Military Ward of Ironforge. She spends her days mourning her late husband, Sully Balloo, clinging to any remnant or message left behind from his final days in service.",
+ "sections": [
+  {
+   "title": "A Widow's Vigil",
+   "body": "Standing within the bustling Military Ward of Ironforge, Sara Balloo presents a somber contrast to the clatter of weaponry and martial drills. Her husband, Sully Balloo, fell in battle far from home, leaving her alone with memories and lingering grief. For Sara, closure arrives only through recovered words\u2014a final letter carrying Sully's devotion across the mountains from the scene of his demise.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Cry for Remembrance",
+   "body": "Unwilling to let her husband's sacrifice slip quietly into oblivion, Sara seeks more than mere solace. Through her heartfelt appeals, she petitions King Magni Bronzebeard to ensure that Sully and fallen soldiers like him are formally honored and remembered by the throne, ensuring the cost paid by ordinary dwarven families is never forgotten.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sara Balloo?",
+   "aliases": [
+    "sara balloo",
+    "who is sara balloo",
+    "sara balloo ironforge"
+   ],
+   "answer": "Sara Balloo is a dwarven woman living in the Military Ward of Ironforge. She is the widow of Sully Balloo, a fallen dwarven soldier."
+  },
+  {
+   "q": "Where can I find Sara Balloo?",
+   "aliases": [
+    "where is sara balloo",
+    "sara balloo location",
+    "find sara balloo"
+   ],
+   "answer": "She can be found in the Military Ward of the mountain city of Ironforge, standing near the training grounds and barracks."
+  },
+  {
+   "q": "What happened to her husband?",
+   "aliases": [
+    "sara balloo husband",
+    "who is sully balloo",
+    "what happened to sully"
+   ],
+   "answer": "Her husband, Sully Balloo, died during military service. His belongings and a final waterlogged letter were lost until an adventurer recovered them."
+  },
+  {
+   "q": "What does Sara do with Sully's letter?",
+   "aliases": [
+    "sully balloo letter",
+    "sara balloos plea",
+    "what does sara balloo want"
+   ],
+   "answer": "After reading her late husband's heartfelt words, Sara crafts a plea to King Magni Bronzebeard, asking for proper recognition and remembrance of Sully's sacrifice."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves passing through the Military Ward, Sara Balloo is a poignant reminder of the personal toll borne by families whose kin march off to defend Khaz Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Delivering news to Sara brings closure to an Alliance soldier's family, highlighting the tragic domestic realities behind the battles fought across Azeroth."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "ironforge",
+  "magni bronzebeard",
+  "military ward",
+  "sara balloo",
+  "sully balloo",
+  "widow"
+ ],
+ "related": [
+  "quest:637",
+  "quest:683",
+  "zone:ironforge",
+  "subzone:military-ward",
+  "topic:dwarf",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Sara Balloo"
+ ]
+}

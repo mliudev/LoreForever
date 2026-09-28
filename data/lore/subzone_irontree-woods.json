@@ -1,0 +1,89 @@
+{
+ "key": "subzone:irontree-woods",
+ "type": "subzone",
+ "name": "Irontree Woods",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": "Irontree Woods"
+ },
+ "summary": "Irontree Woods is a blighted grove situated in northern Felwood, once cherished by the night elves as a peaceful forest sanctuary. Ravaged by the demonic corruption of the Third War, its ancient protectors have been petrified into stone while twisted treants and elementals prowl among the ruins.",
+ "sections": [
+  {
+   "title": "A Forest Turned to Stone",
+   "body": "Irontree Woods was once a tranquil woodland glade tended by the kaldorei, but the demonic taint of the Burning Legion during the Third War choked the life from its soil. The grove's guardian Ancients\u2014Hastat, Stoma, and Vartrus\u2014succumbed to the dark magic, petrifying into lifeless stone monuments that still stand entombed amid the corrupted brush. Now, maddened treants, vile bog beasts, and tainted water elementals wander the twisted forest floor, striking violently at any travelers who dare approach.",
+   "spoiler": 0
+  },
+  {
+   "title": "Flickers of Renewal",
+   "body": "Though the ancient guardians of the woods are dead and turned to rock, the lingering spirit of nature has not been entirely extinguished. Through the blessing of cleansed moonwell water, seeds of fresh life can take root even amidst the fell blight. Nurturing new saplings among the petrified trunks offers a tenuous hope that a new generation of Ancients might one day awaken to restore the tainted grove.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the giant trees here?",
+   "aliases": [
+    "why are trees stone",
+    "petrified ancients",
+    "irontree stone trees"
+   ],
+   "answer": "The great living trees of the night elves\u2014specifically the Ancients named Hastat, Stoma, and Vartrus\u2014succumbed to the demonic corruption that engulfed Felwood during the Third War. The dark energies petrified them, leaving them frozen as lifeless stone monuments."
+  },
+  {
+   "q": "Why are the creatures in the woods hostile?",
+   "aliases": [
+    "angry treants felwood",
+    "corrupted elementals irontree"
+   ],
+   "answer": "The pervasive fel corruption of the Burning Legion has driven the forest's native inhabitants mad. Treants, bog beasts, and water elementals have had their minds and forms twisted, turning them aggressively hostile to any outside presence."
+  },
+  {
+   "q": "Can Irontree Woods ever recover from the corruption?",
+   "aliases": [
+    "healing irontree woods",
+    "can felwood be saved",
+    "new ancient irontree"
+   ],
+   "answer": "While the grove is profoundly warped, it is not completely beyond saving. Life can be coaxed back using pure moonwell water, which can awaken dormant seedlings among the petrified remains to foster a new generation of Ancients."
+  },
+  {
+   "q": "Who used to care for this grove?",
+   "aliases": [
+    "night elf irontree",
+    "who built the statues"
+   ],
+   "answer": "The night elves and their allied Ancients once protected and tended this glade, as evidenced by the kaldorei stonework, relics, and the petrified guardian trees that remain scattered across northern Felwood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Standing among the petrified husks of Hastat, Stoma, and Vartrus is a bitter reminder of the Third War's toll on your sacred woodlands."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The twisted bog beasts and petrified Ancients show the devastating extent of demonic blight, calling for pure moonwell waters to spark renewal in the tainted soil."
+  }
+ ],
+ "keywords": [
+  "ancients",
+  "felwood",
+  "hastat",
+  "irontree woods",
+  "moonwell",
+  "petrified trees",
+  "stoma",
+  "treants",
+  "vartrus"
+ ],
+ "related": [
+  "zone:felwood",
+  "topic:night-elf",
+  "topic:burning-legion",
+  "subzone:moonwell-ashenvale"
+ ],
+ "attribution": [
+  "Irontree Woods"
+ ]
+}

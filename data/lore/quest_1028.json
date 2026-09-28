@@ -1,0 +1,121 @@
+{
+ "key": "quest:1028",
+ "type": "quest",
+ "name": "Raene's Cleansing",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1028
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Shael'dryn",
+  "end": "Hidden Shrine",
+  "previous": "Raene's Cleansing (5)",
+  "next": "Raene's Cleansing (7)",
+  "wiki": "Raene's Cleansing (6)",
+  "chain": []
+ },
+ "summary": "This step in the cleansing of Ashenvale tasks you with taking the rebuilt Rod of Dartol to a secluded mountain shrine. Hidden among the ridges southeast of Shael'dryn's retreat, the sacred basin holds the latent magic needed to re-enchant the relic.",
+ "sections": [
+  {
+   "title": "A Path into the Heights",
+   "body": "After assembling the shattered pieces of Dartol's Rod, the night elf priestess Shael'dryn directs travelers away from her moonwell into the untamed slopes to the southeast. The ancient shrines of Ashenvale were often deliberately nestled high in the mountain crags, far from the road and shielded by dense forest canopies. Reaching this quiet sanctum requires navigating unmarked terrain along the rock faces, climbing winding trails known mostly to Sentinels and woodland hermits.",
+   "spoiler": 0
+  },
+  {
+   "title": "Restoring Dartol's Rod",
+   "body": "The shrine itself rests within a quiet alcove surrounded by vibrant forest. Even dormant, the stone hums with the latent protective magic imbued by the night elves of antiquity. By resting the reconstructed rod inside the shrine's stone basin, the site's dormant power awakens, bathing the glade in a soft resonance and infusing Dartol's creation with pristine enchantment so it may finally serve to cleanse the land.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the hidden shrine located?",
+   "aliases": [
+    "shrine location",
+    "where is the shrine",
+    "how to find shrine",
+    "hidden shrine path"
+   ],
+   "answer": "The shrine is tucked into the mountains southeast of Shael'dryn's moonwell. Rather than following main roads, you must skirt the rocky cliff faces and watch for a winding path that ascends upward into the ridges."
+  },
+  {
+   "q": "Who was Dartol?",
+   "aliases": [
+    "who is dartol",
+    "dartol lore",
+    "creator of the rod"
+   ],
+   "answer": "Dartol was an ancient night elf whose crafted rod held the power to commune with and cleanse woodland beings. Its pieces were scattered across Ashenvale before being gathered and reassembled by Shael'dryn."
+  },
+  {
+   "q": "Why does Dartol's Rod need to be placed in the shrine?",
+   "aliases": [
+    "why recharge rod",
+    "rod purpose",
+    "what does the shrine do"
+   ],
+   "answer": "While Shael'dryn could physically reconstruct the broken rod, its ancient enchantments were drained. The hidden shrine serves as an untouched reservoir of nature magic capable of reigniting the rod's power."
+  },
+  {
+   "q": "Who is Shael'dryn?",
+   "aliases": [
+    "shaeldryn",
+    "quest giver",
+    "priestess at moonwell"
+   ],
+   "answer": "Shael'dryn is a night elf keeper residing beside a quiet moonwell in eastern Ashenvale, assisting Raene Wolfrunner by researching relics and rites capable of cleansing the tainted wilderness."
+  },
+  {
+   "q": "What happens after the rod is recharged?",
+   "aliases": [
+    "what next",
+    "after shrine",
+    "next step"
+   ],
+   "answer": "Once the shrine imbues the rod with power, it becomes Dartol's Rod once more, prepared to be taken back into the field to aid Astranaar and purge the corruption spreading through Ashenvale's furbolgs."
+  },
+  {
+   "q": "Is the shrine guarded?",
+   "aliases": [
+    "are there mobs at shrine",
+    "shrine dangers"
+   ],
+   "answer": "The shrine itself is a peaceful sanctuary, though the surrounding mountains and forests are prowled by wild beasts and corrupt furbolg tribes that make the climb treacherous."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The hidden mountain shrines of Ashenvale represent the quiet, enduring sanctuaries woven into the wilderness by your ancestors before the modern invasions."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The subtle resonance that awakens within the shrine reveals how deeply ancient night elven craft aligned itself with the untamed energies of nature."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Restoring this relic is an essential step toward helping Raene Wolfrunner secure Astranaar and heal the corrupted lands of northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "basin",
+  "dartol's rod",
+  "hidden shrine",
+  "moonwell",
+  "raene's cleansing",
+  "reconstructed rod",
+  "shael'dryn"
+ ],
+ "related": [
+  "npc:shael-dryn",
+  "zone:ashenvale",
+  "subzone:moonwell-ashenvale"
+ ],
+ "attribution": [
+  "Raene's Cleansing (6)"
+ ]
+}

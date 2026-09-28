@@ -1,0 +1,87 @@
+{
+ "key": "subzone:crusader-outpost",
+ "type": "subzone",
+ "name": "Crusader Outpost",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Crusader Outpost"
+ },
+ "summary": "Crusader Outpost is a fortified watchtower perched atop the rugged hills of eastern Tirisfal Glades. Manned by zealous members of the Scarlet Crusade, it guards the approaches leading toward their stronghold at the Scarlet Monastery. From this height, Crusaders observe travel along the road and stand ready to repel any Forsaken incursion.",
+ "sections": [
+  {
+   "title": "Eyes Over Tirisfal",
+   "body": "Built into the bluffs overlooking the eastern road, the Crusader Outpost serves as a primary early-warning station for the Scarlet Crusade. From their elevated tower, sentries watch over movement between Brill and the eastern reaches of Lordaeron, ensuring that wandering undead or scouting parties are spotted long before reaching the Monastery gates. The tower also grants the garrison tactical flanking capability against any force seeking to march up the valley toward their holy bastion.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Thorn in the Dark Lady's Side",
+   "body": "Under the command of Scarlet officers like Captain Vachon, the garrison stationed here maintains unwavering vigilance. They see the surrounding woods not as sovereign territory of the Forsaken, but as unhallowed soil stolen from humanity by monstrosities. For travelers loyal to the Undercity, the outpost represents an ever-present ambush point where crossbow bolts and cleansing steel await anyone straying too close to the bluffs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Crusader Outpost?",
+   "aliases": [
+    "what is this tower",
+    "crusader outpost tirisfal",
+    "scarlet watchtower"
+   ],
+   "answer": "It is a fortified scouting tower held by the Scarlet Crusade in eastern Tirisfal Glades. It monitors the road passing below and protects the southern approach to the Scarlet Monastery."
+  },
+  {
+   "q": "Who controls this outpost?",
+   "aliases": [
+    "who owns crusader outpost",
+    "who lives here",
+    "scarlet crusade outpost"
+   ],
+   "answer": "The outpost is manned by zealots of the Scarlet Crusade under the command of Captain Vachon. They view all undead as abominations to be eradicated on sight."
+  },
+  {
+   "q": "Why is the tower situated in these hills?",
+   "aliases": [
+    "why build here",
+    "outpost location",
+    "tactical purpose"
+   ],
+   "answer": "Its elevated position offers clear sightlines over the main eastern thoroughfare of Tirisfal Glades. This allows Crusaders to detect Forsaken troop movements early and flank any forces attempting an assault on the Scarlet Monastery."
+  },
+  {
+   "q": "Will the guards here attack me?",
+   "aliases": [
+    "is crusader outpost hostile",
+    "are they aggressive"
+   ],
+   "answer": "Yes. The Scarlet Crusade considers all outsiders\u2014particularly the Forsaken and their Horde allies\u2014corrupt enemies who must be purged in holy fire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This watchtower sits right on the edge of Forsaken territory, serving as a bitter reminder that zealous living crusaders still hold sovereign pockets within the glades."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Navigating the eastern trails of Tirisfal requires caution, as Scarlet sentries atop this hill will swiftly attack anyone traveling toward the Monastery."
+  }
+ ],
+ "keywords": [
+  "captain vachon",
+  "crusader outpost",
+  "scarlet crusade",
+  "scarlet monastery",
+  "scout tower",
+  "tirisfal glades",
+  "watchtower"
+ ],
+ "related": [
+  "topic:scarlet-crusade",
+  "zone:scarlet",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Crusader Outpost"
+ ]
+}

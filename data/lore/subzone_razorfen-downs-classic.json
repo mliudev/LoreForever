@@ -1,0 +1,94 @@
+{
+ "key": "subzone:razorfen-downs-classic",
+ "type": "subzone",
+ "name": "Razorfen Downs (Classic)",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Razorfen Downs (Classic)"
+ },
+ "summary": "Razorfen Downs is the ancestral burial ground and traditional capital city of the quilboar, nestled deep within giant thorny brambles in the southern Barrens. Recently, agents of the undead Scourge led by the lich Amnennar the Coldbringer seized control of the labyrinth, reanimating the quilboar dead and threatening to expand their dominion across central Kalimdor.",
+ "sections": [
+  {
+   "title": "Capital of Thorns",
+   "body": "Grown from the same towering, petrified vines as nearby Razorfen Kraul, Razorfen Downs rests where the ancient boar demigod Agamaggan fell during the War of the Ancients. For generations, the labyrinth of thorns served as the sacred necropolis and seat of power for the quilboar, guarded closely by the mystics of the Death's Head tribe. To the quilboar, the dense briars are holy ground, soaked in the blood of their divine progenitor.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Scourge Bastion in Kalimdor",
+   "body": "The sanctity of the Downs was shattered when agents of the Scourge infiltrated the brambles. Amnennar the Coldbringer, a powerful lich serving the Lich King, subjugated the resident Death's Head quilboar and turned the ancestral resting grounds into an undead redoubt. Reanimated skeletons, shambling corpses, and shrieking banshees now prowl the Spiral of Thorns. Both the Horde in the nearby Barrens and emissaries from the Cathedral of Light in Stormwind view this growing pocket of Scourge power as a grave threat to the continent.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Razorfen Downs?",
+   "aliases": [
+    "what is rfd",
+    "razorfen downs lore",
+    "downs background"
+   ],
+   "answer": "Razorfen Downs is the ancestral capital and necropolis of the quilboar race, carved into massive briars in the southern Barrens. It has recently fallen under the control of the Scourge."
+  },
+  {
+   "q": "Why are there undead inside a quilboar city?",
+   "aliases": [
+    "why scourge in downs",
+    "why undead in barrens",
+    "who brought the scourge here"
+   ],
+   "answer": "A Scourge lich named Amnennar the Coldbringer invaded the Downs, subjugating the local Death's Head tribe and raising dead quilboar to build an undead beachhead on Kalimdor."
+  },
+  {
+   "q": "What is the difference between Razorfen Downs and Razorfen Kraul?",
+   "aliases": [
+    "downs vs kraul",
+    "rfk vs rfd",
+    "difference between downs and kraul"
+   ],
+   "answer": "Both dungeons are carved from the brambles of Agamaggan, but Razorfen Kraul serves as the living quilboar stronghold led by Charlga Razorflank. Razorfen Downs is their ancestral burial ground, currently overrun by the Scourge."
+  },
+  {
+   "q": "Who rules Razorfen Downs right now?",
+   "aliases": [
+    "rfd final boss",
+    "who leads razorfen downs",
+    "boss of downs"
+   ],
+   "answer": "Amnennar the Coldbringer, a lich of the Scourge, commands the stronghold from deep within the Spiral of Thorns."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The presence of a Scourge citadel right along the southern border of the Barrens poses an imminent threat to the Horde's heartland and supply routes."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The Royal Apothecary Society and Forsaken leadership in the Undercity take intense interest in investigating and purging the rival necromantic magic blooming within the Downs."
+  }
+ ],
+ "keywords": [
+  "agamaggan",
+  "amnennar",
+  "barrens",
+  "death's head",
+  "quilboar",
+  "razorfen downs",
+  "rfd",
+  "scourge"
+ ],
+ "related": [
+  "zone:barrens",
+  "zone:razorfenkraul",
+  "topic:scourge",
+  "topic:quilboar",
+  "topic:agamaggan",
+  "zone:undercity",
+  "subzone:cathedral-of-light",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Razorfen Downs (Classic)"
+ ]
+}

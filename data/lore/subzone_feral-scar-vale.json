@@ -1,0 +1,86 @@
+{
+ "key": "subzone:feral-scar-vale",
+ "type": "subzone",
+ "name": "Feral Scar Vale",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Feral Scar Vale"
+ },
+ "summary": "Feral Scar Vale is a rocky gorge tucked within the High Wilderness of western Feralas. Overrun by territorial Feral Scar yetis, its cavernous tunnels are notoriously perilous to travelers who venture off the overgrown forest trails.",
+ "sections": [
+  {
+   "title": "Lair of the Yetis",
+   "body": "Situated amid the thick foliage and sheer cliffs of the High Wilderness, Feral Scar Vale serves as the primary den for the savage Feral Scar yetis. While yetis are common in the snowy peaks of Alterac and Dun Morogh, these primal brutes have adapted completely to the wild, humid climate of Feralas. They fiercely defend the vale's cave network, hoarding bone trophies and aggressively driving off any intruders who wander into their hunting grounds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Curiosities in the Caves",
+   "body": "Beyond the primal danger of the yetis, the deeper recesses of Feral Scar Vale hide unexpected oddities. Gnomish engineering distress signals have occasionally been tracked into these dark caverns, where lost exploratory devices\u2014such as stranded robotic survey chickens\u2014have ended up trapped by the ferocious beasts, awaiting activation and extraction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What kind of creatures live in Feral Scar Vale?",
+   "aliases": [
+    "feral scar vale mobs",
+    "what is in feral scar vale",
+    "vale creatures"
+   ],
+   "answer": "The vale is dominated by Feral Scar yetis, massive and territorial apex predators who nest inside the rocky caves and patrol the surrounding forest."
+  },
+  {
+   "q": "Where is Feral Scar Vale located?",
+   "aliases": [
+    "feral scar vale location",
+    "where is feral scar vale",
+    "how to find feral scar vale"
+   ],
+   "answer": "Feral Scar Vale lies in western Feralas, nestled within the region known as the High Wilderness, south of the main road cutting through the rainforest canopy."
+  },
+  {
+   "q": "Why are there yetis in a lush rainforest?",
+   "aliases": [
+    "why yetis in feralas",
+    "jungle yetis",
+    "feralas yeti lore"
+   ],
+   "answer": "While yetis are typically associated with snowy mountains, the ancient and untamed wilds of Kalimdor host distinct subspecies, such as the Feral Scar yetis, that have thrived in dense forest valleys for generations."
+  },
+  {
+   "q": "What is the mechanical chicken inside the cave?",
+   "aliases": [
+    "oox-22/fe",
+    "robot chicken feralas",
+    "homing robot feral scar vale"
+   ],
+   "answer": "Deep inside one of the vale's caves lies Homing Robot OOX-22/FE, an autonomous mechanical survey chicken crafted by gnome engineers that crashed and became stranded behind the yeti lines."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Tucked away in the yeti tunnels is a stranded gnome homing robot, requiring an engineer's touch and an emergency beacon to safely extract it back to civilization."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The hulking Feral Scar yetis that stalk these cliffs offer an imposing test of wilderness tracking and big-game hunting amidst the dense canopies of the High Wilderness."
+  }
+ ],
+ "keywords": [
+  "feral scar vale",
+  "feralas",
+  "high wilderness",
+  "homing robot",
+  "oox-22/fe",
+  "yeti"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:high-wilderness"
+ ],
+ "attribution": [
+  "Feral Scar Vale"
+ ]
+}

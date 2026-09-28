@@ -1,0 +1,74 @@
+{
+ "key": "subzone:pig-and-whistle-tavern",
+ "type": "subzone",
+ "name": "Pig and Whistle Tavern",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Pig and Whistle Tavern"
+ },
+ "summary": "The Pig and Whistle Tavern is a bustling inn nestled within Stormwind City's rugged Old Town district. It serves as a favored gathering spot for Alliance travelers, local laborers, and weathered veterans recalling the kingdom's past conflicts.",
+ "sections": [
+  {
+   "title": "A Refuge in Old Town",
+   "body": "Situated amidst the gritty, winding alleys of Old Town, the Pig and Whistle Tavern offers warmth, ale, and lodging to those who walk the capital's rougher quarter. While the nobles of the city congregate in cathedral squares and marble plazas, this establishment caters to common citizens, working folk, and travelers fresh from the road. Inside, patrons can find merchants like the renowned recipe vendor Kendor Kabonka, alongside grizzled veterans who nurse their tankards while trading memories of the First and Second Wars.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Pig and Whistle Tavern located?",
+   "aliases": [
+    "where is pig and whistle",
+    "pig and whistle location",
+    "old town tavern"
+   ],
+   "answer": "The Pig and Whistle Tavern stands in Old Town, the eastern district of Stormwind City known for its military barracks, rogue dens, and working-class quarters."
+  },
+  {
+   "q": "Who frequents the tavern?",
+   "aliases": [
+    "who is in pig and whistle",
+    "pig and whistle patrons"
+   ],
+   "answer": "The inn is popular among travelers, guards off duty, and veteran soldiers swapping stories of the First and Second Wars, alongside notable merchants like the Master of Cooking recipes, Kendor Kabonka."
+  },
+  {
+   "q": "What services does the tavern provide?",
+   "aliases": [
+    "is pig and whistle an inn",
+    "pig and whistle services"
+   ],
+   "answer": "The Pig and Whistle functions as a full-service inn, allowing weary travelers to set their hearthstone, rest, and purchase food, drink, and specialized culinary recipes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary artisans often make a pilgrimage to the tavern to seek out Kendor Kabonka, who sells an unmatched collection of rare cooking recipes from across Azeroth."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance soldiers and travelers passing through the capital, the tavern offers a welcoming, unpretentious hearth and camaraderie with veterans of the realm's earlier wars."
+  }
+ ],
+ "keywords": [
+  "cooking",
+  "inn",
+  "kendor kabonka",
+  "old town",
+  "pig and whistle",
+  "stormwind",
+  "tavern"
+ ],
+ "related": [
+  "subzone:old-town",
+  "zone:stormwind",
+  "topic:stormwind-kingdom",
+  "topic:second-war",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Pig and Whistle Tavern"
+ ]
+}

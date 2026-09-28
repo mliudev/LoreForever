@@ -1,0 +1,138 @@
+{
+ "key": "zone:tanaris",
+ "type": "zone",
+ "name": "Tanaris",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": [
+   "Tanaris (Classic)",
+   "Tanaris"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Tanaris is a vast, sweltering desert spanning the southern reaches of Kalimdor, defined by rolling sand dunes and blistering heat. At its heart lies Gadgetzan, a neutral trading outpost operated by the goblins of the Steamwheedle Cartel. Beyond the bustling settlements, the dunes conceal hostile sand trolls, dangerous silithid hives, and the hidden domain of the bronze dragonflight.",
+ "sections": [
+  {
+   "title": "A Sea of Dunes",
+   "body": "Before the Great Sundering shattered the world, this expanse was a lush jungle settled by early tauren and claimed by the Gurubashi Empire. The cataclysm stripped the land of its canopy, leaving a barren, sun-scorched wilderness. Stranded by the shifting geography, the local trolls adapted into the hardened Sandfury tribe, carving out their isolated empire within the walled city of Zul'Farrak. Today, the desert floor is ruled by hyenas, basilisks, and scorpids, while subterranean tunnels snake beneath the baking earth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Goblin Enterprise",
+   "body": "Because Tanaris is as close to their island homeland of Undermine as the mainland allows, the Steamwheedle Cartel has established a thriving enterprise here. From the walled oasis of Gadgetzan to the coastal docks of Steamwheedle Port, the goblins maintain strict neutrality, welcoming coin from both the Alliance and the Horde. Their peace is maintained by heavy bruiser muscle, though rogue threats like the Southsea Freebooters constantly harass shipping and dig sites along the coastline.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ancient Mysteries and Rising Perils",
+   "body": "The sands hide powers far older than mortal empires. In the eastern reaches lie the Caverns of Time, the ancestral domain of Nozdormu and his bronze dragonflight, whose drakes can occasionally be seen riding the desert thermals. To the south, massive stone gates mark the titan complex of Uldum. Yet a darker danger stirs from subterranean nests like the Gaping Chasm and the Noxious Lair, where creeping silithid swarms have begun burrowing outward across the sands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do I travel to Tanaris?",
+   "aliases": [
+    "how to get to tanaris",
+    "getting to tanaris",
+    "tanaris entrance"
+   ],
+   "answer": "Travelers must journey through Thousand Needles into the Shimmering Flats. A mountain pass carved through the cliffs at the southern end of the salt flats leads directly down into the desert, bringing you immediately within sight of Gadgetzan's walls."
+  },
+  {
+   "q": "Why is Gadgetzan neutral to both factions?",
+   "aliases": [
+    "why is gadgetzan neutral",
+    "can horde and alliance go to gadgetzan",
+    "goblin neutrality gadgetzan"
+   ],
+   "answer": "Gadgetzan is governed by the Steamwheedle Cartel, whose sole allegiance is to profit. To maximize commerce and protect trade routes across the desert, the goblins enforce strict neutrality, employing bruisers to beat down anyone foolish enough to start faction brawls within their city walls."
+  },
+  {
+   "q": "What is Zul'Farrak?",
+   "aliases": [
+    "what is zulfarrak",
+    "who lives in zulfarrak",
+    "sand troll city"
+   ],
+   "answer": "Zul'Farrak is the fortified desert capital of the Farraki sand trolls. Isolated here since the Great Sundering transformed their ancestral jungle into an arid wasteland, the Sandfury tribe turned hostile to all outsiders, guarding their sacred pools and mysterious shrines from encroaching adventurers."
+  },
+  {
+   "q": "What are the insect creatures nesting across the desert?",
+   "aliases": [
+    "what are the bugs in tanaris",
+    "tanaris insect hives",
+    "silithid in tanaris"
+   ],
+   "answer": "The insectoid beasts are silithid, monstrous colonial burrowers that construct vast hives such as the Gaping Chasm and the Noxious Lair. Their emerging presence in Tanaris has unsettled observers like Senior Surveyor Fizzledowser, recalling the ancient horrors of the War of the Shifting Sands."
+  },
+  {
+   "q": "What is behind the massive stone doors in the south?",
+   "aliases": [
+    "giant doors in south tanaris",
+    "ruins of uldum gates",
+    "titan gate tanaris"
+   ],
+   "answer": "The monumental gates in the Valley of the Watchers mark the entrance to Uldum, a legendary research facility and holding of the ancient titans. The entrance remains firmly sealed, guarded by colossal stone sentinels and surveyed from afar by curious scholars and goblins."
+  },
+  {
+   "q": "Who dwells inside the Caverns of Time?",
+   "aliases": [
+    "caverns of time lore",
+    "what is in caverns of time",
+    "dragons in tanaris"
+   ],
+   "answer": "The Caverns of Time serve as the ancestral lair of the bronze dragonflight and their aspect, Nozdormu. From these hidden, winding depths, the timeless dragons watch over the flow of history, occasionally patrolling the skies high above the southern dunes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The arid cliffs and rocky outcrops surrounding the dunes offer rich veins of Mithril, Truesilver, Iron, and Gold, along with scattered deposits of Small Thorium in the deeper reaches."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The dry heat nurtures the elusive Firebloom across the shifting dunes, while shaded ruins and damp oases provide shelter for valuable Purple Lotus."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Seeing the Sandfury of Zul'Farrak offers trolls a stark look at their ancient cousins, who mutated and hardened into a brutal culture after being cut off by the Sundering."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With no major Alliance strongholds between Dustwallow Marsh and Feralas, the neutral flight master in Gadgetzan serves as a vital staging post for travels across southern Kalimdor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Gadgetzan offers Horde scouts a convenient trade hub linking routes from Freewind Post and Camp Mojache directly to the silithid-infested wastes of the far south."
+  }
+ ],
+ "keywords": [
+  "caverns of time",
+  "desert",
+  "freebooters",
+  "gadgetzan",
+  "nozdormu",
+  "sandfury",
+  "silithid",
+  "steamwheedle",
+  "tanaris",
+  "uldum",
+  "zul'farrak"
+ ],
+ "related": [
+  "subzone:gadgetzan",
+  "subzone:zul-farrak",
+  "subzone:caverns-of-time",
+  "subzone:steamwheedle-port",
+  "subzone:ruins-of-uldum",
+  "subzone:shimmering-flats",
+  "subzone:gaping-chasm",
+  "quest:887"
+ ],
+ "attribution": [
+  "Tanaris (Classic)",
+  "Tanaris"
+ ]
+}

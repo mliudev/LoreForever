@@ -1,0 +1,123 @@
+{
+ "key": "quest:772",
+ "type": "quest",
+ "name": "Rite of Vision",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   772
+  ],
+  "level": "7",
+  "faction": "Horde",
+  "start": "Zarlman Two-Moons",
+  "end": "Seer Wiserunner",
+  "previous": "Rite of Vision (2)",
+  "next": "Rite of Wisdom (Classic)",
+  "wiki": "Rite of Vision (3)",
+  "chain": []
+ },
+ "summary": "The Rite of Vision is the spiritual climax of an ancient trial undertaken by young tauren in Bloodhoof Village. By drinking the sacred Water of the Seers beside the tribal bonfire, initiates summon a spectral guide to lead them toward their destiny.",
+ "sections": [
+  {
+   "title": "The Water of the Seers",
+   "body": "After gathering the necessary ritual herbs and passing the initial trials of faith, an initiate is granted the Water of the Seers by the village shaman, Zarlman Two-Moons. This potent draught must be ingested before the roaring tribal fire at the heart of Bloodhoof Village. When consumed with a focused and respectful mind, the sacred waters expand the drinker's perception beyond physical sight, bridging the veil between the material plane and the spiritual realm.",
+   "spoiler": 0
+  },
+  {
+   "title": "Following the Ghost Wolf",
+   "body": "Upon drinking the brew, the flames yield an ethereal apparition: an ancestral ghost wolf. The spirit does not speak or fight, but silently lopes northwest across the rolling plains of Mulgore. A true initiate must heed its quiet path, tracking its journey away from the village and deep into the rocky hills where the hermit Seer Wiserunner awaits in secluded meditation.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Walk to Wisdom",
+   "body": "Reaching Seer Wiserunner at the mouth of his mountain cavern signifies the successful completion of the vision. This journey across the grassy hills tests an initiate's patience, trust in ancestral guidance, and attunement to the Earth Mother. Passing this rite grants the young adventurer the right to undergo the ultimate test of adulthood: the Rite of Wisdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happens when I drink the Water of the Seers?",
+   "aliases": [
+    "how does water of seers work",
+    "drinking water of the seers",
+    "what does the water do"
+   ],
+   "answer": "When ingested near the tribal fire in Bloodhoof Village, the water opens your spiritual senses. Shortly after drinking, a ghostly spirit wolf appears in front of the flames to guide your path."
+  },
+  {
+   "q": "Where does the spirit guide lead me?",
+   "aliases": [
+    "where does ghost wolf go",
+    "who does the wolf lead to",
+    "wolf destination"
+   ],
+   "answer": "The spectral wolf trots northwest out of Bloodhoof Village across the hills of Mulgore, leading straight to a rocky cave where Seer Wiserunner dwells."
+  },
+  {
+   "q": "Who is Zarlman Two-Moons?",
+   "aliases": [
+    "who gives the rite of vision",
+    "zarlman two moons role"
+   ],
+   "answer": "Zarlman Two-Moons is a prominent tauren shaman in Bloodhoof Village tasked with preparing initiates for spiritual adulthood through ancestral rites and sacred concoctions."
+  },
+  {
+   "q": "Who is Seer Wiserunner?",
+   "aliases": [
+    "who is wiserunner",
+    "seer in cave mulgore"
+   ],
+   "answer": "Seer Wiserunner is an elder tauren mystic who lives in contemplation within the cliffs northwest of Bloodhoof Village. Initiates who follow their spirit vision find him to finish the trial."
+  },
+  {
+   "q": "Why must the water be drunk near the tribal fire?",
+   "aliases": [
+    "why tribal fire",
+    "bonfire rite of vision"
+   ],
+   "answer": "The tribal bonfire acts as a sacred anchor for Bloodhoof Village's ancestral spirits. The combination of its consecrated flames and the holy water allows the vision to bridge into the waking world."
+  },
+  {
+   "q": "What rite comes after the Rite of Vision?",
+   "aliases": [
+    "next quest after rite of vision",
+    "what comes next"
+   ],
+   "answer": "Upon completing the Rite of Vision with Seer Wiserunner, initiates are directed to undertake the Rite of Wisdom, the final spiritual trial of their early journey in Mulgore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren, the Rite of Vision is a deeply sacred passage into adulthood, demonstrating communion with the ancestors and obedience to spiritual guidance."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Following an ancestral spirit wolf is an early lesson in walking between worlds, grounding a shaman's bond with the spirits that guide the Horde."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The rite reinforces reverence for the natural world and spiritual humility before the guidance of animal forms."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "ghost wolf",
+  "mulgore",
+  "rite of vision",
+  "seer wiserunner",
+  "tribal fire",
+  "water of the seers",
+  "zarlman two-moons"
+ ],
+ "related": [
+  "quest:767",
+  "npc:zarlman-two-moons",
+  "subzone:bloodhoof-village",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Rite of Vision (3)"
+ ]
+}

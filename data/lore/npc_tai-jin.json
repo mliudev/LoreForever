@@ -1,0 +1,84 @@
+{
+ "key": "npc:tai-jin",
+ "type": "npc",
+ "name": "Tai'jin",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Tai'jin",
+  "refs": 1
+ },
+ "summary": "Tai'jin is a Darkspear troll priest trainer stationed within the barracks of Razor Hill in Durotar. She guides fledgling priests of the Horde, introducing Darkspear initiates to traditional troll rites such as the Hex of Weakness.",
+ "sections": [
+  {
+   "title": "Priestess of Razor Hill",
+   "body": "Stationed inside the sturdy barracks of Razor Hill, Tai'jin serves as a spiritual mentor for young priests stepping out into Durotar. While orcs predominantly turn to shamanism or dark warlock arts, the Darkspear trolls bring their own distinct communion with the spirits and loas to the Horde. Tai'jin offers foundational teachings in the priesthood, ensuring that new acolytes understand both the balance of light and shadow and the spiritual heritage unique to troll culture.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Tai'jin?",
+   "aliases": [
+    "tai'jin location",
+    "where is tai'jin",
+    "taijin razor hill"
+   ],
+   "answer": "Tai'jin is located on the ground floor of the Razor Hill Barracks in central Durotar, right beside other class trainers."
+  },
+  {
+   "q": "What does Tai'jin teach?",
+   "aliases": [
+    "taijin trainer",
+    "what does taijin train",
+    "priest spells razor hill"
+   ],
+   "answer": "As a priest trainer, she teaches new priest spells, ranks, and abilities to Horde characters as they gain experience, including early training quests for troll initiates."
+  },
+  {
+   "q": "Why is a troll priest stationed in an orc settlement?",
+   "aliases": [
+    "why is taijin in razor hill",
+    "trolls in razor hill barracks"
+   ],
+   "answer": "Razor Hill serves as the main training hub for all young Horde adventurers venturing out of the Valley of Trials and Sen'jin Village. Because orcs do not practice the priestly arts, Tai'jin represents the Darkspear tribe's spiritual traditions for the settlement."
+  },
+  {
+   "q": "What special rites does Tai'jin provide for troll priests?",
+   "aliases": [
+    "hex of weakness quest",
+    "taijin quests"
+   ],
+   "answer": "Tai'jin guides Darkspear priests through introductory spiritual rites, notably teaching them how to channel ancestral curses through the Hex of Weakness."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "For Horde priests training in Durotar, Tai'jin is your primary mentor before heading to the grand halls of Orgrimmar."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Tai'jin introduces young Darkspear priests to their culture's distinctive spells, such as the Hex of Weakness."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "durotar",
+  "hex of weakness",
+  "priest trainer",
+  "razor hill",
+  "tai'jin",
+  "taijin"
+ ],
+ "related": [
+  "subzone:razor-hill",
+  "zone:durotar",
+  "topic:troll",
+  "quest:5654",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Tai'jin"
+ ]
+}

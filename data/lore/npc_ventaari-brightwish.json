@@ -1,0 +1,80 @@
+{
+ "key": "npc:ventaari-brightwish",
+ "type": "npc",
+ "name": "Ventaari Brightwish",
+ "era": "classic",
+ "zone": "zephras",
+ "meta": {
+  "wiki": "Ventaari Brightwish",
+  "refs": 1
+ },
+ "summary": "Ventaari Brightwish is a Skyborne resident of Thendal Village on Zephras Isle. She greets travelers from across Azeroth and offers the quest The Gift of Skysight.",
+ "sections": [
+  {
+   "title": "A Dweller of Thendal Village",
+   "body": "Residing in Thendal Village upon the soaring cliffs of Zephras Isle, Ventaari Brightwish is one of the local Skyborne. While she shares a surname with Belathaan Brightwish, her own duties center around aiding newcomers who find their way to the village, extending hospitality to both the Alliance and the Horde as she initiates visitors into the traditions of her people through tasks like The Gift of Skysight.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ventaari Brightwish?",
+   "aliases": [
+    "ventaari",
+    "who is ventaari",
+    "ventaari brightwish"
+   ],
+   "answer": "Ventaari Brightwish is a Skyborne NPC stationed in Thendal Village on Zephras Isle. She interacts with visitors and offers the quest The Gift of Skysight."
+  },
+  {
+   "q": "Where can I find Ventaari Brightwish?",
+   "aliases": [
+    "ventaari location",
+    "where is ventaari",
+    "thendal village ventaari"
+   ],
+   "answer": "She can be found in Thendal Village, located on the island of Zephras Isle."
+  },
+  {
+   "q": "Is Ventaari hostile to the Horde or Alliance?",
+   "aliases": [
+    "ventaari faction",
+    "is ventaari friendly",
+    "can horde talk to ventaari"
+   ],
+   "answer": "No. Ventaari Brightwish is neutral and will speak with adventurers from both the Alliance and the Horde."
+  },
+  {
+   "q": "Is Ventaari related to Belathaan Brightwish?",
+   "aliases": [
+    "belathaan brightwish relative",
+    "brightwish family"
+   ],
+   "answer": "She shares the surname Brightwish and is believed to be a relative of Belathaan Brightwish."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "As a member of the Skyborne in Thendal Village, Ventaari Brightwish helps visitors connect with the culture and ways of Zephras Isle."
+  }
+ ],
+ "keywords": [
+  "brightwish",
+  "skyborne",
+  "skysight",
+  "thendal village",
+  "ventaari",
+  "zephras isle"
+ ],
+ "related": [
+  "zone:zephras",
+  "quest:92598",
+  "topic:skyborne",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Ventaari Brightwish"
+ ]
+}

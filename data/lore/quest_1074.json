@@ -1,0 +1,118 @@
+{
+ "key": "quest:1074",
+ "type": "quest",
+ "name": "Ineptitude + Chemicals = Fun",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1074
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Lomac Gearstrip",
+  "end": "Gaxim Rustfizzle",
+  "previous": "Ineptitude + Chemicals = Fun",
+  "next": "",
+  "wiki": "Ineptitude + Chemicals = Fun (2)",
+  "chain": []
+ },
+ "summary": "This errand delivers a canister of volatile NG-5 from the tinker Lomac Gearstrip to Gaxim Rustfizzle in the Stonetalon Mountains. Gaxim requires this unstable chemical to create a potent igniter for several wagons packed with dynamite. The resulting blast forms a critical distraction for Alliance operations in the disputed crags.",
+ "sections": [
+  {
+   "title": "A Volatile Delivery",
+   "body": "Gnomish engineering often balances brilliance on the razor edge of catastrophe, and Nitromirglyceronium\u2014or NG-5\u2014is no exception. Lomac Gearstrip hands over the unstable compound with a stern warning: handle it with extreme care, or risk blowing yourself to pieces on the road back to Gaxim Rustfizzle.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Recipe for Distraction",
+   "body": "Upon receiving the canister intact, Gaxim Rustfizzle reveals the true scope of his handiwork. NG-5 is the essential catalyst needed to detonate entire wagons full of dynamite. By staging a colossal explosion, Gaxim hopes to sow chaos and misdirect enemies in Stonetalon while the Alliance pursues its regional goals.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is NG-5?",
+   "aliases": [
+    "what is nitromirglyceronium",
+    "ng-5",
+    "what did lomac give me"
+   ],
+   "answer": "NG-5, short for Nitromirglyceronium, is a highly volatile chemical compound concocted by Lomac Gearstrip. It serves as an unequivocal ignition catalyst for heavy ordnance."
+  },
+  {
+   "q": "Who is Gaxim Rustfizzle?",
+   "aliases": [
+    "gaxim",
+    "who is gaxim rustfizzle"
+   ],
+   "answer": "Gaxim Rustfizzle is a gnome operative and engineer stationed in the Stonetalon Mountains, orchestrating Alliance demolition efforts and tactical distractions against regional threats."
+  },
+  {
+   "q": "Who is Lomac Gearstrip?",
+   "aliases": [
+    "lomac",
+    "who is lomac gearstrip"
+   ],
+   "answer": "Lomac Gearstrip is an engineer and associate of Gaxim Rustfizzle who prepares the dangerous NG-5 compound and entrusts it to reliable couriers."
+  },
+  {
+   "q": "Why does Gaxim need so much explosive power?",
+   "aliases": [
+    "why wagons of dynamite",
+    "gaxim plan",
+    "why the explosion"
+   ],
+   "answer": "Gaxim has arranged multiple wagons loaded with dynamite. The NG-5 provides the reliable, massive spark required to detonate them all at once, creating an overwhelming diversion."
+  },
+  {
+   "q": "Is the chemical dangerous to transport?",
+   "aliases": [
+    "does ng5 explode",
+    "is ng-5 safe"
+   ],
+   "answer": "Lomac explicitly warns that NG-5 is unstable and prone to catastrophic accidental detonation if mishandled, though a steady courier can deliver it safely to Gaxim."
+  },
+  {
+   "q": "Where does this delivery take place?",
+   "aliases": [
+    "where is gaxim",
+    "stonetalon location"
+   ],
+   "answer": "The delivery concludes at Gaxim Rustfizzle's post within the rugged passes of the Stonetalon Mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Only gnomish ambition would consider wagons of high explosives ignited by Nitromirglyceronium a reasonable distraction."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Handling NG-5 requires an appreciation for volatile chemistry and a steady pair of hands to avoid early detonation."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stonetalon is a contested frontier; a massive explosion gives Alliance operatives the breathing room they desperately need."
+  }
+ ],
+ "keywords": [
+  "dynamite",
+  "engineering",
+  "gaxim rustfizzle",
+  "gnome",
+  "lomac gearstrip",
+  "ng-5",
+  "nitromirglyceronium",
+  "stonetalon"
+ ],
+ "related": [
+  "quest:1073",
+  "npc:gaxim-rustfizzle",
+  "npc:lomac-gearstrip",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Ineptitude + Chemicals = Fun (2)"
+ ]
+}

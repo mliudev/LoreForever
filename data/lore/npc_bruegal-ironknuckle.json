@@ -1,0 +1,110 @@
+{
+ "key": "npc:bruegal-ironknuckle",
+ "type": "npc",
+ "name": "Bruegal Ironknuckle",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "wiki": "Bruegal Ironknuckle",
+  "refs": 5
+ },
+ "summary": "Bruegal Ironknuckle is an infamous dwarven prisoner held within the Stormwind Stockade. Unlike the petty criminals and rioting rabble that fill the holding cells, he is a formidable brawler whose presence deep inside the corridors spells immediate danger to anyone trying to restore order.",
+ "sections": [
+  {
+   "title": "A Dangerous Convict",
+   "body": "When the Stormwind Stockade erupted into open revolt, many of the city's most volatile cutthroats took control of the subterranean cellblocks. Among them is Bruegal Ironknuckle, a particularly dangerous dwarf inmate known for brutal brawling strength. Rather than staying confined to a single cell, he prowls the riot-torn hallways, ready to bash anyone attempting to quell the uprising.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unruly Outlaw",
+   "body": "While much of the uprising inside the facility is orchestrated by the Defias Brotherhood and their ringleaders, inmates like Bruegal highlight that the prison houses assorted rogues and outlaws from across the eastern realms. Whatever crimes earned him a sentence deep beneath Stormwind, his fierce resilience makes him an elusive target and one of the deadliest lone inmates walking the prison corridors.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bruegal Ironknuckle?",
+   "aliases": [
+    "who is bruegal",
+    "ironknuckle lore",
+    "stockade dwarf prisoner"
+   ],
+   "answer": "Bruegal Ironknuckle is an elite dwarven convict imprisoned in the Stormwind Stockade. He is known as an elusive, tough inmate who wanders the prison halls during the ongoing riot."
+  },
+  {
+   "q": "Is Bruegal Ironknuckle part of the Defias Brotherhood?",
+   "aliases": [
+    "is bruegal defias",
+    "defias dwarf stockade"
+   ],
+   "answer": "He is not a sworn member of the Defias Brotherhood, though he benefits from their uprising. The Stockade holds a wide assortment of criminals, thieves, and violent malcontents, and Bruegal is among the independent cutthroats taking full advantage of the chaos."
+  },
+  {
+   "q": "Why is he imprisoned in the Stockade?",
+   "aliases": [
+    "why is bruegal locked up",
+    "bruegal crime"
+   ],
+   "answer": "The exact charges that landed him in the Stockade are not recorded in official public warrants, but his violent temper and brawling reputation suggest serious offenses against the laws of Stormwind."
+  },
+  {
+   "q": "Where can he be found inside the Stockade?",
+   "aliases": [
+    "bruegal spawn",
+    "where is bruegal",
+    "stockade rare spawn"
+   ],
+   "answer": "Bruegal does not sit still in a designated cell. He is an elusive inmate who occasionally roams the inner passages and junctions of the prison, surprising those clearing out the rioters."
+  },
+  {
+   "q": "Is he always present in the prison?",
+   "aliases": [
+    "can bruegal not spawn",
+    "why cant i find bruegal"
+   ],
+   "answer": "No. Bruegal is a rare sight among the rioting population. He is often kept locked down or holed up out of sight, appearing only sporadically during the ongoing unrest."
+  },
+  {
+   "q": "What makes him notable among the prisoners?",
+   "aliases": [
+    "why do people look for bruegal",
+    "bruegal significance"
+   ],
+   "answer": "Aside from his fearsome combat prowess, Bruegal is reputed to carry valuable contraband and gear hidden away from the prison guards, making him a sought-after prize for adventurers brave enough to confront him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven visitors may find it sobering to see a stout kinsman cast among the cutpurses and rogues of Stormwind, showing that exile and outlawry reach even Ironforge's sons."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stormwind's city guard relies on brave Alliance champions to suppress rogue elements like Ironknuckle, who threaten to turn the heart of the capital into a permanent fortress of anarchy."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Ironknuckle fights with raw grit and heavy fists, offering martial fighters a glimpse of what unbridled brute strength looks like when stripped of discipline and honor."
+  }
+ ],
+ "keywords": [
+  "brawler",
+  "bruegal ironknuckle",
+  "dwarf",
+  "inmate",
+  "ironknuckle",
+  "prisoner",
+  "rare",
+  "stockade",
+  "stormwind"
+ ],
+ "related": [
+  "zone:stockade",
+  "subzone:stormwind-stockade",
+  "topic:stormwind-kingdom",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Bruegal Ironknuckle"
+ ]
+}

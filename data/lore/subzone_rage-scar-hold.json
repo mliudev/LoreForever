@@ -1,0 +1,89 @@
+{
+ "key": "subzone:rage-scar-hold",
+ "type": "subzone",
+ "name": "Rage Scar Hold",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Rage Scar Hold"
+ },
+ "summary": "Rage Scar Hold is a cavern carved into the wilderness of Feralas, situated between Feathermoon Stronghold and the slopes near Dreamer's Rest. It is notorious for housing some of the most vicious yetis in the region. Strangely, scattered books, symbols, and traces of night elven architecture deeper within suggest the den once served a far more civil purpose before the beasts claimed it.",
+ "sections": [
+  {
+   "title": "A Beastly Domain",
+   "body": "Carved into the rugged wilds of Feralas, Rage Scar Hold is dominated by savage yetis that attack anyone venturing near their lair. The creatures make the surrounding forest trails hazardous for both Alliance sentinels and passing travelers. While yetis are common to the untamed reaches of Kalimdor, the denizens of Rage Scar Hold stand out for their raw aggression and territorial ferocity.",
+   "spoiler": 0
+  },
+  {
+   "title": "Traces of the Past",
+   "body": "Deeper in the dark corridors of the cave lie subtle clues of an older occupancy. Carved stonework and night elven architecture suggest the cavern was once a barrow den or an arcane sanctuary. Forgotten tomes and mystic markings remain among the dirt and bone, leaving travelers to wonder whether unfortunate scholars were slaughtered by the beasts or if the yetis somehow gravitate toward the lingering magic of the site.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Rage Scar Hold?",
+   "aliases": [
+    "rage scar hold",
+    "what is this cave",
+    "feralas yeti cave"
+   ],
+   "answer": "Rage Scar Hold is a subterranean cave network in Feralas, located between Feathermoon Stronghold and Dreamer's Rest. It is currently overrun by an aggressive population of feral yetis."
+  },
+  {
+   "q": "Why are there books and symbols inside a yeti den?",
+   "aliases": [
+    "why books in yeti cave",
+    "are yetis studying magic",
+    "rage scar hold books"
+   ],
+   "answer": "Tomes, scrolls, and arcane symbols lie abandoned inside the hold. While it is unlikely the feral beasts are literate or studying spellcraft, the relics suggest the cave was once home to unfortunate spellcasters or night elf scholars who fell victim to the yetis."
+  },
+  {
+   "q": "Was this cavern built by night elves?",
+   "aliases": [
+    "night elf architecture",
+    "was rage scar hold an elf barrow",
+    "barrow den feralas"
+   ],
+   "answer": "The interior features night elven stonework and cave structures reminiscent of a barrow den. No living kaldorei remain inside, implying that the original occupants either abandoned the site long ago or were wiped out when the yetis moved in."
+  },
+  {
+   "q": "Are the yetis here different from others in Kalimdor?",
+   "aliases": [
+    "feralas yetis",
+    "how dangerous are the yetis",
+    "rage scar beasts"
+   ],
+   "answer": "The yetis of Rage Scar Hold are noted by local travelers as being among the fiercest and most aggressive of their kind in Feralas, defending their stolen subterranean home with feral brutality."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of what appears to be an ancient barrow den or sanctuary by filthy yetis is a bitter reminder of the wild perils reclaiming the kaldorei's historic lands."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The presence of arcane symbols and abandoned tomes inside a beast's den raises troubling questions about who met their demise within the cavern's depths."
+  }
+ ],
+ "keywords": [
+  "barrow den",
+  "dreamer's rest",
+  "feathermoon",
+  "feralas",
+  "magic books",
+  "rage scar hold",
+  "yeti"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:feathermoon-stronghold",
+  "subzone:dreamer-s-rest",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Rage Scar Hold"
+ ]
+}

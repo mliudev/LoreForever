@@ -1,0 +1,130 @@
+{
+ "key": "quest:1020",
+ "type": "quest",
+ "name": "Orendil's Cure",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1020
+  ],
+  "level": "22",
+  "faction": "Alliance",
+  "start": "Orendil Broadleaf",
+  "end": "Pelturas Whitemoon",
+  "previous": "Bathran's Hair (Classic)",
+  "next": "Elune's Tear (Classic)",
+  "wiki": "Orendil's Cure (Classic)",
+  "chain": []
+ },
+ "summary": "Orendil's Cure is an urgent delivery errand tasked to Alliance travelers by the herbalist Orendil Broadleaf. After concocting a remedy from rare flora, Orendil sends the courier racing down the woodland roads to Astranaar to save a dying night elf child.",
+ "sections": [
+  {
+   "title": "A Father's Despair",
+   "body": "In the central settlement of Astranaar, Pelturas Whitemoon watches over his daughter, Relara, as she wastes away from a severe and mysterious sickness. Facing the limits of local knowledge, Pelturas sought aid across the wild forest of Ashenvale, turning to the wisdom of distant herbalists before hope slipped entirely through his fingers.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Race Across the Woodlands",
+   "body": "Having successfully procured the necessary components\u2014specifically Bathran's hair\u2014Orendil Broadleaf brews a specialized draught capable of halting the affliction. Entrusting the fragile cure to a passing adventurer, Orendil directs them south and east along the beaten forest highway to deliver the flask before it is too late.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Fragile Respite",
+   "body": "While Orendil's draught provides much-needed relief to Relara, the herbal remedy is not a permanent solution for the supernatural malignancy gnawing at her spirit. Delivering the potion buys vital time, opening a broader search across ancient Kaldorei ruins for consecrated relics blessed by Elune to complete her salvation.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is sick in Astranaar?",
+   "aliases": [
+    "who is ill",
+    "who needs the cure",
+    "sick child astranaar"
+   ],
+   "answer": "Relara Whitemoon, the young daughter of Pelturas Whitemoon, is lying bedridden in Astranaar. Her condition is critical, leaving her father desperate for any remedy to stay her decline."
+  },
+  {
+   "q": "Who brewed Orendil's Cure?",
+   "aliases": [
+    "who made the cure",
+    "orendil broadleaf",
+    "where did cure come from"
+   ],
+   "answer": "Orendil Broadleaf, a skilled night elf herbalist stationed in northern Ashenvale, prepared the mixture after receiving plant matter collected from Bathran's Haunt."
+  },
+  {
+   "q": "Where is Pelturas Whitemoon located?",
+   "aliases": [
+    "pelturas location",
+    "where is pelturas",
+    "find pelturas astranaar"
+   ],
+   "answer": "Pelturas Whitemoon resides in Astranaar, the primary Alliance town nestled along the main road in central Ashenvale. He can be found watching over his daughter's sickbed inside one of the woodland dwellings."
+  },
+  {
+   "q": "Does Orendil's Cure completely heal Relara?",
+   "aliases": [
+    "is relara cured",
+    "does the cure work",
+    "cure result"
+   ],
+   "answer": "No. While the herbal draught successfully stabilizes Relara's immediate condition and offers her father renewed hope, her sickness requires deeper spiritual intervention that sends travelers searching for Elune's Tear."
+  },
+  {
+   "q": "What ingredients were used to create this cure?",
+   "aliases": [
+    "cure ingredients",
+    "what is cure made of",
+    "bathrans hair"
+   ],
+   "answer": "The primary ingredient was Bathran's hair, a rare and potent plant gathered from the cursed ground of Bathran's Haunt north of Maestra's Post."
+  },
+  {
+   "q": "Why didn't Astranaar's local healers brew the cure themselves?",
+   "aliases": [
+    "why orendil",
+    "why astranaar healers failed",
+    "why broadleaf"
+   ],
+   "answer": "Relara's affliction proved resistant to Astranaar's everyday remedies, prompting Pelturas to call upon the specialized botanical expertise of Orendil Broadleaf, who knows how to handle the potent flora found in northern Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "The delivery demonstrates the critical line between raw botany and battlefield medicine, highlighting how harvested Ashenvale herbs like Bathran's hair can hold a child's life in the balance."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, protecting Astranaar means safeguarding its young; assisting Pelturas and Relara touches the heart of night elf community survival in a contested forest."
+  },
+  {
+   "target": "class:Priest",
+   "text": "While herbs provide temporary physical relief for Relara, the lingering malady soon demands the sacred intervention and lunar rites of Elune."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "bathran's hair",
+  "cure",
+  "orendil broadleaf",
+  "pelturas whitemoon",
+  "relara"
+ ],
+ "related": [
+  "npc:pelturas-whitemoon",
+  "npc:orendil-broadleaf",
+  "quest:1010",
+  "quest:1033",
+  "subzone:astranaar",
+  "zone:ashenvale",
+  "topic:elune",
+  "quest:1034"
+ ],
+ "attribution": [
+  "Orendil's Cure (Classic)"
+ ]
+}

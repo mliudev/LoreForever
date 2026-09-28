@@ -1,0 +1,82 @@
+{
+ "key": "subzone:hogger-hill",
+ "type": "subzone",
+ "name": "Hogger Hill",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Hogger Hill"
+ },
+ "summary": "Hogger Hill is a grassy knoll located in southwestern Elwynn Forest, just south of Westbrook Garrison. It serves as the bloody campsite and hunting ground for the notorious gnoll chieftain Hogger.",
+ "sections": [
+  {
+   "title": "A Chieftain's Encampment",
+   "body": "Situated near the border of Westfall south of Westbrook Garrison, this small hill marks the territory of Hogger, the ferocious Riverpaw gnoll chieftain. Littered with animal carcasses and the unfortunate remains of local thieves, the mound serves as a bloody monument to gnoll savagery. Its proximity to Stormwind's western road makes it a constant threat to travelers and local guardsmen alike.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Hogger Hill located?",
+   "aliases": [
+    "hogger hill location",
+    "where is hogger",
+    "find hogger hill"
+   ],
+   "answer": "Hogger Hill lies in southwestern Elwynn Forest, directly south across the road from Westbrook Garrison and east of the river bordering Westfall."
+  },
+  {
+   "q": "Who controls this hill?",
+   "aliases": [
+    "who lives here",
+    "hogger hill ruler",
+    "who is at hogger hill"
+   ],
+   "answer": "The hill is occupied by Hogger, a massive and vicious Riverpaw gnoll who terrorizes Elwynn Forest alongside his scavengers and warband."
+  },
+  {
+   "q": "Why is there a dead thief on the hill?",
+   "aliases": [
+    "dead thief hogger hill",
+    "who died on hogger hill"
+   ],
+   "answer": "The dead thief is a victim of Hogger's brutality. Even outlaws such as the Defias thieves operating in western Elwynn are preyed upon if they wander into gnoll territory."
+  },
+  {
+   "q": "Why haven't the guards from Westbrook Garrison cleared this hill?",
+   "aliases": [
+    "why don't guards kill hogger",
+    "westbrook garrison hogger"
+   ],
+   "answer": "The guards at Westbrook Garrison are stretched thin dealing with Defias bandits and widespread gnoll incursions. While they post bounties for Hogger, they lack the manpower to assault his encampment directly."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance recruits training in Elwynn Forest, clearing this hill and confronting Hogger represents one of their first true trials of martial valor."
+  },
+  {
+   "target": "race:Human",
+   "text": "The encroachment of gnolls so close to human farms and the road to Sentinel Hill makes Hogger Hill a constant source of anxiety for the people of Stormwind."
+  }
+ ],
+ "keywords": [
+  "dead thief",
+  "elwynn forest",
+  "gnoll",
+  "hogger",
+  "hogger hill",
+  "riverpaw",
+  "westbrook garrison"
+ ],
+ "related": [
+  "subzone:westbrook-garrison",
+  "zone:elwynn",
+  "topic:gnoll",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Hogger Hill"
+ ]
+}

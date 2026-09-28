@@ -1,0 +1,92 @@
+{
+ "key": "subzone:tiragarde-keep",
+ "type": "subzone",
+ "name": "Tiragarde Keep",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Tiragarde Keep"
+ },
+ "summary": "Tiragarde Keep is a fortified human stronghold situated along Durotar's Scuttle Coast, south of Razor Hill. Originally built during Grand Admiral Daelin Proudmoore's invasion, the ruined citadel remains garrisoned by hostile Kul Tiran marines under Lieutenant Benedict. It serves as a defiant, permanent thorn in the Horde's side right on their home territory.",
+ "sections": [
+  {
+   "title": "Proudmoore's Bastion",
+   "body": "Erected during Grand Admiral Daelin Proudmoore's campaign to eradicate Thrall's newly founded realm, Tiragarde Keep provided the Kul Tiran fleet an entrenched beachhead on the red shores of Durotar. Although the Horde eventually broke the siege and killed Proudmoore at Theramore Isle, the keep was never fully abandoned. Resupply forces under Lieutenant Benedict reclaimed the shattered stone walls, following the late Admiral's standing orders to wage an unyielding war against the orcs, entirely refusing the peace forged by Lady Jaina Proudmoore.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Thorn in Durotar's Flank",
+   "body": "Today, the keep's gleaming white battlements stand in harsh contrast against Durotar's crimson cliffs. Well-trained Kul Tiras sailors and marines patrol the ramparts and launch raids targeting supply lines near Razor Hill. For the Horde, Tiragarde Keep is an ongoing security crisis and a live proving ground. Orc and troll commanders constantly task young warriors with assaulting the fortress and cutting down Benedict's soldiers, seeking to contain the garrison before the humans can mount a deeper inland offensive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there humans in Durotar?",
+   "aliases": [
+    "why are alliance here",
+    "who are the humans in tiragarde",
+    "human soldiers durotar"
+   ],
+   "answer": "These humans are Kul Tiras sailors and marines who arrived with Grand Admiral Daelin Proudmoore during his invasion following the Third War. They reject peace with the Horde and maintain this garrison to harass the orcs."
+  },
+  {
+   "q": "Are these humans part of Jaina's forces in Theramore?",
+   "aliases": [
+    "is tiragarde theramore",
+    "are they jaina proudmoore's men",
+    "theramore soldiers here"
+   ],
+   "answer": "No. While Jaina Proudmoore rules Theramore Isle and maintains an uneasy truce with Thrall, these soldiers follow the orders of her late father, Grand Admiral Daelin Proudmoore. They consider any peace with orcs unacceptable treason."
+  },
+  {
+   "q": "Who commands Tiragarde Keep?",
+   "aliases": [
+    "tiragarde boss",
+    "who leads tiragarde keep",
+    "lieutenant benedict"
+   ],
+   "answer": "The stronghold is commanded by Lieutenant Benedict, a Kul Tiran officer acting on posthumous invasion orders left by Admiral Proudmoore to secure the coast and attack the Horde."
+  },
+  {
+   "q": "Why hasn't the Horde simply wiped them out?",
+   "aliases": [
+    "why not destroy tiragarde",
+    "why is the keep still here"
+   ],
+   "answer": "The keep is fortified and manned by disciplined, well-armed Kul Tiran troops. While the defenders from Razor Hill frequently skirmish with the garrison and use it as a proving ground for new recruits, launching a full-scale siege would draw heavy casualties and divert vital resources away from securing the rest of Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Tiragarde Keep is a blatant Alliance invasion base right on Durotar's doorstep; raiding its ramparts and eliminating Lieutenant Benedict is a rite of passage for young soldiers serving Razor Hill."
+  },
+  {
+   "target": "race:Human",
+   "text": "The garrison represents the unbending, vengeful legacy of Kul Tiras and Admiral Proudmoore, fighting a stubborn guerrilla war in defiance of Jaina Proudmoore's diplomacy."
+  }
+ ],
+ "keywords": [
+  "daelin proudmoore",
+  "durotar",
+  "kul tiras",
+  "lieutenant benedict",
+  "razor hill",
+  "scuttle coast",
+  "tiragarde keep"
+ ],
+ "related": [
+  "zone:durotar",
+  "subzone:scuttle-coast",
+  "subzone:razor-hill",
+  "quest:784",
+  "topic:kul-tiras",
+  "subzone:theramore-isle",
+  "npc:jaina-proudmoore",
+  "npc:thrall"
+ ],
+ "attribution": [
+  "Tiragarde Keep"
+ ]
+}

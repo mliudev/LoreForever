@@ -1,0 +1,118 @@
+{
+ "key": "quest:152",
+ "type": "quest",
+ "name": "The Coast Isn't Clear",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   152
+  ],
+  "level": "19",
+  "faction": "neutral",
+  "start": "Captain Grayson",
+  "end": "Captain Grayson",
+  "previous": null,
+  "next": null,
+  "wiki": "The Coast Isn't Clear (Classic)",
+  "chain": []
+ },
+ "summary": "Along the jagged western edge of Westfall, shipwrecks litter the shoals while murloc tribes overrun the beaches. The ghostly Captain Grayson at the Westfall Lighthouse recruits capable adventurers to clear out these aquatic raiders so that shipwrecked mariners stand a chance of surviving their landfall.",
+ "sections": [
+  {
+   "title": "A Graveyard of Ships",
+   "body": "The Great Sea is notoriously treacherous along Westfall's western boundary. Reefs, sudden squalls, and jagged rocks have smashed countless vessels into flotsam over the years. Under normal circumstances, survivors might cling to wreckage and crawl onto the sand to await rescue. Unfortunately for any shipwrecked sailor, the shoreline has fallen entirely under the control of aggressive murloc tribes that show no mercy to washed-up castaways.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ghostly Lookout",
+   "body": "Perched on a lonely outcropping southwest of the mainland stands the Westfall Lighthouse, tended by the spirit of Captain Grayson. Though death has bound him to this post, Grayson remains duty-bound to the safety of passing ships and wayward sailors. Recognizing that the murloc tribes\u2014ranging from simple Coastrunners in the north to deadly Tidehunters, Warriors, and Oracles in the south\u2014render the beaches lethal, he calls upon travelers to mount a systematic purge of the coastline.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Grayson?",
+   "aliases": [
+    "captain grayson",
+    "ghost in the lighthouse",
+    "lighthouse keeper westfall"
+   ],
+   "answer": "Captain Grayson is a spectral sea captain who haunts the Westfall Lighthouse. Despite his undead state, he feels a persistent duty toward the sailors who navigate the treacherous waters off the coast, seeking to safeguard the shorelines for any who might survive a shipwreck."
+  },
+  {
+   "q": "Why does Grayson want the murlocs cleared from the coast?",
+   "aliases": [
+    "why kill murlocs westfall",
+    "coast isn't clear reason",
+    "why clear the coast"
+   ],
+   "answer": "The waters off Westfall are littered with sunken ships, and surviving sailors frequently wash ashore. With aggressive murloc tribes swarming the beaches from north to south, any shipwrecked sailor who makes it to land is quickly attacked and killed unless the shoreline is kept clear."
+  },
+  {
+   "q": "Where are these different murlocs located?",
+   "aliases": [
+    "murloc locations westfall",
+    "where are coastrunners",
+    "where are tidehunters"
+   ],
+   "answer": "Murloc Coastrunners generally inhabit the northern stretches of the Westfall coast. The more formidable Murloc Warriors, Oracles, and Tidehunters are found concentrated in settlements and camps along the southern beaches."
+  },
+  {
+   "q": "Is Captain Grayson hostile to the Alliance or Horde?",
+   "aliases": [
+    "is grayson friendly",
+    "grayson faction",
+    "can horde do this quest"
+   ],
+   "answer": "Captain Grayson is a neutral figure. Bound by his seafaring responsibilities rather than political allegiance, he will offer his requests and rewards to any capable adventurer willing to help make the coast safer."
+  },
+  {
+   "q": "Does this quest require relighting the lighthouse first?",
+   "aliases": [
+    "do i need keeper of the flame first",
+    "prerequisite for coast isnt clear"
+   ],
+   "answer": "No. Captain Grayson will task you with culling the coast regardless of whether you have assisted him with relighting the Westfall Lighthouse."
+  },
+  {
+   "q": "Are the murlocs working for the Defias Brotherhood?",
+   "aliases": [
+    "are defias allied with murlocs",
+    "defias murloc connection"
+   ],
+   "answer": "No. The murlocs act independently out of territorial aggression. While the Defias Brotherhood operates nearby in the Moonbrook region and the southern coves, the coastal murloc tribes attack anyone who intrudes on their shoreline hunting grounds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "With the Stormwind army absent from Westfall, the People's Militia struggles just to protect inland farms, leaving coastal defense entirely to solitary allies like Captain Grayson."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human merchant vessels and fishermen have long navigated the waters off Westfall; seeing the shore turned into a murloc-infested death trap is a bitter reminder of the kingdom's fallen frontiers."
+  }
+ ],
+ "keywords": [
+  "captain grayson",
+  "coastrunner",
+  "great sea",
+  "murloc",
+  "oracle",
+  "shipwrecks",
+  "tidehunter",
+  "westfall lighthouse"
+ ],
+ "related": [
+  "npc:captain-grayson",
+  "subzone:westfall-lighthouse",
+  "quest:103",
+  "quest:104",
+  "topic:murloc",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "The Coast Isn't Clear (Classic)"
+ ]
+}

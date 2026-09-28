@@ -1,0 +1,130 @@
+{
+ "key": "quest:952",
+ "type": "quest",
+ "name": "Grove of the Ancients",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   952
+  ],
+  "level": "11",
+  "faction": "Alliance",
+  "start": "Arch Druid Fandral Staghelm",
+  "end": "Onu",
+  "previous": "Teldrassil (quest)",
+  "next": "",
+  "wiki": "Grove of the Ancients (quest)",
+  "chain": [
+   "The Enchanted Glade (Classic)",
+   "Teldrassil (quest)",
+   "Grove of the Ancients (quest)"
+  ]
+ },
+ "summary": "Grove of the Ancients is an Alliance delivery quest that directs adventurers out of Darnassus and across the sea to Darkshore. Tasked by Arch Druid Fandral Staghelm, the courier carries correspondence to Onu, a venerable Ancient of Lore residing south of Auberdine.",
+ "sections": [
+  {
+   "title": "Leaving the Boughs",
+   "body": "Having assisted with matters concerning the Oracle Glade atop Teldrassil, adventurers find themselves brusquely summoned into further service by Arch Druid Fandral Staghelm. Not one to waste idle hands, Staghelm tasks the messenger with carrying an urgent dispatch across the sea to the ancient forests of Darkshore, instructing them to book flight aboard a hippogryph from the city.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Contrast in Patience",
+   "body": "Upon reaching Darkshore and traveling south of Auberdine to the Grove of the Ancients, the messenger delivers the missive to Onu. The towering Ancient of Lore accepts the correspondence with quiet reflection, subtly noting Staghelm's relentless impatience. To Onu and the ancient keepers of the forest, all things unfold in their proper time\u2014a calm, enduring wisdom that Shan'do Malfurion Stormrage embodied, but which Staghelm distinctly lacks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts the quest Grove of the Ancients?",
+   "aliases": [
+    "quest giver grove of the ancients",
+    "who gives grove of ancients",
+    "fandral staghelm quest"
+   ],
+   "answer": "Arch Druid Fandral Staghelm provides the quest from the Cenarion Enclave in Darnassus after you complete his prior errand regarding the Oracle Glade."
+  },
+  {
+   "q": "Where is the Grove of the Ancients located?",
+   "aliases": [
+    "grove of the ancients location",
+    "where is grove of ancients",
+    "onu location"
+   ],
+   "answer": "The Grove of the Ancients lies on the mainland in Darkshore, situated directly south of the coastal port of Auberdine."
+  },
+  {
+   "q": "Who is Onu?",
+   "aliases": [
+    "who is onu",
+    "onu darkshore",
+    "ancient of lore onu"
+   ],
+   "answer": "Onu is a wise and venerable Ancient of Lore resting in Darkshore. As a protector and chronicler of natural wisdom, he receives correspondence from the druidic leadership in Darnassus."
+  },
+  {
+   "q": "How do you reach Darkshore from Teldrassil?",
+   "aliases": [
+    "how to get to darkshore",
+    "travel to auberdine",
+    "hippogryph to darkshore"
+   ],
+   "answer": "Travelers typically take the flight path aboard a hippogryph from Darnassus down through Rut'theran Village and across the water to the port settlement of Auberdine in Darkshore."
+  },
+  {
+   "q": "Why does Onu mention Shan'do Stormrage?",
+   "aliases": [
+    "onu malfurion comment",
+    "shan'do stormrage reference",
+    "why mention shando"
+   ],
+   "answer": "Upon receiving the missive, Onu remarks on Arch Druid Staghelm's restless haste. He reflects that the forest moves at its own pace, a timeless patience that Shan'do Malfurion Stormrage understood and respected."
+  },
+  {
+   "q": "What quests come before this one?",
+   "aliases": [
+    "prerequisites grove of the ancients",
+    "grove of the ancients chain",
+    "quests before onu"
+   ],
+   "answer": "This quest is the final step in a short three-part sequence that begins with The Enchanted Glade, followed by Teldrassil, before sending you outward to Darkshore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "This task marks the natural transition from the sheltered cradle of Teldrassil to the wider wilds of mainland Kalimdor, highlighting the philosophical contrast between Fandral Staghelm and the teachings of Malfurion Stormrage."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Delivering missives between the Arch Druid in Darnassus and Onu exposes young druids to the differing temperaments among their Cenarion Circle elders, contrasting Staghelm's drive with the quiet patience of an Ancient of Lore."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions completing their business in Darnassus, this delivery provides an early incentive to secure hippogryph routes and explore the coastal territory of Darkshore."
+  }
+ ],
+ "keywords": [
+  "ancient of lore",
+  "auberdine",
+  "cenarion circle",
+  "darkshore",
+  "darnassus",
+  "fandral staghelm",
+  "grove of the ancients",
+  "onu",
+  "oracle glade"
+ ],
+ "related": [
+  "quest:940",
+  "quest:937",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "topic:druid",
+  "subzone:oracle-glade",
+  "topic:shan-do"
+ ],
+ "attribution": [
+  "Grove of the Ancients (quest)"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "subzone:charred-vale",
+ "type": "subzone",
+ "name": "Charred Vale",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Charred Vale"
+ },
+ "summary": "The Charred Vale is a smoldering valley in southwestern Stonetalon Mountains, devastated by the reckless deforestation and machinery of the Venture Company. Once a thriving haven for treants and chimaeras, it is now engulfed in flames, roving elementals, and hostile black dragonkin.",
+ "sections": [
+  {
+   "title": "A Scorched Woodland",
+   "body": "Not long ago, this southwest basin was a flourishing alpine wood guarded by majestic treants and inhabited by native chimaeras and harpies. Its ruin began with the arrival of the Venture Company. The greedy goblin outfit clear-cut the forest with explosive machinery, corrupting the guardians and awakening chaotic fissure-born fire elementals. Though the treants eventually forced the goblins back, the land was left broken, scarred by fire, and tainted by whatever foul devices the retreating loggers deployed.",
+   "spoiler": 0
+  },
+  {
+   "title": "Struggles of Renewal",
+   "body": "Today, blackened ancients wander blindly through smoke and ash alongside enraged elementals and nesting black whelps and drakes. Bloodfury harpies roost in the skeletal snags, defending what remains of their territory. Despite the hostility of the valley, druids from Sun Rock Retreat refuse to abandon the region, dispatching travelers to sow enchanted seeds and tend the corrupted ancients in a persistent campaign to reclaim the scorched earth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Charred Vale on fire?",
+   "aliases": [
+    "why is it burning",
+    "who burned charred vale",
+    "what happened to charred vale"
+   ],
+   "answer": "The devastation was caused by the Venture Company's ruthless logging operations. Their destructive machinery and aggressive deforestation enraged the primal spirits of the land and unleashed destructive fire elementals that spread across the valley."
+  },
+  {
+   "q": "Can the forest in the Charred Vale ever recover?",
+   "aliases": [
+    "is charred vale healing",
+    "druids charred vale"
+   ],
+   "answer": "Tauren druids from nearby Sun Rock Retreat believe it can. They task travelers with soothing the maddened treants and planting enchanted earthen seeds amidst the ash, hoping to coax green shoots from the ruined soil."
+  },
+  {
+   "q": "What creatures inhabit the Charred Vale?",
+   "aliases": [
+    "monsters in charred vale",
+    "what lives in charred vale"
+   ],
+   "answer": "The basin is crawling with hostile elemental fire spirits, blackened and vengeful ancients, Scorched Basilisks, and wild chimaeras. It is also plagued by Bloodfury harpies and dangerous broods of black drakes and whelps."
+  },
+  {
+   "q": "What was the Charred Vale called before it burned?",
+   "aliases": [
+    "charred vale old name",
+    "original name of charred vale"
+   ],
+   "answer": "Its original name has been lost to time. Local trail signs have their older names covered over, but it was renowned as a lush woodland sanctuary long before goblin axes arrived."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The devastation here serves as a harsh warning of what happens when natural balance is shattered by uncontrolled greed, making the valley a key focus for reclamation efforts."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Operating out of Sun Rock Retreat, Horde forces work closely with Cenarion allies to contain the elemental unrest and push back the corruptive lingering aftermath of the Venture Company."
+  }
+ ],
+ "keywords": [
+  "blackened ancient",
+  "bloodfury",
+  "charred vale",
+  "chimaera",
+  "fire elemental",
+  "stonetalon",
+  "sun rock retreat",
+  "venture company"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "subzone:sun-rock-retreat",
+  "topic:venture-company",
+  "quest:1083",
+  "quest:1084",
+  "quest:6381",
+  "quest:1844",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Charred Vale"
+ ]
+}

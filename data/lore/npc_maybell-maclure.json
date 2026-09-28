@@ -1,0 +1,88 @@
+{
+ "key": "npc:maybell-maclure",
+ "type": "npc",
+ "name": "Maybell Maclure",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Maybell Maclure",
+  "refs": 1
+ },
+ "summary": "Maybell Maclure is a young woman living at the Maclure Vineyards in Elwynn Forest. Despite a bitter, long-standing feud between her family and the neighboring Stonefields, she has secretly fallen in love with Tommy Joe Stonefield.",
+ "sections": [
+  {
+   "title": "Star-Crossed in the Vineyards",
+   "body": "Life on the Maclure Vineyards is defined by endless labor and an enduring grudge against the neighboring Stonefield family. Caught in the middle is Maybell Maclure, who has fallen deeply in love with Tommy Joe Stonefield, the young heir to the rival farmstead. Kept apart by vigilant relatives and ancient family resentment, Maybell is desperate for any chance to communicate with Tommy Joe beyond the prying eyes of her kin.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Concoction for True Love",
+   "body": "Unable to cross the boundary between the farms openly, Maybell relies on sympathetic travelers and the guidance of Gramma Stonefield. With the aid of Goldshire's local alchemist, William Pestle, an invisibility liquor is brewed. By drinking this illicit draught, Maybell can slip away from the Maclure homestead unseen and steal precious moments with Tommy Joe down by the riverbank.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why can't Maybell and Tommy Joe see each other?",
+   "aliases": [
+    "why family feud",
+    "maclure stonefield feud",
+    "why cant they be together"
+   ],
+   "answer": "The Maclure and Stonefield families have harbored a bitter rivalry for years. Because both households forbid any contact between the clans, Maybell and Tommy Joe must keep their romance an absolute secret or face the wrath of their kin."
+  },
+  {
+   "q": "How does Maybell manage to escape the vineyard?",
+   "aliases": [
+    "how does maybell sneak out",
+    "invisibility potion elwynn",
+    "how does she meet tommy"
+   ],
+   "answer": "With the advice of Gramma Stonefield, adventurer allies consult the alchemist William Pestle in Goldshire. Pestle brews an invisibility draught that allows Maybell to slip past her watchful family and slip away to the river to meet Tommy Joe."
+  },
+  {
+   "q": "Where does Maybell meet Tommy Joe?",
+   "aliases": [
+    "meeting spot",
+    "where are they meeting",
+    "where is tommy joe"
+   ],
+   "answer": "Tommy Joe waits along the riverbank on the border between the Maclure Vineyards and the Stonefield Farm, hidden from the direct view of both farmsteads."
+  },
+  {
+   "q": "Who helps Maybell with her romance?",
+   "aliases": [
+    "who helps maybell",
+    "stonefield helpers"
+   ],
+   "answer": "Gramma Stonefield proves sympathetic to the lovers' plight and directs willing adventurers to William Pestle, the alchemist in Goldshire, who provides the means for their clandestine tryst."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance adventurers passing through Elwynn Forest, Maybell's romance is a reminder that personal troubles and ancient grudges persist even in the heartlands of the kingdom."
+  }
+ ],
+ "keywords": [
+  "lovers",
+  "maclure",
+  "maybell",
+  "stonefield",
+  "tommy joe",
+  "vineyards"
+ ],
+ "related": [
+  "npc:tommy-joe-stonefield",
+  "subzone:maclure-vineyards",
+  "subzone:stonefield-farm",
+  "npc:gramma-stonefield",
+  "npc:william-pestle",
+  "quest:114",
+  "quest:111",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Maybell Maclure"
+ ]
+}

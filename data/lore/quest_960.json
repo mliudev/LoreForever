@@ -1,0 +1,123 @@
+{
+ "key": "quest:960",
+ "type": "quest",
+ "name": "Onu is meditating",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   960,
+   961
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Onu",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Onu is meditating",
+  "chain": []
+ },
+ "summary": "While investigating the Master's Glaive in southern Darkshore, the ancient of lore Onu enters a deep trance to contemplate the growing threat. Players who lose their mystical scrying phial can speak to the meditating ancient to receive a replacement. His thoughts center on the sinister alliance and motivations of the Twilight's Hammer cult and the serpentine naga.",
+ "sections": [
+  {
+   "title": "A Mind in Deep Contemplation",
+   "body": "Onu is an Ancient of Lore rooted in Darkshore's Grove of the Ancients, standing as a living repository of Kalimdor's history. When ominous reports surface concerning dark excavations at the Master's Glaive, Onu turns his immense consciousness inward. He meditates heavily on what could draw both the fanatic Twilight's Hammer cultists and the insidious naga to the petrified remains of an ancient behemoth. For adventurers carrying out his reconnaissance, he remains an accessible anchor, offering replacement scrying phials should theirs be misplaced in the wild.",
+   "spoiler": 0
+  },
+  {
+   "title": "Scrying the Depths",
+   "body": "To monitor the ruins without risking the ancient's physical presence, Onu relies on nature-attuned divination. Adventurers are entrusted with a phial of scrying, meant to conjure a scrying bowl directly within the excavation site so Onu can commune from afar. Because the journey south through Darkshore is perilous and fraught with hostile wildlife and cultist patrols, Onu anticipates mishaps. His trance is not unbroken slumber, but an attentive vigil; he readily provides another vial of sacred waters to ensure the investigation of the Master's Glaive continues without delay.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Onu meditating?",
+   "aliases": [
+    "why is onu meditating",
+    "onu trance",
+    "what is onu doing"
+   ],
+   "answer": "Onu is an ancient of lore pondering the disturbing presence of both the Twilight's Hammer cult and the naga at the Master's Glaive. He uses this meditation to perceive their motives and guide adventurers investigating the site."
+  },
+  {
+   "q": "What is the purpose of this interaction?",
+   "aliases": [
+    "lost phial of scrying",
+    "get another phial",
+    "onu replacement quest"
+   ],
+   "answer": "It serves as a safety mechanism for players on the quest 'The Master's Glaive'. If you lose, destroy, or prematurely use your Phial of Scrying, speaking to the meditating Onu provides you with a replacement phial so you can complete the ritual."
+  },
+  {
+   "q": "Where is Onu located?",
+   "aliases": [
+    "onu location",
+    "where to find onu"
+   ],
+   "answer": "Onu is rooted in the Grove of the Ancients, located in central-southern Darkshore, just off the main road."
+  },
+  {
+   "q": "What do I do with the Phial of Scrying?",
+   "aliases": [
+    "how to use phial of scrying",
+    "scrying bowl darkshore",
+    "phial of scrying purpose"
+   ],
+   "answer": "You carry the phial south to the Master's Glaive and use it near the scrying bowl at the site. This allows Onu to magically communicate with you and observe the dark activities taking place around the ancient remains."
+  },
+  {
+   "q": "What is the Master's Glaive?",
+   "aliases": [
+    "what is masters glaive",
+    "monument in south darkshore"
+   ],
+   "answer": "The Master's Glaive is a massive, ancient excavation site in southern Darkshore where the colossal, petrified skull of a forgotten entity lies pierced by a gargantuan blade. Cultists and naga have converged there for unknown, malevolent purposes."
+  },
+  {
+   "q": "Can Horde players interact with Onu here?",
+   "aliases": [
+    "is onu alliance only",
+    "horde onu meditating"
+   ],
+   "answer": "No. Onu is allied strictly with the night elves and the Alliance. Horde adventurers trespassing near the Grove of the Ancients will find Onu and his protectors hostile or uncooperative."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "As stewards of Kalimdor's balance, night elves revere ancients of lore like Onu, relying on their ageless wisdom to interpret disturbances in the wilds of Darkshore."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids share a profound natural bond with ancients of lore. Maintaining communication via scrying rituals reflects the Cenarion Circle's method of surveying tainted ground from a distance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing Darkshore from cultists and aquatic invaders is critical for Alliance travelers journeying between Teldrassil and Ashenvale."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "grove of the ancients",
+  "master's glaive",
+  "meditating",
+  "onu",
+  "phial of scrying",
+  "scrying bowl",
+  "twilight's hammer"
+ ],
+ "related": [
+  "quest:944",
+  "quest:950",
+  "quest:948",
+  "subzone:master-s-glaive",
+  "topic:twilight-s-hammer",
+  "topic:naga",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Onu is meditating"
+ ]
+}

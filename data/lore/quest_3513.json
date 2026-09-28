@@ -1,0 +1,118 @@
+{
+ "key": "quest:3513",
+ "type": "quest",
+ "name": "The Runed Scroll",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   3513
+  ],
+  "level": "25",
+  "faction": "Horde",
+  "start": "Runed Scroll",
+  "end": "Kadrak",
+  "previous": null,
+  "next": "Horde Presence",
+  "wiki": "The Runed Scroll",
+  "chain": [
+   "The Runed Scroll",
+   "Horde Presence"
+  ]
+ },
+ "summary": "The Runed Scroll is a curious document tied with a silvery ribbon found in the wilds of Kalimdor. Its formal appearance suggests military or administrative communications originating from the night elves across the border. Discovering it leads Horde scouts directly to the Mor'shan Rampart to warn the guards of northern activity.",
+ "sections": [
+  {
+   "title": "A Silvery Ribbon",
+   "body": "Wrapped tightly with an ornate silvery ribbon, the scroll immediately marks itself as something foreign to the rough leathers and parchment favored in the Barrens. Its fine craft and script point toward the night elves nestled beneath the dense canopies of Ashenvale just to the north. In a territory contested along every ridge and road, an intercepted missive is of paramount strategic value to the Horde's front lines.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes on the Northern Border",
+   "body": "Rather than sending the scroll across the plains to the Warchief in Orgrimmar, any adventurer with battlefield sense recognizes the urgency of local command. At the Mor'shan Rampart, stationed right where the red dirt of the Barrens yields to the lush forests of Ashenvale, the orc warrior Kadrak maintains watch over border incursions. Delivering this scroll provides the Rampart's outpost with crucial intelligence regarding night elf troop movements.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Runed Scroll?",
+   "aliases": [
+    "what is this scroll",
+    "runed scroll lore",
+    "silver ribbon scroll"
+   ],
+   "answer": "It is an official, finely crafted document tied with a silvery ribbon, indicating night elf origin. It contains intelligence regarding their movements or plans along the border with the Barrens."
+  },
+  {
+   "q": "Where should I take the scroll?",
+   "aliases": [
+    "where do i take the runed scroll",
+    "scroll turn in",
+    "who wants the scroll"
+   ],
+   "answer": "The scroll must be brought to the northern border guard tower at the Mor'shan Rampart, where Kadrak monitors activity between the Barrens and Ashenvale."
+  },
+  {
+   "q": "Who is Kadrak?",
+   "aliases": [
+    "kadrak",
+    "orc at the tower"
+   ],
+   "answer": "Kadrak is a Horde scout and guard stationed atop one of the defensive towers at the Mor'shan Rampart, responsible for surveying border threats coming down from Ashenvale."
+  },
+  {
+   "q": "Why would the night elves drop a scroll in the Barrens?",
+   "aliases": [
+    "why is the scroll here",
+    "night elves in the barrens"
+   ],
+   "answer": "Night elf sentinels and scouts regularly patrol the borders and fringes of Ashenvale, occasionally pushing southward to probe Horde defenses or ambush supply lines heading north."
+  },
+  {
+   "q": "What happens after giving the scroll to Kadrak?",
+   "aliases": [
+    "horde presence quest",
+    "what comes next"
+   ],
+   "answer": "After reviewing the scroll, Kadrak alerts Horde leadership to the growing threat and directs scouts further north into Ashenvale to support the Horde's territorial presence."
+  },
+  {
+   "q": "Why does the scroll matter to the Horde?",
+   "aliases": [
+    "importance of runed scroll",
+    "horde interest in scroll"
+   ],
+   "answer": "Tensions between the Horde and the night elves are constantly simmering over logging and borders. Any intercepted communications provide early warning against Alliance ambushes on the Mor'shan Rampart."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Every intercepted piece of Alliance intelligence protects the lumber crews and border sentries defending the gateway into Ashenvale."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The Warsong Clan's expansion into Ashenvale depends heavily on border defense at the Mor'shan Rampart, making night elf missives vital news."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "horde border",
+  "kadrak",
+  "mor'shan rampart",
+  "night elf scroll",
+  "runed scroll",
+  "the barrens"
+ ],
+ "related": [
+  "npc:kadrak",
+  "quest:3514",
+  "subzone:mor-shan-rampart",
+  "zone:barrens",
+  "zone:ashenvale",
+  "topic:horde"
+ ],
+ "attribution": [
+  "The Runed Scroll"
+ ]
+}

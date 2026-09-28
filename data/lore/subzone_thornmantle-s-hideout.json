@@ -1,0 +1,91 @@
+{
+ "key": "subzone:thornmantle-s-hideout",
+ "type": "subzone",
+ "name": "Thornmantle's Hideout",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Thornmantle's Hideout"
+ },
+ "summary": "Thornmantle's Hideout is a sinister bramble enclave nestled in the southwestern corner of Mulgore, just below Red Cloud Mesa. Thick, overgrown briars create a cave-like sanctuary where Chief Squealer Thornmantle leads the local Bristleback quilboar. It serves as a grim outpost of quilboar aggression against the tauren homeland.",
+ "sections": [
+  {
+   "title": "The Thorny Den",
+   "body": "Tucked away at the base of the cliffs leading up to Red Cloud Mesa, this natural chasm has been transformed by quilboar geomancy. Dense, twisting briars choke the rocky ground and weave overhead, fashioning a dark, makeshift cave out of living thorns. It stands directly along the path descending from Camp Narache toward the broader plains of Mulgore, placing a dangerous thorn in the side of young tauren making their pilgrimage out into the world.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Grim Stronghold",
+   "body": "Within the brambles lies the personal redoubt of Chief Squealer Thornmantle and his loyal Thornguards. The encampment bears grim proof of their hostility: the smoldering remains of fallen tauren braves lie scattered across the brush. From this heavily defended briar thicket, the Bristlebacks harass travelers and coordinate raids against nearby tauren settlements.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in Thornmantle's Hideout?",
+   "aliases": [
+    "who is here",
+    "who lives here",
+    "thornmantle hideout boss"
+   ],
+   "answer": "The hideout is home to Chief Squealer Thornmantle, the leader of the local Bristleback quilboar in southwestern Mulgore, alongside his elite Thornguard protectors."
+  },
+  {
+   "q": "Why are there burning bodies here?",
+   "aliases": [
+    "burning tauren",
+    "dead tauren braves",
+    "why dead tauren"
+   ],
+   "answer": "The burning bodies belong to tauren braves who were slain by Chief Thornmantle's quilboar raiders. The Bristlebacks leave them as a warning and an open insult to the nearby tribes."
+  },
+  {
+   "q": "Where is Thornmantle's Hideout located?",
+   "aliases": [
+    "how to get to thornmantle hideout",
+    "thornmantle location",
+    "where is it"
+   ],
+   "answer": "It is tucked into the southwestern cliffs of Mulgore, nestled along the rocky base below Red Cloud Mesa on the way toward Bloodhoof Village."
+  },
+  {
+   "q": "Why is the area covered in giant thorns?",
+   "aliases": [
+    "quilboar thorns",
+    "why so many briars",
+    "thorn cave"
+   ],
+   "answer": "Quilboar use earth and plant magic to cultivate massive, impenetrable brambles. They shaped the thorns overhead to build a natural shelter and fortify themselves against intruders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren venturing out from Camp Narache, striking down Chief Thornmantle and avenging the fallen braves here is a critical rite of passage to protect Mulgore."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing out hostile quilboar strongholds secures the travel corridors between Camp Narache and the central settlements of Mulgore."
+  }
+ ],
+ "keywords": [
+  "bristleback",
+  "mulgore",
+  "quilboar",
+  "red cloud mesa",
+  "squealer",
+  "thornguard",
+  "thornmantle"
+ ],
+ "related": [
+  "zone:mulgore",
+  "topic:quilboar",
+  "topic:tauren",
+  "subzone:camp-narache",
+  "subzone:red-cloud-mesa",
+  "subzone:bloodhoof-village"
+ ],
+ "attribution": [
+  "Thornmantle's Hideout"
+ ]
+}

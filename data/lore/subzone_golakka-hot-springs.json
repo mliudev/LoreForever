@@ -1,0 +1,91 @@
+{
+ "key": "subzone:golakka-hot-springs",
+ "type": "subzone",
+ "name": "Golakka Hot Springs",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Golakka Hot Springs"
+ },
+ "summary": "Golakka Hot Springs is a geothermal basin in western Un'Goro Crater, nestled just north of Terror Run. Its bubbling pools and erupting geysers are fueled by the intense volcanic activity of nearby Fire Plume Ridge. The mineral-rich waters attract eccentric researchers, alchemists in search of exotic reagents, and wandering water elementals known as Steaming Furies.",
+ "sections": [
+  {
+   "title": "Boiling Waters and Volcanic Steam",
+   "body": "Situated in the western reaches of Un'Goro Crater, the Golakka Hot Springs are a direct product of the subterranean heat radiating from Fire Plume Ridge. Scalding water bubbles continuously to the surface, shaping tiered mineral terraces and violently erupting geysers. The environment is heavily prowled by Steaming Furies, elemental manifestations born from the convergence of subterranean groundwater and volcanic heat. Despite the danger, the springs frequently draw explorers, herbalists, and researchers fascinated by the crater's unique geology.",
+   "spoiler": 0
+  },
+  {
+   "title": "Curious Inhabitants and Strange Chemistry",
+   "body": "The unique properties of Golakka's waters have drawn interest beyond simple sightseeing. Alchemists value the geothermally enriched spring water as a potent catalytic reagent, even utilizing it in delicate concotions such as love potions. The geothermal vent also hosts quirky visitors, such as the gnome Spark Nilminer perched atop the central geyser vent, and previously drew the researcher Krakle, who sought to decipher how the hot springs directly tap into the volcanic heart of the crater.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the springs so hot?",
+   "aliases": [
+    "why is water boiling",
+    "geothermal heat un'goro",
+    "fire plume connection"
+   ],
+   "answer": "The hot springs are heated by the intense volcanic system beneath Un'Goro Crater, tied directly to Fire Plume Ridge. Magma beneath the crater floor superheats subterranean water reserves, forcing boiling, mineral-rich water and steam up through geysers and terraced pools."
+  },
+  {
+   "q": "What creatures live in Golakka Hot Springs?",
+   "aliases": [
+    "hot springs elementals",
+    "what lives in golakka",
+    "steaming fury"
+   ],
+   "answer": "The most prominent creatures patrolling the shores and pools are Steaming Furies. These are elemental spirits of living water transformed by the searing heat of the volcanic vents into roiling, volatile steam."
+  },
+  {
+   "q": "What is the water from the hot springs used for?",
+   "aliases": [
+    "golakka water use",
+    "hot springs love potion",
+    "hot springs reagents"
+   ],
+   "answer": "The mineral-infused water is prized by alchemists and eccentric brewers for its unique chemical properties. Notably, pristine samples taken from the springs are sought after as a vital reagent in brewing specialized concotions, including potent love potions."
+  },
+  {
+   "q": "Who is Krakle and what was he doing here?",
+   "aliases": [
+    "krakle un'goro",
+    "krakle hot springs",
+    "researcher at the hot springs"
+   ],
+   "answer": "Krakle is a researcher who spent time studying the geothermal relationship between Golakka Hot Springs and Fire Plume Ridge. Having gathered observations and temperature readings around the springs, he has since relocated his base of operations to Marshal's Stand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "The extreme geological activity provides endless fascination for gnomes like Spark Nilminer, who braves the scalding pressure vents to observe geothermal mechanics up close."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The hot springs showcase an intense interplay between fire and water, where the elemental clash gives rise to boiling Steaming Furies along the mineral banks."
+  }
+ ],
+ "keywords": [
+  "fire plume ridge",
+  "geyser",
+  "golakka",
+  "hot springs",
+  "krakle",
+  "spark nilminer",
+  "steaming fury",
+  "terror run",
+  "un'goro"
+ ],
+ "related": [
+  "zone:ungoro",
+  "subzone:fire-plume-ridge",
+  "subzone:marshal-s-stand",
+  "subzone:terror-run"
+ ],
+ "attribution": [
+  "Golakka Hot Springs"
+ ]
+}

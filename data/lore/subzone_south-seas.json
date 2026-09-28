@@ -1,0 +1,96 @@
+{
+ "key": "subzone:south-seas",
+ "type": "subzone",
+ "name": "South Seas",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "South Seas"
+ },
+ "summary": "The South Seas encompass the vast, sun-drenched waters separating the southern regions of Kalimdor and the Eastern Kingdoms. Lapping at the shores of Tanaris, Thousand Needles, and Stranglethorn Vale, these tropical expanses are famed for lucrative trade routes, perilous reefs, and brazen pirate crews.",
+ "sections": [
+  {
+   "title": "A Swashbuckler's Frontier",
+   "body": "Spanning southward beneath the Great Sea and the Maelstrom, the South Seas wash against the deserts of Tanaris and the lush jungles of Stranglethorn Vale. Since the Great Sundering shattered the primeval continent ten thousand years ago, this ocean has nurtured remote tropical islands, unique oceanic beasts, and independent merchant networks. Goblin shipping cartels, operating out of havens like Steamwheedle Port and Booty Bay, maintain tenuous shipping lanes across the waves. However, the waters remain notoriously lawless, crawling with corsairs, Bloodsail buccaneers, and predatory sea life that prey on any vessel daring to venture far from shore.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hidden Depths and Distant Isles",
+   "body": "Beyond the coastal trade lanes lies a patchwork of legendary islands and sunken perils. Notable lands scattered across the South Seas include the goblin homeland of Kezan, the ancient troll island of Zandalar, the outlaw stronghold of Plunder Isle, and the produce-rich shores of Tel'Abim. Yet merchant sailors must contend with far more than cutthroats; the deeper waters harbor colossal giant squids, primeval sea turtles, and lurking naga who guard ancient ruins swallowed by the waves. Navigating these waters demands seasoned captains, reliable charts, and substantial firepower.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What zones border the South Seas?",
+   "aliases": [
+    "where are south seas",
+    "south seas borders",
+    "what coast is south seas"
+   ],
+   "answer": "In southern Kalimdor, the South Seas form the coastlines of Tanaris and Thousand Needles, near the sealed gates of Uldum. Across the ocean to the east, they wash against the shores of Stranglethorn Vale and its outlying islands like Jaguero Isle and Yojamba Isle."
+  },
+  {
+   "q": "Who controls shipping in the South Seas?",
+   "aliases": [
+    "who runs south seas",
+    "south sea trade",
+    "ports in south seas"
+   ],
+   "answer": "No single faction rules the South Seas. The Steamwheedle Cartel controls the primary merchant traffic between Steamwheedle Port and Booty Bay, but they constantly contest the waters against rival pirate outfits such as the Bloodsail Buccaneers and the Southsea Freebooters."
+  },
+  {
+   "q": "What dangerous creatures live in these waters?",
+   "aliases": [
+    "south seas monsters",
+    "sea monsters tanaris",
+    "south sea creatures"
+   ],
+   "answer": "The open waves teem with hazards ranging from ravenous giant squids and coastal reef sharks to armored giant turtles. In the Second War, the Horde's Stormreaver clan even captured giant turtles native to these waters to refit them as naval submersibles. Islands in the region also harbor flesh-eating bloodwing bats and lurking naga patrols."
+  },
+  {
+   "q": "What notable islands lie out in the South Seas?",
+   "aliases": [
+    "islands in south seas",
+    "kezan zandalar south seas",
+    "south seas island list"
+   ],
+   "answer": "Renowned islands out in the deep waters include the goblin commercial center of Kezan, the pirate hub of Plunder Isle, the fruit-rich island of Tel'Abim, and Zandalar, the historic realm of the troll empire. Closer to the coasts lie smaller landmarks like Yojamba Isle and Jaguero Isle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The lawless South Seas are the lifeblood of pirate cartels and privateers, offering endless opportunities for scoundrels adept at boarding actions, smuggling contraband, and navigating cutthroat harbor politics."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "The exotic waters and coastal shores of the South Seas yield prized oceanic fish, giant squids, and the famous, sweet bananas shipped from isolated isles like Tel'Abim."
+  }
+ ],
+ "keywords": [
+  "bloodsail",
+  "kezan",
+  "pirates",
+  "plunder isle",
+  "south seas",
+  "steamwheedle",
+  "stranglethorn",
+  "tanaris",
+  "tel'abim",
+  "zandalar"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:steamwheedle-port",
+  "zone:stranglethorn",
+  "subzone:booty-bay",
+  "topic:pirate",
+  "topic:goblin",
+  "subzone:uldum",
+  "topic:war-of-the-ancients"
+ ],
+ "attribution": [
+  "South Seas"
+ ]
+}

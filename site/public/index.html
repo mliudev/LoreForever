@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lore Forever - WoW Forever Lore Addon for Zone &amp; Quest Story</title>
+<meta name="description" content="Zone, quest and dungeon lore for WoW Forever. The storyline behind every zone, quest and dungeon up to level 30, including Zephras Isle and the Hall of Thanes, without leaving the game.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lore Forever - WoW Forever Lore Addon">
+<meta property="og:description" content="Zone, quest and dungeon lore for WoW Forever. The storyline behind every zone, quest and dungeon up to level 30, including Zephras Isle and the Hall of Thanes, without leaving the game.">
+<link rel="canonical" href="https://loreforever.mliu.io/">
+<meta property="og:url" content="https://loreforever.mliu.io/">
+<meta property="og:image" content="https://loreforever.mliu.io/img/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lore Forever - WoW Forever Lore Addon">
+<meta name="twitter:description" content="Zone, quest and dungeon lore for WoW Forever, narrated, right in game.">
+<meta name="twitter:image" content="https://loreforever.mliu.io/img/social-card.png">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <span class="crumb">World of Warcraft: Forever &rsaquo; Add-ons &rsaquo; Quests &amp; Leveling</span>
+  </div>
+</header>
+
+<!-- Hero banner, with the Stormwind screenshot as its background. -->
+<section class="hero" style="--hero-img: url('screenshots/01-stormwind-panel.jpg')">
+  <div class="wrap title-bar">
+    <div class="title-text">
+      <h1>Lore Forever <span class="subtitle">- Zone &amp; Quest Story</span></h1>
+      <p class="pitch">Hear the story of where you are, and ask about the people, places and quests around you, right in game.</p>
+      <ul class="stats">
+        <li>by <strong>Mike</strong></li>
+        <li id="downloads"><strong>New release</strong></li>
+        <li>Version <strong>0.2.0</strong></li>
+        <li>Game <strong>WoW Forever 1.60.1</strong></li>
+      </ul>
+    </div>
+    <div class="title-actions">
+      <!-- Download link: the CurseForge project page. It won't work until the project is created there. -->
+      <a class="btn-download" id="download"
+         href="https://www.curseforge.com/wow/addons/lore-forever">Download on CurseForge</a>
+      <span class="file-note">Free &middot; no account needed</span>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <!-- The two headline features: narration and asking questions. -->
+  <section class="feature" aria-labelledby="listen-title">
+    <div class="feature-text">
+      <h2 id="listen-title">Hear the story of where you are</h2>
+      <p>The capitals, starting zones and dungeons, 43 of the places you'll visit most, come with narrated intros,
+        plus 109 narrated answers to the questions new players ask first. Each people has its own narrator. Press
+        Listen, or turn on flight narration and hear each
+        zone's story while you fly over it. Everywhere else, Listen reads the answer with the game's built-in
+        text-to-speech.</p>
+      <p class="feature-note">Three of the narrations, exactly as they play in game:</p>
+    </div>
+    <!-- Clips copied from addon/LoreForever/Audio; the read-along text is what each clip reads. -->
+    <div class="samples">
+      <figure class="audio-sample">
+        <figcaption><strong>Stormwind City</strong><span>Told by a royal chronicler of Stormwind &middot; 1:30</span></figcaption>
+        <audio controls preload="none" src="audio/stormwind.mp3"></audio>
+        <details><summary>Read along</summary>
+          <p>Stormwind City. Stormwind City is the bustling capital of the Kingdom of Stormwind and the premier human
+            bastion in the world following the fall of Lordaeron. Rebuilt from ashes by the Stonemasons Guild after
+            its destruction in the First War, its magnificent white stone districts now house the heart of the Grand
+            Alliance. Beneath its majestic canals and cathedrals, however, the city grapples with the sudden
+            disappearance of King Varian Wrynn and brewing political intrigue. Founded over a millennium ago by the
+            descendants of the Arathi, Stormwind stood for generations as a flourishing, self-sufficient realm. That
+            golden era ended when the Orcish Horde poured through the Dark Portal, laying waste to the southern
+            continent and razing the capital to the ground in the First War. Survivors led by Sir Anduin Lothar fled
+            north across the Great Sea to Lordaeron. Following the Horde's defeat in the Second War, King Terenas
+            Menethil II and the Alliance funded a complete reconstruction. The Stonemasons Guild painstakingly
+            rebuilt the capital into New Stormwind&mdash;a gleaming citadel of polished white stone and canal-laced
+            boroughs.</p>
+        </details>
+      </figure>
+      <figure class="audio-sample">
+        <figcaption><strong>Zephras Isle</strong> <span class="tag tag-new">New in Forever</span><span>Told by a Skyborne narrator &middot; 0:59</span></figcaption>
+        <audio controls preload="none" src="audio/zephras.mp3"></audio>
+        <details><summary>Read along</summary>
+          <p>Zephras Isle. Zephras Isle is a flying island suspended within Skywall, the Elemental Plane of air. It
+            serves as the ancestral starting home of the Skyborne, whose society now faces an existential crisis as
+            the island's sustaining magic steadily erodes. With contact severed from neighboring sky-realms, its
+            inhabitants struggle against elemental collapse and arriving refugees. Zephras Isle is an isolated
+            landmass adrift in the endless winds of Skywall. For generations, the Skyborne lived here alongside
+            native air elementals who helped preserve the magical currents holding the isle aloft. However, several
+            centuries ago, those elemental stewards vanished entirely. Deprived of their presence and guardianship,
+            the latent enchantments upholding the land have slowly begun to fail, causing Zephras to slowly fracture
+            and destabilize.</p>
+        </details>
+      </figure>
+      <figure class="audio-sample">
+        <figcaption><strong>Durotar</strong><span>Told by an orc warrior &middot; 1:30</span></figcaption>
+        <audio controls preload="none" src="audio/durotar.mp3"></audio>
+        <details><summary>Read along</summary>
+          <p>Durotar. Durotar is the arid, red-rock homeland founded by Warchief Thrall following the Third War, named
+            in honor of his father, Durotan. Bounded by the Southfury River and the Great Sea, it serves as the
+            heartland of the New Horde and the proving ground for young orcs and Darkspear trolls. Within its harsh
+            canyons lie fortified settlements like Razor Hill, the sprawling warrior city of Orgrimmar, and
+            entrenched hostile holdouts ranging from quilboar tribes to stranded Alliance troops. When Thrall led his
+            people across the Great Sea to Kalimdor, he deliberately sought an untamed frontier where the orcs could
+            carve out an honest existence through labor and grit rather than conquest. Durotar's cracked red soil,
+            baked gullies, and towering red-rock spires remind the orcs deeply of Draenor before its destruction.
+            While the climate is unforgiving, offering little arable land and sparse water, the Horde embraced the
+            landscape's natural defense and austere majesty. Bordered to the west across the Southfury River by the
+            open Barrens and to the north by the ruined wilderness of Azshara, Durotar stands as living proof that
+            the orcs have forged their own destiny.</p>
+        </details>
+      </figure>
+    </div>
+  </section>
+
+  <section class="feature feature-ask" aria-labelledby="ask-title">
+    <div class="feature-text">
+      <h2 id="ask-title">Ask about what's around you</h2>
+      <p>The panel already knows your zone, your quests and your target, and suggests questions to start with.
+        Type your own and matching questions drop down as you go. Every answer ends with follow-ups, so you can
+        keep pulling the thread.</p>
+      <ul>
+        <li><strong>"Who is this guy?"</strong> means your target.</li>
+        <li><strong>Typos in names are fine.</strong> You don't need to spell every NPC right.</li>
+        <li><strong>No made-up answers.</strong> If it isn't sure, it asks "Did you mean..." instead.</li>
+      </ul>
+      <!-- A real answer from the add-on's lore library (npc:edwin-vancleef). -->
+      <figure class="sample">
+        <div class="scroll">
+          <p class="scroll-q">Who is Edwin VanCleef?</p>
+          <p>He is the mastermind behind the Defias Brotherhood and the former Guildmaster of the Stonemasons.
+            He is the master architect who rebuilt Stormwind City after the Horde destroyed it during the First
+            War.</p>
+        </div>
+        <figcaption>A real answer from the add-on, word for word.</figcaption>
+      </figure>
+    </div>
+    <figure class="feature-shot">
+      <a href="screenshots/02-zephras-quest-chat.jpg" target="_blank"><img src="screenshots/02-zephras-quest-chat.jpg"
+        alt="Asking follow-up questions about the Coming of Age quest on Zephras Isle"></a>
+      <figcaption>Follow-up questions about a Skyborne quest on Zephras Isle</figcaption>
+    </figure>
+  </section>
+
+  <!-- Real in-game captures from the Forever beta (2026-09-27), cropped to hide player names. -->
+  <section class="shots" aria-label="Screenshots">
+    <figure class="shot">
+      <a href="screenshots/01-stormwind-panel.jpg" target="_blank"><img src="screenshots/01-stormwind-panel.jpg"
+        alt="The Lore Forever panel in Stormwind's Trade District, with narration buttons, suggested questions and your quests"></a>
+      <figcaption>The panel in Stormwind: narrated stories, questions and your quests</figcaption>
+    </figure>
+    <figure class="shot">
+      <a href="screenshots/03-npc-tooltip.jpg" target="_blank"><img src="screenshots/03-npc-tooltip.jpg"
+        alt="An NPC tooltip with a one-line Lore note"></a>
+      <figcaption>A lore line on every NPC tooltip</figcaption>
+    </figure>
+    <figure class="shot">
+      <a href="screenshots/05-zone-hint-chat.jpg" target="_blank"><img src="screenshots/05-zone-hint-chat.jpg"
+        alt="A chat message on entering Zephras Isle with a clickable question and a Listen link"></a>
+      <figcaption>Enter a zone, get a question and a Listen link</figcaption>
+    </figure>
+    <figure class="shot">
+      <a href="screenshots/06-spoiler-suggestions.jpg" target="_blank"><img src="screenshots/06-spoiler-suggestions.jpg"
+        alt="A spoiler-tagged section and suggested follow-up questions"></a>
+      <figcaption>Spoilers stay hidden until you ask</figcaption>
+    </figure>
+  </section>
+
+  <section class="zones" aria-labelledby="zones-title">
+    <h2 id="zones-title">Where it works</h2>
+    <p class="zones-intro">Every zone, city and dungeon you can reach up to level 30: the quests, NPCs, subzones and
+      bosses, about 3,460 entries in all. That includes the content that's new in Forever. Above level 30 you
+      still get place lore (the zone, its subzones and notable characters), for when you wander ahead. Built for
+      the WoW Forever beta and the full launch on November 4, 2026.</p>
+    <div class="zone-grid">
+      <!-- Questions are real ones from the add-on's lore library (zone:elwynn, zone:zephras, zone:deadmines,
+           zone:hallofthanes). -->
+      <article class="zone">
+        <div class="zone-body">
+          <h3>Elwynn Forest</h3>
+          <p class="zone-where">Northshire, Goldshire and the farms, mines and camps around them</p>
+          <p class="zone-q">"Why are there kobolds inside all the mines?"</p>
+          <p class="zone-q">"Who are the bandits wearing red masks?"</p>
+        </div>
+      </article>
+      <article class="zone">
+        <div class="zone-body">
+          <h3>Zephras Isle <span class="tag tag-new">New in Forever</span></h3>
+          <p class="zone-where">Home of the Skyborne</p>
+          <p class="zone-q">"Who are the Skyborne?"</p>
+          <p class="zone-q">"Why is Zephras Isle falling apart?"</p>
+        </div>
+      </article>
+      <article class="zone">
+        <div class="zone-body">
+          <h3>The Deadmines <span class="tag">Dungeon</span></h3>
+          <p class="zone-where">Beneath Moonbrook, home of the Defias Brotherhood</p>
+          <p class="zone-q">"What is being built in Ironclad Cove?"</p>
+          <p class="zone-q">"Where is the entrance to the Deadmines located?"</p>
+        </div>
+      </article>
+      <article class="zone">
+        <div class="zone-body">
+          <h3>Hall of Thanes <span class="tag">Dungeon</span> <span class="tag tag-new">New in Forever</span></h3>
+          <p class="zone-where">One of Forever's new dungeons, primer included</p>
+          <p class="zone-q">"What bosses are inside the Hall of Thanes?"</p>
+          <p class="zone-q">"How do I gain access to the Hall of Thanes?"</p>
+        </div>
+      </article>
+      <article class="zone zone-next">
+        <div class="zone-body">
+          <h3>Levels 30 to 60</h3>
+          <p>Place lore for the rest of the world: each zone, its subzones and notable characters. Tell us where
+            you want full quest and NPC lore next.</p>
+          <!-- TODO: real Discord invite link (same as the sidebar) -->
+          <a class="btn-small" href="#" data-todo="discord">Vote on Discord</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Email sign-up through Buttondown. Set BUTTONDOWN_USERNAME in the script at the bottom; until then the
+       form stays disabled. Buttondown asks for a plain form post (not fetch) so it can show its own CAPTCHA
+       and confirmation page, so the form opens that page in a small window. -->
+  <section class="signup" aria-labelledby="signup-title">
+    <div class="signup-text">
+      <h2 id="signup-title">Get new features</h2>
+      <p>One email when something new ships. Unsubscribe anytime.</p>
+    </div>
+    <form class="signup-form embeddable-buttondown-form" id="signup" method="post" target="popupwindow">
+      <label for="signup-email" class="visually-hidden">Email address</label>
+      <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
+      <input type="hidden" name="embed" value="1">
+      <input type="hidden" name="tag" value="landing-page">
+      <button type="submit" class="btn-small">Notify me</button>
+      <p class="signup-note" id="signup-note" hidden>Sign-ups open soon.</p>
+    </form>
+  </section>
+
+  <div class="layout">
+    <div class="main-col">
+
+      <nav class="tabs" role="tablist">
+        <button role="tab" aria-selected="true" data-tab="description">Description</button>
+        <button role="tab" aria-selected="false" data-tab="install">Install</button>
+        <button role="tab" aria-selected="false" data-tab="limits">Known limits</button>
+        <button role="tab" aria-selected="false" data-tab="changelog">Changelog</button>
+      </nav>
+
+      <section class="tab-panel" id="description" role="tabpanel">
+        <h2>Zone lore, quest lore and storyline for WoW Forever</h2>
+        <p>Ever finish a quest chain and realize you have no idea why you just killed forty gnolls? Lore Forever
+          gives you the story behind what you're doing, without alt-tabbing to a wiki.</p>
+        <p>The first time you log in, pick a key to open it, like M for the map. Hover over an NPC and press it to
+          read about them. The panel already knows where you are and what you're working on: it suggests questions
+          about your zone and your quests, and you can type your own. Answers link to related people, places and
+          events, so you can keep pulling the thread as far as you like.</p>
+
+        <h3>Lore wherever you look</h3>
+        <ul>
+          <li><strong>Tooltips.</strong> NPCs and mobs get a one-line story. Items tell you "Needed for your quest",
+            "Starts a quest" or "Useful for your Tailoring", and only ever name quests you already have, so
+            nothing is spoiled.</li>
+          <li><strong>Quests.</strong> A Lore button on the quest dialog and in the quest log opens the story behind that quest.</li>
+          <li><strong>Zone hints.</strong> Entering a zone puts a clickable question in chat. Turn it off with <code>/lore nudge</code>.</li>
+          <li><strong>Always in reach.</strong> Your key, the minimap book, the add-on compartment, or <code>/lore</code>.</li>
+        </ul>
+
+        <h3>Dungeon primers</h3>
+        <p>Walk into a dungeon and chat links a primer: why you're there, the bosses in order, and what beating the
+          final boss means (tagged as a spoiler, so it's your call).</p>
+
+        <h3>True to Forever</h3>
+        <p>Forever has its own timeline, so Lore Forever sticks to it: no story from retail's later expansions,
+          and where Forever and Classic disagree, Forever wins.</p>
+
+        <h3>Free and offline</h3>
+        <p>Everything is inside the add-on. No account, no extra app, nothing to sign up for.</p>
+
+        <h3>Commands</h3>
+        <table>
+          <tr><td><code>/lore</code> or <code>/lf</code></td><td>Open or close the panel</td></tr>
+          <tr><td><code>/lore &lt;question&gt;</code></td><td>Ask straight from chat, e.g. <code>/lore why is westfall so poor</code></td></tr>
+          <tr><td><code>/lore key</code></td><td>Choose the key that opens the panel (<code>/lore key narrate</code>: a key that plays narration)</td></tr>
+          <tr><td><code>/lore narrations</code></td><td>Every recorded narration, your starting area first</td></tr>
+          <tr><td><code>/lore options</code></td><td>Settings: tooltips, hints, flight narration</td></tr>
+          <tr><td><code>/lore primer</code></td><td>Dungeon primer for where you are</td></tr>
+          <tr><td><code>/lore listen</code></td><td>Read the last answer aloud</td></tr>
+          <tr><td><code>/lore narrate</code></td><td>Flight narration on or off</td></tr>
+          <tr><td><code>/lore help</code></td><td>List all commands</td></tr>
+        </table>
+      </section>
+
+      <section class="tab-panel" id="install" role="tabpanel">
+        <h2>Install</h2>
+        <h3>With the CurseForge app</h3>
+        <ol>
+          <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
+            add your <code>_classic_beta_</code> folder, or use the manual steps below.</li>
+          <li>Search for <strong>Lore Forever</strong> and click <strong>Install</strong>.</li>
+          <li>Start the game. On the character screen, open <strong>AddOns</strong> and make sure Lore Forever is ticked.</li>
+        </ol>
+        <h3>By hand</h3>
+        <ol>
+          <li>Download the Lore Forever zip from CurseForge.</li>
+          <li>Open your WoW folder, then <code>_classic_beta_\Interface\AddOns</code> (create <code>Interface\AddOns</code>
+            if it isn't there). On Windows the default is
+            <code>C:\Program Files (x86)\World of Warcraft\_classic_beta_\Interface\AddOns</code>.</li>
+          <li>Unzip so you end up with <code>...\AddOns\LoreForever\LoreForever.toc</code>. A doubled folder like
+            <code>AddOns\LoreForever\LoreForever\</code> won't load.</li>
+          <li>Restart WoW (or <code>/reload</code> if you're already in game).</li>
+        </ol>
+        <p>On your first login it asks you to pick a key for the panel. You can change it later with <code>/lore key</code>.</p>
+        <p>Not showing up? On the character screen, click <strong>AddOns</strong> and tick
+          <strong>Load out of date AddOns</strong>.</p>
+      </section>
+
+      <section class="tab-panel" id="limits" role="tabpanel">
+        <h2>Known limits</h2>
+        <ul>
+          <li><strong>Above level 30:</strong> zones get place lore (the zone, subzones and notable characters),
+            not quest-by-quest lore yet. Mount Hyjal isn't covered yet.</li>
+          <li><strong>Questions:</strong> it answers from its built-in lore library. When it can't find a good
+            match it says so or asks "Did you mean...". Asking with a name ("Who is Hogger?") works best.</li>
+          <li><strong>Forever-only quests:</strong> some quests new in Forever may show "(no lore yet)".</li>
+          <li><strong>Settings may reset:</strong> the Forever beta has a known bug where add-on settings don't
+            always load back after you log out. That's on the game side.</li>
+          <li><strong>Beta client:</strong> built for build 1.60.1. Game patches can break things, so please report problems.</li>
+        </ul>
+      </section>
+
+      <section class="tab-panel" id="changelog" role="tabpanel">
+        <h2>Changelog</h2>
+        <h3>0.2.0</h3>
+        <ul>
+          <li>Every zone, city and dungeon up to level 30, including Zephras Isle, the Hall of Thanes and the
+            Ruins of Lordaeron. About 3,460 entries. Place lore for the rest of the world.</li>
+          <li>Lore on NPC, mob and item tooltips. Lore button on quests. Pick-a-key prompt on first login;
+            press it over an NPC to read about them.</li>
+          <li>Dungeon primers.</li>
+          <li>Type-ahead questions, "Ask next" follow-ups, typo-friendly names and "Did you mean...".</li>
+          <li>Listen button and flight narration.</li>
+          <li>Sticks to Forever's timeline.</li>
+        </ul>
+        <h3>0.1.0</h3>
+        <ul>
+          <li>First release: Elwynn Forest, Westfall and the Deadmines, 337 lore entries.</li>
+        </ul>
+      </section>
+
+    </div>
+
+    <aside class="side-col">
+      <div class="box">
+        <h3>About</h3>
+        <dl>
+          <dt>Game</dt><dd>World of Warcraft: Forever</dd>
+          <dt>Game version</dt><dd>1.60.1 (beta)</dd>
+          <dt>Full launch</dt><dd>November 4, 2026</dd>
+          <dt>Category</dt><dd>Quests &amp; Leveling, Roleplay</dd>
+          <dt>Author</dt><dd>Mike</dd>
+        </dl>
+      </div>
+      <div class="box">
+        <h3>Links</h3>
+        <ul class="links">
+          <li><a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge page</a></li>
+          <!-- TODO: real Twitch and Discord links -->
+          <li><a href="#" data-todo="twitch">Twitch</a></li>
+          <li><a href="#" data-todo="discord">Discord</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+</main>
+
+<footer class="wrap foot">
+  <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<!-- Shown when someone clicks Download: an optional email sign-up, then on to CurseForge either way. -->
+<dialog class="dl-dialog" id="dl-dialog" aria-labelledby="dl-title">
+  <button type="button" class="dl-close" id="dl-close" aria-label="Close">&times;</button>
+  <h2 id="dl-title">Get new features?</h2>
+  <p>One email when something new ships. Unsubscribe anytime.</p>
+  <form class="signup-form embeddable-buttondown-form" id="dl-signup" method="post" target="popupwindow">
+    <label for="dl-email" class="visually-hidden">Email address</label>
+    <input type="email" name="email" id="dl-email" required placeholder="you@example.com" autocomplete="email">
+    <input type="hidden" name="embed" value="1">
+    <input type="hidden" name="tag" value="download-popup">
+    <button type="submit" class="btn-small">Notify me and download</button>
+  </form>
+  <button type="button" class="dl-skip" id="dl-skip">No thanks, just download</button>
+</dialog>
+
+<script>
+// Public download count from CurseForge, through shields.io (no key needed).
+// Fill in the numeric project ID once the CurseForge project exists (shown on the project page, "About Project").
+const CURSEFORGE_PROJECT_ID = "1715510";
+
+// Buttondown newsletter username (buttondown.com/<username>). Empty keeps the sign-up form disabled.
+const BUTTONDOWN_USERNAME = "mikeliudev";
+
+// Remembers that this browser already subscribed, so the download pop-up stops asking. Best effort only.
+function remember(key, value) { try { localStorage.setItem(key, value); } catch (e) {} }
+function recall(key) { try { return localStorage.getItem(key); } catch (e) { return null; } }
+
+// Both sign-up forms post straight to Buttondown, which shows its confirmation (and CAPTCHA if needed) in a
+// small window. Buttondown asks for a plain form post rather than fetch, so that window is required.
+function wireSignup(form, afterSubmit) {
+  form.action = "https://buttondown.com/api/emails/embed-subscribe/" + encodeURIComponent(BUTTONDOWN_USERNAME);
+  form.addEventListener("submit", () => {
+    window.open("https://buttondown.com/" + encodeURIComponent(BUTTONDOWN_USERNAME), "popupwindow",
+      "width=520,height=640");
+    remember("lf-subscribed", "1");
+    if (afterSubmit) setTimeout(afterSubmit, 300);   // let the post leave before this page moves on
+  });
+}
+
+if (BUTTONDOWN_USERNAME) {
+  wireSignup(document.getElementById("signup"));
+} else {
+  document.querySelectorAll("#signup input, #signup button").forEach(el => el.disabled = true);
+  document.getElementById("signup-note").hidden = false;
+}
+
+// Download button: ask for an email first (skippable), then go to CurseForge. Skipped when sign-ups are
+// off, when this browser already subscribed, or for ctrl/cmd/middle clicks that open a new tab.
+(function setUpDownloadDialog() {
+  const link = document.getElementById("download");
+  const dialog = document.getElementById("dl-dialog");
+  if (!BUTTONDOWN_USERNAME || typeof dialog.showModal !== "function") return;
+  const goToCurseForge = () => { location.href = link.href; };
+  wireSignup(document.getElementById("dl-signup"), goToCurseForge);
+  link.addEventListener("click", e => {
+    if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || recall("lf-subscribed")) return;
+    e.preventDefault();
+    dialog.showModal();
+  });
+  document.getElementById("dl-skip").addEventListener("click", goToCurseForge);
+  document.getElementById("dl-close").addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", e => { if (e.target === dialog) dialog.close(); });   // backdrop click
+})();
+
+// Tabs. Without JavaScript all panels stay visible.
+document.body.classList.add("js");
+const tabs = document.querySelectorAll("[data-tab]");
+function showTab(id) {
+  tabs.forEach(t => t.setAttribute("aria-selected", t.dataset.tab === id));
+  document.querySelectorAll(".tab-panel").forEach(p => p.hidden = p.id !== id);
+}
+tabs.forEach(t => t.addEventListener("click", () => {
+  showTab(t.dataset.tab);
+  history.replaceState(null, "", "#" + t.dataset.tab);
+}));
+showTab(document.getElementById(location.hash.slice(1))?.classList.contains("tab-panel")
+  ? location.hash.slice(1) : "description");
+
+
+// Download counter.
+if (CURSEFORGE_PROJECT_ID) {
+  const el = document.getElementById("downloads");
+  const badge = "https://img.shields.io/curseforge/dt/" + CURSEFORGE_PROJECT_ID;
+  // Keep "New release" until there's a real count (the badge says "0" at first, or an error word).
+  fetch(badge + ".json")
+    .then(r => r.json())
+    .then(d => {
+      if (!/^[1-9][\d.,]*[kKmM]?$/.test(d.message || "")) return;
+      el.innerHTML = "<strong></strong> downloads";
+      el.firstChild.textContent = d.message;
+    })
+    .catch(() => {});
+}
+
+// Count clicks on the download button (functions/api/click.js). Best effort: the link works either way.
+document.getElementById("download").addEventListener("click", () => {
+  try { navigator.sendBeacon("/api/click"); } catch (e) {}
+});
+</script>
+</body>
+</html>

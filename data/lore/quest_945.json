@@ -1,0 +1,114 @@
+{
+ "key": "quest:945",
+ "type": "quest",
+ "name": "Therylune's Escape",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   945
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Therylune",
+  "end": "Therysil",
+  "previous": null,
+  "next": null,
+  "wiki": "Therylune's Escape",
+  "chain": []
+ },
+ "summary": "Deep in southwestern Ashenvale, a young night elf named Therylune has wandered into the ominous dig sites of the Master's Glaive and found herself cornered by hostile cultists. An Alliance escort is needed to guide her to safety and deliver word of her survival to her worried sister, Therysil, resting at the Shrine of Aessina.",
+ "sections": [
+  {
+   "title": "A Perilous Stroll",
+   "body": "The Master's Glaive is one of the most unsettling landmarks in Ashenvale, dominated by the titanic skull of an ancient monstrosity impaled by an immense stone blade. Despite the dread that lingers over the valley, Therylune wandered right into the heart of the ravine. She soon found herself pinned down by cultists of the Twilight's Hammer, surviving only thanks to quick reflexes and an aptitude for hiding in the rough terrain.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word to the Shrine",
+   "body": "Therylune's sister, Therysil, resides far to the south at the peaceful Shrine of Aessina. While Therylune is known to be adventurous and unbothered by getting dirt on her clothes, venturing into the unwholesome excavations of the Master's Glaive shocked even her kin. Bringing word of Therylune's safety relieves a deeply troubled sister, who knows all too well the dark forces currently digging through Ashenvale's ancient earth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Therylune?",
+   "aliases": [
+    "therylune",
+    "who is the girl",
+    "trapped elf"
+   ],
+   "answer": "Therylune is an adventurous young night elf who strayed into the dangerous excavations at the Master's Glaive in southwestern Ashenvale. She is the sister of Therysil."
+  },
+  {
+   "q": "Who is Therysil?",
+   "aliases": [
+    "therysil",
+    "therylune sister"
+   ],
+   "answer": "Therysil is Therylune's sister, stationed at the tranquil Shrine of Aessina in Ashenvale. She is dismayed to learn her sibling wandered so close to such a dark and tainted location."
+  },
+  {
+   "q": "Why is the Master's Glaive so dangerous?",
+   "aliases": [
+    "masters glaive danger",
+    "cultists masters glaive"
+   ],
+   "answer": "The Master's Glaive is an ancient, foreboding ravine home to the remains of an Old God's servant. Twilight's Hammer cultists swarm the area, aggressively excavating the site and attacking any trespassers."
+  },
+  {
+   "q": "Where does Therylune need to be escorted?",
+   "aliases": [
+    "escort destination",
+    "where does therylune go"
+   ],
+   "answer": "Therylune needs an escort away from the immediate perimeter of the Master's Glaive to safety, after which the rescuer must travel to the Shrine of Aessina to notify her sister."
+  },
+  {
+   "q": "Where is the Shrine of Aessina located?",
+   "aliases": [
+    "shrine of aessina location",
+    "where is therysil"
+   ],
+   "answer": "The Shrine of Aessina lies along the central forest paths in southern Ashenvale, southeast of Astranaar, serving as a sanctuary dedicated to the forest spirit Aessina."
+  },
+  {
+   "q": "How did Therylune survive surrounded by cultists?",
+   "aliases": [
+    "how did therylune hide"
+   ],
+   "answer": "Therylune managed to avoid capture purely by finding a tight hiding spot amidst the rocks and terrain before the surrounding Twilight's Hammer cultists could spot her."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The Master's Glaive is an ancient scar on Kalimdor's history. Seeing your fellow kaldorei wandering heedlessly into cultist excavations is a sobering reminder of the creeping threats inside Ashenvale."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Helping stranded wayfarers like Therylune reinforces the Alliance's presence and goodwill among the native night elves defending Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "cultists",
+  "escort",
+  "master's glaive",
+  "shrine of aessina",
+  "therylune",
+  "therysil",
+  "twilight's hammer"
+ ],
+ "related": [
+  "npc:therylune",
+  "npc:therysil",
+  "subzone:master-s-glaive",
+  "subzone:shrine-of-aessina",
+  "zone:ashenvale",
+  "quest:944"
+ ],
+ "attribution": [
+  "Therylune's Escape"
+ ]
+}

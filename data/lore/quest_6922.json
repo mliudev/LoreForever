@@ -1,0 +1,116 @@
+{
+ "key": "quest:6922",
+ "type": "quest",
+ "name": "Baron Aquanis",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "ids": [
+   6922
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Strange Water Globe",
+  "end": "Je'neu Sancrea",
+  "previous": null,
+  "next": "Elemental Distress",
+  "wiki": "Baron Aquanis (quest)",
+  "chain": []
+ },
+ "summary": "Upon vanquishing the water elemental Baron Aquanis within Blackfathom Deeps, adventurers recover a Strange Water Globe containing tainted, putrid fluid. Brought to Je'neu Sancrea of the Earthen Ring, the artifact provides crucial evidence of the elemental corruption spreading beneath Ashenvale. It confirms the malignant influence of the Twilight's Hammer cultists lurking in the submerged ruins.",
+ "sections": [
+  {
+   "title": "A Corrupted Heart",
+   "body": "Baron Aquanis was no ordinary water spirit, but a powerful elemental corrupted by foul sorcery within the flooded grottos of Blackfathom Deeps. When destroyed, the elemental leaves behind a Strange Water Globe\u2014an impervious orb holding a sloshing, putrid fluid that seemingly sustained and warped the creature's natural essence. The object defies physical damage, harboring energies that are deeply distressing to those attuned to the balance of the elements.",
+   "spoiler": 0
+  },
+  {
+   "title": "Studies of the Earthen Ring",
+   "body": "Je'neu Sancrea, an Earthen Ring shaman stationed on the Zoram Strand, recognizes the artifact immediately as evidence of unnatural meddling. He and his order have long suspected that Baron Aquanis had fallen prey to dark forces, pointing the finger directly at the Twilight's Hammer cultists who occupy the sunken temple. By studying the globe, Je'neu hopes not only to verify the cult's culpability, but to discover the exact dark methods they use to subjugate and twist Azeroth's elemental spirits.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Baron Aquanis?",
+   "aliases": [
+    "who is aquanis",
+    "aquanis boss",
+    "baron aquanis lore"
+   ],
+   "answer": "Baron Aquanis is a powerful water elemental inhabiting the subterranean waters of Blackfathom Deeps. Rather than roaming freely, Aquanis has been corrupted and bound by the dark practitioners who dwell within the ruined temple complex."
+  },
+  {
+   "q": "What is the Strange Water Globe?",
+   "aliases": [
+    "water globe",
+    "strange water globe",
+    "aquanis quest item"
+   ],
+   "answer": "The Strange Water Globe is an impervious sphere left behind after defeating Baron Aquanis. Inside, a foul, putrid liquid sloshes around, serving as the source of tainted energy that fueled the elemental's corrupted state."
+  },
+  {
+   "q": "Why does Je'neu Sancrea want the globe?",
+   "aliases": [
+    "why bring to jeneu",
+    "jeneu sancrea purpose"
+   ],
+   "answer": "As a member of the Earthen Ring, Je'neu Sancrea monitors elemental disturbances across Ashenvale. He studies the globe to confirm whether the Twilight's Hammer is behind the corruption and to unravel the rituals used to twist the spirits."
+  },
+  {
+   "q": "Who is behind the corruption of Baron Aquanis?",
+   "aliases": [
+    "who corrupted aquanis",
+    "aquanis twilight hammer",
+    "cultists blackfathom"
+   ],
+   "answer": "The primary suspects are the Twilight's Hammer cultists nesting deep inside Blackfathom Deeps. Their presence in the temple aligns with a campaign of desecration and dark communion with unnatural beings."
+  },
+  {
+   "q": "Where is Je'neu Sancrea located?",
+   "aliases": [
+    "where is jeneu",
+    "turn in aquanis quest",
+    "where to turn in water globe"
+   ],
+   "answer": "Je'neu Sancrea is an Earthen Ring shaman encamped along the Zoram Strand on the northwestern coast of Ashenvale, near the entrance to the Blackfathom Deeps cavern system."
+  },
+  {
+   "q": "What follows the turn-in of this quest?",
+   "aliases": [
+    "next quest",
+    "elemental distress"
+   ],
+   "answer": "Handing over the globe leads directly to further investigations into the elemental distress of the region, prompting adventurers to continue aiding the Earthen Ring against the growing blight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The Earthen Ring takes the corruption of elemental spirits as a grave violation of the natural order. Investigating Baron Aquanis's tainted state is central to restoring elemental balance."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Je'neu Sancrea coordinates with Horde scouts at the Zoram'gar Outpost, seeking courageous champions to cleanse the corrupted waters lurking beneath Ashenvale's coast."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "baron aquanis",
+  "blackfathom deeps",
+  "earthen ring",
+  "elemental corruption",
+  "je'neu sancrea",
+  "strange water globe",
+  "twilight's hammer",
+  "zoram strand"
+ ],
+ "related": [
+  "npc:je-neu-sancrea",
+  "zone:blackfathom",
+  "topic:twilight-s-hammer"
+ ],
+ "attribution": [
+  "Baron Aquanis (quest)"
+ ]
+}

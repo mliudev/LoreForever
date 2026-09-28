@@ -1,0 +1,85 @@
+{
+ "key": "npc:loslor-rudge",
+ "type": "npc",
+ "name": "Loslor Rudge",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Loslor Rudge",
+  "refs": 1
+ },
+ "summary": "Loslor Rudge is an enterprising dwarven engineering supplier stationed at Steelgrill's Depot in Dun Morogh. He provides mechanical parts, tools, and munitions to tinkerers across the snowy mountain ridges, keeping critical connections open with gunsmiths like Hegnar Rumbleshot.",
+ "sections": [
+  {
+   "title": "A Supplier in the Snow",
+   "body": "Operating out of Steelgrill's Depot just down the road from Kharanos, Loslor Rudge keeps a steady inventory of engineering essentials\u2014ranging from copper modulators and bronze tubing to blasting powder and spanners. Dun Morogh's harsh weather and sprawling tinker operations mean practical parts are constantly in demand, and Loslor prides himself on keeping the local gearheads supplied. However, the wilderness between outposts is treacherous; when a courier taking a shortcut near the Grizzled Den was chased away by wendigos, an essential shipment of ammunition meant for his valued client, gunsmith Hegnar Rumbleshot, was left behind in the snow.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Loslor Rudge?",
+   "aliases": [
+    "loslor rudge",
+    "who is rudge",
+    "steelgrills depot engineer"
+   ],
+   "answer": "Loslor Rudge is a dwarven engineering supplier who runs his shop out of Steelgrill's Depot in Dun Morogh. He sells tinkering tools, parts, and munitions to adventurers and craftsmen throughout the region."
+  },
+  {
+   "q": "What trouble does Loslor need help with?",
+   "aliases": [
+    "ammo for rumbleshot quest",
+    "what does rudge want",
+    "rudge courier"
+   ],
+   "answer": "He recently dispatched a courier to carry an ammunition shipment to the gunsmith Hegnar Rumbleshot. The courier took a shortcut past the Grizzled Den, ran afoul of wild wendigos, and fled, abandoning the crate in the snow. Loslor needs someone to recover the shipment before he loses his valued customer."
+  },
+  {
+   "q": "Where is Steelgrill's Depot?",
+   "aliases": [
+    "where is steelgrills depot",
+    "steelgrill location"
+   ],
+   "answer": "Steelgrill's Depot is a busy dwarven staging ground and machine workshop located just east of Kharanos along the main road toward Ironforge."
+  },
+  {
+   "q": "Who is Hegnar Rumbleshot?",
+   "aliases": [
+    "who is hegnar",
+    "rumbleshot"
+   ],
+   "answer": "Hegnar Rumbleshot is a dwarven gunsmith based out of a camp in Dun Morogh who depends on Loslor Rudge for fresh shipments of ammunition and mechanical components."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Loslor stocks critical early crafting supplies\u2014such as fluxes, blasting powders, tubes, and tinker's kits\u2014making his post at the depot a convenient stop for any aspiring engineer traveling through Dun Morogh."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Like many Dun Morogh artisans, Loslor's livelihood depends on reliable pack routes between the scattered dwarf camps, showing how even local predators like wendigos can disrupt mountain commerce."
+  }
+ ],
+ "keywords": [
+  "ammo",
+  "dun morogh",
+  "engineering",
+  "grizzled den",
+  "hegnar rumbleshot",
+  "loslor rudge",
+  "steelgrill's depot"
+ ],
+ "related": [
+  "subzone:steelgrill-s-depot",
+  "quest:5541",
+  "npc:hegnar-rumbleshot",
+  "subzone:grizzled-den",
+  "zone:dunmorogh",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Loslor Rudge"
+ ]
+}

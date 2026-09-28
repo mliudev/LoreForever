@@ -1,0 +1,116 @@
+{
+ "key": "quest:3364",
+ "type": "quest",
+ "name": "Scalding Mornbrew Delivery",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   3364
+  ],
+  "level": "5",
+  "faction": "Alliance",
+  "start": "Nori Pridedrift",
+  "end": "Durnan Furcutter",
+  "previous": null,
+  "next": "Bring Back the Mug",
+  "wiki": "Scalding Mornbrew Delivery",
+  "chain": []
+ },
+ "summary": "Scalding Mornbrew Delivery is a hurried errand through Coldridge Valley to deliver fresh hot drink before it chills in the mountain frost. Nori Pridedrift entrusts the delivery to an adventurer to ensure Durnan Furcutter receives his mornbrew piping hot.",
+ "sections": [
+  {
+   "title": "A Race Against the Frost",
+   "body": "Dun Morogh's biting cold has ruined many a hot meal, and Mornbrew is no exception. After completing a delivery to Grelin Whitebeard, Nori Pridedrift realizes he lacks the time to bring another fresh cup to Anvilmar before it freezes into an unpalatable slush. Rather than let his customer down, he enlists any swift traveler willing to brave the snow.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of a Warm Mug",
+   "body": "Durnan Furcutter, stationed inside the warmth of Anvilmar's mountain hall, is known to be particular about his refreshments. Chilly Mornbrew simply will not do. Delivering the piping drink intact earns a weary dwarf a much-needed break from his duties, though Nori still expects his favorite mug returned in one piece.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Durnan Furcutter?",
+   "aliases": [
+    "durnan furcutter",
+    "who is durnan",
+    "furcutter"
+   ],
+   "answer": "Durnan Furcutter is a dwarf residing inside the subterranean hall of Anvilmar in Coldridge Valley. He relies on local deliveries from Nori Pridedrift for his hot mornbrew."
+  },
+  {
+   "q": "Why does the delivery need to be so fast?",
+   "aliases": [
+    "why timed",
+    "mornbrew timer",
+    "why hurry"
+   ],
+   "answer": "The freezing alpine weather of Coldridge Valley causes hot drinks to cool rapidly. Durnan specifically ordered scalding mornbrew, and cold ale or tea is considered ruined by dwarf standards."
+  },
+  {
+   "q": "Who is Nori Pridedrift?",
+   "aliases": [
+    "nori pridedrift",
+    "nori",
+    "who is nori"
+   ],
+   "answer": "Nori Pridedrift is a dwarf stationed out in the snowy paths of Coldridge Valley. He tends to deliveries between local encampments, including bringing drinks to Grelin Whitebeard and workers in Anvilmar."
+  },
+  {
+   "q": "What is mornbrew?",
+   "aliases": [
+    "what is mornbrew",
+    "mornbrew lore"
+   ],
+   "answer": "Mornbrew is a warm, invigorating dwarven morning brew, crafted to cut through the freezing chill of the Dun Morogh peaks and sustain hardy mountain workers."
+  },
+  {
+   "q": "Where is Anvilmar located?",
+   "aliases": [
+    "where is anvilmar",
+    "anvilmar location",
+    "find anvilmar"
+   ],
+   "answer": "Anvilmar is situated directly northeast of Nori's post, carved into the mountain rock of Coldridge Valley to shelter young mountaineers and craftsmen from the blizzards."
+  },
+  {
+   "q": "Does Nori want the mug back?",
+   "aliases": [
+    "mug return",
+    "bring back the mug",
+    "nori's mug"
+   ],
+   "answer": "Yes. Once Durnan finishes enjoying his hot brew, he hands back the empty container so it can be returned to Nori in Coldridge Valley."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Every dwarf understands the tragedy of cold brew in freezing mountain air, making this dash across the valley a matter of pure principle."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Serving beverages at the proper temperature is a mark of true culinary respect, especially under Dun Morogh's punishing sub-zero conditions."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "durnan furcutter",
+  "mornbrew",
+  "nori pridedrift"
+ ],
+ "related": [
+  "npc:nori-pridedrift",
+  "npc:durnan-furcutter",
+  "subzone:anvilmar",
+  "quest:3365",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Scalding Mornbrew Delivery"
+ ]
+}

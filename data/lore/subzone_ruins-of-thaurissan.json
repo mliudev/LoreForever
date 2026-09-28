@@ -1,0 +1,93 @@
+{
+ "key": "subzone:ruins-of-thaurissan",
+ "type": "subzone",
+ "name": "Ruins of Thaurissan",
+ "era": "classic",
+ "zone": "burningsteppes",
+ "meta": {
+  "wiki": "Ruins of Thaurissan"
+ },
+ "summary": "The Ruins of Thaurissan are the scorched remnants of the Dark Iron clan's original surface capital in the Burning Steppes. Once a proud city nestled in the lush northern reaches of the Redridge Mountains, it was blasted to cinders during the War of the Three Hammers when Sorcerer-Thane Thaurissan inadvertently summoned the Firelord, Ragnaros.",
+ "sections": [
+  {
+   "title": "The Fall of a Kingdom",
+   "body": "Roughly two centuries ago, following their exile from Ironforge after the death of High King Modimus Anvilmar, the Dark Iron clan journeyed south and established Thaurissan City. At the climax of the War of the Three Hammers, facing total defeat by the combined forces of the Bronzebeard and Wildhammer clans, Sorcerer-Thane Thaurissan sought an ultimate weapon to turn the tide. He and seven trusted sorcerers channeled ancient magic deep beneath the earth. Instead of an obedient servant, their ritual ripped open a conduit to the Elemental Plane and summoned Ragnaros the Firelord. The cataclysmic eruption shattered the surrounding mountains, burned the verdant landscape into the ashen Burning Steppes, raised the volcano of Blackrock Mountain, and incinerated the city.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes in the Ash",
+   "body": "Today, shattered masonry and crumbled pillars litter the wasteland, inhabited by patrolling Dark Iron remnants and fire elementals. The Alliance, guided by Royal Historian Archesonus in Ironforge, has sent expeditions to recover ancient relics buried beneath the ash. Touching these enchanted remnants imparts vivid, terrifying memories of the cataclysm: visions of eight dwarves chanting in despair, seven corpses sprawled around a solitary kneeling thaumaturge, and a towering monolith of primal flame that claimed the souls and freedom of an entire clan.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was this city before it was destroyed?",
+   "aliases": [
+    "thaurissan city lore",
+    "what was thaurissan",
+    "who built thaurissan"
+   ],
+   "answer": "It was Thaurissan City, the proud surface capital of the Dark Iron clan. Built after their exile from Ironforge following the death of High King Modimus Anvilmar, it served as the center of their burgeoning kingdom before it was utterly obliterated."
+  },
+  {
+   "q": "How was the city destroyed?",
+   "aliases": [
+    "how did thaurissan burn",
+    "what destroyed thaurissan",
+    "who destroyed thaurissan"
+   ],
+   "answer": "Desperate to win the War of the Three Hammers against the other dwarf clans, Sorcerer-Thane Thaurissan attempted to summon a powerful supernatural minion. The ritual broke the bonds holding Ragnaros beneath the earth. The Firelord's violent arrival erupted as an apocalyptic volcano, reducing the city and the surrounding lush valleys to charred ruins."
+  },
+  {
+   "q": "Why is the ground around the ruins an ashen wasteland?",
+   "aliases": [
+    "why is burning steppes ash",
+    "what happened to the land here",
+    "redridge mountains connection"
+   ],
+   "answer": "The Burning Steppes were once the fertile, green northern reaches of the Redridge Mountains. The explosive cataclysm of Ragnaros's summoning ruptured the earth, raised Blackrock Mountain, and scorched the entire expanse into an arid, ash-choked wilderness."
+  },
+  {
+   "q": "Where did the surviving Dark Iron dwarves go?",
+   "aliases": [
+    "where are the dark irons now",
+    "shadowforge city origin"
+   ],
+   "answer": "The survivors were enslaved by Ragnaros and his elemental minions. They retreated deep beneath Blackrock Mountain to construct Shadowforge City, abandoning their ruined capital to the wastes while toiling in service to the Firelord."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Ironforge, these ruins stand as a grim monument to the hubris of the Dark Iron clan during the War of the Three Hammers and the horrific price of calling upon elemental powers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts and researchers, commissioned by Royal Historian Archesonus of Ironforge, scour these smoldering foundations for relics that reveal the truth of Blackrock Mountain's master."
+  }
+ ],
+ "keywords": [
+  "archesonus",
+  "burning steppes",
+  "dark iron",
+  "ragnaros",
+  "ruins of thaurissan",
+  "sorcerer-thane",
+  "thaurissan",
+  "war of the three hammers"
+ ],
+ "related": [
+  "subzone:blackrock-mountain",
+  "topic:dark-iron-clan",
+  "topic:dark-iron-dwarf",
+  "zone:burningsteppes",
+  "npc:royal-historian-archesonus",
+  "zone:redridge",
+  "zone:ironforge",
+  "subzone:cauldron"
+ ],
+ "attribution": [
+  "Ruins of Thaurissan"
+ ]
+}

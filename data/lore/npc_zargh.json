@@ -1,0 +1,91 @@
+{
+ "key": "npc:zargh",
+ "type": "npc",
+ "name": "Zargh",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Zargh",
+  "refs": 2
+ },
+ "summary": "Zargh is an orc meat merchant stationed at the Crossroads in the Barrens. Aside from providing provisions to travelers, he frequently supplies choice cuts of local game to Innkeeper Gryshka in Orgrimmar.",
+ "sections": [
+  {
+   "title": "Butcher of the Crossroads",
+   "body": "Amid the bustle of the Crossroads, Zargh tends his shop selling various cuts of cured meat, shank, and game taken from the surrounding plains. For adventurers pushing deep into the harsh wilderness, his stocks provide vital nourishment. Beyond basic trade, he maintains close ties with the Horde capital, regularly shipping carefully selected meats across Durotar to Gryshka, the innkeeper of the Valley of Strength.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Courier's Errand",
+   "body": "Zargh often enlists wandering couriers to carry fresh shipments of meat to Innkeeper Gryshka in Orgrimmar via wind rider, ensuring the supplies arrive before spoiling. Their relationship appears to be more than just professional: correspondence from Gryshka recalls a mishap where Zargh lost a finger, and upon receiving word back from her, Zargh hints at a possible wedding invitation in the traveler's future.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Zargh?",
+   "aliases": [
+    "zargh location",
+    "where is zargh",
+    "zargh npc"
+   ],
+   "answer": "Zargh is located at the Crossroads, the central Horde settlement in the Barrens. He operates as a meat vendor amidst the camp's merchants."
+  },
+  {
+   "q": "What is Zargh's connection to Innkeeper Gryshka?",
+   "aliases": [
+    "zargh gryshka",
+    "zargh relationship",
+    "who is zargh marrying"
+   ],
+   "answer": "Zargh supplies Innkeeper Gryshka in Orgrimmar with choice meats from the Barrens. Their correspondence suggests a warm, personal bond; after receiving a letter from her, Zargh even hints that a wedding invitation might soon be coming."
+  },
+  {
+   "q": "What happened to Zargh's finger?",
+   "aliases": [
+    "zargh lost finger",
+    "zargh accident"
+   ],
+   "answer": "According to a letter from Gryshka, Zargh suffered a butchering accident in the past that cost him a finger. It remains an inside joke between them regarding the contents of his meat cuts."
+  },
+  {
+   "q": "What does Zargh sell?",
+   "aliases": [
+    "zargh vendor items",
+    "zargh goods"
+   ],
+   "answer": "He sells various food provisions, including haunches of meat, cured ham steaks, wild hog shanks, and a recipe for Hot Lion Chops."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Zargh is one of the few purveyors in the Barrens who sells the recipe for Hot Lion Chops, a valuable culinary formula for cooks looking to make use of local predator meat."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "His trade route between the Crossroads and Orgrimmar teaches young Horde messengers how to utilize the wind rider network between Durotar and the Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "butcher",
+  "crossroads",
+  "gryshka",
+  "hot lion chops",
+  "meat",
+  "zargh"
+ ],
+ "related": [
+  "npc:innkeeper-gryshka",
+  "subzone:crossroads",
+  "zone:barrens",
+  "quest:6365",
+  "quest:6384",
+  "quest:6386",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Zargh"
+ ]
+}

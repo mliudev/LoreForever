@@ -1,0 +1,121 @@
+{
+ "key": "quest:1092",
+ "type": "quest",
+ "name": "Gerenzo's Orders",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1092
+  ],
+  "level": "22",
+  "faction": "Neutral",
+  "start": "Piznik",
+  "end": "Ziz Fizziks",
+  "previous": "Gerenzo's Orders",
+  "next": null,
+  "wiki": "Gerenzo's Orders (2)",
+  "chain": [
+   "Gerenzo's Orders",
+   "Gerenzo's Orders (2)"
+  ]
+ },
+ "summary": "Having eliminated Chief Engineer Gerenzo and secured a sample of strange ore, Piznik dispatches adventurers to take the specimen to his contact, Ziz Fizziks. The delivery wraps up a risky act of corporate espionage deep in the Venture Company operations of Windshear Crag.",
+ "sections": [
+  {
+   "title": "A Ticket Out",
+   "body": "With Chief Engineer Gerenzo dead, Piznik knows his time among the Venture Company crew at Windshear Crag has expired. Corporate management in Undermine does not take kindly to internal sabotage and murder, prompting the nervous goblin to orchestrate his escape. Before slipping away to seek a new employer, he entrusts the Unidentified Ore secured from Gerenzo to an outsider, ensuring the prized specimen gets delivered safely without drawing suspicion to himself.",
+   "spoiler": 0
+  },
+  {
+   "title": "Corporate Curiosities",
+   "body": "The ore's destination is Ziz Fizziks, who has established a secretive outpost on the western rim of Windshear Crag. Ziz recognizes the strategic value of the mineral, intending to send it south to Undermine engineers while quietly skimming a valuable fraction off the top for personal profit. Such self-serving pragmatism highlights the cutthroat nature of trade and engineering disputes simmering beneath the peaks of the Stonetalon Mountains.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Piznik need to flee Windshear Crag?",
+   "aliases": [
+    "why is piznik leaving",
+    "piznik runaway",
+    "why piznik scared"
+   ],
+   "answer": "Piznik orchestrated the assassination of his superior, Chief Engineer Gerenzo. He knows that once the Venture Company's higher-ups catch wind of the incident, retribution will be swift, so he must sneak away and secure new employment."
+  },
+  {
+   "q": "Who is Ziz Fizziks?",
+   "aliases": [
+    "who is ziz",
+    "ziz fizziks role",
+    "where is ziz"
+   ],
+   "answer": "Ziz Fizziks is a goblin operator camped on the western ridge of Windshear Crag. He planted Piznik inside the Venture Company to steal corporate intelligence and rare mineral samples."
+  },
+  {
+   "q": "What is the Unidentified Ore?",
+   "aliases": [
+    "unidentified ore lore",
+    "what is the ore",
+    "gerenzo ore"
+   ],
+   "answer": "It is a rare geological sample obtained from Chief Engineer Gerenzo. Ziz Fizziks intends to send it to researchers and engineers in Undermine to analyze its industrial applications."
+  },
+  {
+   "q": "Where can Ziz Fizziks be found?",
+   "aliases": [
+    "ziz fizziks location",
+    "find ziz",
+    "where to turn in gerenzo orders"
+   ],
+   "answer": "Ziz Fizziks hides at a small encampment perched along the western edge overlooking Windshear Crag in the Stonetalon Mountains."
+  },
+  {
+   "q": "What happens to the ore once Ziz receives it?",
+   "aliases": [
+    "what does ziz do with the ore",
+    "ziz keep the ore"
+   ],
+   "answer": "Ziz plans to forward the bulk of the ore sample to Undermine engineers for profit and reputation, while pocketing a small shard for himself without his employers' knowledge."
+  },
+  {
+   "q": "Is Piznik loyal to the Venture Company?",
+   "aliases": [
+    "piznik faction",
+    "is piznik venture co",
+    "who does piznik work for"
+   ],
+   "answer": "Piznik worked under the Venture Company only long enough to serve Ziz's interests. He shows no loyalty to the syndicate and actively fears retribution from its leadership."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The Unidentified Ore extracted from Gerenzo reveals that the Venture Company's deforesting operations in Windshear Crag are equally focused on scouring the mountains for unknown subterranean wealth."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Goblin engineers in Undermine pay handsomely for unrefined, exotic ores capable of powering volatile new mechanisms and prototypes."
+  }
+ ],
+ "keywords": [
+  "gerenzo's orders",
+  "piznik",
+  "stonetalon",
+  "undermine",
+  "unidentified ore",
+  "venture company",
+  "windshear crag",
+  "ziz fizziks"
+ ],
+ "related": [
+  "quest:1090",
+  "quest:1483",
+  "npc:piznik",
+  "subzone:windshear-crag",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Gerenzo's Orders (2)"
+ ]
+}

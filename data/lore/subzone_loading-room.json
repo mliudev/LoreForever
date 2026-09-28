@@ -1,0 +1,73 @@
+{
+ "key": "subzone:loading-room",
+ "type": "subzone",
+ "name": "Loading Room",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Loading Room"
+ },
+ "summary": "The Loading Room is an industrial staging chamber inside Gnomeregan's sprawling mechanical complex. In the current era, this subterranean staging area lies deep within the corrupted fallen capital, dangerously close to rogue constructs such as Techbot.",
+ "sections": [
+  {
+   "title": "Industrial Depot Under Siege",
+   "body": "Before the fall of Gnomeregan, the Loading Room functioned as a bustling transit point and cargo staging bay linked to the subterranean transit networks of the tinker capital. Today, like the rest of the ruined city, it has succumbed to chaos. Radioactive fallout, invading troggs, and malfunctioning machinery have rendered the area extremely perilous. The rogue mechanized construct Techbot guards the vicinity, posing a severe threat to any gnome survivors or daring Alliance reclaimers attempting to secure the perimeter.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Loading Room used for?",
+   "aliases": [
+    "loading room purpose",
+    "what is loading room",
+    "what was loading room"
+   ],
+   "answer": "Historically, it served as an industrial loading bay and cargo staging point connected to Gnomeregan's internal transport and train facilities. Since the city's fall, it has become another lost sector overrun by hazards."
+  },
+  {
+   "q": "What threats can be found in the Loading Room?",
+   "aliases": [
+    "who is in loading room",
+    "loading room bosses",
+    "techbot location"
+   ],
+   "answer": "The Loading Room is home to the haywire mechanical defense construct known as Techbot, along with surrounding radioactive contamination and erratic machinery lingering in the depths of the city."
+  },
+  {
+   "q": "Is the Loading Room safe to explore?",
+   "aliases": [
+    "is it safe",
+    "can alliance go here"
+   ],
+   "answer": "No. The entire district is contested ground inside the ruins of Gnomeregan. Any Alliance strike team venturing into this part of the complex must contend with hostile constructs and toxic conditions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomish reclaimers, the Loading Room is a bitter reminder of how everyday city infrastructure was violently abandoned during the trogg invasion and toxic catastrophe."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The rogue construct Techbot and the mechanical assemblies remaining in the Loading Room offer engineers a stark lesson in what happens when automated defenses malfunction without maintenance."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "gnomeregan",
+  "loading room",
+  "techbot",
+  "tinkertown",
+  "train depot"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "subzone:train-depot",
+  "subzone:dormitory",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Loading Room"
+ ]
+}

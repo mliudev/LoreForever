@@ -1,0 +1,86 @@
+{
+ "key": "npc:donyal-tovald",
+ "type": "npc",
+ "name": "Donyal Tovald",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Donyal Tovald",
+  "refs": 2
+ },
+ "summary": "Donyal Tovald is a human steward serving in the Royal Library within Stormwind Keep. Under an initiative begun by the young King Anduin Wrynn, he oversees the care of the kingdom's books and works to distribute copies of historical texts to the broader public.",
+ "sections": [
+  {
+   "title": "Steward of Stormwind's History",
+   "body": "Located in the quiet alcoves of the Royal Library wing within Stormwind Keep, Donyal Tovald tends to the kingdom's vast collection of historical accounts, scrolls, and scholarly volumes. While the library primarily serves the nobility and royal court, young King Anduin Wrynn has sponsored an initiative to make knowledge more accessible to ordinary citizens. Tovald handles the preservation and copying of these texts, helping ensure that the lessons and triumphs of the Alliance are not forgotten amidst the kingdom's turbulent political climate.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Donyal Tovald?",
+   "aliases": [
+    "who is tovald",
+    "royal librarian",
+    "donyal tovald lore"
+   ],
+   "answer": "Donyal Tovald is a human librarian stationed in the Royal Library of Stormwind Keep. He maintains the kingdom's archives and manages an initiative backed by King Anduin Wrynn to distribute copies of historical books to the public."
+  },
+  {
+   "q": "Where can I find Donyal Tovald?",
+   "aliases": [
+    "donyal tovald location",
+    "where is tovald",
+    "how to find tovald"
+   ],
+   "answer": "He can be found inside the Royal Library wing on the eastern side of Stormwind Keep, surrounded by bookshelves and historical scrolls."
+  },
+  {
+   "q": "Why is he handing out books to citizens?",
+   "aliases": [
+    "anduin book initiative",
+    "stormwind library project",
+    "why does he give books"
+   ],
+   "answer": "Young King Anduin Wrynn sponsored a royal project to educate the public and share knowledge. Donyal Tovald serves as the steward overseeing the reproduction and distribution of these royal manuscripts."
+  },
+  {
+   "q": "Is he affiliated with the House of Nobles or the clergy?",
+   "aliases": [
+    "is tovald church of light",
+    "tovald faction"
+   ],
+   "answer": "Tovald operates directly under the crown as a keeper of royal archives within Stormwind Keep, focusing on historical and scholarly texts rather than ecclesiastical or political doctrine."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, Tovald represents an effort to rebuild and preserve their culture and recorded history following the First War and the reconstruction of the capital."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages visiting Stormwind Keep may appreciate Tovald's dedication to preserving written knowledge, even if the texts are primarily historical rather than arcane."
+  }
+ ],
+ "keywords": [
+  "anduin wrynn",
+  "books",
+  "donyal tovald",
+  "history",
+  "librarian",
+  "royal library",
+  "stormwind keep"
+ ],
+ "related": [
+  "subzone:royal-library",
+  "subzone:stormwind-keep",
+  "topic:anduin-wrynn",
+  "quest:579",
+  "zone:stormwind",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Donyal Tovald"
+ ]
+}

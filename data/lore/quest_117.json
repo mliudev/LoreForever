@@ -1,0 +1,117 @@
+{
+ "key": "quest:117",
+ "type": "quest",
+ "name": "Thunderbrew",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   117
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Grimbooze Thunderbrew",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Thunderbrew (quest)",
+  "chain": []
+ },
+ "summary": "Thunderbrew is a straightforward brewing errand undertaken for the wandering dwarf Grimbooze Thunderbrew in Westfall. To prevent his latest batch from tasting more like stew than rich dwarven lager, Grimbooze requires fresh hops gathered from the surrounding countryside. Adventurers who assist him are rewarded with a fresh, frothy keg of his potent craft.",
+ "sections": [
+  {
+   "title": "A Dwarven Passion in Westfall",
+   "body": "Even in the turbulent plains of Westfall, dwarven craftsmanship persists\u2014particularly when it involves brewing. Grimbooze Thunderbrew, a member of the storied dwarven brewing clan, continues his family tradition far from the icy halls of Dun Morogh. Brewing good stout and lager requires precise ingredients, and Grimbooze insists that without proper hops, his current concoction threatens to turn into thick stew rather than refreshing ale.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Art of the Keg",
+   "body": "Grimbooze operates with rhythmic, rhyming enthusiasm, celebrating the foundational ingredients of hops, barley, yeast, and malt. When provided with fresh hops, he completes the fermentation process on the spot. Adventurers who keep him supplied receive whole kegs of Thunderbrew Lager, renowned for delivering an absolute assault on the taste buds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Grimbooze Thunderbrew?",
+   "aliases": [
+    "grimbooze",
+    "who is grimbooze",
+    "grimbooze lore"
+   ],
+   "answer": "Grimbooze Thunderbrew is a dwarven brewer found roaming the landscape of Westfall. True to his famous clan's heritage, he is passionate about concocting potent lagers wherever he sets up camp, often speaking and chanting in cheerful rhymes."
+  },
+  {
+   "q": "Why does Grimbooze need hops?",
+   "aliases": [
+    "why hops",
+    "grimbooze hops",
+    "what are hops for"
+   ],
+   "answer": "Without fresh hops, Grimbooze's latest batch risks tasting thick and heavy like stew rather than crisp, potent lager. Hops provide the necessary bitterness and flavor balance essential to dwarven brewing."
+  },
+  {
+   "q": "What is Thunderbrew Lager?",
+   "aliases": [
+    "thunderbrew beer",
+    "keg of thunderbrew",
+    "what is thunderbrew"
+   ],
+   "answer": "Thunderbrew Lager is a heavy, celebrated dwarven beverage crafted by the Thunderbrew family. Grimbooze distributes it by the keg, promising a potent sensory experience that hits the palate with tremendous force."
+  },
+  {
+   "q": "Can you bring Grimbooze hops more than once?",
+   "aliases": [
+    "repeatable quest",
+    "is thunderbrew repeatable",
+    "more kegs"
+   ],
+   "answer": "Yes. Grimbooze's appetite for brewing is never truly sated, and he welcomes further deliveries of hops in exchange for additional kegs of his specialty brew."
+  },
+  {
+   "q": "Where does this task take place?",
+   "aliases": [
+    "thunderbrew location",
+    "where is grimbooze",
+    "quest zone"
+   ],
+   "answer": "The task is carried out entirely in Westfall, where Grimbooze can be found camping and gathering supplies amidst the farmlands."
+  },
+  {
+   "q": "Is Grimbooze related to the Thunderbrews in Dun Morogh?",
+   "aliases": [
+    "thunderbrew distillery",
+    "grimbooze clan",
+    "thunderbrew family"
+   ],
+   "answer": "Yes, Grimbooze shares his surname and trade with the renowned Thunderbrew brewing family of Kharanos in Dun Morogh, carrying their fiery passion for fermentation out into the wider kingdoms."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Finding a kinsman keeping the proud traditions of Kharanos alive on the rugged frontier of Westfall is always a welcome sight, especially when kegs are involved."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Understanding the balance between barley, malt, and hops is second nature to anyone who appreciates the culinary arts and classic dwarven fermentation."
+  }
+ ],
+ "keywords": [
+  "beer",
+  "brewing",
+  "dwarf",
+  "grimbooze",
+  "hops",
+  "keg",
+  "lager",
+  "thunderbrew",
+  "westfall"
+ ],
+ "related": [
+  "npc:grimbooze-thunderbrew",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Thunderbrew (quest)"
+ ]
+}

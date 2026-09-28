@@ -1,0 +1,127 @@
+{
+ "key": "quest:7783",
+ "type": "quest",
+ "name": "The Lord of Blackrock",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   7783
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Head of Nefarian#Horde",
+  "end": "Eitrigg",
+  "previous": null,
+  "next": "The Lord of Blackrock (Horde 2)",
+  "wiki": "The Lord of Blackrock (Horde)",
+  "chain": [
+   "The Lord of Blackrock (Horde)",
+   "The Lord of Blackrock (Horde 2)"
+  ]
+ },
+ "summary": "This quest marks the culmination of the assault against Blackwing Lair, tasking champions with returning the severed head of Nefarian to Orgrimmar. Bringing the monstrous trophy to the veteran warrior Eitrigg secures proof that the brood of the Black Dragonflight has been broken. It is a moment of monumental triumph for the Horde against one of their most insidious enemies.",
+ "sections": [
+  {
+   "title": "A Trophy of Ruin",
+   "body": "Nefarian, the mastermind of Blackwing Lair and brood leader of the black dragons in the Eastern Kingdoms, has finally fallen. His colossal, battle-scarred head serves as undeniable proof of his demise. For the warriors of the Horde, hauling such a monumental prize out of the burning heights of Blackrock Mountain and across the Great Sea to Durotar is an act of undeniable glory.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eitrigg's Judgment",
+   "body": "The trophy is presented directly to Eitrigg, an esteemed veteran and trusted advisor to Warchief Thrall. Eitrigg knows the corruption within Blackrock Mountain better than almost anyone, having hidden in the burning wastes after turning his back on the old, corrupted Horde. Seeing the son of Deathwing struck down validates years of struggle and breaks the dark dragon's cruel dominion over the orcs of the Blackrock clan.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows of the Father",
+   "body": "While Nefarian's death breaks the black dragonflight's twisted genetic experiments, his fall does not eliminate every danger. Upon viewing the decapitated dragon, Eitrigg remarks that Deathwing himself surely stirs at the news of his son's destruction. The victory is real, but it serves as a stark reminder of the greater terrors sleeping beneath the surface of the world.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Nefarian?",
+   "aliases": [
+    "nefarian backstory",
+    "who is nefarian",
+    "black dragon lord"
+   ],
+   "answer": "Nefarian is a great black dragon and the son of Deathwing. From his perch high within Blackwing Lair atop Blackrock Mountain, he conducted twisted experiments to create the chromatic dragonflight and manipulated mortal races\u2014especially the Dark Horde\u2014to do his bidding."
+  },
+  {
+   "q": "Why is the trophy delivered to Eitrigg instead of Thrall?",
+   "aliases": [
+    "why eitrigg",
+    "who is eitrigg"
+   ],
+   "answer": "Eitrigg is a seasoned Blackrock orc veteran who rejected the demonic bloodlust of the Old Horde and lived in self-imposed exile in Blackrock Mountain. He serves as one of Thrall's most trusted counselors and possesses unmatched personal knowledge of the mountain and its corrupt masters."
+  },
+  {
+   "q": "What happens in Orgrimmar when the head is turned in?",
+   "aliases": [
+    "head buff",
+    "orgrimmar world buff",
+    "rallying cry buff"
+   ],
+   "answer": "When the head of Nefarian is returned and mounted in Orgrimmar, a city-wide celebration takes place. The entire capital is granted the Rallying Cry of the Dragonslayer, boosting the combat prowess of all Horde members nearby."
+  },
+  {
+   "q": "Does this quest have an Alliance equivalent?",
+   "aliases": [
+    "alliance version",
+    "alliance counterpart"
+   ],
+   "answer": "Yes, Alliance heroes complete a matching quest also named 'The Lord of Blackrock', delivering the head of Nefarian to Highlord Bolvar Fordragon in Stormwind Keep to grant their city the same blessing."
+  },
+  {
+   "q": "What does Eitrigg mean by 'the evil one stirs'?",
+   "aliases": [
+    "evil one stirs",
+    "who is the evil one"
+   ],
+   "answer": "He is referring to Deathwing, the Aspect of Death and patriarch of the Black Dragonflight. Though long vanished and believed dead or hidden by many, Eitrigg fears that slaying Deathwing's powerful offspring will eventually draw the attention of the dread dragonfather."
+  },
+  {
+   "q": "Where does the head come from?",
+   "aliases": [
+    "how to get head of nefarian",
+    "quest starter item"
+   ],
+   "answer": "The quest begins by looting the Head of Nefarian directly from Nefarian's corpse after defeating him at the pinnacle of Blackwing Lair."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Striking down Nefarian vindicates the Horde's honor and frees the Blackrock region from the grasp of a dragon who enslaved the renegade Dark Horde."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For the orcs, presenting Nefarian's head to Eitrigg represents retribution against the beast that puppeteered Rend Blackhand and enslaved orcish clans for his experiments."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Bearing the massive, severed skull of a dragon lord to an old veteran warrior like Eitrigg is among the highest marks of martial renown."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "blackwing lair",
+  "deathwing",
+  "dragonslayer",
+  "eitrigg",
+  "nefarian",
+  "orgrimmar",
+  "rallying cry"
+ ],
+ "related": [
+  "npc:eitrigg",
+  "zone:orgrimmar",
+  "topic:horde",
+  "npc:deathwing",
+  "quest:7781"
+ ],
+ "attribution": [
+  "The Lord of Blackrock (Horde)"
+ ]
+}

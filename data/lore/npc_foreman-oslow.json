@@ -1,0 +1,110 @@
+{
+ "key": "npc:foreman-oslow",
+ "type": "npc",
+ "name": "Foreman Oslow",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Foreman Oslow",
+  "refs": 4
+ },
+ "summary": "Foreman Oslow is Lakeshire's beleaguered master builder, tasked with repairing the ruined Everstill Bridge in the heart of Redridge Mountains. Beset by Blackrock orc artillery and gnoll raiders, his reconstruction efforts have stalled due to lost shipments and sunken equipment. He relies heavily on traveling adventurers to retrieve his gear and secure materials so Lakeshire can reconnect its vital trade route.",
+ "sections": [
+  {
+   "title": "A Town Cut in Two",
+   "body": "Standing by the fractured masonry of the Everstill Bridge, Foreman Oslow faces an uphill battle. The bridge is the lifeline of Lakeshire, spanning the expanse of Lake Everstill and linking the western roads toward Elwynn to the eastern shores. Blackrock orcs, sweeping down from the crags of Stonewatch, targeted the crossing to cripple the town's logistics and military movement, leaving the settlement splintered and vulnerable.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sunken Steel and Stolen Stone",
+   "body": "Every attempt Oslow makes to rebuild seems plagued by misfortune. When the bridge fell, his replacement tools were shipped overland from Goldshire and loaded onto a lake ferry. Orc catapult crews caught the vessel in their sights, sending his heavy iron toolbox straight to the muddy bed of Lake Everstill. To compound matters, local Redridge gnolls ambushed his supply wagons, making off with timber and mortar rivets necessary to raise the arches.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Foreman Oslow?",
+   "aliases": [
+    "foreman oslow",
+    "who is oslow",
+    "lakeshire builder"
+   ],
+   "answer": "Foreman Oslow is a human stonemason and builder stationed in Lakeshire. He is the head craftsman responsible for the maintenance and reconstruction of the Everstill Bridge."
+  },
+  {
+   "q": "Why is the Everstill Bridge broken?",
+   "aliases": [
+    "why is the bridge broken",
+    "who broke lakeshire bridge",
+    "everstill bridge destroyed"
+   ],
+   "answer": "The Everstill Bridge was shattered by the Blackrock orcs of Redridge Mountains. Destroying the span severed Lakeshire's main thoroughfare, severely weakening the town's defenses and cutting off easy transit between the eastern and western shores."
+  },
+  {
+   "q": "Where are Oslow's lost tools?",
+   "aliases": [
+    "where are the tools",
+    "lost tools location",
+    "oslow toolbox"
+   ],
+   "answer": "Oslow's heavy toolbox rests at the bottom of Lake Everstill. The boat transporting them from Goldshire was struck and sunk by a Blackrock catapult barrage."
+  },
+  {
+   "q": "Why hasn't the bridge been repaired yet?",
+   "aliases": [
+    "why is bridge not fixed",
+    "lakeshire bridge delay"
+   ],
+   "answer": "Between orc catapult fire sinking his tools in the lake and gnolls stealing building supplies from incoming shipments, Oslow lacks the necessary materials and equipment to resume construction without outside help."
+  },
+  {
+   "q": "Where did Oslow's supplies come from originally?",
+   "aliases": [
+    "supply wagon origin",
+    "where did tools come from"
+   ],
+   "answer": "His replacement tools were originally carted in on a wagon from Goldshire in Elwynn Forest before being transferred to a lake ferry to bypass the broken span."
+  },
+  {
+   "q": "What threats is Oslow dealing with?",
+   "aliases": [
+    "oslow enemies",
+    "who attacks the bridge"
+   ],
+   "answer": "Oslow faces constant harassment from two fronts: the Blackrock clan orcs entrenched in the nearby heights, whose siege engines bombard the lake, and prowling gnolls who pick off supply convoys."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire's severed bridge leaves the eastern frontier exposed, making Oslow's restoration efforts a strategic necessity for securing the Alliance border."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Oslow relies on raw materials, metalwork, and quarry shipments to rebuild broken masonry, keeping him intimately tied to local mineral deliveries."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "everstill bridge",
+  "foreman oslow",
+  "goldshire",
+  "lakeshire",
+  "oslow",
+  "redridge",
+  "toolbox"
+ ],
+ "related": [
+  "quest:89",
+  "quest:125",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "topic:gnoll",
+  "subzone:goldshire",
+  "quest:347",
+  "quest:345"
+ ],
+ "attribution": [
+  "Foreman Oslow"
+ ]
+}

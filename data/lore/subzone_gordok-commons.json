@@ -1,0 +1,87 @@
+{
+ "key": "subzone:gordok-commons",
+ "type": "subzone",
+ "name": "Gordok Commons",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Gordok Commons"
+ },
+ "summary": "The Gordok Commons comprise the fortified northern quarter of the ancient Highborne ruins of Dire Maul. Under the rule of King Gordok, this sprawling stone complex serves as the seat of power for the elite warrior caste of the Gordunni ogres.",
+ "sections": [
+  {
+   "title": "Seat of the Ogre King",
+   "body": "Occupying what was once an aristocratic wing of Eldre'Thalas, the Gordok Commons have been thoroughly desecrated and refitted for ogre tastes. Grand night elven pillars and arched passageways now house armories, crude barricades, and training grounds for the Gordok\u2014the fiercest, most disciplined fighters among the Gordunni clan. At the deepest end of the wing lies Gordok's Seat, where King Gordok presides over his brutes through sheer force and intimidation.",
+   "spoiler": 0
+  },
+  {
+   "title": "Law of Succession",
+   "body": "Gordok culture operates entirely on brutal precedent: might makes right. According to clan tradition, whoever slays the sitting monarch claims the title of King Gordok, earning immediate obedience from any surviving captains and guards. Astute intruders exploit this custom by sneaking or scheming past the king's lieutenants rather than slaying them outright. If a challenger executes only the king, the surviving guards will recognize the victor's authority and present lavish tributes rather than fight to avenge their former ruler.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Gordok Commons located?",
+   "aliases": [
+    "gordok commons location",
+    "where is dire maul north",
+    "how to find gordok commons"
+   ],
+   "answer": "The Commons occupy the northern quarter of Dire Maul in Feralas. To reach them, enter the sprawling ruin through the Broken Commons and proceed through the massive stone corridors to the northern entrance."
+  },
+  {
+   "q": "Who are the Gordok ogres?",
+   "aliases": [
+    "who are the gordok",
+    "gordok clan",
+    "gordunni elite"
+   ],
+   "answer": "The Gordok are the elite warrior caste of the Gordunni ogre clan. Unlike their scattered, feral kin prowling the Feralas wilderness, the Gordok within the Commons are organized, heavily armed, and bound to a strict military chain of command under their king."
+  },
+  {
+   "q": "How does ogre leadership work in the Commons?",
+   "aliases": [
+    "how to become king of gordok",
+    "gordok succession",
+    "king gordok lore"
+   ],
+   "answer": "Gordok rule is decided by combat. Whoever kills the reigning King Gordok instantly claims the crown. Once the king falls, the remaining ogres surrender and honor the conqueror as their rightful sovereign."
+  },
+  {
+   "q": "Why do adventurers leave the ogre guards alive?",
+   "aliases": [
+    "why tribute run",
+    "sparing the guards",
+    "gordok tribute lore"
+   ],
+   "answer": "If an intruder reaches King Gordok and defeats him without slaying his lieutenants, those surviving commanders submit to the new king. In return for showing restraint and claiming the throne directly, the new ruler is awarded valuable tribute offerings from the garrison."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The goblin prisoner Knot Thimblejack relies on resourceful engineers and tinkerers within the Commons to scavenge supplies, mend broken traps, and devise clever distractions against the ogre guards."
+  }
+ ],
+ "keywords": [
+  "dire maul north",
+  "eldre'thalas",
+  "gordok",
+  "gordok commons",
+  "king gordok",
+  "knot thimblejack",
+  "mizzle",
+  "tribute run"
+ ],
+ "related": [
+  "subzone:dire-maul",
+  "zone:feralas",
+  "subzone:eldreth-row",
+  "subzone:maul-subzone",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Gordok Commons"
+ ]
+}

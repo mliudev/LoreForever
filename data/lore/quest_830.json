@@ -1,0 +1,115 @@
+{
+ "key": "quest:830",
+ "type": "quest",
+ "name": "The Admiral's Orders",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   830
+  ],
+  "level": "7",
+  "faction": "Horde",
+  "start": "Aged Envelope",
+  "end": "Gar'Thok",
+  "previous": "",
+  "next": "The Admiral's Orders (2)",
+  "wiki": "The Admiral's Orders",
+  "chain": []
+ },
+ "summary": "Recovered from a locked strongbox atop Tiragarde Keep, these weathered papers bear the personal seal of the late Grand Admiral Daelin Proudmoore. The recovered orders reveal that the Kul Tiran human garrison along Durotar's coast is far more entrenched and organized than simple shipwreck survivors. Delivering them to Gar'Thok in Razor Hill exposes lingering military plans threatening the fledgling Orc nation.",
+ "sections": [
+  {
+   "title": "A Sealed Legacy",
+   "body": "Hidden inside a heavy chest on the upper floors of Tiragarde Keep, an aged envelope survives under the watch of Lieutenant Benedict. Sealed with the crest of Grand Admiral Daelin Proudmoore, the parchment outlines direct naval commands issued during Kul Tiras's bloody invasion of Durotar. Even after the Grand Admiral fell at Theramore, his officers maintained their fortifications, clinging tightly to their mission to eradicate the Horde settlement.",
+   "spoiler": 0
+  },
+  {
+   "title": "Alarm in Razor Hill",
+   "body": "Bringing the recovered documents to Gar'Thok, commander of Razor Hill, confirms the worst fears of the local defense force. The human forces entrenched along the eastern shoreline are not aimless castaways, but an established beachhead awaiting reinforcement. Gar'Thok immediately recognizes that dismantling the Tiragarde command structure is an urgent matter of survival for Durotar.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Admiral's Orders found?",
+   "aliases": [
+    "orders location",
+    "where is aged envelope",
+    "find admirals orders"
+   ],
+   "answer": "The orders are found inside an Aged Envelope stored within a locked chest on the third floor of Tiragarde Keep in Durotar. To open the chest, you must first defeat Lieutenant Benedict on the second floor to claim his key."
+  },
+  {
+   "q": "Who was Admiral Proudmoore?",
+   "aliases": [
+    "who is the admiral",
+    "daelin proudmoore lore",
+    "who issued orders"
+   ],
+   "answer": "Grand Admiral Daelin Proudmoore was the ruler of Kul Tiras and supreme commander of the Alliance naval fleet during the Second War. Refusing to believe orcs could ever live peacefully, he sailed to Kalimdor to wage a war of extermination against Durotar before meeting his demise at Theramore."
+  },
+  {
+   "q": "Why are Kul Tiran soldiers still in Tiragarde Keep?",
+   "aliases": [
+    "why are humans in durotar",
+    "tiragarde keep soldiers",
+    "kul tiras in durotar"
+   ],
+   "answer": "When Daelin Proudmoore invaded Durotar, he established fortified coastal footholds like Tiragarde Keep. Following his defeat, surviving officers and marines under Lieutenant Benedict held their posts, determined to continue his campaign against the Horde."
+  },
+  {
+   "q": "Why is Gar'Thok so concerned about these orders?",
+   "aliases": [
+    "gar'thok reaction",
+    "why does garthok care"
+   ],
+   "answer": "As military commander of Razor Hill, Gar'Thok is tasked with safeguarding central Durotar. Discovering organized naval orders proves that Tiragarde Keep poses an active, calculated military threat to the orcish homeland rather than disorganized, stranded survivors."
+  },
+  {
+   "q": "Who holds the key to the Admiral's chest?",
+   "aliases": [
+    "benedict key",
+    "who drops key"
+   ],
+   "answer": "Lieutenant Benedict, the commanding Kul Tiran officer situated on the second level of Tiragarde Keep, carries the key required to unlock the strongbox containing the Aged Envelope."
+  },
+  {
+   "q": "What happens after giving the orders to Gar'Thok?",
+   "aliases": [
+    "admirals orders follow up",
+    "next quest"
+   ],
+   "answer": "Upon inspecting the orders, Gar'Thok recognizes the immediate strategic danger and commands further action to neutralize the remaining human leadership and dismantle their operations in Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Uncovering Proudmoore's orders proves that the Alliance presence on Durotar's shores was an orchestrated campaign of extermination, reinforcing why the Horde must defend its newfound home with vigilance."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For the orcs fighting to build a future in Durotar, these documents are a stark reminder of Daelin Proudmoore's relentless hatred and the remnants who still seek their destruction."
+  }
+ ],
+ "keywords": [
+  "admirals orders",
+  "aged envelope",
+  "daelin proudmoore",
+  "gar'thok",
+  "kul tiras",
+  "lieutenant benedict",
+  "razor hill",
+  "tiragarde keep"
+ ],
+ "related": [
+  "npc:gar-thok",
+  "subzone:tiragarde-keep",
+  "subzone:razor-hill",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "The Admiral's Orders"
+ ]
+}

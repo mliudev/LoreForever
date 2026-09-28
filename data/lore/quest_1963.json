@@ -1,0 +1,125 @@
+{
+ "key": "quest:1963",
+ "type": "quest",
+ "name": "The Shattered Hand",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   1963
+  ],
+  "level": "13",
+  "faction": "Horde",
+  "start": "Therzok",
+  "end": "",
+  "previous": "Therzok (quest)",
+  "next": "The Shattered Hand (2)",
+  "wiki": "The Shattered Hand (Classic)",
+  "chain": [
+   "Therzok (quest)",
+   "The Shattered Hand (Classic)",
+   "The Shattered Hand (2)"
+  ]
+ },
+ "summary": "This rogue trial, issued by Therzok in the Cleft of Shadow, tests initiates seeking entry into the secretive Shattered Hand guild. To prove their deadly efficiency, aspiring rogues are tasked with hunting down the troll smuggler Tazan and seizing his locked satchel.",
+ "sections": [
+  {
+   "title": "Shadows in the Cleft",
+   "body": "Beneath the bustling streets of Orgrimmar lies the subterranean gloom of the Cleft of Shadow. Here operates the Shattered Hand, a clandestine order of assassins and thieves rooted in old orcish traditions. While Warchief Thrall preaches honor, diplomacy, and caution in ruling the nascent Horde, the leadership of the Shattered Hand believes such hesitation weakens their people. They seek to reclaim martial supremacy through covert violence, using knives and poison where battlefield charges might fail.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Smuggler's Fate",
+   "body": "To weed out the clumsy and the weak, the handler Therzok sets a straightforward contract: eliminate Tazan, an errant troll operating in the Barrens near Ratchet. Tazan has been trading with coastal pirates and holds sensitive intelligence the guild covets. Recovering his locked satchel confirms the rogue's ability to stalk prey beyond the city walls, though extracting the contents inside requires even further finesse.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Shattered Hand in Orgrimmar?",
+   "aliases": [
+    "who are shattered hand",
+    "shattered hand rogues",
+    "shattered hand purpose"
+   ],
+   "answer": "The Shattered Hand is the Horde's covert guild of rogues, scouts, and assassins operating out of the Cleft of Shadow in Orgrimmar. While historically an old orcish clan known for brutal self-mutilation, in the modern Horde they serve as a shadowy intelligence and wetwork network that favors ruthless pragmatism over Thrall's cautious diplomacy."
+  },
+  {
+   "q": "Who is Therzok?",
+   "aliases": [
+    "therzok role",
+    "who is questgiver",
+    "therzok orgrimmar"
+   ],
+   "answer": "Therzok is a Shattered Hand handler stationed in the Cleft of Shadow. He tests prospective rogues to ensure they have the cunning and lethality required to serve the guild, expressing open skepticism toward Thrall's restraint."
+  },
+  {
+   "q": "Why does Therzok want Tazan dead?",
+   "aliases": [
+    "why kill tazan",
+    "tazan lore",
+    "what did tazan do"
+   ],
+   "answer": "Tazan is a troll smuggler conducting illicit trade with the Southsea pirates near the port of Ratchet. Beyond whatever contraband he moves, Tazan carries critical information in a satchel that the Shattered Hand wants for their own covert operations."
+  },
+  {
+   "q": "Where is Tazan located?",
+   "aliases": [
+    "tazan location",
+    "where is tazan",
+    "find tazan"
+   ],
+   "answer": "Tazan operates out in the Barrens, lurking near the coast and pirate operations south of Ratchet."
+  },
+  {
+   "q": "What happens after recovering Tazan's satchel?",
+   "aliases": [
+    "next quest",
+    "locked satchel",
+    "what to do with satchel"
+   ],
+   "answer": "When returned to Therzok, the satchel turns out to be locked. Pleased with Tazan's demise but requiring the intelligence inside, Therzok uses the situation as a follow-up test of the rogue's lockpicking ability."
+  },
+  {
+   "q": "Does Thrall know about the Shattered Hand's methods?",
+   "aliases": [
+    "thrall and shattered hand",
+    "does warchief approve",
+    "thrall rogues"
+   ],
+   "answer": "While the Shattered Hand nominally serves the Horde, their members operate largely from the shadows and harbor contempt for Thrall's cautious leadership. They quietly pursue their own intelligence networks to eliminate perceived threats before the Warchief's diplomacy can stall action."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This rite of passage initiates young Horde rogues into the fold of the Shattered Hand, emphasizing ruthless efficiency, assassination, and utility over open combat."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Shattered Hand represents the internal ideological friction in Orgrimmar, where clandestine factions quietly challenge Thrall's cautious vision for the young Horde."
+  }
+ ],
+ "keywords": [
+  "cleft of shadow",
+  "orgrimmar",
+  "ratchet",
+  "rogue",
+  "satchel",
+  "shattered hand",
+  "tazan",
+  "therzok"
+ ],
+ "related": [
+  "subzone:cleft-of-shadow",
+  "quest:1859",
+  "zone:orgrimmar",
+  "subzone:ratchet",
+  "topic:horde",
+  "topic:pirate",
+  "topic:troll"
+ ],
+ "attribution": [
+  "The Shattered Hand (Classic)"
+ ]
+}

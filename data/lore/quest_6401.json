@@ -1,0 +1,123 @@
+{
+ "key": "quest:6401",
+ "type": "quest",
+ "name": "Kaya's Alive",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   6401
+  ],
+  "level": "18",
+  "faction": "Horde",
+  "start": "Makaba Flathoof",
+  "end": "Tammra Windfield",
+  "previous": "Protect Kaya",
+  "next": null,
+  "wiki": "Kaya's Alive",
+  "chain": [
+   "Protect Kaya",
+   "Kaya's Alive"
+  ]
+ },
+ "summary": "Kaya's Alive is a short Horde quest in the Stonetalon Mountains that concludes the rescue of Kaya Flathoof. After escorting the young tauren safely past hostile Grimtotem bandits, you are sent to carry the joyful news of her survival to her worried aunt, Tammra Windfield, in Sun Rock Retreat.",
+ "sections": [
+  {
+   "title": "A Breath of Relief",
+   "body": "The mountains of Stonetalon are fraught with danger, especially along the contested trails where the Grimtotem tribe strikes without mercy. When their village fell under a brutal attack, young Kaya Flathoof was feared dead or captured by the renegades. Her survival and subsequent rescue provide a rare moment of triumph and relief amidst the ongoing tribal conflicts in the crags.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reaching Sun Rock Retreat",
+   "body": "Once Kaya is guided to safety, Makaba Flathoof charges you with carrying the word directly to Sun Rock Retreat. There, Kaya's aunt, Tammra Windfield, waits anxiously for news from the trails. Delivering word of Kaya's safety offers the fractured family solace and reinforces the vital role traveling champions play in keeping the remote Horde outposts connected.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kaya Flathoof?",
+   "aliases": [
+    "who is kaya",
+    "kaya flathoof",
+    "kaya"
+   ],
+   "answer": "Kaya Flathoof is a young tauren who was separated and endangered following a violent assault on her settlement by rogue Grimtotem forces in Stonetalon Mountains."
+  },
+  {
+   "q": "Who is Tammra Windfield?",
+   "aliases": [
+    "tammra windfield",
+    "who is tammra",
+    "kaya aunt"
+   ],
+   "answer": "Tammra Windfield is Kaya's aunt, residing at Sun Rock Retreat in the Stonetalon Mountains. She had feared her niece perished in the Grimtotem attack."
+  },
+  {
+   "q": "Who attacked Kaya's village?",
+   "aliases": [
+    "who attacked kaya",
+    "village attack",
+    "grimtotem attack"
+   ],
+   "answer": "Kaya's village was ambushed by the aggressive Grimtotem clan, an isolationist tauren faction notorious for preying on both rival tribes and traveling wayfarers across the mountains."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "prerequisite",
+    "protect kaya",
+    "escort quest"
+   ],
+   "answer": "This quest immediately follows 'Protect Kaya', an escort mission where you defend Kaya Flathoof as she flees her captors and returns to safety."
+  },
+  {
+   "q": "Where is Sun Rock Retreat located?",
+   "aliases": [
+    "sun rock retreat location",
+    "where is sun rock",
+    "find sun rock retreat"
+   ],
+   "answer": "Sun Rock Retreat is nestled high in the central Stonetalon Mountains, accessed by following the main road westward and through a narrow mountain defile into a sheltered basin."
+  },
+  {
+   "q": "Why does Makaba Flathoof send you instead of going himself?",
+   "aliases": [
+    "why makaba stays",
+    "why send me"
+   ],
+   "answer": "Makaba remains behind to tend to Kaya and ensure the immediate perimeter is secure, relying on an able-bodied runner to swiftly reassure their family in Sun Rock Retreat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Stonetalon is a contested wilderness where Horde lines are stretched thin; delivering news of survivors helps maintain unity among scattered encampments."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The threat of the Grimtotem is a painful internal rift for the Shu'halo, making the preservation of innocent family members like Kaya deeply personal."
+  }
+ ],
+ "keywords": [
+  "flathoof",
+  "grimtotem",
+  "kaya",
+  "makaba",
+  "protect kaya",
+  "stonetalon",
+  "sun rock retreat",
+  "tammra",
+  "tauren",
+  "windfield"
+ ],
+ "related": [
+  "quest:6523",
+  "npc:makaba-flathoof",
+  "npc:tammra-windfield",
+  "subzone:sun-rock-retreat",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Kaya's Alive"
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "key": "quest:6061",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   6061
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Yaw Sharpmane",
+  "end": "",
+  "previous": "The Hunter's Path (Tauren)",
+  "next": "Taming the Beast (Tauren 2)",
+  "wiki": "Taming the Beast (Tauren 1)",
+  "chain": [
+   "The Hunter's Path (Tauren)",
+   "Taming the Beast (Tauren 1)",
+   "Taming the Beast (Tauren 2)",
+   "Taming the Beast (Tauren 3)",
+   "Training the Beast (Tauren)"
+  ]
+ },
+ "summary": "Taming the Beast is the foundational rite of passage for young tauren hunters in Bloodhoof Village. Guided by trainer Yaw Sharpmane, the hunter ventures into Mulgore to tame an adult plainstrider, taking the first step toward forging a spiritual bond with the creatures of the Earthmother.",
+ "sections": [
+  {
+   "title": "A Sacred Bond with the Wild",
+   "body": "For the tauren, hunting has never been purely about slaying beasts for meat and hides. Ancestral traditions hold that overcoming and communion with the wildlife of Mulgore allows a hunter to intake their spirits and draw closer to the Earthmother. Taming a companion beast elevates this connection, turning what could be an adversary into a lifelong partner aligned with the natural balance of the plains.",
+   "spoiler": 0
+  },
+  {
+   "title": "The First Test",
+   "body": "Yaw Sharpmane begins an initiate's instruction not with ferocious apex predators, but with the swift and watchful plainstriders roaming Mulgore's grasslands. Armed with an enchanted taming rod, the hunter must face an adult plainstrider, calm its wild instincts, and earn its trust. This initial trial proves the hunter's resolve and prepares them for the more demanding beasts that follow.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this trial?",
+   "aliases": [
+    "why do i tame a plainstrider",
+    "purpose of quest",
+    "tauren pet quest purpose"
+   ],
+   "answer": "This quest is the first practical test for novice tauren hunters seeking to learn the art of animal companionship. By using a taming rod to pacify an adult plainstrider, the hunter learns the fundamentals of establishing a spiritual and working connection with beasts."
+  },
+  {
+   "q": "Who gives this quest and where are they located?",
+   "aliases": [
+    "who gives quest",
+    "quest giver location",
+    "yaw sharpmane location"
+   ],
+   "answer": "The quest is offered by Yaw Sharpmane, the hunter trainer situated in Bloodhoof Village within the central plains of Mulgore."
+  },
+  {
+   "q": "Do I keep the adult plainstrider permanently?",
+   "aliases": [
+    "is this pet permanent",
+    "do i keep the plainstrider",
+    "keep beast after quest"
+   ],
+   "answer": "No. The beasts tamed during Yaw Sharpmane's initial three trials are temporary practice partners. Once you complete the entire training chain and master beast taming, you can venture out and tame any compatible companion permanently."
+  },
+  {
+   "q": "Why do tauren view taming beasts as a spiritual act?",
+   "aliases": [
+    "tauren pet lore",
+    "earthmother taming lore",
+    "why tame beasts tauren"
+   ],
+   "answer": "Tauren tradition teaches that interacting with and besting wild creatures allows hunters to intake their spirits and become one with the natural world. Taming a beast reflects mutual respect and unity with the creations of the Earthmother."
+  },
+  {
+   "q": "Where can adult plainstriders be found?",
+   "aliases": [
+    "where are plainstriders",
+    "plainstrider location",
+    "find adult plainstrider"
+   ],
+   "answer": "Adult plainstriders roam widely throughout the rolling savannahs and valleys surrounding Bloodhoof Village in Mulgore."
+  },
+  {
+   "q": "What comes after this quest?",
+   "aliases": [
+    "what is next",
+    "quest chain after this",
+    "next step taming"
+   ],
+   "answer": "Returning the taming rod to Yaw Sharpmane leads into the next trial, where you are tasked with taming a stalker, followed by an aggressive swoop, before learning the art of permanent beast training."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This rite marks the transition from a fledgling tracker into a true beastmaster, teaching you how to commune with animals through the Earthmother's guidance."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Taming a beast is an ancestral practice central to the nomadic hunting heritage of Mulgore, strengthening the bond between hunter and nature."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "earthmother",
+  "hunter quest",
+  "mulgore",
+  "plainstrider",
+  "taming",
+  "taming rod",
+  "yaw sharpmane"
+ ],
+ "related": [
+  "npc:yaw-sharpmane",
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "quest:6065",
+  "quest:6081",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Taming the Beast (Tauren 1)"
+ ]
+}

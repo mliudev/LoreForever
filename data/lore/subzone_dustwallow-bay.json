@@ -1,0 +1,74 @@
+{
+ "key": "subzone:dustwallow-bay",
+ "type": "subzone",
+ "name": "Dustwallow Bay",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Dustwallow Bay"
+ },
+ "summary": "Dustwallow Bay is an inlet of the Great Sea tucked between the sodden coast of Dustwallow Marsh and the fortified port of Theramore Isle. Its brackish coastal shallows teem with marine life, treacherous shoals, and secluded coves just off the main maritime routes of eastern Kalimdor.",
+ "sections": [
+  {
+   "title": "Waters of the Eastern Marsh",
+   "body": "Dustwallow Bay defines the coastal boundary where the stagnant, murky wetlands of Dustwallow Marsh meet the open waters of the Great Sea. Flanked to the east by Theramore Isle, the bay serves as an oceanic approach for vessels arriving at Lady Jaina Proudmoore's island haven. Despite heavy maritime traffic running to and from the docks, the surrounding coastline remains wild and hazardous, pocked with rocky outcrops, murloc encampments, and tucked-away inlets like Tidefury Cove.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Fisherman's Haven",
+   "body": "While the marsh itself is infested with crocolisks and hostile beasts, the bay's islands and inlets draw those who seek isolation and rich catches. The small islets dotting the waters near Tidefury Cove provide a secluded retreat for anglers, most notably the legendary fisherman Nat Pagle, who can often be found angling off the rocks away from the bustling city of Theramore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Dustwallow Bay located?",
+   "aliases": [
+    "dustwallow bay location",
+    "where is dustwallow bay",
+    "dustwallow water"
+   ],
+   "answer": "Dustwallow Bay lies along the eastern coastline of central Kalimdor. It sits directly between the sodden eastern shores of Dustwallow Marsh and the rocky citadel of Theramore Isle."
+  },
+  {
+   "q": "Who can be found in the bay?",
+   "aliases": [
+    "who is in dustwallow bay",
+    "nat pagle dustwallow bay",
+    "npcs dustwallow bay"
+   ],
+   "answer": "The most famous resident of the bay's outer reaches is Nat Pagle, the world-renowned angler. He makes his camp on a small islet tucked into nearby Tidefury Cove, just southwest of Theramore Isle."
+  },
+  {
+   "q": "Is Dustwallow Bay safe to swim across?",
+   "aliases": [
+    "is dustwallow bay dangerous",
+    "monsters in dustwallow bay"
+   ],
+   "answer": "While the bay is relatively close to the safety of Theramore Isle, its shallows and coastlines are frequented by murlocs, sharks, and other aggressive aquatic wildlife native to the marsh fringes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance sailors and travelers bound for Kalimdor, Dustwallow Bay is the final stretch of open sea before entering the fortified harbor of Theramore Isle."
+  }
+ ],
+ "keywords": [
+  "dustwallow bay",
+  "dustwallow marsh",
+  "great sea",
+  "nat pagle",
+  "theramore",
+  "tidefury cove"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "subzone:theramore-isle",
+  "subzone:tidefury-cove",
+  "npc:nat-pagle"
+ ],
+ "attribution": [
+  "Dustwallow Bay"
+ ]
+}

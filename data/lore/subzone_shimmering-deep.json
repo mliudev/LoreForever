@@ -1,0 +1,73 @@
+{
+ "key": "subzone:shimmering-deep",
+ "type": "subzone",
+ "name": "Shimmering Deep",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Shimmering Deep"
+ },
+ "summary": "The Shimmering Deep is a region synonymous with the Shimmering Flats in eastern Thousand Needles. While the canyon floor remains a parched salt flat today, subterranean water tables beneath the crusted salt give the deep basin its ancient, shimmering character.",
+ "sections": [
+  {
+   "title": "The Dried Basin",
+   "body": "Sprawling across the eastern reaches of Thousand Needles, the vast depression known historically across local charts as the Shimmering Deep or Shimmering Flats is an immense salt pan cut off from the sea. White alkali dust blankets the earth beneath towering canyon walls, creating an unforgiving expanse where little green survives. Despite the dryness of the surface, deep underground reservoirs and the proximity to the surrounding sea wall define the geology of this vast basin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Shimmering Deep?",
+   "aliases": [
+    "shimmering deep lore",
+    "what is this place",
+    "shimmering deep location"
+   ],
+   "answer": "The Shimmering Deep is the geographic depression encompassing the salt flats of eastern Thousand Needles, commonly referred to as the Shimmering Flats. It forms an expansive salt pan nestled between the jagged mesas and the high coastal bluffs."
+  },
+  {
+   "q": "Is there water in the Shimmering Deep?",
+   "aliases": [
+    "is shimmering deep underwater",
+    "water in shimmering deep",
+    "is it flooded"
+   ],
+   "answer": "No. In the current era, the basin remains an arid, sun-bleached expanse of salt and alkali. Deep subterranean waters lie below, and ocean waters lap against the high ridge dividing it from the coast, but the basin floor itself is dry land."
+  },
+  {
+   "q": "Who inhabits this part of Thousand Needles?",
+   "aliases": [
+    "who lives here",
+    "shimmering deep enemies",
+    "creatures in shimmering deep"
+   ],
+   "answer": "The surrounding cliffs and margins are prowled by scorpids, basilisks, and hyenas, along with aggressive indigenous Galak centaur and encroaching Southsea pirates along the eastern boundaries."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The dry, flat expanse of the dried basin floor provides an ideal proving ground for experimental high-speed vehicular trials and rocket testing."
+  }
+ ],
+ "keywords": [
+  "basin",
+  "galak",
+  "salt flat",
+  "salvage",
+  "shimmering deep",
+  "shimmering flats",
+  "thousand needles"
+ ],
+ "related": [
+  "subzone:shimmering-flats",
+  "zone:thousandneedles",
+  "topic:centaur",
+  "topic:goblin",
+  "topic:gnome",
+  "topic:pirate"
+ ],
+ "attribution": [
+  "Shimmering Deep"
+ ]
+}

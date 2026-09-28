@@ -1,0 +1,120 @@
+{
+ "key": "quest:121",
+ "type": "quest",
+ "name": "Messenger to Stormwind",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   121
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "General Marcus Jonathan",
+  "end": "Magistrate Solomon",
+  "previous": "Messenger to Stormwind",
+  "next": "Messenger to Westfall",
+  "wiki": "Messenger to Stormwind (2)",
+  "chain": []
+ },
+ "summary": "Messenger to Stormwind sees you carrying General Marcus Jonathan's initial reply back to Magistrate Solomon in Lakeshire. The town is reeling from Blackrock orc raids and gnoll incursions, but the capital's response brings cold comfort rather than troops. It highlights the growing political paralysis at the heart of the kingdom.",
+ "sections": [
+  {
+   "title": "A Dispatch to Lakeshire",
+   "body": "Having delivered Magistrate Solomon's desperate plea for reinforcements directly to General Marcus Jonathan in Stormwind, you are immediately sent back down the road to Redridge. The General cannot commit the army without royal approval, so he sends you back with a preliminary missive while he awaits word from the throne room. For Lakeshire's beleaguered citizens, every day without city guards brings their settlement closer to falling under the heel of the Blackrock clan.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unease in the Kingdom",
+   "body": "When Magistrate Solomon reads Jonathan's reply, the relief he hoped for does not materialize. Instead of promised battalions marching eastward along the Elwynn border, the letter yields evasive bureaucracy. Solomon immediately senses that something is deeply wrong within the royal court. With King Varian Wrynn mysteriously missing and the regency deadlocked, outlying towns like Lakeshire are increasingly left to fend for themselves.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in General Marcus Jonathan's response?",
+   "aliases": [
+    "what does the letter say",
+    "general response",
+    "marcus jonathan letter"
+   ],
+   "answer": "General Marcus Jonathan's letter explains that he cannot deploy the Stormwind army without formal authorization from the King or the royal court. Rather than offering troops, he sends assurances that the matter has been elevated to the crown while Lakeshire is forced to wait."
+  },
+  {
+   "q": "Why can't Stormwind just send soldiers to Redridge?",
+   "aliases": [
+    "why no stormwind help",
+    "why won't stormwind help lakeshire",
+    "stormwind army redridge"
+   ],
+   "answer": "With King Varian Wrynn vanished, governing decisions rest with young Prince Anduin, Regent Lord Bolvar Fordragon, and the House of Nobles. Political division and stalling within the capital have tied the military's hands, leaving commander General Jonathan unable to march without royal sanction."
+  },
+  {
+   "q": "Who is Magistrate Solomon?",
+   "aliases": [
+    "magistrate solomon",
+    "who is solomon",
+    "lakeshire magistrate"
+   ],
+   "answer": "Magistrate Solomon is the civic leader of Lakeshire and the Redridge Mountains. He is responsible for governing the settlement and coordinating its meager defense against Blackrock orcs, gnolls, and local brigands."
+  },
+  {
+   "q": "Who is General Marcus Jonathan?",
+   "aliases": [
+    "who is marcus jonathan",
+    "general jonathan",
+    "stormwind general"
+   ],
+   "answer": "General Marcus Jonathan is the High Commander of the Stormwind City Guard and the standing armed forces of the capital. He is stationed at the Valley of Heroes just inside the main gates of Stormwind City."
+  },
+  {
+   "q": "What does Solomon do next after reading the letter?",
+   "aliases": [
+    "what happens next",
+    "quest after messenger to stormwind",
+    "where to go next"
+   ],
+   "answer": "Realizing that Stormwind is unable or unwilling to send immediate help, Solomon attempts to seek assistance from neighboring regions, dispatching you to investigate the status of Westfall."
+  },
+  {
+   "q": "Why does Solomon say 'something is amiss in our Kingdom'?",
+   "aliases": [
+    "something is amiss",
+    "why is solomon worried",
+    "stormwind conspiracy"
+   ],
+   "answer": "Solomon recognizes that a complete refusal or delay in sending aid to a critical border town under active siege makes no military sense. It alerts him that Stormwind's political administration is being manipulated or paralyzed from within."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of the kingdom, carrying this correspondence exposes the painful disconnect between the guarded comfort of Stormwind City and the crumbling borders of Elwynn's neighbors."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The stall in communication illustrates the vulnerability of the Alliance's core kingdom, where internal political gridlock leaves human territories undefended against regional threats."
+  }
+ ],
+ "keywords": [
+  "blackrock orcs",
+  "bolvar",
+  "lakeshire",
+  "magistrate solomon",
+  "marcus jonathan",
+  "messenger to stormwind",
+  "redridge mountains",
+  "stormwind"
+ ],
+ "related": [
+  "quest:120",
+  "quest:143",
+  "npc:magistrate-solomon",
+  "npc:general-marcus-jonathan",
+  "subzone:lakeshire",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Messenger to Stormwind (2)"
+ ]
+}

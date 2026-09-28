@@ -1,0 +1,93 @@
+{
+ "key": "npc:eva-sarkhoff",
+ "type": "npc",
+ "name": "Eva Sarkhoff",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Eva Sarkhoff",
+  "refs": 2
+ },
+ "summary": "Eva Sarkhoff is the spectral remnant of the former head maid of House Barov, lingering alongside her husband Lucien just outside the horrors of Scholomance. Tortured and slain by the Butcher during the fall of Caer Darrow, her spirit seeks brave mortals to avenge their deaths and destroy their cursed remains.",
+ "sections": [
+  {
+   "title": "The Fall of House Barov",
+   "body": "Eva served the wealthy Barov family for decades as their head maid, caring for the sprawling keep of Caer Darrow alongside her husband Lucien, the family butler. As the Barovs grew paranoid about their aging mortality and vast wealth, they struck a catastrophic pact with Kel'Thuzad. The manor was gradually handed over to the fledgling Cult of the Damned, warping the grand residence into Scholomance, a secretive academy of necromancy. Eva and Lucien hid in the keep's corridors for six months, scavenging food while watching cultists and monstrosities steadily take over their home.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Butcher's Scalpel",
+   "body": "Inevitably discovered by the Scourge, Eva and Lucien were delivered into the custody of Doctor Theolen Krastinov, known as the Butcher. Krastinov subjected the pair to weeks of agonized experimentation, using dark magic to prolong their lives well past the threshold of mortal endurance to harvest the 'blood of innocents' for his monstrous patron, Kirtonos the Herald. Even after death, their corpses were fed to ghouls while their restless spirits were chained to Caer Darrow, where Eva now begs passing adventurers to slay Krastinov and incinerate their remains.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Eva Sarkhoff before she died?",
+   "aliases": [
+    "eva sarkhoff backstory",
+    "who is eva sarkhoff",
+    "eva lore"
+   ],
+   "answer": "Eva Sarkhoff was the head maid for the noble Barov family, residing and working in the keep of Caer Darrow for decades alongside her husband, Lucien, who served as butler."
+  },
+  {
+   "q": "How did Eva die?",
+   "aliases": [
+    "how did eva sarkhoff die",
+    "eva sarkhoff death",
+    "who killed eva"
+   ],
+   "answer": "After hiding for months from the Cult of the Damned, Eva and Lucien were discovered and turned over to Doctor Theolen Krastinov. Krastinov relentlessly tortured them for weeks, keeping them alive with dark magic until they finally died and had their corpses fed to ghouls."
+  },
+  {
+   "q": "Why is Eva's ghost still in Caer Darrow?",
+   "aliases": [
+    "why is eva a ghost",
+    "eva spirit",
+    "why is eva lingering"
+   ],
+   "answer": "Eva's torment was so horrific and unnatural that her spirit remains tied to the mortal plane. She cannot pass into eternity until Doctor Krastinov is slain and her physical remains inside Scholomance are burned."
+  },
+  {
+   "q": "Who is Doctor Theolen Krastinov?",
+   "aliases": [
+    "the butcher scholomance",
+    "who is krastinov",
+    "doctor krastinov"
+   ],
+   "answer": "Doctor Theolen Krastinov, known as 'The Butcher,' is a depraved servant of the Cult of the Damned stationed in Scholomance. He tortures innocent victims through agonizing surgical and necromantic experiments to aid his master, Kirtonos the Herald."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Witnessing the lingering torment of Eva and Lucien is a stark reminder of the Scourge's cruelty, demanding that holy practitioners grant peace to their restless souls and cleanse the foul magic binding them."
+  },
+  {
+   "target": "race:Human",
+   "text": "Eva and her husband represent the ordinary servants of Lordaeron who were betrayed by their own corrupt aristocracy when House Barov sold Caer Darrow to Kel'Thuzad."
+  }
+ ],
+ "keywords": [
+  "barov",
+  "caer darrow",
+  "cult of the damned",
+  "eva sarkhoff",
+  "krastinov",
+  "lucien sarkhoff",
+  "scholomance",
+  "the butcher"
+ ],
+ "related": [
+  "subzone:caer-darrow",
+  "subzone:scholomance",
+  "topic:cult-of-the-damned",
+  "topic:scourge",
+  "zone:westernplaguelands",
+  "quest:1066"
+ ],
+ "attribution": [
+  "Eva Sarkhoff"
+ ]
+}

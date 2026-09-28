@@ -1,0 +1,77 @@
+{
+ "key": "npc:sentinel-aynasha",
+ "type": "npc",
+ "name": "Sentinel Aynasha",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Sentinel Aynasha",
+  "refs": 1
+ },
+ "summary": "Sentinel Aynasha is an operative of the night elven Sentinels serving in the wild borders of Darkshore. Tasked with scouting enemy movements and carrying critical intelligence, she regularly faces peril against hostile forces threatening northern Kalimdor.",
+ "sections": [
+  {
+   "title": "On the Front Lines",
+   "body": "As a scout and archer for the Sentinels, Aynasha is deployed to the dangerous frontiers where night elven lands clash with hostile incursions. Carrying out stealth missions and bearing urgent dispatches across rugged terrain, she relies on her marksmanship and survival instincts to evade enemy patrols and survive deep within contested territory.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sentinel Aynasha?",
+   "aliases": [
+    "who is aynasha",
+    "aynasha role",
+    "sentinel aynasha lore"
+   ],
+   "answer": "Aynasha is an active scout and archer within the night elven Sentinels, the primary military and defensive force protecting northern Kalimdor and its borders."
+  },
+  {
+   "q": "What threats does she monitor in Darkshore?",
+   "aliases": [
+    "aynasha enemies",
+    "darkshore threats",
+    "who is she fighting"
+   ],
+   "answer": "Operating along the fringes of Darkshore, she keeps watch over hostile encampments, rogue furbolg tribes, and foreign incursions that menace the night elf wilderness."
+  },
+  {
+   "q": "Why is she often isolated on the road?",
+   "aliases": [
+    "why is she alone",
+    "aynasha solo mission",
+    "sentinel scout duties"
+   ],
+   "answer": "Sentinels frequently travel alone or in small scouting pairs to carry urgent intelligence between posts without drawing unnecessary attention from hostile forces."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Aynasha represents the vigilant vanguard of the Kaldorei military, defending the ancient woods against encroaching foreign powers and wild corruption."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers in Kalimdor, Sentinel scouts like Aynasha are vital points of contact along the dangerous wilderness roads."
+  }
+ ],
+ "keywords": [
+  "archer",
+  "aynasha",
+  "darkshore",
+  "kaldorei",
+  "night elf",
+  "scout",
+  "sentinel"
+ ],
+ "related": [
+  "zone:darkshore",
+  "topic:night-elf",
+  "topic:alliance",
+  "npc:alanndarian-nightsong",
+  "quest:5713"
+ ],
+ "attribution": [
+  "Sentinel Aynasha"
+ ]
+}

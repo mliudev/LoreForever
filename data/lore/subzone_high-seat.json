@@ -1,0 +1,90 @@
+{
+ "key": "subzone:high-seat",
+ "type": "subzone",
+ "name": "High Seat",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "High Seat"
+ },
+ "summary": "The High Seat is the grand throne room of Ironforge, situated between the Commons and the Great Forge. From this elevated chamber, King Magni Bronzebeard presides over the dwarven realm alongside his royal advisors and historians. The room also houses the sealed passageway leading down into the ancient depths of Old Ironforge.",
+ "sections": [
+  {
+   "title": "Heart of Dwarven Rule",
+   "body": "Overlooking the vibrant bustling rings of Ironforge, the High Seat serves as the royal seat of power for the kingdom of Khaz Modan. Within this vaulted chamber, King Magni Bronzebeard hears petitioners, holds council with his advisors, and directs the defense of the Alliance's northern bastions. Flanked by royal dignitaries such as Royal Historian Archesonus and Senator Barin Redstone, the High Seat remains a symbol of unyielding Bronzebeard authority and dwarven resilience amid troubling times across Azeroth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gateway to Old Ironforge",
+   "body": "Behind the majestic stone appointments of the throne room lies a heavy doorway leading into the shadowy expanse of Old Ironforge. These lower ruins represent the original, ancestral halls carved out by the dwarves before the city was reconfigured around the Great Forge. Guarded and sealed to general traffic, the portal reminds visitors of the vast antiquity and cavernous history resting beneath the modern capital's stones.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules from the High Seat?",
+   "aliases": [
+    "who is on the throne",
+    "ironforge king",
+    "magni throne room"
+   ],
+   "answer": "King Magni Bronzebeard rules Ironforge from the throne within the High Seat. He directs the affairs of the Bronzebeard clan, listens to subjects, and coordinates military and diplomatic matters with the Grand Alliance."
+  },
+  {
+   "q": "Where is the High Seat located in Ironforge?",
+   "aliases": [
+    "where is high seat",
+    "find high seat",
+    "throne room location"
+   ],
+   "answer": "The chamber is centrally located in Ironforge, connected directly to the outer ring between the Commons and the Great Forge, allowing easy access for visiting citizens and envoys."
+  },
+  {
+   "q": "What is the sealed corridor at the back of the throne room?",
+   "aliases": [
+    "door behind magni",
+    "old ironforge door",
+    "high seat basement"
+   ],
+   "answer": "The large archway at the rear of the High Seat leads into Old Ironforge, the cavernous ancestral ruins that lie directly beneath the modern mountain city. Access to these lower passages remains restricted."
+  },
+  {
+   "q": "Who else can be found advising the King here?",
+   "aliases": [
+    "high seat npcs",
+    "magni advisors"
+   ],
+   "answer": "King Magni is attended by prominent dwarven figures, including Royal Historian Archesonus, who safeguards the records and relics of the Bronzebeard dynasty, and Senator Barin Redstone."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The High Seat represents the unbroken lineage of Khaz Modan's sovereignty, where King Magni Bronzebeard continues to lead his people with an iron will."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "As the seat of dwarven power, this chamber is critical to Alliance logistics and high-level strategy, housing envoys, advisors, and royal decrees."
+  }
+ ],
+ "keywords": [
+  "archesonus",
+  "barin redstone",
+  "bronzebeard",
+  "high seat",
+  "ironforge",
+  "magni",
+  "throne"
+ ],
+ "related": [
+  "npc:magni-bronzebeard",
+  "zone:ironforge",
+  "subzone:old-ironforge",
+  "npc:royal-historian-archesonus",
+  "subzone:great-forge",
+  "subzone:commons"
+ ],
+ "attribution": [
+  "High Seat"
+ ]
+}

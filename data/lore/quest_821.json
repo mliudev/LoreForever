@@ -1,0 +1,128 @@
+{
+ "key": "quest:821",
+ "type": "quest",
+ "name": "Chen's Empty Keg",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   821
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Brewmaster Drohn",
+  "end": "",
+  "previous": "Chen's Empty Keg (quest)",
+  "next": "Chen's Empty Keg (3)",
+  "wiki": "Chen's Empty Keg (2)",
+  "chain": [
+   "Chen's Empty Keg (quest)",
+   "Chen's Empty Keg (2)",
+   "Chen's Empty Keg (3)"
+  ]
+ },
+ "summary": "This quest continues the legendary lineage of pandaren brewing in the Barrens. Brewmaster Drohn in Ratchet offers to recreate Chen Stormstout's renowned, potent concoction if you gather wild ingredients from the native beasts roaming the savannah.",
+ "sections": [
+  {
+   "title": "A Legacy in a Keg",
+   "body": "When a discarded keg marked with pandaren writing winds up in the hands of Brewmaster Drohn in Ratchet, it evokes fond memories of the legendary wanderer Chen Stormstout. Chen passed the secrets of his namesake brew to Drohn's mentor, who in turn entrusted them to Drohn. Though unusual to non-brewers, the recipe calls for raw, potent elements taken straight from the fierce wildlife of the Barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "Harvesting the Savannah",
+   "body": "Brewing Chen's potent draught requires an unorthodox array of components: plainstrider kidneys, savannah lion tusks, and the horn of a thunder lizard. Sourcing these items demands hunting across the dusty plains, proving that only the most resilient beasts can supply the kick required for true pandaren-style brewing. Once gathered, Drohn is filled with nostalgia, remarking that reviving the old formula warms his stomach almost as much as his past batches of trogg brew.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Brewmaster Drohn?",
+   "aliases": [
+    "brewmaster drohn",
+    "who is drohn",
+    "drohn ratchet"
+   ],
+   "answer": "Brewmaster Drohn is an orc brewmaster stationed in the port town of Ratchet. He learned the art of brewing from a mentor who personally received recipes from the legendary wanderer Chen Stormstout."
+  },
+  {
+   "q": "Why does a beer recipe require animal kidneys and horns?",
+   "aliases": [
+    "why animal parts",
+    "plainstrider kidneys brew",
+    "lion tusks beer"
+   ],
+   "answer": "Pandaren brewing traditions\u2014and the adaptations made by rough frontier brewmasters\u2014often rely on powerful, esoteric ingredients from local wildlife to impart vigor, kick, and distinct natural essences into their potent draughts."
+  },
+  {
+   "q": "Where can the required ingredients be found?",
+   "aliases": [
+    "where to find tusks",
+    "where are thunder lizards",
+    "finding brew ingredients"
+   ],
+   "answer": "All three components are harvested from the indigenous fauna of the Barrens. Plainstriders and savannah lions wander the open grasslands, while thunder lizards can typically be found grazing in more arid or rocky stretches of the plains."
+  },
+  {
+   "q": "Who was Chen Stormstout?",
+   "aliases": [
+    "who is chen",
+    "chen stormstout lore",
+    "chen"
+   ],
+   "answer": "Chen Stormstout is a wandering pandaren brewmaster who traveled across Kalimdor during the founding of Durotar, aiding the Horde while searching for exotic, rare ingredients to perfect his potent beers."
+  },
+  {
+   "q": "What happens after bringing the ingredients to Drohn?",
+   "aliases": [
+    "next quest after chens empty keg",
+    "drohn reward",
+    "whats next"
+   ],
+   "answer": "Delivering the lion tusks, plainstrider kidneys, and thunder lizard horn delights Drohn, reminding him of earlier brewing days and leading directly into the final phase of recreating the legendary draught."
+  },
+  {
+   "q": "What is the trogg brew Drohn mentions?",
+   "aliases": [
+    "trogg brew",
+    "drohn trogg brew",
+    "trogg beer"
+   ],
+   "answer": "Drohn fondly recalls an earlier concoction known as trogg brew upon seeing the wild ingredients, a testament to his eccentric history of fermenting harsh, unusual concoctions in the frontier."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary adventurers will appreciate the bold\u2014if unsettling\u2014intersection of frontier butchery and fine brewing used to craft legendary Kalimdor spirits."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Chen Stormstout fought shoulder-to-shoulder with Rexxar to help establish Durotar, giving any remnant of his journey special cultural resonance for the Horde."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Drohn exemplifies how orcs have embraced the ancient brewmaster traditions passed down directly from travelers who walked the land alongside the early Horde."
+  }
+ ],
+ "keywords": [
+  "brewmaster drohn",
+  "chen stormstout",
+  "keg",
+  "plainstrider kidney",
+  "ratchet",
+  "savannah lion tusk",
+  "the barrens",
+  "thunder lizard horn",
+  "trogg brew"
+ ],
+ "related": [
+  "quest:819",
+  "npc:brewmaster-drohn",
+  "subzone:ratchet",
+  "zone:barrens",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Chen's Empty Keg (2)"
+ ]
+}

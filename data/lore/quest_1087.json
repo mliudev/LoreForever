@@ -1,0 +1,135 @@
+{
+ "key": "quest:1087",
+ "type": "quest",
+ "name": "Cenarius' Legacy",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1087
+  ],
+  "level": "25",
+  "faction": "Horde",
+  "start": "Braelyn Firehand",
+  "end": "",
+  "previous": null,
+  "next": "Ordanus (quest)",
+  "wiki": "Cenarius' Legacy",
+  "chain": [
+   "Cenarius' Legacy",
+   "Ordanus (quest)",
+   "The Den (quest)"
+  ]
+ },
+ "summary": "Cenarius' Legacy is a Horde task handed out by Braelyn Firehand near Sun Rock Retreat in the Stonetalon Mountains. Frustrated by the natural wards maintained by the night elves and the children of Cenarius, the Forsaken mage seeks to cull their numbers at Stonetalon Peak to restore the raw flow of magic. For the Horde, striking at the Cenarion defenders also weakens the regional Alliance presence.",
+ "sections": [
+  {
+   "title": "Stifled Currents",
+   "body": "Braelyn Firehand resides in the hills near Sun Rock Retreat, festering with frustration at Stonetalon's natural environment. According to her, the druids of the Cenarion Circle and the demigod Cenarius's offspring actively suppress and choke the arcane currents of the land. Describing the process of channeling power here as drawing water with a perforated bucket, she hungers to strip away their natural defenses so raw magical energy can surge unimpeded once again.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Strike at Stonetalon Peak",
+   "body": "To weaken this verdant stranglehold, Braelyn enlists Horde champions to venture north to Stonetalon Peak. There, around the ancient kaldorei groves and temple grounds, patrol the Cenarion Botanists alongside the proud Sons and Daughters of Cenarius. Striking down these wardens serves a dual purpose: it dismantles the wards muffling Braelyn's spellcraft and deals a bloody blow to the night elf enclave threatening the Horde's foothold in the mountains.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties to the Shadow Council",
+   "body": "While Braelyn presents her grievance as an issue of magical convenience, her true loyalties lie in darker corners. She longs to return to Jaedenar, the corrupted stronghold of the Shadow Council concealed in Felwood to the north, but notes that her unseen master forbids her return until her work in Stonetalon is complete. The Horde aids her out of territorial expediency, often unaware of the sinister cult pulling her strings.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Braelyn Firehand?",
+   "aliases": [
+    "braelyn firehand lore",
+    "who is the quest giver",
+    "braelyn"
+   ],
+   "answer": "Braelyn Firehand is a Forsaken spellcaster camped in the crags near Sun Rock Retreat. Though she accepts assistance from the Horde to clear out the night elf presence in Stonetalon, she serves a hidden master based out of Jaedenar in Felwood."
+  },
+  {
+   "q": "Why does Braelyn want the children of Cenarius dead?",
+   "aliases": [
+    "why kill sons of cenarius",
+    "why hate cenarion botanists",
+    "why does braelyn hate them"
+   ],
+   "answer": "She claims that the druidic magic practiced by the kaldorei botanists and Cenarius's offspring actively suppresses the flow of raw arcane power across the mountains. Eliminating them weakens the grove's wards and allows magic to flow freely into her grasp."
+  },
+  {
+   "q": "Where are the targets located?",
+   "aliases": [
+    "where are sons of cenarius",
+    "stonetalon peak mob locations",
+    "where to find cenarion botanists"
+   ],
+   "answer": "The Sons of Cenarius, Daughters of Cenarius, and Cenarion Botanists are concentrated far to the north at Stonetalon Peak, guarding the ancestral ruins, groves, and moonwells maintained by the night elves."
+  },
+  {
+   "q": "What is Jaedenar, which Braelyn mentions?",
+   "aliases": [
+    "what is jaedenar",
+    "braelyn master jaedenar",
+    "jaedenar connection"
+   ],
+   "answer": "Jaedenar is a deep canyon and cave complex located in Felwood, heavily corrupted by the Burning Legion and currently serving as the central base of operations for the Shadow Council in Kalimdor."
+  },
+  {
+   "q": "Why is the Horde willing to help Braelyn attack Cenarion defenders?",
+   "aliases": [
+    "why does horde kill cenarion circle",
+    "horde conflict stonetalon peak"
+   ],
+   "answer": "The night elves at Stonetalon Peak are directly aligned with the Alliance and contest the Horde's expansion throughout the Stonetalon Mountains. Weakening their grove secures the region for the Horde, regardless of Braelyn's personal motives."
+  },
+  {
+   "q": "What happens after completing Cenarius' Legacy?",
+   "aliases": [
+    "quest after cenarius legacy",
+    "what is next in the chain",
+    "ordanus questline"
+   ],
+   "answer": "Once the initial wardens fall, Braelyn sends you back to Stonetalon Peak to assassinate Keeper Ordanus, the powerful keeper of the grove overseeing the sanctuary."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For Tauren druids, butchering Cenarius's offspring and Cenarion Circle botanists is an uncomfortable and deeply divisive act, underscoring the tragic friction between faction loyalty and the sacred ways of nature."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Braelyn's complaints strike a chord with arcane practitioners who recognize the friction between ancient kaldorei warding and free-flowing ley energies, even if her reckless zeal verges on obsession."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Stonetalon Peak represents the largest bastion of Alliance and kaldorei strength in the mountain chain; clearing out its defenders is vital for safeguarding Sun Rock Retreat and the Greatwood Vale."
+  }
+ ],
+ "keywords": [
+  "braelyn firehand",
+  "cenarion botanist",
+  "cenarius' legacy",
+  "daughter of cenarius",
+  "jaedenar",
+  "ordanus",
+  "son of cenarius",
+  "stonetalon peak",
+  "sun rock retreat"
+ ],
+ "related": [
+  "npc:braelyn-firehand",
+  "quest:1088",
+  "quest:1089",
+  "subzone:stonetalon-peak",
+  "subzone:sun-rock-retreat",
+  "subzone:jaedenar",
+  "topic:cenarius",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Cenarius' Legacy"
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "key": "zone:shendralas",
+ "type": "zone",
+ "name": "Shen'dralas",
+ "era": "classic",
+ "zone": "shendralas",
+ "meta": {
+  "wiki": [
+   "Shen'dralas"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Shen'dralas is a rugged, contested wilderness situated between Feralas, Mulgore, and south-eastern Desolace. Dominated by ancient night elven remnants and troubled borders, it serves as a volatile crossroads where encroaching centaur, displaced outcasts, and bristling quilboar collide.",
+ "sections": [
+  {
+   "title": "A Borderland in Turmoil",
+   "body": "Tucked away in the heights south-east of Desolace and bordered by Mulgore and Feralas, Shen'dralas is a raw borderland far removed from major faction capitols. Its craggy passes and hidden enclaves harbor desperate groups carving out existence on the edge of wild Kalimdor. From secluded vantage points like Evenshade Overlook to lawless refuges like Outcast Hideaway, the zone is defined by those who wish to watch unseen or stay forgotten.",
+   "spoiler": 0
+  },
+  {
+   "title": "Centaur, Quilboar, and Ancient Ruins",
+   "body": "The land bears the distinct mark of the highborne legacy that gave it its name, yet it is far from peaceful. Centaur conflict bleeds across the Magram Front, keeping old blood feuds alive and well along its borders. Meanwhile, encroaching quilboar maintain fortified redoubts such as Bristleback Retreat, turning every shadowed ravine into contested territory for any traveler passing through.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Valley of Bones",
+   "body": "Leading out toward north-western Desolace lies the Valley of Bones, a grim corridor that serves as the primary overland access route into Shen'dralas. Bleached by sun and wind, this passage stands as a harsh reminder of the violent struggles that constantly ripple through these crags.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Shen'dralas located?",
+   "aliases": [
+    "where is shendralas",
+    "shendralas location",
+    "how to get to shendralas"
+   ],
+   "answer": "Shen'dralas lies south-east of Desolace, nestled between the borders of Feralas and Mulgore. Travelers arriving on foot typically enter from Desolace by passing through the Valley of Bones."
+  },
+  {
+   "q": "Is Shen'dralas controlled by the Alliance or the Horde?",
+   "aliases": [
+    "is shendralas horde",
+    "is shendralas alliance",
+    "who owns shendralas"
+   ],
+   "answer": "Neither faction holds dominion here. Shen'dralas is a contested frontier populated by roving centaur, hostile quilboar, outcasts, and isolated encampments."
+  },
+  {
+   "q": "What major settlements or landmarks are here?",
+   "aliases": [
+    "shendralas subzones",
+    "landmarks in shendralas",
+    "points of interest shendralas"
+   ],
+   "answer": "Prominent landmarks include the Valley of Bones, Bristleback Retreat, Evenshade Overlook, the Magram Front, Outcast Hideaway, and the central expanse of Shen'dralas itself."
+  },
+  {
+   "q": "Why are there centaur here?",
+   "aliases": [
+    "centaur in shendralas",
+    "magram front",
+    "why are magram here"
+   ],
+   "answer": "Centaur territorial wars extend from the plains of Desolace straight into the region along the Magram Front, where the clan clashes against local defenders and rival factions."
+  },
+  {
+   "q": "What is Bristleback Retreat?",
+   "aliases": [
+    "bristleback retreat",
+    "quilboar in shendralas"
+   ],
+   "answer": "Bristleback Retreat is a fortified outpost held by Bristleback quilboar who have established a fierce foothold along the edges of the zone."
+  },
+  {
+   "q": "What is the connection between this zone and Lake Dumont?",
+   "aliases": [
+    "lake dumont",
+    "shendralas map history"
+   ],
+   "answer": "Geographically, the wilderness of Shen'dralas sits across the mountainous territory where the secluded Lake Dumont sits tucked away in old survey charts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The name evokes the ancient Highborne lore of Eldre'Thalas, drawing the attention of sentinels wary of reckless arcana in southern Kalimdor."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "With the region bordering Mulgore and Desolace, the aggression of quilboar and centaur along these ridges poses a direct threat to nearby ancestral hunting grounds."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "A remote, contested wilderness providing alternate routes between Feralas and central Kalimdor, fraught with dangers that require keen vigilance."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Positioned just outside the southern reaches of Mulgore, keeping the Magram and quilboar contained here is vital for protecting Horde frontiers."
+  }
+ ],
+ "keywords": [
+  "bristleback retreat",
+  "desolace",
+  "evenshade overlook",
+  "feralas",
+  "lake dumont",
+  "magram front",
+  "mulgore",
+  "outcast hideaway",
+  "shendralas",
+  "valley of bones"
+ ],
+ "related": [
+  "subzone:valley-of-bones",
+  "zone:desolace",
+  "zone:feralas",
+  "zone:mulgore",
+  "subzone:lake-dumont"
+ ],
+ "attribution": [
+  "Shen'dralas"
+ ]
+}

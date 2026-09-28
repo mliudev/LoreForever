@@ -1,0 +1,127 @@
+{
+ "key": "topic:goblin",
+ "type": "topic",
+ "name": "Goblin",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Goblin"
+ },
+ "summary": "Goblins are diminutive, cunning humanoids originating from the Isle of Kezan, renowned across Azeroth for their relentless pursuit of profit, explosive engineering, and aggressive trade cartels. While most maintain a stance of strict neutrality to maximize commerce between the Alliance and Horde, mercenary and cutthroat outfits like the Venture Company and Steamwheedle Cartel leave an indelible mark on every corner of the world.",
+ "sections": [
+  {
+   "title": "Kaja'mite and the Trade Wars",
+   "body": "Long ago on the Isle of Kezan, primitive goblins were subjugated by Zandalari trolls and forced to excavate deposits of a potent, mind-expanding mineral known as kaja'mite. Breathing in the subterranean ore dust dramatically heightened their intellect. Developing devastating firearms, explosives, and traps in secret, the goblins overthrew their troll masters in a sudden uprising. Once liberated, their society fractured into competing economic syndicates known as cartels. When kaja'mite veins dwindled and their inspired genius turned erratic and volatile, goblin leaders channeled their ambitions directly into cutthroat mercantilism and global industrial dominance.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mercenaries and Mercantilism",
+   "body": "During the Second War, Trade Prince Steamwheedle allied his cartel with Orgrim Doomhammer's Horde, supplying maps, siege craft, and fleet-building expertise in exchange for Stormwind's captured plunder. Following the Horde's eventual defeat, the cartels learned that open allegiance cost them lucrative markets. In the modern era, the major cartels claim official neutrality, maintaining bustling trade havens like Booty Bay in Stranglethorn Vale and Gadgetzan in the Tanaris desert. Here, Alliance and Horde travelers cross paths without blades drawn\u2014so long as port bruisers keep the peace.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hired Hands and Industry",
+   "body": "A goblin's primary loyalty belongs to gold, and many operate outside the neutral cartels as hired specialists or ruthless corporate barons. The Venture Company pursues unchecked deforestation and resource stripping across continents, heedless of local populations. Elsewhere, skilled artificers sell their talents directly to criminal enterprises: deep inside the Deadmines, goblin engineers like Sneed, Gilnid, and Captain Greenskin oversee smelters and shipwrights constructing a massive ironclad juggernaut for the Defias Brotherhood.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Are goblins aligned with the Alliance or the Horde?",
+   "aliases": [
+    "are goblins horde",
+    "goblin faction",
+    "who do goblins fight for"
+   ],
+   "answer": "Neither. The primary trade syndicates, including the Steamwheedle Cartel, adhere to strict neutrality to trade freely with both sides. Individual goblins and private enterprises happily contract out their services to the Horde, Alliance, or third parties like the Defias Brotherhood for the right price."
+  },
+  {
+   "q": "Why are goblin inventions so prone to exploding?",
+   "aliases": [
+    "goblin engineering dangerous",
+    "why do goblin machines blow up",
+    "goblin vs gnome tech"
+   ],
+   "answer": "Their sudden technological leap was spurred by inhaling kaja'mite ore dust. As Kezan's mineral reserves dwindled over generations, goblin intelligence became more erratic, leaving behind an engineering philosophy prioritizing raw power, haste, and high explosive yields over structural safety."
+  },
+  {
+   "q": "What is the Steamwheedle Cartel?",
+   "aliases": [
+    "steamwheedle cartel",
+    "who rules booty bay",
+    "goblin ports"
+   ],
+   "answer": "The Steamwheedle Cartel is the most influential mercantile cartel operating on the mainland. They manage vital neutral trading ports and cross-continental transit hubs, including Booty Bay in southern Stranglethorn and Gadgetzan in the Tanaris desert."
+  },
+  {
+   "q": "What is the Venture Company?",
+   "aliases": [
+    "venture co",
+    "who are venture company",
+    "what is venture co"
+   ],
+   "answer": "The Venture Company is a ruthless goblin-run industrial conglomerate notorious for aggressive deforestation, strip-mining, and oil extraction. Unlike the Steamwheedle Cartel, they operate with little regard for local law or environmental balance, often clashing violently with native populations."
+  },
+  {
+   "q": "Why are there goblins working with the Defias in the Deadmines?",
+   "aliases": [
+    "deadmines goblins",
+    "why are goblins in deadmines",
+    "gilnid sneed deadmines"
+   ],
+   "answer": "The Defias Brotherhood possessed abundant plundered coin and raw ore from the Moonbrook mines, allowing them to hire top goblin specialists. Craftsmen like Sneed, Gilnid, and Captain Greenskin were contracted to oversee heavy smelting and build Edwin VanCleef's ironclad juggernaut."
+  },
+  {
+   "q": "Where is the goblin homeland?",
+   "aliases": [
+    "where do goblins come from",
+    "goblin home island",
+    "kezan"
+   ],
+   "answer": "Goblins hail from the tropical Isle of Kezan in the South Seas. It was there that they were enslaved by trolls, unearthed kaja'mite, threw off their chains, and built an empire of commerce and industrial smog."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Goblin engineering prioritizes extreme explosive force, offensive gadgetry, and high-risk mechanical contraptions, standing in sharp contrast to the precise, defensive designs favored by gnomes."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The goblin ascent from primitive islanders to industrial pioneers was driven by the mining of kaja'mite, and modern cartels remain fiercely protective of valuable mineral claims across Kalimdor and the Eastern Kingdoms."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance authorities remain deeply suspicious of goblin neutrality, remembering well their mercenary service providing warships and sappers to the Old Horde during the Second War."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While Thrall's Horde utilizes goblin mechanics and trades with neutral hubs, memory remains fresh of the mercenary contracts forged between Orgrim Doomhammer and Trade Prince Steamwheedle."
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "cartel",
+  "deadmines",
+  "engineering",
+  "gadgetzan",
+  "goblin",
+  "kaja'mite",
+  "kezan",
+  "steamwheedle",
+  "venture company"
+ ],
+ "related": [
+  "topic:steamwheedle-cartel",
+  "topic:venture-company",
+  "subzone:booty-bay",
+  "subzone:gadgetzan",
+  "npc:baron-revilgaz",
+  "npc:captain-greenskin",
+  "topic:second-war",
+  "zone:deadmines"
+ ],
+ "attribution": [
+  "Goblin"
+ ]
+}

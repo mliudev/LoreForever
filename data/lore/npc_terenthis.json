@@ -1,0 +1,111 @@
+{
+ "key": "npc:terenthis",
+ "type": "npc",
+ "name": "Terenthis",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Terenthis",
+  "refs": 9
+ },
+ "summary": "Terenthis is a night elf druid stationed in the coastal settlement of Auberdine. Representing the Cenarion Circle, he is investigating the alarming corruption spreading through Darkshore and Teldrassil. He enlists capable travelers to gauge rising threats along the coast and assist local allies trapped by corrupted wildlife.",
+ "sections": [
+  {
+   "title": "Investigating the Taint",
+   "body": "Sent to Auberdine by the Cenarion Circle, Terenthis focuses on tracking the spread of Fel Moss and other corruptive forces seeping into Darkshore from Teldrassil. The night elves view this creeping blight with immense concern, fearing the wild balance of northern Kalimdor may fracture completely if left unchecked. Terenthis works to uncover the root causes of the rot and devise ways to halt its advance before it consumes the forests.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Plea from Grimclaw",
+   "body": "Terenthis also acts as a liaison for dire emergencies in the field. When the loyal bear Grimclaw arrives in Auberdine wounded and alone, Terenthis recognizes that the creature's master, the druid Volcor, has run into grave trouble. Lacking the ability to leave his post, Terenthis directs passing adventurers into the wilderness to find Volcor, who has been ambushed and pinned down by aggressive furbolg tribes.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Terenthis?",
+   "aliases": [
+    "terenthis lore",
+    "who is terenthis",
+    "terenthis auberdine"
+   ],
+   "answer": "Terenthis is a night elf druid affiliated with the Cenarion Circle, currently residing in the harbor town of Auberdine in Darkshore."
+  },
+  {
+   "q": "Why is Terenthis in Auberdine?",
+   "aliases": [
+    "what is terenthis doing",
+    "terenthis purpose",
+    "why is terenthis here"
+   ],
+   "answer": "He was dispatched to investigate how widely Fel Moss and magical corruption have spread from Teldrassil into Darkshore, seeking a way to put an end to the blight."
+  },
+  {
+   "q": "What is the bear beside Terenthis doing there?",
+   "aliases": [
+    "terenthis bear",
+    "grimclaw",
+    "why is there a bear in auberdine"
+   ],
+   "answer": "The bear, Grimclaw, sought out Terenthis in Auberdine for help after his master, the druid Volcor, was attacked and captured by hostile furbolgs."
+  },
+  {
+   "q": "What organization does Terenthis belong to?",
+   "aliases": [
+    "terenthis faction",
+    "is terenthis cenarion circle"
+   ],
+   "answer": "Terenthis is a member of the Cenarion Circle, the druidic order dedicated to preserving balance and safeguarding nature across Kalimdor."
+  },
+  {
+   "q": "What threats is Terenthis most concerned with?",
+   "aliases": [
+    "darkshore corruption",
+    "fel moss threat",
+    "terenthis concerns"
+   ],
+   "answer": "He is primarily concerned with Fel Moss corruption affecting the regional wildlife, as well as the rising hostility of local furbolg tribes that threaten travelers and druids alike."
+  },
+  {
+   "q": "Does Terenthis offer any tasks to adventurers?",
+   "aliases": [
+    "terenthis quests",
+    "what does terenthis want"
+   ],
+   "answer": "Yes. He directs adventurers to assess corrupting threats along the coast, coordinate with fellow druids like Thundris Windweaver, and mount a rescue for Volcor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a Cenarion Circle brother, Terenthis represents the front line against the unnatural corruption spilling from Teldrassil into the mainland."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Terenthis exemplifies the kaldorei commitment to purifying their sacred lands from lingering fel taint and protecting innocent forest life."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "cenarion circle",
+  "darkshore",
+  "fel moss",
+  "furbolg",
+  "grimclaw",
+  "terenthis",
+  "volcor"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:986",
+  "quest:984",
+  "quest:4761",
+  "quest:994",
+  "quest:995",
+  "topic:furbolg"
+ ],
+ "attribution": [
+  "Terenthis"
+ ]
+}

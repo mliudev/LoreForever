@@ -1,0 +1,119 @@
+{
+ "key": "quest:8715",
+ "type": "quest",
+ "name": "Bladeleaf the Elder",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   8715
+  ],
+  "level": "",
+  "faction": null,
+  "start": "Elder Bladeleaf",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Bladeleaf the Elder",
+  "chain": []
+ },
+ "summary": "Bladeleaf the Elder is a Lunar Festival encounter in the night elf settlement of Dolanaar. Standing beneath a shaft of celestial moonlight, Elder Bladeleaf greets travelers celebrating their ancestors and guides seekers onward across the boughs of Teldrassil. Paying respects to this honored spirit offers wisdom on reading the starry skies and honors the heritage of the night elves.",
+ "sections": [
+  {
+   "title": "A Celestial Presence in Dolanaar",
+   "body": "During the Lunar Festival, the spirit of Elder Bladeleaf manifests amid the village of Dolanaar, resting beneath the sweeping canopy of Teldrassil. Illuminated from above by an unbroken beam of radiance, the elder stands quietly among the busy sentinels and druids of the settlement, greeting wanderers who take the time to pause and pay their respects to the ancestors.",
+   "spoiler": 0
+  },
+  {
+   "title": "Wisdom of the Heavens",
+   "body": "Elder Bladeleaf speaks of the countless stars in the night sky, reminding those who listen that celestial bodies hold answers to earthly mysteries. In night elf tradition, the stars and heavens are deeply intertwined with spirituality, fate, and the watchful gaze of Elune. Bladeleaf imparts this perspective to travelers before directing them toward other honored spirits across the world, such as Elder Bladeswift.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elder Bladeleaf?",
+   "aliases": [
+    "elder bladeleaf",
+    "bladeleaf",
+    "who is bladeleaf"
+   ],
+   "answer": "Elder Bladeleaf is an ancestral spirit honored during the seasonal Lunar Festival. He appears in Dolanaar on Teldrassil, illuminated by a column of light from the heavens, and shares quiet reflections on wisdom and the stars."
+  },
+  {
+   "q": "Where can I find Elder Bladeleaf?",
+   "aliases": [
+    "bladeleaf location",
+    "where is bladeleaf",
+    "find elder bladeleaf"
+   ],
+   "answer": "Elder Bladeleaf can be found standing in Dolanaar, the primary town in the lower boughs of Teldrassil, marked by a bright shaft of light descending through the trees."
+  },
+  {
+   "q": "Why is Elder Bladeleaf illuminated by light?",
+   "aliases": [
+    "why beam of light",
+    "bladeleaf light beam",
+    "shaft of light"
+   ],
+   "answer": "All the ancestral elders who manifest during the Lunar Festival are marked by a beam of celestial light from the sky, symbolizing their sacred connection to the heavens and the realm of the ancestors."
+  },
+  {
+   "q": "What does Elder Bladeleaf tell travelers?",
+   "aliases": [
+    "bladeleaf dialogue",
+    "what does bladeleaf say"
+   ],
+   "answer": "Elder Bladeleaf muses on how the starry heavens hold answers to worldly mysteries, asking whether the wise and lucky might gaze up to discover truth. He also offers guidance on the whereabouts of other elders, such as Elder Bladeswift."
+  },
+  {
+   "q": "Who does Elder Bladeleaf guide you toward next?",
+   "aliases": [
+    "next elder after bladeleaf",
+    "who does bladeleaf send you to"
+   ],
+   "answer": "Elder Bladeleaf points seekers toward Elder Bladeswift, encouraging travelers to continue their pilgrimage of honoring the ancestors."
+  },
+  {
+   "q": "Can Horde players visit Elder Bladeleaf?",
+   "aliases": [
+    "can horde talk to bladeleaf",
+    "bladeleaf horde"
+   ],
+   "answer": "The Lunar Festival allows all adventurers to honor ancestral spirits, but reaching Elder Bladeleaf requires venturing into Dolanaar, an Alliance settlement deep within Teldrassil, making it dangerous for Horde wanderers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Finding an ancestor within the newly grown World Tree of Teldrassil is a poignant reminder of the enduring legacy of the kaldorei and their deep reverence for the night sky."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The elder's presence serves as an opportunity for druids to meditate upon the bond between the earthly realm beneath the canopy and the celestial truths above."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Dolanaar offers safe haven and celebration for Alliance travelers making their pilgrimage through the boughs of Teldrassil during the festival."
+  }
+ ],
+ "keywords": [
+  "bladeleaf",
+  "bladeswift",
+  "dolanaar",
+  "elder bladeleaf",
+  "elders",
+  "lunar festival",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:elder-bladeleaf",
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "quest:940",
+  "topic:light"
+ ],
+ "attribution": [
+  "Bladeleaf the Elder"
+ ]
+}

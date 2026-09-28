@@ -1,0 +1,127 @@
+{
+ "key": "quest:5625",
+ "type": "quest",
+ "name": "Garments of the Light",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   5625
+  ],
+  "level": "4",
+  "faction": "Alliance",
+  "start": "Maxan Anvol",
+  "end": "",
+  "previous": "In Favor of the Light (Dun Morogh)",
+  "next": null,
+  "wiki": "Garments of the Light (Dun Morogh)",
+  "chain": [
+   "In Favor of the Light (Dun Morogh)",
+   "Garments of the Light (Dun Morogh)"
+  ]
+ },
+ "summary": "Garments of the Light is an early rite of passage for fledgling dwarven priests in Dun Morogh. Directed by Priest Trainer Maxan Anvol in Kharanos, the initiate is tasked with aiding a wounded mountaineer just outside town to earn their vestments.",
+ "sections": [
+  {
+   "title": "An Urgent Trial",
+   "body": "Traditionally, acolytes of the Holy Light undergo formal trials to prove they are worthy of wearing church vestments. In Kharanos, however, priest trainer Maxan Anvol favors practical results over ceremony. With local patrols hard-pressed against troggs and wild beasts, theoretical exams take a back seat when actual defenders lie bleeding in the snow.",
+   "spoiler": 0
+  },
+  {
+   "title": "Aiding the Mountaineers",
+   "body": "To earn their robes, young priests are sent just south of town to locate Mountaineer Dolf, who was wounded in the line of duty. By mending Dolf's injuries with restorative prayers and bolstering his constitution with Power Word: Fortitude, the initiate proves that their devotion translates directly into survival for the defenders of Ironforge.",
+   "spoiler": 0
+  },
+  {
+   "title": "Robes of the Church",
+   "body": "Upon aiding the mountaineer, Maxan Anvol presents the acolyte with their formal garments. Beyond providing warm insulation against Dun Morogh's chill, these robes serve as a visual badge of office, signaling to wounded wanderers and local guards alike that a servant of the Light is present to offer aid.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "what do i do",
+    "garments of the light goal"
+   ],
+   "answer": "The quest tests a novice priest's practical application of their early spells. Instead of an academic examination, trainer Maxan Anvol sends you to locate the injured Mountaineer Dolf south of Kharanos, heal his wounds, and bolster his resilience with Power Word: Fortitude."
+  },
+  {
+   "q": "Who is Maxan Anvol?",
+   "aliases": [
+    "who is maxan anvol",
+    "kharanos priest trainer"
+   ],
+   "answer": "Maxan Anvol is the dwarven priest trainer stationed in Kharanos. Pragmatic and unpretentious, he mentors young priests arriving from Coldridge Valley and emphasizes the direct, life-saving utility of the Light over strict formal liturgy."
+  },
+  {
+   "q": "Who is Mountaineer Dolf?",
+   "aliases": [
+    "dolf location",
+    "who is dolf"
+   ],
+   "answer": "Dolf is an Ironforge mountaineer stationed near Kharanos who sustained injuries while on patrol. He waits south of the settlement, serving as the practical test for initiates sent to mend his wounds and grant him Fortitude."
+  },
+  {
+   "q": "Why does a priest receive specific garments for this task?",
+   "aliases": [
+    "why do priests wear robes",
+    "priest garments lore"
+   ],
+   "answer": "Vestments and robes visually denote a practitioner's devotion and rank within the Holy Light. For community members and soldiers alike, spotting a robed priest immediately identifies someone capable of tending life-threatening injuries and offering spiritual guidance."
+  },
+  {
+   "q": "Why do dwarves worship the Holy Light?",
+   "aliases": [
+    "dwarf light lore",
+    "do dwarves believe in the light"
+   ],
+   "answer": "The dwarves of Ironforge adopted the philosophy of the Holy Light through centuries of close cultural exchange and alliance with the humans of Lordaeron and Stormwind. Dwarven priests combine traditional highland grit with devout reverence for the Light's virtues of compassion, tenacity, and protection."
+  },
+  {
+   "q": "What happens after completing this trial?",
+   "aliases": [
+    "what comes after garments of the light",
+    "next priest trial"
+   ],
+   "answer": "Maxan Anvol encourages the newly vested acolyte to venture out, practice their combat and support spells, and test their limits alongside other travelers. Harder trials within the church await as the priest grows in experience and power."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This rite of passage marks your transition from an unproven novice into a recognized minister of the Holy Light, trusted to keep companions alive on the front lines."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Ironforge mountaineers guard the dangerous passes of Dun Morogh; tending to wounded scouts like Dolf reinforces the vital bond between dwarven faith and military defense."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Holy Light forms the spiritual backbone of the Alliance, offering comfort and battlefield restoration to soldiers holding the line against troggs, beasts, and worse."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "fortitude",
+  "garments of the light",
+  "holy light",
+  "ironforge",
+  "kharanos",
+  "lesser heal",
+  "maxan anvol",
+  "mountaineer dolf",
+  "priest"
+ ],
+ "related": [
+  "quest:5623",
+  "npc:maxan-anvol",
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "topic:light"
+ ],
+ "attribution": [
+  "Garments of the Light (Dun Morogh)"
+ ]
+}

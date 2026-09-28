@@ -1,0 +1,136 @@
+{
+ "key": "quest:1525",
+ "type": "quest",
+ "name": "Call of Fire",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   1525
+  ],
+  "level": "12",
+  "faction": "Horde",
+  "start": "Telf Joolam",
+  "end": "",
+  "previous": "Call of Fire (2)",
+  "next": "Call of Fire (4)",
+  "wiki": "Call of Fire (3)",
+  "chain": [
+   "Call of Fire (Horde)",
+   "Call of Fire (2)",
+   "Call of Fire (3)",
+   "Call of Fire (4)",
+   "Call of Fire (5)"
+  ]
+ },
+ "summary": "This trial marks the critical preparation in a shaman's communion with fire, tasking the initiate with gathering the volatile ingredients needed to brew a Fire Sapta. Telf Joolam requires components saturated with heat and magical power: tar from Razormane geomancers and a pouch of dark reagents from Burning Blade cultists hiding in Durotar.",
+ "sections": [
+  {
+   "title": "Brewing the Fire Sapta",
+   "body": "To perceive and speak to the spirits of fire, a shaman cannot rely on mortal vision alone. Just as earth required its own draught, opening the senses to the Eternal Flame demands a specialized Fire Sapta. The potion requires reagents innately bound to heat and flame. The hermit Telf Joolam sends initiates across Durotar and into the eastern Barrens to harvest these specific elements from those who wield primal heat and corrupting sorcery.",
+   "spoiler": 0
+  },
+  {
+   "title": "Enemies and Elements",
+   "body": "The required ingredients reveal how different factions tap into fire. The Razormane quilboar spellcasters of the eastern Barrens carry fire tar, a viscous, flammable byproduct of their earthy rituals. In contrast, the reagent pouch must be seized from the Burning Blade cultists lurking in Dustwind Cave, nestled in the ravines northeast of Razor Hill. Though the warlock cultists wield fire as an instrument of destruction and demonic chaos, the raw reagents in their pouches remain naturally resonant with the element itself.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Nature of Flame",
+   "body": "Upon brewing the sapta, Telf Joolam imparts an essential truth of the elements: fire is far more than mere destruction and ruin. While it burns and consumes, it is also the heart of warmth, light, and creation. True balance requires understanding that opposing forces give one another meaning, and that a wise shaman uses contrasting elemental powers in tandem rather than treating fire solely as a weapon.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Fire Sapta?",
+   "aliases": [
+    "what is fire sapta",
+    "fire sapta meaning",
+    "why drink sapta"
+   ],
+   "answer": "A sapta is a ritual draught prepared by shamans using ingredients tied to a specific element. Drinking a Fire Sapta temporarily aligns the shaman's spirit and vision with the plane of fire, allowing them to perceive and speak with elemental fire spirits that are otherwise invisible to ordinary senses."
+  },
+  {
+   "q": "Where do I find the Fire Tar?",
+   "aliases": [
+    "fire tar location",
+    "who drops fire tar",
+    "fire tar quilboar"
+   ],
+   "answer": "Fire tar is carried by Razormane quilboar spellcasters inhabiting the eastern plains of the Barrens, just across the Southfury River from Durotar. Geomancers, Seers, Mystics, and Thornweavers frequently carry pots of this thick, flammable concoction for their tribal rituals."
+  },
+  {
+   "q": "Where is the Reagent Pouch found?",
+   "aliases": [
+    "reagent pouch location",
+    "which cave has reagent pouch",
+    "burning blade pouch"
+   ],
+   "answer": "The reagent pouch is carried by Burning Blade cultists in Dustwind Cave. This cave is located above the ravines northeast of Razor Hill in Durotar, not to be confused with Skull Rock further to the north near the coast."
+  },
+  {
+   "q": "Why does a shaman use items from warlocks?",
+   "aliases": [
+    "why use burning blade reagents",
+    "warlock items for shaman",
+    "warlock fire"
+   ],
+   "answer": "Saptas require ingredients that are naturally saturated with the targeted element. Because Burning Blade cultists constantly invoke destructive demonic flames, their spell pouches are densely packed with potent reagents tied directly to fire, providing the exact catalyst Telf Joolam needs to craft the draught."
+  },
+  {
+   "q": "Who is Telf Joolam?",
+   "aliases": [
+    "telf joolam lore",
+    "who is telf joolam"
+   ],
+   "answer": "Telf Joolam is a solitary Tauren shaman who makes his camp atop the crags of Durotar, south of Razor Hill. He oversees the harsh trials of fire for Horde initiates, guiding them in mastering the dangerous balance between destruction and creation."
+  },
+  {
+   "q": "What happens after this quest?",
+   "aliases": [
+    "next quest call of fire",
+    "after getting reagents",
+    "what to do with fire sapta"
+   ],
+   "answer": "Once Telf Joolam crafts the Fire Sapta from the gathered reagents, he sends you up to the fiery heights of the dormant peak nearby. There, you must drink the concoction to face the elemental spirit and earn your fire totem."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This rite tests a young shaman's ability to balance opposing forces, demonstrating that flame is not merely fuel for wrath, but an instrument of vitality and light when guided by wisdom."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The trial sends Horde defenders to strike at two pressing threats right on their borders: encroaching Razormane quilboar in the Barrens and the insidious Burning Blade cultists burrowed within Durotar."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs, dealing with the Burning Blade is a bitter reminder of the dark warlock magic that once corrupted their people, making reclaiming fire as a pure, natural element a vital act of cultural restoration."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "call of fire",
+  "dustwind cave",
+  "fire sapta",
+  "fire tar",
+  "razormane",
+  "reagent pouch",
+  "telf joolam"
+ ],
+ "related": [
+  "npc:telf-joolam",
+  "subzone:dustwind-cave",
+  "subzone:razor-hill",
+  "topic:quilboar",
+  "zone:barrens",
+  "zone:durotar",
+  "quest:1524",
+  "quest:827"
+ ],
+ "attribution": [
+  "Call of Fire (3)"
+ ]
+}

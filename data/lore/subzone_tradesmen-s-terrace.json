@@ -1,0 +1,92 @@
+{
+ "key": "subzone:tradesmen-s-terrace",
+ "type": "subzone",
+ "name": "Tradesmen's Terrace",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Tradesmen's Terrace"
+ },
+ "summary": "Tradesmen's Terrace is the bustling commercial heart of Darnassus, situated along the city's southern flank. It brings together craftspeople, merchants, and the local auction house beneath the sweeping wooden architecture of the night elf capital. The terrace serves as the primary trade link connecting artisans with adventurers journeying across Teldrassil and beyond.",
+ "sections": [
+  {
+   "title": "The Commercial Hub of Darnassus",
+   "body": "Occupying the southern stretch of Darnassus, Tradesmen's Terrace houses the capital's mercantile life. While much of the city is devoted to quiet contemplation, wilderness sanctuaries, and spiritual duties, this terrace brings together shopkeepers, tradespeople, and merchants serving both local kaldorei and travelers from the wider Alliance. It contains Darnassus's central auction house, general provisions, and crafting supply stores, making it the essential staging ground for journeys into the wilds. Broad footpaths connect it northward directly to the Warrior's Terrace and westward toward the serene waters of the Temple Gardens and the grand Temple of the Moon.",
+   "spoiler": 0
+  },
+  {
+   "title": "Artisans and Traders",
+   "body": "Kaldorei crafts prioritize harmony with nature, and the shops here reflect that delicate balance. Even amidst everyday commerce, the terrace operates without the roaring furnaces or smog seen in dwarven or human workshops, favoring quiet stone, curated timber, and woven goods. For visiting adventurers seeking trade contracts, repairs, or materials gathered from Teldrassil's dense boughs, the terrace stands as the principal center of business in northern Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Tradesmen's Terrace?",
+   "aliases": [
+    "what is this place",
+    "tradesmens terrace info",
+    "tradesmen terrace darnassus"
+   ],
+   "answer": "Tradesmen's Terrace is the southern marketplace district of Darnassus. It serves as the commercial center for the night elven capital, containing most of the city's merchants, artisans, and its central auction house."
+  },
+  {
+   "q": "Where is the auction house in Darnassus?",
+   "aliases": [
+    "darnassus auction house",
+    "ah location darnassus",
+    "where is ah"
+   ],
+   "answer": "The Darnassus auction house is located right here in Tradesmen's Terrace. It provides travelers, traders, and locals access to citywide and Alliance commerce."
+  },
+  {
+   "q": "How do I reach the other districts from here?",
+   "aliases": [
+    "exits from tradesmens terrace",
+    "where does this terrace lead",
+    "how to leave tradesmens terrace"
+   ],
+   "answer": "Paths from Tradesmen's Terrace lead north into the Warrior's Terrace and west toward the Temple Gardens and the towering Temple of the Moon."
+  },
+  {
+   "q": "What kinds of vendors are found in this district?",
+   "aliases": [
+    "vendors tradesmens terrace",
+    "what can i buy here",
+    "tradesmen shops"
+   ],
+   "answer": "The terrace hosts a broad variety of general merchants, trade supply vendors, and craftspeople catering to everyday needs, repairs, and goods produced across Teldrassil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, Tradesmen's Terrace is a rare center of dense urban commerce, adapted to preserve the peaceful canopy of Darnassus without the disruptive industry of other races."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The terrace offers Alliance travelers coming through Rut'theran Village access to banking, auctioneers, and essential trade supplies before heading deeper into Kalimdor."
+  }
+ ],
+ "keywords": [
+  "auction house",
+  "darnassus",
+  "kaldorei",
+  "merchants",
+  "shops",
+  "teldrassil",
+  "tradesmen's terrace",
+  "vendors"
+ ],
+ "related": [
+  "zone:darnassus",
+  "subzone:warrior-s-terrace",
+  "subzone:temple-gardens",
+  "subzone:temple-of-the-moon",
+  "topic:night-elf",
+  "quest:940"
+ ],
+ "attribution": [
+  "Tradesmen's Terrace"
+ ]
+}

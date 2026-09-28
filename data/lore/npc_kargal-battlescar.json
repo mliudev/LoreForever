@@ -1,0 +1,78 @@
+{
+ "key": "npc:kargal-battlescar",
+ "type": "npc",
+ "name": "Kargal Battlescar",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Kargal Battlescar",
+  "refs": 2
+ },
+ "summary": "Kargal Battlescar is a veteran orc warrior stationed at the Far Watch Post along the eastern border of the Barrens. Tasked with guarding the crossing from Durotar, he evaluates incoming recruits and directs capable fighters deeper into the territory to bolster Horde defenses.",
+ "sections": [
+  {
+   "title": "Sentinel of the Border",
+   "body": "Standing watch at the Far Watch Post, Kargal Battlescar oversees the strategic threshold separating the harsh red plains of Durotar from the vast savanna of the Barrens. As travelers and fresh adventurers cross the bridge over the Southfury River, Kargal ensures they understand that the peaceful days of training in the Valley of Trials are over. The Barrens is a contested and dangerous expanse, plagued by aggressive wildlife, centaur raiding parties, and quilboar tribes. Kargal inspects those who pass, mustering willing recruits into the service of the Horde and sending them onward to the Crossroads to aid local commanders in securing the frontier.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kargal Battlescar?",
+   "aliases": [
+    "kargal battlescar",
+    "kargal",
+    "who is kargal"
+   ],
+   "answer": "Kargal Battlescar is an orc warrior and outpost commander stationed at the Far Watch Post, situated along the eastern road entering the Barrens from Durotar."
+  },
+  {
+   "q": "What is the purpose of the Far Watch Post?",
+   "aliases": [
+    "far watch post purpose",
+    "why far watch post",
+    "what is this outpost"
+   ],
+   "answer": "The Far Watch Post serves as an early warning station and frontline defense for the Barrens against threats emerging near the Durotar border and along the Southfury River."
+  },
+  {
+   "q": "Where does Kargal send new recruits?",
+   "aliases": [
+    "kargal quest destination",
+    "where to go after kargal",
+    "where does kargal send you"
+   ],
+   "answer": "Kargal conscripts travelers passing through the outpost and directs them westward along the main road to the Crossroads, the central military hub of the Northern Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For fresh Horde adventurers leaving Durotar, Kargal Battlescar serves as the introduction to the broader military struggles of Kalimdor, marshaling recruits for the conflicts brewing across the Barrens."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "A battle-hardened veteran bearing the marks of extensive combat, Kargal exemplifies the rugged resilience expected of Horde frontline fighters in untamed frontier lands."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "battlescar",
+  "conscript",
+  "crossroads",
+  "durotar",
+  "far watch post",
+  "kargal"
+ ],
+ "related": [
+  "subzone:far-watch-post",
+  "quest:840",
+  "quest:842",
+  "subzone:crossroads",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Kargal Battlescar"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "subzone:eastern-strand",
+ "type": "subzone",
+ "name": "Eastern Strand",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Eastern Strand"
+ },
+ "summary": "The Eastern Strand is a stretch of southern coastline in Hillsbrad Foothills, lying to the southeast toward the border of the Arathi Highlands. Once peaceful shores, the beaches and shallows have been overrun by hostile Daggerspine naga establishing a coastal beachhead.",
+ "sections": [
+  {
+   "title": "A Hostile Shoreline",
+   "body": "Running along the southeastern edge of Hillsbrad Foothills, the Eastern Strand complements the Western Strand across the bay. While the region is primarily known for human farming settlements and territorial clashes between Southshore and Tarren Mill, these sandy flats and tidelines are dominated entirely by the Daggerspine naga. Creeping out of the Great Sea, the serpent folk slither across the sandbars and dwell among the rocky outcrops, watching the mainland closely.",
+   "spoiler": 0
+  },
+  {
+   "title": "Signs of an Invasion",
+   "body": "The presence of the Daggerspine on the Eastern Strand is more than simple scavengers seeking land. Scouting patrols carry written battle orders and attack plans, signaling an organized campaign to push further inland. The threat forces both local human defenders and Horde forces inland to cast a wary eye toward the coast, lest the serpentine tide wash over the foothill settlements.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Eastern Strand located?",
+   "aliases": [
+    "eastern strand location",
+    "where is eastern strand",
+    "eastern strand map"
+   ],
+   "answer": "The Eastern Strand encompasses the coastal sands and shallows in the southeastern corner of Hillsbrad Foothills, sitting eastward along the water toward the borders of the Arathi Highlands."
+  },
+  {
+   "q": "What creatures inhabit the Eastern Strand?",
+   "aliases": [
+    "eastern strand mobs",
+    "who lives on eastern strand",
+    "eastern strand enemies"
+   ],
+   "answer": "The beach and nearby waters are overrun by the Daggerspine tribe of naga, including foot soldiers, raiders, and spellcasters prowling the tideline."
+  },
+  {
+   "q": "Why are the naga gathering on this beach?",
+   "aliases": [
+    "why are naga in hillsbrad",
+    "daggerspine attack plans",
+    "what are the naga doing here"
+   ],
+   "answer": "The Daggerspine naga are preparing an offensive against the mainland. Orders and attack plans discovered among their coastal forces reveal they are coordinating incursions into the surrounding foothills."
+  },
+  {
+   "q": "How does the Eastern Strand differ from the Western Strand?",
+   "aliases": [
+    "western strand vs eastern strand",
+    "two beaches in hillsbrad"
+   ],
+   "answer": "Both strands are occupied by Daggerspine naga, but they bracket the southern coast of Hillsbrad on opposite sides, with the Western Strand sitting southwest toward Silverpine and the Eastern Strand lying southeast toward Arathi."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The naga encamped on the Eastern Strand pose a direct, creeping flank threat to Southshore's maritime security and nearby patrols."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Any organized naga expansion moving inland from the coast threatens to destabilize Horde movements and supply lines crossing lower Hillsbrad."
+  }
+ ],
+ "keywords": [
+  "beach",
+  "coast",
+  "daggerspine",
+  "eastern strand",
+  "hillsbrad foothills",
+  "naga",
+  "preemptive strike"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Eastern Strand"
+ ]
+}

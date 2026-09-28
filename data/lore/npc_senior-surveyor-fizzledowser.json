@@ -1,0 +1,91 @@
+{
+ "key": "npc:senior-surveyor-fizzledowser",
+ "type": "npc",
+ "name": "Senior Surveyor Fizzledowser",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Senior Surveyor Fizzledowser",
+  "refs": 2
+ },
+ "summary": "Senior Surveyor Fizzledowser is an ambitious field researcher stationed in Gadgetzan on behalf of the Gadgetzan Water Company. Tasked with prospecting new water sources amidst heavy Wastewander interference, his surveys accidentally unearth the growing menace of the subterranean silithid.",
+ "sections": [
+  {
+   "title": "A Search for Water Gone Wrong",
+   "body": "Operating out of Gadgetzan, Senior Surveyor Fizzledowser is primarily occupied with solving the desert town's chronic resource problem. With local wells and water holes constantly seized by hostile Wastewander bandits, the Gadgetzan Water Company must search further afield for untapped reservoirs. To this end, Fizzledowser dispatches scouts armed with dowsing widgets across the dunes, such as toward Sandsorrow Watch. However, instead of finding clean springs, his probes consistently tap into subterranean insect hives, trading one logistical crisis for an impending ecological disaster.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uncovering the Silithid",
+   "body": "When his surveyor crews began suffering devastating ambushes from armored, burrowing insects, Fizzledowser partnered with Alchemist Pestlezugg to examine the specimens. Further tragedies\u2014including the loss of Junior Surveyor Scrimshank inside the Gaping Chasm\u2014proved that these were not ordinary desert pests, but coordinated vanguard forces known as the silithid. Alarmed by findings pointing toward a threat capable of overwhelming southern Kalimdor, Fizzledowser looks past goblin neutrality to sound the alarm directly to Horde and Alliance leadership.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Senior Surveyor Fizzledowser?",
+   "aliases": [
+    "who is fizzledowser",
+    "fizzledowser tanaris",
+    "gadgetzan surveyor"
+   ],
+   "answer": "He is an engineer and field supervisor for the Gadgetzan Water Company. His duty is to scout viable water wells across the desert of Tanaris to keep Gadgetzan supplied."
+  },
+  {
+   "q": "What is the Gadgetzan Water Company?",
+   "aliases": [
+    "gadgetzan water company",
+    "who does fizzledowser work for"
+   ],
+   "answer": "It is a commercial enterprise operating out of Gadgetzan responsible for securing, processing, and distributing water in the arid desert of Tanaris, where moisture is the most valuable commodity."
+  },
+  {
+   "q": "What happened to Junior Surveyor Scrimshank?",
+   "aliases": [
+    "where is scrimshank",
+    "scrimshank redemption",
+    "what happened to scrimshank"
+   ],
+   "answer": "Junior Surveyor Scrimshank was sent to prospect near the Gaping Chasm but disappeared after the area was overrun by silithid. Adventurers sent to find him discover only his abandoned gear deep within the bug nests."
+  },
+  {
+   "q": "Why is Fizzledowser concerned about the desert insects?",
+   "aliases": [
+    "why investigate bugs",
+    "noxious lair investigation",
+    "silithid threat tanaris"
+   ],
+   "answer": "What initially seemed like native predators turned out to be organized swarms of silithid expanding aggressively from underground. Alchemical analysis confirmed their coordination poses an existential danger to all settlements in southern Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Fizzledowser relies on custom goblin-engineered dowsing widgets to pinpoint hidden water sources beneath the shifting sands."
+  }
+ ],
+ "keywords": [
+  "dowsing widget",
+  "fizzledowser",
+  "gadgetzan",
+  "gaping chasm",
+  "pestlezugg",
+  "scrimshank",
+  "silithid",
+  "tanaris",
+  "water company"
+ ],
+ "related": [
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "subzone:sandsorrow-watch",
+  "subzone:gaping-chasm",
+  "subzone:noxious-lair",
+  "topic:goblin",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Senior Surveyor Fizzledowser"
+ ]
+}

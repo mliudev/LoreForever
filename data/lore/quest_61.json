@@ -1,0 +1,120 @@
+{
+ "key": "quest:61",
+ "type": "quest",
+ "name": "Shipment to Stormwind",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   61
+  ],
+  "level": "7",
+  "faction": "Alliance",
+  "start": "William Pestle",
+  "end": "Morgan Pestle",
+  "previous": "Kobold Candles",
+  "next": null,
+  "wiki": "Shipment to Stormwind",
+  "chain": [
+   "Kobold Candles",
+   "Shipment to Stormwind"
+  ]
+ },
+ "summary": "Shipment to Stormwind is an Alliance delivery quest that concludes William Pestle's candle venture in Elwynn Forest. After gathering large wax candles from the local kobold vermin, adventurers carry the packaged shipment up the road into the Trade District of Stormwind to William's brother, Morgan Pestle.",
+ "sections": [
+  {
+   "title": "A Family Trade",
+   "body": "The Pestle brothers maintain an alchemical trade between the pastoral hamlets of Elwynn Forest and the bustling avenues of Stormwind City. William gathers herbs, reagents, and raw goods out in Goldshire, while his brother Morgan runs Pestle's Apothecary in the capital's Trade District. Because William cannot easily leave his post at the Lion's Pride Inn, he relies on travelers heading into the city gates to handle courier duties.",
+   "spoiler": 0
+  },
+  {
+   "title": "From Kobold Wax to Capital Potions",
+   "body": "The contents of William's parcel consist of large, pungent candles harvested directly from the kobolds infesting the Goldtooth and Jasperlode mines. Kobold tallow is notoriously greasy and foul, but alchemists prize raw tallow and wax for compounding salves, sealing drafty glassware, and brewing base draughts. Delivering the wax to Morgan ensures the apothecary remains well-stocked with cheap, potent ingredients.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside William's shipment?",
+   "aliases": [
+    "shipment contents",
+    "what is in the package",
+    "what did william send"
+   ],
+   "answer": "The shipment consists of packaged wax candles taken from the kobolds in Elwynn Forest's mines. William's apothecary uses the wax and tallow as reagents for alchemy and brewing."
+  },
+  {
+   "q": "Where do I find Morgan Pestle?",
+   "aliases": [
+    "morgan pestle location",
+    "where is morgan",
+    "find morgan pestle"
+   ],
+   "answer": "Morgan Pestle works inside Pestle's Apothecary, located in the Trade District of Stormwind City, just a short walk past the main gates."
+  },
+  {
+   "q": "How are William and Morgan Pestle related?",
+   "aliases": [
+    "pestle brothers",
+    "who is william pestle brother"
+   ],
+   "answer": "William and Morgan Pestle are brothers who run an alchemical enterprise together. William procures materials in Elwynn Forest while Morgan operates their shop in Stormwind."
+  },
+  {
+   "q": "Why doesn't William deliver the package himself?",
+   "aliases": [
+    "why doesn't william go to stormwind",
+    "why hire a courier"
+   ],
+   "answer": "William is tied up managing his trade and collecting alchemical ingredients out in Goldshire. He prefers hiring passing adventurers who are already traveling north toward the capital gates."
+  },
+  {
+   "q": "Do kobold candles have an actual alchemical use?",
+   "aliases": [
+    "why kobold candles",
+    "kobold wax alchemy"
+   ],
+   "answer": "Yes. Kobolds craft heavy tallow candles to navigate subterranean tunnels. Alchemists like the Pestle brothers repurpose this tallow and wax for sealing vials, creating unguents, and refining bases for various mixtures."
+  },
+  {
+   "q": "What comes after delivering the shipment?",
+   "aliases": [
+    "what next after shipment to stormwind",
+    "follow up quest shipment to stormwind"
+   ],
+   "answer": "This delivery concludes the short chain that began with gathering kobold candles in Elwynn Forest. Morgan simply pays you for the courier work and welcomes your business in his shop."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "The Pestle family business is deeply tied to Elwynn's local reagents, and making a stop at their Stormwind shop is a familiar routine for gatherers and potion-makers alike."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Carrying supplies along the king's road into Stormwind is a classic rite of passage for young Alliance champions moving from countryside skirmishes into the bustling capital."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "goldshire",
+  "kobold candles",
+  "morgan pestle",
+  "pestle's apothecary",
+  "shipment to stormwind",
+  "trade district",
+  "william pestle"
+ ],
+ "related": [
+  "quest:60",
+  "npc:william-pestle",
+  "npc:morgan-pestle",
+  "subzone:trade-district",
+  "zone:elwynn",
+  "topic:kobold",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Shipment to Stormwind"
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "key": "topic:trogg",
+ "type": "topic",
+ "name": "Trogg",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Trogg"
+ },
+ "summary": "Troggs are brutish, subterranean humanoids descended from the earliest, failed titan-forged experiments sealed deep within the earth. Having recently clawed their way to the surface after dwarven excavations disturbed their ancient vaults, these relentless diggers have overrun dwarven quarries and driven the gnomes out of their beloved capital of Gnomeregan.",
+ "sections": [
+  {
+   "title": "The Flawed Predecessors",
+   "body": "Long before mortal races recorded history, the titan-forged keepers sought to fashion servants from stone using the Forge of Wills. Their initial design went awry, yielding stone-skinned brutes of low intelligence and unbridled savagery. Distressed by their botched creations, the keepers refined the matrix into the earthen race, who would eventually become the ancestors of the dwarves. Unwilling to annihilate the imperfect troggs, the giantess Ironaya sealed them deep underground within the vault of Uldaman, intending for them to remain trapped in eternal stasis.",
+   "spoiler": 0
+  },
+  {
+   "title": "Awakened by the Pickaxe",
+   "body": "For countless millennia, the troggs lay dormant until the Explorers' League of Ironforge breached the ancient subterranean complexes of Khaz Modan. Waking in an unfamiliar era, swarms of furious troggs poured from the depths, pursuing their distant dwarven relatives with ancestral fury. Finding the surface bright and unwelcoming, they carved sprawling tunnel networks beneath Dun Morogh, Loch Modan, and the Badlands, quickly ambushing quarries, archaeological dig sites, and trade outposts.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Catastrophe at Gnomeregan",
+   "body": "Guided by subterranean vibration and noise, trogg swarms tunneled directly up into Gnomeregan. Desperately outmatched by sheer numbers and savage strength, the gnomes fought a bitter war in the subterranean corridors. In a desperate gambit engineered by Sicco Thermaplugg, High Tinker Gelbin Mekkatorque unleashed radioactive venting to exterminate the infestation. Tragically, the irradiated gas killed roughly eighty percent of the gnomish populace while merely enraging the troggs, leaving the grand techno-city an irradiated trogg stronghold.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What exactly are troggs?",
+   "aliases": [
+    "trogg origins",
+    "what is a trogg",
+    "trogg lore"
+   ],
+   "answer": "Troggs are subterranean humanoids created as the first, flawed generation of stone servants by the titan-forged keepers. Distressed by their raw brutality, the keepers locked them in stasis vaults like Uldaman rather than destroying them, until dwarven miners inadvertently unearthed them thousands of years later."
+  },
+  {
+   "q": "Are troggs related to dwarves?",
+   "aliases": [
+    "are dwarves and troggs related",
+    "trogg dwarf connection"
+   ],
+   "answer": "Yes. Both races trace their origins to the Forge of Wills. Troggs represent the keepers' unrefined first draft, while the earthen\u2014who later succumbed to the Curse of Flesh and became dwarves\u2014were the perfected second iteration."
+  },
+  {
+   "q": "How did troggs capture Gnomeregan?",
+   "aliases": [
+    "why are troggs in gnomeregan",
+    "gnomeregan trogg attack"
+   ],
+   "answer": "Drawn by the vibrations of heavy machinery, the troggs tunneled into Gnomeregan from below. Despite gnomish defensive inventions, the invaders overwhelmed the defenders through sheer numbers. A failed attempt to purge them with radioactive gas killed most of the gnomes instead, cementing trogg control over the city."
+  },
+  {
+   "q": "Are troggs capable of speech or advanced culture?",
+   "aliases": [
+    "can troggs talk",
+    "trogg culture",
+    "trogg intelligence"
+   ],
+   "answer": "Troggs possess very limited intellect, communicating mostly through guttural grunts and roaring. They value pure brute strength above all else, choosing tribal chieftains through violence. While some manifest rudimentary shamanistic spellcasting, their craftsmanship is crude, rarely advancing beyond crude clubs, stone arrows, and stolen relics."
+  },
+  {
+   "q": "Why do troggs collect ancient relics?",
+   "aliases": [
+    "why do troggs hoard artifacts",
+    "trogg treasure"
+   ],
+   "answer": "Explorers believe their compulsion to hoard ancient titan relics is an instinctual remnant of their titan-forged origins. However, troggs rarely understand what they carry, using priceless artifacts as blunt cudgels or primitive good-luck charms."
+  },
+  {
+   "q": "Are there troggs outside of Khaz Modan?",
+   "aliases": [
+    "trogg locations",
+    "troggs in durotar",
+    "troggs in kalimdor"
+   ],
+   "answer": "Yes. Subterranean trogg clans have established nests across Azeroth, including the Ragefire troggs deep within Ragefire Chasm beneath Orgrimmar, the Gravelflint troggs in Darkshore, and groups throughout the Badlands and Alterac."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Troggs are the bitter bane of your people, responsible for shattering your underground home and scattering the surviving gnomes to Tinker Town in Ironforge."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "These savage cousins were unearthed by your own pickaxes in your quest to uncover titan ancestry, making their incursions across Khaz Modan a direct consequence of dwarven archaeology."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Trogg nests frequently occupy rich mineral veins and deep mines like Gol'Bolar, forcing miners to defend their claims with pickaxes and hammers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Clearing trogg infestations across Dun Morogh, Loch Modan, and Gnomeregan remains a vital defensive effort to keep the mountain kingdom and its refugees safe."
+  }
+ ],
+ "keywords": [
+  "caverndeep",
+  "earthen",
+  "forge of wills",
+  "gnomeregan",
+  "grubbis",
+  "oggleflint",
+  "rockjaw",
+  "stonesplinter",
+  "trogg",
+  "uldaman"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "subzone:uldaman",
+  "zone:dunmorogh",
+  "zone:lochmodan",
+  "zone:ragefire",
+  "npc:gelbin-mekkatorque",
+  "npc:sicco-thermaplugg",
+  "topic:explorers-league"
+ ],
+ "attribution": [
+  "Trogg"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "key": "subzone:scarlet-monastery-cathedral",
+ "type": "subzone",
+ "name": "Scarlet Monastery Cathedral",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Scarlet Monastery Cathedral"
+ },
+ "summary": "The Cathedral is the spiritual and military heart of the Scarlet Monastery, housing the Crusade's inner sanctum. Once a serene hall of worship for Lordaeron's priesthood, it now serves as the command seat for High Inquisitor Whitemane and Scarlet Commander Mograine, guarded by the Crusade's most devoted zealots.",
+ "sections": [
+  {
+   "title": "Sanctum of Zeal",
+   "body": "Once a peaceful center of enlightenment and prayer for the priesthood of Lordaeron, the Cathedral fell into madness in the wake of the Third War. Following the fall of the kingdom to the Scourge, surviving zealots transformed the complex into a fortress of unyielding hatred. Beyond the manicured cloister of the Chapel Gardens lies the grand Crusader's Chapel, where priests and warriors gather in devotion to their crusade. They view all outsiders\u2014regardless of race or faction\u2014as carriers of the undead plague who must be cleansed by blade and holy fire.",
+   "spoiler": 0
+  },
+  {
+   "title": "The High Inquisitor and Her Commander",
+   "body": "The forces stationed within the Cathedral answer directly to Scarlet Commander Mograine, who directs the garrison with iron discipline. Yet the true heart of the enclave's fanaticism is High Inquisitor Whitemane. A formidable wielder of the Light, Whitemane's divine devotion enables her to resurrect fallen champions in the heat of battle. Together, she and Mograine hold the inner chapel against any who dare breach the monastery gates, proving that the Crusade's grip on northern Lordaeron remains lethally intact.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Cathedral used for?",
+   "aliases": [
+    "cathedral purpose",
+    "why visit cathedral",
+    "what is this place"
+   ],
+   "answer": "It serves as the inner redoubt and sacred high seat of the Scarlet Crusade within the Monastery. Here, the organization's highest leaders conduct religious services and direct their military campaigns across Tirisfal Glades."
+  },
+  {
+   "q": "Who leads the Scarlet Crusade here?",
+   "aliases": [
+    "who is the boss here",
+    "cathedral bosses",
+    "whitemane mograine"
+   ],
+   "answer": "The garrison is commanded by Scarlet Commander Mograine, while the spiritual authority belongs to High Inquisitor Whitemane, a zealous priestess renowned for her fearsome ability to restore the dead to life."
+  },
+  {
+   "q": "Why is the door to the Cathedral locked?",
+   "aliases": [
+    "cathedral locked",
+    "how to open cathedral",
+    "where is the key"
+   ],
+   "answer": "The heavy gates into the Cathedral wing are locked to keep intruders from storming the inner sanctum. Entering requires the Scarlet Key, which is guarded inside the Monastery's Library wing."
+  },
+  {
+   "q": "Why are the Crusaders attacking other living humans?",
+   "aliases": [
+    "why attack alliance",
+    "scarlet crusade evil",
+    "why crusade hostile"
+   ],
+   "answer": "Driven to paranoid madness by the Scourge's destruction of Lordaeron, the Crusade believes that all outsiders are carriers of the plague of undeath. They refuse contact with external factions and execute anyone who approaches their fortresses."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For the Alliance, the Crusade represents a tragic, corrupt perversion of the Holy Light and Lordaeron's proud heritage, prompting commanders in Southshore to dispatch champions to end their madness."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Perched dangerously close to the Undercity, the Cathedral houses zealots dedicated to the utter extermination of the Forsaken and any Horde allies who stand with them."
+  }
+ ],
+ "keywords": [
+  "cathedral",
+  "chapel gardens",
+  "crusader's chapel",
+  "high inquisitor",
+  "mograine",
+  "scarlet monastery",
+  "whitemane"
+ ],
+ "related": [
+  "zone:scarlet",
+  "npc:scarlet-commander-mograine",
+  "subzone:grand-vestibule",
+  "topic:scarlet-crusade",
+  "topic:lordaeron",
+  "zone:tirisfal",
+  "topic:scourge",
+  "topic:light"
+ ],
+ "attribution": [
+  "Scarlet Monastery Cathedral"
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "key": "quest:1196",
+ "type": "quest",
+ "name": "The Sacred Flame",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1196
+  ],
+  "level": "29",
+  "faction": "Horde",
+  "start": "Zangen Stonehoof",
+  "end": "Rau Cliffrunner",
+  "previous": "The Sacred Flame (quest)",
+  "next": "The Sacred Flame (3)",
+  "wiki": "The Sacred Flame (2)",
+  "chain": [
+   "The Sacred Flame (quest)",
+   "The Sacred Flame (2)",
+   "The Sacred Flame (3)"
+  ]
+ },
+ "summary": "Following a perilous excursion to an Ashenvale moonwell, a phial of sanctified waters must be ferried south to Freewind Post. The tauren mystic Rau Cliffrunner needs this lunar essence to breach an eternal flame warding an ancient centaur relic in Thousand Needles.",
+ "sections": [
+  {
+   "title": "A Long Journey South",
+   "body": "Zangen Stonehoof's mission demands swift transit through central Kalimdor. With the etched phial brimmed with purified moonwell water, you are instructed to cross the sun-baked expanse of the Barrens, descend the towering Great Lift, and reach the high mesa settlement of Freewind Post. Waiting perched above the canyon floor is Rau Cliffrunner, who monitors the brazen centaur clans below.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shared Blood and Ancient Wards",
+   "body": "Upon receiving the phial, Rau Cliffrunner reveals why night elven holy water is vital to a tauren operation against the centaur. Because dryads and centaur share common ancestry through the demigod Zaetar and Theradras, the sacred water of the moonwells carries an arcane resonance. This connection makes it the only element capable of piercing the protective eternal flame shielding a guarded centaur artifact.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Rau Cliffrunner located?",
+   "aliases": [
+    "where is rau",
+    "rau cliffrunner location",
+    "find rau cliffrunner",
+    "freewind post turn in"
+   ],
+   "answer": "Rau Cliffrunner resides atop Freewind Post in Thousand Needles. To reach him, head south through the Barrens, descend via the Great Lift into the canyon, and follow the southeastern trail to the elevator hoisted high onto the sheer mesa needle."
+  },
+  {
+   "q": "Why does Rau need moonwell water to combat centaur?",
+   "aliases": [
+    "why moonwell water",
+    "moonwell and centaur connection",
+    "dryad centaur relationship"
+   ],
+   "answer": "Centaur and dryads share a common lineage tracing back to the offspring of Cenarius. Because of this ancestral kinship, the sanctified waters of a night elf moonwell possess the specific magical harmony needed to dismantle the eternal flame defending the centaurs' sacred relic."
+  },
+  {
+   "q": "Who sent me with the phial?",
+   "aliases": [
+    "who gave this quest",
+    "zangen stonehoof",
+    "quest giver sacred flame 2"
+   ],
+   "answer": "Zangen Stonehoof tasked you with transporting the Filled Etched Phial after obtaining water from the guarded moonwell in Ashenvale."
+  },
+  {
+   "q": "What happens after giving the phial to Rau?",
+   "aliases": [
+    "next quest",
+    "what after rau",
+    "sacred flame part 3"
+   ],
+   "answer": "Once Rau confirms the waters are intact, he tasks you with using the phial's power directly to quench the flame and retrieve the centaur relic from the nearby canyon."
+  },
+  {
+   "q": "How do I get down into Thousand Needles?",
+   "aliases": [
+    "how to reach thousand needles",
+    "getting past the barrens cliff",
+    "great lift directions"
+   ],
+   "answer": "Follow the main southern road through the Barrens until you hit the cliff edge. There you will find the Great Lift, a pair of wooden elevators operated by tauren pulleys that carry travelers down onto the canyon floor."
+  },
+  {
+   "q": "Why are the tauren seeking a centaur relic?",
+   "aliases": [
+    "tauren centaur war",
+    "why steal centaur relic"
+   ],
+   "answer": "The tauren and centaur have fought a brutal war across Kalimdor for generations. Disrupting their rites and seizing their sacred artifacts weakens the warlike clans entrenched across the Thousand Needles canyon."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Every blow against the centaur protects Mulgore and the newly secured borders of your homeland."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Rau Cliffrunner relies on deep knowledge of Cenarion bloodlines to untangle the magical resonance between dryads and centaur."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Delivering this phial reinforces Freewind Post, the Horde's high outpost in the perilous canyon passes of Thousand Needles."
+  }
+ ],
+ "keywords": [
+  "centaur relic",
+  "etched phial",
+  "freewind post",
+  "great lift",
+  "rau cliffrunner",
+  "sacred flame",
+  "thousand needles",
+  "zangen stonehoof"
+ ],
+ "related": [
+  "npc:rau-cliffrunner",
+  "npc:zangen-stonehoof",
+  "subzone:freewind-post",
+  "subzone:great-lift",
+  "zone:thousandneedles",
+  "topic:centaur",
+  "subzone:moonwell-ashenvale",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "The Sacred Flame (2)"
+ ]
+}

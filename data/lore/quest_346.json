@@ -1,0 +1,114 @@
+{
+ "key": "quest:346",
+ "type": "quest",
+ "name": "Return to Kristoff",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   346
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Brother Paxton",
+  "end": "Brother Kristoff",
+  "previous": "Rethban Ore (quest)",
+  "next": null,
+  "wiki": "Return to Kristoff",
+  "chain": []
+ },
+ "summary": "Return to Kristoff concludes Brother Kristoff's search for the elusive tome, The Stresses of Iron. After journeying through Redridge to fetch ore for special ink and waiting on Northshire's scribes, the adventurer finally brings the borrowed volume back to the Cathedral of Light in Stormwind.",
+ "sections": [
+  {
+   "title": "A Long-Delayed Return",
+   "body": "Brother Kristoff, stationed in Stormwind's Cathedral Square, needed access to a specialized metallurgical volume known as The Stresses of Iron. The pursuit of the work sent couriers across human lands, leading first to the Royal Library in Stormwind Keep and then deep into Northshire Abbey. At the abbey, Brother Paxton was busily copying the text by hand, delayed by a shortage of Rethban ore needed to craft scribe's ink. With the ore retrieved and the copy complete, Paxton finally surrenders the original volume for its return to the city.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Labor of Scribes",
+   "body": "In a kingdom constantly pressed by outside threats, the quiet work of Northshire's copyists remains vital to preserving civic and spiritual lore. Brother Paxton's request to apologize to Librarian Milton Sheaf highlights how thin the abbey's resources have worn. Valuable books must be meticulously duplicated stroke by stroke using mineral-rich inks before they can be released back into Stormwind's care, turning a simple book request into an arduous logistical errand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the book The Stresses of Iron about?",
+   "aliases": [
+    "what is stresses of iron",
+    "stresses of iron book",
+    "what book is kristoff looking for"
+   ],
+   "answer": "The Stresses of Iron is a treatise on metallurgy and metalworking. Brother Kristoff sought it out for study in Cathedral Square, while the scribes at Northshire Abbey required an exact copy to preserve its knowledge."
+  },
+  {
+   "q": "Why was the book at Northshire Abbey?",
+   "aliases": [
+    "why was paxton holding the book",
+    "why was it in northshire"
+   ],
+   "answer": "The Royal Library lent the book to Brother Paxton so he could produce an illuminated copy for Northshire Abbey's archives. Scribes there preserve important texts by hand, but Paxton's progress stalled when he ran short of Rethban ore for specialized ink."
+  },
+  {
+   "q": "Who is Brother Kristoff?",
+   "aliases": [
+    "who is kristoff",
+    "kristoff stormwind"
+   ],
+   "answer": "Brother Kristoff is a member of the Clergy of the Holy Light stationed in Cathedral Square outside the Cathedral of Light in Stormwind. He requested the book and offers spiritual blessings in gratitude."
+  },
+  {
+   "q": "Who is Milton?",
+   "aliases": [
+    "who is librarian milton",
+    "milton sheaf"
+   ],
+   "answer": "Milton Sheaf is the head librarian residing in Stormwind Keep's Royal Library. He originally permitted the loan of The Stresses of Iron and grew impatient over the lengthy delay in its return."
+  },
+  {
+   "q": "Where does this quest chain begin?",
+   "aliases": [
+    "how to start speaking of fortitude",
+    "quest chain start"
+   ],
+   "answer": "The chain begins in Stormwind's Cathedral Square with Brother Kristoff in the quest Speaking of Fortitude, which leads to Librarian Milton Sheaf, then Northshire Abbey, and into Redridge Mountains before concluding back with Kristoff."
+  },
+  {
+   "q": "Does this quest have any follow-ups?",
+   "aliases": [
+    "what comes after return to kristoff",
+    "is there a next quest"
+   ],
+   "answer": "Return to Kristoff marks the end of the Speaking of Fortitude questline. Once you deliver The Stresses of Iron, Brother Kristoff offers his thanks and a blessing of the Light, resolving the matter."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "A simple errand for the clergy showcases how the Church of the Holy Light maintains, preserves, and distributes crucial scholarship throughout the kingdom."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Even seemingly trivial academic exchanges rely on safe roadways between Stormwind Keep, Northshire, and the embattled Redridge Mountains."
+  }
+ ],
+ "keywords": [
+  "brother kristoff",
+  "brother paxton",
+  "cathedral square",
+  "milton sheaf",
+  "northshire abbey",
+  "return to kristoff",
+  "stormwind",
+  "the stresses of iron"
+ ],
+ "related": [
+  "npc:brother-kristoff",
+  "quest:344",
+  "quest:343",
+  "subzone:cathedral-square",
+  "topic:light"
+ ],
+ "attribution": [
+  "Return to Kristoff"
+ ]
+}

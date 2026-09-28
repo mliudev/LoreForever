@@ -1,0 +1,135 @@
+{
+ "key": "zone:tirisfal",
+ "type": "zone",
+ "name": "Tirisfal Glades",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": [
+   "Tirisfal Glades (Classic)",
+   "Tirisfal Glades"
+  ],
+  "levels": "1-10",
+  "aliases": []
+ },
+ "summary": "Tirisfal Glades is the haunting northern territory of Lordaeron, now serving as the heartland of Lady Sylvanas Windrunner and the Forsaken. Beneath blighted skies and rotting boughs lie fallen manors, dormant crypts, and the vast underground capital of the Undercity. Surrounded by mindless Scourge and zealous Scarlet crusaders, it is a perilous realm where free-willed undead carve out their survival.",
+ "sections": [
+  {
+   "title": "A Land in Twilight",
+   "body": "Once the fertile cradle of humanity, Tirisfal Glades has withered beneath the curse of the Lich King's plague. The sun rarely penetrates the murky gloom, casting an eternal sickly pale over dying woods, neglected pumpkin patches, and cold coastal hills. While remnants of old farmsteads like the Agamand Mills and Balnir Farmstead remain, their former masters have largely been swept into mass graves or risen as restless dead. Despite the devastation, a dark resilience permeates the countryside, anchored by towns like Brill and the cloistered sanctuary of Deathknell, where freshly awakened Forsaken learn to endure their second life.",
+   "spoiler": 0
+  },
+  {
+   "title": "A War on Two Fronts",
+   "body": "Though Lady Sylvanas claims dominion over the region from the subterranean Ruins of Lordaeron, the Forsaken remain embattled on all sides. Residual Scourge thralls still infest hollows, fields, and dilapidated crypts, entirely subservient to the frozen throne of Northrend. To the east, the fanatical Scarlet Crusade has made northern Tirisfal its primary bastion, operating out of the Scarlet Monastery. Zealously devoted to the extermination of every undead creature, living and unliving alike, their outposts and patrols wage constant guerrilla warfare against Forsaken scouts and civilian travelers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes of the Ancient Past",
+   "body": "Long before human kingdoms crowned their first monarchs, the Glades bore an ancient legacy. In the ancient tongue of the vrykul, 'Tirisfal' translates to 'Tyr's Fall,' christened after the heroic titan keeper Tyr fought to the death against colossal cosmic horrors. In subsequent eras, high elven exiles briefly tried to settle these woods before shadowy energies deep beneath the earth began driving them mad, prompting their migration north. In later centuries, the secret mortal cabal known as the Council of Tirisfal chose these shadowed groves to empower solitary Guardians, shielding Azeroth from demonic intrusion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the sky green and the land rotting?",
+   "aliases": [
+    "why is tirisfal blighted",
+    "what happened to tirisfal",
+    "why is tirisfal dying"
+   ],
+   "answer": "During the Third War, Prince Arthas and the Scourge unleashed the Plague of Undeath across the Kingdom of Lordaeron. The magical blight poisoned not only the populace, but the soil, trees, and water itself, leaving the glades in an eternal state of eerie, sickly decay."
+  },
+  {
+   "q": "What is the difference between the Forsaken and the Scourge here?",
+   "aliases": [
+    "forsaken vs scourge",
+    "why are zombies attacking undead",
+    "are all undead evil"
+   ],
+   "answer": "The Forsaken are undead who broke free from the Lich King's telepathic domination after the Battle of Mount Hyjal, choosing to follow Lady Sylvanas Windrunner with their own free will. The Scourge roaming the farmsteads and ruins remain mindless slaves bound to the Lich King's commands."
+  },
+  {
+   "q": "Who are the red-armored soldiers attacking travelers?",
+   "aliases": [
+    "scarlet crusade",
+    "red humans",
+    "monastery humans"
+   ],
+   "answer": "They belong to the Scarlet Crusade, an uncompromising splinter order of former Silver Hand paladins and survivors. Convinced all undead are irredeemable abominations that must be purified by sword and fire, they execute both mindless thralls and free-willed Forsaken with fanatical hatred."
+  },
+  {
+   "q": "Where does the name Tirisfal come from?",
+   "aliases": [
+    "tirisfal meaning",
+    "tyrs fall",
+    "origin of tirisfal"
+   ],
+   "answer": "The region is named in honor of the titan keeper Tyr. According to legend, Tyr fell in battle against eldritch horrors in this glade. In the ancient vrykul tongue, 'Tyr's Fall' evolved into the name 'Tirisfal,' and the keeper's silver hand became an emblem woven deeply into early human mythology."
+  },
+  {
+   "q": "Where do newly awakened Forsaken begin their journey?",
+   "aliases": [
+    "undead starting zone",
+    "where is deathknell",
+    "forsaken starting area"
+   ],
+   "answer": "Newly awakened Forsaken emerge from the crypts of the Shadow Grave inside Deathknell, a cloistered town nestled in southwestern Tirisfal. There, administrators and executors evaluate whether the risen dead possess the sanity and loyalty required to serve the Dark Lady."
+  },
+  {
+   "q": "How do travelers leave Tirisfal for other continents?",
+   "aliases": [
+    "tirisfal zeppelins",
+    "how to get to orgrimmar",
+    "how to get to stranglethorn"
+   ],
+   "answer": "A large goblin-operated zeppelin tower sits on the hillside south of Brill, right outside the Ruins of Lordaeron. These airships provide direct, regular transit across the seas to Orgrimmar in Kalimdor and Grom'gol Base Camp in Stranglethorn Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This is your ancestral homeland twice over: the kingdom you built in life, and the precarious sanctuary you must defend in undeath under Lady Sylvanas."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Tirisfal is the Horde's vital bastion in the northern Eastern Kingdoms, anchoring diplomatic ties with the Forsaken while warding off human extremists and the Scourge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For the surviving nations of the Alliance, Tirisfal is a tragic monument to Lordaeron's fall, filled with the desecrated tombs of former brothers and sisters in faith."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Historic holy grounds like Faol's Rest\u2014the tomb of Archbishop Alonsus Faol, founder of the Silver Hand\u2014lie here, warped by death and contested between zealots and Shadow priests."
+  }
+ ],
+ "keywords": [
+  "agamand",
+  "balnir",
+  "brill",
+  "deathknell",
+  "forsaken",
+  "glades",
+  "lordaeron",
+  "scarlet crusade",
+  "sylvanas",
+  "tirisfal",
+  "tyr",
+  "undercity"
+ ],
+ "related": [
+  "zone:undercity",
+  "zone:ruinsoflordaeron",
+  "zone:scarlet",
+  "zone:silverpine",
+  "zone:westernplaguelands",
+  "subzone:brill",
+  "subzone:deathknell",
+  "subzone:bulwark"
+ ],
+ "attribution": [
+  "Tirisfal Glades (Classic)",
+  "Tirisfal Glades"
+ ]
+}

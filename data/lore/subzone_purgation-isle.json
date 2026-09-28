@@ -1,0 +1,88 @@
+{
+ "key": "subzone:purgation-isle",
+ "type": "subzone",
+ "name": "Purgation Isle",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Purgation Isle"
+ },
+ "summary": "Purgation Isle is a spiraling, rocky island lying off the southern coast of the Hillsbrad Foothills. Crowned with a cemetery and a ruined scout tower, the desolate rock is cursed and swarming with the restless, condemned spirits of fallen humans and dwarves.",
+ "sections": [
+  {
+   "title": "A Haunted Sanctuary",
+   "body": "Rising abruptly from the sea south of Hillsbrad, Purgation Isle is a grim sight marked by winding paths that lead past tombstones to an abandoned watchtower. Long before modern conflicts, the island was associated with the maritime kingdom of Kul Tiras. Today, however, no living nation claims it. Instead, the isle is plagued by condemned souls\u2014former paladins, priests, mages, and judges who wander among the graves, unable to find peace in death.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dark Associations",
+   "body": "The lingering souls trapped upon the island have made it a site of sinister interest. Dark spellcasters, such as the ogre necromancer Kormok, have long taken delight in drawing upon the island's anguished dead, summoning forth spirits like Judge Thelgram and Arados the Damned to do their bidding through unholy artifacts like the Brazier of Invocation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Purgation Isle located?",
+   "aliases": [
+    "purgation isle location",
+    "where is purgation isle",
+    "how to find purgation isle"
+   ],
+   "answer": "Purgation Isle is an isolated island off the southern coast of the Hillsbrad Foothills, sitting out in the bay south of the mainland."
+  },
+  {
+   "q": "What haunts the island?",
+   "aliases": [
+    "who is on purgation isle",
+    "mobs on purgation isle",
+    "purgation isle ghosts"
+   ],
+   "answer": "The island is overrun by powerful condemned spirits, including cursed paladins, justiciars, clerics, acolytes, and writhing mages of human and dwarven descent, alongside prominent figures like Judge Thelgram and Arados the Damned."
+  },
+  {
+   "q": "Who originally owned Purgation Isle?",
+   "aliases": [
+    "history of purgation isle",
+    "who built purgation isle tower"
+   ],
+   "answer": "Prior to the First War, Purgation Isle was considered an outlying territory belonging to the island kingdom of Kul Tiras before falling into ruin and ghostly neglect."
+  },
+  {
+   "q": "Who is Kormok and why does he care about this island?",
+   "aliases": [
+    "kormok connection",
+    "brazier of invocation ghosts"
+   ],
+   "answer": "Kormok is a notorious ogre necromancer who mastered summoning forth the condemned spirits of Purgation Isle to perform his bidding using specialized dark artifacts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The tragic sight of cursed paladins and justiciars wandering Purgation Isle serves as a somber reminder of what happens when holy defenders fall to dark curses and are denied eternal rest."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Among the cursed specters haunting the cemetery are dwarven spirits, binding your kin to this lonely, windswept rock far from the mountains of Khaz Modan."
+  }
+ ],
+ "keywords": [
+  "arados the damned",
+  "hillsbrad",
+  "judge thelgram",
+  "kormok",
+  "kul tiras",
+  "purgation isle",
+  "spirits"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "topic:kul-tiras",
+  "topic:first-war",
+  "topic:dwarf",
+  "topic:light"
+ ],
+ "attribution": [
+  "Purgation Isle"
+ ]
+}

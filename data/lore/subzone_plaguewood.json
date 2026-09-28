@@ -1,0 +1,94 @@
+{
+ "key": "subzone:plaguewood",
+ "type": "subzone",
+ "name": "Plaguewood",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Plaguewood"
+ },
+ "summary": "Once a peaceful woodland known as Greenwood, the Plaguewood is now a blighted, fungus-choked expanse stretching south of Stratholme. Crawling with Scourge infrastructure and patrolling Scarlet Crusaders, it stands as one of the most corrupt corners of the Eastern Plaguelands.",
+ "sections": [
+  {
+   "title": "From Greenwood to Decay",
+   "body": "Before the Third War, this region was Greenwood, a vibrant forest that mirrored the lush woods of Elwynn. A modest village sat near its entrance, and its roads were traveled by farmers and soldiers alike. All of that collapsed when tainted grain arrived from Andorhal. Today, spongy, corrupted soil has taken the place of rich earth, and titanic mushrooms dwarf the dead trees, constantly spewing noxious brown vapors across the woodland floor.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bastion of the Dead",
+   "body": "Now completely claimed by the Scourge, the Plaguewood serves as a grim staging ground for the undead surrounding Stratholme. Ziggurats and slaughterhouses dot the decayed landscape, churning out abominations and cultists. To make matters worse for travelers, fanatic Scarlet Crusaders relentlessly patrol the road toward Stratholme's gates, eager to purge the Scourge and brutally slaughter any living wanderers they encounter.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was this forest called before the plague?",
+   "aliases": [
+    "plaguewood old name",
+    "greenwood lore",
+    "what was plaguewood"
+   ],
+   "answer": "Prior to the Third War, the region was known as Greenwood. It was a thriving forest with a small village near its entrance, very similar in beauty and climate to Elwynn Forest."
+  },
+  {
+   "q": "Why are there massive mushrooms growing everywhere?",
+   "aliases": [
+    "giant mushrooms plaguewood",
+    "fungus plaguewood",
+    "why mushrooms"
+   ],
+   "answer": "The plague fundamentally warped the local ecology. The soil turned spongy, and monstrous fungi sprouted across the forest floor, belching noxious brown clouds that resemble the vapors of plague cauldrons."
+  },
+  {
+   "q": "Who controls the Plaguewood today?",
+   "aliases": [
+    "who rules plaguewood",
+    "plaguewood enemies",
+    "who lives in plaguewood"
+   ],
+   "answer": "The forest is overwhelmingly held by the Scourge, complete with necromancers, ghouls, ziggurats, and slaughterhouses. In addition, patrols from the Scarlet Crusade regularly march along the main roads, attacking the undead and any living travelers on sight."
+  },
+  {
+   "q": "Where does the road through the woods lead?",
+   "aliases": [
+    "plaguewood road destination",
+    "where does path go",
+    "stratholme road"
+   ],
+   "answer": "The main road cuts directly north into the gates of the fallen city of Stratholme, while the western expanses of the blighted woods stretch out toward the ruined village of Terrordale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The twisted trees and foul cauldrons of the Plaguewood serve as a harrowing reminder of Lordaeron's fall, testing any champion of the Light against swarms of abominations and unyielding fanatics."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance survivors, walking these paths means seeing the very road Prince Arthas took toward his infamous purge of Stratholme, now drowned in rot and mad Scarlet zealots."
+  }
+ ],
+ "keywords": [
+  "fungus",
+  "greenwood",
+  "plaguewood",
+  "scourge",
+  "slaughterhouses",
+  "stratholme",
+  "terrordale",
+  "ziggurats"
+ ],
+ "related": [
+  "subzone:stratholme",
+  "zone:easternplaguelands",
+  "subzone:terrordale",
+  "topic:scourge",
+  "topic:scarlet-crusade",
+  "topic:lordaeron",
+  "subzone:andorhal",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Plaguewood"
+ ]
+}

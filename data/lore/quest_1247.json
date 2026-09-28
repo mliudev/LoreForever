@@ -1,0 +1,121 @@
+{
+ "key": "quest:1247",
+ "type": "quest",
+ "name": "The Missing Diplomat",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1247
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Dashel Stonefist",
+  "end": "Elling Trias",
+  "previous": "The Missing Diplomat (8)",
+  "next": "The Missing Diplomat (10)",
+  "wiki": "The Missing Diplomat (9)",
+  "chain": []
+ },
+ "summary": "This step in the investigation of Stormwind's missing envoy follows the interrogation of Dashel Stonefist in the Old Town docks. Having beaten a confession out of the thug, you carry word of a backup abduction plot back to the spymaster disguised as a master of cheese, Elling Trias.",
+ "sections": [
+  {
+   "title": "A Crack in the Wall",
+   "body": "Dashel Stonefist is not the kind of operative who takes secrets to the grave, especially once convinced his health is on the line. Cornered behind the five-and-dime in Old Town, Dashel folds and admits that his role in the kidnapping crumbled when the conspirators' initial plan fell apart. Desperate to deflect blame, he points to a clandestine meeting held weeks earlier at Addle's Stead in Westfall and offers a single lead for their backup operation: an insider operating out of Menethil Harbor known only as Slim.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reporting to the Fromager",
+   "body": "Elling Trias maintains an unassuming presence behind the counter of Trias' Cheese in the Trade District, but his true profession is the gathering of secrets for the Crown. While you wrung details out of Dashel, Trias examined captured communications regarding the plot. Dashel's confession matches the written intelligence: an unnamed diplomat was targeted, the primary ambush went awry, and a contingency was set in motion via the Wetlands. With the name 'Slim' in hand, the search moves from Stormwind's shadowed alleys north toward the marshes.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dashel Stonefist?",
+   "aliases": [
+    "dashel stonefist",
+    "who is dashel",
+    "stonefist stormwind"
+   ],
+   "answer": "Dashel Stonefist is a local muscle and fixer operating out of Stormwind's Old Town. Entangled in the Defias-linked underworld, he served as a ground-level henchman in the initial scheme to capture Stormwind's envoy before turning informant when confronted."
+  },
+  {
+   "q": "Why is Elling Trias involved in this investigation?",
+   "aliases": [
+    "why elling trias",
+    "cheese vendor spy",
+    "trias intelligence"
+   ],
+   "answer": "While known publicly as a master of fine cheeses, Elling Trias is one of Stormwind's veteran intelligence operatives. He uses his shop in the Trade District as a cover to coordinate covert inquiries that require discretion beyond the official city guard."
+  },
+  {
+   "q": "What happened at Addle's Stead?",
+   "aliases": [
+    "addle's stead meeting",
+    "addles stead",
+    "westfall meeting"
+   ],
+   "answer": "Addle's Stead is an abandoned farmstead in Westfall where the conspirators convened weeks prior to coordinate their kidnapping schemes after their opening gambit was disrupted."
+  },
+  {
+   "q": "Who is the diplomat they were trying to abduct?",
+   "aliases": [
+    "who is missing diplomat",
+    "who got kidnapped",
+    "the diplomat identity"
+   ],
+   "answer": "The official documents and street thugs only refer to the target as an unnamed diplomat on a critical peace mission. In truth, the envoy is King Varian Wrynn himself, traveling incognito toward Theramore before he was ambushed."
+  },
+  {
+   "q": "Who is Slim?",
+   "aliases": [
+    "who is slim",
+    "slim menethil",
+    "menethil contact"
+   ],
+   "answer": "Slim is the contact identified by Dashel Stonefist as the operative handling 'Plan B' out of Menethil Harbor in the Wetlands, representing the conspirators' secondary logistics route."
+  },
+  {
+   "q": "Where does the trail lead after this?",
+   "aliases": [
+    "next step missing diplomat",
+    "where to go after dashel",
+    "what next"
+   ],
+   "answer": "Armed with the name Slim and confirmation from Elling Trias, the investigation shifts northward to the port town of Menethil Harbor in the Wetlands to hunt down the contact."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "For an operative of the shadows, coordinating between back-alley muscle like Dashel and spymasters like Trias highlights the thin divide between common street crime and high-stakes statecraft."
+  },
+  {
+   "target": "race:Human",
+   "text": "The conspiracy unfolds directly within the capital's borders, proving that treason has festered inside the kingdom of Stormwind while the boy-king sits upon the throne."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Unraveling the envoy's disappearance is vital to the stability of the entire Alliance, as high-level sabotage threatens the leadership in Stormwind."
+  }
+ ],
+ "keywords": [
+  "addle's stead",
+  "dashel stonefist",
+  "elling trias",
+  "menethil",
+  "missing diplomat",
+  "slim",
+  "stormwind"
+ ],
+ "related": [
+  "npc:dashel-stonefist",
+  "npc:elling-trias",
+  "subzone:addle-s-stead",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "The Missing Diplomat (9)"
+ ]
+}

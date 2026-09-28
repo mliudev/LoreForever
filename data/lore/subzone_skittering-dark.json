@@ -1,0 +1,81 @@
+{
+ "key": "subzone:skittering-dark",
+ "type": "subzone",
+ "name": "Skittering Dark",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Skittering Dark"
+ },
+ "summary": "The Skittering Dark is an abandoned mine and shadowy woodland hollow in western Silverpine Forest. Infested by aggressive Skitterweb spiders and their massive matriarch, the cavern and its surrounding woods are littered with webbed cocoons containing unwary beasts and travelers.",
+ "sections": [
+  {
+   "title": "A Webbed Hollow",
+   "body": "Tucked between the Forsaken Rear Guard and the western coast of North Tide's Run, the Skittering Dark was once a working mine. Today, the shafts are completely choked with cobwebs, serving as the sprawling nest of the Skitterweb arachnids. Under the watch of a monstrous matriarch deep underground\u2014and the shadowy weaver Krethis haunting the exterior\u2014the spiders hunt anything that strays too close. Their silk-wrapped larder includes indigenous bears, wandering worgen from the nearby woodlands, and unfortunate orc shipwreck survivors dragged inland from the coast.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Skittering Dark?",
+   "aliases": [
+    "skittering dark mine",
+    "what is this mine",
+    "spider cave silverpine"
+   ],
+   "answer": "It is an abandoned mine in western Silverpine Forest that has been entirely overrun by giant Skitterweb spiders. The cavern network and surrounding trees are thick with sticky webbing and predatory arachnids."
+  },
+  {
+   "q": "What is inside the cocoons littering the area?",
+   "aliases": [
+    "webbed cocoons",
+    "who is in the webs",
+    "spider victims"
+   ],
+   "answer": "The Skitterwebs prey on local wildlife like bears and worgs, but their webs also trap feral worgen from the surrounding woods and shipwrecked orc sailors who washed ashore at North Tide's Run."
+  },
+  {
+   "q": "Who leads the spiders in the mine?",
+   "aliases": [
+    "spider boss",
+    "skittering dark boss",
+    "matriarch"
+   ],
+   "answer": "The brood is led by the Skitterweb Matriarch, a massive spider nesting deep within the darkened tunnels of the mine shaft."
+  },
+  {
+   "q": "Where is the Skittering Dark located?",
+   "aliases": [
+    "skittering dark location",
+    "how to find skittering dark"
+   ],
+   "answer": "It sits nestled against the hills in western Silverpine Forest, directly west of the Forsaken Rear Guard and just east of the shoreline known as North Tide's Run."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Orcs venturing into Silverpine should take note: the Skitterwebs actively drag stranded Horde survivors from the nearby coastal shipwreck into their webbed dens."
+  }
+ ],
+ "keywords": [
+  "krethis",
+  "matriarch",
+  "mine",
+  "north tide's run",
+  "silverpine",
+  "skittering dark",
+  "skitterweb",
+  "spider"
+ ],
+ "related": [
+  "zone:silverpine",
+  "subzone:north-tide-s-run",
+  "subzone:forsaken-rear-guard",
+  "topic:worgen",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Skittering Dark"
+ ]
+}

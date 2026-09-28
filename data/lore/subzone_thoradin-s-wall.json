@@ -1,0 +1,91 @@
+{
+ "key": "subzone:thoradin-s-wall",
+ "type": "subzone",
+ "name": "Thoradin's Wall",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Thoradin's Wall"
+ },
+ "summary": "Thoradin's Wall is a monumental, crumbling stone rampart dividing the Arathi Highlands from the Hillsbrad Foothills. Commissioned millennia ago by King Thoradin during the dawn of the Empire of Arathor, it was built to shield early humanity from the fierce incursions of the Amani trolls.",
+ "sections": [
+  {
+   "title": "A Bulwark of Ancient Arathor",
+   "body": "Erected nearly three thousand years ago, Thoradin's Wall marks the western frontier of ancient Strom, the heart of the first unified human empire. King Thoradin recognized that humanity's fledgeling settlements were acutely vulnerable to the predatory raids of the Amani forest trolls. By raising this vast stone barrier across the valley corridor, Arathor secured its heartland and forged a defensible bastion from which humanity could survive and eventually contest troll supremacy in the north.",
+   "spoiler": 0
+  },
+  {
+   "title": "Centuries of Decay",
+   "body": "Today, the ancient barrier stands in severe disrepair. Vast breeches gash the stone ramparts, their battlements weathered down by thousands of years of exposure, warfare, and abandonment. Following the splintering of Arathor into rival kingdoms and the eventual fall of neighboring Lordaeron to the Scourge, no central realm maintains the masonry. Now, travelers and roaming bandits slip freely through its broken archways as they journey between Hillsbrad and the untamed Arathi Highlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who built Thoradin's Wall?",
+   "aliases": [
+    "who made thoradins wall",
+    "creator of thoradins wall",
+    "thoradin wall origins"
+   ],
+   "answer": "It was commissioned by King Thoradin, the founder and warlord who unified humanity's tribes to establish the Empire of Arathor nearly three millennia ago."
+  },
+  {
+   "q": "Why was the wall built in the first place?",
+   "aliases": [
+    "purpose of thoradins wall",
+    "why build the wall",
+    "what was thoradins wall for"
+   ],
+   "answer": "King Thoradin ordered its construction to defend humanity's early capital, Strom, and its fledgling settlements from the fierce raids of the neighboring Amani troll empire."
+  },
+  {
+   "q": "Why is the wall so broken down today?",
+   "aliases": [
+    "why is thoradin wall broken",
+    "who destroyed thoradins wall",
+    "why ruined"
+   ],
+   "answer": "The wall has suffered thousands of years of natural weathering, conflict, and neglect. After the Empire of Arathor splintered into independent human nations, the grand frontier fortification lost its strategic priority and was left to decay."
+  },
+  {
+   "q": "What regions does Thoradin's Wall separate?",
+   "aliases": [
+    "where is thoradins wall",
+    "what does the wall divide",
+    "border of thoradins wall"
+   ],
+   "answer": "The wall forms the natural overland border separating the lush Hillsbrad Foothills to the west from the rugged Arathi Highlands to the east."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Standing before the wall is a solemn brush with human antiquity, showcasing the enduring masonry of King Thoradin, who first unified the scattered human tribes."
+  },
+  {
+   "target": "race:Troll",
+   "text": "The ruined fortifications are a stark reminder of the ancient territorial wars where humanity successfully halted the domain of the forest trolls."
+  }
+ ],
+ "keywords": [
+  "amani",
+  "arathi",
+  "arathor",
+  "hillsbrad",
+  "strom",
+  "thoradin",
+  "thoradin's wall",
+  "wall"
+ ],
+ "related": [
+  "zone:arathi",
+  "zone:hillsbrad",
+  "topic:troll",
+  "topic:dwarf",
+  "topic:syndicate"
+ ],
+ "attribution": [
+  "Thoradin's Wall"
+ ]
+}

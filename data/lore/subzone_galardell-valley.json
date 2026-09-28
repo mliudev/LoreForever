@@ -1,0 +1,79 @@
+{
+ "key": "subzone:galardell-valley",
+ "type": "subzone",
+ "name": "Galardell Valley",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Galardell Valley"
+ },
+ "summary": "Galardell Valley is a rugged, dangerous canyon nestled in the northeastern heights of the Redridge Mountains. The gorge is overrun by aggressive gnoll packs and sits beneath the shadow of the infamous Tower of Ilgalar.",
+ "sections": [
+  {
+   "title": "A Den of Beasts and Shadow",
+   "body": "Carved into the northeastern cliffs of Redridge, Galardell Valley has fallen completely out of the control of Lakeshire's defenders. Fierce Redridge gnolls prowl the lowlands and camp along the canyon floor, organized under brutal pack leaders such as Lieutenant Fangore. Towering high above the ravines stands the dark spire of the Tower of Ilgalar, the stronghold of the renegade mage Morganth, making the entire valley a persistent source of dread for the surrounding settlements.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Galardell Valley located?",
+   "aliases": [
+    "galardell valley location",
+    "where is galardell valley",
+    "how to find galardell valley"
+   ],
+   "answer": "Galardell Valley is situated in the far northeastern corner of the Redridge Mountains, tucked behind the high crags beyond the roads leading north from Lake Everstill."
+  },
+  {
+   "q": "What creatures live in the valley?",
+   "aliases": [
+    "mobs in galardell valley",
+    "who lives in galardell valley",
+    "galardell enemies"
+   ],
+   "answer": "The valley is overrun by bloodthirsty gnoll packs who patrol the trails in dense clusters, led by dangerous brutes like Lieutenant Fangore."
+  },
+  {
+   "q": "What is the dark tower overlooking the valley?",
+   "aliases": [
+    "galardell valley tower",
+    "spire above galardell",
+    "tower near gnolls redridge"
+   ],
+   "answer": "That is the Tower of Ilgalar, an imposing stone structure that serves as the base of operations for the rogue sorcerer Morganth."
+  },
+  {
+   "q": "Who is Lieutenant Fangore?",
+   "aliases": [
+    "fangore",
+    "lieutenant fangore",
+    "galardell valley boss"
+   ],
+   "answer": "Lieutenant Fangore is a formidable gnoll leader stationed within the valley. Known for his cunning and ferocity, he will howl for aid from nearby gnoll packs when challenged, quickly overwhelming unwary travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire's overwhelmed town guard cannot secure the northeast road as long as gnoll packs and Morganth's dark presence hold Galardell Valley."
+  }
+ ],
+ "keywords": [
+  "fangore",
+  "galardell valley",
+  "gnolls",
+  "morganth",
+  "redridge",
+  "tower of ilgalar"
+ ],
+ "related": [
+  "subzone:tower-of-ilgalar",
+  "zone:redridge",
+  "quest:249",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Galardell Valley"
+ ]
+}

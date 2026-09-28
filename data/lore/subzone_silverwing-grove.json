@@ -1,0 +1,86 @@
+{
+ "key": "subzone:silverwing-grove",
+ "type": "subzone",
+ "name": "Silverwing Grove",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Silverwing Grove"
+ },
+ "summary": "Tucked away in south-central Ashenvale near Fallen Sky Lake, Silverwing Grove serves as the staging grounds for the Silverwing Sentinels. From this fortified hollow, night elf warriors muster Alliance forces to push back the Warsong Clan loggers tearing through the forest.",
+ "sections": [
+  {
+   "title": "Front Line of the Forest War",
+   "body": "Hidden beneath the emerald canopy southwest of Silverwing Outpost, Silverwing Grove is a crucial military staging post for the Silverwing Sentinels. Rather than a tranquil woodland retreat, it functions as the operational heartbeat for the night elves' bitter territorial contest against the Horde's lumber operations in Warsong Gulch. High-ranking Alliance officers, provisions, and scouts gather here, organizing skirmishes and marshaling champions to defend ancient Ashenvale against orcish expansion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Silverwing Grove?",
+   "aliases": [
+    "why is silverwing grove here",
+    "what is silverwing grove",
+    "purpose of silverwing grove"
+   ],
+   "answer": "Silverwing Grove serves as the staging base for the Silverwing Sentinels. It is where the night elf military and their Alliance allies organize efforts to contest the Warsong Clan's deforesting efforts and enter the ongoing conflict in Warsong Gulch."
+  },
+  {
+   "q": "Where is Silverwing Grove located?",
+   "aliases": [
+    "silverwing grove location",
+    "where is silverwing grove",
+    "how to find silverwing grove"
+   ],
+   "answer": "It is located in south-central Ashenvale, situated southwest of Silverwing Outpost and just west of Fallen Sky Lake."
+  },
+  {
+   "q": "Who operates out of Silverwing Grove?",
+   "aliases": [
+    "who is at silverwing grove",
+    "silverwing grove npcs",
+    "who runs silverwing grove"
+   ],
+   "answer": "The grove is manned by the Silverwing Sentinels alongside Alliance military commanders, including an Alliance Brigadier General, logistical vendors, and officers such as Sentinel Farsong who coordinate efforts against the Horde."
+  },
+  {
+   "q": "Can Horde players enter Silverwing Grove?",
+   "aliases": [
+    "is silverwing grove hostile",
+    "can horde go to silverwing grove",
+    "horde silverwing grove"
+   ],
+   "answer": "No. The grove is an active military post populated by hostile Alliance sentinels and guards who will immediately attack any encroaching Horde members on sight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, Silverwing Grove represents the steadfast resolve to halt the desecration of sacred trees at the axes of the Warsong Clan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The grove is the primary staging ground for Alliance champions seeking to muster and enter the bloody skirmishes of Warsong Gulch."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "fallen sky lake",
+  "sentinel farsong",
+  "silverwing grove",
+  "silverwing sentinels",
+  "warsong gulch"
+ ],
+ "related": [
+  "subzone:silverwing-outpost",
+  "topic:sentinels",
+  "npc:sentinel-farsong",
+  "quest:1035",
+  "zone:ashenvale",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Silverwing Grove"
+ ]
+}

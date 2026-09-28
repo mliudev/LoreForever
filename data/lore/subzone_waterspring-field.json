@@ -1,0 +1,73 @@
+{
+ "key": "subzone:waterspring-field",
+ "type": "subzone",
+ "name": "Waterspring Field",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Waterspring Field"
+ },
+ "summary": "Waterspring Field is a vital water-pumping operation in northern Tanaris, constructed by the goblins of Gadgetzan to tap underground aquifers. Instead of supplying the boomtown, the field has been overtaken by the ruthless Wastewander bandits, who now hoard the desert's most precious resource.",
+ "sections": [
+  {
+   "title": "A Stolen Oasis",
+   "body": "In the searing wastes of Tanaris, nothing carries more value than fresh water. Seeking to support their expanding trade hub, the Steamwheedle Cartel goblins of Gadgetzan erected an array of industrial pumping towers across Waterspring Field to draw from underground reserves. Their plans collapsed when the Wastewanders\u2014a sprawling band of human outlaws and desert marauders\u2014seized the entire field. The bandits now guard the hijacked pumps with their lives, forcing Gadgetzan to look for hired blades willing to reclaim the moisture.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who built the water towers here?",
+   "aliases": [
+    "who built this",
+    "goblin pumps",
+    "waterspring field towers"
+   ],
+   "answer": "The towers were built by the goblins of Gadgetzan. They intended to pump fresh water from deep subterranean reserves to sustain their desert settlement and industrial operations."
+  },
+  {
+   "q": "Why are there bandits squatting at Waterspring Field?",
+   "aliases": [
+    "who are the bandits",
+    "wastewanders waterspring",
+    "why are wastewanders here"
+   ],
+   "answer": "The Wastewander nomads invaded the field and seized the machinery for themselves. Controlling the primary source of fresh water in northern Tanaris gives them total leverage over surrounding travelers and merchants."
+  },
+  {
+   "q": "Why doesn't Gadgetzan take the field back directly?",
+   "aliases": [
+    "why gadgetzan no fight",
+    "goblin guards waterspring"
+   ],
+   "answer": "The Steamwheedle Cartel prefers to protect its own trade town rather than waste its bruised bruised Bruisers on bloody field skirmishes. They find it far more cost-effective to contract passing adventurers and mercenaries to cull the bandits and retrieve their water pouches."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The goblin-built mechanical pumping towers represent impressive desert hydraulics, though the occupying Wastewanders have neglected regular maintenance."
+  },
+  {
+   "target": "race:Human",
+   "text": "The Wastewander bandits occupying the towers are predominantly human outlaws who have forsaken the kingdoms of the north to carve out a brutal existence in the desert sun."
+  }
+ ],
+ "keywords": [
+  "gadgetzan",
+  "pumps",
+  "tanaris",
+  "wastewander",
+  "water pouches",
+  "water towers",
+  "waterspring field"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:gadgetzan",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Waterspring Field"
+ ]
+}

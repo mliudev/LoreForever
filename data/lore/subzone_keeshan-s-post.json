@@ -1,0 +1,74 @@
+{
+ "key": "subzone:keeshan-s-post",
+ "type": "subzone",
+ "name": "Keeshan's Post",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Keeshan's Post"
+ },
+ "summary": "Keeshan's Post is an elevated lookout point in the Redridge Mountains situated just north of the Blackrock stronghold of Stonewatch. Named after the veteran commando John J. Keeshan, the vantage oversees the hostile ridges and approaches leading into the orc fortifications.",
+ "sections": [
+  {
+   "title": "Watching the Stronghold",
+   "body": "Perched on the rugged bluffs above Stonewatch, Keeshan's Post serves as a critical surveillance point against the Blackrock clan orcs occupying eastern Redridge. From this rocky overlook, scouts can observe enemy troop movements, scout patrols, and keep an eye on Stonewatch Keep and the neighboring watchtowers without immediately drawing the wrath of the Blackrock garrison.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Keeshan's Post located?",
+   "aliases": [
+    "keeshans post location",
+    "where is keeshan's post",
+    "how to get to keeshans post"
+   ],
+   "answer": "Keeshan's Post sits directly north of Stonewatch Keep in the eastern heights of the Redridge Mountains, overlooking the paths and valley leading into the Blackrock orc encampments."
+  },
+  {
+   "q": "Who is John J. Keeshan?",
+   "aliases": [
+    "who is keeshan",
+    "john j keeshan lore",
+    "keeshan background"
+   ],
+   "answer": "John J. Keeshan is a battle-hardened veteran commando of the First and Second Wars, known throughout Redridge for his guerrilla fighting experience against the orcish invaders."
+  },
+  {
+   "q": "Why is this vantage point important?",
+   "aliases": [
+    "why watch stonewatch",
+    "keeshans post purpose"
+   ],
+   "answer": "The post provides a clear line of sight over Stonewatch Tower and the surrounding encampments, making it an ideal staging point for observing enemy movements and preparing assaults against the Blackrock clan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance forces struggling against the Blackrock menace, holding high ground like Keeshan's Post is vital to keeping tabs on the orc forces threatening Lakeshire."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The craggy overlook provides commanding sightlines over the valley floor, highlighting the value of elevated terrain when tracking or ambush planning."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "keeshan",
+  "keeshan's post",
+  "overlook",
+  "redridge",
+  "stonewatch"
+ ],
+ "related": [
+  "npc:john-j-keeshan",
+  "subzone:stonewatch",
+  "subzone:stonewatch-keep",
+  "subzone:stonewatch-tower",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Keeshan's Post"
+ ]
+}

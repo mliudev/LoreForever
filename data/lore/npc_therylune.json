@@ -1,0 +1,88 @@
+{
+ "key": "npc:therylune",
+ "type": "npc",
+ "name": "Therylune",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Therylune",
+  "refs": 1
+ },
+ "summary": "Therylune is a dryad found held captive at the Master's Glaive in southern Darkshore. Entrapped by the insidious Twilight's Hammer cultists who have occupied the ancient site, she relies on bold travelers to help her break free and escape their clutches.",
+ "sections": [
+  {
+   "title": "Captive of the Cult",
+   "body": "Dryads are guardians of nature and daughters of Cenarius, normally roaming the tranquil woodlands of northern Kalimdor. However, Therylune ventured too close to the ominous excavation at the Master's Glaive in southern Darkshore, where Twilight's Hammer cultists have gathered. Ambushed and trapped by the dark cult, she is unable to fight her way out alone through the swarms of cultists and requires an escort to flee to safety.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Therylune?",
+   "aliases": [
+    "who is therylune",
+    "therylune lore",
+    "what is therylune"
+   ],
+   "answer": "Therylune is a dryad, one of the woodland daughters of the demigod Cenarius. She has been captured by Twilight's Hammer cultists operating at the Master's Glaive in southern Darkshore."
+  },
+  {
+   "q": "Why is Therylune trapped at the Master's Glaive?",
+   "aliases": [
+    "why is she captured",
+    "how did therylune get caught",
+    "masters glaive cultists"
+   ],
+   "answer": "Therylune was ambushed and pinned down by the Twilight's Hammer cultists who have established a dark camp around the giant petrified remains at the Master's Glaive."
+  },
+  {
+   "q": "Does Therylune have any family?",
+   "aliases": [
+    "therylune sister",
+    "therysil therylune",
+    "therylune family"
+   ],
+   "answer": "Yes, Therylune is the sister of Therysil, another dryad who dwells in the woodlands of northern Kalimdor."
+  },
+  {
+   "q": "What happens once you help her escape?",
+   "aliases": [
+    "therylunes escape",
+    "quest 945",
+    "what does therylune do"
+   ],
+   "answer": "When adventurers clear a path through the hostile cultists, Therylune successfully flees the Master's Glaive and returns to the safety of the surrounding wilds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As stewards of nature aligned with Cenarius and his kin, druids feel a direct kinship and urgent duty to rescue a dryad captured by malevolent cultists."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elves share sacred ancient ties with the daughters of Cenarius, making Therylune's captivity at the hands of the Twilight's Hammer an affront to Kalimdor's balance."
+  }
+ ],
+ "keywords": [
+  "cenarius",
+  "darkshore",
+  "dryad",
+  "escort",
+  "master's glaive",
+  "therylune",
+  "therysil",
+  "twilight's hammer"
+ ],
+ "related": [
+  "quest:945",
+  "subzone:master-s-glaive",
+  "zone:darkshore",
+  "topic:twilight-s-hammer",
+  "npc:therysil",
+  "quest:944"
+ ],
+ "attribution": [
+  "Therylune"
+ ]
+}

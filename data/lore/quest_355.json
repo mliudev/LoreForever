@@ -1,0 +1,122 @@
+{
+ "key": "quest:355",
+ "type": "quest",
+ "name": "Speak with Sevren",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   355
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Coleman Farthing",
+  "end": "Magistrate Sevren",
+  "previous": "The Haunted Mills (Classic)",
+  "next": "The Family Crypt (Classic)",
+  "wiki": "Speak with Sevren (Classic)",
+  "chain": [
+   "The Haunted Mills (Classic)",
+   "Speak with Sevren (Classic)",
+   "The Family Crypt (Classic)"
+  ]
+ },
+ "summary": "Following the settling of Coleman Farthing's personal score at Agamand Mills, Magistrate Sevren summons the adventurer to Brill. The mills house far more than bitter family ghosts; they represent an active Scourge peril on the settlement's northern border.",
+ "sections": [
+  {
+   "title": "From Vengeance to Civic Duty",
+   "body": "Coleman Farthing sought personal retribution against his former neighbors, the Agamands, sending travelers north to tear through the undead lurking about the flour mills. Once those remains were delivered, Coleman recognized that his private grudge intersected with a wider tactical problem: the entire Agamand estate remains swarming with mindlessly aggressive Scourge minions right on Brill's doorstep.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Magistrate's Call",
+   "body": "Magistrate Sevren oversees civic and military security in Brill for the Dark Lady. Impressed by reports of an adventurer capable of surviving deep incursions into the haunted farmlands, Sevren steps in to direct those capable hands toward the root of the infestation\u2014the ancient Agamand family crypt itself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Coleman Farthing send me to Magistrate Sevren?",
+   "aliases": [
+    "why go to sevren",
+    "coleman farthing referral",
+    "who is magistrate sevren"
+   ],
+   "answer": "Coleman satisfied his own vengeance against the resurrected Agamand family, but he knows the undead presence at the mills threatens all of Brill. He reported your combat prowess to Magistrate Sevren, who organizes local defense."
+  },
+  {
+   "q": "Where can Magistrate Sevren be found?",
+   "aliases": [
+    "sevren location",
+    "where is magistrate sevren",
+    "find sevren"
+   ],
+   "answer": "Magistrate Sevren is stationed in Brill, Tirisfal Glades, usually found standing outside the town hall directing local affairs for the Forsaken."
+  },
+  {
+   "q": "What threat do the Agamand Mills pose?",
+   "aliases": [
+    "agamand mills danger",
+    "why are mills a threat"
+   ],
+   "answer": "The mills lie just north of Brill and remain thoroughly infested by mindless Scourge. Left unchecked, the walking dead and restless spirits wandering the fields could easily overrun the town."
+  },
+  {
+   "q": "What happens after speaking with Magistrate Sevren?",
+   "aliases": [
+    "next quest after sevren",
+    "what does sevren want"
+   ],
+   "answer": "Sevren enlists you for a direct strike into the Agamand Family Crypt to eliminate the deeper Scourge threat anchoring the undead to the mills."
+  },
+  {
+   "q": "Does this quest require returning to the mills immediately?",
+   "aliases": [
+    "do i go back to the mills",
+    "is this quest just talking"
+   ],
+   "answer": "This brief assignment is simply a bridge. You report to Sevren in Brill to conclude Coleman's lead before accepting your next mission into the crypt."
+  },
+  {
+   "q": "Why does Brill care about the Agamand family?",
+   "aliases": [
+    "agamand importance",
+    "who are the agamands to brill"
+   ],
+   "answer": "In life, the Agamands were wealthy regional mill owners and prominent neighbors in Tirisfal. In death, their unhallowed estate serves as a fortified staging ground for mindless Scourge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Proving capable against the mindless Scourge earns rapid recognition in Brill, moving you from freelance odd-jobs to direct civic defense under Magistrate Sevren."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Brill represents the first line of defense for the Undercity; securing the surrounding farmland from the Scourge is vital for the Horde's hold on northern Lordaeron."
+  }
+ ],
+ "keywords": [
+  "agamand mills",
+  "brill",
+  "coleman farthing",
+  "magistrate sevren",
+  "sevren",
+  "the family crypt",
+  "the haunted mills",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:magistrate-sevren",
+  "npc:coleman-farthing",
+  "quest:362",
+  "quest:408",
+  "subzone:brill",
+  "subzone:agamand-mills",
+  "zone:tirisfal",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Speak with Sevren (Classic)"
+ ]
+}

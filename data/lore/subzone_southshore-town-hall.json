@@ -1,0 +1,85 @@
+{
+ "key": "subzone:southshore-town-hall",
+ "type": "subzone",
+ "name": "Southshore Town Hall",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Southshore Town Hall"
+ },
+ "summary": "Southshore Town Hall serves as the administrative seat of the southern coast of Hillsbrad Foothills, standing as one of the last functioning centers of Lordaeron's civil authority. From inside, Magistrate Henry Maleb coordinates local defenses and governs the town's surviving populace. The hall is a vital hub for the Alliance as they struggle to maintain a foothold in the plagued north.",
+ "sections": [
+  {
+   "title": "A Bastion of Civil Rule",
+   "body": "While much of Lordaeron lies shattered under Scourge corruption and Forsaken expansion, Southshore's town hall maintains the semblance of an intact human government. Magistrate Henry Maleb oversees daily governance from his office here, working alongside officials like Kundric Zanden to secure resources and preserve civic order. In a region surrounded by aggressive undead, Syndicate rogues, and Hillsbrad's fierce border skirmishes, the hall is the nerve center directing the town's survival against constant threats.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who leads the town from the Southshore Town Hall?",
+   "aliases": [
+    "who is in charge here",
+    "southshore mayor",
+    "who runs southshore"
+   ],
+   "answer": "Magistrate Henry Maleb serves as the primary civil leader in Southshore and conducts town business from inside the town hall, directing the defense and administration of the surviving human settlement."
+  },
+  {
+   "q": "What is the strategic importance of Southshore Town Hall?",
+   "aliases": [
+    "why does the town hall matter",
+    "southshore importance"
+   ],
+   "answer": "It represents one of the final seats of Lordaeron's rightful civil leadership in the north. Alliance members look to the town hall for direction, bounties, and coordination against the encroaching Forsaken and Syndicate bandits."
+  },
+  {
+   "q": "Who else works inside the town hall?",
+   "aliases": [
+    "who is inside southshore town hall",
+    "kundric zanden",
+    "town hall npcs"
+   ],
+   "answer": "Alongside Magistrate Henry Maleb, civil servants such as Kundric Zanden are stationed within the town hall to assist in managing local affairs and supporting town operations."
+  },
+  {
+   "q": "How does the town hall maintain ties with the wider Alliance?",
+   "aliases": [
+    "is southshore alliance",
+    "ties to stormwind"
+   ],
+   "answer": "Though historically part of the Kingdom of Lordaeron, Southshore and its leadership now rely heavily on the Alliance, receiving reinforcements and supplies to defend this isolated coastal bastion against surrounding hostile forces."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions arriving in the north, Southshore Town Hall is the primary civic outpost providing regional authority and vital missions against nearby threats."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human travelers view the town hall as a poignant reminder of Lordaeron's lost glory, where a functioning magistrate still flies the banners of a shattered kingdom."
+  }
+ ],
+ "keywords": [
+  "henry maleb",
+  "hillsbrad",
+  "kundric zanden",
+  "lordaeron",
+  "magistrate",
+  "southshore",
+  "town hall"
+ ],
+ "related": [
+  "subzone:southshore",
+  "npc:magistrate-henry-maleb",
+  "zone:hillsbrad",
+  "topic:lordaeron",
+  "topic:forsaken",
+  "topic:third-war",
+  "subzone:fenris-isle"
+ ],
+ "attribution": [
+  "Southshore Town Hall"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "key": "subzone:vault-of-ironforge",
+ "type": "subzone",
+ "name": "Vault of Ironforge",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Vault of Ironforge"
+ },
+ "summary": "The Vault of Ironforge is the primary banking house and treasure repository for the dwarven capital. Situated in the bustling Commons directly opposite the Auction House, it serves as a central hub where citizens and travelers across the Alliance securely store their wealth. The vault's operations are overseen by Dinita and the esteemed Stonemantle family.",
+ "sections": [
+  {
+   "title": "Heart of Dwarven Commerce",
+   "body": "Carved deep into the mountain rock of the Commons, the Vault of Ironforge stands as a symbol of dwarven fiscal security and craft. With the city's trade booming, travelers, soldiers, and merchants gather here daily to deposit coin, relics, and provisions under the vigilant eyes of city guards and tellers. Overseen by Dinita and the trusted Stonemantle family, the institution offers Alliance patrons absolute peace of mind. Local talk often suggests that beyond the personal safety deposit boxes lies the Ironforge Royal Treasury itself, tucked away behind thick stone and dwarven-forged iron.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Vault of Ironforge used for?",
+   "aliases": [
+    "vault purpose",
+    "ironforge bank",
+    "what is this place"
+   ],
+   "answer": "The Vault serves as the central bank and safe-deposit storehouse for the city of Ironforge. Citizens and Alliance travelers rely on it to keep their gold, gear, and prized possessions secure within the mountain's heavy stone walls."
+  },
+  {
+   "q": "Who operates the bank?",
+   "aliases": [
+    "bankers",
+    "who runs the vault",
+    "stonemantle family"
+   ],
+   "answer": "The facility is maintained by Dinita alongside members of the Stonemantle family, who manage deposits, transactions, and storage for visitors."
+  },
+  {
+   "q": "Where is the Vault located?",
+   "aliases": [
+    "vault location",
+    "where is ironforge bank",
+    "how to find vault"
+   ],
+   "answer": "You can find it directly in the Commons district of Ironforge, sitting just across the plaza from the bustling city Auction House."
+  },
+  {
+   "q": "Is the Ironforge Royal Treasury kept here?",
+   "aliases": [
+    "royal treasury",
+    "dwarf royal gold",
+    "king's gold vault"
+   ],
+   "answer": "While the tellers only handle personal accounts in public view, rumors throughout the city suggest that the kingdom's own royal treasury is sealed deep behind the vault's reinforced inner doors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, the Vault is a matter of mountain pride, representing unyielding security and an enduring reputation for safeguarding dwarven wealth."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Positioned right across from the city's Auction House, the Vault serves as a cornerstone of Alliance trade, keeping adventurers well-funded and supplied."
+  }
+ ],
+ "keywords": [
+  "dinita",
+  "ironforge",
+  "ironforge bank",
+  "royal treasury",
+  "stonemantle",
+  "the commons",
+  "vault of ironforge"
+ ],
+ "related": [
+  "zone:ironforge",
+  "subzone:commons",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Vault of Ironforge"
+ ]
+}

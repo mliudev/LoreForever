@@ -1,0 +1,112 @@
+{
+ "key": "npc:jonathan-carevin",
+ "type": "npc",
+ "name": "Jonathan Carevin",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Jonathan Carevin",
+  "refs": 4
+ },
+ "summary": "Jonathan Carevin is a resolute human hunter residing in Darkshire, dedicated to eradicating the darkness plaguing Duskwood. Unlike the defensive Night Watch, he and his family actively hunt down the undead, worgen, and any heretical threats lurking under the darkened canopies.",
+ "sections": [
+  {
+   "title": "The Carevin Crusade",
+   "body": "While Darkshire depends upon the Night Watch to patrol the roads and safeguard the township, Jonathan Carevin believes a mere defensive perimeter is insufficient. Alongside his family and allies like Calor, Jonathan takes the offensive. He actively targets the unholy fiends wandering Duskwood, pursuing a personal crusade to purge all demons, undead, and heretics from the region under the grace of the Light.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadow of the Worgen",
+   "body": "Jonathan's vigilance extends beyond shambling skeletons and ghouls. He pays close attention to the savage, wolf-like beasts known as worgen that stalk the forest depths. Knowing the danger they present to an already besieged settlement, Jonathan coordinates investigations into their mysterious presence, seeking to uncover where these ungodly predators originated and putting an end to their nocturnal prowling.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jonathan Carevin?",
+   "aliases": [
+    "who is carevin",
+    "jonathan carevin lore",
+    "carevin darkshire"
+   ],
+   "answer": "Jonathan Carevin is a grim hunter living in Darkshire in Duskwood. He leads the Carevin family in an active fight against the foul monsters haunting the forest."
+  },
+  {
+   "q": "How does he differ from the Night Watch?",
+   "aliases": [
+    "is he night watch",
+    "carevin vs night watch"
+   ],
+   "answer": "While the Night Watch focuses primarily on guarding Darkshire's perimeter and keeping the roads passable, Jonathan and his supporters actively track and hunt down the undead and other abominations to eradicate them at their source."
+  },
+  {
+   "q": "What threats does he fight?",
+   "aliases": [
+    "what does carevin hunt",
+    "carevin targets"
+   ],
+   "answer": "Jonathan actively hunts the undead, ravenous worgen packs, demons, and anyone who would offer shelter or aid to such unholy abominations."
+  },
+  {
+   "q": "Is Jonathan affiliated with the Scarlet Crusade?",
+   "aliases": [
+    "carevin scarlet crusade",
+    "is carevin scarlet"
+   ],
+   "answer": "His harsh rhetoric, fervent devotion to the Light, and strict zero-tolerance approach toward corruption mirror Scarlet beliefs, but officially he operates independently alongside his family in Darkshire."
+  },
+  {
+   "q": "Who assists Jonathan in his mission?",
+   "aliases": [
+    "carevin allies",
+    "who helps carevin"
+   ],
+   "answer": "Beyond his immediate family, Jonathan receives direct assistance from sympathetic combatants such as Calor, who aids him in tracking monstrous incursions across the woods."
+  },
+  {
+   "q": "What is his connection to the worgen?",
+   "aliases": [
+    "carevin worgen",
+    "why carevin hate worgen"
+   ],
+   "answer": "Jonathan views the worgen as an unnatural menace terrorizing Duskwood's people and tasks travelers with uncovering the source of their sudden emergence in the wilderness."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions trying to stabilize Duskwood, Jonathan Carevin provides targeted strikes against the supernatural threats that Stormwind's neglect has left unchecked."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Carevin's zeal and invocation of the Light against demonic and undead corruption resonate deeply with a paladin's sacred vows."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters find common ground with Carevin's proactive tracking and methodical culling of Duskwood's nocturnal predators."
+  }
+ ],
+ "keywords": [
+  "calor",
+  "carevin family",
+  "darkshire",
+  "duskwood",
+  "jonathan carevin",
+  "night watch",
+  "undead",
+  "worgen"
+ ],
+ "related": [
+  "quest:1042",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "npc:calor",
+  "quest:173",
+  "quest:1043",
+  "topic:night-watch",
+  "topic:worgen"
+ ],
+ "attribution": [
+  "Jonathan Carevin"
+ ]
+}

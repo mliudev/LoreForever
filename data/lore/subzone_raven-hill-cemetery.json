@@ -1,0 +1,95 @@
+{
+ "key": "subzone:raven-hill-cemetery",
+ "type": "subzone",
+ "name": "Raven Hill Cemetery",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Raven Hill Cemetery"
+ },
+ "summary": "Raven Hill Cemetery is a vast, cursed graveyard stretching across the western reaches of Duskwood. Once a peaceful burial ground for local hamlets, the cemetery has been overrun by hordes of walking dead, scavenger spiders, and ruthless grave robbers.",
+ "sections": [
+  {
+   "title": "A Garden of the Restless Dead",
+   "body": "Before the darkness engulfed the Dawning Wood, Raven Hill Cemetery served as the primary resting place for the surrounding settlements. As dark sorceries fell upon the region, the dead failed to remain in their plots. Skeletons, ghouls, and shambling horrors clawed their way out of the soil, swelling the graveyard's grim boundaries. Today, it stands as one of the most perilous blights in Duskwood. The cemetery is prowled not only by rotting abominations and giant spiders, but also by desperate grave robbers eager to plunder ancestral crypts unhindered by local authorities.",
+   "spoiler": 0
+  },
+  {
+   "title": "Restless Spirits and Dark Powers",
+   "body": "The cemetery's tragedy is personified by Mor'Ladim, the mindless skeletal horror of the fallen knight Morgan Ladimore, who endlessly patrols the headstones after taking his own life amidst madness and sorrow. Further north on the rises of Forlorn Rowe, the dark necromancer Morbent Fel harnesses the foul energy of the graves to raise and bind legions of undead. Farther toward the northeast edge sits the secluded shack of Abercrombie the hermit, watching the graveyard from the edge of the mist.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are so many undead rising in Raven Hill Cemetery?",
+   "aliases": [
+    "why are there zombies",
+    "why is raven hill haunted",
+    "who raised the dead in raven hill"
+   ],
+   "answer": "The cemetery fell under dark corruption when Duskwood was blighted, allowing necromantic powers to seep into the earth. The foul mage Morbent Fel, lurking in Forlorn Rowe on the graveyard's edge, actively twists these energies to raise and control corpses from their graves."
+  },
+  {
+   "q": "Who is Mor'Ladim?",
+   "aliases": [
+    "morladim",
+    "skeleton wandering the graveyard",
+    "morgan ladimore"
+   ],
+   "answer": "Mor'Ladim is the skeletal revenant of Morgan Ladimore, a knight who returned from the Third War only to find his family dead. Driven into madness by grief, he took his own life after a violent outburst in the graveyard. He now stalks the headstones, blindly slaughtering anyone he encounters."
+  },
+  {
+   "q": "Where is Morbent Fel located in the cemetery?",
+   "aliases": [
+    "morbent fel location",
+    "where is morbent fel",
+    "forlorn rowe"
+   ],
+   "answer": "Morbent Fel resides atop the hill known as Forlorn Rowe, situated in the northwestern corner of Raven Hill Cemetery. He inhabits a decrepit house overlooking the tombstones, directing the undead around him."
+  },
+  {
+   "q": "Who is the hermit living on the edge of the cemetery?",
+   "aliases": [
+    "hermit at raven hill",
+    "abercrombie",
+    "shack in raven hill"
+   ],
+   "answer": "The hermit is Abercrombie, an eccentric and frail old man living in a ramshackle hut near the northeastern borders of the cemetery. He frequently petitions passing travelers to gather strange components and ingredients for his morbid personal projects."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The relentless corruption and despoiled graves of Raven Hill Cemetery call for holy consecration, and putting the tormented spirit of Morgan Ladimore to peace is a sacred duty of the Light."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The cemetery harbors powerful conduits of shadow and residual sorrow, serving as a bleak lesson in the tragedy of spirits denied passage to the Light."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "duskwood",
+  "forlorn rowe",
+  "grave robbers",
+  "mor'ladim",
+  "morbent fel",
+  "morgan ladimore",
+  "raven hill cemetery",
+  "skeletons"
+ ],
+ "related": [
+  "zone:duskwood",
+  "topic:mor-ladim",
+  "subzone:forlorn-rowe",
+  "quest:55",
+  "npc:abercrombie",
+  "subzone:darkshire",
+  "quest:163",
+  "topic:light"
+ ],
+ "attribution": [
+  "Raven Hill Cemetery"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "key": "npc:highlord-demitrian",
+ "type": "npc",
+ "name": "Highlord Demitrian",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Highlord Demitrian",
+  "refs": 4
+ },
+ "summary": "Highlord Demitrian is a solitary human hermit dwelling amidst the strange crystals of northwestern Silithus. Describing himself as a loyal servant of Prince Thunderaan, he possesses the esoteric knowledge required to wake the slumbering elemental lord. Adventurers bearing ancient elemental bindings seek him out to unlock the power of the Windseeker.",
+ "sections": [
+  {
+   "title": "Hermit of the Crystal Vale",
+   "body": "Found lingering at an abandoned encampment in the Crystal Vale, Demitrian appears out of place in the desolate wastes of Silithus. Rather than throwing his lot in with the Twilight's Hammer or the Cenarion Circle, Demitrian acts as an independent herald for Prince Thunderaan, the Windseeker. He treats visitors with aloof indifference unless they carry proof of the Windseeker's shattered essence.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Vessel of Rebirth",
+   "body": "Demitrian's purpose is tied entirely to Thunderaan's resurrection. Should an adventurer present him with the Bindings of the Windseeker\u2014relics torn from fire elementals within the Molten Core\u2014Demitrian provides the Vessel of Rebirth. He demands rare elemental reagents, including vast quantities of enchanted elementium and the essence of the Firelord, to reconstitute his prince's physical form.",
+   "spoiler": 1
+  },
+  {
+   "title": "Betrayal of the Windseeker",
+   "body": "Demitrian's devotion is repaid swiftly with treachery. Upon gathering the required components and summoning Thunderaan forth into the Crystal Vale, the Windseeker attacks rather than rewards his mortal servant. Once adventurers vanquish the furious elemental lord, Demitrian cowers in terror, surrendering the Dormant Wind Kissed Blade from which the legendary sword Thunderfury is forged.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Highlord Demitrian?",
+   "aliases": [
+    "demitrian location",
+    "where is demitrian",
+    "demitrian silithus spot"
+   ],
+   "answer": "He is located in the far northwestern corner of Silithus, standing near the Ravaged Twilight Camp inside the Crystal Vale."
+  },
+  {
+   "q": "Why does Demitrian only give a generic response?",
+   "aliases": [
+    "demitrian won't talk to me",
+    "how to get demitrian quest",
+    "demitrian gossip"
+   ],
+   "answer": "Demitrian will not offer his legendary quest chain unless you are carrying at least one half of the Bindings of the Windseeker, which are rare treasures held by Baron Geddon and Garr in the Molten Core."
+  },
+  {
+   "q": "What is Demitrian's relationship to Prince Thunderaan?",
+   "aliases": [
+    "who does demitrian serve",
+    "demitrian thunderaan connection",
+    "is demitrian twilight hammer"
+   ],
+   "answer": "Demitrian is the sworn mortal servant of Prince Thunderaan. He has dedicated himself to finding the prince's severed bindings and restoring the elemental lord to the physical plane."
+  },
+  {
+   "q": "What happens when you bring him all the materials for the vessel?",
+   "aliases": [
+    "summoning thunderaan",
+    "what does demitrian do with the vessel",
+    "crystal vale summon"
+   ],
+   "answer": "Demitrian conducts a ritual that unleashes Prince Thunderaan in the Crystal Vale. Thunderaan immediately turns hostile, requiring a raid group to strike down the restored Windseeker."
+  },
+  {
+   "q": "Is Demitrian affiliated with the Twilight's Hammer cult?",
+   "aliases": [
+    "is demitrian a cultist",
+    "demitrian twilight camp",
+    "demitrian faction"
+   ],
+   "answer": "Although he resides near a ruined camp once used by the Twilight's Hammer, Demitrian operates independently. His allegiance is exclusively to Prince Thunderaan rather than the Old Gods or their mortal cults."
+  },
+  {
+   "q": "How do you get Thunderfury from him?",
+   "aliases": [
+    "how to get thunderfury",
+    "thunderfury quest finish",
+    "demitrian blade"
+   ],
+   "answer": "After Thunderaan is summoned and defeated, Demitrian is left cowering on the ground. Speaking to him allows you to claim the Dormant Wind Kissed Blade, which can be formed into Thunderfury, Blessed Blade of the Windseeker."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Demitrian's demands for Thunderaan's rebirth require extensive blacksmithing mastery to forge Enchanted Elementium Bars from raw ore and fiery essences."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Warriors seeking the legendary blade Thunderfury must seek out Demitrian to initiate the trial of unbinding and awakening the Windseeker."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Rogues hunting the legendary blade of the Windseeker must bargain with Demitrian in Silithus to restore the shattered prince."
+  }
+ ],
+ "keywords": [
+  "crystal vale",
+  "demitrian",
+  "highlord demitrian",
+  "silithus",
+  "thunderaan",
+  "thunderfury",
+  "vessel of rebirth",
+  "windseeker"
+ ],
+ "related": [
+  "npc:thunderaan",
+  "subzone:crystal-vale",
+  "zone:silithus",
+  "subzone:ravaged-twilight-camp",
+  "subzone:twilight-camp",
+  "topic:elemental-plane",
+  "topic:skywall"
+ ],
+ "attribution": [
+  "Highlord Demitrian"
+ ]
+}

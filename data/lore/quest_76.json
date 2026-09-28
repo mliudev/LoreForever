@@ -1,0 +1,127 @@
+{
+ "key": "quest:76",
+ "type": "quest",
+ "name": "The Jasperlode Mine",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   76
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Marshal Dughan",
+  "end": "",
+  "previous": "The Fargodeep Mine",
+  "next": "Westbrook Garrison Needs Help!",
+  "wiki": "The Jasperlode Mine",
+  "chain": [
+   "The Fargodeep Mine",
+   "The Jasperlode Mine"
+  ]
+ },
+ "summary": "Following the discovery that kobolds have overrun the Fargodeep Mine, Marshal Dughan tasks scouts with investigating the Jasperlode Mine further east. Reaching the site confirms the worst: the infestation has spread across Elwynn's vital mineral veins, stretching Stormwind's remaining defenders past their limits.",
+ "sections": [
+  {
+   "title": "A Second Incursion",
+   "body": "After securing proof that kobolds had swarmed the Fargodeep tunnels south of Goldshire, Marshal Dughan feared the infestation was not an isolated incident. Jasperlode Mine, nestled in the rocky foothills northeast of the Tower of Azora, represents another critical source of raw stone and metal for the kingdom. Unable to spare regular Stormwind guards from town patrol, Dughan relies on independent adventurers to venture east and confirm whether this site has fallen to the candle-bearing subterranean pests as well.",
+   "spoiler": 0
+  },
+  {
+   "title": "Overextended Defenses",
+   "body": "Scouting deep into Jasperlode's chambers reveals that kobolds have entirely displaced the human miners, digging in and fortifying the dark passages. For Marshal Dughan, this grim report is another blow in an escalating crisis. With King Varian Wrynn missing and royal troops withheld from the outlying territories, the local garrison lacks the manpower to clear the mines, leaving the heart of the kingdom economically starved and geographically hemmed in.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Jasperlode Mine located?",
+   "aliases": [
+    "where is jasperlode",
+    "jasperlode mine location",
+    "how to find jasperlode"
+   ],
+   "answer": "The mine sits in the northern foothills of eastern Elwynn Forest. To reach it, travel east down the main road past Goldshire until reaching the Tower of Azora, then head north into the hills."
+  },
+  {
+   "q": "Why does Marshal Dughan need a scout instead of sending guards?",
+   "aliases": [
+    "why send adventurers",
+    "why no stormwind guard",
+    "where are the guards"
+   ],
+   "answer": "The Stormwind Guard in Elwynn is severely shorthanded due to political gridlock in the capital and the disappearance of King Varian Wrynn. With local forces stretched thin protecting farms and towns from bandits and gnolls, Marshal Dughan must rely on civilian scouts."
+  },
+  {
+   "q": "Why are kobolds taking over Elwynn's mines?",
+   "aliases": [
+    "why kobolds in jasperlode",
+    "what do kobolds want",
+    "kobold infestation reason"
+   ],
+   "answer": "Kobolds are natural tunnelers drawn to subterranean mineral veins and damp caves. As Stormwind's military presence thinned, the creatures grew bolder, aggressively pushing into human-operated dig sites like Fargodeep and Jasperlode to claim gold, ore, and territory."
+  },
+  {
+   "q": "What happens after scouting the Jasperlode Mine?",
+   "aliases": [
+    "what next after jasperlode",
+    "jasperlode follow up"
+   ],
+   "answer": "Once you report Jasperlode's fall to Marshal Dughan, he acknowledges the grim reality that Elwynn is besieged on multiple fronts. With the eastern mines confirmed lost, his attention shifts to western Elwynn, where the Westbrook Garrison faces heavy pressure from Riverpaw gnolls."
+  },
+  {
+   "q": "Why is the loss of Jasperlode Mine significant to Stormwind?",
+   "aliases": [
+    "why jasperlode matters",
+    "jasperlode importance"
+   ],
+   "answer": "The mines of Elwynn supply raw ore and stone needed to maintain Stormwind's economy and forge weapons and armor. Losing both Fargodeep and Jasperlode halts mineral extraction and severely undermines the kingdom's recovery efforts."
+  },
+  {
+   "q": "Who owns the Tower of Azora nearby?",
+   "aliases": [
+    "what is tower of azora",
+    "who lives in azora tower"
+   ],
+   "answer": "The Tower of Azora is a prominent wizard tower situated along the eastern road in Elwynn Forest, serving as a haven for human magi and a landmark for travelers navigating toward the eastern foothills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "For a miner, seeing rich underground veins overrun by vermin is a bitter sight. Jasperlode's tunnels hold valuable deposits, but harvesting them requires fighting through swarms of territorial kobolds."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The simultaneous loss of Fargodeep and Jasperlode exposes how fragile Stormwind's home territories have become in the absence of centralized royal support."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human scouts witness the creeping collapse of Elwynn's rural infrastructure firsthand as frontier resources fall right on the doorstep of the capital."
+  }
+ ],
+ "keywords": [
+  "azora",
+  "dughan",
+  "elwynn",
+  "fargodeep",
+  "goldshire",
+  "jasperlode",
+  "kobold",
+  "mine",
+  "scout"
+ ],
+ "related": [
+  "subzone:jasperlode-mine",
+  "quest:62",
+  "subzone:fargodeep-mine",
+  "npc:marshal-dughan",
+  "subzone:tower-of-azora",
+  "quest:239",
+  "subzone:goldshire",
+  "topic:kobold"
+ ],
+ "attribution": [
+  "The Jasperlode Mine"
+ ]
+}

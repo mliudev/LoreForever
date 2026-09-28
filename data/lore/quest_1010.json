@@ -1,0 +1,132 @@
+{
+ "key": "quest:1010",
+ "type": "quest",
+ "name": "Bathran's Hair",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1010
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Orendil Broadleaf",
+  "end": "",
+  "previous": null,
+  "next": "Orendil's Cure (Classic)",
+  "wiki": "Bathran's Hair (Classic)",
+  "chain": [
+   "Bathran's Hair (Classic)",
+   "Orendil's Cure (Classic)",
+   "Elune's Tear (Classic)",
+   "The Ruins of Stardust (quest)",
+   "Fallen Sky Lake (quest)"
+  ]
+ },
+ "summary": "Bathran's Hair is an Alliance quest offered by Orendil Broadleaf at Maestra's Post in western Ashenvale. Desperate to treat a mysteriously afflicted night elf child whose illness transcends the physical body, Orendil sends adventurers north to scour the ancient ruins of Bathran's Haunt for a restorative plant renowned for mending ailments of the spirit.",
+ "sections": [
+  {
+   "title": "An Ailment of the Spirit",
+   "body": "At Maestra's Post, just south of the Darkshore border, the night elf herbalist Orendil Broadleaf faces a troubling medical crisis. A young child in the settlement has fallen grievously ill, exhibiting symptoms that resist ordinary physical remedies. Convinced that the sickness plagues the child's spirit rather than merely the flesh, Orendil seeks Bathran's Hair, an uncommon restorative herb historically gathered amidst the ancient elven ruins to the north.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trespassers in the Ruins",
+   "body": "The search leads adventurers to Bathran's Haunt, a ruined enclave tucked along the eastern side of the road leading into Darkshore. Gathering the bundled herbs proves hazardous, as Forsaken agents have infiltrated the ancient site. Returning the plants allows Orendil to brew a soothing draught, yet the discovery of undead interlopers operating openly in northern Ashenvale leaves the herbalist deeply unsettled.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Bathran's Hair?",
+   "aliases": [
+    "bathrans hair plant",
+    "what is the hair",
+    "bathran herb"
+   ],
+   "answer": "Bathran's Hair is a rare medicinal plant native to the ruins of Bathran's Haunt in Ashenvale. Night elf herbalists value it for its potent restorative qualities, specifically its ability to soothe and heal ailments affecting the spirit rather than standard physical wounds."
+  },
+  {
+   "q": "Who is sick at Maestra's Post?",
+   "aliases": [
+    "sick child maestra",
+    "who is orendil healing",
+    "who needs the cure"
+   ],
+   "answer": "A young night elf child residing in the village has fallen deeply ill. The child's condition worsens by the hour, and ordinary remedies have failed because the sickness appears spiritual in nature, prompting Orendil Broadleaf to seek ancient botanical aids."
+  },
+  {
+   "q": "Where is Bathran's Haunt located?",
+   "aliases": [
+    "bathrans haunt location",
+    "where to find bathrans hair",
+    "where is bathran"
+   ],
+   "answer": "Bathran's Haunt lies in northwestern Ashenvale, north of Maestra's Post and just east of the main road heading toward the Darkshore border. The ruins are overrun with hostile Forsaken operatives."
+  },
+  {
+   "q": "Why are there Forsaken at Bathran's Haunt?",
+   "aliases": [
+    "undead at bathran",
+    "why forsaken in ashenvale",
+    "forsaken bathrans haunt"
+   ],
+   "answer": "Forsaken forces have established an encampment among the ruins to conduct dark experiments and gather regional resources, marking an unsettling encroachment into night elf territory that alarms Orendil and local sentinels."
+  },
+  {
+   "q": "What happens after collecting the plant?",
+   "aliases": [
+    "next quest after bathrans hair",
+    "what does orendil do with the hair",
+    "orendils cure chain"
+   ],
+   "answer": "Once brought five bundles of the herb, Orendil prepares a medicinal concoction and asks you to rush it to the ailing child in Astranaar, beginning the follow-up quest 'Orendil's Cure'."
+  },
+  {
+   "q": "Can herbalists find the plant bundles easier?",
+   "aliases": [
+    "herbalism bathrans hair",
+    "tracking bathrans hair",
+    "plant bundle herb track"
+   ],
+   "answer": "Yes. The bundles holding the harvested plant lie scattered on the ground and can be difficult to spot with the naked eye, but adventurers trained in Herbalism can detect them using their herb tracking ability."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "The bundled plants scattered throughout Bathran's Haunt can be identified via herbalism tracking, making the search among the ruins far easier."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The encroaching presence of the Forsaken at Bathran's Haunt poses a grave threat to the sanctified borders of northern Ashenvale and the well-being of its children."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing medicine for the child at Maestra's Post reinforces the frontline settlements holding western Ashenvale against hostile Horde and Forsaken expansion."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "bathran's hair",
+  "bathran's haunt",
+  "darkshore",
+  "forsaken",
+  "maestra's post",
+  "orendil broadleaf",
+  "plant bundle"
+ ],
+ "related": [
+  "npc:orendil-broadleaf",
+  "subzone:bathran-s-haunt",
+  "subzone:maestra-s-post",
+  "quest:1020",
+  "quest:1033",
+  "zone:ashenvale",
+  "zone:darkshore",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Bathran's Hair (Classic)"
+ ]
+}

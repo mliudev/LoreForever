@@ -1,0 +1,127 @@
+{
+ "key": "quest:337",
+ "type": "quest",
+ "name": "An Old History Book",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   337
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "An Old History Book",
+  "end": "Milton Sheaf",
+  "previous": null,
+  "next": "Southshore (quest)",
+  "wiki": "An Old History Book (quest)",
+  "chain": [
+   "An Old History Book (quest)",
+   "Southshore (quest)",
+   "Preserving Knowledge",
+   "Return to Milton"
+  ]
+ },
+ "summary": "Recovered from the blighted soil and monstrous dens of Duskwood, this battered tome bears the official stamp of the Royal Library of Stormwind. Titled 'The History of Stormwind,' it vanished prior to the kingdom's reconstruction following the First War. Returning it restores a lost chronicle to Head Librarian Milton Sheaf and begins an effort to preserve Southern human history.",
+ "sections": [
+  {
+   "title": "A Relic of the First War",
+   "body": "Discovered among the hostile undead and brutish ogres roaming Duskwood, this mud-caked volume is a rare surviving artifact from the era before Stormwind's destruction. Bearing the kingdom's formal library seal on its opening page, it was checked out decades ago\u2014before the Horde razed the capital\u2014and was presumed lost forever amid the fall of the south.",
+   "spoiler": 0
+  },
+  {
+   "title": "Restoring Forgotten Annals",
+   "body": "When brought back to Milton Sheaf in the Royal Library of Stormwind Keep, the book is recognized as an invaluable treasure destined for the rare books archive. However, years of exposure in the haunted wilderness have left its pages badly degraded, prompting Sheaf to seek specialized bookbinding and preservation craft found in the northern coastal haven of Southshore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is this book found?",
+   "aliases": [
+    "where to find old history book",
+    "book drop location",
+    "duskwood history book"
+   ],
+   "answer": "The book drops from various hostile creatures roaming Duskwood, most commonly the undead haunting the cemeteries and fields or the ogres occupying the southern hills."
+  },
+  {
+   "q": "Who do I bring the book to?",
+   "aliases": [
+    "turn in location",
+    "where do i turn this in",
+    "milton sheaf location"
+   ],
+   "answer": "You return the volume to Milton Sheaf, the head librarian situated in the Royal Library inside Stormwind Keep."
+  },
+  {
+   "q": "Why is the book in such poor condition?",
+   "aliases": [
+    "why is it muddy",
+    "why damaged"
+   ],
+   "answer": "The book was checked out prior to the First War and the sack of Stormwind. It survived decades in the wilderness of Duskwood, weathered by dirt, rot, and the hands of wandering scavengers and monsters."
+  },
+  {
+   "q": "Does returning this book lead to other tasks?",
+   "aliases": [
+    "what comes next",
+    "followup quest",
+    "book quest chain"
+   ],
+   "answer": "Yes. Milton Sheaf will send you north to Southshore in the Hillsbrad Foothills to seek out skilled craftsmen capable of rebinding and preserving the delicate, deteriorating pages."
+  },
+  {
+   "q": "Why does Milton Sheaf care so much about this specific tome?",
+   "aliases": [
+    "why is the book important",
+    "importance of history of stormwind"
+   ],
+   "answer": "Because the original kingdom was leveled during the First War, few original historical records survived the burning of the city. Recovering genuine pre-war texts helps scholars reconstruct the kingdom's past."
+  },
+  {
+   "q": "Can Horde players complete this quest?",
+   "aliases": [
+    "horde version",
+    "is this alliance only"
+   ],
+   "answer": "No. The book belongs to the Royal Library of Stormwind and can only be turned in to Alliance librarians within Stormwind Keep."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Recovering pre-war texts restores fragments of Stormwind's lost heritage that survived the devastation of the First War."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of the south, reclaiming written records from the wilderness is a vital step in rebuilding the culture shattered by the Old Horde."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Scholars of the arcane understand that ancient libraries hold knowledge vulnerable to decay and neglect when left in the wild."
+  }
+ ],
+ "keywords": [
+  "an old history book",
+  "duskwood",
+  "milton sheaf",
+  "preserving knowledge",
+  "southshore",
+  "stormwind keep",
+  "stormwind library",
+  "the history of stormwind"
+ ],
+ "related": [
+  "npc:milton-sheaf",
+  "subzone:southshore",
+  "zone:duskwood",
+  "topic:stormwind-kingdom",
+  "quest:579",
+  "quest:366",
+  "subzone:library-ironforge"
+ ],
+ "attribution": [
+  "An Old History Book (quest)"
+ ]
+}

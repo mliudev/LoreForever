@@ -1,0 +1,94 @@
+{
+ "key": "subzone:decrepit-fields",
+ "type": "subzone",
+ "name": "Decrepit Fields",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Decrepit Fields"
+ },
+ "summary": "The Decrepit Fields are an overgrown, desolate expanse along the western shore of Lordamere Lake in Silverpine Forest. Once quiet rural land leading down toward Fenris Isle, the area is now stalked by violent beasts and prowled by agents of the Scarlet Crusade.",
+ "sections": [
+  {
+   "title": "A Blighted Shoreline",
+   "body": "Stretching eastward from the hills near the Sepulcher toward the cold waters of Lordamere Lake, the Decrepit Fields represent yet another corner of Lordaeron reclaimed by decay. Giant rabid bears and feral worgs roam the overgrown plots, making travel dangerous for unseasoned travelers. The nearby pier, known historically as the Decrepit Ferry, provides an outlook across the water toward Fenris Isle, drawing the watchful eyes of both the Forsaken and the Scarlet Crusade.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crusader Incursions",
+   "body": "Because the fields sit directly across the lake from Fenris Isle, they have become a staging ground for the Scarlet Crusade's aggressive expansion in Silverpine. Scarlet zealots and recruits monitor the coastline and harass Forsaken scouts, using the area to project power westward toward the road and north toward the Ruins of Lordaeron. The dock itself has fallen under their watch, turning a once-tranquil lakeshore into a contested frontier.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Decrepit Fields located?",
+   "aliases": [
+    "decrepit fields location",
+    "where is decrepit fields",
+    "decrepit fields silverpine"
+   ],
+   "answer": "The Decrepit Fields lie in eastern Silverpine Forest, situated between the Sepulcher and the western shore of Lordamere Lake, looking out across the water toward Fenris Isle."
+  },
+  {
+   "q": "What threats wander these fields?",
+   "aliases": [
+    "decrepit fields mobs",
+    "what enemies are here",
+    "decrepit fields beasts"
+   ],
+   "answer": "The open fields are infested with dangerous local predators, including Giant Rabid Bears and Rabid Worgs. Along the shoreline and pier, Scarlet Crusade recruits and outrunners also patrol the area."
+  },
+  {
+   "q": "Why does the Scarlet Crusade care about this area?",
+   "aliases": [
+    "why scarlet crusade here",
+    "scarlet presence decrepit fields",
+    "scarlet ferry"
+   ],
+   "answer": "The fields and its shoreline pier sit directly across the water from Fenris Isle, a major stronghold of the Scarlet Crusade in Silverpine. Holding the waterfront allows the Crusade to secure ferry crossings, stage raids toward the road, and pressure the nearby Forsaken settlement of the Sepulcher."
+  },
+  {
+   "q": "Who is Fenwick Thatros?",
+   "aliases": [
+    "fenwick thatros",
+    "decrepit fields rare",
+    "who is fenwick"
+   ],
+   "answer": "Fenwick Thatros is a notable rogue and rare sight wandering near the Decrepit Fields and the adjacent shoreline, often targeted by Forsaken trackers seeking to eliminate dangerous figures in Silverpine."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The wild beasts and encroaching Scarlet Crusade forces in the Decrepit Fields threaten supply lines east of the Sepulcher, requiring constant vigilance from the Forsaken."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Controlling the lake shore opposite Fenris Isle is vital for Horde forces attempting to push back the fanaticism of the Scarlet Crusade in Lordaeron."
+  }
+ ],
+ "keywords": [
+  "decrepit ferry",
+  "decrepit fields",
+  "fenris isle",
+  "fenwick thatros",
+  "lordamere lake",
+  "scarlet crusade",
+  "sepulcher",
+  "silverpine forest"
+ ],
+ "related": [
+  "subzone:decrepit-ferry",
+  "zone:silverpine",
+  "subzone:fenris-isle",
+  "subzone:lordamere-lake",
+  "subzone:sepulcher",
+  "topic:scarlet-crusade",
+  "topic:forsaken",
+  "quest:1998"
+ ],
+ "attribution": [
+  "Decrepit Fields"
+ ]
+}

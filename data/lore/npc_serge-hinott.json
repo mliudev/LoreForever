@@ -1,0 +1,74 @@
+{
+ "key": "npc:serge-hinott",
+ "type": "npc",
+ "name": "Serge Hinott",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Serge Hinott",
+  "refs": 2
+ },
+ "summary": "Serge Hinott is a Forsaken alchemist stationed in Tarren Mill in the Hillsbrad Foothills. Working closely alongside Apothecary Lydon, he assists the Royal Apothecary Society with brewing concoctions, antidotes, and reagents essential to the Forsaken war effort.",
+ "sections": [
+  {
+   "title": "Apothecary's Hand in Tarren Mill",
+   "body": "Positioned beside Apothecary Lydon in the fortified settlement of Tarren Mill, Serge Hinott plays a crucial supporting role for Forsaken operations in Hillsbrad Foothills. While Lydon focuses on broader chemical development and aggressive plague research against neighboring human settlements like Southshore, Hinott manages specialized brewing tasks. His expertise includes preparing restorative salves and critical antidotes required when field agents and scouts encounter dangerous poisons and toxic mishaps.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Serge Hinott be found?",
+   "aliases": [
+    "serge hinott location",
+    "where is hinott",
+    "find serge hinott"
+   ],
+   "answer": "Serge Hinott is stationed in Tarren Mill, located in the central northern reaches of the Hillsbrad Foothills. He stands outdoors near Apothecary Lydon, working among his brewing supplies and alchemical equipment."
+  },
+  {
+   "q": "What role does Serge Hinott serve?",
+   "aliases": [
+    "what does hinott do",
+    "serge hinott role"
+   ],
+   "answer": "He is an alchemist serving the Forsaken in Tarren Mill. In addition to aiding in the preparation of local brews and treatments, he helps brew specialized mixtures when requested by field operatives and couriers."
+  },
+  {
+   "q": "What is Hinott's connection to Apothecary Lydon?",
+   "aliases": [
+    "hinott and lydon",
+    "who does hinott work with"
+   ],
+   "answer": "Hinott works directly beside Apothecary Lydon, acting as an assistant and fellow chemist supporting Lydon's ongoing alchemical research and operations throughout Hillsbrad Foothills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Hinott represents the practical arm of the Royal Apothecary Society in Hillsbrad, providing necessary chemical mixtures and support directly to frontline Forsaken forces."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Hinott assists rogues seeking a cure for the virulent Touch of Zanzil, crafting the essential antidote when standard remedies fail."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "hillsbrad foothills",
+  "hinott",
+  "royal apothecary society",
+  "serge hinott",
+  "tarren mill"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "quest:2479",
+  "zone:hillsbrad",
+  "topic:forsaken",
+  "subzone:southshore"
+ ],
+ "attribution": [
+  "Serge Hinott"
+ ]
+}

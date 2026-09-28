@@ -1,0 +1,83 @@
+{
+ "key": "subzone:webwinder-path",
+ "type": "subzone",
+ "name": "Webwinder Path",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Webwinder Path"
+ },
+ "summary": "Webwinder Path is a winding mountainous road in the Stonetalon Mountains connecting the troll outpost of Malaka'jin to Mirkfallon Lake. It cuts through rugged crags and dense highland woods inhabited by aggressive arachnids and native beasts.",
+ "sections": [
+  {
+   "title": "A Treacherous Thoroughfare",
+   "body": "Running from the Horde settlement of Malaka'jin toward Mirkfallon Lake, Webwinder Path serves as one of the primary roadways carving through the lower Stonetalon Mountains. True to its name, the route is notorious for the thick cobwebs strung high among the canopy and jagged cliff sides. Travelers along this winding stretch must constantly watch their step, sharing the beaten path with prowling mountain spiders, aggressive thunder lizards, and territorial rams.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Webwinder Path lead?",
+   "aliases": [
+    "webwinder path location",
+    "where is webwinder path",
+    "what does webwinder path connect"
+   ],
+   "answer": "Webwinder Path stretches between the Darkspear troll outpost of Malaka'jin in the south and Mirkfallon Lake further up the mountain to the north."
+  },
+  {
+   "q": "Why is it called Webwinder Path?",
+   "aliases": [
+    "why webwinder",
+    "why is it called webwinder"
+   ],
+   "answer": "The road earns its name from the sheer abundance of arachnids inhabiting the region. Spiders spin vast labyrinths of glittering silk high in the trees and along rocky ledges flanking the roadway."
+  },
+  {
+   "q": "What creatures wander the path?",
+   "aliases": [
+    "what lives here",
+    "webwinder path beasts",
+    "mobs on webwinder path"
+   ],
+   "answer": "Aside from the venomous spiders that weave webs above the road, travelers frequently encounter roaming thunder lizards, highland rams, and ordinary mountain critters."
+  },
+  {
+   "q": "Is Webwinder Path safe to travel?",
+   "aliases": [
+    "is webwinder path dangerous",
+    "can alliance travel webwinder path"
+   ],
+   "answer": "It is far from safe. The local predators are fierce and territorial, and the road passes directly past the Horde camp at Malaka'jin, making it perilous for Alliance wayfarers venturing up from the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The path is a crucial overland artery right on the doorstep of Malaka'jin, connecting your scouts to the deeper valleys of Stonetalon."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The path is home to robust thunder lizards, sturdy mountain rams, and venomous web-spinners, making it an excellent trail for scouting and taming Stonetalon beasts."
+  }
+ ],
+ "keywords": [
+  "malaka'jin",
+  "mirkfallon lake",
+  "road",
+  "spiders",
+  "stonetalon",
+  "webwinder",
+  "webwinder path"
+ ],
+ "related": [
+  "subzone:malaka-jin",
+  "subzone:mirkfallon-lake",
+  "zone:stonetalon",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Webwinder Path"
+ ]
+}

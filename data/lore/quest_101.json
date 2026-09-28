@@ -1,0 +1,125 @@
+{
+ "key": "quest:101",
+ "type": "quest",
+ "name": "The Totem of Infliction",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   101
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Madame Eva",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Totem of Infliction",
+  "chain": []
+ },
+ "summary": "Madame Eva of Darkshire offers to craft a protective ward known as the Totem of Infliction for travelers passing through the shadowed woods. By harvesting remains from the ghouls, skeletons, and venomous spiders haunting the region, she binds their innate malice into a charm that retaliates against attackers. The task serves as both a grim test of survival and a superstitious safeguard against the pervasive darkness of Duskwood.",
+ "sections": [
+  {
+   "title": "A Fortune of Bloodshed",
+   "body": "Within her candle-lit abode in Darkshire, Madame Eva peers past the veil into the fortunes of those who cross her threshold. Sensing impending danger and violence waiting patiently on the horizon, she offers more than mere divination: practical, sympathetic sorcery. By gathering ten ghoul fangs, ten skeleton fingers, and five vials of spider venom from the haunted thickets, an adventurer supplies the raw materials needed to construct a protective ward against Duskwood's ravenous predators.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sympathetic Magic",
+   "body": "The Totem of Infliction operates on the principles of sympathetic magic, turning the essence of Duskwood's horrors against themselves. Ghoul fangs steeped in necrotizing hunger, finger bones wrested from restless dead, and potent arachnid venom are woven together by Madame Eva's enchantments. When grasped in times of mortal peril, the totem radiates a magical aura designed to reflect cruelty, inflicting spiritual and physical harm upon anyone foolish enough to strike its bearer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Madame Eva?",
+   "aliases": [
+    "madame eva",
+    "who gives this quest",
+    "eva darkshire"
+   ],
+   "answer": "Madame Eva is a fortune teller and mystic dwelling in the embattled town of Darkshire. She interprets omens and brews protective wards for locals and passing adventurers attempting to survive the supernatural perils of Duskwood."
+  },
+  {
+   "q": "What is the purpose of the Totem of Infliction?",
+   "aliases": [
+    "totem of infliction purpose",
+    "what does totem do",
+    "totem lore"
+   ],
+   "answer": "The totem is an enchanted talisman meant to ward off assailants. Held when threatened, its magic retaliates against hostile foes who attempt violent acts against the bearer, turning the dark energies of Duskwood's predators outward."
+  },
+  {
+   "q": "Why does Madame Eva need ghoul fangs, skeleton fingers, and spider venom?",
+   "aliases": [
+    "why spider venom",
+    "ingredients for totem",
+    "why skeleton fingers"
+   ],
+   "answer": "The charm relies on sympathetic sorcery. By utilizing the anatomical weapons and remains of the forest's most aggressive monsters\u2014the bites of ghouls, the grasping claws of skeletons, and arachnid venom\u2014Eva binds their innate malice into a protective retaliatory enchantment."
+  },
+  {
+   "q": "Where are the components for the totem found?",
+   "aliases": [
+    "where find fangs",
+    "where to get materials",
+    "where are ghouls and spiders"
+   ],
+   "answer": "The components are harvested from the undead and beasts infesting Duskwood. Skeletons and ghouls haunt the cemeteries and haunted orchards across the zone, while large venomous spiders nest throughout the shadowed woods."
+  },
+  {
+   "q": "What danger does Madame Eva foresee?",
+   "aliases": [
+    "eva fortune",
+    "what danger coming",
+    "future bloodshed"
+   ],
+   "answer": "Eva warns that whispering winds speak of a looming threat waiting in the near future, specifically telling the adventurer that she foresees widespread bloodshed on their path ahead."
+  },
+  {
+   "q": "Is crafting the totem considered dark magic?",
+   "aliases": [
+    "is this necromancy",
+    "is eva evil",
+    "dark magic totem"
+   ],
+   "answer": "While crafting items out of corpse parts and venom edges close to shadow craft, in the desperate environment of Duskwood, folk hedge-magic and sympathetic charms are widely accepted methods of self-defense against the surrounding horrors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "In a borderland cut off from major military reinforcement, Alliance travelers frequently rely on the folk charms and wards of local mystics like Madame Eva to endure the forest's terrors."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Paladins may look askance at assembling wards from undead bones and spider venom, yet in the dire gloom of Duskwood, even holy warriors must sometimes reckon with pragmatic folk sorcery."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks will readily recognize the principles of retaliatory curses and sympathetic components woven into Eva's protective charm."
+  },
+  {
+   "target": "class:Priest",
+   "text": "While Church of the Holy Light orthodoxy emphasizes faith and devotion, hedge-witches like Madame Eva channel spiritual will through tactile, grim talismans."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "duskwood",
+  "ghoul fangs",
+  "madame eva",
+  "protective ward",
+  "skeleton fingers",
+  "spider venom",
+  "totem of infliction"
+ ],
+ "related": [
+  "npc:madame-eva",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "The Totem of Infliction"
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "key": "quest:421",
+ "type": "quest",
+ "name": "Prove Your Worth",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   421
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Dalar Dawnweaver",
+  "end": "",
+  "previous": null,
+  "next": "Arugal's Folly",
+  "wiki": "Prove Your Worth (Classic)",
+  "chain": [
+   "Prove Your Worth (Classic)",
+   "Arugal's Folly",
+   "Arugal's Folly (2)",
+   "Arugal's Folly (3)",
+   "Arugal's Folly (4)"
+  ]
+ },
+ "summary": "Prove Your Worth is an introductory Horde quest offered by Dalar Dawnweaver at the Sepulcher in Silverpine Forest. To assist the Forsaken campaign against southern human and dwarven territories, adventurers are tasked with thinning the feral worgen prowling near the roadside. It marks the opening step in unraveling the arcane fallout wrought by Archmage Arugal.",
+ "sections": [
+  {
+   "title": "Securing the Southern Corridor",
+   "body": "Lady Sylvanas Windrunner and her dreadlord overseer, Varimathras, have set their sights on securing the regions south of Tirisfal Glades, including human and dwarven enclaves. However, the path through Silverpine Forest remains fraught with danger. Instead of an open staging ground, the Forsaken find their supply lines and forward bases threatened by feral Moonrage worgen that roam the pine-choked hills.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arugal's Blight",
+   "body": "The presence of these beasts is no natural occurrence. Dalar Dawnweaver points the finger directly at Arugal, a disgraced former mage of Dalaran who unleashed otherworldly worgen upon the region during the Scourge invasion. Arugal has since claimed Shadowfang Keep, letting his feral creations overrun the forest. Before Dalar will entrust soldiers with deeper investigations into Arugal's sorcery, recruits must demonstrate their martial prowess by culling the nearest Moonrage Whitescalps.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dalar Dawnweaver?",
+   "aliases": [
+    "dalar dawnweaver",
+    "who gives prove your worth",
+    "sepulcher questgiver"
+   ],
+   "answer": "Dalar Dawnweaver is a Forsaken mage stationed at the Sepulcher. He oversees efforts to counter the magical threats in Silverpine Forest, focusing primarily on neutralizing Archmage Arugal and his feral worgen pack."
+  },
+  {
+   "q": "Where are the Moonrage Whitescalps located?",
+   "aliases": [
+    "where are whitescalps",
+    "moonrage whitescalps location",
+    "whitescalp farm"
+   ],
+   "answer": "The Whitescalps prowl just off the main roadway down the hill from the Sepulcher, infesting the woods and ruined homesteads of central Silverpine Forest."
+  },
+  {
+   "q": "Why does the Horde care about worgen in Silverpine?",
+   "aliases": [
+    "why kill worgen",
+    "forsaken worgen problem",
+    "why clear silverpine"
+   ],
+   "answer": "Silverpine Forest is a vital strategic corridor linking the Undercity to the southern lands. Lady Sylvanas and Varimathras require safe transit to project power southward, making the aggressive worgen packs an intolerable hazard."
+  },
+  {
+   "q": "What is Arugal's connection to these creatures?",
+   "aliases": [
+    "how did worgen get here",
+    "arugal worgen connection",
+    "who summoned worgen"
+   ],
+   "answer": "Archmage Arugal summoned the extradimensional worgen to fight the Scourge while serving Dalaran. The summoned beasts turned wild, driving Arugal mad with guilt before he retreated to Shadowfang Keep to foster the curse."
+  },
+  {
+   "q": "What happens after proving your worth to Dalar?",
+   "aliases": [
+    "next quest",
+    "what follows prove your worth",
+    "arugal's folly start"
+   ],
+   "answer": "Once you prove your combat capability by slaying the Whitescalps, Dalar Dawnweaver enlists you directly into his campaign to dismantle Arugal's influence through the multi-part quest chain titled Arugal's Folly."
+  },
+  {
+   "q": "Is the Alliance involved in this quest?",
+   "aliases": [
+    "can alliance do prove your worth",
+    "alliance silverpine"
+   ],
+   "answer": "No. Prove Your Worth is exclusively a Horde quest given at the Forsaken outpost of the Sepulcher."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, clearing Silverpine is essential to securing the Undercity's borders and eliminating threats left behind by Dalaran's failures."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Dalar Dawnweaver's mission serves as a stark warning to spellcasters about the catastrophic risks of reckless conjuration magic, epitomized by Arugal."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Taming the wilds of Silverpine ensures the Horde retains an unimpeded military highway toward southern Lordaeron."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "dalar dawnweaver",
+  "moonrage whitescalps",
+  "prove your worth",
+  "sepulcher",
+  "shadowfang keep",
+  "silverpine forest",
+  "worgen"
+ ],
+ "related": [
+  "npc:dalar-dawnweaver",
+  "quest:99",
+  "subzone:sepulcher",
+  "zone:silverpine",
+  "npc:arugal",
+  "zone:shadowfang",
+  "npc:varimathras",
+  "subzone:dalaran"
+ ],
+ "attribution": [
+  "Prove Your Worth (Classic)"
+ ]
+}

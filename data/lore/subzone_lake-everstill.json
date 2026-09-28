@@ -1,0 +1,88 @@
+{
+ "key": "subzone:lake-everstill",
+ "type": "subzone",
+ "name": "Lake Everstill",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Lake Everstill"
+ },
+ "summary": "Lake Everstill is the expansive azure body of water dominating the heart of the Redridge Mountains, flanking the town of Lakeshire. Once celebrated for tranquil fishing and clean mountain runoff, its shores and waters have lately turned treacherous due to aggressive murloc tribes and predatory lake beasts.",
+ "sections": [
+  {
+   "title": "Heart of the Valley",
+   "body": "Spanning the central basin of Redridge, Lake Everstill provides the scenic backdrop and vital waterway for the township of Lakeshire. Its crystal-clear waters drain eastward toward the looming heights of Stonewatch. Spanned by the town's central bridge, the lake has long sustained local trade and quiet anglers, though anyone walking the shoreline today will find its peaceful reputation thoroughly shattered by encroaching wilderness threats.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trouble in the Depths",
+   "body": "In recent times, hostile murlocs have established camps along the northern and eastern shallows, disrupting trade and harrying fishermen. Below the surface, aquatic hazards lurk as well, including dangerous threshers such as Ol' Gummers that patrol the deeper waters. Adding to the town's grievances, an errant mage accidentally tore open an unfiltered portal beneath the lake just a year ago in 24 ADP, momentarily draining water into Ironforge and sparking both the Great Lakeshire Drought and the Great Ironforge Flood.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What dangerous creatures live in Lake Everstill?",
+   "aliases": [
+    "what is in the lake",
+    "lake everstill monsters",
+    "redridge lake mobs"
+   ],
+   "answer": "The shallows are crawling with hostile murloc tribes, including scouts, tidecallers, and flesheaters. Swimming deeper poses its own hazards, as giant threshers and aggressive muckdwellers patrol beneath the surface."
+  },
+  {
+   "q": "What was the Great Lakeshire Drought?",
+   "aliases": [
+    "lake everstill portal",
+    "ironforge flood",
+    "lake drained"
+   ],
+   "answer": "In 24 ADP, a reckless mage opened an unfiltered portal between the lakebed and the mountain city of Ironforge. A massive deluge surged into the dwarven capital, nearly draining Lake Everstill dry in what locals recall as the Great Lakeshire Drought."
+  },
+  {
+   "q": "Where does the water from Lake Everstill flow?",
+   "aliases": [
+    "lake everstill river",
+    "where does the lake go"
+   ],
+   "answer": "The lake is drained by an eastern river that flows out past the slopes beneath the Blackrock-held stronghold of Stonewatch."
+  },
+  {
+   "q": "Can you fish safely in Lake Everstill?",
+   "aliases": [
+    "fishing lake everstill",
+    "is it safe to fish lakeshire"
+   ],
+   "answer": "While the waters teem with catfish and sagefish, fishing has become extremely dangerous. Murloc raiding parties camp right along the water's edge, and large threshers attack anyone straying too far into the deep."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The lake serves as a cautionary tale in arcane academy texts on portal hygiene, following the disaster in 24 ADP where an unfiltered underwater gateway simultaneously flooded Ironforge and desiccated Lakeshire."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Controlling the lake and its crossings is vital for Lakeshire's survival against the coordinated incursions of Redridge murlocs and nearby Blackrock orcs."
+  }
+ ],
+ "keywords": [
+  "everstill bridge",
+  "ironforge flood",
+  "lake everstill",
+  "lakeshire",
+  "murlocs",
+  "ol gummers",
+  "redridge"
+ ],
+ "related": [
+  "subzone:lakeshire",
+  "zone:redridge",
+  "topic:murloc",
+  "subzone:stonewatch",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Lake Everstill"
+ ]
+}

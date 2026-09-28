@@ -1,0 +1,111 @@
+{
+ "key": "npc:overlord-ramtusk",
+ "type": "npc",
+ "name": "Overlord Ramtusk",
+ "era": "classic",
+ "zone": "razorfenkraul",
+ "meta": {
+  "wiki": "Overlord Ramtusk",
+  "refs": 5
+ },
+ "summary": "Overlord Ramtusk is the grizzled commander of the Death's Head tribe's military forces deep within Razorfen Kraul. A massive, aging quilboar warrior, his hide is heavily scarred from decades of brutal clashes across the Barrens. Striking him down shatters the martial backbone of the Kraul's defenders.",
+ "sections": [
+  {
+   "title": "Veteran of the Barrens",
+   "body": "Overlord Ramtusk has survived decades in one of Kalimdor's most violent frontiers. His thick, leathery hide is crisscrossed with deep scars earned in skirmishes against centaur raiding parties, feral harpies, encroaching orcs, and stalwart tauren braves. While advanced age slows many warriors, Ramtusk's seasoned instincts and physical resilience have only hardened, allowing him to rule Razorfen Kraul's standing garrison with unyielding authority.",
+   "spoiler": 0
+  },
+  {
+   "title": "Commander of the Death's Head",
+   "body": "Within the winding brambles of the Kraul, Ramtusk directs the military forces of the Death's Head quilboar. As their warlord, he maintains tight discipline among the bristled fighters defending the tribe's sanctum. Flanked by elite marksmen, Ramtusk fights like a frontline berserker, bellowing rallying shouts and unleashing earth-shattering slams that can break opposing battle lines in seconds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Overlord Ramtusk?",
+   "aliases": [
+    "who is ramtusk",
+    "ramtusk lore",
+    "overlord ramtusk"
+   ],
+   "answer": "Overlord Ramtusk is the supreme military commander of the Death's Head quilboar in Razorfen Kraul. He is an imposing, heavily scarred veteran who has fought every major power in the Barrens."
+  },
+  {
+   "q": "Where can Overlord Ramtusk be found?",
+   "aliases": [
+    "ramtusk location",
+    "where is ramtusk",
+    "overlord ramtusk map"
+   ],
+   "answer": "He commands his elite guards from within the thorny heart of Razorfen Kraul, located at the southern tip of the Barrens."
+  },
+  {
+   "q": "What enemies has Ramtusk fought in the past?",
+   "aliases": [
+    "ramtusk enemies",
+    "who gave ramtusk scars",
+    "ramtusk battle history"
+   ],
+   "answer": "His scarred hide tells the tale of countless clashes across the Barrens against centaur packs, territorial harpies, newly arrived orcs, and native tauren defenders."
+  },
+  {
+   "q": "What tribe does Ramtusk belong to?",
+   "aliases": [
+    "ramtusk faction",
+    "ramtusk tribe",
+    "what quilboar tribe is ramtusk"
+   ],
+   "answer": "He is the high military leader of the Death's Head tribe, the dominant quilboar faction entrenched within Razorfen Kraul."
+  },
+  {
+   "q": "Why is Ramtusk targeted by adventurers?",
+   "aliases": [
+    "why kill ramtusk",
+    "take them down quest",
+    "ramtusk bounty"
+   ],
+   "answer": "As the supreme commander of the Death's Head forces, Ramtusk's death deals a crippling blow to the quilboar military hierarchy, throwing their defensive line into complete disarray."
+  },
+  {
+   "q": "How does Ramtusk fight?",
+   "aliases": [
+    "ramtusk tactics",
+    "ramtusk combat style",
+    "ramtusk abilities"
+   ],
+   "answer": "Ramtusk fights as a classic battle-hardened warrior, using demoralizing cries to empower his cohort, crushing shockwaves to stagger enemies, and coordinating alongside elite ranged bodyguards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For generations, the nomadic tribes of the Barrens fought bitter skirmishes against Ramtusk and his marauders; putting him down avenges fallen braves."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The quilboar have actively raided Horde settlements since the founding of Durotar and the Barrens outposts. Breaking Ramtusk's military command secures the Southern Barrens."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Ramtusk represents pure, brutal martial veteranhood, relying on thunderous strikes and commanding battle shouts rather than shamans' geomancy or thorn magic."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "deaths head",
+  "overlord ramtusk",
+  "quilboar",
+  "ramtusk",
+  "razorfen kraul"
+ ],
+ "related": [
+  "zone:razorfenkraul",
+  "topic:quilboar",
+  "topic:tauren",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Overlord Ramtusk"
+ ]
+}

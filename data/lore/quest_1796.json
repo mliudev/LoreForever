@@ -1,0 +1,127 @@
+{
+ "key": "quest:1796",
+ "type": "quest",
+ "name": "Components for the Enchanted Gold Bloodrobe",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1796
+  ],
+  "level": "31",
+  "faction": null,
+  "start": "Menara Voidrender",
+  "end": "",
+  "previous": "In Search of Menara Voidrender (optional)",
+  "next": "Components for the Enchanted Gold Bloodrobe (2)",
+  "wiki": "Components for the Enchanted Gold Bloodrobe",
+  "chain": []
+ },
+ "summary": "Menara Voidrender tasks aspiring warlocks in the Barrens with procuring a set of Robes of Arcana as the base garment for a potent magical garment. This marks the initial step in crafting the Enchanted Gold Bloodrobe, establishing the foundational vessel needed to withstand dark enchantments.",
+ "sections": [
+  {
+   "title": "A Vessel of Arcana",
+   "body": "Before dark magic can be bound to cloth, the garment itself must be worthy of bearing such power. Menara Voidrender instructs warlocks seeking greater power to procure a set of Robes of Arcana. As Menara explains, the capacity of any magical relic relies on the skill, rarity, and effort woven into its base materials. Mundane rags would unravel under the strain of deep enchantments, making a finely stitched, receptive garment indispensable.",
+   "spoiler": 0
+  },
+  {
+   "title": "Craft and Ambition",
+   "body": "While Menara expresses particular admiration for practitioners capable of weaving the garment with their own hands, she values ruthless ambition above pride. Whether a warlock sews the silk themselves, commissions a talented artisan, or bargains on the market, the outcome remains the same: a completed robe ready to be remade into a specialized tool of fel mastery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Menara Voidrender need Robes of Arcana specifically?",
+   "aliases": [
+    "why robes of arcana",
+    "why this robe",
+    "robe purpose"
+   ],
+   "answer": "High-tier enchantments require a garment woven with exceptional skill and rare materials. Menara uses the Robes of Arcana as a clean, receptive foundation capable of holding the volatile magical forces that will soon be bound into it."
+  },
+  {
+   "q": "Where is Menara Voidrender located?",
+   "aliases": [
+    "menara voidrender location",
+    "where is menara",
+    "menara voidrender where"
+   ],
+   "answer": "Menara Voidrender resides in the Barrens, sequestered along the ridges overlooking the dusty plains, where she instructs warlocks seeking to advance their craft and forge specialized gear."
+  },
+  {
+   "q": "Do I have to tailor the Robes of Arcana myself?",
+   "aliases": [
+    "do i need tailoring",
+    "can i buy the robes",
+    "tailoring required"
+   ],
+   "answer": "No. While Menara respects the dedication of crafting the garment personally, she accepts robes acquired through trade or purchased from other craftsmen. For a warlock, securing the vessel by any practical means is acceptable."
+  },
+  {
+   "q": "Where does the pattern for Robes of Arcana come from?",
+   "aliases": [
+    "robes of arcana pattern",
+    "how to get pattern",
+    "tailoring recipe location"
+   ],
+   "answer": "The pattern is a rare drop found primarily on cultists and dark casters, such as the Dark Strand Voidcallers at the Tower of Althalaxx in Darkshore or Defias Enchanters operating in Duskwood."
+  },
+  {
+   "q": "What happens to the Robes of Arcana after handing them in?",
+   "aliases": [
+    "do i lose the robes",
+    "robe gone",
+    "what happens to robe"
+   ],
+   "answer": "Menara takes the robes into her possession to serve as the raw material for the subsequent imbuing ritual. If you are wearing them when completing the task, she strips them away immediately, leaving you without a chestpiece until later steps are finished."
+  },
+  {
+   "q": "What is the Enchanted Gold Bloodrobe?",
+   "aliases": [
+    "what is bloodrobe",
+    "bloodrobe lore",
+    "enchanted gold bloodrobe"
+   ],
+   "answer": "It is a specialized vestment tailored for mid-ranking warlocks. Bound with dark components and protective enchantments, it bolsters a caster's resilience and reserves of dark energy."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Crafting the Enchanted Gold Bloodrobe is an important rite of passage for warlocks, teaching that powerful artifacts must be forged upon resilient, meticulously prepared foundations."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "The quest relies on the rare expertise of a skilled tailor who has mastered the pattern for Robes of Arcana, using spider's silk and bolt upon bolt of fine silk."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken practitioners often travel far to the sun-bleached Barrens to glean techniques from Menara, seeking to fortify their frail mortal husks against their own volatile arts."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For Orc warlocks working in the shadow of their race's demonic past, gathering materials for subtle robes represents a quieter mastery of fel energy away from prying eyes."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bloodrobe",
+  "enchanted gold bloodrobe",
+  "menara voidrender",
+  "robes of arcana",
+  "tailoring",
+  "warlock quest"
+ ],
+ "related": [
+  "npc:menara-voidrender",
+  "zone:barrens",
+  "subzone:tower-of-althalaxx",
+  "quest:965",
+  "zone:duskwood",
+  "quest:99141"
+ ],
+ "attribution": [
+  "Components for the Enchanted Gold Bloodrobe"
+ ]
+}

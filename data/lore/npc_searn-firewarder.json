@@ -1,0 +1,78 @@
+{
+ "key": "npc:searn-firewarder",
+ "type": "npc",
+ "name": "Searn Firewarder",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Searn Firewarder",
+  "refs": 2
+ },
+ "summary": "Searn Firewarder is a Darkspear troll shaman trainer stationed inside Grommash Hold in Orgrimmar. He assists developing shamans across the Horde, directing them toward the trials needed to commune with the elemental spirits of fire, water, and air.",
+ "sections": [
+  {
+   "title": "A Guide to the Elements",
+   "body": "Standing within the fortified walls of Grommash Hold alongside the Horde's high command, Searn Firewarder serves as an elemental guide for aspiring shamans. While many Darkspear trolls commune with the spirits through witch doctors and voodoo rituals, Searn represents the bond troll shamans forge directly with the living elements of Kalimdor. He acts as an intermediary, directing initiates toward the far-flung mentors and rites required to earn the Call of Fire, Call of Water, and Call of Air.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Searn Firewarder?",
+   "aliases": [
+    "searn firewarder lore",
+    "who is searn",
+    "searn orgrimmar"
+   ],
+   "answer": "Searn Firewarder is a jungle troll shaman trainer based inside Grommash Hold in Orgrimmar. He directs developing Horde shamans through the steps of their spiritual journeys."
+  },
+  {
+   "q": "What quests does Searn Firewarder offer?",
+   "aliases": [
+    "searn quests",
+    "searn firewarder questline"
+   ],
+   "answer": "Searn helps guide shamans through their elemental awakening quests, including the Call of Fire, Call of Water, and Call of Air, pointing them to distant shrines and spiritual teachers across the continents."
+  },
+  {
+   "q": "Why is a troll shaman stationed inside Grommash Hold?",
+   "aliases": [
+    "why is searn in grommash hold",
+    "searn grommash hold"
+   ],
+   "answer": "Grommash Hold serves as the heart of Orgrimmar's leadership, hosting Warchief Thrall and prominent representatives from the allied races. Searn's presence reflects the close unity between the orcs and the Darkspear tribe, as well as the central role shamanism plays in the new Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Searn is an important checkpoint for developing Horde shamans, directing them toward the masters and trials needed to bind the elements to their totems."
+  },
+  {
+   "target": "race:Troll",
+   "text": "As a Darkspear shaman standing inside Grommash Hold, Searn demonstrates how troll spiritualists have adapted their ancestral ties alongside their orc and tauren allies."
+  }
+ ],
+ "keywords": [
+  "call of air",
+  "call of fire",
+  "call of water",
+  "darkspear",
+  "grommash hold",
+  "orgrimmar",
+  "searn firewarder",
+  "shaman trainer"
+ ],
+ "related": [
+  "subzone:grommash-hold",
+  "zone:orgrimmar",
+  "quest:1524",
+  "quest:63",
+  "quest:1531",
+  "topic:troll",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Searn Firewarder"
+ ]
+}

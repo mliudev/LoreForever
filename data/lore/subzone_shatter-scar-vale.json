@@ -1,0 +1,72 @@
+{
+ "key": "subzone:shatter-scar-vale",
+ "type": "subzone",
+ "name": "Shatter Scar Vale",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": "Shatter Scar Vale"
+ },
+ "summary": "Shatter Scar Vale is a scorched basin in central Felwood, located just north of Bloodvenom Falls. It marks the ground zero where demonic infernals crashed into northern Kalimdor during the Third War. Today, the craters still burn with fel fire and host lingering remnants of the Burning Legion.",
+ "sections": [
+  {
+   "title": "Impact of the Infernals",
+   "body": "During the Third War, the Burning Legion rained living siege engines down upon northern Kalimdor. Shatter Scar Vale bore the brunt of this celestial assault. Demonic infernals plummeted from the skies, tearing through the ancient canopy and smashing deep craters into the earth. The violent impact shattered the terrain, leaving blackened hollows that smolder with unholy fire to this day. Though the Legion was shattered at Mount Hyjal, the infernals and lingering lesser demons never truly dispersed, maintaining an entrenched foothold in the scarred earth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the ground covered in craters?",
+   "aliases": [
+    "craters in felwood",
+    "why is shatter scar vale cratered",
+    "what made the craters"
+   ],
+   "answer": "The craters were formed during the Third War when the Burning Legion bombarded the forest with infernals. These hulking constructs of fel stone plummeted from the sky like meteors, smashing into the ground and leaving smoldering impact scars across the valley."
+  },
+  {
+   "q": "What creatures roam Shatter Scar Vale?",
+   "aliases": [
+    "what mobs are here",
+    "shatter scar vale enemies"
+   ],
+   "answer": "The vale remains overrun by constructs and servants of the Burning Legion. Living infernals still guard the smoldering impact basins, alongside other wandering lesser demons left behind after the invasion faltered."
+  },
+  {
+   "q": "Where is Shatter Scar Vale located?",
+   "aliases": [
+    "shatter scar vale location",
+    "where is shatter scar vale"
+   ],
+   "answer": "Shatter Scar Vale lies in the central reaches of Felwood, positioned directly north of Bloodvenom Falls along the eastern side of the forest's main path."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The fel-infused cores of the infernals roaming these craters represent potent conduits of chaotic magic left behind from the Legion's invasion."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The smoldering scars in this vale are persistent open wounds on Kalimdor's spirit, refusing to heal while the Legion's constructs still burn."
+  }
+ ],
+ "keywords": [
+  "bloodvenom falls",
+  "burning legion",
+  "craters",
+  "felwood",
+  "infernals",
+  "shatter scar vale"
+ ],
+ "related": [
+  "zone:felwood",
+  "topic:burning-legion",
+  "subzone:bloodvenom-falls",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Shatter Scar Vale"
+ ]
+}

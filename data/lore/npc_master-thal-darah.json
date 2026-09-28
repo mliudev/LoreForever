@@ -1,0 +1,91 @@
+{
+ "key": "npc:master-thal-darah",
+ "type": "npc",
+ "name": "Master Thal'darah",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Master Thal'darah",
+  "refs": 2
+ },
+ "summary": "Master Thal'darah is a respected night elf mentor stationed in the heights of the Stonetalon Mountains. Dedicated to instructing and guiding young druids, he watches over the forest haven that bears his name. With growing hostility and encroachment from the Horde threatening the region, he stands vigilant to protect his students and the natural order.",
+ "sections": [
+  {
+   "title": "Guardian of the Young",
+   "body": "Adorned in ceremonial Cenarion robes with leaves woven neatly into his beard, Master Thal'darah serves as a senior instructor for novice druids learning the ways of the wild in Stonetalon. From the vantage of the overlook, he watches the tranquil Thal'darah Grove nestled below. Rather than seeking conflict, his primary responsibility lies in nurturing the next generation of Cenarion practitioners and maintaining harmony across the mountain sanctuary.",
+   "spoiler": 0
+  },
+  {
+   "title": "Under the Shadow of Conflict",
+   "body": "The mounting friction between the night elves and the Horde throughout Stonetalon places the grove directly in harm's way. Thal'darah harbors a profound distrust and bitterness toward the Horde's expansion, knowing well the vulnerability of the uninitiated apprentices under his charge. As threats draw closer, he depends on traveling Alliance allies to keep watch and defend the sanctuary against encroaching forces.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Master Thal'darah?",
+   "aliases": [
+    "who is thaldarah",
+    "thaldarah lore",
+    "who is master thal'darah"
+   ],
+   "answer": "Master Thal'darah is a senior night elf druid located at Thal'darah Overlook in the Stonetalon Mountains. He acts as an instructor and guardian for young druid novices training in the nearby grove."
+  },
+  {
+   "q": "What is his connection to Thal'darah Grove?",
+   "aliases": [
+    "why is grove named after him",
+    "thal'darah grove",
+    "thaldarah grove connection"
+   ],
+   "answer": "The serene grove nestled below the overlook bears his name, functioning as a tranquil training ground where he mentors uninitiated night elf druids in the mysteries of nature."
+  },
+  {
+   "q": "Why does Thal'darah distrust the Horde?",
+   "aliases": [
+    "why does thaldarah hate horde",
+    "thaldarah horde conflict"
+   ],
+   "answer": "Thal'darah views the aggressive logging and territorial expansion of the Horde into the Stonetalon Mountains as a direct threat to the fragile balance of nature and the lives of the young druids under his protection."
+  },
+  {
+   "q": "What faction does he belong to?",
+   "aliases": [
+    "is thaldarah alliance",
+    "cenarion or alliance"
+   ],
+   "answer": "While clad in Cenarion robes and focused on the sacred druidic mission, Master Thal'darah is closely aligned with the Alliance, relying on Alliance travelers to help secure his students and resist enemy incursions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids walking the Cenarion path, Thal'darah embodies the solemn duty of passing the teachings of the wild down to the next generation amidst a turbulent world."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance champions traversing Stonetalon find in Thal'darah an esteemed elder in desperate need of aid to preserve the lives of defenseless Kaldorei novices."
+  }
+ ],
+ "keywords": [
+  "cenarion",
+  "druid",
+  "master thal'darah",
+  "stonetalon",
+  "thal'darah",
+  "thal'darah grove",
+  "thal'darah overlook"
+ ],
+ "related": [
+  "subzone:thal-darah-overlook",
+  "subzone:thal-darah-grove",
+  "zone:stonetalon",
+  "topic:druid",
+  "topic:night-elf",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Master Thal'darah"
+ ]
+}

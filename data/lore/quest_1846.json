@@ -1,0 +1,130 @@
+{
+ "key": "quest:1846",
+ "type": "quest",
+ "name": "Dragonmaw Shinbones",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1846
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Velora Nitely",
+  "end": "",
+  "previous": "Velora Nitely and the Brutal Legguards",
+  "next": "Brutal Legguards (quest)",
+  "wiki": "Dragonmaw Shinbones",
+  "chain": []
+ },
+ "summary": "Dragonmaw Shinbones is a Horde warrior quest directed by the armorer Velora Nitely in the Undercity. To craft the resilient Brutal Legguards, warriors are dispatched into the southern Wetlands to harvest exceptionally thick shinbones from the hostile Dragonmaw orcs.",
+ "sections": [
+  {
+   "title": "A Gruesome Armature",
+   "body": "Forging armor fit for a seasoned frontline warrior demands unorthodox materials. When tasked with fashioning Brutal Legguards, the Forsaken armorer Velora Nitely specifies a structural brace constructed from thick, resilient bone. Rather than utilizing common beasts, she directs aspiring warriors toward the Dragonmaw orcs of the Wetlands, whose dense skeletal builds provide the necessary resilience to withstand heavy blows in combat.",
+   "spoiler": 0
+  },
+  {
+   "title": "Testing the Marrow",
+   "body": "Harvesting bone from the Dragonmaw is only half the ordeal. Velora instructs warriors to manually test every bone taken in the field; any specimen brittle enough to snap in bare hands is utterly useless for the forge. Warriors must scour the renegade encampments along the Wetlands' crags, breaking weak bones until eight genuinely sturdy examples survive the test of strength.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Velora Nitely need orc shinbones specifically?",
+   "aliases": [
+    "why orc shinbones",
+    "why dragonmaw bones",
+    "velora bone armor"
+   ],
+   "answer": "Velora requires dense, thick material to act as a supportive framework for the Brutal Legguards. She considers the Dragonmaw orcs of the Wetlands uniquely suited because their heavy, powerful skeletal frame provides far more structural rigidity than ordinary game or scavenged remains."
+  },
+  {
+   "q": "Why are the Dragonmaw orcs fair game for Horde warriors?",
+   "aliases": [
+    "are dragonmaw in the horde",
+    "why fight dragonmaw",
+    "dragonmaw horde standing"
+   ],
+   "answer": "The Dragonmaw clan remnants entrenched in the Wetlands are hostile renegades clinging to the dark legacy of the Second War. They hold no allegiance to Thrall's modern Horde, making them enemies of the state and fair quarry for Horde adventurers."
+  },
+  {
+   "q": "Where are the Dragonmaw found for this task?",
+   "aliases": [
+    "dragonmaw location",
+    "where to find dragonmaw shinbones",
+    "angerfang encampment location"
+   ],
+   "answer": "They reside in the Wetlands, south across the Thandol Span from the Arathi Highlands. Warriors typically hunt them around the mountainous bluffs of the Angerfang Encampment, situated southwest of the main northern highway."
+  },
+  {
+   "q": "Why do so many of the bones break during the quest?",
+   "aliases": [
+    "broken shinbones",
+    "why do shinbones snap",
+    "sturdy bone test"
+   ],
+   "answer": "Velora requires only the densest marrow frames for armor forging. As part of her instructions, warriors test each bone by hand; any bone that snaps under raw physical force is discarded as too fragile to protect a warrior's legs in battle."
+  },
+  {
+   "q": "Who is Velora Nitely?",
+   "aliases": [
+    "velora nitely lore",
+    "who is velora",
+    "undercity armorer"
+   ],
+   "answer": "Velora Nitely is a Forsaken armorer operating within the Undercity. Gruff, morbidly dry, and prone to grim attempts at humor, she assists Horde warriors in fabricating specialized martial gear suited for battle-hardened veterans."
+  },
+  {
+   "q": "What armor piece is forged from these bones?",
+   "aliases": [
+    "shinbones reward",
+    "what are the shinbones for",
+    "brutal legguards craft"
+   ],
+   "answer": "The collected bones form the internal framing for the Brutal Legguards, a durable set of plate-style greaves created for mid-level Horde warriors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This trial tests both a warrior's physical fortitude in the field and their willingness to harvest morbid materials to craft superior armor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Striking down the rogue Dragonmaw clan in Khaz Modan weakens a dangerous Old Horde remnant while empowering the champions of Thrall's new coalition."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs loyal to Orgrimmar, culling the unrepentant Dragonmaw is a stark reminder of their people's fel past and the violent cost of redemption."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Velora Nitely's pragmatic use of humanoid remains exemplifies the Forsaken mentality of weaponizing every available resource, however macabre."
+  }
+ ],
+ "keywords": [
+  "angerfang encampment",
+  "brutal legguards",
+  "dragonmaw",
+  "shinbones",
+  "thandol span",
+  "undercity",
+  "velora nitely",
+  "wetlands"
+ ],
+ "related": [
+  "npc:velora-nitely",
+  "quest:1841",
+  "subzone:angerfang-encampment",
+  "zone:wetlands",
+  "subzone:thandol-span",
+  "zone:undercity",
+  "zone:arathi",
+  "subzone:hammerfall"
+ ],
+ "attribution": [
+  "Dragonmaw Shinbones"
+ ]
+}

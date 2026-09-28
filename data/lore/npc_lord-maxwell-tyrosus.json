@@ -1,0 +1,115 @@
+{
+ "key": "npc:lord-maxwell-tyrosus",
+ "type": "npc",
+ "name": "Lord Maxwell Tyrosus",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Lord Maxwell Tyrosus",
+  "refs": 4
+ },
+ "summary": "Lord Maxwell Tyrosus is the supreme commander of the Argent Dawn, stationed at their forward redoubt of Light's Hope Chapel in the Eastern Plaguelands. A veteran paladin of the Silver Hand from the Third War, he guides the coalition's crusade against the Scourge and orchestrates strikes into blighted strongholds like Stratholme.",
+ "sections": [
+  {
+   "title": "A Veteran of Lordaeron",
+   "body": "Maxwell Tyrosus rode alongside Uther the Lightbringer during the catastrophic Third War, guarding the exits of Andorhal when the Scourge tore through the kingdom. Following the fall of Lordaeron, he joined Highlord Alexandros Mograine in Hearthglen to sustain the resistance against the undead. Even then, Tyrosus advocated for unity across all races, intervening when zealous comrades like Brigitte Abbendis attempted to execute outsiders such as the troll priest Zabra Hexx. When Alexandros was betrayed and the remnants of the Silver Hand degenerated into the fanatical Scarlet Crusade, Tyrosus refused to follow their descent into xenophobia and broke away to help establish the Argent Dawn.",
+   "spoiler": 0
+  },
+  {
+   "title": "Commander of the Dawn",
+   "body": "Following the death of Lord Raymond George, Tyrosus assumed leadership of the Argent Dawn. He welcomed Darion Mograine into the fold at Chillwind Point and later oversaw the defensive fortifications of Light's Hope Chapel. During the brutal Siege of the Sanguine, Tyrosus dealt a devastating blow to Kirkessen the Zealous, permanently shattering the lich's corporeal shell. From his command post within the chapel, he oversees broad military operations across the Plaguelands, including tactical assaults led by Duke Nicholas Zverenhoff against Baron Rivendare inside the ruins of Stratholme.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lord Maxwell Tyrosus?",
+   "aliases": [
+    "who is maxwell tyrosus",
+    "tyrosus lore",
+    "leader of argent dawn",
+    "argent dawn boss"
+   ],
+   "answer": "Lord Maxwell Tyrosus is a veteran human paladin and the supreme leader of the Argent Dawn. Having fought under Uther the Lightbringer and Alexandros Mograine during the Third War, he now commands the defense of Light's Hope Chapel and directs the coalition's campaign to cleanse the Plaguelands."
+  },
+  {
+   "q": "Why did Tyrosus leave the Scarlet Crusade?",
+   "aliases": [
+    "why did tyrosus leave scarlet crusade",
+    "tyrosus scarlet crusade",
+    "is tyrosus scarlet crusade"
+   ],
+   "answer": "Following the murder of Alexandros Mograine, the remnants of the Silver Hand in Lordaeron became increasingly radical and xenophobic, purging anyone who was not purely human. Tyrosus had always believed in cooperating with other races to defeat the Scourge, so he abandoned the zealots and joined the Argent Dawn."
+  },
+  {
+   "q": "Where can Maxwell Tyrosus be found?",
+   "aliases": [
+    "tyrosus location",
+    "where is maxwell tyrosus",
+    "tyrosus map"
+   ],
+   "answer": "He is located inside the sanctuary of Light's Hope Chapel, the Argent Dawn's fortified stronghold situated in the far eastern reaches of the Eastern Plaguelands."
+  },
+  {
+   "q": "What is Tyrosus's role in the war against Stratholme?",
+   "aliases": [
+    "tyrosus stratholme",
+    "tyrosus rivendare"
+   ],
+   "answer": "Tyrosus coordinates broad military strategy with Duke Nicholas Zverenhoff, tasking proven adventurers and strike teams to breach the fallen city of Stratholme and eliminate Baron Rivendare, the Lich King's commander in the region."
+  },
+  {
+   "q": "Does Tyrosus allow anyone to meet with him?",
+   "aliases": [
+    "can i talk to tyrosus",
+    "tyrosus audience"
+   ],
+   "answer": "Tyrosus rarely grants audiences to outsiders, having spent years secluded in war councils directing the frontline effort. Adventurers must typically earn the deep respect of the Argent Dawn or present critical intelligence to gain his attention."
+  },
+  {
+   "q": "What was Tyrosus's role in the Siege of the Sanguine?",
+   "aliases": [
+    "tyrosus kirkessen",
+    "siege of the sanguine"
+   ],
+   "answer": "During that battle, Tyrosus confronted Kirkessen the Zealous, a high-ranking lich serving the Lich King. Tyrosus struck a critical blow that permanently stripped Kirkessen of his physical body, preventing the undead sorcerer from ever manifesting in a corporeal form again."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Tyrosus represents the unbroken spirit of the Silver Hand, maintaining the virtues of compassion, unity, and discipline after Uther's death and the tragic corruption of the order's splinter factions."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though born a nobleman of Lordaeron and a hero of the Alliance, Tyrosus now commits his forces to an independent order that welcomes anyone willing to fight the Scourge."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Unlike the zealots in Hearthglen and the Scarlet Monastery, Tyrosus has long championed cooperation with non-humans, ensuring Horde warriors and shamans are accepted as equals within Light's Hope Chapel."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "kirkessen",
+  "light's hope chapel",
+  "paladin",
+  "scourge",
+  "silver hand",
+  "stratholme",
+  "tyrosus"
+ ],
+ "related": [
+  "subzone:light-s-hope-chapel",
+  "topic:argent-dawn",
+  "zone:easternplaguelands",
+  "subzone:stratholme",
+  "npc:darion-mograine",
+  "topic:scarlet-crusade",
+  "topic:scourge",
+  "npc:tirion-fordring"
+ ],
+ "attribution": [
+  "Lord Maxwell Tyrosus"
+ ]
+}

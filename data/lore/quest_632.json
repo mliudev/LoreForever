@@ -1,0 +1,120 @@
+{
+ "key": "quest:632",
+ "type": "quest",
+ "name": "The Thandol Span",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   632
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Ebenezer Rustlocke's Corpse",
+  "end": "Rhag Garmason",
+  "previous": "The Thandol Span",
+  "next": "The Thandol Span (3)",
+  "wiki": "The Thandol Span (2)",
+  "chain": [
+   "The Thandol Span",
+   "The Thandol Span (2)",
+   "The Thandol Span (3)",
+   "Plea To The Alliance"
+  ]
+ },
+ "summary": "This investigation uncovers the grim fate of Ol' Ebenezer Rustlocke, a scout sent to inspect the massive stone crossing of the Thandol Span. Slain in an ambush, his remains hold vital intelligence revealing that Dark Iron saboteurs are actively plotting beneath the bridges. Reporting back to Rhag Garmason alerts the Alliance to a growing subterranean threat to their northern supply lines.",
+ "sections": [
+  {
+   "title": "A Scout's Final Stand",
+   "body": "Rhag Garmason originally stationed Ebenezer Rustlocke to keep watch over the structural integrity and security of the Thandol Span. When contact with the scout ceased, foul play was immediately feared. Exploring the recesses beneath the arches reveals Rustlocke lying dead, having succumbed to a vicious ambush sprung from the shadows by Dark Iron invaders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Deepfury's Orders",
+   "body": "Pried from the vicinity of Rustlocke's clenched fingers is a set of written orders bearing the name Deepfury. Far from a random robbery or isolated border skirmish, the parchment outlines deliberate Dark Iron operations aimed at destabilizing the crossing. Delivering this evidence back to Garmason shifts the garrison's posture from a routine search to an urgent wartime defense.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Ebenezer Rustlocke?",
+   "aliases": [
+    "who is rustlocke",
+    "ol rustlocke",
+    "ebenezer rustlocke"
+   ],
+   "answer": "Ebenezer 'Ol' Rustlocke was an Alliance dwarf dispatched to scout and maintain watch over the Thandol Span. He was caught off guard and slain by Dark Iron dwarves prowling beneath the bridge."
+  },
+  {
+   "q": "Who killed Rustlocke?",
+   "aliases": [
+    "who killed rustlocke",
+    "who ambushed rustlocke",
+    "rustlocke corpse"
+   ],
+   "answer": "He was ambushed by Dark Iron operatives operating beneath the Thandol Span, carrying out directives issued by Commander Deepfury."
+  },
+  {
+   "q": "What is found on Rustlocke's body?",
+   "aliases": [
+    "what was in his hand",
+    "deepfury's orders",
+    "parchment on rustlocke"
+   ],
+   "answer": "Beside his clenched fist lies a parchment containing Deepfury's Orders, documenting covert Dark Iron plots against the vital northern bridge."
+  },
+  {
+   "q": "Who is Rhag Garmason?",
+   "aliases": [
+    "rhag garmason",
+    "who is garmason"
+   ],
+   "answer": "Rhag Garmason is an Alliance officer stationed on the southern side of the Thandol Span in the Wetlands, responsible for securing traffic between the dwarven territories and the north."
+  },
+  {
+   "q": "Why is the Thandol Span so heavily contested?",
+   "aliases": [
+    "why thandol span matters",
+    "thandol span importance"
+   ],
+   "answer": "The Thandol Span represents the sole overland bridge connecting the dwarven lands of Khaz Modan and the Wetlands to the Arathi Highlands and Lordaeron. Securing it is vital for Alliance logistics."
+  },
+  {
+   "q": "What happens after giving the orders to Rhag Garmason?",
+   "aliases": [
+    "what happens next",
+    "thandol span follow up"
+   ],
+   "answer": "Recognizing the gravity of the threat, Rhag Garmason directs the Alliance to strike back at the Dark Iron forces entrenched beneath the span to thwart their sabotage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The discovery of Dark Iron forces operating this far north of the Searing Gorge demonstrates how deeply their insidious infiltration reaches, threatening fellow Ironforge kin."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Thandol Span is the artery tying Ironforge and Stormwind to northern Alliance strongholds, making Rustlocke's discovery critical to continental security."
+  }
+ ],
+ "keywords": [
+  "arathi",
+  "dark iron",
+  "deepfury",
+  "ebenezer rustlocke",
+  "rhag garmason",
+  "thandol span",
+  "wetlands"
+ ],
+ "related": [
+  "quest:631",
+  "subzone:thandol-span",
+  "zone:wetlands",
+  "quest:634",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "The Thandol Span (2)"
+ ]
+}

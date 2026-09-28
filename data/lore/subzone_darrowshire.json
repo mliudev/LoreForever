@@ -1,0 +1,88 @@
+{
+ "key": "subzone:darrowshire",
+ "type": "subzone",
+ "name": "Darrowshire",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Darrowshire"
+ },
+ "summary": "Darrowshire is a ruined village in the southern hills of the Eastern Plaguelands, once a peaceful hamlet of Lordaeron. During the Third War, its residents mounted a desperate, tragic stand against an overwhelming Scourge force. Today, only shattered timbers, restless spirits, and bitter memories linger amid the silence.",
+ "sections": [
+  {
+   "title": "A Tragic Stand",
+   "body": "Before the plague consumed northern Lordaeron, Darrowshire was a humble rural settlement nestled beneath the southern cliffs. When the Scourge marched south during the Third War, a force led by the death knight Marduk Blackpool and the ghoul lord Horgus the Ravager besieged the town. The villagers and local defenders fought valiantly, momentarily holding the line against impossible odds. Ultimately, the defense collapsed, and the town was slaughtered down to the last soul. Rather than finding peace in death, many of Darrowshire's fallen defenders were reanimated as ghouls to bolster the Scourge's ranks, leaving the village an eerie, empty memorial of lost valor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes of the Battle",
+   "body": "Though long abandoned by the living, Darrowshire is far from completely empty. The psychic weight of the slaughter clings heavily to the valley, trapping spectral remnants of the townspeople within the ruins. Travelers passing through report strange phenomena, including chilling reenactments where the tragic battle unfolds again in ghostly silence. The ground remains saturated with sorrow, serving as a bleak reminder of what the Scourge tore away from the kingdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to Darrowshire?",
+   "aliases": [
+    "darrowshire history",
+    "why is darrowshire destroyed",
+    "what happened here"
+   ],
+   "answer": "Darrowshire was destroyed during the Third War when a massive Scourge army assaulted the town. Led by the death knight Marduk Blackpool and the ghoul lord Horgus the Ravager, the undead overwhelmed the town's defenders and slaughtered the inhabitants, leaving the settlement in ruins."
+  },
+  {
+   "q": "Who were the leaders of the Scourge attack on Darrowshire?",
+   "aliases": [
+    "who attacked darrowshire",
+    "darrowshire villains",
+    "horgus and marduk"
+   ],
+   "answer": "The assault was led by the death knight Marduk Blackpool alongside Horgus the Ravager, a monstrous ghoul lord. Together, their forces broke the village's defenders and doomed the settlement."
+  },
+  {
+   "q": "Why is Darrowshire haunted?",
+   "aliases": [
+    "darrowshire ghosts",
+    "why are there spirits in darrowshire"
+   ],
+   "answer": "The slaughter was so sudden and horrific that the spirits of the fallen remained bound to the earth. In addition to ghostly apparitions lingering in the ruined buildings, the brutal battle itself is said to periodically replay in spectral form, trapping the dead in their final, tragic moments."
+  },
+  {
+   "q": "What became of the villagers who died defending the town?",
+   "aliases": [
+    "darrowshire villagers",
+    "defenders of darrowshire"
+   ],
+   "answer": "Most of the defenders were butchered where they stood, and many of their corpses were reanimated by necromancers into mindless ghouls, forced to serve the very Scourge army that destroyed their homes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of the Alliance, Darrowshire is a solemn testament to the sheer devastation inflicted upon Lordaeron, where ordinary folk made a hopeless stand to defend their families."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The tragic fate of Darrowshire stands as an enduring call for paladins to bring the purifying Light to the Plaguelands, both to strike down the undead and lay tortured spirits to rest."
+  }
+ ],
+ "keywords": [
+  "battle of darrowshire",
+  "darrowshire",
+  "eastern plaguelands",
+  "ghouls",
+  "horgus the ravager",
+  "lordaeron",
+  "marduk blackpool"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "topic:scourge",
+  "topic:third-war",
+  "topic:light",
+  "npc:nathanos-blightcaller"
+ ],
+ "attribution": [
+  "Darrowshire"
+ ]
+}

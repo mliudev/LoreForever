@@ -1,0 +1,94 @@
+{
+ "key": "subzone:brackenwall-village",
+ "type": "subzone",
+ "name": "Brackenwall Village",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Brackenwall Village"
+ },
+ "summary": "Brackenwall Village is the primary Horde outpost in Dustwallow Marsh, nestled among the bogs in the northwest corner of the zone. Founded by surviving Stonemaul ogres after dragons devastated their original settlement to the south, the village serves as a tenuous stronghold surrounded by Alliance spies, deserters, and the black dragonflight.",
+ "sections": [
+  {
+   "title": "Refuge of the Stonemaul",
+   "body": "When black dragonkin drove the Stonemaul ogres out of their ancient home at Stonemaul Village in the southern marsh, their leader, Overlord Mok'Morokk\u2014successor to Rexxar\u2014led the survivors north into the swamp to build Brackenwall. Formed around traditional earthen mounds, huts, and an old watchtower, the settlement gave the battered clan a defensible haven. Though aligned with the Horde, the village suffers from internal rot: Mok'Morokk sits idle, hoarding supplies and refusing to confront the draconic threat, leaving the clan's spiritual and tactical guidance to figures like the ogre mage Draz'Zilb and Horde emissaries.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes in the Bog",
+   "body": "Beyond internal dysfunction, Brackenwall is beset by external threats. Theramore infiltrators lurk constantly in the thickets, spying on village movements and reporting back to the island fortress. Meanwhile, rogue Human deserters from Lost Point operate in the shadows, stealing vital supplies and prodding the outpost's defenses. Between wary eyes watching from the east and black drakes prowling the southern reaches, Brackenwall serves as the Horde's isolated staging ground to keep both the Alliance and Onyxia's brood at bay.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there ogres allied with the Horde here?",
+   "aliases": [
+    "why horde ogres",
+    "stonemaul clan lore",
+    "who are these ogres"
+   ],
+   "answer": "These are the Stonemaul ogres, an honorable clan inducted into the modern Horde by the champion Rexxar during the founding of Durotar. Rexxar became their chieftain after defeating their former leader, binding the clan to Warchief Thrall's new coalition before passing leadership to Mok'Morokk."
+  },
+  {
+   "q": "Why did the Stonemaul settle here instead of staying in their old home?",
+   "aliases": [
+    "what happened to stonemaul village",
+    "why brackenwall",
+    "ogre refugees"
+   ],
+   "answer": "Their ancestral settlement in southern Dustwallow Marsh was overrun and obliterated by the black dragonflight, the brood of Onyxia. Overlord Mok'Morokk led the displaced survivors northward into the bog to establish Brackenwall as a fortified refuge."
+  },
+  {
+   "q": "Who is in charge of Brackenwall Village?",
+   "aliases": [
+    "brackenwall leader",
+    "who runs brackenwall",
+    "mok'morokk"
+   ],
+   "answer": "Overlord Mok'Morokk leads the settlement, though his reign is widely resented. Rather than rallying his people to retake their homeland or confront the dragons, he cowers inside the village, forcing the ogre mage Draz'Zilb and Horde envoys to manage daily crises."
+  },
+  {
+   "q": "Why are there Theramore spies outside the village?",
+   "aliases": [
+    "alliance spies dustwallow",
+    "theramore infiltrators",
+    "why is theramore watching"
+   ],
+   "answer": "Despite the fragile truce between Theramore and Orgrimmar, Lady Jaina Proudmoore's military keeps close surveillance on any Horde troop movements within Dustwallow. Infiltrators skirt the perimeter of Brackenwall, reporting on ogre strength and Horde operations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Brackenwall is your sole sanctuary and flight connection in the marsh; defending it ensures the Horde maintains a vital listening post and defensive flank against Theramore."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Brackenwall is deep in hostile territory, but investigations concerning the missing diplomat and rogue Theramore deserters will bring daring agents right to the edge of the ogre encampment."
+  }
+ ],
+ "keywords": [
+  "brackenwall",
+  "draz'zilb",
+  "dustwallow",
+  "infiltrators",
+  "mok'morokk",
+  "ogres",
+  "paval reethe",
+  "stonemaul"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "npc:overlord-mok-morokk",
+  "subzone:stonemaul-hold",
+  "topic:horde",
+  "npc:onyxia",
+  "subzone:theramore-isle",
+  "subzone:lost-point",
+  "quest:1241"
+ ],
+ "attribution": [
+  "Brackenwall Village"
+ ]
+}

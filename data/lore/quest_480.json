@@ -1,0 +1,128 @@
+{
+ "key": "quest:480",
+ "type": "quest",
+ "name": "The Weaver",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   480
+  ],
+  "level": "22",
+  "faction": "Horde",
+  "start": "Shadow Priest Allister",
+  "end": "",
+  "previous": "Ambermill Investigations",
+  "next": null,
+  "wiki": "The Weaver (quest)",
+  "chain": []
+ },
+ "summary": "The Weaver is a strike mission assigned by Shadow Priest Allister in the Sepulcher to halt Dalaran's magical operations in Silverpine Forest. A Dalaran archmage, Ataeric, is directing efforts to reactivate a powerful ley energy node in the region. By slaying the archmage and claiming his staff, the Forsaken disrupt Dalaran's occult ambitions and secure their grip on the surrounding lands.",
+ "sections": [
+  {
+   "title": "Severing the Ley Thread",
+   "body": "Following preliminary investigations into Ambermill and Dalaran's movements in Silverpine Forest, the Forsaken learned of a hazardous development: the wizards are attempting to harness and reactivate a dormant ley energy node. Left unchecked, access to such concentrated arcane power would allow Dalaran to fortify their position and threaten the Undercity's dominion over the southern reaches of Lordaeron.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Archmage's Fall",
+   "body": "Shadow Priest Allister recognizes that dismantling an operation of this magnitude requires cutting off its head. The effort is orchestrated by Archmage Ataeric, a formidable wizard cloistered behind wards and fellow magi. Striking him down and claiming his staff dissipates the gathered magic, casting the ley energies back into dormancy and thwarting the Kirin Tor's ambitions in the valley.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the Weaver?",
+   "aliases": [
+    "who is the weaver",
+    "archmage ataeric",
+    "ataeric weaver"
+   ],
+   "answer": "The Weaver refers to Archmage Ataeric, a powerful Dalaran spellcaster stationed in Silverpine Forest. He is tasked with weaving together and reactivating the latent magical ley energies running beneath the area."
+  },
+  {
+   "q": "Why do the Forsaken want the archmage killed?",
+   "aliases": [
+    "why kill ataeric",
+    "forsaken dalaran conflict",
+    "why attack dalaran"
+   ],
+   "answer": "If Dalaran successfully taps into the dormant ley energy node, their magi would gain a vast source of arcane power right on the doorstep of the Undercity. Shadow Priest Allister sees this as an intolerable threat to Forsaken sovereignty and orders a swift assassination before the node becomes fully operational."
+  },
+  {
+   "q": "What happens after Ataeric is defeated?",
+   "aliases": [
+    "after the weaver",
+    "quest outcome",
+    "what happens to ley node"
+   ],
+   "answer": "With Ataeric slain and his staff confiscated, the arcane network collapses. The gathered spells dissipate and the ley line recedes into dormancy, depriving the Kirin Tor of their primary foothold of arcane power in southern Silverpine."
+  },
+  {
+   "q": "Who sends you on this quest?",
+   "aliases": [
+    "who gives the weaver",
+    "allister quest",
+    "quest giver weaver"
+   ],
+   "answer": "Shadow Priest Allister, a Forsaken authority stationed at the Sepulcher in Silverpine Forest, provides the orders after analyzing earlier intelligence gathered from Dalaran's presence around Ambermill."
+  },
+  {
+   "q": "What is the significance of Ataeric's staff?",
+   "aliases": [
+    "ataerics staff",
+    "archmage staff purpose",
+    "why take the staff"
+   ],
+   "answer": "Archmage Ataeric's staff serves as the conduit and focal point for manipulating the regional ley energies. Retrieving it ensures that the magic unravels completely and provides Allister with an artifact that might be studied for the Forsaken's own designs."
+  },
+  {
+   "q": "Where does Dalaran's presence in Silverpine come from?",
+   "aliases": [
+    "dalaran in silverpine",
+    "why are dalaran mages in silverpine",
+    "ambermill dalaran"
+   ],
+   "answer": "Despite the devastation of Dalaran during the Third War, remnants of the Kirin Tor maintain fortified enclaves, outposts, and arcane experiments in neighboring territories like Ambermill, attempting to re-establish control and harness vital magical reserves."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Dalaran's living magi actively dispute Forsaken control over the ruins of Lordaeron. Neutralizing their archmage is vital to securing the Sepulcher's perimeter."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The manipulation of ley lines requires deep mastery over arcane geometry; slaying Ataeric reveals how vulnerable such delicate rituals are when their prime conduits fall."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Shadow Priest Allister directs this operation not with spells of holy restoration, but with calculating will to extinguish an arcane catalyst before it blossoms."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Dalaran remnants remain hostile to the Horde, making any expansion of their arcane infrastructure a direct threat to Horde territory in northern Lordaeron."
+  }
+ ],
+ "keywords": [
+  "allister",
+  "ambermill",
+  "ataeric",
+  "dalaran",
+  "kirin tor",
+  "ley energy",
+  "sepulcher",
+  "silverpine",
+  "weaver"
+ ],
+ "related": [
+  "npc:shadow-priest-allister",
+  "quest:479",
+  "subzone:sepulcher",
+  "zone:silverpine",
+  "subzone:dalaran"
+ ],
+ "attribution": [
+  "The Weaver (quest)"
+ ]
+}

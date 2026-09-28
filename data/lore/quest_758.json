@@ -1,0 +1,125 @@
+{
+ "key": "quest:758",
+ "type": "quest",
+ "name": "Thunderhorn Cleansing",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   758
+  ],
+  "level": "8",
+  "faction": "Horde",
+  "start": "Mull Thunderhorn",
+  "end": "",
+  "previous": "Thunderhorn Totem (Classic)",
+  "next": "Wildmane Totem (Classic)",
+  "wiki": "Thunderhorn Cleansing (Classic)",
+  "chain": []
+ },
+ "summary": "Thunderhorn Cleansing is an essential spiritual rite in Mulgore, charging travelers with purifying the corrupted Thunderhorn Water Well. Armed with a ritual totem prepared by Mull Thunderhorn, adventurers restore the contaminated spring vital to the local tribe. Successful purification earns the heartfelt approval of the Thunderhorn ancestors.",
+ "sections": [
+  {
+   "title": "A Tainted Lifeline",
+   "body": "Water wells across the sweeping plains of Mulgore are vital lifelines for the tauren nomadic tribes who recently settled the grasslands. When foul poisons taint these underground springs, both wildlife and nearby settlements face devastating consequences. The Thunderhorn Water Well, situated north of Bloodhoof Village, fallen victim to contamination, requires deliberate spiritual intervention to heal the troubled land.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ancestral Cleansing",
+   "body": "To counteract the corruption, Mull Thunderhorn crafts a consecrated Cleansing Totem imbued with spiritual potency. Carrying this relic directly to the poisoned waters allows adventurers to channel ancestral power into the spring, dispersing the toxins and restoring pristine natural balance. Mull receives direct confirmation of the deed's success when the spirits of Thunderhorn ancestors visit him in a dream to express their enduring gratitude.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Thunderhorn Water Well located?",
+   "aliases": [
+    "thunderhorn well location",
+    "where is well",
+    "where do i use totem"
+   ],
+   "answer": "The Thunderhorn Water Well lies in the plains north of Bloodhoof Village in Mulgore. It serves as one of several vital watering holes supplying the local tauren clans."
+  },
+  {
+   "q": "Who initiates this cleansing ritual?",
+   "aliases": [
+    "who gives quest",
+    "mull thunderhorn location",
+    "quest giver"
+   ],
+   "answer": "Mull Thunderhorn initiates the rite. He can be found in Bloodhoof Village, where he works to fashion specialized totems to heal Mulgore's distressed environment."
+  },
+  {
+   "q": "Why must the water wells in Mulgore be cleansed?",
+   "aliases": [
+    "why cleanse wells",
+    "what happened to the water",
+    "why is well poisoned"
+   ],
+   "answer": "The wells across Mulgore have fallen prey to unnatural poisoning and corruption, which threatens the delicate balance of the plains and the survival of the tauren tribes who depend on clean water."
+  },
+  {
+   "q": "How does Mull know the ritual was successful?",
+   "aliases": [
+    "ancestor dream",
+    "how mull knows",
+    "well cleansed result"
+   ],
+   "answer": "Upon completing the rite at the well, the spirits of the Thunderhorn clan's ancestors appear directly to Mull in a dream, praising the adventurer's deeds and offering ancestral thanks."
+  },
+  {
+   "q": "What follows the cleansing of the Thunderhorn well?",
+   "aliases": [
+    "what next",
+    "next quest after thunderhorn",
+    "wildmane totem next"
+   ],
+   "answer": "Purifying the Thunderhorn well is part of a broader effort to safeguard Mulgore's springs. Next, Mull sends travelers onward to aid another troubled region by constructing the Wildmane Totem."
+  },
+  {
+   "q": "What is the Thunderhorn Cleansing Totem?",
+   "aliases": [
+    "cleansing totem",
+    "what is the totem item",
+    "mull totem"
+   ],
+   "answer": "The Thunderhorn Cleansing Totem is a ritually carved spiritual focus prepared by Mull Thunderhorn specifically designed to purify the corrupted waters of his clan's ancestral well."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Restoring the sacred springs honors the Earth Mother and protects your kin as they carve out a permanent, peaceful home in Mulgore."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Channeling ancestral energy through totems to heal corrupted natural springs is the very foundation of the shamanic calling."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Cleansing poisoned waters halts the spread of corruption across Mulgore's ecosystem, preserving the natural harmony of the plains."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting the tauren with their sacred springs strengthens the bond between the young Horde and its proud Shu'halo allies."
+  }
+ ],
+ "keywords": [
+  "ancestral spirits",
+  "bloodhoof village",
+  "cleansing totem",
+  "earth mother",
+  "mulgore",
+  "mull thunderhorn",
+  "thunderhorn cleansing",
+  "thunderhorn water well"
+ ],
+ "related": [
+  "npc:mull-thunderhorn",
+  "subzone:thunderhorn-water-well",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Thunderhorn Cleansing (Classic)"
+ ]
+}

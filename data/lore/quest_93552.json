@@ -1,0 +1,113 @@
+{
+ "key": "quest:93552",
+ "type": "quest",
+ "name": "Harvesting Windstones",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   93552
+  ],
+  "level": "4",
+  "faction": null,
+  "start": "Dalia the Collector",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "Harvesting Windstones",
+  "chain": []
+ },
+ "summary": "Harvesting Windstones is a task offered by Dalia the Collector in Thendal Grove on Zephras Isle. As the ancient elemental energies sustaining the island slowly fade, raw windstones have become an essential magical fuel source. Adventurers are sent across the grove to harvest crystalline windstone clusters before their power is lost.",
+ "sections": [
+  {
+   "title": "A Fading Island",
+   "body": "Zephras Isle relies heavily on lingering wind magic to sustain itself, but its natural defenses are dwindling. Centuries ago, the native wind elementals who shared the island with the local elves vanished entirely. Since their departure, the ambient magic upholding the land and the great anchor pylons has been in a slow, steady decline. For the residents of Thendal Grove, surviving this depletion requires securing every possible reserve of raw energy.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Value of Windstones",
+   "body": "Windstones are vibrant blue crystalline formations scattered naturally throughout Thendal Grove. Within their brittle shells lies dense, concentrated wind magic left behind from ages past. While not an endless solution, they provide a reliable and invaluable source of arcane sustenance and utility for the island's elves, making the collection of raw clusters a vital daily endeavor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are windstones?",
+   "aliases": [
+    "raw windstone",
+    "windstone cluster",
+    "blue crystals"
+   ],
+   "answer": "Windstones are blue crystalline deposits found around Thendal Grove that contain concentrated, raw wind energy. The elves of Zephras Isle harvest them as an essential magical fuel source."
+  },
+  {
+   "q": "Who is Dalia the Collector?",
+   "aliases": [
+    "dalia",
+    "dalia zephras",
+    "collector dalia"
+   ],
+   "answer": "Dalia is an elven collector stationed in Thendal Grove on Zephras Isle. She organizes the gathering of vital raw resources, particularly windstones, to help support the island's dwindling magical reserves."
+  },
+  {
+   "q": "Why is the magic on Zephras Isle fading?",
+   "aliases": [
+    "zephras losing magic",
+    "fading magic zephras",
+    "anchor pylons"
+   ],
+   "answer": "Centuries ago, the wind elementals that lived alongside the local elves vanished. Without their ongoing presence, the enchantment imbued into the island by the great anchor pylons has been slowly draining away."
+  },
+  {
+   "q": "Where did the wind elementals go?",
+   "aliases": [
+    "missing elementals",
+    "where are wind elementals",
+    "elementals vanished"
+   ],
+   "answer": "Their exact fate remains a mystery. All that is known is that they vanished several centuries ago, leaving the island to slowly exhaust its remaining elemental reserves."
+  },
+  {
+   "q": "What are the anchor pylons?",
+   "aliases": [
+    "great anchor pylons",
+    "anchor pylon lore"
+   ],
+   "answer": "The great anchor pylons are ancient structures on Zephras Isle imbued with powerful magic to sustain the land. With the elementals gone, their sustaining energies are gradually weakening."
+  },
+  {
+   "q": "Where do you find raw windstones?",
+   "aliases": [
+    "windstone location",
+    "thendal grove crystals"
+   ],
+   "answer": "Raw windstones can be found scattered across the landscape throughout Thendal Grove on Zephras Isle, appearing as glowing blue crystalline outcrops."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, the concentrated elemental power within windstones offers a stark reminder of how fragile magical ecosystems become when their elemental sources vanish."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Harvesting raw windstones is an introduction to gathering valuable minerals and crystals from the untamed wilds of Zephras Isle."
+  }
+ ],
+ "keywords": [
+  "anchor pylons",
+  "dalia",
+  "dalia the collector",
+  "thendal grove",
+  "wind elementals",
+  "windstone cluster",
+  "windstones",
+  "zephras isle"
+ ],
+ "related": [
+  "zone:zephras"
+ ],
+ "attribution": [
+  "Harvesting Windstones"
+ ]
+}

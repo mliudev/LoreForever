@@ -1,0 +1,92 @@
+{
+ "key": "npc:scooty",
+ "type": "npc",
+ "name": "Scooty",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Scooty",
+  "refs": 1
+ },
+ "summary": "Scooty is a goblin engineer operating out of the bustling pirate port of Booty Bay. Proclaiming himself a master of engineering, he maintains a delicate transponder setup linked directly to an experimental teleporter in the fallen city of Gnomeregan. His contraptions offer Horde operatives a direct, if perilous, technological bypass right into the heart of Dun Morogh.",
+ "sections": [
+  {
+   "title": "Booty Bay's Teleportation Expert",
+   "body": "Operating amid the wharves and workshops of Booty Bay, Scooty holds court as one of the Steamwheedle Cartel's most ambitious tinkerers. While typical goblins obsess over gunpowder and explosives, Scooty turned his attention to instantaneous molecular transport. By calibrating complex transponder systems, he manages a direct operational link to a teleportation pad situated inside Gnomeregan. Horde forces looking to breach the subterranean gnome stronghold rely heavily on Scooty's tinkering to bypass treacherous Alliance territory altogether.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gnomish Gadgets and Goblin Risk",
+   "body": "Maintaining experimental goblin teleporters is rarely a dull enterprise. Between faulty transponder coils and the chaotic fallout inside irradiated Gnomeregan, Scooty regularly enlists adventurers to retrieve lost data, test field components, and fix disastrous technical malfunctions. Despite the obvious physical perils involved in being dematerialized across continents, Scooty remains entirely confident in his genius, dismissing every catastrophic mechanical hiccup as merely a minor obstacle on the road to true innovation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Scooty?",
+   "aliases": [
+    "who is scooty",
+    "scooty lore",
+    "scooty npc",
+    "booty bay scooty"
+   ],
+   "answer": "Scooty is a goblin engineer based in Booty Bay who claims the title of master engineer. He maintains and calibrates the Goblin Transponder network that connects Southern Stranglethorn directly to an experimental teleporter pad deep inside Gnomeregan."
+  },
+  {
+   "q": "Why does Scooty have a teleporter to Gnomeregan?",
+   "aliases": [
+    "why gnomeregan teleporter",
+    "how does scooty teleporter work",
+    "scooty port to gnomer"
+   ],
+   "answer": "Scooty established a link with an experimental teleportation pad inside Gnomeregan to facilitate direct travel into the gnome city. For the Horde, his device provides a vital back door into Dun Morogh without needing to fight across heavily fortified Alliance homelands."
+  },
+  {
+   "q": "Where is Scooty located?",
+   "aliases": [
+    "where is scooty",
+    "scooty location",
+    "find scooty"
+   ],
+   "answer": "Scooty can be found working in Booty Bay, the neutral goblin port city located at the southern tip of Stranglethorn Vale."
+  },
+  {
+   "q": "Is using Scooty's teleporter safe?",
+   "aliases": [
+    "is scooty safe",
+    "teleporter safe",
+    "teleporter risks"
+   ],
+   "answer": "Goblin engineering is infamous for unpredictable malfunctions, and Scooty's teleporter is no exception. While it successfully sends adventurers into Gnomeregan, mechanical mishaps and miscalibrated transponders are a constant hazard when trusting his volatile technology."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Scooty provides the Horde with an indispensable shortcut into Gnomeregan, letting your strike teams bypass ironclad Alliance defenses in Dun Morogh."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Fellow tinkerers will appreciate Scooty's audacious application of transponder physics, even if typical goblin disregard for basic safety protocols makes every activation a gamble."
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "gnomeregan",
+  "goblin",
+  "scooty",
+  "stranglethorn",
+  "teleporter",
+  "transponder"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "zone:gnomeregan",
+  "quest:2904",
+  "topic:goblin",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Scooty"
+ ]
+}

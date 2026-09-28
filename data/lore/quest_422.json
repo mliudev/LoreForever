@@ -1,0 +1,129 @@
+{
+ "key": "quest:422",
+ "type": "quest",
+ "name": "Arugal's Folly",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   422
+  ],
+  "level": "11",
+  "faction": "Horde",
+  "start": "Dalar Dawnweaver",
+  "end": "",
+  "previous": "Prove Your Worth (Classic)",
+  "next": "Arugal's Folly (2)",
+  "wiki": "Arugal's Folly",
+  "chain": [
+   "Prove Your Worth (Classic)",
+   "Arugal's Folly",
+   "Arugal's Folly (2)",
+   "Arugal's Folly (3)",
+   "Arugal's Folly (4)"
+  ]
+ },
+ "summary": "Assigned by Dalar Dawnweaver at the Sepulcher, this quest tasks Forsaken agents with securing Arugal's earliest spellbooks from a nearby farmstead. Uncovering the magic behind the worgen curse is vital for the Forsaken to turn it against the mad mage and secure Silverpine Forest. Recovering the Remedy of Arugal marks the first step in unraveling the threat looming from Shadowfang Keep.",
+ "sections": [
+  {
+   "title": "A Mage's Derision",
+   "body": "Dalar Dawnweaver, an ambitious Forsaken mage residing in the crypts of the Sepulcher, holds no respect for Archmage Arugal. To Dawnweaver, Arugal was an unremarkable practitioner whose inclusion in the Kirin Tor was baffling and whose magical understanding seemed amateurish. However, the monstrous beasts now roaming Silverpine cannot be ignored. To break Arugal's hold on the region, Dawnweaver intends to deconstruct the spells that unleashed the worgen upon Lordaeron.",
+   "spoiler": 0
+  },
+  {
+   "title": "Remnants on the Farmstead",
+   "body": "Before seizing Shadowfang Keep, Arugal resided at a secluded wheat farm just north of the river bridge. Deathstalker scouts spotted discarded spellbooks preserved on the upper floor of the farmhouse, though lingering beasts prevented them from recovering the texts. Sifting through the dusty grimoires yields the incantation known as the Remedy of Arugal, revealing crucial insights into the unnatural curse spreading across Silverpine Forest.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dalar Dawnweaver?",
+   "aliases": [
+    "dalar dawnweaver",
+    "who gives arugal's folly",
+    "sepulcher mage"
+   ],
+   "answer": "Dalar Dawnweaver is a Forsaken mage stationed at the Sepulcher in Silverpine Forest. Dedicated to Sylvanas Windrunner, he seeks to dissect and counteract the magical practices of Archmage Arugal to claim the territory for the Forsaken."
+  },
+  {
+   "q": "What is the Remedy of Arugal?",
+   "aliases": [
+    "remedy of arugal",
+    "arugal's remedy",
+    "what is the book"
+   ],
+   "answer": "It is a specific spell transcribed in Arugal's discarded books, dating back to when he lived on the farm north of the bridge. Dalar Dawnweaver requires this incantation to analyze the arcane foundations of Arugal's work."
+  },
+  {
+   "q": "Where are Arugal's old spellbooks located?",
+   "aliases": [
+    "where are the books",
+    "dusty spellbooks location",
+    "farmhouse books"
+   ],
+   "answer": "The dusty spellbooks are kept on the upper floor of an abandoned farmhouse at the wheat farm situated just north of the bridge crossing in northern Silverpine."
+  },
+  {
+   "q": "Why does Dawnweaver look down on Arugal?",
+   "aliases": [
+    "why dawnweaver hate arugal",
+    "dawnweaver opinion on arugal"
+   ],
+   "answer": "Dawnweaver views Arugal as an inferior wizard whose understanding of the arcane was superficial and transparent. He finds it baffling that the Kirin Tor ever accepted Arugal into their ranks in Dalaran."
+  },
+  {
+   "q": "Why is this task important to the Forsaken?",
+   "aliases": [
+    "forsaken interest in arugal",
+    "why do forsaken care about arugal"
+   ],
+   "answer": "The worgen created by Arugal slaughter Forsaken forces and threaten their grip on Silverpine Forest. By analyzing his spells, the Forsaken hope to neutralize the threat and secure the region for the Dark Lady."
+  },
+  {
+   "q": "What happens when you touch the dusty spellbooks?",
+   "aliases": [
+    "spellbook trap",
+    "moonrage darkrunner attack"
+   ],
+   "answer": "Disturbing the grimoires alerts a Moonrage worgen lurking within the farmhouse, which immediately attacks anyone attempting to meddle with Arugal's left-behind research."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For Forsaken mages, studying Arugal's work offers a sharp lesson in how disastrously dangerous magic can become when wielded without discipline or proper foresight."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Silverpine is the western shield of the Undercity. Reclaiming it from feral worgen is essential to securing the Dark Lady's borders."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's presence in Silverpine is contested by feral beasts; neutralizing Arugal is critical to establishing stable supply lines out of Lordaeron."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "dalar dawnweaver",
+  "dusty spellbooks",
+  "kirin tor",
+  "remedy of arugal",
+  "sepulcher",
+  "silverpine",
+  "worgen"
+ ],
+ "related": [
+  "npc:dalar-dawnweaver",
+  "npc:arugal",
+  "zone:silverpine",
+  "subzone:sepulcher",
+  "quest:421",
+  "quest:99",
+  "topic:forsaken",
+  "quest:1886"
+ ],
+ "attribution": [
+  "Arugal's Folly"
+ ]
+}

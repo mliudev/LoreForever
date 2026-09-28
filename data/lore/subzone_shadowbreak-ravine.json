@@ -1,0 +1,70 @@
+{
+ "key": "subzone:shadowbreak-ravine",
+ "type": "subzone",
+ "name": "Shadowbreak Ravine",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Shadowbreak Ravine"
+ },
+ "summary": "Shadowbreak Ravine is a secluded mountain hollow tucked away in southeastern Desolace. Cloaked among jagged crags near Shok'Thokar, this eerie ravine serves as a hidden redoubt for the demonic forces and mortal zealots of the Burning Blade.",
+ "sections": [
+  {
+   "title": "A Hidden Enclave of Fel",
+   "body": "Tucked deep into the barren mountain ridges southeast of Shok'Thokar, Shadowbreak Ravine provides the Burning Blade with a secluded staging ground away from the eyes of wandering centaur tribes. Amid strange, oversized mushrooms and grim ritual encampments, cultists labor alongside summoned demons. Here, dark practitioners invoke fel energies and tend heavy ritual chains, using the natural isolation of the ravine to marshal reinforcements and maintain a firm demonic foothold within the badlands of Desolace.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Shadowbreak Ravine?",
+   "aliases": [
+    "shadowbreak ravine info",
+    "what is this place",
+    "where is shadowbreak ravine"
+   ],
+   "answer": "Shadowbreak Ravine is a hidden mountain ravine situated in southeastern Desolace, just beyond Shok'Thokar. It serves as a concealed camp and staging ground for demonic minions and cultists serving the Burning Blade."
+  },
+  {
+   "q": "Who occupies the ravine?",
+   "aliases": [
+    "who lives here",
+    "shadowbreak ravine mobs",
+    "enemies in shadowbreak ravine"
+   ],
+   "answer": "The ravine is occupied by cultists of the Burning Blade working directly alongside demons. They use the ravine's sheltered terrain to perform dark rituals and support their broader offensive across the region."
+  },
+  {
+   "q": "What features can be found inside the ravine?",
+   "aliases": [
+    "what is inside shadowbreak ravine",
+    "landmarks in shadowbreak ravine"
+   ],
+   "answer": "The ravine contains dark ritual structures, massive iron chains, and prominent giant mushrooms that sprout amidst the fel-tainted encampments hidden within the mountain clefts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The dark summoning circles and concentrated fel presence make this secretive canyon a clear testament to the reach of the Burning Blade's dark arts."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "cultists",
+  "demons",
+  "desolace",
+  "fel",
+  "shadowbreak ravine",
+  "shok'thokar"
+ ],
+ "related": [
+  "subzone:shok-thokar",
+  "zone:desolace",
+  "subzone:magram-village",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Shadowbreak Ravine"
+ ]
+}

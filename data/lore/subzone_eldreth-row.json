@@ -1,0 +1,72 @@
+{
+ "key": "subzone:eldreth-row",
+ "type": "subzone",
+ "name": "Eldreth Row",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Eldreth Row"
+ },
+ "summary": "Eldreth Row comprises the soaring, ruined outer halls forming the western entrance to Dire Maul in Feralas. Once a grand threshold of ancient Eldre'Thalas, the area is now choked with overgrowth and fiercely patrolled by Gordunni ogres.",
+ "sections": [
+  {
+   "title": "The Threshold of Eldre'Thalas",
+   "body": "Standing as the outermost perimeter of ancient Eldre'Thalas, Eldreth Row is an imposing avenue of high-arched elven architecture that sits just outside the deeper quarters and the Broken Commons. Centuries of neglect have cracked its stonework, allowing the creeping flora of Feralas to reclaim its colonnades. Today, the pristine majesty of the Highborne has been replaced by the crude dominance of the Gordunni ogres, who use the halls as an outer staging ground, guarding the paths leading east toward the Warpwood Quarter and west past the Dire Pool.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Eldreth Row?",
+   "aliases": [
+    "eldreth row",
+    "what is this place",
+    "dire maul entrance"
+   ],
+   "answer": "Eldreth Row is the exterior entrance hall and perimeter of Dire Maul in Feralas, situated before the Broken Commons and the inner instance gateways."
+  },
+  {
+   "q": "Who controls Eldreth Row right now?",
+   "aliases": [
+    "who lives here",
+    "who controls eldreth row",
+    "eldreth row monsters"
+   ],
+   "answer": "The area is occupied and patrolled by the Gordunni clan of ogres, who have fortified Dire Maul's ruins and wander its broken avenues."
+  },
+  {
+   "q": "Where does Eldreth Row lead?",
+   "aliases": [
+    "where does this hall go",
+    "eldreth row exits",
+    "dire maul paths"
+   ],
+   "answer": "The avenue leads inward toward the Broken Commons and the main complexes of Dire Maul, with an entrance to the Warpwood Quarter on its far eastern flank and the Dire Pool located to the west."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Seeing the majestic masonry of ancient Eldre'Thalas desecrated by brutish ogres serves as a bitter reminder of the fall of the Highborne and the Sundering."
+  }
+ ],
+ "keywords": [
+  "broken commons",
+  "dire maul",
+  "dire pool",
+  "eldre'thalas",
+  "eldreth row",
+  "feralas",
+  "gordunni",
+  "warpwood quarter"
+ ],
+ "related": [
+  "subzone:dire-maul",
+  "subzone:commons",
+  "subzone:warpwood-quarter",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Eldreth Row"
+ ]
+}

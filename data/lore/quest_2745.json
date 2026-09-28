@@ -1,0 +1,130 @@
+{
+ "key": "quest:2745",
+ "type": "quest",
+ "name": "Infiltrating the Castle",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   2745
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Elling Trias",
+  "end": "Tyrion",
+  "previous": "Look to an Old Friend",
+  "next": "Items of Some Consequence",
+  "wiki": "Infiltrating the Castle",
+  "chain": []
+ },
+ "summary": "Master cheese monger and intelligence broker Elling Trias directs you into the royal seat of Stormwind Keep. Your objective is to rendezvous with his fellow operative Tyrion, who has spent weeks watching the corrupt nobleman Lord Gregor Lescovar from the keep's gardens.",
+ "sections": [
+  {
+   "title": "A Matter Outside the Law",
+   "body": "When you bring your findings to Elling Trias in his Old Town cheese shop, he quickly grasps the gravity of the Defias threat nestled deep inside the kingdom's governance. Legal channels will not suffice to expose or punish someone as deeply entrenched and protected as Lord Gregor Lescovar. Trias offers a dangerous route forward: delivering extrajudicial justice within the very walls of Stormwind Keep to permanently sever the conspiracy.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes in the Shrubbery",
+   "body": "Trias does not work alone in the high halls. For weeks, an operative named Tyrion\u2014a clever gnome adept at concealment\u2014has staked out the keep's courtyards and manicured royal gardens. Tyrion has watched Lescovar's movements, noting who enters his chambers and when the traitor confers with his covert Defias contacts. Reaching Tyrion without arousing the suspicion of the Royal Guard is the vital next link in the chain.",
+   "spoiler": 0
+  },
+  {
+   "title": "Treason in the Court",
+   "body": "The presence of a high nobleman like Lescovar colluding directly with Defias assassins like Marzon the Silent Blade underscores how rotten Stormwind's political core has become in the absence of King Varian Wrynn. With court nobles manipulating affairs from within and outlaws pressing the borders from Westfall and the Redridge Mountains, striking at Lescovar represents an attempt to cut out a festering cancer before the kingdom crumbles completely.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Elling Trias want this handled outside the law?",
+   "aliases": [
+    "why outside law",
+    "trias illegal justice",
+    "why vigilante"
+   ],
+   "answer": "Lord Lescovar holds immense influence and wealth within the House of Nobles. Pursuing ordinary legal accusations against a high-ranking lord without indisputable, politically disastrous proof would likely see the evidence suppressed and the whistleblowers executed. Trias recognizes that direct, clandestine action is the only reliable way to neutralize the threat."
+  },
+  {
+   "q": "Where is Tyrion hiding?",
+   "aliases": [
+    "where is tyrion",
+    "find tyrion",
+    "tyrion location"
+   ],
+   "answer": "Tyrion conceals himself in the royal gardens of Stormwind Keep, just off the courtyard to the left after walking through the main gates. He lurks in the bushes to observe Lord Lescovar's quarters without alerting the guards."
+  },
+  {
+   "q": "Who is Tyrion?",
+   "aliases": [
+    "who is tyrion",
+    "tyrion gnome",
+    "trias friend"
+   ],
+   "answer": "Tyrion is a covert operative and a trusted associate of Elling Trias. He has spent several weeks staking out Stormwind Keep to monitor Lord Gregor Lescovar and map out his clandestine Defias connections."
+  },
+  {
+   "q": "Who is Lord Lescovar?",
+   "aliases": [
+    "lord lescovar",
+    "who is lescovar",
+    "lescovar defias"
+   ],
+   "answer": "Lord Gregor Lescovar is a prominent Stormwind nobleman secretly collaborating with the Defias Brotherhood, acting as their highly placed insider to sabotage the kingdom from within its royal court."
+  },
+  {
+   "q": "Who is Marzon?",
+   "aliases": [
+    "marzon",
+    "marzon the silent blade",
+    "silent blade"
+   ],
+   "answer": "Marzon, known as the Silent Blade, is an elite Defias assassin who liaises directly with Lord Lescovar to coordinate attacks and assassinations on behalf of the Brotherhood."
+  },
+  {
+   "q": "Why is Tyrion worried about his reputation?",
+   "aliases": [
+    "tyrion hiding bushes",
+    "reputation in bushes"
+   ],
+   "answer": "Beyond blowing his cover while conducting clandestine surveillance, Tyrion snarkily complains about how suspicious and unseemly it appears to have heavily armed adventurers loitering alongside him in the royal shrubbery under the noses of the castle guards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Infiltrating the seat of human nobility to aid two seasoned underground operatives highlights the quiet, lethal tradecraft required to protect Stormwind from shadows inside its own court."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Seeing Tyrion run an intensive, long-term covert surveillance operation inside Stormwind Keep proves that gnomish ingenuity extends well beyond machinery into high-stakes espionage."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With King Varian missing, the kingdom cannot afford betrayal in its highest legislative chamber; routing out conspirators in the Keep is critical to keeping the realm stable."
+  }
+ ],
+ "keywords": [
+  "cheese shop",
+  "defias",
+  "elling trias",
+  "infiltrating the castle",
+  "lescovar",
+  "marzon",
+  "stormwind keep",
+  "tyrion"
+ ],
+ "related": [
+  "npc:elling-trias",
+  "npc:tyrion",
+  "quest:350",
+  "quest:2746",
+  "subzone:stormwind-keep",
+  "topic:stormwind-kingdom",
+  "topic:gnome",
+  "subzone:dark-portal"
+ ],
+ "attribution": [
+  "Infiltrating the Castle"
+ ]
+}

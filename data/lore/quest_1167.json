@@ -1,0 +1,122 @@
+{
+ "key": "quest:1167",
+ "type": "quest",
+ "name": "The Tower of Althalaxx",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   1167
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Delgren the Purifier",
+  "end": "Balthule Shadowstrike",
+  "previous": "The Tower of Althalaxx (6)",
+  "next": "The Tower of Althalaxx (8)",
+  "wiki": "The Tower of Althalaxx (7)",
+  "chain": []
+ },
+ "summary": "This quest marks the tense pause before confronting Athrikus Narassin at the Tower of Althalaxx. Sent northward by Delgren the Purifier, adventurers reconvene with the scout Balthule Shadowstrike to gather intelligence on erratic, dark occurrences rocking the spire.",
+ "sections": [
+  {
+   "title": "A Scout's Report",
+   "body": "After purifying corrupted relics and unraveling the cult's grip along Darkshore's border, Delgren the Purifier dispatches you back north to consult his sentinel partner, Balthule Shadowstrike. Before assaulting the sorcerer Athrikus directly, Delgren recognizes the necessity of fresh battlefield reconnaissance, trusting Balthule's tireless watch from the ruins overlooking the tower.",
+   "spoiler": 0
+  },
+  {
+   "title": "Disturbances in the Spire",
+   "body": "Upon reaching Balthule's vigil, the scout describes an alarming escalation within the upper sanctum. Sudden flashes of blinding luminescence, agonizing screams cutting through the mist, and erratic strikes of lightning have begun to violently wrack the ancient elven tower, heralding an unstable and dangerous climax to Athrikus's dark work.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Delgren send me back to Balthule?",
+   "aliases": [
+    "why see balthule",
+    "talk to balthule",
+    "delgren orders"
+   ],
+   "answer": "Delgren knows that charging blindly into Athrikus's lair is reckless. Balthule has been keeping constant eyes on the Tower of Althalaxx, making him the only one who knows what Athrikus and his cultists have been doing in recent moments."
+  },
+  {
+   "q": "Where is Balthule Shadowstrike located?",
+   "aliases": [
+    "balthule location",
+    "find balthule",
+    "where is balthule"
+   ],
+   "answer": "Balthule maintains an observation campsite on the hills just south and east of the Tower of Althalaxx, watching the ruins in northern Darkshore."
+  },
+  {
+   "q": "What recent events did Balthule witness at the tower?",
+   "aliases": [
+    "what happened at the tower",
+    "balthule screams",
+    "tower flash"
+   ],
+   "answer": "Balthule witnessed a blinding flash erupting from the tower's uppermost chamber, followed by wretched screams carrying across the coast and erratic bolts of lightning striking the ground."
+  },
+  {
+   "q": "Who is Athrikus?",
+   "aliases": [
+    "who is athrikus",
+    "athrikus narassin",
+    "tower boss"
+   ],
+   "answer": "Athrikus Narassin is the dark sorcerer leading the cultists at the Tower of Althalaxx, whose fell rituals Delgren and Balthule are determined to stop."
+  },
+  {
+   "q": "Is Delgren the Purifier a local night elf?",
+   "aliases": [
+    "who is delgren",
+    "delgren race",
+    "is delgren an elf"
+   ],
+   "answer": "No, Delgren is a human paladin and warrior of the Holy Light stationed on the border between Darkshore and Ashenvale, allied with night elf scouts to purge demonic corruption."
+  },
+  {
+   "q": "What kind of ruin is the Tower of Althalaxx?",
+   "aliases": [
+    "althalaxx background",
+    "what is the tower",
+    "tower lore"
+   ],
+   "answer": "It is a highborne or ancient night elf spire along the craggy northern cliffs of Darkshore, long abandoned before fallen arcanists and demonic cultists claimed it for forbidden rites."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The coordination between Delgren and Balthule represents a practical wartime partnership between human paladins and night elf scouts to keep northern Kalimdor safe."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Delgren's calculated approach demonstrates the discipline expected of warriors of the Light, favoring vigilant intelligence before rushing into unholy sanctums."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Balthule Shadowstrike defends ancestral lands from sorcery that mirrors the reckless arcane excesses that ruined night elf civilization ten millennia ago."
+  }
+ ],
+ "keywords": [
+  "althalaxx",
+  "athrikus",
+  "balthule",
+  "cultists",
+  "darkshore",
+  "delgren",
+  "tower"
+ ],
+ "related": [
+  "npc:delgren-the-purifier",
+  "npc:balthule-shadowstrike",
+  "subzone:tower-of-althalaxx",
+  "zone:darkshore",
+  "topic:light"
+ ],
+ "attribution": [
+  "The Tower of Althalaxx (7)"
+ ]
+}

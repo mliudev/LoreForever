@@ -1,0 +1,85 @@
+{
+ "key": "subzone:trade-quarter",
+ "type": "subzone",
+ "name": "Trade Quarter",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Trade Quarter"
+ },
+ "summary": "The Trade Quarter forms the central core of the Undercity, resting directly beneath the lifts from the Ruins of Lordaeron. It functions as the beating economic heart of the Forsaken, housing their primary bank vaults, auction market, and essential civic services. From this concentric hub, vaulted corridors branch outward into the surrounding districts.",
+ "sections": [
+  {
+   "title": "Heart of the Crypts",
+   "body": "Descending from the shattered surface of Lordaeron, travelers step off the lifts into the echoing stone expanse of the Trade Quarter. Designed around a tiered, circular layout, its central platform holds the city coffers and central bank, framed by bridges spanning noxious runoff canals. Surrounding terraces buzz with vendors, guild registries, and auctioneers bargaining amidst the eerie gloom. Even basic accommodations reflect Forsaken pragmatism: the local inn offers unlined wooden caskets rather than soft beds. From this central nexus, stone archways lead outward into the city's specialized quarters, making it the unavoidable crossroads for any business conducted within the capital.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Trade Quarter located?",
+   "aliases": [
+    "trade quarter location",
+    "how to find trade quarter",
+    "where is trade quarter"
+   ],
+   "answer": "The Trade Quarter occupies the dead center of the Undercity. When entering the capital via the surface elevators beneath the Ruins of Lordaeron, you step out immediately onto the upper ring of the district."
+  },
+  {
+   "q": "What services are found in the Trade Quarter?",
+   "aliases": [
+    "trade quarter services",
+    "what is in trade quarter",
+    "undercity bank location"
+   ],
+   "answer": "The district hosts the central Undercity bank, an auction house along the outer ring, the primary inn, a bat handler for air travel, guild registrars, and various trade trainers including the city's cooking mentor."
+  },
+  {
+   "q": "Why are there coffins in the inn?",
+   "aliases": [
+    "undercity inn coffins",
+    "why caskets in inn",
+    "undercity beds"
+   ],
+   "answer": "Forsaken physiology requires no true sleep, and many retain habits suited to their undead condition. The inn provides plain, unlined wooden caskets rather than traditional bedding\u2014a matter of routine comfort for the dead, though deeply unsettling for living visitors."
+  },
+  {
+   "q": "Who is the vendor lurking beneath the bridges?",
+   "aliases": [
+    "jeremiah payson",
+    "cockroach guy undercity",
+    "who sells cockroaches"
+   ],
+   "answer": "Jeremiah Payson makes his living under one of the central bridges crossing into the bank. While standard merchants peddle weaponry and trade goods up above, Payson sells live pet cockroaches to curious passersby."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Trade Quarter represents the swift reclamation of civilized order by the Forsaken, turning subterranean dungeons into a thriving market dedicated to funding their survival."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For Orc, Tauren, or Troll emissaries arriving in Tirisfal Glades, the Trade Quarter serves as the foreign, shadowy market center of their northern allies."
+  }
+ ],
+ "keywords": [
+  "auction house",
+  "bank",
+  "bat handler",
+  "caskets",
+  "inn",
+  "jeremiah payson",
+  "trade quarter",
+  "undercity"
+ ],
+ "related": [
+  "zone:undercity",
+  "zone:ruinsoflordaeron",
+  "topic:lordaeron",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Trade Quarter"
+ ]
+}

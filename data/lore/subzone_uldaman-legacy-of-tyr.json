@@ -1,0 +1,76 @@
+{
+ "key": "subzone:uldaman-legacy-of-tyr",
+ "type": "subzone",
+ "name": "Uldaman: Legacy of Tyr",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Uldaman: Legacy of Tyr"
+ },
+ "summary": "Deep beneath the dusty canyons of the Badlands lies Uldaman, an ancient subterranean vault constructed by the Titans in the world's dawn. While dwarven excavators primarily know the complex for its earthen relics and trogg infestations, legends speak of profound secrets left behind by the legendary Titan watcher, Keeper Tyr.",
+ "sections": [
+  {
+   "title": "Secrets of the Titan Watcher",
+   "body": "Uldaman is widely regarded by contemporary scholars and the Explorers' League as a ruined vault of early titan creations, most notably the earthen ancestors of modern dwarves. Yet foundational titan lore records that the heroic Keeper Tyr and his allies safeguarded invaluable relics deep within its carved stone chambers, including powerful knowledge dating back to the ordering of Azeroth. While the upper halls remain overrun by troggs, hostile stone guardians, and competing excavation teams, vast sealed sections of the subterranean fortress hold ancient archives that mortal expeditions have yet to fully comprehend.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the connection between Tyr and Uldaman?",
+   "aliases": [
+    "why is tyr associated with uldaman",
+    "keeper tyr uldaman lore",
+    "who is tyr uldaman"
+   ],
+   "answer": "In ancient history, allies of Keeper Tyr, one of the foremost Titan watchers, hid sacred artifacts within the subterranean complex of Uldaman. These archives secured crucial knowledge from the ordering of Azeroth away from corrupting forces."
+  },
+  {
+   "q": "Who built Uldaman?",
+   "aliases": [
+    "who made uldaman",
+    "uldaman creators",
+    "origin of uldaman"
+   ],
+   "answer": "Uldaman is a massive underground vault engineered by the Titans and their titan-forged servants long before the recorded history of modern mortal races. It was primarily built as an earthen research facility and archive."
+  },
+  {
+   "q": "What relics are known to rest within Uldaman?",
+   "aliases": [
+    "what is hidden in uldaman",
+    "uldaman artifacts",
+    "what did titans leave in uldaman"
+   ],
+   "answer": "Beyond ancient titan machinery and slumbering earthen constructs, Uldaman holds sacred titan discs containing deep historic archives, including the Discs of Norgannon and records tied to Keeper Tyr."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, any section of Uldaman represents holy ground tied directly to their earthen forebears and the grand designs of the Titans who shaped them."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Keeper Tyr is revered as an exemplar of sacrifice, justice, and valor, making his historical footprint in Uldaman an object of deep spiritual fascination for warriors of the Light."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "discs of norgannon",
+  "keeper tyr",
+  "legacy of tyr",
+  "titans",
+  "tyr",
+  "uldaman",
+  "vault of tyr"
+ ],
+ "related": [
+  "subzone:uldaman",
+  "zone:badlands",
+  "topic:titan",
+  "topic:light"
+ ],
+ "attribution": [
+  "Uldaman: Legacy of Tyr"
+ ]
+}

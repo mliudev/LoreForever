@@ -1,0 +1,120 @@
+{
+ "key": "quest:8682",
+ "type": "quest",
+ "name": "Skyseer the Elder",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   8682
+  ],
+  "level": "",
+  "faction": null,
+  "start": "Elder Skyseer",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Skyseer the Elder",
+  "chain": []
+ },
+ "summary": "Skyseer the Elder is an honored ancestral spirit residing atop Freewind Post during the Lunar Festival. Travelers seek out his presence high above Thousand Needles to pay their respects to the ancestors and receive his ancient blessing.",
+ "sections": [
+  {
+   "title": "A Beacon in the Needles",
+   "body": "Perched upon the lofty wooden bluffs of Freewind Post, Elder Skyseer appears bathed in a radiant pillar of celestial light. Positioned near the bridges leading toward the massive mechanical lifts, his ghostly presence offers a quiet sanctuary amid the windswept mesas of Thousand Needles.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ancestral Path",
+   "body": "Elder Skyseer receives visiting adventurers who come to honor the past during the celebration of the Lunar Festival. Beyond acknowledging their homage, the venerable elder can guide travelers toward his kin scattered across Kalimdor, including Elder Morningdew and Elder Runetotem.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Elder Skyseer located?",
+   "aliases": [
+    "skyseer location",
+    "where is skyseer",
+    "freewind post elder"
+   ],
+   "answer": "Elder Skyseer stands on the upper mesa of Freewind Post in Thousand Needles, situated near the suspension bridges close to the cliffside lifts."
+  },
+  {
+   "q": "What is the purpose of seeking out Elder Skyseer?",
+   "aliases": [
+    "why visit skyseer",
+    "skyseer quest objective",
+    "lunar festival skyseer"
+   ],
+   "answer": "During the Lunar Festival, travelers visit ancestral spirits like Elder Skyseer to pay their respects, receive a Coin of Ancestry, and hear guidance regarding the locations of other elders."
+  },
+  {
+   "q": "Why is Elder Skyseer glowing?",
+   "aliases": [
+    "why is skyseer in light",
+    "elder light beam"
+   ],
+   "answer": "Like other honored spirits visiting during the festival, Elder Skyseer is illuminated from the heavens by a bright shaft of moonlight, marking him as an ancestor communing with the living."
+  },
+  {
+   "q": "Which other elders does Skyseer provide directions for?",
+   "aliases": [
+    "other elders",
+    "who does skyseer mention",
+    "skyseer directions"
+   ],
+   "answer": "Elder Skyseer provides guidance on how to find nearby ancestral spirits, including Elder Morningdew, Elder Runetotem, Elder Dreamseer, and Elder Wildmane."
+  },
+  {
+   "q": "Can Alliance travelers speak with Elder Skyseer?",
+   "aliases": [
+    "can alliance talk to skyseer",
+    "alliance freewind post elder"
+   ],
+   "answer": "Yes, although Freewind Post is a heavily fortified Horde settlement. Alliance adventurers must tread carefully around the guards to approach the elder without inciting bloodshed."
+  },
+  {
+   "q": "What happens when you speak to Elder Skyseer?",
+   "aliases": [
+    "skyseer reward",
+    "completing skyseer the elder"
+   ],
+   "answer": "Upon greeting him and paying homage, Elder Skyseer commends your spirit and grants a token of ancestral blessing, completing the brief encounter."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Elder Skyseer rests inside the Horde stronghold of Freewind Post, requiring Alliance pilgrims to navigate the perilous heights and hostile guards to pay their respects."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Greeting an honored elder atop one of your people's most iconic mesa aeries embodies the deep reverence the Shu'halo hold for their ancestral lineage."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Communing with the ancient spirits under the moonlight aligns closely with the teachings of Cenarius and honoring those who walked the land before."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "coins of ancestry",
+  "elder skyseer",
+  "freewind post",
+  "lunar festival",
+  "skyseer",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:elder-skyseer",
+  "subzone:freewind-post",
+  "zone:thousandneedles",
+  "npc:elder-morningdew",
+  "npc:elder-runetotem",
+  "topic:light"
+ ],
+ "attribution": [
+  "Skyseer the Elder"
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "key": "quest:869",
+ "type": "quest",
+ "name": "Raptor Thieves",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   869
+  ],
+  "level": "13",
+  "faction": "Horde",
+  "start": "Gazrog",
+  "end": "",
+  "previous": null,
+  "next": "Stolen Silver (quest)",
+  "wiki": "Raptor Thieves",
+  "chain": []
+ },
+ "summary": "When a vital shipment of guard payroll went missing from the Crossroads guard tower, the defenders caught an impossible culprit: a wild raptor. Perplexed and enraged by the heist, Gazrog orders a retaliatory cull to prevent the cunning beasts from striking again.",
+ "sections": [
+  {
+   "title": "A Baffling Heist",
+   "body": "The Crossroads relies heavily on mercenary and grunt guards to keep vital trade arteries open across the Barrens. Keeping those guards paid is essential for morale and discipline. When the silver payroll vanished directly from the guard tower, leadership expected Centaur raiders or Quillboar scavengers. Instead, the lone thief caught red-handed in the dead of night was a predatory Barrens raptor, leaving the settlement's leadership stunned and out of pocket.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vengeance on the Pack",
+   "body": "Gazrog makes no pretense of understanding why wild beasts would hoard shiny coins, nor does he care to study animal behavior. With the guards growing restless over their missing pay, Gazrog demands blood and deterrence. By sending hunters to harvest a dozen raptor heads across the savannah, he aims to break the predators' boldness before launching a full recovery effort for the silver.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why would raptors steal silver coins?",
+   "aliases": [
+    "why do raptors want silver",
+    "raptors stealing money",
+    "why silver"
+   ],
+   "answer": "Even Gazrog admits it sounds unbelievable. Raptors are known for keen intelligence and hunting prowess, but hoarding refined currency is unheard of for wild predators. Gazrog cares less about their strange motives and more about punishing the creatures before they raid the outpost again."
+  },
+  {
+   "q": "Who is Gazrog?",
+   "aliases": [
+    "gazrog",
+    "who gives raptor thieves"
+   ],
+   "answer": "Gazrog is an orc officer stationed at the Crossroads in the Barrens. Responsible for maintaining defense and order, he oversees guard logistics, outrunner bounties, and local threats to the Horde's central hub."
+  },
+  {
+   "q": "What was the stolen silver meant for?",
+   "aliases": [
+    "what was the silver for",
+    "stolen shipment"
+   ],
+   "answer": "The stolen chest contained the payroll meant to compensate the guards defending the Crossroads. Without it, maintaining vigilant watches across the dangerous Barrens becomes far more difficult."
+  },
+  {
+   "q": "Where did the theft take place?",
+   "aliases": [
+    "where was silver stolen",
+    "theft location"
+   ],
+   "answer": "The shipment was stolen straight from the guard tower at the Crossroads under cover of darkness, shocking the defenders who thought their central post was secure."
+  },
+  {
+   "q": "Where are these raptors found?",
+   "aliases": [
+    "raptor locations",
+    "where to find raptors"
+   ],
+   "answer": "Packs of raptors roam across the central and southern Barrens savannah. The packs stalking territories closer to the Crossroads tend to be less seasoned and easier for traveling adventurers to confront."
+  },
+  {
+   "q": "Does this quest recover the stolen silver?",
+   "aliases": [
+    "do i get the silver back",
+    "where is the silver"
+   ],
+   "answer": "No. This task is purely punitive deterrence to slaughter the offending beasts and thin their numbers. Gazrog organizes the actual search for the stolen coin chest only after the raptor threat is beaten back."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Crossroads is the logistical spine of Kalimdor for the Horde; an unpaid or humiliated garrison threatens the security of every caravan crossing the savannah."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Barrens raptors are legendary for their cunning, pack coordination, and speed, making them both formidable targets and a showcase of the harsh ecology hunters must master."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "gazrog",
+  "guard tower",
+  "payroll",
+  "raptor",
+  "raptor heads",
+  "silver"
+ ],
+ "related": [
+  "quest:3281",
+  "npc:gazrog",
+  "subzone:crossroads",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Raptor Thieves"
+ ]
+}

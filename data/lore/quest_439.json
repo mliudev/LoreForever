@@ -1,0 +1,119 @@
+{
+ "key": "quest:439",
+ "type": "quest",
+ "name": "Rot Hide Clues",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   439
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Corpse Laden Boat",
+  "end": "High Executor Hadrec",
+  "previous": "The Decrepit Ferry (quest)",
+  "next": "Rot Hide Ichor (quest), The Engraved Ring",
+  "wiki": "Rot Hide Clues",
+  "chain": []
+ },
+ "summary": "Investigating a barge loaded with corpses on Lordamere Lake reveals an engraved ring on a recently deceased woman's hand. Reporting the grim discovery to High Executor Hadrec at the Sepulcher exposes a disturbing operation: Rot Hide gnolls are robbing Tirisfal's mass graves and shipping bodies to Fenris Isle.",
+ "sections": [
+  {
+   "title": "A Gruesome Cargo",
+   "body": "While examining an abandoned, corpse-laden ferry on the shores of Lake Lordamere, Forsaken scouts discover that not all the dead are ancient remains. Protruding from the pile of carrion is the unwrapped, plague-marked hand of a recently slain woman wearing a simple band inscribed with the words 'For Deliah'. The boat itself points to coordinated logistics rather than senseless scavenger feeding.",
+   "spoiler": 0
+  },
+  {
+   "title": "Raiders of the Graves",
+   "body": "When Deliah's ring is delivered to High Executor Hadrec at the Sepulcher, the Forsaken commander quickly pieces the clues together. A body so newly buried could only originate from the vast mass graves across the border in Tirisfal Glades. The Rot Hide gnolls infesting Silverpine are not merely prowling the woods; they are methodically exhuming human corpses and shipping them across the water to Fenris Isle for sinister, unknown purposes.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Corpse Laden Boat?",
+   "aliases": [
+    "corpse boat",
+    "decrepit ferry boat",
+    "lake boat"
+   ],
+   "answer": "It is an old ferry moored along the shores of Lordamere Lake in Silverpine Forest. Rot Hide gnolls have been utilizing it as transport to haul exhumed human corpses across the water to their stronghold on Fenris Isle."
+  },
+  {
+   "q": "Who was Deliah?",
+   "aliases": [
+    "deliah lore",
+    "who is deliah",
+    "for deliah ring"
+   ],
+   "answer": "Deliah was a human victim of the plague whose body was recently interred in the mass graves of Tirisfal Glades. Her corpse was stolen by Rot Hide gnolls, leaving only her engraved ring behind as a clue for investigators."
+  },
+  {
+   "q": "Why are gnolls gathering dead bodies?",
+   "aliases": [
+    "why do gnolls want corpses",
+    "rot hide corpses",
+    "fenris isle dead bodies"
+   ],
+   "answer": "The Rot Hide gnolls on Fenris Isle are experimenting with plague-tainted remains and necrotic fluids. Rather than eating the bodies, they are harvesting corpses from mass graves to distill ichor and spread disease throughout the region."
+  },
+  {
+   "q": "Who is High Executor Hadrec?",
+   "aliases": [
+    "hadrec",
+    "sepulcher commander",
+    "executor hadrec"
+   ],
+   "answer": "High Executor Hadrec is the military commander of the Forsaken stationed at the Sepulcher in Silverpine Forest. He oversees defense against regional threats, including the feral Rot Hide gnolls, Dalaran wizards, and the Worgen."
+  },
+  {
+   "q": "Where did the corpses on the boat come from?",
+   "aliases": [
+    "boat corpses origin",
+    "tirisfal graves boat"
+   ],
+   "answer": "According to High Executor Hadrec, the fresh state of the bodies indicates they were dug up from the mass graves in nearby Tirisfal Glades, where victims of the Scourge and plague were hastily buried."
+  },
+  {
+   "q": "What happens after reporting this clue to Hadrec?",
+   "aliases": [
+    "after rot hide clues",
+    "deliah ring follow up"
+   ],
+   "answer": "Hadrec dispatches agents to counter the Rot Hide threat directly on Fenris Isle and retrieve samples of the putrid ichor they are refining, while also prompting an investigation into who Deliah was and returning her ring."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The desecration of Tirisfal's mass graves hits close to home for the Forsaken, whose own fallen kin and unrisen brethren are being ferried off as raw material for gnoll alchemical horrors."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Hadrec coordinates Horde operations out of the Sepulcher to secure Silverpine against growing monster encampments like the Rot Hide pack occupying Fenris Isle."
+  }
+ ],
+ "keywords": [
+  "corpse laden boat",
+  "deliah",
+  "deliah's ring",
+  "fenris isle",
+  "hadrec",
+  "rot hide clues",
+  "rot hide gnolls",
+  "sepulcher"
+ ],
+ "related": [
+  "npc:high-executor-hadrec",
+  "subzone:sepulcher",
+  "quest:440",
+  "quest:443",
+  "subzone:fenris-isle",
+  "topic:gnoll",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Rot Hide Clues"
+ ]
+}

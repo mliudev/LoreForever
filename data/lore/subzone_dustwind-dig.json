@@ -1,0 +1,79 @@
+{
+ "key": "subzone:dustwind-dig",
+ "type": "subzone",
+ "name": "Dustwind Dig",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Dustwind Dig"
+ },
+ "summary": "Dustwind Dig is an Alliance camp and archaeological staging ground nestled in the hills of the Badlands. Overseen by the dwarf Sigrun Ironhew, it serves as a secure foothold above the perilous lower excavations.",
+ "sections": [
+  {
+   "title": "A Foothold in the Wastes",
+   "body": "Perched on the high ridges overlooking Hammertoe's Digsite, Dustwind Dig provides dwarven prospectors and Alliance wanderers a defensible haven against the harsh elements and aggressive troggs of the Badlands. From here, Sigrun Ironhew attempts to coordinate field operations and maintain supply lines deep within the hostile desert.",
+   "spoiler": 0
+  },
+  {
+   "title": "Excavation and Survival",
+   "body": "Archaeological work in the Badlands is dangerous business. Dustwind Dig stands as a vital observation point and waypoint, keeping an eye on dwarven expeditions below while holding out against the encroaching threats native to the dusty valleys.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Dustwind Dig?",
+   "aliases": [
+    "dustwind dig",
+    "what is this camp",
+    "dwarf camp badlands"
+   ],
+   "answer": "Dustwind Dig is an Alliance expedition camp in the hills of the Badlands, functioning as a primary outpost for dwarven researchers and travelers traversing the arid wasteland."
+  },
+  {
+   "q": "Who leads the camp here?",
+   "aliases": [
+    "who is in charge",
+    "sigrun ironhew",
+    "dustwind dig leader"
+   ],
+   "answer": "The outpost is run by Sigrun Ironhew, who manages the local dig efforts and keeps the camp fortified against local hazards."
+  },
+  {
+   "q": "Why is the camp situated in the hills?",
+   "aliases": [
+    "why in the hills",
+    "hammertoes digsite connection",
+    "why is it up here"
+   ],
+   "answer": "Positioned directly above Hammertoe's Digsite, the high ground grants better defense and a clear vantage over the chaotic lower excavations infested with hostile troggs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Ironforge, Dustwind Dig represents the sheer stubbornness of the Explorers' League, refusing to abandon ancient secrets even in the most unforgiving corners of the Eastern Kingdoms."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Dustwind Dig is one of the few places in the hostile Badlands where Alliance members can safely rest, resupply, and coordinate their travels."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "dustwind dig",
+  "excavation",
+  "explorers league",
+  "hammertoe",
+  "ironforge",
+  "sigrun ironhew"
+ ],
+ "related": [
+  "zone:badlands",
+  "topic:explorers-league",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Dustwind Dig"
+ ]
+}

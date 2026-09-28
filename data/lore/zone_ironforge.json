@@ -1,0 +1,135 @@
+{
+ "key": "zone:ironforge",
+ "type": "city",
+ "name": "Ironforge",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": [
+   "Ironforge"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Carved into the heart of Ironforge Mountain in snowy Dun Morogh, Ironforge is the ancestral capital of the Bronzebeard dwarves and an unassailable bastion of the Alliance. Centered on the molten heat of the Great Forge, this sprawling underground city serves as a bustling hub of commerce, industry, and ancient dwarven lore. Under the steadfast rule of King Magni Bronzebeard, it now also shelters the displaced gnomes of nearby Gnomeregan.",
+ "sections": [
+  {
+   "title": "A City of Stone and Fire",
+   "body": "Ironforge was founded twenty-five hundred years ago when the first generation of dwarves awakened in Uldaman and journeyed west into Dun Morogh's jagged peaks. Delving into the tallest mountain, they built a massive shrine to their titan progenitor Khaz'goroth alongside the colossal Great Forge. Ever since, the city has expanded in concentric rings around that fiery hearth. Unlike surface capitals, Ironforge is entirely enclosed beneath stone ceilings, warmed by roaring hearths and subterranean rivers of molten magma. Its fortified gates and cavernous depths have proven near-impregnable throughout centuries of war.",
+   "spoiler": 0
+  },
+  {
+   "title": "The War of the Three Hammers",
+   "body": "For generations, three dwarven clans coexisted within Ironforge: the Bronzebeards, the Wildhammers, and the Dark Irons. When High King Modimus Anvilmar died in 230 BDP, a bitter civil war erupted for dominion over the mountain. The Bronzebeard clan prevailed and expelled their rivals. Later, Sorcerer-Thane Thaurissan led a vengeful Dark Iron siege that penetrated to the heart of Ironforge before being repulsed by Bronzebeard forces. Thaurissan accidentally summoned Ragnaros the Firelord to the south, shattering the Redridge Mountains and dooming his own host. The Bronzebeards have held undisputed control of Ironforge ever since.",
+   "spoiler": 0
+  },
+  {
+   "title": "Honor to the Alliance",
+   "body": "During the Second War, the Bleeding Hollow orc clan overran much of Khaz Modan, but Ironforge held firm behind its sealed gates until the Alliance of Lordaeron lifted the siege. Bound by this debt of honor, King Magni Bronzebeard pledged Ironforge's eternal loyalty to the Alliance, standing firm even when kingdoms like Gilneas and Quel'Thalas abandoned it. In the Third War, Magni channeled his grief over the loss of his brother Muradin in Northrend to forge the famed blade Ashbringer at the Great Anvil. Today, Ironforge remains one of the Alliance's fiercest bulwarks.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Haven for Exiles",
+   "body": "Following the tragic fall of Gnomeregan to trogg invaders and irradiation, King Magni opened Ironforge's gates to thousands of gnome refugees. Under High Tinker Gelbin Mekkatorque, the exiles established Tinker Town, carving out a buzzing technological haven within the stone city. Coupled with the subterranean Deeprun Tram connecting Ironforge directly to Stormwind City, the dwarven stronghold has transformed into a lively crossroads of dwarven steelcraft and gnomish ingenuity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules Ironforge?",
+   "aliases": [
+    "ironforge king",
+    "ruler of ironforge",
+    "who is the dwarf king"
+   ],
+   "answer": "King Magni Bronzebeard rules Ironforge and the kingdom of Khaz Modan from the High Seat. A skilled warrior and master blacksmith, he has governed his people through the Second and Third Wars and remains a deeply loyal pillar of the Alliance."
+  },
+  {
+   "q": "Why are there so many gnomes in Ironforge?",
+   "aliases": [
+    "gnomes in ironforge",
+    "why are gnomes here",
+    "tinker town gnomes"
+   ],
+   "answer": "When the nearby gnomish capital of Gnomeregan fell to a sudden trogg invasion and a disastrous radiation accident, the surviving gnomes fled into Dun Morogh. King Magni welcomed them into Ironforge, granting them an entire quarter of the city now known as Tinker Town."
+  },
+  {
+   "q": "What is the Great Forge?",
+   "aliases": [
+    "great forge",
+    "ironforge anvil",
+    "center of ironforge"
+   ],
+   "answer": "The Great Forge is the fiery industrial heart of the city, fed by underground waterfalls of molten magma. It surrounds the Great Anvil, where dwarven weaponsmiths craft legendary arms and armor. King Magni himself forged the famed holy blade Ashbringer upon this anvil."
+  },
+  {
+   "q": "How do you travel between Ironforge and Stormwind?",
+   "aliases": [
+    "ironforge to stormwind",
+    "deeprun tram",
+    "train to stormwind"
+   ],
+   "answer": "Ironforge is connected directly to Stormwind City by the Deeprun Tram, an extraordinary subterranean railway built by gnomish engineering that cuts straight through the mountain bedrock of the Eastern Kingdoms."
+  },
+  {
+   "q": "Has Ironforge ever fallen to an enemy army?",
+   "aliases": [
+    "has ironforge been conquered",
+    "did ironforge fall",
+    "ironforge siege"
+   ],
+   "answer": "Ironforge has never fallen to an outside invader. Kilrogg Deadeye's Bleeding Hollow clan laid siege to it for months during the Second War, and the Dark Irons fought into the city during the War of the Three Hammers, but the gates and defenders held."
+  },
+  {
+   "q": "Where did the other dwarf clans go?",
+   "aliases": [
+    "where are wildhammers",
+    "where are dark irons",
+    "three hammer clans"
+   ],
+   "answer": "After the War of the Three Hammers, the defeated Wildhammer clan relocated north into the Wetlands and the Hinterlands, while the hostile Dark Iron clan settled within the Redridge and Blackrock regions under the thrall of the Firelord."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Ironforge is the ancestral home of your kin, standing as a proud testament to your resilience, your mastery of stone, and the sacred lineage tracing back to the titans."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Since the disaster that consumed Gnomeregan, Tinker Town has served as your temporary home and command center as High Tinker Mekkatorque plots the liberation of your city."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The Great Forge is revered across Azeroth as the premier center of metalworking, housing the Great Anvil where master smiths and King Magni himself shape metal into legend."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Connected seamlessly to Stormwind via the Deeprun Tram, Ironforge stands as the Alliance's northern anchor and one of its most reliable military fortresses."
+  }
+ ],
+ "keywords": [
+  "bronzebeard",
+  "deeprun tram",
+  "dun morogh",
+  "great forge",
+  "high seat",
+  "ironforge",
+  "khaz modan",
+  "magni bronzebeard",
+  "tinker town"
+ ],
+ "related": [
+  "npc:magni-bronzebeard",
+  "subzone:great-forge",
+  "subzone:tinker-town",
+  "subzone:deeprun-tram",
+  "subzone:high-seat",
+  "zone:dunmorogh",
+  "npc:gelbin-mekkatorque",
+  "topic:bronzebeard-clan"
+ ],
+ "attribution": [
+  "Ironforge"
+ ]
+}

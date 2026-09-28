@@ -1,0 +1,132 @@
+{
+ "key": "zone:teldrassil",
+ "type": "zone",
+ "name": "Teldrassil",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": [
+   "Teldrassil (Classic)",
+   "Teldrassil"
+  ],
+  "levels": "1-10",
+  "aliases": []
+ },
+ "summary": "Teldrassil, meaning 'Crown of the Earth', is a gargantuan new World Tree raised off Kalimdor's northwest coast. Grown by the druids in the wake of the Third War, its colossal boughs support an entire twilit wilderness and the night elf capital of Darnassus. Yet beneath its tranquil, moonlit canopy, a creeping corruption has begun to stir.",
+ "sections": [
+  {
+   "title": "A Canopy Upon the Sea",
+   "body": "Teldrassil is not merely a tree; it is an elevated ecosystem standing tall amidst the waters of the Veiled Sea. Its gargantuan limbs support rolling hills, flowing rivers fed by morning dew, misty lakes, and dense ancient glades. At its western edge sits Darnassus, the grand capital of the kaldorei. At the base of its monumental trunk lies Rut'theran Village, connected to the crown above by a mystical gateway and serving as the island's primary harbor.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Refusal of the Aspects",
+   "body": "Following the sacrifice of Nordrassil during the Third War and the mysterious disappearance of Shan'do Malfurion Stormrage into the Emerald Dream, Archdruid Fandral Staghelm convinced the Circle of Ancients to grow a replacement. Staghelm hoped to restore the kaldorei to their lost immortality. However, Nozdormu and the Dragon Aspects deemed the effort hubristic and withheld their blessings. Without their vital warding, Teldrassil's growth has suffered from unnatural flaws.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Creeping Malady",
+   "body": "Despite its outward majesty, the nascent World Tree harbors a dark sickness. The local wildlife has turned violent: peaceful furbolg tribes have fallen into madness, twisted grells multiply in the barrows, and vile satyrs work dark rites in shadows like Fel Rock. Down upon the shores of Darkshore, sea giants, threshers, and turtles beach themselves to flee the tainted waters around the tree. Naturalists and sentinels now labor frantically across the boughs to identify the shadow slowly strangling their new home.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was Teldrassil grown?",
+   "aliases": [
+    "why made",
+    "who made teldrassil",
+    "teldrassil origin"
+   ],
+   "answer": "After Nordrassil was devastated at the end of the Third War, the night elves lost their immortality. Archdruid Fandral Staghelm pushed the Circle of Ancients and Cenarion druids to plant a new World Tree in the sea, aiming to restore what their people had lost."
+  },
+  {
+   "q": "Why didn't Teldrassil restore night elf immortality?",
+   "aliases": [
+    "immortality",
+    "why not immortal",
+    "nozdormu blessing"
+   ],
+   "answer": "Nordrassil originally granted immortality because Nozdormu, the Timeless One, blessed it. When Teldrassil was raised, Nozdormu judged the night elves' desire as arrogant and refused to bestow his blessing upon the new tree."
+  },
+  {
+   "q": "How do you leave Teldrassil?",
+   "aliases": [
+    "how to get out",
+    "leave tree",
+    "teldrassil boat"
+   ],
+   "answer": "Travelers must head through Darnassus to the pink portal in the Temple Gardens, which transports them down to Rut'theran Village at the trunk's base. From Rut'theran, a ship sails across the sea to Auberdine on the mainland of Darkshore, alongside available hippogryph routes."
+  },
+  {
+   "q": "Why are there no mining nodes in Teldrassil?",
+   "aliases": [
+    "where is copper",
+    "no ore",
+    "teldrassil mining"
+   ],
+   "answer": "The entire zone is situated atop the living branches and wood of a colossal World Tree rather than natural continental rock. Because there are no stony subterranean crusts, no metal veins or ore deposits form here, though herbs flourish in great abundance."
+  },
+  {
+   "q": "What is causing the furbolgs and beasts to turn mad?",
+   "aliases": [
+    "corrupted furbolgs",
+    "gnarlpine mad",
+    "what is the corruption"
+   ],
+   "answer": "A sinister presence has begun to seep into Teldrassil's unblessed roots. Sickness has corrupted the local water and flora, driving peaceful timberlings and the Gnarlpine furbolg tribe into frenzied aggression, while remnants of satyrs actively cultivate the taint."
+  },
+  {
+   "q": "What is Shadowglen?",
+   "aliases": [
+    "shadowglen",
+    "starting area",
+    "aldrassil zone"
+   ],
+   "answer": "Shadowglen is a sheltered, secluded vale on the eastern boughs of Teldrassil surrounding the great tree Aldrassil. It serves as a peaceful sanctuary where young night elves begin their training before venturing into the wider world."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "This massive tree is your people's fresh beginning after the devastation of Mount Hyjal, but the absence of the Aspects' blessings makes defending it an urgent duty."
+  },
+  {
+   "target": "class:Druid",
+   "text": "With Malfurion trapped in the Emerald Dream, Archdruid Fandral Staghelm leads the Cenarion Circle here, though many druids worry that Teldrassil was raised in haste."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Teldrassil serves as the northernmost bastion of the Alliance in Kalimdor, anchoring naval communication and trade between Darnassus and mainland kingdoms."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Lacking minerals and ore entirely, the tree's verdant canopy makes up for it by acting as a paradise for gatherers of Peacebloom, Silverleaf, and Earthroot."
+  }
+ ],
+ "keywords": [
+  "circle of ancients",
+  "crown of the earth",
+  "darnassus",
+  "dolanaar",
+  "fandral staghelm",
+  "rut'theran",
+  "shadowglen",
+  "teldrassil",
+  "world tree"
+ ],
+ "related": [
+  "zone:darnassus",
+  "zone:darkshore",
+  "quest:929",
+  "quest:940",
+  "npc:fandral-staghelm",
+  "npc:tyrande-whisperwind",
+  "topic:nordrassil",
+  "subzone:rut-theran-village"
+ ],
+ "attribution": [
+  "Teldrassil (Classic)",
+  "Teldrassil"
+ ]
+}

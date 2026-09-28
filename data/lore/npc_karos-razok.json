@@ -1,0 +1,87 @@
+{
+ "key": "npc:karos-razok",
+ "type": "npc",
+ "name": "Karos Razok",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Karos Razok",
+  "refs": 2
+ },
+ "summary": "Karos Razok is the Forsaken bat handler stationed at the Sepulcher in Silverpine Forest. He oversees the roost of undead fliers that connect this contested frontier outpost directly to the Undercity and other Horde strongholds.",
+ "sections": [
+  {
+   "title": "Keeper of the Sepulcher's Wings",
+   "body": "Perched on the wooden platform above the crypts of the Sepulcher, Karos Razok tends to the skeletal bats vital for Forsaken communications. With Silverpine Forest infested by Moonrage worgen, rogue Dalaran magi, and the human remnants of Ambermill, overland travel along the northern road is treacherous. Razok ensures that messengers, fresh recruits, and vital supplies can cross above the haunted canopy, keeping the front line linked straight back to the capital in Tirisfal Glades.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Karos Razok?",
+   "aliases": [
+    "karos razok role",
+    "who is the flight master in the sepulcher",
+    "sepulcher bat handler"
+   ],
+   "answer": "Karos Razok is the Forsaken flight master stationed at the Sepulcher in Silverpine Forest. He manages the roost of trained vampiric bats used by Horde adventurers and messengers to travel across Lordaeron."
+  },
+  {
+   "q": "Where can Karos Razok send travelers?",
+   "aliases": [
+    "sepulcher flight paths",
+    "where does the sepulcher bat fly",
+    "flight routes from sepulcher"
+   ],
+   "answer": "In classic travel networks, Razok primarily links the Sepulcher directly to the Undercity in Tirisfal Glades and to Tarren Mill in the Hillsbrad Foothills, facilitating rapid transit across northern Lordaeron."
+  },
+  {
+   "q": "What creatures does Karos handle?",
+   "aliases": [
+    "what mounts does razok have",
+    "forsaken flight beasts",
+    "what are the flying mounts at sepulcher"
+   ],
+   "answer": "He tends to large, skeletal flight bats. These undead beasts are hardy, tireless fliers adapted to Lordaeron's blighted skies and are favored by the Forsaken for their silence and endurance."
+  },
+  {
+   "q": "Why is a flight master important at the Sepulcher?",
+   "aliases": [
+    "why is sepulcher bat master needed",
+    "sepulcher travel importance"
+   ],
+   "answer": "The roads of Silverpine are choked with hostile forces, from Pyrewood's worgen curse to human wizards at Ambermill. Razok provides an aerial lifeline that allows the Forsaken to supply this forward base without suffering ambushes on the highway."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Karos Razok represents your lifeline back to the Undercity, ensuring that frontline efforts in Silverpine remain firmly tethered to Lady Sylvanas's capital."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For Horde travelers pushing south toward Hillsbrad Foothills, Razok's bat roost is an indispensable waypoint on the western edge of Lordaeron."
+  }
+ ],
+ "keywords": [
+  "bat handler",
+  "flight master",
+  "karos razok",
+  "sepulcher",
+  "silverpine forest",
+  "undercity"
+ ],
+ "related": [
+  "subzone:sepulcher",
+  "zone:silverpine",
+  "zone:undercity",
+  "subzone:tarren-mill",
+  "topic:forsaken",
+  "quest:6323",
+  "quest:6321",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Karos Razok"
+ ]
+}

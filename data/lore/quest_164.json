@@ -1,0 +1,122 @@
+{
+ "key": "quest:164",
+ "type": "quest",
+ "name": "Deliveries to Sven",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   164
+  ],
+  "level": "23",
+  "faction": "Alliance",
+  "start": "Elaine Carevin",
+  "end": "Sven Yorgen",
+  "previous": null,
+  "next": "Sven's Revenge",
+  "wiki": "Deliveries to Sven",
+  "chain": []
+ },
+ "summary": "Deliveries to Sven is an Alliance task given by Elaine Carevin in Darkshire, requesting that vital provisions be carried out to a lonely camp on the northwest frontier of Duskwood. There, Sven Yorgen and his few remaining followers wage a desperate, solitary struggle against the horrors of the blighted woods. The errand connects town folk struggling in the gloom with an isolated band on the edge of the wilderness.",
+ "sections": [
+  {
+   "title": "A Lifeline to the Wilderness",
+   "body": "While Darkshire barely holds its own walls against wolves, spiders, and the restless dead, some refuse to cower behind palisades. Sven Yorgen and a meager handful of companions established a solitary encampment along the northwestern perimeter of Duskwood. So pressed are they by constant danger that they cannot spare a single man to make the perilous trek back to town for provisions. Elaine Carevin steps in to coordinate aid, relying on brave travelers to ensure these frontier fighters do not starve.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Carevin Connection",
+   "body": "The Carevin family holds high regard for Sven, viewing his fierce stand as true devotion to the Light. Elaine's willingness to organize and dispatch supplies highlights the quiet networks of survival that keep Duskwood from completely collapsing into shadow. When Sven receives the crate, he recognizes the enduring support of the Carevins, though his thoughts remain consumed by the grim battle at hand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sven Yorgen?",
+   "aliases": [
+    "who is sven",
+    "sven lore",
+    "sven yorgen info"
+   ],
+   "answer": "Sven Yorgen is a frontiersman who keeps an armed camp on the northwestern edge of Duskwood. Viewed by figures like Elaine Carevin as an upright fighter doing the work of the Light, Sven and his small band struggle against the myriad terrors that plague the surrounding forests."
+  },
+  {
+   "q": "Why does Sven need supplies brought to him?",
+   "aliases": [
+    "why can't sven get supplies",
+    "sven supplies",
+    "why delivery"
+   ],
+   "answer": "Sven's band is critically small and constantly on guard against surrounding threats. They cannot spare even a single person to make the dangerous journey to Darkshire and back, leaving them entirely reliant on sympathetic townsfolk and passing couriers for sustenance."
+  },
+  {
+   "q": "Who provides the supplies?",
+   "aliases": [
+    "who sends supplies",
+    "elaine carevin",
+    "carevin family"
+   ],
+   "answer": "Elaine Carevin provides the supplies from Darkshire. Her family maintains a close relationship with Sven and holds his dedication in high esteem, regularly arranging aid to support his encampment."
+  },
+  {
+   "q": "Where is Sven's camp located?",
+   "aliases": [
+    "where is sven",
+    "sven location",
+    "sven camp"
+   ],
+   "answer": "Sven's camp lies tucked against the northwestern mountains of Duskwood, situated far past the road and north of the blighted farmland, directly on the borderland wilderness."
+  },
+  {
+   "q": "Is this delivery mandatory before helping Sven further?",
+   "aliases": [
+    "is deliveries to sven required",
+    "do i need deliveries to sven",
+    "deliveries prerequisite"
+   ],
+   "answer": "No. While Elaine Carevin offers this task to direct travelers toward Sven, adventurous travelers who discover Sven's camp independently can aid him directly without carrying Elaine's crate."
+  },
+  {
+   "q": "What does Sven do after receiving the delivery?",
+   "aliases": [
+    "what happens next",
+    "after deliveries to sven",
+    "sven next quest"
+   ],
+   "answer": "Sven expresses sincere gratitude for the Carevin family's support, but his mind immediately shifts toward the dire threats menacing his camp and family history, seeking capable fighters to aid his vengeance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Outlying sentinels like Sven represent the Alliance's frayed reach in Duskwood, where survival hinges on voluntary couriers rather than regular garrison supply lines."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Elaine speaks of Sven as a man doing the true work of the Light, making this supply run an act of solidarity with a brother under siege."
+  },
+  {
+   "target": "race:Human",
+   "text": "The Carevins and Sven's followers demonstrate the stubborn grit of Stormwind's rural folk, refusing to abandon Duskwood despite its unrelenting gloom."
+  }
+ ],
+ "keywords": [
+  "carevin",
+  "darkshire",
+  "duskwood",
+  "elaine carevin",
+  "light",
+  "supplies for sven",
+  "sven yorgen"
+ ],
+ "related": [
+  "npc:sven-yorgen",
+  "quest:95",
+  "zone:duskwood",
+  "quest:1042",
+  "topic:light"
+ ],
+ "attribution": [
+  "Deliveries to Sven"
+ ]
+}

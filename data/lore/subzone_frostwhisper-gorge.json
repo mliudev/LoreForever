@@ -1,0 +1,90 @@
+{
+ "key": "subzone:frostwhisper-gorge",
+ "type": "subzone",
+ "name": "Frostwhisper Gorge",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Frostwhisper Gorge"
+ },
+ "summary": "Frostwhisper Gorge is a frigid canyon carved into the southern highlands of Winterspring, lying directly north of the sinister Darkwhisper Gorge. Ancient night elven ruins litter its icy floor and surrounding cliffs, while towering Frostmaul giants and frosty elementals dominate the chasm. High above the eastern rim, a solitary dwarf camp looks out over the precipice toward the ocean below.",
+ "sections": [
+  {
+   "title": "A Frozen Chasm of Ruins and Giants",
+   "body": "Carved into the southern mountains of Winterspring, Frostwhisper Gorge serves as a threshold just before the demon-infested depths of Darkwhisper Gorge. Its snowy floor and cliffside ridges are strewn with the forgotten stonework of ancient night elven settlements. In the present day, the gorge is claimed by immense Frostmaul giants, their preservers, and icy elemental beings known as Ice Avatars, ruled by the monstrous Frostilicus. Travel down into the ravine is perilous, as the giants fiercely defend the frozen crags against any wandering intruders.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Eastern Overlook",
+   "body": "Hidden along a narrow, quiet track at the top of the gorge's eastern cliffs lies a curious outpost. Flying travelers on wyverns or gryphons passing between Azshara, Orgrimmar, and Winterspring often glimpse it from above: a solitary dwarven encampment perched at the very edge of the world. Planted with the banner of Ironforge, the camp features crates of provisions, barrels of ale, a comfortable chair, and a rifle leaning against the rest, providing an unmatched view across the drop to the Great Sea below.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures live in Frostwhisper Gorge?",
+   "aliases": [
+    "monsters in frostwhisper gorge",
+    "what lives in frostwhisper gorge",
+    "frostwhisper mobs"
+   ],
+   "answer": "The canyon floor and surrounding terraces are inhabited by powerful Frostmaul giants, Frostmaul Preservers, and frosty elementals called Ice Avatars, led by a giant entity named Frostilicus."
+  },
+  {
+   "q": "Where is Frostwhisper Gorge located?",
+   "aliases": [
+    "frostwhisper gorge location",
+    "where is frostwhisper gorge",
+    "frostwhisper map"
+   ],
+   "answer": "It is situated in the southern reach of Winterspring, cut into the icy cliffs just north of Darkwhisper Gorge."
+  },
+  {
+   "q": "What is the small dwarf camp on the eastern cliffs?",
+   "aliases": [
+    "dwarf camp winterspring",
+    "ironforge flag frostwhisper",
+    "eastern cliff camp"
+   ],
+   "answer": "Tucked away high on the eastern ridge overlooking the gorge is a tranquil campsite flying an Ironforge banner. It consists of a chair, a rifle, supply crates, and copious amounts of booze looking over the cliff edge toward the sea."
+  },
+  {
+   "q": "Are there night elf ruins down in the gorge?",
+   "aliases": [
+    "elven ruins frostwhisper",
+    "night elf architecture winterspring gorge"
+   ],
+   "answer": "Yes. Crumbling night elven pillars and stonework are scattered across both the floor of the gorge and the upper cliff ridges, remnants of ancient Kaldorei habitations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "High atop the eastern edge of the chasm, an unknown dwarven traveler pitched camp with an Ironforge flag, a rifle, and plenty of ale to take in the vast view of the ocean."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The snowy depths of the gorge hold the shattered remnants of ancient night elf structures, now prowled by Frostmaul giants."
+  }
+ ],
+ "keywords": [
+  "darkwhisper gorge",
+  "frostilicus",
+  "frostmaul",
+  "frostwhisper gorge",
+  "ice avatar",
+  "ironforge",
+  "winterspring"
+ ],
+ "related": [
+  "subzone:darkwhisper-gorge",
+  "zone:winterspring",
+  "topic:night-elf",
+  "zone:ironforge",
+  "zone:azshara",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Frostwhisper Gorge"
+ ]
+}

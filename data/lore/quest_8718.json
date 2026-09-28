@@ -1,0 +1,115 @@
+{
+ "key": "quest:8718",
+ "type": "quest",
+ "name": "Bladeswift the Elder",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   8718
+  ],
+  "level": "",
+  "faction": null,
+  "start": "",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Bladeswift the Elder",
+  "chain": []
+ },
+ "summary": "Elder Bladeswift is an ancestral spirit honored during the Lunar Festival within the night elven capital of Darnassus. Located in the Craftsmen's Terrace, this ancient figure offers travelers wisdom drawn from the starry heavens above. Seeking his blessing connects adventurers directly to the revered traditions of the Cenarion Circle and the night elven people.",
+ "sections": [
+  {
+   "title": "A Spirit of the Boughs",
+   "body": "During the Lunar Festival, the spirits of revered ancestors manifest across Azeroth to share their wisdom and bestow blessings upon travelers. Bladeswift the Elder stands amidst the serene boughs of the Craftsmen's Terrace in Darnassus. Unlike modern residents preoccupied with the trials of the present, this spectral forebear looks upward to the cosmos, contemplating the mysteries woven into the night sky.",
+   "spoiler": 0
+  },
+  {
+   "title": "Starlight and Ancient Truths",
+   "body": "Night elven culture has long revered the celestial bodies as reflections of Elune and the deeper secrets of existence. Bladeswift reminds those who approach him that the countless stars hold answers to worldly struggles, urging the wise and fortunate to gaze upward. By acknowledging his presence, adventurers receive a Coin of Ancestry and take part in a timeless ceremony bridging the mortal realm with the spirits of the past.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elder Bladeswift?",
+   "aliases": [
+    "who is bladeswift",
+    "elder bladeswift lore",
+    "bladeswift identity"
+   ],
+   "answer": "Elder Bladeswift is an ancestral night elf spirit honored during the seasonal Lunar Festival. He appears in Darnassus to offer philosophical guidance and blessings to travelers seeking to honor their forebears."
+  },
+  {
+   "q": "Where can Elder Bladeswift be found?",
+   "aliases": [
+    "bladeswift location",
+    "where is elder bladeswift",
+    "bladeswift darnassus"
+   ],
+   "answer": "He can be found standing in the Craftsmen's Terrace within the night elf capital of Darnassus, overlooking the tranquil ponds and wooden walkways of the tree city."
+  },
+  {
+   "q": "What is the purpose of seeking out the elders?",
+   "aliases": [
+    "why find elders",
+    "lunar festival elders purpose",
+    "visiting elders"
+   ],
+   "answer": "Visiting the elders is a core tradition of the Lunar Festival. By paying respects to these ancient spirits across the world, adventurers celebrate the wisdom of the past, earning Coins of Ancestry and seasonal goodwill."
+  },
+  {
+   "q": "What does Bladeswift teach those who speak with him?",
+   "aliases": [
+    "bladeswift message",
+    "what does bladeswift say"
+   ],
+   "answer": "Bladeswift encourages seekers to look to the heavens. He suggests that the countless stars hold profound truths and answers to earthly mysteries for those patient and wise enough to observe them."
+  },
+  {
+   "q": "Can members of the Horde visit Elder Bladeswift?",
+   "aliases": [
+    "can horde talk to bladeswift",
+    "horde bladeswift elder",
+    "bladeswift alliance only"
+   ],
+   "answer": "While Bladeswift resides deep inside Darnassus\u2014an Alliance capital guarded by vigilant Sentinels\u2014the seasonal spirit himself welcomes any respectful traveler, though Horde visitors must brave hostile guards to reach him."
+  },
+  {
+   "q": "Why is an elder present on Teldrassil if it is a new World Tree?",
+   "aliases": [
+    "why is bladeswift in darnassus",
+    "teldrassil elder lore"
+   ],
+   "answer": "Although Teldrassil was grown only recently following the Third War, the spirits of the Kaldorei ancestors are drawn to the living heart of their people, appearing near their kin to observe the festival."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Standing before Elder Bladeswift in Darnassus is a direct communion with your people's celestial heritage and devotion to the heavens."
+  },
+  {
+   "target": "class:Druid",
+   "text": "As stewards of nature aligned with the Cenarion Circle, druids carry a deep cultural and spiritual duty to honor ancient spirits like Bladeswift."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Situated safely inside Darnassus, Elder Bladeswift offers Alliance heroes an easy and peaceful pilgrimage during the Lunar Festival."
+  }
+ ],
+ "keywords": [
+  "ancestors",
+  "bladeswift",
+  "coin of ancestry",
+  "craftsmen's terrace",
+  "darnassus",
+  "elder bladeswift",
+  "lunar festival",
+  "teldrassil"
+ ],
+ "related": [],
+ "attribution": [
+  "Bladeswift the Elder"
+ ]
+}

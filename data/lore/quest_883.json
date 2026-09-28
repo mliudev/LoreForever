@@ -1,0 +1,118 @@
+{
+ "key": "quest:883",
+ "type": "quest",
+ "name": "Lakota'mani",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   883
+  ],
+  "level": "22",
+  "faction": "Horde",
+  "start": "Hoof of Lakota'mani",
+  "end": "Jorn Skyseer",
+  "previous": null,
+  "next": null,
+  "wiki": "Lakota'mani (quest)",
+  "chain": []
+ },
+ "summary": "Lakota'mani is a rite of the hunt initiated by claiming the hoof of Lakota'mani, a massive roaming kodo of the Barrens. Bringing this trophy to Jorn Skyseer at Camp Taurajo honors the spirit of the mighty beast and marks the hunter as an equal to its thunderous strength.",
+ "sections": [
+  {
+   "title": "The Earthshaker",
+   "body": "In the Taur-ahe tongue, Lakota'mani translates to 'Earthshaker.' Among the herds that wander the sun-baked plains of the Barrens, he stands apart\u2014a kodo of tremendous size and endurance whose footsteps echo like gathered thunder. To tauren hunters, tracking and defeating such a creature is not an act of wanton slaughter, but a sacred communion with the raw vigor of Kalimdor's wildlife.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Hunt Honored at Camp Taurajo",
+   "body": "Carrying the hoof of the fallen beast to Jorn Skyseer at Camp Taurajo brings spiritual closure to the hunt. Jorn recognizes the change immediately, noting a newfound power and stride in any hunter who returns from the encounter. By presenting the trophy, the hunter receives Jorn's blessing, acknowledging that Lakota'mani's enduring courage and primal spirit now walk alongside them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the name Lakota'mani mean?",
+   "aliases": [
+    "meaning of lakotamani",
+    "lakota'mani translation",
+    "what does lakotamani mean in taurahe"
+   ],
+   "answer": "According to Jorn Skyseer, Lakota'mani translates to 'Earthshaker' in the tauren language. The name reflects the beast's immense size and footsteps that rumble like gathered thunder across the plains."
+  },
+  {
+   "q": "Who is Jorn Skyseer?",
+   "aliases": [
+    "who is jorn",
+    "jorn skyseer role",
+    "where is jorn skyseer"
+   ],
+   "answer": "Jorn Skyseer is a tauren spiritual guide and elder residing at Camp Taurajo in the southern Barrens. He interprets signs, guides young hunters, and honors the great beasts slain across the plains."
+  },
+  {
+   "q": "Why do tauren collect the hooves of great beasts?",
+   "aliases": [
+    "why take the hoof",
+    "hoof of lakota'mani meaning",
+    "kodo hoof trophy"
+   ],
+   "answer": "To the tauren, a hoof taken from a beast like Lakota'mani serves as a physical token of the creature's immense power. Presenting it to an elder allows the spirit and fortitude of the fallen beast to be formally recognized and bound to the hunter's own spirit."
+  },
+  {
+   "q": "Where does the beast Lakota'mani roam?",
+   "aliases": [
+    "where is lakotamani",
+    "lakota'mani location",
+    "how to find lakotamani"
+   ],
+   "answer": "Lakota'mani roams the open savanna of the central and southern Barrens, wandering among the lesser kodo herds until tracked down by an attentive hunter."
+  },
+  {
+   "q": "Why does Jorn call the hunter 'Earthshaker'?",
+   "aliases": [
+    "why am i called earthshaker",
+    "earthshaker title lore"
+   ],
+   "answer": "Jorn Skyseer believes that besting Lakota'mani permanently merges the beast's spirit and courage with the hunter's own. By overcoming the Earthshaker, the hunter inherits the name and walks with the same thunderous resolve."
+  },
+  {
+   "q": "Does this hunt have spiritual significance beyond Camp Taurajo?",
+   "aliases": [
+    "lakotamani spiritual meaning",
+    "is this a tauren rite"
+   ],
+   "answer": "Yes. It reflects the fundamental tauren belief in the Earthmother and the natural balance. A hunter proves their strength not by dominating nature, but by testing themselves against its greatest avatars and taking their spiritual strength into future conflicts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren hunters, defeating Lakota'mani fulfills ancient hunting traditions, earning spiritual reverence and the proud title of Earthshaker from your elders."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking a legendary solitary kodo across the vast savanna is an ultimate test of tracking prowess, endurance, and field combat in the heart of Kalimdor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Camp Taurajo serves as a crucial hunting hub for the Horde, and claiming the spoils of the plains helps establish your reputation among the tribes."
+  }
+ ],
+ "keywords": [
+  "camp taurajo",
+  "earthshaker",
+  "hoof of lakota'mani",
+  "jorn skyseer",
+  "kodo",
+  "lakota'mani",
+  "the barrens"
+ ],
+ "related": [
+  "subzone:camp-taurajo",
+  "zone:barrens",
+  "quest:3261"
+ ],
+ "attribution": [
+  "Lakota'mani (quest)"
+ ]
+}

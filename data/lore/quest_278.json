@@ -1,0 +1,118 @@
+{
+ "key": "quest:278",
+ "type": "quest",
+ "name": "A Dark Threat Looms",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   278
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Chief Engineer Hinderweir VII",
+  "end": "",
+  "previous": "A Dark Threat Looms (4)",
+  "next": "A Dark Threat Looms (6)",
+  "wiki": "A Dark Threat Looms (5)",
+  "chain": []
+ },
+ "summary": "This quest is a critical step in defending the Stonewrought Dam from a suspected Dark Iron plot. Chief Engineer Hinderweir VII tasks adventurers with gathering rare chemical and organic reagents from across Loch Modan to concoct a defusing mixture. Without these components, the defenders will be unable to neutralize the explosives planted beneath the massive stonework.",
+ "sections": [
+  {
+   "title": "A Volatile Recipe",
+   "body": "To counteract the volatile explosive concoctions used by Dark Iron saboteurs, Chief Engineer Hinderweir VII relies on an unorthodox chemical neutralizer. Rather than simple water or dampening sand, neutralizing Dark Iron blast powders requires a potent slurry made from indigenous Forest Lurker venom, a tear extracted from the crocolisks inhabiting the Loch, and a Mo'grosh crystal. Each component brings unique reactive properties necessary to render dwarven demolition charges completely inert.",
+   "spoiler": 0
+  },
+  {
+   "title": "Perilous Gathering",
+   "body": "Securing these ingredients takes adventurers to the most hostile corners of Loch Modan. While the lurker spiders and loch crocolisks pose mundane natural hazards, obtaining a Mo'grosh crystal demands braving the ogre stronghold in the northeastern hills. The Mo'grosh ogres guard these rare, mined mineral formations jealously, forcing anyone seeking to protect the dam to fight their way through brute encampments to secure a sample.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Engineer Hinderweir need these specific reagents?",
+   "aliases": [
+    "why spider venom",
+    "why crocolisk tear",
+    "defusing mixture reagents"
+   ],
+   "answer": "Chief Engineer Hinderweir VII is concocting a specialized neutralizing compound to defuse Dark Iron explosives. The caustic lurker venom, crocolisk secretions, and magical minerals found in Mo'grosh crystals provide the precise chemical reactions needed to render advanced saboteur charges inert."
+  },
+  {
+   "q": "Where do Mo'grosh crystals come from?",
+   "aliases": [
+    "where are crystals",
+    "mogrosh crystal location",
+    "who has the crystal"
+   ],
+   "answer": "The crystals are mined and hoarded by the Mo'grosh ogres occupying the northeastern hills of Loch Modan. Because they are considered a rare and valuable commodity by the ogres, obtaining one requires venturing into their heavily defended territory."
+  },
+  {
+   "q": "What is the dark threat menacing Loch Modan?",
+   "aliases": [
+    "what dark threat",
+    "who is attacking the dam",
+    "dark threat looms story"
+   ],
+   "answer": "The threat stems from Dark Iron dwarf infiltrators who seek to destroy the Stonewrought Dam. Demolishing this massive engineering marvel would flood the Wetlands below, cut off Alliance supply lines, and devastate the region."
+  },
+  {
+   "q": "Who is Chief Engineer Hinderweir VII?",
+   "aliases": [
+    "who is hinderweir",
+    "chief engineer hinderweir"
+   ],
+   "answer": "He is the chief dwarven engineer in charge of overseeing the Stonewrought Dam's operations and integrity. He orchestrates both structural maintenance and local defenses against sabotage."
+  },
+  {
+   "q": "Where can the indigenous creatures be found?",
+   "aliases": [
+    "where are lurkers",
+    "crocolisk location",
+    "where to find spiders"
+   ],
+   "answer": "Forest Lurker spiders roam the wooded wilderness surrounding the valley, while crocolisks dwell in and around the shores of the Loch itself."
+  },
+  {
+   "q": "Why don't the Ironforge guards gather these items themselves?",
+   "aliases": [
+    "why help hinderweir",
+    "where are ironforge guards"
+   ],
+   "answer": "The mountaineers and local guards are stretched thin defending towns like Thelsamar and keeping watch for Dark Iron scouts. Specialized procurement tasks and raids into ogre territory are routinely delegated to capable traveling adventurers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate Hinderweir's ingenuity in formulating a chemical counter-agent capable of stabilizing volatile demolition charges in the field."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Khaz Modan, stopping Dark Iron sabotage at the Stonewrought Dam is a vital duty to protect their ancestral lands and architectural triumphs."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Failure to neutralize the threat against the dam would result in catastrophe, severing critical overland supply routes connecting Ironforge to the northern kingdoms."
+  }
+ ],
+ "keywords": [
+  "crocolisk tear",
+  "dark iron",
+  "hinderweir",
+  "loch modan",
+  "lurker venom",
+  "mo'grosh crystal",
+  "stonewrought dam"
+ ],
+ "related": [
+  "npc:chief-engineer-hinderweir-vii",
+  "zone:lochmodan",
+  "subzone:the-loch"
+ ],
+ "attribution": [
+  "A Dark Threat Looms (5)"
+ ]
+}

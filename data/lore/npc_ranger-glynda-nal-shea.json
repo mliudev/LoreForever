@@ -1,0 +1,113 @@
+{
+ "key": "npc:ranger-glynda-nal-shea",
+ "type": "npc",
+ "name": "Ranger Glynda Nal'Shea",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Ranger Glynda Nal'Shea",
+  "refs": 4
+ },
+ "summary": "Ranger Glynda Nal'Shea is a seasoned night elf sentry stationed in the coastal town of Auberdine. From her post near the town watch, she directs local defense efforts across Darkshore, dispatching travelers to eliminate lurking threats and investigate strange coastal phenomena.",
+ "sections": [
+  {
+   "title": "Guardian of Auberdine",
+   "body": "As Darkshore grapples with rising corruption and hostile incursions, Ranger Glynda Nal'Shea coordinates vital scout work from Auberdine. She keeps a watchful eye over the surrounding wilderness, relying on capable adventurers to maintain the perimeter and safeguard night elf holdings along the fog-shrouded coast.",
+   "spoiler": 0
+  },
+  {
+   "title": "Threats Along the Coast",
+   "body": "Glynda is keenly focused on the mounting perils encroaching on the shorelines, particularly the emboldened murlocs gathering south of town. She oversees bounties on notorious menaces like Murkdeep and tasks scouts with examining curious artifacts, including a mysterious crimson crystal found embedded on the heights overlooking the sea.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ranger Glynda Nal'Shea?",
+   "aliases": [
+    "glynda nal'shea",
+    "who is glynda",
+    "ranger glynda"
+   ],
+   "answer": "She is an elven ranger stationed in Auberdine who organizes scout patrols and defensive tasks across Darkshore on behalf of the night elf sentinels."
+  },
+  {
+   "q": "Where can Glynda Nal'Shea be found?",
+   "aliases": [
+    "glynda location",
+    "where is glynda",
+    "where to find glynda"
+   ],
+   "answer": "She is located in Auberdine, the main Alliance settlement in Darkshore, typically found near the sentinel watch and town entrances."
+  },
+  {
+   "q": "What quests does Ranger Glynda Nal'Shea offer?",
+   "aliases": [
+    "glynda quests",
+    "what does glynda give"
+   ],
+   "answer": "She offers tasks dealing with regional hazards, including bounties like WANTED: Murkdeep! and investigations involving the mysterious red crystal along the cliffs of Darkshore."
+  },
+  {
+   "q": "Why is Glynda concerned about Murkdeep?",
+   "aliases": [
+    "who is murkdeep",
+    "why kill murkdeep"
+   ],
+   "answer": "Murkdeep is a vicious murloc chieftain responsible for attacks on night elf outposts and travelers along the southern coast, posing an ongoing threat to the security of Auberdine."
+  },
+  {
+   "q": "What is the Red Crystal quest line?",
+   "aliases": [
+    "red crystal darkshore",
+    "the red crystal quest"
+   ],
+   "answer": "It is a line of scout investigations initiated by Glynda, tasking adventurers with climbing the eastern cliffs of Darkshore to examine an odd, pulsing crystal and retrieve fragments for study."
+  },
+  {
+   "q": "What faction does Glynda Nal'Shea serve?",
+   "aliases": [
+    "glynda faction",
+    "who does glynda work for"
+   ],
+   "answer": "She serves the night elves of Darnassus and acts as a military outpost commander for the Alliance in Darkshore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, Glynda Nal'Shea represents the ongoing vigilance required to protect the sacred shores of Kalimdor from aggressive beasts and ancient corruptions."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Fellow rangers and trackers will find kindred spirit in Glynda's sharp instincts and direct approach to eliminating wild beasts and shoreline predators."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Glynda provides Alliance travelers arriving by boat from Teldrassil or the Eastern Kingdoms with essential bounties to secure Darkshore's perimeter."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "glynda",
+  "murkdeep",
+  "nal'shea",
+  "night elf",
+  "ranger",
+  "red crystal",
+  "sentinel"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:4740",
+  "quest:4811",
+  "quest:4812",
+  "quest:4813",
+  "quest:954"
+ ],
+ "attribution": [
+  "Ranger Glynda Nal'Shea"
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "key": "quest:1138",
+ "type": "quest",
+ "name": "Fruit of the Sea",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   1138
+  ],
+  "level": "17",
+  "faction": "Alliance",
+  "start": "Gubber Blump",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Fruit of the Sea",
+  "chain": []
+ },
+ "summary": "Fruit of the Sea is an Alliance quest offered by the fisherman Gubber Blump on the docks of Auberdine. Passionate about culinary crustacean dishes, Gubber asks travelers to scour the Darkshore coastline for fine crab chunks while he tends to his fishing lines.",
+ "sections": [
+  {
+   "title": "A Passion for Crustaceans",
+   "body": "Gubber Blump, a fisherman casting his line off the long wooden piers of Auberdine, harbors an obsessive culinary devotion to crab meat. Viewing crabs as the true bounty of the ocean, Gubber envisions an endless repertoire of recipes ranging from baked, barbecued, and boiled preparations to elaborate local specialties like whipper root crab and Ironforge surprise crab.",
+   "spoiler": 0
+  },
+  {
+   "title": "Combing the Tidepools",
+   "body": "Because Gubber cannot tear himself away from his fishing rod, he relies on passing adventurers to gather ingredients along Darkshore's mist-shrouded beaches. The coastline teems with reef crawlers and encrusted tide crawlers scuttling among the breakers, making them an accessible, if occasionally pinch-happy, source of meat for an aspiring coastal cook.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Fruit of the Sea?",
+   "aliases": [
+    "fruit of the sea quest giver",
+    "who gives fruit of the sea",
+    "gubber blump quest"
+   ],
+   "answer": "The quest is given by Gubber Blump, an Alliance fisherman stationed on the docks of Auberdine in Darkshore."
+  },
+  {
+   "q": "What creatures drop the Fine Crab Chunks?",
+   "aliases": [
+    "where do fine crab chunks drop",
+    "what drops crab chunks",
+    "which crabs drop fine crab chunks"
+   ],
+   "answer": "Fine Crab Chunks are harvested from reef crawlers and encrusted tide crawlers found walking the shores and shallow surf along the Darkshore coastline."
+  },
+  {
+   "q": "Why doesn't Gubber gather the crab meat himself?",
+   "aliases": [
+    "why doesn't gubber get his own crab",
+    "why does gubber need help"
+   ],
+   "answer": "Gubber is fully occupied fishing from the piers of Auberdine and cannot abandon his line to hunt crawling crabs along the beach."
+  },
+  {
+   "q": "What dishes does Gubber want to make?",
+   "aliases": [
+    "gubber crab recipes",
+    "what recipes does gubber mention",
+    "crab dishes"
+   ],
+   "answer": "Gubber boasts about an enormous variety of preparation styles, including crab salad, soup, stew, pepper crab, lemon crab, whipper root crab, and a regional recipe he calls Ironforge surprise crab."
+  },
+  {
+   "q": "Is Gubber Blump's speech referencing something?",
+   "aliases": [
+    "gubber blump pop culture reference",
+    "forrest gump bubba reference"
+   ],
+   "answer": "Yes. His monologue cataloging every conceivable method to cook crab is a clear homage to Benjamin Buford 'Bubba' Blue from the film Forrest Gump, who famously delivered an identical speech about shrimp."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "where is fruit of the sea",
+    "what zone is fruit of the sea in"
+   ],
+   "answer": "The quest begins and turns in at the port village of Auberdine, with the hunting taking place along the shores of Darkshore in northern Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Gubber's enthusiastic breakdown of crab recipes serves as inspiration for any cook looking to make the most of local coastal catches."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Hearing an outsider in northern Kalimdor dream about cooking an 'Ironforge surprise crab' is a quaint reminder of home for traveling Khaz Modan mountaineers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Auberdine serves as a vital landing hub for Alliance explorers arriving in Kalimdor, offering small favors like helping local fishermen settle in."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "encrusted tide crawlers",
+  "fine crab chunks",
+  "fruit of the sea",
+  "gubber blump",
+  "reef crawlers"
+ ],
+ "related": [
+  "npc:gubber-blump",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Fruit of the Sea"
+ ]
+}

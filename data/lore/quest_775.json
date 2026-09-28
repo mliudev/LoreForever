@@ -1,0 +1,118 @@
+{
+ "key": "quest:775",
+ "type": "quest",
+ "name": "Journey into Thunder Bluff",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   775
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Ancestral Spirit",
+  "end": "Cairne Bloodhoof",
+  "previous": "Rite of Wisdom (Classic)",
+  "next": "Rites of the Earthmother (3)",
+  "wiki": "Journey into Thunder Bluff (Classic)",
+  "chain": []
+ },
+ "summary": "Journey into Thunder Bluff is the culminating pilgrimage marking the end of a young hero's trials across Mulgore. Having completed the sacred Rites of the Earthmother under the guidance of the spirits, the adventurer is granted an audience with the High Chieftain of the tauren, Cairne Bloodhoof.",
+ "sections": [
+  {
+   "title": "A Rite of Passage Concluded",
+   "body": "Before any traveler or fledgling warrior can truly claim to have proven themselves in Mulgore, they must undergo the ancient Rites of the Earthmother. These trials test strength, vision, and wisdom across the rolling plains and ancestral sites of the land. Once the Ancestral Spirit acknowledges the final rite, the initiate is deemed worthy of entering the city of Thunder Bluff not as a mere visitor, but as an honored defender of the tauren people.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ascending to the High Rise",
+   "body": "The quest directs the traveler from the sacred ground where the spirits wander straight to the towering heights of Thunder Bluff. Perched atop the mesas, the city is a beacon of peace carved from red stone and supported by sweeping rope bridges and massive wooden elevators. There, on the High Rise, High Chieftain Cairne Bloodhoof awaits to personally greet those who have walked the path of the ancestors.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you on this journey?",
+   "aliases": [
+    "who gives quest",
+    "ancestral spirit quest",
+    "quest giver"
+   ],
+   "answer": "The quest is bestowed by an Ancestral Spirit after you finish the Rite of Wisdom, the final step in the traditional Rites of the Earthmother."
+  },
+  {
+   "q": "Where can I find Cairne Bloodhoof?",
+   "aliases": [
+    "cairne location",
+    "where is cairne",
+    "thunder bluff leader"
+   ],
+   "answer": "Cairne Bloodhoof resides on the High Rise, the central elevated mesa in Thunder Bluff overlooking the surrounding red plateaus and plains."
+  },
+  {
+   "q": "What is the significance of completing this quest?",
+   "aliases": [
+    "why visit cairne",
+    "rites meaning",
+    "significance of thunder bluff journey"
+   ],
+   "answer": "It serves as the formal graduation from the starting adventures of Mulgore. Presenting yourself to Cairne marks you as fully recognized by the tauren leadership and ready to take on duties throughout the wider Horde."
+  },
+  {
+   "q": "Do only tauren complete this journey?",
+   "aliases": [
+    "can orcs do this",
+    "who can do journey to thunder bluff",
+    "races"
+   ],
+   "answer": "While it is a deeply traditional tauren rite of passage, any member of the Horde who proves their dedication through the Rites of the Earthmother is granted the same honor and sent to meet the High Chieftain."
+  },
+  {
+   "q": "What happens after speaking to Cairne?",
+   "aliases": [
+    "next quest",
+    "what after cairne",
+    "after journey into thunder bluff"
+   ],
+   "answer": "Cairne welcomes you to his home, acknowledges your deeds, and points you forward into the broader conflicts facing the Horde across Kalimdor."
+  },
+  {
+   "q": "How do you reach the High Rise in Thunder Bluff?",
+   "aliases": [
+    "getting to high rise",
+    "how to get to cairne",
+    "thunder bluff elevators"
+   ],
+   "answer": "Take the great mechanical elevators from the plains below up to the mesas, then cross the rope and timber bridges that lead toward the central High Rise platform where the Chieftain's lodge stands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For a young tauren, standing before Cairne Bloodhoof after completing the Earthmother's rites is the definitive threshold of adulthood and tribal honor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The willingness of the tauren to welcome any allied race who completes their sacred traditions speaks to the mutual respect holding the young Horde together."
+  }
+ ],
+ "keywords": [
+  "ancestral spirit",
+  "cairne bloodhoof",
+  "high rise",
+  "journey into thunder bluff",
+  "mulgore",
+  "rites of the earthmother",
+  "thunder bluff"
+ ],
+ "related": [
+  "quest:763",
+  "npc:cairne-bloodhoof",
+  "zone:thunderbluff",
+  "subzone:high-rise",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Journey into Thunder Bluff (Classic)"
+ ]
+}

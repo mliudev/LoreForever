@@ -1,0 +1,125 @@
+{
+ "key": "npc:malfurion-stormrage",
+ "type": "npc",
+ "name": "Malfurion Stormrage",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Malfurion Stormrage",
+  "refs": 4
+ },
+ "summary": "Malfurion Stormrage is the first mortal druid and the revered leader of the night elves alongside High Priestess Tyrande Whisperwind. Renowned for defeating the Burning Legion in both the War of the Ancients and the Third War, he is venerated as the Shan'do, or honored teacher. Currently, he lies trapped in a comatose slumber within the Emerald Dream, leaving the kaldorei without his waking guidance.",
+ "sections": [
+  {
+   "title": "The First Druid",
+   "body": "Ten thousand years ago, before the Great Sundering shattered ancient Kalimdor, Malfurion studied under the demigod Cenarius. While Queen Azshara and her Highborne caste delved dangerously into the arcane energies of the Well of Eternity, Malfurion turned toward the primal forces of nature, becoming Azeroth's first mortal druid. His suspicions regarding the Highborne proved tragically correct when Azshara's reckless sorcery pierced the veil and summoned Sargeras and the Burning Legion into Azeroth, igniting the catastrophic War of the Ancients.",
+   "spoiler": 0
+  },
+  {
+   "title": "Savior of Kalimdor",
+   "body": "Alongside Cenarius, Tyrande Whisperwind, and his twin brother Illidan, Malfurion spearheaded the resistance that halted the demon onslaught and closed the portal over the Well of Eternity. Following the world's shattering, Malfurion committed the druids to the Emerald Dream to rebuild and protect Azeroth's living tapestry. Ten millennia later, Tyrande awakened him from his long barrow sleep to confront Archimonde during the Third War, where he rallied the forest spirits at Mount Hyjal to shatter the Burning Legion once more.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lost to the Dream",
+   "body": "Following the Third War, Malfurion returned to his slumber within the Moonglade to commune with the Emerald Dream and replenish his spent power. However, his spirit has failed to return to his physical body, plunging him into an unnatural, comatose state. In Darnassus, Archdruid Fandral Staghelm has assumed the temporal duties of leadership among the Cenarion Circle, while Tyrande and the sisterhood watch anxiously for signs of their great Shan'do's waking.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Malfurion Stormrage right now?",
+   "aliases": [
+    "where is malfurion",
+    "where to find malfurion",
+    "malfurion location",
+    "is malfurion in game"
+   ],
+   "answer": "Malfurion is physically asleep in the barrow dens of Moonglade, while his consciousness remains trapped deep within the spirit realm of the Emerald Dream. He cannot be visited as an active NPC in Darnassus, as his body lies comatose and inaccessible to most adventurers."
+  },
+  {
+   "q": "Why is Malfurion asleep?",
+   "aliases": [
+    "why is malfurion sleeping",
+    "why is he comatose",
+    "what happened to malfurion"
+   ],
+   "answer": "Druids regularly hibernate within the Emerald Dream to commune with nature, sustain the world's flora and fauna, and restore their spiritual strength. Following the immense magical strain of defeating Archimonde at Mount Hyjal, Malfurion entered the Dream to recover, but an unnatural malaise has severed his spirit from his body."
+  },
+  {
+   "q": "Who rules the night elves while Malfurion sleeps?",
+   "aliases": [
+    "who leads night elves",
+    "who is the night elf leader",
+    "night elf ruler"
+   ],
+   "answer": "High Priestess Tyrande Whisperwind rules the kaldorei nation from the Temple of the Moon in Darnassus, leading the Sentinels and the Sisterhood of Elune. Meanwhile, the Cenarion Circle and druidic affairs are overseen by Archdruid Fandral Staghelm."
+  },
+  {
+   "q": "What does 'Shan'do' mean?",
+   "aliases": [
+    "shando meaning",
+    "what is shando",
+    "shan'do"
+   ],
+   "answer": "In Darnassian, 'Shan'do' translates to 'honored teacher.' It is a title of supreme reverence reserved for master druids, most notably Malfurion Stormrage, who first brought druidism to mortal races under the tutelage of Cenarius."
+  },
+  {
+   "q": "Who is Malfurion's brother?",
+   "aliases": [
+    "malfurion brother",
+    "who is illidan to malfurion",
+    "stormrage brothers"
+   ],
+   "answer": "Malfurion's twin brother is Illidan Stormrage. Despite their shared youth in Suramar, Illidan's obsession with arcane magic and reckless pursuit of demonic power caused a bitter rift between them during the War of the Ancients, leading Malfurion to imprison him for millennia."
+  },
+  {
+   "q": "What did Malfurion do at the Battle of Mount Hyjal?",
+   "aliases": [
+    "malfurion hyjal",
+    "battle of mount hyjal malfurion",
+    "how did malfurion defeat archimonde"
+   ],
+   "answer": "During the climax of the Third War, Malfurion blew the Horn of Cenarius at the World Tree Nordrassil, calling forth thousands of ancestral forest spirits (wisps). These spirits swarmed the demon lord Archimonde and detonated, destroying the demon and immolating the World Tree to save Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Every druid traces their teachings back to Malfurion, who learned directly from Cenarius. His absence in the Emerald Dream casts a heavy shadow over the Cenarion Circle."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Malfurion is revered as the ancient protector and savior of your people, though his continued slumber leaves governance entirely to Tyrande and Archdruid Fandral Staghelm."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Malfurion is the beloved partner of High Priestess Tyrande Whisperwind, uniting the spiritual devotion of Elune with the sacred guardianship of nature."
+  }
+ ],
+ "keywords": [
+  "archdruid",
+  "cenarius",
+  "emerald dream",
+  "furion",
+  "hyjal",
+  "illidan",
+  "malfurion",
+  "shan'do",
+  "stormrage",
+  "tyrande"
+ ],
+ "related": [
+  "npc:tyrande-whisperwind",
+  "topic:cenarius",
+  "topic:emerald-dream",
+  "topic:shan-do",
+  "topic:druid",
+  "topic:war-of-the-ancients",
+  "topic:third-war",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "Malfurion Stormrage"
+ ]
+}

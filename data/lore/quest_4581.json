@@ -1,0 +1,124 @@
+{
+ "key": "quest:4581",
+ "type": "quest",
+ "name": "Kayneth Stillwind",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   4581
+  ],
+  "level": "29",
+  "faction": "Alliance",
+  "start": "Shindrell Swiftfire",
+  "end": "Kayneth Stillwind",
+  "previous": null,
+  "next": null,
+  "wiki": "Kayneth Stillwind (quest)",
+  "chain": []
+ },
+ "summary": "This quest sends an Alliance courier from Astranaar eastward to the ancient outpost of Forest Song. Carrying a scouting missive from Sentinel Shindrell Swiftfire, travelers seek out the druid Kayneth Stillwind to help him monitor the spread of corruption across the ancient woods.",
+ "sections": [
+  {
+   "title": "A Dispatch to the East",
+   "body": "In the town of Astranaar, Sentinel Shindrell Swiftfire stands watch over the western half of the forest. Word reaches her from the druid Kayneth Stillwind, stationed far out in Forest Song near the eastern reaches of Ashenvale. Deeply concerned by shifting wildlife behaviors and dark omens stirring along the coasts and woodlands, Kayneth requested a formal appraisal of the region's security. Swiftfire drafts her observations into a sealed note, trusting an able-bodied traveler to convey the dispatch safely across the treacherous central forest.",
+   "spoiler": 0
+  },
+  {
+   "title": "Watchers at Forest Song",
+   "body": "Reaching Forest Song requires enduring the wilderness of Nightsong Woods, an area threatened by encroaching satyrs, hostile wildlife, and Horde excursions from the south. At the shrine of Forest Song, Kayneth Stillwind studies the delicate balance of Ashenvale's natural spirits. Reading Swiftfire's reconnaissance confirms his grim suspicions: the tainted influence creeping through the forest is neither isolated nor fleeting, and the druids will require further aid to confront the wickedness taking root.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Kayneth Stillwind located?",
+   "aliases": [
+    "where is kayneth",
+    "kayneth stillwind location",
+    "find kayneth stillwind"
+   ],
+   "answer": "Kayneth Stillwind can be found at Forest Song, a tranquil night elven sanctuary situated in the Nightsong Woods on the far eastern side of Ashenvale, north of the main road."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts kayneth stillwind",
+    "where do i start"
+   ],
+   "answer": "The quest is offered by Sentinel Shindrell Swiftfire, who is stationed at the night elf settlement of Astranaar in western Ashenvale."
+  },
+  {
+   "q": "What is in Shindrell's Note?",
+   "aliases": [
+    "shindrell's note contents",
+    "what did shindrell write",
+    "shindrell note"
+   ],
+   "answer": "The note contains a detailed security dispatch detailing occurrences along Ashenvale's western coast and around the Astranaar woodlands, written to help Kayneth Stillwind investigate unnatural corruption in the forest."
+  },
+  {
+   "q": "Why is Kayneth Stillwind investigating the forest?",
+   "aliases": [
+    "why does kayneth care",
+    "kayneth stillwind motive",
+    "druid corruption"
+   ],
+   "answer": "As a druid, Kayneth strives to uphold the natural balance. He fears a dark, pervasive wickedness is spreading through Ashenvale and needs field reports from the Sentinels to track where it is taking hold."
+  },
+  {
+   "q": "Is Forest Song safe for Alliance travelers?",
+   "aliases": [
+    "is forest song safe",
+    "alliance town forest song",
+    "forest song guards"
+   ],
+   "answer": "Forest Song itself is a peaceful Alliance refuge with friendly sentinels and druids. However, the surrounding Nightsong Woods are filled with hostile beasts and corrupted satyrs, making the road to reach it hazardous."
+  },
+  {
+   "q": "What happens after delivering the note?",
+   "aliases": [
+    "what comes next",
+    "follow up quest",
+    "kayneth continuation"
+   ],
+   "answer": "After reviewing Shindrell's report, Kayneth Stillwind looks into the specific nature of the forest's corruption and enlists travelers to take direct action against the blighted forces endangering the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids, assisting Kayneth Stillwind is a fundamental calling, directly supporting the Cenarion Circle's ongoing struggle to heal Ashenvale from spreading demonic and elemental blights."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Sentinels and kaldorei wayfarers share a duty to keep lines of communication open between key bastions like Astranaar and distant holdings like Forest Song."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Traversing from central Ashenvale to eastern Nightsong Woods is essential for establishing stable communication and defense against both wilderness threats and Horde encroachment."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "corruption",
+  "druid",
+  "forest song",
+  "kayneth stillwind",
+  "nightsong woods",
+  "shindrell swiftfire"
+ ],
+ "related": [
+  "npc:shindrell-swiftfire",
+  "subzone:forest-song",
+  "subzone:astranaar",
+  "subzone:nightsong-woods",
+  "zone:ashenvale",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Kayneth Stillwind (quest)"
+ ]
+}

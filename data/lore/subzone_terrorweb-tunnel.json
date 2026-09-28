@@ -1,0 +1,79 @@
+{
+ "key": "subzone:terrorweb-tunnel",
+ "type": "subzone",
+ "name": "Terrorweb Tunnel",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Terrorweb Tunnel"
+ },
+ "summary": "Terrorweb Tunnel is a subterranean passage carving through the mountains between Terrordale and the Thondroril River. Infested with the Scourge's undead nerubian crypt fiends, it forms a hazardous subterranean shortcut across the western border of the Eastern Plaguelands.",
+ "sections": [
+  {
+   "title": "A Subterranean Infestation",
+   "body": "Bored straight through the mountains flanking the Thondroril River, the Terrorweb Tunnel links the contaminated village of Terrordale with the riverbanks to the south. Rather than typical ghouls or skeletal sentries, this dark subterranean bypass is claimed entirely by crypt fiends\u2014mummified nerubian arachnids raised into servitude by the Lich King. Traveling the length of the passage cuts out long circuits around the mountain slopes, but requires navigating thick webs and avoiding towering nerubian overseers that patrol the dark.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Terrorweb Tunnel lead?",
+   "aliases": [
+    "terrorweb tunnel path",
+    "where does terrorweb go",
+    "terrorweb connections"
+   ],
+   "answer": "The tunnel cuts directly through the mountain range northwest of Terrordale. Its northern entrance opens into Terrordale, while its southern mouth exits onto the rocky banks overlooking the Thondroril River."
+  },
+  {
+   "q": "What creatures inhabit the tunnel?",
+   "aliases": [
+    "terrorweb mobs",
+    "who lives in terrorweb tunnel",
+    "terrorweb tunnel monsters"
+   ],
+   "answer": "The tunnel is swarming with crypt fiends, the undead nerubian spider-lords of ancient Northrend raised into the Scourge. Among their ranks, formidable Nerubian Overseers occasionally stalk the tunnels, making travel exceptionally dangerous."
+  },
+  {
+   "q": "Who is nearby outside the tunnel?",
+   "aliases": [
+    "who is outside terrorweb",
+    "tirion near terrorweb",
+    "npc near terrorweb tunnel"
+   ],
+   "answer": "The exiled paladin Tirion Fordring maintains a modest campsite along the Thondroril River, just near the southern mouth of the tunnel."
+  },
+  {
+   "q": "Why are nerubians in the Plaguelands?",
+   "aliases": [
+    "why crypt fiends here",
+    "nerubians in plaguelands"
+   ],
+   "answer": "After the Lich King conquered the subterranean kingdom of Azjol-Nerub in Northrend, he reanimated fallen nerubians as crypt fiends. When the Scourge invaded Lordaeron, these arachnid shock troops were deployed south to enforce the Cult of the Damned's grip on the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The tunnel's southern mouth sits just steps from the exiled Highlord Tirion Fordring, whose presence near this festering hive serves as a solitary watch against the Scourge's creeping spread."
+  }
+ ],
+ "keywords": [
+  "crypt fiends",
+  "nerubian",
+  "nerubian overseer",
+  "terrordale",
+  "terrorweb tunnel",
+  "thondroril river",
+  "tirion fordring"
+ ],
+ "related": [
+  "subzone:terrordale",
+  "subzone:thondroril-river",
+  "npc:tirion-fordring",
+  "zone:easternplaguelands"
+ ],
+ "attribution": [
+  "Terrorweb Tunnel"
+ ]
+}

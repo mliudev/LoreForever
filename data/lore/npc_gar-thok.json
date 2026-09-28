@@ -1,0 +1,123 @@
+{
+ "key": "npc:gar-thok",
+ "type": "npc",
+ "name": "Gar'Thok",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Gar'Thok",
+  "refs": 4
+ },
+ "summary": "Gar'Thok is a veteran orc warrior and outpost commander stationed at Razor Hill in Durotar. Having fought at Mount Hyjal and survived the initial Kul Tiras landings on Durotar's coast, he now coordinates local defense against human encroachers and native threats. He directs young Horde recruits stepping out of the Valley of Trials to secure the red wastes of the new homeland.",
+ "sections": [
+  {
+   "title": "A Veteran of the Red Wastes",
+   "body": "Before settling in Razor Hill, Gar'Thok defended the orc encampment during the apocalyptic Battle of Mount Hyjal. Following the Third War, he marched to Durotar under Warchief Thrall and served as a lieutenant under Nazgrel during the earliest days of building the new homeland. When the Mok'Nathal wanderer Rexxar first arrived in Durotar, it was Gar'Thok who alerted him to the aggressive quilboar raiding their perimeter, enlisting the beastmaster to safeguard the fragile new settlement.",
+   "spoiler": 0
+  },
+  {
+   "title": "Surviving the Admiral's Invasion",
+   "body": "Gar'Thok's resolve was tested when Grand Admiral Daelin Proudmoore's Kul Tiras fleet landed along the eastern shores of Durotar. Stationed at an outlying watch post, Gar'Thok witnessed his garrison overwhelmed and brutally slaughtered by naval marines. Though his forces were decimated, Gar'Thok survived the onslaught. The memory of that surprise assault cemented his vigilance against the surviving marines who still occupy Tiragarde Keep and the coastal shipwrecks.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defense of Razor Hill",
+   "body": "Today, Gar'Thok oversees the martial defense of central Durotar from the barracks of Razor Hill. He wastes no time with pleasantries, immediately tasking emerging Horde warriors, shamans, and scouts with clearing out hostile Kul Tiran remnants, repossessing salvaged supplies, and recovering military orders left in the coastal ruins. To him, the safety of Durotar is far from guaranteed, requiring constant pressure against any who question the Horde's right to this soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gar'Thok?",
+   "aliases": [
+    "garthok lore",
+    "who is garthok",
+    "razor hill commander"
+   ],
+   "answer": "Gar'Thok is an orc officer stationed in Razor Hill who organizes the local military response against hostile forces in Durotar. He is a veteran of the Third War who served under Nazgrel during the founding of Orgrimmar."
+  },
+  {
+   "q": "Where did Gar'Thok fight before coming to Razor Hill?",
+   "aliases": [
+    "garthok past",
+    "garthok mount hyjal",
+    "garthok history"
+   ],
+   "answer": "He fought at the Battle of Mount Hyjal, guarding the orc fortifications against the Burning Legion and the Scourge. Later, he served at a frontier outpost in Durotar, working with Rexxar to quell early quilboar raids."
+  },
+  {
+   "q": "Why does Gar'Thok hate the humans in Durotar so much?",
+   "aliases": [
+    "why garthok hates kul tiras",
+    "garthok humans",
+    "tiragarde keep garthok"
+   ],
+   "answer": "During the invasion led by Grand Admiral Daelin Proudmoore, sailors from Kul Tiras ambushed Gar'Thok's outpost on the coast, butchering his men. He survived the assault and remains dedicated to eradicating the remaining marine encampments."
+  },
+  {
+   "q": "What threats does Gar'Thok send adventurers to fight?",
+   "aliases": [
+    "garthok quests",
+    "what does garthok want",
+    "razor hill quests"
+   ],
+   "answer": "Gar'Thok sends recruits to fight the hostile Kul Tiran sailors entrenched at Tiragarde Keep, reclaim supplies from coastal shipwrecks, push back invading quilboar, and uncover any orders left behind by human commanders."
+  },
+  {
+   "q": "What is his relationship with Nazgrel and Thrall?",
+   "aliases": [
+    "garthok nazgrel",
+    "garthok thrall",
+    "garthok rank"
+   ],
+   "answer": "Gar'Thok served as a trusted lieutenant under Nazgrel during the initial colonizing expeditions in Durotar, operating directly under the authority of Warchief Thrall to secure the borders of the newly claimed territory."
+  },
+  {
+   "q": "Where can Gar'Thok be found?",
+   "aliases": [
+    "garthok location",
+    "where is garthok",
+    "find garthok"
+   ],
+   "answer": "Gar'Thok stands outside the main watchtower and barracks in Razor Hill, the central settlement of Durotar located south of Orgrimmar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "For young orcs leaving the Valley of Trials, Gar'Thok represents the stern, unyielding discipline of the veteran generation that bled at Mount Hyjal to win Durotar."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Gar'Thok ensures that fresh recruits of all Horde races understand the precariousness of their new territory, directing them to repel invasive Alliance remnants."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "As a frontline commander who survived both demonic legions and brutal naval ambushes, Gar'Thok expects martial fortitude and unhesitating obedience from fellow warriors."
+  }
+ ],
+ "keywords": [
+  "daelin",
+  "durotar",
+  "gar'thok",
+  "garthok",
+  "kul tiras",
+  "nazgrel",
+  "razor hill",
+  "rexxar",
+  "tiragarde"
+ ],
+ "related": [
+  "subzone:razor-hill",
+  "zone:durotar",
+  "topic:kul-tiras",
+  "quest:784",
+  "quest:830",
+  "quest:825",
+  "topic:quilboar",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Gar'Thok"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:apothecarium",
+ "type": "subzone",
+ "name": "Apothecarium",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Apothecarium"
+ },
+ "summary": "The Apothecarium is the southwestern quarter of the Undercity and the headquarters of the Royal Apothecary Society. Within these noxious laboratories, Forsaken alchemists labor tirelessly under Master Apothecary Faranell to concoct virulent plagues, toxins, and engineered horrors. It stands as the grim heart of Undercity's biological research, vital to Lady Sylvanas's campaign against the living and the Scourge.",
+ "sections": [
+  {
+   "title": "Chamber of Horrors",
+   "body": "Occupying the southwestern terrace of the subterranean capital, the Apothecarium is a labyrinth of bubbling vats, dissection tables, and pungent chemical fumes. Led by Master Apothecary Faranell, the Royal Apothecary Society utilizes this district to advance their understanding of mortality and rot. Here, alchemists and surgeons experiment on tissue grafts, vivisection, and the assembly of mighty abominations. Their overriding purpose, mandated by Lady Sylvanas Windrunner, is the formulation of a new plague capable of eradicating both the Scourge and the lingering human presence across Lordaeron.",
+   "spoiler": 0
+  },
+  {
+   "title": "Center of Forsaken Alchemy",
+   "body": "Beyond grand military ambitions, the quarter serves as the premier center of practical alchemy and herbalism for the Horde in the Eastern Kingdoms. Initiates and masters alike gather beside toxic canals to distill concoctions, study botanical blights, and consult master practitioners. The Society also uses these halls to train battlefield medics in the gruesome science of organ transplantation and corpse suturing, ensuring Forsaken shock troops and patchwork constructs remain functional on the front lines.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Apothecarium used for?",
+   "aliases": [
+    "apothecarium purpose",
+    "what happens here",
+    "why does the apothecarium exist"
+   ],
+   "answer": "The Apothecarium serves as the research and manufacturing wing for the Royal Apothecary Society. It is where Forsaken alchemists brew experimental poisons, refine the New Plague, construct abominations, and instruct practitioners in alchemy and herbalism."
+  },
+  {
+   "q": "Who leads the Apothecarium?",
+   "aliases": [
+    "apothecarium leader",
+    "who runs the apothecarium",
+    "faranell undercity"
+   ],
+   "answer": "The district and its researchers are led by Master Apothecary Faranell, the chief scientist of the Royal Apothecary Society, operating with the full authority and patronage of Queen Sylvanas Windrunner."
+  },
+  {
+   "q": "What is the Royal Apothecary Society trying to create?",
+   "aliases": [
+    "forsaken plague research",
+    "new plague undercity",
+    "what are they brewing"
+   ],
+   "answer": "Their primary endeavor is cultivating a lethal New Plague engineered to annihilate both the Scourge forces of the Lich King and any living human resistance contesting Forsaken territory in Lordaeron."
+  },
+  {
+   "q": "Can players learn professions here?",
+   "aliases": [
+    "apothecarium trainers",
+    "alchemy in undercity",
+    "undercity herbalism trainer"
+   ],
+   "answer": "Yes. The district is the capital's main hub for alchemists and herbalists, hosting advanced profession trainers along its walkways and chambers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, the Apothecarium is the forge of their survival, producing the chemical and stitched weapons essential to holding Lordaeron against overwhelming enemies."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Botanists supply the foul distillers of the Royal Apothecary Society with rare, blighted flora gathered from the ruins of the northern kingdoms."
+  }
+ ],
+ "keywords": [
+  "abominations",
+  "alchemy",
+  "apothecarium",
+  "faranell",
+  "new plague",
+  "royal apothecary society",
+  "sylvanas",
+  "undercity"
+ ],
+ "related": [
+  "topic:royal-apothecary-society",
+  "npc:master-apothecary-faranell",
+  "zone:undercity",
+  "npc:sylvanas-windrunner",
+  "quest:447",
+  "topic:forsaken",
+  "topic:lordaeron",
+  "quest:445"
+ ],
+ "attribution": [
+  "Apothecarium"
+ ]
+}

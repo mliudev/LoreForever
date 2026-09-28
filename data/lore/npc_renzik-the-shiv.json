@@ -1,0 +1,119 @@
+{
+ "key": "npc:renzik-the-shiv",
+ "type": "npc",
+ "name": "Renzik \"The Shiv\"",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Renzik \"The Shiv\"",
+  "refs": 3
+ },
+ "summary": "Renzik \"The Shiv\" is a goblin operative and the trusted second-in-command of SI:7, stationed inside their headquarters in Stormwind City's Old Town. Despite his rough origins as an enforcer in Undermine, he serves Spymaster Mathias Shaw faithfully, directing new rogue recruits and handling covert operations where typical Alliance agents cannot tread.",
+ "sections": [
+  {
+   "title": "From Undermine Enforcer to Alliance Spy",
+   "body": "Born in the subterranean goblin metropolis of Undermine beneath Kezan, Renzik grew up on ruthless streets after his parents were murdered. Relying on an improvised shiv and sharp instincts, he eventually rose to become the chief enforcer for Trade Prince Mozzy Gloxscorn of the Krackslagger Cartel. Known as Mozzy's \"Bloody Fist,\" Renzik broke heads and settled cartel scores, yet he grew disillusioned with the cruelty of cartel rule. A fateful clash in Undermine with Stormwind spymaster Mathias Shaw revealed another way forward. Shaw offered him an escape and an invite to Stormwind, which Renzik eventually accepted.",
+   "spoiler": 0
+  },
+  {
+   "title": "Right Hand of Mathias Shaw",
+   "body": "Now based inside the secretive SI:7 fortress in Old Town, Renzik serves as Mathias Shaw's second-in-command. Because most intelligence agents are humans, dwarves, or gnomes who immediately stand out in Kalimdor, Renzik's goblin heritage makes him an indispensable asset for infiltrating Orgrimmar and other Horde-held territories. Rogue mentors across the Alliance\u2014from the Hidden Circle in Ironforge to shadow operatives in Darnassus\u2014send their most promising agents to Renzik. Rather than sending them straight to slaughter, Renzik forwards them to field instructors like Lucius in Redridge to hone their survival craft.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is a goblin working for Stormwind's SI:7?",
+   "aliases": [
+    "why is renzik alliance",
+    "goblin in stormwind",
+    "why is there a goblin in si7"
+   ],
+   "answer": "Renzik grew disgusted by the cutthroat greed of the Undermine cartels after a run-in with Spymaster Mathias Shaw. Shaw offered him a coin and an open door in Stormwind. Renzik values the genuine respect and steady pay he earns among SI:7, taking pride in being respected rather than merely feared."
+  },
+  {
+   "q": "Why is he called 'The Shiv'?",
+   "aliases": [
+    "why the shiv",
+    "renzik nickname",
+    "renzik the shiv meaning"
+   ],
+   "answer": "He earned the title during his rough youth in Undermine, both for carrying an improvised blade for protection and for his natural ability to improvise lethal solutions out of tight spots."
+  },
+  {
+   "q": "What does Renzik do for player rogues?",
+   "aliases": [
+    "renzik rogue quest",
+    "what does renzik give",
+    "talk to renzik the shiv"
+   ],
+   "answer": "When Alliance rogues prove their competence, their trainers send them to Renzik in Stormwind. He acts as their intake handler for SI:7, dispatching recruits to specialized trainers like Lucius in the Redridge Mountains to ensure they have the fieldcraft to stay alive."
+  },
+  {
+   "q": "Where does Renzik usually operate?",
+   "aliases": [
+    "renzik location",
+    "where to find renzik",
+    "where is renzik"
+   ],
+   "answer": "He is stationed inside the SI:7 headquarters in Old Town, Stormwind City. In the broader scope of intelligence work, his goblin identity allows him to blend in and run espionage operations in places standard Alliance agents cannot go, such as Orgrimmar."
+  },
+  {
+   "q": "What was his past in Kezan?",
+   "aliases": [
+    "renzik backstory",
+    "renzik undermind",
+    "renzik krackslagger"
+   ],
+   "answer": "Before coming to Stormwind, Renzik was the right hand and head enforcer of Trade Prince Mozzy Gloxscorn in the Krackslagger Cartel. He was known across Undermine for brutal efficiency, though he secretly harbored sympathy for the city's street orphans."
+  },
+  {
+   "q": "Does Renzik maintain ties outside Stormwind?",
+   "aliases": [
+    "renzik network",
+    "renzik connections",
+    "renzik allies"
+   ],
+   "answer": "Yes. Within the Alliance intelligence network, he coordinates with rogue contacts including the dwarven Hidden Circle in Ironforge and night elf operatives based in Darnassus, integrating shadow networks across both continents."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "For an Alliance rogue, Renzik is your bridge from street-level knifework into the high-stakes intelligence network of SI:7, weeding out the reckless before sending you to Lucius in Redridge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though a goblin, Renzik is one of Stormwind's most capable intelligence officers, managing operations in hostile territories where human spies would be caught on sight."
+  },
+  {
+   "target": "race:Human",
+   "text": "Standing beside Spymaster Shaw in Old Town, Renzik is a rare goblin fixture in the kingdom's military elite, proving that loyalty and competence outweigh race in the shadow wars."
+  }
+ ],
+ "keywords": [
+  "goblin",
+  "lucius",
+  "mathias shaw",
+  "old town",
+  "renzik",
+  "rogue",
+  "si:7",
+  "stormwind",
+  "the shiv",
+  "undermine"
+ ],
+ "related": [
+  "npc:mathias-shaw",
+  "quest:2300",
+  "quest:2260",
+  "subzone:old-town",
+  "zone:stormwind",
+  "npc:lucius",
+  "topic:goblin",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Renzik \"The Shiv\""
+ ]
+}

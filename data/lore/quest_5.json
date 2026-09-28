@@ -1,0 +1,124 @@
+{
+ "key": "quest:5",
+ "type": "quest",
+ "name": "Jitters' Growling Gut",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   5
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Jitters",
+  "end": "Chef Grual",
+  "previous": null,
+  "next": "Dusky Crab Cakes (Classic)",
+  "wiki": "Jitters' Growling Gut",
+  "chain": [
+   "Jitters' Growling Gut",
+   "Dusky Crab Cakes (Classic)",
+   "Return to Jitters"
+  ]
+ },
+ "summary": "Stranded and terrified in the ruins of Raven Hill, the paranoid vagrant Jitters is desperate for real sustenance after subsisting on weeds and insects. He begs passing adventurers to travel east to Darkshire and convince Chef Grual to prepare a hot batch of his famous Dusky Crab Cakes.",
+ "sections": [
+  {
+   "title": "Starving in Raven Hill",
+   "body": "Raven Hill has become a den of ravenous undead and lurking beasts, leaving the eccentric hermit Jitters trapped in hiding for weeks. Prowling through dilapidated shanties under perpetual gloom, he has survived solely on dirt-dwelling grubs and wild weeds. Starved of civilized comfort, his nerves and stomach are pushed to their absolute limits.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Plea for Crab Cakes",
+   "body": "Desperate for any reminder of safety, Jitters dreams of the seasoned seafood patties crafted at the Scarlet Raven Tavern in Darkshire. He sends travelers across the haunted road to seek out Chef Grual, hoping Grual will agree to whip up a batch of Dusky Crab Cakes to quiet his violently growling gut.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jitters?",
+   "aliases": [
+    "jitters",
+    "who is jitters",
+    "where is jitters"
+   ],
+   "answer": "Jitters is a frightened, paranoid man hiding out in the ruined township of Raven Hill in western Duskwood. He is terrified of the undead infestation and constantly lives in fear of starvation and slaughter."
+  },
+  {
+   "q": "Where can I find Chef Grual?",
+   "aliases": [
+    "chef grual location",
+    "find grual",
+    "scarlet raven chef"
+   ],
+   "answer": "Chef Grual works in the kitchen of the Scarlet Raven Tavern, located in the town of Darkshire along the eastern side of Duskwood."
+  },
+  {
+   "q": "Why is Jitters eating grubs?",
+   "aliases": [
+    "jitters eating bugs",
+    "why eats grubs",
+    "raven hill food"
+   ],
+   "answer": "Cut off from civilization by hordes of roaming undead and predatory worgen, Jitters has spent weeks pinned down in the ruined town of Raven Hill with no access to provisions other than whatever insects and foliage he can scavenge."
+  },
+  {
+   "q": "What dish does Jitters want?",
+   "aliases": [
+    "jitters food",
+    "crab cakes quest",
+    "what does jitters want to eat"
+   ],
+   "answer": "Jitters craves Dusky Crab Cakes, a regional specialty prepared by Chef Grual at the Scarlet Raven Tavern using coastal ingredients."
+  },
+  {
+   "q": "What happens after speaking with Chef Grual?",
+   "aliases": [
+    "after jitters growling gut",
+    "next quest jitters gut",
+    "chef grual task"
+   ],
+   "answer": "Chef Grual is willing to cook the meal for Jitters, but he lacks fresh ingredients, tasking the adventurer with gathering gooey spider legs to prepare the Dusky Crab Cakes."
+  },
+  {
+   "q": "Can Horde players complete this quest?",
+   "aliases": [
+    "is jitters alliance only",
+    "horde jitters growling gut"
+   ],
+   "answer": "No. Both Jitters and the town of Darkshire align with the Alliance, making this errand exclusive to Alliance adventurers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Chef Grual's renowned Dusky Crab Cakes showcase how frontier culinary masters make do with local, exotic ingredients when regular shipments fail to reach Duskwood."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Lending aid to Jitters connects travelers with the fragile, struggling settlements and survivors clinging to life in the shadowed corners of Duskwood."
+  }
+ ],
+ "keywords": [
+  "chef grual",
+  "crab cakes",
+  "darkshire",
+  "growling gut",
+  "jitters",
+  "raven hill",
+  "scarlet raven tavern"
+ ],
+ "related": [
+  "npc:jitters",
+  "npc:chef-grual",
+  "quest:93",
+  "quest:240",
+  "subzone:scarlet-raven-tavern",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "npc:grub"
+ ],
+ "attribution": [
+  "Jitters' Growling Gut"
+ ]
+}

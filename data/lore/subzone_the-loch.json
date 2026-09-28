@@ -1,0 +1,90 @@
+{
+ "key": "subzone:the-loch",
+ "type": "subzone",
+ "name": "The Loch",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "The Loch"
+ },
+ "summary": "The Loch is the vast freshwater lake that dominates the valley of Loch Modan. Held back by the monumental Stonewrought Dam, it is the largest body of water on Khaz Modan and the lifeblood of the surrounding dwarven settlements.",
+ "sections": [
+  {
+   "title": "Heart of the Valley",
+   "body": "Spanning the center of Loch Modan, The Loch is among the largest inland lakes in the known world, rivaled only by Lordamere Lake and Darrowmere Lake in the north. Its waters support local fishermen and provide a peaceful backdrop for the town of Thelsamar and nearby hunting lodges. Beneath its calm surface, however, prowl aggressive threshadons and freshwater beasts that make swimming across a perilous venture.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Stonewrought Barrier",
+   "body": "The Loch exists in its current tranquil state thanks to masterwork dwarven engineering. To the north stands the massive Stonewrought Dam, an architectural marvel built across the mountain cleft to prevent the lake from flooding out into the Wetlands below. Maintaining this colossal structure is essential to preserving the valley's ecosystem and keeping Khaz Modan secure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is The Loch?",
+   "aliases": [
+    "the loch lore",
+    "what is the loch lake",
+    "loch modan lake"
+   ],
+   "answer": "The Loch is the massive mountain lake that fills the center of the Loch Modan valley in Khaz Modan. It is one of the largest bodies of freshwater in the world and defines the geography and livelihood of the local dwarves."
+  },
+  {
+   "q": "How does the lake stay full?",
+   "aliases": [
+    "why doesn't the loch drain",
+    "what holds the loch back",
+    "stonewrought dam purpose"
+   ],
+   "answer": "The lake is contained to the north by the Stonewrought Dam, a towering dwarven construction. The dam holds back countless gallons of water that would otherwise spill down through the mountain pass into the low-lying Wetlands."
+  },
+  {
+   "q": "Is it safe to swim in The Loch?",
+   "aliases": [
+    "loch monsters",
+    "swimming the loch",
+    "creatures in the loch"
+   ],
+   "answer": "Not entirely. While local fishermen dot the shores and piers, deeper waters are home to predatory threshadons and snapping beasts that frequently attack unwary travelers venturing far from land."
+  },
+  {
+   "q": "How large is The Loch compared to other lakes?",
+   "aliases": [
+    "biggest lake",
+    "the loch size comparison",
+    "how big is the loch"
+   ],
+   "answer": "It is the largest body of water on the continent of Khaz Modan and the third largest known lake in the Eastern Kingdoms, behind only Lordamere Lake and Darrowmere Lake in Lordaeron."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The Loch is a centerpiece of Ironforge pride, demonstrating how dwarven masonry and the Stonewrought Dam can tame nature to sustain settlements like Thelsamar."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The tranquil waters of The Loch provide vital freshwater and trade routes between Ironforge's central valley and the surrounding outposts."
+  }
+ ],
+ "keywords": [
+  "khaz modan",
+  "lake",
+  "loch modan",
+  "stonewrought dam",
+  "the loch",
+  "thelsamar",
+  "threshadon",
+  "wetlands"
+ ],
+ "related": [
+  "zone:lochmodan",
+  "subzone:stonewrought-dam",
+  "zone:wetlands",
+  "subzone:darrowmere-lake"
+ ],
+ "attribution": [
+  "The Loch"
+ ]
+}

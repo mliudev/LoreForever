@@ -1,0 +1,125 @@
+{
+ "key": "quest:6541",
+ "type": "quest",
+ "name": "Report to Kadrak",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   6541
+  ],
+  "level": "19",
+  "faction": "Horde",
+  "start": "Thork",
+  "end": "Kadrak",
+  "previous": null,
+  "next": "The Warsong Reports",
+  "wiki": "Report to Kadrak (Barrens)",
+  "chain": [
+   "Report to Kadrak (Barrens)",
+   "Report to Kadrak (Stonetalon Mountains)",
+   "The Warsong Reports"
+  ]
+ },
+ "summary": "Thork at the Crossroads directs able Horde fighters north to Kadrak's watch tower near the Ashenvale border. Kadrak coordinates the Horde's expansion into the ancient forest and prepares incoming recruits for the ongoing skirmishes ahead.",
+ "sections": [
+  {
+   "title": "The Road North",
+   "body": "While the Crossroads deals with quillboar, centaur, and local brigands, the Horde's broader territorial interests look north toward the thick forests of Ashenvale. Thork acts as an intermediary, directing seasoned fighters who have proven themselves in the central Barrens toward the northern border tower manned by Kadrak.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontier Strategy",
+   "body": "Kadrak oversees the southern approach to Ashenvale, organizing reinforcements for the Horde's foothold across the border. With new encampments like Splintertree Post and the outpost along the Zoram Strand, the Horde is actively consolidating its presence in the timber-rich woodlands despite fierce resistance from the native night elves.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thork?",
+   "aliases": [
+    "thork crossroads",
+    "who gives report to kadrak",
+    "thork barrens"
+   ],
+   "answer": "Thork is an orc officer stationed at the Crossroads in the Barrens. He helps coordinate local defense efforts and marshals promising adventurers toward regional war efforts like the campaign in Ashenvale."
+  },
+  {
+   "q": "Where is Kadrak located?",
+   "aliases": [
+    "kadrak location",
+    "where is kadrak",
+    "kadrak watch tower"
+   ],
+   "answer": "Kadrak is stationed at the northern watch tower in the Barrens, right along the main road leading into the forest of Ashenvale."
+  },
+  {
+   "q": "Why is the Horde pushing into Ashenvale?",
+   "aliases": [
+    "why ashenvale",
+    "horde in ashenvale",
+    "ashenvale invasion"
+   ],
+   "answer": "The Horde requires lumber and resources to build their new cities in Durotar and the Barrens. Expanding into Ashenvale provides vital timber, though it places them in direct conflict with the night elves."
+  },
+  {
+   "q": "What outposts has the Horde established in Ashenvale?",
+   "aliases": [
+    "horde bases ashenvale",
+    "zoram strand base",
+    "splintertree"
+   ],
+   "answer": "Kadrak notes that the Horde has established Splintertree Post along the central road into the forest and another outpost further west along the Zoram Strand."
+  },
+  {
+   "q": "What comes after reporting to Kadrak?",
+   "aliases": [
+    "after kadrak",
+    "next quest after kadrak",
+    "what does kadrak give"
+   ],
+   "answer": "Once you report to Kadrak, he briefs you on the local military situation and assigns you to gather reports from the various Warsong outposts across Ashenvale."
+  },
+  {
+   "q": "Can you receive this assignment from anywhere other than the Barrens?",
+   "aliases": [
+    "alternate kadrak quest",
+    "stonetalon kadrak quest"
+   ],
+   "answer": "Yes. A nearly identical summons to report to Kadrak is issued to Horde fighters operating out of Malaka'jin in the Stonetalon Mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This dispatch marks the transition from defending settled territories in the Barrens to securing vital resource lifelines in the disputed forests to the north."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Ashenvale is a crucial proving ground for the orcs, securing the timber needed to fortify Orgrimmar and establish a lasting home on Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "barrens",
+  "crossroads",
+  "kadrak",
+  "splintertree",
+  "thork",
+  "watch tower",
+  "zoram strand"
+ ],
+ "related": [
+  "npc:kadrak",
+  "npc:thork",
+  "quest:6543",
+  "zone:barrens",
+  "zone:ashenvale",
+  "subzone:zoram-strand",
+  "topic:horde",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Report to Kadrak (Barrens)"
+ ]
+}

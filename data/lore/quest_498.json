@@ -1,0 +1,131 @@
+{
+ "key": "quest:498",
+ "type": "quest",
+ "name": "The Rescue",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   498
+  ],
+  "level": "22",
+  "faction": "Horde",
+  "start": "Krusk",
+  "end": "",
+  "previous": null,
+  "next": "Infiltration (Classic)",
+  "wiki": "The Rescue",
+  "chain": [
+   "The Rescue",
+   "Infiltration (Classic)",
+   "Gol'dir (quest)",
+   "Blackmoore's Legacy",
+   "Lord Aliden Perenolde (quest)",
+   "Taretha's Gift"
+  ]
+ },
+ "summary": "The Rescue is an early Horde quest initiated by Krusk in Tarren Mill, tasking heroes with infiltrating Durnholde Keep to liberate captured orc scouts. Thrall's handpicked scouts were ambushed while seeking a relic of the Warchief's past, leaving them captive to the ruthless human criminals of the Syndicate.",
+ "sections": [
+  {
+   "title": "A Scout Mission Gone Wrong",
+   "body": "Warchief Thrall sent a select detachment of orc warriors to the Hillsbrad Foothills with orders to quietly investigate the rising Syndicate threat and recover an item tied closely to Durnholde Keep's history. Under the leadership of Gol'dir, the scouting party approached the fortress ruins. However, the Syndicate's sheer numbers overwhelmed them in an ambush. While the warrior Krusk managed to break free and limp back across the river to Tarren Mill, his companions Drull, Tog'thar, and Gol'dir were taken alive into human chains.",
+   "spoiler": 0
+  },
+  {
+   "title": "Chains in the Ruins",
+   "body": "Durnholde holds bitter memories for the orcish people, having once served as the headquarters of Aedelas Blackmoore's internment camps where captive orcs were forced into lethargy and gladiatorial slavery. Finding their own warriors once again bound in iron within Durnholde's cracked stone walls is an unbearable insult to the Horde. To free Drull and Tog'thar, rescuers must confront the Syndicate jailors holding the keys to their shackles before uncovering what has become of their commanding scout, Gol'dir.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why were orcs sent into Durnholde Keep in the first place?",
+   "aliases": [
+    "why were they there",
+    "why durnholde",
+    "krusk mission"
+   ],
+   "answer": "Warchief Thrall dispatched Gol'dir and his scout cadre to investigate the Syndicate bandits and to secure an item from Durnholde's past that holds great personal significance to the Warchief."
+  },
+  {
+   "q": "Who are the captives being rescued?",
+   "aliases": [
+    "who is drull",
+    "who is togthar",
+    "who are the hostages"
+   ],
+   "answer": "Drull and Tog'thar are orcish scouts sent by the Horde under the command of Gol'dir. They were overwhelmed and placed in ball-and-chain bonds by Syndicate brigands inside the ruins."
+  },
+  {
+   "q": "Where is the squad's leader, Gol'dir?",
+   "aliases": [
+    "where is goldir",
+    "find goldir",
+    "what happened to goldir"
+   ],
+   "answer": "When Drull and Tog'thar are freed, Krusk discovers that their commander, Gol'dir, was separated from the main contingent and relocated by the Syndicate to an unknown second location."
+  },
+  {
+   "q": "Who is holding the scouts captive?",
+   "aliases": [
+    "who captured them",
+    "who are the jailors",
+    "who runs durnholde"
+   ],
+   "answer": "They are held by the Syndicate, an aristocratic criminal network operating out of the ruins of Lordaeron and Alterac, guarded directly by Syndicate jailors inside Durnholde."
+  },
+  {
+   "q": "Where does this quest chain lead?",
+   "aliases": [
+    "what comes next",
+    "after the rescue",
+    "rescue chain"
+   ],
+   "answer": "Freeing the scouts leads directly into a mission to track down and infiltrate the Syndicate to rescue Gol'dir, eventually uncovering Lord Aliden Perenolde's schemes and a token belonging to Taretha Foxton."
+  },
+  {
+   "q": "Why does Durnholde Keep hold special meaning to the Horde?",
+   "aliases": [
+    "history of durnholde",
+    "why horde cares about durnholde"
+   ],
+   "answer": "Durnholde was the fortress where Aedelas Blackmoore raised Thrall as a gladiator and commanded the Alliance internment camp system following the Second War until Thrall raised a rebellion and laid waste to the keep."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Seeing orc warriors bound in shackles within Durnholde Keep cuts straight to the painful history of internment, making the mission to free them deeply personal."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The mission marks an early push by the Horde to counter Syndicate expansion across the contested hills of Lordaeron."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Breaking fellow frontline fighters out of captivity reinforces martial brotherhood against dishonorable human bandits."
+  }
+ ],
+ "keywords": [
+  "drull",
+  "durnholde keep",
+  "gol'dir",
+  "hillsbrad",
+  "krusk",
+  "syndicate",
+  "tarren mill",
+  "tog'thar"
+ ],
+ "related": [
+  "npc:krusk",
+  "subzone:durnholde-keep",
+  "subzone:tarren-mill",
+  "topic:syndicate",
+  "quest:549",
+  "topic:horde",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "The Rescue"
+ ]
+}

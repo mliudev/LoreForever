@@ -1,0 +1,76 @@
+{
+ "key": "npc:innkeeper-keldamyr",
+ "type": "npc",
+ "name": "Innkeeper Keldamyr",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Innkeeper Keldamyr",
+  "refs": 1
+ },
+ "summary": "Innkeeper Keldamyr manages the hearth and lodgings of the central inn in Dolanaar, Teldrassil. He offers food, drink, and a resting place for young night elves venturing forth from Shadowglen into the wider boughs of the World Tree.",
+ "sections": [
+  {
+   "title": "Hearth of Dolanaar",
+   "body": "Dolanaar is the primary village newcomers reach after departing the sheltered glade of Aldrassil. Innkeeper Keldamyr maintains the community's central haven, providing bread, spring water, and soft beds beneath the canopy of Teldrassil. Travelers, sentinels, and young novices bound for Darnassus frequently pause at his counter to rest their spirits, secure their hearthstones, and stock rations for the journey through the boughs.",
+   "spoiler": 0
+  },
+  {
+   "title": "Town Deliveries",
+   "body": "Running an inn high within the branches requires steady supply lines from nearby settlements and tradesfolk. Local couriers often find themselves directed straight to Keldamyr's desk to drop off goods, linking him directly into the daily trade and logistics keeping the settlement of Dolanaar running smoothly.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Innkeeper Keldamyr?",
+   "aliases": [
+    "keldamyr location",
+    "where is keldamyr",
+    "dolanaar innkeeper location"
+   ],
+   "answer": "Keldamyr is located inside the main inn building at the heart of Dolanaar, the first major settlement south of Shadowglen on the boughs of Teldrassil."
+  },
+  {
+   "q": "What services does Innkeeper Keldamyr offer?",
+   "aliases": [
+    "keldamyr wares",
+    "what does keldamyr sell",
+    "dolanaar inn food"
+   ],
+   "answer": "He serves as the local innkeeper, meaning you can bind your Hearthstone to his hearth, purchase basic provisions such as water, milk, juice, and bread, or log out rested beneath his roof."
+  },
+  {
+   "q": "What quests involve Innkeeper Keldamyr?",
+   "aliases": [
+    "keldamyr quests",
+    "dolanaar delivery turn in"
+   ],
+   "answer": "He is the recipient of the local courier task 'Dolanaar Delivery,' receiving parcels meant for the upkeep and supply of the settlement's inn."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves freshly setting out from the training grounds of Shadowglen, Keldamyr's inn is usually the very first home away from home where they bind their hearthstones."
+  }
+ ],
+ "keywords": [
+  "dolanaar",
+  "hearthstone",
+  "inn",
+  "innkeeper",
+  "keldamyr",
+  "night elf",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "quest:2159",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Innkeeper Keldamyr"
+ ]
+}

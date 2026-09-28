@@ -1,0 +1,114 @@
+{
+ "key": "quest:8649",
+ "type": "quest",
+ "name": "Stormbrow the Elder",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   8649
+  ],
+  "level": "",
+  "faction": null,
+  "start": "Elder Stormbrow",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Stormbrow the Elder",
+  "chain": []
+ },
+ "summary": "Elder Stormbrow is one of the ancient spirits honored during the Lunar Festival, standing by the water near Goldshire. Travelers who seek out this elder pay homage to the ancient traditions and the olden races of Azeroth. In return for showing respect, the elder bestows a small token of remembrance.",
+ "sections": [
+  {
+   "title": "A Spirit in Goldshire",
+   "body": "Elder Stormbrow manifests near the tranquil pond tucked just behind the smithy in Goldshire. While the town usually bustles with armored guards, tradesfolk, and weary adventurers heading into the forest, the arrival of this honored spirit brings a quiet pause. Standing beneath the peaceful canopy of Elwynn Forest, Stormbrow welcomes anyone willing to honor the long history of the realm.",
+   "spoiler": 0
+  },
+  {
+   "title": "Honoring the Olden Races",
+   "body": "The Lunar Festival marks a time when the spirits of great ancestors return to walk among the living. Elder Stormbrow commends mortal travelers for taking the time to remember those who came before. In exchange for acknowledging the wisdom and legacy of the elder peoples, he grants his blessing and a commemorative coin to celebrate the season.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Elder Stormbrow?",
+   "aliases": [
+    "stormbrow location",
+    "where is elder stormbrow",
+    "goldshire elder"
+   ],
+   "answer": "Elder Stormbrow stands right by the pond situated directly behind the blacksmith's forge in Goldshire, within Elwynn Forest."
+  },
+  {
+   "q": "Who is Elder Stormbrow?",
+   "aliases": [
+    "who is stormbrow",
+    "stormbrow lore",
+    "elder stormbrow identity"
+   ],
+   "answer": "Elder Stormbrow is an ancestral spirit who appears during the Lunar Festival, representing the revered elders of the olden races of Azeroth."
+  },
+  {
+   "q": "What is the purpose of visiting Elder Stormbrow?",
+   "aliases": [
+    "why visit stormbrow",
+    "elder stormbrow quest",
+    "stormbrow the elder purpose"
+   ],
+   "answer": "Visiting Elder Stormbrow allows travelers to pay respects to the ancient ancestors during the festival. In return for honoring these traditions, he offers his greetings and a token of appreciation."
+  },
+  {
+   "q": "Can Horde players speak to Elder Stormbrow?",
+   "aliases": [
+    "horde stormbrow",
+    "can horde visit stormbrow"
+   ],
+   "answer": "While the Lunar Festival elders honor all who seek them out in peace, Goldshire is heavily guarded Alliance territory, making any visit by Horde travelers exceedingly perilous."
+  },
+  {
+   "q": "What token does the Elder offer?",
+   "aliases": [
+    "stormbrow reward",
+    "what token",
+    "lunar coin stormbrow"
+   ],
+   "answer": "Elder Stormbrow offers a Coin of Ancestry, a traditional token of respect and remembrance shared by elders throughout the festival."
+  },
+  {
+   "q": "Why does Stormbrow mention the 'olden races'?",
+   "aliases": [
+    "olden races meaning",
+    "why olden races",
+    "stormbrow dialogue"
+   ],
+   "answer": "Stormbrow commends travelers for remembering that the current civilizations walk upon lands shaped by ancient peoples and enduring customs long before the modern kingdoms arose."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans living in Elwynn, the presence of Elder Stormbrow serves as a reminder of ancient history beyond the walls and recent wars of Stormwind."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Resting right in the heart of Elwynn Forest, Elder Stormbrow is one of the most accessible ancestral spirits for young Alliance adventurers passing through Goldshire."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "elder stormbrow",
+  "elwynn forest",
+  "forge",
+  "goldshire",
+  "lunar festival",
+  "token"
+ ],
+ "related": [
+  "zone:elwynn",
+  "subzone:goldshire"
+ ],
+ "attribution": [
+  "Stormbrow the Elder"
+ ]
+}

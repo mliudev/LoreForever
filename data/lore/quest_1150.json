@@ -1,0 +1,122 @@
+{
+ "key": "quest:1150",
+ "type": "quest",
+ "name": "Test of Endurance",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1150
+  ],
+  "level": "29",
+  "faction": "Horde",
+  "start": "Dorn Plainstalker",
+  "end": "",
+  "previous": "Test of Faith (quest)",
+  "next": "Test of Strength",
+  "wiki": "Test of Endurance",
+  "chain": []
+ },
+ "summary": "The Test of Endurance is the second rite in a series of spiritual trials overseen by Dorn Plainstalker in Thousand Needles. Having already proven their courage of spirit, Horde adventurers are tasked with pushing their physical endurance to the limit by infiltrating Roguefeather Den and drawing out the fierce harpy leader, Grenka Bloodscreech.",
+ "sections": [
+  {
+   "title": "Testing the Body",
+   "body": "Dorn Plainstalker, dwelling at the Weathered Nook, takes it upon himself to temper young warriors before they venture into the wider, harsher world. Where the initial rite proved that a traveler possessed unshakable faith and steady nerve, this trial tests physical fortitude. In Dorn's philosophy, true readiness requires harmony between spiritual devotion, mental discipline, and the sheer stamina to survive sustained brutality.",
+   "spoiler": 0
+  },
+  {
+   "title": "Incursion into Roguefeather Den",
+   "body": "The chosen arena for this trial is Roguefeather Den, a treacherous cavern tucked within Screeching Canyon west of Freewind Post. Swarming with hostile harpies, the cave poses severe danger to solitary wanderers. To complete the trial, challengers must carve their way deep into the subterranean roost, sabotage the harpies' gathered provisions, and weather the flock's ferocious retaliation until the matriarch Grenka Bloodscreech herself takes the field.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the Test of Endurance?",
+   "aliases": [
+    "quest giver test of endurance",
+    "who starts test of endurance",
+    "dorn plainstalker quest"
+   ],
+   "answer": "The quest is offered by Dorn Plainstalker, an elder tauren stationed at the Weathered Nook in the canyon bluffs of Thousand Needles."
+  },
+  {
+   "q": "Where is Roguefeather Den located?",
+   "aliases": [
+    "roguefeather den location",
+    "where is harpy cave",
+    "screeching canyon ramp"
+   ],
+   "answer": "Roguefeather Den lies high along the southern canyon walls of Thousand Needles, west of Freewind Post. Travelers must ascend a winding path through Screeching Canyon to reach the cave entrance overlooking the salt plains."
+  },
+  {
+   "q": "How do you summon Grenka Bloodscreech?",
+   "aliases": [
+    "summon grenka",
+    "how to spawn grenka bloodscreech",
+    "find grenka"
+   ],
+   "answer": "Grenka Bloodscreech appears after you fight your way to the deepest chambers of Roguefeather Den and vandalize the cache of food and supplies stored there by the harpies, provoking her into defending her roost."
+  },
+  {
+   "q": "What comes after the Test of Endurance?",
+   "aliases": [
+    "next quest after endurance",
+    "what follows test of endurance",
+    "dorn plainstalker next test"
+   ],
+   "answer": "Returning Grenka's severed claw to Dorn Plainstalker proves your physical stamina, prompting him to send you on the next challenge in his sequence: the Test of Strength."
+  },
+  {
+   "q": "Why does Dorn test adventurers who aren't tauren?",
+   "aliases": [
+    "why does dorn help horde",
+    "dorn plainstalker philosophy",
+    "tauren trials for other races"
+   ],
+   "answer": "Dorn believes it is his calling to mentor all youth of the Horde, regardless of race or tribe. He views untested pride as a death sentence in the wider world, insisting that every warrior demonstrate readiness across body, mind, and spirit."
+  },
+  {
+   "q": "What was the trial before this one?",
+   "aliases": [
+    "previous quest",
+    "test before endurance",
+    "first trial"
+   ],
+   "answer": "Before testing the body's endurance, Dorn requires challengers to undertake the Test of Faith, a perilous leap of devotion that tests whether an adventurer's spirit will falter in the face of fear."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren travelers, Dorn Plainstalker's trials reflect traditional rites of passage, testing whether an initiate's physical stamina matches the spiritual guidance of the Earth Mother."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Dorn offers these challenges to all Horde races, believing that young warriors from every tribe must be tempered against hardship before facing the perils of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "dorn plainstalker",
+  "freewind post",
+  "grenka bloodscreech",
+  "roguefeather den",
+  "screeching canyon",
+  "test of endurance",
+  "thousand needles",
+  "weathered nook"
+ ],
+ "related": [
+  "npc:dorn-plainstalker",
+  "quest:1149",
+  "quest:1151",
+  "subzone:roguefeather-den",
+  "subzone:weathered-nook",
+  "subzone:freewind-post",
+  "zone:thousandneedles",
+  "topic:harpy"
+ ],
+ "attribution": [
+  "Test of Endurance"
+ ]
+}

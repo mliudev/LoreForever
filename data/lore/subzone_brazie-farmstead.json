@@ -1,0 +1,90 @@
+{
+ "key": "subzone:brazie-farmstead",
+ "type": "subzone",
+ "name": "Brazie Farmstead",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Brazie Farmstead"
+ },
+ "summary": "The Brazie Farmstead is an eccentric homestead situated in the northern hills of Hillsbrad Foothills. Built atop the remnants of the old Lordamere Internment Camp, it is maintained by Brazie the Botanist, who cultivates strange botanical creations while fending off threats from the nearby Sludge Fields.",
+ "sections": [
+  {
+   "title": "A Curious Homestead",
+   "body": "Erected upon the abandoned grounds of the old Lordamere Internment Camp, the Brazie Farmstead stands in stark contrast to the grim, conflict-torn expanse of Hillsbrad Foothills. Rather than raising standard livestock or harvest crops, its resident caretaker, Brazie the Botanist, experiments with an array of weaponized, animated flora. Curious specimens like spitting plants, chilled blooms, and animated sunflowers line the soil, tended by erratic devices such as the Fertilize-o-tron 2000.",
+   "spoiler": 0
+  },
+  {
+   "title": "Siege from the Sludge Fields",
+   "body": "Peace is hard to come by so close to the blighted lower reaches of Hillsbrad. Just downhill from the farm lie the Sludge Fields, where Warden Stillwater oversees Forsaken operations. Driven by bizarre experiments or simple hostility, Stillwater's forces repeatedly attempt to overrun the homestead. Brazie relies on his cultivated botanicals and whatever passing mercenaries he can enlist to beat back the encroaching undead waves.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was here before the farmstead?",
+   "aliases": [
+    "brazie farm history",
+    "internment camp farm",
+    "what was here before brazie"
+   ],
+   "answer": "The farmstead sits directly on the former grounds of the Lordamere Internment Camp, one of the pens built by the Alliance of Lordaeron to hold defeated orcs following the Second War. After the camps fell and Lordaeron collapsed, the ruined parcel was eventually claimed and repurposed by Brazie."
+  },
+  {
+   "q": "Who is Brazie the Botanist?",
+   "aliases": [
+    "who is brazie",
+    "brazie npc",
+    "botanist brazie"
+   ],
+   "answer": "Brazie is an eccentric researcher obsessed with cultivating unusual, animated plant life. While the surrounding lands are torn by war and plague, he remains focused on growing aggressive flora capable of spitting at and freezing intruders."
+  },
+  {
+   "q": "Why is Warden Stillwater attacking the farm?",
+   "aliases": [
+    "why sludge fields attack brazie",
+    "warden stillwater brazie",
+    "why undead attacking farm"
+   ],
+   "answer": "Warden Stillwater operates out of the nearby Sludge Fields, conducting erratic and ruthless experiments for the Forsaken. Brazie's farmstead borders his territory, making the eccentric botanist an immediate target for Stillwater's roaming undead minions."
+  },
+  {
+   "q": "What are the strange plants around the property?",
+   "aliases": [
+    "brazie plants",
+    "spitter sunflower",
+    "freezya rocknut"
+   ],
+   "answer": "They are Brazie's customized botanical creations, including Sunflowers, Spitters, Freezyas, and Rocknuts. Brazie cultivates these magical plants to defend his plot from waves of invading undead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists will find Brazie's animated creations fascinating, even if his bizarre botanical specimens defy conventional gathering techniques."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The Fertilize-o-tron 2000 clanking in Brazie's yard showcases the strange intersection of mechanical tinkering and high-yield agricultural defense."
+  }
+ ],
+ "keywords": [
+  "botanist",
+  "brazie",
+  "brazie farmstead",
+  "freezya",
+  "hillsbrad",
+  "internment camp",
+  "sludge fields",
+  "spitter",
+  "stillwater"
+ ],
+ "related": [
+  "subzone:sludge-fields",
+  "subzone:lordamere-internment-camp",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Brazie Farmstead"
+ ]
+}

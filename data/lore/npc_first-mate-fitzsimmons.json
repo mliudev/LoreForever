@@ -1,0 +1,116 @@
+{
+ "key": "npc:first-mate-fitzsimmons",
+ "type": "npc",
+ "name": "First Mate Fitzsimmons",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "First Mate Fitzsimmons",
+  "refs": 4
+ },
+ "summary": "First Mate Fitzsimmons is a ragged, reeking sailor who spends his days drinking outside the Deepwater Tavern in Menethil Harbor. Once the first mate aboard the Wave Mistress of the Kul Tiras Third Fleet, he is the sole known living survivor of the fleet's destruction during the Second War. Haunted by the tragedy, he seeks willing adventurers to face the restless spirits of his drowned comrades.",
+ "sections": [
+  {
+   "title": "A Broken Sailor",
+   "body": "Lounging outside the Deepwater Tavern amid the damp salt air of Menethil Harbor, First Mate Fitzsimmons is an easy man to overlook\u2014or avoid entirely, given his unwashed stench. To most patrons, he is just another broken old salt drinking his memories away. Yet those willing to sit and listen will hear harrowing tales of a proud fleet brought low by fire and claw.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall of the Third Fleet",
+   "body": "During the Second War, Fitzsimmons served as first mate aboard the Wave Mistress, part of the Kul Tiras Third Fleet dispatched to fight the Horde. Off the coast of the Wetlands, the fleet was ambushed and incinerated by enslaved red dragons flown by Dragonmaw orcs. The ships were shattered and sunk, leaving Fitzsimmons as the only man to drag himself ashore alive.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lingering Curse",
+   "body": "Surviving the dragonfire did not bring Fitzsimmons peace. The remains of the ships, now remembered as the Lost Fleet, are haunted by his former crewmates, who rose as cursed undead unable to rest in their watery graves. Driven by guilt and terror, Fitzsimmons recruits travelers to put down the undead sailors and recover ancient relics that might finally lift the evil binding their souls.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is First Mate Fitzsimmons?",
+   "aliases": [
+    "fitzsimmons lore",
+    "who is fitzsimmons",
+    "first mate fitzsimmons"
+   ],
+   "answer": "He is an old Kul Tiran sailor and former first mate of the Wave Mistress. He survived the catastrophic sinking of Kul Tiras's Third Fleet during the Second War and now drinks his days away outside Menethil Harbor's Deepwater Tavern."
+  },
+  {
+   "q": "What happened to his ship?",
+   "aliases": [
+    "what happened to wave mistress",
+    "third fleet destruction",
+    "why did his ship sink"
+   ],
+   "answer": "The Wave Mistress and the rest of the Third Fleet were ambushed by enslaved red dragons ridden by the Dragonmaw clan during the Second War. The vessels were burned and broken upon the reef off the Wetlands coast."
+  },
+  {
+   "q": "Where is the Lost Fleet located?",
+   "aliases": [
+    "lost fleet location",
+    "where are the sunken ships",
+    "fitzsimmons ship location"
+   ],
+   "answer": "The shattered hulls of the fleet lie submerged along the rocky coastline north of Menethil Harbor in the Wetlands, now guarded by murlocs and the restless spirits of drowned sailors."
+  },
+  {
+   "q": "Why does he want adventurers to fight his old crew?",
+   "aliases": [
+    "cursed crew quest lore",
+    "why kill his crew"
+   ],
+   "answer": "The drowned sailors of the Third Fleet rose as cursed, tormented undead rather than passing on. Fitzsimmons seeks brave travelers to put them to rest and retrieve the artifacts keeping their souls shackled."
+  },
+  {
+   "q": "What is the Eye of Paleth?",
+   "aliases": [
+    "eye of paleth",
+    "paleth relic"
+   ],
+   "answer": "It is an ancient, potent artifact carried aboard the Third Fleet. Its dark power is tied to the curse afflicting the sunken sailors, making its recovery crucial to granting the drowned fleet peace."
+  },
+  {
+   "q": "Why does Fitzsimmons smell so bad?",
+   "aliases": [
+    "why does fitzsimmons smell",
+    "fitzsimmons stench"
+   ],
+   "answer": "Having lost everything when his fleet went down, Fitzsimmons has lived in drunken neglect outside the Deepwater Tavern for years, wearing sea-soaked rags and rarely washing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Fitzsimmons represents a tragic chapter in Alliance naval history, reminding heroes of the catastrophic losses suffered against the Horde's enslaved dragon armada."
+  },
+  {
+   "target": "race:Human",
+   "text": "As a veteran of Kul Tiras, Fitzsimmons shares deep cultural ties with the seafaring human kingdom that sacrificed much to defend Lordaeron during the Second War."
+  }
+ ],
+ "keywords": [
+  "deepwater tavern",
+  "eye of paleth",
+  "first mate fitzsimmons",
+  "fitzsimmons",
+  "kul tiras",
+  "lost fleet",
+  "menethil harbor",
+  "third fleet",
+  "wave mistress"
+ ],
+ "related": [
+  "quest:288",
+  "quest:289",
+  "quest:290",
+  "quest:292",
+  "subzone:deepwater-tavern",
+  "subzone:lost-fleet",
+  "subzone:menethil-harbor",
+  "topic:kul-tiras"
+ ],
+ "attribution": [
+  "First Mate Fitzsimmons"
+ ]
+}

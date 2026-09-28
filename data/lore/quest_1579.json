@@ -1,0 +1,123 @@
+{
+ "key": "quest:1579",
+ "type": "quest",
+ "name": "Gaffer Jacks",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   1579
+  ],
+  "level": "12",
+  "faction": "Alliance",
+  "start": "Wizbang Cranktoggle",
+  "end": "",
+  "previous": null,
+  "next": "Electropellers",
+  "wiki": "Gaffer Jacks",
+  "chain": [
+   "Gaffer Jacks",
+   "Electropellers"
+  ]
+ },
+ "summary": "Wizbang Cranktoggle, a gnome inventor nursing a hangover in Auberdine, needs help retrieving a box of lost hardware he tossed into the sea. Having fled the clatter of Ironforge for the quiet shores of Kalimdor, he managed to drop his vital gaffer jacks overboard during the voyage. Anyone with a fishing rod and patience can dredge up these missing components along the coastline.",
+ "sections": [
+  {
+   "title": "A Cluttered Mind in a Quiet Haven",
+   "body": "Seeking peace and quiet away from the deafening clatter of Ironforge's Great Forge, the eccentric gnome inventor Wizbang Cranktoggle sailed across the Great Sea to Darkshore. Unfortunately, Wizbang indulged in a bit too much drink during the crossing. While leaning over the railing in an alcoholic haze, he managed to lose an entire crate of specialized metal components known as gaffer jacks into the coastal waters outside Auberdine.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tuning the Stintle Pegs",
+   "body": "Gaffer jacks might look like obscure bits of metallic scrap to ordinary passersby, but to Wizbang they are indispensable precision tools. Without them, he claims it is entirely impossible to properly calibrate his stintle pegs or proceed with any of his delicate tinkering. Reluctant to plunge into the cold ocean surf himself, the gnome relies on local anglers to cast their lines along the Darkshore surf and fish up the scattered hardware.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are gaffer jacks?",
+   "aliases": [
+    "what is a gaffer jack",
+    "gaffer jack use",
+    "gaffer jacks item"
+   ],
+   "answer": "Gaffer jacks are small gnomish mechanical fasteners and components. According to Wizbang Cranktoggle, they are vital specialized tools used specifically for tuning stintle pegs in his tinkering projects."
+  },
+  {
+   "q": "How did the gaffer jacks end up in the sea?",
+   "aliases": [
+    "how did he lose them",
+    "why are they in the water",
+    "why fish for gaffer jacks"
+   ],
+   "answer": "Wizbang Cranktoggle had a bit too much to drink while traveling by ship from the Eastern Kingdoms to Kalimdor. While intoxicated aboard the vessel, he accidentally dropped his supply box overboard near the coast of Darkshore."
+  },
+  {
+   "q": "Why is Wizbang Cranktoggle in Auberdine instead of Ironforge?",
+   "aliases": [
+    "why is wizbang in auberdine",
+    "why did wizbang leave ironforge"
+   ],
+   "answer": "Wizbang sought out Auberdine specifically for its silence and tranquility. He found the constant clatter, ringing anvils, and noisy workshops of Ironforge unbearable, particularly while nursing the persistent hangovers from his heavy drinking."
+  },
+  {
+   "q": "Where can the lost gaffer jacks be fished up?",
+   "aliases": [
+    "where do i fish gaffer jacks",
+    "gaffer jacks location"
+   ],
+   "answer": "They can be fished out of the open saltwater along the Darkshore coastline near Auberdine. Anglers reel them in from regular coastal water casts rather than distinct schools of fish."
+  },
+  {
+   "q": "What happens after recovering the gaffer jacks?",
+   "aliases": [
+    "what next after gaffer jacks",
+    "quest after gaffer jacks"
+   ],
+   "answer": "Once Wizbang has his gaffer jacks returned to tune his pegs, he reveals that he also managed to lose another critical set of equipment in the sea: his electropellers, which require further fishing or diving to retrieve."
+  },
+  {
+   "q": "Why does Wizbang need adventurers instead of retrieving them himself?",
+   "aliases": [
+    "why cant wizbang get them",
+    "why doesnt wizbang fish"
+   ],
+   "answer": "Between his throbbing hangover and lack of sea angling gear, Wizbang prefers to stay safely dry on the Auberdine docks, leaving the tedious dredging work to any passerby with a fishing rod."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Wizbang embodies the restless eccentricity of gnomish tinkerers, though even fellow gnomes might cringe at his reckless combination of high-precision components and heavy drinking."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Any engineer knows the misery of missing one tiny, non-standard mechanical component needed to finish calibrating a delicate device."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The quiet, sacred woods of Darkshore make an odd destination for an abrasive, hungover gnome inventor, testing the legendary patience of Auberdine's night elf sentinels."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "electropellers",
+  "fishing",
+  "gaffer jacks",
+  "ironforge",
+  "stintle pegs",
+  "wizbang cranktoggle"
+ ],
+ "related": [
+  "npc:wizbang-cranktoggle",
+  "quest:1580",
+  "quest:1141",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Gaffer Jacks"
+ ]
+}

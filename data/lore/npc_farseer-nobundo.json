@@ -1,0 +1,92 @@
+{
+ "key": "npc:farseer-nobundo",
+ "type": "npc",
+ "name": "Farseer Nobundo",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Farseer Nobundo",
+  "refs": 1
+ },
+ "summary": "Farseer Nobundo is a Broken draenei and a pioneer among his people, having embraced the ways of the shaman when severed from the Holy Light. Deformed by fel corruption during the fall of Shattrath on Draenor, his discovery of the elemental spirits forged a brand-new spiritual path for his surviving kin.",
+ "sections": [
+  {
+   "title": "Fall from Grace",
+   "body": "Once an honored draenei vindicator and paladin who fought alongside the likes of Akama, Nobundo stood on the ramparts of Shattrath City when the demon-fueled Horde besieged it. During the desperate final stand, a toxic red fel mist enveloped the defenders, searing their flesh and muting their spiritual connection. Afflicted by this blight and struck down in battle, Nobundo survived only to watch his homeland crumble. The lingering fel corruption gradually twisted his physical form into that of a Broken, or Krokul. To the sorrow of his survivors, the mutation also cut him off entirely from the Holy Light he had devoted his life to serving.",
+   "spoiler": 0
+  },
+  {
+   "title": "Voice of the Elements",
+   "body": "Exiled and shunned by uncorrupted draenei, Nobundo spent years wandering the wastes of Outland, praying in vain for the Light to answer his cries. His salvation arrived not from above, but through the whisper of the wind. Hearing the elemental spirits that sustained the dying world, he learned to commune with fire, earth, water, and air, much like the ancient shamans of the orcs and tauren. Taking up the mantle of a farseer, Nobundo proved that even those forsaken by the Light could discover balance, harmony, and spiritual power through reverence for the natural world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Farseer Nobundo?",
+   "aliases": [
+    "who is nobundo",
+    "nobundo lore",
+    "farseer nobundo identity"
+   ],
+   "answer": "Nobundo is a Broken draenei who served as a paladin during the defense of Shattrath City on Draenor. After fel magic deformed him and severed his connection to the Light, he became the first draenei to walk the path of the shaman, learning directly from the elemental spirits."
+  },
+  {
+   "q": "Why was Nobundo severed from the Light?",
+   "aliases": [
+    "why cant nobundo use light",
+    "nobundo lost the light",
+    "why did light abandon nobundo"
+   ],
+   "answer": "During the siege of Shattrath, the Horde unleashed a foul, fel-infused red mist upon the defenders. The toxic blight sickened Nobundo and permanently mutated his body. This fel corruption stripped away his ability to commune with or channel the Holy Light."
+  },
+  {
+   "q": "How did he learn shamanism?",
+   "aliases": [
+    "how did nobundo become a shaman",
+    "who taught nobundo",
+    "nobundo elements"
+   ],
+   "answer": "After years of praying futilely for the Light's return while exiled in the wilderness, Nobundo was answered by the wind. The elemental spirits of Draenor reached out to him, guiding him to listen to the elements and master their ancient power."
+  },
+  {
+   "q": "What is a Broken?",
+   "aliases": [
+    "what are the broken",
+    "krokul",
+    "broken draenei"
+   ],
+   "answer": "The Broken, or Krokul in their native tongue, are draenei who were mutated and physically degraded by exposure to demonic fel energies during the fall of their civilization on Draenor. Their physical changes often alienated them from their uncorrupted kin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Nobundo represents a rare path to the elements, proving that even a culture steeped in paladin traditions and holy devotion can hear the spirits when all other hope is lost."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Nobundo's history is a sobering reminder of the horrific toll of fel corruption, which managed to sever even a dedicated vindicator from the blessing of the Holy Light."
+  }
+ ],
+ "keywords": [
+  "broken",
+  "draenei",
+  "elements",
+  "farseer",
+  "krokul",
+  "nobundo",
+  "shaman",
+  "shattrath",
+  "vindicator"
+ ],
+ "related": [
+  "topic:light",
+  "topic:tauren",
+  "topic:horde",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Farseer Nobundo"
+ ]
+}

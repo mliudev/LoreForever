@@ -1,0 +1,74 @@
+{
+ "key": "subzone:trueshot-point",
+ "type": "subzone",
+ "name": "Trueshot Point",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Trueshot Point"
+ },
+ "summary": "Trueshot Point is a secluded Alliance encampment perched high along the northern heights of the Stonetalon Mountains near Talondeep Pass. Overlooking the valleys below, the vantage point is completely inaccessible from Stonetalon itself, reached only by trailing down from Stardust Spire in Ashenvale.",
+ "sections": [
+  {
+   "title": "A Precarious Perch",
+   "body": "Tucked away high above the craggy ridges of northern Stonetalon Mountains, Trueshot Point serves as a secluded Alliance post. Despite technically resting within Stonetalon's borders near the mouth of Talondeep Pass, sheer cliff faces prevent any ascent from the valley below. Scouts and travelers wishing to reach the outpost must hike in through Stardust Spire in neighboring Ashenvale. Anchored by the marksman Kalen Trueshot, this windswept eyrie provides night elf sentries and their allies with an elevated line of sight over the crags, keeping watch over contested territory while perched high above the reach of ground patrols.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you get to Trueshot Point?",
+   "aliases": [
+    "how to reach trueshot point",
+    "getting to trueshot point",
+    "trueshot point path"
+   ],
+   "answer": "You cannot reach Trueshot Point from the lowlands of Stonetalon Mountains. The only foot path winds along the ridgeline coming out of Stardust Spire in southwestern Ashenvale, leading out onto the overlook."
+  },
+  {
+   "q": "Who lives at Trueshot Point?",
+   "aliases": [
+    "who is at trueshot point",
+    "trueshot point npcs",
+    "kalen trueshot"
+   ],
+   "answer": "The outpost is manned by Alliance forces, most notably the night elf marksman Kalen Trueshot, who maintains a vigil overlooking the pass and surrounding valleys."
+  },
+  {
+   "q": "Why is this camp located here?",
+   "aliases": [
+    "purpose of trueshot point",
+    "why trueshot point"
+   ],
+   "answer": "Its extreme elevation near Talondeep Pass gives Alliance scouts an unassailable vantage point over the northern reaches of Stonetalon Mountains, monitoring movement while remaining shielded by sheer cliff drop-offs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers traversing southwestern Ashenvale, Trueshot Point provides a secure ridge-top staging ground and scenic viewpoint looking south into Stonetalon."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Living up to its name, this cliffside aerie exemplifies the long-range scouting and elevated marksmanship favored by wilderness trackers like Kalen Trueshot."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "kalen trueshot",
+  "stardust spire",
+  "stonetalon mountains",
+  "talondeep pass",
+  "trueshot point"
+ ],
+ "related": [
+  "subzone:talondeep-pass",
+  "subzone:stardust-spire",
+  "zone:stonetalon",
+  "zone:ashenvale",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Trueshot Point"
+ ]
+}

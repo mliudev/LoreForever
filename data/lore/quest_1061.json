@@ -1,0 +1,125 @@
+{
+ "key": "quest:1061",
+ "type": "quest",
+ "name": "The Spirits of Stonetalon",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   1061
+  ],
+  "level": "17",
+  "faction": "Horde",
+  "start": "Zor Lonetree",
+  "end": "Seereth Stonebreak",
+  "previous": null,
+  "next": "Goblin Invaders",
+  "wiki": "The Spirits of Stonetalon",
+  "chain": []
+ },
+ "summary": "The Spirits of Stonetalon is a Horde courier quest initiated by the tauren shaman Zor Lonetree in Orgrimmar. He detects deep unrest among the earth spirits across the western crags and dispatches young champions into the Stonetalon Mountains. Traveling west past the Crossroads, adventurers report directly to Seereth Stonebreak near the Greatwood Vale to address rampant logging.",
+ "sections": [
+  {
+   "title": "A Cry from the West",
+   "body": "In the Valley of Wisdom within Orgrimmar, Zor Lonetree communes with the natural world and senses profound distress emanating from the Stonetalon Mountains. The elemental spirits of the rocky peaks have grown furious as industrial exploitation tears into their forests. Listening to their distress, the shamans of the Horde recognize that unbridled devastation in the western highlands threatens the spiritual balance of Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Industrial Deforestation",
+   "body": "The primary threat in the region stems from the Venture Company, an unscrupulous goblin syndicate clear-cutting timber in Greatwood Vale. Rather than harvesting sustainably, these commercial crews employ aggressive machinery, saws, and muscle to butcher the ancient woodland. To investigate this assault, the Horde dispatched Seereth Stonebreak, an insightful young shaman stationed on the frontier to monitor the forest and rally defenders against the ravagers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts this quest and where are they located?",
+   "aliases": [
+    "quest giver",
+    "where get quest",
+    "zor lonetree location"
+   ],
+   "answer": "The quest is offered by Zor Lonetree, a wise tauren shaman found among the pavilions of the Valley of Wisdom in the Horde capital of Orgrimmar."
+  },
+  {
+   "q": "Where can I find Seereth Stonebreak?",
+   "aliases": [
+    "seereth location",
+    "where is seereth stonebreak",
+    "stonetalon camp"
+   ],
+   "answer": "Seereth Stonebreak is stationed in the Stonetalon Mountains, along the path near the Greatwood Vale just past the eastern entrance leading from the northern Barrens."
+  },
+  {
+   "q": "Why are the spirits of Stonetalon angry?",
+   "aliases": [
+    "why are spirits mad",
+    "stonetalon unrest",
+    "angry spirits"
+   ],
+   "answer": "Goblins\u2014specifically those working for the Venture Company\u2014are violently clear-cutting the pristine mountain woods, scarring the wilderness and provoking the land's ancient elemental guardians."
+  },
+  {
+   "q": "How do I reach the Stonetalon Mountains from Orgrimmar?",
+   "aliases": [
+    "path to stonetalon",
+    "how to get to stonetalon",
+    "route to stonetalon"
+   ],
+   "answer": "Leave Orgrimmar and journey south across the Barrens to the Crossroads, then take the westward road that climbs through the rocky pass directly into Stonetalon."
+  },
+  {
+   "q": "What comes next after speaking with Seereth?",
+   "aliases": [
+    "next quest",
+    "followup",
+    "what after spirits of stonetalon"
+   ],
+   "answer": "Upon arriving at her camp, Seereth Stonebreak assigns you 'Goblin Invaders', sending you into the woods of Greatwood Vale to eliminate loggers and cut down their operations directly."
+  },
+  {
+   "q": "Why is the Horde intervening in Stonetalon's deforestation?",
+   "aliases": [
+    "why does horde care",
+    "tauren stonetalon interest"
+   ],
+   "answer": "The tauren and orc shamans hold a sacred reverence for the elemental spirits. Allowing reckless goblin strip-logging damages the land's spiritual harmony and poses a threat right along the borders of the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "For shamans, this summons is a direct plea from the elements itself, calling upon spiritual practitioners to mend a fractured bond between the earth and the living."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren adventurers feel a heavy cultural obligation to soothe the weeping earth and defend sacred forests from wanton goblin exploitation."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing the borders between Stonetalon and the Barrens ensures Horde travel corridors remain free from rogue commercial syndicates."
+  }
+ ],
+ "keywords": [
+  "crossroads",
+  "deforestation",
+  "greatwood vale",
+  "seereth stonebreak",
+  "stonetalon mountains",
+  "valley of wisdom",
+  "venture company",
+  "zor lonetree"
+ ],
+ "related": [
+  "quest:1062",
+  "npc:seereth-stonebreak",
+  "npc:zor-lonetree",
+  "zone:stonetalon",
+  "subzone:greatwood-vale",
+  "zone:barrens",
+  "subzone:crossroads",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "The Spirits of Stonetalon"
+ ]
+}

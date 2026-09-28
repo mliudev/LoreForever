@@ -1,0 +1,120 @@
+{
+ "key": "quest:167",
+ "type": "quest",
+ "name": "Oh Brother. . .",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "ids": [
+   167
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Wilder Thistlenettle",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Oh Brother. . .",
+  "chain": []
+ },
+ "summary": "\"Oh Brother. . .\" is an Alliance mission given by Wilder Thistlenettle in Stormwind City. Distraught over a cave-in during an expedition into the depths beneath Moonbrook, Wilder asks adventurers to search the labyrinthine mines for his missing sibling, Foreman Thistlenettle, or recover his Explorers' League Badge.",
+ "sections": [
+  {
+   "title": "A Trapped Expedition",
+   "body": "Wilder Thistlenettle and his brother entered the cavernous subterranean tunnels beneath Moonbrook on an expedition for the Explorers' League. However, things turned catastrophic when hostile thieves swarmed the area and a violent cave-in sealed off the lower tunnels. Wilder managed to escape to Stormwind, but his brother and the rest of the crew were left trapped behind the rubble.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Grim Fate of Foreman Thistlenettle",
+   "body": "The truth awaiting any rescuer who pushes deep into the Deadmines tunnels is tragic. Foreman Thistlenettle did not survive the entombment; instead, dark energies stirring within the abandoned mines reanimated the unfortunate dwarf into an undead husk. Wandering the subterranean caverns alongside other restless corpses, the foreman retains only his prized Explorers' League Badge as a token of who he once was.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I start the quest \"Oh Brother. . .\"?",
+   "aliases": [
+    "quest giver oh brother",
+    "who gives oh brother",
+    "where to get oh brother"
+   ],
+   "answer": "The quest is offered by Wilder Thistlenettle, who can be found in the Dwarven District of Stormwind City."
+  },
+  {
+   "q": "Where is Foreman Thistlenettle located?",
+   "aliases": [
+    "foreman thistlenettle location",
+    "where is thistlenettle",
+    "where is the brother"
+   ],
+   "answer": "Foreman Thistlenettle wanders the exterior mine corridors of the Deadmines, located beneath the town of Moonbrook in Westfall. He is in the undead-infested section of the tunnels outside the instance portal."
+  },
+  {
+   "q": "What happened to Foreman Thistlenettle?",
+   "aliases": [
+    "is thistlenettle alive",
+    "what happened to the brother",
+    "thistlenettle lore"
+   ],
+   "answer": "A cave-in trapped Foreman Thistlenettle and his mining party inside the caverns. Cut off from rescue and surrounded by rising dark forces in the mine, he perished and was reanimated as an undead ghoul."
+  },
+  {
+   "q": "What item do I need to retrieve?",
+   "aliases": [
+    "oh brother quest item",
+    "what drops for oh brother"
+   ],
+   "answer": "You need to retrieve Foreman Thistlenettle's Explorers' League Badge, which drops when you defeat his reanimated form deep in the Deadmines tunnels."
+  },
+  {
+   "q": "What was the expedition doing in Moonbrook?",
+   "aliases": [
+    "why were the dwarves in westfall",
+    "explorers league deadmines",
+    "why were they in moonbrook"
+   ],
+   "answer": "The Thistlenettle brothers were surveying the vast mine complex on behalf of the Explorers' League before being ambushed by Defias bandits and separated by a sudden tunnel collapse."
+  },
+  {
+   "q": "Is this quest completed inside the Deadmines dungeon instance?",
+   "aliases": [
+    "is oh brother inside deadmines instance",
+    "do i need a dungeon group"
+   ],
+   "answer": "No, you do not need to zone inside the dungeon instance. Foreman Thistlenettle is an elite mob who roams the contested mine tunnels that lead up to the instance portal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The tragic demise of an Explorers' League foreman in human lands hits home for any dwarf who values brotherhood, stonecutting, and the League's tireless work."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Deadmines are a blight on Stormwind's doorstep, and this quest shows how deeply the Defias and subterranean horrors have harmed innocent citizens."
+  }
+ ],
+ "keywords": [
+  "badge",
+  "deadmines",
+  "explorers' league",
+  "moonbrook",
+  "stormwind",
+  "thistlenettle",
+  "undead",
+  "westfall",
+  "wilder"
+ ],
+ "related": [
+  "npc:wilder-thistlenettle",
+  "zone:deadmines",
+  "subzone:deadmines",
+  "subzone:moonbrook",
+  "zone:westfall",
+  "topic:explorers-league",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Oh Brother. . ."
+ ]
+}

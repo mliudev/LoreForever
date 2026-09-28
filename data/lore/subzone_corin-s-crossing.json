@@ -1,0 +1,91 @@
+{
+ "key": "subzone:corin-s-crossing",
+ "type": "subzone",
+ "name": "Corin's Crossing",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Corin's Crossing"
+ },
+ "summary": "Corin's Crossing is a ruined human settlement situated at a major crossroads in south-central Eastern Plaguelands. Once a thriving waystation between Stratholme, Tyr's Hand, Darrowshire, and Andorhal, the devastated town is now utterly overrun by the Scourge. Its crumbling town hall and forge harbor lingering horrors, including invisible spectral watchers.",
+ "sections": [
+  {
+   "title": "A Shattered Crossroads",
+   "body": "Before the Third War, Corin's Crossing served as a central junction for travel across eastern Lordaeron. Positioned between the shimmering waters of Lake Mereldar and what has now become the blighted chasm of the Infectis Scar, its thoroughfares once bore merchants, couriers, and pilgrims traveling between the great bastion of Stratholme and the southern strongholds. When the plague swept through the province, the settlement stood directly in the path of destruction, collapsing swiftly beneath the sheer weight of the undead vanguard.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Haven of the Damned",
+   "body": "Today, Corin's Crossing is thoroughly lost to the Scourge. Wandering undead pack the muddy streets, while rotting hulks and ghouls linger inside the hollowed-out blacksmith shop and town hall. The town is notably treacherous for scouts: spectral Unseen Servants drift among the ruins completely invisible to ordinary eyes, piercing mundane stealth and ambushing anyone attempting to slip past the main horde undetected.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Corin's Crossing before the plague?",
+   "aliases": [
+    "corins crossing history",
+    "corins crossing lore",
+    "what was corins crossing"
+   ],
+   "answer": "It was a prosperous hub town in eastern Lordaeron. Centered around a town hall and blacksmith forge, it served travelers moving between Stratholme, Tyr's Hand, Darrowshire, and Andorhal before the Scourge wiped out its populace."
+  },
+  {
+   "q": "Why is Corin's Crossing so hazardous for stealthy travelers?",
+   "aliases": [
+    "stealth in corins crossing",
+    "unseen servants",
+    "rogue corins crossing"
+   ],
+   "answer": "The town is haunted by Unseen Servants\u2014invisible phantoms bound to the Scourge. These specters can pierce magical and mundane stealth effortlessly, catching unwary rogues or scouts by surprise and alerting nearby undead."
+  },
+  {
+   "q": "What major landmarks surround the town?",
+   "aliases": [
+    "corins crossing location",
+    "where is corins crossing"
+   ],
+   "answer": "Corin's Crossing sits directly in the south-central Eastern Plaguelands. The blighted trench of the Infectis Scar lies immediately nearby, Lake Mereldar rests along its border, and the Argent Dawn outpost at Light's Shield Tower stands just to the north."
+  },
+  {
+   "q": "Who controls Corin's Crossing today?",
+   "aliases": [
+    "who owns corins crossing",
+    "corins crossing faction"
+   ],
+   "answer": "The Scourge holds total dominion over the ruins. No living defenders remain within the town, and the entire settlement swarms with wandering undead soldiers and spirits."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Do not trust your shadows here. Unseen Servants roam the alleys invisible to mortal sight and see right through your stealth, making a casual walk through the town square fatal."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The ruins of Corin's Crossing represent the utter desecration of Lordaeron's heartland, lingering as a wretched Scourge stronghold that mocks the holy bastion of Stratholme further up the road."
+  }
+ ],
+ "keywords": [
+  "corin's crossing",
+  "corins crossing",
+  "eastern plaguelands",
+  "infectis scar",
+  "lake mereldar",
+  "light's shield tower",
+  "unseen servants"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "subzone:infectis-scar",
+  "subzone:lake-mereldar",
+  "subzone:light-s-shield-tower",
+  "subzone:stratholme",
+  "subzone:tyr-s-hand",
+  "subzone:darrowshire",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Corin's Crossing"
+ ]
+}

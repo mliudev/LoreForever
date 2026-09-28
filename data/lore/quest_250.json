@@ -1,0 +1,129 @@
+{
+ "key": "quest:250",
+ "type": "quest",
+ "name": "A Dark Threat Looms",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   250
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Chief Engineer Hinderweir VII",
+  "end": "Suspicious Barrel",
+  "previous": null,
+  "next": "A Dark Threat Looms (2)",
+  "wiki": "A Dark Threat Looms",
+  "chain": []
+ },
+ "summary": "Chief Engineer Hinderweir VII fears that the Stonewrought Dam is the next target of Dark Iron dwarf aggression following attacks in the Wetlands. With most of the dam's defensive garrison reassigned elsewhere, adventurers are sent to investigate Dark Iron sappers lurking around the eastern ramp.",
+ "sections": [
+  {
+   "title": "A Vulnerable Wonder",
+   "body": "The Stonewrought Dam is one of the crowning engineering feats of Ironforge, holding back the vast waters of Loch Modan. However, with the ongoing conflicts across Khaz Modan and beyond, much of the dam's security detail was reassigned to the Alliance Front. This troop shortage leaves Chief Engineer Hinderweir VII and his skeleton crew largely defenseless against coordinated assaults, right as enemy activity creeps closer to the colossal structure.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes from the North",
+   "body": "Hinderweir's anxieties stem from recent devastation across the northern border. Dark Iron dwarves struck with lethal coordination in the Wetlands, sabotaging the strategic Thandol Span and sack-pillaging the fortress town of Dun Modr. Observing known Dark Iron sappers skulking near the eastern ramp of the dam, Hinderweir realizes the pattern: the rogue clan has turned its sights on demolishing the Loch's lifeline next.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Suspicious Cask",
+   "body": "Scouting the lower ramparts confirms the engineer's worst fears. Hidden among the rocks where the sappers gathered sits an unattended, suspicious barrel packed with a volatile, strange-smelling powder. It stands as plain proof that the Dark Irons are actively preparing demolitions to crack the foundation of the Stonewrought Dam.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Chief Engineer Hinderweir worried about the dam?",
+   "aliases": [
+    "why hinderweir worried",
+    "threat to stonewrought dam",
+    "why attack the dam"
+   ],
+   "answer": "Dark Iron forces recently devastated northern garrisons by damaging the Thandol Span and pillaging Dun Modr. Seeing Dark Iron sappers skulking along the eastern ramp of the Stonewrought Dam convinced Hinderweir that the dam is their next target."
+  },
+  {
+   "q": "Where did the dam's garrison go?",
+   "aliases": [
+    "why are there no guards at the dam",
+    "dam security detail",
+    "where are the soldiers"
+   ],
+   "answer": "Most of the security forces stationed at the Stonewrought Dam, including Hinderweir's top inspector, were reassigned to support the wider Alliance Front, leaving the critical installation thinly defended."
+  },
+  {
+   "q": "What do you find at the eastern ramp?",
+   "aliases": [
+    "what is the clue",
+    "suspicious barrel clue",
+    "what are the sappers doing"
+   ],
+   "answer": "Near the eastern ramp where the Dark Iron sappers were spotted, investigators uncover a suspicious barrel filled with a strange-smelling powder, confirming that the Dark Irons are planting explosives to sabotage the structure."
+  },
+  {
+   "q": "What is the strategic significance of the Stonewrought Dam?",
+   "aliases": [
+    "why destroy the dam",
+    "what happens if the dam breaks",
+    "dam lore"
+   ],
+   "answer": "The Stonewrought Dam controls the reservoir of Loch Modan. If breached, the deluge would cause immense devastation downstream into the Wetlands while draining the heartland of the dwarven territory."
+  },
+  {
+   "q": "What was the attack on Dun Modr mentioned by Hinderweir?",
+   "aliases": [
+    "dun modr attack",
+    "what happened at dun modr",
+    "thandol span destruction"
+   ],
+   "answer": "Dun Modr was a fortified dwarven outpost near the border between Loch Modan and the Wetlands. Dark Iron infiltrators overwhelmed the town and struck the nearby Thandol Span, severing critical overland supply routes."
+  },
+  {
+   "q": "Who are the Dark Iron dwarves targeting Loch Modan?",
+   "aliases": [
+    "who are the dark irons",
+    "dark iron sappers motive",
+    "why do dark irons hate ironforge"
+   ],
+   "answer": "The Dark Iron clan has long been bitter rivals of the Bronzebeard dwarves since the War of the Three Hammers. Operating out of the Redridge and Blackrock regions, they frequently sabotage Bronzebeard infrastructure and border defenses."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The Stonewrought Dam is a masterwork of dwarven craftsmanship and pride; seeing it threatened by treacherous Dark Iron kin makes the investigation a matter of national defense."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate both the breathtaking scale of the dam and the insidious danger represented by sappers deploying volatile chemical explosives against load-bearing foundations."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With frontline armies drawn thin across the continent, Alliance recruits must step into the void to protect vital rear-guard supply hubs and regional infrastructure."
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "dun modr",
+  "hinderweir",
+  "loch modan",
+  "sappers",
+  "stonewrought dam",
+  "suspicious barrel",
+  "thandol span"
+ ],
+ "related": [
+  "npc:chief-engineer-hinderweir-vii",
+  "zone:lochmodan",
+  "subzone:dun-modr",
+  "subzone:thandol-span",
+  "quest:631",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "A Dark Threat Looms"
+ ]
+}

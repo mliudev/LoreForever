@@ -1,0 +1,92 @@
+{
+ "key": "subzone:dun-garok",
+ "type": "subzone",
+ "name": "Dun Garok",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Dun Garok"
+ },
+ "summary": "Dun Garok is a fortified dwarven mountain bastion situated in the southeastern heights of the Hillsbrad Foothills. Commanded by Captain Ironhill, the outpost's stalwart garrison defends regional Alliance interests and nearby operations like the Azurelode Mine against hostile encroachment. To the Forsaken of Tarren Mill, this entrenched dwarven stronghold stands as a constant military threat bordering their domain.",
+ "sections": [
+  {
+   "title": "A Bastion in the Foothills",
+   "body": "Carved into the craggy southeastern hills of Hillsbrad Foothills, Dun Garok stands as a heavily defended redoubt of Ironforge mountaineers and riflemen. Commanded by Captain Ironhill, the dwarves here maintain a critical defensive perimeter, shielding human settlements in Hillsbrad and securing vital operations at the Azurelode Mine. Their sturdy stone architecture and deep entrenchments provide the Alliance with an anchor against nearby threats.",
+   "spoiler": 0
+  },
+  {
+   "title": "Target of Tarren Mill",
+   "body": "Because of its close proximity to Tarren Mill, Dun Garok is viewed by the Forsaken as an intolerable intrusion on their southern border. Sylvanas Windrunner's forces loathe the presence of heavily armed dwarven troops so close to their stronghold, routinely plotting to infiltrate the fortress, break its defenses, and eliminate Captain Ironhill's garrison to secure Forsaken dominion over Hillsbrad.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Dun Garok?",
+   "aliases": [
+    "dun garok location",
+    "what is this dwarven keep",
+    "hillsbrad dwarf fort"
+   ],
+   "answer": "Dun Garok is a fortified dwarven outpost located in the southeastern mountains of the Hillsbrad Foothills. It is manned by troops from Ironforge dedicated to defending regional Alliance holdings."
+  },
+  {
+   "q": "Who commands Dun Garok?",
+   "aliases": [
+    "dun garok leader",
+    "who leads dun garok",
+    "captain ironhill"
+   ],
+   "answer": "The stronghold is commanded by Captain Ironhill, who leads the local mountaineers and riflemen in safeguarding Hillsbrad and the nearby Azurelode Mine."
+  },
+  {
+   "q": "Why do the Forsaken want to destroy Dun Garok?",
+   "aliases": [
+    "why horde attack dun garok",
+    "forsaken dun garok",
+    "tarren mill dun garok conflict"
+   ],
+   "answer": "The Forsaken view an active, fortified dwarven stronghold right on their southern border as a major security threat to Tarren Mill and actively dispatch agents to eradicate the garrison."
+  },
+  {
+   "q": "What is Dun Garok's strategic value to the Alliance?",
+   "aliases": [
+    "why is dun garok important",
+    "alliance purpose dun garok"
+   ],
+   "answer": "Dun Garok serves as a key military anchor in Hillsbrad, helping maintain Alliance security in the region and protecting the nearby Azurelode Mine from hostile takeovers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dun Garok is a proud symbol of Ironforge's reach into Lordaeron, where Captain Ironhill and his mountaineers stand resolute in defense of their human allies."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This well-defended dwarven enclave poses an ongoing danger to Forsaken expansion and border security around Tarren Mill, making its garrison a priority target."
+  }
+ ],
+ "keywords": [
+  "azurelode mine",
+  "dun garok",
+  "dwarf",
+  "hillsbrad",
+  "ironforge",
+  "ironhill",
+  "keep",
+  "mountaineer"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "subzone:azurelode-mine",
+  "topic:dwarf",
+  "zone:ironforge",
+  "topic:alliance",
+  "topic:forsaken",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Dun Garok"
+ ]
+}

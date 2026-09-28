@@ -1,0 +1,127 @@
+{
+ "key": "quest:4725",
+ "type": "quest",
+ "name": "Beached Sea Turtle",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   4725
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Beached Sea Turtle",
+  "end": "Gwennyth Bly'Leggonde",
+  "previous": null,
+  "next": null,
+  "wiki": "Beached Sea Turtle (2)",
+  "chain": []
+ },
+ "summary": "Along the surf of Darkshore lies the carcass of a massive sea turtle, fitted with a broken carriage and swarming with opportunistic Greymist murlocs. Unlike other dead leviathans on the coast, this creature was harnessed as a beast of burden by the serpent-like naga before dying on the sand.",
+ "sections": [
+  {
+   "title": "A Beast in Harness",
+   "body": "The mist-shrouded shores of Darkshore are troubled by an alarming number of stranded sea giants, but this particular sea turtle tells a far more sinister story. Strapped across the creature's colossal carapace sits a dilapidated carriage, abandoned and decaying in the tide. Rather than dying of sickness or natural exhaustion like other beached creatures, this giant was pressed into service and driven onto the coast by intelligent handlers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Scavengers of the Shallows",
+   "body": "The carcass did not remain quiet for long. Local Greymist murlocs quickly swarmed the remains, carving out a den amidst the rotting meat and scavenged timber. Amidst the murlocs' refuse and the broken chassis of the sea carriage rests an intact, curiously marked container, left behind by the beast's original masters.",
+   "spoiler": 0
+  },
+  {
+   "title": "Naga Supply Lines",
+   "body": "Upon delivering the strangely marked container to Gwennyth Bly'Leggonde in Auberdine, the grim reality comes into focus. The container bears naga markings, and the harness matches the supply carriages used by the serpent folk to ferry weapons and war material from the oceanic depths. The dead turtle is direct proof of the naga staging incursions into northern Darkshore, and the recovered artifact is hurried off to Darnassus for further study.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is there a carriage on the sea turtle's shell?",
+   "aliases": [
+    "turtle carriage",
+    "why carriage on turtle",
+    "harnessed turtle"
+   ],
+   "answer": "The carriage belonged to the naga, who harness giant sea turtles as pack animals and siege beasts. They use these carriages to transport supplies and weapons from the depths up onto the Darkshore coastline."
+  },
+  {
+   "q": "What is inside the carriage?",
+   "aliases": [
+    "turtle box",
+    "strangely marked box",
+    "box in turtle carriage"
+   ],
+   "answer": "Within the ruins of the abandoned carriage lies a strangely marked box. Its runes identify it as naga property, prompting the scholars in Auberdine to send it along to Darnassus for official scrutiny."
+  },
+  {
+   "q": "Why are murlocs gathered around the turtle?",
+   "aliases": [
+    "murlocs around turtle",
+    "greymist murlocs turtle",
+    "why murlocs eating turtle"
+   ],
+   "answer": "Greymist murlocs inhabit the coastline and regularly scavenge shipwrecks and beached carcasses. They have claimed the giant turtle's remains as a food source and nest."
+  },
+  {
+   "q": "Who studies the beached creatures in Darkshore?",
+   "aliases": [
+    "who studies beached sea creatures",
+    "auberdine researcher",
+    "gwennyth bly'leggonde role"
+   ],
+   "answer": "Gwennyth Bly'Leggonde in Auberdine oversees the investigation into the wave of beached sea creatures, cataloging relics and strange materials found upon their remains."
+  },
+  {
+   "q": "How does this turtle differ from other beached creatures along Darkshore?",
+   "aliases": [
+    "other beached turtles",
+    "why this turtle different",
+    "turtle mystery darkshore"
+   ],
+   "answer": "While many other creatures wash ashore due to illness, corruption, or oceanic distress, this turtle was clearly domesticated, saddled with heavy cargo gear, and driven to the beach deliberately by the naga."
+  },
+  {
+   "q": "What happens to the marked box after Auberdine?",
+   "aliases": [
+    "where does box go",
+    "box sent to darnassus",
+    "what does auberdine do with box"
+   ],
+   "answer": "Gwennyth Bly'Leggonde logs the discovery in Auberdine and sends the naga box up to Darnassus, where elven leadership analyzes the growing threat along their northern borders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The presence of naga supply beasts washing up on Darkshore confirms that the ancestral enemies of the kaldorei are actively reinforcing beachheads uncomfortably close to Darnassus."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Investigating beached creatures provides crucial intelligence for Auberdine's sentinels, tracking both murloc infestations and the rise of organized naga raiding parties."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "beached",
+  "carriage",
+  "darkshore",
+  "greymist",
+  "gwennyth bly'leggonde",
+  "naga",
+  "sea turtle",
+  "strangely marked box"
+ ],
+ "related": [
+  "quest:4722",
+  "npc:gwennyth-bly-leggonde",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "topic:naga",
+  "topic:murloc",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Beached Sea Turtle (2)"
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "key": "npc:taiga-wisemane",
+ "type": "npc",
+ "name": "Taiga Wisemane",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Taiga Wisemane",
+  "refs": 4
+ },
+ "summary": "Taiga Wisemane is a tauren elder residing in Shadowprey Village along the rugged western coast of Desolace. Watchful of demonic meddling across the barren wastes, he works to thwart the Burning Blade cult entrenched in the region. He directs Horde champions to disrupt demonic rituals and seal open gateways before the Burning Legion gains ground.",
+ "sections": [
+  {
+   "title": "A Watchful Eye in Shadowprey",
+   "body": "Though Shadowprey Village is predominantly a Darkspear troll fishing settlement tucked away against the ocean, Taiga Wisemane has taken up station there to monitor the dark sorceries stirring across Desolace. He remains acutely aware of the spiritual corruption bleeding into the soil, keeping his focus fixed eastward where shadow cults and demonic remnants fester among ancient ruins.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stemming the Demonic Tide",
+   "body": "The Burning Blade cult operates actively out of Thunder Axe Fortress, experimenting with dark artifacts to widen their influence. Recognizing the peril this poses to all inhabitants of Desolace, Taiga tasks capable adventurers with infiltrating the fortress to claim the Demon Box\u2014an occult chest holding the Hand of Iruxos. Through this severing blow, he aims to rob the cult of the primary focus they rely upon to tear the veil between worlds.",
+   "spoiler": 1
+  },
+  {
+   "title": "Sealing the Coven's Portals",
+   "body": "Securing the Hand of Iruxos is only the first step of Taiga's plan. At Mannoroc Coven to the south, the Burning Blade has already used the fell relic to tear open active demonic rifts. By turning the dark focus against its creators, Taiga directs trusted champions to channel the artifact's energy directly into the gateways, closing the conduits before the Burning Legion can pour reinforcements into the heart of Kalimdor.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Taiga Wisemane?",
+   "aliases": [
+    "who is taiga",
+    "taiga wisemane lore",
+    "taiga shadowprey"
+   ],
+   "answer": "Taiga Wisemane is a tauren elder staying in Shadowprey Village on the western coast of Desolace. He acts as an advisor and quest giver dedicated to tracking and countering demonic rituals enacted by the Burning Blade cult throughout the region."
+  },
+  {
+   "q": "Why is a tauren living in Shadowprey Village?",
+   "aliases": [
+    "why is taiga in shadowprey",
+    "taiga troll village",
+    "tauren in troll town"
+   ],
+   "answer": "While Shadowprey is primarily a troll settlement, it is the Horde's main outpost along the Desolace coast. Taiga stays there to keep watch over the desolate wastes and enlist passing Horde travelers to neutralize nearby demonic threats."
+  },
+  {
+   "q": "What is the Burning Blade doing in Desolace?",
+   "aliases": [
+    "burning blade desolace",
+    "what are the cultists doing",
+    "thunder axe fortress cultists"
+   ],
+   "answer": "Operating from Thunder Axe Fortress and Mannoroc Coven, the Burning Blade cult is opening demonic gateways to summon forces of the Burning Legion into Kalimdor. Taiga works to undo their efforts before the wasteland is completely overrun."
+  },
+  {
+   "q": "What is the Hand of Iruxos?",
+   "aliases": [
+    "hand of iruxos",
+    "what is demon box",
+    "demon box relic"
+   ],
+   "answer": "The Hand of Iruxos is a demonic artifact locked within a Demon Box at Thunder Axe Fortress. The Burning Blade uses its foul energies to pry open portals to the Nether, but Taiga devises a way to turn the hand's magic against the rifts to seal them shut."
+  },
+  {
+   "q": "What happens at Mannoroc Coven?",
+   "aliases": [
+    "mannoroc coven portals",
+    "what is mannoroc coven",
+    "desolace portals"
+   ],
+   "answer": "Mannoroc Coven is an unholy site in southern Desolace where the Burning Blade successfully established demonic portals. Under Taiga Wisemane's instruction, adventurers take the Hand of Iruxos to the site to forcefully shut down the gateways."
+  },
+  {
+   "q": "Does Taiga belong to a specific tauren tribe?",
+   "aliases": [
+    "taiga tribe",
+    "wisemane tribe",
+    "is taiga bloodhoof"
+   ],
+   "answer": "Taiga carries the Wisemane surname, reflecting his role as an elder deeply concerned with spiritual balance and demonic corruption, though he serves the wider Horde gathered under the banner of the united tribes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Taiga provides crucial direction for Horde champions traveling through Desolace, ensuring that the outpost of Shadowprey Village remains shielded from demonic encroachment."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For tauren travelers, Taiga represents the duty to heal and protect Kalimdor from unnatural demonic blight, standing against the dark legacy that has scarred Desolace."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks will find Taiga's understanding of the Hand of Iruxos notable, as he uses the dark relic's own resonance to collapse demonic portals rather than banish them through holy rites."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "demon box",
+  "desolace",
+  "hand of iruxos",
+  "mannoroc coven",
+  "shadowprey village",
+  "taiga wisemane",
+  "thunder axe fortress"
+ ],
+ "related": [
+  "subzone:shadowprey-village",
+  "zone:desolace",
+  "subzone:thunder-axe-fortress",
+  "subzone:mannoroc-coven",
+  "topic:tauren",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Taiga Wisemane"
+ ]
+}

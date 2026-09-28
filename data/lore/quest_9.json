@@ -1,0 +1,116 @@
+{
+ "key": "quest:9",
+ "type": "quest",
+ "name": "The Killing Fields",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   9
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Farmer Saldean",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Killing Fields",
+  "chain": []
+ },
+ "summary": "The Killing Fields is an Alliance quest offered by Farmer Saldean in Westfall. Saldean tasks adventurers with destroying the rogue Harvest Watchers that overrun his crops and the neighboring farmlands. It illustrates the collapse of local agriculture in the wake of the Defias Brotherhood's disruption.",
+ "sections": [
+  {
+   "title": "A Beleaguered Homestead",
+   "body": "While many farmers across Westfall abandoned their acreage when bandits and outlaws swept through the region, Farmer Saldean and his family resolved to hold their ground. Unfortunately, squatting thieves are not the only threat choking the Saldean farm. The mechanical Harvest Watchers intended to tend and safeguard the grain have gone rampant, pacing the furrows and attacking anyone who approaches.",
+   "spoiler": 0
+  },
+  {
+   "title": "Clearing the Soil",
+   "body": "To keep his farm operable, Saldean enlists passing travelers to dismantle twenty of the hostile automatons across his fields and adjoining plots. Culling these constructs offers temporary relief for Saldean's harvest, preserving a rare pocket of stubborn hope that Westfall's breadbasket might one day be reclaimed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the quest The Killing Fields?",
+   "aliases": [
+    "quest giver killing fields",
+    "who gives the killing fields",
+    "saldean quest"
+   ],
+   "answer": "Farmer Saldean gives the quest from Saldean's Farm, situated along the road in central Westfall."
+  },
+  {
+   "q": "What are Harvest Watchers?",
+   "aliases": [
+    "what are harvest watchers",
+    "harvest watcher lore",
+    "mechanical scarecrows westfall"
+   ],
+   "answer": "Harvest Watchers are clockwork scarecrows built to tend crops and guard fields from pests. Following the unrest and abandonment of Westfall, many of these mechanical constructs were left untended or reprogrammed, turning aggressively upon the very farmers they were designed to serve."
+  },
+  {
+   "q": "Why has Farmer Saldean not fled Westfall like the others?",
+   "aliases": [
+    "why is saldean still here",
+    "farmer saldean lore",
+    "saldean staying"
+   ],
+   "answer": "Unlike the neighbors who abandoned their homesteads to thieves and brigands, Saldean refuses to surrender his livelihood. He stubbornly maintains his plot with help from hired adventurers to repel the rogue machinery."
+  },
+  {
+   "q": "What are the objectives of The Killing Fields?",
+   "aliases": [
+    "killing fields objective",
+    "how many harvest watchers",
+    "what to kill for killing fields"
+   ],
+   "answer": "You are tasked with destroying twenty Harvest Watchers found roaming Saldean's fields and the surrounding abandoned farms."
+  },
+  {
+   "q": "Who are the 'thieves' Saldean mentions?",
+   "aliases": [
+    "who are the thieves",
+    "saldean thieves",
+    "who drove farmers out westfall"
+   ],
+   "answer": "Saldean is referring to the thieves and brigands loosely organized under the Defias Brotherhood, whose raids and extortion drove most homesteaders off their land."
+  },
+  {
+   "q": "Does completing this quest fix Westfall's farming troubles?",
+   "aliases": [
+    "does westfall recover",
+    "killing fields ending",
+    "saldean outcome"
+   ],
+   "answer": "Destroying the twenty Harvest Watchers provides immediate breathing room for Saldean's farm, but the overarching bandit threat and broken machinery across the broader region remain unresolved."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers, helping Saldean represents a direct effort to protect one of the few surviving food supplies in a territory abandoned by the Stormwind crown."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will recognize the Harvest Watchers as automated clockwork wonders gone haywire in the absence of proper maintenance."
+  }
+ ],
+ "keywords": [
+  "clockwork",
+  "defias",
+  "farmer saldean",
+  "harvest watchers",
+  "killing fields",
+  "saldean's farm",
+  "scarecrows",
+  "westfall"
+ ],
+ "related": [
+  "npc:farmer-saldean",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "The Killing Fields"
+ ]
+}

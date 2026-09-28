@@ -1,0 +1,123 @@
+{
+ "key": "npc:abercrombie",
+ "type": "npc",
+ "name": "Abercrombie",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Abercrombie",
+  "refs": 8
+ },
+ "summary": "Abercrombie appears to be a feeble, eccentric hermit dwelling in a dilapidated shack in western Duskwood near Raven Hill Cemetery. Claiming to be a harmless recluse plagued by the horrors of the woods, he readily enlists sympathetic travelers to gather peculiar reagents and supplies on his behalf.",
+ "sections": [
+  {
+   "title": "The Recluse of Raven Hill",
+   "body": "Tucked away in the rotting shadows near Raven Hill Cemetery, Abercrombie cuts a pathetic figure. He presents himself as an old man merely trying to survive the terrors of Duskwood, asking travelers to run modest errands into Darkshire for supplies, herbs, and thread. To those unfamiliar with the history of the region, he seems like just another unfortunate soul left behind as the province fell into decay.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Embalmer's Madness",
+   "body": "Before grief consumed his mind, Abercrombie was a respected, kindly alchemist living in Raven Hill. When his beloved wife, Eliza, died, sorrow broke his sanity. Turning to forbidden necromantic arts, he cut out his own heart and placed it within Eliza's dead breast to bring her back. The ritual succeeded only in creating a monster: Eliza returned cursed with an insatiable hunger for living flesh, forcing the mad alchemist to keep her buried in the cemetery.",
+   "spoiler": 2
+  },
+  {
+   "title": "A Monstrous Deception",
+   "body": "Known in dark folklore simply as 'The Embalmer,' Abercrombie nurses a deep, psychotic grudge against the township of Darkshire and its leaders. The seemingly innocuous tasks he assigns to helpful adventurers\u2014fetching ghoul ribs, specialty thread, and caustic brews\u2014are actually the final components required to assemble Stitches, a colossal, flesh-stitched abomination engineered to slaughter the Night Watch and burn the town.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Abercrombie?",
+   "aliases": [
+    "who is the hermit",
+    "abercrombie lore",
+    "who is abercrombie"
+   ],
+   "answer": "Abercrombie is a hermit dwelling near Raven Hill Cemetery in Duskwood. Once a skilled alchemist, he lost his mind following the death of his wife and is secretly the necromantic figure known as the Embalmer."
+  },
+  {
+   "q": "Why does Abercrombie want supplies from Darkshire?",
+   "aliases": [
+    "why does abercrombie need thread",
+    "abercrombie supplies",
+    "what is abercrombie building"
+   ],
+   "answer": "While Abercrombie claims he needs domestic supplies and thread to survive in the wilderness, he is actually tricking adventurers into gathering the necessary parts to assemble the monstrous abomination Stitches."
+  },
+  {
+   "q": "Who was Eliza?",
+   "aliases": [
+    "eliza abercrombie",
+    "abercrombie wife",
+    "bride of the embalmer"
+   ],
+   "answer": "Eliza was Abercrombie's wife. After she died, Abercrombie attempted to resurrect her using dark magic, transplanting his own heart into her corpse. She returned as a ravenous undead monster that he had to keep buried in Raven Hill Cemetery."
+  },
+  {
+   "q": "What happens when you deliver the Note to the Mayor?",
+   "aliases": [
+    "note to the mayor",
+    "what does the note say",
+    "abercrombie letter"
+   ],
+   "answer": "The note reveals Abercrombie's true identity as the Embalmer and his vengeful hatred for Darkshire. Delivering the letter triggers the march of Stitches down the road to assault the town."
+  },
+  {
+   "q": "Why does Abercrombie hate Darkshire?",
+   "aliases": [
+    "why does abercrombie attack darkshire",
+    "embalmer motive",
+    "abercrombie revenge"
+   ],
+   "answer": "Driven utterly mad by grief and dark magic, Abercrombie blames the town and its leadership for the tragic events of Duskwood and seeks their total destruction through his monstrous creation."
+  },
+  {
+   "q": "Is Abercrombie allied with the Scourge?",
+   "aliases": [
+    "is abercrombie scourge",
+    "who does abercrombie work for"
+   ],
+   "answer": "No. Abercrombie is an independent rogue alchemist and necromancer practicing forbidden arts born of his own grief-fueled madness, unrelated to the Lich King's armies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance heroes who naively lend a helping hand to the miserable hermit unknowingly provide the materials needed to orchestrate an assault on Darkshire."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Abercrombie represents the sinister corruption of necromancy festering under the guise of an ordinary, harmless townsman in need of charity."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Abercrombie's sacrifice of his own heart to reanimate a corpse demonstrates the extreme, self-destructive lengths mortals will go to wield dark magic."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "abomination",
+  "darkshire",
+  "duskwood",
+  "eliza",
+  "embalmer",
+  "ghoulish effigy",
+  "raven hill",
+  "stitches",
+  "the hermit"
+ ],
+ "related": [
+  "topic:stitches",
+  "subzone:raven-hill-cemetery",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "quest:165",
+  "quest:253",
+  "quest:160",
+  "topic:night-watch"
+ ],
+ "attribution": [
+  "Abercrombie"
+ ]
+}

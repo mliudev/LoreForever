@@ -1,0 +1,121 @@
+{
+ "key": "quest:747",
+ "type": "quest",
+ "name": "The Hunt Begins",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   747
+  ],
+  "level": "2",
+  "faction": "Horde",
+  "start": "Grull Hawkwind",
+  "end": "",
+  "previous": null,
+  "next": "The Hunt Continues",
+  "wiki": "The Hunt Begins",
+  "chain": []
+ },
+ "summary": "The Hunt Begins is a foundational rite of passage for young adventurers in Camp Narache on Red Cloud Mesa. Tasked by Grull Hawkwind, initiates are sent to hunt local plainstriders to provide meat and feathers for the village. Fulfilling this task marks the first step toward earning the respect of Chief Hawkwind and eventually gaining entry into Thunder Bluff.",
+ "sections": [
+  {
+   "title": "A Tribe's Sustenance",
+   "body": "On the heights of Red Cloud Mesa, survival and tradition intertwine. The tauren hunt out of necessity to feed and clothe their people, while also viewing the stalk and chase as a vital test of discipline and sport. When the stores of Camp Narache run lean, the community looks to its rising youth to gather fresh plainstrider meat for cooking and sturdy feathers for tribal garments.",
+   "spoiler": 0
+  },
+  {
+   "title": "Earning Recognition",
+   "body": "No aspiring hero simply walks off Red Cloud Mesa into the wider reaches of Mulgore without proving their worth. Grull Hawkwind serves as a primary judge of character for the newcomers, insisting that one must prove their capability before stepping before his father, Chief Hawkwind. Bringing in a clean hunt demonstrates not only self-reliance, but devotion to supporting the tribe.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts the hunt begins",
+    "grull hawkwind"
+   ],
+   "answer": "Grull Hawkwind offers this task in Camp Narache. He is the son of the village leader, Chief Hawkwind, and acts as an early mentor to young hunters and adventurers on Red Cloud Mesa."
+  },
+  {
+   "q": "Why are plainstriders hunted instead of other beasts?",
+   "aliases": [
+    "why plainstriders",
+    "plainstrider meat and feathers",
+    "hunting plainstriders"
+   ],
+   "answer": "Plainstriders are plentiful across the mesa and offer both nutritious meat to replenish dwindling food stores and durable feathers used in traditional tauren clothing and adornments."
+  },
+  {
+   "q": "Why do I have to prove myself before seeing Chief Hawkwind?",
+   "aliases": [
+    "why prove to chief hawkwind",
+    "chief hawkwind approval",
+    "why hunt first"
+   ],
+   "answer": "Tauren society places high value on practical contribution and hunting prowess. Grull Hawkwind requires initiates to demonstrate basic survival skills and loyalty to the village before they are granted audience and deeper responsibilities by the chief."
+  },
+  {
+   "q": "What is the broader goal of these trials on Red Cloud Mesa?",
+   "aliases": [
+    "mesa trials purpose",
+    "why am i on red cloud mesa",
+    "leaving red cloud mesa"
+   ],
+   "answer": "The mesa acts as a proving ground. Once a young tauren proves their capability to Chief Hawkwind and the elders of Camp Narache, they are deemed ready to descend into the wider plains of Mulgore and enter the capital city of Thunder Bluff."
+  },
+  {
+   "q": "What comes after this hunt?",
+   "aliases": [
+    "next quest",
+    "followup",
+    "what is after the hunt begins"
+   ],
+   "answer": "Successfully bringing back the meat and feathers earns Grull's approval, leading directly into 'The Hunt Continues', where initiates track larger, more elusive game across the mesa."
+  },
+  {
+   "q": "Do tauren only hunt for survival?",
+   "aliases": [
+    "tauren hunting philosophy",
+    "hunt for sport",
+    "why do tauren hunt"
+   ],
+   "answer": "While sustenance and resources like leather, bone, and feathers are essential, tauren also practice hunting as sport and spiritual communion, sharpening instincts that keep their tribes alert and strong."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young shu'halo, taking down your first mesa plainstriders is an essential rite of passage, confirming your bond with the land and your duty to feed Camp Narache."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Stalking the swift plainstriders of Red Cloud Mesa serves as the earliest practical exercise in marksmanship, tracking, and honoring the beasts that sustain you."
+  }
+ ],
+ "keywords": [
+  "camp narache",
+  "chief hawkwind",
+  "feathers",
+  "grull hawkwind",
+  "hunt begins",
+  "mulgore",
+  "plainstrider",
+  "red cloud mesa"
+ ],
+ "related": [
+  "npc:grull-hawkwind",
+  "npc:chief-hawkwind",
+  "subzone:camp-narache",
+  "subzone:red-cloud-mesa",
+  "zone:mulgore",
+  "zone:thunderbluff",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "The Hunt Begins"
+ ]
+}

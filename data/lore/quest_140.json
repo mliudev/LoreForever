@@ -1,0 +1,120 @@
+{
+ "key": "quest:140",
+ "type": "quest",
+ "name": "Captain Sanders' Hidden Treasure",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   140
+  ],
+  "level": "16",
+  "faction": "Neutral",
+  "start": "Old Jug",
+  "end": "Locked Chest",
+  "previous": "Captain Sanders' Hidden Treasure (Classic 3)",
+  "next": null,
+  "wiki": "Captain Sanders' Hidden Treasure (Classic 4)",
+  "chain": [
+   "Captain Sanders' Hidden Treasure (Classic 1)",
+   "Captain Sanders' Hidden Treasure (Classic 2)",
+   "Captain Sanders' Hidden Treasure (Classic 3)",
+   "Captain Sanders' Hidden Treasure (Classic 4)"
+  ]
+ },
+ "summary": "This marks the conclusion of Captain Sanders' scavenger hunt across Westfall. Following a whiskey-soaked note discovered inside an old jug, fortune seekers are directed off the western coast to claim a long-buried stash. The venture leads out into the open sea, away from the troubles of the mainland to a remote coastal islet.",
+ "sections": [
+  {
+   "title": "A Sailor's Trail",
+   "body": "Captain Sanders left a trail of clues scattered across the Westfall coastline, daring any adventurous soul to piece them together. The final parchment, pulled from the dregs of his favorite whiskey jug, provides the final bearing. With smudged ink and a distinct smell of liquor, the captain's instructions are straightforward: head directly west to the water's edge and plunge into the waves.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lonely Islet",
+   "body": "Off the coast of Westfall, small rocky outcroppings jut out from the churning Great Sea. Swimming due west leads straight to one such isolated isle where Captain Sanders cached his prize. Half-hidden and braving years of salty surf, the locked chest's rusty hinges stubbornly give way to those persistent enough to see the buccaneer's game through to its end.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the final clue lead?",
+   "aliases": [
+    "where is the chest",
+    "sanders treasure location",
+    "final clue destination"
+   ],
+   "answer": "The whiskey-soaked note inside the Old Jug directs treasure hunters to head directly west to the Westfall shore and keep swimming out into the ocean. The chest sits waiting on a small island out in the water."
+  },
+  {
+   "q": "Who was Captain Sanders?",
+   "aliases": [
+    "who is captain sanders",
+    "sanders lore",
+    "captain sanders background"
+   ],
+   "answer": "Captain Sanders was a buccaneer who sailed the waters along Westfall. Rather than keeping his spoils in a bank or stronghold, he created a riddle-filled trail of clues along the shoreline, burying his lockbox out on a remote island off the coast."
+  },
+  {
+   "q": "Why is the final clue smelling like whiskey?",
+   "aliases": [
+    "whiskey note",
+    "old jug clue"
+   ],
+   "answer": "The final instructions were tucked inside Captain Sanders' discarded whiskey jug near the coast. The dampness and spirits caused the ink to run over time, though the directions remain legible enough to follow."
+  },
+  {
+   "q": "How many steps are in this treasure hunt?",
+   "aliases": [
+    "how long is sanders chain",
+    "sanders quest parts",
+    "captain sanders questline"
+   ],
+   "answer": "The hunt consists of four stages in total. It begins with a sea-battered treasure map found along the coast and winds through several hidden containers\u2014including a footlocker, a barrel, and a whiskey jug\u2014before concluding at the buried chest."
+  },
+  {
+   "q": "Is the island dangerous to reach?",
+   "aliases": [
+    "swimming to sanders chest",
+    "island danger",
+    "murlocs near chest"
+   ],
+   "answer": "The primary challenge is the long swim offshore into the Great Sea. While coastal waters in Westfall are frequently troubled by aggressive murlocs and sea beasts, the islet itself serves mainly as Sanders' private cache."
+  },
+  {
+   "q": "What state is the treasure chest in?",
+   "aliases": [
+    "condition of chest",
+    "is the chest locked",
+    "rusty chest"
+   ],
+   "answer": "Exposed to the damp sea air and crashing surf, the chest has suffered from the elements. Its hinges are heavily rusted, though with a bit of leverage, it can be forced open to claim the goods left inside."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Following a scoundrel's trail across deserted beaches and out to sea feels like second nature to any rogue who appreciates pirate contraband."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans defending Westfall from Defias brigands and gnolls, tracking down a forgotten local pirate's stash offers a welcome respite from farm patrol."
+  }
+ ],
+ "keywords": [
+  "captain sanders",
+  "final clue",
+  "hidden treasure",
+  "island",
+  "locked chest",
+  "old jug",
+  "treasure hunt",
+  "westfall"
+ ],
+ "related": [
+  "quest:136",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Captain Sanders' Hidden Treasure (Classic 4)"
+ ]
+}

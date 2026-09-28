@@ -1,0 +1,114 @@
+{
+ "key": "quest:92124",
+ "type": "quest",
+ "name": "Book Inventory",
+ "era": "forever",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   92124
+  ],
+  "level": "2",
+  "faction": null,
+  "start": "Brother Paxton",
+  "end": "Daniel",
+  "previous": "",
+  "next": "",
+  "wiki": "Book Inventory",
+  "chain": []
+ },
+ "summary": "Book Inventory is an introductory task in Northshire Abbey given by Brother Paxton. Frustrated by misplaced and missing tomes, the abbey's librarian sends young adventurers to find his assistant, Daniel, and take stock of the abbey library's archives. However, Daniel's notorious habit of daydreaming about local tradeskills makes getting a straight answer far more difficult than Paxton would like.",
+ "sections": [
+  {
+   "title": "A Librarian's Frustration",
+   "body": "Northshire Abbey preserves some of the oldest scholarly works, spiritual writings, and historical records left standing in the Kingdom of Stormwind after the First War. Managing these volumes falls upon Brother Paxton, a meticulous monk who takes great pride in the abbey's collection. Lately, books have gone missing from the shelves, threatening Northshire's archival peace. Paxton needs a clear inventory to understand how widespread the loss really is, but he lacks the patience to chase down his daydreaming helper.",
+   "spoiler": 0
+  },
+  {
+   "title": "Daniel's Straying Interests",
+   "body": "Stationed inside the abbey library, Daniel serves as Brother Paxton's assistant, yet the youth's mind rarely stays on parchment and catalog numbers. Instead, Daniel is fascinated by the practical trades of Elwynn Forest\u2014smithing, leatherworking, tailoring, and herbal craft. This preoccupation exasperates Paxton to no end, as every inventory task inevitably leads to the assistant rambling about local crafters rather than locating lost scriptures.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Brother Paxton?",
+   "aliases": [
+    "brother paxton",
+    "who gives book inventory",
+    "paxton elwynn"
+   ],
+   "answer": "Brother Paxton is a monk of Northshire Abbey who tends to the abbey's extensive collection of books, scriptures, and historical scrolls. He is quick to lose his temper when books go missing or when his helpers shirk their duties."
+  },
+  {
+   "q": "Who is Daniel?",
+   "aliases": [
+    "who is daniel",
+    "paxton assistant",
+    "daniel northshire"
+   ],
+   "answer": "Daniel is Brother Paxton's young assistant stationed in the library of Northshire Abbey. Though tasked with organizing books and conducting inventories, he is easily distracted by his passion for tradeskills and professions across Elwynn Forest."
+  },
+  {
+   "q": "Why are books missing from Northshire Abbey?",
+   "aliases": [
+    "why are books missing",
+    "missing books northshire",
+    "lost books abbey"
+   ],
+   "answer": "Northshire Abbey has faced recent unrest and upheaval, leaving its halls busy and disrupted. Between misplaced volumes and possible theft, Brother Paxton needs an accurate count to determine the extent of the loss."
+  },
+  {
+   "q": "Where can Daniel be found?",
+   "aliases": [
+    "where is daniel",
+    "daniel location",
+    "find daniel"
+   ],
+   "answer": "Daniel is located inside Northshire Abbey, specifically studying among the shelves and desks of the abbey library."
+  },
+  {
+   "q": "Why does Paxton call Daniel useless?",
+   "aliases": [
+    "why does paxton hate daniel",
+    "daniel useless"
+   ],
+   "answer": "Paxton considers Daniel useless because the boy constantly neglects his archival duties. Instead of cataloging and shelving books, Daniel spends his hours daydreaming and talking about practical tradeskills."
+  },
+  {
+   "q": "What tradeskills is Daniel interested in?",
+   "aliases": [
+    "daniel tradeskills",
+    "what professions does daniel like"
+   ],
+   "answer": "Daniel is fascinated by the various crafts practiced throughout Elwynn Forest, such as blacksmithing, leatherworking, and tailoring, preferring hands-on labor over dusty tomes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For young humans beginning their service at Northshire Abbey, balancing monastic scholarly duties with practical village life is a familiar struggle."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests studying Northshire's sacred archives rely on order in the library to preserve holy scriptures and Church traditions."
+  }
+ ],
+ "keywords": [
+  "book inventory",
+  "brother paxton",
+  "daniel",
+  "elwynn forest",
+  "library",
+  "northshire abbey",
+  "professions",
+  "tradeskills"
+ ],
+ "related": [
+  "zone:elwynn",
+  "quest:344"
+ ],
+ "attribution": [
+  "Book Inventory"
+ ]
+}

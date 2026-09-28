@@ -1,0 +1,120 @@
+{
+ "key": "quest:532",
+ "type": "quest",
+ "name": "Battle of Hillsbrad",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   532
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "High Executor Darthalia",
+  "end": "",
+  "previous": "Battle of Hillsbrad (3)",
+  "next": "Battle of Hillsbrad (5)",
+  "wiki": "Battle of Hillsbrad (4)",
+  "chain": []
+ },
+ "summary": "This critical phase of the Forsaken campaign against Southshore's surrounding holdings targets the civic leadership of Hillsbrad town. Directed by High Executor Darthalia from Tarren Mill, Horde forces strike at Magistrate Burnside, his council, and their administrative records to completely shatter human governance in the foothills.",
+ "sections": [
+  {
+   "title": "Decapitating the Town Council",
+   "body": "Even after suffering severe casualties across their fields and patrols, the human defenders of Hillsbrad cling to their remaining civil authority. High Executor Darthalia recognizes that ordinary peasants and militia rally behind their civic leaders. To ensure the town completely collapses, Forsaken operatives are dispatched directly into the Town Hall to execute Magistrate Burnside and five of his councilmen, severing the chain of command.",
+   "spoiler": 0
+  },
+  {
+   "title": "Erasing the Civic Record",
+   "body": "Beyond physical assassinations, Darthalia seeks the total psychological and administrative dismantling of Hillsbrad. Operatives must burn the Hillsbrad Proclamation, a revered political document that symbolizes the settlement's charter and pride. Alongside its destruction, the town registry is seized, depriving the surviving Alliance loyalists of their official records and citizen registries while giving Undercity intelligence detailed insight into the local populace.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who orders this strike?",
+   "aliases": [
+    "who gives this quest",
+    "quest giver battle of hillsbrad",
+    "darthalia hillsbrad"
+   ],
+   "answer": "High Executor Darthalia, the Forsaken commander stationed at Tarren Mill, orchestrates the assault as part of her broader campaign to wipe Alliance settlements from the foothills."
+  },
+  {
+   "q": "Who is Magistrate Burnside?",
+   "aliases": [
+    "magistrate burnside",
+    "who is burnside",
+    "hillsbrad leader"
+   ],
+   "answer": "Magistrate Burnside is the magistrate and political leader of the human town of Hillsbrad. Stationed inside the town hall alongside his councilors, he uses arcane magic to defend the remaining authority of the settlement."
+  },
+  {
+   "q": "What is the Hillsbrad Proclamation?",
+   "aliases": [
+    "what is the proclamation",
+    "hillsbrad proclamation lore",
+    "destroy proclamation"
+   ],
+   "answer": "The Hillsbrad Proclamation is an esteemed political charter kept prominently within the Town Hall. It embodies the legal governance and spirit of the town's people, making its destruction a devastating blow to civic morale."
+  },
+  {
+   "q": "Why does Darthalia want the town registry?",
+   "aliases": [
+    "why steal registry",
+    "hillsbrad town registry",
+    "what does registry do"
+   ],
+   "answer": "The town registry contains a full census and civic documentation of Hillsbrad's population. Stealing it strips the surviving humans of their administrative memory while offering the Forsaken vital intelligence on who remains in the area."
+  },
+  {
+   "q": "Where does this fight take place?",
+   "aliases": [
+    "where is magistrate burnside",
+    "hillsbrad town hall location",
+    "where are councilmen"
+   ],
+   "answer": "The targets reside in and around the large Town Hall building situated within the human settlement of Hillsbrad, located in the southern foothills between Tarren Mill and Southshore."
+  },
+  {
+   "q": "What role do the councilmen play?",
+   "aliases": [
+    "hillsbrad councilmen",
+    "who are councilmen"
+   ],
+   "answer": "The Hillsbrad Councilmen serve as the governing body aiding Magistrate Burnside. They are capable spellcasters who defend both the interior of the Town Hall and its surrounding grounds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Striking the town hall cripples the Alliance's ability to coordinate local militia, firmly securing Tarren Mill's southern frontier against human counterattacks."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, eradicating Hillsbrad's human governance is both strategic expansion and ruthless retribution against the living who dispute Lordaeron's borders."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The slaughter of Magistrate Burnside and the burning of the town charter mark the catastrophic fall of Hillsbrad's last legitimate local government."
+  }
+ ],
+ "keywords": [
+  "battle of hillsbrad",
+  "darthalia",
+  "hillsbrad councilmen",
+  "hillsbrad proclamation",
+  "hillsbrad town registry",
+  "magistrate burnside",
+  "tarren mill",
+  "town hall"
+ ],
+ "related": [
+  "npc:high-executor-darthalia",
+  "subzone:tarren-mill",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Battle of Hillsbrad (4)"
+ ]
+}

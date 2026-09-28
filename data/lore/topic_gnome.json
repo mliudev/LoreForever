@@ -1,0 +1,128 @@
+{
+ "key": "topic:gnome",
+ "type": "topic",
+ "name": "Gnome",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Gnome"
+ },
+ "summary": "Gnomes are a diminutive, eccentric, and astonishingly intelligent race renowned across Azeroth for their inventive engineering and mastery of the arcane. Despite their cheerful demeanor, they recently suffered a catastrophic tragedy when a subterranean trogg invasion and a disastrous defense plan irradiated their capital of Gnomeregan. Now living as refugees in Ironforge's Tinker Town, the gnomes remain staunch Alliance allies as they fight to reclaim their lost home.",
+ "sections": [
+  {
+   "title": "Ingenuity and Optimism",
+   "body": "Small in stature but towering in intellect, gnomes approach the world with boundless curiosity and scientific ambition. While other races focus on recording histories and preserving traditions, gnomes look relentlessly forward, dedicating their lives to mechanical engineering, arcane studies, and technological innovation. Their inventions\u2014ranging from clockwork devices and flying machines to complex subterranean trains\u2014have shaped the modern world. Even after devastating hardships, gnomefolk maintain an irrepressible cheerfulness and an unshakable drive to rebuild and solve the impossible.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forged in the Mountains",
+   "body": "Millennia ago, the ancient ancestors of the gnomes emerged from the titan vaults of Uldaman, afflicted by the Curse of Flesh. Forgetting their titan-forged origins over generations, they settled in the frozen crags of Dun Morogh. When the dwarves arrived centuries later, the two peoples discovered an immediate kinship. Dwarven brawn and gnomish ingenuity united to carve out the marvelous subterranean techno-city of Gnomeregan in western Dun Morogh. The gnomes abandoned hereditary monarchy four centuries ago when their last king departed, electing visionary leaders known as High Tinkers instead.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall of Gnomeregan",
+   "body": "During the Third War, the gnomes sent armaments to Lordaeron but withheld troops, drawing confusion from their allies. In truth, an apocalyptic catastrophe had struck their doorstep: hordes of savage troggs, stirred by excavations near Uldaman, surged into Gnomeregan's lower sectors. Desperate to purge the invaders without burdening an embattled Alliance, High Tinker Gelbin Mekkatorque followed the council of his chief advisor and vented radioactive waste into the lower city. The toxic gambit failed utterly. The troggs survived mutated and frenzied, while nearly eighty percent of the gnomish population perished.",
+   "spoiler": 1
+  },
+  {
+   "title": "Exile in Tinker Town",
+   "body": "The surviving gnomes fled their poisoned home, finding sanctuary among their dwarven cousins in Ironforge. High Tinker Mekkatorque and his people established a bustling enclave in Ironforge's Tinker Town, continuing to support the Alliance and oversee the Deeprun Tram linking Ironforge to Stormwind. From this adopted quarter, gnomish commandos and brave volunteers constantly mount expeditions into Gnomeregan's irradiated depths, striving to clear out the troggs, deal with mechanical abominations, and someday reclaim their grand city.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are gnomes living in Ironforge instead of their own city?",
+   "aliases": [
+    "why in ironforge",
+    "where do gnomes live",
+    "gnome refugee city"
+   ],
+   "answer": "Gnomes are currently refugees residing in Tinker Town within Ironforge. Their ancestral home of Gnomeregan was overrun by a sudden invasion of subterranean troggs. During the crisis, a desperate plan to irradiate the troggs went wrong, bathing the city in lethal fallout and killing the vast majority of its inhabitants. King Magni Bronzebeard offered the survivors shelter in the dwarven capital."
+  },
+  {
+   "q": "Who leads the gnomes?",
+   "aliases": [
+    "gnome leader",
+    "gnome king",
+    "who rules gnomes",
+    "high tinker"
+   ],
+   "answer": "The gnomes are led by High Tinker Gelbin Mekkatorque. Rather than maintaining a hereditary royal line, gnomes elect their leaders based on merit, engineering prowess, and visionary thinking. Mekkatorque carries the heavy burden of having ordered the irradiation of Gnomeregan to stop the troggs, and now directs the war effort to take back their home."
+  },
+  {
+   "q": "Why didn't the gnomes help fight the Scourge in Lordaeron?",
+   "aliases": [
+    "gnomes in third war",
+    "why gnomes skipped third war",
+    "gnomes third war help"
+   ],
+   "answer": "While the gnomes provided siege weapons and technology to the Alliance of Lordaeron, they could not spare soldiers because Gnomeregan was fighting for its survival against troggs at the exact same time. The gnomes chose not to ask their allies for help, believing the Alliance had enough to handle against the undead Scourge."
+  },
+  {
+   "q": "What is the Deeprun Tram?",
+   "aliases": [
+    "who built the tram",
+    "stormwind ironforge train",
+    "deeprun tram origin"
+   ],
+   "answer": "The Deeprun Tram is an extraordinary subterranean railway designed by High Tinker Gelbin Mekkatorque and built by gnomish engineers. It connects Tinker Town in Ironforge directly to the dwarven district of Stormwind City, allowing rapid transport of troops, supplies, and travelers between the two allied capitals."
+  },
+  {
+   "q": "What is the rivalry between gnomes and goblins?",
+   "aliases": [
+    "gnomes vs goblins",
+    "gnome goblin engineering",
+    "why do gnomes hate goblins"
+   ],
+   "answer": "Gnomes and goblins possess an intense cultural and technological rivalry that flared during the Second War. Gnomish engineering focuses on precision, stability, and intricate, safe mechanisms. In contrast, goblin engineering prioritizes raw explosive power, cheap production, and swift results regardless of volatility. Both races constantly attempt to out-invent and mock one another."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Your people carry the tragic loss of Gnomeregan with quiet resolve, using brilliance, optimism, and explosive firepower to fight for your stolen home from exile in Tinker Town."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The gnomes are your oldest and dearest mountain neighbors; opening Ironforge's gates to their survivors in Tinker Town was an easy choice after generations of shared brotherhood."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Gnomish engineering is world-renowned for sophisticated contraptions, ray devices, and mind-boggling precision that values meticulous design over volatile goblin detonations."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Despite their diminutive size, gnomes are exceptionally gifted arcanists who have served as foundational scholars and members of Dalaran's councils since ancient times."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance owes immense strategic mobility and siege technology to the gnomes, who faithfully supply machines and maintain the Deeprun Tram despite their own displacement."
+  }
+ ],
+ "keywords": [
+  "deeprun tram",
+  "gnomanity",
+  "gnome",
+  "gnomeregan",
+  "gnomes",
+  "high tinker",
+  "mechagnome",
+  "mekkatorque",
+  "tinker town",
+  "trogg"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "npc:gelbin-mekkatorque",
+  "subzone:tinker-town",
+  "zone:ironforge",
+  "subzone:deeprun-tram",
+  "topic:trogg",
+  "topic:goblin",
+  "subzone:uldaman"
+ ],
+ "attribution": [
+  "Gnome"
+ ]
+}

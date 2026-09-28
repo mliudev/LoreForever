@@ -1,0 +1,127 @@
+{
+ "key": "quest:6344",
+ "type": "quest",
+ "name": "Nessa Shadowsong",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   6344
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Mydrannul",
+  "end": "Nessa Shadowsong",
+  "previous": null,
+  "next": "The Bounty of Teldrassil",
+  "wiki": "Nessa Shadowsong (quest)",
+  "chain": [
+   "Nessa Shadowsong (quest)",
+   "The Bounty of Teldrassil",
+   "Flight to Auberdine",
+   "Return to Nessa"
+  ]
+ },
+ "summary": "Nessa Shadowsong is an introductory courier quest offered by Mydrannul in Darnassus. It guides fledgling adventurers down from the World Tree to Rut'theran Village to meet the fishing merchant Nessa Shadowsong. This task serves as the initial step connecting the canopy capital to the shores and harbors below.",
+ "sections": [
+  {
+   "title": "A Errand Beyond the Canopy",
+   "body": "Within Darnassus, Mydrannul watches over travelers looking for work and purpose. When fishing merchant Nessa Shadowsong needs a package delivered across the sea to Darkshore, Mydrannul directs able couriers toward the coast. While many young night elves spend their early journeys entirely within the boughs of Teldrassil, this simple request encourages them to look outward to the mainland.",
+   "spoiler": 0
+  },
+  {
+   "title": "Descending to the Docks",
+   "body": "Reaching Rut'theran Village requires stepping through the glowing roots of the city's western portal near the Temple Gardens. The gateway descends through the World Tree to its ocean-level roots, where fishing docks and hippogryph perches connect Teldrassil to the rest of Kalimdor. There, Nessa Shadowsong tends to her trade, preparing shipments meant for the port settlement of Auberdine.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts this quest?",
+   "aliases": [
+    "quest giver",
+    "where to get nessa shadowsong quest",
+    "mydrannul location"
+   ],
+   "answer": "The quest is offered by Mydrannul, located within Darnassus near the tradesmen and craftsmen areas."
+  },
+  {
+   "q": "How do I get to Rut'theran Village?",
+   "aliases": [
+    "how to reach ruttheran",
+    "rut'theran portal",
+    "exit darnassus"
+   ],
+   "answer": "Head west of the Temple Gardens in Darnassus. Step through the large, glowing tree portal to be transported instantly down to Rut'theran Village at the base of Teldrassil."
+  },
+  {
+   "q": "Who is Nessa Shadowsong?",
+   "aliases": [
+    "nessa shadowsong role",
+    "what does nessa do",
+    "nessa shadowsong npc"
+   ],
+   "answer": "Nessa Shadowsong is an elven fishing supplier stationed at the docks of Rut'theran Village. She oversees goods and parcels moving between Teldrassil and the mainland of Darkshore."
+  },
+  {
+   "q": "Where does this quest chain lead?",
+   "aliases": [
+    "what comes after nessa shadowsong",
+    "next quest in chain",
+    "teldrassil flight chain"
+   ],
+   "answer": "Speaking with Nessa immediately leads into 'The Bounty of Teldrassil', which introduces adventurers to the flight master and provides their first flight across the water to Auberdine."
+  },
+  {
+   "q": "Is Nessa related to Maiev Shadowsong?",
+   "aliases": [
+    "nessa maiev relation",
+    "shadowsong family",
+    "is nessa related to maiev"
+   ],
+   "answer": "While they share the surname Shadowsong, there is no recorded personal connection between Nessa, a humble dockside fishing merchant, and the legendary warden Maiev Shadowsong."
+  },
+  {
+   "q": "Why is this errand important for young adventurers?",
+   "aliases": [
+    "why do this quest",
+    "significance of quest"
+   ],
+   "answer": "It acts as the primary navigational breadcrumb teaching new heroes how to exit the crown of Teldrassil, discover the docks below, and learn to use hippogryph flight paths to reach mainland Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elf adventurers, this journey marks the traditional departure from the tranquil heights of Darnassus to the bustling coastal routes that link their new home with the ancient shores of Darkshore."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This errand introduces the critical logistics network tying the isolated island of Teldrassil to the rest of the Alliance territories on Kalimdor."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "courier",
+  "darkshore",
+  "darnassus",
+  "mydrannul",
+  "nessa shadowsong",
+  "portal",
+  "rut'theran village",
+  "temple gardens"
+ ],
+ "related": [
+  "quest:6341",
+  "quest:6342",
+  "quest:6343",
+  "subzone:rut-theran-village",
+  "zone:darnassus",
+  "subzone:temple-gardens",
+  "npc:mydrannul",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Nessa Shadowsong (quest)"
+ ]
+}

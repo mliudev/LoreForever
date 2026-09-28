@@ -1,0 +1,121 @@
+{
+ "key": "npc:lord-serpentis",
+ "type": "npc",
+ "name": "Lord Serpentis",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "wiki": "Lord Serpentis",
+  "refs": 5
+ },
+ "summary": "Lord Serpentis is a corrupted night elf druid who stands as the supreme leader of the rogue Druids of the Fang within the Wailing Caverns. Once the most promising disciple of the master druid Naralex, his lofty ambition twisted into madness when the Emerald Nightmare took hold of the subterranean springs. Now, he commands the serpent-worshipping sect and aggressively protects the slumbering teacher he failed to emulate.",
+ "sections": [
+  {
+   "title": "From Star Pupil to Serpent Lord",
+   "body": "Before darkness overtook the cavern springs, Serpentis was revered as Naralex's finest and most capable apprentice. He possessed exceptional power and prestige among the Cenarion circle, driven primarily by an ambition to become an honored teacher\u2014a shan'do\u2014in his own right. However, when Naralex attempted to tap the subterranean water beneath the Barrens and fell prey to a corrupting nightmare, Serpentis's pride and ambition left his mind vulnerable to the emerging madness.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fang's Sovereign",
+   "body": "Succumbing completely to the corruption radiating from Naralex's twisted dreams, Serpentis rallied his fellow apprentices to his side. Forsaking traditional Cenarion balance and the totem animals of old, they established the Druids of the Fang. Serpentis crowned himself lord of this new order, reshaping his brethren into serpent-worshipping zealots dedicated to spreading the nightmare rather than cleansing the Barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Final Obstacle",
+   "body": "Perched deep inside the winding caverns, Lord Serpentis serves as the ideological and martial keystone of the rogue sect. As long as he lives, the Druids of the Fang remain united in their defense of the sleeping Naralex. Those seeking to wake the trapped master or reclaim the waters of the Oasis must strike down Serpentis and claim the gem he carries, breaking the serpent's hold over the labyrinth.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lord Serpentis?",
+   "aliases": [
+    "who is serpentis",
+    "lord serpentis lore",
+    "serpentis background"
+   ],
+   "answer": "Lord Serpentis is the leader of the Druids of the Fang, located deep within the Wailing Caverns. Originally a high-ranking night elf druid and the foremost student of Naralex, he was corrupted by the Emerald Nightmare and took leadership of the fallen apprentices."
+  },
+  {
+   "q": "Why did Serpentis turn evil?",
+   "aliases": [
+    "why did serpentis turn",
+    "serpentis corruption",
+    "why is serpentis bad"
+   ],
+   "answer": "Serpentis desperately sought to achieve the status of a shan'do\u2014an honored master. When Naralex fell into a corrupting trance beneath the Barrens, the Emerald Nightmare exploited Serpentis's ambition and pride, turning his mind toward madness and serpent worship."
+  },
+  {
+   "q": "What is his relationship to Naralex?",
+   "aliases": [
+    "serpentis and naralex",
+    "is serpentis related to naralex",
+    "naralex apprentice"
+   ],
+   "answer": "Serpentis was once Naralex's most gifted student. Rather than aiding in his master's recovery, Serpentis's twisted devotion led him to form the Druids of the Fang to protect Naralex's slumber and nurture the nightmare corrupting him."
+  },
+  {
+   "q": "Why do players need to kill him?",
+   "aliases": [
+    "why kill serpentis",
+    "leaders of the fang serpentis",
+    "gem of serpentis"
+   ],
+   "answer": "Serpentis is the supreme commander of the Druids of the Fang. Eliminating him is essential to break the sect's grip on the Wailing Caverns, secure his gem for the quest Leaders of the Fang, and clear a path toward awakening Naralex."
+  },
+  {
+   "q": "What does shan'do mean?",
+   "aliases": [
+    "shando meaning",
+    "what is a shando",
+    "shan'do definition"
+   ],
+   "answer": "In Darnassian, shan'do translates to 'honored teacher.' It is a reverent title bestowed upon legendary druid instructors, such as Malfurion Stormrage or Naralex, and was the rank Serpentis obsessively wished to obtain."
+  },
+  {
+   "q": "Who are the Druids of the Fang?",
+   "aliases": [
+    "druids of the fang lore",
+    "what are druids of the fang",
+    "fang druids"
+   ],
+   "answer": "They are a renegade faction of night elf druids who followed Naralex into the Wailing Caverns. Corrupted by the Emerald Nightmare, they abandoned traditional druidic forms to adopt the aspects, venoms, and behaviors of serpents under Serpentis's command."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Serpentis represents the tragic danger of unchecked ambition within the Cenarion Circle, showcasing what happens when a promising practitioner allows the Emerald Nightmare to twist the sacred bonds between student and shan'do."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, Serpentis and his followers are a painful disgrace\u2014kaldorei scholars of great renown who threw away their sacred duty to nature to become monstrous serpent lords."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren see the corruption of Serpentis as a foul desecration of the Earth Mother's balance, threatening the fragile ecosystem of the Barrens with unnatural madness."
+  }
+ ],
+ "keywords": [
+  "druids of the fang",
+  "gem of serpentis",
+  "leaders of the fang",
+  "lord serpentis",
+  "naralex",
+  "serpentis",
+  "shan'do",
+  "wailing caverns"
+ ],
+ "related": [
+  "npc:naralex",
+  "zone:wailing",
+  "quest:914",
+  "topic:druids-of-the-fang",
+  "topic:shan-do",
+  "topic:druid",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Lord Serpentis"
+ ]
+}

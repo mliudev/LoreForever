@@ -1,0 +1,88 @@
+{
+ "key": "npc:captain-shatterskull",
+ "type": "npc",
+ "name": "Captain Shatterskull",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Captain Shatterskull",
+  "refs": 1
+ },
+ "summary": "Captain Shatterskull is a seasoned orc commander stationed at the Mor'shan Base Camp on the northern frontier of the Barrens. Serving as a crucial bulwark for the Horde, he coordinates efforts to repulse night elf forces contesting the border near Warsong Gulch.",
+ "sections": [
+  {
+   "title": "Guardian of the Northern Border",
+   "body": "Positioned at Mor'shan Base Camp along the edge of Ashenvale, Captain Shatterskull serves on the front lines of the Horde's territorial clashes. Beside fellow officers like Kadrak, Shatterskull works to maintain the Horde's foothold against night elf sentinels and Silverwing forces striving to reclaim the borderlands. His post demands relentless vigilance, as the conflict over Ashenvale's timber and ancient lands constantly threatens to spill over into the Barrens.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Shatterskull?",
+   "aliases": [
+    "shatterskull identity",
+    "who is captain shatterskull",
+    "shatterskull npc"
+   ],
+   "answer": "Captain Shatterskull is an orc military officer stationed at Mor'shan Base Camp on the northern edge of the Barrens, overseeing defense efforts against the night elves."
+  },
+  {
+   "q": "Where can Captain Shatterskull be found?",
+   "aliases": [
+    "shatterskull location",
+    "where is captain shatterskull",
+    "morshan camp shatterskull"
+   ],
+   "answer": "He is located at Mor'shan Base Camp, situated at the far northern border of the Barrens right before entering Ashenvale."
+  },
+  {
+   "q": "What is his role at Mor'shan Base Camp?",
+   "aliases": [
+    "what does shatterskull do",
+    "shatterskull purpose",
+    "mor'shan commander"
+   ],
+   "answer": "Shatterskull serves as a field commander assisting in the defense of the Horde's northern frontier, marshaling warriors to push back against the Alliance's Silverwing Sentinels."
+  },
+  {
+   "q": "Who does Captain Shatterskull work with?",
+   "aliases": [
+    "shatterskull allies",
+    "kadrak and shatterskull"
+   ],
+   "answer": "He serves alongside other prominent frontline officers such as Kadrak at the camp, coordinating defense and recruitment for border skirmishes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For Horde warriors arriving from the southern Barrens, Captain Shatterskull represents the rugged vanguard holding back night elf incursions from Ashenvale."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Shatterskull exemplifies the unyielding martial spirit of the new Horde, safeguarding their hard-won lands against those who view their presence as an invasion."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "captain shatterskull",
+  "kadrak",
+  "mor'shan base camp",
+  "orc captain",
+  "shatterskull",
+  "silverwing",
+  "warsong"
+ ],
+ "related": [
+  "subzone:mor-shan-base-camp",
+  "npc:kadrak",
+  "quest:7789",
+  "zone:barrens",
+  "topic:horde",
+  "subzone:razor-hill",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Captain Shatterskull"
+ ]
+}

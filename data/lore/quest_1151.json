@@ -1,0 +1,123 @@
+{
+ "key": "quest:1151",
+ "type": "quest",
+ "name": "Test of Strength",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1151
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Dorn Plainstalker",
+  "end": "",
+  "previous": "Test of Endurance",
+  "next": "Test of Lore",
+  "wiki": "Test of Strength",
+  "chain": []
+ },
+ "summary": "The Test of Strength is the third trial overseen by the tauren mystic Dorn Plainstalker in Thousand Needles. To prove their physical prowess, Horde champions are tasked with hunting down Rok'Alim the Pounder, an ancient, free-roaming rock elemental, and returning with remnants of his shattered form.",
+ "sections": [
+  {
+   "title": "Remnants of the Black Empire",
+   "body": "Long ago, during the reign of the Old Gods, primordial elementals blanketed the surface of the world, serving their dark masters. When those ancient entities were overthrown and sealed beneath the earth, the elemental spirits lost their tether to this realm, largely fading from physical existence unless bound and summoned by modern spellcraft. A few entities, however, were stubborn and potent enough to linger on Azeroth indefinitely without magical anchors. Rok'Alim the Pounder is one such relic, wandering the arid canyons of Thousand Needles as a living echo of that primordial age.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Pounder of Thousand Needles",
+   "body": "The local centaur clans gave Rok'Alim his moniker on account of the deafening, earthquake-like crashes produced when his stone fists strike the canyon floor. Anyone foolish or bold enough to stray into his roaming path is hammered into dust. Because Rok'Alim represents raw, unbridled physical mass, Dorn Plainstalker directs initiates to break the beast as a direct measure of their warrior spirit, demanding fragments of the elemental's stony heart as proof of victory.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this quest begin and end?",
+   "aliases": [
+    "quest giver",
+    "where to turn in",
+    "dorn location"
+   ],
+   "answer": "The quest is offered and completed by Dorn Plainstalker, a tauren elder stationed at the Weathered Nook, a secluded canyon camp nestled high among the spires of Thousand Needles."
+  },
+  {
+   "q": "What is Rok'Alim the Pounder?",
+   "aliases": [
+    "who is rokalim",
+    "what kind of mob is rokalim",
+    "elemental lore"
+   ],
+   "answer": "Rok'Alim is an ancient rock elemental who has endured in Kalimdor since the era of the Old Gods. Unlike modern summoned elementals, he possesses enough innate power to remain physically manifest on Azeroth entirely on his own."
+  },
+  {
+   "q": "Why do the centaur call him 'the Pounder'?",
+   "aliases": [
+    "the pounder nickname",
+    "centaur name for rokalim"
+   ],
+   "answer": "The centaur tribes in the canyon dubbed him the Pounder because of the thunderous, rolling shockwaves his stone fists unleash when smashing anything in his path."
+  },
+  {
+   "q": "Where can Rok'Alim be found in the canyon?",
+   "aliases": [
+    "rokalim spawn",
+    "where is rokalim"
+   ],
+   "answer": "Rok'Alim wanders the northwestern stretches of Thousand Needles, generally patrolling open ground south of the main road that cuts through the canyon floor."
+  },
+  {
+   "q": "What place does this quest hold in the overall trial chain?",
+   "aliases": [
+    "quest chain order",
+    "what comes next",
+    "what comes before"
+   ],
+   "answer": "Test of Strength is the third trial in the chain. It follows the Test of Faith and the Test of Endurance, and directly precedes the final trial, the Test of Lore."
+  },
+  {
+   "q": "Why does Dorn require an elemental to be slain instead of a beast or enemy?",
+   "aliases": [
+    "why kill an elemental",
+    "purpose of test of strength"
+   ],
+   "answer": "Dorn chooses Rok'Alim because the elemental is a pure manifestation of living stone and unyielding, primordial force. Conquering such an opponent proves physical superiority over the raw, unbending earth itself."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren pilgrims, facing down an untamed spirit of stone is a traditional test of harmony and physical will, demonstrating the hunter's capacity to endure and overcome the harshest forces of the Earth Mother."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman recognize Rok'Alim not just as an obstacle, but as a dangerous, unbound manifestation of earth whose refusal to yield disturbs the local balance of spirits."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Completing the Weathered Nook rites earns the respect of the Thunder Bluff elders and cements an adventurer's reputation across Kalimdor."
+  }
+ ],
+ "keywords": [
+  "dorn plainstalker",
+  "old gods",
+  "rock elemental",
+  "rok'alim",
+  "test of strength",
+  "the pounder",
+  "thousand needles",
+  "weathered nook"
+ ],
+ "related": [
+  "npc:dorn-plainstalker",
+  "subzone:weathered-nook",
+  "quest:1150",
+  "quest:1152",
+  "quest:1149",
+  "zone:thousandneedles",
+  "topic:old-god",
+  "topic:centaur"
+ ],
+ "attribution": [
+  "Test of Strength"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "npc:morgan-pestle",
+ "type": "npc",
+ "name": "Morgan Pestle",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Morgan Pestle",
+  "refs": 1
+ },
+ "summary": "Morgan Pestle is a human alchemist and shopkeeper who runs Pestle's Apothecary in the Trade District of Stormwind City. Working closely with his brother William Pestle in Goldshire, he handles supplies and alchemical research for the capital.",
+ "sections": [
+  {
+   "title": "The City Apothecary",
+   "body": "Operating out of Pestle's Apothecary along the busy thoroughfares of Stormwind's Trade District, Morgan Pestle provides alchemical goods, reagents, and practical remedies to city residents and passing travelers. While his brother William maintains a workshop at the Lion's Pride Inn in Goldshire, Morgan keeps the family trade rooted in the heart of the kingdom's capital, managing shipments of herbs and compounds back and forth from the rural heartlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Morgan Pestle?",
+   "aliases": [
+    "morgan pestle location",
+    "where is morgan pestle",
+    "pestle apothecary stormwind"
+   ],
+   "answer": "Morgan Pestle is located inside Pestle's Apothecary, a shop in the Trade District of Stormwind City."
+  },
+  {
+   "q": "How is Morgan Pestle related to William Pestle?",
+   "aliases": [
+    "william pestle brother",
+    "are william and morgan related",
+    "pestle brothers"
+   ],
+   "answer": "Morgan and William Pestle are brothers. Both work as alchemists in Elwynn, with Morgan running their shop in Stormwind and William working out of Goldshire."
+  },
+  {
+   "q": "What role does he play in Elwynn quests?",
+   "aliases": [
+    "shipment to stormwind morgan",
+    "morgan pestle quest"
+   ],
+   "answer": "Morgan serves as the recipient for shipments and alchemical supplies sent northward from Goldshire by his brother William, connecting local herb harvesting with city commerce."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Morgan relies heavily on fresh ingredients gathered across Elwynn Forest and beyond to supply his apothecary shop in the Trade District."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance adventurers arriving in Stormwind from Elwynn, Morgan's shop is an essential stop for practical alchemical needs and local city deliveries."
+  }
+ ],
+ "keywords": [
+  "alchemist",
+  "morgan pestle",
+  "pestle apothecary",
+  "shipment to stormwind",
+  "stormwind",
+  "trade district",
+  "william pestle"
+ ],
+ "related": [
+  "npc:william-pestle",
+  "subzone:trade-district",
+  "zone:stormwind",
+  "quest:61",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Morgan Pestle"
+ ]
+}

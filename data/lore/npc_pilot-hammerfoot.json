@@ -1,0 +1,94 @@
+{
+ "key": "npc:pilot-hammerfoot",
+ "type": "npc",
+ "name": "Pilot Hammerfoot",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Pilot Hammerfoot",
+  "refs": 2
+ },
+ "summary": "Pilot Hammerfoot is a dwarven mountaineer and aviator stationed near the mountain passes connecting Dun Morogh and Loch Modan. Grief-stricken over the loss of a comrade to the local troggs, he seeks willing adventurers to avenge fallen Ironforge flyers. His presence highlights the dangers faced by dwarven scouts along the high alpine ridges.",
+ "sections": [
+  {
+   "title": "Eyes in the Mountains",
+   "body": "Dwarven flying machines provide Ironforge with an unmatched aerial advantage across Khaz Modan, but patrolling harsh mountainous terrain carries extreme risk. Stationed at the North Gate Outpost overlooking the border between Dun Morogh and Loch Modan, Pilot Hammerfoot monitors the mountain passes. When an expedition goes down, recovery quickly becomes a priority, especially with violent trogg tribes prowling the nearby ravines.",
+   "spoiler": 0
+  },
+  {
+   "title": "Avenging a Comrade",
+   "body": "Hammerfoot was close friends with Pilot Morter, another dwarven scout whose craft crashed in the snowy peaks nearby. Upon learning that Morter was slain by the ferocious trogg leader Mangeclaw, Hammerfoot's mission shifts from routine border watch to personal vengeance, demanding retribution against the beast responsible for his friend's death.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Pilot Hammerfoot?",
+   "aliases": [
+    "hammerfoot lore",
+    "who is hammerfoot",
+    "pilot hammerfoot info"
+   ],
+   "answer": "Pilot Hammerfoot is a dwarven flyer and mountaineer serving Ironforge. He is stationed at North Gate Outpost along the pass connecting Dun Morogh to Loch Modan, watching over regional borders and his fellow aviators."
+  },
+  {
+   "q": "Where can Pilot Hammerfoot be found?",
+   "aliases": [
+    "hammerfoot location",
+    "where is pilot hammerfoot",
+    "where is hammerfoot"
+   ],
+   "answer": "He is located at North Gate Outpost, situated along the mountain highway guarding the tunnel pass between Dun Morogh and Loch Modan."
+  },
+  {
+   "q": "What happened to Hammerfoot's partner, Pilot Morter?",
+   "aliases": [
+    "pilot morter fate",
+    "what happened to morter",
+    "morter death"
+   ],
+   "answer": "Pilot Morter crashed his flying machine in the rugged mountains of Dun Morogh. While surviving the impact, he was ultimately tracked down and killed by the savage trogg known as Mangeclaw."
+  },
+  {
+   "q": "Why does Hammerfoot want revenge?",
+   "aliases": [
+    "pilot revenge why",
+    "why avenge morter",
+    "mangeclaw grudge"
+   ],
+   "answer": "Hammerfoot shared a deep bond with Pilot Morter as fellow aviators. Hearing of Morter's brutal death at the claws of Mangeclaw drives Hammerfoot to seek bloody vengeance to honor his fallen friend."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Hammerfoot embodies the fierce camaraderie of the Ironforge mountaineers, refusing to let a fallen brother's murder go unanswered."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Aiding Hammerfoot secures vital reconnaissance outposts along the primary highway linking Dun Morogh and Loch Modan."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "ironforge",
+  "loch modan",
+  "mangeclaw",
+  "morter",
+  "north gate outpost",
+  "pilot hammerfoot",
+  "troggs"
+ ],
+ "related": [
+  "subzone:north-gate-outpost",
+  "quest:419",
+  "quest:417",
+  "zone:dunmorogh",
+  "zone:lochmodan",
+  "topic:dwarf",
+  "subzone:south-gate-outpost"
+ ],
+ "attribution": [
+  "Pilot Hammerfoot"
+ ]
+}

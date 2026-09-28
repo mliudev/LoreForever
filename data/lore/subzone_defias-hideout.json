@@ -1,0 +1,85 @@
+{
+ "key": "subzone:defias-hideout",
+ "type": "subzone",
+ "name": "Defias Hideout",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Defias Hideout"
+ },
+ "summary": "The Defias Hideout is an unassuming, derelict house situated on the southern edge of Moonbrook. Though it blends in with the surrounding ruined settlement, its upper floor conceals the primary overland entrance into the extensive subterranean network of the Deadmines.",
+ "sections": [
+  {
+   "title": "A Gateway in Ruin",
+   "body": "To the casual eye, the Defias Hideout looks like any other ransacked manor or farmhouse in Moonbrook, overrun by destitute vagrants and Defias thugs. However, its modest interior masks the nerve center of Edwin VanCleef's southern operations. Ascending to the upper floor reveals an opening that leads directly down into the sprawling labyrinth of the Deadmines. Because the Brotherhood focuses its manpower on guarding the perimeter of Moonbrook and laboring deep underground, the hideout itself is sparsely garrisoned, functioning more as a heavily monitored bottleneck than an active stronghold.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Defias Hideout?",
+   "aliases": [
+    "inside defias hideout",
+    "hideout entrance",
+    "what is here"
+   ],
+   "answer": "Inside the structure lies a staircase that leads up to a winding tunnel, serving as the overland entrance to the Deadmines. Aside from wandering vagrants and scattered bandits, the building itself is mostly bare, acting primarily as a guarded entryway."
+  },
+  {
+   "q": "Why is the hideout relatively unguarded inside?",
+   "aliases": [
+    "why empty",
+    "where are the defias",
+    "why so few guards"
+   ],
+   "answer": "The Defias Brotherhood concentrates its fighting forces outside in the streets of Moonbrook to intercept intruders before they draw close, while the rest of their laborers and enforcers are busy working far below in the depths of the mines."
+  },
+  {
+   "q": "Where in Moonbrook is this building located?",
+   "aliases": [
+    "how to find hideout",
+    "where is defias hideout",
+    "hideout location"
+   ],
+   "answer": "The hideout is located on the southern edge of Moonbrook in southwestern Westfall, distinguished as a large, intact two-story building resting near the base of the mountains."
+  },
+  {
+   "q": "Who are the people lingering around the hideout?",
+   "aliases": [
+    "who are vagrants",
+    "moonbrook vagrants",
+    "defias people"
+   ],
+   "answer": "The building and the surrounding town are populated by Defias bandits along with desperate vagrants who have gathered in Moonbrook, having fled poverty or aligned themselves with the Brotherhood out of necessity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The hideout is a masterclass in clandestine defense: by disguising the gateway to a massive underground fortress within a nondescript ruined manor, the Defias keep their true scale hidden from casual Stormwind patrols."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This decrepit estate serves as the front door to Edwin VanCleef's conspiracy, making it a critical staging ground for Alliance adventurers seeking to put an end to the Defias rebellion."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "defias",
+  "defias hideout",
+  "entrance",
+  "moonbrook",
+  "vancleef",
+  "westfall"
+ ],
+ "related": [
+  "subzone:moonbrook",
+  "zone:deadmines",
+  "subzone:deadmines",
+  "topic:defias-brotherhood",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Defias Hideout"
+ ]
+}

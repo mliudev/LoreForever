@@ -1,0 +1,76 @@
+{
+ "key": "subzone:bloodwash-cavern",
+ "type": "subzone",
+ "name": "Bloodwash Cavern",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Bloodwash Cavern"
+ },
+ "summary": "Bloodwash Cavern is a sprawling coastal cave located along the Red Reaches in the southeastern Blasted Lands. The cavern serves as a stronghold for the Bloodwash naga, who have occupied its ancient elven ruins and enslaved the local murloc population.",
+ "sections": [
+  {
+   "title": "A Serpent Stronghold",
+   "body": "Tucked away along the coastline beneath the Red Reaches, Bloodwash Cavern provides a sheltered haven from the arid, corrupted wastes above. Within the cavern's damp recesses lie ancient elven stone ruins, hints of an era long predating the sundering of the world. The Bloodwash naga have taken deep root among these submerged structures, turning the cavern into a fortified redoubt where they force subjugated murloc thralls to toil under their watchful command.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Bloodwash Cavern?",
+   "aliases": [
+    "bloodwash cave",
+    "naga cave blasted lands",
+    "what is this cave"
+   ],
+   "answer": "Bloodwash Cavern is a large seaside cave along the shores of the Red Reaches in the Blasted Lands. It is controlled by the Bloodwash naga, who use it as a fortified base amidst submerged ancient elven ruins."
+  },
+  {
+   "q": "Why are there naga in the Blasted Lands?",
+   "aliases": [
+    "why are naga here",
+    "bloodwash naga"
+   ],
+   "answer": "The Bloodwash naga have established a presence along the coast of the Red Reaches and inside Bloodwash Cavern. From these coastal waters, they exploit ancient submerged elven architecture and enforce dominance over the local shoreline."
+  },
+  {
+   "q": "Why are there murlocs inside the cavern?",
+   "aliases": [
+    "murloc slaves",
+    "enslaved murlocs"
+   ],
+   "answer": "The local Rockpool murlocs have been dominated and subjugated by the Bloodwash naga. The naga force them into servitude within the cavern, working them as expendable laborers under the lash."
+  },
+  {
+   "q": "Why are there elven ruins inside the cave?",
+   "aliases": [
+    "elf ruins blasted lands cave",
+    "ancient ruins"
+   ],
+   "answer": "Before the Great Sundering, highborne civilization stretched across much of ancient Kalimdor. These stone structures are ancient remnants preserved underground along the coastline, drawing the naga back to echoes of their forgotten past."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The sunken architecture within Bloodwash Cavern serves as a grim reminder of ancient Kaldorei civilization, now defiled and inhabited by their twisted, cursed naga kin."
+  }
+ ],
+ "keywords": [
+  "blasted lands",
+  "bloodwash cavern",
+  "bloodwash naga",
+  "murloc",
+  "red reaches",
+  "rockpool"
+ ],
+ "related": [
+  "subzone:red-reaches",
+  "zone:blastedlands",
+  "topic:naga",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Bloodwash Cavern"
+ ]
+}

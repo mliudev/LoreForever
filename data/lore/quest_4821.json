@@ -1,0 +1,118 @@
+{
+ "key": "quest:4821",
+ "type": "quest",
+ "name": "Alien Egg",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   4821
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Hagar Lightninghoof",
+  "end": "",
+  "previous": "None",
+  "next": "Serpent Wild",
+  "wiki": "Alien Egg (quest)",
+  "chain": []
+ },
+ "summary": "Rumors among the tauren of Freewind Post speak of a bizarre, foreign egg guarded fiercely by wild serpents on the canyon floor. Hagar Lightninghoof tasks Horde adventurers with tracking down and retrieving the specimen before whatever lurks inside breaks free.",
+ "sections": [
+  {
+   "title": "A Strange Nest",
+   "body": "Word reached Freewind Post of an unusual egg spotted deep in the serpent dens that dot the canyon floor beneath the towering stone needles. The serpents native to the canyon watch over the egg as though it were their own brood, striking out at any traveler who ventures too close. Intrigued and wary of what might threaten the local hunting grounds, Hagar Lightninghoof asks brave scouts to locate the clutch, bypass the slithering sentries, and secure the oddity for study.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hatchling Awakens",
+   "body": "Upon inspecting the retrieved egg closely, Hagar discovers far more than an ordinary reptilian clutch. The shell fractures immediately upon handling, unleashing a juvenile winged monstrosity known as a Young Arikara. Rather than attacking, the newborn creature bursts skyward, fleeing the wooden platforms of Freewind Post and signaling that far deeper primordial forces stir within the canyon winds.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can the Alien Egg be found?",
+   "aliases": [
+    "alien egg location",
+    "where is alien egg",
+    "egg spawn thousand needles"
+   ],
+   "answer": "The egg rests within one of several serpent nests scattered along the cliff bases of Thousand Needles, particularly to the south and northeast of Freewind Post. It sits directly on the canyon floor, surrounded by hostile native serpents."
+  },
+  {
+   "q": "Why are the local serpents guarding it?",
+   "aliases": [
+    "why do serpents protect the egg",
+    "serpent behavior alien egg"
+   ],
+   "answer": "Though the egg belongs to a distinct flying serpent known as Arikara, the canyon's common serpents instinctively protect it as if it were a member of their own clutch, aggressively defending the nest from any curious intruders."
+  },
+  {
+   "q": "Who is Hagar Lightninghoof?",
+   "aliases": [
+    "hagar lightninghoof lore",
+    "who is quest giver hagar"
+   ],
+   "answer": "Hagar Lightninghoof is a tauren scout and warden stationed high atop Freewind Post in Thousand Needles. He keeps watch over unusual movements and ecological threats across the canyon floor, coordinating Horde efforts to manage local beasts."
+  },
+  {
+   "q": "What happens when you deliver the egg?",
+   "aliases": [
+    "what hatches from alien egg",
+    "what is inside the egg"
+   ],
+   "answer": "When Hagar begins to examine the egg, it cracks open to reveal a Young Arikara. The winged serpent briefly startles Hagar before taking flight and escaping into the skies of Thousand Needles."
+  },
+  {
+   "q": "What does this quest lead to?",
+   "aliases": [
+    "next quest after alien egg",
+    "arikara chain next step"
+   ],
+   "answer": "Delivering the egg begins the Arikara chain, immediately leading to the quest 'Serpent Wild', where Hagar seeks to understand the nature of the strange winged serpents rising in the canyon."
+  },
+  {
+   "q": "Is the egg literally from outer space?",
+   "aliases": [
+    "is alien egg extraterrestrial",
+    "is egg alien"
+   ],
+   "answer": "In this context, 'alien' refers to something wholly foreign, unnatural, and unfamiliar to the local ecology of Thousand Needles rather than a star-traveling organism. It belongs to the legendary wind serpent Arikara."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Living above the canyon floor on Freewind Post, the tauren rely on understanding the delicate balance of the wildlife below; an invasive or unnatural serpent brood poses a direct disruption to their home."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters familiar with the beasts of Kalimdor will immediately recognize that the brood nests in the canyon harbor something far more primordial than common desert serpents."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Freewind Post serves as the Horde's primary outpost in Thousand Needles, making the containment of emerging apex predators a key priority for defending supply lines."
+  }
+ ],
+ "keywords": [
+  "alien egg",
+  "arikara",
+  "freewind post",
+  "hagar lightninghoof",
+  "serpent den",
+  "serpent wild",
+  "serpents",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:hagar-lightninghoof",
+  "quest:4865",
+  "quest:5088",
+  "subzone:freewind-post",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Alien Egg (quest)"
+ ]
+}

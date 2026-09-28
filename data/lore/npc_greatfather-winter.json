@@ -1,0 +1,95 @@
+{
+ "key": "npc:greatfather-winter",
+ "type": "npc",
+ "name": "Greatfather Winter",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Greatfather Winter",
+  "refs": 2
+ },
+ "summary": "Greatfather Winter is the legendary personification of the winter season and the central figure of the Feast of Winter Veil. While ancient legends revere him as a mythical being who blankets Azeroth in snow to allow the land to rest and renew, modern city-dwellers know him primarily through the commercial spectacle managed by the goblins of Smokywood Pastures.",
+ "sections": [
+  {
+   "title": "Myth and Renewal",
+   "body": "According to ancient lore, Greatfather Winter is an ethereal wanderer who walks the world late in the year, casting his billowing snowy cloak across the land so nature may slumber and be reborn. Dwarves view him as an embodiment or herald of the titans, pointing to the frosted crags of Dun Morogh as living proof of his favor. Other traditions, such as those of the tauren, respect his role in the season's turning while attributing the cold and storms to the elemental work of the Sun and Moon, giving the Earth Mother time to rest. Wherever the legend traveled, communities learned to gather and feast together against the cold, celebrating the promise of returning life.",
+   "spoiler": 0
+  },
+  {
+   "title": "Smokywood Pastures and City Festivities",
+   "body": "In major settlements like Ironforge and Orgrimmar, the ancient spirit has been thoroughly reshaped by the enterprising goblins of Smokywood Pastures. The trading cartel popularized the depiction of Greatfather Winter as a jolly, red-suited elder with a white beard who rides a flying sleigh and hands out holiday treats and toys. Smokywood Pastures hires local actors\u2014a dwarf in Ironforge and an orc in Orgrimmar\u2014to listen to children's wishlists, receive offerings of milk and gingerbread cookies, and advertise seasonal merchandise beneath lavishly decorated trees.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is the Greatfather Winter in Ironforge the real spirit?",
+   "aliases": [
+    "is greatfather winter real",
+    "who is the guy in ironforge",
+    "is he an actor"
+   ],
+   "answer": "No, the Greatfather Winter sitting by the festive tree in Ironforge is an actor hired by the goblin merchant company Smokywood Pastures. The company stages appearances to delight children and sell seasonal confections, though real legends speak of an actual ethereal being who walks the world in winter."
+  },
+  {
+   "q": "Why do dwarves revere Greatfather Winter?",
+   "aliases": [
+    "dwarf winter veil",
+    "dwarven father winter",
+    "ironforge greatfather winter"
+   ],
+   "answer": "Dwarves associate Greatfather Winter with their creators, the titans. They regard the snowy blanket he casts over the land as a blessing, holding up their perpetually frigid homeland of Dun Morogh as prime evidence of his favor."
+  },
+  {
+   "q": "What does Greatfather Winter do with the cookies and milk brought to him?",
+   "aliases": [
+    "treats for greatfather winter",
+    "why milk and cookies",
+    "gingerbread cookies quest"
+   ],
+   "answer": "According to the holiday lore popularized by Smokywood Pastures, Greatfather Winter loves to snack on festive gingerbread cookies and ice cold milk while reviewing wishlists and spreading holiday cheer."
+  },
+  {
+   "q": "How does the Horde view Greatfather Winter?",
+   "aliases": [
+    "horde greatfather winter",
+    "orgrimmar greatfather winter",
+    "tauren winter veil"
+   ],
+   "answer": "The Horde participates in the festivities largely through Smokywood Pastures' city promotion in Orgrimmar, where the Greatfather is portrayed as an orc. Culturally, the tauren recognize winter as a vital period of slumber and elemental renewal for the Earth Mother, respecting the Greatfather's role in the seasonal cycle while avoiding literal titan worship."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarves see the Greatfather as an aspect of the titans who carved the world, looking at the snowy peaks of Dun Morogh as living testimony of his touch."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "The holiday relies on skilled cooks to craft gingerbread cookies and other festive treats for Smokywood Pastures and Greatfather Winter himself."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "gingerbread cookies",
+  "great-father winter",
+  "greatfather winter",
+  "ironforge",
+  "orgrimmar",
+  "smokywood pastures",
+  "winter veil"
+ ],
+ "related": [
+  "zone:ironforge",
+  "zone:orgrimmar",
+  "zone:dunmorogh",
+  "topic:dwarf",
+  "topic:tauren",
+  "topic:goblin",
+  "topic:titan",
+  "quest:7025"
+ ],
+ "attribution": [
+  "Greatfather Winter"
+ ]
+}

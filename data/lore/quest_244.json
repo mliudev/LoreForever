@@ -1,0 +1,119 @@
+{
+ "key": "quest:244",
+ "type": "quest",
+ "name": "Encroaching Gnolls",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   244
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Guard Parker",
+  "end": "Deputy Feldon",
+  "previous": null,
+  "next": "Assessing the Threat",
+  "wiki": "Encroaching Gnolls",
+  "chain": [
+   "Encroaching Gnolls",
+   "Assessing the Threat"
+  ]
+ },
+ "summary": "Encroaching Gnolls is an Alliance task that alerts the town guard of Lakeshire to gnolls prowling dangerously close to the Elwynn border. Guard Parker discovers encampments clustering along the border pass, sending travelers ahead to warn Deputy Feldon. The news confirms Lakeshire's growing fears that the beastmen are threatening to cut off Redridge entirely.",
+ "sections": [
+  {
+   "title": "Eyes on the Border",
+   "body": "The road linking Elwynn Forest to Redridge Mountains should be one of the most secure transit routes in the kingdom, but Stormwind's thinned forces leave it minimally defended. Guard Parker is stationed along the western border trail to monitor movement. While he manages to keep the gravel road passable for supply wagons, his scouting sweeps north and east reveal that gnoll warbands have advanced from the crags, establishing camps alarmingly near the road.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Town Under Siege",
+   "body": "Upon receiving the alert near the Lakeshire bridge, Deputy Feldon realizes the situation is worse than anticipated. The Redridge gnolls are not merely raiding the town's perimeter; their forward presence near the Elwynn border implies they could encircle Lakeshire and push into the kingdom's heartland. With Stormwind ignoring pleas for reinforcements, Lakeshire's watch is ill-prepared to handle a two-front threat.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts this quest?",
+   "aliases": [
+    "quest giver",
+    "where to start",
+    "guard parker location"
+   ],
+   "answer": "Guard Parker offers this quest along the road in western Redridge Mountains, near the border crossing into Elwynn Forest."
+  },
+  {
+   "q": "Where can I find Deputy Feldon?",
+   "aliases": [
+    "feldon location",
+    "who is deputy feldon",
+    "turn in location"
+   ],
+   "answer": "Deputy Feldon is stationed in Lakeshire, patrolling the grounds just south of the town's large stone bridge."
+  },
+  {
+   "q": "Why are the gnolls an issue on the road?",
+   "aliases": [
+    "why gnolls matter",
+    "redridge gnoll problem",
+    "road danger"
+   ],
+   "answer": "The road to Elwynn Forest is Lakeshire's only safe overland lifeline to the rest of the kingdom. If gnolls seize the western slopes, the town is effectively cut off from supplies and escape."
+  },
+  {
+   "q": "Why doesn't Stormwind send help to Lakeshire?",
+   "aliases": [
+    "where are stormwind guards",
+    "no reinforcements",
+    "lakeshire defense"
+   ],
+   "answer": "With King Varian Wrynn missing and the realm strained by unrest, Highlord Bolvar and the court have refused to commit royal troops to Redridge, leaving Lakeshire's defense entirely to local deputies and volunteers."
+  },
+  {
+   "q": "What happens after reporting the gnolls?",
+   "aliases": [
+    "next quest",
+    "chain follow up"
+   ],
+   "answer": "Deputy Feldon asks you to follow up by scouting the gnoll camps more closely in the quest Assessing the Threat to determine the true strength of their numbers."
+  },
+  {
+   "q": "Which gnoll packs are encroaching here?",
+   "aliases": [
+    "which gnolls",
+    "redridge gnoll clans"
+   ],
+   "answer": "The Redridge gnolls, primarily consisting of the Redridge and Mosshide packs in the hills, have become increasingly bold and coordinated as human control over the region weakens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "The encroachment of beastmen within sight of Elwynn Forest highlights how vulnerable the kingdom's core territories have become in the king's absence."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire's isolation threatens the Alliance's eastern front, making border intelligence critical for travelers and supply convoys."
+  }
+ ],
+ "keywords": [
+  "assessing the threat",
+  "deputy feldon",
+  "elwynn border",
+  "encroaching gnolls",
+  "guard parker",
+  "lakeshire",
+  "redridge"
+ ],
+ "related": [
+  "quest:246",
+  "npc:deputy-feldon",
+  "subzone:lakeshire",
+  "topic:gnoll",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Encroaching Gnolls"
+ ]
+}

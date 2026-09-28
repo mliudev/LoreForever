@@ -1,0 +1,73 @@
+{
+ "key": "subzone:talondeep-vale",
+ "type": "subzone",
+ "name": "Talondeep Vale",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Talondeep Vale"
+ },
+ "summary": "Talondeep Vale is a quiet, forested hollow nestled in south-central Ashenvale. Bordering Silverwind Refuge, the Ruins of Stardust, and the gateway to the Stonetalon Mountains, it acts as a peaceful canopy through which travelers navigate southern Kalimdor.",
+ "sections": [
+  {
+   "title": "A Sheltered Valley",
+   "body": "Tucked away beneath the dense canopy of south-central Ashenvale, Talondeep Vale serves as a crossroads between several landmark sites. It is framed by Silverwind Refuge to the east, the haunting Ruins of Stardust and Stardust Spire nearby, and the rugged rise leading up into the Stonetalon Mountains. Shaded by ancient trees, the valley remains an untamed tract of woodland through which night elf wardens, sentinels, and passing wanderers traverse as they move between the heart of the forest and the high crags beyond.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Talondeep Vale located?",
+   "aliases": [
+    "where is talondeep vale",
+    "talondeep vale location",
+    "how to find talondeep vale"
+   ],
+   "answer": "Talondeep Vale lies in south-central Ashenvale, nestled between Silverwind Refuge, the ancient Ruins of Stardust, and the southern mountain pass heading into the Stonetalon Mountains."
+  },
+  {
+   "q": "Where does the path leading south through the vale go?",
+   "aliases": [
+    "path south talondeep vale",
+    "where does talondeep pass lead",
+    "road to stonetalon"
+   ],
+   "answer": "Following the trail through the vale leads travelers toward Talondeep Path, an ascent through the rugged heights connecting the woodlands of Ashenvale directly with the arid peaks of the Stonetalon Mountains."
+  },
+  {
+   "q": "What nearby landmarks should travelers watch for?",
+   "aliases": [
+    "landmarks near talondeep vale",
+    "what is near talondeep vale"
+   ],
+   "answer": "The vale sits adjacent to Silverwind Refuge to the east, as well as Stardust Spire and the waterlogged Ruins of Stardust, where ancient night elven remnants still stand beneath the tree boughs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Nestled near the sacred waters of Mystral Lake and the Ruins of Stardust, these valley paths are familiar ground to the sentinels and wardens patrolling southern Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "ruins of stardust",
+  "silverwind refuge",
+  "stardust spire",
+  "talondeep pass",
+  "talondeep path",
+  "talondeep vale"
+ ],
+ "related": [
+  "subzone:talondeep-path",
+  "subzone:silverwind-refuge",
+  "subzone:ruins-of-stardust",
+  "subzone:stardust-spire",
+  "zone:ashenvale",
+  "subzone:talondeep-pass",
+  "quest:1034"
+ ],
+ "attribution": [
+  "Talondeep Vale"
+ ]
+}

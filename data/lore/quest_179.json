@@ -1,0 +1,116 @@
+{
+ "key": "quest:179",
+ "type": "quest",
+ "name": "Dwarven Outfitters",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   179
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Sten Stoutarm",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Dwarven Outfitters",
+  "chain": []
+ },
+ "summary": "Dwarven Outfitters is an introductory survival task in Coldridge Valley offered by Sten Stoutarm. In exchange for culling local wolves and gathering their tough meat for winter rations, fresh recruits are rewarded with sturdy gloves to ward off frostbite in Dun Morogh's biting cold.",
+ "sections": [
+  {
+   "title": "A Fair Trade in Coldridge",
+   "body": "The high mountain pass of Coldridge Valley is brutally cold, and unprepared travelers quickly learn that standard kit is no match for the elements. Standing outside Anvilmar, Sten Stoutarm offers a straightforward frontier bargain to new recruits: venture into the snowy drifts, hunt down the prowling wolves, and bring back cuts of tough meat to help supply the outpost. In return, he provides proper cold-weather gloves to ensure young adventurers keep all ten fingers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Living Off the Valley",
+   "body": "While wolves represent a perpetual hazard to dwarven scouts and fledgling gnomes training in the valley, they are also a vital resource. Their meat sustains the garrison stationed at Anvilmar, and culling their numbers keeps the paths between the local encampments somewhat safer. Stoutarm's arrangement serves a double purpose\u2014testing a recruit's ability to handle the local wildlife while stockpiling food for the bitter nights ahead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sten Stoutarm?",
+   "aliases": [
+    "sten stoutarm",
+    "who gives dwarven outfitters",
+    "anvilmar outfitter"
+   ],
+   "answer": "Sten Stoutarm is a dwarf stationed outside Anvilmar in Coldridge Valley. He keeps an eye out for newly arrived recruits and ensures they are properly equipped to survive the freezing Dun Morogh weather, offering practical gear in exchange for hunting local game."
+  },
+  {
+   "q": "Why does Sten need wolf meat?",
+   "aliases": [
+    "why wolf meat",
+    "tough wolf meat",
+    "what is the meat for"
+   ],
+   "answer": "The outpost at Anvilmar relies on local hunting to keep its supplies stocked. Wolf meat provides hardy, dependable sustenance for the troops and trainers living in the secluded, snowbound valley."
+  },
+  {
+   "q": "Where do you find the wolves for this task?",
+   "aliases": [
+    "where are wolves",
+    "wolf locations coldridge",
+    "where to get meat"
+   ],
+   "answer": "Wolves roam the snowy clearings all throughout Coldridge Valley, particularly just beyond the main courtyard of Anvilmar and along the paths leading toward the outlying camps."
+  },
+  {
+   "q": "What reward does Sten provide?",
+   "aliases": [
+    "dwarven outfitters reward",
+    "what gloves do you get",
+    "quest reward"
+   ],
+   "answer": "Sten rewards recruits with a dependable pair of warm gloves, designed specifically to stave off frostbite and shield a fighter's hands from Dun Morogh's bitter winds."
+  },
+  {
+   "q": "Is wolf meat considered good food among dwarves?",
+   "aliases": [
+    "is wolf meat tasty",
+    "dwarf wolf meat",
+    "eating wolf"
+   ],
+   "answer": "Tough wolf meat is coarse and chewy, but in the harsh mountain climate of Dun Morogh, dwarves prioritize hearty, filling sustenance over gourmet dining. When stewed or roasted over a campfire, it serves the garrison well."
+  },
+  {
+   "q": "Can gnomes do this quest too?",
+   "aliases": [
+    "gnome dwarven outfitters",
+    "can gnomes get gloves",
+    "gnome cold weather"
+   ],
+   "answer": "Yes. Gnomes training alongside their dwarven allies in Coldridge Valley face the exact same biting winds and need warm clothing just as urgently."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For young Bronzebeard dwarves stepping out into Coldridge Valley, this task is an early lesson in frontier self-reliance: earn your keep, provide for the camp, and respect the mountain cold."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Having taken refuge with their dwarven cousins in Dun Morogh, gnomes quickly discover that surviving Anvilmar requires practical mountain apparel just as much as sharp intellect."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "dwarven outfitters",
+  "frostbite",
+  "gloves",
+  "sten stoutarm",
+  "tough wolf meat"
+ ],
+ "related": [
+  "npc:sten-stoutarm",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Dwarven Outfitters"
+ ]
+}

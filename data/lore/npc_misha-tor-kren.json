@@ -1,0 +1,93 @@
+{
+ "key": "npc:misha-tor-kren",
+ "type": "npc",
+ "name": "Misha Tor'kren",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Misha Tor'kren",
+  "refs": 1
+ },
+ "summary": "Misha Tor'kren is an orc mother dwelling at the Tor'kren Farm in western Durotar, southeast of Thunder Ridge. Plagued by anxiety over her missing son Kron, she appeals to passing travelers for aid in discovering his fate.",
+ "sections": [
+  {
+   "title": "A Mother's Vigil",
+   "body": "Tucked away near the edge of Thunder Ridge, Misha Tor'kren works her isolated farmstead while enduring a parent's worst fear. Her son Kron ventured west toward the Southfury River to hunt crocolisks and prove his mettle, but he never returned. With Durotar's frontier dangers stretching orcish watchtowers thin, Misha is left alone to hope for word of his whereabouts, desperate for anyone willing to search the riverbanks for signs of her boy.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Grim Token",
+   "body": "The Southfury River is unforgiving to young hunters. Those who comb the muddy banks inevitably discover that Kron fell victim to the river's vicious crocolisks. Returning his salvaged crocodile tooth necklace is the only closure Misha can receive\u2014a bitter reminder of the brutal trials young orcs face to establish their strength in Kalimdor's harsh wilderness.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Misha Tor'kren?",
+   "aliases": [
+    "misha torkren",
+    "who is misha",
+    "torkren farm owner"
+   ],
+   "answer": "Misha Tor'kren is an orc settler residing at the Tor'kren Farm in western Durotar, situated just southeast of Thunder Ridge."
+  },
+  {
+   "q": "Where did her son Kron go?",
+   "aliases": [
+    "where is kron",
+    "what happened to kron",
+    "misha son"
+   ],
+   "answer": "Kron traveled west toward the Southfury River to hunt river crocolisks, eager to prove himself as an able hunter, but failed to return home."
+  },
+  {
+   "q": "What happens when you look for Kron?",
+   "aliases": [
+    "is kron dead",
+    "find kron",
+    "lost but not forgotten"
+   ],
+   "answer": "A search of the Southfury River reveals that Kron did not survive his hunt. Slain by the beasts of the river, only his worn tooth necklace remains to be recovered and brought back to his mother."
+  },
+  {
+   "q": "Is she related to Rexxar's bear Misha?",
+   "aliases": [
+    "misha bear",
+    "rexxar bear misha",
+    "is she the bear"
+   ],
+   "answer": "No. While they share the name Misha, she is an orc farmer living in Durotar, entirely distinct from Rexxar's loyal bear companion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Kron's reckless desire to prove his warrior prowess against Durotar's wildlife serves as a somber reminder of the steep cost of youthful pride."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The fate of Misha's son shows the danger of underestimating river predators before a hunter has truly mastered the wild."
+  }
+ ],
+ "keywords": [
+  "crocolisk",
+  "kron",
+  "lost but not forgotten",
+  "misha",
+  "misha tor'kren",
+  "southfury river",
+  "thunder ridge",
+  "tor'kren farm"
+ ],
+ "related": [
+  "quest:816",
+  "subzone:tor-kren-farm",
+  "subzone:southfury-river",
+  "subzone:thunder-ridge",
+  "zone:durotar",
+  "npc:misha"
+ ],
+ "attribution": [
+  "Misha Tor'kren"
+ ]
+}

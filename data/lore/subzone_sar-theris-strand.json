@@ -1,0 +1,85 @@
+{
+ "key": "subzone:sar-theris-strand",
+ "type": "subzone",
+ "name": "Sar'theris Strand",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Sar'theris Strand"
+ },
+ "summary": "Sar'theris Strand forms the western coastline of Desolace, fronting the Veiled Sea. In stark contrast to the barren, grey inland wastes, the shore is sunny and grassy, though it remains perilous due to prowling naga, sea giants, and makrura.",
+ "sections": [
+  {
+   "title": "A Green Edge on a Grey Waste",
+   "body": "Running the length of western Desolace, Sar'theris Strand offers a bizarre respite from the ash and dust of the inland plains. Here, the ocean air keeps the clifftops and beaches bright and green. Yet the strand is far from welcoming: serpentine naga patrol the surf alongside towering sea giants and territorial makrura. Shipwrecks litter the shoals, including the ruined Karnitol vessel to the north and small shattered skiffs beneath the towers of Ethel Rethor, proving the sea is as treacherous as the shore.",
+   "spoiler": 0
+  },
+  {
+   "title": "Wreckage and Rare Waters",
+   "body": "Beyond the constant threat of naga and giants, the waters off the strand are known among seasoned travelers for their peculiar bounties. The jagged coastal shallows conceal salvage from lost expeditions and merchant ventures, while the deep surf is home to rare marine wildlife, notably the prized Sar'theris Striker fish sought out by master fishermen across Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Sar'theris Strand green when the rest of Desolace is dead?",
+   "aliases": [
+    "why green coast",
+    "desolace coastline grassy",
+    "sar'theris weather"
+   ],
+   "answer": "While the interior of Desolace was scourged into a barren wasteland by elemental devastation, the coastline catches the open air and currents of the Veiled Sea, allowing grasses and bright skies to persist along the shore."
+  },
+  {
+   "q": "What creatures inhabit Sar'theris Strand?",
+   "aliases": [
+    "who lives here",
+    "sar'theris mobs",
+    "what monsters are on the strand"
+   ],
+   "answer": "The strand is dominated by the amphibious Hatecrest naga, wandering sea giants, and scuttling makrura. Travelers must constantly watch the surf, as patrols roam close to the water's edge."
+  },
+  {
+   "q": "What shipwrecks lie along the shore?",
+   "aliases": [
+    "karnitol shipwreck",
+    "sunken boats strand",
+    "beach wreckage"
+   ],
+   "answer": "The Karnitol Shipwreck sits off the northern waters of the strand, while smaller vessels lie smashed on the beach bluffs beneath the ruined elven towers of Ethel Rethor."
+  },
+  {
+   "q": "Why do fishermen seek out Sar'theris Strand?",
+   "aliases": [
+    "sar'theris striker",
+    "fishing coast desolace",
+    "nat pagle fish"
+   ],
+   "answer": "The coastal waters here are the exclusive home of the Sar'theris Striker, an elusive fish recognized by renowned angler Nat Pagle as one of the ultimate tests of fishing mastery."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "The strand's shores and surrounding waters offer rich marine game, including makrura and rare ocean fish, though cooking fires must be lit under the constant watch of prowling naga."
+  }
+ ],
+ "keywords": [
+  "desolace",
+  "hatecrest",
+  "karnitol",
+  "makrura",
+  "sar'theris",
+  "strand",
+  "striker"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:ethel-rethor",
+  "topic:naga",
+  "npc:nat-pagle"
+ ],
+ "attribution": [
+  "Sar'theris Strand"
+ ]
+}

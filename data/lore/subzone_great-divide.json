@@ -1,0 +1,73 @@
+{
+ "key": "subzone:great-divide",
+ "type": "subzone",
+ "name": "Great Divide",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Great Divide"
+ },
+ "summary": "The Barrens stretches uninterrupted across central Kalimdor, a vast sea of sun-scorched earth and savanna grass. Whispers of a catastrophic fracture splitting this territory do not reflect the current world, where unbroken roads run north to south under the Horde's watchful banner.",
+ "sections": [
+  {
+   "title": "An Unbroken Savanna",
+   "body": "Travelers wandering central Kalimdor find the Barrens entirely continuous. Caravans move unhindered between the Crossroads and Camp Taurajo, traversing dry riverbeds and wild grasslands without meeting an impassable fiery chasm. The region remains unified under the harsh sun, dominated by roaming kodo herds, centaur raiding bands, and bristling quillboar dens.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Integrity of Kalimdor",
+   "body": "Though ancient earth tremors sometimes shake the hills, Kalimdor's interior remains intact following the Third War. The rumors of a fiery fissure dividing the Barrens into northern and southern halves are entirely baseless in the present age. Trade wagons and Horde couriers navigate the Gold Road from the borders of Ashenvale straight down toward Thousand Needles without disruption.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Great Divide located?",
+   "aliases": [
+    "great divide location",
+    "where is divide barrens",
+    "find great divide"
+   ],
+   "answer": "It does not exist. The Barrens is completely intact, allowing unhindered passage between the northern territories near the Crossroads and the southern reaches near Camp Taurajo."
+  },
+  {
+   "q": "Does a fiery chasm split the Barrens in two?",
+   "aliases": [
+    "is barrens split",
+    "lava canyon barrens",
+    "chasm in barrens"
+   ],
+   "answer": "No. The entire Barrens is one continuous expanse of arid plains, savanna grasses, and dirt tracks. There is no volcanic rift cleaving the region."
+  },
+  {
+   "q": "Can travelers walk from the Crossroads to Camp Taurajo?",
+   "aliases": [
+    "path to taurajo",
+    "crossroads to taurajo road",
+    "gold road crossing"
+   ],
+   "answer": "Yes. The Gold Road extends directly south through the savanna, providing an uninterrupted path for merchants, scouts, and adventurers traveling between both settlements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Horde relies on a contiguous Barrens to maintain logistics between Orgrimmar, Mulgore, and distant southern outposts."
+  }
+ ],
+ "keywords": [
+  "chasm",
+  "crossroads",
+  "gold road",
+  "great divide",
+  "savanna",
+  "the barrens"
+ ],
+ "related": [
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Great Divide"
+ ]
+}

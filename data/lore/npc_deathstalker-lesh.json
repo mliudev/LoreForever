@@ -1,0 +1,87 @@
+{
+ "key": "npc:deathstalker-lesh",
+ "type": "npc",
+ "name": "Deathstalker Lesh",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Deathstalker Lesh",
+  "refs": 1
+ },
+ "summary": "Deathstalker Lesh is a Forsaken rogue serving as a forward scout at Southpoint Tower in the Hillsbrad Foothills. Operating directly under High Executor Darthalia, she keeps watch over the human farms in the Hillsbrad Fields to gauge when the Forsaken should strike.",
+ "sections": [
+  {
+   "title": "Eyes on the Fields",
+   "body": "Perched at Southpoint Tower on the southern road through the Hillsbrad Foothills, Deathstalker Lesh monitors the human farmers and town militia working the nearby Hillsbrad Fields. As an operative of the Deathstalkers\u2014the Forsaken's secretive intelligence and assassination network\u2014Lesh tracks enemy movements and numbers for High Executor Darthalia in Tarren Mill. When the human defenses show weakness, Lesh coordinates targeted raids to keep the Alliance population destabilized and pave the way for Forsaken expansion southward.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Deathstalker Lesh?",
+   "aliases": [
+    "deathstalker lesh",
+    "who is lesh",
+    "lesh hillsbrad"
+   ],
+   "answer": "Lesh is a Forsaken scout stationed at Southpoint Tower. She answers to High Executor Darthalia in Tarren Mill and monitors the human activity across the Hillsbrad Fields."
+  },
+  {
+   "q": "What are the Deathstalkers?",
+   "aliases": [
+    "what are deathstalkers",
+    "deathstalker order",
+    "forsaken rogues"
+   ],
+   "answer": "The Deathstalkers serve Queen Sylvanas Windrunner as scouts, spies, and assassins. They function as the covert arm of the Forsaken military, gathering intelligence and eliminating high-value targets across Lordaeron."
+  },
+  {
+   "q": "What is Lesh's role at Southpoint Tower?",
+   "aliases": [
+    "southpoint tower scout",
+    "lesh quest",
+    "why is lesh here"
+   ],
+   "answer": "She acts as a forward lookout. From Southpoint Tower, she watches the Hillsbrad Fields and directs Horde travelers to strike the human farmers and militia when opportunity arises."
+  },
+  {
+   "q": "Who does Lesh report to?",
+   "aliases": [
+    "lesh boss",
+    "who commands lesh",
+    "high executor darthalia"
+   ],
+   "answer": "She reports to High Executor Darthalia, the Forsaken commander stationed at Tarren Mill who oversees the offensive against the human forces in Hillsbrad."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, scouts like Lesh represent the vital frontier work of securing Lordaeron from Alliance resurgents."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Deathstalker Lesh demonstrates the essential military function of covert operatives within the Horde war effort."
+  }
+ ],
+ "keywords": [
+  "deathstalker lesh",
+  "high executor darthalia",
+  "hillsbrad fields",
+  "hillsbrad foothills",
+  "southpoint tower",
+  "tarren mill",
+  "time to strike"
+ ],
+ "related": [
+  "subzone:southpoint-tower",
+  "quest:494",
+  "subzone:hillsbrad-fields",
+  "npc:high-executor-darthalia",
+  "zone:hillsbrad",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Deathstalker Lesh"
+ ]
+}

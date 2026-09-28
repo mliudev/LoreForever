@@ -1,0 +1,130 @@
+{
+ "key": "topic:lordaeron",
+ "type": "topic",
+ "name": "Lordaeron",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Lordaeron"
+ },
+ "summary": "Lordaeron is the great northern subcontinent of the Eastern Kingdoms, once the glorious heart of human civilization and the Alliance. Following the devastation of the Third War, its former kingdoms lie in ruins, contested by the undead Scourge, Sylvanas Windrunner's Forsaken, and desperate remnants of the living.",
+ "sections": [
+  {
+   "title": "Cradle of Northern Humanity",
+   "body": "Lordaeron takes its name from Lordain, a revered general of the ancient Empire of Arathor who sacrificed his life during the Troll Wars. Stretching from the rugged Arathi Highlands in the south across scenic forests and waterways up toward Quel'Thalas, the region nurtured thriving kingdoms like Lordaeron, Dalaran, Gilneas, and Alterac. It was historically celebrated for fertile farmlands in Tirisfal and Hillsbrad, mountain strongholds, and the sacred cradle of the Holy Light.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scourge and the Fall",
+   "body": "During the Third War, Lordaeron became ground zero for the Lich King's invasion. Through tainted grain, the Cult of the Damned transformed countless northern citizens into mindless undead monstrosities. Prince Arthas Menethil fell to darkness, returning from Northrend to slay his father, King Terenas Menethil II, and orchestrate the total slaughter of the Capital City. The thriving heartland quickly rotted into the blighted nightmare known as the Plaguelands.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Contested Wasteland",
+   "body": "Today, Lordaeron is a brutal battleground defined by fractured loyalties. Beneath the ruins of the Capital City, Lady Sylvanas Windrunner and the Forsaken have carved out the Undercity, establishing a sovereign realm of free-willed undead aligned with the Horde. To the east, the Lich King's mindless Scourge clings to corrupted keeps and strongholds. Meanwhile, human zealots of the Scarlet Crusade, surviving Alliance settlements in Hillsbrad, and wild forest trolls clash relentlessly over what remains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What exactly is Lordaeron?",
+   "aliases": [
+    "is lordaeron a continent",
+    "what does lordaeron mean",
+    "lordaeron geography"
+   ],
+   "answer": "Lordaeron refers both to the entire northern subcontinent of the Eastern Kingdoms and specifically to the former human kingdom that once ruled its central territories. The land stretches from the Thandol Span at the Arathi border north toward Quel'Thalas, encompassing mountains, forests, and inland lakes."
+  },
+  {
+   "q": "Who controls Lordaeron right now?",
+   "aliases": [
+    "who rules lordaeron",
+    "who owns lordaeron now",
+    "current ruler of lordaeron"
+   ],
+   "answer": "No single power controls the entire subcontinent. Sylvanas Windrunner and the Forsaken hold Tirisfal Glades and Silverpine from their subterranean Undercity. The Scourge retains immense power in the Plaguelands under Kel'Thuzad, while the Scarlet Crusade, the Kingdom of Stormwind's allies in Hillsbrad, and various troll tribes control isolated frontiers."
+  },
+  {
+   "q": "What happened to the original living humans of Lordaeron?",
+   "aliases": [
+    "where did the people of lordaeron go",
+    "did lordaeron humans die",
+    "what happened to lordaeron"
+   ],
+   "answer": "Most of Lordaeron's population perished during the Third War, struck down by the plague of undeath or Arthas's Scourge army. Many of those dead were raised into mindless servitude, and later regained their minds to become the Forsaken. The surviving living fled south to Stormwind, sailed to Kalimdor with Jaina Proudmoore, or joined militant enclaves like the Scarlet Crusade."
+  },
+  {
+   "q": "Why was the subcontinent named Lordaeron?",
+   "aliases": [
+    "origin of name lordaeron",
+    "who is lordaeron named after",
+    "lordain name"
+   ],
+   "answer": "It was named in memory of Lordain, a general of the ancient Empire of Arathor. During the ancient Troll Wars between humanity, high elves, and the Amani Empire, Lordain sacrificed himself alongside his warriors to protect his comrades, forever etching his name into northern lore."
+  },
+  {
+   "q": "Where is the Capital City of Lordaeron?",
+   "aliases": [
+    "where was lordaeron city",
+    "capital of lordaeron",
+    "ruins of lordaeron location"
+   ],
+   "answer": "The Capital City of Lordaeron stands along the northern shore of Lordamere Lake in Tirisfal Glades. Though its surface streets and palace courtyards lie in silent ruins, the sprawling catacombs beneath have been converted by Sylvanas Windrunner into the Undercity, the Forsaken capital."
+  },
+  {
+   "q": "Is Lordaeron part of the Alliance or the Horde?",
+   "aliases": [
+    "is lordaeron alliance or horde",
+    "who claims lordaeron"
+   ],
+   "answer": "It is bitterly contested. Historically, the Kingdom of Lordaeron founded and led the original Alliance of Lordaeron. Today, however, the Undercity is an official capital of the Horde, making western Lordaeron a Horde stronghold, while Alliance forces desperately fight to hold their few remaining outposts in Hillsbrad and Arathi."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This was once your homeland in life. You walk the ruined courtyards of the Capital City not as visiting travelers, but as the rightful heirs of Lordaeron claiming what is yours under Lady Sylvanas."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of the Alliance, Lordaeron is a sacred tragedy. It was the cradle of the Holy Light and the leader of the original Alliance; seeing its halls overrun by the undead is a constant source of grief and fury."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance once took its very name from this continent. Today, reclaiming footholds in Hillsbrad and combating the Scourge in the Plaguelands represents an agonizing struggle to recover human heritage."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Through their Forsaken allies, the Horde maintains a vital and contested foothold in the northern Eastern Kingdoms, surrounding Alliance outposts and confronting the remnants of the Scourge."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The Order of the Silver Hand was born in Lordaeron at the Chapel of Alonsus Faol. Every road and ruin in these northern lands is steeped in the history of the earliest paladins."
+  }
+ ],
+ "keywords": [
+  "hillsbrad",
+  "lordaeron",
+  "lordain",
+  "menethil",
+  "plaguelands",
+  "scourge",
+  "silverpine",
+  "terenas",
+  "tirisfal",
+  "undercity"
+ ],
+ "related": [
+  "topic:third-war",
+  "topic:lich-king",
+  "zone:tirisfal",
+  "zone:westernplaguelands",
+  "zone:easternplaguelands",
+  "zone:hillsbrad",
+  "zone:silverpine",
+  "zone:arathi"
+ ],
+ "attribution": [
+  "Lordaeron"
+ ]
+}

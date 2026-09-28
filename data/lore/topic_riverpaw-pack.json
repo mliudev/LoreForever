@@ -1,0 +1,125 @@
+{
+ "key": "topic:riverpaw-pack",
+ "type": "topic",
+ "name": "Riverpaw pack",
+ "era": "classic",
+ "zone": "multi",
+ "meta": {
+  "wiki": "Riverpaw pack"
+ },
+ "summary": "The Riverpaw pack is a savage clan of gnolls inhabiting the borderlands of Elwynn Forest and Westfall. Known for their brutal raids and ruthless dominance over local kobolds, they have grown increasingly organized and brazen following the Third War. With Stormwind's military stretched thin, their presence threatens vital roads and settlements throughout the heartland.",
+ "sections": [
+  {
+   "title": "A Plague on the Heartland",
+   "body": "For decades, the Riverpaw clan prowled the fringes of human civilization, but their boldness has surged in recent years. In Elwynn Forest, packs led by the infamous brute Hogger prowl the southern woods around Forest's Edge and roam the shores of Stone Cairn Lake. In Westfall, they roam across the Dust Plains and along the coasts, ambushing solitary travelers and raiding homesteads. Deputy Rainer at Westbrook Garrison and Captain Danuvin at Sentinel Hill rely heavily on mercenary blades to cull their numbers, issuing standing bounties for painted armbands and severed paws.",
+   "spoiler": 0
+  },
+  {
+   "title": "Merciless Taskmasters",
+   "body": "Beyond petty ambushes, the Riverpaws exhibit an unusual drive for conquest and labor. They drove a clan of kobolds out of the Redridge Mountains and forced them into the gold mines of Elwynn Forest and Westfall, working the small creatures into relentless exhaustion to extract ore. This cruel tyranny over the mines suggests the gnolls are no longer simple scavengers living hand-to-mouth, but a faction amassing wealth and consolidating strategic ground right under the crown's nose.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows and Gold",
+   "body": "The Riverpaw pack's sudden surge in discipline, armaments, and magic is not organic. Recovered ledgers and documents indicate that the gnolls are engaged in financial transactions with the Defias Brotherhood. While the Stormwind Army initially dismissed the pack as an animalistic nuisance, officials such as Wiley the Black and Captain Danuvin have come to realize the Riverpaws are being bankrolled and directed as part of a coordinated effort to destabilize the kingdom.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who leads the Riverpaw gnolls?",
+   "aliases": [
+    "riverpaw leader",
+    "who leads the riverpaw",
+    "hogger riverpaw"
+   ],
+   "answer": "The most infamous leader of the Riverpaw pack is Hogger, a massive and ferocious gnoll stalking the southwestern woods of Elwynn Forest near Forest's Edge. The Stormwind authorities consider him an urgent threat and have posted a massive bounty for his head."
+  },
+  {
+   "q": "Where are Riverpaw gnolls found?",
+   "aliases": [
+    "riverpaw locations",
+    "where to find riverpaws",
+    "riverpaw gnoll spawn"
+   ],
+   "answer": "The Riverpaw pack primarily infests southwestern Elwynn Forest around Forest's Edge and Stone Cairn Lake, as well as the open expanses of Westfall, particularly throughout the Dust Plains and along the coastline."
+  },
+  {
+   "q": "Why are the Riverpaw gnolls working with the Defias Brotherhood?",
+   "aliases": [
+    "riverpaw defias connection",
+    "defias paying gnolls",
+    "gnoll brotherhood connection"
+   ],
+   "answer": "Documents recovered from Riverpaw scouts reveal that payments are exchanged between the clan and the Defias Brotherhood. The Defias fund and equip the Riverpaws to spread chaos, pillage resources, and tie down local militias across Westfall and Elwynn, weakening Stormwind's defense."
+  },
+  {
+   "q": "Why are kobolds working in the gold mines near the Riverpaw?",
+   "aliases": [
+    "gnolls and kobolds",
+    "why do gnolls have kobold slaves",
+    "riverpaw kobolds"
+   ],
+   "answer": "The Riverpaw gnolls conquered a clan of Redridge kobolds and enslaved them, forcing them into the mines of Elwynn Forest and Westfall. The gnolls serve as merciless overseers, compelling the kobolds to dig out precious gold to fuel their war efforts."
+  },
+  {
+   "q": "Why hasn't the Stormwind Army wiped out the Riverpaw pack?",
+   "aliases": [
+    "why aren't guards fighting gnolls",
+    "stormwind gnoll response"
+   ],
+   "answer": "The kingdom's official military is severely overextended, with few reinforcements sent to rural garrisons like Sentinel Hill and Westbrook. Local marshals must rely on passing adventurers and militia bounties to keep the gnoll population from completely overwhelming the territory."
+  },
+  {
+   "q": "What is the historical relationship between the Riverpaws and Stormwind?",
+   "aliases": [
+    "riverpaw history",
+    "prince llane gnolls",
+    "matriarch bluepelt"
+   ],
+   "answer": "The Riverpaws have clashed with Stormwind for generations. Years prior to the First War, a pack led by Matriarch Bluepelt boldly attempted to abduct Prince Llane Wrynn, cementing their reputation as a brazen, persistent threat to the royal realm."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Riverpaws represent an immediate security crisis for the Alliance heartland, cutting off trade routes between Goldshire, Westfall, and Redridge while Stormwind's armies remain absent."
+  },
+  {
+   "target": "race:Human",
+   "text": "For the farmers and homesteaders of Westfall and Elwynn, the Riverpaws are a nightmare at their doorstep, slaughtering families, stealing livestock, and seizing local mines."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Town marshals pay well in coin and prestige for warriors willing to march into the brush to cull the Riverpaw brutes and duel their warlords like Hogger."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Intercepting Riverpaw messengers reveals that their savage violence is orchestrated by criminal syndicates, yielding valuable intelligence on the Defias network."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "dust plains",
+  "elwynn",
+  "forest's edge",
+  "gnolls",
+  "hogger",
+  "kobold slaves",
+  "riverpaw",
+  "westfall"
+ ],
+ "related": [
+  "npc:hogger",
+  "zone:elwynn",
+  "zone:westfall",
+  "topic:defias-brotherhood",
+  "quest:176",
+  "quest:11",
+  "quest:102",
+  "subzone:westbrook-garrison"
+ ],
+ "attribution": [
+  "Riverpaw pack"
+ ]
+}

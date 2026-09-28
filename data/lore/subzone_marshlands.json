@@ -1,0 +1,97 @@
+{
+ "key": "subzone:marshlands",
+ "type": "subzone",
+ "name": "Marshlands",
+ "era": "classic",
+ "zone": "ungoro",
+ "meta": {
+  "wiki": "Marshlands"
+ },
+ "summary": "The Marshlands is a sprawling, sodden marsh occupying the southeastern reach of Un'Goro Crater. Sitting directly at the base of the winding ramp down from Tanaris, it is often the first wilderness newcomers witness upon entering the primeval basin.",
+ "sections": [
+  {
+   "title": "Gateway to the Crater",
+   "body": "Descending the steep trail from the arid expanse of Tanaris brings travelers directly into the humid mire of the Marshlands. Navigating anywhere else along the sheer crater rim invites a lethal fall, making this treacherous swath of wetlands the primary threshold into Un'Goro. Dense canopies, standing water, and mud conceal abundant packs of fierce raptors, including venomous varieties that stalk the reeds. Amid the damp clearings, explorers can find Blue Power Crystals scattered across the earth, unique to this quarter of the crater.",
+   "spoiler": 0
+  },
+  {
+   "title": "Encampments in the Bog",
+   "body": "Despite the constant danger of predators, several solitary wilderness experts maintain outposts across the marsh. Perched upon a prominent earthen mound, the tauren Torwa Pathfinder and his companion Garl Stormclaw keep watch over the primeval fauna after navigating the basin by canoe. Across the wetlands, the troll Mor'vek studies and trains native ravasaurs, while toward the northern fringes, the night elf Ithis Moonwarden monitors the aggressive sprouting of young bloodpetal plants.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Marshlands usually the first area people see in Un'Goro?",
+   "aliases": [
+    "how to enter ungoro",
+    "entering ungoro crater",
+    "marshlands entrance"
+   ],
+   "answer": "The sheer cliffs surrounding Un'Goro Crater make entering from any point other than the southeastern pass in Tanaris almost certainly fatal. The ramp leads straight down into the Marshlands, forcing all terrestrial travelers through its sodden reaches."
+  },
+  {
+   "q": "What creatures are most common here?",
+   "aliases": [
+    "marshlands beasts",
+    "marshlands raptors",
+    "what lives here"
+   ],
+   "answer": "The marsh is notorious for dense populations of raptors. These include both standard hunting raptors and deadly, venomous species capable of overwhelming unwary explorers in the thick brush."
+  },
+  {
+   "q": "What unique resources are found in the Marshlands?",
+   "aliases": [
+    "blue power crystals",
+    "marshlands crystals",
+    "blue crystals ungoro"
+   ],
+   "answer": "The Marshlands is the only place in Un'Goro Crater where Blue Power Crystals naturally form. These glowing mineral shards are prized by researchers studying the mysterious crystalline pylons scattered throughout the basin."
+  },
+  {
+   "q": "Who is Torwa Pathfinder?",
+   "aliases": [
+    "torwa",
+    "torwa pathfinder camp"
+   ],
+   "answer": "Torwa Pathfinder is an experienced tauren hunter stationed on a high mound within the Marshlands alongside Garl Stormclaw. He observes the crater's ecology and guides capable adventurers against Un'Goro's most ferocious beasts."
+  },
+  {
+   "q": "Can the ravasaurs here be tamed or trained?",
+   "aliases": [
+    "ravasaur trainer",
+    "morvek",
+    "train ravasaur"
+   ],
+   "answer": "Yes. Mor'vek, a troll living in the Marshlands, specializes in handling and raising native ravasaurs, offering insight into their aggressive nature and instincts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The Marshlands provides an immediate testing ground for wilderness survival, populated by swift raptors, venomous predators, and rare beasts guided by seasoned trackers like Torwa Pathfinder."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The northern edges of the marsh are choked with aggressive bloodpetal saplings and damp foliage, making it a prime site for observing hostile, mobile plant life."
+  }
+ ],
+ "keywords": [
+  "blue power crystals",
+  "marshlands",
+  "mor'vek",
+  "raptors",
+  "ravasaur",
+  "tanaris",
+  "torwa pathfinder",
+  "un'goro"
+ ],
+ "related": [
+  "zone:ungoro",
+  "zone:tanaris",
+  "npc:torwa-pathfinder"
+ ],
+ "attribution": [
+  "Marshlands"
+ ]
+}

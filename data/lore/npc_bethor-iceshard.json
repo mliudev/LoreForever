@@ -1,0 +1,122 @@
+{
+ "key": "npc:bethor-iceshard",
+ "type": "npc",
+ "name": "Bethor Iceshard",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Bethor Iceshard",
+  "refs": 7
+ },
+ "summary": "Bethor Iceshard is a powerful Forsaken mage based in the Magic Quarter of the Undercity. Presiding over the arcane and shadow practitioners within the Temple of the Damned, he commands considerable authority in Sylvanas's realm. Beneath his chilly demeanor lies a past entwined with old friends torn apart by the Scourge.",
+ "sections": [
+  {
+   "title": "Master of the Magic Quarter",
+   "body": "Standing within the Temple of the Damned, Bethor Iceshard oversees the practitioners of the arcane arts and shadow magic in the Undercity. Respected and feared for his intellect and icy resolve, Bethor wields sufficient political and magical weight to give direct instructions to provincial magistrates across Lordaeron. He directs agents of the Forsaken to secure valuable grimoires, investigate arcane anomalies, and stamp out rival powers that threaten the Undercity's dominion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bonds of Apprenticehood",
+   "body": "Before the Third War devastated Lordaeron, Bethor was a mortal apprentice studying magic alongside two close companions: Gunther Arcanus and Thule Ravenclaw. As a testament to their fellowship, the three students wove their practice wands together. The Scourge shattered that bond entirely. When death and dark magic swept across the kingdom, Thule Ravenclaw willfully surrendered his soul to the Lich King, Gunther perished and rose on an isolated island in Brightwater Lake, and Bethor succumbed only to later break free as Forsaken.",
+   "spoiler": 0
+  },
+  {
+   "title": "Old Friends and Bittersweet Reunions",
+   "body": "Bethor has not forgotten his former companions. Tracking down powerful undead spellcasters throughout Tirisfal and Silverpine, he dispatches agents to discern whether rogue practitioners serve the Lich King or might be turned toward the Forsaken cause. When Bethor identifies Gunther Arcanus raising the dead on Brightwater Lake, he works patiently to bring his old friend into Lady Sylvanas's fold, while offering no mercy to Thule Ravenclaw, whose willing betrayal doomed their past brotherhood.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bethor Iceshard?",
+   "aliases": [
+    "bethor iceshard",
+    "who is bethor",
+    "bethor lore"
+   ],
+   "answer": "Bethor Iceshard is a high-ranking Forsaken mage who presides over the Temple of the Damned in the Undercity's Magic Quarter. He coordinates magical research, rogue intelligence, and covert arcane operations on behalf of the Dark Lady."
+  },
+  {
+   "q": "Where can Bethor Iceshard be found?",
+   "aliases": [
+    "where is bethor",
+    "bethor location",
+    "find bethor iceshard"
+   ],
+   "answer": "Bethor resides inside the Temple of the Damned, the central structure situated in the Magic Quarter of the Undercity."
+  },
+  {
+   "q": "What is Bethor's history with Gunther Arcanus?",
+   "aliases": [
+    "gunther and bethor",
+    "gunther arcanus friendship",
+    "how does bethor know gunther"
+   ],
+   "answer": "Bethor and Gunther were close friends during their days as apprentice mages in Lordaeron. After dying during the Scourge invasion, both eventually broke free from the Lich King's control, and Bethor orchestrated Gunther's recruitment into the Forsaken."
+  },
+  {
+   "q": "Who was Thule Ravenclaw to Bethor?",
+   "aliases": [
+    "thule ravenclaw connection",
+    "thule and bethor",
+    "bethor ravenclaw"
+   ],
+   "answer": "Thule Ravenclaw was the third member of Bethor and Gunther's apprentice circle. Unlike the other two, Thule willingly pledged his soul to the Lich King during the Scourge invasion, becoming a hated necromancer residing at Fenris Isle."
+  },
+  {
+   "q": "What is the story behind Bethor's wand?",
+   "aliases": [
+    "woven wand",
+    "wand to bethor",
+    "bethor apprentice wand"
+   ],
+   "answer": "In their youth, Bethor, Gunther, and Thule wove their practice wands together as a symbol of their eternal friendship. That braided keepsake remains a poignant artifact tying the three fractured spellcasters to their mortal past."
+  },
+  {
+   "q": "What role does Bethor play in Forsaken society?",
+   "aliases": [
+    "bethor role",
+    "what does bethor do",
+    "bethor authority"
+   ],
+   "answer": "Bethor serves as one of the leading arcane authorities in the Undercity. He guides newly risen magi and warlocks, directs military intelligence regarding rogue necromancers, and holds authority over regional Forsaken civil officials such as magistrate Sevren."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For Forsaken mages, Bethor represents the pinnacle of perseverance, demonstrating that the arcane arts can thrive even within the cold grasp of undeath."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Bethor's personal tragedy mirrors that of many Forsaken: severed from cherished friendships and homes by the Scourge, only to face former allies as bitter enemies."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Bethor coordinates crucial offensive magic and counter-necromancy operations that protect the Horde's foothold across Lordaeron."
+  }
+ ],
+ "keywords": [
+  "bethor iceshard",
+  "forsaken",
+  "gunther arcanus",
+  "magic quarter",
+  "prodigal lich",
+  "temple of the damned",
+  "thule ravenclaw",
+  "undercity"
+ ],
+ "related": [
+  "npc:gunther-arcanus",
+  "subzone:magic-quarter",
+  "zone:undercity",
+  "quest:405",
+  "quest:411",
+  "quest:446",
+  "quest:491",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Bethor Iceshard"
+ ]
+}

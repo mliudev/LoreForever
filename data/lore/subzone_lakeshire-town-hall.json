@@ -1,0 +1,89 @@
+{
+ "key": "subzone:lakeshire-town-hall",
+ "type": "subzone",
+ "name": "Lakeshire Town Hall",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Lakeshire Town Hall"
+ },
+ "summary": "Lakeshire Town Hall serves as the administrative seat of the Redridge Mountains, standing at the heart of the lakeside settlement. Inside, Magistrate Solomon oversees local governance while wrestling with relentless threats from Blackrock orcs and gnolls.",
+ "sections": [
+  {
+   "title": "Seat of Redridge Governance",
+   "body": "Lakeshire Town Hall is an aging stone structure that has been diligently refurbished multiple times over the years. Positioned prominently within Lakeshire, it houses Magistrate Solomon, a kind and dedicated civil leader tasked with maintaining order in the eastern reaches of the Kingdom of Stormwind. With Stormwind's military resources stretched thin and royal aid scarce, the hall has transformed from a quiet administrative office into an active command center where desperate appeals for volunteer defenders and mercenaries are processed daily.",
+   "spoiler": 0
+  },
+  {
+   "title": "Under Siege and Overwhelmed",
+   "body": "The halls are consistently crowded with anxious citizens seeking council and answers regarding raids, missing kin, and lost caravans. Gnoll incursions from the surrounding hills and the encroaching presence of the Blackrock orcs have pushed Solomon and his local guard to their limits. With official reinforcements from the capital failing to materialize, the magistrate relies on independent adventurers walking through the town hall doors to safeguard the region from total collapse.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is in charge at Lakeshire Town Hall?",
+   "aliases": [
+    "who leads lakeshire",
+    "magistrate solomon",
+    "who is in town hall"
+   ],
+   "answer": "Magistrate Solomon oversees the town hall. He is a kind and well-meaning administrator who serves as the primary governing authority for Lakeshire and the surrounding Redridge valley."
+  },
+  {
+   "q": "Why is the town hall seeking so much outside help?",
+   "aliases": [
+    "why does solomon need help",
+    "lakeshire problems",
+    "why are there so many quests here"
+   ],
+   "answer": "Lakeshire faces severe, mounting threats from local gnoll packs and hostile Blackrock orc warbands. Because Stormwind has provided minimal military reinforcements, Magistrate Solomon must hire passing adventurers to defend the region."
+  },
+  {
+   "q": "Why are there concerned citizens gathered inside?",
+   "aliases": [
+    "citizens in town hall",
+    "town hall crowd",
+    "people waiting in line"
+   ],
+   "answer": "Local residents gather in the town hall to demand answers from Magistrate Solomon regarding recent attacks, property losses, and the disappearance of loved ones taken during orc and gnoll raids."
+  },
+  {
+   "q": "Has Lakeshire Town Hall stood for a long time?",
+   "aliases": [
+    "town hall age",
+    "how old is lakeshire town hall",
+    "town hall history"
+   ],
+   "answer": "Yes, it is an older building that has survived turbulent decades and undergone diligent repairs and refurbishments to keep it functioning as the civic center of Redridge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire Town Hall represents the eastern frontier of the Alliance in Redridge, standing as a beleaguered outpost desperately holding the line without royal support from Stormwind."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this refurbished hall reflects both the enduring spirit of rural settlements and the frustrating abandonment felt by regional administrators when the capital turns a blind eye."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "gnolls",
+  "lakeshire",
+  "magistrate solomon",
+  "redridge",
+  "redridge mountains",
+  "stormwind",
+  "town hall"
+ ],
+ "related": [
+  "subzone:lakeshire",
+  "zone:redridge",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Lakeshire Town Hall"
+ ]
+}

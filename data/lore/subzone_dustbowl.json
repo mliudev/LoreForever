@@ -1,0 +1,79 @@
+{
+ "key": "subzone:dustbowl",
+ "type": "subzone",
+ "name": "Dustbowl",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Dustbowl"
+ },
+ "summary": "The Dustbowl is a sprawling, arid expanse in the northwestern Badlands, lying between the Horde outpost of Kargath and the central Valley of Fangs. Swept by scouring desert winds, it is a harsh wilderness populated by scavengers, prowling beasts, and wandering elementals. It is also the site of Camp Wurg, making it a frequent crossing point for travelers braving the wasteland.",
+ "sections": [
+  {
+   "title": "A Scorched Crossing",
+   "body": "Stretching across the northwest of the Badlands, the Dustbowl is characterized by dry gulches, cracked clay, and relentless winds that stir up choking plumes of grit. Despite the barren landscape, tough desert flora persists in the form of hardy cacti and scattered, gnarled trees. The open flatland presents constant danger to unguided wayfarers, who must contend with predatory coyotes, circling buzzards, and living rock elementals born of the rugged earth. Tucked within this scrubland lies Camp Wurg, providing a recognizable landmark amidst the otherwise desolate expanse.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Dustbowl located?",
+   "aliases": [
+    "dustbowl location",
+    "where is dustbowl",
+    "dustbowl badlands map"
+   ],
+   "answer": "The Dustbowl covers the northwestern region of the Badlands, situated directly between the fortified Horde encampment of Kargath to the west and the Valley of Fangs toward the center of the zone."
+  },
+  {
+   "q": "What creatures wander the Dustbowl?",
+   "aliases": [
+    "dustbowl mobs",
+    "what lives in dustbowl",
+    "dustbowl beasts"
+   ],
+   "answer": "The area is prowled by fierce coyotes and circling buzzards looking for carrion. Travelers will also encounter dangerous rock elementals wandering the stony reaches."
+  },
+  {
+   "q": "What landmarks are found in the Dustbowl?",
+   "aliases": [
+    "camps in dustbowl",
+    "camp wurg dustbowl"
+   ],
+   "answer": "The most notable settlement within the Dustbowl is Camp Wurg, a visible waypoint amidst the arid desert between Kargath and the central plains."
+  },
+  {
+   "q": "Can any plant life survive out here?",
+   "aliases": [
+    "dustbowl flora",
+    "plants in dustbowl"
+   ],
+   "answer": "Despite the dry and unforgiving climate, the Dustbowl hosts sparse vegetation, primarily hardy cacti and occasional withered desert trees adapted to the barren soil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Positioned just outside Kargath, the Dustbowl is the first open wilderness Horde scouts must cross when pushing eastward into the Badlands."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "buzzards",
+  "camp wurg",
+  "coyotes",
+  "dustbowl",
+  "kargath",
+  "rock elementals",
+  "valley of fangs"
+ ],
+ "related": [
+  "zone:badlands",
+  "subzone:camp-wurg",
+  "subzone:kargath",
+  "subzone:valley-of-fangs"
+ ],
+ "attribution": [
+  "Dustbowl"
+ ]
+}

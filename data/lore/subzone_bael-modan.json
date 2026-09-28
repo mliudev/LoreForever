@@ -1,0 +1,92 @@
+{
+ "key": "subzone:bael-modan",
+ "type": "subzone",
+ "name": "Bael Modan",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Bael Modan"
+ },
+ "summary": "Bael Modan is a fortified dwarven outpost and archaeological dig site located in the southern Barrens. Established by dwarven excavators searching for ancient Titan relics, the heavily armed installation has ignited a bitter conflict by displacing the indigenous Stonespire tauren.",
+ "sections": [
+  {
+   "title": "Unearthed Secrets and Bloodshed",
+   "body": "Bael Modan consists of the fortified Bael'dun Keep, an array of massive siege cannons, gyrocopter landing pads, and a deep open excavation pit. Dwarven prospectors arrived in Kalimdor under the conviction that an ancient Titan facility rests buried beneath the red earth. However, their blasting operations ripped directly through sacred ground belonging to the Stonespire tauren. Rather than negotiating, the dwarven expedition drove the Stonespire off their ancestral lands with gunfire and explosives, leaving the surviving tribesmen scattered and vengeful.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Unearthed Relics",
+   "body": "The excavation has unearthed far more than historical stonework. Dwarven diggers recently uncovered an artifact known as the Tear of the Moons, a relic that induced paranoia and madness in those near it. One banished prospector, Feegly the Exiled, succumbed entirely to its influence, only to be twisted into a trogg the moment the stone returned to his grasp. Between deadly relics and the enraged tauren seeking retribution outside the gates, the dwarven camp stands under constant peril.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are dwarves digging in the Barrens?",
+   "aliases": [
+    "why are dwarves here",
+    "bael modan purpose",
+    "what are dwarves digging for"
+   ],
+   "answer": "The dwarves are searching for ancient Titan structures and relics buried beneath Kalimdor. Their excavations are part of a broader expedition to uncover the origins of their race, which they believe are linked to buried Titan research facilities."
+  },
+  {
+   "q": "What happened to the tauren who used to live here?",
+   "aliases": [
+    "stonespire tauren",
+    "who lived at bael modan",
+    "tauren village"
+   ],
+   "answer": "The land originally belonged to the Stonespire tribe, who considered the hills holy ground. When the dwarves arrived, they used explosives to blast open the dig site, slaughtering or driving away the resident tauren and destroying their village."
+  },
+  {
+   "q": "Who is Gann Stonespire?",
+   "aliases": [
+    "gann",
+    "gann questgiver"
+   ],
+   "answer": "Gann Stonespire is one of the few surviving members of the Stonespire tribe. After attempts at a peaceful resolution failed, he camps near the road outside Bael Modan and enlists Horde travelers to sabotage the dwarven flying machines and kill the officers responsible for destroying his people's home."
+  },
+  {
+   "q": "What is the Tear of the Moons?",
+   "aliases": [
+    "tear of the moons relic",
+    "feegly artifact"
+   ],
+   "answer": "The Tear of the Moons is a mysterious artifact unearthed by the excavators. It drives mortals who handle it mad, and its dark curse instantly transformed the exiled dwarf Feegly into a trogg when he reclaimed it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Bael Modan stands as an open wound in the Barrens, built atop the ruins of the Stonespire tribe's sacred grounds. Helping Gann Stonespire extract vengeance is a matter of tribal honor."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The dig site represents the Explorers' League's relentless drive to uncover Titan history, though its commanders' heavy-handed tactics have earned the fierce enmity of the local tribes."
+  }
+ ],
+ "keywords": [
+  "bael modan",
+  "bael'dun",
+  "barrens excavation",
+  "feegly",
+  "gann stonespire",
+  "stonespire",
+  "tear of the moons",
+  "twinbraid"
+ ],
+ "related": [
+  "zone:barrens",
+  "npc:gann-stonespire",
+  "quest:843",
+  "quest:857",
+  "npc:feegly-the-exiled",
+  "subzone:bael-dun-keep",
+  "subzone:bael-dun-digsite",
+  "topic:titan"
+ ],
+ "attribution": [
+  "Bael Modan"
+ ]
+}

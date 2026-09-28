@@ -1,0 +1,86 @@
+{
+ "key": "subzone:calston-estate",
+ "type": "subzone",
+ "name": "Calston Estate",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Calston Estate"
+ },
+ "summary": "Calston Estate is a Forsaken encampment situated west of Stillwater Pond in Tirisfal Glades. Under the eye of Sedrick Calston, the estate serves as an operational base for securing northern Tirisfal against nearby human holdouts and gathering research materials along the coastline.",
+ "sections": [
+  {
+   "title": "A Northern Outpost",
+   "body": "Positioned between Stillwater Pond and the contested farms of northern Tirisfal, Calston Estate acts as a staging ground for the Forsaken war effort. The estate's namesake, Sedrick Calston, maintains residency here alongside representatives of the Royal Apothecary Society and various military trainers. From this quiet cluster of darkened buildings, the Forsaken monitor human remnants at Solliden Farmstead and coordinate expeditions toward the blighted northern coast, providing field agents a local refuge without the need to retreat all the way south to Brill.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns Calston Estate?",
+   "aliases": [
+    "who owns calston estate",
+    "who is sedrick calston",
+    "sedrick calston"
+   ],
+   "answer": "The estate belongs to Sedrick Calston, a lonely Forsaken who remains on the grounds while opening his property to the Forsaken military and the Royal Apothecary Society."
+  },
+  {
+   "q": "What is the strategic purpose of this estate?",
+   "aliases": [
+    "why is calston estate important",
+    "purpose of calston estate",
+    "what do forsaken do here"
+   ],
+   "answer": "It serves as an advance camp in northern Tirisfal Glades. From here, the Forsaken launch incursions against the living humans defending the Solliden Farmstead and conduct alchemical gathering expeditions along the northern shore."
+  },
+  {
+   "q": "Where is Calston Estate located?",
+   "aliases": [
+    "where is calston estate",
+    "calston estate location",
+    "how to find calston estate"
+   ],
+   "answer": "It is located in the northern reaches of Tirisfal Glades, just west of Stillwater Pond and east of the Solliden Farmstead."
+  },
+  {
+   "q": "Why are apothecaries stationed here?",
+   "aliases": [
+    "royal apothecary society calston",
+    "apothecaries at calston estate"
+   ],
+   "answer": "Agents of the Royal Apothecary Society use the estate as a forward outpost to conduct research and gather reagents from the nearby coastline and blighted waterways without traveling back to the Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The estate stands as another converted piece of Lordaeron property turned toward the defense and expansion of the Forsaken realm."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For Horde champions operating far from Brill or the Undercity, the estate provides vital logistical support, trainers, and supplies on the northern front."
+  }
+ ],
+ "keywords": [
+  "apothecary",
+  "calston",
+  "estate",
+  "sedrick",
+  "solliden",
+  "stillwater",
+  "tirisfal"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "subzone:stillwater-pond",
+  "subzone:solliden-farmstead",
+  "subzone:brill",
+  "topic:royal-apothecary-society",
+  "topic:forsaken",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Calston Estate"
+ ]
+}

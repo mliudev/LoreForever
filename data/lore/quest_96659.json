@@ -1,0 +1,115 @@
+{
+ "key": "quest:96659",
+ "type": "quest",
+ "name": "The Adventurer",
+ "era": "forever",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   96659
+  ],
+  "level": "6",
+  "faction": "Horde",
+  "start": "Chief Hawkwind",
+  "end": "Kaga Wildhoof",
+  "previous": "",
+  "next": "",
+  "wiki": "The Adventurer (Mulgore)",
+  "chain": []
+ },
+ "summary": "As young tauren prepare to depart their ancestral training grounds on Red Cloud Mesa, Chief Hawkwind asks them to perform a final favor. He entrusts them with a bundle of essential supplies meant for Kaga Wildhoof, a seasoned wanderer camped near Bloodhoof Village who once aided the chief in his own past.",
+ "sections": [
+  {
+   "title": "A Chieftain's Repayment",
+   "body": "Before travelers descend the mesa path toward the broader plains of Mulgore, Chief Hawkwind pauses to address unfinished personal debts. Long before guiding new generations of hunters and shamans on Camp Narache, Hawkwind crossed paths with Kaga Wildhoof. Described by the chief as an accomplished adventurer, Wildhoof provided vital aid when he needed it most. Hearing that she has pitched camp just outside Bloodhoof Village, Hawkwind uses the departure of newly proven novices to send provisions to his old benefactor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Leaving the Mesa",
+   "body": "This errand marks a pivotal rite of passage for young Horde champions leaving Red Cloud Mesa. The trail down the plateau leads directly toward Bloodhoof Village, the cultural and logistical heart of central Mulgore. Carrying the supply bundle across the plains bridges the sheltered training life of the mesa with the wider, wilder struggles of the United Tauren Tribes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kaga Wildhoof?",
+   "aliases": [
+    "kaga wildhoof",
+    "who is wildhoof",
+    "where is kaga"
+   ],
+   "answer": "Kaga Wildhoof is a veteran tauren adventurer who has recently made camp just outside Bloodhoof Village. She holds a longstanding history of friendship with Chief Hawkwind, having aided him significantly in years past."
+  },
+  {
+   "q": "Why does Chief Hawkwind send these supplies?",
+   "aliases": [
+    "hawkwind debt",
+    "why send supplies",
+    "purpose of supply bundle"
+   ],
+   "answer": "Hawkwind views the departure of young champions heading down to Bloodhoof Village as the ideal opportunity to repay an old favor to Wildhoof, ensuring his fellow adventurer has fresh supplies for her travels."
+  },
+  {
+   "q": "Where is Kaga Wildhoof's camp located?",
+   "aliases": [
+    "kaga camp location",
+    "find kaga",
+    "bloodhoof village camp"
+   ],
+   "answer": "Her camp is situated on the plains just outside Bloodhoof Village, down the winding southern path from Red Cloud Mesa into central Mulgore."
+  },
+  {
+   "q": "When does this quest become available?",
+   "aliases": [
+    "when do i get the adventurer",
+    "hawkwind quest timing",
+    "mesa exit quest"
+   ],
+   "answer": "Chief Hawkwind offers the task once a traveler has proven their mettle on Red Cloud Mesa and is ready to venture out into the broader territories of Mulgore."
+  },
+  {
+   "q": "Does this quest take you away from Camp Narache?",
+   "aliases": [
+    "leaving red cloud mesa",
+    "journey to bloodhoof"
+   ],
+   "answer": "Yes. Carrying the supplies serves as a direct prompt to leave Camp Narache behind and travel down the trail toward Bloodhoof Village."
+  },
+  {
+   "q": "What is contained within the Supply Bundle?",
+   "aliases": [
+    "what are the supplies",
+    "supply bundle contents"
+   ],
+   "answer": "The bundle consists of essential provisions gathered by the tribes of Camp Narache to sustain an adventurer surviving outside organized settlements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren stepping beyond Camp Narache for the first time, delivering Hawkwind's debt of honor to Kaga Wildhoof represents their initial service to their kin in the wider plains of Mulgore."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Chief Hawkwind ensures that traveling Horde allies leaving the starting mesa form early ties with the experienced wanderers and outposts of Mulgore."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "camp narache",
+  "chief hawkwind",
+  "kaga wildhoof",
+  "mulgore",
+  "red cloud mesa",
+  "supply bundle",
+  "the adventurer"
+ ],
+ "related": [
+  "npc:chief-hawkwind",
+  "subzone:bloodhoof-village",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "The Adventurer (Mulgore)"
+ ]
+}

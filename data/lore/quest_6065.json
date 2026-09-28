@@ -1,0 +1,125 @@
+{
+ "key": "quest:6065",
+ "type": "quest",
+ "name": "The Hunter's Path",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   6065
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "",
+  "end": "Yaw Sharpmane",
+  "previous": null,
+  "next": "Taming the Beast (Tauren 1)",
+  "wiki": "The Hunter's Path (Tauren)",
+  "chain": [
+   "The Hunter's Path (Tauren)",
+   "Taming the Beast (Tauren 1)",
+   "Taming the Beast (Tauren 2)",
+   "Taming the Beast (Tauren 3)",
+   "Training the Beast (Tauren)"
+  ]
+ },
+ "summary": "The Hunter's Path is a vital milestone for young tauren hunters in Mulgore, directing them toward advanced training in beast companionship. Dispatched by their local mentors once their basic marksmanship and tracking are proven, novices are sent to Bloodhoof Village to seek the counsel of hunter trainer Yaw Sharpmane. This journey initiates the spiritual and practical trials required to tame and bond with wild beasts.",
+ "sections": [
+  {
+   "title": "A Rite of Passage",
+   "body": "To the nomadic Shu'halo, hunting is sacred rather than mere sport. A hunter must understand the balance of nature, honor the spirits of the plains, and show respect for the animals that sustain the tribes. When a young hunter demonstrates sufficient prowess in surviving the wild and wielding a bow or gun, their elders recognize that they are ready to step beyond solitary tracking. The directive to seek out seasoned mentors marks the threshold of true adulthood in tauren culture.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Bloodhoof Village",
+   "body": "The path leads novitiates across the sweeping grasslands of Mulgore to Bloodhoof Village, a central gathering settlement nestled beside Stonebull Lake. There awaits Yaw Sharpmane, an experienced huntsman well-versed in the temperament of the local fauna. Speaking with Sharpmane is not a mere formality; it signals a hunter's readiness to undertake the demanding trials of beast taming, learning how to commune with predators rather than merely hunt them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of The Hunter's Path?",
+   "aliases": [
+    "why get this quest",
+    "hunters path purpose",
+    "hunter pet quest start"
+   ],
+   "answer": "The quest serves as the formal invitation for novice tauren hunters to begin their beast-taming trials. It directs the hunter to Bloodhoof Village to speak with Yaw Sharpmane, who oversees the rituals required to bond with an animal companion."
+  },
+  {
+   "q": "Who sends you on this quest?",
+   "aliases": [
+    "who gives the hunters path",
+    "hunter trainer quest"
+   ],
+   "answer": "The quest is offered by tauren hunter trainers\u2014such as those stationed in Camp Narache\u2014once an aspiring hunter has gained enough experience and mastery over the basics of survival and marksmanship."
+  },
+  {
+   "q": "Who is Yaw Sharpmane?",
+   "aliases": [
+    "who is sharpmane",
+    "yaw sharpmane role"
+   ],
+   "answer": "Yaw Sharpmane is a respected tauren hunter trainer residing in Bloodhoof Village. He is entrusted with teaching young hunters the dangerous art of approaching, calming, and taming the wild beasts of Mulgore."
+  },
+  {
+   "q": "What happens after completing this quest?",
+   "aliases": [
+    "what comes next",
+    "next quest after hunters path"
+   ],
+   "answer": "Upon reporting to Yaw Sharpmane, he begins the series of 'Taming the Beast' trials. These tasks require the hunter to venture into the wild with a taming rod and pacify several native creatures before earning the right to train a permanent companion."
+  },
+  {
+   "q": "Why do tauren hunters bond with beasts instead of just hunting them?",
+   "aliases": [
+    "tauren pet lore",
+    "why tame pets tauren"
+   ],
+   "answer": "In tauren tradition, beasts are kindred spirits of the Earth Mother. A bonded animal is not a servant, but a companion and partner on the hunt, embodying mutual respect and shared survival on the plains."
+  },
+  {
+   "q": "Can hunters of other races take this specific quest?",
+   "aliases": [
+    "is this tauren only",
+    "can orcs do hunters path tauren"
+   ],
+   "answer": "This particular version of the quest is tailored specifically to tauren hunters training in Mulgore. Other Horde races, such as orcs and trolls, receive equivalent training directives suited to their home territories in Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This quest marks the moment an archer or rifleman transitions into a true beastmaster, taking the first step toward acquiring a loyal combat companion."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo, learning to tame wild beasts is a spiritual extension of their reverence for nature and the Earth Mother's creation."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde hunters rely heavily on ferocious frontier beasts to act as front-line defenders and trackers in the harsh wilderness of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "beast",
+  "bloodhoof village",
+  "camp narache",
+  "hunter's path",
+  "mulgore",
+  "pet quest",
+  "taming",
+  "yaw sharpmane"
+ ],
+ "related": [
+  "npc:yaw-sharpmane",
+  "quest:6061",
+  "quest:6081",
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "The Hunter's Path (Tauren)"
+ ]
+}

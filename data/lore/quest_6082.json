@@ -1,0 +1,134 @@
+{
+ "key": "quest:6082",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   6082
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Thotar",
+  "end": "",
+  "previous": "Taming the Beast (Orc and Troll 2)",
+  "next": "Training the Beast (Orc and Troll)",
+  "wiki": "Taming the Beast (Orc and Troll 3)",
+  "chain": [
+   "The Hunter's Path (Orc and Troll)",
+   "Taming the Beast (Orc and Troll 1)",
+   "Taming the Beast (Orc and Troll 2)",
+   "Taming the Beast (Orc and Troll 3)",
+   "Training the Beast (Orc and Troll)"
+  ]
+ },
+ "summary": "This quest marks the final trial in a young Horde hunter's basic rites of passage in Durotar. Guided by the veteran hunter Thotar in Razor Hill, an aspiring tracker must confront and tame a dangerous armored scorpid. Conquering this armored predator proves mastery over wild beasts and unlocks the lifelong ability to tame, call, and dismiss a true companion.",
+ "sections": [
+  {
+   "title": "The Final Trial",
+   "body": "Before a hunter is permitted to roam Kalimdor with a loyal animal companion, they must prove they can command the harshest wildlife Durotar has to offer. Razor Hill's hunter trainer, Thotar, sends trainees to subdue three distinct creatures with an enchanted taming rod. Having previously tested their mettle against dire boars and swift surf crawlers, hunters are tasked with facing the armored scorpid\u2014a venomous, heavily plated predator that embodies resilience and lethal speed.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bonding with the Wild",
+   "body": "Subduing an armored scorpid is not an act of mere slaughter, but a demonstration of focus and dominance while under relentless assault. Thotar urges hunters to emulate the beast's quick, confident strikes. Returning to Razor Hill after successfully charming the venomous arachnid proves that the hunter possesses the calm will necessary to maintain control. With the taming rod returned, Thotar imparts the innate techniques of the wild, allowing the hunter to seek out and bind a permanent companion of their own choosing.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creature do I need to tame for this trial?",
+   "aliases": [
+    "what beast to tame",
+    "target beast",
+    "scorpid quest"
+   ],
+   "answer": "You must seek out an armored scorpid roaming the arid red crags of Durotar and use Thotar's taming rod to pacify and control it."
+  },
+  {
+   "q": "Do I get to keep the armored scorpid after finishing the quest?",
+   "aliases": [
+    "keep scorpid",
+    "do i keep the pet",
+    "scorpid permanent"
+   ],
+   "answer": "No. The armored scorpid tamed during the trial is temporary and vanishes once the training rod is handed back. Completing the task, however, teaches you the permanent ability to tame whichever wild beast you desire."
+  },
+  {
+   "q": "Who initiates this rite of passage?",
+   "aliases": [
+    "quest giver",
+    "who gives taming the beast",
+    "thotar location"
+   ],
+   "answer": "Thotar, the hunter trainer situated in Razor Hill within central Durotar, oversees this rite of passage for young orc and troll hunters."
+  },
+  {
+   "q": "Why does Thotar want hunters to tame an armored scorpid specifically?",
+   "aliases": [
+    "why scorpid",
+    "purpose of scorpid"
+   ],
+   "answer": "Thotar considers the armored scorpid an ideal creature to emulate due to its confident, swift strikes and natural resilience. Mastering such a dangerous predator proves a hunter is ready to command any beast in the wild."
+  },
+  {
+   "q": "What skills do you learn upon completing this quest?",
+   "aliases": [
+    "rewards",
+    "what spells do i get",
+    "taming skills unlocked"
+   ],
+   "answer": "Completing this trial grants the foundational abilities of a seasoned beast master: Tame Beast, Call Pet, and Dismiss Pet."
+  },
+  {
+   "q": "What comes after this trial?",
+   "aliases": [
+    "next quest",
+    "what's next",
+    "after taming 3"
+   ],
+   "answer": "Once you have learned how to tame and call your own companion, Thotar directs you toward training that pet, sending you on the follow-up quest 'Training the Beast' to master feeding and commanding your ally."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This rite of passage is the defining milestone of a hunter's early journey, granting permanent access to the core techniques of taming, calling, and commanding animal companions."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Orc and troll youths in Durotar must survive the barren land's most vicious predators to earn their place as true scouts and providers for the Horde."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Subduing Durotar's scorpids honors the orcish philosophy of overcoming harsh terrain through unyielding willpower and martial discipline."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear hunters draw upon their keen instincts and deep connection to wild spirits to pacify venomous predators that would strike others down."
+  }
+ ],
+ "keywords": [
+  "armored scorpid",
+  "durotar",
+  "hunter trial",
+  "pet quest",
+  "razor hill",
+  "tame beast",
+  "taming rod",
+  "thotar"
+ ],
+ "related": [
+  "npc:thotar",
+  "quest:6081",
+  "quest:6061",
+  "quest:6065",
+  "subzone:razor-hill",
+  "zone:durotar",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Taming the Beast (Orc and Troll 3)"
+ ]
+}

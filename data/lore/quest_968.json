@@ -1,0 +1,122 @@
+{
+ "key": "quest:968",
+ "type": "quest",
+ "name": "Tools of the Highborne",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   968
+  ],
+  "level": "12",
+  "faction": "Alliance",
+  "start": "Thundris Windweaver",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Tools of the Highborne",
+  "chain": []
+ },
+ "summary": "Tools of the Highborne is an Alliance quest offered by Thundris Windweaver in Auberdine. Travelers are dispatched south into the shattered ruins of Ameth'Aran to pry lingering magical relics from the hands of restless Highborne apparitions. The goal is simple: recover these ancient artifacts before their latent sorcery can unleash further harm upon Kalimdor.",
+ "sections": [
+  {
+   "title": "Echoes in the Ruins",
+   "body": "South of Auberdine, east of the coastal highway, lie the overgrown stone foundations of Ameth'Aran. Ten thousand years ago, this settlement served as a bastion for the Highborne\u2014the privileged aristocracy of the ancient night elven empire. When their unchecked arcane dabbling culminated in the Sundering of the world, Ameth'Aran was shattered. Yet its inhabitants never truly departed. Sentinels patrolling Darkshore report that the ghosts of these aristocrats still haunt the sunken plazas, clutching the enchanted tools and trinkets they possessed in life.",
+   "spoiler": 0
+  },
+  {
+   "title": "Purging the Arcane Past",
+   "body": "For modern kaldorei society, the arcane is not merely forbidden knowledge; it is an existential danger that nearly obliterated life on Azeroth. Thundris Windweaver recognizes that leaving these Highborne implements in ghostly hands leaves the doorway open to corruption. By dispatching adventurers to wrench these relics away from the restless spirits, Thundris intends to see them thoroughly destroyed, ensuring the dormant, tainted sorcery can never again fuel another disaster.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find the Highborne relics?",
+   "aliases": [
+    "where are the relics",
+    "ameth'aran location",
+    "where to find relics"
+   ],
+   "answer": "The relics are found within the ruins of Ameth'Aran, located south of Auberdine on the eastern side of the main path through Darkshore. Wandering spirits throughout the ruined stone courtyards carry these ancient implements."
+  },
+  {
+   "q": "Who is Thundris Windweaver?",
+   "aliases": [
+    "thundris windweaver",
+    "who gives tools of the highborne"
+   ],
+   "answer": "Thundris Windweaver is a night elf scholar and elder residing in the port town of Auberdine. Working closely with the local Sentinels, he coordinates efforts to protect Darkshore from lingering magical taints and ancient curses left behind by the Sundering."
+  },
+  {
+   "q": "Why does Thundris want these relics destroyed?",
+   "aliases": [
+    "why destroy the relics",
+    "purpose of tools of the highborne"
+   ],
+   "answer": "Night elf society strictly rejects arcane magic due to the devastating Great Sundering caused by Highborne reckless sorcery. Thundris fears that the lingering arcane power inside these items could reawaken dormant evils if left unchecked."
+  },
+  {
+   "q": "What kind of spirits haunt Ameth'Aran?",
+   "aliases": [
+    "ghosts in ameth aran",
+    "what are the spirits"
+   ],
+   "answer": "The spirits are the spectral remains of the Highborne elite who perished during the War of the Ancients. Even in death, they cling to their former pride, power, and magical artifacts, reenacting their faded lives among the ruined stone."
+  },
+  {
+   "q": "Why are the Highborne still bound to the ruins?",
+   "aliases": [
+    "why are they ghosts",
+    "highborne curse"
+   ],
+   "answer": "The sudden, cataclysmic destruction during the Sundering ripped through the empire with such magical violence that many souls remained trapped, bound by trauma and arcane resonance to the ruins of their former homes."
+  },
+  {
+   "q": "What happens to the relics after you turn them in?",
+   "aliases": [
+    "what does thundris do with relics",
+    "relic fate"
+   ],
+   "answer": "Thundris Windweaver takes custody of the collected relics with the explicit plan to have them permanently dismantled and destroyed so their dormant arcane taint can never be harnessed or released again."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, confronting the ghosts of Ameth'Aran is a somber reminder of their ancestors' hubris and the catastrophic sundering of their ancestral empire."
+  },
+  {
+   "target": "class:Mage",
+   "text": "While kaldorei society seeks to smash these artifacts out of fear, arcane scholars recognize them as rare, pristine examples of pre-Sundering Highborne craftsmanship."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Clearing the corrupted arcane remnants from Ameth'Aran helps heal the spiritual wounds that disrupt the natural tranquility of the Darkshore wilderness."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Assisting the night elves in securing their haunted territories cements the Alliance's presence and solidarity in the ancient forests of northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "auberdine",
+  "darkshore",
+  "highborne",
+  "relics",
+  "sundering",
+  "thundris windweaver"
+ ],
+ "related": [
+  "subzone:ameth-aran",
+  "quest:4761",
+  "subzone:auberdine",
+  "topic:highborne",
+  "zone:darkshore",
+  "topic:sentinels"
+ ],
+ "attribution": [
+  "Tools of the Highborne"
+ ]
+}

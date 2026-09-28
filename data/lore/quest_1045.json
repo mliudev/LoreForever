@@ -1,0 +1,123 @@
+{
+ "key": "quest:1045",
+ "type": "quest",
+ "name": "Raene's Cleansing",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1045
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Krolg",
+  "end": "",
+  "previous": "Raene's Cleansing (9)",
+  "next": "Raene's Cleansing (11)",
+  "wiki": "Raene's Cleansing (10)",
+  "chain": []
+ },
+ "summary": "While tracking down the means to cleanse Lake Falathim, adventurers must secure the cooperation of Krolg, a Furbolg shaman near Lake Mystral. Disillusioned with both the arrogant night elves and the corruption rotting his own kin, Krolg demands the death of the depraved chieftain Ran Bloodtooth before he will aid in restoring the forest.",
+ "sections": [
+  {
+   "title": "A Bitter Hermit",
+   "body": "Near the waters of Lake Mystral, Krolg keeps a secluded vigil. Displaced and weary, he carries deep resentment toward the night elves, whose ancient hubris he blames for bringing ruin upon Kalimdor and stirring the dark rot festering in Ashenvale. To reach him, seekers use Dartol's Rod of Transformation to walk among furbolgs undetected. Yet despite his bitter hatred of the kaldorei, Krolg does not seek senseless butchery or innocent deaths.",
+   "spoiler": 0
+  },
+  {
+   "title": "Policing Their Own",
+   "body": "Rather than surrendering entirely to the demonic taint gripping the tribes, Krolg believes his people must remain accountable for their own deeds. The demonic corruption did not originate their flaws\u2014it merely amplified their worst impulses. Ran Bloodtooth embodies this fall: already ruthless and power-hungry before the taint, Ran embraced the darkness eagerly, posing an existential threat to elves and innocent beasts alike. Krolg refuses to let such malice speak for all furbolgs.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Shared Duty",
+   "body": "By asking an outsider\u2014disguised by Dartol's magic\u2014to strike down Ran Bloodtooth and his elite guards, Krolg ensures justice is served without igniting further internal tribal strife. Ran's death strikes a blow against the encroaching madness, briefly uniting an embittered shaman and an Alliance agent in a shared desire to cleanse the sacred woodland.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Krolg hate the night elves?",
+   "aliases": [
+    "krolg night elf hatred",
+    "why does krolg hate elves",
+    "krolg backstory"
+   ],
+   "answer": "Krolg views the night elves as arrogant stewards whose historical meddling with dangerous magic brought corruption upon the land. He holds them responsible for the tainted state of Ashenvale and the suffering of the native tribes."
+  },
+  {
+   "q": "Who is Ran Bloodtooth?",
+   "aliases": [
+    "ran bloodtooth lore",
+    "who is bloodtooth",
+    "ran bloodtooth"
+   ],
+   "answer": "Ran Bloodtooth is a corrupt and power-hungry furbolg chieftain camped in the mountains east of Lake Mystral. Driven mad by the dark forces poisoning Ashenvale, his lust for violence poses a threat to all natural creatures in the forest."
+  },
+  {
+   "q": "Why does Krolg want Ran Bloodtooth dead?",
+   "aliases": [
+    "why kill ran bloodtooth",
+    "krolg motive bloodtooth"
+   ],
+   "answer": "Even though Krolg resents the night elves, he draws the line at wanton savagery against the innocent. He believes the furbolgs must police their own evil and that Ran's corruption has turned him into a monster who threatens the entire forest."
+  },
+  {
+   "q": "How can Alliance players speak to Krolg without being attacked?",
+   "aliases": [
+    "how to talk to krolg",
+    "dartols rod krolg",
+    "why is krolg friendly"
+   ],
+   "answer": "Alliance heroes use Dartol's Rod of Transformation, a sacred furbolg artifact provided during the quest chain, to take on the guise of a furbolg and safely approach Krolg."
+  },
+  {
+   "q": "Where is Ran Bloodtooth located?",
+   "aliases": [
+    "ran bloodtooth location",
+    "where is ran bloodtooth",
+    "bloodtooth camp"
+   ],
+   "answer": "Ran Bloodtooth and his guards maintain an encampment along the mountains east of Krolg's refuge near Lake Mystral."
+  },
+  {
+   "q": "How does killing Ran Bloodtooth help cleanse Ashenvale?",
+   "aliases": [
+    "cleansing ashenvale ran",
+    "why is bloodtooth part of raenes cleansing"
+   ],
+   "answer": "Culling the most violent, taint-empowered chieftains curtails the spread of demonic madness among the wildlife and native tribes, fulfilling Krolg's condition for helping purify the waters of Lake Falathim."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Confronting Krolg offers night elves an uncomfortable mirror: despite thousands of years guarding Ashenvale, local tribes hold kaldorei pride directly accountable for the ancient sundering and lingering taint."
+  },
+  {
+   "target": "class:Druid",
+   "text": "For druids dedicated to preserving Ashenvale's balance, Ran Bloodtooth represents the tragic fall of natural creatures yielding entirely to demonic corruption."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Aided by Dartol's enchanted rod, Alliance champions act as clandestine intermediaries to quell rogue chieftains deep behind enemy lines."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "bloodtooth guard",
+  "corruption",
+  "dartol's rod",
+  "furbolg",
+  "krolg",
+  "lake mystral",
+  "ran bloodtooth"
+ ],
+ "related": [
+  "npc:krolg",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Raene's Cleansing (10)"
+ ]
+}

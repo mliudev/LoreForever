@@ -1,0 +1,88 @@
+{
+ "key": "subzone:gryphon-roost",
+ "type": "subzone",
+ "name": "Gryphon Roost",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Gryphon Roost"
+ },
+ "summary": "Perched along the ramparts just east of Stormwind's Trade District, the Gryphon Roost serves as the capital's primary transit hub for aerial travel. Managed by skilled Wildhammer handlers, it houses the majestic beasts that ferry couriers, soldiers, and adventurers across the Eastern Kingdoms.",
+ "sections": [
+  {
+   "title": "Gateway to the Skies",
+   "body": "Situated atop the fortifications overlooking the Trade District canal, the Gryphon Roost connects the capital with outlying Alliance garrisons and settlements throughout the Eastern Kingdoms. The flight network is orchestrated by the seasoned master Dungar Longdrink, who coordinates routes to Ironforge, Lakeshire, Sentinel Hill, and beyond. Alongside Dungar, Wildhammer kin tend to the sturdy beasts, seeing to their care, breeding, and harness training high above the bustling cobblestones below.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Touch of the Aerie",
+   "body": "While Stormwind is predominantly a kingdom of men, the presence of gryphons and their handlers brings a bit of Hinterlands tradition directly into the city walls. Gryphons have long been revered partners of the Wildhammer clan, who introduced aerial warfare and transport to the broader Alliance during the Second War. Here on the roost, the salty smell of leather, feed, and fresh winds creates a distinct frontier atmosphere amid the city's stone masonry.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Gryphon Roost located in Stormwind?",
+   "aliases": [
+    "where is the roost",
+    "stormwind flight master location",
+    "find gryphon roost"
+   ],
+   "answer": "The roost is perched on the eastern ramparts accessible via a stairway directly leading up from the Trade District, overlooking the canals between the Trade District and Old Town."
+  },
+  {
+   "q": "Who manages the roost's flights?",
+   "aliases": [
+    "who is the flight master",
+    "stormwind flight master",
+    "dungar longdrink"
+   ],
+   "answer": "Dungar Longdrink, a dwarven flight master, oversees the roost. He organizes routes and rents out trained gryphons to travelers bound for allied settlements across the continent."
+  },
+  {
+   "q": "Why are dwarves running the roost in a human city?",
+   "aliases": [
+    "why dwarves in stormwind roost",
+    "wildhammer in stormwind",
+    "dwarven gryphons"
+   ],
+   "answer": "The Wildhammer dwarves are the traditional masters of gryphon taming and riding. Stormwind relies on their unmatched expertise to care for, breed, and train the beasts for reliable military and civilian transport."
+  },
+  {
+   "q": "Where can the gryphons fly from here?",
+   "aliases": [
+    "flight paths from stormwind",
+    "where do gryphons go",
+    "roost flight connections"
+   ],
+   "answer": "Gryphons dispatched from Stormwind connect primarily to regional settlements in Elwynn, Westfall, Redridge, and Duskwood, as well as longer overland routes leading north to Ironforge and the Wetlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The Gryphon Roost serves as an essential bridge between dwarven aviation traditions and the human capital, with Wildhammer expertise keeping Stormwind connected to Khaz Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Aerial courier lines operating out of the roost are vital for coordinating Alliance responses across troubled territories like Westfall and Redridge."
+  }
+ ],
+ "keywords": [
+  "dungar longdrink",
+  "flight master",
+  "gryphon roost",
+  "stormwind flight",
+  "trade district",
+  "wildhammer"
+ ],
+ "related": [
+  "zone:stormwind",
+  "quest:6261",
+  "subzone:trade-district",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Gryphon Roost"
+ ]
+}

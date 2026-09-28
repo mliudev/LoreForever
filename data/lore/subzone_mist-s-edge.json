@@ -1,0 +1,76 @@
+{
+ "key": "subzone:mist-s-edge",
+ "type": "subzone",
+ "name": "Mist's Edge",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Mist's Edge"
+ },
+ "summary": "Mist's Edge is the long, windswept coastline spanning the western border of Darkshore. Shrouded in damp ocean fog, these gray beaches are littered with shipwrecks, colossal sea creature remains, and roving packs of crabs and murlocs.",
+ "sections": [
+  {
+   "title": "A Fog-Shrouded Shore",
+   "body": "Running along the western edge of Darkshore, Mist's Edge is defined by damp sands, rocky tidepools, and perpetual coastal fog. The beach is a graveyard of the sea, littered with decaying sea behemoths, drift timber, and the shattered ribs of wrecked vessels. While seemingly barren, the coastline teems with shoreline scavengers, notably aggressive crabs and territorial murloc tribes that nest in the surf.",
+   "spoiler": 0
+  },
+  {
+   "title": "Wrecks and Scavengers",
+   "body": "The treacherous waters off the coast of Darkshore have claimed countless vessels, depositing shattered hulls and discarded cargo all along the sands. Night elf sentinels and local scavengers keep a wary eye on the coastline, where opportunistic murloc encampments frequently menace travelers heading up and down the coast from Auberdine.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Mist's Edge?",
+   "aliases": [
+    "mists edge",
+    "darkshore beach",
+    "what is mists edge"
+   ],
+   "answer": "Mist's Edge is the expansive stretch of coastline that forms the entire western shore of Darkshore, known for its cold ocean fog, shipwrecks, and beached sea creatures."
+  },
+  {
+   "q": "What threats wander this coast?",
+   "aliases": [
+    "mists edge monsters",
+    "what attacks you on the beach",
+    "darkshore coast dangers"
+   ],
+   "answer": "The shoreline is heavily populated by hostile coastal crabs and aggressive murloc packs that dwell in primitive camps along the water's edge."
+  },
+  {
+   "q": "Why are there so many shipwrecks and skeletons here?",
+   "aliases": [
+    "darkshore beached whales",
+    "shipwrecks mists edge",
+    "giant bones darkshore"
+   ],
+   "answer": "The harsh currents, hidden reefs, and heavy mist off Darkshore make navigation hazardous, driving ships onto the rocks. Similarly, ocean currents often wash the remains of massive leviathans and sea creatures ashore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves of Auberdine, Mist's Edge represents both a vital maritime boundary and an untamed border plagued by invading murlocs and foul scavengers."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "beach",
+  "coast",
+  "crabs",
+  "darkshore",
+  "mist's edge",
+  "murloc",
+  "shipwreck"
+ ],
+ "related": [
+  "zone:darkshore",
+  "subzone:auberdine",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Mist's Edge"
+ ]
+}

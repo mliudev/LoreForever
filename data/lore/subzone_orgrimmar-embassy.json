@@ -1,0 +1,69 @@
+{
+ "key": "subzone:orgrimmar-embassy",
+ "type": "subzone",
+ "name": "Orgrimmar Embassy",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Orgrimmar Embassy"
+ },
+ "summary": "In the current era of 25 ADP, no formal Orgrimmar Embassy exists within the red canyon walls of Durotar. The craggy district west of the Valley of Strength is currently undeveloped canyon terrain rather than a hall of diplomacy. Thrall instead conducts all statecraft and hosts emissaries directly inside Grommash Hold in the Valley of Wisdom.",
+ "sections": [
+  {
+   "title": "Diplomacy in the Red City",
+   "body": "Travelers seeking a designated embassy district in Orgrimmar will find only barren red rock and quiet bluffs above the city's thoroughfares. In this early age following the Third War, the Horde maintains no detached diplomatic bureau or sprawling embassy quarter. Warchief Thrall coordinates the fragile confederation of orcs, Darkspear trolls, and tauren directly from Grommash Hold in the Valley of Wisdom. Messengers, envoys from the Undercity, and visiting chieftains bring their petitions straight to the Warchief's throne rather than congregating in an external consulate.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Orgrimmar Embassy?",
+   "aliases": [
+    "embassy location",
+    "find orgrimmar embassy",
+    "where is embassy"
+   ],
+   "answer": "It does not exist in 25 ADP. The area west of the Valley of Strength where later legends speak of an embassy is simply unoccupied canyon land and hills overlooking the main valley."
+  },
+  {
+   "q": "Where do foreign envoys and emissaries meet Horde leaders right now?",
+   "aliases": [
+    "where are horde leaders",
+    "where to find thrall",
+    "diplomacy in orgrimmar"
+   ],
+   "answer": "All major diplomacy and high-level council meetings occur in Grommash Hold, situated in the Valley of Wisdom. Thrall and his advisors host visiting emissaries, such as representatives from the Forsaken, directly within the stronghold."
+  },
+  {
+   "q": "Why would someone look for an embassy in Orgrimmar?",
+   "aliases": [
+    "what is the embassy",
+    "why look for embassy"
+   ],
+   "answer": "Rumors from other lands or eras describe an assembly hall dedicated to gathering allied factions and overseas representatives. However, the fledgling Horde in Durotar functions as a tight, unified frontier force ruled directly by the Warchief rather than an expansive diplomatic council."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "All internal Horde politics flow directly through Warchief Thrall in the Valley of Wisdom rather than any secondary civic building."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "embassy",
+  "grommash hold",
+  "orgrimmar",
+  "thrall",
+  "valley of strength"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "npc:thrall",
+  "subzone:valley-of-strength",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Orgrimmar Embassy"
+ ]
+}

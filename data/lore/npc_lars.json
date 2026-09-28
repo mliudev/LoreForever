@@ -1,0 +1,86 @@
+{
+ "key": "npc:lars",
+ "type": "npc",
+ "name": "Lars",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Lars",
+  "refs": 1
+ },
+ "summary": "Lars is a beleaguered human survivor camping out in the wilderness of Duskwood. Along with his companion Sven Yorgen, he struggles to hold his ground on the northern edge of the Hushed Bank against the terrors that stalk the forest.",
+ "sections": [
+  {
+   "title": "A Precarious Perch",
+   "body": "Perched in a modest camp on the northern edge of the Hushed Bank, Lars ekes out a precarious survival far from the questionable safety of Darkshire. Duskwood is treacherous at the best of times, but the surrounding woods crawl with ferocious beasts, relentless undead, and creeping worgen. Lars stays close by Sven Yorgen, striving simply to stay alive in an increasingly hostile wilderness.",
+   "spoiler": 0
+  },
+  {
+   "title": "Threat from the Wilds",
+   "body": "Survival at the camp requires constant vigilance against the local predators. Lars finds himself sorely pressed by the relentless packs of starving dire wolves that haunt the shadows around their fire. Unable to lower his guard or drive them back alone, he relies on capable travelers to thin the hungry predators before his small camp is completely overrun.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lars?",
+   "aliases": [
+    "lars duskwood",
+    "who is lars",
+    "lars npc"
+   ],
+   "answer": "Lars is a human survivor camping out in the wilds of Duskwood. He lives alongside his friend and companion Sven Yorgen on the northern border of the Hushed Bank, doing what he can to survive the forest's horrors."
+  },
+  {
+   "q": "Where can Lars be found?",
+   "aliases": [
+    "where is lars",
+    "lars location",
+    "lars camp"
+   ],
+   "answer": "Lars is stationed at a small wilderness camp along the northern edge of the Hushed Bank, situated in western Duskwood."
+  },
+  {
+   "q": "What problem does Lars face?",
+   "aliases": [
+    "lars quest",
+    "wolves at our heels quest",
+    "why does lars need help"
+   ],
+   "answer": "Lars and Sven are constantly harassed by the ravenous wolves and predators lurking in the woods nearby. Through the task 'Wolves at Our Heels', Lars asks passing adventurers to hunt down the predators before they tear his camp apart."
+  },
+  {
+   "q": "What is Lars's relationship to Sven Yorgen?",
+   "aliases": [
+    "lars and sven",
+    "who is sven to lars"
+   ],
+   "answer": "Lars and Sven Yorgen are companions surviving together in the wilderness. Sven has his own dark history and vendetta in the region, while Lars helps maintain their rough, isolated outpost."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lars is a beleaguered human civilian surviving outside the town guard's reach, glad to find Alliance champions willing to cut down the wolves circling his campsite."
+  }
+ ],
+ "keywords": [
+  "camp",
+  "duskwood",
+  "hushed bank",
+  "lars",
+  "sven yorgen",
+  "wolves",
+  "wolves at our heels"
+ ],
+ "related": [
+  "npc:sven-yorgen",
+  "subzone:hushed-bank",
+  "zone:duskwood",
+  "quest:226",
+  "topic:worgen"
+ ],
+ "attribution": [
+  "Lars"
+ ]
+}

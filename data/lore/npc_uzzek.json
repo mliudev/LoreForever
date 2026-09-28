@@ -1,0 +1,74 @@
+{
+ "key": "npc:uzzek",
+ "type": "npc",
+ "name": "Uzzek",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Uzzek",
+  "refs": 2
+ },
+ "summary": "Uzzek is a battle-hardened orc veteran stationed just southwest of the Far Watch Post in the Barrens. Having survived countless skirmishes across Kalimdor, he now helps evaluate and temper promising Horde warriors who journey through the arid plains.",
+ "sections": [
+  {
+   "title": "Veteran of the Plains",
+   "body": "Perched southwest of Far Watch Post along the eastern border of the Barrens, Uzzek represents the enduring grit of the Horde's frontline fighters. Having endured brutal combat throughout the recent wars, he serves as an instructor and trial-giver to younger warriors seeking to master their defensive disciplines. To prove oneself to Uzzek requires testing one's mettle against the savage wildlife and raiders that plague the arid crossing.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Uzzek?",
+   "aliases": [
+    "who is uzzek",
+    "uzzek lore",
+    "uzzek npc"
+   ],
+   "answer": "Uzzek is a veteran orc warrior stationed in the eastern Barrens, just southwest of Far Watch Post. He directs aspiring Horde warriors who are learning the fundamentals of defensive combat."
+  },
+  {
+   "q": "Where can I find Uzzek?",
+   "aliases": [
+    "uzzek location",
+    "where is uzzek",
+    "find uzzek"
+   ],
+   "answer": "He is located along the bluffs just southwest of Far Watch Post, overlooking the road leading into the Barrens from Durotar."
+  },
+  {
+   "q": "What role does Uzzek play for Horde warriors?",
+   "aliases": [
+    "uzzek warrior quest",
+    "path of defense uzzek"
+   ],
+   "answer": "Uzzek tests young warriors on their stamina and ability to hold their ground, tasking them with trials like the Path of Defense before directing them to other seasoned masters like Thun'grim Firegaze."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Uzzek is an essential mentor on your journey, testing your grit and defensive mastery as you transition out of your initial training grounds into the wider Barrens."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Stationed right past the Great Gate, Uzzek stands among the veteran defenders keeping watch over the vulnerable border between Durotar and the untamed savanna."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "far watch post",
+  "path of defense",
+  "thun'grim firegaze",
+  "uzzek",
+  "warrior trainer"
+ ],
+ "related": [
+  "subzone:far-watch-post",
+  "zone:barrens",
+  "quest:1498",
+  "quest:1502"
+ ],
+ "attribution": [
+  "Uzzek"
+ ]
+}

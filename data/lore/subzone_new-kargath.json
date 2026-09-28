@@ -1,0 +1,69 @@
+{
+ "key": "subzone:new-kargath",
+ "type": "subzone",
+ "name": "New Kargath",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "New Kargath"
+ },
+ "summary": "New Kargath does not exist in this era. The primary Horde outpost within the Badlands remains original Kargath, nestled firmly against the western cliffs overlooking the dusty basin.",
+ "sections": [
+  {
+   "title": "A Future Outpost",
+   "body": "Travelers seeking Horde forces in the Badlands will find only the fortified camp of Kargath on the western rim. Settlements like 'New Kargath' belong to speculative futures and cataclysms that have not occurred. For now, Warchief Thrall's scouts and warriors maintain their solitary desert watch strictly from original Kargath.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is New Kargath located?",
+   "aliases": [
+    "new kargath location",
+    "how do i find new kargath",
+    "where is new kargath"
+   ],
+   "answer": "New Kargath does not exist in the present year. You are looking for the original settlement of Kargath, which is situated against the mountains along the western edge of the Badlands."
+  },
+  {
+   "q": "Why isn't New Kargath here?",
+   "aliases": [
+    "why no new kargath",
+    "is new kargath in classic",
+    "new kargath missing"
+   ],
+   "answer": "New Kargath is an outpost built far in the future after a cataclysm shatters the region. In the present era of 25 ADP, original Kargath stands intact as the lone Horde stronghold in the Badlands."
+  },
+  {
+   "q": "What Horde hub should I use in the Badlands instead?",
+   "aliases": [
+    "badlands flight path",
+    "horde town badlands",
+    "where is the flight master"
+   ],
+   "answer": "The outpost of Kargath provides all the necessary amenities for Horde champions, including a flight master, provisions, and shelter amidst the arid waste."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Do not look for newer bastions atop the bluffs; report directly to Kargath along the western border for orders and resupply."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "horde",
+  "kargath",
+  "new kargath",
+  "outpost"
+ ],
+ "related": [
+  "subzone:kargath",
+  "zone:badlands",
+  "topic:horde",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "New Kargath"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "subzone:athenaeum-scarlet-monastery",
+ "type": "subzone",
+ "name": "Athenaeum (Scarlet Monastery)",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Athenaeum (Scarlet Monastery)"
+ },
+ "summary": "The Athenaeum is the grand, book-lined library deep within the Scarlet Monastery, positioned beyond the Gallery of Treasures. Here, the Scarlet Crusade preserves its religious and historical texts\u2014and ruthlessly destroys anything that contradicts its fanatical doctrine.",
+ "sections": [
+  {
+   "title": "A Repository of Zeal",
+   "body": "Tucked away in the cloistered halls of the Scarlet Monastery, the Athenaeum holds an immense collection of historical tomes, sacred scrolls, and arcane treatises salvaged from Lordaeron's fall. Despite the Crusade's outwards contempt for sorcery, their zealot arcanists study here extensively. However, rather than simply preserving history, the curators sanitize it. Inconvenient truths, battlefield defeats, and any record casting doubt on the order's righteousness are consigned to fire, leaving behind only works that reinforce their uncompromising crusade.",
+   "spoiler": 0
+  },
+  {
+   "title": "Purging the Archives",
+   "body": "The inner sanctum of the library is rigorously guarded against outside intrusion. Trespassers, captured undead, and even internal students deemed insufficiently devoted or heretical have faced fiery execution among the stacks. Curated by ruthless mages like Flameweaver Koegler, the archives serve as an ideological forge where the Crusade rewrites its past, ensuring that newly indoctrinated recruits read only tales of unblemished glory and total war against the Scourge and anyone who shields them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Athenaeum?",
+   "aliases": [
+    "athenaeum lore",
+    "scarlet monastery library",
+    "what is this library"
+   ],
+   "answer": "The Athenaeum is the primary library wing within the Scarlet Monastery, located past the Gallery of Treasures. It serves as a repository for religious records, arcane tomes, and the documented history of Lordaeron's fall."
+  },
+  {
+   "q": "Why are books being burned in the Athenaeum?",
+   "aliases": [
+    "why are they burning books",
+    "burning tomes",
+    "why books on fire"
+   ],
+   "answer": "The Scarlet Crusade seeks to erase any record of its past failures, tactical blunders, or ideological flaws. The mages overseeing the stacks deliberately burn genuine historical tomes to reshape their history into an unbroken tale of righteous conquest."
+  },
+  {
+   "q": "What kind of texts can be found here?",
+   "aliases": [
+    "books in athenaeum",
+    "what books are here",
+    "scarlet library books"
+   ],
+   "answer": "The shelves contain ancient Kirin Tor spellbooks\u2014including lost teleportation secrets concerning Dalaran\u2014alongside religious manifestos, crusade codices, and logs recounting battles against the undead."
+  },
+  {
+   "q": "Who oversees the library?",
+   "aliases": [
+    "who runs the athenaeum",
+    "athenaeum boss",
+    "who is burning books"
+   ],
+   "answer": "The Athenaeum is maintained under the watchful eye of zealous arcanists such as Flameweaver Koegler, who uses fire to execute heretics, incinerate encroaching undead, and destroy unapproved history."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, the Athenaeum contains rare and ancient volumes on translocation\u2014including rare teleportation treatises tied to the city of Dalaran\u2014though rescuing them requires walking through walls of zealous fire."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The twisted doctrinal texts in the Athenaeum demonstrate how far the Scarlet Crusade has corrupted the teachings of the Holy Light into an instrument of terror and absolute intolerance."
+  }
+ ],
+ "keywords": [
+  "archives",
+  "athenaeum",
+  "books",
+  "dalaran tomes",
+  "flameweaver koegler",
+  "library",
+  "scarlet halls",
+  "scarlet monastery"
+ ],
+ "related": [
+  "zone:scarlet",
+  "subzone:scarlet-halls",
+  "subzone:gallery-of-treasures",
+  "topic:scarlet-crusade",
+  "subzone:dalaran"
+ ],
+ "attribution": [
+  "Athenaeum (Scarlet Monastery)"
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "key": "quest:176",
+ "type": "quest",
+ "name": "Wanted: \"Hogger\"",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   176
+  ],
+  "level": "11",
+  "faction": "Alliance",
+  "start": "Wanted Poster",
+  "end": "Marshal Dughan",
+  "previous": null,
+  "next": null,
+  "wiki": "Wanted: \"Hogger\"",
+  "chain": []
+ },
+ "summary": "Wanted: \"Hogger\" is an Alliance bounty posted outside Goldshire for the head of a massive, savage gnoll chieftain. Hogger prowls the southwestern woods of Elwynn Forest and has violently thwarted every attempt by the local authorities to bring him down.",
+ "sections": [
+  {
+   "title": "A Menace in the Woods",
+   "body": "While Elwynn Forest struggles with banditry and kobold infestations, the gnoll tribes in the south have grown bolder and more organized under the brute leadership of Hogger. Towering over typical Riverpaw gnolls, Hogger has established camp near the Forest's Edge, ambushing travelers and overpowering the local militia patrols sent to subdue him.",
+   "spoiler": 0
+  },
+  {
+   "title": "Goldshire's Desperation",
+   "body": "With the Stormwind Army stretched thin and unable to spare regular forces to police the outskirts of the capital, Marshal Dughan took the unusual step of posting an open bounty on the beast. Taking down Hogger requires venture into deeply hostile gnoll territory, and his ferocity has earned him a reputation as the deadliest threat facing novice adventurers in Elwynn.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hogger?",
+   "aliases": [
+    "who is hogger",
+    "hogger lore",
+    "what is hogger"
+   ],
+   "answer": "Hogger is an unusually large and savage gnoll leader terrorizing southwestern Elwynn Forest. He commands local packs around the Forest's Edge and has violently defeated all previous attempts by Stormwind guards to capture or kill him."
+  },
+  {
+   "q": "Where can Hogger be found?",
+   "aliases": [
+    "hogger location",
+    "where is hogger",
+    "find hogger"
+   ],
+   "answer": "Hogger wanders among the gnoll encampments in southwestern Elwynn Forest, near the southern borders known as Forest's Edge, just north of the river boundary with Westfall and Duskwood."
+  },
+  {
+   "q": "Why is there a bounty on Hogger?",
+   "aliases": [
+    "why kill hogger",
+    "wanted poster hogger",
+    "who put bounty on hogger"
+   ],
+   "answer": "The Stormwind Army placed a bounty on Hogger because he has overpowered local patrols and poses a lethal danger to travelers. With official troops stretched thin across the kingdom, Marshal Dughan turned to independent adventurers and bounty hunters to eliminate the threat."
+  },
+  {
+   "q": "Who collects the proof of Hogger's death?",
+   "aliases": [
+    "turn in hogger",
+    "where to turn in hogger",
+    "who wants hogger claw"
+   ],
+   "answer": "Proof of the beast's demise\u2014his Huge Gnoll Claw\u2014must be brought directly to Marshal Dughan, who commands the local garrison stationed in Goldshire."
+  },
+  {
+   "q": "Why is Hogger so dangerous compared to other gnolls?",
+   "aliases": [
+    "is hogger strong",
+    "why is hogger elite"
+   ],
+   "answer": "Unlike the common gnolls prowling Elwynn, Hogger possesses immense physical stature and brutality. He hits significantly harder and can withstand far more punishment, often overwhelming single combatants who underestimate him."
+  },
+  {
+   "q": "Why can't the Stormwind guards handle Hogger themselves?",
+   "aliases": [
+    "why doesn't dughan kill hogger",
+    "where is stormwind army"
+   ],
+   "answer": "The kingdom's military resources are severely depleted and tied down defending major borders or dealing with the missing King Varian Wrynn. Marshal Dughan's small detachment in Goldshire lacks the manpower to safely hunt down such a resilient monster."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Taking down Hogger is considered a rite of passage for young Alliance heroes testing their mettle in the defense of Stormwind's heartland."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Elwynn, slaying Hogger secures homesteads and road trade that have been terrorized by gnoll ambushes for months."
+  }
+ ],
+ "keywords": [
+  "bounty",
+  "dughan",
+  "elwynn",
+  "forest's edge",
+  "gnoll",
+  "goldshire",
+  "hogger",
+  "wanted"
+ ],
+ "related": [
+  "npc:marshal-dughan",
+  "subzone:goldshire",
+  "subzone:forest-s-edge",
+  "topic:gnoll",
+  "topic:stormwind-army",
+  "zone:elwynn",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Wanted: \"Hogger\""
+ ]
+}

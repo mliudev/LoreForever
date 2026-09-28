@@ -1,0 +1,71 @@
+{
+ "key": "subzone:north-gate-outpost",
+ "type": "subzone",
+ "name": "North Gate Outpost",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "North Gate Outpost"
+ },
+ "summary": "North Gate Outpost is a fortified dwarven camp situated high in the North Gate Pass of Dun Morogh. Manning the rugged route between Ironforge's snowy heartland and Loch Modan, its mountaineers guard travelers against the hostile wildlife that infests the crags.",
+ "sections": [
+  {
+   "title": "Guards of the Pass",
+   "body": "Positioned in the middle of North Gate Pass, this small settlement serves as the northeastern threshold of Dun Morogh. Dwarven mountaineers stationed here keep the main roadway cleared of prowling beasts and monitor traffic heading through the mountain tunnels into Loch Modan. The harsh climate and steep ravines make patrol duty treacherous, and the garrison frequently calls upon travelers to scout the surrounding ridges for missing patrols and dangerous predators.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is North Gate Outpost used for?",
+   "aliases": [
+    "north gate outpost purpose",
+    "why is north gate outpost here"
+   ],
+   "answer": "It serves as a mountain military checkpoint that secures North Gate Pass, the northern roadway connecting Dun Morogh to Loch Modan. Mountaineers stationed here keep the pass open to trade and travel by curbing wild beast populations."
+  },
+  {
+   "q": "Where does the road through the pass lead?",
+   "aliases": [
+    "where does north gate pass go",
+    "road past north gate outpost"
+   ],
+   "answer": "Traveling east through the mountain tunnels beyond the outpost leads into the temperate valley of Loch Modan, while heading west leads back down toward Kharanos and Ironforge."
+  },
+  {
+   "q": "Why do the mountaineers need help from travelers?",
+   "aliases": [
+    "north gate outpost quests",
+    "missing mountaineers"
+   ],
+   "answer": "The local wildlife along the snowy cliffs is fiercely territorial. Several mountaineers have gone missing into the crags while hunting dangerous beasts, forcing the garrison to enlist capable scouts to discover their fates."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The outpost showcases the stoic duty of Ironforge's Mountaineers, who hold the harsh highland passes open regardless of freezing weather or prowling predators."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Having resettled across Dun Morogh, gnomes often lend their wits and marksmanship to assist the dwarven garrison in tracking down lost patrols."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "ironforge",
+  "loch modan",
+  "mountaineers",
+  "north gate outpost",
+  "north gate pass"
+ ],
+ "related": [
+  "subzone:north-gate-pass",
+  "zone:dunmorogh",
+  "zone:lochmodan",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "North Gate Outpost"
+ ]
+}

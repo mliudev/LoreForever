@@ -1,0 +1,122 @@
+{
+ "key": "quest:7321",
+ "type": "quest",
+ "name": "Soothing Turtle Bisque",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   7321
+  ],
+  "level": "31",
+  "faction": "Horde",
+  "start": "Christoph Jeffcoat",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Soothing Turtle Bisque (Horde)",
+  "chain": []
+ },
+ "summary": "Soothing Turtle Bisque is a culinary task offered by Christoph Jeffcoat in Tarren Mill. The Forsaken cook aims to disprove the notion that the undead lack culinary talent by preparing a hearty broth from local snapjaw meat. Players must hunt freshwater turtles around the waterways of Hillsbrad Foothills and the shores of Lordamere Lake to master his prized recipe.",
+ "sections": [
+  {
+   "title": "Forsaken Gastronomy",
+   "body": "It is widely assumed that the Forsaken have entirely abandoned the comforts of life, including the art of fine dining. Christoph Jeffcoat, stationed in Tarren Mill, vigorously rejects that assumption. Boasting that his rich, soothing turtle bisque is good enough to tempt souls back from beyond the grave, Jeffcoat seeks to prove that undead hands are capable of delicate, heartwarming craft even in a land tainted by plague and war.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hunting the Snapjaws",
+   "body": "Ordinarily, Jeffcoat gathered his own ingredients from the waterways of Hillsbrad Foothills and the eastern shores of Lordamere Lake in neighboring Alterac. However, duties in Tarren Mill and the encroaching presence of Alliance forces have pinned him down. He relies on passing Horde cooks to hunt the snapjaws, harvest their meat, and bring it back so the culinary tradition can endure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does a Forsaken cook care about making hot bisque?",
+   "aliases": [
+    "undead cooking",
+    "why make bisque",
+    "undead eat food"
+   ],
+   "answer": "While the Forsaken do not require sustenance in the same manner as living mortals, individuals like Christoph Jeffcoat take great pride in their trade. Jeffcoat aims to disprove the prejudice that undead lack refined skill, joking that his signature broth is good enough to bring the deceased back to life."
+  },
+  {
+   "q": "Where can turtle meat be found for this recipe?",
+   "aliases": [
+    "where are turtles",
+    "turtle locations",
+    "snapjaw locations"
+   ],
+   "answer": "Turtle meat is harvested from the aggressive snapjaws dwelling along the rivers running through Hillsbrad Foothills and Alterac, as well as along the shores of Lordamere Lake."
+  },
+  {
+   "q": "Why can't Christoph Jeffcoat gather his own ingredients?",
+   "aliases": [
+    "why doesn't christoph go",
+    "jeffcoat stuck in town"
+   ],
+   "answer": "Jeffcoat claims he is tied down with responsibilities in Tarren Mill. He also expresses irritation at the encroaching Alliance forces nearby, which make personal hunting excursions far more hazardous."
+  },
+  {
+   "q": "Is cooking knowledge required to take this quest?",
+   "aliases": [
+    "do i need cooking",
+    "cooking profession requirement"
+   ],
+   "answer": "Yes. Christoph Jeffcoat will only share his craft and recipe with fellow practitioners of the cooking profession, though it does not demand any advanced mastery to begin."
+  },
+  {
+   "q": "What is Tarren Mill's importance to the Horde in Hillsbrad?",
+   "aliases": [
+    "what is tarren mill",
+    "tarren mill lore"
+   ],
+   "answer": "Tarren Mill serves as the primary Horde stronghold in the Hillsbrad Foothills. Formerly a human village, it now functions as a fortified base for the Forsaken and their allies, facing frequent clashes against Southshore and the regional Alliance presence."
+  },
+  {
+   "q": "Is turtle bisque unique to the Horde?",
+   "aliases": [
+    "alliance version",
+    "can alliance get turtle bisque"
+   ],
+   "answer": "Alliance cooks can acquire the recipe from local human chefs in Southshore who also make use of the local turtle population, but Christoph Jeffcoat's personal quest and perspective are exclusive to the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "This task allows cooks to master Soothing Turtle Bisque, turning the aggressive reptiles of Lordamere Lake and Hillsbrad's rivers into a restorative meal."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Christoph Jeffcoat represents a lighter, craft-driven side of the Forsaken, insisting that death has not dulled his culinary passion."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Supporting the garrison at Tarren Mill involves more than defending its borders; keeping provisions and morale high helps secure the Horde's footing in contested Hillsbrad."
+  }
+ ],
+ "keywords": [
+  "christoph jeffcoat",
+  "cooking",
+  "hillsbrad foothills",
+  "lordamere lake",
+  "snapjaw",
+  "soothing turtle bisque",
+  "tarren mill",
+  "turtle meat"
+ ],
+ "related": [
+  "npc:christoph-jeffcoat",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "subzone:lordamere-lake",
+  "zone:alterac",
+  "topic:horde",
+  "topic:alliance",
+  "quest:555"
+ ],
+ "attribution": [
+  "Soothing Turtle Bisque (Horde)"
+ ]
+}

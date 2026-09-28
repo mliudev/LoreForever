@@ -1,0 +1,93 @@
+{
+ "key": "npc:field-marshal-snowfall",
+ "type": "npc",
+ "name": "Field Marshal Snowfall",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Field Marshal Snowfall",
+  "refs": 1
+ },
+ "summary": "Field Marshal Snowfall is a dwarven military officer stationed in Ironforge's Military Ward to coordinate the Alliance war effort against the rising silithid threat. Facing an ancient evil stirring in the southern sands of Silithus, he oversees the massive logistical drive required to equip the allied armies. Snowfall tracks donated raw materials and rewards those who aid the realm's preparation for war.",
+ "sections": [
+  {
+   "title": "Quartermaster of the Ahn'Qiraj Effort",
+   "body": "Standing watch in Ironforge's Military Ward, Field Marshal Snowfall serves as the central coordinator for the Alliance's mobilization against Ahn'Qiraj. He views the brewing conflict not merely as a border skirmish, but as a critical fight against an ancient enemy hostile to all creations of the Titans. Snowfall oversees staggering stockpiles of supplies\u2014millions of bandages, tons of metal bars, leathers, herbs, and rations gathered by adventurers\u2014ensuring that Alliance forces will be armed, armored, and fed when the march south to Silithus begins.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Silithus",
+   "body": "Mobilizing an entire faction requires coordination between blacksmiths, gathers, cooks, and soldiers across every Alliance territory. Snowfall monitors each stage of this immense operation, accepting commendation signets and offering supply requisitions to volunteers. Once the required war supplies are fully gathered across both factions, the stockpiles are packed and hauled south to Cenarion Hold, readying the grand assault against the insectoid swarms and the Old God lurking behind the Scarab Wall.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Field Marshal Snowfall?",
+   "aliases": [
+    "snowfall role",
+    "who is snowfall",
+    "field marshal snowfall lore"
+   ],
+   "answer": "Field Marshal Snowfall is a high-ranking dwarven commander based in the Military Ward of Ironforge. He is tasked with overseeing and tallying the Alliance's extensive supply collection for the impending war against the qiraji in Silithus."
+  },
+  {
+   "q": "Why is the Alliance collecting so many supplies?",
+   "aliases": [
+    "why donate cloth",
+    "war effort purpose",
+    "why war supplies"
+   ],
+   "answer": "An ancient power threatens Kalimdor from beyond the gates of Ahn'Qiraj. To mount a successful campaign across the harsh deserts of Silithus, the Alliance must amass enormous reserves of armor, metal ingots, medical bandages, food, and herbs before its armies can march."
+  },
+  {
+   "q": "Where do the gathered materials go once finished?",
+   "aliases": [
+    "where do supplies go",
+    "what happens to the supplies"
+   ],
+   "answer": "Once both the Alliance and the Horde meet their total gathering quotas, caravans and supply ships transport the vast stockpiles to Cenarion Hold in Silithus, where the combined forces establish their forward staging grounds."
+  },
+  {
+   "q": "What are the Signets for War Supplies used for?",
+   "aliases": [
+    "signet turn ins",
+    "what are signets for"
+   ],
+   "answer": "Signets are awarded to contributors who donate requested arms and materials to the war effort. Field Marshal Snowfall accepts these signets in bundles, rewarding dutiful Alliance citizens with supply crates and equipment for their service."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Snowfall represents the unified industrial and military will of the Alliance, calling on every race from Stormwind to Darnassus to empty their storehouses and prepare for the battle ahead."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Stationed within the Great Forge's martial district, Snowfall speaks with pride of protecting the creations of the Titans against an ancient, deep-seated depravity."
+  }
+ ],
+ "keywords": [
+  "ahn'qiraj",
+  "field marshal snowfall",
+  "ironforge",
+  "military ward",
+  "signets",
+  "silithus",
+  "snowfall",
+  "war effort"
+ ],
+ "related": [
+  "subzone:military-ward",
+  "zone:ironforge",
+  "zone:silithus",
+  "subzone:cenarion-hold",
+  "quest:8846",
+  "quest:8852",
+  "npc:warlord-gorchuk",
+  "topic:old-god"
+ ],
+ "attribution": [
+  "Field Marshal Snowfall"
+ ]
+}

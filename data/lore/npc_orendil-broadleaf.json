@@ -1,0 +1,94 @@
+{
+ "key": "npc:orendil-broadleaf",
+ "type": "npc",
+ "name": "Orendil Broadleaf",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Orendil Broadleaf",
+  "refs": 2
+ },
+ "summary": "Orendil Broadleaf is a skilled night elf herbalist and healer stationed at Maestra's Post in western Ashenvale. Known for his deep knowledge of forest flora, he treats wounded defenders and concocts vital remedies to save young lives across the troubled woodlands.",
+ "sections": [
+  {
+   "title": "Healer of the Forest Border",
+   "body": "Positioned at Maestra's Post along the western threshold of Ashenvale, Orendil Broadleaf provides essential medical care to the Sentinels who defend the borderlands. Recognized for his masterful knowledge of local herbs and restorative craft, Orendil directs his apprentices and relies on passing travelers to gather rare natural reagents. Even as tension and conflict encroach upon the sacred grove, his tireless focus remains on safeguarding his kin and soothing the ailments of the forest's defenders.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Race Against Sickness",
+   "body": "Beyond caring for the wounded sentinels, Orendil plays a central part in the desperate effort to cure Relara Whitemoon, an afflicted child in Astranaar. Through careful study of forest botanicals\u2014including Bathran's hair\u2014he devises potent elixirs capable of holding back deadly sickness, demonstrating how herbal mastery remains a crucial shield against the perils haunting Ashenvale.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Orendil Broadleaf?",
+   "aliases": [
+    "orendil broadleaf",
+    "who is orendil",
+    "orendil ashenvale"
+   ],
+   "answer": "Orendil Broadleaf is a night elf herbalist and healer residing at Maestra's Post in western Ashenvale. He oversees healing efforts for local defenders and trains apprentices in the natural arts."
+  },
+  {
+   "q": "Where can Orendil Broadleaf be found?",
+   "aliases": [
+    "orendil broadleaf location",
+    "find orendil",
+    "where is orendil"
+   ],
+   "answer": "He is located at Maestra's Post, a night elf outpost situated along the main path in western Ashenvale, near the border with Darkshore."
+  },
+  {
+   "q": "What is Orendil trying to cure?",
+   "aliases": [
+    "orendil cure",
+    "who is orendil curing",
+    "relara whitemoon cure"
+   ],
+   "answer": "Orendil formulates a curative draught to save Relara Whitemoon, an ailing night elf child residing in Astranaar, using rare herbs gathered from the wild reaches of Ashenvale."
+  },
+  {
+   "q": "What is Orendil's Retreat?",
+   "aliases": [
+    "orendils retreat",
+    "orendil retreat",
+    "where apprentices study"
+   ],
+   "answer": "Orendil's Retreat is an encampment named in his honor where his apprentices carry out herbal research and aid in protecting the surrounding forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Orendil demonstrates the life-saving importance of regional botanicals, relying on rare plants like Bathran's hair to brew potent antidotes in the field."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For night elves defending Ashenvale, Orendil is an essential guardian of life whose gentle remedies keep frontier defenders and vulnerable children alive."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "bathran's hair",
+  "maestra's post",
+  "orendil broadleaf",
+  "orendil's cure",
+  "relara whitemoon"
+ ],
+ "related": [
+  "subzone:maestra-s-post",
+  "quest:1020",
+  "quest:1010",
+  "subzone:astranaar",
+  "npc:raene-wolfrunner",
+  "zone:ashenvale",
+  "topic:sentinels",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Orendil Broadleaf"
+ ]
+}

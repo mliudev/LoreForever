@@ -1,0 +1,117 @@
+{
+ "key": "quest:301",
+ "type": "quest",
+ "name": "Report to Ironforge",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   301
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Jern Hornhelm",
+  "end": "Prospector Stormpike",
+  "previous": "Excavation Progress Report",
+  "next": "Powder to Ironband",
+  "wiki": "Report to Ironforge",
+  "chain": []
+ },
+ "summary": "This errand sends an adventurer from Thelsamar in Loch Modan into the heart of Ironforge with critical updates from Ironband's Compound. Delivering the excavation progress report to Prospector Stormpike in the Assembly of Explorers sets off an investigation into missing blastpowder and stalled archaeology in the foothills.",
+ "sections": [
+  {
+   "title": "A Courier for the League",
+   "body": "Archaeological expeditions throughout Khaz Modan rely heavily on funding, supplies, and oversight from the Explorers' League. When Magmar Ironband's dig site in southern Loch Modan runs short of blasting supplies, his overseers cannot simply requisition more locally. Jern Hornhelm at the Thelsamar inn entrusts an adventurer with carrying Ironband's written report across the mountain passes directly to Prospector Stormpike at League headquarters.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Stormpike Temper",
+   "body": "Prospector Stormpike represents the no-nonsense, fiery determination characteristic of his clan. Stationed within the grand Library and Hall of Explorers in Ironforge, he expects swift, tangible results from the League's digs. Upon receiving the missive, Stormpike is outraged to find that Ironband fails to account for a massive shipment of blastpowder sent weeks earlier, revealing that supply lines in Loch Modan have suffered a dangerous breakdown.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does this report need to go all the way to Ironforge?",
+   "aliases": [
+    "why go to ironforge",
+    "why take report to stormpike",
+    "ironforge report reason"
+   ],
+   "answer": "The Explorers' League strictly governs the distribution of valuable resources like blastpowder. Field digs cannot order dangerous explosives without formal authorization from senior prospectors stationed at headquarters in the Hall of Explorers."
+  },
+  {
+   "q": "Who is Prospector Stormpike?",
+   "aliases": [
+    "who is stormpike",
+    "prospector stormpike lore"
+   ],
+   "answer": "He is a high-ranking official within the Explorers' League based in Ironforge. A member of the proud Stormpike clan, he is notorious for his short temper and impatience with stalled dig sites and missing inventory."
+  },
+  {
+   "q": "Where did Ironband's original blastpowder go?",
+   "aliases": [
+    "what happened to blastpowder",
+    "missing blastpowder",
+    "where is the powder"
+   ],
+   "answer": "A shipment of blasting powder was dispatched weeks prior, but Ironband makes no mention of ever receiving it. This raises immediate fears that troggs or bandits ambushed the transport wagon along the roads of Loch Modan."
+  },
+  {
+   "q": "Where do you find Prospector Stormpike in Ironforge?",
+   "aliases": [
+    "stormpike location",
+    "where is stormpike",
+    "assembly of explorers location"
+   ],
+   "answer": "Prospector Stormpike is located within the Assembly of Explorers, also known as the Library or Hall of Explorers, tucked in the northeastern wing of Ironforge."
+  },
+  {
+   "q": "Who gives you the report in Thelsamar?",
+   "aliases": [
+    "who starts report to ironforge",
+    "jern hornhelm role"
+   ],
+   "answer": "Jern Hornhelm, who resides inside the Stoutlager Inn in Thelsamar, acts as the liaison coordinating reports and communications between Ironband's remote camp and the city leadership."
+  },
+  {
+   "q": "What happens after Stormpike reads the report?",
+   "aliases": [
+    "what comes next",
+    "next quest after report to ironforge"
+   ],
+   "answer": "Furious over the unaccounted munitions and stalled progress, Stormpike orders the player to organize a new shipment of blastpowder and deliver it straight back to Magmar Ironband."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, navigating the bureaucracy of the Explorers' League and dealing with Clan Stormpike's legendary temper is a familiar rite of passage in the halls of their capital."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This task demonstrates the Alliance's logistical reach, connecting far-flung research camps in the mountain valleys to the military and scholarly leadership in Ironforge."
+  }
+ ],
+ "keywords": [
+  "blastpowder",
+  "explorers' league",
+  "ironband's compound",
+  "jern hornhelm",
+  "loch modan",
+  "prospector stormpike",
+  "report to ironforge",
+  "thelsamar"
+ ],
+ "related": [
+  "npc:prospector-stormpike",
+  "npc:jern-hornhelm",
+  "topic:explorers-league",
+  "quest:298",
+  "quest:302",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Report to Ironforge"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "npc:austil-de-mon",
+ "type": "npc",
+ "name": "Austil de Mon",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Austil de Mon",
+  "refs": 1
+ },
+ "summary": "Austil de Mon is a Forsaken warrior trainer stationed in Brill within Tirisfal Glades. Based out of the Gallows' End Tavern, he instructs newly risen warriors looking to hone their martial prowess in service of the Dark Lady.",
+ "sections": [
+  {
+   "title": "A Veteran in Gallows' End",
+   "body": "Found inside the Gallows' End Tavern in Brill, Austil de Mon serves as one of the earliest instructors for Forsaken warriors venturing out of Deathknell. While the living once populated the inn to drink and rest, Austil now uses the gloomy refuge to teach newly liberated undead how to channel raw martial discipline and ruthless combat techniques against the kingdom's surrounding foes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Austil de Mon?",
+   "aliases": [
+    "austil de mon",
+    "austil",
+    "who is austil"
+   ],
+   "answer": "Austil de Mon is an undead warrior trainer located on the grounds of Brill in Tirisfal Glades, offering training to Forsaken fighters."
+  },
+  {
+   "q": "Where can I find Austil de Mon?",
+   "aliases": [
+    "austil de mon location",
+    "where is austil",
+    "austil de mon map"
+   ],
+   "answer": "You can find him stationed in the Gallows' End Tavern in Brill, Tirisfal Glades, just north of the Undercity."
+  },
+  {
+   "q": "What role does he play in Brill?",
+   "aliases": [
+    "what does austil do",
+    "austil trainer",
+    "austil role"
+   ],
+   "answer": "He instructs novice warriors in fighting techniques, stances, and martial abilities to help strengthen the Forsaken military against local threats."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For Forsaken warriors leaving Deathknell, Austil de Mon is one of the primary mentors providing guidance and formal ability training in Tirisfal Glades."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Austil helps steel newly risen undead into formidable frontline combatants prepared to defend Lordaeron against the Scourge and the Scarlet Crusade."
+  }
+ ],
+ "keywords": [
+  "austil de mon",
+  "brill",
+  "forsaken warrior",
+  "gallows' end tavern",
+  "tirisfal glades",
+  "warrior trainer"
+ ],
+ "related": [
+  "subzone:brill",
+  "subzone:gallows-end-tavern",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "quest:1818"
+ ],
+ "attribution": [
+  "Austil de Mon"
+ ]
+}

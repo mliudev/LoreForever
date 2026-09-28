@@ -1,0 +1,129 @@
+{
+ "key": "quest:6386",
+ "type": "quest",
+ "name": "Return to the Crossroads.",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   6386
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Doras",
+  "end": "Zargh",
+  "previous": "Doras the Wind Rider Master (Classic)",
+  "next": null,
+  "wiki": "Return to the Crossroads.",
+  "chain": [
+   "Meats to Orgrimmar (Classic)",
+   "Ride to Orgrimmar (Classic)",
+   "Doras the Wind Rider Master (Classic)",
+   "Return to the Crossroads."
+  ]
+ },
+ "summary": "This errand concludes a courier delivery between Durotar and the Barrens, carrying Gryshka's reply back to Zargh at the Crossroads. It demonstrates how wind riders serve as the vital aerial backbone linking the Horde's settlements across Kalimdor.",
+ "sections": [
+  {
+   "title": "A Winged Return",
+   "body": "Having delivered a parcel of prime meat to Gryshka in Orgrimmar, you are entrusted with her written reply for Zargh. Doras, the wind rider master roosted atop Orgrimmar's high bluffs, provides a mount back to the Barrens. Because you have already established contact with Devrak at the Crossroads, Doras's wyverns know the flight path, turning an arduous overland march across the Southfury River into a swift ride through the desert sky.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Match Made in the Barrens",
+   "body": "Zargh's bold culinary courtship succeeds. Gryshka's warm response confirms that nothing impresses an orc quite like quality provisions, prompting Zargh to celebrate and even muse over an impending wedding. Beyond the romantic triumph, the journey solidifies a traveler's access to the Barrens' central transit hub.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do I have to use a wind rider to return?",
+   "aliases": [
+    "why fly back",
+    "wind rider required",
+    "can i walk"
+   ],
+   "answer": "Doras uses this delivery to demonstrate the Horde's flight network. Since you previously visited Devrak at the Crossroads, the wyverns can fly directly between the two roosts, saving time and keeping supply lines secure."
+  },
+  {
+   "q": "Who is Gryshka?",
+   "aliases": [
+    "gryshka lore",
+    "who is gryshka",
+    "orgrimmar meat lady"
+   ],
+   "answer": "Gryshka is an innkeeper and butcher in the Valley of Strength in Orgrimmar. Zargh sent her a selection of choice Barrens meat in hopes of winning her favor."
+  },
+  {
+   "q": "What was Zargh's goal in sending meat to Orgrimmar?",
+   "aliases": [
+    "why did zargh send meat",
+    "zargh motivation",
+    "zargh letter"
+   ],
+   "answer": "Zargh wanted to court Gryshka. In orcish culture, gifting hearty, quality game from the wild plains of the Barrens is considered a grand romantic gesture."
+  },
+  {
+   "q": "Where does this quest end?",
+   "aliases": [
+    "where to turn in",
+    "return location",
+    "who gets gryshka letter"
+   ],
+   "answer": "The quest completes at the Crossroads in the Barrens, where you hand Gryshka's Letter back to Zargh near the watchtower and stables."
+  },
+  {
+   "q": "Who is Doras?",
+   "aliases": [
+    "doras wind rider",
+    "doras location",
+    "orgrimmar flight master"
+   ],
+   "answer": "Doras is the wind rider master stationed at the flight roost above the Valley of Strength in Orgrimmar, managing the aerial mounts that travel across Kalimdor."
+  },
+  {
+   "q": "What happens after this quest?",
+   "aliases": [
+    "chain follow up",
+    "next quest after return",
+    "meats to orgrimmar continuation"
+   ],
+   "answer": "This delivery marks the end of the Meats to Orgrimmar courier chain. Having connected Orgrimmar and the Crossroads, you are fully set up to explore deeper into the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The wind rider roosts of Orgrimmar and the Crossroads form the economic and logistical spine connecting the Horde capital to the perilous plains of Kalimdor."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Hearty cuts of fresh game remain one of the finest tokens of affection and respect an orc hunter can offer a prospective mate."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "devrak",
+  "doras",
+  "gryshka",
+  "letter",
+  "orgrimmar",
+  "wind rider",
+  "wyvern",
+  "zargh"
+ ],
+ "related": [
+  "quest:6385",
+  "quest:6384",
+  "quest:6365",
+  "npc:zargh",
+  "npc:doras",
+  "npc:devrak",
+  "subzone:crossroads",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Return to the Crossroads."
+ ]
+}

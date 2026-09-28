@@ -1,0 +1,120 @@
+{
+ "key": "npc:madame-eva",
+ "type": "npc",
+ "name": "Madame Eva",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Madame Eva",
+  "refs": 8
+ },
+ "summary": "Madame Eva is a revered fortune-teller and matriarch living in Darkshire in the shadowed forest of Duskwood. Practicing older, mystic arts of divination and cartomancy, she often serves as the first townsperson to sense unnatural disturbances across the woods. Travelers frequently seek her out to unravel grim mysteries or procure occult charms against the creeping dark.",
+ "sections": [
+  {
+   "title": "The Fortune-Teller of Darkshire",
+   "body": "Dwelling quietly amidst the gloom of Darkshire, Madame Eva practices cartomancy and ancient folk rituals that many in Stormwind's cathedral would view with suspicion. In a forsaken region plagued by feral beasts, the undead, and darker horrors, her eerie insights are tolerated and sought after by desperate townspeople and visiting adventurers alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties of Blood and Prophecy",
+   "body": "Beyond her role as an occult reader, Madame Eva is deeply devoted to her family, serving as grandmother to Alyssa Eva and young Lohgan. When her cartomancy reveals dark omens threatening her granddaughter, Eva does not hesitate to enlist the aid of passing wanderers to scour the woods, uncovering long-buried tragedies before history can repeat itself.",
+   "spoiler": 0
+  },
+  {
+   "title": "Weaving Protection Against the Night",
+   "body": "Eva's knowledge extends beyond card reading to ritual crafting and warding. From weaving supernatural garments using spectral thread to crafting bizarre folk relics like the Totem of Infliction, she understands the strange, twilight logic that governs Duskwood's restless spirits better than almost anyone else in town.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Madame Eva?",
+   "aliases": [
+    "madame eva",
+    "who is eva",
+    "darkshire fortune teller"
+   ],
+   "answer": "Madame Eva is an elderly human fortune-teller and diviner residing in Darkshire. She practices cartomancy and ancient folk crafts to glimpse the unseen perils stalking Duskwood."
+  },
+  {
+   "q": "What is Madame Eva's role in the mystery of Stalvan?",
+   "aliases": [
+    "eva stalvan",
+    "legend of stalvan eva",
+    "why does eva care about stalvan"
+   ],
+   "answer": "Madame Eva reads the cards and senses an imminent, supernatural danger encircling her granddaughter Alyssa. Her readings guide adventurers to investigate forgotten documents and trails that uncover the grim history of Stalvan Mistmantle."
+  },
+  {
+   "q": "Is Madame Eva a witch or a mage?",
+   "aliases": [
+    "is eva a witch",
+    "eva magic type",
+    "what magic does eva use"
+   ],
+   "answer": "Eva is primarily a seer and practitioner of older mystic arts, such as cartomancy, spirit-thread weaving, and folk effigies. Her magic is more akin to traditional fortune-telling and occult lore than the structured arcanum of Dalaran or the Holy Light."
+  },
+  {
+   "q": "Who is related to Madame Eva in Darkshire?",
+   "aliases": [
+    "eva family",
+    "madame eva grandchildren",
+    "alyssa eva grandmother"
+   ],
+   "answer": "She is the grandmother of Alyssa Eva and Lohgan Eva. The town's Night Watch also includes Watcher Eva, who is believed to share ties with her family."
+  },
+  {
+   "q": "What is Ghost Hair Thread used for?",
+   "aliases": [
+    "ghost hair thread",
+    "eva thread quest"
+   ],
+   "answer": "Madame Eva gathers ethereal strands of ghost hair thread from restless spirits to weave specially prepared ritual garments and provide supplies needed by allies across the realm."
+  },
+  {
+   "q": "Why does Madame Eva craft the Totem of Infliction?",
+   "aliases": [
+    "totem of infliction",
+    "eva totem"
+   ],
+   "answer": "Madame Eva crafts the Totem of Infliction as a dark, sympathetic effigy. By binding specific creature materials to it, the totem directs curses and harm back onto the fell beasts terrorizing the woods."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions stepping into the oppressive shadow of Duskwood, Madame Eva is an indispensable guide whose premonitions cut through the woods' deadly confusion."
+  },
+  {
+   "target": "class:Priest",
+   "text": "While the Holy Light brings solace to the living, priests will find Eva's reliance on cartomancy and spirit remnants a curious, earthen counterpoint to traditional church liturgy."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Tailors will appreciate Eva's knowledge of bizarre weaving materials, specifically her ability to work spectral thread plucked directly from the ghosts of the region."
+  }
+ ],
+ "keywords": [
+  "alyssa eva",
+  "cartomancy",
+  "darkshire",
+  "duskwood",
+  "fortune teller",
+  "ghost hair thread",
+  "madame eva",
+  "stalvan"
+ ],
+ "related": [
+  "quest:66",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "quest:149",
+  "quest:101",
+  "quest:157",
+  "quest:262",
+  "quest:148"
+ ],
+ "attribution": [
+  "Madame Eva"
+ ]
+}

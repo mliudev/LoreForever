@@ -1,0 +1,121 @@
+{
+ "key": "quest:8680",
+ "type": "quest",
+ "name": "Windtotem the Elder",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   8680
+  ],
+  "level": "",
+  "faction": null,
+  "start": "Elder Windtotem",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Windtotem the Elder",
+  "chain": []
+ },
+ "summary": "Elder Windtotem is an honored ancestor spirit who appears on a bluff overlooking the goblin port of Ratchet during the Lunar Festival. Bathed in a radiant shaft of celestial light, he receives travelers seeking to honor the wisdom of ages past. Paying homage to him rewards mortals with an ancestral blessing and guidance toward other elders walking Kalimdor.",
+ "sections": [
+  {
+   "title": "A Vigil Over the Bay",
+   "body": "Perched on a grassy hill just northwest of the flight master in Ratchet, Elder Windtotem looks out over the bustling goblin docks and the open sea. While the harbor beneath him trades in iron, gunpowder, and coin, the elder stands apart in quiet contemplation, touched only by the quiet winds of the Barrens and the celestial glow descending from above.",
+   "spoiler": 0
+  },
+  {
+   "title": "Wisdom Across the Barrens",
+   "body": "Like the other ancestral spirits summoned forth during the Lunar Festival, Elder Windtotem acts as a guide to wandering mortals. Those who seek him out not only earn his blessing and a token of his favor, but also receive whispers detailing the whereabouts of neighboring elders throughout the continent, including Elder Runetotem and Elder Bloodhoof.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Elder Windtotem located?",
+   "aliases": [
+    "windtotem location",
+    "where is windtotem",
+    "elder windtotem ratchet map"
+   ],
+   "answer": "Elder Windtotem stands on a hill directly northwest of the flight master in Ratchet, overlooking the harbor in the Barrens."
+  },
+  {
+   "q": "What is the purpose of seeking out Elder Windtotem?",
+   "aliases": [
+    "why talk to windtotem",
+    "windtotem elder purpose",
+    "what does windtotem do"
+   ],
+   "answer": "During the Lunar Festival, travelers seek out Elder Windtotem to pay their respects to an honored ancestor. In exchange for your homage, he grants a Coin of Ancestry and knowledge about where to find other spirits across the land."
+  },
+  {
+   "q": "Why is there a beam of light shining down on him?",
+   "aliases": [
+    "beam of light elder",
+    "why is windtotem glowing",
+    "light shining on elder"
+   ],
+   "answer": "Each ancestor manifested during the Lunar Festival is bathed in a distinct pillar of celestial moonlight, signifying their ethereal presence and spiritual tether between the realm of ancestors and the living world."
+  },
+  {
+   "q": "Can Alliance and Horde players both speak to Elder Windtotem?",
+   "aliases": [
+    "can alliance talk to windtotem",
+    "is windtotem neutral",
+    "horde and alliance elder"
+   ],
+   "answer": "Yes. Ratchet is a neutral port administered by the Steamwheedle Cartel, and the elders of the Lunar Festival impartially welcome members of both the Alliance and the Horde."
+  },
+  {
+   "q": "Which other elders does Elder Windtotem tell you about?",
+   "aliases": [
+    "elders windtotem mentions",
+    "who does windtotem point to"
+   ],
+   "answer": "Elder Windtotem shares rumors and guidance regarding several neighboring ancestors, including Elder Bloodhoof, Elder Runetotem, Elder Morningdew, Elder Darkhorn, Elder High Mountain, Elder Moonwarden, and Elder Wheathoof."
+  },
+  {
+   "q": "What happens when you complete homage to the elder?",
+   "aliases": [
+    "elder windtotem turn in",
+    "what does elder windtotem say"
+   ],
+   "answer": "When you approach and honor him, he commends your spirit for burning brightly with life, accepts your respect, and rewards you with a Coin of Ancestry."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Windtotem lineage represents an ancient tauren heritage; honoring this ancestor above the goblin harbor connects modern tribesfolk directly to the ancestral memory of the plains."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The Lunar Festival and its ancestral apparitions celebrate deep communion with the natural and celestial cycles guarded by the Cenarion Circle."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Speaking to ancestor spirits who linger near elemental crossings reinforces the shamanic duty of honoring the dead and tending the spiritual health of the land."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "coin of ancestry",
+  "elder windtotem",
+  "lunar festival",
+  "ratchet",
+  "the barrens",
+  "windtotem the elder"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "zone:barrens",
+  "npc:elder-runetotem",
+  "npc:elder-bloodhoof",
+  "npc:elder-morningdew",
+  "topic:light"
+ ],
+ "attribution": [
+  "Windtotem the Elder"
+ ]
+}

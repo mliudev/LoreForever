@@ -1,0 +1,112 @@
+{
+ "key": "npc:telf-joolam",
+ "type": "npc",
+ "name": "Telf Joolam",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Telf Joolam",
+  "refs": 3
+ },
+ "summary": "Telf Joolam is a Darkspear jungle troll shaman watching over the Shrine of the Dormant Flame. He guides initiates of the Horde through the trials required to commune with and command the volatile element of fire.",
+ "sections": [
+  {
+   "title": "Keeper of the Flame",
+   "body": "Perched among the crags overlooking the borderlands, Telf Joolam tends the Shrine of the Dormant Flame. Unlike the calm certainty of earth or the patient depth of water, the fiery spirits require sharp discipline and unwavering focus. Telf acts as a trialmaster, preparing young shamans to prove their worth to the wild embers before they are consumed by them.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Path of Fire",
+   "body": "Under Telf's direction, initiates brew and drink a ritual Fire Sapta to grant their mortal eyes sight into the unseen elemental planes. He directs supplicants up into the rocky summits to confront burning spirits directly, ensuring that every shaman who earns the flame carries respect for its ravenous hunger rather than reckless pride.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Telf Joolam?",
+   "aliases": [
+    "telf joolam",
+    "who is telf",
+    "shrine of dormant flame troll"
+   ],
+   "answer": "Telf Joolam is a Darkspear troll shaman serving as the keeper of the Shrine of the Dormant Flame. He mentors young shamans seeking to commune with fire."
+  },
+  {
+   "q": "Where can Telf Joolam be found?",
+   "aliases": [
+    "telf joolam location",
+    "where is telf",
+    "how to find telf joolam"
+   ],
+   "answer": "He resides at the Shrine of the Dormant Flame, nestled high along the rocky ridge between Durotar and the Barrens."
+  },
+  {
+   "q": "What is the purpose of the Fire Sapta he asks for?",
+   "aliases": [
+    "what is fire sapta",
+    "fire sapta use",
+    "why drink sapta"
+   ],
+   "answer": "The Fire Sapta is a specially brewed draught that opens an initiate's spiritual vision, allowing them to perceive and speak with elemental fire spirits that are otherwise invisible to mortal senses."
+  },
+  {
+   "q": "What element does Telf Joolam teach?",
+   "aliases": [
+    "what element does telf teach",
+    "telf joolam element",
+    "fire totem quest guy"
+   ],
+   "answer": "He specializes in the element of fire, testing shamans to ensure they possess the strength and will to control flame without falling victim to its destructive nature."
+  },
+  {
+   "q": "Why is a troll overseeing shamanic rites here?",
+   "aliases": [
+    "why troll shaman",
+    "darkspear shamanism"
+   ],
+   "answer": "Since joining Thrall's Horde, many Darkspear trolls have embraced the spiritual ways of shamanism alongside the orcs and tauren, with experienced practitioners like Telf guiding the next generation."
+  },
+  {
+   "q": "What happens after completing Telf Joolam's tasks?",
+   "aliases": [
+    "call of fire reward",
+    "what does telf give you"
+   ],
+   "answer": "After proving mastery over the flame spirits upon the nearby peak, initiates gain the knowledge and blessing required to forge their permanent Fire Totem."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Telf Joolam is a key figure along your spiritual path, guiding you through the trials of the Fire Sapta to master your Fire Totem."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Seeing a Darkspear elder keeper guiding initiates demonstrates how deeply troll spirituality has interwoven with the Horde's shamanic revival."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "By safeguarding sacred elemental shrines throughout the borderlands, elders like Telf strengthen the spiritual backbone of the new Horde."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "call of fire",
+  "darkspear",
+  "durotar",
+  "fire sapta",
+  "shaman",
+  "shrine of the dormant flame",
+  "telf joolam"
+ ],
+ "related": [
+  "subzone:shrine-of-the-dormant-flame",
+  "quest:1524",
+  "zone:durotar",
+  "zone:barrens",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Telf Joolam"
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "key": "quest:1361",
+ "type": "quest",
+ "name": "Regthar Deathgate",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   1361
+  ],
+  "level": "32",
+  "faction": "Horde",
+  "start": "Krusk, Belgrom Rockmaul, Nazgrel, Vol'jin",
+  "end": "Regthar Deathgate",
+  "previous": null,
+  "next": "The Kolkar of Desolace",
+  "wiki": "Regthar Deathgate (quest)",
+  "chain": [
+   "Regthar Deathgate (quest)",
+   "The Kolkar of Desolace"
+  ]
+ },
+ "summary": "This directive dispatches seasoned Horde champions from major capitals to reinforce an outpost in the western Barrens. The veteran warrior Regthar Deathgate is marshaling capable volunteers for an impending campaign across the mountains into the arid wastes of Desolace. He seeks those willing to carry Horde steel against the entrenched centaur clans terrorizing the frontier.",
+ "sections": [
+  {
+   "title": "Call of the Warchief's Lieutenants",
+   "body": "Across Kalimdor, influential leaders of the Horde\u2014including Shadow Hunter Vol'jin, Nazgrel, and seasoned commanders like Belgrom Rockmaul\u2014keep a watchful eye on potential threats along the borders. In the Barrens, an experienced warrior named Regthar Deathgate has established a defensive post guarding the western passes. Recognizing that regional skirmishes require hardened fighters rather than raw recruits, Horde officers direct proven adventurers west of the Crossroads to answer Regthar's call.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Desolace",
+   "body": "Regthar Deathgate is stationed within the fortified redoubt bunkered along the ridges west of the Crossroads. From this vantage point, he monitors the western mountain trails that wind into the desolate badlands of Desolace. His mandate is direct and unyielding: assemble an expeditionary vanguard capable of braving hostile terrain to strike directly at the heart of the Kolkar and other warring centaur clans before their violent expansion threatens Horde territory.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Regthar Deathgate?",
+   "aliases": [
+    "who is regthar",
+    "regthar deathgate lore",
+    "who is the questgiver"
+   ],
+   "answer": "Regthar Deathgate is an orc warrior and Horde commander stationed in the Barrens. Tasked with frontier security, he coordinates reconnaissance and military strikes into the dangerous, ash-choked expanse of Desolace."
+  },
+  {
+   "q": "Where is Regthar Deathgate located?",
+   "aliases": [
+    "where is regthar",
+    "regthar location",
+    "find regthar deathgate"
+   ],
+   "answer": "He can be found in the Barrens, stationed inside the fortified Horde bunkers on the hill path directly west of the Crossroads, overlooking the western mountain pass."
+  },
+  {
+   "q": "Who gives the quest to seek out Regthar?",
+   "aliases": [
+    "who starts regthar deathgate",
+    "where to get regthar quest"
+   ],
+   "answer": "Several prominent Horde leaders and military figures offer this assignment, including Shadow Hunter Vol'jin in Sen'jin Village, Nazgrel and Belgrom Rockmaul in Orgrimmar, and Krusk."
+  },
+  {
+   "q": "What is the primary objective of Regthar's mission?",
+   "aliases": [
+    "what does regthar want",
+    "regthar deathgate purpose"
+   ],
+   "answer": "Regthar is recruiting able warriors to cross the mountains into Desolace and launch an offensive against the hostile centaur clans, particularly targeting the Kolkar."
+  },
+  {
+   "q": "Why is the Horde concerned with Desolace?",
+   "aliases": [
+    "why go to desolace",
+    "horde interest in desolace"
+   ],
+   "answer": "Desolace is a war-torn wilderness overrun by aggressive centaur clans. Leaving them unchecked risks letting their raids spill across the mountain passes into the Barrens and neighboring Horde settlements."
+  },
+  {
+   "q": "What comes next after speaking with Regthar Deathgate?",
+   "aliases": [
+    "next quest after regthar",
+    "regthar follow up"
+   ],
+   "answer": "Once you report to Regthar, he immediately briefs you on the situation beyond the western mountains and tasks you with your first strike across the border in the quest 'The Kolkar of Desolace'."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This mission represents the Horde's proactive frontier defense, ensuring aggressive centaur populations in neighboring Desolace are subdued before they can raid deeper into the Barrens."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Having endured generations of brutal conflict against the centaur across central Kalimdor, tauren warriors have a personal stake in aiding Regthar's strike against the Kolkar."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Regthar values straightforward combat prowess and unflinching discipline, making his call to arms a natural trial for frontline warriors eager to test their mettle in hostile badlands."
+  }
+ ],
+ "keywords": [
+  "belgrom rockmaul",
+  "crossroads",
+  "desolace",
+  "kolkar",
+  "krusk",
+  "nazgrel",
+  "regthar deathgate",
+  "the barrens",
+  "vol'jin"
+ ],
+ "related": [
+  "quest:1362",
+  "zone:desolace",
+  "zone:barrens",
+  "subzone:crossroads",
+  "topic:centaur",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Regthar Deathgate (quest)"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "subzone:tomb-of-the-watchers",
+ "type": "subzone",
+ "name": "Tomb of the Watchers",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Tomb of the Watchers"
+ },
+ "summary": "The Tomb of the Watchers is an ancient excavation site in the southern reaches of the Badlands, bearing carved stonework that closely mirrors the architecture of Uldaman. Both Alliance and Horde expeditions have pitched camps nearby, eager to unearth dwarven relics and uncover whatever power lies buried beneath the rock.",
+ "sections": [
+  {
+   "title": "Echoes of Uldaman",
+   "body": "Rising out of the barren dust of the southern Badlands, the Tomb of the Watchers immediately catches the eye of any passing traveler. Its massive carved stone entrance and subterranean motifs bear an uncanny resemblance to the titan-hewn halls of Uldaman far to the north. Explorers and prospectors believe the tomb is tied to the ancient earthen and titan-forged watchers who shaped the world in its earliest days. Such profound antiquity makes the site an irresistible magnet for scholars, treasure hunters, and excavators alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Contested Dig",
+   "body": "The archaeological promise of the tomb has brought the faction conflict directly to its doorstep. Alliance dwarven excavators operate out of Dustwind Dig in the overlooking hills, diligently searching the strata for dwarven relics that might illuminate their forgotten heritage. Meanwhile, Horde forces maintain an encampment nearby, watching the dig closely to secure valuable ancient artifacts before their rivals can claim them. As picks strike stone, tension simmers perpetually across the canyon floor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Tomb of the Watchers?",
+   "aliases": [
+    "tomb of the watchers badlands",
+    "what is tomb of the watchers",
+    "tomb of watchers info"
+   ],
+   "answer": "It is an ancient archaeological ruin and dig site located in the southern Badlands. Its carved stonework and architectural style closely match the titan-built complex of Uldaman to the north."
+  },
+  {
+   "q": "Why are both the Alliance and the Horde here?",
+   "aliases": [
+    "who controls tomb of the watchers",
+    "alliance horde badlands dig",
+    "why fight at tomb of watchers"
+   ],
+   "answer": "Alliance prospectors from Dustwind Dig and Horde scouts stationed nearby are both intent on uncovering the ancient earthen relics and forgotten history buried within the site."
+  },
+  {
+   "q": "Is the tomb connected to Uldaman?",
+   "aliases": [
+    "is tomb of watchers part of uldaman",
+    "uldaman connection badlands tomb",
+    "tomb of the watchers uldaman"
+   ],
+   "answer": "While physically distinct and situated further south in the Badlands, the Tomb of the Watchers shares the exact stonecraft, iconography, and earthen-titan themes found throughout Uldaman."
+  },
+  {
+   "q": "What can explorers find buried here?",
+   "aliases": [
+    "relics at tomb of the watchers",
+    "what artifacts are in tomb of the watchers"
+   ],
+   "answer": "Excavations in the surrounding dirt and stone primarily turn up ancient dwarven and earthen artifacts, shedding light on the early history of Azeroth before recorded mortal memory."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves seeking their ancestral roots, the stonework here is an undeniable link to the earthen and the titan watchers of Uldaman."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The exposed rock faces and active excavation trenches around the tomb provide an ideal landscape for prospectors seeking hidden veins in the dusty soil."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "bloodwatcher point",
+  "dustwind dig",
+  "dwarf",
+  "earthen",
+  "excavation",
+  "tomb of the watchers",
+  "uldaman"
+ ],
+ "related": [
+  "zone:badlands",
+  "subzone:uldaman",
+  "subzone:dustwind-dig",
+  "subzone:bloodwatcher-point",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Tomb of the Watchers"
+ ]
+}

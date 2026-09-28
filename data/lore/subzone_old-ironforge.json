@@ -1,0 +1,87 @@
+{
+ "key": "subzone:old-ironforge",
+ "type": "subzone",
+ "name": "Old Ironforge",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Old Ironforge"
+ },
+ "summary": "Old Ironforge, also called the Assembly of Thanes, is an ancient subterranean chamber lying directly beneath the High Seat of Ironforge. Carved deep into the mountain's roots above glowing magma veins, it represents the ancestral heart of the dwarven capital. In the present day, its heavy access gates in the royal throne room remain sealed and vigilantly guarded.",
+ "sections": [
+  {
+   "title": "The Assembly of Thanes",
+   "body": "Beneath King Magni Bronzebeard's throne in the High Seat rests the cavernous hall known as Old Ironforge or the Assembly of Thanes. Deep inside these fiery subterranean foundations, winding stone bridges cross pools of subterranean lava toward ancient chambers like Aegrim's Study. Long before the bustling halls of the Great Forge and the Commons echoed with modern dwarven commerce, early thanes gathered in these cavernous depths to deliberate and govern the mountain kingdom.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Sealed Chamber",
+   "body": "Currently, entrance to Old Ironforge from the throne room is securely barred. The Ironforge royal guard keeps strict watch over the thresholds leading down into the old vaults. Even Master Mathias Shaw of Stormwind's SI:7 notes the presence of heavy security around these lower levels, warning that any attempt to trespass or meddle in the secured undercity risks severe dwarven justice.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Old Ironforge?",
+   "aliases": [
+    "assembly of thanes",
+    "what is old ironforge",
+    "subterranean ironforge"
+   ],
+   "answer": "Old Ironforge, historically known as the Assembly of Thanes, is the ancient lower district carved directly beneath the modern city of Ironforge. It consists of cavernous halls, lava conduits, and historic structures like Aegrim's Study."
+  },
+  {
+   "q": "Can players enter Old Ironforge?",
+   "aliases": [
+    "how to get into old ironforge",
+    "is old ironforge open",
+    "old ironforge door locked"
+   ],
+   "answer": "No. The main gates in the High Seat throne room are sealed shut, and the entryway is heavily guarded by the dwarven royal guard. The chambers below remain closed to regular citizens and adventurers."
+  },
+  {
+   "q": "Where is the entrance located?",
+   "aliases": [
+    "where is old ironforge entrance",
+    "old ironforge location"
+   ],
+   "answer": "The entrance is located directly inside the High Seat, the royal audience chamber where King Magni Bronzebeard sits in the city of Ironforge."
+  },
+  {
+   "q": "Why is Old Ironforge significant to dwarven history?",
+   "aliases": [
+    "history of old ironforge",
+    "why is it called assembly of thanes"
+   ],
+   "answer": "Known as the Assembly of Thanes, it served as an ancient meeting ground for dwarven leaders and mountain kings in early eras before the upper rings of the modern mountain capital were fully established."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, Old Ironforge and the Assembly of Thanes are sacred connections to their ancestral roots, preserving the deepest stone foundations carved out during the dawn of their mountain realm."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Stormwind's spymaster Mathias Shaw strictly warns against attempting to sneak into Old Ironforge, noting the intense security and the grim cost of getting caught by King Magni's guards."
+  }
+ ],
+ "keywords": [
+  "aegrim's study",
+  "assembly of thanes",
+  "high seat",
+  "ironforge",
+  "magni bronzebeard",
+  "old ironforge"
+ ],
+ "related": [
+  "subzone:high-seat",
+  "zone:ironforge",
+  "subzone:aegrim-s-study",
+  "npc:magni-bronzebeard",
+  "npc:mathias-shaw"
+ ],
+ "attribution": [
+  "Old Ironforge"
+ ]
+}

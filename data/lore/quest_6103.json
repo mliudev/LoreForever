@@ -1,0 +1,118 @@
+{
+ "key": "quest:6103",
+ "type": "quest",
+ "name": "Training the Beast",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   6103
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Dazalar",
+  "end": "Jocaste",
+  "previous": "Taming the Beast (night elf 3)",
+  "next": null,
+  "wiki": "Training the Beast (night elf)",
+  "chain": []
+ },
+ "summary": "Training the Beast is the culminating rite of passage for fledgling night elf hunters in Teldrassil. After proving their mastery by taming wild beasts across the boughs, hunters are sent to Darnassus to learn the deeper arts of pet care and discipline from Jocaste.",
+ "sections": [
+  {
+   "title": "A Hunter's Rite of Passage",
+   "body": "Before a night elf hunter can roam Kalimdor with a loyal companion by their side, they must master more than just the taming rod. While subduing a wild creature proves basic strength and will, an untutored beast remains an unpredictable liability. Once an initiate demonstrates their capability in the wilderness surrounding Dolanaar, Dazalar directs them inward to Darnassus to complete their training.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guidance in the Cenarion Enclave",
+   "body": "Within the serene groves of the Cenarion Enclave, the revered hunter Jocaste imparts the essential arts of companionship. She instructs the young hunter in how to properly nourish their pet, resurrect it should tragedy strike, and nurture its fighting instincts through training. To night elves, this relationship is rooted in deep reverence for nature rather than simple domination.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do this quest",
+    "pet training quest night elf",
+    "what does training the beast do"
+   ],
+   "answer": "This quest completes the initial hunter pet questline for night elves. It directs you to Darnassus to unlock the core skills required to maintain and train your permanent animal companion."
+  },
+  {
+   "q": "Where do I find Jocaste?",
+   "aliases": [
+    "where is jocaste",
+    "jocaste location",
+    "find jocaste"
+   ],
+   "answer": "Jocaste resides in Darnassus within the Cenarion Enclave, nestled among the towering trees and hunter lodges in the northwest portion of the capital."
+  },
+  {
+   "q": "Who starts the quest?",
+   "aliases": [
+    "quest giver",
+    "who gives training the beast",
+    "dazalar location"
+   ],
+   "answer": "Dazalar, the hunter trainer in Dolanaar, offers this quest after you have completed all three steps of taming trials across Teldrassil."
+  },
+  {
+   "q": "What skills do you learn from Jocaste?",
+   "aliases": [
+    "what abilities do i get",
+    "jocaste rewards",
+    "hunter pet spells"
+   ],
+   "answer": "Speaking with Jocaste unlocks the essential arts of beast mastery: feeding your companion, reviving it if it falls in combat, and training it with new abilities."
+  },
+  {
+   "q": "Why does night elf culture emphasize pet training?",
+   "aliases": [
+    "night elf hunter lore",
+    "why train beasts night elf"
+   ],
+   "answer": "Kaldorei hunters view their pets as partners rather than subservient tools. Proper training and care reflect the race's core philosophy of living in balance and awe of nature."
+  },
+  {
+   "q": "Is this quest available to other races?",
+   "aliases": [
+    "can dwarves do this",
+    "can horde do training the beast"
+   ],
+   "answer": "This specific journey to Darnassus is unique to night elf hunters. Other hunter races undergo equivalent training rites under their own racial mentors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This rite marks your graduation from novice tracker to a true master of beasts, unlocking the ability to train, feed, and revive your companion."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The kaldorei tradition of beast companionship centers on respect and coexistence, reflecting the teachings passed down through Darnassus and the Cenarion Enclave."
+  }
+ ],
+ "keywords": [
+  "cenarion enclave",
+  "darnassus",
+  "dazalar",
+  "hunter pet",
+  "jocaste",
+  "teldrassil",
+  "training the beast"
+ ],
+ "related": [
+  "npc:jocaste",
+  "npc:dazalar",
+  "subzone:cenarion-enclave",
+  "zone:darnassus",
+  "zone:teldrassil",
+  "topic:night-elf",
+  "quest:6081"
+ ],
+ "attribution": [
+  "Training the Beast (night elf)"
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "key": "quest:1486",
+ "type": "quest",
+ "name": "Deviate Hides",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "ids": [
+   1486
+  ],
+  "level": "17",
+  "faction": "Neutral",
+  "start": "Nalpak",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Deviate Hides (Classic)",
+  "chain": []
+ },
+ "summary": "Deviate Hides is a task given by Nalpak, a disciple of Naralex stationed above the entrance to the Wailing Caverns. While Naralex lies trapped in a twisted nightmare, Nalpak seeks to salvage something useful from the mutated beasts spawned beneath the Barrens. By gathering skins from these deviate predators, he hopes to put their strange, otherworldly properties to practical use.",
+ "sections": [
+  {
+   "title": "Corruption Made Manifest",
+   "body": "When the night elf druid Naralex attempted to tap the subterranean springs beneath the Barrens to restore lush life to the arid plains, his mind slipped into a terrifying nightmare. That dark reverie bled into reality, mutating the native wildlife of the Wailing Caverns into vicious deviate beasts. Raptors, crocolisks, vipers, and shambling horrors emerged warped and aggressive, altered by the emerald corruption leaking from their dreaming master.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Pragmatic Druid",
+   "body": "Perched in the rock formation above the cavern mouth, Nalpak watches the disaster unfold with a mix of dread and practical curiosity. Though he recognizes the deviate creatures as inherently malignant and unnatural, he believes their corrupted forms might yield unique materials. In particular, their toughened, warped pelts possess resilience that could benefit skilled leatherworkers, turning the fruits of a tragic nightmare into durable equipment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Nalpak?",
+   "aliases": [
+    "nalpak location",
+    "where is nalpak",
+    "how to find nalpak",
+    "quest giver deviate hides"
+   ],
+   "answer": "Nalpak and his fellow disciples have established a small camp high up in the rock formation resembling a skull above the Wailing Caverns entrance. Rather than walking straight into the main tunnel, climb the mountain slopes behind the cave mouth and carefully drop down into the upper cavern eye-socket ledge overlooking the oasis."
+  },
+  {
+   "q": "What are deviate creatures?",
+   "aliases": [
+    "what are deviates",
+    "deviate beasts",
+    "why are animals mutated in wailing caverns"
+   ],
+   "answer": "Deviate creatures are local beasts transformed by the Emerald Nightmare that escaped from Naralex's slumbering mind. Raptors, snakes, crocolisks, and wind serpents native to the Barrens have been twisted into darker, vicious forms with strange magical properties and mottled, unnatural hides."
+  },
+  {
+   "q": "Why does Nalpak want these hides?",
+   "aliases": [
+    "why deviate hides",
+    "what does nalpak want hides for",
+    "purpose of deviate hides"
+   ],
+   "answer": "Nalpak recognizes that while the beasts are born of evil corruption, their hides exhibit unusual, otherworldly strength. He believes that by studying and working the pelts, leatherworkers can repurpose the nightmare's taint into resilient gear."
+  },
+  {
+   "q": "Can any deviate creature drop the hides?",
+   "aliases": [
+    "which mobs drop deviate hides",
+    "who drops deviate hide",
+    "deviate hide farm"
+   ],
+   "answer": "The mutated beasts prowling throughout the tunnels and interior of the Wailing Caverns carry these skins. Hunters and leatherworkers often find skinning the beasts yields extra pelts beyond what can simply be scavenged from their remains."
+  },
+  {
+   "q": "Is Nalpak aligned with the Horde or the Alliance?",
+   "aliases": [
+    "is nalpak horde",
+    "is deviate hides alliance",
+    "can alliance do deviate hides"
+   ],
+   "answer": "Nalpak is a disciple of Naralex and belongs to the Cenarion Circle. He remains neutral and will accept aid from any capable adventurer, whether Alliance or Horde, who is brave enough to enter the corrupted caves."
+  },
+  {
+   "q": "What happened to Naralex?",
+   "aliases": [
+    "who is naralex",
+    "naralex nightmare",
+    "what happened to the druid in wailing caverns"
+   ],
+   "answer": "Naralex sought to awaken the underground springs of the Barrens by connecting his consciousness to the Emerald Dream. Instead, his slumber was seized by the Nightmare, transforming the cavern system into a breeding ground for horrors and leaving him comatose deep within the caves."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Nalpak's camp represents the Cenarion Circle's grim vigil over an initiative gone terribly wrong, making the task of containing the cavern's mutations personal for fellow druids."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The abnormal growth feeding the deviate beasts is directly tied to the corrupted flora and underground springs winding through the cavern network."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "cenarion circle",
+  "deviate",
+  "deviate hides",
+  "emerald nightmare",
+  "leatherworking",
+  "nalpak",
+  "naralex",
+  "wailing caverns"
+ ],
+ "related": [
+  "npc:nalpak",
+  "zone:wailing",
+  "npc:naralex",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Deviate Hides (Classic)"
+ ]
+}

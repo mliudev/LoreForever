@@ -1,0 +1,77 @@
+{
+ "key": "subzone:weeping-cave",
+ "type": "subzone",
+ "name": "Weeping Cave",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Weeping Cave"
+ },
+ "summary": "The Weeping Cave is a foul, subterranean cavern tucked into the hills of the northeastern Western Plaguelands, just west of the Thondroril River. Once a natural cave system, it now seeps with toxic blight and festers with grotesque fungal beasts and oozes.",
+ "sections": [
+  {
+   "title": "A Den of Rot",
+   "body": "Carved into the rugged bluffs above the Thondroril River, the Weeping Cave earned its name from the continual trickling of moisture through its rocky ceiling\u2014water that has long since turned rank and corrupt. The Scourge's plague has thoroughly permeated the soil above, draining virulent filth down into the dark. Within, rotting horrors, decaying behemoths, and caustic oozes wander the damp tunnels, accompanied by an enigmatic corrupted elemental entity known simply as The Husk.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Weeping Cave located?",
+   "aliases": [
+    "weeping cave location",
+    "where is weeping cave",
+    "find weeping cave"
+   ],
+   "answer": "The Weeping Cave is situated in the northeastern corner of the Western Plaguelands, nestled in the rocky ridges just west of the Thondroril River near the border to the Eastern Plaguelands."
+  },
+  {
+   "q": "What creatures dwell inside the cave?",
+   "aliases": [
+    "weeping cave monsters",
+    "what is inside weeping cave",
+    "weeping cave mobs"
+   ],
+   "answer": "The cavern is infested with shambling plant-like abominations\u2014such as rotting behemoths and decaying horrors\u2014as well as toxic creeping slimes and the rare, tormented elemental known as The Husk."
+  },
+  {
+   "q": "Why is it called the Weeping Cave?",
+   "aliases": [
+    "why is it called weeping cave",
+    "weeping cave name meaning"
+   ],
+   "answer": "The cavern's ceiling continually drips with moisture, giving the appearance of stone that weeps. In the aftermath of the plague, however, the runoff has turned into a rancid, putrid seepage that fosters virulent fungal growth."
+  },
+  {
+   "q": "Who is The Husk?",
+   "aliases": [
+    "the husk",
+    "the husk weeping cave",
+    "husk rare"
+   ],
+   "answer": "The Husk is a rare corrupted elemental creature found deep within the Weeping Cave, warped and twisted by the lingering alchemical blight that has infected the surrounding earth and water."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The Weeping Cave represents a grotesque perversion of the natural world, where subterranean flora and elemental energies have been thoroughly corrupted by the plague of undeath into violent monstrosities."
+  }
+ ],
+ "keywords": [
+  "decaying horror",
+  "ooze",
+  "rotting behemoth",
+  "the husk",
+  "thondroril river",
+  "weeping cave",
+  "western plaguelands"
+ ],
+ "related": [
+  "zone:westernplaguelands",
+  "subzone:thondroril-river"
+ ],
+ "attribution": [
+  "Weeping Cave"
+ ]
+}

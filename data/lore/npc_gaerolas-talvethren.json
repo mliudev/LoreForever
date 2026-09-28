@@ -1,0 +1,90 @@
+{
+ "key": "npc:gaerolas-talvethren",
+ "type": "npc",
+ "name": "Gaerolas Talvethren",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Gaerolas Talvethren",
+  "refs": 2
+ },
+ "summary": "Gaerolas Talvethren is a night elf sentinel standing watch over the ruins of Starbreeze Village in Teldrassil. Appointed as the protector of the Sleeping druids, he seeks aid in confronting the aggressive furbolgs and dark corruption unsettling the boughs.",
+ "sections": [
+  {
+   "title": "Guardian of the Sleeping",
+   "body": "Positioned amid the troubled settlement of Starbreeze Village, Gaerolas Talvethren bears the solemn mantle of protecting the Sleeping druids who slumber in communion with the Emerald Dream. His vigilance has grown fraught as unnatural corruption creeps through the forest, unsettling the balance of Teldrassil.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Gnarlpine Menace",
+   "body": "Gaerolas directs travelers to push back against the Gnarlpine tribe of furbolgs, whose minds have turned to madness and savagery. By investigating the taint spreading from their shamans and finding the roots of their distress, he hopes to preserve what sanctity remains in eastern Teldrassil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gaerolas Talvethren?",
+   "aliases": [
+    "gaerolas",
+    "who is gaerolas",
+    "gaerolas role"
+   ],
+   "answer": "He is a night elf defender stationed at Starbreeze Village, charged with safeguarding the slumbering druids and investigating the strange corruption afflicting the area."
+  },
+  {
+   "q": "Where can I find Gaerolas Talvethren?",
+   "aliases": [
+    "gaerolas location",
+    "where is gaerolas talvethren",
+    "find gaerolas"
+   ],
+   "answer": "He is located in Starbreeze Village, in the eastern boughs of Teldrassil, east of Dolanaar."
+  },
+  {
+   "q": "Who are 'the Sleeping' that Gaerolas protects?",
+   "aliases": [
+    "the sleeping",
+    "who are the sleeping",
+    "sleeping druids"
+   ],
+   "answer": "The Sleeping refers to the night elf druids who entered long slumbers in barrows and sanctuaries to traverse the Emerald Dream, leaving their physical forms vulnerable to physical harm."
+  },
+  {
+   "q": "What threats is Gaerolas concerned about?",
+   "aliases": [
+    "starbreeze threats",
+    "gaerolas quests",
+    "gnarlpine trouble"
+   ],
+   "answer": "He is deeply troubled by the corruption afflicting the local wildlife and the sudden, maddened hostility of the Gnarlpine furbolg tribe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves departing Dolanaar, assisting Gaerolas offers a sobering look at how deeply the taint has penetrated Teldrassil's sacred boughs."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Gaerolas's duty as guardian of the slumbering druids makes aiding his efforts a personal matter of protecting fellow practitioners of the Cenarion Circle."
+  }
+ ],
+ "keywords": [
+  "a troubling breeze",
+  "gaerolas talvethren",
+  "gnarlpine corruption",
+  "starbreeze village",
+  "teldrassil",
+  "the sleeping"
+ ],
+ "related": [
+  "subzone:starbreeze-village",
+  "quest:475",
+  "quest:476",
+  "zone:teldrassil",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Gaerolas Talvethren"
+ ]
+}

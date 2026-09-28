@@ -1,0 +1,76 @@
+{
+ "key": "subzone:terrace-of-repose",
+ "type": "subzone",
+ "name": "Terrace of Repose",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Terrace of Repose"
+ },
+ "summary": "The Terrace of Repose is a pristine courtyard garden located just outside the entrance to the Scarlet Monastery in Tirisfal Glades. Maintained by the Scarlet Crusade, it stands as one of the few places in northern Lordaeron completely untouched by the Plague of Undeath, complete with green hedges and clean water.",
+ "sections": [
+  {
+   "title": "An Oasis in the Blight",
+   "body": "Situated just north of the grand entrance into the Scarlet Monastery, the Terrace of Repose offers a surreal contrast to the rotting forests of Tirisfal Glades. While the rest of Lordaeron chokes under grey mist, corrupt soil, and stagnant bogs, this terrace boasts verdant, neatly pruned hedges and a functioning fountain fed by fresh, uncontaminated water. For the zealots of the Scarlet Crusade, the garden serves as physical proof of their divine righteousness and purity, a sacred bastion demonstrating that holy devotion can ward off the Scourge's corruption.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the grass and water clean here when Tirisfal is dead?",
+   "aliases": [
+    "why is it green here",
+    "clean water scarlet monastery",
+    "terrace of repose uncorrupted"
+   ],
+   "answer": "The Terrace of Repose has escaped the reach of the Plague of Undeath. Through constant vigilance and possibly their fierce devotion to the Holy Light, the Scarlet Crusade has preserved the soil, planted thriving hedges, and maintained a clear, fresh water supply entirely free of the surrounding rot."
+  },
+  {
+   "q": "Where exactly is the Terrace of Repose located?",
+   "aliases": [
+    "where is terrace of repose",
+    "terrace of repose location",
+    "monastery garden entrance"
+   ],
+   "answer": "It is situated immediately outside the entrance grounds of the Scarlet Monastery complex, in the northeastern hills of Tirisfal Glades."
+  },
+  {
+   "q": "What do the Crusaders use the terrace for?",
+   "aliases": [
+    "scarlet crusade garden use",
+    "purpose of terrace of repose"
+   ],
+   "answer": "Beyond serving as an approach to their fortified monastery, it provides a quiet sanctuary of uncorrupted earth where crusaders can rest, reflect, and behold an idealized glimpse of the kingdom of Lordaeron as it stood before the third war."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, the pristine greenery of the terrace is a stark and bitter reminder of the living world that rejects them, maintained by mortal enemies who wish only to cleanse Lordaeron of their kind."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Seeing living flora and unpolluted water in Tirisfal is a powerful testament to the land's potential to heal, even if it is currently tended by unyielding fanatics."
+  }
+ ],
+ "keywords": [
+  "fountain",
+  "hedges",
+  "plague of undeath",
+  "scarlet crusade",
+  "scarlet monastery",
+  "terrace of repose",
+  "tirisfal glades",
+  "uncorrupted"
+ ],
+ "related": [
+  "zone:scarlet",
+  "topic:scarlet-crusade",
+  "zone:tirisfal",
+  "topic:plague-of-undeath",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Terrace of Repose"
+ ]
+}

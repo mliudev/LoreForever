@@ -1,0 +1,91 @@
+{
+ "key": "subzone:lake-falathim",
+ "type": "subzone",
+ "name": "Lake Falathim",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Lake Falathim"
+ },
+ "summary": "Lake Falathim is a tranquil body of water nestled in the forested hills of western Ashenvale, southwest of Maestra's Post. Revered for the constant touch of Elune's moonlight upon its surface day and night, it was once a beloved retreat for night elves. In recent days, however, aggressive murlocs have overrun its shores, turning a sacred haven into a perilous hazard.",
+ "sections": [
+  {
+   "title": "Bathed in Moonlight",
+   "body": "Tucked away southeast of the Zoram Strand, Lake Falathim was long cherished by the Kaldorei as a peaceful sanctuary for swimming and fishing. According to local lore, the gentle radiance of Elune rests upon these waters at all hours, day or night. Despite this sacred blessing, ferocious murlocs have surged inland to seize the shores, nesting in thick numbers and driving away local travelers and scholars alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scholar's Disappearance",
+   "body": "The sudden occupation by murlocs has made the lake deadly to solitary wanderers. The night elf scholar Teronis was recently lost somewhere near the water's edge on a mission of inquiry. Given the savage hostility of the amphibians lurking on the banks and in the shallows, the Sentinels fear the worst for any who venture toward the moonlit pool alone.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Lake Falathim located?",
+   "aliases": [
+    "lake falathim location",
+    "where is lake falathim",
+    "find lake falathim"
+   ],
+   "answer": "Lake Falathim lies in western Ashenvale, tucked into the hills southwest of Maestra's Post and southeast of the Zoram Strand."
+  },
+  {
+   "q": "Why is Lake Falathim special to the night elves?",
+   "aliases": [
+    "why is lake falathim important",
+    "lake falathim lore",
+    "moonlight lake ashenvale"
+   ],
+   "answer": "The lake holds spiritual significance because the goddess Elune's moonlight is said to perpetually touch its waters, whether by day or by night. Historically, night elves visited its peaceful banks to fish and swim."
+  },
+  {
+   "q": "What creatures inhabit the lake?",
+   "aliases": [
+    "lake falathim mobs",
+    "what is at lake falathim",
+    "lake falathim monsters"
+   ],
+   "answer": "The lake has been infested by hostile murlocs that have migrated up from the nearby coastal regions, making the shoreline dangerous for travelers."
+  },
+  {
+   "q": "Who was Teronis?",
+   "aliases": [
+    "teronis lake falathim",
+    "who is teronis",
+    "missing scholar lake falathim"
+   ],
+   "answer": "Teronis was a night elf scholar who ventured out near Lake Falathim and went missing, with his disappearance attributed to the vicious murlocs inhabiting the area."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, Lake Falathim is a reminder of wilderness sanctity under siege, where an idyllic lake touched by Elune's constant moonlight is desecrated by savage murloc tribes."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts out of Maestra's Post keep a watchful eye toward Lake Falathim, wary of murloc incursions and seeking word on lost scholars like Teronis."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "elune",
+  "falathim",
+  "lake falathim",
+  "maestra's post",
+  "moonlight",
+  "murloc",
+  "teronis"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "subzone:maestra-s-post",
+  "subzone:zoram-strand",
+  "topic:murloc",
+  "quest:1008"
+ ],
+ "attribution": [
+  "Lake Falathim"
+ ]
+}

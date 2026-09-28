@@ -1,0 +1,113 @@
+{
+ "key": "npc:ula-elek",
+ "type": "npc",
+ "name": "Ula'elek",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Ula'elek",
+  "refs": 3
+ },
+ "summary": "Ula'elek is a Darkspear troll smith residing in Sen'jin Village along the southern coast of Durotar. Working in tandem with the veteran orc warrior Thun'grim Firegaze, he crafts specialized armor for Horde warriors striving to prove their worth. His work combines traditional troll craftsmanship with exotic trophies gathered from across the Barrens.",
+ "sections": [
+  {
+   "title": "Smith of the Darkspear",
+   "body": "Ula'elek plies his craft amid the huts and braziers of Sen'jin Village, serving the Darkspear tribe as a skilled armorsmith. In a coastal settlement constantly threatened by nearby hostile quilboar and sea crawlers, keeping working blades and sturdy armor ready is vital to the tribe's survival. However, Ula'elek's renown extends beyond local defense, drawing the attention of seasoned warriors across the Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forging the Brutal Armor",
+   "body": "When young warriors visit Thun'grim Firegaze atop his overlook in the Barrens, the old veteran directs them south toward Sen'jin Village to seek out Ula'elek. Thun'grim trusts the troll smith to fashion Brutal Gauntlets, an imposing piece of battle gear worthy of battle-hardened frontliners. Ula'elek demands rare materials for the task, most notably the cleaved hooves of foul satyrs lurking near the corrupted edges of the Barrens.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ula'elek?",
+   "aliases": [
+    "who is ula'elek",
+    "ula'elek lore",
+    "ulaelek background"
+   ],
+   "answer": "Ula'elek is a Darkspear troll armorsmith living in Sen'jin Village in Durotar. He is trusted by Horde veterans to forge durable, specialized armor for up-and-coming frontline fighters."
+  },
+  {
+   "q": "Where can Ula'elek be found?",
+   "aliases": [
+    "ula'elek location",
+    "where is ula'elek",
+    "find ulaelek"
+   ],
+   "answer": "He is located in Sen'jin Village, a Darkspear settlement situated along the southeastern coast of Durotar, south of Razor Hill."
+  },
+  {
+   "q": "Why does Thun'grim Firegaze send warriors to Ula'elek?",
+   "aliases": [
+    "thungrim and ulaelek",
+    "why go to ula'elek"
+   ],
+   "answer": "Thun'grim Firegaze recognizes Ula'elek's exceptional skill as a smith and commissions him to create the Brutal Gauntlets for Horde warriors who have earned the veteran's respect."
+  },
+  {
+   "q": "What materials does Ula'elek need to make the gauntlets?",
+   "aliases": [
+    "ula'elek materials",
+    "brutal gauntlets ingredients"
+   ],
+   "answer": "To fashion the Brutal Gauntlets, Ula'elek requires warriors to hunt down satyrs in the Barrens and harvest their tough, corrupted hooves as essential crafting components."
+  },
+  {
+   "q": "What kind of gear does Ula'elek craft?",
+   "aliases": [
+    "what does ula'elek make",
+    "ula'elek rewards"
+   ],
+   "answer": "He specializes in heavy combat armor, specifically the Brutal Gauntlets, which form part of the traditional set of brutal plate forged for promising warriors of the Horde."
+  },
+  {
+   "q": "Why do the gauntlets require satyr hooves?",
+   "aliases": [
+    "why satyr hooves",
+    "hooves for gauntlets"
+   ],
+   "answer": "Satyr hooves are dense, sturdy, and hard-edged materials, serving both as durable reinforcement for heavy gauntlets and as a grim trophy displaying the wearer's victory over twisted, demonic foes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Ula'elek plays a crucial role in assembling your Brutal armor set, shaping hard-won satyr hooves into rugged gauntlets under the instruction of Thun'grim Firegaze."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Ula'elek represents the vital role Darkspear smiths hold in the fledgling Horde, forging frontline equipment right from Sen'jin Village's open shores."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "His integration of beast and demon trophies into heavy plate highlights the practical, resourceful nature of Horde smithing outside traditional foundries."
+  }
+ ],
+ "keywords": [
+  "brutal gauntlets",
+  "darkspear",
+  "durotar",
+  "satyr hooves",
+  "sen'jin village",
+  "smith",
+  "thun'grim firegaze",
+  "ula'elek"
+ ],
+ "related": [
+  "quest:1839",
+  "quest:1842",
+  "quest:1843",
+  "quest:1502",
+  "subzone:sen-jin-village",
+  "zone:durotar",
+  "topic:satyr",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Ula'elek"
+ ]
+}

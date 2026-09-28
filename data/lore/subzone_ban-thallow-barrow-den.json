@@ -1,0 +1,74 @@
+{
+ "key": "subzone:ban-thallow-barrow-den",
+ "type": "subzone",
+ "name": "Ban'Thallow Barrow Den",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Ban'Thallow Barrow Den"
+ },
+ "summary": "Ban'Thallow Barrow Den is a subterranean sanctuary carved into the snow-covered cliffs behind Starfall Village in Winterspring. Built by the night elves to house sleeping druids communing with the Emerald Dream, the cavern currently sits largely quiet and unoccupied. It remains an enduring, sacred piece of kaldorei architecture amidst the harsh northern mountain winter.",
+ "sections": [
+  {
+   "title": "A Silent Winter Sanctuary",
+   "body": "Barrow dens across Kalimdor traditionally serve as peaceful resting chambers where druids slumber while their spirits roam the Emerald Dream. Ban'Thallow Barrow Den is tucked behind the ruins and settlements of Starfall Village, shielded from Winterspring's biting blizzards. In these post-Third War days, the subterranean halls remain silent and empty of sleeping druids, standing instead as a quiet testament to ancestral kaldorei heritage under the frost.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Ban'Thallow Barrow Den?",
+   "aliases": [
+    "why was ban'thallow built",
+    "what is this barrow den",
+    "ban'thallow purpose"
+   ],
+   "answer": "Like other barrow dens built across northern Kalimdor, Ban'Thallow was created by night elf druids as a safe underground sanctuary to house their physical bodies while their spirits drifted through the Emerald Dream."
+  },
+  {
+   "q": "Are there any druids currently sleeping inside?",
+   "aliases": [
+    "is anyone sleeping inside",
+    "are druids in ban'thallow",
+    "who is in the den"
+   ],
+   "answer": "No. The subterranean halls of Ban'Thallow are currently quiet and empty of resting druids, left largely undisturbed behind Starfall Village."
+  },
+  {
+   "q": "Where exactly is Ban'Thallow Barrow Den located?",
+   "aliases": [
+    "how to find ban'thallow",
+    "ban'thallow location",
+    "where is the barrow den"
+   ],
+   "answer": "The den entrance is carved directly into the northern snowy bluffs situated just behind Starfall Village in eastern Winterspring, not far from the goblin trading post of Everlook."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Barrow dens are sacred subterranean sanctuaries created to shelter the slumbering bodies of druids walking the Emerald Dream, making Ban'Thallow an important ancestral landmark in the cold north."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Though currently silent and devoid of slumbering brothers and sisters, Ban'Thallow represents the long-standing tradition of druidic communion in even the most unforgiving corners of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ban'thallow",
+  "barrow den",
+  "druid sanctuary",
+  "emerald dream",
+  "starfall village",
+  "winterspring"
+ ],
+ "related": [
+  "subzone:starfall-village",
+  "zone:winterspring",
+  "topic:druid",
+  "subzone:everlook"
+ ],
+ "attribution": [
+  "Ban'Thallow Barrow Den"
+ ]
+}

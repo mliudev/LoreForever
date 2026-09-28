@@ -1,0 +1,112 @@
+{
+ "key": "quest:308",
+ "type": "quest",
+ "name": "Distracting Jarven",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   308
+  ],
+  "level": "7",
+  "faction": "Alliance",
+  "start": "Jarven Thunderbrew",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Distracting Jarven",
+  "chain": []
+ },
+ "summary": "Down in the cellar of Thunderbrew Distillery, guard Jarven Thunderbrew finds himself surrounded by barrels he is forbidden to touch. Craving a taste of the family craft, he asks a passing adventurer for a mug of Thunder Ale to help sharpen his wits on duty.",
+ "sections": [
+  {
+   "title": "A Thirsty Guard on Duty",
+   "body": "Jarven Thunderbrew is tasked with keeping watch over the deep stores of Thunderbrew Distillery in Kharanos. Despite being surrounded by the finest stout in Dun Morogh, he works under strict family orders not to dip into the stock while on guard. The temptation proves too much, prompting him to enlist passing travelers to fetch him a pint of potent Thunder Ale from the taps upstairs.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Dubious Sharpener",
+   "body": "Jarven insists that a good drink will only hone his senses and bolster his watch. Whether indulging a guard on duty is wise remains an open question, but among the hardy dwarves of Dun Morogh, few can fault a Thunderbrew for wanting a taste of his own kin's world-famous brew.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jarven Thunderbrew?",
+   "aliases": [
+    "who is jarven",
+    "jarven lore",
+    "guard in cellar"
+   ],
+   "answer": "Jarven is a member of the renowned Thunderbrew family, stationed downstairs in the cellar of the Thunderbrew Distillery in Kharanos to watch over the stored casks."
+  },
+  {
+   "q": "Why does Jarven need someone to bring him ale?",
+   "aliases": [
+    "why cant jarven drink",
+    "jarven ale quest",
+    "why fetch booze"
+   ],
+   "answer": "Jarven is under strict orders from his family not to drink from the cellar stock while on watch. To skirt the rules without breaking into the sealed casks, he asks an outsider to bring him a fresh mug from upstairs."
+  },
+  {
+   "q": "Where is Thunder Ale found?",
+   "aliases": [
+    "get thunder ale",
+    "where is thunder ale",
+    "buy thunder ale"
+   ],
+   "answer": "Thunder Ale is served right upstairs in the main taproom of Thunderbrew Distillery in Kharanos, sold by the innkeeper and bartenders."
+  },
+  {
+   "q": "Where is the Thunderbrew Distillery located?",
+   "aliases": [
+    "kharanos distillery",
+    "thunderbrew cellar location",
+    "where is jarven"
+   ],
+   "answer": "The distillery serves as the bustling central inn of Kharanos, nestled in the snowy heart of Dun Morogh just down the mountain from Ironforge."
+  },
+  {
+   "q": "Why is Thunderbrew ale so famous?",
+   "aliases": [
+    "thunderbrew reputation",
+    "what is thunder ale"
+   ],
+   "answer": "Crafted by the Thunderbrew clan, their stout and ales are legendary across Khaz Modan and beyond for their exceptional punch, flavor, and dwarven kick."
+  },
+  {
+   "q": "Does getting Jarven drunk cause any trouble?",
+   "aliases": [
+    "jarven drunk consequences",
+    "what happens after distracting jarven"
+   ],
+   "answer": "Jarven claims the ale sharpens his wits rather than dulling them, though it certainly keeps his attention off anyone poking around the lower storage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Every dwarf understands the agony of standing guard beside casks of legendary ale without being allowed a single swallow."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Keeping a watchman distracted with strong liquor is an age-old trick of the trade, even if Jarven happily asks for the distraction himself."
+  }
+ ],
+ "keywords": [
+  "cellar",
+  "distillery",
+  "distracting jarven",
+  "dun morogh",
+  "jarven thunderbrew",
+  "kharanos",
+  "thunder ale"
+ ],
+ "related": [
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Distracting Jarven"
+ ]
+}

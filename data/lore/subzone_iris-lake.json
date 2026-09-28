@@ -1,0 +1,91 @@
+{
+ "key": "subzone:iris-lake",
+ "type": "subzone",
+ "name": "Iris Lake",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Iris Lake"
+ },
+ "summary": "Iris Lake is a blighted body of water resting in north-central Ashenvale, east of Astranaar. Once pristine, its waters have turned a sickly yellowish-green from demonic corruption seeping down from Felwood, and hostile bog beasts now prowl its shores.",
+ "sections": [
+  {
+   "title": "A Tainted Refuge",
+   "body": "Nestled between Astranaar and the moonwell tended by Shael'dryn, Iris Lake stands as a grim reminder of the wounds inflicted during the Third War. Fel energies drifting south from the tainted heights of Felwood have poisoned the basin, turning its once-clear waters into a foul, sickly yellow-green mire. The corruption has twisted the native plant life and water spirits, raising aggressive bog beasts that lash out at any traveler who wanders near.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tears of the Goddess",
+   "body": "Despite the severe pollution choking the lake, sacred remnants of the past still linger along its edges. Rare crystalline stones known as Elune's Tears can sometimes be found resting along the muddy banks. Keepers of elven traditions, such as Shael'dryn, seek these holy stones to aid in purifying tainted moonwells and resisting the spreading demonic blight across Ashenvale.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the water at Iris Lake green and murky?",
+   "aliases": [
+    "why is iris lake green",
+    "iris lake water",
+    "why is iris lake tainted"
+   ],
+   "answer": "Iris Lake has been tainted by demonic corruption bleeding down from neighboring Felwood. The dark magic has poisoned the water table, turning the lake into a yellowish-green pool that twists nearby wildlife into aggressive monstrosities."
+  },
+  {
+   "q": "What creatures roam around Iris Lake?",
+   "aliases": [
+    "iris lake monsters",
+    "iris lake mobs",
+    "what attacks at iris lake"
+   ],
+   "answer": "The lake and its shores are infested with corrupted bog beasts. These plant and mud elementals have been maddened by fel energy and will violently attack anyone approaching the water."
+  },
+  {
+   "q": "What are Elune's Tears?",
+   "aliases": [
+    "elunes tears",
+    "elune tear",
+    "what is elunes tear"
+   ],
+   "answer": "Elune's Tears are sacred glowing blue stones found near the shores of Iris Lake. Priests and keepers of the night elves use their consecrated nature in purification rites, notably to cleanse corrupted moonwells."
+  },
+  {
+   "q": "Where is Iris Lake located?",
+   "aliases": [
+    "where is iris lake",
+    "iris lake location",
+    "how to get to iris lake"
+   ],
+   "answer": "Iris Lake lies in north-central Ashenvale. It is positioned directly east of the night elf settlement of Astranaar and west of Shael'dryn's moonwell."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Iris Lake is a heartbreaking example of the creeping corruption threatening Ashenvale, but recovering Elune's Tears from its fouled shores offers hope for cleansing the forest."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The twisted bog beasts and stagnant, corrupted waters demonstrate the devastating toll that demonic energy takes on nature when left unchecked."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "bog beasts",
+  "elune's tear",
+  "felwood corruption",
+  "iris lake",
+  "shael'dryn"
+ ],
+ "related": [
+  "quest:1033",
+  "npc:shael-dryn",
+  "subzone:moonwell-ashenvale",
+  "zone:ashenvale",
+  "zone:felwood",
+  "subzone:astranaar",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Iris Lake"
+ ]
+}

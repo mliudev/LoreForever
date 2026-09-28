@@ -1,0 +1,73 @@
+{
+ "key": "subzone:dreadmaul-furnace",
+ "type": "subzone",
+ "name": "Dreadmaul Furnace",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Dreadmaul Furnace"
+ },
+ "summary": "The Dreadmaul Furnace is a smoldering volcanic hollow within the Blasted Lands, situated just northwest of Dreadmaul Post. Carved into the rugged terrain occupied by the Dreadmaul ogres, it serves as a perilous haven where unusual truces have been struck in the shadow of dark sorcery.",
+ "sections": [
+  {
+   "title": "A Precarious Pact",
+   "body": "Tucked into the craggy hills northwest of Dreadmaul Post, the Dreadmaul Furnace is primarily the domain of the local Dreadmaul ogres. Despite the violent nature of these brutish creatures, an uneasy arrangement allows the elven siblings Lynnore and Drazial to dwell within a carved-out chamber of the mound. Operating in such close proximity to volatile ogre sorcery and the harsh wastes of the Blasted Lands makes this furnace one of the most perilous outposts in the south.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Dreadmaul Furnace located?",
+   "aliases": [
+    "dreadmaul furnace location",
+    "where is dreadmaul furnace",
+    "how to find dreadmaul furnace"
+   ],
+   "answer": "The Dreadmaul Furnace is nestled in the northern mountains of the Blasted Lands, directly northwest of Dreadmaul Post along the rugged border of the ogre encampment."
+  },
+  {
+   "q": "Who lives in the Dreadmaul Furnace?",
+   "aliases": [
+    "who is at dreadmaul furnace",
+    "dreadmaul furnace npcs",
+    "who lives here"
+   ],
+   "answer": "The cavernous area is controlled by the Dreadmaul ogre clan, but an inner chamber houses the blood elven siblings Lynnore and Drazial, who managed to strike a delicate truce with the ogres to conduct their arcane studies in safety."
+  },
+  {
+   "q": "Why are elves living alongside ogres?",
+   "aliases": [
+    "why are there elves here",
+    "lynnore drazial ogres",
+    "elf ogre alliance"
+   ],
+   "answer": "Lynnore and Drazial negotiated an arrangement with the Dreadmaul clan that permits them access to the hollow. The siblings study the tainted magical properties of the Blasted Lands and the powerful artifacts left behind, remaining unmolested so long as their pact holds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The existence of elven scholars dwelling unmolested among brutal ogres illustrates the sheer lengths arcanists will go to study the potent magical anomalies created by the opening of the Dark Portal."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Positioned just above the Horde encampment at Dreadmaul Post, the Furnace is a reminder that not all negotiations in these harsh badlands run through Orgrimmar's diplomacy."
+  }
+ ],
+ "keywords": [
+  "blasted lands",
+  "drazial",
+  "dreadmaul furnace",
+  "dreadmaul ogres",
+  "dreadmaul post",
+  "lynnore"
+ ],
+ "related": [
+  "subzone:dreadmaul-post",
+  "zone:blastedlands",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Dreadmaul Furnace"
+ ]
+}

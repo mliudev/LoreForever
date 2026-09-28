@@ -1,0 +1,116 @@
+{
+ "key": "npc:balthule-shadowstrike",
+ "type": "npc",
+ "name": "Balthule Shadowstrike",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Balthule Shadowstrike",
+  "refs": 6
+ },
+ "summary": "Balthule Shadowstrike is a night elf scout stationed in northern Darkshore near the Tower of Althalaxx. Serving as a forward agent for Delgren the Purifier, he keeps watch over the sinister cultists and dark practitioners occupying the ancient elven ruins. Adventurers traveling along the northern coast are often directed to him to assist in unravelling and disrupting the dark rituals underway at the tower.",
+ "sections": [
+  {
+   "title": "A Scout in the Shadows",
+   "body": "Perched in the wilderness just west of the Tower of Althalaxx, Balthule Shadowstrike maintains a lonely and perilous vigil. Darkshore's northern reaches are thick with restless spirits and shadowed ruins, but the activity around the tower poses a particularly acute threat. Balthule operates under the direction of Delgren the Purifier, observing the movements of dark casters who have crept into the ancient Highborne remnants.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uncovering the Cult",
+   "body": "The sorcerers and cultists who have claimed the Tower of Althalaxx are engaged in dark, forbidden magic, harvesting artifacts and souls from the surrounding ruins. Balthule relies on traveling Alliance champions to venture into the tower grounds, strike down the cultist leadership, and recover parchment and talismans that reveal the true scope of their summoning efforts.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Balthule Shadowstrike?",
+   "aliases": [
+    "who is balthule",
+    "balthule role",
+    "balthule shadowstrike npc"
+   ],
+   "answer": "Balthule Shadowstrike is a night elf scout stationed in northern Darkshore. He acts as an advance scout and agent working in concert with Delgren the Purifier to monitor evil cultist activities in the area."
+  },
+  {
+   "q": "Where is Balthule Shadowstrike located?",
+   "aliases": [
+    "where is balthule",
+    "balthule location",
+    "find balthule shadowstrike"
+   ],
+   "answer": "He is stationed in northern Darkshore, positioned just west of the ominous Tower of Althalaxx near the coastline."
+  },
+  {
+   "q": "What is his mission at the Tower of Althalaxx?",
+   "aliases": [
+    "why is balthule here",
+    "what does balthule want",
+    "althalaxx quest guy"
+   ],
+   "answer": "He was sent to spy upon the dark spellcasters and cultists who have taken up residence in the Tower of Althalaxx, helping to gather intelligence and coordinate strikes to disrupt their corrupt rituals."
+  },
+  {
+   "q": "Who is Delgren the Purifier?",
+   "aliases": [
+    "who is delgren",
+    "balthule superior",
+    "delgren connection"
+   ],
+   "answer": "Delgren the Purifier is an Alliance champion stationed along the road south of the tower who coordinates the campaign against the dark forces plaguing northern Darkshore. Balthule serves as his forward eyes and ears."
+  },
+  {
+   "q": "What kind of enemies occupy the Tower of Althalaxx?",
+   "aliases": [
+    "who is in the tower",
+    "althalaxx enemies",
+    "tower of althalaxx cultists"
+   ],
+   "answer": "The tower and its surrounding grounds are overrun by dark cultists, sorcerers, and summoned demonic or shadowy minions bent on using ancient Highborne power for sinister purposes."
+  },
+  {
+   "q": "Why is the Alliance interested in these ruins?",
+   "aliases": [
+    "why care about the tower",
+    "alliance darkshore presence"
+   ],
+   "answer": "The Tower of Althalaxx is an ancient elven structure. The presence of foul sorcery and demonic activity so close to elven lands represents a direct threat to the safety of Darkshore and the night elves of Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, the desecration of ancient Kalimdor ruins by foul cultists is an outrage that Balthule seeks to avenge before the corruption spreads further into their lands."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Balthule serves as an important forward contact for Alliance members sent north from Auberdine to excise the dark cultists operating around the Tower of Althalaxx."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Operating deep in hostile territory right under the noses of dangerous spellcasters, Balthule exemplifies the patience and vigilance of a true elven scout."
+  }
+ ],
+ "keywords": [
+  "althalaxx",
+  "balthule",
+  "cultists",
+  "darkshore",
+  "delgren",
+  "mathystra",
+  "purifier",
+  "scout",
+  "shadowstrike"
+ ],
+ "related": [
+  "subzone:tower-of-althalaxx",
+  "npc:delgren-the-purifier",
+  "quest:965",
+  "zone:darkshore",
+  "subzone:ruins-of-mathystra",
+  "topic:night-elf",
+  "topic:highborne"
+ ],
+ "attribution": [
+  "Balthule Shadowstrike"
+ ]
+}

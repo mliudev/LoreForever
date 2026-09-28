@@ -1,0 +1,91 @@
+{
+ "key": "npc:magistrix-elosai",
+ "type": "npc",
+ "name": "Magistrix Elosai",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Magistrix Elosai",
+  "refs": 2
+ },
+ "summary": "Magistrix Elosai is a blood elf researcher staying at Freewind Post in the jagged canyons of Thousand Needles. Having been exiled by her peers, she dedicates her solitude to brewing a remedy for her people's devastating addiction to magic.",
+ "sections": [
+  {
+   "title": "An Exile's Cure",
+   "body": "Perched upon the high mesas of Freewind Post, Magistrix Elosai works far from the remnants of her homeland. Exiled for pursuing an unorthodox solution to the magical hunger consuming the blood elves, she seeks to craft a tonic capable of breaking their reliance on arcane energy. Her lonely experiments in Kalimdor reflect the desperate lengths to which individual sin'dorei will go to master the addiction born from the loss of the Sunwell.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Tragic Miscalculation",
+   "body": "Elosai's search for salvation ends in personal disaster. When she finally tests her refined concoction, the brew does not cleanse her arcane craving; instead, it rapidly accelerates the affliction. Consumed by the uncontrolled magical degeneration, Elosai transforms into a withered Wretched, devastated by the realization that her years of research have failed and wondering if her people's curse can ever truly be overcome.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Magistrix Elosai?",
+   "aliases": [
+    "elosai",
+    "magistrix elosai lore",
+    "who is the elf in freewind post"
+   ],
+   "answer": "Magistrix Elosai is a blood elf researcher residing on the eastern edge of Freewind Post in Thousand Needles. She was cast out by her fellows for attempting to invent a cure for the blood elves' addiction to magic."
+  },
+  {
+   "q": "Why is a blood elf in Thousand Needles?",
+   "aliases": [
+    "why is elosai here",
+    "why freewind post",
+    "elosai exile"
+   ],
+   "answer": "Elosai was exiled from blood elf society due to her obsession with finding an alternative cure for their magical withdrawal. She relocated to the remote Horde outpost of Freewind Post to pursue her alchemical research in peace."
+  },
+  {
+   "q": "What happens when she tests her tonic?",
+   "aliases": [
+    "what happens to elosai",
+    "elosai test",
+    "testing the tonic result"
+   ],
+   "answer": "Rather than satisfying or neutralizing her addiction, Elosai's experimental tonic dramatically accelerates it. The mixture overwhelms her system, transforming her into a degraded Wretched."
+  },
+  {
+   "q": "What is a Wretched?",
+   "aliases": [
+    "what are the wretched",
+    "wretched elf",
+    "wretched blood elf"
+   ],
+   "answer": "A Wretched is a blood elf who has succumbed to magical obsession and lost control of their addiction. Consuming reckless amounts of raw arcane power deforms their minds and bodies, leaving them frail, feral, and desperate for magic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Mages familiar with the volatile nature of arcane withdrawal will recognize the grim tragedy in Elosai's failed attempt to artificially dampen mana dependency."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Freewind Post grants shelter to strange visitors, but Elosai's tragic fate demonstrates the deep perils that blood elves carry with them even when welcomed by Horde outposts."
+  }
+ ],
+ "keywords": [
+  "blood elf",
+  "elosai",
+  "freewind post",
+  "magic addiction",
+  "magistrix",
+  "thousand needles",
+  "tonic",
+  "wretched"
+ ],
+ "related": [
+  "subzone:freewind-post",
+  "zone:thousandneedles",
+  "quest:9431",
+  "quest:9434"
+ ],
+ "attribution": [
+  "Magistrix Elosai"
+ ]
+}

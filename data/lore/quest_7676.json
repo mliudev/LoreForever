@@ -1,0 +1,71 @@
+{
+ "key": "quest:7676",
+ "type": "quest",
+ "name": "White Mechanostrider Replacement",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   7676
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Milli Featherwhistle",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "White Mechanostrider Replacement",
+  "chain": []
+ },
+ "summary": "White Mechanostrider Replacement is a straightforward exchange offered by Milli Featherwhistle at Steelgrill's Depot in Dun Morogh. It allows owners of an original white mechanostrider model to trade it in for an updated production chassis.",
+ "sections": [
+  {
+   "title": "A Gnomish Upgrade",
+   "body": "Gnome engineering never stays frozen in place for long. Outside Kharanos at Steelgrill's Depot, mechanostrider technician Milli Featherwhistle handles logistics and upkeep for the gnomes' signature bipedal mounts. When new production lines and chassis designs roll out, earlier prototypes often receive official factory replacements to match the latest standards in Dun Morogh.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this replacement?",
+   "aliases": [
+    "why replace white mechanostrider",
+    "what does this quest do",
+    "white mechanostrider trade"
+   ],
+   "answer": "It allows a rider in possession of an older White Mechanostrider chassis to exchange it directly with Milli Featherwhistle for a revised model, keeping up with engineering adjustments made across the mechanostrider fleet."
+  },
+  {
+   "q": "Where does this exchange take place?",
+   "aliases": [
+    "where is milli featherwhistle",
+    "where to turn in white mechanostrider replacement"
+   ],
+   "answer": "The exchange takes place at Steelgrill's Depot, located just down the road east of Kharanos in Dun Morogh. Milli Featherwhistle manages the mechanostrider pens there."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Mechanostriders represent the ingenuity of the exiled gnomish people, providing fast personal transit that blends clockwork gears with rugged steam engineering."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The ongoing iteration of mechanostrider frames highlights the gnome engineering philosophy of continuous tweaking, modular retrofitting, and technical perfection."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "gnome mount",
+  "mechanostrider",
+  "milli featherwhistle",
+  "steelgrill's depot"
+ ],
+ "related": [
+  "npc:milli-featherwhistle",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "White Mechanostrider Replacement"
+ ]
+}

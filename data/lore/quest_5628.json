@@ -1,0 +1,127 @@
+{
+ "key": "quest:5628",
+ "type": "quest",
+ "name": "Returning Home",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   5628
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Priestess Josetta",
+  "end": "Priestess Alathea",
+  "previous": null,
+  "next": "Stars of Elune",
+  "wiki": "Returning Home (Elwynn Forest)",
+  "chain": [
+   "Returning Home",
+   "Stars of Elune"
+  ]
+ },
+ "summary": "\"Returning Home\" is a summons sent to young night elf priests who have wandered as far as the human lands of Elwynn Forest. Priestess Josetta in Goldshire relays an urgent message from Darnassus, bidding the novice return to the Temple of the Moon to further their spiritual training under Priestess Alathea.",
+ "sections": [
+  {
+   "title": "A Word in Goldshire",
+   "body": "Night elves are an unusual sight in Elwynn Forest, and a fledgling acolyte wandering among human settlements catches immediate attention. When such a priest arrives in Goldshire, Priestess Josetta greets them with both warmth and news. A Sister of Elune has traveled across continents seeking the young devotee, bearing an urgent command from the Temple of the Moon: it is time to return to Kalimdor and advance their calling.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Call of the Temple",
+   "body": "At the heart of Darnassus stands the Temple of the Moon, the epicenter of night elven faith and leadership. Priestess Alathea and High Priestess Tyrande Whisperwind oversee the instruction of the Sisterhood, keeping close watch over their disciples even when curiosity carries them overseas. Upon returning, initiates are welcomed back with motherly concern and immediately set onto deeper studies regarding the celestial mysteries of the Moon Goddess.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is a night elf priest being summoned from human lands?",
+   "aliases": [
+    "why am i called back",
+    "why returning home",
+    "priest quest goldshire"
+   ],
+   "answer": "Young night elf priests who journey to the Eastern Kingdoms are still bound to their sacred order in Teldrassil. Priestess Alathea tracks their progress and calls them back to the Temple of the Moon once they are ready to learn higher-order rites of Elune."
+  },
+  {
+   "q": "Who is Priestess Josetta?",
+   "aliases": [
+    "who gives returning home",
+    "goldshire priest trainer",
+    "priestess josetta"
+   ],
+   "answer": "Priestess Josetta is the human priest trainer stationed at the Lion's Pride Inn in Goldshire. She serves the Holy Light but respects visiting kaldorei acolytes, acting as a liaison when emissaries from Darnassus come searching for their wayward kin."
+  },
+  {
+   "q": "Who is Priestess Alathea?",
+   "aliases": [
+    "who is alathea",
+    "temple priest trainer",
+    "priestess alathea"
+   ],
+   "answer": "Priestess Alathea is a senior Sister of Elune who trains acolytes within the Temple of the Moon in Darnassus. Working closely with High Priestess Tyrande Whisperwind, she monitors the growth and spiritual dedication of novice night elf priests."
+  },
+  {
+   "q": "What happens after returning to Darnassus?",
+   "aliases": [
+    "what comes next",
+    "next quest after returning home",
+    "followup quest"
+   ],
+   "answer": "Once you report back to Priestess Alathea at the Temple of the Moon, she welcomes you safely home and introduces your next spiritual task: the quest 'Stars of Elune,' which delves deeper into the sacred power granted by the goddess."
+  },
+  {
+   "q": "How does this differ from the normal training path?",
+   "aliases": [
+    "do all priests do this",
+    "is this quest mandatory",
+    "elwynn priest quest"
+   ],
+   "answer": "This quest is an alternate breadcrumb specifically designed for night elf priests who chose to level in human lands such as Elwynn Forest rather than staying in Teldrassil. It ensures they are redirected back to their racial trainers in Darnassus to unlock their race-specific priestly abilities."
+  },
+  {
+   "q": "How did the messenger find an acolyte all the way in Elwynn Forest?",
+   "aliases": [
+    "how did they know i was here",
+    "who tracked me to goldshire"
+   ],
+   "answer": "A priestess from the Sisterhood traveled all the way from Darnassus to the Eastern Kingdoms, leaving word with Alliance trainers like Priestess Josetta in Goldshire to watch for the traveling novice and direct them back home."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Every priest order has roots in deep tradition; for kaldorei acolytes, true advancement in the lunar rites can only be sanctioned by the senior priestesses at the Temple of the Moon."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Wandering far across the sea to the lands of the young races is an ambitious path, but the call of Teldrassil and the blessings of Elune always draw kaldorei back to their sacred sanctuaries."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The shared hospitality between the Church of the Holy Light in Elwynn and the Sisterhood of Elune in Darnassus demonstrates the growing cooperative bonds uniting the Alliance races."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "elune",
+  "goldshire",
+  "priestess alathea",
+  "priestess josetta",
+  "returning home",
+  "stars of elune",
+  "temple of the moon"
+ ],
+ "related": [
+  "quest:5627",
+  "npc:priestess-alathea",
+  "npc:priestess-josetta",
+  "subzone:temple-of-the-moon",
+  "zone:darnassus",
+  "topic:elune",
+  "quest:2519"
+ ],
+ "attribution": [
+  "Returning Home (Elwynn Forest)"
+ ]
+}

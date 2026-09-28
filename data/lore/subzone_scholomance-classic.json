@@ -1,0 +1,93 @@
+{
+ "key": "subzone:scholomance-classic",
+ "type": "subzone",
+ "name": "Scholomance (Classic)",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Scholomance (Classic)"
+ },
+ "summary": "Scholomance is a subterranean academy of necromancy hidden in the crypts beneath Caer Darrow in the Western Plaguelands. Founded by Kel'Thuzad and the Cult of the Damned, it serves as the Scourge's premier training ground for mortal spellcasters seeking to master death.",
+ "sections": [
+  {
+   "title": "A School in the Tombs",
+   "body": "Before the Third War devastated Lordaeron, the rogue archmage Kel'Thuzad sought recruits for his Cult of the Damned. He found willing benefactors in the wealthy Barov family, lords of Caer Darrow, who traded their lands and crypts in exchange for promised immortality. Instead, the cult slaughtered them and raised them as monstrous undead. Beneath the ruined fortress, the Cult renovated the ancient Arathorian catacombs into an academy for the dark arts. Here, mortal acolytes study plaguecraft, soul binding, and flesh shaping away from watchful eyes, honing the foul magics that shattered Lordaeron.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lich and Headmaster",
+   "body": "Though Kel'Thuzad has moved on to direct Scourge operations from above, the school remains fully operational. The eternal lich Ras Frostwhisper holds vigil over the complex in the Scourge's name, while the mortal necromancer Darkmaster Gandling serves as its headmaster, tutoring ambitious sorcerers in horrific experiments. Those students who display weakness are discarded into the catacombs and fed to the Ravenian, a voracious wight lurking in the lower vaults.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Scholomance?",
+   "aliases": [
+    "what is this place",
+    "scholomance lore",
+    "explain scholomance"
+   ],
+   "answer": "Scholomance is a secret academy of necromancy run by the Cult of the Damned. Situated in the deep crypts beneath the island fortress of Caer Darrow, it trains mortal spellcasters in the dark arts of the Scourge."
+  },
+  {
+   "q": "Who rules Scholomance now?",
+   "aliases": [
+    "who leads scholomance",
+    "who is in charge",
+    "scholomance boss"
+   ],
+   "answer": "The lich Ras Frostwhisper oversees the fortress on behalf of the Scourge, but mortal affairs and instruction are directed by Darkmaster Gandling, the school's ruthless headmaster."
+  },
+  {
+   "q": "How did the Scourge acquire Caer Darrow?",
+   "aliases": [
+    "barov backstory",
+    "who owned caer darrow",
+    "how did cult get scholomance"
+   ],
+   "answer": "The noble Barov family held the keep following the Second War. Swayed by Kel'Thuzad's promises of eternal life, they deeded their ancestral home and crypts to the Cult of the Damned. The cult fulfilled the bargain by slaughtering the Barovs and raising them into undeath."
+  },
+  {
+   "q": "Why is the school locked?",
+   "aliases": [
+    "scholomance door locked",
+    "how to get into scholomance",
+    "skeleton key scholomance"
+   ],
+   "answer": "The massive iron gate was sealed to protect the academy's research and summoners from intruders. Opening the door requires the Skeleton Key, forged through an involved ritual process spanning the Plaguelands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Scholomance is a grotesque perversion of Dalaran's scholastic traditions, demonstrating what happens when Kirin Tor expertise is turned wholly to necromancy and decay."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "For knights of the Silver Hand, cleansing the tainted halls beneath Caer Darrow is an urgent duty, striking directly at the source of the Scourge's mortal leadership."
+  }
+ ],
+ "keywords": [
+  "barov",
+  "caer darrow",
+  "cult of the damned",
+  "gandling",
+  "necromancy",
+  "ras frostwhisper",
+  "scholomance"
+ ],
+ "related": [
+  "subzone:caer-darrow",
+  "npc:darkmaster-gandling",
+  "topic:cult-of-the-damned",
+  "topic:plague-of-undeath",
+  "topic:scourge",
+  "zone:westernplaguelands",
+  "subzone:chillwind-camp",
+  "subzone:bulwark"
+ ],
+ "attribution": [
+  "Scholomance (Classic)"
+ ]
+}

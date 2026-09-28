@@ -1,0 +1,81 @@
+{
+ "key": "npc:red-jack-flint",
+ "type": "npc",
+ "name": "Red Jack Flint",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Red Jack Flint",
+  "refs": 1
+ },
+ "summary": "Red Jack Flint is a seasoned human mariner stationed within Menethil Keep in Menethil Harbor. A member of the crew of the vessel Maiden's Virtue, he serves as a point of contact for travelers seeking passage or contacts across the sea toward Kalimdor.",
+ "sections": [
+  {
+   "title": "A Sailor in Menethil Keep",
+   "body": "Found inside the stone walls of Menethil Keep, Red Jack Flint is an experienced seafarer tied to the harbor's maritime trade. As part of the crew of the Maiden's Virtue, he navigates the dangerous sea routes linking the marshlands of Khaz Modan with distant shores. Rather than staying confined to naval routine, Flint directs capable adventurers to allies across the Great Sea, including contacts in Kalimdor like Fiora Longears.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Red Jack Flint?",
+   "aliases": [
+    "who is flint",
+    "red jack flint lore",
+    "what does flint do"
+   ],
+   "answer": "Red Jack Flint is a human sailor and crew member of the Maiden's Virtue. He is stationed in Menethil Keep within Menethil Harbor, helping bridge contacts between the Eastern Kingdoms and Kalimdor."
+  },
+  {
+   "q": "Where can Red Jack Flint be found?",
+   "aliases": [
+    "red jack flint location",
+    "where is flint",
+    "find red jack flint"
+   ],
+   "answer": "He can be found resting inside Menethil Keep, the primary stone fortress defending Menethil Harbor in the Wetlands."
+  },
+  {
+   "q": "What ship does Red Jack Flint sail on?",
+   "aliases": [
+    "flints ship",
+    "what ship is red jack on",
+    "maidens virtue"
+   ],
+   "answer": "He serves aboard the Maiden's Virtue, a merchant vessel operating out of Menethil Harbor."
+  },
+  {
+   "q": "Who does Red Jack Flint send travelers to see?",
+   "aliases": [
+    "flint quest",
+    "fiora longears connection",
+    "where does flint send you"
+   ],
+   "answer": "He directs travelers to make contact with Fiora Longears, an associate situated across the Great Sea in Darkshore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers charting courses across the sea from Khaz Modan, sailors like Red Jack Flint provide vital connections to outposts along Kalimdor's northern coast."
+  }
+ ],
+ "keywords": [
+  "fiora longears",
+  "maidens virtue",
+  "menethil harbor",
+  "menethil keep",
+  "red jack flint",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:menethil-keep",
+  "subzone:menethil-harbor",
+  "zone:wetlands",
+  "quest:1132",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Red Jack Flint"
+ ]
+}

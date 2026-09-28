@@ -1,0 +1,123 @@
+{
+ "key": "npc:braelyn-firehand",
+ "type": "npc",
+ "name": "Braelyn Firehand",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Braelyn Firehand",
+  "refs": 5
+ },
+ "summary": "Braelyn Firehand is an elusive elf residing quietly among the Horde at Sun Rock Retreat in the Stonetalon Mountains. While presenting herself as an arcane practitioner seeking to clear mystical obstructions in the highlands, she pursues a deep personal grudge against the grove keepers of Stonetalon Peak. In reality, her tasks serve the shadowy interests entrenched further north.",
+ "sections": [
+  {
+   "title": "An Unlikely Guest",
+   "body": "Standing out amidst the tauren lodges and rustic orcish tents of Sun Rock Retreat, Braelyn Firehand is a rare sight: a high elf dwelling openly within a remote Horde settlement. The shaman and chieftains of the retreat tolerate her presence, seemingly oblivious to her true loyalties. Braelyn presents herself as an observer fascinated by the flow of regional magic, eager to hire passing Horde mercenaries to handle dangerous field assignments across the crags.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Grudge Against the Grove",
+   "body": "Braelyn directs her allies against the night elven druids and the sacred offspring of Cenarius stationed high above at Stonetalon Peak. She claims the druids choke the ambient ley lines and stifle the flow of arcane energy throughout the peaks. Her true focus, however, is intensely personal: she harbors bitter memories of Keeper Ordanus, recalling an ancient arrogance where he held himself above even the Highborne. She willingly pays Horde travelers to hunt down Ordanus and return with his head.",
+   "spoiler": 1
+  },
+  {
+   "title": "Ties to Jaedenar",
+   "body": "Braelyn's resentment is more than idle lingering hatred; her aims align directly with the Shadow Council sect operating out of Jaedenar in Felwood. By encouraging Horde champions to systematically slaughter the night elves and the keepers holding the sacred peaks, she clears the way for darker powers while masking her sinister affiliation under the guise of ordinary frontier skirmishing.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Braelyn Firehand?",
+   "aliases": [
+    "who is braelyn",
+    "braelyn firehand lore",
+    "elf in sun rock retreat"
+   ],
+   "answer": "Braelyn Firehand is an elven mage living at Sun Rock Retreat in the Stonetalon Mountains. Though surrounded by the Horde, she pursues her own arcane agenda against the night elves guarding Stonetalon Peak."
+  },
+  {
+   "q": "Why is an elf staying in Sun Rock Retreat?",
+   "aliases": [
+    "why is she with the horde",
+    "why is braelyn in sun rock",
+    "blood elf in stonetalon"
+   ],
+   "answer": "Sun Rock Retreat serves as a bustling, isolated frontier haven. Braelyn uses the camp's tolerance and its steady stream of Horde warriors to contract out her personal strikes against the night elves without arousing immediate suspicion from the settlement's leadership."
+  },
+  {
+   "q": "What does she want done at Stonetalon Peak?",
+   "aliases": [
+    "braelyn quest goals",
+    "why kill ordanus",
+    "braelyn firehand tasks"
+   ],
+   "answer": "Braelyn instructs adventurers to infiltrate Stonetalon Peak to kill night elf druids, slay the sons of Cenarius, and decapitate their leader, Keeper Ordanus, ostensibly to reopen the suppressed flows of magic in the mountains."
+  },
+  {
+   "q": "What is her history with Keeper Ordanus?",
+   "aliases": [
+    "braelyn and ordanus",
+    "how does she know ordanus",
+    "ordanus backstory"
+   ],
+   "answer": "Braelyn claims to have known Keeper Ordanus personally in the distant past. She resents him bitterly, alleging that he carried immense arrogance and regarded himself as superior even to the ancient Highborne."
+  },
+  {
+   "q": "Who does Braelyn Firehand actually serve?",
+   "aliases": [
+    "braelyn true faction",
+    "braelyn shadow council",
+    "who does she work for"
+   ],
+   "answer": "Beneath her claims of restoring arcane balance, Braelyn is an operative working on behalf of the Shadow Council sect rooted in Jaedenar, weaponizing Horde adventurers against the demonic cult's natural enemies."
+  },
+  {
+   "q": "Is Braelyn a mage or a warlock?",
+   "aliases": [
+    "braelyn class",
+    "is braelyn a warlock",
+    "braelyn firehand spells"
+   ],
+   "answer": "While affiliated with the demon-worshiping Shadow Council, Braelyn commands arcane fire and frost like a traditional mage rather than drawing upon demonic fel or curses."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Braelyn gladly hires Horde wanderers to strike at the night elves, turning the ongoing territorial clashes in Kalimdor into cover for a deeper, darker agenda."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Braelyn speaks readily of ley energies and mystical blockages, appealing to fellow practitioners who understand the flow of arcane magic through the land."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Her deliberate slaughter of the sons of Cenarius and the desecration of the Barrow Dens stand as an abhorrent crime against the balance of nature."
+  }
+ ],
+ "keywords": [
+  "braelyn",
+  "cenarius",
+  "firehand",
+  "highborne",
+  "jaedenar",
+  "ordanus",
+  "shadow council",
+  "stonetalon",
+  "sun rock retreat"
+ ],
+ "related": [
+  "subzone:sun-rock-retreat",
+  "quest:1088",
+  "quest:1087",
+  "quest:1089",
+  "subzone:stonetalon-peak",
+  "topic:shadow-council",
+  "subzone:jaedenar",
+  "topic:highborne"
+ ],
+ "attribution": [
+  "Braelyn Firehand"
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "key": "topic:druid",
+ "type": "topic",
+ "name": "Druid",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Druid"
+ },
+ "summary": "Druids are guardians of the natural world who draw power directly from the wild spirits, the celestial bodies, and the Emerald Dream. Master shapeshifters, they adopt the forms of primal beasts to protect the land or mend grievous wounds. Practiced primarily by the night elves and newly revived among the tauren, druids place the preservation of nature above all mortal allegiance.",
+ "sections": [
+  {
+   "title": "Wardens of the Wilds",
+   "body": "Druidism is far more than a martial art; it is an ancient way of life rooted in deep communion with nature and the demigod Cenarius. Druids wield raw natural energies, commanding roots to entangle their foes, directing the celestial brilliance of the moon and stars, and invoking restorative flora to knit bone and flesh. Their duty is to preserve the cosmic balance and protect the unfettered wild from exploitation and corruption.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Gift of Shapeshifting",
+   "body": "The defining hallmark of the druid is the supernatural art of shapeshifting. Through spiritual devotion, practitioners channel the primal aspects of Azeroth's beasts. They take on the thick hide of the bear to withstand crushing assaults, slip into the lithe form of the feline predator to strike from the shadows, or adopt aquatic and avian shapes to traverse sea and sky. While transformed, their animal mouths can rarely form mortal words, yet their physical prowess rivals the apex predators of the wild.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cenarion Circle",
+   "body": "First taught to Malfurion Stormrage by Cenarius ten thousand years ago, mortal druidism was later formalized under the Cenarion Circle. Headquartered in sacred Moonglade, the Circle watches over druidic practices across Kalimdor, standing independent of mortal factions and political squabbles. While long dominated solely by night elf men who spent centuries slumbering in the Emerald Dream, the aftermath of the Third War saw both night elf women and the tauren welcomed into its fold.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was the first mortal druid?",
+   "aliases": [
+    "first druid",
+    "who founded druidism",
+    "malfurion first druid"
+   ],
+   "answer": "Malfurion Stormrage was the first mortal to master the druidic arts under the direct tutelage of the demigod Cenarius, roughly ten thousand years ago prior to the War of the Ancients."
+  },
+  {
+   "q": "How can tauren become druids?",
+   "aliases": [
+    "tauren druid lore",
+    "why are tauren druids",
+    "hamuul runetotem druid"
+   ],
+   "answer": "Following the Third War, the tauren leader Hamuul Runetotem befriended Malfurion Stormrage and learned the ways of the wild, becoming the first tauren druid in nearly twenty generations. Despite protests from Fandral Staghelm, the Keeper Remulos welcomed the tauren into the Cenarion Circle."
+  },
+  {
+   "q": "What is the Cenarion Circle?",
+   "aliases": [
+    "cenarion circle lore",
+    "what is moonglade order"
+   ],
+   "answer": "The Cenarion Circle is the governing order of druids on Azeroth, founded to regulate wild practices and protect nature. Operating independently from both the Alliance and the Horde, its members answer to the Circle's archdruids and gather peacefully in sacred Moonglade."
+  },
+  {
+   "q": "Can druids speak while in animal form?",
+   "aliases": [
+    "can druids talk in bear form",
+    "shapeshift talking lore"
+   ],
+   "answer": "Generally, no. When shapeshifted into a beast, a druid's vocal anatomy reflects the animal, making normal mortal speech impossible, although a handful of rare, exceptionally powerful individuals have found magical ways around this limitation."
+  },
+  {
+   "q": "What is the Emerald Dream?",
+   "aliases": [
+    "emerald dream lore",
+    "where do druids sleep"
+   ],
+   "answer": "The Emerald Dream is a verdant, pristine realm that mirrors Azeroth as if it had never been touched by civilization. Night elf druids long entered centuries of hibernation to walk its pathways and commune with the spirits of nature."
+  },
+  {
+   "q": "Why were druids originally sleeping for centuries?",
+   "aliases": [
+    "druid hibernation",
+    "barrow dens sleeping",
+    "long slumber"
+   ],
+   "answer": "Following the World Tree Nordrassil's blessing, night elf druids entered the Barrow Dens to spend centuries wandering the Emerald Dream, aiding Ysera's green dragonflight in nurturing Azeroth's spiritual ecosystem until the Third War forced them awake."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For ten millennia, kaldorei druids served as the quiet, sleeping guardians of Kalimdor, maintaining nature's balance under the guidance of Malfurion Stormrage and the demigod Cenarius."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Under Archdruid Hamuul Runetotem, the tauren have rekindled an ancient connection to the wilds, joining the Cenarion Circle in sacred Moonglade to walk the path of the Earth Mother."
+  },
+  {
+   "target": "class:Druid",
+   "text": "As a protector of balance, a druid walks the fine line between animal fury, restorative life magic, and celestial devastation, drawing wisdom directly from Cenarius and the Emerald Dream."
+  }
+ ],
+ "keywords": [
+  "bear form",
+  "cat form",
+  "cenarion circle",
+  "cenarius",
+  "druid",
+  "emerald dream",
+  "hamuul",
+  "malfurion",
+  "moonglade",
+  "shapeshifter"
+ ],
+ "related": [
+  "topic:cenarion-circle",
+  "topic:cenarius",
+  "npc:malfurion-stormrage",
+  "topic:emerald-dream",
+  "quest:5921",
+  "quest:1489",
+  "npc:remulos",
+  "npc:fandral-staghelm"
+ ],
+ "attribution": [
+  "Druid"
+ ]
+}

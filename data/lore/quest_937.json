@@ -1,0 +1,132 @@
+{
+ "key": "quest:937",
+ "type": "quest",
+ "name": "The Enchanted Glade",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   937
+  ],
+  "level": "11",
+  "faction": "Alliance",
+  "start": "Sentinel Arynia Cloudsbreak",
+  "end": "",
+  "previous": null,
+  "next": "Teldrassil (quest)",
+  "wiki": "The Enchanted Glade (Classic)",
+  "chain": [
+   "The Enchanted Glade (Classic)",
+   "Teldrassil (quest)",
+   "Grove of the Ancients (quest)"
+  ]
+ },
+ "summary": "In the Oracle Glade on northwestern Teldrassil, Sentinel Arynia Cloudsbreak struggles to protect the ancient Oracle Tree from aggressive Bloodfeather harpies. After a dispatched runner bound for Darnassus is slain, defenders are called upon to strike back at the harpies' nests and recover their belts as proof.",
+ "sections": [
+  {
+   "title": "A Glade Under Siege",
+   "body": "The Oracle Glade is one of Teldrassil's sacred retreats, centered upon a colossal, ancient specimen known as the Oracle Tree. Sentinel Arynia Cloudsbreak was dispatched with an escort of warriors to keep watch over this venerable bough. Unfortunately, savage Bloodfeather harpies have encroached on the hollows, nesting aggressively throughout the surrounding canopy and threatening anyone who draws near.",
+   "spoiler": 0
+  },
+  {
+   "title": "Severed Lines to Darnassus",
+   "body": "Tensions peaked when the Oracle Tree attempted to send a courier to the capital city of Darnassus carrying an urgent report. The messenger never cleared the boughs; harpies ambushed and slaughtered the runner before the report could leave the glade. In response, Arynia has tasked local adventurers with culling the flock and retrieving Bloodfeather belts to push back the encroaching flock.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Summons from the Tree",
+   "body": "Once the immediate threat of the nearby nests is diminished, the ancient tree itself responds. The Oracle Tree sheds a fragment of its enchanted bark, seeking an emissary to deliver its message into the hands of the high leadership of the kaldorei.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are harpies attacking the Oracle Glade?",
+   "aliases": [
+    "harpies in oracle glade",
+    "why bloodfeather attack",
+    "oracle tree harpies"
+   ],
+   "answer": "The Bloodfeather clan nests densely across northern Teldrassil. In the Oracle Glade, they have encircled the Oracle Tree, fiercely guarding their roosts and attacking anyone attempting to travel to or from the sacred spot."
+  },
+  {
+   "q": "Who is Sentinel Arynia Cloudsbreak?",
+   "aliases": [
+    "arynia cloudsbreak",
+    "who gives the enchanted glade",
+    "cloudsbreak lore"
+   ],
+   "answer": "Arynia Cloudsbreak is a Sentinel officer stationed alongside a modest vanguard in the Oracle Glade. Her primary mission is defending the Oracle Tree from surrounding harpies and reestablishing contact with Darnassus."
+  },
+  {
+   "q": "What happened to the runner sent to Darnassus?",
+   "aliases": [
+    "oracle tree messenger",
+    "dead runner darnassus"
+   ],
+   "answer": "The runner dispatched with a report from the Oracle Tree to Darnassus was ambushed and killed along the glade paths by Bloodfeather harpies before reaching safety."
+  },
+  {
+   "q": "What is the Oracle Tree?",
+   "aliases": [
+    "oracle tree teldrassil",
+    "who is the oracle tree"
+   ],
+   "answer": "The Oracle Tree is a massive, sentient ancient rooted in the Oracle Glade. It observes the boughs of the World Tree and communicates its wisdom and warnings to the night elf leadership."
+  },
+  {
+   "q": "What proof does Sentinel Cloudsbreak require?",
+   "aliases": [
+    "bloodfeather belt quest",
+    "how many belts",
+    "quest proof"
+   ],
+   "answer": "Sentinel Cloudsbreak requires six Bloodfeather belts taken from the slain harpies as concrete proof that their roosts around the glade have been thinned."
+  },
+  {
+   "q": "What happens after culling the harpies?",
+   "aliases": [
+    "next quest after enchanted glade",
+    "what does oracle tree do next"
+   ],
+   "answer": "With the immediate perimeter secured, the Oracle Tree sheds a piece of its own bark, opening a direct line of communication for an adventurer to take its long-delayed message toward Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Defending the ancient spirits of the World Tree and safeguarding Sentinels from harpy defilement is a solemn duty for any kaldorei."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Assisting the Sentinels in securing the sacred groves of Teldrassil strengthens ties with the night elf leadership in nearby Darnassus."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold the sentient ancients in great reverence; clearing harpy infestations that threaten the Oracle Tree helps protect the glade's natural balance."
+  }
+ ],
+ "keywords": [
+  "arynia cloudsbreak",
+  "bloodfeather",
+  "darnassus",
+  "harpies",
+  "oracle glade",
+  "oracle tree",
+  "sentinel",
+  "teldrassil",
+  "the enchanted glade"
+ ],
+ "related": [
+  "subzone:oracle-glade",
+  "npc:sentinel-arynia-cloudsbreak",
+  "quest:940",
+  "quest:952",
+  "zone:teldrassil",
+  "topic:sentinels",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "The Enchanted Glade (Classic)"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "key": "npc:rezlak",
+ "type": "npc",
+ "name": "Rezlak",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Rezlak",
+  "refs": 2
+ },
+ "summary": "Rezlak is a goblin entrepreneur and member of the Tinkers' Union stationed along the dusty roads of Durotar south of Orgrimmar. He hires traveling adventurers to salvage his missing supplies and clear out the harpy nests disrupting regional communications.",
+ "sections": [
+  {
+   "title": "A Pragmatic Tinkers' Union Agent",
+   "body": "Perched beside the canyon roads connecting Razor Hill to Orgrimmar, Rezlak represents the Tinkers' Union\u2014a goblin syndicate focused on engineering, supply lines, and industrial pragmatism. Rezlak cares little for the factional tensions of Kalimdor so long as business runs smoothly. When the fierce Dustwind harpies raided his cargo caravans and disrupted local communication lines, Rezlak stayed put, preferring to contract out the dangerous work of extermination and recovery to any passerby willing to turn a profit.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rezlak?",
+   "aliases": [
+    "rezlak lore",
+    "who is rezlak",
+    "rezlak durotar"
+   ],
+   "answer": "Rezlak is an independent goblin merchant and engineer affiliated with the Tinkers' Union. Stationed along the main northern road through Durotar, he seeks willing mercenaries to secure his supply lines and reclaim lost gear from regional pests."
+  },
+  {
+   "q": "What is Rezlak doing in Durotar?",
+   "aliases": [
+    "why is rezlak in durotar",
+    "rezlak purpose",
+    "rezlak mission"
+   ],
+   "answer": "Rezlak works along the trade routes between the central plains and the canyon pass leading to Orgrimmar. His supply caravans were ambushed by the Dustwind harpies, leaving his cargo strewn across the arid canyons and his vital communication lines severed."
+  },
+  {
+   "q": "Which quests does Rezlak offer?",
+   "aliases": [
+    "rezlak quests",
+    "what quests does rezlak give"
+   ],
+   "answer": "Rezlak offers two primary tasks: 'Winds in the Desert', which tasks adventurers with retrieving sacks of lost supplies scattered across the canyon floor, and 'Securing the Lines', which requires thinning out the aggressive Dustwind harpies nesting nearby."
+  },
+  {
+   "q": "What is the Tinkers' Union?",
+   "aliases": [
+    "tinkers union",
+    "rezlak faction"
+   ],
+   "answer": "The Tinkers' Union is an enterprising goblin trade organization that oversees mechanics, inventors, and logistical operations. Like many goblin cartels and guilds, its members prioritize profitable commerce and practical problem-solving above political loyalty."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As a representative of the Tinkers' Union, Rezlak values mechanical efficiency, practical tools, and salvaged components above all else."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Though stationed right outside Orgrimmar, Rezlak represents the purely transactional relationship between neutral goblin guilds and the fledgling Horde."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "dustwind harpies",
+  "rezlak",
+  "securing the lines",
+  "tinkers union",
+  "winds in the desert"
+ ],
+ "related": [
+  "quest:834",
+  "quest:835",
+  "zone:durotar",
+  "zone:orgrimmar",
+  "topic:goblin",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Rezlak"
+ ]
+}

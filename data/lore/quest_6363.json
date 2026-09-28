@@ -1,0 +1,122 @@
+{
+ "key": "quest:6363",
+ "type": "quest",
+ "name": "Tal the Wind Rider Master",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   6363
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Ahanu",
+  "end": "Tal",
+  "previous": "Ride to Thunder Bluff (Classic)",
+  "next": "Return to Jahan",
+  "wiki": "Tal the Wind Rider Master (Classic)",
+  "chain": []
+ },
+ "summary": "Tal the Wind Rider Master is a simple courier task connecting Mulgore leatherworkers with merchants in the Barrens. The leatherworker Ahanu entrusts a parcel of finished hides to be flown out of Thunder Bluff across the Great Divide. Delivered directly to Tal, the mesa's flight master, it introduces fledgling Horde travelers to the wind rider transport network.",
+ "sections": [
+  {
+   "title": "Supplies for the Crossroads",
+   "body": "Trade between Mulgore and the arid scrub of the Barrens is essential for the young Horde. Ahanu, a leatherworker practicing his craft upon Thunder Bluff's high rises, produces durable leather goods intended for Jahan Hawkwing's trade stall at the Crossroads. Because the overland walk down the Great Lift and through the golden plains takes hours on foot, merchants rely on winged couriers to ferry fragile or urgent parcels over the craggy divide.",
+   "spoiler": 0
+  },
+  {
+   "title": "Master of the Mesa's Roost",
+   "body": "Perched upon the highest central tier of Thunder Bluff, Tal tends to the city's flock of wind riders\u2014also known as wyverns. These intelligent, leathery-winged beasts are ideally suited for navigating Kalimdor's unpredictable thermal drafts and rugged peaks. Tal coordinates flights departing to outposts like the Crossroads, ensuring messengers and cargo pass quickly between the tauren capital and their orcish allies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tal?",
+   "aliases": [
+    "who is tal",
+    "tal thunder bluff",
+    "wind rider master tal"
+   ],
+   "answer": "Tal is Thunder Bluff's flight master, overseeing the roost of wind riders located on the central mesa. He manages aerial transport for travelers and couriers heading out into the Barrens and beyond."
+  },
+  {
+   "q": "Who is Ahanu?",
+   "aliases": [
+    "ahanu",
+    "who is ahanu",
+    "ahanu thunder bluff"
+   ],
+   "answer": "Ahanu is a tauren leatherworking craftsman residing in Thunder Bluff. He prepares bulk leather goods and bundles them to supply vendors at outposts across Kalimdor, including Jahan Hawkwing at the Crossroads."
+  },
+  {
+   "q": "Why do the goods need to go to the Crossroads?",
+   "aliases": [
+    "why crossroads",
+    "leather goods crossroads",
+    "jahan leather"
+   ],
+   "answer": "The Crossroads serves as the vital trade and military intersection of the Barrens. Goods produced in the sheltered peace of Mulgore, such as hides and leather garments, are shipped there to supply travelers, hunters, and Horde patrols."
+  },
+  {
+   "q": "Can I fly straight to the Crossroads with this parcel?",
+   "aliases": [
+    "can i fly to crossroads",
+    "tal flight path",
+    "how to fly to crossroads"
+   ],
+   "answer": "You can only fly to the Crossroads if you have already visited the settlement and established contact with Devrak, their local wind rider master. If you have not unlocked that route yet, you must travel overland on foot."
+  },
+  {
+   "q": "What are wind riders?",
+   "aliases": [
+    "wyverns",
+    "what is a wind rider",
+    "tauren mounts"
+   ],
+   "answer": "Wind riders, commonly called wyverns, are sentient, venomous winged predators native to the crags of Kalimdor. Allied with the Horde since the Third War, they serve as the faction's primary aerial mounts."
+  },
+  {
+   "q": "Where does this courier errand lead next?",
+   "aliases": [
+    "next quest",
+    "what after tal",
+    "where do leather goods go"
+   ],
+   "answer": "Once you deliver the goods to Tal, he instructs you to secure a mount and deliver Ahanu's parcel across the plains to Jahan Hawkwing waiting at the Crossroads."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The wind riders nesting on Thunder Bluff's bluffs represent the vital link keeping Cairne Bloodhoof's isolated people woven into the broader Horde coalition."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Establishing stable flight lines between the Barrens and Thunder Bluff ensures that reinforcements, trade wares, and messages can flow swiftly across central Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ahanu",
+  "crossroads",
+  "devrak",
+  "flight master",
+  "jahan",
+  "leather goods",
+  "tal",
+  "thunder bluff",
+  "wind rider"
+ ],
+ "related": [
+  "npc:tal",
+  "npc:ahanu",
+  "quest:6364",
+  "subzone:crossroads",
+  "npc:devrak",
+  "zone:thunderbluff",
+  "quest:4767"
+ ],
+ "attribution": [
+  "Tal the Wind Rider Master (Classic)"
+ ]
+}

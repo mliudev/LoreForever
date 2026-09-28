@@ -1,0 +1,75 @@
+{
+ "key": "npc:maur-raincaller",
+ "type": "npc",
+ "name": "Maur Raincaller",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Maur Raincaller",
+  "refs": 1
+ },
+ "summary": "Maur Raincaller is a tauren resident found residing in Bloodhoof Village in Mulgore. Connected to the natural and spiritual life of the plains, he assists the village elders and watches over local matters affecting the herds and wild beasts.",
+ "sections": [
+  {
+   "title": "A Resident of Bloodhoof Village",
+   "body": "Situated near the heart of Bloodhoof Village on the shores of Lake Stonebull, Maur Raincaller serves his community by attending to regional ecological and beast-related concerns. Like many who bear the mantle of Raincaller, he pays close attention to the balance of the elements and wildlife across the fertile plains of Mulgore. When rogue striders like Mazzranache cause trouble for the local settlements and herders, Maur turns to capable young travelers to step in and restore harmony.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Maur Raincaller?",
+   "aliases": [
+    "maur raincaller role",
+    "who is maur",
+    "maur raincaller lore"
+   ],
+   "answer": "Maur Raincaller is a tauren living in Bloodhoof Village within the verdant grasslands of Mulgore. He acts as a local quest giver, tasking adventurers with managing unruly wildlife in the surrounding area."
+  },
+  {
+   "q": "Where can I find Maur Raincaller?",
+   "aliases": [
+    "maur raincaller location",
+    "where is maur",
+    "maur coords"
+   ],
+   "answer": "He can be found standing outdoors among the tepees and hearth fires of Bloodhoof Village, situated just south of Thunder Bluff along the eastern bank of Lake Stonebull."
+  },
+  {
+   "q": "What trouble is Maur dealing with?",
+   "aliases": [
+    "maur raincaller quest",
+    "mazzranache problem",
+    "what does maur want"
+   ],
+   "answer": "Maur deals with issues caused by disruptive wild creatures roaming the plains of Mulgore, notably directing adventurers to deal with Mazzranache, a particularly large and troublesome plainstrider."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren stepping out of Camp Narache, Maur provides an opportunity to protect your people's ancestral lands from wandering predators and disruptive beasts."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Maur provides an early hunting test against notable beasts like Mazzranache, testing your ability to track and handle dangerous quarry on the open plains."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "maur raincaller",
+  "mazzranache",
+  "mulgore",
+  "plainstrider",
+  "tauren"
+ ],
+ "related": [
+  "quest:766",
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Maur Raincaller"
+ ]
+}

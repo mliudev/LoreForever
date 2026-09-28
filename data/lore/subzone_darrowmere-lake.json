@@ -1,0 +1,93 @@
+{
+ "key": "subzone:darrowmere-lake",
+ "type": "subzone",
+ "name": "Darrowmere Lake",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Darrowmere Lake"
+ },
+ "summary": "Darrowmere Lake is an expansive freshwater lake situated in the southeastern reaches of the Western Plaguelands. At its heart lies the fortress island of Caer Darrow, whose ruined halls conceal the Cult of the Damned's dread necromantic academy, Scholomance.",
+ "sections": [
+  {
+   "title": "A Storied Inland Sea",
+   "body": "Darrowmere Lake is among the largest inland bodies of water in the Eastern Kingdoms, bordered by the blight-stricken forests of Lordaeron and fed by the Thondroril and Darrowmere rivers. During the Second War, these deep waters saw intense naval skirmishes between the Horde and Grand Admiral Daelin Proudmoore's fleet. Proudmoore's transports ferried Alliance leaders Turalyon and Alleria Windrunner through the lake to relieve Stratholme, and it was along these shores that the forest troll warlord Zul'jin was captured. Once a thriving waterway and trade artery for the House of Barov, the lake is now a grim, mist-veiled basin in the heart of the Plaguelands.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadow on the Waters",
+   "body": "Dominating the center of the lake is Caer Darrow, once the proud ancestral seat of the Barov family. Beneath its broken foundations lies Scholomance, the Scourge's primary academy for necromancy and dark arts. The waters surrounding the island are stagnant and fraught with danger, reflecting the dark legacy of the Cult of the Damned. Adventurers venturing across its surface must brave not only the perils of the blighted countryside but the pervasive dread cast by the fortress at its core.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Darrowmere Lake located?",
+   "aliases": [
+    "darrowmere location",
+    "where is darrowmere lake",
+    "how to get to darrowmere"
+   ],
+   "answer": "Darrowmere Lake is located in the southeastern corner of the Western Plaguelands, connecting the Thondroril River to the north and the Darrowmere River flowing to the south."
+  },
+  {
+   "q": "What is on the island in the center of the lake?",
+   "aliases": [
+    "island in darrowmere",
+    "what is on the island",
+    "caer darrow location"
+   ],
+   "answer": "The island holds Caer Darrow, an ancient settlement once ruled by the noble House of Barov. Beneath the ruined town lies Scholomance, a sprawling school of dark magic operated by the Cult of the Damned."
+  },
+  {
+   "q": "What role did Darrowmere Lake play in the Second War?",
+   "aliases": [
+    "second war darrowmere",
+    "naval battles darrowmere",
+    "darrowmere history"
+   ],
+   "answer": "The lake was a contested waterway where the Proudmoore fleet fought naval battles against the Horde. Transports used the lake to ferry Turalyon and Alleria's forces toward Stratholme, and the troll warlord Zul'jin was captured near its shores."
+  },
+  {
+   "q": "Can ships still sail into Darrowmere Lake?",
+   "aliases": [
+    "darrowmere boat access",
+    "can ships reach darrowmere"
+   ],
+   "answer": "While massive naval fleets navigated the lake during the Second War, the connecting rivers now feature steep waterfalls and shallow passages, preventing large vessels from sailing in from the sea."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance veterans, Darrowmere Lake is remembered as a key naval front where Proudmoore's fleet fought to halt the Old Horde and relieve Stratholme during the Second War."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The lake marks the threshold of Caer Darrow, where the living Barovs bargained away their mortal home to the Lich King to create the dread academy of Scholomance."
+  }
+ ],
+ "keywords": [
+  "barov",
+  "caer darrow",
+  "darrowmere",
+  "darrowmere lake",
+  "proudmoore fleet",
+  "scholomance",
+  "thondroril river",
+  "western plaguelands"
+ ],
+ "related": [
+  "zone:westernplaguelands",
+  "subzone:caer-darrow",
+  "subzone:scholomance",
+  "subzone:thondroril-river",
+  "topic:cult-of-the-damned",
+  "topic:lordaeron",
+  "topic:second-war",
+  "subzone:stratholme"
+ ],
+ "attribution": [
+  "Darrowmere Lake"
+ ]
+}

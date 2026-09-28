@@ -1,0 +1,86 @@
+{
+ "key": "subzone:farwatcher-s-glen",
+ "type": "subzone",
+ "name": "Farwatcher's Glen",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Farwatcher's Glen"
+ },
+ "summary": "Farwatcher's Glen is an Alliance outpost tucked away in the rugged heights of the Stonetalon Mountains, southwest of Thal'darah Grove. Built with traditional night elf architecture, the camp serves as a defensive refuge and staging ground for Alliance forces navigating the treacherous crags of the region.",
+ "sections": [
+  {
+   "title": "A Sentinel Bastion in the Heights",
+   "body": "Nestled beneath towering cliffs southwest of Thal'darah Grove, Farwatcher's Glen stands as an Alliance settlement within the contested Stonetalon Mountains. Though fashioned in the graceful, open woodwork characteristic of night elf outposts, the glen shelters travelers and soldiers from across the Alliance. Roosting ravens dot the branches and rooftops, while sentries keep a vigilant watch over the surrounding ridges, monitoring Horde incursions and the wild threats that haunt the peaks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Farwatcher's Glen?",
+   "aliases": [
+    "farwatcher glen",
+    "what is this place",
+    "farwatchers glen stonetalon"
+   ],
+   "answer": "It is an Alliance settlement and outpost situated in the Stonetalon Mountains, positioned southwest of Thal'darah Grove and Thal'darah Overlook. It provides shelter, watchtowers, and a foothold for Alliance forces traversing the crags."
+  },
+  {
+   "q": "Which faction controls Farwatcher's Glen?",
+   "aliases": [
+    "is this horde or alliance",
+    "farwatchers glen faction",
+    "who owns this town"
+   ],
+   "answer": "Farwatcher's Glen is entirely aligned with the Alliance. It features night elf architecture and houses various defenders and allies working together to secure the surrounding mountain passes."
+  },
+  {
+   "q": "Why are there so many ravens around the glen?",
+   "aliases": [
+    "ravens farwatchers glen",
+    "why all the ravens",
+    "birds in farwatchers"
+   ],
+   "answer": "A significant number of ravens nest and roost around Farwatcher's Glen. In night elf culture and druidic tradition, ravens often serve as watchful scouts and messengers, well-suited to the high crags of Stonetalon."
+  },
+  {
+   "q": "Where does this settlement connect to in Stonetalon?",
+   "aliases": [
+    "where to go from here",
+    "flight routes farwatcher",
+    "nearby towns"
+   ],
+   "answer": "The outpost maintains regional connections across the Stonetalon Mountains, sitting in close proximity to Thal'darah Grove and Thal'darah Overlook, while keeping communication with northern strongholds like Nijel's Point and Windshear Hold."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Farwatcher's Glen provides a critical vantage point and haven in the hostile, contested heights of Stonetalon, protecting supply routes and monitoring enemy movements."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The glen's traditional architecture and avian watchers reflect the Kaldorei presence striving to safeguard Stonetalon's sacred groves and wilderness from exploitation."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "farwatcher's glen",
+  "farwatchers glen",
+  "ravens",
+  "stonetalon",
+  "thal'darah"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "subzone:thal-darah-grove",
+  "subzone:thal-darah-overlook",
+  "subzone:nijel-s-point",
+  "subzone:windshear-hold",
+  "topic:night-elf",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Farwatcher's Glen"
+ ]
+}

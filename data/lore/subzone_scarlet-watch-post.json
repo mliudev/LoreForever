@@ -1,0 +1,75 @@
+{
+ "key": "subzone:scarlet-watch-post",
+ "type": "subzone",
+ "name": "Scarlet Watch Post",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Scarlet Watch Post"
+ },
+ "summary": "The Scarlet Watch Post is an isolated watchtower stationed in the rocky hills of northeastern Tirisfal Glades, just north of the Scarlet Monastery. Maintained by a vigilant garrison of Crusaders, its sole purpose is to safeguard the monastery's vulnerable northern flank against flanking assaults.",
+ "sections": [
+  {
+   "title": "Guarding the Northern Approach",
+   "body": "Perched in the rugged heights behind the Scarlet Monastery, the Scarlet Watch Post serves as a critical early-warning bastion for the zealots below. While the southern road up to the monastery gate receives heavy traffic and fortifications, the rugged cliffs along Tirisfal's northern coastline provide a tempting back route for infiltrators. To eliminate this blind spot, the Scarlet Crusade maintains this fortified stone tower\u2014one of several Crusader outposts scattered across Tirisfal Glades. Under the stern command of Captain Melrache, a mixed force of Neophytes, Vanguards, and devout Friars keeps ceaseless vigil over the cliffs, ensuring neither the Scourge nor the Forsaken can surprise the order from behind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Scarlet Watch Post?",
+   "aliases": [
+    "why is scarlet watch post here",
+    "scarlet watch post purpose",
+    "crusaders run role"
+   ],
+   "answer": "The outpost protects the Scarlet Monastery from being flanked. While the monastery's main entrance faces south toward the Tirisfal roads, its rear slopes toward the northern wilderness, leaving it vulnerable to coordinated assaults. The watch post ensures sentries spot and intercept any intruders attempting a northern bypass."
+  },
+  {
+   "q": "Who commands the Scarlet Watch Post?",
+   "aliases": [
+    "scarlet watch post leader",
+    "who leads scarlet watch post",
+    "captain melrache"
+   ],
+   "answer": "Captain Melrache oversees the garrison stationed at the tower. He commands a defensive retinue including personal bodyguards, front-line Vanguards, aspiring Neophytes, and spellcasting Friars."
+  },
+  {
+   "q": "Is the Scarlet Watch Post related to the other towers in Tirisfal?",
+   "aliases": [
+    "tirisfal towers",
+    "crusader outposts tirisfal",
+    "other scarlet towers"
+   ],
+   "answer": "Yes. It is one of four distinct Crusader outposts ringing the northern and western reaches of Tirisfal Glades. These stone towers create a defensive perimeter to monitor Scourge activity and contain the Forsaken expansion from the Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, the Scarlet Crusade is an existential threat lingering right on the Undercity's doorstep; purging isolated towers like this disrupts the zealots' communication network and secures northern Tirisfal."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Crusaders view all outsiders\u2014living or dead\u2014as tainted carriers of undeath, making this watch post strictly hostile ground to any Horde travelers braving the hills."
+  }
+ ],
+ "keywords": [
+  "captain melrache",
+  "crusader outpost",
+  "crusader's run",
+  "scarlet crusade",
+  "scarlet monastery",
+  "scarlet watch post",
+  "tirisfal glades"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "zone:scarlet",
+  "subzone:crusader-s-outpost",
+  "topic:scarlet-crusade"
+ ],
+ "attribution": [
+  "Scarlet Watch Post"
+ ]
+}

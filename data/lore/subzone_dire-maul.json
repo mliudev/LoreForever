@@ -1,0 +1,103 @@
+{
+ "key": "subzone:dire-maul",
+ "type": "subzone",
+ "name": "Dire Maul",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Dire Maul"
+ },
+ "summary": "Dire Maul is the ruined expanse of Eldre'Thalas, an ancient Highborne city hidden deep in the wilderness of Feralas. Once built to safeguard Queen Azshara's arcane secrets, its crumbling plazas and towering coliseums are now divided between occupying Gordok ogres, invading satyrs, and the withered remnants of its original elven caretakers.",
+ "sections": [
+  {
+   "title": "Eldre'Thalas and the Great Sundering",
+   "body": "Twelve thousand years ago, Eldre'Thalas served as a wondrous bastion for Queen Azshara's favored sorcerers, the Shen'dralar. When the Well of Eternity collapsed during the Great Sundering, Prince Tortheldrin wove a magical barrier that shielded the city from ruin. Severed from their source of magic, the surviving Highborne trapped a colossal demon named Immol'thar beneath their sanctum, siphoning its fel essence to sustain their immortality and arcane powers for millennia.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Divided Ruin",
+   "body": "Centuries of isolation and dwindling power drove Prince Tortheldrin to madness, leading him to purge most of his own citizens so a small cabal could monopolize the demon's remaining energy. Today, the outer districts of the sprawling complex lie abandoned to other threats. Gordunni ogres claim the Gordok Commons and run brutal gladiatorial games in the arena, while Alzzin the Wildshaper and his corrupt satyrs rot the Warpwood Quarter from within.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Dire Maul originally called?",
+   "aliases": [
+    "dire maul original name",
+    "eldre'thalas history",
+    "who built dire maul"
+   ],
+   "answer": "Dire Maul was originally Eldre'Thalas, an opulent night elf city constructed twelve thousand years ago by the Shen'dralar sect to protect Queen Azshara's most precious arcane lore."
+  },
+  {
+   "q": "Who lives in Dire Maul now?",
+   "aliases": [
+    "who is in dire maul",
+    "dire maul occupants",
+    "what monsters are in dire maul"
+   ],
+   "answer": "The complex is splintered into several hostile zones. The Gordunni ogres control the northern commons under King Gordok, satyrs and corrupted treants infest the eastern gardens, and a reclusive remnant of Highborne sorcerers clings to survival in the western sanctuaries."
+  },
+  {
+   "q": "How did the city survive the Sundering?",
+   "aliases": [
+    "how did eldre'thalas survive",
+    "sundering shield dire maul",
+    "why wasn't it destroyed"
+   ],
+   "answer": "When the continent tore apart during the Great Sundering, Prince Tortheldrin and his arcanists cast a massive protective spell that shielded Eldre'Thalas from the devastation that submerged the surrounding empire."
+  },
+  {
+   "q": "Why are the Highborne here using demonic energy?",
+   "aliases": [
+    "immol'thar dire maul",
+    "why do shen'dralar drain a demon",
+    "demon in dire maul"
+   ],
+   "answer": "When the Well of Eternity was destroyed, the Shen'dralar suffered severe arcane withdrawal. To preserve their power and immortality, they bound the demon Immol'thar and siphoned its essence to survive."
+  },
+  {
+   "q": "What happens in the arena at Dire Maul?",
+   "aliases": [
+    "dire maul coliseum",
+    "the maul pvp",
+    "gladiators dire maul"
+   ],
+   "answer": "Known as the Maul, the open coliseum in the city center is used by the ogres and slavemasters as a fighting pit for gladiatorial tournaments, blood sports, and challenges to the Gordok throne."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Eldre'Thalas stands as a tragic monument to the unchecked arcane hubris and demonic compromises that broke the ancient Kaldorei Empire."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Within the ruined libraries of the Shen'dralar lie arcane treatises and secrets preserved from before the Great Sundering, guarded by the ghosts of master sorcerers."
+  }
+ ],
+ "keywords": [
+  "dire maul",
+  "eldre'thalas",
+  "feralas",
+  "gordok",
+  "gordunni",
+  "immol'thar",
+  "shen'dralar",
+  "tortheldrin"
+ ],
+ "related": [
+  "zone:feralas",
+  "topic:highborne",
+  "subzone:gordok-commons",
+  "subzone:capital-gardens",
+  "subzone:warpwood-quarter",
+  "subzone:maul-subzone",
+  "topic:satyr",
+  "topic:war-of-the-ancients"
+ ],
+ "attribution": [
+  "Dire Maul"
+ ]
+}

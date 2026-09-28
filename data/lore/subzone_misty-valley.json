@@ -1,0 +1,76 @@
+{
+ "key": "subzone:misty-valley",
+ "type": "subzone",
+ "name": "Misty Valley",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Misty Valley"
+ },
+ "summary": "Tucked away in the northwestern reaches of the Swamp of Sorrows, the Misty Valley is a shadowed, fog-drenched hollow north of the pass into Deadwind. The secluded basin is overrun by primordial swamp beasts, wandering swampwalkers, and tangled horrors. Deep in its rearmost cave dwells the colossal and terrifying Mire Lord.",
+ "sections": [
+  {
+   "title": "A Fog-Shrouded Glen",
+   "body": "Nestled beneath the high cliffs separating the Swamp of Sorrows from Deadwind Pass, the Misty Valley is perpetually choked with thick marsh vapor. Unlike the open wetlands to the east, this isolated pocket is dense with colossal marsh elementals, including looming swampwalkers, ancient swampwalker elders, and creeping tangled horrors. At the far end of the misty gorge lies a cavern that serves as the lair of the Mire Lord, one of the most formidable natural threats haunting the bog.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Misty Valley located?",
+   "aliases": [
+    "misty valley location",
+    "where is misty valley",
+    "misty valley swamp of sorrows"
+   ],
+   "answer": "The Misty Valley is situated in the far northwestern corner of the Swamp of Sorrows, directly north of the road that leads up into Deadwind Pass."
+  },
+  {
+   "q": "What creatures inhabit this valley?",
+   "aliases": [
+    "misty valley mobs",
+    "what lives in misty valley",
+    "enemies in misty valley"
+   ],
+   "answer": "The valley is overrun by colossal plant elementals and marsh horrors, specifically swampwalkers, elder swampwalkers, and tangled horrors that wander through the thick fog."
+  },
+  {
+   "q": "What is inside the cave at the back of the valley?",
+   "aliases": [
+    "misty valley cave",
+    "mire lord cave",
+    "who is in misty valley cave"
+   ],
+   "answer": "Deep within the cave at the rear of the Misty Valley dwells the Mire Lord, a massive and powerful marsh elemental that reigns over the secluded hollow."
+  },
+  {
+   "q": "Is the Misty Valley safe to traverse?",
+   "aliases": [
+    "is misty valley dangerous",
+    "misty valley level"
+   ],
+   "answer": "Not at all. The towering swampwalkers and tangled horrors that roam the dense fog are hostile and aggressive, making the valley hazardous for unwary travelers venturing off the main road."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The hulking swampwalkers and tangled horrors inhabiting this secluded valley represent the wild, untamed fury of marsh elementals deeply entwined with the primordial nature of the swamp."
+  }
+ ],
+ "keywords": [
+  "deadwind pass",
+  "mire lord",
+  "misty valley",
+  "swamp of sorrows",
+  "swampwalker",
+  "tangled horror"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "zone:deadwind"
+ ],
+ "attribution": [
+  "Misty Valley"
+ ]
+}

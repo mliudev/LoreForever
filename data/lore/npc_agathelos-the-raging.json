@@ -1,0 +1,118 @@
+{
+ "key": "npc:agathelos-the-raging",
+ "type": "npc",
+ "name": "Agathelos the Raging",
+ "era": "classic",
+ "zone": "razorfenkraul",
+ "meta": {
+  "wiki": "Agathelos the Raging",
+  "refs": 5
+ },
+ "summary": "Agathelos the Raging is a colossal armored boar penned within the thorned tunnels of Razorfen Kraul. Reared by the Death's Head quilboar as a living siege engine and avatar of their ancient god, he has been driven into a violent, unnatural frenzy. His sheer mass and strength make him one of the most dangerous beasts lurking under the Southern Barrens.",
+ "sections": [
+  {
+   "title": "Avatars of the Great Boar",
+   "body": "Quilboar venerate all swine as descendants of their patron deity and progenitor, the god Agamaggan. To them, boars of exceptional size and tenacity are considered direct blessings from their fallen god. A beast the size of Agathelos\u2014standing roughly twice as tall as a Barrens thunder lizard\u2014carries massive spiritual and ceremonial significance among the Razorfen tribes.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Weapon of the Death's Head",
+   "body": "The Death's Head tribe, not content to leave Agathelos as merely a sacred icon, actively transformed him into a weapon of war. By force-feeding him the noxious bat guano gathered from the cavern ceilings of the Kraul, his handlers induced a maddened, unending delirium. The foul mixture drastically increased the colossal beast's stamina and fury, transforming him into a rampage waiting to be unleashed upon the tribe's rivals.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kept in Chains",
+   "body": "Because Agathelos is completely out of his mind with rage, even his handlers cannot let him roam loose within the Kraul. He is kept trapped in a dead-end tunnel behind an energetic ward maintained by quilboar shamans and guards. Should intruders break past the barrier, they face a beast driven completely wild by chemical madness, growing even more terrifying in size and power when struck.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Agathelos so huge?",
+   "aliases": [
+    "why is agathelos big",
+    "agathelos size",
+    "giant boar barrens"
+   ],
+   "answer": "Agathelos is naturally a massive specimen of swine, which the quilboar revere as a divine blessing of Agamaggan. His unnatural bulk and swollen strength were further enhanced by the Death's Head tribe feeding him potent bat guano to induce a hulking, berserk state."
+  },
+  {
+   "q": "Why do the quilboar keep him locked behind a barrier?",
+   "aliases": [
+    "agathelos barrier",
+    "why is agathelos caged",
+    "agathelos force field"
+   ],
+   "answer": "The bat guano fed to Agathelos drove him completely insane with rage. Because he cannot tell friend from foe, his quilboar wardens must keep him sealed inside a fortified cul-de-sac using magical fields until they are ready to direct his wrath against their enemies."
+  },
+  {
+   "q": "What is his connection to Agamaggan?",
+   "aliases": [
+    "agathelos agamaggan",
+    "is agathelos a god",
+    "agamaggan son"
+   ],
+   "answer": "Agamaggan is the great boar Ancient and progenitor of the quilboar race. Because of this ancestry, quilboar view all boars as sacred, and gigantic specimens like Agathelos are revered as living embodiments and divine gifts of Agamaggan's enduring bloodline."
+  },
+  {
+   "q": "What tribe created Agathelos?",
+   "aliases": [
+    "who made agathelos",
+    "who feeds agathelos",
+    "agathelos tribe"
+   ],
+   "answer": "The Death's Head quilboar, the necromantic and fanatical caste embedded within the Razorfen, captured and cultivated Agathelos. They intended to unleash him as a living battering ram against anyone who challenges their dominion over the Barrens."
+  },
+  {
+   "q": "Why was he fed bat guano?",
+   "aliases": [
+    "bat guano boar",
+    "why feed guano",
+    "kraul bat guano"
+   ],
+   "answer": "The guano produced by the bats nesting in Razorfen Kraul contains hallucinogenic and maddening properties. When fed to Agathelos, it acted as a stimulant that drastically heightened his stamina, aggression, and pain tolerance at the expense of his sanity."
+  },
+  {
+   "q": "Can hunters tame Agathelos?",
+   "aliases": [
+    "tame agathelos",
+    "can i tame agathelos",
+    "hunter agathelos"
+   ],
+   "answer": "No. Agathelos is an elite, heavily armored monster whose rage is too deeply rooted in madness and dark sorcery to be brought under a hunter's control."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "A hunter can appreciate the sheer predatory bulk of Agathelos, though his twisted, chemically fueled madness marks him as a tragic perversion of natural beasts."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold Agamaggan in high esteem as one of the great Ancients who fell during the War of the Ancients; witnessing a sacred boar tortured with bat poison to serve as a siege weapon is an affront to Cenarius's wild balance."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The earth-attuned tauren know the legends of Agamaggan well, recognizing that the quilboar's corruption of his kindred beasts is another sign of the rot infesting the Barrens."
+  }
+ ],
+ "keywords": [
+  "agamaggan",
+  "agathelos",
+  "boar",
+  "death's head",
+  "guano",
+  "quilboar",
+  "raging",
+  "razorfen kraul"
+ ],
+ "related": [
+  "zone:razorfenkraul",
+  "topic:agamaggan",
+  "topic:quilboar",
+  "topic:razorfen"
+ ],
+ "attribution": [
+  "Agathelos the Raging"
+ ]
+}

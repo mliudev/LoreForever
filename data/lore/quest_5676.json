@@ -1,0 +1,118 @@
+{
+ "key": "quest:5676",
+ "type": "quest",
+ "name": "Arcane Feedback",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   5676
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "High Priestess Laurena",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Arcane Feedback (Stormwind)",
+  "chain": []
+ },
+ "summary": "Arcane Feedback is a rite of passage for Alliance priests in Stormwind City, granted by High Priestess Laurena in the Cathedral of Light. Reaching a deeper communion with faith, the priest is instructed in wards designed to counter hostile practitioners of the arcane. It represents the Church's practical defense against raw sorcery and rogue spellcasters.",
+ "sections": [
+  {
+   "title": "A Shield Against the Arcane",
+   "body": "Within the sunlit cloisters of the Cathedral of Light, High Priestess Laurena reminds acolytes of an enduring peril: arcane magic. While the Holy Light brings healing, warmth, and divine order, raw magical energies are volatile and often court corruption or catastrophe. To endure against warlocks, renegade sorcerers, and magical beasts, devout priests are taught that faith alone must sometimes be shaped into an active ward against ambient spells.",
+   "spoiler": 0
+  },
+  {
+   "title": "Turn the Torrent Inward",
+   "body": "Arcane Feedback trains the mind and spirit to punish hostile spellcasters for channeling power against the faithful. Rather than simply deflecting magical volleys, this discipline mirrors arcane energy back into its source, burning through the caster's own mana reserves while causing agony. Laurena imparts this spell to human priests stepping out into the wider world, ensuring the Cathedral's emissaries never travel defenseless against sorcery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the quest Arcane Feedback?",
+   "aliases": [
+    "arcane feedback quest",
+    "what is arcane feedback",
+    "why do this quest"
+   ],
+   "answer": "The quest represents a human priest's growing mastery under the tutelage of the Church of the Light. High Priestess Laurena teaches the practitioner a specific protective rite designed to counter and retaliate against hostile spellcasters."
+  },
+  {
+   "q": "Who offers this quest and where can she be found?",
+   "aliases": [
+    "who gives arcane feedback",
+    "arcane feedback quest giver",
+    "where is laurena"
+   ],
+   "answer": "High Priestess Laurena offers the quest. She is stationed in the Cathedral of Light, the grand spiritual hub of the Alliance located in the Cathedral Square of Stormwind City."
+  },
+  {
+   "q": "Why does the Church of the Holy Light view arcane magic as an enemy?",
+   "aliases": [
+    "why do priests hate arcane",
+    "church vs arcane",
+    "is arcane bad"
+   ],
+   "answer": "The Church teaches reliance on moral clarity, devotion, and divine grace. In contrast, arcane magic draws upon volatile, addictive forces that historically attracted demonic incursions and wreaked havoc across Azeroth, leading human priests to view uncontrolled sorcery as an ever-present hazard."
+  },
+  {
+   "q": "How does the Arcane Feedback ward work conceptually?",
+   "aliases": [
+    "how does arcane feedback work",
+    "arcane feedback lore"
+   ],
+   "answer": "The spell creates a retaliatory aura surrounding the priest. Whenever a hostile spell strikes the ward, the incoming magic triggers a backlash that drains the attacker's mana reserves and inflicts physical shock upon them."
+  },
+  {
+   "q": "Can any priest learn this from Laurena?",
+   "aliases": [
+    "can dwarves learn arcane feedback",
+    "who can get arcane feedback",
+    "priest racial spell"
+   ],
+   "answer": "In Stormwind, this particular discipline is tailored for human priests as part of their national ecclesiastical traditions, reflecting the specific combat doctrines taught within the Cathedral of Light."
+  },
+  {
+   "q": "What level is expected of an acolyte undertaking this training?",
+   "aliases": [
+    "what level for arcane feedback",
+    "arcane feedback level requirement"
+   ],
+   "answer": "Priests are summoned to learn this technique around their twentieth circle of experience, an age where acolytes leave behind basic church duties to brave dangerous frontier territories."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This rite deepens a priest's tactical repertoire, providing tools to suppress opposing mana users when divine diplomacy fails."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human priests in Stormwind follow the specific doctrinal training of the Cathedral of Light, blending righteous devotion with strict discipline against magic."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "As tensions rise with renegade cabals and dark practitioners throughout the Eastern Kingdoms, the Alliance relies on its priests to neutralize magical threats."
+  }
+ ],
+ "keywords": [
+  "anti-magic",
+  "arcane feedback",
+  "cathedral of light",
+  "high priestess laurena",
+  "holy light",
+  "human priest",
+  "laurena",
+  "priest",
+  "stormwind"
+ ],
+ "related": [
+  "npc:high-priestess-laurena"
+ ],
+ "attribution": [
+  "Arcane Feedback (Stormwind)"
+ ]
+}

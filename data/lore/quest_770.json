@@ -1,0 +1,118 @@
+{
+ "key": "quest:770",
+ "type": "quest",
+ "name": "The Demon Scarred Cloak",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   770
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Demon Scarred Cloak",
+  "end": "Skorn Whitecloud",
+  "previous": null,
+  "next": null,
+  "wiki": "The Demon Scarred Cloak",
+  "chain": []
+ },
+ "summary": "The Demon Scarred Cloak is a ragged pelt recovered from the legendary white wolf Ghost Howl, who roams the grassy plains of Mulgore. Marked by an enduring wound inflicted during past clashes with the Burning Legion, the pelt serves as proof of the beast's release from torment. Bringing it to the elders of Camp Sungraze brings closure to the story of a tragic local legend.",
+ "sections": [
+  {
+   "title": "A Relic of Fel Wounds",
+   "body": "Ghost Howl is an elusive white wolf known across Mulgore for both his ferocity and his sorrowful howl. When slain, the beast leaves behind a pelt that is visibly scarred by foul demonic corruption. These lingering marks date back to the wolf's desperate battles against the invading demons of the Burning Legion, a confrontation that left Ghost Howl wounded in both flesh and spirit long after the Third War came to a close.",
+   "spoiler": 0
+  },
+  {
+   "title": "Peace for a Troubled Spirit",
+   "body": "The tauren of Mulgore maintain a deep respect for the wild beasts of their homeland, revering them as children of the Earth Mother. Presenting the scarred cloak to Skorn Whitecloud at Camp Sungraze confirms the demise of the tormented predator. Skorn recognizes the immense skill required to track and defeat Ghost Howl, expressing the somber hope that in death, the wolf's tortured spirit has finally attained peace.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Demon Scarred Cloak?",
+   "aliases": [
+    "what is demon scarred cloak",
+    "demon scarred cloak item",
+    "ghost howl pelt"
+   ],
+   "answer": "It is the ragged hide harvested from Ghost Howl, a legendary white wolf in Mulgore. The pelt is visibly scarred by fel energies from an old battle against the Burning Legion."
+  },
+  {
+   "q": "Where did the demon scars on the cloak come from?",
+   "aliases": [
+    "why is ghost howl scarred",
+    "how did ghost howl get scarred",
+    "ghost howl legion"
+   ],
+   "answer": "Ghost Howl earned his wounds during clashes against the Burning Legion when the demonic invaders pushed across Kalimdor during the Third War."
+  },
+  {
+   "q": "Who do I bring the cloak to?",
+   "aliases": [
+    "where do i turn in demon scarred cloak",
+    "who wants demon scarred cloak",
+    "skorn whitecloud turn in"
+   ],
+   "answer": "Bring the cloak to Skorn Whitecloud, an elder tauren hunter who resides at Camp Sungraze in southeastern Mulgore."
+  },
+  {
+   "q": "Why does Skorn Whitecloud care about Ghost Howl?",
+   "aliases": [
+    "skorn whitecloud lore",
+    "why does skorn want ghost howl"
+   ],
+   "answer": "Skorn Whitecloud is a retired hunter who recognizes Ghost Howl as a formidable beast that suffered deeply from demonic corruption. He respects the skill required to fell such a creature and hopes its spirit can finally rest."
+  },
+  {
+   "q": "Where is Ghost Howl found?",
+   "aliases": [
+    "where to find ghost howl",
+    "ghost howl location",
+    "ghost howl spawn"
+   ],
+   "answer": "Ghost Howl is a rare white wolf that roams the rolling plains of Mulgore, typically sighted in the northern or central open fields between Red Cloud Mesa and Thunder Bluff."
+  },
+  {
+   "q": "Why do the tauren hope the wolf's spirit finds peace?",
+   "aliases": [
+    "tauren belief ghost howl",
+    "ghost howl spirit"
+   ],
+   "answer": "Tauren culture emphasizes harmony with nature and reverence for wild spirits. Because demonic corruption brought unending torment to Ghost Howl's life, his defeat is viewed as a merciful release back to the Earth Mother."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo, hunting Ghost Howl is not an act of cruelty or conquest, but a somber ritual to grant an agonized creature peace from the lingering taint of the Burning Legion."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking down a lone, scarred alpha like Ghost Howl is an essential rite of passage, earning high praise and a master hunter's gift from the elder Skorn Whitecloud."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids view the demon-scarred pelt as a grim reminder that the land and its wild inhabitants still bear unhealed wounds from the demonic invasion of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "burning legion",
+  "camp sungraze",
+  "demon scarred cloak",
+  "ghost howl",
+  "mulgore",
+  "skorn whitecloud",
+  "white wolf"
+ ],
+ "related": [
+  "npc:skorn-whitecloud",
+  "zone:mulgore",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "The Demon Scarred Cloak"
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "key": "topic:medivh",
+ "type": "topic",
+ "name": "Medivh",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Medivh"
+ },
+ "summary": "Medivh was the last Guardian of Tirisfal, an ancient order tasked with defending Azeroth from demonic corruption. Bound from before his birth by the spirit of the Dark Titan Sargeras, he opened the Dark Portal and brought the orcish Horde into the world, setting off decades of catastrophic warfare before dying and later walking the earth as a wandering prophet to orchestrate the world's defense.",
+ "sections": [
+  {
+   "title": "A Cursed Heritage",
+   "body": "Medivh was born to the powerful Guardian Aegwynn and the court conjurer Nielas Aran. Centuries earlier, Aegwynn had fought the fallen Titan Sargeras in Northrend, unaware that his dark essence slipped into her body to await an heir. When Medivh reached his fourteenth birthday, the vast magical inheritance bestowed by his mother manifested in a terrifying explosion of power, killing his father and plunging the boy into a decade-long coma under the watch of the clerics at Northshire Abbey.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall of Karazhan",
+   "body": "Awakening from his slumber, Medivh took residence in the isolated tower of Karazhan, serving as court magus to his childhood friend King Llane Wrynn of Stormwind. Yet the dark spirit within him slowly eroded his sanity. Seeking to unleash devastation, Medivh made contact across the stars with the orc warlock Gul'dan and the Shadow Council. Together, they channeled tremendous magic to tear open the Dark Portal, delivering the Horde upon the Eastern Kingdoms and sparking the First War. Medivh was ultimately slain in his tower by his closest friend, Anduin Lothar, and his apprentice, Khadgar.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Prophet's Redemption",
+   "body": "Freed from Sargeras by his mortal death, Medivh was resurrected through his mother's sacrifice to atone for his crimes. During the Third War, he disguised himself as an enigmatic raven-cloaked Prophet, whispering warnings of the Burning Legion's return to King Terenas Menethil and Warchief Thrall. Though Lordaeron ignored his pleas, he guided Thrall's Horde and Jaina Proudmoore's refugees across the Great Sea to Kalimdor, uniting orcs, humans, and night elves for the decisive stand at Mount Hyjal before fading into myth.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Medivh?",
+   "aliases": [
+    "who is medivh",
+    "medivh lore",
+    "the last guardian"
+   ],
+   "answer": "Medivh was the last human Guardian of Tirisfal, endowed with immense arcane power to protect Azeroth. He was the son of Magna Aegwynn and the architect behind the opening of the Dark Portal."
+  },
+  {
+   "q": "Why did Medivh open the Dark Portal?",
+   "aliases": [
+    "why did medivh betray stormwind",
+    "medivh dark portal",
+    "why bring orcs"
+   ],
+   "answer": "Medivh was possessed before birth by the spirit of the Dark Titan Sargeras. Under this malevolent influence, he bargained with the warlock Gul'dan, offering the location of the Tomb of Sargeras in exchange for the Horde invading Azeroth to bring ruin to the mortal kingdoms."
+  },
+  {
+   "q": "Who killed Medivh?",
+   "aliases": [
+    "how did medivh die",
+    "who killed the guardian",
+    "medivh death"
+   ],
+   "answer": "During the First War, Medivh was confronted in Karazhan by his close friend Anduin Lothar, his apprentice Khadgar, and the half-orc assassin Garona. Khadgar pierced Medivh's heart and Lothar severed his head, ending his life and casting Sargeras's spirit back into the Nether."
+  },
+  {
+   "q": "What was Medivh's relationship with Stormwind's royalty?",
+   "aliases": [
+    "medivh and llane",
+    "was medivh friends with lothar"
+   ],
+   "answer": "Medivh grew up alongside Prince Llane Wrynn and Anduin Lothar in the royal court of Stormwind. The trio fought side by side against Gurubashi trolls in their youth, and King Llane trusted Medivh completely, making his eventual betrayal devastating to the kingdom."
+  },
+  {
+   "q": "Is Medivh still alive?",
+   "aliases": [
+    "where is medivh now",
+    "is the prophet medivh",
+    "medivh status"
+   ],
+   "answer": "After guiding the mortal races to victory over Archimonde at the Battle of Mount Hyjal, Medivh departed mortal affairs, stating that Azeroth no longer needed guardians. While his physical whereabouts are unknown, ghostly echoes and remnants of his soul still linger within his haunted tower of Karazhan."
+  },
+  {
+   "q": "What is Karazhan?",
+   "aliases": [
+    "medivh tower",
+    "what happened to karazhan"
+   ],
+   "answer": "Karazhan is a spire built atop a potent intersection of ley lines in Deadwind Pass. Originally established by Aegwynn and later inherited by Medivh, the tower became heavily warped by arcane and demonic energies following the Guardian's fall and remains a haunted ruin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Medivh represents both the zenith and the ultimate peril of arcane mastery; every Kirin Tor scholar studies his catastrophic fall as a cautionary tale of unchecked power."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Medivh's communion with Gul'dan and his role as the mortal conduit for Sargeras remain legendary demonstrations of fel summoning and interplanar manipulation."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The people of Stormwind view Medivh with bitter sorrow, remembering him as a beloved royal companion who ultimately invited the ruinous Horde into their lands."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "To Thrall's Horde, Medivh was the cloaked Prophet who directed them to sail west to Kalimdor, leading the orcs to their new home in Durotar and freedom from demonic slavery."
+  }
+ ],
+ "keywords": [
+  "aegwynn",
+  "atiesh",
+  "dark portal",
+  "guardian",
+  "karazhan",
+  "khadgar",
+  "lothar",
+  "medivh",
+  "prophet",
+  "sargeras",
+  "tirisfal"
+ ],
+ "related": [
+  "subzone:karazhan",
+  "subzone:dark-portal",
+  "topic:sargeras",
+  "topic:anduin-lothar",
+  "topic:first-war",
+  "topic:third-war",
+  "topic:stormwind-kingdom",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "Medivh"
+ ]
+}

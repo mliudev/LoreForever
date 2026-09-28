@@ -1,0 +1,84 @@
+{
+ "key": "subzone:eastmoon-ruins",
+ "type": "subzone",
+ "name": "Eastmoon Ruins",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Eastmoon Ruins"
+ },
+ "summary": "The Eastmoon Ruins are an ancient troll archaeological site situated in eastern Tanaris, perched just west of the Gaping Chasm. Once built by the desert empires of old, the crumbling stone masonry is now occupied by opportunistic Wastewander bandits using the remnants as a desert encampment.",
+ "sections": [
+  {
+   "title": "Stones in the Sand",
+   "body": "Rising out of the blistering desert floor just west of the insect-infested Gaping Chasm, the Eastmoon Ruins preserve the crumbling architecture of ancient troll civilization. Decaying pillars, weathered stone plazas, and sun-bleached monuments hint at a time long before the sands swallowed this region. Rather than scholars or troll descendants tending the shrines, the site is firmly entrenched by the Wastewanders\u2014human desert nomads and outlaws who rely on the broken walls for shelter and vantage over nearby trade routes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who built the Eastmoon Ruins?",
+   "aliases": [
+    "who made eastmoon ruins",
+    "eastmoon origin",
+    "trolls built eastmoon"
+   ],
+   "answer": "The architecture belongs to ancient trolls. Long before Tanaris became an arid wasteland, troll civilizations dominated southern Kalimdor, leaving behind stone stonework, temples, and plazas like those weathering at Eastmoon."
+  },
+  {
+   "q": "Who controls Eastmoon Ruins now?",
+   "aliases": [
+    "who lives at eastmoon",
+    "eastmoon ruins mobs",
+    "wastewanders at eastmoon"
+   ],
+   "answer": "The ruins are occupied by Wastewander bandits, including darkcasters, survivalists, and trackers. These human nomads have claimed the ancient stone walls to set up outposts and keep watch over eastern Tanaris."
+  },
+  {
+   "q": "Where are the Eastmoon Ruins located?",
+   "aliases": [
+    "eastmoon ruins location",
+    "where is eastmoon",
+    "find eastmoon ruins"
+   ],
+   "answer": "You can find them in the eastern reaches of Tanaris, situated immediately west of the silithid-infested hives of the Gaping Chasm."
+  },
+  {
+   "q": "Are there any quests in Eastmoon Ruins?",
+   "aliases": [
+    "eastmoon quests",
+    "quests at eastmoon ruins",
+    "is there a quest here"
+   ],
+   "answer": "There are no formal quests directed specifically to the Eastmoon Ruins. The site serves primarily as a bandit camp and a historical landmark for adventurers exploring the deeper desert."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "The ruined masonry is a quiet reminder of your ancestors' far-reaching dominion over Kalimdor before the desert sands claimed the south."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The broken pillars and scattered stone walls provide plenty of blind corners to slip past or ambushing the Wastewander scouts roaming the perimeter."
+  }
+ ],
+ "keywords": [
+  "darkcaster",
+  "eastmoon",
+  "eastmoon ruins",
+  "gaping chasm",
+  "survivalist",
+  "tanaris",
+  "troll ruins",
+  "wastewander"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:gaping-chasm",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Eastmoon Ruins"
+ ]
+}

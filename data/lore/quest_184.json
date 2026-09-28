@@ -1,0 +1,114 @@
+{
+ "key": "quest:184",
+ "type": "quest",
+ "name": "Furlbrow's Deed",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   184
+  ],
+  "level": "9",
+  "faction": "Alliance",
+  "start": ":Westfall Deed",
+  "end": "Farmer Furlbrow",
+  "previous": null,
+  "next": null,
+  "wiki": "Furlbrow's Deed (Classic)",
+  "chain": []
+ },
+ "summary": "Furlbrow's Deed is a stolen land grant carried by Defias thieves in Elwynn Forest. Returning the document to the displaced Farmer Furlbrow near the Westfall border offers the fleeing couple their only hope of one day reclaiming their stolen homestead.",
+ "sections": [
+  {
+   "title": "A Clue on Stolen Paper",
+   "body": "While clashing with Defias bandits across Elwynn Forest, travelers often recover a crumpled land deed signed by Theodore and Verna Furlbrow. On the back of the parchment, crude handwriting reveals the bandits' scheme: having strong-armed the elderly farmer off his property, they smuggled the document across the river into Elwynn to use as a template for forging deeds to other seized land. The scrawl also notes that the Furlbrows were seen stranded by the road just over the border, immobilized by a broken wagon.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Plight of Westfall's Farmers",
+   "body": "The Furlbrows' loss is emblematic of the tragedy engulfing Westfall. With the Stormwind army absent and the realm's resources strained, the Defias Brotherhood has driven dozens of families from their ancestral soil, using force and legal manipulation to consolidate their hold on the kingdom's breadbasket. Though Theodore and Verna are abandoning their farm for their own safety, retaining their lawful deed preserves their single claim against the rogue uprising should order ever be restored to the province.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find this deed?",
+   "aliases": [
+    "deed drop",
+    "how to get furlbrows deed",
+    "where does the deed drop"
+   ],
+   "answer": "The deed drops from various members of the Defias Brotherhood lurking around southern and western Elwynn Forest, such as those near the Jerod's Landing area or hiding in local camps."
+  },
+  {
+   "q": "Where is Farmer Furlbrow?",
+   "aliases": [
+    "furlbrow location",
+    "where to turn in furlbrows deed",
+    "where is the farmer"
+   ],
+   "answer": "Farmer Furlbrow and his wife Verna are stranded beside a broken wagon along the main road just inside Westfall, shortly after crossing the bridge west from Elwynn Forest."
+  },
+  {
+   "q": "Why did the Defias want the deed in the first place?",
+   "aliases": [
+    "why did bandits steal the deed",
+    "why do defias want deeds"
+   ],
+   "answer": "A note on the back reveals the bandits intended to use Furlbrow's legitimate deed as a template to forge claims on other properties across the region, cementing their control over stolen farms through counterfeit paperwork."
+  },
+  {
+   "q": "Are the Furlbrows returning to their farm?",
+   "aliases": [
+    "are furlbrows going home",
+    "what happens to the furlbrow farm"
+   ],
+   "answer": "Not anytime soon. The couple is actively fleeing the region due to lawlessness and bandit attacks. However, having their deed in hand ensures they can legally reclaim their land if Westfall is ever pacified."
+  },
+  {
+   "q": "Why isn't Stormwind protecting these farms?",
+   "aliases": [
+    "why no guards in westfall",
+    "why is stormwind ignoring westfall"
+   ],
+   "answer": "Stormwind is paralyzed by the sudden disappearance of King Varian Wrynn and domestic political tension. With royal resources focused on the capital, outer territories like Westfall have been left to defend themselves against the surging Defias Brotherhood."
+  },
+  {
+   "q": "What is the connection between Elwynn and Westfall in this quest?",
+   "aliases": [
+    "why was deed in elwynn",
+    "connection between zones"
+   ],
+   "answer": "The quest serves as a breadcrumb leading adventurers from Elwynn Forest across the river into Westfall, demonstrating how far the Defias network reaches into the kingdom's core territories."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The plight of the Furlbrows highlights the failure of the Stormwind crown to protect its taxpaying citizens outside the capital's fortified walls."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Restoring stolen deeds to destitute refugees embodies the holy vows to defend the defenseless and bring justice to lawless borderlands."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "elwynn",
+  "furlbrow",
+  "theodore furlbrow",
+  "verna furlbrow",
+  "westfall",
+  "westfall deed"
+ ],
+ "related": [
+  "npc:farmer-furlbrow",
+  "zone:westfall",
+  "topic:defias-brotherhood",
+  "zone:elwynn",
+  "quest:65"
+ ],
+ "attribution": [
+  "Furlbrow's Deed (Classic)"
+ ]
+}

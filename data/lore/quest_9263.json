@@ -1,0 +1,122 @@
+{
+ "key": "quest:9263",
+ "type": "quest",
+ "name": "Investigate the Scourge of Orgrimmar",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   9263
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Lieutenant Dagel",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Investigate the Scourge of Orgrimmar",
+  "chain": []
+ },
+ "summary": "The Scourge has brazenly established an encampment right outside the gates of Orgrimmar under the shadow of a floating necropolis. Lieutenant Dagel tasks defenders with repelling the undead, recovering necrotic stones, and probing the mysterious runic circles humming with necromantic energy. This sudden intrusion brings the Lich King's reach directly to the heart of Durotar.",
+ "sections": [
+  {
+   "title": "Undead at the Gates",
+   "body": "The threat of the Scourge is no longer confined to the ruined kingdoms of Lordaeron or the icy wastes of the north. Floating necropolises have appeared across Azeroth, casting dark shadows even over Durotar. At Orgrimmar's very threshold, undead forces have gathered, carving out encampments and threatening the capital of the Horde. Lieutenant Dagel and the Argent Dawn are coordinating defensive efforts, calling upon local champions to push the invaders back before they can establish an unbreakable siege.",
+   "spoiler": 0
+  },
+  {
+   "title": "Necrotic Relics and Dark Whispers",
+   "body": "Beyond simply slaying the encroaching monstrosities and gathering their dim necrotic stones, the defense hinges on understanding the invaders' methods. Encircling their camp are glowing runic sigils, resonant with the same dark power suffusing the necropolis above. Those brave enough to step into the runes encounter unnatural voices echoing through the ether\u2014sinister conduits of communication bridging the vanguard directly to the malevolent wills guiding the Scourge invasion.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Scourge attacking Orgrimmar?",
+   "aliases": [
+    "why scourge orgrimmar",
+    "undead outside org",
+    "lich king attacks orgrimmar"
+   ],
+   "answer": "The Lich King has dispatched his undead forces and floating necropolises across the world to strike at major population centers. By placing troops right outside the gates of Durotar, the Scourge seeks to overwhelm and divide the Horde's forces directly at their seat of power."
+  },
+  {
+   "q": "Who is Lieutenant Dagel?",
+   "aliases": [
+    "lieutenant dagel",
+    "dagel questgiver",
+    "who is dagel"
+   ],
+   "answer": "Lieutenant Dagel is an officer working in coordination with the Argent Dawn to rally defenders against the invasion. Stationed near the threat, Dagel directs fighters to eliminate the undead and examine the arcane tools they use on the battlefield."
+  },
+  {
+   "q": "What are the dim necrotic stones?",
+   "aliases": [
+    "necrotic stones",
+    "what are dim necrotic stones",
+    "dim stones"
+   ],
+   "answer": "Dim necrotic stones are foul remnants carried by the invading undead soldiers. They serve both as tangible proof of slain Scourge aberrations and as artifacts infused with the dark magic sustaining the invasion."
+  },
+  {
+   "q": "What are the glowing runic circles outside the city?",
+   "aliases": [
+    "runic circles",
+    "glowing runes org",
+    "scourge circles"
+   ],
+   "answer": "The runic circles are mystical conduits inscribed by the Scourge. Stepping into them reveals eerie whispers, indicating that they function as unnatural communication nodes linking the foot soldiers to commanding minds elsewhere."
+  },
+  {
+   "q": "Why is the Argent Dawn involved in Durotar?",
+   "aliases": [
+    "argent dawn in orgrimmar",
+    "why argent dawn here",
+    "argent dawn horde"
+   ],
+   "answer": "The Argent Dawn is an independent order dedicated to eradicating the Scourge wherever it manifests. Because the invasion threatens every living civilization, the order cooperates with Horde defenders to secure Orgrimmar's borders."
+  },
+  {
+   "q": "Is the necropolis overhead dangerous to the city?",
+   "aliases": [
+    "floating citadel org",
+    "necropolis above durotar"
+   ],
+   "answer": "Yes. A floating necropolis acts as a staging ground, bastion, and transport for Scourge troops. Its presence directly over Durotar's doorstep allows the undead to replenish their ground assault and project dark magic across the terrain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "An invasion force camped within sight of Orgrimmar's towers is an unbearable insult to the Horde. Defending Durotar against the Lich King's minions is a vital duty for any sworn champion."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The dry red soil of Durotar was won through hardship and blood. Orcs will not allow mindless monstrosities to blight the home they carved out with their bare hands."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, the Scourge is a reminder of their former enslavement. Crushing these invaders is a personal vendetta against the Lich King's continuing reach."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "dagel",
+  "durotar",
+  "invasion",
+  "lich king",
+  "necrotic stone",
+  "orgrimmar",
+  "runic circle",
+  "scourge"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "topic:scourge",
+  "topic:lich-king",
+  "topic:argent-dawn"
+ ],
+ "attribution": [
+  "Investigate the Scourge of Orgrimmar"
+ ]
+}

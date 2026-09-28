@@ -1,0 +1,87 @@
+{
+ "key": "npc:prospector-whelgar",
+ "type": "npc",
+ "name": "Prospector Whelgar",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Prospector Whelgar",
+  "refs": 1
+ },
+ "summary": "Prospector Whelgar is a dwarven archaeologist stationed at an excavation site in the eastern hills of the Wetlands. His mission to uncover titan relics has stalled after vicious raptors overran the dig. He now seeks hardy adventurers willing to brave the beasts to recover ancient artifacts.",
+ "sections": [
+  {
+   "title": "A Dig Under Siege",
+   "body": "Sent into the marshy wilderness of the Wetlands to unearth the history of the dwarven race, Prospector Whelgar established an archaeological camp known as Whelgar's Excavation Site. The valley was once rich with ancient stone relics, but the local raptors quickly grew territorial and drove his team into hiding. Despite the danger, Whelgar refuses to abandon his duty. He remains focused on recovering valuable relics\u2014including the enigmatic Goaz Stone\u2014before wild predators or rival scoundrels ruin the site entirely.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Prospector Whelgar?",
+   "aliases": [
+    "whelgar",
+    "who is whelgar",
+    "prospector whelgar lore"
+   ],
+   "answer": "Prospector Whelgar is an Ironforge dwarf archaeologist tasked with leading an expedition in the Wetlands. He oversees the dig site in the eastern mountains, studying relics from the dawn of dwarven history."
+  },
+  {
+   "q": "Where can I find Prospector Whelgar?",
+   "aliases": [
+    "whelgar location",
+    "where is whelgar",
+    "whelgar wetlands map"
+   ],
+   "answer": "He is located in the eastern reaches of the Wetlands, nestled in the rocky outcroppings of Whelgar's Excavation Site, just north of the road leading toward Dun Algaz."
+  },
+  {
+   "q": "Why is Whelgar having trouble at the dig site?",
+   "aliases": [
+    "raptors excavation",
+    "what happened to whelgar dig",
+    "whelgars excavation raptors"
+   ],
+   "answer": "Fierce native raptors have completely overrun the dig site, killing or scattering his crew and forcing Whelgar into a defensive pocket. He cannot continue unearthing relics without outside protection."
+  },
+  {
+   "q": "What is the Goaz Stone?",
+   "aliases": [
+    "goaz stone",
+    "what is the goaz stone",
+    "uncovering the past relic"
+   ],
+   "answer": "The Goaz Stone is an ancient artifact uncovered among the ruins at the excavation site. Whelgar works to translate its inscriptions to better understand the forgotten origins and ancient history of the dwarven people."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Whelgar's mission directly serves the Explorers' League and King Magni Bronzebeard's ongoing search into the titan roots of the dwarven race."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The craggy ridges around Whelgar's dig site contain rich mineral veins, though prospectors must contend with the same raptors plaguing Whelgar's team."
+  }
+ ],
+ "keywords": [
+  "dwarf",
+  "excavation site",
+  "explorers league",
+  "goaz stone",
+  "prospector whelgar",
+  "uncovering the past",
+  "wetlands",
+  "whelgar"
+ ],
+ "related": [
+  "subzone:whelgar-s-excavation-site",
+  "quest:299",
+  "zone:wetlands",
+  "topic:dwarf",
+  "quest:463"
+ ],
+ "attribution": [
+  "Prospector Whelgar"
+ ]
+}

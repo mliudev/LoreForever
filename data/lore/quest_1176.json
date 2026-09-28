@@ -1,0 +1,119 @@
+{
+ "key": "quest:1176",
+ "type": "quest",
+ "name": "Load Lightening",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1176
+  ],
+  "level": "30",
+  "faction": "Neutral",
+  "start": "Pozzik",
+  "end": "",
+  "previous": "",
+  "next": "Goblin Sponsorship",
+  "wiki": "Load Lightening",
+  "chain": []
+ },
+ "summary": "Pozzik, the head goblin engineer out at the Mirage Raceway, needs materials to shave critical ounces off his rocket-car chassis. Rather than relying purely on heavy metal plating, the goblins salvage hollow bones from local desert vultures to build sturdy, ultralight steering and structural rigs.",
+ "sections": [
+  {
+   "title": "Every Ounce Counts",
+   "body": "Across the blinding white expanse of the Shimmering Flats, the rivalry between goblin and gnomish engineers is decided by fractions of a second. Raw engine thrust is useless if a racer is weighed down by excessive bulk. While gnome teams obsess over intricate gears and brass fittings, the goblin crew led by Pozzik seeks ruthless pragmatic efficiency: stripping out dense iron framing and replacing it with lighter, hollow structural components wherever the frame permits.",
+   "spoiler": 0
+  },
+  {
+   "title": "Desert Scavenging for Speed",
+   "body": "Rather than shipping expensive, specialized composites out to Thousand Needles, Pozzik turns to the surrounding salt wastes. Salt Flats vultures are plentiful, their skeletons honed by flight to possess hollow, honeycombed cores that provide great tensile strength with almost no mass. By substituting worked vulture bones into the racer's steering rig and minor braces, Pozzik's mechanics aim to keep their machines nimble enough to outmaneuver the gnomes without shaking apart at top speed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Pozzik want vulture bones for a race car?",
+   "aliases": [
+    "vulture bones purpose",
+    "why bones",
+    "pozzik bones"
+   ],
+   "answer": "Goblin engineering favors ingenuity and opportunistic materials. Vulture bones are hollow and naturally lightweight, offering an ideal strength-to-weight ratio to reinforce delicate parts like steering rigs without weighing down the racer."
+  },
+  {
+   "q": "Who is Pozzik?",
+   "aliases": [
+    "pozzik",
+    "pozzik lore",
+    "who is the goblin engineer"
+   ],
+   "answer": "Pozzik is the lead goblin racing mechanic and team leader stationed at the Mirage Raceway in the Shimmering Flats. He directs the goblin pits against their bitter rivals, the gnomes."
+  },
+  {
+   "q": "Where are these vultures found?",
+   "aliases": [
+    "vulture location",
+    "where to find hollow bones",
+    "shimmering flats scavengers"
+   ],
+   "answer": "The scavengers and vultures circle the open expanse of the Shimmering Flats, particularly around the gigantic skeletal remains scattered in the northeastern stretches of the salt basin."
+  },
+  {
+   "q": "What is the Mirage Raceway?",
+   "aliases": [
+    "raceway lore",
+    "what is mirage raceway",
+    "shimmering flats track"
+   ],
+   "answer": "The Mirage Raceway is a neutral racing ground established on the expansive dry salt lake of Thousand Needles. Goblins and gnomes compete there in high-speed, dangerous experimental rocket-car races."
+  },
+  {
+   "q": "Are the gnomes doing the same thing?",
+   "aliases": [
+    "gnome racers",
+    "gnome vs goblin",
+    "are gnomes using bones"
+   ],
+   "answer": "While the gnomes also look for ways to streamline their racers, their engineering tradition leans toward precision clockwork and complex metals rather than the goblins' scrappy, salvage-based modifications."
+  },
+  {
+   "q": "Does this work help with Pozzik's larger racing effort?",
+   "aliases": [
+    "quest continuation",
+    "what comes next",
+    "goblin sponsorship"
+   ],
+   "answer": "Yes. Proving your reliability by lightening the racer earns Pozzik's trust, leading to further work involving track rivalries and official goblin sponsorship out on the flats."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Pozzik's reliance on avian bone frames showcases quintessential goblin ingenuity: functional, improvised, and surprisingly effective at reducing curb weight."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Watching goblins literally lash scavenged bird carcasses into mechanical steering rigs is bound to scandalize any classically trained Tinker Town engineer."
+  }
+ ],
+ "keywords": [
+  "bones",
+  "load lightening",
+  "mirage raceway",
+  "pozzik",
+  "rocket car",
+  "shimmering flats",
+  "thousand needles",
+  "vulture"
+ ],
+ "related": [
+  "npc:pozzik",
+  "subzone:mirage-raceway",
+  "subzone:shimmering-flats",
+  "zone:thousandneedles",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Load Lightening"
+ ]
+}

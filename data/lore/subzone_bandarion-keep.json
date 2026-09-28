@@ -1,0 +1,90 @@
+{
+ "key": "subzone:bandarion-keep",
+ "type": "subzone",
+ "name": "Bandarion Keep",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Bandarion Keep"
+ },
+ "summary": "Bandarion Keep is a fortified redoubt associated with Tyr's Watch, nestled in the western reaches of Tirisfal Glades near the Whispering Forest. Named in honor of Garek Bandarion, the outpost serves as an isolated bulwark amidst lingering threats across the woodland frontier. Its defenders contend with everything from hostile coastal murlocs to roving zealots and unstable undead.",
+ "sections": [
+  {
+   "title": "A Bastion on the Western Border",
+   "body": "Situated near the secluded Whispering Forest in western Tirisfal Glades, Bandarion Keep stands as a solitary sentinel for the Forsaken. Named after Garek Bandarion, this stronghold is closely tied to Tyr's Watch. Quartermasters like Jorin Croge work diligently to keep the garrison supplied despite its remote and challenging position far from the bustling courtyards of the Undercity.",
+   "spoiler": 0
+  },
+  {
+   "title": "Surrounded by Threats",
+   "body": "Holding the keep is no quiet assignment. The outpost faces constant danger from Vile Fin murloc raids along nearby waters, probing skirmishes by the Scarlet Crusade, and stray, mindless Scourge thralls shambling through the gloom. Worse still are internal perils: certain paladins struggling to adjust to their unlife as Forsaken have succumbed to madness, turning their weapons against their own kindred.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Bandarion Keep located?",
+   "aliases": [
+    "bandarion keep location",
+    "where is bandarion keep",
+    "how to find bandarion keep"
+   ],
+   "answer": "Bandarion Keep lies in the far western wilderness of Tirisfal Glades, positioned near the enigmatic Whispering Forest."
+  },
+  {
+   "q": "Who was Bandarion Keep named after?",
+   "aliases": [
+    "who is bandarion",
+    "garek bandarion",
+    "bandarion keep name origin"
+   ],
+   "answer": "The stronghold is named in honor of Garek Bandarion, a notable figure associated with the order stationed there."
+  },
+  {
+   "q": "What is Tyr's Watch?",
+   "aliases": [
+    "tyrs watch",
+    "what is tyrs watch"
+   ],
+   "answer": "Tyr's Watch refers to the order of Forsaken paladins and guardians operating in the region, an organization deeply entwined with the foundation and defense of Bandarion Keep."
+  },
+  {
+   "q": "What dangers threaten the keep?",
+   "aliases": [
+    "who attacks bandarion keep",
+    "threats to bandarion keep",
+    "bandarion enemies"
+   ],
+   "answer": "The keep's defenders regularly fend off Vile Fin murlocs, skirmish with Scarlet Crusade zealots, dispatch wandering mindless Scourge, and put down unstable Forsaken paladins who lose their minds and attack their own allies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For holy warriors facing the cold reality of undeath, Bandarion Keep represents both a refuge and a warning: some paladins who cannot reconcile the Light with their unlife have broken and turned their weapons against their Forsaken peers."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Standing far on Tirisfal's western rim, this keep proves that the Forsaken must stay vigilant not only against the Scourge and the Scarlet Crusade, but also against inner turmoil within their own ranks."
+  }
+ ],
+ "keywords": [
+  "bandarion",
+  "bandarion keep",
+  "garek bandarion",
+  "jorin croge",
+  "tirisfal",
+  "tyr's watch",
+  "whispering forest"
+ ],
+ "related": [
+  "subzone:whispering-forest",
+  "topic:forsaken",
+  "topic:scarlet-crusade",
+  "topic:scourge",
+  "topic:murloc",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Bandarion Keep"
+ ]
+}

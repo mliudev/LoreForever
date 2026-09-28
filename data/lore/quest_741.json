@@ -1,0 +1,122 @@
+{
+ "key": "quest:741",
+ "type": "quest",
+ "name": "The Absent Minded Prospector",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   741
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Archaeologist Hollee",
+  "end": "Chief Archaeologist Greywhisker",
+  "previous": "The Absent Minded Prospector (2)",
+  "next": "The Absent Minded Prospector (4)",
+  "wiki": "The Absent Minded Prospector (3)",
+  "chain": []
+ },
+ "summary": "This errand delivers a strange petrified specimen recovered from the wild beaches of Darkshore to the Explorers' League outpost in Darnassus. Archaeologist Hollee refuses to abandon her distracted colleague in the field, entrusting the specimen's transport to a passing adventurer instead. The fossil's arrival in the night elven capital immediately captures the keen interest of Chief Archaeologist Greywhisker.",
+ "sections": [
+  {
+   "title": "A Courier to the Capital",
+   "body": "Prospector Remtravel's excavations along the misty coast of Darkshore have unearthed a curious fossil, but digging deeper matters more to him than protocol. Archaeologist Hollee, unwilling to leave the wandering prospector alone amidst the shore's dangerous beasts and hostile cultists, remains behind to watch over him. In order to get the discovery documented, she requires an Alliance traveler to ferry the specimen up to Darnassus, where the dwarven guild maintains a scholarly delegation.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dwarven Stake in Kalimdor",
+   "body": "Dwarves from Ironforge have crossed the Great Sea in force under the banner of the Explorers' League, eager to unearth ancient relics and lost history beneath the soil of Kalimdor. Receiving the artifact in the elven capital, Chief Archaeologist Greywhisker wastes no time in marveling over Remtravel's knack for uncovering ancient treasures. While night elves view their forests as living sanctuaries, the League views the ancient lands as an expansive archaeological dig waiting to be deciphered.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the mysterious fossil?",
+   "aliases": [
+    "mysterious fossil",
+    "what fossil is this",
+    "remtravel fossil"
+   ],
+   "answer": "It is an unidentified petrified specimen unearthed along the coast of Darkshore by Prospector Remtravel. Its antiquity and strange nature make it a prize finding for the Explorers' League scholars stationed in Darnassus."
+  },
+  {
+   "q": "Why does Hollee stay behind in Darkshore?",
+   "aliases": [
+    "why doesn't hollee go",
+    "hollee staying",
+    "why hollee stays"
+   ],
+   "answer": "Archaeologist Hollee feels obligated to watch over Prospector Remtravel. He has a habit of wandering off and ignoring danger while excavating, so she refuses to leave him alone in the wilds while delivering his discoveries to Darnassus."
+  },
+  {
+   "q": "Who is Chief Archaeologist Greywhisker?",
+   "aliases": [
+    "greywhisker",
+    "who is greywhisker",
+    "chief greywhisker"
+   ],
+   "answer": "Greywhisker is a senior representative of Ironforge's Explorers' League overseeing archaeological ventures in northern Kalimdor. He operates out of Darnassus, studying relics brought back from the field by dwarven diggers."
+  },
+  {
+   "q": "Why is the Explorers' League operating in Darnassus?",
+   "aliases": [
+    "dwarves in darnassus",
+    "explorers league darnassus",
+    "why are dwarves here"
+   ],
+   "answer": "King Magni Bronzebeard chartered the Explorers' League to unearth the origins of the dwarven race and ancient history across Azeroth. Having friendly diplomatic ties with the night elves allows dwarven scholars to base expeditions out of Darnassus to study Kalimdor's forgotten lands."
+  },
+  {
+   "q": "Where does this fossil end up after Darnassus?",
+   "aliases": [
+    "where does fossil go",
+    "fossil next step"
+   ],
+   "answer": "Chief Archaeologist Greywhisker inspects the find in Darnassus, but discoveries of this scale are meant to be cataloged or routed further into League channels and back toward the great museum in Ironforge."
+  },
+  {
+   "q": "Where did Remtravel find the specimen?",
+   "aliases": [
+    "where was fossil found",
+    "remtravel dig site"
+   ],
+   "answer": "Remtravel uncovered the specimen along the wild coast of Darkshore, an area laden with shipwrecks, ancient ruins, and fossilized sea life dating back before the Great Sundering."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Carrying Remtravel's fossil fulfills the primary mission of the Explorers' League: unearthing the world's deepest past and proving the boundless value of dwarven perseverance."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Watching dwarven excavators bring ancient remnants out of Darkshore's sacred soil can be jarring, but cooperating with the League preserves Alliance bonds."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This task demonstrates the logistical reliance Alliance members have on each other, as dwarven researchers rely on traveling adventurers to safely bridge the remote shores of Darkshore and the heights of Darnassus."
+  }
+ ],
+ "keywords": [
+  "archaeologist",
+  "darkshore",
+  "darnassus",
+  "explorers league",
+  "fossil",
+  "greywhisker",
+  "hollee",
+  "remtravel"
+ ],
+ "related": [
+  "npc:archaeologist-hollee",
+  "npc:chief-archaeologist-greywhisker",
+  "npc:prospector-remtravel",
+  "topic:explorers-league",
+  "zone:darkshore",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "The Absent Minded Prospector (3)"
+ ]
+}

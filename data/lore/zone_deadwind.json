@@ -1,0 +1,138 @@
+{
+ "key": "zone:deadwind",
+ "type": "zone",
+ "name": "Deadwind Pass",
+ "era": "classic",
+ "zone": "deadwind",
+ "meta": {
+  "wiki": [
+   "Deadwind Pass (Classic)",
+   "Deadwind Pass"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Deadwind Pass is a blighted, jagged canyon in central Azeroth connecting Duskwood to the Swamp of Sorrows. At its center looms the Ivory Spire of Karazhan, former seat of the Guardian Medivh, whose death unleashed corrupting magical runoff across the land. It is a lifeless corridor stalked by ogres, ghosts, and demonic winds, offering neither refuge nor civilized shelter.",
+ "sections": [
+  {
+   "title": "A Canyon of Bones and Howling Wind",
+   "body": "Once considered an extension of the Redridge Mountains, Deadwind Pass has devolved into a hollowed-out scar of bleached stone and petrified wood. A foul, relentless wind cuts through the ravines, giving the gorge its name. The sky above is locked in a perpetual sepulchral gray, threatening erratic lightning storms that make traveling with metal arms hazardous. Totemic effigies hang from lifeless branches alongside the main road, warning wayfarers to keep moving. There are no fertile soils here, no mineable mineral veins, and no towns or flight masters to offer aid.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Legacy of Karazhan",
+   "body": "The history of the pass revolves around the towering citadel of Karazhan. Built atop a potent convergence of subterranean ley lines, the tower served as the redoubt of the Guardian Medivh. It was within this spire that Medivh plotted the opening of the Dark Portal and the ruin of Stormwind. When his madness and possession came to light during the First War, an expedition led by Lord Anduin Lothar and young Khadgar breached the tower and executed him. Medivh's violent demise released a shockwave of fel taint that blighted both the pass and neighboring Brightwood, leaving Karazhan an ominous, locked husk leaking unstable magical energy.",
+   "spoiler": 0
+  },
+  {
+   "title": "Deadwind Ogres and Ruined Plots",
+   "body": "South of the main thoroughfare, the pass branches into the territory of the Deadwind ogres around the Vice. Dressed in foul rags and wielding jagged iron, these brutes relentlessly ambuscade anyone venturing near the southern road, reportedly serving a hidden master within the vicinity. Further south lies Morgan's Plot and the skeletal remnants of a hamlet that once catered to the tower. Today, the village's above-ground ruins and labyrinthine cellars crawl with wailing phantoms and restless shades, remnants of those whose lives were extinguished by Karazhan's unbridled sorcery.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scythe and the Dark Riders",
+   "body": "Long before the present year, a cabal of dishonest merchants led by a swindler named Ariden operated out of a camp in the northern canyon, attempting to sell counterfeit magical relics to Medivh. Displeased by their deception, the possessed Guardian inflicted a dark curse upon the traders, compelling them to scour the lands for authentic artifacts. Reborn as the cloaked Dark Riders, they have recently brought terror to Duskwood, slaughtering innocent homesteaders in a ruthless hunt for the enigmatic Scythe of Elune before retreating back into the shadows of the pass.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this place so dead and ruined?",
+   "aliases": [
+    "why is deadwind pass dead",
+    "what happened to deadwind pass",
+    "why are trees dead here"
+   ],
+   "answer": "Deadwind Pass was ruined by the arcane pollution and dark sorcery centered on Karazhan. When the Guardian Medivh was slain in his tower during the First War, an explosion of fel magic cascaded down the ravine, petrifying the trees, stripping the earth of life, and permanently blighting the sky."
+  },
+  {
+   "q": "Are there any friendly towns, inns, or flight masters here?",
+   "aliases": [
+    "deadwind pass flight path",
+    "is there a town in deadwind pass",
+    "deadwind pass inn"
+   ],
+   "answer": "No. Deadwind Pass features no friendly settlements, inns, or flight masters for either faction. Alliance travelers must rely on Darkshire in Duskwood to the west, while Horde members must stage out of Stonard in the Swamp of Sorrows to the east."
+  },
+  {
+   "q": "Can I enter Karazhan right now?",
+   "aliases": [
+    "is karazhan open",
+    "can you go inside karazhan",
+    "enter karazhan"
+   ],
+   "answer": "The grand iron doors of Karazhan remain firmly barred. Whispers persist that a sinister power has taken up residence within the upper halls, but the tower is presently sealed, leaving its mysteries hidden behind locked gates and haunted foundations."
+  },
+  {
+   "q": "Who are the Dark Riders and where did they come from?",
+   "aliases": [
+    "dark riders deadwind",
+    "ariden dark riders",
+    "scythe of elune riders"
+   ],
+   "answer": "The Dark Riders originated from Ariden's Camp in northern Deadwind Pass. Formerly charlatans who tried to cheat Medivh with fake relics, they were cursed by the Guardian to scour Azeroth for genuine magical treasures\u2014a grim mandate that recently led them into Duskwood to butcher farmers while hunting the Scythe of Elune."
+  },
+  {
+   "q": "Can I gather herbs or mine ore in Deadwind Pass?",
+   "aliases": [
+    "deadwind pass herbs",
+    "deadwind mining",
+    "deadwind pass resources"
+   ],
+   "answer": "No. The magical cataclysm completely leached the soil and rock of vitality. Useful medicinal herbs cannot take root in the desiccated dirt, and precious mineral veins do not form in the dead stone. The only native wildlife to survive are scavenger vultures."
+  },
+  {
+   "q": "Who lives in Deadwind Pass today?",
+   "aliases": [
+    "inhabitants of deadwind pass",
+    "who lives in deadwind",
+    "deadwind pass mobs"
+   ],
+   "answer": "The pass is primarily occupied by the aggressive Deadwind ogre clan inhabiting the Vice, along with lingering carrion birds and restless ghosts. A few wandering human scavengers survive on the move without Alliance support, while Kirin Tor agents watch the pass with unease."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The ley lines beneath Deadwind Pass converge directly into Karazhan. The Kirin Tor monitors this nexus with extreme dread, knowing how Medivh warped its arcane conduit to breach dimensional barriers."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Traces of raw demonic energy still coat the rocks and stone cellars. Medivh's possession and the necromantic history of the pass have left an indelible stain of fel magic waiting to be felt."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stormwind considers this dead corridor a grim scar on its borders. The horrors that escaped Karazhan ended Brightwood's splendor and continue to threaten Darkshire just down the western road."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For travelers moving westward from Stonard, this canyon is a hostile bottleneck infested with vengeful human spirits and hulking ogres that attack anyone entering the gorge."
+  }
+ ],
+ "keywords": [
+  "ariden",
+  "dark riders",
+  "deadman's crossing",
+  "deadwind ogres",
+  "deadwind pass",
+  "karazhan",
+  "medivh",
+  "morgan's plot",
+  "the last guardian",
+  "vice"
+ ],
+ "related": [
+  "subzone:karazhan",
+  "topic:medivh",
+  "subzone:morgan-s-plot",
+  "subzone:ariden-s-camp",
+  "topic:dark-riders",
+  "zone:duskwood",
+  "zone:swampofsorrows",
+  "quest:1043"
+ ],
+ "attribution": [
+  "Deadwind Pass (Classic)",
+  "Deadwind Pass"
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "key": "quest:1095",
+ "type": "quest",
+ "name": "Further Instructions",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1095
+  ],
+  "level": "27",
+  "faction": null,
+  "start": "Sputtervalve",
+  "end": "Ziz Fizziks",
+  "previous": "Further Instructions",
+  "next": "Gerenzo Wrenchwhistle (quest)",
+  "wiki": "Further Instructions (2)",
+  "chain": []
+ },
+ "summary": "Further Instructions marks an escalation in goblin corporate politics, ordering the assassination of a rogue gnome engineer hired by Mogul Razdunk. Sputtervalve delivers directives originating from high within Undermine, commanding Ziz Fizziks to eliminate Gerenzo Wrenchwhistle in the Stonetalon Mountains.",
+ "sections": [
+  {
+   "title": "Corporate Disapproval",
+   "body": "The Venture Company operates under ruthless profit motives, but hiring outsider talent can spark fierce internal friction. When Mogul Razdunk brought the gnome engineer Gerenzo into the fold, word reached Undermine and ruffled feathers among the ruling Trade Princes. Director Riddlevox instructed Sputtervalve to intervene and handle the situation quietly. Sputtervalve, deducing that the order stems from the highest trade authorities, passes down the dirty work to the operative closest to the scene: Ziz Fizziks.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets of Dun Morogh",
+   "body": "Upon receiving the assassination order, Ziz Fizziks eagerly embraces the mission. Goblin engineers harbor natural disdain for gnome rivals, but Gerenzo's personal history makes him an especially volatile figure. Before joining the Venture Company, Gerenzo was a head engineer in Gnomeregan involved in a top-secret endeavor that Undermine spies failed to fully uncover. That project reportedly ended in catastrophe, an explosive failure that sent Gerenzo fleeing across the sea to sell his dangerous expertise in Kalimdor.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sputtervalve?",
+   "aliases": [
+    "sputtervalve",
+    "who gives quest",
+    "quest giver sputtervalve"
+   ],
+   "answer": "Sputtervalve is a goblin operative working under Director Riddlevox. Acting on directives from Undermine, he coordinates field operations and passes contracts down to ground agents like Ziz Fizziks."
+  },
+  {
+   "q": "Why do the Trade Princes care about Gerenzo?",
+   "aliases": [
+    "why do trade princes care",
+    "undermine anger",
+    "gerenzo trade princes"
+   ],
+   "answer": "The Trade Princes of Undermine strongly disapprove of Mogul Razdunk consorting with outside gnome engineers. Hiring high-profile non-goblins threatens internal goblin industrial dominance and invites unwelcome scrutiny."
+  },
+  {
+   "q": "What secret project did Gerenzo work on?",
+   "aliases": [
+    "gerenzo secret project",
+    "gnomeregan explosion",
+    "gerenzo past"
+   ],
+   "answer": "Gerenzo was a lead engineer in Gnomeregan working on a classified project that goblin spies could never penetrate. Whatever he built reportedly ended in catastrophic disaster, literally exploding in the faces of the engineers involved."
+  },
+  {
+   "q": "Where is Ziz Fizziks located?",
+   "aliases": [
+    "ziz fizziks location",
+    "where is ziz",
+    "where to deliver orders"
+   ],
+   "answer": "Ziz Fizziks is stationed in the Stonetalon Mountains, keeping watch over local Venture Company logging and mining efforts while carrying out corporate contracts."
+  },
+  {
+   "q": "Why is Ziz Fizziks eager to kill Gerenzo?",
+   "aliases": [
+    "why ziz hate gerenzo",
+    "fizziks reaction",
+    "why kill gerenzo"
+   ],
+   "answer": "Beyond goblin professional hatred for gnomes, Fizziks recognizes Gerenzo as a hazardous rival whose botched experiments in Dun Morogh make him dangerous to everyone around him."
+  },
+  {
+   "q": "Who is Mogul Razdunk?",
+   "aliases": [
+    "mogul razdunk",
+    "who is razdunk",
+    "venture company boss"
+   ],
+   "answer": "Mogul Razdunk is the chief executive of the Venture Company. His decision to hire Gerenzo directly defied conventional trade etiquette in Undermine, triggering the Trade Princes to push for Gerenzo's elimination."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "The goblin operatives mention Gerenzo's past as a senior engineer in Gnomeregan whose secret experiment detonated catastrophically, hinting at the lingering fallout that contributed to the tinker city's downfall."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The cutthroat rivalry between gnome and goblin engineering takes a literal turn here, shifting from design patent debates into outright corporate assassination."
+  }
+ ],
+ "keywords": [
+  "further instructions",
+  "gerenzo wrenchwhistle",
+  "gnomeregan",
+  "razdunk",
+  "riddlevox",
+  "sputtervalve",
+  "stonetalon",
+  "undermine",
+  "venture company",
+  "ziz fizziks"
+ ],
+ "related": [
+  "quest:1483",
+  "quest:1094",
+  "npc:sputtervalve",
+  "zone:stonetalon",
+  "topic:venture-company",
+  "zone:gnomeregan",
+  "zone:dunmorogh",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Further Instructions (2)"
+ ]
+}

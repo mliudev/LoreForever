@@ -1,0 +1,118 @@
+{
+ "key": "quest:5646",
+ "type": "quest",
+ "name": "Devouring Plague",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   5646
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Ur'kyo",
+  "end": "Aelthalyste",
+  "previous": null,
+  "next": null,
+  "wiki": "Devouring Plague (Orgrimmar)",
+  "chain": []
+ },
+ "summary": "Devouring Plague is a rite-of-passage quest for Forsaken priests who have ventured to Kalimdor to learn from the Darkspear tribe. The troll priest trainer Ur'kyo in Orgrimmar directs promising Forsaken initiates to return home to Undercity, where Aelthalyste waits to impart deeper teachings of the Cult of Forgotten Shadow.",
+ "sections": [
+  {
+   "title": "A Exchange of Faiths",
+   "body": "While the orcs and tauren have little inclination toward priestly worship, the Darkspear trolls and the Forsaken share a curious theological bond within the Horde. In Orgrimmar, the troll priest trainer Ur'kyo guides those drawn to spiritual power. Yet he recognizes that Forsaken initiates must ultimately master the sinister arts unique to their own condition. In a mutual show of respect between their peoples, Ur'kyo directs wandering Forsaken back to Lordaeron to complete their training.",
+   "spoiler": 0
+  },
+  {
+   "title": "The War Quarter of Undercity",
+   "body": "Beneath the ruins of Lordaeron, Priestess Aelthalyste tends to the flock in the Undercity's War Quarter. Forsaken priests walk a solitary, grueling path shaped by the Cult of Forgotten Shadow, tempering the painful touch of the Holy Light with the devastating affliction of Shadow magic. When an initiate attains sufficient prowess, Aelthalyste gathers them close to bestow the affliction known to their kind as the Devouring Plague.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts devouring plague",
+    "ur'kyo location"
+   ],
+   "answer": "Ur'kyo, the troll priest trainer found among the spirits in Orgrimmar, offers this quest to Forsaken priests who have reached their twentieth circle of power."
+  },
+  {
+   "q": "Where do I need to go?",
+   "aliases": [
+    "where do i turn this in",
+    "aelthalyste location",
+    "undercity priest trainer"
+   ],
+   "answer": "You must travel across the Great Sea to the Undercity in Tirisfal Glades. Seek out Priestess Aelthalyste, who presides over Forsaken priest training in the War Quarter."
+  },
+  {
+   "q": "Why does Ur'kyo send Forsaken back to Lordaeron?",
+   "aliases": [
+    "why go back to undercity",
+    "why does troll priest send me away"
+   ],
+   "answer": "Ur'kyo honors an understanding with Priestess Aelthalyste. While troll shadow priests understand loa and spirits, the Forsaken wield dark arts tied specifically to their undead nature, requiring instruction directly from their own leaders."
+  },
+  {
+   "q": "What is the significance of the Devouring Plague?",
+   "aliases": [
+    "what is devouring plague lore",
+    "forsaken priest plague"
+   ],
+   "answer": "Devouring Plague is a potent affliction unique to Forsaken practitioners of the Shadow. It inflicts devastating disease upon targets while siphoning their life force directly back to the caster."
+  },
+  {
+   "q": "Can other Horde races accept this quest?",
+   "aliases": [
+    "can trolls do this",
+    "is this quest undead only"
+   ],
+   "answer": "No. This quest is exclusively offered to Forsaken priests, representing their communion with their homeland's unique shadow disciplines."
+  },
+  {
+   "q": "How does this fit into Horde priest relations?",
+   "aliases": [
+    "trolls and undead priests",
+    "horde priest lore"
+   ],
+   "answer": "The Horde relies on a mutual exchange between Darkspear witch doctors and hex priests on Kalimdor and Forsaken shadow priests in the Eastern Kingdoms, each directing travelers to the masters best suited to their culture."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Forsaken priests draw upon unique racial doctrines of shadow and decay, learning to channel their physical torment into devastating curses like the Devouring Plague."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Returning to the War Quarter in Undercity reminds Forsaken adventurers that their true allegiance and spiritual roots lie beneath the ruins of Lordaeron, regardless of how far Horde duties take them."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The shared training duties between Ur'kyo in Durotar and Aelthalyste in Tirisfal illustrate the practical cooperation and mutual respect tying the distant Horde capitals together."
+  }
+ ],
+ "keywords": [
+  "aelthalyste",
+  "devouring plague",
+  "forsaken priest",
+  "orgrimmar",
+  "shadow priest",
+  "undercity",
+  "ur'kyo",
+  "war quarter"
+ ],
+ "related": [
+  "npc:ur-kyo",
+  "npc:aelthalyste",
+  "zone:undercity",
+  "subzone:war-quarter"
+ ],
+ "attribution": [
+  "Devouring Plague (Orgrimmar)"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "key": "subzone:dawning-wood-catacombs",
+ "type": "subzone",
+ "name": "Dawning Wood Catacombs",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Dawning Wood Catacombs"
+ },
+ "summary": "Carved deep beneath Raven Hill Cemetery, the Dawning Wood Catacombs are a dark labyrinth teeming with the fiercest undead in Duskwood. Those who brave the subterranean tunnels face entrenched swarms of skeletal guardians and flesh-eating ghouls.",
+ "sections": [
+  {
+   "title": "Beneath Raven Hill",
+   "body": "Long before the twilight curse settled over the forest, the Dawning Wood Catacombs served as a grand resting place for the honored dead of Grand Hamlets and the surrounding homesteads. Now buried beneath the ruined Raven Hill Cemetery, these dark stone corridors hold the most lethal undead in the region. The catacombs feature two distinct subterranean wings: the western passages are held by ranks of animated skeletons guarding ancestral tombs, while the eastern passages descend into a foul warren overrun by ravenous, disease-bearing ghouls. Lone travelers rarely survive deep within their depths.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Dawning Wood Catacombs located?",
+   "aliases": [
+    "catacombs location",
+    "where is dawning wood catacombs",
+    "how to get to catacombs"
+   ],
+   "answer": "The catacombs lie directly beneath Raven Hill Cemetery, on the far western edge of Duskwood. Entrances descend from the surface among the sprawling grave markers and ruined crypts."
+  },
+  {
+   "q": "What lurks inside the catacombs?",
+   "aliases": [
+    "catacombs enemies",
+    "what is in dawning wood catacombs",
+    "catacomb monsters"
+   ],
+   "answer": "The catacombs harbor the most concentrated and ferocious undead in Duskwood. The western wing is defended by heavily armed skeletal warriors, while the eastern tunnels are infested with savage, plague-ridden ghouls."
+  },
+  {
+   "q": "Why were the catacombs built in the first place?",
+   "aliases": [
+    "catacombs history",
+    "why build catacombs",
+    "original purpose of catacombs"
+   ],
+   "answer": "Back when the region was still known as the verdant Dawning Wood, the catacombs were excavated as a grand burial vault for local families and luminaries. The dark curse that later engulfed the woods reanimated those entombed within."
+  },
+  {
+   "q": "Is it safe to explore the catacombs alone?",
+   "aliases": [
+    "can i solo catacombs",
+    "catacombs danger",
+    "is catacombs hard"
+   ],
+   "answer": "Venturing into the catacombs alone is perilous. The claustrophobic tunnels offer little room to retreat, and the undead pack tightly together in aggressive swarms capable of overwhelming isolated travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The catacombs are a grim testament to the fallen of the kingdom, demanding that the holy wrath of the Light cleanse the desecrated tombs."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Beneath the stone vaults of Raven Hill, restless spirits and decaying corpses cry out for final rest, making the catacombs a somber trial of faith."
+  }
+ ],
+ "keywords": [
+  "crypts",
+  "dawning wood catacombs",
+  "duskwood",
+  "ghouls",
+  "raven hill cemetery",
+  "skeletons",
+  "undead"
+ ],
+ "related": [
+  "subzone:raven-hill-cemetery",
+  "zone:duskwood",
+  "quest:163",
+  "topic:light",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Dawning Wood Catacombs"
+ ]
+}

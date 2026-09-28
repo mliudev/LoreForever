@@ -1,0 +1,89 @@
+{
+ "key": "npc:wiley-the-black",
+ "type": "npc",
+ "name": "Wiley the Black",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Wiley the Black",
+  "refs": 2
+ },
+ "summary": "Wiley the Black is an elusive rogue currently lying low at the Lakeshire Inn in Redridge. Though shady and reticent, he owes a life-debt to Gryan Stoutmantle and serves as a vital underworld contact regarding the Defias Brotherhood.",
+ "sections": [
+  {
+   "title": "A Scoundrel's Debt",
+   "body": "Tucked away inside the Lakeshire Inn, Wiley the Black keeps a low profile away from the open turmoil of Westfall and the gnoll-infested borders of Redridge. Despite his roguish nature and questionable past, Wiley is bound by honor to Gryan Stoutmantle, commander of the People's Militia. Stoutmantle once saved Wiley's life\u2014or as Stoutmantle grumbles, spared him from rotting in a cell. When the People's Militia desperately needs insight into the inner workings of the Defias conspiracy, Wiley is the informant they turn to, reluctantly parting with covert intelligence to clear his debt.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Wiley the Black?",
+   "aliases": [
+    "wiley location",
+    "where is wiley the black",
+    "wiley redridge",
+    "lakeshire inn wiley"
+   ],
+   "answer": "Wiley the Black is located inside the Lakeshire Inn in the town of Lakeshire, nestled within the Redridge Mountains."
+  },
+  {
+   "q": "Why is Wiley helping Gryan Stoutmantle?",
+   "aliases": [
+    "why help gryan",
+    "wiley gryan relationship",
+    "wiley stoutmantle debt"
+   ],
+   "answer": "Gryan Stoutmantle saved Wiley's life in the past. Even though Gryan views him as an infuriating scoundrel and Wiley is reluctant to stick his neck out, Wiley honors the debt by relaying vital information about the Defias Brotherhood."
+  },
+  {
+   "q": "How does Wiley know about the Defias Brotherhood?",
+   "aliases": [
+    "is wiley defias",
+    "how does wiley know defias",
+    "wiley defias connection"
+   ],
+   "answer": "Wiley possesses intimate knowledge of underworld movements and Defias operations. His underworld connections and secretive nature suggest he has deep ties to the criminal network operating out of Westfall, perhaps even as a former associate."
+  },
+  {
+   "q": "What role does he play in the Defias investigation?",
+   "aliases": [
+    "wiley quest role",
+    "what does wiley do",
+    "defias brotherhood wiley"
+   ],
+   "answer": "When the People's Militia captures mysterious clues pointing to a larger conspiracy, Stoutmantle sends adventurers to Lakeshire with a message for Wiley. Wiley examines the situation and provides a written note directing the militia toward the leaders orchestrating the rebellion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Wiley demonstrates the delicate craft of staying alive through tradecraft and intelligence. For rogues, he is a classic example of an operative who survives by knowing when to trade information and whom to repay."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With Stormwind's army absent, the Alliance relies on unofficial assets like Wiley to piece together the rebellion festering in Westfall."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "gryan stoutmantle",
+  "informant",
+  "lakeshire",
+  "redridge",
+  "wiley",
+  "wiley the black"
+ ],
+ "related": [
+  "quest:65",
+  "npc:gryan-stoutmantle",
+  "topic:defias-brotherhood",
+  "subzone:lakeshire-inn",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Wiley the Black"
+ ]
+}

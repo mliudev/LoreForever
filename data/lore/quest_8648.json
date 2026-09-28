@@ -1,0 +1,114 @@
+{
+ "key": "quest:8648",
+ "type": "quest",
+ "name": "Darkcore the Elder",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   8648
+  ],
+  "level": "",
+  "faction": null,
+  "start": "Elder Darkcore",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Darkcore the Elder",
+  "chain": []
+ },
+ "summary": "Darkcore the Elder is a seasonal quest encountered during the Lunar Festival within the Undercity. By seeking out Elder Darkcore, travelers pay homage to the ancient spirits honored across Azeroth and receive a Coin of Ancestry in return.",
+ "sections": [
+  {
+   "title": "A Spirit in the Undercity",
+   "body": "During the Lunar Festival, spirits of ancient night elven and earthen ancestors appear throughout the continents to share their wisdom and blessings. Elder Darkcore resides in the shadowed halls of the Undercity, bearing witness to the modern realm while offering remembrance to those who seek out the roots of the world.",
+   "spoiler": 0
+  },
+  {
+   "title": "Honoring the Ancestors",
+   "body": "Approaching Elder Darkcore satisfies an ancient custom of showing respect to the venerable dead and the timeless wardens of Azeroth. In recognition of this pilgrimage, the spirit gifts travelers a Coin of Ancestry as a token of goodwill and enduring memory.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of visiting Elder Darkcore?",
+   "aliases": [
+    "elder darkcore goal",
+    "why visit darkcore",
+    "darkcore quest purpose"
+   ],
+   "answer": "Visiting Elder Darkcore during the Lunar Festival allows adventurers to pay homage to the ancient peoples of Azeroth. Speaking with him completes the quest and earns a Coin of Ancestry."
+  },
+  {
+   "q": "Where can Elder Darkcore be found?",
+   "aliases": [
+    "elder darkcore location",
+    "where is elder darkcore",
+    "darkcore undercity spot"
+   ],
+   "answer": "Elder Darkcore manifests inside the Undercity, standing among the somber subterranean avenues of the Forsaken capital."
+  },
+  {
+   "q": "What is the Lunar Festival?",
+   "aliases": [
+    "lunar festival lore",
+    "why are elders appearing",
+    "what are the elders"
+   ],
+   "answer": "The Lunar Festival is an annual season of remembrance and renewal observed across Azeroth, celebrating the triumph over the Burning Legion and paying reverence to ancient elders who guided mortal races."
+  },
+  {
+   "q": "What do the elders represent?",
+   "aliases": [
+    "who are the elders",
+    "lunar festival elders lore",
+    "ancestor spirits"
+   ],
+   "answer": "Elders are ancient spirits, typically linked to the night elves or early earthen cultures, who emerge during the Lunar Festival to bless those who remember their deeds and carry forward the lessons of antiquity."
+  },
+  {
+   "q": "Can Alliance adventurers speak to Elder Darkcore?",
+   "aliases": [
+    "alliance darkcore",
+    "can alliance get darkcore",
+    "elder darkcore alliance"
+   ],
+   "answer": "Elder Darkcore will greet any traveler who manages to reach him, though Alliance players must brave the heavily defended Forsaken capital to do so."
+  },
+  {
+   "q": "What is a Coin of Ancestry?",
+   "aliases": [
+    "what are coins of ancestry",
+    "coin of ancestry use",
+    "lunar festival coin"
+   ],
+   "answer": "A Coin of Ancestry is a festive token bestowed by elders during the Lunar Festival, symbolizing reverence for antiquity and tradable for festive garb and seasonal keepsakes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken walking through the ruins of their former kingdom, Elder Darkcore offers an eerie reminder of older times before the Scourge and the fall of Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Elder Darkcore allows members of the Horde to partake in the continent-wide rites of the Lunar Festival directly within the safety of an allied capital."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "coin of ancestry",
+  "darkcore the elder",
+  "elder darkcore",
+  "elders",
+  "lunar festival",
+  "undercity"
+ ],
+ "related": [
+  "npc:elder-darkcore"
+ ],
+ "attribution": [
+  "Darkcore the Elder"
+ ]
+}

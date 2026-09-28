@@ -1,0 +1,120 @@
+{
+ "key": "quest:833",
+ "type": "quest",
+ "name": "A Sacred Burial",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   833
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Lorekeeper Raintotem",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "A Sacred Burial",
+  "chain": []
+ },
+ "summary": "A Sacred Burial is a quest entrusted by Lorekeeper Raintotem, tasking Horde adventurers with protecting Red Rocks in eastern Mulgore. The sacred ancestral burial grounds have been overrun by marauding Bristleback quilboar who are defiling the graves of esteemed tauren warriors. Driving off these interlopers restores honor and peace to those who gave their lives founding and defending Thunder Bluff.",
+ "sections": [
+  {
+   "title": "Hallowed Ground of the Shu'halo",
+   "body": "Red Rocks serves as one of the most revered sanctuaries in all of Mulgore. Tucked into the crags beneath the eastern mountains, it is the final resting place reserved exclusively for the most valiant tauren. The heroes interred here are legendary warriors who shed blood to protect their tribes, uphold their chieftains, and carve out a permanent homeland atop the mesas of Thunder Bluff. To the Shu'halo, disturbing their rest is an affront not just to tradition, but to the Earth Mother herself.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Bristleback Desecration",
+   "body": "The nomadic quilboar of the Bristleback tribe have persistently contested tauren control over central Kalimdor, but their recent push into Red Rocks represents a grave escalation. Bands of Bristleback Interlopers have crept onto the holy grounds, ravaging the earth and disturbing the resting sites. With the guardian Lorekeeper Raintotem too aged to single-handedly drive the invaders away, young champions of the Horde must take up weapons to purge the site of the intruders and defend the honored dead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Red Rocks?",
+   "aliases": [
+    "where is red rocks",
+    "red rocks mulgore",
+    "tauren burial ground"
+   ],
+   "answer": "Red Rocks is a sacred ancestral cemetery located along the eastern mountains of Mulgore. It is reserved specifically for the most valiant tauren warriors, particularly those who died defending their tribes and founding Thunder Bluff."
+  },
+  {
+   "q": "Who is Lorekeeper Raintotem?",
+   "aliases": [
+    "raintotem",
+    "lorekeeper raintotem",
+    "who gives a sacred burial"
+   ],
+   "answer": "Lorekeeper Raintotem is an elder tauren tasked with tending and safeguarding the sacred grounds of Red Rocks. Recognizing that he is past his prime and cannot physically repel the invading Bristlebacks alone, he calls upon capable adventurers to defend the dead."
+  },
+  {
+   "q": "Why are the Bristleback quilboar at Red Rocks?",
+   "aliases": [
+    "why are quilboar at red rocks",
+    "bristleback interlopers",
+    "quilboar invasion"
+   ],
+   "answer": "The Bristleback tribe continuously presses against tauren territory across Mulgore and the Barrens. Desperate for territory and resources, bands of interlopers have pushed into the crags of Red Rocks, desecrating the gravesites in the process."
+  },
+  {
+   "q": "Why is this desecration so offensive to the tauren?",
+   "aliases": [
+    "tauren funerary customs",
+    "why tauren care about burial"
+   ],
+   "answer": "Tauren culture places immense reverence upon honoring their ancestors and living in balance with the spirits of the fallen. Allowing savage quilboar to ravage the earth and disturb the bones of heroes who died for Thunder Bluff is a deeply spiritual insult."
+  },
+  {
+   "q": "Where does this quest lead next?",
+   "aliases": [
+    "sacred burial follow up",
+    "what comes after sacred burial"
+   ],
+   "answer": "A Sacred Burial is a standalone defensive task offered by Lorekeeper Raintotem. Once the Bristleback Interlopers are dealt with, the immediate desecration is halted, though other tasks at Red Rocks delve into the spiritual unrest within the bluffs."
+  },
+  {
+   "q": "Who is buried at Red Rocks?",
+   "aliases": [
+    "who is buried here",
+    "red rocks graves"
+   ],
+   "answer": "The site is reserved for champion tauren who fought for the survival of their tribes and chieftains, especially those whose sacrifices made the establishment and defense of Thunder Bluff possible."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Defending Red Rocks is a matter of profound ancestral honor, ensuring that the warriors who made your people's unified homeland possible rest undisturbed."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The desecration of sacred grounds agitates the spirits of the honored ancestors, making your intervention necessary to restore balance to the earth."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting the tauren elders in securing their sacred monuments solidifies the Horde's pledge to defend Mulgore alongside their allies."
+  }
+ ],
+ "keywords": [
+  "a sacred burial",
+  "ancestors",
+  "bristleback interloper",
+  "lorekeeper raintotem",
+  "mulgore",
+  "quilboar",
+  "red rocks",
+  "thunder bluff"
+ ],
+ "related": [
+  "subzone:red-rocks",
+  "npc:lorekeeper-raintotem",
+  "zone:mulgore",
+  "topic:tauren",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "A Sacred Burial"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "key": "subzone:military-ward",
+ "type": "subzone",
+ "name": "Military Ward",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Military Ward"
+ },
+ "summary": "The Military Ward serves as the martial heart of Ironforge, housing the city's command infrastructure, weapons masters, and barracks. Marked by bold red banners, it is where dwarven soldiers, hunters, and siege engineers train alongside mechanized siege engines and flying machines.",
+ "sections": [
+  {
+   "title": "The Anvil of Dwarven Might",
+   "body": "Situated within the northern perimeter of the mountain fortress, the Military Ward concentrates Ironforge's defensive forces into a bustling staging ground. The central complex, the Hall of Arms, accommodates warrior and hunter trainers, battlemasters, and hangars housing dwarven flying machines and steam tanks. Surrounding the drill squares and training dummies are supply outlets such as Craghelm's Plate and Chain, Goldfury's Hunting Supplies, and Timberline Arms, making the ward the primary staging point for mountaineers and city defenders.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Garrison under Banners of War",
+   "body": "Distinguished from the pale blue of the Commons and the fiery orange of the Great Forge, the Military Ward is draped in martial red banners. Between drills and weapons inspections, soldiers and off-duty guards gather at Bruuk's Corner for an ale, while Weapon Master Buliwyf Stonehand instructs recruits in ancient dwarven martial traditions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Military Ward?",
+   "aliases": [
+    "military ward ironforge",
+    "ironforge barracks",
+    "ironforge warrior district"
+   ],
+   "answer": "It is the martial quarter of Ironforge, serving as the central base for the dwarven army, warrior and hunter trainers, weapons merchants, and siege machinery."
+  },
+  {
+   "q": "Where can I train in weapons in Ironforge?",
+   "aliases": [
+    "ironforge weapon master",
+    "where is buliwyf stonehand",
+    "learn weapons ironforge"
+   ],
+   "answer": "Weapon Master Buliwyf Stonehand is stationed at Timberline Arms within the Military Ward, offering training in various armaments to Alliance fighters."
+  },
+  {
+   "q": "What is kept inside the Hall of Arms?",
+   "aliases": [
+    "hall of arms ironforge",
+    "what is in hall of arms",
+    "ironforge siege engines"
+   ],
+   "answer": "The Hall of Arms functions as the military headquarters, containing combat instructors, battlemasters, and large bays storing steam tanks and dwarven flying machines."
+  },
+  {
+   "q": "Why are the banners red in this district?",
+   "aliases": [
+    "military ward colors",
+    "red banners ironforge"
+   ],
+   "answer": "Ironforge's districts use specific heraldic colors for navigation and tradition; the Military Ward is draped in bold red banners to represent the martial arm of the mountain city."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "The Military Ward is the chief martial hub in Ironforge, offering warrior trainers, training dummies for combat practice, and weapon masters to broaden your battlefield arsenal."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Rangers and mountaineers will find beast masters and supplies in the Hall of Arms, alongside Goldfury's Hunting Supplies for munitions and gear."
+  }
+ ],
+ "keywords": [
+  "buliwyf stonehand",
+  "flying machines",
+  "hall of arms",
+  "ironforge",
+  "military ward",
+  "steam tanks",
+  "timberline arms"
+ ],
+ "related": [
+  "zone:ironforge",
+  "subzone:great-forge",
+  "subzone:commons"
+ ],
+ "attribution": [
+  "Military Ward"
+ ]
+}

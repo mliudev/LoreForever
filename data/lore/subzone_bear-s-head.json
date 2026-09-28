@@ -1,0 +1,72 @@
+{
+ "key": "subzone:bear-s-head",
+ "type": "subzone",
+ "name": "Bear's Head",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Bear's Head"
+ },
+ "summary": "Bear's Head is a secluded mountainous stretch along the southeastern cliffs of Azshara. Named for the resident Timbermaw furbolgs whose settlements dot the rugged high ground, it serves as an outpost linked to their larger homes farther north while lying directly beneath the cliffside sanctum of Archmage Xylem.",
+ "sections": [
+  {
+   "title": "Furbolg Outposts and Cliffside Magic",
+   "body": "Tucked away in southeastern Azshara, Bear's Head takes its name from the encampments of uncorrupted Timbermaw furbolgs established upon its heights. These rustic settlements act as outlying camps tied to the major furbolg dens of Ursolan and Timbermaw Hold to the north. Perched atop the looming cliffs directly above the area sits Xylem's Tower, an eccentric sanctuary where Archmage Xylem and his small retinue of apprentices conduct arcane studies in quiet isolation from the rest of the troubled coastline.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this area called Bear's Head?",
+   "aliases": [
+    "bear's head name origin",
+    "why bears head",
+    "bears head meaning"
+   ],
+   "answer": "The region is named after the Timbermaw furbolg villages established throughout its hills. The bear-folk maintain active encampments here, which serve as southern outposts for their strongholds in northern Kalimdor."
+  },
+  {
+   "q": "Which furbolgs live in Bear's Head?",
+   "aliases": [
+    "bears head furbolgs",
+    "timbermaw in bears head",
+    "what furbolg tribe is here"
+   ],
+   "answer": "The area is populated by the Timbermaw tribe. Unlike many other furbolg tribes across Kalimdor who fell victim to demonic corruption, the Timbermaw have largely resisted the taint and remain connected to their principal settlements at Ursolan and Timbermaw Hold."
+  },
+  {
+   "q": "What is the tower on the cliffs above Bear's Head?",
+   "aliases": [
+    "tower above bears head",
+    "who lives in the tower here",
+    "xylem tower"
+   ],
+   "answer": "The cliffside spire belongs to Archmage Xylem. He is an eccentric human wizard who retreated from Dalaran to Azshara to pursue his studies in seclusion, accompanied by a handful of apprentices and high elven associates."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The towering cliff overlooking Bear's Head is home to Archmage Xylem, a powerful and eccentric spellcaster sought out by practitioners of the arcane seeking advanced training."
+  }
+ ],
+ "keywords": [
+  "archmage xylem",
+  "azshara",
+  "bear's head",
+  "bears head",
+  "furbolg",
+  "timbermaw",
+  "ursolan"
+ ],
+ "related": [
+  "zone:azshara",
+  "npc:archmage-xylem",
+  "topic:furbolg",
+  "subzone:timbermaw-hold",
+  "subzone:ursolan"
+ ],
+ "attribution": [
+  "Bear's Head"
+ ]
+}

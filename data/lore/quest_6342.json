@@ -1,0 +1,123 @@
+{
+ "key": "quest:6342",
+ "type": "quest",
+ "name": "Flight to Auberdine",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   6342
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Vesprystus",
+  "end": "Laird",
+  "previous": "The Bounty of Teldrassil",
+  "next": "Return to Nessa",
+  "wiki": "Flight to Auberdine",
+  "chain": []
+ },
+ "summary": "This errand introduces adventurers leaving Teldrassil to the night elves' aerial transit network. Tasked by the hippogryph master Vesprystus at Rut'theran Village, travellers take wing across the sea to deliver a bundle of oversized marine specimens to Laird in Auberdine.",
+ "sections": [
+  {
+   "title": "Taking Wing to Darkshore",
+   "body": "For many young adventurers departing the boughs of Teldrassil, Rut'theran Village marks the threshold between sanctuary and the wider world. While a mundane ferry plies the strait between the island haven and mainland Kalimdor, the night elves rely equally on their bonded hippogryphs. Entrusted with a parcel of rare fish parts from Nessa Shadowsong, travellers mount one of these winged beasts to establish their very first flight path onto the shores of Darkshore.",
+   "spoiler": 0
+  },
+  {
+   "title": "Curious Catches",
+   "body": "The delivery itself is of keen interest to the fishermen of Darkshore. Laird, awaiting Nessa's findings at the docks of Auberdine, inspects the catch to find enormous scales the size of fists and a jawbone nearly twice the size of mainland specimens. The island waters around the base of the World Tree seem to produce altered or abnormally large life, a curiosity that hints at the potent, restless nature of Teldrassil itself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this flight?",
+   "aliases": [
+    "why do i fly to auberdine",
+    "flight to auberdine quest goal",
+    "why fly"
+   ],
+   "answer": "The journey serves as a practical lesson in connecting flight paths between settlements while also delivering research samples of unusual fish caught around Rut'theran Village to Laird in Auberdine."
+  },
+  {
+   "q": "Who sends the parcel, and what is inside it?",
+   "aliases": [
+    "nessa's collection",
+    "what is in the package",
+    "who sent package"
+   ],
+   "answer": "The package comes from the fisherwoman Nessa Shadowsong. It contains fish specimens from the waters surrounding Rut'theran Village, including massive scales and an oversized jawbone."
+  },
+  {
+   "q": "Why are the fish from Teldrassil so large?",
+   "aliases": [
+    "why are fish big",
+    "rut'theran fish size",
+    "huge scales"
+   ],
+   "answer": "Laird notes that the jawbone is nearly twice normal size and the scales are as big as a fist. The waters encircling the World Tree of Teldrassil foster strangely magnified wildlife compared to the mainland shores of Darkshore."
+  },
+  {
+   "q": "Who is Vesprystus?",
+   "aliases": [
+    "vesprystus lore",
+    "who is the hippogryph master"
+   ],
+   "answer": "Vesprystus is the hippogryph master stationed at Rut'theran Village. He tends the night elven mounts and coordinates aerial travel across the water to mainland Kalimdor."
+  },
+  {
+   "q": "Who is Laird?",
+   "aliases": [
+    "laird lore",
+    "who is laird",
+    "laird darkshore"
+   ],
+   "answer": "Laird is a night elf fisherman based in Auberdine on the coast of Darkshore. He studies local aquatic life and compares mainland catches against those caught near Teldrassil."
+  },
+  {
+   "q": "Can you travel between Rut'theran and Auberdine without flying?",
+   "aliases": [
+    "boat to auberdine",
+    "ferry to darkshore",
+    "other way to auberdine"
+   ],
+   "answer": "Yes. A regular ferry boat runs between the docks at Rut'theran Village and the pier at Auberdine, offering an alternative to the hippogryph flight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Taking flight on a hippogryph to Auberdine marks an iconic rite of passage for young kaldorei stepping forth from Teldrassil onto the ancestral mainland."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Hippogryphs serve as the Alliance's primary aerial network throughout northern Kalimdor, linking coastal outposts directly to the capital."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "flight path",
+  "flight to auberdine",
+  "hippogryph",
+  "laird",
+  "nessa shadowsong",
+  "rut'theran village",
+  "teldrassil",
+  "vesprystus"
+ ],
+ "related": [
+  "npc:vesprystus",
+  "npc:laird",
+  "subzone:rut-theran-village",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:6341",
+  "quest:6343",
+  "quest:940"
+ ],
+ "attribution": [
+  "Flight to Auberdine"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "key": "npc:thor",
+ "type": "npc",
+ "name": "Thor",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Thor",
+  "refs": 2
+ },
+ "summary": "Thor is the gryphon flight master stationed atop the fortified tower at Sentinel Hill in Westfall. As the vital aerial link between the beleaguered People's Militia and the capital city of Stormwind, he oversees the dispatch of couriers, scouts, and urgent messages across kingdom skies.",
+ "sections": [
+  {
+   "title": "The Eyrie of Sentinel Hill",
+   "body": "Perched on the ramparts of Sentinel Hill, Thor manages the flight roost that ties Westfall's frontier defenders to the heart of the kingdom. While the People's Militia struggles on the ground against roaming bandits, gnolls, and malfunctioning harvest golems, Thor ensures that crucial military dispatches and travelers can bypass the perilous roads altogether. Through his tamed gryphons, urgent requests for aid and reports from Gryan Stoutmantle reach the court in Stormwind far quicker than any ground messenger could manage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thor?",
+   "aliases": [
+    "who is this guy",
+    "sentinel hill flight master",
+    "thor npc"
+   ],
+   "answer": "Thor is a human flight master stationed at Sentinel Hill in Westfall. He tends to the trained gryphons that provide aerial travel between Westfall and other Alliance settlements, notably Stormwind City."
+  },
+  {
+   "q": "What role does he play in Westfall?",
+   "aliases": [
+    "what does thor do",
+    "thor purpose"
+   ],
+   "answer": "He serves as the aerial lifeline for Sentinel Hill. Thor coordinates couriers carrying vital military correspondence between the People's Militia and the high command in Stormwind, ensuring commanders remain informed despite Defias activity on the roads."
+  },
+  {
+   "q": "Why is gryphon travel important here?",
+   "aliases": [
+    "why fly in westfall",
+    "westfall flight path"
+   ],
+   "answer": "The roads connecting Westfall to Elwynn Forest and Duskwood are rife with Defias highwaymen, Riverpaw gnolls, and dangerous wildlife. Gryphon flights provide a secure, swift bypass that keeps supply and communication lines intact."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions assisting the People's Militia, Thor provides the quickest route back to the capital to deliver field intelligence and restock supplies."
+  }
+ ],
+ "keywords": [
+  "courier",
+  "flight master",
+  "gryphon",
+  "peoples militia",
+  "sentinel hill",
+  "thor",
+  "westfall"
+ ],
+ "related": [
+  "subzone:sentinel-hill",
+  "zone:westfall",
+  "quest:6181",
+  "quest:6281",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Thor"
+ ]
+}

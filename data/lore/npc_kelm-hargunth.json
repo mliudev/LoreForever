@@ -1,0 +1,116 @@
+{
+ "key": "npc:kelm-hargunth",
+ "type": "npc",
+ "name": "Kelm Hargunth",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Kelm Hargunth",
+  "refs": 3
+ },
+ "summary": "Kelm Hargunth is the primary supply officer and quartermaster for the Warsong Outriders, stationed at Mor'shan Base Camp on the northern border of the Barrens. He equips Horde champions fighting against the night elves in the contested forests of Warsong Gulch. Through his care packages and provisions, he ensures that the frontline war effort remains fully supplied.",
+ "sections": [
+  {
+   "title": "Quartermaster of Mor'shan",
+   "body": "Perched on the earthen ramparts overlooking Ashenvale, Kelm Hargunth oversees logistical operations for the Warsong Outriders at Mor'shan Base Camp. While scouts and raiders skirmish beyond the stockade, Hargunth manages the flow of weapons, armor, and rations required to sustain a protracted border war. To him, victory against the Silverwing Sentinels depends as much on steady provisions as it does on raw battle fury.",
+   "spoiler": 0
+  },
+  {
+   "title": "Supplying the Front",
+   "body": "Hargunth distributes specialized supplies to warriors who have proven their valor in the gulch. From custom care packages stuffed with field dressings and iron rations to mastercrafted armaments bearing the crimson insignia of the Warsong clan, his stores are reserved strictly for those who bleed for the Horde's territorial ambitions in the timber-rich forests to the north.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kelm Hargunth?",
+   "aliases": [
+    "kelm hargunth",
+    "who is kelm",
+    "mor'shan vendor",
+    "warsong vendor"
+   ],
+   "answer": "Kelm Hargunth is an orc supply officer representing the Warsong Outriders. Stationed at Mor'shan Base Camp in the northern Barrens, he distributes weapons, armor, and combat provisions to Horde soldiers fighting in Warsong Gulch."
+  },
+  {
+   "q": "Where is Kelm Hargunth located?",
+   "aliases": [
+    "kelm location",
+    "where is kelm hargunth",
+    "mor shan supply officer location"
+   ],
+   "answer": "He is stationed at Mor'shan Base Camp, situated at the far northern edge of the Barrens right along the rampart divide that leads into Ashenvale."
+  },
+  {
+   "q": "What faction does Kelm Hargunth serve?",
+   "aliases": [
+    "kelm faction",
+    "warsong outriders quartermaster",
+    "who does kelm work for"
+   ],
+   "answer": "He serves the Warsong Outriders, the Horde vanguard dedicated to securing lumber and claiming territory in southern Ashenvale against the night elves."
+  },
+  {
+   "q": "What are the care packages Kelm offers?",
+   "aliases": [
+    "outrider care package",
+    "kelm care package",
+    "warsong care package"
+   ],
+   "answer": "Hargunth dispenses Basic, Standard, and Advanced Care Packages to frontline fighters. These supply bundles contain essential battlefield sundries, bandages, and rations to keep Horde combatants sustained in the gulch."
+  },
+  {
+   "q": "Why is Mor'shan Base Camp so important to the Warsong?",
+   "aliases": [
+    "why morshan base camp",
+    "morshan purpose",
+    "base camp lore"
+   ],
+   "answer": "Mor'shan Base Camp acts as the fortified staging ground and staging checkpoint between the Barrens and Ashenvale, allowing the Warsong clan to ferry supplies, reinforcements, and harvested timber safely into Horde lands."
+  },
+  {
+   "q": "What kind of gear does Kelm Hargunth provide?",
+   "aliases": [
+    "kelm pvp gear",
+    "warsong rewards",
+    "what does kelm sell"
+   ],
+   "answer": "He equips proven fighters with Warsong battle tabards, specialized weapons like the Scout's Blade and Legionnaire's Sword, tailored armor sets, rings, and battlefield draughts intended for close-quarters skirmishing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Kelm Hargunth provides the tools of war for any Horde soldier willing to take up arms against the night elves in Warsong Gulch."
+  },
+  {
+   "target": "race:Orc",
+   "text": "To the orcs, Hargunth ensures that Grom Hellscream's legacy in Ashenvale endures by keeping the Warsong clan armed and fed."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Frontline warriors rely heavily on Hargunth's sturdy plate leggings, heavy blades, and combat rations to hold the line against the Alliance."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "care package",
+  "kelm hargunth",
+  "mor'shan base camp",
+  "pvp vendor",
+  "quartermaster",
+  "warsong gulch",
+  "warsong outriders"
+ ],
+ "related": [
+  "subzone:mor-shan-base-camp",
+  "npc:warsong-outrider",
+  "zone:barrens",
+  "quest:7866",
+  "quest:7867",
+  "quest:7868"
+ ],
+ "attribution": [
+  "Kelm Hargunth"
+ ]
+}

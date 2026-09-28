@@ -1,0 +1,113 @@
+{
+ "key": "quest:86784",
+ "type": "quest",
+ "name": "Sticks and Bones",
+ "era": "forever",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   86784
+  ],
+  "level": "7",
+  "faction": "Horde",
+  "start": "Deathguard Bartholomew",
+  "end": "Eleanor Shackleton",
+  "previous": "",
+  "next": "",
+  "wiki": "Sticks and Bones (Forever)",
+  "chain": []
+ },
+ "summary": "Sticks and Bones is a local task offered by Deathguard Bartholomew in Tirisfal Glades. He sends travelers to gather dry branches across the blighted woodland to deliver to Eleanor Shackleton, an experienced survivalist camped in the western hills.",
+ "sections": [
+  {
+   "title": "A Friendly Gesture",
+   "body": "While Deathguards in Tirisfal Glades are usually consumed by military patrol duty and guarding against the Scourge or Scarlet crusaders, Deathguard Bartholomew takes a moment to look out for an acquaintance. Knowing that Eleanor Shackleton spends her unlife out in the harsh elements, he encourages passing adventurers to collect dry branches for her camp fire.",
+   "spoiler": 0
+  },
+  {
+   "title": "Life in the Wilds",
+   "body": "Eleanor Shackleton prides herself on surviving the blighted wilderness of Tirisfal alone. Despite being undead, the Forsaken still feel the damp, bitter chill that rolls off the northern moors. Eleanor's philosophy on wood gathering is simple: whenever you think you have collected enough firewood, collect five times more. Grateful for the extra timber, she lets the courier keep Bartholomew's basket and shares the warmth of her fire.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts the quest Sticks and Bones?",
+   "aliases": [
+    "who gives sticks and bones",
+    "sticks and bones quest starter"
+   ],
+   "answer": "Deathguard Bartholomew in Tirisfal Glades gives this task to passing adventurers, asking them to help his associate Eleanor Shackleton."
+  },
+  {
+   "q": "Where is Eleanor Shackleton camped?",
+   "aliases": [
+    "eleanor shackleton location",
+    "where is eleanor",
+    "where to turn in sticks and bones"
+   ],
+   "answer": "Eleanor Shackleton maintains a small camp out in the hills to the west in Tirisfal Glades, surviving the elements away from the settlements."
+  },
+  {
+   "q": "Why do the Forsaken need firewood if they are undead?",
+   "aliases": [
+    "do undead get cold",
+    "why firewood for undead",
+    "forsaken cold"
+   ],
+   "answer": "While the Forsaken do not freeze to death like the living, they still feel the persistent damp and bitter cold of the Tirisfal wilderness. A campfire provides comfort, keeps their stiff joints warm, and maintains a livable camp in the wilds."
+  },
+  {
+   "q": "What advice does Eleanor give about gathering wood?",
+   "aliases": [
+    "eleanor firewood rule",
+    "eleanor advice"
+   ],
+   "answer": "According to Deathguard Bartholomew, Eleanor's golden survival rule is: 'When you think you have enough firewood, gather five times more.'"
+  },
+  {
+   "q": "What item do you use to collect the branches?",
+   "aliases": [
+    "basket for dry branch",
+    "how to gather branches"
+   ],
+   "answer": "Deathguard Bartholomew provides a collecting basket to carry the six dry branches found across the glades, which Eleanor lets you keep upon completing the delivery."
+  },
+  {
+   "q": "Does this quest lead to further survival training?",
+   "aliases": [
+    "sticks and bones followup",
+    "what does eleanor do next"
+   ],
+   "answer": "Eleanor welcomes you to her camp and shares advice on traveling the wilds as an adventurer, providing a friendly contact point in the Tirisfal wilderness."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Even in Lordaeron's blighted woods, Forsaken travelers like Eleanor Shackleton must adapt the old habits of survival to their new unlife."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Outlying campers like Eleanor offer friendly stopping points for young Horde adventurers striking out across Tirisfal Glades."
+  }
+ ],
+ "keywords": [
+  "collecting basket",
+  "deathguard bartholomew",
+  "dry branch",
+  "eleanor shackleton",
+  "firewood",
+  "sticks and bones",
+  "survival",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:deathguard-bartholomew",
+  "npc:eleanor-shackleton",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Sticks and Bones (Forever)"
+ ]
+}

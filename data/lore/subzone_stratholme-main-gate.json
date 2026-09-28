@@ -1,0 +1,93 @@
+{
+ "key": "subzone:stratholme-main-gate",
+ "type": "subzone",
+ "name": "Stratholme Main Gate",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Stratholme Main Gate"
+ },
+ "summary": "The Stratholme Main Gate stands as the grand, burning entrance to Lordaeron's northern metropolis in the northwestern Eastern Plaguelands. It provides direct access through the city's ruined avenues toward King's Square and the crusader fortifications within.",
+ "sections": [
+  {
+   "title": "Gateway to a Fallen Jewel",
+   "body": "Stratholme was once the pride of northern Lordaeron, famed as the birthplace of the Order of the Silver Hand. Today, its colossal arched main gates mark the threshold of an ongoing nightmare. It was here during the Third War that Prince Arthas turned on his mentor, Uther the Lightbringer, and purged his own citizens before the Plague of Undeath could claim them. The city has burned relentlessly ever since, transformed into the primary Scourge stronghold in the region.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scarlet Approach",
+   "body": "Approaching through the main gate leads straight into the ruins of King's Square and Market Row, heading toward the fortified district known as the Scarlet Bastion. Zealots of the Scarlet Crusade pushed through this entrance to reclaim the city and purge the dead, carving out an encampment in the ruins. However, the crusaders find themselves surrounded by overwhelming undead monstrosities, fighting an attrition war they cannot win against the dark forces orchestrating Stratholme's defense.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this gate lead?",
+   "aliases": [
+    "where does strat main gate go",
+    "what is stratholme main gate",
+    "front entrance strat"
+   ],
+   "answer": "The main gate is the grand front portal into Stratholme, opening directly into King's Square and Market Row. It serves as the primary route toward the Scarlet Bastion, the district contested by the Scarlet Crusade."
+  },
+  {
+   "q": "Why is the city behind these gates still burning?",
+   "aliases": [
+    "why is stratholme on fire",
+    "who burned stratholme",
+    "fire in stratholme"
+   ],
+   "answer": "During the Third War, Prince Arthas purged the city and set it ablaze to stop the spread of the Plague of Undeath. Dark necromantic magic, unholy fires, and rampant Scourge corruption have kept the ruined city smoldering and burning without pause ever since."
+  },
+  {
+   "q": "What is the difference between this gate and the Service Entrance?",
+   "aliases": [
+    "main gate vs service entrance",
+    "which strat entrance",
+    "strat doors"
+   ],
+   "answer": "Both entryways lead into the same vast ruined city, but from opposite ends. The Main Gate enters near the living and scarlet-held quarters of the city, whereas the Service Entrance opens into the eastern streets directly under the thrall of the Scourge slaughterhouses and Baron Rivendare."
+  },
+  {
+   "q": "Who controls the area immediately inside the Main Gate?",
+   "aliases": [
+    "who is inside main gate",
+    "what mobs are at strat front"
+   ],
+   "answer": "The initial streets beyond the archway are prowled by shambling zombies, ghouls, skeletal horrors, and wandering shades, while the Scarlet Crusade maintains an embattled bastion further into the avenues."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Standing before these gates carries immense grief for paladins; this is where the Silver Hand fractured when Arthas disbanded the order on the day he purged Stratholme."
+  },
+  {
+   "target": "race:Human",
+   "text": "The main archway was once the grand threshold of Lordaeron's second-greatest capital, now reduced to an ash-choked necropolis."
+  }
+ ],
+ "keywords": [
+  "arthas",
+  "eastern plaguelands",
+  "front entrance",
+  "king's square",
+  "main gate",
+  "scarlet bastion",
+  "scourge",
+  "stratholme"
+ ],
+ "related": [
+  "subzone:stratholme",
+  "subzone:stratholme-service-entrance",
+  "zone:easternplaguelands",
+  "topic:scarlet-crusade",
+  "topic:scourge",
+  "topic:lordaeron",
+  "topic:third-war",
+  "topic:plague-of-undeath"
+ ],
+ "attribution": [
+  "Stratholme Main Gate"
+ ]
+}

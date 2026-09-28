@@ -1,0 +1,84 @@
+{
+ "key": "subzone:hive-ashi",
+ "type": "subzone",
+ "name": "Hive'Ashi",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Hive'Ashi"
+ },
+ "summary": "Hive'Ashi is a sprawling silithid colony dominating the northern sands of Silithus. As one of three major insectoid hives in the region, its creeping tunnels and towering mounds churn with countless hostile workers, defenders, and stingers.",
+ "sections": [
+  {
+   "title": "The Northern Mound",
+   "body": "Situated in northern Silithus, Hive'Ashi serves as a prime hive-complex for the re-emerging silithid swarms. Its chitinous spires carve out a distinct territory among the dunes, sending foraging workers and venomous defenders south and east toward the Swarming Pillar. Anyone seeking to understand the strange, coordinated intelligence stirring within the desert wastes inevitably finds their path leading directly into the dangerous, buzzing tunnels beneath these mounds.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Threat Unearthed",
+   "body": "Cenarion scouts stationed across Silithus monitor Hive'Ashi closely, commissioning brave combatants to thin its ranks and retrieve reconnaissance reports from deep within the colony. The glyphs and coordinated behavior documented within Ashi suggest that these mindless-looking insects share an eerie, singular will. As their numbers swell, the hive threatens to spill beyond northern Silithus entirely, making the eradication of its brood a top priority for those watching the southern borders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Hive'Ashi?",
+   "aliases": [
+    "ashi hive",
+    "hive ashi location",
+    "what is ashi"
+   ],
+   "answer": "Hive'Ashi is an active silithid hive-complex located in northern Silithus. It is home to thousands of burrowing insectoid creatures that hollow out the desert sands into interconnected tunnels and mounds."
+  },
+  {
+   "q": "What kinds of silithid live in Hive'Ashi?",
+   "aliases": [
+    "ashi mobs",
+    "hive ashi creatures",
+    "what silithid are here"
+   ],
+   "answer": "The colony is populated by specialized castes of silithid, including Hive'Ashi workers, sandstalkers, venomous stingers, and heavily armored defenders."
+  },
+  {
+   "q": "How does Hive'Ashi relate to the Swarming Pillar?",
+   "aliases": [
+    "swarming pillar connection",
+    "ashi and swarming pillar"
+   ],
+   "answer": "The silithid swarming around the nearby Swarming Pillar originate from Hive'Ashi, representing an outward push of the hive's brood across the desert floor."
+  },
+  {
+   "q": "Why are Cenarion scouts studying this hive?",
+   "aliases": [
+    "why scout hive ashi",
+    "hive ashi scout report"
+   ],
+   "answer": "The Cenarion Circle seeks to understand the rapid resurgence of the silithid and how their hives coordinate. Scouts monitor Ashi to decipher strange glyphs and track how quickly the hive is expanding."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As the Cenarion Circle watches the corrupted sands of Silithus, druids are called upon to study and suppress the insectoid menace churning out from Hive'Ashi before it engulfs the natural ecosystem."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance operatives moving through Silithus aid in gathering intelligence on Hive'Ashi to ensure these aggressive swarms do not threaten neighboring territories across southern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "cenarion",
+  "hive ashi",
+  "hive'ashi",
+  "silithid",
+  "silithus",
+  "swarming pillar"
+ ],
+ "related": [
+  "zone:silithus",
+  "subzone:swarming-pillar"
+ ],
+ "attribution": [
+  "Hive'Ashi"
+ ]
+}

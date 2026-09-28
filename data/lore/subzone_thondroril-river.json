@@ -1,0 +1,92 @@
+{
+ "key": "subzone:thondroril-river",
+ "type": "subzone",
+ "name": "Thondroril River",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Thondroril River"
+ },
+ "summary": "The Thondroril River is a vital natural boundary separating the Western and Eastern Plaguelands. Originating in the mountains of Northern Lordaeron near the Terrorweb Tunnel, its blighted waters flow southward into Darrowmere Lake. Once a vibrant trade and travel waterway of the fallen kingdom, it is now flanked by monstrous Scourge beasts and the humble refuge of a legendary hermit.",
+ "sections": [
+  {
+   "title": "A River Cut by Ruin",
+   "body": "Before the fall of Lordaeron, the Thondroril served as an important waterway connecting northern holdings toward Stratholme and south to Darrowmere Lake. During the Second War, Allied forces navigated these northern waterways while mobilizing to relieve Quel'Thalas. Today, the river marks the hazardous divide between the Western and Eastern Plaguelands. The waters carry the taint of the plague, and its banks are infested with giant maggots, plaguebats, diseased bears, and predatory snapjaws, turning what was once a scenic riverbed into a deadly crossing for travelers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Watchers on the Bank",
+   "body": "Though the wilderness along the Thondroril is harsh and unforgiving, it is not entirely devoid of hope. On the eastern bank, nestled in an unassuming, overgrown homestead, lives the exiled Paladin Tirion Fordring. Stripped of his titles and forced into hiding years ago, the former lord watches the rotting river and the ruin of his homeland from afar, testing the mettle and conscience of adventurers hardy enough to cross the blighted frontier.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Thondroril River begin and end?",
+   "aliases": [
+    "thondroril river path",
+    "where does thondroril flow",
+    "source of thondroril"
+   ],
+   "answer": "The river rises in the heights of Northern Lordaeron near the entrance of Terrorweb Tunnel, then flows south across the Plaguelands until it empties directly into Darrowmere Lake. Past the lake, the waterway continues south as the Darrowmere River."
+  },
+  {
+   "q": "What dangerous creatures live along the riverbanks?",
+   "aliases": [
+    "monsters near river",
+    "thondroril mobs",
+    "river threats"
+   ],
+   "answer": "The plague has mutated the native wildlife into lethal monstrosities. Travelers regularly encounter devouring maggots, diseased plaguebears, massive vampire bats, crypt spiders, and river snapjaws stalking both banks."
+  },
+  {
+   "q": "Who is the old man living by the eastern shore?",
+   "aliases": [
+    "who is by the river",
+    "old hermit thondroril",
+    "thondroril questgiver"
+   ],
+   "answer": "The solitary figure in the dilapidated farmhouse on the eastern bank is Tirion Fordring, one of the original Knights of the Silver Hand. Exiled from the Alliance years before the Third War, he lives in quiet seclusion observing the Scourge."
+  },
+  {
+   "q": "Why does the river divide the two Plaguelands?",
+   "aliases": [
+    "western vs eastern border",
+    "plaguelands boundary"
+   ],
+   "answer": "The Thondroril carved a wide natural gorge through central Lordaeron. When the kingdom collapsed into Scourge territory, cartographers and survivors began treating the river as the clear frontier dividing the Western and Eastern Plaguelands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The Thondroril River's eastern shore shelters Tirion Fordring, a founding father of the Silver Hand whose legacy still echoes despite his exile."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The damp, rotting riverbed nurtures hardy plague-tainted flora such as Sungrass, Arthas' Tears, and Plaguebloom near its murky shores."
+  }
+ ],
+ "keywords": [
+  "darrowmere lake",
+  "eastern plaguelands",
+  "lordaeron",
+  "terrorweb tunnel",
+  "thondroril",
+  "thondroril river",
+  "tirion fordring",
+  "western plaguelands"
+ ],
+ "related": [
+  "npc:tirion-fordring",
+  "zone:easternplaguelands",
+  "subzone:darrowmere-lake",
+  "subzone:terrorweb-tunnel",
+  "subzone:stratholme",
+  "topic:lordaeron",
+  "topic:second-war"
+ ],
+ "attribution": [
+  "Thondroril River"
+ ]
+}

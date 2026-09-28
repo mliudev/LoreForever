@@ -1,0 +1,112 @@
+{
+ "key": "quest:96630",
+ "type": "quest",
+ "name": "The Adventurer",
+ "era": "forever",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   96630
+  ],
+  "level": "6",
+  "faction": "Alliance",
+  "start": "Object #654846",
+  "end": "Lyreena Duskblade",
+  "previous": "",
+  "next": "",
+  "wiki": "The Adventurer (Teldrassil)",
+  "chain": []
+ },
+ "summary": "The Adventurer is a brief quest set in Teldrassil involving the discovery of a discarded journal in the wilds. The plain notebook recounts the humble travels and camping outings of an unknown traveler, intended for delivery to Lyreena Duskblade near Dolanaar.",
+ "sections": [
+  {
+   "title": "A Wanderer's Journal",
+   "body": "Amid the dense boughs and tangled roots of Teldrassil, travelers occasionally stumble across abandoned personal items. This simple journal recounts the unremarkable yet earnest wanderings of a nameless adventurer. Instead of grand heroics or perilous monster hunts, the bulk of its pages enthusiastically document the simple joys of making camp beneath the twilight canopy.",
+   "spoiler": 0
+  },
+  {
+   "title": "Delivery to Dolanaar",
+   "body": "Rather than leaving the personal keepsake to weather in the damp wilderness, the finder is drawn to carry it toward Dolanaar. Lyreena Duskblade, stationed near the night elf settlement, serves as the recipient for the displaced pages, perhaps offering closure or insight into whose travels were left behind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the journal mentioned in the quest?",
+   "aliases": [
+    "lost journal",
+    "what is the book",
+    "the adventurer journal"
+   ],
+   "answer": "It is a plain personal notebook recovered in the wilds of Teldrassil. Its entries detail the quiet life and travels of an unfamiliar figure, highlighting ordinary adventures and an enduring fondness for camping outdoors."
+  },
+  {
+   "q": "Who is Lyreena Duskblade?",
+   "aliases": [
+    "lyreena",
+    "where is lyreena duskblade",
+    "turn in npc"
+   ],
+   "answer": "Lyreena Duskblade is a night elf found near Dolanaar. She is the intended recipient of the lost journal found out in the forest."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "where is the adventurer quest",
+    "quest zone"
+   ],
+   "answer": "The quest takes place in Teldrassil, the great bough of the night elves, focused in the wilderness surrounding the village of Dolanaar."
+  },
+  {
+   "q": "Does the journal describe dangerous monsters or battles?",
+   "aliases": [
+    "journal lore",
+    "what is in the journal",
+    "what does it say"
+   ],
+   "answer": "No. The writing is described as quite plain and focuses on the unassuming life and wanderings of an unknown individual, with particular emphasis on how enjoyable camping can be."
+  },
+  {
+   "q": "Who can complete this task?",
+   "aliases": [
+    "can horde do this",
+    "alliance quest"
+   ],
+   "answer": "This task is strictly for members of the Alliance wandering the starter territory of Teldrassil, particularly novice night elves venturing near Dolanaar."
+  },
+  {
+   "q": "Why turn the journal in to Dolanaar?",
+   "aliases": [
+    "why dolanaar",
+    "why lyreena"
+   ],
+   "answer": "Dolanaar is the central gathering post and crossroad for that region of Teldrassil, making it the most sensible place to deliver misplaced personal belongings to local sentinels and wardens like Lyreena Duskblade."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Young night elves patrolling Teldrassil often find signs of travelers passing through, turning over lost personal relics to sentinels like Lyreena Duskblade."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance novices finding their footing beneath the World Tree, returning misplaced belongings to local scouts helps maintain order in the groves."
+  }
+ ],
+ "keywords": [
+  "camping",
+  "dolanaar",
+  "journal",
+  "lost journal",
+  "lyreena duskblade",
+  "teldrassil",
+  "the adventurer"
+ ],
+ "related": [
+  "subzone:dolanaar",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "The Adventurer (Teldrassil)"
+ ]
+}

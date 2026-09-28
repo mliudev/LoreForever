@@ -1,0 +1,127 @@
+{
+ "key": "quest:5923",
+ "type": "quest",
+ "name": "Heeding the Call",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   5923
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "DenatharionKalTheridran",
+  "end": "Mathrengyl Bearwalker",
+  "previous": null,
+  "next": "Moonglade (Alliance)",
+  "wiki": "Heeding the Call (Alliance)",
+  "chain": []
+ },
+ "summary": "Heeding the Call marks the moment an apprentice night elf druid catches the attention of the Cenarion Circle's senior leadership. Summoned to Darnassus to meet Mathrengyl Bearwalker, the young initiate begins the sacred path toward mastering their first animal aspect, the bear.",
+ "sections": [
+  {
+   "title": "A Summons from the Enclave",
+   "body": "Novice druids honing their craft across Teldrassil\u2014or studying abroad in far-off realms like Stormwind\u2014eventually receive a personal summons. Instructors such as Kal in Dolanaar, Denatharion in Darnassus, or Theridran across the Great Sea carry word that Mathrengyl Bearwalker wishes to oversee their training personally. As the direct assistant to Arch Druid Fandral Staghelm, Mathrengyl is one of the most respected and knowledgeable mentors among the night elves, and his attention is an unmistakable sign that an apprentice is ready for genuine trials.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Path of the Bear",
+   "body": "Reaching Mathrengyl on the upper level of Fandral Staghelm's towering residence in the Cenarion Enclave opens the door to deeper mysteries. To serve nature properly, a druid must learn to embody its living creatures rather than merely observing them. Mathrengyl welcomes candidates with the news that their first great undertaking will be embracing the strength, endurance, and spirit of the bear\u2014a journey that will take them far beyond Teldrassil to sacred ancestral grounds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts this",
+    "where do i get this quest"
+   ],
+   "answer": "You can receive this summons from several druid trainers once you have reached sufficient experience: Kal in Dolanaar, Denatharion in Darnassus, or Theridran in the Park district of Stormwind City."
+  },
+  {
+   "q": "Who is Mathrengyl Bearwalker?",
+   "aliases": [
+    "mathrengyl",
+    "who is mathrengyl",
+    "bearwalker"
+   ],
+   "answer": "Mathrengyl Bearwalker is a senior night elf druid and the direct assistant to Arch Druid Fandral Staghelm. He resides in the Cenarion Enclave of Darnassus and serves as a premier instructor for initiates seeking to master animal forms."
+  },
+  {
+   "q": "Where can I find Mathrengyl Bearwalker in Darnassus?",
+   "aliases": [
+    "mathrengyl location",
+    "where is mathrengyl",
+    "cenarion enclave location"
+   ],
+   "answer": "He is located in the Cenarion Enclave, in the northwest quarter of Darnassus. You will find him waiting on the second floor of the large living tree that serves as Arch Druid Fandral Staghelm's sanctuary."
+  },
+  {
+   "q": "What training does this quest lead to?",
+   "aliases": [
+    "what comes next",
+    "what do i get",
+    "next quest"
+   ],
+   "answer": "Reporting to Mathrengyl begins the sacred trial of the Bear Form. He will direct you across Kalimdor to the sacred haven of Moonglade to learn the strengths of body and heart required to commune with the Great Bear Spirit."
+  },
+  {
+   "q": "Why can I get this quest in Stormwind?",
+   "aliases": [
+    "stormwind quest",
+    "theridran",
+    "can i get this in stormwind"
+   ],
+   "answer": "Night elf emissaries and druids, such as Theridran, maintain a sanctuary in the Park of Stormwind to assist Alliance allies. If a young druid is adventuring across the sea in Elwynn Forest, Theridran can relay the summons back home to Teldrassil."
+  },
+  {
+   "q": "Why is the bear form the first animal aspect taught?",
+   "aliases": [
+    "why bear form",
+    "druid bear lore"
+   ],
+   "answer": "Druids hold that nature requires both guardians and caretakers. The bear represents raw resilience, physical power, and the courage to shield the balance from harm, making it the foundational aspect for surviving dangerous wilderness trials."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This quest represents your formal transition from a mere novice weaving root and wrath spells into a true shapeshifter learning the spirits of Kalimdor."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Heeding the summons calls you into the heart of Darnassus's Cenarion Enclave, honoring millennia of Kaldorei tradition under the watchful eye of Fandral Staghelm's circle."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The ability to pick up this quest from Theridran in Stormwind shows the growing coordination between the kaldorei of Teldrassil and their eastern human allies."
+  }
+ ],
+ "keywords": [
+  "bear form",
+  "cenarion enclave",
+  "darnassus",
+  "denatharion",
+  "druid quest",
+  "fandral staghelm",
+  "heeding the call",
+  "kal",
+  "mathrengyl bearwalker",
+  "theridran"
+ ],
+ "related": [
+  "npc:mathrengyl-bearwalker",
+  "subzone:cenarion-enclave",
+  "zone:darnassus",
+  "topic:druid",
+  "npc:fandral-staghelm",
+  "subzone:dolanaar",
+  "zone:elwynn",
+  "topic:cenarius"
+ ],
+ "attribution": [
+  "Heeding the Call (Alliance)"
+ ]
+}

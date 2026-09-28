@@ -1,0 +1,91 @@
+{
+ "key": "npc:archbishop-benedictus",
+ "type": "npc",
+ "name": "Archbishop Benedictus",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Archbishop Benedictus",
+  "refs": 1
+ },
+ "summary": "Archbishop Benedictus is the supreme spiritual leader of the Church of the Holy Light, presiding over the faithful from the Cathedral of Light in Stormwind City. Once the devoted student of Archbishop Alonsus Faol, he now guides the moral and religious heart of the Alliance during a time of immense uncertainty.",
+ "sections": [
+  {
+   "title": "Shepherd of the Holy Light",
+   "body": "Benedictus rose to leadership following the death of his revered mentor, Archbishop Alonsus Faol. Having witnessed the devastation of the First and Second Wars, Benedictus helped oversee the construction of the grand Cathedral of Light in Stormwind City, vowing to preserve the virtues of the faith. With the fall of Lordaeron and the rise of the Scourge during the Third War, the weight of the human kingdoms' spiritual guidance fell squarely on his shoulders. From his altar, he offers counsel to the royal court, trains newly initiated priests, and directs holy crusades against the undead and demonic forces threatening Azeroth.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Burdened Conviction",
+   "body": "Though regarded across the Alliance as a gentle, wise, and benevolent patriarch, Benedictus carries profound grief from the Third War. The slaughter of Lordaeron's people and the tragic fall of Prince Arthas Menethil deeply tested the Church's understanding of divine protection. Despite these hidden spiritual trials, Benedictus presents an unyielding beacon of hope to the public, rallying heroes to vanquish dark threats such as Amnennar the Coldbringer in Kalimdor and assisting in purifying cursed relics brought by faithful adventurers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Archbishop Benedictus?",
+   "aliases": [
+    "benedictus",
+    "archbishop stormwind",
+    "leader of church of the holy light"
+   ],
+   "answer": "He is the reigning leader of the Church of the Holy Light and the highest religious authority in the Grand Alliance. Stationed in Stormwind City's Cathedral of Light, he guides the faithful and counsels the kingdom's leaders."
+  },
+  {
+   "q": "What is his relationship to Alonsus Faol?",
+   "aliases": [
+    "faol student",
+    "alonsus faol benedictus"
+   ],
+   "answer": "Benedictus was the foremost pupil of the legendary Archbishop Alonsus Faol, who founded the Knights of the Silver Hand. Following Faol's death, Benedictus inherited the leadership of the Church to carry forward his mentor's work."
+  },
+  {
+   "q": "What tasks does Benedictus oversee for adventurers?",
+   "aliases": [
+    "benedictus quests",
+    "what does archbishop benedictus do"
+   ],
+   "answer": "Benedictus instructs Alliance heroes on missions against the Scourge, including sanctioning expeditions into Razorfen Downs to slay the lich Amnennar the Coldbringer. He also uses his holy power to cleanse powerful corrupted artifacts, such as the Cursed Eye of Paleth."
+  },
+  {
+   "q": "What is his stance on the undead?",
+   "aliases": [
+    "benedictus forsaken",
+    "benedictus views on scourge"
+   ],
+   "answer": "Benedictus views the undead as an unholy tragedy. While he preaches mercy, his followers interpret this as granting the restless dead\u2014including the Forsaken and the Scourge\u2014the mercy of a swift, final release through death."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "As the supreme shepherd of the Church of the Holy Light, Benedictus is the central figure overseeing the training, doctrines, and vows of all Alliance priests."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Benedictus serves as the moral compass of Stormwind and the wider Alliance, providing spiritual solace to refugees and guiding high-ranking paladins and commanders."
+  }
+ ],
+ "keywords": [
+  "alonsus faol",
+  "archbishop",
+  "benedictus",
+  "cathedral of light",
+  "church of the holy light",
+  "eye of paleth",
+  "priest",
+  "stormwind"
+ ],
+ "related": [
+  "subzone:cathedral-of-light",
+  "topic:church-of-the-holy-light",
+  "topic:light",
+  "zone:stormwind",
+  "quest:293",
+  "topic:varian-wrynn",
+  "subzone:razorfen-downs-classic"
+ ],
+ "attribution": [
+  "Archbishop Benedictus"
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "key": "quest:995",
+ "type": "quest",
+ "name": "Escape Through Stealth",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   995
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Volcor",
+  "end": "Terenthis",
+  "previous": "A Lost Master (2)",
+  "next": "Trek to Ashenvale",
+  "wiki": "Escape Through Stealth",
+  "chain": []
+ },
+ "summary": "Escape Through Stealth is an Alliance escort quest set in Darkshore. After locating the trapped night elf scout Volcor deep within a furbolg den, the player helps guide him safely past hostile beasts to freedom before reporting back to Terenthis in Auberdine.",
+ "sections": [
+  {
+   "title": "The Trapped Scout",
+   "body": "Volcor, an operative sent into the depths of Darkshore to investigate the region's mounting threats, ended up cornered inside a furbolg cave. Outnumbered and cut off from the main roads, he relies on a passing ally to coordinate an exit before the hostile furbolgs realize he is slipping away.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Careful Flight",
+   "body": "Rather than attempting a suicidal frontal charge, Volcor chooses caution. Relying on shadows and deliberate maneuvering, he slips past the corrupted denizens of the cavern. Knowing that speed and quiet are paramount, Volcor separates from his rescuer once outside the mouth of the cave, racing ahead on foot while instructing his savior to meet him at the settlement of Auberdine.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reporting to Auberdine",
+   "body": "Upon returning to Auberdine, the player delivers news of the rescue to Terenthis, a night elf leader coordinating efforts to protect the troubled coastline. Terenthis views Volcor's safe return as proof that the encroaching darkness throughout Darkshore and the wilderness beyond can be resisted with discipline and teamwork.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Volcor?",
+   "aliases": [
+    "volcor lore",
+    "who is volcor",
+    "volcor darkshore"
+   ],
+   "answer": "Volcor is a night elf scout who ventured deep into Darkshore's wilderness on a mission for his superiors. He became trapped inside a hostile furbolg cavern until rescued by an Alliance adventurer."
+  },
+  {
+   "q": "Why does Volcor run off alone once outside the cave?",
+   "aliases": [
+    "why does volcor leave",
+    "volcor splits up"
+   ],
+   "answer": "Volcor notes that he can travel faster on his own once clear of the cavern's confined passages. He instructs the adventurer to reconvene in Auberdine rather than stick together along the open roads."
+  },
+  {
+   "q": "Who is Terenthis?",
+   "aliases": [
+    "terenthis auberdine",
+    "who is terenthis"
+   ],
+   "answer": "Terenthis is a prominent night elf coordinator stationed in Auberdine. He oversees local scouting efforts and organizes responses to the corruption and hostile denizens threatening Darkshore."
+  },
+  {
+   "q": "Where does this rescue take place?",
+   "aliases": [
+    "volcor cave location",
+    "where is volcor cave"
+   ],
+   "answer": "The rescue begins deep inside a furbolg cave located within the wilder, contested forests of Darkshore, far from the safety of Auberdine."
+  },
+  {
+   "q": "What happens after completing this quest?",
+   "aliases": [
+    "what comes after escape through stealth",
+    "next quest after volcor"
+   ],
+   "answer": "After Volcor is safely accounted for and Terenthis is debriefed, players are directed toward the next stage of their journey south toward Ashenvale in the quest Trek to Ashenvale."
+  },
+  {
+   "q": "What is the alternative to stealth in this rescue?",
+   "aliases": [
+    "escape through force",
+    "volcor other quest",
+    "stealth vs force"
+   ],
+   "answer": "Volcor offers an alternative approach: instead of sneaking out through stealth, adventurers can choose to fight their way out through sheer force in a separate, combat-focused escort option."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, aiding Volcor reinforces the vital network of scouts watching over Kalimdor's troubled forests while corruption spreads outward from corrupted barrows and dens."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Rogues appreciate Volcor's tactical instinct to bypass an entrenched enemy rather than waste time and blood in a reckless frontal brawl."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Successfully securing Volcor's escape proves to the night elf leadership in Auberdine that non-kaldorei Alliance allies can be trusted with delicate wilderness operations."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "auberdine",
+  "darkshore",
+  "escort",
+  "furbolg",
+  "stealth",
+  "terenthis",
+  "volcor"
+ ],
+ "related": [
+  "npc:volcor",
+  "npc:terenthis",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "quest:990",
+  "topic:furbolg"
+ ],
+ "attribution": [
+  "Escape Through Stealth"
+ ]
+}

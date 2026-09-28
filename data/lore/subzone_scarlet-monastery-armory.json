@@ -1,0 +1,96 @@
+{
+ "key": "subzone:scarlet-monastery-armory",
+ "type": "subzone",
+ "name": "Scarlet Monastery Armory",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Scarlet Monastery Armory"
+ },
+ "summary": "The Armory is the fortified martial wing of the Scarlet Monastery, dedicated to manufacturing weapons and training recruits for the Scarlet Crusade. Behind locked iron gates, ranks of zealous footmen and crusaders drill under the fierce command of Herod, the Scarlet Champion.",
+ "sections": [
+  {
+   "title": "The Foundry of Zeal",
+   "body": "Once part of a peaceful retreat for Lordaeron's priesthood, the monastery was completely overhauled following the Third War. The Armory now serves as the Crusade's primary forge, weapons depot, and combat proving ground. From the open training grounds to the deep weapon halls, ranks of Scarlet footmen, conjurers, and crusaders prepare relentlessly to purge the Scourge and anyone else they deem tainted. The wing remains locked away from the Grand Vestibule, accessible only to those carrying the Scarlet Key found in the neighboring Library.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hall of Champions",
+   "body": "At the heart of the wing lies the Hall of Champions, lined with towering statues dedicated to legendary heroes of the Crusade's past. The hall is overseen by Herod, a brutal warrior whose ferocity and whirlwinds are legendary among the crusaders. Herod trains the next generation of zealots personally; when hard-pressed in battle, his desperate recruits will pour into the chamber to fight and die for their champion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you get inside the Armory?",
+   "aliases": [
+    "armory locked",
+    "how to unlock armory",
+    "scarlet key armory",
+    "open armory door"
+   ],
+   "answer": "The Armory door in the Grand Vestibule is securely locked. To open it, you must enter the Library wing and retrieve the Scarlet Key from the chest behind Arcanist Doan in the Athenaeum, or bring a rogue proficient enough in lockpicking."
+  },
+  {
+   "q": "Who leads the troops in the Armory?",
+   "aliases": [
+    "armory boss",
+    "who is in charge of armory",
+    "who runs the armory",
+    "herod armory"
+   ],
+   "answer": "The wing is commanded by Herod, known as the Scarlet Champion. Stationed within the Hall of Champions, he drills soldiers and puts incoming recruits through intense combat trials."
+  },
+  {
+   "q": "What is the purpose of this wing for the Scarlet Crusade?",
+   "aliases": [
+    "why does armory exist",
+    "what do they do here",
+    "armory purpose"
+   ],
+   "answer": "It serves as the Crusade's main arsenal and training academy. The complex houses extensive weapon forges, armories for footmen and crusaders, and outdoor drilling yards used to condition soldiers before dispatching them across Tirisfal and the Plaguelands."
+  },
+  {
+   "q": "Whose statues are honored in the Hall of Champions?",
+   "aliases": [
+    "armory statues",
+    "hall of champions statues",
+    "statues in herod room"
+   ],
+   "answer": "The statues celebrate the order's most praised martyrs and heroes, including early fighters and champions like Barean Westwind, Orman of Stromgarde, and Ferren Marcus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "The Armory is the quintessential proving ground of mortal combat, where Scarlet warriors demonstrate lethal use of stances, disarms, and Herod's renowned whirlwind technique."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "With the Scarlet Crusade massing an army directly outside the gates of the Undercity, raiding their armaments and slaughtering their champion is vital for the Forsaken's survival."
+  }
+ ],
+ "keywords": [
+  "armory",
+  "crusader's armory",
+  "footman's armory",
+  "hall of champions",
+  "herod",
+  "scarlet champion",
+  "scarlet key",
+  "scarlet monastery armory"
+ ],
+ "related": [
+  "zone:scarlet",
+  "npc:herod",
+  "subzone:hall-of-champions",
+  "subzone:crusader-s-armory",
+  "subzone:footman-s-armory",
+  "subzone:grand-vestibule",
+  "subzone:athenaeum-scarlet-monastery",
+  "topic:scarlet-crusade"
+ ],
+ "attribution": [
+  "Scarlet Monastery Armory"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:dark-portal",
+ "type": "subzone",
+ "name": "Dark Portal",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Dark Portal"
+ },
+ "summary": "The Dark Portal is a monumental stone gateway standing at the southern rim of the Blasted Lands. First torn open through the combined sorcery of Medivh and Gul'dan, it served as the fateful conduit that brought the Old Horde into Azeroth, initiating the First War.",
+ "sections": [
+  {
+   "title": "A Rift Across Realities",
+   "body": "Before its opening, this region was part of the Black Morass, a sodden wetland that stretched across the south. That changed when Medivh, possessed by Sargeras, joined his Tirisfal magics with the fel sorcery of Gul'dan on Draenor. The ritual drained untold lives and tore the fabric of reality apart. The Old Horde raised massive stone architecture to anchor the rift, marching armies through its threshold to shatter the Kingdom of Stormwind in the First War. The portal's fel emanations fundamentally corrupted the surrounding terrain, reducing lush marshes to the red, petrified wastes seen today.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dormant Vigilance",
+   "body": "Following the Alliance of Lordaeron's victory in the Second War, Archmage Khadgar shattered the physical stone frame with powerful magics, hoping to sever Draenor forever. However, the dimensional tear beneath proved functionally indestructible. The Alliance erected Nethergarde Keep nearby to watch the scar, while demons and remnants of the Shadow Council continue to slink through the blasted caldera. Today the gateway stands reassembled yet dormant, a silent scar between worlds that neither side dares abandon.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can you walk through the Dark Portal right now?",
+   "aliases": [
+    "can i enter the dark portal",
+    "is dark portal open",
+    "portal to outland"
+   ],
+   "answer": "No. The gateway's stone frame stands intact, but the rift within is dormant. No traveler can cross the threshold at this time."
+  },
+  {
+   "q": "Who originally built the Dark Portal?",
+   "aliases": [
+    "who created dark portal",
+    "medivh guldan portal",
+    "dark portal creators"
+   ],
+   "answer": "It was created through a joint ritual between the human Guardian Medivh on Azeroth and the warlock Gul'dan on the dying world of Draenor, orchestrating the invasion that ignited the First War."
+  },
+  {
+   "q": "Why does Nethergarde Keep watch over it?",
+   "aliases": [
+    "why is nethergarde keep here",
+    "nethergarde portal watch",
+    "why nethergarde"
+   ],
+   "answer": "After Archmage Khadgar shattered the portal's initial frame after the Second War, he realized the dimensional rift lingered invisibly. Nethergarde Keep was founded by the Alliance to maintain a permanent watch over the site in case threats emerged again."
+  },
+  {
+   "q": "Why is the ground around the portal red and barren?",
+   "aliases": [
+    "why are blasted lands dead",
+    "portal corruption",
+    "why is blasted lands red"
+   ],
+   "answer": "The Blasted Lands were once a fertile swamp known as the Black Morass. The vast fel energies required to breach reality, coupled with the corruption flowing from Draenor and demonic beasts, poisoned the soil and petrified the ecosystem."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "The portal is the painful threshold of your people's past\u2014the gate through which the Old Horde marched in thrall to demonic masters, abandoning their ancestral homeland for war."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For the Alliance, the portal is a solemn monument to the First War and the fall of ancient Stormwind, necessitating the perpetual vigil held by the mages of Nethergarde."
+  }
+ ],
+ "keywords": [
+  "black morass",
+  "blasted lands",
+  "dark portal",
+  "draenor",
+  "great portal",
+  "guldan",
+  "khadgar",
+  "medivh"
+ ],
+ "related": [
+  "zone:blastedlands",
+  "subzone:nethergarde-keep",
+  "topic:medivh",
+  "topic:old-horde",
+  "topic:first-war",
+  "topic:second-war",
+  "topic:burning-legion",
+  "topic:alliance-of-lordaeron"
+ ],
+ "attribution": [
+  "Dark Portal"
+ ]
+}

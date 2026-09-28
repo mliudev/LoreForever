@@ -1,0 +1,71 @@
+{
+ "key": "npc:ma-stonefield",
+ "type": "npc",
+ "name": "Ma Stonefield",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Ma Stonefield",
+  "refs": 1
+ },
+ "summary": "Ma Stonefield is a human matriarch residing at the Stonefield Farm in western Elwynn Forest. Standing right outside the family homestead alongside Auntie Bernice, she deals with the daily hardships of rural farm life amidst neighboring rivalries and pest troubles.",
+ "sections": [
+  {
+   "title": "Homestead Troubles",
+   "body": "Standing beside her family cottage in southwestern Elwynn Forest, Ma Stonefield watches over the farmstead alongside \"Auntie\" Bernice Stonefield. Life between the neighboring Maclure homestead and the nearby pumpkin patches is rarely peaceful. Local wild boars continuously threaten the family crops, and none poses a greater nuisance than Princess, an enormous prize sow notorious for trampling fields and devouring hard-earned harvests.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ma Stonefield?",
+   "aliases": [
+    "who is ma stonefield",
+    "ma stonefield",
+    "stonefield mother"
+   ],
+   "answer": "Ma Stonefield is one of the resident elders of the Stonefield family, living at their farmstead in southwestern Elwynn Forest alongside relatives like Auntie Bernice."
+  },
+  {
+   "q": "Where can I find Ma Stonefield?",
+   "aliases": [
+    "ma stonefield location",
+    "where is ma stonefield",
+    "stonefield farm loc"
+   ],
+   "answer": "She can be found standing outdoors directly in front of the main house at the Stonefield Farm, located west of Goldshire in Elwynn Forest."
+  },
+  {
+   "q": "What problem does Ma Stonefield need solved?",
+   "aliases": [
+    "ma stonefield quest",
+    "princess sow quest",
+    "princess must die questgiver"
+   ],
+   "answer": "Ma Stonefield seeks adventurers to put an end to Princess, a massive prize pig that repeatedly rampages through the surrounding fields and devours the local crops."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance adventurers exploring Elwynn Forest, aiding hardworking homesteaders like Ma Stonefield helps preserve Stormwind's agricultural backbone."
+  }
+ ],
+ "keywords": [
+  "bernice stonefield",
+  "elwynn forest",
+  "ma stonefield",
+  "princess",
+  "princess must die",
+  "stonefield farm"
+ ],
+ "related": [
+  "subzone:stonefield-farm",
+  "npc:auntie-bernice-stonefield",
+  "quest:330",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Ma Stonefield"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "key": "subzone:western-earthshrine",
+ "type": "subzone",
+ "name": "Western Earthshrine",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Western Earthshrine"
+ },
+ "summary": "Perched upon the high mesas above Orgrimmar's Valley of Wisdom, the Western Earthshrine is an earthen ritual ground maintained by the shamans of the Earthen Ring. It serves as a peaceful redoubt dedicated to understanding and appeasing the spirits of the elements across Kalimdor.",
+ "sections": [
+  {
+   "title": "A Sanctuary for the Elements",
+   "body": "Overlooking the bustling courtyards of the Valley of Wisdom, the Western Earthshrine sits on the windswept ridges of Orgrimmar. Maintained by the Earthen Ring, this circle of stone and soil serves as a communion site where Horde shamans gather to heed the whispers of the land. Far from the clangor of the city's foundries and the marching feet of grunts, the earthshrine offers a place of contemplation, ensuring the Horde remembers its spiritual bond with the elemental forces of Azeroth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Western Earthshrine?",
+   "aliases": [
+    "what is this place",
+    "western earthshrine purpose",
+    "earthshrine orgrimmar"
+   ],
+   "answer": "It is a sacred ritual circle in Orgrimmar overseen by the Earthen Ring, intended for elemental communion, reflection, and spiritual work by the Horde's shamans."
+  },
+  {
+   "q": "Where is the shrine located?",
+   "aliases": [
+    "how to get there",
+    "western earthshrine location",
+    "where is western earthshrine"
+   ],
+   "answer": "It sits on the high upper plateaus overlooking the Valley of Wisdom, accessible along the elevated bluffs above the city."
+  },
+  {
+   "q": "Who maintains this site?",
+   "aliases": [
+    "who runs earthshrine",
+    "earthen ring orgrimmar",
+    "who is here"
+   ],
+   "answer": "The shrine is maintained by the Earthen Ring, a coalition of shamans dedicated to preserving the balance between the elements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The earthshrine is a revered space where shamans can listen closely to the rumblings of stone and the voice of the elements away from the noise of the city."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "It stands as a testament to Thrall's Horde and its enduring commitment to shamanic heritage and balance with nature."
+  }
+ ],
+ "keywords": [
+  "earthen ring",
+  "elements",
+  "orgrimmar",
+  "shaman",
+  "shrine",
+  "valley of wisdom",
+  "western earthshrine"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "subzone:valley-of-wisdom",
+  "subzone:eastern-earthshrine",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Western Earthshrine"
+ ]
+}

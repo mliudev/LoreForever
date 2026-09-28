@@ -1,0 +1,116 @@
+{
+ "key": "npc:rutgar-glyphshaper",
+ "type": "npc",
+ "name": "Rutgar Glyphshaper",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Rutgar Glyphshaper",
+  "refs": 4
+ },
+ "summary": "Rutgar Glyphshaper is a dwarven archaeologist stationed at the Bronzebeard Encampment in the southern reaches of Silithus. As a member of Brann Bronzebeard's expedition, he studies ancient silithid relics and runes, striving to uncover the mystery of the hives even after Brann wanders off into the desert.",
+ "sections": [
+  {
+   "title": "The Bronzebeard Expedition",
+   "body": "Rutgar Glyphshaper traveled to Silithus under the leadership of Brann Bronzebeard to investigate the vast silithid hives and unearth lost relics buried beneath the desert wastes. Establishing their base at the Bronzebeard Encampment south of Cenarion Hold, Rutgar and his companions frequently ventured directly into the bug hives to harvest inscribed stones and runic artifacts, often cooperating with Cenarion night elf researchers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trouble in the Hives",
+   "body": "During an expedition into Hive'Regal alongside the night elf priestess Natalia Mar'alith, the party discovered a strange glyphed crystal. The relic exerted a trance-like hold over Natalia, forcing the dwarves to carry her out and deliver her to Cenarion Hold for healing. When she later returned to the dwarven camp in a wild frenzy demanding to return to the hive, Rutgar and the expedition were forced to fight her off in a desperate brawl before she fled back into the dunes.",
+   "spoiler": 1
+  },
+  {
+   "title": "Deciphering the Silithid",
+   "body": "With Brann Bronzebeard mysteriously disappearing into the wastes as he is prone to do, Rutgar remains at camp to continue their scholarship. He focuses on gathering crystalline rubbings and deciphering the insectoid glyphs scattered across the silithid hives, trying to piece together the history of the hives and trace where Brann might have vanished.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rutgar Glyphshaper?",
+   "aliases": [
+    "rutgar",
+    "who is rutgar",
+    "rutgar glyphshaper info"
+   ],
+   "answer": "He is an explorer and scholar who accompanied Brann Bronzebeard on an archaeological expedition to Silithus, currently based at the Bronzebeard Encampment."
+  },
+  {
+   "q": "Where is Brann Bronzebeard?",
+   "aliases": [
+    "where is brann",
+    "where did brann go",
+    "brann missing"
+   ],
+   "answer": "Brann wandered off alone into the wastes of Silithus on one of his typical solo scouting trips, leaving Rutgar and the rest of the crew to maintain the encampment and research the hives."
+  },
+  {
+   "q": "What happened to Natalia Mar'alith at the camp?",
+   "aliases": [
+    "what happened to natalia",
+    "natalia attack",
+    "priestess attacked camp"
+   ],
+   "answer": "After falling under the influence of an ancient crystal in Hive'Regal, Natalia Mar'alith returned to the Bronzebeard Encampment in a violent rage, attacking Rutgar, Brann, and the crew before vanishing back into the desert."
+  },
+  {
+   "q": "Why is Rutgar studying the silithid crystals?",
+   "aliases": [
+    "why glyphs",
+    "what is rutgar studying",
+    "glyphed crystals"
+   ],
+   "answer": "Rutgar is attempting to translate the ancient glyphs carved into the crystals within the hives, seeking to understand the silithid's origins and find clues regarding Brann's whereabouts."
+  },
+  {
+   "q": "Has Ironforge sent aid to the expedition?",
+   "aliases": [
+    "ironforge reinforcements",
+    "ironforge army silithus"
+   ],
+   "answer": "No. The expedition requested military support from Ironforge, but the dwarven kingdom declined, claiming its forces are already stretched too thin defending the realm."
+  },
+  {
+   "q": "Where is the Bronzebeard Encampment located?",
+   "aliases": [
+    "where is bronzebeard encampment",
+    "encampment location"
+   ],
+   "answer": "It is located in southern Silithus, situated in the desert sands south of Cenarion Hold and just west of Hive'Regal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarves will recognize Rutgar's stubborn dedication to the Explorer's League, risking life and limb deep in hostile insect hives for the sake of ancient knowledge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers find a rare outpost of friendly faces in the harsh southern desert, though Rutgar's crew receives no official backing from the Ironforge crown."
+  }
+ ],
+ "keywords": [
+  "brann",
+  "bronzebeard",
+  "crystal",
+  "glyphs",
+  "glyphshaper",
+  "maralith",
+  "regal",
+  "rutgar",
+  "silithus"
+ ],
+ "related": [
+  "subzone:bronzebeard-encampment",
+  "npc:brann-bronzebeard",
+  "subzone:hive-regal",
+  "subzone:cenarion-hold",
+  "zone:silithus",
+  "zone:ironforge",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Rutgar Glyphshaper"
+ ]
+}

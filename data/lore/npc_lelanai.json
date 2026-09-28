@@ -1,0 +1,91 @@
+{
+ "key": "npc:lelanai",
+ "type": "npc",
+ "name": "Lelanai",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Lelanai",
+  "refs": 2
+ },
+ "summary": "Lelanai is a night elf mount handler residing in the Cenarion Enclave of Darnassus. She provides the fierce saber mounts of the night elves to worthy riders, offering both standard nightsabers and swift war beasts to her kin and trusted allies of Darnassus.",
+ "sections": [
+  {
+   "title": "Breeder of the Cenarion Enclave",
+   "body": "Stationed beside riding instructor Jartsam among the towering trees of the Cenarion Enclave, Lelanai attends to some of the finest big cats bred in Kalimdor. Night elves have long formed profound bonds with the fierce predators of northern forests, training nightsabers and frostsabers to carry sentinels and scouts across rugged terrain with predator grace. Lelanai serves as the primary provider of these revered mounts in the capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bonds Beyond Kinship",
+   "body": "While saber mounts are freely offered to any night elf of appropriate skill, outsiders face a much stricter threshold. Given the sacred nature of the cats and the natural aloofness of the kaldorei, Lelanai will not entrust a beast to non-night elf adventurers unless they have earned the highest degree of respect and renown with the city of Darnassus.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Lelanai?",
+   "aliases": [
+    "lelanai location",
+    "where is lelanai",
+    "lelanai map"
+   ],
+   "answer": "Lelanai is located in the Cenarion Enclave in Darnassus, standing just beside the tiger riding trainer, Jartsam."
+  },
+  {
+   "q": "What does Lelanai sell?",
+   "aliases": [
+    "lelanai wares",
+    "what mounts does she have",
+    "night elf mounts"
+   ],
+   "answer": "She sells reins for various breeds of frostsaber, dawnsaber, and nightsaber mounts, including swift armored variations for veteran riders."
+  },
+  {
+   "q": "Can non-night elves buy mounts from Lelanai?",
+   "aliases": [
+    "can humans buy sabers",
+    "can dwarfs ride nightsabers",
+    "reputation required for sabers"
+   ],
+   "answer": "Yes, but only if they have proven exceptional loyalty by reaching exalted reputation with Darnassus. Otherwise, she will refuse to sell her beasts to outsiders."
+  },
+  {
+   "q": "Can Horde players interact with Lelanai?",
+   "aliases": [
+    "can horde buy sabers",
+    "is lelanai friendly to horde"
+   ],
+   "answer": "No. Lelanai is loyal to the Darnassus faction of the Alliance. Horde members will be treated as hostile invaders by her and the nearby enclave guards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, visiting Lelanai is an essential rite of passage when acquiring their traditional feline steeds."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance heroes who earn exalted status with Darnassus can seek out Lelanai to ride the iconic sabers into battle alongside their kaldorei allies."
+  }
+ ],
+ "keywords": [
+  "cenarion enclave",
+  "darnassus",
+  "dawnsaber",
+  "frostsaber",
+  "jartsam",
+  "lelanai",
+  "mount vendor",
+  "nightsaber"
+ ],
+ "related": [
+  "zone:darnassus",
+  "subzone:cenarion-enclave",
+  "topic:night-elf",
+  "quest:7672",
+  "quest:7671"
+ ],
+ "attribution": [
+  "Lelanai"
+ ]
+}

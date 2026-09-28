@@ -1,0 +1,73 @@
+{
+ "key": "subzone:darkspear-shore",
+ "type": "subzone",
+ "name": "Darkspear Shore",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Darkspear Shore"
+ },
+ "summary": "Darkspear Shore is a quiet stretch of coast along Darkspear Isle off the southern reaches of Durotar. Lapped by the Great Sea, its sands serve as a gathering point for young Darkspear trolls taking their first steps to train and prove their worth to the Horde.",
+ "sections": [
+  {
+   "title": "On the Island Sands",
+   "body": "Situated along the waters of Darkspear Isle, Darkspear Shore provides a gentle landing on otherwise rugged island coastlines. The beach lies close to the Darkspear Training Grounds, where village trainers prepare youth for the perils facing their tribe. To the steady, rhythmic beat of watcher drums echoing against the surf, arriving trolls gather their wits, consult elders, and step onto the path of service alongside their orcish allies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Darkspear Shore located?",
+   "aliases": [
+    "darkspear shore location",
+    "where is darkspear shore",
+    "how to find darkspear shore"
+   ],
+   "answer": "Darkspear Shore is a sandy beach situated along the edge of Darkspear Isle, resting in the waters south of mainland Durotar."
+  },
+  {
+   "q": "Who can you find along this shoreline?",
+   "aliases": [
+    "who is at darkspear shore",
+    "darkspear shore npcs"
+   ],
+   "answer": "Young trolls step ashore here to meet local elders and companions such as Jin'thala and Zuni, alongside vigilant Darkspear Watchers keeping time with drumbeats along the coast."
+  },
+  {
+   "q": "What is the purpose of this shore?",
+   "aliases": [
+    "why come here",
+    "darkspear shore purpose"
+   ],
+   "answer": "The shore acts as an entry point for young Darkspear islanders before they march inland toward the nearby training grounds to learn their crafts and defend the tribe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear, these island sands mark the dawn of independence and strength after fleeing their sunken homeland in the South Seas."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The recruits stepping across Darkspear Shore represent the future warriors, hunters, and mystics pledged to Thrall's new Horde."
+  }
+ ],
+ "keywords": [
+  "darkspear isle",
+  "darkspear shore",
+  "durotar",
+  "echo isles",
+  "jin'thala",
+  "troll",
+  "zuni"
+ ],
+ "related": [
+  "subzone:darkspear-isle",
+  "subzone:darkspear-training-grounds",
+  "topic:troll",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Darkspear Shore"
+ ]
+}

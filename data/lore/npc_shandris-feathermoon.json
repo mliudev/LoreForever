@@ -1,0 +1,124 @@
+{
+ "key": "npc:shandris-feathermoon",
+ "type": "npc",
+ "name": "Shandris Feathermoon",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Shandris Feathermoon",
+  "refs": 4
+ },
+ "summary": "Shandris Feathermoon is the General of the Sentinel Army and the adopted daughter of Tyrande Whisperwind and Malfurion Stormrage. A veteran archer of the War of the Ancients, she now commands night elf military forces throughout Kalimdor from Feathermoon Stronghold on Sardor Isle off the coast of Feralas.",
+ "sections": [
+  {
+   "title": "Child of the Sundering",
+   "body": "Ten thousand years ago during the War of the Ancients, the demonic Burning Legion destroyed the village of Ara-Hinam, separating a young Shandris from her family. Fleeing south, she was rescued by Kur'talos Ravencrest's forces and adopted by the Priestess of the Moon, Tyrande Whisperwind. Though initially forbidden from the battlefield, Shandris covertly shadowed the Sisters of Elune, proving herself an exceptional markswoman. When the satyr Xavius assaulted Malfurion Stormrage, Shandris struck the fiend with an arrow from the treeline, providing the opening Malfurion needed to entangle and neutralize the traitor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rise of the Sentinels",
+   "body": "Following the Great Sundering and the founding of the Sentinels, Shandris became an indispensable commander within the night elf military. Centuries later in the War of the Satyr, she led squads into brutal skirmishes against lingering demonic remnants, witnessing firsthand the tragic unleashed fury of the earliest worgen. During the Third War, Shandris led the Shadowleaves sentinels alongside Tyrande, standing upon the slopes of Mount Hyjal to defend the World Tree Nordrassil against Archimonde's legions.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Bastion of Feralas",
+   "body": "Today, General Feathermoon serves as the supreme field commander of the Sentinel army. Stationed on Sardor Isle, she oversees Feathermoon Stronghold, an imposing elven fortress that keeps watch over the primal wilds of Feralas. From this island outpost, she monitors the encroaching threats of savage gnolls, lingering Gordunni ogres, hate-fueled satyrs, and the expanding power of the Horde in southern Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Shandris Feathermoon?",
+   "aliases": [
+    "who is shandris",
+    "shandris lore",
+    "who is the night elf general in feralas"
+   ],
+   "answer": "Shandris Feathermoon is the General of the Sentinels, the standing military force of the night elves. She is an ancient archer, a veteran of the War of the Ancients and the Battle of Mount Hyjal, and the adoptive daughter of High Priestess Tyrande Whisperwind."
+  },
+  {
+   "q": "Where can Shandris Feathermoon be found?",
+   "aliases": [
+    "shandris location",
+    "where is shandris feathermoon",
+    "feathermoon stronghold leader"
+   ],
+   "answer": "She commands from Feathermoon Stronghold, situated on Sardor Isle off the western coast of Feralas in southern Kalimdor."
+  },
+  {
+   "q": "What is Shandris's relationship to Tyrande Whisperwind?",
+   "aliases": [
+    "is shandris tyrande daughter",
+    "tyrande and shandris",
+    "tyrande adopted child"
+   ],
+   "answer": "Tyrande adopted Shandris during the War of the Ancients after the young girl's village of Ara-Hinam was destroyed and she lost her parents. Shandris was raised by Tyrande and Malfurion Stormrage, learning divine healing and martial leadership under their guidance."
+  },
+  {
+   "q": "Did Shandris fight against the Burning Legion?",
+   "aliases": [
+    "war of the ancients shandris",
+    "did shandris fight archimonde"
+   ],
+   "answer": "Yes. She fought in both the ancient invasion ten thousand years ago\u2014striking the first satyr, Xavius, with her arrows\u2014and later led the Shadowleaves sentinels at the Battle of Mount Hyjal during the Third War to defend Nordrassil."
+  },
+  {
+   "q": "What role did Shandris have in the creation of the Worgen?",
+   "aliases": [
+    "shandris worgen",
+    "scythe of elune shandris",
+    "war of the satyr worgen"
+   ],
+   "answer": "During the War of the Satyr, Shandris led Sentinels into battle alongside druidic allies against the satyr leader Xalan. When druids unleashed the uncontrollable wolf pack form, she witnessed the emergence of the first worgen and helped combat them until Malfurion contained them with the Scythe of Elune."
+  },
+  {
+   "q": "Why is she stationed in Feralas instead of Teldrassil?",
+   "aliases": [
+    "why is shandris in feralas",
+    "why feathermoon stronghold"
+   ],
+   "answer": "As General of the Sentinels, Shandris must direct frontline military operations across Kalimdor. Feathermoon Stronghold serves as the Alliance's primary staging ground and bulwark in the wild southern forests, keeping watch on hostile ogres, satyrs, and Horde activity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "To the Kaldorei, General Feathermoon represents the pinnacle of Sentinel discipline and duty, having guarded the people since the dawn of the long vigil."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters and rangers revere Shandris as one of the finest marksmen in history, capable of turning the tide of ancient wars with a single well-placed feathered arrow."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance forces venturing into southern Kalimdor, General Feathermoon provides essential naval presence, strategic leadership, and a heavily fortified sanctuary on Sardor Isle."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde views General Feathermoon as a dangerous and cunning military tactician whose fortress off the Feralas coast threatens their expansion in the region."
+  }
+ ],
+ "keywords": [
+  "feathermoon",
+  "feralas",
+  "general",
+  "kaldorei",
+  "sardor isle",
+  "sentinels",
+  "shandris",
+  "tyrande"
+ ],
+ "related": [
+  "subzone:feathermoon-stronghold",
+  "npc:tyrande-whisperwind",
+  "npc:malfurion-stormrage",
+  "zone:feralas",
+  "topic:sentinels",
+  "topic:war-of-the-ancients",
+  "topic:third-war",
+  "quest:1043"
+ ],
+ "attribution": [
+  "Shandris Feathermoon"
+ ]
+}

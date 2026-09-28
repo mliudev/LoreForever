@@ -1,0 +1,123 @@
+{
+ "key": "quest:1793",
+ "type": "quest",
+ "name": "The Tome of Valor",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   1793,
+   1794
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Duthorian Rall (Stormwind City), Tiza Battleforge (Ironforge)",
+  "end": "",
+  "previous": null,
+  "next": "The Tome of Valor (2)",
+  "wiki": "The Tome of Valor",
+  "chain": []
+ },
+ "summary": "The Tome of Valor is a foundational trial for Alliance paladins coming into their own. Directed by paladin mentors in Stormwind and Ironforge, initiates are challenged to prove that their courage and devotion to protecting the innocent match their martial prowess.",
+ "sections": [
+  {
+   "title": "The Measure of a Paladin",
+   "body": "To wield the Holy Light in battle requires more than heavy armor and martial discipline. As young paladins reach greater heights in their training, instructors in the Cathedral of Light and the Hall of Mysteries demand proof of their inner resolve. The lessons of the Tome of Valor test an initiate's readiness to confront terrifying evils\u2014from dragons to demons\u2014without faltering or abandoning those who cannot defend themselves.",
+   "spoiler": 0
+  },
+  {
+   "title": "Virtues of the Order",
+   "body": "Bravery under mortal threat is considered as essential to a holy warrior as their weapon and shield. Through the trials laid out in the Tome of Valor, paladins learn that raw strength is hollow without an unwavering vow to shelter the helpless. Facing genuine peril ensures that when darkness falls upon the Alliance, its defenders will stand firm rather than break.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Tome of Valor?",
+   "aliases": [
+    "what is tome of valor",
+    "tome of valor purpose",
+    "why do tome of valor"
+   ],
+   "answer": "The Tome of Valor represents a rite of passage for developing Alliance paladins. It is designed by the mentors of the Holy Light to ensure an initiate possesses genuine courage and a selfless desire to protect the vulnerable before advancing in the order."
+  },
+  {
+   "q": "Who directs paladins on this trial?",
+   "aliases": [
+    "who gives tome of valor",
+    "tome of valor questgiver",
+    "who starts tome of valor"
+   ],
+   "answer": "Initiates are typically called to this trial by senior paladins in Alliance capitals, such as Duthorian Rall in the Cathedral of Light in Stormwind or Tiza Battleforge in Ironforge's Hall of Mysteries."
+  },
+  {
+   "q": "Where does this trial lead?",
+   "aliases": [
+    "what comes after tome of valor",
+    "tome of valor follow up",
+    "tome of valor quest chain"
+   ],
+   "answer": "The initial call serves as the gateway to a series of specific tasks that test the paladin's resolve, driving them into the field to confront real danger in defense of the realm and the innocent."
+  },
+  {
+   "q": "Why is bravery so heavily emphasized for paladins?",
+   "aliases": [
+    "why valor",
+    "why courage matters to paladins"
+   ],
+   "answer": "The Holy Light responds to faith and will. When facing overwhelming horrors like demons or dragons, fear can shatter a warrior's spirit; courage ensures a paladin remains a steadfast shield for others even in the direst circumstances."
+  },
+  {
+   "q": "Do dwarf and human paladins undertake the same test?",
+   "aliases": [
+    "is it different for dwarfs",
+    "ironforge tome of valor",
+    "stormwind tome of valor"
+   ],
+   "answer": "While dwarf paladins train out of Ironforge and humans through Stormwind's Cathedral of Light, both traditions adhere to the same core virtues of courage, duty, and defense of the helpless under the Light."
+  },
+  {
+   "q": "What core lessons are outlined in the trial?",
+   "aliases": [
+    "tome of valor lessons",
+    "what does the tome teach"
+   ],
+   "answer": "The trial centers on three fundamental responsibilities: mastering unyielding bravery regardless of the odds, actively shielding the weak from harm, and maintaining faith when confronted by terror."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This rite marks the transition from a mere acolyte to a trusted defender of the Holy Light, challenging you to put selfless duty ahead of personal safety."
+  },
+  {
+   "target": "race:Human",
+   "text": "Organized under the watchful eye of Duthorian Rall in the Cathedral of Light, this trial reflects Stormwind's enduring devotion to the Silver Hand's founding ideals."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Ironforge's paladins, led by mentors like Tiza Battleforge, treat the Tome of Valor as proof that dwarven fortitude is reinforced by holy purpose."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The trials outlined in the Tome prepare champions to defend Alliance settlements against rising threats, from local bandits to monstrous invaders."
+  }
+ ],
+ "keywords": [
+  "cathedral of light",
+  "duthorian rall",
+  "holy light",
+  "ironforge",
+  "paladin trial",
+  "silver hand",
+  "tiza battleforge",
+  "tome of valor"
+ ],
+ "related": [
+  "subzone:cathedral-of-light",
+  "topic:light"
+ ],
+ "attribution": [
+  "The Tome of Valor"
+ ]
+}

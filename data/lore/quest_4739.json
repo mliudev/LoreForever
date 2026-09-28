@@ -1,0 +1,123 @@
+{
+ "key": "quest:4739",
+ "type": "quest",
+ "name": "In Search of Menara Voidrender",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   4739
+  ],
+  "level": "31",
+  "faction": "Horde",
+  "start": "Kaal Soulreaper",
+  "end": "Menara Voidrender",
+  "previous": null,
+  "next": "Components for the Enchanted Gold Bloodrobe",
+  "wiki": "In Search of Menara Voidrender (Undercity)",
+  "chain": []
+ },
+ "summary": "This quest sends promising Horde warlocks from the shadowy quarters of the Undercity across the sea to Ratchet. Atop a hill overlooking the port, the mentor Menara Voidrender awaits those prepared to craft powerful arcane garments.",
+ "sections": [
+  {
+   "title": "A Summons from the Shadows",
+   "body": "In the Forsaken capital of the Undercity, Kaal Soulreaper observes the growing talent of practicing warlocks. Recognizing that a practitioner has grown past rudimentary hexes and impish thralls, he urges them to seek specialized instruction across the Great Sea. The craft of demonic control leaves no room for hesitation, and only skilled mentors can ensure a warlock's survival against the volatile powers of the Nether.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Tower Above Ratchet",
+   "body": "Perched upon a high bluff overlooking the goblin port of Ratchet stands Strahad Farsan's tower. Here, far from the watchful judgment of city guards, practitioners like Menara Voidrender gather to tutor younger initiates. Warlocks of diverse backgrounds put aside tribal and political enmities under the harsh reality of their discipline: the demons they bargain with will consume human, orc, or Forsaken without prejudice if their will falters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts this quest?",
+   "aliases": [
+    "quest giver",
+    "where to get quest",
+    "kaal soulreaper location"
+   ],
+   "answer": "Kaal Soulreaper offers this quest in the Undercity. He recognizes when a warlock has attained sufficient power and experience to benefit from Menara Voidrender's advanced tutelage."
+  },
+  {
+   "q": "Where can Menara Voidrender be found?",
+   "aliases": [
+    "where is menara",
+    "find menara voidrender",
+    "menara location"
+   ],
+   "answer": "Menara resides in the Barrens, situated in the stone tower overlooking the port town of Ratchet alongside Strahad Farsan."
+  },
+  {
+   "q": "Why must Horde warlocks travel all the way to the Barrens?",
+   "aliases": [
+    "why ratchet",
+    "why travel to barrens",
+    "why go to menara"
+   ],
+   "answer": "Demonic arts are practiced in secluded enclaves where prying eyes cannot interfere. Menara Voidrender conducts specialized training and robe-crafting from Strahad's tower, where warlocks of all backgrounds study without the interference of civic or religious authorities."
+  },
+  {
+   "q": "What happens after reaching Menara Voidrender?",
+   "aliases": [
+    "quest continuation",
+    "what does menara give me",
+    "next quest"
+   ],
+   "answer": "Menara acknowledges your training and offers to guide you through creating an Enchanted Gold Bloodrobe, beginning a questline to collect rare and hazardous components across Azeroth."
+  },
+  {
+   "q": "Why do warlocks of different races share knowledge?",
+   "aliases": [
+    "warlock cooperation",
+    "why work together warlock",
+    "menara warlock lore"
+   ],
+   "answer": "As Menara explains, demons show no mercy and do not discriminate based on race if a summoner fails to control them. Practical survival compels warlocks to share techniques and safeguard their craft against mutual catastrophe."
+  },
+  {
+   "q": "Who is Strahad Farsan?",
+   "aliases": [
+    "strahad tower",
+    "who owns the tower in ratchet",
+    "strahad farsan"
+   ],
+   "answer": "Strahad Farsan is a master warlock who maintains the remote stone tower above Ratchet, serving as a haven and instructional center for practitioners seeking to master demonic arts away from major faction strongholds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This journey marks a warlock's transition into advanced practice, opening the path to craft specialized vestments tuned to nether energies."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Beginning in the grim depths of the Undercity, Forsaken warlocks must venture abroad to the sun-bleached wastes of Kalimdor to continue their esoteric studies."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The quest demonstrates how the Horde's disparate warlock factions maintain an underground network spanning both Lordaeron and Kalimdor."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "enchanted gold bloodrobe",
+  "kaal soulreaper",
+  "menara voidrender",
+  "ratchet",
+  "strahad's tower",
+  "undercity",
+  "warlock"
+ ],
+ "related": [
+  "npc:menara-voidrender",
+  "npc:kaal-soulreaper",
+  "quest:1796",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "In Search of Menara Voidrender (Undercity)"
+ ]
+}

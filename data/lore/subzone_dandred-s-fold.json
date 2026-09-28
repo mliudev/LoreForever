@@ -1,0 +1,92 @@
+{
+ "key": "subzone:dandred-s-fold",
+ "type": "subzone",
+ "name": "Dandred's Fold",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "wiki": "Dandred's Fold"
+ },
+ "summary": "Dandred's Fold is a secluded farmstead and manor tucked along the misty northwestern shores of Lordamere Lake in the Alterac Mountains. Now overrun by the Syndicate, it serves as a secure hideout for Lord Aliden Perenolde and his co-conspirators. Both the Horde and the Alliance keep a watchful eye on this lakefront retreat for very different reasons.",
+ "sections": [
+  {
+   "title": "A Noble Safe Haven Fallen to Outlaws",
+   "body": "Perched on the western edge of the Uplands with private access to the waters of Lordamere Lake, Dandred's Fold was once a tranquil country estate, likely owned by an Alteraci noble named Dandred. In the aftermath of the kingdom's fall, the estate transformed into a fortified enclave for the Syndicate. Syndicate assassins and enforcers now patrol its fences and docks, shielding the fallen nobility from the eyes of Southshore authorities and the Forsaken across the lake.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Nexus of Intrigues",
+   "body": "Behind the manor's closed doors, dangerous conspiracies brew. Lord Aliden Perenolde, the recognized leader of the Syndicate, uses Dandred's Fold as his base of operations alongside his mistress, Elysa. Yet the outlaws are not alone; a rogue Shadow Council orc named Nagaz of the Argus Wake has also embedded himself here, brokering dark pacts with the human brigands. This dangerous alliance makes Dandred's Fold a target for Southshore's magistrates and Horde champions alike.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Dandred's Fold?",
+   "aliases": [
+    "who is at dandreds fold",
+    "who lives at dandred's fold",
+    "dandreds fold mobs"
+   ],
+   "answer": "The estate is occupied by the Syndicate, an aristocratic criminal network led by the deposed nobles of Alterac. Syndicate assassins and enforcers guard the grounds, serving under Lord Aliden Perenolde."
+  },
+  {
+   "q": "Why does the Horde care about this estate?",
+   "aliases": [
+    "horde dandreds fold",
+    "why horde go to dandreds fold"
+   ],
+   "answer": "The Horde targets the manor to strike down Lord Aliden Perenolde and retrieve a stolen keepsake: the heirloom necklace that once belonged to Taretha Foxton, Thrall's childhood savior and confidante."
+  },
+  {
+   "q": "Why does the Alliance send adventurers here?",
+   "aliases": [
+    "alliance dandreds fold",
+    "magistrate maleb quest dandreds fold"
+   ],
+   "answer": "Magistrate Henry Maleb of Southshore directs Alliance agents here to eliminate Nagaz, a dangerous member of the Argus Wake cult who is colluding with the Syndicate outlaws."
+  },
+  {
+   "q": "Who was Dandred?",
+   "aliases": [
+    "who is dandred",
+    "dandred lore"
+   ],
+   "answer": "Dandred was an Alteraci aristocrat who originally held the manor and its surrounding farmland before the collapse of the Kingdom of Alterac led to the rise of the Syndicate."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, infiltrating Dandred's Fold is deeply personal. Warchief Thrall seeks the retrieval of Taretha Foxton's necklace, currently gifted to Lord Aliden Perenolde's mistress."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance cannot tolerate an alliance between human outlaws and the demonic Argus Wake, prompting Magistrate Henry Maleb to order surgical strikes against the estate."
+  }
+ ],
+ "keywords": [
+  "aliden perenolde",
+  "argus wake",
+  "dandred's fold",
+  "dandreds fold",
+  "elysa",
+  "lordamere lake",
+  "nagaz",
+  "syndicate",
+  "uplands"
+ ],
+ "related": [
+  "topic:syndicate",
+  "zone:alterac",
+  "npc:magistrate-henry-maleb",
+  "subzone:uplands",
+  "subzone:lordamere-lake",
+  "subzone:misty-shore",
+  "topic:alterac-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Dandred's Fold"
+ ]
+}

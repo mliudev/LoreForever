@@ -1,0 +1,141 @@
+{
+ "key": "zone:ashenvale",
+ "type": "zone",
+ "name": "Ashenvale",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": [
+   "Ashenvale (Classic)",
+   "Ashenvale"
+  ],
+  "levels": "18-30",
+  "aliases": []
+ },
+ "summary": "Ashenvale is the ancient, rain-drenched ancestral forest of the night elves, held sacred under the protection of the Sentinels and the demigod Cenarius. Bordering the Barrens to the south and Darkshore to the north, it has erupted into a bitter war zone as the Horde harvests timber to build its young nation. Ancient trees and tranquil moonwells share canopy with demonic holdouts, hostile beastmen, and clash points along the contested frontier.",
+ "sections": [
+  {
+   "title": "The Whispering Canopy",
+   "body": "Stretching beneath Mount Hyjal, Ashenvale has stood for millennia under the stewardship of the kaldorei and the children of Cenarius. Immense trees knit together into a dense canopy that turns daily rain into a gentle mist and casts the forest floor in eternal twilight. Ancient ruins of elven civilization poke through the moss, guarded by walking ancients and dryads. For thousands of years, the night elves built no true cities here, preferring to hunt lightly and preserve the wild domain in pristine balance.",
+   "spoiler": 0
+  },
+  {
+   "title": "War for the Woods",
+   "body": "The peace shattered during the Third War when Grommash Hellscream and the Warsong clan penetrated the forest for lumber, slaying Cenarius after falling to demonic bloodlust. Today in 25 ADP, the struggle has become a full-scale territorial war. From Splintertree Post and the southern Mor'shan Rampart, the Warsong Outriders drive axes and shredders into the eastern woods to supply Orgrimmar. The Silverwing Sentinels, based in the sanctuary town of Astranaar, have sworn to expel every last orcish logger from the sacred grove.",
+   "spoiler": 0
+  },
+  {
+   "title": "Lingering Shadows",
+   "body": "The lumber war is far from Ashenvale's only peril. The Burning Legion left scarred blights at Felfire Hill and Demon Fall Canyon, where Mannoroth met his end. Cruel satyrs operate out of ruins like Satyrnaar and Xavian, corrupting waterways and wildlife. Furbolg tribes, once friends of the elves, have largely succumbed to dark madness. Meanwhile, mysterious worgen stalk the northern shrine near Felwood, and cursed dragonkin prowl Bough Shadow, guarding a portal into the troubled Emerald Dream.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the Horde and Alliance fighting in Ashenvale?",
+   "aliases": [
+    "why horde cutting trees",
+    "ashenvale war reason",
+    "warsong vs silverwing"
+   ],
+   "answer": "The orcs of Durotar have virtually no timber in their dry homeland and desperately need Ashenvale's lumber to build Orgrimmar and fuel their young nation. To the night elves, Ashenvale is a sacred ancestral homeland protected by nature deities. The Silverwing Sentinels view the Warsong clan's clear-cutting operations as intolerable desecration, sparking constant skirmishes and the pitched struggle in Warsong Gulch."
+  },
+  {
+   "q": "What happened to Cenarius in this forest?",
+   "aliases": [
+    "how cenarius died",
+    "grom killed cenarius",
+    "cenarius fate"
+   ],
+   "answer": "During the Third War, Grommash Hellscream led the Warsong clan into Ashenvale to gather timber. Cenarius attacked the orcs to defend the sacred grove. Desperate to defeat the demigod, Grommash and his clan drank from a fountain tainted by the pit lord Mannoroth, gaining demonic fury and slaying Cenarius. Although Grom later broke the curse by slaying Mannoroth at Demon Fall Canyon, the elves have not forgotten the murder of their patron demigod."
+  },
+  {
+   "q": "What is Blackfathom Deeps?",
+   "aliases": [
+    "where is bfd",
+    "bfd lore",
+    "blackfathom deeps history"
+   ],
+   "answer": "Blackfathom Deeps is a sunken temple complex situated beneath the Zoram Strand along Ashenvale's northwestern coastline. Formerly an ancient kaldorei temple dedicated to Elune, it collapsed into the sea during the Great Sundering. It is now overrun by savage naga, Twilight's Hammer cultists, and aquatic beasts who revere the ancient hydra Aku'mai."
+  },
+  {
+   "q": "What is the Great Tree at Bough Shadow?",
+   "aliases": [
+    "bough shadow tree",
+    "portal bough shadow",
+    "green dragons ashenvale"
+   ],
+   "answer": "Bough Shadow is home to one of four Great Trees planted by the Cenarion Circle thousands of years ago to anchor conduits into the Emerald Dream and contain saronite corruption. It serves as an active gateway between Azeroth and the Dream. Green dragonspawn guard the area, though a sinister taint within the Dream occasionally drives monstrous Nightmare Dragons through the portal."
+  },
+  {
+   "q": "Why are the furbolgs in Ashenvale hostile?",
+   "aliases": [
+    "crazy furbolgs ashenvale",
+    "thistlefur corrupt",
+    "why furbolgs attack"
+   ],
+   "answer": "While the night elves maintained peaceful alliances with the furbolgs for centuries, the demonic taint left by the Burning Legion's invasion shattered their minds. Residual fel magic radiating from places like Felwood, Satyrnaar, and Demon Fall Canyon drove tribes like the Thistlefur into violent insanity, turning them hostile to outsiders and kin alike."
+  },
+  {
+   "q": "Who is buried at Demon Fall Canyon?",
+   "aliases": [
+    "mannoroth canyon",
+    "grommash grave ashenvale",
+    "monument demon fall"
+   ],
+   "answer": "Demon Fall Canyon is the battlefield where Grommash Hellscream and Thrall confronted the pit lord Mannoroth. Grom struck down the demon lord with a fatal blow, freeing the orcish race from the demonic blood curse at the cost of his own life. Mannoroth's shattered armor remains mounted on a stone monument there in memorial to Hellscream's sacrifice."
+  },
+  {
+   "q": "How do I travel through Ashenvale?",
+   "aliases": [
+    "how to get to ashenvale",
+    "ashenvale travel",
+    "ashenvale flight paths"
+   ],
+   "answer": "Alliance travelers generally enter through the northern mountain pass from Auberdine in Darkshore, following the highway east toward Astranaar. Horde adventurers march north out of the Barrens through the fortified Mor'shan Rampart toward Splintertree Post or west to Zoram'gar Outpost on the Zoram Strand. Both factions maintain flight masters at their major fortresses."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Ashenvale is your spiritual backyard and the legacy of Cenarius. Defending its groves against Warsong axes and weeding out satyr corruption from its moonwells is a matter of primal kaldorei honor."
+  },
+  {
+   "target": "race:Orc",
+   "text": "This timber fuels the very walls and siege towers of Orgrimmar. It is also sacred ground where Grommash Hellscream shed blood to redeem the orcish race from demonic servitude."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The balance of nature here is under siege on multiple fronts. Between the lumber operations, corrupted furbolg dens, and the nightmare-haunted portal at Bough Shadow, Ashenvale desperately needs Cenarion restoration."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Fed by ancient magical leyways and perpetual rainfall, Ashenvale is one of Kalimdor's richest foraging zones for Briarthorn, Stranglekelp, Kingsblood, and rare Gromsblood around demonic scars."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "bough shadow",
+  "cenarius",
+  "grommash",
+  "mannoroth",
+  "silverwing",
+  "splintertree",
+  "warsong",
+  "zoram"
+ ],
+ "related": [
+  "zone:darkshore",
+  "zone:barrens",
+  "zone:blackfathom",
+  "subzone:astranaar",
+  "subzone:demon-fall-canyon",
+  "subzone:bough-shadow",
+  "subzone:mor-shan-rampart"
+ ],
+ "attribution": [
+  "Ashenvale (Classic)",
+  "Ashenvale"
+ ]
+}

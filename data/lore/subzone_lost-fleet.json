@@ -1,0 +1,109 @@
+{
+ "key": "subzone:lost-fleet",
+ "type": "subzone",
+ "name": "Lost Fleet",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Lost Fleet"
+ },
+ "summary": "The Lost Fleet consists of the shattered wooden hulks of the Kul Tiras Third Fleet, sunken off the northern coast of the Wetlands along Baradin Bay. Decimated during the Second War by Dragonmaw-enslaved red dragons, the wreckage is now haunted by restless, cursed undead sailors bound to a dark artifact left rotting in a ruined hold.",
+ "sections": [
+  {
+   "title": "A Tragic End in the Second War",
+   "body": "During the Second War, the Kul Tiras Third Fleet was under the command of Derek Proudmoore, elder son of the Lord Admiral. While clashing with the Orcish Armada, the Alliance vessels were ambushed from above by red dragons enslaved by the Dragonmaw clan. Sheets of dragonflame quickly engulfed the fleet, sending proud vessels like the Wave Mistress and the Intrepid crashing onto the shallows and reefs of northern Bluegill Marsh. Almost the entire contingent drowned or burned, with First Mate Fitzsimmons standing as the lone living survivor of the disaster.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Curse of Paleth",
+   "body": "A watery grave was not the end for the sailors of the Third Fleet. Locked deep in the sunken cargo hold of the Intrepid lay a forbidden artifact known as the Cursed Eye of Paleth, hoarded by the ship's greedy commander, Captain Halyndor. The dark relic corrupted the drowned crews, binding their spirits to the splintered timbers as raving, cursed undead. Only the ghost of First Mate Snellig retains any semblance of sanity, wandering the marshy shore while his former crewmates violently lash out at any trespassers who venture near the wrecks.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Lost Fleet?",
+   "aliases": [
+    "lost fleet",
+    "what is this place",
+    "wetlands shipwrecks",
+    "third fleet"
+   ],
+   "answer": "The Lost Fleet is the wreckage of several Kul Tiras warships from the Third Fleet, resting off the northern coast of the Wetlands in Baradin Bay. They were destroyed during the Second War and are now haunted by their undead crews."
+  },
+  {
+   "q": "How were these ships destroyed?",
+   "aliases": [
+    "who sank the ships",
+    "how did they sink",
+    "what destroyed the fleet"
+   ],
+   "answer": "During the Second War, the fleet was ambushed and burned by enslaved red dragons fielded by the orcish Dragonmaw clan. The intense dragonflame reduced the ships to burning hulks that foundered along the coast."
+  },
+  {
+   "q": "Why are the sailors here undead?",
+   "aliases": [
+    "why are they ghosts",
+    "undead sailors",
+    "curse of paleth"
+   ],
+   "answer": "The crew was cursed by a foul artifact called the Cursed Eye of Paleth, which was secretly kept in the cargo hold of the Intrepid by its captain, Halyndor. The relic's dark magic denied the drowned sailors a peaceful rest."
+  },
+  {
+   "q": "Did anyone survive the destruction of the fleet?",
+   "aliases": [
+    "any survivors",
+    "did anyone live",
+    "fitzsimmons"
+   ],
+   "answer": "First Mate Fitzsimmons of the Wave Mistress is the only known living survivor of the catastrophe. He managed to reach safety and now resides at Menethil Harbor."
+  },
+  {
+   "q": "Who was in charge of the Third Fleet?",
+   "aliases": [
+    "who commanded the fleet",
+    "fleet captain",
+    "derek proudmoore"
+   ],
+   "answer": "The Third Fleet was commanded by Derek Proudmoore, the eldest son of Grand Admiral Daelin Proudmoore. Derek was killed atop the crow's nest of his flagship when dragons engulfed the fleet in flame."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The hulks are a somber reminder of the heavy toll Kul Tiras and the Alliance paid during the Second War, demanding respect for the fallen and an end to their cursed torment."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Alliance smiths often hear tales of the sunken fleet, as another vessel from the same squadron, the Flying Osprey, went down carrying rare ingots of Lightforge iron."
+  }
+ ],
+ "keywords": [
+  "baradin bay",
+  "bluegill marsh",
+  "derek proudmoore",
+  "doomed fleet",
+  "eye of paleth",
+  "fitzsimmons",
+  "halyndor",
+  "intrepid",
+  "lost fleet",
+  "snellig",
+  "third fleet",
+  "wave mistress",
+  "wetlands"
+ ],
+ "related": [
+  "zone:wetlands",
+  "subzone:baradin-bay",
+  "subzone:bluegill-marsh",
+  "npc:first-mate-fitzsimmons",
+  "quest:270",
+  "quest:288",
+  "quest:290",
+  "quest:292"
+ ],
+ "attribution": [
+  "Lost Fleet"
+ ]
+}

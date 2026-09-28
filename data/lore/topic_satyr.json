@@ -1,0 +1,131 @@
+{
+ "key": "topic:satyr",
+ "type": "topic",
+ "name": "Satyr",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Satyr"
+ },
+ "summary": "Satyrs are twisted, caprine demons born from the curse of the Highborne sorcerer Xavius during the ancient War of the Ancients. Once night elves, they were warped by Sargeras into horned, hooved beasts dedicated to spreading fel corruption, tormenting their former kin, and furthering the Burning Legion's will. Across the wilds of Kalimdor, scattered satyr sects corrupt pristine woodlands, desecrate moonwells, and subvert vulnerable mortal cults.",
+ "sections": [
+  {
+   "title": "Origins of the Curse",
+   "body": "Ten thousand years ago during the War of the Ancients, the Highborne councilor Xavius failed to keep the Burning Legion's initial gateway stable against Malfurion Stormrage. Enraged by this blunder, Sargeras dismantled Xavius's spirit and rebuilt him as a punishment and tool: his torso retained elven features, but he gained wicked horns, taloned claws, a leonine tail, and the cloven lower body of a goat. Sent back into Zin-Azshari, Xavius gleefully passed his fel affliction to other power-hungry Highborne. Though Xavius was struck down, his demonic progeny survived, continually seeking to reproduce their kind by corrupting others.",
+   "spoiler": 0
+  },
+  {
+   "title": "The War of the Satyr",
+   "body": "Following the Great Sundering, the surviving demons and satyrs regrouped to wage the War of the Satyr against the shattered night elf civilization. Desperate to counter the satyrs' vicious demonic magic, night elven druids unleashed the unruly Pack Form, inadvertently giving birth to the first feral worgen. The worgen tore through the satyr hosts, shattering their unified army. Robbed of central leadership, the remnants fractured into scattered sects, lingering in dark forests and ancient ruins while harboring deep hatred for their kaldorei cousins.",
+   "spoiler": 0
+  },
+  {
+   "title": "Corrupters of Kalimdor",
+   "body": "Today, satyr clans inhabit deep woodland enclaves across Kalimdor, from Darkshore and Ashenvale to Felwood, Azshara, and Feralas. They feed directly on the land's pure magic, leeching and spoiling nature until their hooves swell with drained arcane energy. Satyrs frequently turn peaceful furbolg tribes violent, taint ancient moonwells, and serve as covert liaisons for the Shadow Council and the Burning Blade. While some work alongside Twilight's Hammer cultists or hide within ancient ruins like Dire Maul, all remain bound to the shadow of the Burning Legion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What exactly is a satyr?",
+   "aliases": [
+    "what are satyrs",
+    "satyr race",
+    "satyr lore"
+   ],
+   "answer": "A satyr is a demon transformed from a night elf through an ancient fel curse. They possess cloven hooves, horns, sharp claws, and a tail, retaining an elven torso while wielding dark fel sorcery and physical savagery."
+  },
+  {
+   "q": "Who was the first satyr?",
+   "aliases": [
+    "first satyr",
+    "who created satyrs",
+    "xavius satyr"
+   ],
+   "answer": "Lord Xavius, the Highborne sorcerer and chief advisor to Queen Azshara, was the first satyr. After Xavius failed to defend the Burning Legion's portal during the War of the Ancients, Sargeras remade his body into a demonic, horned form as both punishment and a dark gift."
+  },
+  {
+   "q": "Can satyrs make new satyrs?",
+   "aliases": [
+    "how are satyrs made",
+    "satyr curse spread",
+    "becoming a satyr"
+   ],
+   "answer": "Yes. Existing satyrs can inflict their transformative curse on other beings, primarily night elves, though the magic has weakened over the millennia and successful transformations are far rarer today. Scattered cultists occasionally revere Xavius hoping to earn the transformation."
+  },
+  {
+   "q": "Are there female satyrs?",
+   "aliases": [
+    "female satyrs",
+    "are all satyrs male",
+    "girl satyr"
+   ],
+   "answer": "Yes, female satyrs exist, though they are rarely seen or distinguished by outside scholars. A known example is the Fallen Priestess Driana, an elven priestess who succumbed to the demonic affliction."
+  },
+  {
+   "q": "Why do satyrs target moonwells and forests?",
+   "aliases": [
+    "why do satyrs corrupt moonwells",
+    "satyr hooves lore",
+    "satyr magic"
+   ],
+   "answer": "Satyrs feed on purity and natural arcane magic, leeching it directly from pristine lands and night elf moonwells. They store this stolen energy in their hooves, which become swollen and uncloven as they absorb immense magical power."
+  },
+  {
+   "q": "Where are satyrs found right now?",
+   "aliases": [
+    "satyr locations",
+    "where do satyrs live",
+    "satyr zones"
+   ],
+   "answer": "Satyrs are scattered in ruined and corrupted reaches across Kalimdor, including Satyrnaar and Xavian in Ashenvale, Bashal'Aran in Darkshore, Jadefire Run in Felwood, Sargeron in Desolace, the Haldarr and Legash encampments in Azshara, and within Dire Maul in Feralas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Satyrs represent the ultimate betrayal of kaldorei heritage, serving as a bitter reminder of the Highborne's arrogance during the War of the Ancients."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Satyrs actively poison the wilds, corrupt furbolgs, and defile sacred groves, making their destruction an urgent imperative for the Cenarion Circle."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "As beings of pure fel energy and demonic malice, satyrs demonstrate the corruptive mastery of the Burning Legion's ancient curses."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Sentinels and Alliance adventurers constantly fight to purge satyr encampments encroaching on night elven settlements throughout Ashenvale and Darkshore."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde clashes violently with satyr sects in Ashenvale and Desolace, rooting out their clandestine alliances with the Burning Blade."
+  }
+ ],
+ "keywords": [
+  "corrupter",
+  "demon",
+  "fel",
+  "highborne",
+  "jadefire",
+  "sargeron",
+  "satyr",
+  "satyrnaar",
+  "xavian",
+  "xavius"
+ ],
+ "related": [
+  "topic:war-of-the-ancients",
+  "topic:highborne",
+  "topic:night-elf",
+  "topic:burning-legion",
+  "zone:ashenvale",
+  "zone:felwood",
+  "subzone:satyrnaar",
+  "quest:1842"
+ ],
+ "attribution": [
+  "Satyr"
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "key": "npc:krenk-choplimb",
+ "type": "npc",
+ "name": "Krenk Choplimb",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Krenk Choplimb",
+  "refs": 1
+ },
+ "summary": "Krenk Choplimb is a goblin trauma surgeon and field medic based in Orgrimmar. Known for his blunt, no-nonsense methods and surgical cleaver, he directs skilled triage workers within the Horde toward advanced triage training.",
+ "sections": [
+  {
+   "title": "A Pragmatic Approach to Medicine",
+   "body": "Goblins approach medicine much like any other trade: efficiency and immediate results matter far more than gentle bedside manners. Krenk Choplimb embodies this practical philosophy completely. Armed with a meat cleaver and an unvarnished name, he handles medical emergencies in Orgrimmar with swift pragmatism. Rather than delicate care, Choplimb focuses on battlefield triage and stopping loss of life, pointing aspiring medics toward deeper military medicine when their standard bandaging skills can carry them no further.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Krenk Choplimb?",
+   "aliases": [
+    "who is krenk",
+    "krenk choplimb role",
+    "who is choplimb"
+   ],
+   "answer": "Krenk Choplimb is a goblin medical specialist found in the Horde capital of Orgrimmar. He serves as an expert contact for aspiring medics who have mastered basic first aid and need direction to higher training."
+  },
+  {
+   "q": "Why does he carry a meat cleaver?",
+   "aliases": [
+    "why cleaver",
+    "choplimb weapon",
+    "is he a real doctor"
+   ],
+   "answer": "Goblin surgery leans heavily toward quick, decisive cuts rather than delicate bedside rituals. Krenk's name and heavy blade reflect his straightforward, rough-and-ready approach to amputations and battlefield trauma."
+  },
+  {
+   "q": "What does he do for Horde medics?",
+   "aliases": [
+    "first aid quest",
+    "horde trauma quest",
+    "what quest does he give"
+   ],
+   "answer": "When a field medic reaches the pinnacle of standard first aid instruction, Krenk directs them via the quest Horde Trauma to specialist surgeons in the field who can instruct them in advanced triage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For Horde champions fighting across Kalimdor, Krenk serves as a vital bridge toward mastering battlefield triage and life-saving bandage techniques."
+  }
+ ],
+ "keywords": [
+  "first aid",
+  "goblin",
+  "horde trauma",
+  "krenk choplimb",
+  "orgrimmar",
+  "surgeon",
+  "trauma"
+ ],
+ "related": [
+  "quest:6623",
+  "zone:orgrimmar",
+  "topic:goblin",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Krenk Choplimb"
+ ]
+}

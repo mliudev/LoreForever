@@ -1,0 +1,115 @@
+{
+ "key": "quest:262",
+ "type": "quest",
+ "name": "The Shadowy Figure",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   262
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Sven Yorgen",
+  "end": "Madame Eva",
+  "previous": "Sven's Camp",
+  "next": "The Shadowy Search Continues",
+  "wiki": "The Shadowy Figure",
+  "chain": []
+ },
+ "summary": "Haunted by the massacre of his family, the hermit Sven Yorgen tasks you with discovering the identity of a mysterious stranger seen lurking near his farm on that fateful night. Armed only with an enigmatic book recovered from the ruins, you must consult the residents of Darkshire to trace the stranger's footsteps.",
+ "sections": [
+  {
+   "title": "Echoes of a Slaughter",
+   "body": "Sven Yorgen lives in hiding along the desolate hills of Duskwood, broken by the horrific butchery of his family and workers. While he originally placed blame on the mysterious black riders terrorizing the woods, his memory remains tormented by another detail: a quiet, shadowy figure who was lurking nearby on the night of the massacre. Desperate for answers, Sven entrusts you with the only physical clue recovered from the wreckage\u2014a strange book left behind at the ransacked farm.",
+   "spoiler": 0
+  },
+  {
+   "title": "Seeking Divination in Town",
+   "body": "With no direct leads to pursue in the perilous wilderness, the trail points back east toward Darkshire. Sven hopes that someone among the superstitious locals might recognize the curious volume. Darkshire harbors its share of oddities and mediums, most notably Madame Eva, whose occult senses and divinations allow her to peer beyond ordinary mundane sight to read the spiritual impressions clinging to mysterious relics.",
+   "spoiler": 0
+  },
+  {
+   "title": "Foreign Threads",
+   "body": "Presenting the book to Madame Eva reveals faint but unmistakable psychic impressions. While Sven's own burning desire for vengeance has recently marked the pages, the underlying aura belongs to someone else entirely. Eva divines that the original owner was not a resident of Darkshire or Duskwood at all, confirming that an outsider walked the farm before the bloodshed began.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sven Yorgen?",
+   "aliases": [
+    "who is sven",
+    "sven backstory",
+    "sven yorgen"
+   ],
+   "answer": "Sven Yorgen is a devastated farmer driven into exile in the western hills of Duskwood. After dark riders attacked his homestead and slaughtered his entire family, he fled into the wilderness, consumed by grief, fear, and a desperate hunger for revenge against those responsible."
+  },
+  {
+   "q": "What is the book found at Sven's farm?",
+   "aliases": [
+    "what book is this",
+    "book from svens farm",
+    "mysterious book"
+   ],
+   "answer": "The book is a physical artifact recovered from the dirt and rubble of Sven's destroyed homestead. It belonged to an elusive onlooker who was seen lurking in the shadows during the attack on his family."
+  },
+  {
+   "q": "Why take the book to Madame Eva?",
+   "aliases": [
+    "why madame eva",
+    "who reads the book",
+    "darkshire mystic"
+   ],
+   "answer": "Madame Eva is Darkshire's resident seer and fortune teller. Ordinary townsfolk cannot glean much from an unmarked volume, but Eva uses her clairvoyant powers to read residual psychic impressions left by whoever previously owned or carried the object."
+  },
+  {
+   "q": "What does Madame Eva learn from the book?",
+   "aliases": [
+    "what does eva say",
+    "book owner identity",
+    "divination result"
+   ],
+   "answer": "Madame Eva senses the powerful emotional imprint of revenge left by Sven's recent handling of it. Beneath that, however, she detects faint traces indicating that the original owner was an outsider not native to Darkshire."
+  },
+  {
+   "q": "Where does this investigation lead next?",
+   "aliases": [
+    "what next",
+    "next quest after book",
+    "who is the shadowy figure"
+   ],
+   "answer": "Learning that the owner was an outsider prompts Madame Eva to send you searching through other records and local spots in Darkshire, seeking anyone who might recall an unfamiliar traveler matching the figure's description."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Darkshire's lack of support from Stormwind forces its traumatized frontiersmen and local seers to rely entirely on wandering Alliance champions to investigate deadly atrocities in Duskwood."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Investigating Madame Eva's divination highlights the thin veil between spiritual clairvoyance, shadow magic, and unseen psychic impressions lingering on everyday objects."
+  }
+ ],
+ "keywords": [
+  "book",
+  "darkshire",
+  "duskwood",
+  "madame eva",
+  "shadowy figure",
+  "sven yorgen",
+  "sven's camp"
+ ],
+ "related": [
+  "quest:230",
+  "quest:265",
+  "npc:sven-yorgen",
+  "npc:madame-eva",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "The Shadowy Figure"
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "key": "quest:5062",
+ "type": "quest",
+ "name": "Sacred Fire",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   5062
+  ],
+  "level": "27",
+  "faction": "Horde",
+  "start": "Motega Firemane",
+  "end": "Magatha Grimtotem",
+  "previous": "Serpent Wild",
+  "next": "Arikara (quest) (Group)",
+  "wiki": "Sacred Fire",
+  "chain": []
+ },
+ "summary": "Sacred Fire is a Horde rite of passage that bridges the jagged canyons of Thousand Needles with the heights of Thunder Bluff. To summon and banish the vengeful wind serpent Arikara, hunters must gather rare Incendia Agave from the Boiling Pool so that Magatha Grimtotem can enchant it into ritual powder.",
+ "sections": [
+  {
+   "title": "Kindling the Spirit",
+   "body": "The monstrous wind serpent Arikara cannot simply be tracked across the canyon floor; she must be called. Motega Firemane instructs hunters to prepare the sacred fire of life, an ancient ritual flame that acts as a beacon to the spirit beast. Feeding this fire requires more than ordinary kindling, calling for the rare Incendia Agave that sprouts only around the scalding waters of Thousand Needles.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Boiling Pool",
+   "body": "Incendia Agave thrives near the Boiling Pool, a geothermally heated lake tucked below Darkcloud Pinnacle. Harvesting the spiky succulent requires braving the blistering waters and the volatile steam elementals that drift through the mists. Many bushels grow submerged beneath the surface, demanding resilience from any hunter sent to gather them.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Elder's Blessing",
+   "body": "Raw agave alone cannot ignite the ritual brazier. Once harvested, the plants must be carried high above the plains to Elder Rise in Thunder Bluff. There, the elder shaman Magatha Grimtotem lends her craft to grind and enchant the leaves into a potent ritual powder, outwardly eager to see the vengeful beast challenged.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the sacred fire of life?",
+   "aliases": [
+    "sacred fire",
+    "what does the fire do",
+    "why light the sacred fire"
+   ],
+   "answer": "It is a ritual flame used to summon the vengeful spirit serpent Arikara. Without lighting this sacred fire, the beast remains hidden and unreachable."
+  },
+  {
+   "q": "Where does Incendia Agave grow?",
+   "aliases": [
+    "where to find agave",
+    "incendia agave location",
+    "boiling pool agave"
+   ],
+   "answer": "Incendia Agave is found in and around the Boiling Pool in Thousand Needles, near the base of Darkcloud Pinnacle. Many of the spiky plants grow submerged beneath the hot lake water."
+  },
+  {
+   "q": "Why must Magatha Grimtotem enchant the agave?",
+   "aliases": [
+    "why magatha",
+    "who enchants the agave",
+    "what does magatha do"
+   ],
+   "answer": "The raw plant lacks the magical potency needed to ignite the sacred fire. As a powerful shaman, Magatha weaves elemental energy into the leaves, transforming them into a powder that can awaken the dormant flame."
+  },
+  {
+   "q": "Who is Arikara?",
+   "aliases": [
+    "what is arikara",
+    "arikara lore",
+    "wind serpent boss"
+   ],
+   "answer": "Arikara is a formidable wind serpent born to deliver vengeance against those who commit terrible crimes. Motega Firemane views her presence as an imminent peril that requires swift hunters to confront."
+  },
+  {
+   "q": "Who gives the quest Sacred Fire?",
+   "aliases": [
+    "quest giver sacred fire",
+    "where to start sacred fire"
+   ],
+   "answer": "Motega Firemane offers the quest in Thousand Needles after you assist him with his initial tasks regarding the local serpent threat."
+  },
+  {
+   "q": "Why does Magatha smile when she hears of Arikara?",
+   "aliases": [
+    "magatha smiling",
+    "magatha reaction",
+    "why does magatha smile"
+   ],
+   "answer": "Magatha finds amusement or satisfaction in the mention of a creature born solely to punish heinous acts, hinting at her dark perspective on vengeance and tribal politics."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren hunters, honoring the spirits through ritual hunting and navigating the elder politics on Elder Rise is a fundamental rite of adulthood."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The quest highlights the practical application of shamanic magic, demonstrating how elemental power can be infused into natural flora like Incendia Agave."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists have a distinct advantage in tracking down the submerged spiky bushels of Incendia Agave across the Boiling Pool."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Carrying out trials for the elders strengthens Horde ties across the arid flatlands of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "arikara",
+  "boiling pool",
+  "darkcloud pinnacle",
+  "elder rise",
+  "incendia agave",
+  "magatha grimtotem",
+  "motega firemane",
+  "sacred fire",
+  "thousand needles"
+ ],
+ "related": [
+  "quest:4865",
+  "quest:5088",
+  "npc:motega-firemane",
+  "npc:magatha-grimtotem",
+  "zone:thousandneedles",
+  "zone:thunderbluff",
+  "subzone:elder-rise",
+  "subzone:darkcloud-pinnacle"
+ ],
+ "attribution": [
+  "Sacred Fire"
+ ]
+}

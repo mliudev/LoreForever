@@ -1,0 +1,89 @@
+{
+ "key": "npc:vorn-skyseer",
+ "type": "npc",
+ "name": "Vorn Skyseer",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Vorn Skyseer",
+  "refs": 1
+ },
+ "summary": "Vorn Skyseer is a peaceful tauren resident of Bloodhoof Village in central Mulgore. Resting beside the village lodgings, he greets young adventurers arriving from the Red Cloud Mesa and introduces them to local life.",
+ "sections": [
+  {
+   "title": "A Friendly Face in Bloodhoof",
+   "body": "Situated near the heart of Bloodhoof Village on the shores of Lake Stonebull, Vorn Skyseer serves as an informal welcoming presence for travelers descending from Camp Narache. As young tauren complete their rites of passage and venture into the wider valleys of Mulgore, Vorn offers kind words and hospitality, helping new arrivals settle into the bustling settlement.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Detached Observer",
+   "body": "Despite the constant friction between the Horde and Alliance on other fronts, Vorn maintains a quiet, almost neutral demeanor. Even during border incursions into the settlement, he remains aloof from skirmishes, refusing to take up arms or summon the village braves, content instead to watch over the tranquil plains of his homeland.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Vorn Skyseer?",
+   "aliases": [
+    "vorn skyseer lore",
+    "who is vorn",
+    "vorn mulgore"
+   ],
+   "answer": "Vorn Skyseer is an elder resident of Bloodhoof Village in Mulgore. He primarily serves to welcome young tauren braves who have freshly arrived from their introductory rites at Red Cloud Mesa."
+  },
+  {
+   "q": "Where can I find Vorn Skyseer?",
+   "aliases": [
+    "vorn skyseer location",
+    "where is vorn",
+    "vorn bloodhoof"
+   ],
+   "answer": "He can be found resting outdoors among the tents and longhouses of Bloodhoof Village, situated in the central plains of Mulgore just north of Lake Stonebull."
+  },
+  {
+   "q": "What quests does Vorn offer?",
+   "aliases": [
+    "vorn skyseer quests",
+    "vorn welcome quest"
+   ],
+   "answer": "He is involved in welcoming young Horde adventurers to the settlement, helping them acclimate to the village after departing their tribal training grounds."
+  },
+  {
+   "q": "Why doesn't Vorn Skyseer attack Alliance players?",
+   "aliases": [
+    "is vorn hostile",
+    "can alliance kill vorn",
+    "why is vorn peaceful"
+   ],
+   "answer": "Unlike the Bloodhoof village braves and guards, Vorn is an unattackable civilian NPC who remains passive and does not sound the alarm or engage in combat when hostile intruders enter town."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren venturing down from the Red Cloud Mesa, Vorn Skyseer is often one of the first familiar, reassuring faces to greet them as they step into the wider life of Mulgore."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Vorn exemplifies the calm and steady nature of the plains tribes who have gathered under Cairne Bloodhoof's leadership to build a permanent home."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "mulgore",
+  "red cloud mesa",
+  "tauren",
+  "vorn skyseer",
+  "welcome"
+ ],
+ "related": [
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "quest:5805",
+  "topic:tauren",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Vorn Skyseer"
+ ]
+}

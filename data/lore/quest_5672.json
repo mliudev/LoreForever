@@ -1,0 +1,118 @@
+{
+ "key": "quest:5672",
+ "type": "quest",
+ "name": "Elune's Grace",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   5672
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Priestess Alathea",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Elune's Grace (Darnassus)",
+  "chain": []
+ },
+ "summary": "Elune's Grace is a rite of recognition offered to devout night elf priests in Darnassus. Upon proving their faith and discipline through their early journeys, priests are called before Priestess Alathea to receive deeper instruction in the divine mysteries of the Moon Goddess.",
+ "sections": [
+  {
+   "title": "A Sacred Calling",
+   "body": "Within the Temple of the Moon in Darnassus, the Sisterhood of Elune guides young acolytes from their first prayers to mastery of lunar magic. Night elves do not look upon the Holy Light in the same manner as humans or dwarves; their faith is inextricably tied to the Mother Moon, Elune. When a novice priest reaches a significant milestone in their devotion, senior mentors take notice, marking the disciple as ready to shoulder greater divine power.",
+   "spoiler": 0
+  },
+  {
+   "title": "Blessings of the Moon Goddess",
+   "body": "Priestess Alathea extends this summons on behalf of the Sisterhood. She acknowledges that the acolyte's dedication has elevated them beyond the common flock, granting them access to traditions preserved across millennia. Accepting the rite seals the priest's bond to Elune, unlocking specific protective wards and lunar invocations unique to the kaldorei faith.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do elunes grace",
+    "what does elunes grace do",
+    "purpose of quest"
+   ],
+   "answer": "The quest represents a spiritual benchmark for night elf priests. It summons an acolyte back to Darnassus so Priestess Alathea can acknowledge their growth and initiate them into higher racial teachings granted by the Sisterhood of Elune."
+  },
+  {
+   "q": "Who is Priestess Alathea?",
+   "aliases": [
+    "alathea role",
+    "who gives quest",
+    "who is alathea"
+   ],
+   "answer": "Priestess Alathea is a respected trainer of the Sisterhood of Elune based in Darnassus. She watches over developing kaldorei priests, helping them deepen their communion with the Moon Goddess."
+  },
+  {
+   "q": "Why is this gift specific to night elves?",
+   "aliases": [
+    "why only night elves",
+    "racial ability lore",
+    "elune priest difference"
+   ],
+   "answer": "Unlike human or dwarven priests who draw upon the Holy Light, night elf priests venerate Elune directly. The sisterhood's invocations\u2014such as Elune's Grace\u2014reflect the lunar protection and defensive enchantments cultivated by the kaldorei over thousands of years."
+  },
+  {
+   "q": "Where does this ceremony take place?",
+   "aliases": [
+    "where is alathea",
+    "quest location",
+    "darnassus temple"
+   ],
+   "answer": "The summons is answered in Darnassus, centered within the Temple of the Moon where the city's priesthood gathers and teaches."
+  },
+  {
+   "q": "Do other Alliance priests receive a similar calling?",
+   "aliases": [
+    "do humans get this",
+    "dwarf priest equivalent",
+    "other races"
+   ],
+   "answer": "Yes. Each culture approaches the priesthood differently: humans and dwarves study the tenets of the Holy Light under their own mentors in Stormwind and Ironforge, earning racial disciplines distinct from the moon magic practiced by the night elves."
+  },
+  {
+   "q": "What state of devotion is Alathea referring to?",
+   "aliases": [
+    "attained a state",
+    "alathea dialogue",
+    "what devotion"
+   ],
+   "answer": "Alathea refers to the spiritual fortitude and maturity gained through trials in the wider world. Survival, discipline, and steadfast adherence to Elune's virtues prove that an acolyte can channel more potent lunar blessings safely."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This rite marks the divergence between kaldorei faith and the Light-based doctrines of human and dwarven clergies, grounding the priest's craft firmly in Elune's protective embrace."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, Elune's Grace represents unbroken continuity with ancient traditions preserved within the Sisterhood of Elune."
+  }
+ ],
+ "keywords": [
+  "alathea",
+  "darnassus",
+  "elune",
+  "elune's grace",
+  "priest quest",
+  "priestess alathea",
+  "sisterhood of elune",
+  "temple of the moon"
+ ],
+ "related": [
+  "npc:priestess-alathea",
+  "topic:elune",
+  "zone:darnassus",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Elune's Grace (Darnassus)"
+ ]
+}

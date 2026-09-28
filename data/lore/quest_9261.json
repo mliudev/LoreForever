@@ -1,0 +1,127 @@
+{
+ "key": "quest:9261",
+ "type": "quest",
+ "name": "Investigate the Scourge of Ironforge",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   9261
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Lieutenant Nevell",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Investigate the Scourge of Ironforge",
+  "chain": []
+ },
+ "summary": "Lieutenant Nevell of the Argent Dawn calls upon brave defenders as the Scourge arrives directly outside the gates of Ironforge. Undead troops and ominous runic circles threaten the snowy passes of Dun Morogh beneath a hovering necropolis. Defenders are tasked with destroying the walking corpses and deciphering the purpose behind these strange glowing sigils.",
+ "sections": [
+  {
+   "title": "Death at the Mountain Gates",
+   "body": "The Scourge invasion does not stop at Lordaeron or the plagued lands of the north. Floating necropolises cast grim shadows across Azeroth, including the frigid heights of Dun Morogh right outside Ironforge's mountain entrance. The Argent Dawn has stationed observers such as Lieutenant Nevell to monitor and counter this creeping blight before it can breach the fortress of the Bronzebeards.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unholy Inscriptions",
+   "body": "Beneath the shadow of the necropolis, the undead have established encampments marked by glowing runic circles and pulsing necrotic stones. By standing near these ominous circles, scouts discover dark, murmuring voices echoing through the ambient magic. Lieutenant Nevell deduces that these circles serve as dark conduits for communication, linking the mindless ranks to distant commanders directing the assault.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lieutenant Nevell?",
+   "aliases": [
+    "nevell",
+    "lieutenant nevell",
+    "quest giver"
+   ],
+   "answer": "Lieutenant Nevell is an officer of the Argent Dawn stationed at Ironforge to coordinate defense against the Scourge invasion. He tasks adventurers with collecting necrotic stones and discovering the purpose of the unholy sigils surrounding the invaders' camps."
+  },
+  {
+   "q": "Why is the Scourge attacking Ironforge?",
+   "aliases": [
+    "scourge outside ironforge",
+    "why undead in dun morogh",
+    "ironforge invasion"
+   ],
+   "answer": "The Lich King has dispatched necropolises and strike forces across Azeroth to sow chaos and overwhelm mortal defenders. Laying siege to Ironforge keeps Alliance reinforcements pinned down and tests the mountain city's formidable gate defenses."
+  },
+  {
+   "q": "What are Dim Necrotic Stones?",
+   "aliases": [
+    "necrotic stones",
+    "dim necrotic stone",
+    "scourge stones"
+   ],
+   "answer": "These stones are small, magically infused mineral remnants carried by frontline Scourge forces. They radiate the foul necromantic power that animates the undead and serve as tangible proof of slain invaders."
+  },
+  {
+   "q": "What is the purpose of the glowing runic circles?",
+   "aliases": [
+    "runic circles",
+    "glowing circles",
+    "what are the runes"
+   ],
+   "answer": "The runic circles carved into the snow channel necrotic magic and resonate with eerie, disembodied whispers. Lieutenant Nevell determines that they act as communication arrays allowing distant dark masters to relay orders to the forces outside the gates."
+  },
+  {
+   "q": "Why is the Argent Dawn here instead of Ironforge Mountaineers?",
+   "aliases": [
+    "argent dawn ironforge",
+    "why argent dawn"
+   ],
+   "answer": "While the dwarven military guards the inner stronghold, the Argent Dawn specializes specifically in combating the Scourge and understanding unholy necromancy. Their presence provides vital expertise on the arcane nature of the Lich King's invasion."
+  },
+  {
+   "q": "Can the Scourge breach the gates of Ironforge?",
+   "aliases": [
+    "will ironforge fall",
+    "ironforge gates breach"
+   ],
+   "answer": "The Great Gate of Ironforge is among the most heavily fortified structures in the world, carved deep into solid granite. While the invaders pose a serious threat to the mountain passes and nearby settlements, breaching the city itself would require far greater forces."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The desecration of Dun Morogh's clean snows by rotting abominations is an outrage to every dwarf. Defending the mountain entrance is a matter of home and hearth."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Ironforge serves as a vital economic and martial pillar of the Alliance; an undead foothold at its gates threatens logistical lines across the Eastern Kingdoms."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The Scourge represents the antithesis of the Holy Light. Investigating the runic malice of the Lich King and purging his mindless thralls falls squarely within a paladin's sacred calling."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The psychic echoes murmuring through the runic circles pose a distinct danger to the sanity of ordinary soldiers, requiring spiritual fortitude to resist."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "dim necrotic stone",
+  "dun morogh",
+  "investigate the scourge of ironforge",
+  "ironforge",
+  "lich king",
+  "lieutenant nevell",
+  "necropolis",
+  "runic circle",
+  "scourge"
+ ],
+ "related": [
+  "npc:lieutenant-nevell",
+  "zone:ironforge",
+  "topic:scourge",
+  "topic:argent-dawn",
+  "topic:lich-king"
+ ],
+ "attribution": [
+  "Investigate the Scourge of Ironforge"
+ ]
+}

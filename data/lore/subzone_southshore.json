@@ -1,0 +1,93 @@
+{
+ "key": "subzone:southshore",
+ "type": "subzone",
+ "name": "Southshore",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Southshore"
+ },
+ "summary": "Southshore is a coastal human port in the Hillsbrad Foothills and one of the Alliance's few surviving strongholds in fallen Lordaeron. Once a sleepy fishing village, it now stands as an embattled bastion facing constant hostility from the Forsaken garrison at Tarren Mill, rogue Syndicate bandits, and shoreline monsters.",
+ "sections": [
+  {
+   "title": "A Beacon in Lordaeron",
+   "body": "Southshore first rose to prominence during the First War when refugee boats carrying survivors from the fallen kingdom of Stormwind landed upon its beaches. Though contested and overrun during the Second War, it was rebuilt and later endured the horrors of the Third War. Today, while the rest of Lordaeron lies in ruins or under the rule of the Forsaken, Southshore remains fiercely loyal to the Grand Alliance. It offers shelter to displaced human survivors, veteran paladins of the Silver Hand, and scholars of the Kirin Tor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Besieged on All Fronts",
+   "body": "Despite its scenic docks and famous turtle bisque, life in Southshore is perilous. Led by Magistrate Henry Maleb and Marshal Redpath, the town struggles against relentless pressure. To the north, the Forsaken of Tarren Mill wage a bitter border conflict for dominance over Hillsbrad. Inland, the aristocratic outlaws of the Syndicate raid supply lines and assassinate local leaders, while ogres, murlocs, and naga constantly harass the town's borders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Southshore still aligned with the Alliance when Lordaeron fell?",
+   "aliases": [
+    "why is southshore alliance",
+    "who controls southshore",
+    "southshore alliance lordaeron"
+   ],
+   "answer": "Southshore was spared total destruction during the Scourge's invasion. Its surviving human populace reaffirmed their historic oaths to the Grand Alliance, receiving military and logistical backing from Stormwind to maintain a foothold in the north."
+  },
+  {
+   "q": "Why is there such intense fighting between Southshore and Tarren Mill?",
+   "aliases": [
+    "southshore tarren mill war",
+    "why do southshore and tarren mill fight",
+    "hillsbrad conflict"
+   ],
+   "answer": "Tarren Mill is held by the Forsaken, while Southshore is the primary Alliance bastion in the region. Both factions claim rightful dominion over the Hillsbrad Foothills, resulting in near-constant border skirmishes, raids, and sabotage."
+  },
+  {
+   "q": "Who leads the town of Southshore?",
+   "aliases": [
+    "southshore leader",
+    "who runs southshore",
+    "magistrate maleb"
+   ],
+   "answer": "Civil governance is handled by Magistrate Henry Maleb, who took over after the previous magistrate was assassinated by the Syndicate. Military defense and town security are directed by Marshal Redpath."
+  },
+  {
+   "q": "What threats does Southshore face other than the Forsaken?",
+   "aliases": [
+    "southshore enemies",
+    "threats to southshore"
+   ],
+   "answer": "Beyond the Forsaken, Southshore must fend off coastal murlocs and naga, Crushridge ogres descending from the Alterac Mountains, and the criminal Syndicate based out of Durnholde Keep."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Southshore serves as your primary haven, quest hub, and military redoubt in northern Lordaeron, offering essential support against both the Forsaken and the Syndicate."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde\u2014especially the Forsaken at nearby Tarren Mill\u2014Southshore represents an obstinate Alliance enclave trespassing on land reclaimed by the dead."
+  }
+ ],
+ "keywords": [
+  "hillsbrad",
+  "jessen",
+  "lordaeron",
+  "maleb",
+  "redpath",
+  "southshore",
+  "syndicate",
+  "tarren mill"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "subzone:tarren-mill",
+  "npc:magistrate-henry-maleb",
+  "npc:chef-jessen",
+  "quest:555",
+  "subzone:durnholde-keep",
+  "topic:syndicate",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Southshore"
+ ]
+}

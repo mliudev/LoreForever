@@ -1,0 +1,77 @@
+{
+ "key": "subzone:orgrimmar-rocketway-exchange",
+ "type": "subzone",
+ "name": "Orgrimmar Rocketway Exchange",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Orgrimmar Rocketway Exchange"
+ },
+ "summary": "The Orgrimmar Rocketway Exchange is a bustling transit station positioned near the back gate of Orgrimmar, reaching into the jagged borders of Azshara. It serves as a major connection hub for goblin-engineered rail lines moving material and personnel through the region.",
+ "sections": [
+  {
+   "title": "A Border Station in the Cliffs",
+   "body": "Perched right where the canyon rear exit of Orgrimmar opens into the red hills of Azshara, the exchange is a showcase of industrial goblin enterprise. High platforms, mechanical elevators, and track junctions funnel workers and cargo out toward the rugged coast and distant outposts. It stands as an emblem of how goblin technology integrates with the Horde's territorial expansion, transforming rugged cliffs into a logistical highway.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Orgrimmar Rocketway Exchange?",
+   "aliases": [
+    "what is this place",
+    "rocketway exchange purpose",
+    "what does the station do"
+   ],
+   "answer": "The exchange functions as an entry and departure hub for goblin-built transit lines that link the Horde capital of Orgrimmar to key industrial and defensive sites across Azshara."
+  },
+  {
+   "q": "Where does the Rocketway track lead?",
+   "aliases": [
+    "rocketway destinations",
+    "where do trains go",
+    "rocketway route"
+   ],
+   "answer": "The rail line connects southward toward Orgrimmar's rear pass and threads north across Azshara toward various operational termini and exchange hubs built across the zone."
+  },
+  {
+   "q": "Why is goblin machinery built right on Orgrimmar's back border?",
+   "aliases": [
+    "why are goblins here",
+    "goblin transit azshara"
+   ],
+   "answer": "The cliffs behind Orgrimmar offer a direct, high-ground route into Azshara's resource-rich lands. Goblin engineering allows the Horde to move supplies and workers through difficult terrain far faster than traditional foot trails."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The massive mechanical tracks and elevators show goblin engineering at an infrastructural scale, built to outpace rough terrain through sheer combustion and metal."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The station secures the back gate of the capital while providing direct transit to operations across Azshara."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "exchange",
+  "goblin",
+  "orgrimmar",
+  "rocketway",
+  "tracks",
+  "transit"
+ ],
+ "related": [
+  "zone:azshara",
+  "zone:orgrimmar",
+  "topic:goblin",
+  "subzone:southern-rocketway-terminus",
+  "subzone:gallywix-rocketway-exchange",
+  "subzone:northern-rocketway-exchange",
+  "subzone:northern-rocketway-terminus"
+ ],
+ "attribution": [
+  "Orgrimmar Rocketway Exchange"
+ ]
+}

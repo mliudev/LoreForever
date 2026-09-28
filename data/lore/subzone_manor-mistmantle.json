@@ -1,0 +1,86 @@
+{
+ "key": "subzone:manor-mistmantle",
+ "type": "subzone",
+ "name": "Manor Mistmantle",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Manor Mistmantle"
+ },
+ "summary": "Manor Mistmantle is a decaying estate nestled in the shadowed hills of northeastern Duskwood, north of Darkshire. Once a proper family homestead, it has fallen into ruin and horror, crawling with undead ghouls bound to its infamous master.",
+ "sections": [
+  {
+   "title": "A Blighted Homestead",
+   "body": "Located west of Beggar's Haunt, Manor Mistmantle stands as a grim monument to murder and madness. The grounds are choked with decay and prowled by vicious ghouls who defend the ruined structure. Amidst the rot and withered vegetation, the only sign of living beauty on the entire property is a solitary, sorrowful blossom growing in the untended garden: the flower known as the Tear of Tilloa.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Master of the Estate",
+   "body": "The manor belongs to Stalvan Mistmantle, a former schoolteacher and private tutor whose horrific crimes in Moonbrook and Goldshire became the stuff of dark legend across the kingdom. Now an agent of the undead, Stalvan lurks in the upper floor of his family home, surrounded by remnants of his slaughtered victims and guarded by shambling horrors. Travelers and investigators from Darkshire frequently find that the trail of Duskwood's most notorious phantom ends at this blood-soaked manor.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Manor Mistmantle located?",
+   "aliases": [
+    "manor mistmantle location",
+    "where is mistmantle manor",
+    "how to find manor mistmantle"
+   ],
+   "answer": "Manor Mistmantle lies in the northeastern reaches of Duskwood, situated directly north of Darkshire and just west of Beggar's Haunt."
+  },
+  {
+   "q": "Who lives in Manor Mistmantle?",
+   "aliases": [
+    "who is in mistmantle manor",
+    "manor mistmantle boss",
+    "stalvan house"
+   ],
+   "answer": "The estate belongs to Stalvan Mistmantle, a former tutor who went mad, butchered his employers, and now exists as a vengeful undead creature surrounded by ghouls."
+  },
+  {
+   "q": "What is the Tear of Tilloa?",
+   "aliases": [
+    "tear of tilloa flower",
+    "mistmantle garden flower",
+    "tilloa flower"
+   ],
+   "answer": "The Tear of Tilloa is a solitary, delicate flower blooming in the garden of Manor Mistmantle, standing out as the only surviving sign of natural life amidst the decayed grounds."
+  },
+  {
+   "q": "Why are there undead guarding the grounds?",
+   "aliases": [
+    "why are ghouls at mistmantle",
+    "mistmantle undead",
+    "manor mistmantle enemies"
+   ],
+   "answer": "The ghouls roaming the manor grounds are minions bound to Stalvan Mistmantle, serving to protect their master and slaughter anyone who dares trespass on his blighted estate."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance investigators tracking the grim fate of the Moonbrook and Goldshire victims, Manor Mistmantle is the tragic final destination of the Legend of Stalvan."
+  }
+ ],
+ "keywords": [
+  "beggar's haunt",
+  "darkshire",
+  "duskwood",
+  "ghouls",
+  "manor mistmantle",
+  "stalvan",
+  "stalvan mistmantle",
+  "tear of tilloa"
+ ],
+ "related": [
+  "zone:duskwood",
+  "subzone:darkshire",
+  "subzone:beggar-s-haunt",
+  "quest:938"
+ ],
+ "attribution": [
+  "Manor Mistmantle"
+ ]
+}

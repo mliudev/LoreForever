@@ -1,0 +1,113 @@
+{
+ "key": "npc:rau-cliffrunner",
+ "type": "npc",
+ "name": "Rau Cliffrunner",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Rau Cliffrunner",
+  "refs": 3
+ },
+ "summary": "Rau Cliffrunner is a tauren scout and scholar stationed high atop Freewind Post in Thousand Needles. Dedicated to protecting his people from regional threats, he studies the history and origins of the hostile Galak centaur through their ancient relics. Working closely with allies in Thunder Bluff, Rau coordinates ventures into dangerous enemy strongholds across the canyon.",
+ "sections": [
+  {
+   "title": "Watcher of the Canyons",
+   "body": "Perched on the perilous bluffs of Freewind Post, Rau Cliffrunner maintains a watchful eye over the sweeping, sun-scorched expanse of Thousand Needles. The tauren outpost serves as a crucial Horde sanctuary in an otherwise hostile territory teeming with ferocious predators, quilboar, and aggressive centaur clans. Rau acts as both an outpost organizer and a dedicated investigator, keen on neutralizing emerging threats before they can overwhelm the vulnerable mesa settlements.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets of the Galak",
+   "body": "Rau's primary obsession lies in the ancient origins of the centaur\u2014a race that has waged brutal war against the tauren for generations. After discovering that the local Galak tribe guarded a sacred relic tracing back to the dawn of their kind, Rau sought a method to bypass the relic's mystical protections. In league with Zangen Stonehoof in Thunder Bluff, Rau obtained sacred moonwell water from Ashenvale to douse the eternal flame at Splithoof Hold, allowing adventurers to retrieve the enigmatic Cloven Hoof for his study.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Rau Cliffrunner?",
+   "aliases": [
+    "rau cliffrunner location",
+    "where is rau",
+    "where is rau cliffrunner"
+   ],
+   "answer": "Rau Cliffrunner resides atop Freewind Post, the prominent mesa outpost located in the middle of Thousand Needles."
+  },
+  {
+   "q": "What is Rau Cliffrunner investigating?",
+   "aliases": [
+    "rau cliffrunner purpose",
+    "what does rau want",
+    "why does rau want the hoof"
+   ],
+   "answer": "Rau is investigating the origins and mystical traditions of the centaur. He seeks the Cloven Hoof, an ancient tribal relic held by the Galak centaur within Splithoof Crag, hoping its strange energies will shed light on the historic enemies of the tauren."
+  },
+  {
+   "q": "Why does Rau need moonwell water?",
+   "aliases": [
+    "rau moonwell water",
+    "sacred flame moonwell",
+    "why moonwell water"
+   ],
+   "answer": "The Galak centaur keep their ancient relic behind an eternal mystical fire. Rau learned that pure water drawn from a night elven moonwell in Ashenvale possesses the sacred power needed to extinguish the brazier's flame and breach its ward."
+  },
+  {
+   "q": "Who is working with Rau Cliffrunner in Thunder Bluff?",
+   "aliases": [
+    "rau ally",
+    "zangen and rau",
+    "who sent me to rau"
+   ],
+   "answer": "Zangen Stonehoof, stationed in the Hunter Rise of Thunder Bluff, works directly with Rau. Zangen coordinates the retrieval of the Ashenvale moonwell water before directing trusted Horde travelers down to Rau at Freewind Post."
+  },
+  {
+   "q": "What is the Cloven Hoof?",
+   "aliases": [
+    "cloven hoof relic",
+    "what is the hoof",
+    "centaur relic thousand needles"
+   ],
+   "answer": "The Cloven Hoof is a primordial centaur artifact preserved by the Galak clan in Splithoof Hold. Dating back to the creation of the centaur race, it radiates unusual energy that Rau intends to decipher."
+  },
+  {
+   "q": "Does Rau Cliffrunner belong to a specific tauren tribe?",
+   "aliases": [
+    "rau cliffrunner tribe",
+    "what tribe is rau"
+   ],
+   "answer": "As his surname suggests, Rau belongs to the Cliffrunner tribe of tauren, known for their agility, scouting abilities, and familiarity with navigating the towering bluffs of Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, understanding the centaur is a matter of cultural survival; Rau's study into centaur beginnings seeks insight into the ancestral conflict that nearly drove the Shu'halo to extinction."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Rau's efforts help secure Freewind Post, an isolated Horde bastion critical for maintaining supply lines between the Southern Barrens and Tanaris."
+  }
+ ],
+ "keywords": [
+  "cloven hoof",
+  "freewind post",
+  "galak",
+  "rau cliffrunner",
+  "sacred flame",
+  "splithoof crag",
+  "splithoof hold",
+  "thousand needles",
+  "zangen stonehoof"
+ ],
+ "related": [
+  "subzone:freewind-post",
+  "zone:thousandneedles",
+  "npc:zangen-stonehoof",
+  "quest:1195",
+  "subzone:splithoof-hold",
+  "subzone:splithoof-crag",
+  "topic:centaur",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Rau Cliffrunner"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "npc:feero-ironhand",
+ "type": "npc",
+ "name": "Feero Ironhand",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Feero Ironhand",
+  "refs": 1
+ },
+ "summary": "Feero Ironhand is a human fighter stationed at Maestra's Post in the western reaches of Ashenvale. Standing guard along the border between Darkshore and the forest, he works closely with Delgren the Purifier to combat the shadowy Cult of the Dark Strand.",
+ "sections": [
+  {
+   "title": "A Bulwark at Maestra's Post",
+   "body": "Located along the road leading south from Darkshore into Ashenvale, Maestra's Post serves as a critical watchpoint for travelers and Alliance defenders alike. Feero Ironhand operates out of this outpost, maintaining communications and trade lines with Auberdine while keeping a vigilant watch over the surrounding woods. Together with Delgren the Purifier, Feero focuses his efforts against the malevolent Cult of the Dark Strand, ensuring the cultists and forest predators do not sever the path between Darnassus's supply lines and the front lines of Ashenvale.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Feero Ironhand?",
+   "aliases": [
+    "feero ironhand",
+    "who is feero",
+    "feero npc"
+   ],
+   "answer": "Feero Ironhand is an Alliance human warrior stationed at Maestra's Post in western Ashenvale. He assists travelers passing between Darkshore and Ashenvale and coordinates logistics back to Auberdine."
+  },
+  {
+   "q": "What is Feero's purpose at Maestra's Post?",
+   "aliases": [
+    "why is feero here",
+    "feero role",
+    "maestras post human"
+   ],
+   "answer": "Feero helps hold the outpost against local threats, supporting Delgren the Purifier in opposing the Cult of the Dark Strand while keeping vital courier and supply routes running into Darkshore."
+  },
+  {
+   "q": "What is the Cult of the Dark Strand?",
+   "aliases": [
+    "dark strand cult",
+    "cult of dark strand",
+    "dark strand"
+   ],
+   "answer": "The Cult of the Dark Strand is a sinister cabal operating out of northern Ashenvale, dabbling in dark magic and foul rituals. Alliance forces at Maestra's Post actively work to disrupt and dismantle their operations."
+  },
+  {
+   "q": "Does Feero have connections to the Argent Dawn?",
+   "aliases": [
+    "feero argent dawn",
+    "is feero argent dawn"
+   ],
+   "answer": "Feero works in close concert with Delgren the Purifier, a dedicated holy warrior combatting dark forces in the forest, maintaining strong ties to the vigilant defenders fighting against evil throughout Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Feero provides an important foothold for Alliance wayfarers traveling down from Darkshore into the dangerous, contested wilderness of Ashenvale."
+  },
+  {
+   "target": "race:Human",
+   "text": "Seeing a fellow human standing guard in the ancient elven woods of Ashenvale is a welcome sign of the Alliance's far-reaching cooperation."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "auberdine",
+  "cult of the dark strand",
+  "delgren the purifier",
+  "feero ironhand",
+  "maestra's post"
+ ],
+ "related": [
+  "subzone:maestra-s-post",
+  "npc:delgren-the-purifier",
+  "subzone:auberdine",
+  "zone:ashenvale",
+  "quest:976",
+  "topic:argent-dawn",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Feero Ironhand"
+ ]
+}

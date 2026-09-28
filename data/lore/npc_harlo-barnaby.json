@@ -1,0 +1,74 @@
+{
+ "key": "npc:harlo-barnaby",
+ "type": "npc",
+ "name": "Harlo Barnaby",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Harlo Barnaby",
+  "refs": 1
+ },
+ "summary": "Harlo Barnaby is a wounded dwarven refugee residing in Menethil Harbor. Having barely escaped the slaughter when the Dark Iron clan seized Dun Modr, he now alerts travelers to the tragedy that unfolded in the northern marshes.",
+ "sections": [
+  {
+   "title": "Escape from Dun Modr",
+   "body": "Harlo Barnaby lived in Dun Modr until the northern stronghold fell to a sudden, savage assault by the Dark Iron dwarves. In the chaos of the ambush, Harlo fled south toward safety, only to catch a stray axe square in the back. Knocked unconscious by the blow, he somehow survived the trek across the marshland and awoke bandaged in Menethil Harbor. Though alive, his wounds and memories of the massacre leave him unable to return, prompting him to urge Alliance adventurers to investigate the smoking ruins of his former home.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Harlo Barnaby?",
+   "aliases": [
+    "harlo barnaby",
+    "who is harlo",
+    "menethil harbor dwarf"
+   ],
+   "answer": "Harlo Barnaby is an Ironforge dwarf living in Menethil Harbor who survived the brutal Dark Iron assault on the outpost of Dun Modr."
+  },
+  {
+   "q": "How did Harlo Barnaby end up in Menethil Harbor?",
+   "aliases": [
+    "how did harlo get here",
+    "harlo barnaby back injury"
+   ],
+   "answer": "While fleeing the invasion of Dun Modr, he was struck in the back by a thrown axe. He lost consciousness during his retreat and woke up safe in Menethil Harbor under the care of local healers."
+  },
+  {
+   "q": "What happened to Dun Modr?",
+   "aliases": [
+    "dun modr fall",
+    "what happened at dun modr"
+   ],
+   "answer": "Dun Modr was overrun and devastated by hostile Dark Iron dwarves pushing south from the Thandol Span, wiping out the local dwarven defenders and driving survivors into the wetlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Harlo represents a living reminder of the persistent and bloody clan war against the treacherous Dark Irons who seek to sever Khaz Modan from the north."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The fall of Dun Modr threatens the critical land bridge between the marshlands and Arathi, making Harlo's warnings essential for Alliance forces."
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "dun modr",
+  "harlo barnaby",
+  "menethil harbor",
+  "thandol span",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:menethil-harbor",
+  "subzone:dun-modr",
+  "quest:472",
+  "zone:wetlands",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Harlo Barnaby"
+ ]
+}

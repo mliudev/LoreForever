@@ -1,0 +1,85 @@
+{
+ "key": "subzone:sundown-marsh",
+ "type": "subzone",
+ "name": "Sundown Marsh",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Sundown Marsh"
+ },
+ "summary": "Sundown Marsh marks the deepest, westernmost reaches of the Wetlands where stagnant waters meet treacherous wildlife. Despite the prowling raptors, oozes, and gnolls, an eccentric pair of gnomes maintains a solitary homestead along its muddy borders.",
+ "sections": [
+  {
+   "title": "A Wild and Murky Sinkhole",
+   "body": "Sundown Marsh sits tucked into the northwest of the Wetlands, characterized by deep water, thick mud, and a dense population of predators. Giant crocolisks, shifting oozes, roaming raptors, and territorial Mosshide gnolls roam freely through the mist. The hazardous terrain keeps most passing travelers strictly to the main cobblestone road connecting Menethil Harbor to Ironforge, leaving this deep corner largely untamed.",
+   "spoiler": 0
+  },
+  {
+   "title": "Life at the Edge of the Mire",
+   "body": "Amid the hazards of the marsh stands Swiftgear Station, a lonely stone cottage topped with a churning windmill. There, the eccentric gnomes Fradd Swiftgear and Wenna Silkbeard make an unlikely living scavenging the bog. They peddle curiosities and rare trade recipes recovered from the mire to travelers brave enough to navigate the marsh's aggressive denizens.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Sundown Marsh located?",
+   "aliases": [
+    "sundown marsh location",
+    "where is sundown marsh",
+    "wetlands marsh location"
+   ],
+   "answer": "Sundown Marsh is situated in the northwestern area of the Wetlands. It represents one of the lowest and deepest portions of the marshland, lying off the beaten track of the primary royal roads."
+  },
+  {
+   "q": "Who lives in Sundown Marsh?",
+   "aliases": [
+    "who lives here",
+    "sundown marsh npcs",
+    "swiftgear cottage"
+   ],
+   "answer": "A gnome couple named Fradd Swiftgear and Wenna Silkbeard live here at Swiftgear Station, a small stone dwelling equipped with a windmill. They scour the bog for oddities and sell rare goods to passing travelers."
+  },
+  {
+   "q": "What threats can be found in Sundown Marsh?",
+   "aliases": [
+    "monsters in sundown marsh",
+    "sundown marsh dangers",
+    "enemies sundown marsh"
+   ],
+   "answer": "The marsh is thick with dangerous wildlife and monsters, including giant crocolisks, foul oozes, bog beasts, raptors, and hostile Mosshide gnolls that discourage casual exploration."
+  },
+  {
+   "q": "Why would an adventurer travel into Sundown Marsh?",
+   "aliases": [
+    "why visit sundown marsh",
+    "reasons to go to sundown marsh",
+    "sundown marsh vendors"
+   ],
+   "answer": "Beyond dealing with local beasts, travelers make the trek to visit Swiftgear Station to trade with Fradd Swiftgear and Wenna Silkbeard, who offer uncommon recipes and peculiar curiosities found in the surrounding swamp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Seeing Fradd Swiftgear and Wenna Silkbeard thriving with their windmill outpost out in the dangerous mud proves that gnomish ingenuity can carve out a comfortable home anywhere."
+  }
+ ],
+ "keywords": [
+  "crocolisks",
+  "fradd swiftgear",
+  "mosshide",
+  "oozes",
+  "sundown marsh",
+  "swiftgear station",
+  "wenna silkbeard",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:swiftgear-station",
+  "zone:wetlands",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Sundown Marsh"
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "key": "quest:745",
+ "type": "quest",
+ "name": "Sharing the Land",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   745
+  ],
+  "level": "6",
+  "faction": "Horde",
+  "start": "Baine Bloodhoof",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Sharing the Land (Classic)",
+  "chain": []
+ },
+ "summary": "Assigned by Baine Bloodhoof in Bloodhoof Village, this task sends young Horde adventurers to curb the destructive poaching of the local Palemane gnolls. By culling their tanners, skinners, and poachers, you protect Mulgore's wildlife and learn the tauren philosophy of living in balance with the Earth Mother.",
+ "sections": [
+  {
+   "title": "A Land Out of Balance",
+   "body": "The tauren hold deep reverence for the natural world, taking from it only what is necessary to survive and honoring the Earth Mother in all things. The Palemane gnolls, having settled south of Bloodhoof Village and in a cavern to the west, harbor no such respect. Rather than hunting in moderation, they aggressively butcher wildlife across the plains, leaving stripped carcasses and upset ecosystems in their wake. For a people striving to build a peaceful homeland in Mulgore, this reckless slaughter cannot be tolerated.",
+   "spoiler": 0
+  },
+  {
+   "title": "When Words Fail",
+   "body": "Baine Bloodhoof initially hoped to resolve the matter peacefully, attempting to open dialogue with the encroaching gnolls. The Palemanes rejected every overture, answering diplomacy with hostility and continued devastation. Seeing that negotiation is futile, Baine turns to force. Young braves are sent directly to their hunting camps to put down the poachers, tanners, and skinners before the grasslands suffer permanent damage.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Circle of Life and Death",
+   "body": "This mission serves as a rite of passage and a moral lesson for growing champions. Upon returning from the culling, Baine reminds the adventurer that taking life must never be done out of malice, but out of necessity to maintain harmony. Life and death exist as an interconnected circle where one cannot thrive without the other, a foundational truth every guardian of Mulgore must carry forward.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts sharing the land",
+    "baine quest"
+   ],
+   "answer": "Baine Bloodhoof, son of High Chieftain Cairne Bloodhoof, offers this task in Bloodhoof Village in central Mulgore."
+  },
+  {
+   "q": "Why are the tauren targeting the Palemane gnolls?",
+   "aliases": [
+    "why kill gnolls",
+    "palemane problem",
+    "what did gnolls do"
+   ],
+   "answer": "The Palemane gnolls hunt Mulgore's wildlife recklessly, depleting the herds without honoring the natural balance. They also refused all tauren attempts at peaceful communication."
+  },
+  {
+   "q": "Where are these gnolls located?",
+   "aliases": [
+    "gnoll locations",
+    "palemane camp",
+    "where to find palemanes"
+   ],
+   "answer": "The Palemanes maintain camps to the south of Bloodhoof Village and dwell within the Palemane Rock cave system to the west."
+  },
+  {
+   "q": "Did the tauren try to make peace first?",
+   "aliases": [
+    "did tauren talk to gnolls",
+    "palemane diplomacy"
+   ],
+   "answer": "Yes. Baine notes that the tauren made several attempts to communicate and share the land, but the gnolls disrespected and rejected every peaceful overture."
+  },
+  {
+   "q": "What lesson is Baine trying to teach here?",
+   "aliases": [
+    "baine lesson",
+    "meaning of sharing the land"
+   ],
+   "answer": "Baine wants young defenders to understand that death and life exist as an unbreakable circle. While taking a life is sometimes necessary to defend the balance, it must always be done with deep respect for the Earth Mother."
+  },
+  {
+   "q": "Who are the Palemane gnolls?",
+   "aliases": [
+    "who are palemanes",
+    "palemane tribe"
+   ],
+   "answer": "They are a primitive, hyena-like tribe native to Mulgore known for their pale fur, territorial aggression, and complete disregard for the harmony of the plains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren, answering Baine's call is an essential step in learning the sacred duty of defending Mulgore and honoring the Earth Mother's balance."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The Palemane skinners and poachers represent the antithesis of a true hunter, slaughtering wild creatures with cruelty and waste rather than respect."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids recognize that unchecked poaching disrupts the spirit of the plains, requiring immediate intervention to heal the land's harmony."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting Baine Bloodhoof strengthens the bond between new Horde adventurers and the leadership of the fledgling tauren nation."
+  }
+ ],
+ "keywords": [
+  "baine bloodhoof",
+  "bloodhoof village",
+  "gnolls",
+  "mulgore",
+  "palemane",
+  "poachers",
+  "sharing the land",
+  "skinners",
+  "tanners"
+ ],
+ "related": [
+  "npc:baine-bloodhoof",
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Sharing the Land (Classic)"
+ ]
+}

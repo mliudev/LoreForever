@@ -1,0 +1,89 @@
+{
+ "key": "npc:innkeeper-farley",
+ "type": "npc",
+ "name": "Innkeeper Farley",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Innkeeper Farley",
+  "refs": 2
+ },
+ "summary": "Innkeeper Fredrik Farley manages the Lion's Pride Inn in Goldshire, providing food, lodging, and hearthstones to travelers passing through Elwynn Forest. Well-liked and observant, he often holds misplaced mail and listens to the troubles of adventurers on the road.",
+ "sections": [
+  {
+   "title": "A Goldshire Fixture",
+   "body": "The Farley family has operated the Lion's Pride Inn since the reign of King Llane Wrynn I. Alongside his wife Verina and their daughter Anna, Fredrik runs the establishment with a welcoming hand and a sharp eye. With large, sturdy hands well-suited to breaking up tavern brawls or expelling rowdy patrons, he keeps order in one of the realm's busiest waystations. Though his days are filled with pouring ale and serving cheese, he carries the private grief of losing his brother Frandis, a guard who perished in Lordaeron during the Scourge's plague.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Courier's Abandoned Chest",
+   "body": "Because Goldshire sits at the crossroads between Stormwind, Westfall, and Duskwood, Farley overhears plenty of rumors and deals with strange travelers. Notably, he once took in a royal courier who bolted into the night in terror, abandoning his satchel behind. Farley safely stowed the leftover missives in an upstairs chest\u2014including an undelivered letter addressed to the former schoolmaster Stalvan Mistmantle, which eventually serves as a critical clue for investigators tracing the fallen tutor's movements.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Innkeeper Farley?",
+   "aliases": [
+    "innkeeper farley",
+    "fredrik farley",
+    "who is the goldshire innkeeper"
+   ],
+   "answer": "Fredrik Farley is the proprietor of the Lion's Pride Inn in Goldshire. His family has managed the inn for generations, dating back to the time of King Llane Wrynn I. He runs the business alongside his wife, Verina, offering rest and supplies to travelers traversing Elwynn Forest."
+  },
+  {
+   "q": "What does Farley know about Stalvan Mistmantle?",
+   "aliases": [
+    "farley stalvan",
+    "stalvan letter goldshire",
+    "legend of stalvan farley"
+   ],
+   "answer": "Farley remembers a terrified courier who fled the Lion's Pride Inn in the dead of night, leaving behind several deliveries. Farley stored the abandoned letters in a chest upstairs, among which is an undelivered letter addressed to Stalvan Mistmantle that investigators can retrieve."
+  },
+  {
+   "q": "Where is Farley's brother?",
+   "aliases": [
+    "farley brother",
+    "frandis farley lore",
+    "what happened to farley's brother"
+   ],
+   "answer": "Fredrik's brother, Frandis Farley, left the south to work as a caravan guard in the northern kingdom of Lordaeron. During the Third War, Frandis was reported killed by the plague of undeath, leaving Fredrik heartbroken."
+  },
+  {
+   "q": "What services does Farley provide at the inn?",
+   "aliases": [
+    "lion's pride services",
+    "farley food and drink",
+    "goldshire hearthstone"
+   ],
+   "answer": "Farley sets home hearthstones for travelers, rents rooms, and sells a wide variety of drinks, juices, and cheeses from across the Alliance, ranging from Alterac Swiss and Dalaran Sharp to local Stormwind Brie."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For fresh recruits heading out from Northshire Valley, Farley's counter at the Lion's Pride is often the very first place they bind their hearthstone and purchase provisions."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "frandis",
+  "fredrik farley",
+  "goldshire",
+  "innkeeper farley",
+  "lion's pride inn",
+  "stalvan"
+ ],
+ "related": [
+  "subzone:lion-s-pride-inn",
+  "subzone:goldshire",
+  "zone:elwynn",
+  "quest:66",
+  "topic:llane-wrynn-i",
+  "topic:alliance",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Innkeeper Farley"
+ ]
+}

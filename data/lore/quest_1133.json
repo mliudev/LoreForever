@@ -1,0 +1,122 @@
+{
+ "key": "quest:1133",
+ "type": "quest",
+ "name": "Journey to Astranaar",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1133
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Fiora Longears",
+  "end": "Shindrell Swiftfire",
+  "previous": "Fiora Longears (quest)",
+  "next": null,
+  "wiki": "Journey to Astranaar",
+  "chain": [
+   "Fiora Longears (quest)",
+   "Journey to Astranaar"
+  ]
+ },
+ "summary": "Journey to Astranaar is an introductory Alliance quest guiding newcomers arriving on the Kalimdor coast to the inland heart of Ashenvale. Directed by Fiora Longears at Auberdine, travelers make their way south and east along the forest roads to report to Shindrell Swiftfire in Astranaar. It marks an adventurer's entry into the growing conflicts surrounding the night elves' ancestral forest.",
+ "sections": [
+  {
+   "title": "From the Coast into the Woods",
+   "body": "Alliance travelers arriving in Darkshore aboard the ferry from Menethil Harbor often look for purpose in northern Kalimdor. At Auberdine, Fiora Longears directs capable hands to move deeper inland toward Astranaar, the main night elven settlement within Ashenvale. The journey follows winding paths under ancient, shadowed canopies, leading straight into a forest strained by war and unrest.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Unspoken Recommendation",
+   "body": "Curiously, Fiora tells travelers not to bother mentioning her name when arriving in Astranaar, stating plainly that Shindrell Swiftfire does not know her. Her role is simply to funnel fresh Alliance talent where it is needed most. Upon arriving, Shindrell readily welcomes any able-bodied defender, acknowledging that while Ashenvale remains breathtaking, it is no longer the peaceful sanctuary it once was.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Journey to Astranaar quest begin?",
+   "aliases": [
+    "who gives journey to astranaar",
+    "journey to astranaar start",
+    "where to pick up journey to astranaar"
+   ],
+   "answer": "The quest is given by Fiora Longears in Auberdine, located on the coast of Darkshore. She offers it to Alliance travelers who arrive from the Eastern Kingdoms looking to help out in Kalimdor."
+  },
+  {
+   "q": "Who do I need to talk to in Astranaar?",
+   "aliases": [
+    "where to turn in journey to astranaar",
+    "journey to astranaar end npc",
+    "who is shindrell swiftfire"
+   ],
+   "answer": "You must speak with Shindrell Swiftfire, a night elf stationed in Astranaar, the central Alliance town in Ashenvale."
+  },
+  {
+   "q": "Why does Fiora say not to mention her name?",
+   "aliases": [
+    "why not mention fiora",
+    "fiora longears connection to shindrell"
+   ],
+   "answer": "Fiora Longears explicitly tells adventurers not to mention who sent them simply because Shindrell does not know her personally. She is merely directing eager newcomers toward an outpost that desperately needs assistance."
+  },
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do journey to astranaar",
+    "journey to astranaar lore purpose"
+   ],
+   "answer": "It acts as a breadcrumb leading Alliance characters out of Darkshore into the higher-level region of Ashenvale, introducing them to Astranaar as their primary base of operations in the forest."
+  },
+  {
+   "q": "What kind of trouble is happening in Ashenvale?",
+   "aliases": [
+    "why does astranaar need help",
+    "ashenvale troubles lore"
+   ],
+   "answer": "As Shindrell Swiftfire points out upon your arrival, Ashenvale is no longer the tranquil grove it used to be. The forest faces incursions from the Horde, demonic corruption lingering from the Third War, and local wildlife agitated by recent conflicts."
+  },
+  {
+   "q": "What quest leads into Journey to Astranaar?",
+   "aliases": [
+    "journey to astranaar prerequisite",
+    "fiora longears chain"
+   ],
+   "answer": "It is directly preceded by a short introductory breadcrumb quest named 'Fiora Longears,' which directs travelers arriving in Darkshore to speak with her in Auberdine."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This trek represents an Alliance recruit's direct deployment from the relatively safe ports of Darkshore into the contested wilderness of Ashenvale."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, this journey is a return to their heartland under siege, defending the sacred boughs of Ashenvale alongside foreign allies."
+  },
+  {
+   "target": "race:Human",
+   "text": "Fresh off the ship from Menethil Harbor, human travelers take their first steps deep into Kalimdor's interior, honoring the Alliance pledge to aid the night elves."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "auberdine",
+  "darkshore",
+  "fiora longears",
+  "journey to astranaar",
+  "menethil harbor",
+  "shindrell swiftfire"
+ ],
+ "related": [
+  "subzone:astranaar",
+  "zone:ashenvale",
+  "npc:shindrell-swiftfire",
+  "quest:1132",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Journey to Astranaar"
+ ]
+}

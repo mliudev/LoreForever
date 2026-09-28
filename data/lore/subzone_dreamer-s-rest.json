@@ -1,0 +1,76 @@
+{
+ "key": "subzone:dreamer-s-rest",
+ "type": "subzone",
+ "name": "Dreamer's Rest",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Dreamer's Rest"
+ },
+ "summary": "Dreamer's Rest is a tranquil night elf encampment tucked away on the eastern slopes of the Twin Colossals in western Feralas. Overseen by the Druids of the Talon, the small enclave lies just south of Oneiros among ancient elven ruins. It provides a peaceful respite and vital outpost for those navigating the towering canopy and winding vales of the wilderness.",
+ "sections": [
+  {
+   "title": "Haven of the Talon",
+   "body": "Situated just south of the elven ruins of Oneiros and directly beneath the soaring shadows of the Twin Colossals, Dreamer's Rest serves as a quiet staging ground overseen by the Druids of the Talon. Despite its compact footprint, the camp is well-appointed for traveling guardians of nature and wayfarers passing through central Feralas. A curious wooden sign pointing along the trail from the main thoroughfare marks the route toward Elusian Heights, hinting at older names once borne by the overgrown ridges and elven stones that surround the encampment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Dreamer's Rest located?",
+   "aliases": [
+    "dreamers rest location",
+    "where is dreamers rest",
+    "find dreamers rest"
+   ],
+   "answer": "Dreamer's Rest is situated on the eastern side of the Twin Colossals in western Feralas, directly south of the ruins of Oneiros."
+  },
+  {
+   "q": "Who maintains Dreamer's Rest?",
+   "aliases": [
+    "who runs dreamers rest",
+    "who lives at dreamers rest",
+    "dreamers rest faction"
+   ],
+   "answer": "The outpost is overseen and maintained by the Druids of the Talon, offering sanctuary and facilities to allies amidst the untamed wilderness of Feralas."
+  },
+  {
+   "q": "Why does the trail sign say Elusian Heights?",
+   "aliases": [
+    "elusian heights sign",
+    "why elusian heights",
+    "elusian heights feralas"
+   ],
+   "answer": "The wooden marker posted along the nearby main road directs travelers toward Elusian Heights, which was likely an earlier regional name for the high ridges and surrounding elven ruins upon which Dreamer's Rest now sits."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Nestled near sacred ruins and watched over by your kin in the Druids of the Talon, this camp offers an ideal vantage point for communing with the wild spirits and ancients of Feralas."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Sitting amidst the ancient architecture of Oneiros, Dreamer's Rest offers a welcome hearth of Kaldorei familiarity deep in the dense forests of southern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "dreamer's rest",
+  "dreamers rest",
+  "druids of the talon",
+  "elusian heights",
+  "feralas",
+  "night elf camp",
+  "oneiros",
+  "twin colossals"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:oneiros",
+  "subzone:twin-colossals",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Dreamer's Rest"
+ ]
+}

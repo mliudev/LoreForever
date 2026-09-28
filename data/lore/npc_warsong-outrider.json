@@ -1,0 +1,85 @@
+{
+ "key": "npc:warsong-outrider",
+ "type": "npc",
+ "name": "Warsong Outrider",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Warsong Outrider",
+  "refs": 1
+ },
+ "summary": "Stationed along the contested road leading east from Ashenvale into Azshara, the Warsong Outrider keeps watch over the Horde's frontier. She serves as an advanced scout for the Warsong clan, monitoring travelers and relaying crucial intelligence back to their forward encampments. Although armed and vigilant against night elf incursions, she maintains a passive watch unless directly provoked.",
+ "sections": [
+  {
+   "title": "Eyes on the Eastern Frontier",
+   "body": "The borderlands between Ashenvale and the shattered ruins of Azshara are fraught with danger. Operating far from the fortified safety of Splintertree Post or the lumber camps, the Warsong Outrider observes troop movements and patrols the transit corridor. Armed with a bow and toxic stingers, she stands ready to defend the Horde's claim over the region, though she conserves her strength by only firing upon Alliance trespassers who actively attack her.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can the Warsong Outrider be found?",
+   "aliases": [
+    "outrider location",
+    "where is warsong outrider",
+    "warsong outrider map"
+   ],
+   "answer": "She is posted along the main roadway in eastern Ashenvale that leads directly into the neighboring territory of Azshara."
+  },
+  {
+   "q": "Will the Warsong Outrider attack Alliance players on sight?",
+   "aliases": [
+    "is she aggressive",
+    "does warsong outrider attack alliance",
+    "warsong outrider aggro"
+   ],
+   "answer": "No. Despite being flagged for Horde PvP combat, she remains neutral in disposition toward passing Alliance players and will only fight back in self-defense if struck first."
+  },
+  {
+   "q": "What is her role in the Warsong clan's operations?",
+   "aliases": [
+    "what does outrider do",
+    "warsong outrider purpose",
+    "why is she here"
+   ],
+   "answer": "She acts as a frontier scout watching the border between Ashenvale and Azshara, observing threats and providing field reports through scouts delivering updates to the clan's leadership."
+  },
+  {
+   "q": "Does defeating the Warsong Outrider yield any treasure?",
+   "aliases": [
+    "warsong outrider loot",
+    "does she drop loot",
+    "outrider drops"
+   ],
+   "answer": "No, defeating her yields no loot or specialized equipment, serving only to clear the road or disrupt Horde reconnaissance in the area."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Outriders like her maintain the fragile supply and scouting routes connecting Ashenvale's contested logging operations with the wild coasts of Azshara."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "While an enemy combatant, this scout holds her fire against Alliance travelers unless provoked, allowing wary adventurers to pass by unmolested."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "azshara",
+  "horde scout",
+  "outrider update",
+  "warsong clan",
+  "warsong outrider"
+ ],
+ "related": [
+  "quest:6546",
+  "zone:ashenvale",
+  "zone:azshara",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Warsong Outrider"
+ ]
+}

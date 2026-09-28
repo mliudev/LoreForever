@@ -1,0 +1,91 @@
+{
+ "key": "npc:gornek",
+ "type": "npc",
+ "name": "Gornek",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Gornek",
+  "refs": 1
+ },
+ "summary": "Gornek is an orc overseer stationed in the Valley of Trials in Durotar. He serves as the primary point of intake for fresh orc and Darkspear troll recruits preparing to prove their worth to the New Horde.",
+ "sections": [
+  {
+   "title": "Welcoming the Unproven",
+   "body": "Standing directly at the heart of the Valley of Trials, Gornek represents the initial test of discipline for aspiring Horde warriors, scouts, and spellcasters. Under Warchief Thrall's order, every youth and newcomer must earn their place through grit and perseverance rather than entitlement. Gornek assesses those stepping into the valley, reading their introductory orders and directing them to trainers throughout the compound. Whether an initiate carries an encrypted scrawl, a glyphic parchment, or a simple tablet, it is Gornek who receives their credentials and sets them upon their harsh path of survival.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Life in Service to Durotar",
+   "body": "The arid canyons of the valley test more than battle prowess; they instill the communal ethos of the New Horde. Gornek ensures that novices do not linger aimlessly, pointing them toward the trials of the nearby scorpid burrows, the dens of feral boars, and the watchful eyes of veteran instructors. For those who survive the training grounds and slay the threats lurking in the red rock gullies, Gornek offers the final acknowledgment before dispatching them outward into the wider, perilous landscape of Durotar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gornek?",
+   "aliases": [
+    "gornek",
+    "who is this orc",
+    "who is gornek"
+   ],
+   "answer": "Gornek is an orc greeter and taskmaster in the Valley of Trials. He oversees new recruits of the Horde, reading their induction documents and guiding them to their respective class trainers."
+  },
+  {
+   "q": "Where can I find Gornek?",
+   "aliases": [
+    "gornek location",
+    "where is gornek",
+    "gornek map"
+   ],
+   "answer": "He stands near the center of the Valley of Trials in southwestern Durotar, just outside the Den where young orcs and Darkspear trolls begin their journeys."
+  },
+  {
+   "q": "Why do new recruits report to him?",
+   "aliases": [
+    "why visit gornek",
+    "parchment quest",
+    "tablet quest"
+   ],
+   "answer": "New arrivals carry training scrolls and tablets designating their chosen discipline. Gornek evaluates these letters of introduction, confirms their eligibility, and sends them to the appropriate mentors within the valley."
+  },
+  {
+   "q": "What is his role in the New Horde?",
+   "aliases": [
+    "gornek horde role",
+    "what does gornek do"
+   ],
+   "answer": "He acts as an entry coordinator for Thrall's New Horde. His duty is to ensure no recruit enters the broader lands of Durotar without first learning the basic tenets of honor, survival, and martial readiness."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "For young orcs, reporting to Gornek is the very first step toward shedding childhood and earning an honorable place in Durotar."
+  },
+  {
+   "target": "race:Troll",
+   "text": "As allies sheltered by Thrall, Darkspear trolls present their credentials to Gornek to prove they stand as capable equals alongside their orc brothers."
+  }
+ ],
+ "keywords": [
+  "den",
+  "durotar",
+  "gornek",
+  "parchment",
+  "the new horde",
+  "valley of trials"
+ ],
+ "related": [
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "quest:787",
+  "quest:1089",
+  "quest:98576",
+  "topic:new-horde",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Gornek"
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "key": "topic:knights-of-the-silver-hand",
+ "type": "topic",
+ "name": "Knights of the Silver Hand",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Knights of the Silver Hand"
+ },
+ "summary": "The Knights of the Silver Hand are the legendary order of holy paladins founded after the First War to combine martial combat with the healing and smiting power of the Holy Light. Though their original northern chapter was broken during the fall of Lordaeron, surviving knights carry on their sacred vows in Stormwind and Ironforge, while scattered remnants battle the undead in the northern Plaguelands.",
+ "sections": [
+  {
+   "title": "Creation of the Paladins",
+   "body": "Following the destruction of Stormwind during the First War, Archbishop Alonsus Faol recognized a dire flaw in the Alliance's defenses: the clerics of Northshire were devoted and skilled healers, but they lacked martial training and fell easily on the front lines. To ensure holy warriors could endure the brutal combat of the Second War, Faol and his premier student, Uther the Lightbringer, founded the Order of the Knights of the Silver Hand in Stratholme. Taking inspiration from the legend of Keeper Tyr's silver hand as an emblem of selfless sacrifice, Faol recruited both battle-hardened knights willing to learn devotion to the Light and devout clerics willing to bear plate armor and warhammers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Glory in the Second War",
+   "body": "The original five paladins\u2014Uther the Lightbringer, Turalyon, Saidan Dathrohan, Tirion Fordring, and Gavinrad the Dire\u2014proved instrumental to the Alliance of Lordaeron. First riding into combat during the Battle of Hillsbrad, the paladins lifted the morale of weary soldiers and countered the sinister necromancy of the Horde's death knights. Throughout the war, the Silver Hand broke peasant rebellions, reclaimed Caer Darrow, and helped defend Capital City against the siege of the orcs. In the years of peace that followed, the paladins guarded Lordaeron's borders, settled civil disputes, and served as shining exemplars of honor, humility, and justice.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall and Fractured Remnants",
+   "body": "Tragedy struck the order from within during the Third War. Prince Arthas Menethil, a decorated knight of the Silver Hand, clashed bitterly with his mentor Uther outside Stratholme and unlawfully suspended the paladins when Uther refused to butcher the infected citizenry. When Arthas later succumbed to corruption and led the Scourge against Lordaeron, Uther and Gavinrad were slain, shattering the order's central leadership. The surviving knights in the north fractured under differing doctrines, eventually birthing the zealous Scarlet Crusade and the vigilant Argent Dawn, while the surviving chapters in Stormwind and Ironforge continue to train new paladins under the classic banner of the Silver Hand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who founded the Knights of the Silver Hand?",
+   "aliases": [
+    "who made the silver hand",
+    "founder of paladins",
+    "who created paladins"
+   ],
+   "answer": "The order was created by Archbishop Alonsus Faol in Stratholme following the First War, with Uther the Lightbringer chosen as its very first knight."
+  },
+  {
+   "q": "Who were the first five paladins?",
+   "aliases": [
+    "first paladins",
+    "original silver hand members",
+    "first five"
+   ],
+   "answer": "The first five inducted into the order were Uther the Lightbringer, Turalyon, Saidan Dathrohan, Tirion Fordring, and Gavinrad the Dire, each blessed with a sacred libram by Archbishop Faol."
+  },
+  {
+   "q": "Why is the order called the Silver Hand?",
+   "aliases": [
+    "silver hand meaning",
+    "why silver hand name",
+    "silver hand origin"
+   ],
+   "answer": "The name and emblem are derived from the ancient legend of Keeper Tyr's silver hand, revered as a profound symbol of selfless sacrifice in the face of evil."
+  },
+  {
+   "q": "Does the Silver Hand still exist?",
+   "aliases": [
+    "is silver hand alive",
+    "silver hand today",
+    "are paladins still around"
+   ],
+   "answer": "Yes. While its northern high command was decimated during the Scourge's destruction of Lordaeron, thriving chapters continue to serve the Alliance out of Stormwind's Cathedral of Light and the dwarven halls of Ironforge."
+  },
+  {
+   "q": "How are the Scarlet Crusade and Argent Dawn related to the Silver Hand?",
+   "aliases": [
+    "scarlet crusade silver hand",
+    "argent dawn silver hand",
+    "how did the silver hand split"
+   ],
+   "answer": "After the death of Uther and Highlord Alexandros Mograine, the surviving paladins in Lordaeron fractured over ideological differences. Hardline fanatics formed the Scarlet Crusade to eliminate all outsiders, while more moderate veterans founded the Argent Dawn."
+  },
+  {
+   "q": "Can non-humans join the Knights of the Silver Hand?",
+   "aliases": [
+    "dwarf paladins silver hand",
+    "who can be a silver hand paladin",
+    "can dwarves be silver hand"
+   ],
+   "answer": "Yes. While initially composed of human knights and clerics from Lordaeron, dwarven priests and warriors of Ironforge were welcomed into the order during and after the Second War, bearing the Silver Hand's insignia and rites."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Every human and dwarven paladin serving the Alliance traces their sacred oaths, librams, and martial tradition directly back to the laws laid down by Archbishop Faol and Uther the Lightbringer."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The Silver Hand was born out of the priesthood's vulnerability during the First War, bridging the gap between divine ministry and heavy warfare."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Knights of the Silver Hand were the ideological anchor of the Alliance of Lordaeron, inspiring soldiers across every human realm to stand firm against darkness."
+  },
+  {
+   "target": "race:Human",
+   "text": "Humanity views the Silver Hand as the pinnacle of virtue, honor, and courage, mourning the fall of its great northern masters while honoring their memory in Stormwind."
+  }
+ ],
+ "keywords": [
+  "alonsus faol",
+  "arthas",
+  "holy light",
+  "libram",
+  "paladin",
+  "silver hand",
+  "stratholme",
+  "tirion fordring",
+  "turalyon",
+  "uther"
+ ],
+ "related": [
+  "topic:church-of-the-holy-light",
+  "topic:light",
+  "npc:tirion-fordring",
+  "subzone:stratholme",
+  "topic:arthas-menethil",
+  "topic:second-war",
+  "topic:argent-dawn",
+  "topic:scarlet-crusade"
+ ],
+ "attribution": [
+  "Knights of the Silver Hand"
+ ]
+}

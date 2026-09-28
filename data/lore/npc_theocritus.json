@@ -1,0 +1,118 @@
+{
+ "key": "npc:theocritus",
+ "type": "npc",
+ "name": "Theocritus",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Theocritus",
+  "refs": 3
+ },
+ "summary": "Archmage Theocritus is an eccentric human wizard who resides at the peak of the Tower of Azora in eastern Elwynn Forest. Formerly affiliated with the Kirin Tor of Dalaran, he now lives independently, surrounded by servants and magical scrying devices. From his high sanctum, Theocritus directs his arcane talents toward keeping watch over the kingdom and combating his dark rival, the rogue mage Morganth.",
+ "sections": [
+  {
+   "title": "Master of the Tower",
+   "body": "Once a member of Dalaran's prestigious Kirin Tor, Archmage Theocritus chose to establish an independent stronghold far to the south in the kingdom of Stormwind. He settled in the prominent Tower of Azora, situated near the eastern road to Redridge. Theocritus is known for his eccentric habits and comfortable lifestyle, employing an extensive household staff that includes numerous gnomish attendants and his own dedicated clothier, Morley Eberlein. Though he keeps himself largely detached from the mundane concerns of local villagers, his presence serves as a critical magical bulwark in eastern Elwynn.",
+   "spoiler": 0
+  },
+  {
+   "title": "The War Against Morganth",
+   "body": "Theocritus's greatest ongoing concern is the fallen mage Morganth, a dangerous warlock operating from the Tower of Ilgalar in the nearby Redridge Mountains. Viewing Morganth both as a personal nemesis and a severe peril to Stormwind, Theocritus has dedicated months of arcane research to undermining him. Through scrying artifacts like the Eye of Azora, Theocritus monitors the villain's actions and delves into his thoughts. He also works to turn Morganth's own creations against him, studying the magical pendants carried by the Shadowhide gnolls in hopes of transmitting an arcane pulse that can immobilize the entire pack.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Theocritus?",
+   "aliases": [
+    "theocritus lore",
+    "who is the mage in the tower",
+    "tower of azora mage"
+   ],
+   "answer": "Archmage Theocritus is a former Kirin Tor wizard who makes his home in the Tower of Azora in eastern Elwynn Forest. He lives an eccentric, somewhat isolated life, focusing his arcane craft on safeguarding the region from dark magical threats."
+  },
+  {
+   "q": "Why did Theocritus leave Dalaran?",
+   "aliases": [
+    "is theocritus kirin tor",
+    "why is theocritus in elwynn",
+    "theocritus dalaran"
+   ],
+   "answer": "While he once operated within the Kirin Tor alongside peers like Archmage Karlain, Theocritus chose to become an independent practitioner. He relocated to Elwynn Forest to pursue his own studies and maintain his personal sanctum at the Tower of Azora."
+  },
+  {
+   "q": "Who is Theocritus fighting against?",
+   "aliases": [
+    "theocritus enemy",
+    "who is morganth",
+    "theocritus rival"
+   ],
+   "answer": "His chief rival is Morganth, a fallen human mage who has taken up dark magic in the Tower of Ilgalar across the border in Redridge. Theocritus sees Morganth as both an offensive personal foe and a dire threat to the safety of Stormwind."
+  },
+  {
+   "q": "What is the Eye of Azora?",
+   "aliases": [
+    "eye of azora lore",
+    "how does theocritus spy",
+    "theocritus crystal ball"
+   ],
+   "answer": "The Eye of Azora is a powerful scrying apparatus developed and housed by Theocritus atop his tower. He uses it to magically peer into distant lands, track threats, and even attempt to read the thoughts of his rival, Morganth."
+  },
+  {
+   "q": "Why does Theocritus want Shadowhide gnoll pendants?",
+   "aliases": [
+    "gnoll pendants theocritus",
+    "theocritus retrieval",
+    "why collect gnoll pendants"
+   ],
+   "answer": "The Shadowhide gnolls serve Morganth and wear enchanted pendants tied to their master. Theocritus studies these trinkets to learn how their magical link operates, hoping to broadcast an arcane attack through the network to paralyze the gnolls in battle."
+  },
+  {
+   "q": "Who serves Theocritus in his tower?",
+   "aliases": [
+    "tower of azora staff",
+    "who lives in tower of azora",
+    "theocritus servants"
+   ],
+   "answer": "Theocritus surrounds himself with an unusual household, including an entire retinue of gnomish servants who see to his daily affairs, as well as a personal clothier named Morley Eberlein who tends to his wardrobe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Theocritus represents the life of a wizard who operates outside Dalaran's strict hierarchy, demonstrating how solitary masters set up sanctums and conduct long-distance scrying."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though eccentric and aloof, Theocritus uses his arcane vision and resources to actively defend eastern Elwynn and Redridge from rogue spellcasters."
+  },
+  {
+   "target": "race:Human",
+   "text": "The conflict between Theocritus and Morganth mirrors the dual paths of human sorcery: disciplined scholarship dedicated to defense versus corruption and dark ambition."
+  }
+ ],
+ "keywords": [
+  "archmage",
+  "elwynn forest",
+  "eye of azora",
+  "karlain",
+  "morganth",
+  "morley eberlein",
+  "shadowhide",
+  "theocritus",
+  "tower of azora"
+ ],
+ "related": [
+  "subzone:tower-of-azora",
+  "quest:178",
+  "quest:94",
+  "quest:249",
+  "zone:elwynn",
+  "subzone:dalaran",
+  "topic:gnoll",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Theocritus"
+ ]
+}

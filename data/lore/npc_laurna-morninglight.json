@@ -1,0 +1,109 @@
+{
+ "key": "npc:laurna-morninglight",
+ "type": "npc",
+ "name": "Laurna Morninglight",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Laurna Morninglight",
+  "refs": 5
+ },
+ "summary": "Laurna Morninglight is a night elf priest trainer residing in the tranquil settlement of Dolanaar within Teldrassil. Devoted to the Sisterhood of Elune, she guides budding acolytes emerging from Shadowglen in the spiritual rites and healing graces of the Moon Goddess. Her teachings prepare young night elf priests for the growing threats encroaching on the boughs of the World Tree.",
+ "sections": [
+  {
+   "title": "A Guide in Dolanaar",
+   "body": "Situated amidst the boughs of Dolanaar, Laurna Morninglight serves as one of the primary mentors for young priests who have completed their initial rites in Shadowglen. As new initiates step out into the broader reaches of Teldrassil, she instructs them on expanding their communion with Elune, balancing the light of healing with defensive rites necessary to survive an increasingly hostile wild.",
+   "spoiler": 0
+  },
+  {
+   "title": "Devotion to the Moon Goddess",
+   "body": "Priestcraft among the kaldorei is deeply intertwined with the worship of Elune rather than the abstract Holy Light revered by humans and dwarves. Laurna tasks her students with spiritual labors such as receiving sacred robes and communing directly with lunar shrines. Through these traditions, acolytes learn that their powers are direct gifts of the Mother Moon, meant to preserve and mend the kaldorei people.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Laurna Morninglight?",
+   "aliases": [
+    "laurna location",
+    "where is laurna",
+    "dolanaar priest trainer"
+   ],
+   "answer": "Laurna Morninglight is stationed in the village of Dolanaar, located in the central reaches of Teldrassil just down the road from Shadowglen."
+  },
+  {
+   "q": "What does Laurna Morninglight do?",
+   "aliases": [
+    "what does she do",
+    "laurna role",
+    "laurna priest trainer"
+   ],
+   "answer": "She is a priest trainer for night elf characters. She teaches new spells, refines ranks of known abilities, and provides early guidance through class-specific rites."
+  },
+  {
+   "q": "What kind of quests does she offer?",
+   "aliases": [
+    "laurna quests",
+    "priest quests dolanaar"
+   ],
+   "answer": "She initiates class quests for fledgling priests, directing them to aid wounded allies and seek Elune's divine favor through ceremonial vestments and prayers."
+  },
+  {
+   "q": "Does she train other races?",
+   "aliases": [
+    "can humans train here",
+    "priest trainer any race"
+   ],
+   "answer": "While she is culturally rooted in the Sisterhood of Elune, priest trainers in the Alliance will instruct any allied priest who comes seeking spiritual discipline."
+  },
+  {
+   "q": "Is she affiliated with the Temple of the Moon?",
+   "aliases": [
+    "is she sisterhood of elune",
+    "laurna temple of the moon"
+   ],
+   "answer": "Yes, as a kaldorei priestess, her vows and magic are dedicated entirely to the Goddess Elune and the broader traditions overseen by the Temple of the Moon in Darnassus."
+  },
+  {
+   "q": "Does she share a family name with other night elves?",
+   "aliases": [
+    "morninglight family",
+    "laurna relatives"
+   ],
+   "answer": "She shares the surname Morninglight with Norana Morninglight, an innkeeper serving the kaldorei elsewhere on the continent."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "For night elf priests arriving from Shadowglen, Laurna Morninglight is your first major mentor outside the starting vale, teaching foundational spells and guiding your early devotion to Elune."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Laurna embodies the traditional kaldorei devotion to the Moon Goddess, reminding adventurers that priestcraft in Teldrassil draws from Elune rather than the Holy Light."
+  }
+ ],
+ "keywords": [
+  "dolanaar",
+  "elune",
+  "kaldorei",
+  "laurna",
+  "morninglight",
+  "priest trainer",
+  "sisterhood of elune",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "topic:elune",
+  "topic:night-elf",
+  "quest:5621",
+  "quest:5622",
+  "quest:5634",
+  "quest:5628"
+ ],
+ "attribution": [
+  "Laurna Morninglight"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "key": "subzone:undercity",
+ "type": "subzone",
+ "name": "Undercity",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Undercity"
+ },
+ "summary": "Carved beneath the shattered palace of Capital City, the Undercity serves as the sprawling subterranean stronghold of the Forsaken. Originally a tangle of royal crypts, dungeons, and sewers expanded by the Scourge, it was seized by Sylvanas Windrunner and forged into a heavily fortified capital for her free-willed undead.",
+ "sections": [
+  {
+   "title": "From Royal Crypts to Scourge Bastion",
+   "body": "Before the Third War, the subterranean passages beneath Capital City were known as the Undercity\u2014a vast network of sewers, royal catacombs, and dungeons. It was here that the Alliance once imprisoned the captured warchief Orgrim Doomhammer, and where the poorest citizens scraped a living in the dark. During the fall of Lordaeron, Prince Arthas Menethil ordered his Scourge to begin expanding these depths into a subterranean seat of power. When the Lich King summoned Arthas away to Northrend, the death knight left the construction unfinished.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Forsaken Capital",
+   "body": "Amid the civil war in the Plaguelands, Sylvanas Windrunner rallied those undead whose minds had broken free from the Lich King's grip. After overthrowing the dreadlords and driving out rival forces, the newly christened Forsaken claimed the subterranean complex. They completed the twisted maze of catacombs the Scourge had started, fortifying it into an impenetrable stronghold beneath the silent ruins of their former kingdom. Today, the Dark Lady rules her people from within its poisoned halls.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Was Undercity always here before the undead took over?",
+   "aliases": [
+    "undercity origins",
+    "was undercity always there",
+    "history of undercity"
+   ],
+   "answer": "Yes, though in a much smaller form. Under the Kingdom of Lordaeron, the area beneath the palace held ancient royal crypts, dungeons, and the city's sewer system, where paupers dwelled and high-profile prisoners\u2014including the captured Orc warchief Orgrim Doomhammer\u2014were kept."
+  },
+  {
+   "q": "Who actually built the modern Undercity?",
+   "aliases": [
+    "who made undercity",
+    "who built the undercity",
+    "undercity construction"
+   ],
+   "answer": "The initial expansion was begun by Prince Arthas Menethil, who intended to make it the Scourge's seat of power in Lordaeron. When Arthas was recalled to Northrend, Sylvanas Windrunner and her Forsaken captured the unfinished tunnels and spent years excavating and fortifying them into the fortress city seen today."
+  },
+  {
+   "q": "Why live underground instead of rebuilding the city above?",
+   "aliases": [
+    "why live underground",
+    "why not rebuild lordaeron",
+    "why undercity"
+   ],
+   "answer": "The surface ruins of Capital City are exposed to attacks from the Scarlet Crusade, Scourge remnants, and the Alliance. The subterranean catacombs are naturally defensible, hidden from view, and well suited to the needs of the undead, who do not require daylight, warmth, or open air."
+  },
+  {
+   "q": "Who rules the Undercity?",
+   "aliases": [
+    "who is the leader of undercity",
+    "undercity leader",
+    "who rules undercity"
+   ],
+   "answer": "The city is ruled by Lady Sylvanas Windrunner, the Banshee Queen and leader of the Forsaken, from the royal quarters deep inside the complex."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Undercity is the beating heart of Forsaken civilization\u2014a sanctuary built from the ruins and crypts of your former lives where you are sheltered from the Scourge and the living alike."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The subterranean city stands as the Horde's primary military bastion in the Eastern Kingdoms, though its dim, apothecary-tainted passages test the comfort of visitors from Kalimdor."
+  }
+ ],
+ "keywords": [
+  "arthas",
+  "capital city",
+  "catacombs",
+  "crypts",
+  "doomhammer",
+  "forsaken",
+  "lordaeron",
+  "sylvanas",
+  "undercity"
+ ],
+ "related": [
+  "zone:undercity",
+  "zone:ruinsoflordaeron",
+  "zone:tirisfal",
+  "npc:sylvanas-windrunner",
+  "topic:forsaken",
+  "topic:arthas-menethil",
+  "npc:orgrim-doomhammer",
+  "subzone:sewers"
+ ],
+ "attribution": [
+  "Undercity"
+ ]
+}

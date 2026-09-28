@@ -1,0 +1,126 @@
+{
+ "key": "topic:second-war",
+ "type": "topic",
+ "name": "Second War",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Second War"
+ },
+ "summary": "The Second War was the continent-spanning clash across the Eastern Kingdoms between the Orcish Horde and the newly forged Alliance of Lordaeron. Sparked after the sack of Stormwind, the war devastated Khaz Modan and northern human realms before turning at the gates of Capital City. It ended in the destruction of the Dark Portal and the dispersal of the old Horde.",
+ "sections": [
+  {
+   "title": "A Continent at War",
+   "body": "Following the fall of Stormwind during the First War, Regent Anduin Lothar led human refugees north across the Great Sea to Lordaeron. King Terenas Menethil II convened the Council of Seven Nations, forging the Alliance of Lordaeron alongside the high elves of Quel'Thalas, the Bronzebeard dwarves of Ironforge, and the gnomes of Gnomeregan. Meanwhile, Warchief Orgrim Doomhammer consolidated the Horde, forging alliances with forest troll tribes and the Steamwheedle Cartel while subjugating red dragons through the Dragonmaw clan to invade the northern continents.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Invasion of the North",
+   "body": "The Horde launched devastating land and naval offensives, quickly overrunning Khaz Modan and driving the dwarves and gnomes behind the sealed gates of Ironforge and Gnomeregan. Advancing north across the Thandol Span and through the seas, orcish forces burned their way through Hillsbrad and the Hinterlands before laying siege to Capital City itself. The kingdom of Alterac betrayed the Alliance, guiding orc divisions through mountain passes. Despite devastating dragon attacks, the Alliance rallied around the newly created Knights of the Silver Hand and paladins who wielded the Holy Light against orcish warlocks and death knights.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Turning Tide and the Dark Portal",
+   "body": "The war turned when the warlock Gul'dan deserted the Horde with his followers to pursue personal power, forcing Doomhammer to divert critical forces from the front lines. The Alliance counterattacked, breaking the siege of Lordaeron and systematically driving the Horde back south across the Thandol Span, liberating Khaz Modan along the way. In the final mountain passes of the Burning Steppes, Anduin Lothar fell in single combat against Doomhammer, but his lieutenant Turalyon rallied the troops and routed the orcs. The Alliance pursued the survivors all the way to the Black Morass, shattering the remnants and demolishing the Dark Portal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How did the Second War begin?",
+   "aliases": [
+    "why did the second war start",
+    "how did it start",
+    "second war cause"
+   ],
+   "answer": "After the Horde razed Stormwind during the First War, Orgrim Doomhammer recognized that the northern human realms would eventually retaliate. He decided to strike first before humanity could organize. At the same time, Stormwind refugees led by Anduin Lothar warned King Terenas Menethil II of Lordaeron, leading to the creation of the Alliance of Lordaeron."
+  },
+  {
+   "q": "Who won the Second War?",
+   "aliases": [
+    "who won",
+    "alliance or horde win",
+    "second war victor"
+   ],
+   "answer": "The Alliance of Lordaeron won a decisive victory. After repelling the Horde from Capital City and driving them south through Khaz Modan, Alliance forces defeated Warchief Orgrim Doomhammer at the foot of Blackrock Mountain and dismantled the Dark Portal in the Black Morass."
+  },
+  {
+   "q": "What happened to Khaz Modan during the fighting?",
+   "aliases": [
+    "khaz modan second war",
+    "ironforge siege second war",
+    "what happened to the dwarves"
+   ],
+   "answer": "The Horde overran the surface lands of Khaz Modan to seize its rich mineral deposits and forges. The Bronzebeard dwarves and their gnomish allies blew up mountain passes and tunnels to slow the march, eventually retreating entirely behind the sealed gates of Ironforge and Gnomeregan. The Horde laid siege to Ironforge but could never breach its gates before the Alliance pushed south and liberated the realm."
+  },
+  {
+   "q": "Why did the Horde lose when they reached Capital City?",
+   "aliases": [
+    "why did the horde lose",
+    "gul'dan betrayal second war",
+    "why did doomhammer fail"
+   ],
+   "answer": "At the height of the siege of Lordaeron's capital, the warlock Gul'dan abandoned the front line, taking the Stormreaver and Twilight's Hammer clans with him to hunt for ancient demonic power. Doomhammer was forced to split his army to punish the deserters, fatally weakening his siege lines just as the Alliance counterattack struck."
+  },
+  {
+   "q": "Who was Anduin Lothar?",
+   "aliases": [
+    "who is lothar",
+    "anduin lothar death",
+    "supreme commander lothar"
+   ],
+   "answer": "Sir Anduin Lothar was the Lion of Azeroth and the Regent of Stormwind after King Llane's assassination. He led the survivors north and was named Supreme Commander of the Alliance armies. Lothar was killed in single combat against Orgrim Doomhammer in the Burning Steppes near the end of the war, inspiring Turalyon to lead the Alliance to ultimate victory."
+  },
+  {
+   "q": "Where did the final battle take place?",
+   "aliases": [
+    "last battle second war",
+    "dark portal battle",
+    "burning steppes second war"
+   ],
+   "answer": "The decisive army-level battle took place around Blackrock Mountain in the Burning Steppes, where Doomhammer was defeated. The surviving orcs fled to the Black Morass, where the Alliance fought a final engagement at the Dark Portal itself, destroying the rift and imprisoning or scattering the remaining Horde clans."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Second War was the defining crucible that forged the modern Alliance, uniting humans, dwarves, gnomes, and elves against an existential threat."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The conflict marked the collapse of the old blood-cursed Horde, leading directly to the internment camps and the eventual rebirth of the new Horde under Thrall."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The Knights of the Silver Hand were founded specifically during this conflict by Archbishop Alonsus Faol and Uther the Lightbringer to counter the fel magic and death knights of the Horde."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Khaz Modan suffered widespread devastation during the war, enduring a protracted Horde siege behind the sealed mountain gates of Ironforge until Alliance armies lifted it."
+  }
+ ],
+ "keywords": [
+  "alliance of lordaeron",
+  "blackrock mountain",
+  "dark portal",
+  "doomhammer",
+  "guldan",
+  "lothar",
+  "second war",
+  "silver hand",
+  "thandol span"
+ ],
+ "related": [
+  "topic:first-war",
+  "topic:alliance-of-lordaeron",
+  "npc:orgrim-doomhammer",
+  "topic:anduin-lothar",
+  "subzone:dark-portal",
+  "topic:dragonmaw-clan",
+  "zone:ironforge",
+  "zone:burningsteppes"
+ ],
+ "attribution": [
+  "Second War"
+ ]
+}

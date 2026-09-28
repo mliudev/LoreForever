@@ -1,0 +1,122 @@
+{
+ "key": "quest:9260",
+ "type": "quest",
+ "name": "Investigate the Scourge of Stormwind",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   9260
+  ],
+  "level": "6",
+  "faction": "Alliance",
+  "start": "Lieutenant Orrin",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Investigate the Scourge of Stormwind",
+  "chain": []
+ },
+ "summary": "The Scourge invasion has brought the horrors of the Lich King directly to the gates of Stormwind. Outside the capital's walls, necropolises shadow the land while undead abominations and cultists conjure dark magic. Lieutenant Orrin enlists capable defenders to cull the invaders, gather Necrotic Stones, and decipher the sinister runic circles pulsing at their encampments.",
+ "sections": [
+  {
+   "title": "Undead at the Capital's Threshold",
+   "body": "The presence of Scourge forces so close to Stormwind City is an unsettling shock for the kingdom. Floating necropolises loom overhead while shambling undead and sinister cultists establish footholds right on the doorstep of humanity's greatest bastion. Lieutenant Orrin rallies defenders outside the city to push back these invading horrors before they can overwhelm the capital's perimeter.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Whispering Runes",
+   "body": "Beyond simply fighting off the walking dead, the mission requires investigating the glowing runic circles etched into the dirt around the enemy encampments. These occult circles crackle with the same fell magic radiating from the necropolises above. Venturing into their glow reveals eerie whispers lingering on the air\u2014unnatural voices that indicate the circles serve as conduits of dark communication coordinating the invasion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lieutenant Orrin?",
+   "aliases": [
+    "orrin",
+    "lieutenant orrin",
+    "who gives this quest"
+   ],
+   "answer": "Lieutenant Orrin is an officer coordinating defenses outside Stormwind. Operating alongside the Argent Dawn, he organizes local fighters to gather intelligence and dismantle the Scourge footholds threatening the city."
+  },
+  {
+   "q": "Why is the Scourge attacking Stormwind?",
+   "aliases": [
+    "why scourge here",
+    "scourge invasion stormwind",
+    "why attack stormwind"
+   ],
+   "answer": "The Lich King has dispatched airborne necropolises and invasion forces across Azeroth to spread terror and swell the ranks of the undead. Stormwind, as a principal seat of living resistance, makes a prime target for these assaults."
+  },
+  {
+   "q": "What are the glowing runic circles?",
+   "aliases": [
+    "runic circles",
+    "glowing runes",
+    "what do circles do"
+   ],
+   "answer": "The runic circles are ritual arrays established by the Scourge near their forward encampments. They pulse with dark necromantic power and whisper with unnatural voices, serving as magical relays used by the invaders for occult communication."
+  },
+  {
+   "q": "What are Dim Necrotic Stones?",
+   "aliases": [
+    "dim necrotic stone",
+    "necrotic stones",
+    "what are necrotic stones"
+   ],
+   "answer": "Dim Necrotic Stones are magical foci carried by the lesser forces of the Scourge invasion. They radiate residual necrotic energies and serve both as proof of dispatched invaders and as curiosities of interest to the Argent Dawn."
+  },
+  {
+   "q": "What role does the Argent Dawn play in this mission?",
+   "aliases": [
+    "argent dawn",
+    "argent dawn connection"
+   ],
+   "answer": "The Argent Dawn is an independent order dedicated to eradicating the Scourge wherever it appears. Lieutenant Orrin works on their behalf, securing intelligence and stones to aid their broader war against the Lich King's armies."
+  },
+  {
+   "q": "Are the runic circles dangerous to approach?",
+   "aliases": [
+    "are runes safe",
+    "whispers in runes"
+   ],
+   "answer": "While the circles exude unsettling energies and emit discordant whispers, scouts who approach them carefully can glean crucial insight into the Scourge's communications without losing their sanity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The defense of Stormwind's gates against the Scourge invasion is a matter of sheer survival for the Alliance, proving that even their southern stronghold is within the Lich King's reach."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Confronting the Scourge right outside Stormwind gives Paladins an urgent duty to unleash holy wrath upon the necromantic circles and protect the kingdom's populace."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The twisted whisperings inside the invasion runes offer Priests direct insight into the corrupting shadow magic binding the Scourge's frontline forces."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "invasion",
+  "lich king",
+  "lieutenant orrin",
+  "necropolis",
+  "necrotic stones",
+  "runic circles",
+  "scourge",
+  "stormwind"
+ ],
+ "related": [
+  "npc:lieutenant-orrin",
+  "topic:scourge",
+  "topic:argent-dawn",
+  "topic:stormwind-kingdom",
+  "topic:lich-king"
+ ],
+ "attribution": [
+  "Investigate the Scourge of Stormwind"
+ ]
+}

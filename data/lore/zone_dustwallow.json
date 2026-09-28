@@ -1,0 +1,130 @@
+{
+ "key": "zone:dustwallow",
+ "type": "zone",
+ "name": "Dustwallow Marsh",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": [
+   "Dustwallow Marsh (Classic)",
+   "Dustwallow Marsh"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Dustwallow Marsh is a vast, sweltering swampland in central Kalimdor, trapped between the arid plains of the Barrens and the Great Sea. Fed by perpetual subterranean springs, its treacherous fens harbor dangerous predators, covert faction skirmishes, and the lurking presence of the black dragonflight. It serves as home to the Alliance fortress-island of Theramore in the east and the Horde-allied Stonemaul ogres of Brackenwall Village to the northwest.",
+ "sections": [
+  {
+   "title": "A Drowned Landscape",
+   "body": "Before the Great Sundering, Dustwallow was a high, grassy plain teeming with herd animals. The cataclysm shattered the valley, causing the water table to rise and drown the earth in endless stagnant pools, mossy shallows, and choking mud. Underground springs ensure the marsh remains perpetually humid and submerged, blanketed in thick fog and infested with crocolisks, raptors, and spiders. Jagged shallows and wandering bogs make travel perilous for any adventurer stepping off the crumbling causeways.",
+   "spoiler": 0
+  },
+  {
+   "title": "Old Hatreds and Uneasy Truces",
+   "body": "Dustwallow was largely wild until the aftermath of the Third War, when Lady Jaina Proudmoore led human refugees across the sea to establish the citadel of Theramore Isle on its eastern coast. Soon after, Kul Tiran forces under Grand Admiral Daelin Proudmoore waged war against Thrall's fledgling Horde, culminating in bloody battles across the wetlands and the Admiral's defeat. Today, an official armistice exists between Theramore and Orgrimmar, yet tension smolders beneath the surface. Theramore struggles with desertions and sabotage, while spies wage quiet, deadly conflicts across the fens.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadow of the Wyrmbog",
+   "body": "The south of the marsh rises into a jagged, rocky quagmire known as the Dragonmurk and the Wyrmbog. Originally settled by the Stonemaul ogres under the Mok'Nathal champion Rexxar, the area became a graveyard when the black dragonflight violently drove the clan from Stonemaul Village. The displaced ogres fled north to Brackenwall Village under Overlord Mok'Morokk, swearing vengeance. Within these jagged crags lurks Onyxia, daughter of Deathwing, directing her brood and weaving sinister machinations far beyond the swamp.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the main Alliance settlement here?",
+   "aliases": [
+    "alliance base dustwallow",
+    "where is theramore",
+    "human town dustwallow"
+   ],
+   "answer": "The Alliance's presence is centered at Theramore Isle, a fortified city-state situated on a rocky island off the eastern coast. Founded by Lady Jaina Proudmoore following the Third War, it connects to Kalimdor by a narrow roadway and maintains vital ship routes to Menethil Harbor in the Eastern Kingdoms."
+  },
+  {
+   "q": "Where can Horde adventurers find refuge in the swamp?",
+   "aliases": [
+    "horde base dustwallow",
+    "where is brackenwall",
+    "ogre village"
+   ],
+   "answer": "Horde travelers make camp at Brackenwall Village in the northwestern reaches of the marsh. The settlement was founded by the Stonemaul clan of ogres, who joined the Horde under Rexxar and opened their gates to orcish and tauren allies."
+  },
+  {
+   "q": "Why are there so many black dragons in the southern marsh?",
+   "aliases": [
+    "wyrmbog dragons",
+    "why black dragons here",
+    "dragonmurk"
+   ],
+   "answer": "The southern region, known as the Wyrmbog and Dragonmurk, is the brood grounds and domain of Onyxia, daughter of Deathwing. Her black dragonspawn violently drove out the Stonemaul ogres and turned the rocky outcroppings and deep caves into nests for whelps and drakes."
+  },
+  {
+   "q": "What happened to the Stonemaul ogres' original home?",
+   "aliases": [
+    "stonemaul ruins",
+    "what happened to stonemaul village",
+    "old ogre town"
+   ],
+   "answer": "The Stonemaul ogres originally dwelt peacefully in Stonemaul Village in the southern marsh. However, the black dragonflight launched a devastating assault, slaughtering many and forcing the survivors to flee northwest to Brackenwall Village."
+  },
+  {
+   "q": "Who lives in the lonely cottage out in the Quagmire?",
+   "aliases": [
+    "tabetha's farm",
+    "tabetha dustwallow",
+    "who is the witch in the swamp"
+   ],
+   "answer": "The cottage belongs to Tabetha, an eccentric and powerful hermit mage living quietly in the depths of the marsh. Arcane practitioners often seek her out for instruction or assistance with cleansing volatile magical relics."
+  },
+  {
+   "q": "What is Alcaz Island and who controls it?",
+   "aliases": [
+    "alcaz island",
+    "island off coast dustwallow",
+    "what is on alcaz"
+   ],
+   "answer": "Alcaz Island is a heavily fortified isle off the coast of Dustwallow Bay, teeming with dangerous naga, hydras, and elite defenders. Unknown to the wider world, an underground prison beneath the island holds the abducted King of Stormwind, Varian Wrynn."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Dustwallow Marsh hosts Theramore Isle, the heart of the Alliance's presence on Kalimdor. Adventurers arriving via Menethil Harbor guard its causeways while untangling a web of deserters and missing envoys."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde emissaries come to support the beleaguered Stonemaul ogres at Brackenwall Village, repelling dragon incursions from the Wyrmbog and keeping a wary eye on human movements from the coast."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages are drawn across the fens to Tabetha's Farm in the Quagmire, seeking out the recluse's unique expertise regarding arcane conduits and ancient power sources."
+  }
+ ],
+ "keywords": [
+  "alcaz",
+  "brackenwall",
+  "dustwallow",
+  "jaina",
+  "marsh",
+  "onyxia",
+  "quagmire",
+  "stonemaul",
+  "tabetha",
+  "theramore",
+  "wyrmbog"
+ ],
+ "related": [
+  "subzone:theramore-isle",
+  "subzone:brackenwall-village",
+  "subzone:onyxia-s-lair",
+  "subzone:alcaz-island",
+  "subzone:wyrmbog",
+  "subzone:stonemaul-ruins",
+  "subzone:tabetha-s-farm",
+  "quest:1241"
+ ],
+ "attribution": [
+  "Dustwallow Marsh (Classic)",
+  "Dustwallow Marsh"
+ ]
+}

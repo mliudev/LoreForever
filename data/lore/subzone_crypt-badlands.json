@@ -1,0 +1,80 @@
+{
+ "key": "subzone:crypt-badlands",
+ "type": "subzone",
+ "name": "Crypt (Badlands)",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Crypt (Badlands)"
+ },
+ "summary": "Tucked away high in the dusty hills of the Badlands lies a secluded underground tomb known simply as the Crypt. Inside rests the silent remnant of an ancient warrior: an armored skeleton seated upon a stone throne, flanked by urns, chests, and a massive relic sword.",
+ "sections": [
+  {
+   "title": "The Tomb of the Barbarian King",
+   "body": "Perched southeast of Hammertoe's Digsite along an unmarked earthen path rising behind Sigrun Ironhew, the Badlands Crypt is easily missed by passersby. Down in its dark stone chambers sits an armored skeleton poised atop a throne. Resting beside the remains is the Sword of the Barbarian King, surrounded by scattered bones, urns, and forgotten chests. While miners and adventurers frequent the surrounding gullies in search of dwarven ruins and riches, the true origin and history of this seated sovereign remain a mystery lost to the arid wastes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Crypt located in the Badlands?",
+   "aliases": [
+    "badlands crypt location",
+    "how to find badlands crypt",
+    "crypt entrance badlands"
+   ],
+   "answer": "The entrance is situated southeast of Hammertoe's Digsite. To reach it, follow an unmarked path winding up the crest of the hill just behind the dwarf Sigrun Ironhew."
+  },
+  {
+   "q": "Who is the skeleton sitting on the throne inside?",
+   "aliases": [
+    "skeleton on throne",
+    "who is the barbarian king",
+    "crypt skeleton identity"
+   ],
+   "answer": "The armored skeleton is commonly referred to as the Barbarian King. No surviving local texts detail his reign or identity, leaving him as an enigmatic relic of an earlier, forgotten era in the Badlands."
+  },
+  {
+   "q": "What is the sword next to the throne?",
+   "aliases": [
+    "sword of the barbarian king",
+    "crypt sword",
+    "badlands throne sword"
+   ],
+   "answer": "It is known as the Sword of the Barbarian King. It rests silently beside the skeletal ruler, serving as a solemn grave marker and a testament to his warlike past."
+  },
+  {
+   "q": "Are there any quests associated with this crypt?",
+   "aliases": [
+    "badlands crypt quest",
+    "why go to badlands crypt"
+   ],
+   "answer": "There are no standard quests directing adventurers into the crypt. It stands primarily as an eerie, hidden discovery for travelers scouring the cliffs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "The crypt offers warriors a moment of quiet reverence before a fallen champion who died clad in plate and still clutching his mighty blade."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Though situated near active dwarven archaeological digsites, the architecture and skeletal throne point to mysteries predating Ironforge's recent excavations."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "barbarian king",
+  "crypt",
+  "hammertoe's digsite",
+  "sigrun ironhew",
+  "sword",
+  "throne"
+ ],
+ "related": [
+  "zone:badlands"
+ ],
+ "attribution": [
+  "Crypt (Badlands)"
+ ]
+}

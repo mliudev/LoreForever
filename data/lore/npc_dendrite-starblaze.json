@@ -1,0 +1,115 @@
+{
+ "key": "npc:dendrite-starblaze",
+ "type": "npc",
+ "name": "Dendrite Starblaze",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Dendrite Starblaze",
+  "refs": 18
+ },
+ "summary": "Dendrite Starblaze is a night elf druid residing in the sacred village of Nighthaven within Moonglade. Serving the Cenarion Circle, he acts as a vital mentor and guide for budding druids of both night elf and tauren descent. Through him, practitioners are summoned to the holy grove to master essential rites such as cleansing toxins and communing with nature's forms.",
+ "sections": [
+  {
+   "title": "A Guide in the Sacred Haven",
+   "body": "Perched within Nighthaven, Dendrite Starblaze represents the nonpartisan, enduring spirit of the Cenarion Circle. When novice druids learn to attune their spirits to Teleport: Moonglade, Dendrite is among the first to welcome them upon arrival. He bridges the gap between ancient Kaldorei tradition and the emerging path of the tauren, treating all who heed the call of the wild as kin beneath the boughs of the sacred haven.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trials of the Wild",
+   "body": "Dendrite's primary duty involves initiating druidic apprentices into the deeper mysteries of nature. He directs novices through the trials required to understand poison and pestilence, sending them to examine tainted waters and discover herbal curatives. He also oversees the steps that lead druids to the water trials, testing their patience and endurance beneath the surface before granting communion with aquatic forms.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dendrite Starblaze?",
+   "aliases": [
+    "dendrite starblaze",
+    "who is dendrite",
+    "starblaze moonglade"
+   ],
+   "answer": "Dendrite Starblaze is a night elf druid and Cenarion Circle mentor located in Nighthaven within Moonglade. He guides developing druids through vital class trials and training."
+  },
+  {
+   "q": "Why does a night elf train Horde tauren?",
+   "aliases": [
+    "why does dendrite train horde",
+    "dendrite tauren druid",
+    "cross faction druid mentor"
+   ],
+   "answer": "The Cenarion Circle stands outside the political factions of the Alliance and Horde. In Moonglade, night elves and tauren practice the druidic arts together under ancient oaths of brotherhood, leaving worldly conflicts beyond the mountain passes."
+  },
+  {
+   "q": "What quests does Dendrite Starblaze offer?",
+   "aliases": [
+    "dendrite quests",
+    "starblaze quest list"
+   ],
+   "answer": "Dendrite oversees several foundational druid class trials. These include quests to master venom and disease curing, as well as trials leading toward the communion required for aquatic form."
+  },
+  {
+   "q": "Where can Dendrite Starblaze be found?",
+   "aliases": [
+    "dendrite location",
+    "where is starblaze",
+    "dendrite starblaze map"
+   ],
+   "answer": "He is located in Nighthaven, the settlement situated on the northern shores of Lake Elune'ara in Moonglade."
+  },
+  {
+   "q": "How do young druids reach Dendrite for the first time?",
+   "aliases": [
+    "how to get to dendrite",
+    "teleport to moonglade quest"
+   ],
+   "answer": "Novice druids are taught the spell Teleport: Moonglade by their racial trainers around their tenth circle of training. Casting this sends them directly to Moonglade, where Dendrite awaits their arrival."
+  },
+  {
+   "q": "Can non-druid adventurers interact with him?",
+   "aliases": [
+    "non druid dendrite",
+    "can warrior talk to starblaze"
+   ],
+   "answer": "Non-druids can visit Nighthaven and speak with Dendrite, but he does not offer training, trials, or quests to those outside the Cenarion Circle's druidic traditions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Dendrite Starblaze is one of your principal guides upon first teleporting to Moonglade, instructing you in curing sickness and pursuing aquatic forms."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For Shu'halo druids visiting Moonglade from Mulgore, Dendrite serves as living proof that the Cenarion Circle's bond transcends the feud between the Horde and the Alliance."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Dendrite preserves the classical rites of Kaldorei nature stewardship, welcoming Kaldorei initiates into the Cenarion order at Nighthaven."
+  }
+ ],
+ "keywords": [
+  "aquatic form",
+  "cenarion circle",
+  "curing the sick",
+  "dendrite starblaze",
+  "druid",
+  "lessons anew",
+  "moonglade",
+  "night elf",
+  "nighthaven"
+ ],
+ "related": [
+  "subzone:nighthaven",
+  "quest:5921",
+  "quest:6121",
+  "quest:6124",
+  "quest:6125",
+  "quest:31",
+  "quest:5932",
+  "quest:5931"
+ ],
+ "attribution": [
+  "Dendrite Starblaze"
+ ]
+}

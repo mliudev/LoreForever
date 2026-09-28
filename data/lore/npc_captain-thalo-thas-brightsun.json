@@ -1,0 +1,93 @@
+{
+ "key": "npc:captain-thalo-thas-brightsun",
+ "type": "npc",
+ "name": "Captain Thalo'thas Brightsun",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Captain Thalo'thas Brightsun",
+  "refs": 2
+ },
+ "summary": "Captain Thalo'thas Brightsun is a privateer affiliated with the Steamwheedle Cartel, stationed at the docks of Ratchet. Despite keeping a cordial demeanor toward traveling Alliance members, he harbors intense resentment toward the Theramore forces at Northwatch Hold who dare fire upon his vessels.",
+ "sections": [
+  {
+   "title": "Privateer of Ratchet",
+   "body": "Operating out of the bustling neutral port of Ratchet, Captain Thalo'thas Brightsun leads the Thalo'dan Privateers under the broad banner of the Steamwheedle Cartel. In theory, Ratchet's merchants welcome all flags so long as their coin is good, but maritime trade along the Barrens coast is fraught with danger. Just south of the port lies Northwatch Hold, an aggressive Alliance fortification whose heavy artillery threatens neutral sea lanes. Brightsun maintains an outward neutrality toward visiting travelers, but he has reached his limit with the belligerent garrison firing on his fleet.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Private War with Northwatch",
+   "body": "Because full-scale conflict would endanger Ratchet's neutrality, Brightsun cannot deploy an open armada against the fortress. Instead, he looks to capable Horde mercenaries to settle the score. He discreetly arranges strikes against Northwatch Hold to silence the fortress's cannons and secure the freedom of his captured crew. By employing Horde auxiliaries rather than provoking a direct Alliance retaliation against the cartel, Brightsun protects his shipping interests while keeping Ratchet's official ledger clean.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Thalo'thas Brightsun?",
+   "aliases": [
+    "thalothas brightsun",
+    "who is brightsun",
+    "ratchet captain"
+   ],
+   "answer": "Captain Thalo'thas Brightsun is a sea captain and leader of the Thalo'dan Privateers, operating out of Ratchet in service to the Steamwheedle Cartel."
+  },
+  {
+   "q": "Why is he angry at Northwatch Hold?",
+   "aliases": [
+    "why attack northwatch",
+    "brightsun northwatch issue",
+    "why hate alliance"
+   ],
+   "answer": "The Alliance forces stationed at Northwatch Hold have repeatedly fired heavy cannons upon his merchant vessels and imprisoned his sailors, disrupting trade along the coast."
+  },
+  {
+   "q": "Why does he only hire the Horde to attack Northwatch?",
+   "aliases": [
+    "can alliance do his quest",
+    "why horde only",
+    "brightsun alliance quests"
+   ],
+   "answer": "While he maintains diplomatic neutrality toward Alliance travelers visiting Ratchet, he cannot reasonably ask Alliance loyalists to bombard an Alliance stronghold like Northwatch Hold. The Horde, however, has every strategic reason to weaken Theramore's military outpost."
+  },
+  {
+   "q": "Does he belong to the Alliance or the Horde?",
+   "aliases": [
+    "brightsun faction",
+    "is brightsun horde",
+    "is brightsun neutral"
+   ],
+   "answer": "He belongs to neither; his primary allegiance is to the Steamwheedle Cartel and his own privateers, though his grievances currently align his interests with the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Brightsun provides the Horde with a valuable pretext to strike Northwatch Hold, crippling Alliance naval artillery along the central Kalimdor coast."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Brightsun will speak cordially with you in port, but the relentless aggression of Theramore's forces at Northwatch Hold has pushed him to covertly conspire with your enemies."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brightsun",
+  "northwatch hold",
+  "ratchet",
+  "steamwheedle cartel",
+  "thalo'dan privateers",
+  "thalo'thas brightsun"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "quest:891",
+  "quest:898",
+  "topic:steamwheedle-cartel",
+  "zone:barrens",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Captain Thalo'thas Brightsun"
+ ]
+}

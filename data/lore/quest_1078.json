@@ -1,0 +1,118 @@
+{
+ "key": "quest:1078",
+ "type": "quest",
+ "name": "Retrieval for Mauren",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1078
+  ],
+  "level": "26",
+  "faction": "Alliance",
+  "start": "Collin Mauren",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Retrieval for Mauren",
+  "chain": []
+ },
+ "summary": "Retrieval for Mauren is a quest given by Collin Mauren in the Mage Quarter of Stormwind. Hearing tales of travelers venturing deep into Kalimdor, the wizard contracts Alliance adventurers to gather crystallised scales from basilisks dwelling in Stonetalon's Charred Vale. Mauren seeks these rare specimens to grind into dust as reagents for his personal spellcraft.",
+ "sections": [
+  {
+   "title": "A Mage's Curious Reagents",
+   "body": "Collin Mauren, a wizard residing in the Mage Quarter of Stormwind City, keeps an ear close to the chatter of wandering adventurers. Word has reached him that the distant Stonetalon Mountains in Kalimdor have become a burgeoning hotspot for travelers seeking wild wyverns, unruly elementals, or lucrative deals and clashes with the Venture Company. Rather than seeking riches or glory, Mauren's interest lies in the rare natural wonders reported from the region's harshest corners.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Glassy Beasts of the Vale",
+   "body": "Deep within Stonetalon lies the Charred Vale, an ash-choked expanse left scarred by magical devastation. According to Mauren's studies, the basin was once known to house a peculiar breed of basilisk. When harvested and crushed into a fine powder, their scales form a potent catalyst for specialized arcane spells he has developed. Unsure whether the creatures managed to survive the harsh transformation of the Vale, Mauren relies on intrepid explorers to harvest a fresh batch of crystallised scales and confirm whether the breed endures.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Collin Mauren?",
+   "aliases": [
+    "collin mauren",
+    "who gives retrieval for mauren",
+    "mauren stormwind"
+   ],
+   "answer": "Collin Mauren is an arcane practitioner found in the Mage Quarter of Stormwind. He studies esoteric spellcraft and frequently relies on adventurous travelers to procure rare magical reagents from distant lands."
+  },
+  {
+   "q": "Why does Collin Mauren need basilisk scales?",
+   "aliases": [
+    "why scales",
+    "what are scales for",
+    "crystallized scales use"
+   ],
+   "answer": "Mauren grinds the crystallized scales into fine dust, utilizing their unique mineral composition as a catalyst reagent for original spells he has devised."
+  },
+  {
+   "q": "Where is the Charred Vale located?",
+   "aliases": [
+    "where charred vale",
+    "find charred vale",
+    "charred vale location"
+   ],
+   "answer": "The Charred Vale is a ruined, soot-covered basin located in the southwestern reaches of the Stonetalon Mountains on the continent of Kalimdor."
+  },
+  {
+   "q": "Why is the Charred Vale charred?",
+   "aliases": [
+    "what happened to charred vale",
+    "charred vale fire",
+    "charred vale destruction"
+   ],
+   "answer": "The Charred Vale was devastated during the Third War by intense magical warfare and lingering elemental corruption, leaving the ground blackened, smoldering, and populated by hardy, twisted beasts."
+  },
+  {
+   "q": "What creatures drop the scales needed for this task?",
+   "aliases": [
+    "which basilisks",
+    "who drops crystallized scales",
+    "scale mobs"
+   ],
+   "answer": "The scales are gathered from the various basilisks prowling the smoldering wastes of the Charred Vale in Stonetalon Mountains."
+  },
+  {
+   "q": "Why send an adventurer all the way across the sea for this?",
+   "aliases": [
+    "why kalimdor",
+    "why stonetalon for scales"
+   ],
+   "answer": "The specific crystalline properties Mauren requires are only found on the basilisks indigenous to the Charred Vale. Because crossing the Great Sea is perilous, Mauren enlists seasoned travelers already setting out for Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Procuring esoteric reagents for fellow wizards is a hallmark of arcane research, illustrating how exotic magical wildlife fuels the development of new incantations."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This task demonstrates how the Alliance's presence in Stormwind maintains active interests and supply lines reaching deep into the wild territories of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "basilisk scales",
+  "charred vale",
+  "collin mauren",
+  "crystallized scales",
+  "mage quarter",
+  "retrieval for mauren",
+  "stonetalon mountains",
+  "stormwind"
+ ],
+ "related": [
+  "npc:collin-mauren",
+  "subzone:charred-vale",
+  "zone:stonetalon",
+  "topic:stormwind-kingdom",
+  "quest:764"
+ ],
+ "attribution": [
+  "Retrieval for Mauren"
+ ]
+}

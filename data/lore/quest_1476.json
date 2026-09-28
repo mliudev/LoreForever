@@ -1,0 +1,131 @@
+{
+ "key": "quest:1476",
+ "type": "quest",
+ "name": "Hearts of the Pure",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1476
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Godrick Farsan",
+  "end": "Carendin Halgar",
+  "previous": "Devourer of Souls (Undercity)",
+  "next": "The Binding (Succubus, Undercity)",
+  "wiki": "Hearts of the Pure",
+  "chain": []
+ },
+ "summary": "Hearts of the Pure is a sinister warlock trial assigned in the Undercity by Godrick Farsan on behalf of Carendin Halgar. In order to prepare the ritual bait needed to bind a succubus, an aspiring summoner must hunt down and butcher two uniquely righteous human men. Their pure hearts serve as an irresistible temptation for the demonic temptress awaiting summoning.",
+ "sections": [
+  {
+   "title": "Bait for a Demon",
+   "body": "Binding a succubus requires an understanding of temptation that cuts both ways. While the Nether's sirens prey upon desire and ruin, nothing draws them out of the Twisting Nether quite like untainted virtue ripe for corruption. Within the Temple of the Damned, master summoner Carendin Halgar delegates the groundwork to Godrick Farsan, who scours human lands for souls whose goodness remains pristine and unbroken.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Quarry",
+   "body": "Farsan identifies two distinct paragons of virtue. The first is Dalin Forgewright, an honorable man attending to desperate Lordaeron refugees barred from sanctuary outside the sealed Greymane Wall in southern Silverpine. The second is Comar Villard, a faithful husband tirelessly searching the perilous marshlands of the Wetlands for any trace of his lost wife. To a Forsaken warlock, their devotion, empathy, and loyalty make them prime sacrifices.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Forsaken Perspective",
+   "body": "Carrying out the hunt requires the summoner to traverse dangerous Alliance-held and wild territories, culminating in the butchery of both men. Upon returning the bloody prizes to the Temple of the Damned, Carendin Halgar observes with dark irony that the physical organ of a good man appears no different than any other corpse's remains. Yet in the dark arts of demonology, the spiritual purity clinging to their flesh is potent enough to lure a succubus into captivity.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do warlocks need pure hearts to summon a succubus?",
+   "aliases": [
+    "why pure hearts",
+    "succubus bait lore",
+    "why kill dalin and comar"
+   ],
+   "answer": "A succubus thrives on corrupting mortal innocence and virtue. To lure one across the Nether and trap her in a binding circle, Carendin Halgar requires bait she cannot resist. The hearts of genuinely pure and selfless men provide that irresistible spiritual temptation."
+  },
+  {
+   "q": "Who is Dalin Forgewright?",
+   "aliases": [
+    "dalin forgewright lore",
+    "who is dalin",
+    "greymane wall guy"
+   ],
+   "answer": "Dalin Forgewright is an honorable human patrolling on horseback along the closed gates of the Greymane Wall in southern Silverpine Forest. He dedicated his life to caring for and protecting the displaced refugees of Lordaeron who were rejected and shut out by the kingdom of Gilneas."
+  },
+  {
+   "q": "Who is Comar Villard?",
+   "aliases": [
+    "comar villard lore",
+    "who is comar",
+    "wetlands human heart"
+   ],
+   "answer": "Comar Villard is a devoted human wanderer found searching the northern road of the Wetlands just south of the Thandol Span. Unlike common travelers, he is driven purely by grief and steadfast love, refusing to abandon his search for his missing wife."
+  },
+  {
+   "q": "Where does this quest chain lead?",
+   "aliases": [
+    "what comes next",
+    "after hearts of the pure",
+    "succubus quest reward"
+   ],
+   "answer": "Delivering the two hearts to Carendin Halgar allows him to prepare the summoning circle in the Temple of the Damned. This immediately leads into 'The Binding', where the warlock summons and subdues a succubus to serve as a permanent minion."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "who starts hearts of the pure",
+    "godrick farsan quest"
+   ],
+   "answer": "Godrick Farsan, an assistant located in the Temple of the Damned within the Undercity's Magic Quarter, gives the assignment. He projects magical illusions of Dalin and Comar to show the warlock exactly whom to hunt."
+  },
+  {
+   "q": "Why does Carendin Halgar dismiss the appearance of the hearts?",
+   "aliases": [
+    "carendin dialogue",
+    "heart appearance"
+   ],
+   "answer": "Upon completing the quest, Carendin observes with grim detachment that the physical heart of a goodly man looks virtually identical to any other slab of flesh. As an Undead practitioner of the dark arts, physical morality means little to him beyond its utility as a magical reagent."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This rite of passage teaches that a warlock must learn to weaponize not just misery and fear, but the very nobility of others to bind demons to their will."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The mission illustrates the chilling worldview of the Forsaken, who casually view the remaining survivors of Lordaeron and their enduring virtues as convenient livestock for ritual slaughter."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The victims are tragic figures among the Alliance and human remnants\u2014one guarding starving refugees shut out by Gilneas, the other searching in vain for a lost spouse in the marshlands."
+  }
+ ],
+ "keywords": [
+  "carendin halgar",
+  "comar villard",
+  "dalin forgewright",
+  "godrick farsan",
+  "greymane wall",
+  "hearts of the pure",
+  "succubus",
+  "temple of the damned",
+  "thandol span",
+  "undercity"
+ ],
+ "related": [
+  "npc:carendin-halgar",
+  "npc:godrick-farsan",
+  "subzone:greymane-wall",
+  "subzone:thandol-span",
+  "zone:silverpine",
+  "zone:wetlands",
+  "topic:lordaeron",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Hearts of the Pure"
+ ]
+}

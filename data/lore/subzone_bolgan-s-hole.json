@@ -1,0 +1,84 @@
+{
+ "key": "subzone:bolgan-s-hole",
+ "type": "subzone",
+ "name": "Bolgan's Hole",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Bolgan's Hole"
+ },
+ "summary": "Bolgan's Hole is a subterranean cavern nestled in the southern cliffs of Gelkis Village in Desolace. It serves as the inner sanctum of the Gelkis centaur clan, housing their highest chieftains and sacred earth relics.",
+ "sections": [
+  {
+   "title": "The Gelkis Seat of Power",
+   "body": "Carved deep into the craggy bluffs overlooking the Gelkis encampment, Bolgan's Hole functions as the command center for the tribe. It is here that the ruling khan holds court, surrounded by veteran guards and the tribe's most influential shamans. The cavern offers natural fortification against rival clans, most notably the bloodthirsty Magram centaur to the east.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tears of the Earth Princess",
+   "body": "Beyond its military importance, the cave possesses profound religious significance to the Gelkis. Luminous blue mineral formations known as the tears of Theradras sprout from the damp stone walls. Gelkis shamans obsessively harvest and guard these crystals, revering them as divine blessings that confer the subterranean protection of Princess Theradras, the primal earth elemental mother of the centaur race.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Bolgan's Hole located?",
+   "aliases": [
+    "bolgans hole location",
+    "where is bolgan's hole",
+    "bolgan cave entrance"
+   ],
+   "answer": "Bolgan's Hole is a cave situated in the southern part of Gelkis Village, tucked into the hills of southern Desolace."
+  },
+  {
+   "q": "Who lives inside Bolgan's Hole?",
+   "aliases": [
+    "who is in bolgan's hole",
+    "bolgans hole boss",
+    "gelkis khan location"
+   ],
+   "answer": "The cave houses the high leadership of the Gelkis centaur, including their clan khan\u2014such as Khan Shodo\u2014as well as their inner circle of protectors and mystical shamans."
+  },
+  {
+   "q": "What are the glowing blue crystals inside the cave?",
+   "aliases": [
+    "blue crystals in bolgan's hole",
+    "tears of theradras",
+    "bolgan's hole rocks"
+   ],
+   "answer": "The crystals are known as the tears of Theradras. The Gelkis revere them as physical manifestations of their earth mother's favor, believing the stones grant mystical protection to those who possess them."
+  },
+  {
+   "q": "Can players enter Bolgan's Hole safely?",
+   "aliases": [
+    "is bolgan's hole hostile",
+    "friendly to gelkis",
+    "can i go inside bolgans hole"
+   ],
+   "answer": "By default, the Gelkis centaur inside are aggressively hostile to outsiders. However, travelers who align themselves with the Gelkis by slaughtering their hated rivals, the Magram clan, can earn standing to walk the cave in peace."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The cavern offers a grim demonstration of how earth worship can be corrupted when tied to the violent legacy of Princess Theradras rather than the natural balance of the spirits."
+  }
+ ],
+ "keywords": [
+  "bolgan's hole",
+  "centaur",
+  "desolace",
+  "gelkis",
+  "khan shaka",
+  "khan shodo",
+  "tears of theradras"
+ ],
+ "related": [
+  "subzone:gelkis-village",
+  "topic:centaur",
+  "zone:desolace"
+ ],
+ "attribution": [
+  "Bolgan's Hole"
+ ]
+}

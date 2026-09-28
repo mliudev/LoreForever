@@ -1,0 +1,125 @@
+{
+ "key": "topic:dark-iron-dwarf",
+ "type": "topic",
+ "name": "Dark Iron dwarf",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Dark Iron dwarf"
+ },
+ "summary": "Dark Iron dwarves are a distinct dwarven sub-race distinguished by their ashen skin, blazing red eyes, and innate affinity for fire. Banished from Ironforge following the civil War of the Three Hammers, they dwell deep within Blackrock Mountain where their society has fallen under the tyrannical rule of the Firelord, Ragnaros.",
+ "sections": [
+  {
+   "title": "Fiery Heritage and Exile",
+   "body": "Unlike their Bronzebeard and Wildhammer cousins, Dark Iron dwarves possess dark gray or soot-black skin and eyes that burn like glowing embers. Their history fractured during the War of the Three Hammers, when their Sorcerer-thane Thaurissan sought to conquer Ironforge. Defeated and driven south into the Redridge Mountains, Thaurissan attempted to summon dark powers to avenge his losses, inadvertently releasing Ragnaros the Firelord from the Elemental Plane. The catastrophic summoning shattered the surrounding peaks into the volcanic waste of Blackrock Mountain and bound the Dark Iron race into fiery servitude.",
+   "spoiler": 0
+  },
+  {
+   "title": "Under the Firelord's Shadow",
+   "body": "Life in the deep subterranean city of Shadowforge is brutal and unforgiving. While the Dark Irons were once merely ambitious and cunning, generations beneath Blackrock Mountain under the oppressive aura of Ragnaros have warped much of their culture into cruelty, paranoia, and tyranny. Dark Iron law knows only one sentence for infractions: trial by combat in the brutal Ring of the Law. Poisoning and political intrigue are so prevalent that Dark Iron travelers customarily pack their own rations rather than trust food from strangers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Splinters and Outcasts",
+   "body": "Not all Dark Iron dwarves serve Emperor Dagran Thaurissan and the cult of Ragnaros. Dissident factions have broken away to pursue their own ends. The most prominent among them is the Thorium Brotherhood, a guild of master smiths based out of Thorium Point in Searing Gorge who have defected from the main clan to hire outside adventurers against their former masters. Others operate as mercenaries, spies, or trade engineers alongside neutral organizations like the Venture Company.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do Dark Iron dwarves have gray skin and red eyes?",
+   "aliases": [
+    "dark iron appearance",
+    "why do dark irons look like that",
+    "red eyes dark iron"
+   ],
+   "answer": "Their dark gray skin and fiery, glowing red eyes are natural traits that distinguish them from mountain and hill dwarves. Their deep subterranean lifestyle and centuries living in proximity to the elemental fires of Ragnaros have further emphasized their volcanic nature."
+  },
+  {
+   "q": "Are all Dark Iron dwarves evil?",
+   "aliases": [
+    "are all dark irons bad",
+    "good dark iron dwarves",
+    "can dark irons be good"
+   ],
+   "answer": "Not necessarily. Although imperial Dark Iron society is treacherous and ruled by the will of Ragnaros, historical figures like the legendary architect Franclorn Forgewright and groups like the rebel Thorium Brotherhood demonstrate honor, valor, and independent will apart from the Firelord's corruption."
+  },
+  {
+   "q": "Where is the capital of the Dark Iron dwarves?",
+   "aliases": [
+    "dark iron capital",
+    "where do dark irons live",
+    "dark iron city"
+   ],
+   "answer": "Their civilization is centered in Shadowforge City, deep inside the subterranean caverns of Blackrock Depths within Blackrock Mountain. From there, Emperor Dagran Thaurissan oversees his empire under the shadow of Molten Core."
+  },
+  {
+   "q": "What is the Ring of the Law?",
+   "aliases": [
+    "ring of the law",
+    "dark iron arena",
+    "shadowforge trial"
+   ],
+   "answer": "The Ring of the Law is the arena where Dark Iron justice is meted out. In Dark Iron society, the penalty for crimes against the clan is death. Accused individuals are forced to pay the blood price by fighting waves of vicious beasts and gladiators, a trial virtually no prisoner ever survives."
+  },
+  {
+   "q": "What is the Thorium Brotherhood?",
+   "aliases": [
+    "thorium brotherhood lore",
+    "who are the thorium brotherhood",
+    "thorium point dwarves"
+   ],
+   "answer": "The Thorium Brotherhood is a rogue faction of Dark Iron craftsmen who broke away from the service of Ragnaros. Camped at Thorium Point in Searing Gorge, they trade their unrivaled knowledge of fiery metallurgy and Dark Iron smithing secrets to adventurers willing to undermine the imperial clan."
+  },
+  {
+   "q": "Can Dark Iron dwarves wield the Holy Light?",
+   "aliases": [
+    "dark iron paladins",
+    "dark iron priests",
+    "do dark irons use the light"
+   ],
+   "answer": "Yes. While arcane sorcery and fire magic are far more common within their ranks, some Dark Iron dwarves practice the teachings of the Holy Light as devout priests and paladins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For the Bronzebeard dwarves of Ironforge, the Dark Irons represent an enduring family feud turned existential threat, dating back to their bloody rebellion during the War of the Three Hammers."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Dark Iron artisans are legendary smiths who hold exclusive mastery over Dark Iron ore, requiring the searing heat of Blackrock Mountain's Black Forge to melt and shape."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts watch the Dark Irons warily, recognizing their imperial armies as an aggressive, expansionist menace pressing right at the southern gates of Ironforge's territory."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde views the Dark Irons as dangerous zealots occupying Blackrock Mountain, directly threatening Horde supply routes through the Badlands and adjacent passes."
+  }
+ ],
+ "keywords": [
+  "blackrock depths",
+  "dark iron",
+  "dwarf",
+  "ironfoe",
+  "ragnaros",
+  "shadowforge",
+  "thaurissan",
+  "thorium brotherhood"
+ ],
+ "related": [
+  "topic:dark-iron-clan",
+  "topic:dwarf",
+  "subzone:blackrock-mountain",
+  "subzone:thorium-point",
+  "zone:searinggorge",
+  "subzone:grim-batol",
+  "zone:ironforge",
+  "topic:venture-company"
+ ],
+ "attribution": [
+  "Dark Iron dwarf"
+ ]
+}

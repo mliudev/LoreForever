@@ -1,0 +1,126 @@
+{
+ "key": "quest:4904",
+ "type": "quest",
+ "name": "Free At Last",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   4904
+  ],
+  "level": "29",
+  "faction": "Horde",
+  "start": "Lakota Windsong",
+  "end": "Thalia Amberhide",
+  "previous": "Sacred Fire",
+  "next": null,
+  "wiki": "Free at Last (Thousand Needles)",
+  "chain": []
+ },
+ "summary": "Free at Last is a rescue mission atop the windswept spires of Darkcloud Pinnacle. Lakota Windsong, a tauren woman held captive by Arnak Grimtotem, needs protection as she flees her captor's stronghold and returns to her friend Thalia Amberhide at Freewind Post.",
+ "sections": [
+  {
+   "title": "A Brutal Abduction",
+   "body": "The Grimtotem clan's aggressive presence in Thousand Needles is not limited to skirmishes over land. Arnak Grimtotem sought to take Lakota Windsong as his bride, but when she refused his advances, he chose violence. Arnak returned in the night, struck down Lakota's brother when he tried to defend her, and dragged her away to Darkcloud Pinnacle.",
+   "spoiler": 0
+  },
+  {
+   "title": "Escape from Darkcloud Pinnacle",
+   "body": "Perched across the high wooden suspension bridges above Thousand Needles, Darkcloud Pinnacle is swarming with hostile Grimtotem warriors. Escorting Lakota requires navigating the descent while fighting off waves of Grimtotem bandits intent on recapturing her before she reaches the canyon floor.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bitter Homecoming",
+   "body": "Once safely down from the pinnacle, Lakota makes her way back to the safety of Freewind Post. Her companion, Thalia Amberhide, receives the news with immense relief but deep mourning for Lakota's fallen brother, offering his remaining belongings as a token of gratitude to those who brought her home alive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was Lakota Windsong captured?",
+   "aliases": [
+    "why is lakota captured",
+    "who kidnapped lakota",
+    "why did arnak take lakota"
+   ],
+   "answer": "Arnak Grimtotem intended to marry Lakota Windsong. After she refused his proposal, he raided her home at night, murdered her protective brother, and dragged her against her will to Darkcloud Pinnacle."
+  },
+  {
+   "q": "Where is Darkcloud Pinnacle located?",
+   "aliases": [
+    "darkcloud pinnacle location",
+    "how to get to darkcloud pinnacle",
+    "where is lakota"
+   ],
+   "answer": "Darkcloud Pinnacle is a cluster of towering rock spires linked by bridges in northern Thousand Needles, situated just southeast of the Great Lift and south of Razorfen Downs."
+  },
+  {
+   "q": "Who is Arnak Grimtotem?",
+   "aliases": [
+    "arnak lore",
+    "who is arnak",
+    "wanted arnak"
+   ],
+   "answer": "Arnak is a ruthless member of the Grimtotem tribe stationed on Darkcloud Pinnacle. Besides kidnapping Lakota and slaying her brother, he is also an outlaw marked for death by the Horde authorities at Freewind Post."
+  },
+  {
+   "q": "Who should you speak to after the rescue?",
+   "aliases": [
+    "where to turn in free at last",
+    "who is thalia amberhide",
+    "turn in free at last"
+   ],
+   "answer": "Once Lakota is safely escorted off the spires to the canyon floor, you must return to Freewind Post atop the high bluffs and speak with Thalia Amberhide."
+  },
+  {
+   "q": "Why do the Grimtotem attack during the escape?",
+   "aliases": [
+    "why do bandits spawn",
+    "grimtotem bandits escort"
+   ],
+   "answer": "Arnak's Grimtotem bandits patrol the heights of Darkcloud Pinnacle and aggressively ambush anyone trying to help his intended captive reach freedom."
+  },
+  {
+   "q": "What happens to Lakota's brother?",
+   "aliases": [
+    "lakotas brother",
+    "who died saving lakota",
+    "what happened to lakota brother"
+   ],
+   "answer": "Lakota's brother was killed trying to defend her from Arnak Grimtotem during the initial kidnapping. His heirlooms are later given away by Thalia as a reward for rescuing his sister."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Grimtotem clan continues to show their disregard for the peace and unity of the tauren people, demonstrating their brutality through forced kidnappings and fratricide right under the gaze of Freewind Post."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde holds Freewind Post as an essential fortress in southern Kalimdor, making the lawlessness and kidnappings by the Grimtotem at Darkcloud Pinnacle an intolerable threat to the road."
+  }
+ ],
+ "keywords": [
+  "arnak grimtotem",
+  "darkcloud pinnacle",
+  "escort",
+  "free at last",
+  "freewind post",
+  "lakota windsong",
+  "thalia amberhide",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:lakota-windsong",
+  "npc:thalia-amberhide",
+  "quest:5147",
+  "subzone:darkcloud-pinnacle",
+  "subzone:freewind-post",
+  "quest:5064",
+  "topic:tauren",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Free at Last (Thousand Needles)"
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "key": "quest:120",
+ "type": "quest",
+ "name": "Messenger to Stormwind",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   120
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Magistrate Solomon",
+  "end": "General Marcus Jonathan",
+  "previous": null,
+  "next": "Messenger to Stormwind (2)",
+  "wiki": "Messenger to Stormwind",
+  "chain": []
+ },
+ "summary": "Magistrate Solomon of Lakeshire is desperate for military aid as gnolls and Blackrock orcs encircle the town. Unable to spare garrison troops, he dispatches an adventurer to carry 'The State of Lakeshire' directly to General Marcus Jonathan in Stormwind City.",
+ "sections": [
+  {
+   "title": "A Cry Across the Mountains",
+   "body": "Lakeshire stands on the brink of collapse. Gnoll packs contest every road, Blackrock orcs raid from the north, and the local guardsmen are stretched beyond their limits. Magistrate Solomon cannot afford to send fighting men on a days-long ride to the capital, leaving an independent traveler to carry his official plea for regular troops to the city gates.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bureaucracy and the High Seat",
+   "body": "Delivering the magistrate's report brings an adventurer face-to-face with General Marcus Jonathan, commander of Stormwind's defense. While Jonathan respects Solomon's leadership and acknowledges the urgency, army protocol prevents him from mobilizing without a royal directive. The defense of Redridge must await formal consultation with the young King Anduin and the regency council.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Magistrate Solomon need a messenger?",
+   "aliases": [
+    "why send me",
+    "why a messenger",
+    "solomon messenger"
+   ],
+   "answer": "Lakeshire is under constant siege from Blackrock orcs and gnolls. Every local guardsman is needed to defend the town and hold the bridge, so Solomon entrusts traveling adventurers with his urgent appeals for aid."
+  },
+  {
+   "q": "What is in 'The State of Lakeshire' report?",
+   "aliases": [
+    "state of lakeshire",
+    "solomon report",
+    "what is the letter"
+   ],
+   "answer": "It is an official accounting of the crisis engulfing the Redridge Mountains, detailing the mounting enemy numbers, casualties, and the town's imminent fall if regular soldiers are not sent from the capital."
+  },
+  {
+   "q": "Who is General Marcus Jonathan?",
+   "aliases": [
+    "marcus jonathan",
+    "who is the general",
+    "general of stormwind"
+   ],
+   "answer": "General Marcus Jonathan is the commander of the Stormwind City Guard and high-ranking leader within the Stormwind Army. He monitors the city gates and reports directly to Highlord Bolvar Fordragon and the crown."
+  },
+  {
+   "q": "Why doesn't General Jonathan send soldiers right away?",
+   "aliases": [
+    "why no troops",
+    "where are reinforcements",
+    "jonathan response"
+   ],
+   "answer": "General Jonathan cannot deploy the army on his own authority. He must bring Solomon's report before the King and the regency council to obtain an official royal mandate before any troops can march."
+  },
+  {
+   "q": "Is the road between Lakeshire and Stormwind safe?",
+   "aliases": [
+    "road to stormwind",
+    "safe travel",
+    "redridge road"
+   ],
+   "answer": "No. The paths through Redridge and into Elwynn are plagued by aggressive gnoll bands and Defias highwaymen, making the journey perilous for lone messengers."
+  },
+  {
+   "q": "Does Stormwind end up sending help?",
+   "aliases": [
+    "do reinforcements arrive",
+    "help for lakeshire"
+   ],
+   "answer": "Political inertia and turmoil in the capital delay any real army response, leaving Lakeshire and its magistrate to rely almost entirely on mercenaries and volunteers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This mission exposes the growing strain between the prosperous capital and the neglected border settlements fighting for survival on the kingdom's edges."
+  },
+  {
+   "target": "race:Human",
+   "text": "Redridge is ancestral Stormwind territory; seeing fellow humans abandoned behind bureaucratic red tape stings any patriot of the kingdom."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Bearing cries of the desperate to leaders paralyzed by court politics tests the core virtues of duty, protection, and righteous action."
+  }
+ ],
+ "keywords": [
+  "general marcus jonathan",
+  "lakeshire",
+  "magistrate solomon",
+  "messenger to stormwind",
+  "redridge mountains",
+  "reinforcements",
+  "stormwind army",
+  "the state of lakeshire"
+ ],
+ "related": [
+  "npc:magistrate-solomon",
+  "npc:general-marcus-jonathan",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "topic:stormwind-army",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Messenger to Stormwind"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "npc:vindicator-palanaar",
+ "type": "npc",
+ "name": "Vindicator Palanaar",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Vindicator Palanaar",
+  "refs": 2
+ },
+ "summary": "Vindicator Palanaar is a traveling paladin stationed in Astranaar within Ashenvale. Serving as an emissary of the Light, she offers her strength to assist the night elves in defending their ancient woodland.",
+ "sections": [
+  {
+   "title": "A Beacon in the Forest",
+   "body": "Stationed among the night elven sentinels of Astranaar, Vindicator Palanaar stands as a wandering champion dedicated to spreading the holy teachings and protection of the Light. Aware of the looming threats encircling the forest, she seeks to bring aid and solace to the besieged Kaldorei, hoping to illuminate the darkened corners of Ashenvale where hope has withered.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Vindicator Palanaar?",
+   "aliases": [
+    "vindicator palanaar lore",
+    "palanaar npc",
+    "who is palanaar"
+   ],
+   "answer": "Vindicator Palanaar is a traveling holy warrior and paladin stationed at the settlement of Astranaar in Ashenvale. She dedicates herself to assisting the night elves in securing their lands."
+  },
+  {
+   "q": "What is her purpose in Astranaar?",
+   "aliases": [
+    "why is palanaar in astranaar",
+    "palanaar purpose",
+    "what does palanaar do"
+   ],
+   "answer": "Palanaar travels to aid the Kaldorei against surrounding perils, expressing a fervent hope to bring the power and peace of the Holy Light to the darkest, most forsaken regions of the forest."
+  },
+  {
+   "q": "Why do some documents call her Vindicator Palais?",
+   "aliases": [
+    "vindicator palais",
+    "palais or palanaar"
+   ],
+   "answer": "Certain orders directing travelers to Astranaar mistakenly transcribe her name as Vindicator Palais, but she introduces herself plainly in town as Vindicator Palanaar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Fellow paladins can appreciate Palanaar's devotion to bringing the discipline and warmth of the Light into remote, contested wilderness far from traditional cathedrals."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Though Kaldorei draw guidance from Elune, Palanaar's presence in Astranaar provides welcome martial aid against the many dangers encroaching upon Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "paladin",
+  "palais",
+  "palanaar",
+  "vindicator",
+  "vindicator palanaar"
+ ],
+ "related": [
+  "subzone:astranaar",
+  "zone:ashenvale",
+  "quest:9533",
+  "quest:9432",
+  "topic:light"
+ ],
+ "attribution": [
+  "Vindicator Palanaar"
+ ]
+}

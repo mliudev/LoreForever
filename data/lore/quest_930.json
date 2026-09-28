@@ -1,0 +1,118 @@
+{
+ "key": "quest:930",
+ "type": "quest",
+ "name": "The Glowing Fruit",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   930
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Strange Fruited Plant",
+  "end": "Denalan",
+  "previous": null,
+  "next": null,
+  "wiki": "The Glowing Fruit",
+  "chain": []
+ },
+ "summary": "The Glowing Fruit is a quest in Teldrassil initiated by discovering a strange fruited plant growing wild in the forest. Suspecting something unnatural, young adventurers deliver the luminescent specimen to the herbalist Denalan at Lake Al'Ameth for study.",
+ "sections": [
+  {
+   "title": "An Unnatural Harvest",
+   "body": "While traversing the misty boughs of Teldrassil, explorers occasionally stumble across curious, luminous flora bearing large, round fruit. Given the delicate balance of the World Tree and the recent strange behaviors among the island's wildlife, unusual botanical specimens demand careful investigation. Convinced that the strange growth should not be ignored, adventurers pluck the radiant harvest to bring to someone versed in the flora of the wild.",
+   "spoiler": 0
+  },
+  {
+   "title": "Denalan's Investigation",
+   "body": "At Lake Al'Ameth, the knowledgeable gardener and herbalist Denalan receives the glowing fruit with both fascination and concern. He notes that the specimen appears exotic, speculating that its seeds might have arrived from distant lands across the sea, perhaps even the Eastern Kingdoms. More troubling to Denalan is how the foreign seed reacted with the soil of Teldrassil itself\u2014a reaction that immediately yields an aggressive outburst from hostile boglings as soon as the fruit is handled.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Strange Fruited Plant found?",
+   "aliases": [
+    "where do i find the plant",
+    "strange fruited plant location",
+    "how to start the glowing fruit"
+   ],
+   "answer": "The Strange Fruited Plant grows wild out in the wilds of Teldrassil, tucked among the undergrowth away from the major settlements. Interacting with the plant yields the Glowing Fruit and begins the quest."
+  },
+  {
+   "q": "Who is Denalan?",
+   "aliases": [
+    "where is denalan",
+    "denalan npc",
+    "who turns in glowing fruit"
+   ],
+   "answer": "Denalan is a night elf herbalist and botanist stationed along the shores of Lake Al'Ameth. He spends his days tending the soil, studying regional flora, and monitoring the strange environmental disturbances affecting Teldrassil."
+  },
+  {
+   "q": "Why does the fruit glow?",
+   "aliases": [
+    "why is the fruit glowing",
+    "what is wrong with the fruit"
+   ],
+   "answer": "Denalan observes that the fruit belongs to an exotic species foreign to Kalimdor. Its bizarre luminescence and vitality stem from a strange, volatile reaction between the foreign seed and the unique, potent soil of Teldrassil."
+  },
+  {
+   "q": "What happens when you hand the fruit to Denalan?",
+   "aliases": [
+    "what spawns after quest",
+    "bogling ambush"
+   ],
+   "answer": "Upon concluding his brief inspection, the strange energies surrounding the fruit cause three hostile boglings to manifest suddenly around Denalan's camp, immediately attacking nearby adventurers."
+  },
+  {
+   "q": "Where does Denalan think this plant came from?",
+   "aliases": [
+    "where did seeds come from",
+    "fruit origin"
+   ],
+   "answer": "Denalan suspects the plant's seeds may have originated far away across the Great Sea, carried to Kalimdor from the distant eastern continent of Azeroth."
+  },
+  {
+   "q": "Does this quest connect to other ecological problems on Teldrassil?",
+   "aliases": [
+    "teldrassil corruption",
+    "lake al'ameth problems"
+   ],
+   "answer": "Yes. It ties into Denalan's broader research into why the boughs of Teldrassil and its local woodland creatures, like the timberlings and bog beasts, are becoming increasingly agitated and unnatural."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids dedicated to preserving nature's balance, discovering foreign, volatile flora thriving unnaturally in Teldrassil's sacred boughs is an immediate red flag."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists will appreciate Denalan's botanical insight into how foreign seeds can cross continents and mutate when exposed to enchanted soils."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Kaldorei youth learn through Denalan that even the young soil of their new home, Teldrassil, is susceptible to unpredictable foreign blights."
+  }
+ ],
+ "keywords": [
+  "boglings",
+  "denalan",
+  "glowing fruit",
+  "herbalism",
+  "lake al'ameth",
+  "strange fruited plant",
+  "teldrassil",
+  "timberlings"
+ ],
+ "related": [
+  "npc:denalan",
+  "subzone:lake-al-ameth",
+  "zone:teldrassil",
+  "quest:940"
+ ],
+ "attribution": [
+  "The Glowing Fruit"
+ ]
+}

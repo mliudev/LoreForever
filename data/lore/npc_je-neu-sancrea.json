@@ -1,0 +1,117 @@
+{
+ "key": "npc:je-neu-sancrea",
+ "type": "npc",
+ "name": "Je'neu Sancrea",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Je'neu Sancrea",
+  "refs": 12
+ },
+ "summary": "Je'neu Sancrea is a Darkspear troll and a member of the Earthen Ring stationed at Zoram'gar Outpost along the Ashenvale coast. Sensing dark disturbances deep beneath the shoreline, he directs Horde adventurers to investigate the corruption infesting the ancient submerged temple of Blackfathom Deeps.",
+ "sections": [
+  {
+   "title": "A Shaman on the Strand",
+   "body": "While most of the Earthen Ring focuses on elemental harmony across Kalimdor, Je'neu Sancrea keeps watch over the secluded and dangerous Zoram Strand. Perched at Zoram'gar Outpost, he observes the dark tremors and unnatural tides stirring near the ruined temple of Blackfathom Deeps. Though bound by the shamanic duties of his circle, his strong loyalties to the Darkspear tribe and Thrall's Horde keep him working exclusively alongside Horde champions.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows of the Deep",
+   "body": "Je'neu seeks to uncover the true cause behind the creeping corruption around the coast. Through bold adventurers, he collects tainted sapphire cores, investigates the vile remnants of water elementals like Baron Aquanis, and uncovers the insidious influence of the Twilight's Hammer cult. The dark rituals taking place beneath the waves threaten not only the balance of the local elements, but herald the dark return of forces sworn to the Old Gods.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Je'neu Sancrea?",
+   "aliases": [
+    "who is jeneu",
+    "jeneu sancrea lore",
+    "what is jeneu"
+   ],
+   "answer": "Je'neu Sancrea is a Darkspear troll shaman affiliated with the Earthen Ring. He is stationed at Zoram'gar Outpost on the Ashenvale coast, where he monitors the growing corruption spilling out from Blackfathom Deeps."
+  },
+  {
+   "q": "Why does Je'neu only deal with Horde adventurers if he is Earthen Ring?",
+   "aliases": [
+    "why horde only",
+    "can alliance talk to jeneu",
+    "is jeneu neutral"
+   ],
+   "answer": "Although the Earthen Ring as an organization pursues elemental balance rather than faction warfare, Je'neu's personal ties remain firmly rooted in the Darkspear tribe and the Horde. Because he resides within a frontline Horde military outpost in Ashenvale, he does not welcome Alliance travelers."
+  },
+  {
+   "q": "What is Je'neu investigating in Blackfathom Deeps?",
+   "aliases": [
+    "jeneu quest goals",
+    "what does jeneu want",
+    "why send players to bfd"
+   ],
+   "answer": "Je'neu investigates the unnatural elemental unrest and dark magic rising from Blackfathom Deeps. He charges champions with retrieving corrupted water cores, slaying Twilight's Hammer cultists, and confirming whispers that an ancient hydra, Aku'mai, serves ancient malevolent masters beneath the sea."
+  },
+  {
+   "q": "Where is Je'neu Sancrea located?",
+   "aliases": [
+    "where is jeneu",
+    "jeneu sancrea location",
+    "find jeneu"
+   ],
+   "answer": "Je'neu is located at Zoram'gar Outpost, a fortified Horde settlement on the far northwestern coast of Ashenvale, right along the Zoram Strand just north of Blackfathom Deeps."
+  },
+  {
+   "q": "What is the Earthen Ring?",
+   "aliases": [
+    "earthen ring lore",
+    "what is the earthen ring",
+    "shaman organization"
+   ],
+   "answer": "The Earthen Ring is an ancient circle of shamans dedicated to understanding and soothing the elemental spirits of the world, intervening whenever dark forces or chaotic entities disrupt natural elemental harmony."
+  },
+  {
+   "q": "What is the threat of the Twilight's Hammer in the Deeps?",
+   "aliases": [
+    "twilights hammer bfd",
+    "twilight cult ashenvale",
+    "who are the cultists in bfd"
+   ],
+   "answer": "The Twilight's Hammer cult has infiltrated Blackfathom Deeps to venerate the beast Aku'mai and conduct rituals dedicated to the Old Gods. Je'neu tasks Horde adventurers with cutting down their leaders to halt their dark work."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "As a prominent Darkspear member of the Earthen Ring, Je'neu represents the shamanic duty to balance corrupted elementals and restore balance to the waters of Kalimdor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Je'neu serves as the Horde's primary quest hub and lore guide for entering the depths of Blackfathom Deeps from Ashenvale."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Je'neu demonstrates how Darkspear trolls have embraced the spiritual paths of the Earthen Ring alongside their tauren and orc allies."
+  }
+ ],
+ "keywords": [
+  "aku'mai",
+  "blackfathom deeps",
+  "earthen ring",
+  "je'neu sancrea",
+  "jeneu",
+  "twilight's hammer",
+  "zoram strand",
+  "zoram'gar outpost"
+ ],
+ "related": [
+  "zone:blackfathom",
+  "subzone:zoram-gar-outpost",
+  "npc:aku-mai",
+  "topic:twilight-s-hammer",
+  "quest:6564",
+  "quest:6563",
+  "quest:6922",
+  "quest:824"
+ ],
+ "attribution": [
+  "Je'neu Sancrea"
+ ]
+}

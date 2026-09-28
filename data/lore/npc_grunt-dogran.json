@@ -1,0 +1,92 @@
+{
+ "key": "npc:grunt-dogran",
+ "type": "npc",
+ "name": "Grunt Dogran",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Grunt Dogran",
+  "refs": 2
+ },
+ "summary": "Grunt Dogran is an orc soldier of the Horde held prisoner deep within the quilboar territory of the southern Barrens. Originally assigned to the Crossroads and later Camp Taurajo, his patrol met with disaster during a raid on Agama'gor.",
+ "sections": [
+  {
+   "title": "A Grunt's Duty",
+   "body": "Following his promotion within the Horde military, Grunt Dogran was dispatched from the Crossroads to reinforce Camp Taurajo. While leading a detachment of grunts into the bristled territory of Agama'gor, his unit clashed fiercely with the Razormane quilboar. Severely injured and crippled during the fray, Dogran could not be carried away by his retreating comrades and was dragged into captivity.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Honorable Fate",
+   "body": "Though trapped behind enemy lines and crippled by his wounds, Dogran retains the stubborn pride typical of orc warriors. Rather than returning home broken and forcing his mate to care for an invalid, he chose to make a final stand against the quilboar, asking only that a token of his enduring devotion be returned to the one he loves.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Grunt Dogran located?",
+   "aliases": [
+    "dogran location",
+    "where is dogran",
+    "find dogran barrens"
+   ],
+   "answer": "Dogran is held captive in Agama'gor, a dense quilboar encampment situated in the southern Barrens, south of Camp Taurajo."
+  },
+  {
+   "q": "Why was Dogran captured by the quilboar?",
+   "aliases": [
+    "why was dogran captured",
+    "how did dogran get caught"
+   ],
+   "answer": "While leading a patrol from Camp Taurajo to strike at the quilboar, Dogran suffered crippling injuries during the clash. His comrades could not transport him out in time, leaving him at the mercy of the beasts."
+  },
+  {
+   "q": "Why does Dogran refuse to be rescued?",
+   "aliases": [
+    "why wont dogran leave",
+    "dogran rescue"
+   ],
+   "answer": "Dogran was permanently crippled in battle and refuses to return home as a burden to his mate. In true orc fashion, he prefers dying on his own terms against the quilboar over living out his days as an invalid."
+  },
+  {
+   "q": "Who is looking for Dogran?",
+   "aliases": [
+    "who sent me for dogran",
+    "dogran quest giver"
+   ],
+   "answer": "Worry over his disappearance originates back at the Crossroads and Camp Taurajo, where scouts and soldiers piece together the fate of his missing patrol."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Dogran exemplifies the traditional orcish ideal that dying in battle holds more honor than surviving as a helpless invalid."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "His capture illustrates the high cost Horde garrisons pay to secure the trade roads and borders across the Barrens against aggressive quilboar tribes."
+  }
+ ],
+ "keywords": [
+  "agama'gor",
+  "barrens",
+  "camp taurajo",
+  "crossroads",
+  "dogran",
+  "dorgran",
+  "grunt dogran",
+  "quilboar"
+ ],
+ "related": [
+  "quest:1509",
+  "quest:1515",
+  "quest:1512",
+  "subzone:agama-gor",
+  "subzone:camp-taurajo",
+  "topic:quilboar",
+  "zone:barrens",
+  "subzone:crossroads"
+ ],
+ "attribution": [
+  "Grunt Dogran"
+ ]
+}

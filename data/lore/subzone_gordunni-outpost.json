@@ -1,0 +1,84 @@
+{
+ "key": "subzone:gordunni-outpost",
+ "type": "subzone",
+ "name": "Gordunni Outpost",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Gordunni Outpost"
+ },
+ "summary": "Tucked into the rugged cliffs north of Lariss Pavilion, the Gordunni Outpost serves as a fortified camp for the brutish Gordunni ogres of Feralas. The clan's corrupting influence has choked the once-vibrant wilderness here, leaving the surrounding earth dry, withered, and brown.",
+ "sections": [
+  {
+   "title": "A Blighted Foothold",
+   "body": "Carved into the northern mountains above the Lariss Pavilion, the Gordunni Outpost stands out as a stark scar against the lush canopy of Feralas. Wherever the Gordunni ogres settle, their reckless magical channeling and destructive habits sap the vitality of the wild, leaving the local flora dead and the hillsides barren. The outpost consists of dirt trails, a shallow entrance cave, and a larger ogre mound burrowed deep into the rear cliffs. Patrolled by heavily armed hillguards, cunning channelers, and ogre tamers, the camp also holds dangerous trophies\u2014including a captured sasquatch named Bigfist kept in crude confinement near the deeper den.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the landscape withered around this outpost?",
+   "aliases": [
+    "why is it brown",
+    "dead grass feralas",
+    "ogre corruption"
+   ],
+   "answer": "The Gordunni clan exerts a harsh, corruptive toll on the surrounding environment. Their reckless sorcery and destructive occupation drain the natural vitality of the soil, causing the normally verdant jungle flora to wilt into dry brown scrubland."
+  },
+  {
+   "q": "What kinds of ogres occupy the Gordunni Outpost?",
+   "aliases": [
+    "what mobs are here",
+    "gordunni types",
+    "who lives here"
+   ],
+   "answer": "The outpost is defended by Gordunni Hillguards, Gordunni Channelers wielding crude offensive magic, and Gordunni Tamers who watch over their camp and captive beasts."
+  },
+  {
+   "q": "Who is Bigfist?",
+   "aliases": [
+    "caged sasquatch",
+    "who is bigfist",
+    "ogre prisoner"
+   ],
+   "answer": "Bigfist is a massive sasquatch held captive by the Gordunni ogres near the entrance of their rear cave. The ogre tamers keep him bound as a trophy or experimental quarry."
+  },
+  {
+   "q": "Where is the Gordunni Outpost located?",
+   "aliases": [
+    "where is gordunni outpost",
+    "outpost location",
+    "how to get to gordunni outpost"
+   ],
+   "answer": "The outpost is nestled high in the mountain ridge directly north of Lariss Pavilion in eastern Feralas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The Gordunni's presence is a grievous offense to nature, transforming the fertile jungle canopy into an unnaturally withered, barren wasteland."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The outpost is occupied by ogre tamers who capture and abuse local mountain beasts, keeping creatures like the great sasquatch Bigfist bound in cages."
+  }
+ ],
+ "keywords": [
+  "bigfist",
+  "channeler",
+  "feralas",
+  "gordunni",
+  "hillguard",
+  "lariss pavilion",
+  "ogre",
+  "outpost",
+  "tamer"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:lariss-pavilion"
+ ],
+ "attribution": [
+  "Gordunni Outpost"
+ ]
+}

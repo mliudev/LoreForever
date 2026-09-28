@@ -1,0 +1,116 @@
+{
+ "key": "quest:7866",
+ "type": "quest",
+ "name": "Outrider Basic Care Package",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   7866
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Kelm Hargunth",
+  "end": "",
+  "previous": null,
+  "next": "Outrider Standard Care Package (quest)",
+  "wiki": "Outrider Basic Care Package (quest)",
+  "chain": []
+ },
+ "summary": "The Outrider Basic Care Package is a supply allotment granted by Kelm Hargunth to Horde champions beginning their service with the Warsong Outriders. As skirmishes rage in Warsong Gulch, these essential provisions keep front-line combatants fed and patched up during ongoing territorial clashes against the Silverwing Sentinels.",
+ "sections": [
+  {
+   "title": "Provisions for the Front",
+   "body": "The border clash between the Horde and the night elves over Ashenvale's timber requires a constant stream of fighters and supplies. Kelm Hargunth, quartermaster and supply officer for the Warsong Outriders stationed in the northern Barrens, oversees distribution to those who commit to the battle. When a volunteer demonstrates initial loyalty in Warsong Gulch, Hargunth rewards them with a basic care package containing field rations and specialized combat bandages tailored strictly for use inside the battleground.",
+   "spoiler": 0
+  },
+  {
+   "title": "Earning Outrider Trust",
+   "body": "The basic supply cache is merely the opening gesture of the Warsong Clan's military logistics. Hargunth makes it clear that continued valor against the Alliance will open access to regular field supplies. Proven champions who gain standing with the Outriders eventually earn the privilege to purchase these battleground-specific provisions directly, keeping them supplied for long sieges against the Silverwing Sentinels.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Outrider Basic Care Package?",
+   "aliases": [
+    "what is this quest",
+    "basic care package details",
+    "outrider package"
+   ],
+   "answer": "It is a starter supply bundle granted by Kelm Hargunth to Horde fighters who begin proving their dedication to the Warsong Outriders. It contains specialized combat rations and medical bandages designed for the skirmishes in Warsong Gulch."
+  },
+  {
+   "q": "Who provides this care package?",
+   "aliases": [
+    "who gives basic care package",
+    "kelm hargunth package"
+   ],
+   "answer": "Kelm Hargunth, an officer representing the Warsong Outriders, distributes these supplies. He stands near the entrance to the Ashenvale border in the northern Barrens, organizing volunteers heading into Warsong Gulch."
+  },
+  {
+   "q": "Why can the rations and bandages only be used in Warsong Gulch?",
+   "aliases": [
+    "why warsong only",
+    "can i use these outside",
+    "bg only items"
+   ],
+   "answer": "The supplies are wartime field rations and triage dressings specifically earmarked and rationed for the active front line of Warsong Gulch, preventing waste and ensuring resources stay focused on the timber conflict."
+  },
+  {
+   "q": "How do you earn more of these supplies later?",
+   "aliases": [
+    "how to get more rations",
+    "buying outrider bandages",
+    "kelm hargunth vendor"
+   ],
+   "answer": "As you continue fighting for the Warsong Outriders and raise your reputation with them, Kelm Hargunth and other Outrider quartermasters allow you to purchase rations at Friendly standing and field bandages once you reach Honored."
+  },
+  {
+   "q": "What comes after this care package?",
+   "aliases": [
+    "next quest",
+    "what is after basic care package",
+    "care package follow up"
+   ],
+   "answer": "Continued service and rising standing among the Warsong Outriders unlocks subsequent supply requisitions, including the Outrider Standard Care Package as your reputation with the clan deepens."
+  },
+  {
+   "q": "Why are the Warsong Outriders fighting in this area?",
+   "aliases": [
+    "why are warsong here",
+    "warsong lore barrens",
+    "ashenvale war"
+   ],
+   "answer": "The Warsong Clan established lumber operations in Ashenvale to supply the young Horde's growing settlements like Orgrimmar. The native night elves violently contest this deforestation, sparking an ongoing border war in Warsong Gulch."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The timber harvested by the Warsong Clan is vital for building Orgrimmar and fortifying the Horde's holdings across Kalimdor, making the supplies distributed by Kelm Hargunth critical to the collective war effort."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs, supporting the Warsong Clan in Ashenvale honors Grommash Hellscream's fierce vanguard and continues the fight to secure resources for their new homeland."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "bandages",
+  "barrens",
+  "care package",
+  "kelm hargunth",
+  "rations",
+  "warsong gulch",
+  "warsong outriders"
+ ],
+ "related": [
+  "npc:kelm-hargunth",
+  "npc:warsong-outrider",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Outrider Basic Care Package (quest)"
+ ]
+}

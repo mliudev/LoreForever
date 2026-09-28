@@ -1,0 +1,94 @@
+{
+ "key": "subzone:ravenholdt-manor",
+ "type": "subzone",
+ "name": "Ravenholdt Manor",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Ravenholdt Manor"
+ },
+ "summary": "Tucked away high in the mountains above Hillsbrad Foothills, Ravenholdt Manor serves as the secluded headquarters for the guild of thieves and assassins known as Ravenholdt. Overseen by Lord Jorach Ravenholdt, the estate provides a discreet haven where practitioners of stealth hone their craft far from the eyes of authorities.",
+ "sections": [
+  {
+   "title": "A Sanctuary in the Shadows",
+   "body": "Hidden behind a narrow mountain pass and a winding cave northwest of Durnholde Keep, Ravenholdt Manor sits isolated on the borderlands of the Alterac Mountains. The property belongs to Lord Jorach Ravenholdt, a nobleman who maintains a disciplined enclave of rogues, assassins, and intelligence operatives. The grounds feature a tranquil garden and an outdoor training arena overseen by martial experts like Master Kang, providing a disciplined space to practice lockpicking, poison-crafting, and close-quarters combat. While the manor welcomes those with a talent for skullduggery, clumsy outsiders and unwanted visitors are treated with cold suspicion by the manor's watchful sentries.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bitter Feud in the Foothills",
+   "body": "Prior to the First War, the land surrounding the manor was part of the kingdom of Alterac, reflected in the weathered orange tiles of the manor's roof. In the turbulent wake of Alterac's ruin, the fallen nobles of the Syndicate sought to control the region, placing them in direct conflict with Ravenholdt. The League of Arathor maintains an uneasy association with Stormwind's SI:7 intelligence service, cooperating where interests align to purge Syndicate influences from the surrounding highlands. For Jorach's followers, every skirmish fought across Hillsbrad and Alterac is part of a silent war to maintain their sovereign haven.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do you reach Ravenholdt Manor?",
+   "aliases": [
+    "where is ravenholdt manor",
+    "how to get to ravenholdt",
+    "ravenholdt path"
+   ],
+   "answer": "To reach the manor, travel to the plateau northwest of Durnholde Keep in Hillsbrad Foothills. Near where the plateau meets the northern mountains, an obscure dirt path twists upward and passes through a hidden cave, emerging directly onto the manor's grounds."
+  },
+  {
+   "q": "Who owns Ravenholdt Manor?",
+   "aliases": [
+    "who leads ravenholdt",
+    "lord ravenholdt",
+    "manor owner"
+   ],
+   "answer": "The estate belongs to Lord Jorach Ravenholdt, who leads an elite brotherhood of thieves and assassins known simply as Ravenholdt. He commands deep respect among rogues throughout Azeroth."
+  },
+  {
+   "q": "Why does Ravenholdt hate the Syndicate?",
+   "aliases": [
+    "ravenholdt vs syndicate",
+    "syndicate feud",
+    "why fight syndicate"
+   ],
+   "answer": "Both factions claim roots in the shattered lands of Alterac. While the displaced nobles of the Syndicate resort to banditry and lawlessness across the hills, Ravenholdt operates with strict discipline and actively works to thwart the Syndicate's ambitions."
+  },
+  {
+   "q": "Can anyone visit the manor?",
+   "aliases": [
+    "non-rogue in ravenholdt",
+    "are outsiders allowed in ravenholdt"
+   ],
+   "answer": "Any traveler can physically walk into the grounds, but the guards and assassins stationed there are openly hostile in tone to outsiders. Rogues and trusted operatives find a warm welcome and extensive training, while others receive chilling warnings to leave."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Ravenholdt Manor is the premier sanctuary for your profession, offering rigorous trials, specialized training, and a deep network of underground contacts."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Discerning engineers venture through the mountain pass specifically to acquire the rare schematic for the Gnomish Cloaking Device from the manor's supply."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "assassin",
+  "hillsbrad",
+  "jorach ravenholdt",
+  "manor",
+  "ravenholdt",
+  "rogue guild",
+  "syndicate",
+  "thief"
+ ],
+ "related": [
+  "npc:lord-jorach-ravenholdt",
+  "topic:ravenholdt",
+  "topic:syndicate",
+  "zone:hillsbrad",
+  "zone:alterac",
+  "subzone:durnholde-keep",
+  "topic:alterac-kingdom",
+  "quest:2300"
+ ],
+ "attribution": [
+  "Ravenholdt Manor"
+ ]
+}

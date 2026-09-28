@@ -1,0 +1,81 @@
+{
+ "key": "npc:rivern-frostwind",
+ "type": "npc",
+ "name": "Rivern Frostwind",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Rivern Frostwind",
+  "refs": 2
+ },
+ "summary": "Rivern Frostwind is a night elf riding instructor stationed high atop Frostsaber Rock in northern Winterspring. Accompanied by his frost tiger companion Glacier, he watches over the native wintersabers and trains riders deemed worthy by his order. Only the most dedicated champions of the Alliance are granted the honor of raising and riding one of his prized mounts.",
+ "sections": [
+  {
+   "title": "Master of the Frostsabers",
+   "body": "Perched on the icy promontory of Frostsaber Rock, Rivern Frostwind oversees the breeding and stewardship of the legendary Winterspring frostsaber. While nightsabers roam the lush forests of Teldrassil and Ashenvale, their sub-arctic cousins are bred to endure the bitter cold of northern Kalimdor. Rivern acts as a gatekeeper for these majestic predators. He demands that outsiders prove their commitment to preserving the beasts\u2014gathering fresh meat from the tundra, clearing out Winterfall furbolgs, and driving back rampaging frost giants\u2014before he will even consider entrusting a cub to their care.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rivern Frostwind?",
+   "aliases": [
+    "rivern frostwind lore",
+    "frostsaber trainer",
+    "who is rivern"
+   ],
+   "answer": "Rivern Frostwind is a night elf riding master and caretaker of the Wintersaber Trainers faction, situated at Frostsaber Rock in northern Winterspring. Alongside his loyal tiger Glacier, he ensures that the powerful native big cats are protected and properly reared."
+  },
+  {
+   "q": "Why is he in Winterspring?",
+   "aliases": [
+    "why is rivern here",
+    "frostsaber rock purpose"
+   ],
+   "answer": "He lives at Frostsaber Rock to train and safeguard the region's rare white frostsabers. The predators face constant threats from aggressive Winterfall furbolgs, encroaching giants, and harsh conditions, so Rivern maintains order and looks after their well-being."
+  },
+  {
+   "q": "Can Horde players work with Rivern?",
+   "aliases": [
+    "can horde get wintersaber",
+    "rivern horde friendly"
+   ],
+   "answer": "No. Rivern Frostwind is strictly loyal to the night elves and the Alliance. Horde travelers who approach Frostsaber Rock will find him completely unwilling to deal with them, reserving his trust and his mount training solely for Alliance champions."
+  },
+  {
+   "q": "Who is the tiger beside him?",
+   "aliases": [
+    "who is glacier",
+    "rivern frostwind tiger"
+   ],
+   "answer": "The frost tiger resting beside Rivern is Glacier, his personal companion and a prime specimen of the hardy cats indigenous to the Winterspring tundra."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For the Alliance, Rivern Frostwind is the sole provider of the rare Winterspring Frostsaber, offering riders outside Darnassus a way to tame one of Kalimdor's fiercest beasts through sheer perseverance."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "While nightsabers are deeply tied to the priesthood of Elune and the sentinels of Kalimdor, Rivern's frostsabers represent an adapted, solitary lineage bred specifically for the harsh snowscapes of Winterspring."
+  }
+ ],
+ "keywords": [
+  "frostsaber rock",
+  "glacier",
+  "mount trainer",
+  "rivern frostwind",
+  "wintersaber trainers",
+  "winterspring frostsaber"
+ ],
+ "related": [
+  "subzone:frostsaber-rock",
+  "zone:winterspring",
+  "topic:night-elf",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Rivern Frostwind"
+ ]
+}

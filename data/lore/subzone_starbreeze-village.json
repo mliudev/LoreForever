@@ -1,0 +1,93 @@
+{
+ "key": "subzone:starbreeze-village",
+ "type": "subzone",
+ "name": "Starbreeze Village",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Starbreeze Village"
+ },
+ "summary": "Starbreeze Village is an abandoned night elf settlement situated east of Dolanaar in Teldrassil. Once a tranquil woodland hamlet, it has recently fallen to the maddened furbolgs of the Gnarlpine tribe. The ruined settlement now stands as a glaring symbol of the growing corruption seeping into the roots of the World Tree.",
+ "sections": [
+  {
+   "title": "A Fallen Hamlet",
+   "body": "Located southeast of Shadowglen and just down the road from Dolanaar, Starbreeze Village was once home to peaceful night elf families living beneath the boughs of Teldrassil. Today, the village lies in shambles, its wooden structures overrun by aggressive Gnarlpine furbolgs. Driven wild by a sinister corruption afflicting the boughs of the World Tree, the beast-men drove the elven residents out and now defend the ruined grounds ferociously.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat of Ferocitas",
+   "body": "The Gnarlpine presence in the village is not merely an ordinary territorial raid. Lurking on the outskirts of the settlement is Ferocitas the Dream Eater, an enigmatic, corrupted entity whose presence suggests dark, foul magic is actively driving the furbolgs mad. Together with hulking beasts like Uruson who prowl the paths, these invaders make Starbreeze an active danger to travelers journeying through eastern Teldrassil.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Starbreeze Village abandoned?",
+   "aliases": [
+    "what happened to starbreeze",
+    "why is starbreeze ruined",
+    "starbreeze empty"
+   ],
+   "answer": "The village was overrun when the Gnarlpine furbolgs fell prey to a spreading corruption within Teldrassil. Driven mad and violent, the furbolgs attacked the night elf inhabitants, forcing them to flee and abandon their homes."
+  },
+  {
+   "q": "Who lives in Starbreeze Village now?",
+   "aliases": [
+    "who is in starbreeze",
+    "starbreeze mobs",
+    "who took over starbreeze"
+   ],
+   "answer": "Hostile Gnarlpine furbolgs now occupy the village. Prominent figures among them include the wandering patrol Uruson and the corrupt figure known as Ferocitas the Dream Eater."
+  },
+  {
+   "q": "Where is Starbreeze Village located?",
+   "aliases": [
+    "where is starbreeze",
+    "starbreeze map location",
+    "how to find starbreeze"
+   ],
+   "answer": "Starbreeze Village is located in eastern Teldrassil, lying southeast of Shadowglen and east of Dolanaar."
+  },
+  {
+   "q": "Who is Ferocitas the Dream Eater?",
+   "aliases": [
+    "ferocitas lore",
+    "who is ferocitas",
+    "ferocitas starbreeze"
+   ],
+   "answer": "Ferocitas is a dangerous, corrupted creature found on the outskirts of Starbreeze Village, associated with the dark forces driving the local Gnarlpine tribe into frenzy."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Seeing an elven settlement so close to Dolanaar fall into ruin is a painful reminder of Teldrassil's precarious state and the corruption gnawing at the World Tree."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The madness consuming the Gnarlpine furbolgs and the defilement of Starbreeze Village directly challenge the Cenarion Circle's charge to restore balance to Teldrassil's wildlife."
+  }
+ ],
+ "keywords": [
+  "dolanaar",
+  "ferocitas",
+  "furbolg",
+  "gnarlpine",
+  "starbreeze",
+  "teldrassil",
+  "uruson",
+  "village"
+ ],
+ "related": [
+  "zone:teldrassil",
+  "topic:furbolg",
+  "subzone:dolanaar",
+  "quest:2459",
+  "subzone:shadowglen",
+  "quest:940",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Starbreeze Village"
+ ]
+}

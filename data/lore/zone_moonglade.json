@@ -1,0 +1,125 @@
+{
+ "key": "zone:moonglade",
+ "type": "zone",
+ "name": "Moonglade",
+ "era": "classic",
+ "zone": "moonglade",
+ "meta": {
+  "wiki": [
+   "Moonglade"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Moonglade is an ancient, secluded forest valley nestled high in northern Kalimdor, revered as the sacred heartland of druidism and the home of the Cenarion Circle. Sheltered beneath perpetual twilight and untouched by mortal corruption, it is a neutral haven where night elf and tauren practitioners study nature side by side. For non-druids, reaching this highland sanctuary requires braving the hazardous mountain tunnel of Timbermaw Hold.",
+ "sections": [
+  {
+   "title": "Sacred Twilight",
+   "body": "Ringed by sheer mountains north of Felwood and Winterspring, Moonglade exists in a state of eternal, serene night under the soft glow of Elune's moon. At its center lies Lake Elune'ara, a deep, tranquil body of water held sacred since the dawn of kaldorei civilization. The glade remained unmarred by the Burning Legion during both ancient invasions and the recent Third War, shielded by the vigilant demigod Cenarius and his offspring. Today, under the stewardship of Keeper Remulos, the valley serves as a peaceful redoubt where nature's balance is preserved free from factional conflict.",
+   "spoiler": 0
+  },
+  {
+   "title": "Seat of the Circle",
+   "body": "Moonglade is the headquarters of the Cenarion Circle, founded millennia ago by Malfurion Stormrage during the War of the Satyr. In the lakeside village of Nighthaven, ancient traditions guide druidic instruction. Following the Third War, the Circle took the historic step of welcoming tauren into their ranks, led by the teachings of Archdruid Hamuul Runetotem. In Moonglade, political loyalties to the Alliance or Horde are put aside; armed sentries enforce strict neutrality, ensuring that any violence between members meets swift justice.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Barrow Dens and the Dream",
+   "body": "South of Lake Elune'ara stand the ancient Stormrage Barrow Dens. For thousands of years, elven druids lay slumbering within these subterranean hollows, traversing the spirit realm of the Emerald Dream while their mortal bodies rested under constant vigil. It was here that Tyrande Whisperwind sound the Horn of Cenarius to awaken Malfurion during the Third War. Even now, the dens remain intimately tied to the Dream, though strange, unsettling ripples have begun emerging from the deep tunnels as dark whispers trouble the Emerald realm.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "How do non-druid travelers reach Moonglade?",
+   "aliases": [
+    "how to get to moonglade",
+    "getting to moonglade",
+    "moonglade entrance"
+   ],
+   "answer": "Unless brought by ritual magic during seasonal events, travelers on foot must pass through Timbermaw Hold, a tunnel complex bridging upper Felwood, Winterspring, and Moonglade. The Timbermaw furbolgs fiercely guard this passage, requiring outsiders to prove their goodwill before granting safe conduct."
+  },
+  {
+   "q": "Why can Horde and Alliance walk together peacefully here?",
+   "aliases": [
+    "why is moonglade neutral",
+    "pvp in moonglade",
+    "can horde and alliance fight here"
+   ],
+   "answer": "Moonglade is governed by the Cenarion Circle, an order dedicated entirely to nature rather than politics. The Moonglade Wardens stationed throughout Nighthaven enforce strict neutrality, immediately attacking anyone who initiates violence against those in good standing with the Circle."
+  },
+  {
+   "q": "What is the purpose of Nighthaven?",
+   "aliases": [
+    "nighthaven purpose",
+    "what is nighthaven",
+    "town in moonglade"
+   ],
+   "answer": "Nighthaven is the primary settlement in Moonglade, serving as the dwelling place and operational hub for the Cenarion Circle. It houses trainers, caretakers, and sanctuaries where both kaldorei and tauren druids confer on matters concerning the health of Azeroth's wild lands."
+  },
+  {
+   "q": "Who rules Moonglade in Malfurion Stormrage's absence?",
+   "aliases": [
+    "leader of moonglade",
+    "who leads cenarion circle",
+    "who is remulos"
+   ],
+   "answer": "Keeper Remulos, a powerful son of the demigod Cenarius, watches over Moonglade from the Shrine of Remulos. Working alongside senior circle members like Dendrite Starblaze, he tends to the sacred grounds and directs efforts to heal the world."
+  },
+  {
+   "q": "What rests beneath the Stormrage Barrow Dens?",
+   "aliases": [
+    "barrow dens lore",
+    "stormrage barrow dens purpose",
+    "where druids sleep"
+   ],
+   "answer": "The Barrow Dens are deep underground chambers where druids traditionally entered extended communion with the Emerald Dream. Deep wings of these chambers retain powerful conduits to the Dream, though recent disturbances suggest unsettling nightmares are beginning to stir inside."
+  },
+  {
+   "q": "Why do druids have special flight paths out of Nighthaven?",
+   "aliases": [
+    "nighthaven flight masters",
+    "druid flight master moonglade",
+    "free flights in moonglade"
+   ],
+   "answer": "The hippogryph master Silva Fil'naveth and wind rider keeper Bunthen Plainswind offer dedicated transit directly to Rut'theran Village and Thunder Bluff solely for druids, ensuring the order can readily travel between their sacred grove and their racial homelands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Moonglade is your sacred home and sanctuary. Through your innate spiritual link, you can teleport here from anywhere across Azeroth to consult masters like Dendrite Starblaze, commune with great spirits, and master forms such as the aquatic form."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Your inclusion in the Cenarion Circle represents a historic revival of an ancient bond with Cenarius, championed by Hamuul Runetotem and respected across Moonglade despite ancient night elf seclusion."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For ten millennia, Moonglade was your people's spiritual heartland and the resting place of your sleeping archdruids, sheltered beneath the enduring blessing of Elune."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "dendrite starblaze",
+  "emerald dream",
+  "lake elune'ara",
+  "moonglade",
+  "nighthaven",
+  "remulos",
+  "stormrage barrow dens"
+ ],
+ "related": [
+  "topic:cenarion-circle",
+  "topic:druid",
+  "npc:remulos",
+  "subzone:nighthaven",
+  "subzone:stormrage-barrow-dens",
+  "subzone:lake-elune-ara",
+  "topic:emerald-dream",
+  "subzone:timbermaw-hold"
+ ],
+ "attribution": [
+  "Moonglade"
+ ]
+}

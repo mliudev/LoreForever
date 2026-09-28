@@ -1,0 +1,111 @@
+{
+ "key": "npc:auntie-bernice-stonefield",
+ "type": "npc",
+ "name": "\"Auntie\" Bernice Stonefield",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "\"Auntie\" Bernice Stonefield",
+  "refs": 4
+ },
+ "summary": "\u201cAuntie\u201d Bernice Stonefield is an elder of the Stonefield family, residing at their homestead in south-central Elwynn Forest. Widowed after her husband fell in battle during the kingdom's military campaigns, she is renowned throughout the valley for her famous pork belly pies. She can be found outside the farmhouse alongside Ma Stonefield, keeping a sharp eye on the neighborhood and harboring a deep suspicion of the rival Maclure family.",
+ "sections": [
+  {
+   "title": "A Life of Hardship",
+   "body": "Like many common folk across the Kingdom of Stormwind, Bernice has borne the steep price of ongoing war. Having lost her husband to military campaigns, she now lives out her days on the family homestead with her kin, helping manage daily farm affairs alongside matriarch Ma Stonefield. Despite personal loss, she keeps the household fed and running, earning local fame for her celebrated pork belly pies.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Feud and the Missing Necklace",
+   "body": "The long-standing bitterness between the Stonefields and the Maclures is a defining part of Bernice's world. When her prized family necklace went missing, she immediately suspected young Billy Maclure of swiping it. However, recovering her keepsake proves more complicated than dealing with a petty neighbor's prank: Billy insists he dropped it while running away from the fearsome kobold Goldtooth over at the Fargodeep Mine.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Auntie Bernice Stonefield?",
+   "aliases": [
+    "who is auntie bernice",
+    "bernice stonefield lore",
+    "stonefield auntie"
+   ],
+   "answer": "She is an elder of the Stonefield clan living at the Stonefield Farm in southern Elwynn Forest. She is a war widow who spends her days tending the farm alongside Ma Stonefield and baking her famous pork belly pies."
+  },
+  {
+   "q": "What happened to Auntie Bernice's husband?",
+   "aliases": [
+    "auntie bernice husband",
+    "who was bernice married to",
+    "stonefield widow"
+   ],
+   "answer": "Bernice became a widow when her husband was killed during a military campaign fought for the Kingdom of Stormwind."
+  },
+  {
+   "q": "What is Auntie Bernice famous for?",
+   "aliases": [
+    "bernice stonefield pie",
+    "pork belly pie elwynn"
+   ],
+   "answer": "She is well known throughout the local countryside for her savory pork belly pies, a treat delicious enough that even mischievous neighbors cannot resist bargaining for a slice."
+  },
+  {
+   "q": "Why is Auntie Bernice angry with Billy Maclure?",
+   "aliases": [
+    "billy maclure feud",
+    "bernice necklace thief",
+    "why does bernice hate billy"
+   ],
+   "answer": "Bernice suspected Billy Maclure stole her cherished family necklace, stoking the fires of the long-standing family feud between the Stonefields and the Maclures."
+  },
+  {
+   "q": "Did Billy Maclure actually steal the necklace?",
+   "aliases": [
+    "did billy steal the necklace",
+    "who has the stonefield necklace",
+    "goldtooth necklace"
+   ],
+   "answer": "Billy found the necklace, but while carrying it, he was chased by the notorious kobold Goldtooth near the Fargodeep Mine and dropped it during his escape. Goldtooth subsequently took possession of it."
+  },
+  {
+   "q": "Where is Auntie Bernice located?",
+   "aliases": [
+    "auntie bernice location",
+    "where is bernice stonefield"
+   ],
+   "answer": "She can be found standing right outside the main farmhouse on the Stonefield Farm, located south of the road between Goldshire and Westfall, standing beside Ma Stonefield."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Bernice's pork belly pie is famous across Elwynn Forest as a quintessential staple of hearty human frontier cooking."
+  },
+  {
+   "target": "race:Human",
+   "text": "Bernice embodies the gritty resilience of Stormwind's rural folk, carrying on daily life and family pride after losing a husband to the kingdom's wars."
+  }
+ ],
+ "keywords": [
+  "auntie",
+  "bernice",
+  "elwynn",
+  "goldtooth",
+  "maclure",
+  "necklace",
+  "pork belly pie",
+  "stonefield"
+ ],
+ "related": [
+  "subzone:stonefield-farm",
+  "npc:ma-stonefield",
+  "npc:billy-maclure",
+  "quest:85",
+  "quest:86",
+  "quest:84",
+  "quest:87",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "\"Auntie\" Bernice Stonefield"
+ ]
+}

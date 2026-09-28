@@ -1,0 +1,132 @@
+{
+ "key": "quest:1961",
+ "type": "quest",
+ "name": "Gathering Materials",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1961
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Anastasia Hartwell",
+  "end": "Josef Gregorian",
+  "previous": "Investigate the Alchemist Shop",
+  "next": "Spellfire Robes",
+  "wiki": "Gathering Materials (Horde)",
+  "chain": []
+ },
+ "summary": "Gathering Materials is a rite of passage for aspiring Horde mages training in the Undercity. Assigned by Anastasia Hartwell, the task sends apprentices into Silverpine Forest to claim arcane gems from the wizards of Dalaran, assembling the components needed to weave their first true mage's robes.",
+ "sections": [
+  {
+   "title": "A Rite of Arcane Standing",
+   "body": "Within the arcane cloisters of the Magic Quarter, novice mages must prove their mastery over more than just raw incantations. To earn their first true robes\u2014a formal mantle marking their station and personal worth\u2014initiates are directed by Anastasia Hartwell to harvest the raw components required for enchanted weave: a bolt of simple linen and a set of potent Dalaran mana gems.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pragmatism of the Forsaken",
+   "body": "The mana gems cannot simply be purchased or manifested; they must be torn from Dalaran mages stationed across Silverpine Forest, particularly near Ambermill. Anastasia Hartwell remarks with cold detachment that while Dalaran's arcane philosophies mirror their own, sentimental hesitation has no place in the Undercity. In the eyes of the Forsaken, if those living wizards lack the strength to defend their relics, they forfeit both their treasures and their lives.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Tailor of the Magic Quarter",
+   "body": "Once gathered, the cloth and gems are delivered to Josef Gregorian, a tailor residing in the Magic Quarter. While Gregorian readily admits he lacks the magical talent to gauge the pristine quality of Dalaran's enchanted stones, he possesses the rare artisan skill needed to weave their raw power directly into the fabric of the robes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Gathering Materials?",
+   "aliases": [
+    "why do gathering materials",
+    "gathering materials quest purpose",
+    "mage robe quest undercity"
+   ],
+   "answer": "The quest serves as an initiation for Horde mages. Completing it provides the tailor Josef Gregorian with the necessary components\u2014linen and mana gems\u2014to craft the initiate's first formal enchanted robes."
+  },
+  {
+   "q": "Why does Anastasia Hartwell send you after Dalaran mages?",
+   "aliases": [
+    "why kill dalaran mages",
+    "dalaran mana gems lore",
+    "why silverpine mages"
+   ],
+   "answer": "Dalaran wizards stationed in Silverpine Forest carry refined mana gems capable of channeling strong magical currents. Hartwell views these living mages pragmatically: despite shared intellectual roots, weakness in the field means their lives and resources are forfeit to the Forsaken."
+  },
+  {
+   "q": "Where are the Dalaran wizards located?",
+   "aliases": [
+    "where to find dalaran mana gems",
+    "silverpine mages location",
+    "ambermill mages"
+   ],
+   "answer": "They can be encountered in Silverpine Forest, occupying outposts and grounds southeast of the Sepulcher, centered around the settlement of Ambermill."
+  },
+  {
+   "q": "Who is Josef Gregorian?",
+   "aliases": [
+    "josef gregorian undercity",
+    "who is the tailor in magic quarter",
+    "gregorian tailor"
+   ],
+   "answer": "Josef Gregorian is an Undead tailor working out of the Magic Quarter of the Undercity. Though he is an artisan rather than an arcane spellcaster, he specializes in stitching enchanted garments like spellfire robes."
+  },
+  {
+   "q": "What robes are crafted from these materials?",
+   "aliases": [
+    "what robe do you get",
+    "spellfire robes reward",
+    "gathering materials reward robe"
+   ],
+   "answer": "Josef Gregorian uses the linen and Dalaran mana gems to stitch Spellfire Robes, a classic garment marking an apprentice's transition into an established mage."
+  },
+  {
+   "q": "Why does Anastasia find killing Dalaran mages somewhat distasteful?",
+   "aliases": [
+    "hartwell dalaran feelings",
+    "forsaken mages vs dalaran",
+    "anastasia hartwell lore"
+   ],
+   "answer": "Many Forsaken spellcasters, including Hartwell herself, were trained in Dalaran's traditions in life and share similar intellectual and magical philosophies. Despite this kinship, survival and necessity override sentiment."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "This quest represents a pivotal milestone for Horde mages, marking their graduation from simple apprentice attire into tailored robes woven with captured arcane power."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The mission illustrates the Forsaken's ruthless worldview: former kinship with Dalaran's sorcerers yields no mercy if those living wizards prove too weak to hold Silverpine."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "The process highlights how mundane linen cloth can be bound with potent mana gems to create enduring enchanted garments."
+  }
+ ],
+ "keywords": [
+  "ambermill",
+  "anastasia hartwell",
+  "dalaran mana gem",
+  "gathering materials",
+  "josef gregorian",
+  "linen cloth",
+  "magic quarter",
+  "spellfire robes",
+  "undercity"
+ ],
+ "related": [
+  "quest:1962",
+  "npc:anastasia-hartwell",
+  "npc:josef-gregorian",
+  "subzone:magic-quarter",
+  "subzone:ambermill",
+  "subzone:dalaran",
+  "subzone:sepulcher",
+  "quest:1960"
+ ],
+ "attribution": [
+  "Gathering Materials (Horde)"
+ ]
+}

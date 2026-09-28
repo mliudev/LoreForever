@@ -1,0 +1,117 @@
+{
+ "key": "quest:178",
+ "type": "quest",
+ "name": "Theocritus' Retrieval",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   178
+  ],
+  "level": "23",
+  "faction": "Alliance",
+  "start": "Glowing Shadowhide Pendant",
+  "end": "Theocritus",
+  "previous": null,
+  "next": null,
+  "wiki": "Theocritus' Retrieval",
+  "chain": [
+   "Theocritus' Retrieval",
+   "A Watchful Eye",
+   "Looking Further",
+   "Morganth (quest)"
+  ]
+ },
+ "summary": "Theocritus' Retrieval begins when an adventurer in Redridge finds a magical trinket carried by the local gnolls, only to hear a distant voice echoing through it. The speaker is Theocritus, High Mage of Tower of Azora, who has successfully intercepted the gnolls' mystical network and urgently requests the pendant be brought to him for study.",
+ "sections": [
+  {
+   "title": "A Voice in the Stone",
+   "body": "While fighting off the savage Shadowhide gnolls across the Redridge Mountains, travelers sometimes stumble across an enchanted trinket known as a Shadowhide Pendant. Instead of guttural barking or curses, touching the object triggers a calm, disembodied voice belonging to Theocritus, a human mage residing in Tower of Azora across the border in Elwynn Forest. The transmission is the result of long, painstaking research aimed at breaking into the dark sorceries directing the gnoll packs.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subverting Morganth's Network",
+   "body": "The Shadowhide gnolls are not acting purely on primal instinct; they answer to Morganth, a rogue dark caster hidden away in the mountains. Morganth crafts and distributes these enchanted pendants to transmit commands directly to his beastly pawns. Theocritus spent months unravelling the frequency of Morganth's sending spells. When an adventurer delivers the faded pendant back to Tower of Azora, the wizard confirms that his scrying reached the talisman, opening the door to reverse-engineering an attack to disable the gnolls entirely.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Theocritus?",
+   "aliases": [
+    "theocritus lore",
+    "who is talking through the pendant",
+    "tower of azora mage"
+   ],
+   "answer": "Theocritus is a high mage of the Alliance stationed at the Tower of Azora in eastern Elwynn Forest. He keeps a watchful eye over regional disturbances and dedicates much of his magical studies to countering dark magic encroaching from Redridge."
+  },
+  {
+   "q": "Why were the Shadowhide gnolls carrying magical pendants?",
+   "aliases": [
+    "why do gnolls have pendants",
+    "shadowhide pendant purpose",
+    "gnoll magic item"
+   ],
+   "answer": "The pendants are magical conduits crafted by the renegade wizard Morganth. Through them, he sends mental commands and orchestrates the movements of the Shadowhide clan from afar."
+  },
+  {
+   "q": "Why was the voice delayed when Theocritus sent it?",
+   "aliases": [
+    "delayed message",
+    "why did theocritus take weeks",
+    "faded pendant delay"
+   ],
+   "answer": "Theocritus cast his message weeks before an adventurer recovered the stone, initially believing his spell had dissipated and failed. Penetrating Morganth's dark wards and establishing a link over such a vast distance caused a significant magical delay."
+  },
+  {
+   "q": "What does Theocritus hope to achieve with the retrieved pendant?",
+   "aliases": [
+    "theocritus plan",
+    "what will theocritus do",
+    "why study the pendant"
+   ],
+   "answer": "By deciphering the specific magical frequency tying the pendant to Morganth, Theocritus hopes to reverse the flow of magic. His ultimate ambition is to broadcast an offensive spell through the network that could instantly immobilize every gnoll wearing one."
+  },
+  {
+   "q": "Where does this quest chain lead next?",
+   "aliases": [
+    "next quest after theocritus retrieval",
+    "morganth chain",
+    "what happens next"
+   ],
+   "answer": "Delivering the pendant directly leads into 'A Watchful Eye', sending adventurers to observe Morganth's stronghold at the Tower of Ilgalar and eventually bringing an end to the rogue wizard's influence over Redridge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Theocritus's work demonstrates an ingenious application of abjuration and divination, hacking another sorcerer's network to deliver counter-spells over vast distances."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The coordination between Tower of Azora in Elwynn and the beleaguered defenders of Lakeshire shows how local mages step in where Stormwind's royal army has left garrisons understaffed."
+  }
+ ],
+ "keywords": [
+  "elwynn",
+  "gnolls",
+  "morganth",
+  "pendant",
+  "redridge",
+  "shadowhide",
+  "theocritus",
+  "tower of azora"
+ ],
+ "related": [
+  "quest:94",
+  "quest:248",
+  "quest:249",
+  "npc:theocritus",
+  "topic:gnoll",
+  "zone:redridge",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Theocritus' Retrieval"
+ ]
+}

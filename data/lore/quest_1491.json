@@ -1,0 +1,122 @@
+{
+ "key": "quest:1491",
+ "type": "quest",
+ "name": "Smart Drinks",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "ids": [
+   1491
+  ],
+  "level": "18",
+  "faction": null,
+  "start": "Mebok Mizzyrix",
+  "end": "",
+  "previous": "Raptor Horns",
+  "next": null,
+  "wiki": "Smart Drinks",
+  "chain": [
+   "Raptor Horns",
+   "Smart Drinks"
+  ]
+ },
+ "summary": "Smart Drinks is an entrepreneurial scheme cooked up by the goblin merchant Mebok Mizzyrix in Ratchet. Having failed to brew an intellect-enhancing tonic out of Sunscale raptor horns, Mebok now tasks adventurers with delving into the Wailing Caverns to harvest ectoplasmic residue for his latest beverage formula.",
+ "sections": [
+  {
+   "title": "A Recipe for Disaster",
+   "body": "Operating out of the bustling port town of Ratchet, Mebok Mizzyrix embodies the classic goblin philosophy of turning any bizarre regional phenomenon into cold, hard coin. Convinced that an intellect-boosting draught will make him an overnight tycoon, he originally believed powdered raptor horns held the secret. When that batch proved thoroughly underwhelming, he simply set his sights on an even more dubious ingredient: the corrupting essence seeping out of the nearby Wailing Caverns.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Wailing Essence",
+   "body": "The Barrens have experienced unsettling ecological mutations, with lush oases abruptly sprouting and local wildlife warping into aggressive horrors. Mizzyrix theorizes that a strange substance he calls 'Wailing Essence' is the catalyst behind these sudden shifts. Concluding that whatever alters biology so intensely must make a potent secret ingredient, he dispatches mercenaries to destroy the oozing ectoplasms dwelling deep within the cavern labyrinth and siphon their glowing fluid straight into beverage bottles.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mebok Mizzyrix?",
+   "aliases": [
+    "mebok mizzyrix",
+    "who gives smart drinks",
+    "smart drinks quest giver"
+   ],
+   "answer": "Mebok Mizzyrix is an enterprising goblin stationed in the port town of Ratchet. Unbothered by health codes, he is obsessed with creating a commercial 'smart drink' to sell across Kalimdor and strike it rich."
+  },
+  {
+   "q": "Why didn't the raptor horns work?",
+   "aliases": [
+    "why raptor horns failed",
+    "raptor horn drink"
+   ],
+   "answer": "Mebok originally believed that grinding up horns from Sunscale raptors would produce a potent intellect-boosting concoction. The resulting beverage failed to deliver the promised genius, forcing him to pivot to a far more dangerous active ingredient."
+  },
+  {
+   "q": "What is Wailing Essence?",
+   "aliases": [
+    "what is wailing essence",
+    "essence from wailing caverns"
+   ],
+   "answer": "Wailing Essence is an ectoplasmic substance found dripping from the unnatural slimes deep inside the Wailing Caverns. Mebok believes this volatile matter is the driving catalyst behind the bizarre botanical and animal mutations spreading through the Barrens."
+  },
+  {
+   "q": "Where do you find the ectoplasms carrying the essence?",
+   "aliases": [
+    "where are ectoplasms",
+    "smart drinks mobs",
+    "who drops wailing essence"
+   ],
+   "answer": "The essence is gathered from ectoplasmic creatures such as evolving, devouring, and nightmare ectoplasms that lurk inside the underground tunnels of the Wailing Caverns, located west of Ratchet."
+  },
+  {
+   "q": "Is the smart drink safe to consume?",
+   "aliases": [
+    "is smart drink poisonous",
+    "does the drink work"
+   ],
+   "answer": "Considering the essence is harvested from nightmarish slimes linked to corrupting mutations across the Barrens, bottling it as a commercial tonic is wildly reckless. True to goblin business ethics, Mebok is far more concerned with marketability than customer safety."
+  },
+  {
+   "q": "What comes after completing Smart Drinks?",
+   "aliases": [
+    "smart drinks follow up",
+    "what next after smart drinks"
+   ],
+   "answer": "Smart Drinks concludes Mebok's immediate beverage venture. Satisfied with your delivery of Wailing Essence, he rewards you and promises to share future profits once his dubious tonic makes him a fortune."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Any culinarian will immediately spot the health code catastrophe unfolding in Ratchet: steeping raw, nightmare-tainted ectoplasm directly into a drinkable tonic violates every standard of food safety."
+  },
+  {
+   "target": "class:Druid",
+   "text": "While druids enter the Wailing Caverns to cleanse the nightmare twisting the emerald dreamscape, Mebok sees the tragic ecological taint merely as cheap liquid syrup for his retail venture."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For travelers navigating through the crossroads of the Barrens, Ratchet's merchants offer plenty of quick coin, provided you do not ask too many questions about what they plan to do with the monster parts you deliver."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "ectoplasm",
+  "mebok mizzyrix",
+  "raptor horns",
+  "ratchet",
+  "smart drinks",
+  "wailing caverns",
+  "wailing essence"
+ ],
+ "related": [
+  "npc:mebok-mizzyrix",
+  "quest:865",
+  "zone:wailing",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Smart Drinks"
+ ]
+}

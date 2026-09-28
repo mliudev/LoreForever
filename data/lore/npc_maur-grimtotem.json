@@ -1,0 +1,95 @@
+{
+ "key": "npc:maur-grimtotem",
+ "type": "npc",
+ "name": "Maur Grimtotem",
+ "era": "classic",
+ "zone": "ragefire",
+ "meta": {
+  "wiki": "Maur Grimtotem",
+  "refs": 2
+ },
+ "summary": "Maur Grimtotem was an emissary sent by Elder Crone Magatha Grimtotem into the depths of Ragefire Chasm. Dispatched on an ill-fated diplomatic mission to the troggs infesting the subterranean tunnels beneath Orgrimmar, he met a brutal end at their hands. Today, only his remains and personal satchel linger in the dark as evidence of the foolish errand.",
+ "sections": [
+  {
+   "title": "A Doomed Diplomacy",
+   "body": "While most in the Horde view troggs as mindless, savage brutes beneath negotiation, Elder Crone Magatha Grimtotem thought otherwise\u2014or at least claimed to. She dispatched Maur Grimtotem deep into the winding caverns of Ragefire Chasm beneath Orgrimmar to attempt a peaceful overture with the subterranean beasts. Predictably, diplomacy failed. Maur was swiftly slain, his corpse left in the caverns under the watchful eye of the trogg chieftain Oggleflint.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Elder Crone's Interests",
+   "body": "Following Maur's demise, Magatha sought adventurers not merely to avenge him, but to retrieve the personal satchel he carried into the depths. Whether Maur genuinely believed peace with troggs was possible or was merely an expendable pawn in the Grimtotem matriarch's shadowy schemes remains an open question to those who recover his belongings.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Maur Grimtotem?",
+   "aliases": [
+    "who is maur",
+    "maur grimtotem lore",
+    "what was maur doing"
+   ],
+   "answer": "Maur was a tauren belonging to the Grimtotem clan. Acting on the orders of Magatha Grimtotem, he ventured into the caverns of Ragefire Chasm beneath Orgrimmar as an emissary to the troggs, where he was killed."
+  },
+  {
+   "q": "Why did he try to negotiate with troggs?",
+   "aliases": [
+    "why make peace with troggs",
+    "trogg diplomacy",
+    "why talk to troggs"
+   ],
+   "answer": "Elder Crone Magatha claimed she sent him to seek peace and test the strength of these subterranean foes. Given the troggs' feral nature, many suspect Magatha had ulterior motives or simply used Maur to probe Ragefire Chasm's depths."
+  },
+  {
+   "q": "Who killed Maur Grimtotem?",
+   "aliases": [
+    "how did maur die",
+    "who killed him",
+    "maur death"
+   ],
+   "answer": "Maur was slain by the trogg tribe living in Ragefire Chasm. His corpse was found guarded closely by Oggleflint, the chieftain of the Ragefire troggs."
+  },
+  {
+   "q": "What happened to his body and belongings?",
+   "aliases": [
+    "maur corpse",
+    "lost satchel",
+    "maur's satchel"
+   ],
+   "answer": "Maur's body was abandoned in Ragefire Chasm near Oggleflint. Adventurers are tasked by Rahauro in Thunder Bluff to recover Maur's lost satchel and bring it back to Magatha Grimtotem on the Elder Rise."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Grimtotem clan has an uneasy relationship with the rest of the tribes in Thunder Bluff, and Maur's bizarre, fatal errand into trogg tunnels only deepens suspicion about Magatha's true agenda."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Having a deadly subterranean cavern right under Orgrimmar is bad enough; sending solitary envoys to negotiate with troggs proved entirely disastrous for the Horde's safety."
+  }
+ ],
+ "keywords": [
+  "grimtotem",
+  "magatha",
+  "maur",
+  "oggleflint",
+  "orgrimmar",
+  "ragefire",
+  "satchel",
+  "trogg"
+ ],
+ "related": [
+  "npc:magatha-grimtotem",
+  "npc:oggleflint",
+  "zone:ragefire",
+  "quest:5722",
+  "quest:5724",
+  "quest:5723",
+  "topic:trogg",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Maur Grimtotem"
+ ]
+}

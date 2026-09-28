@@ -1,0 +1,91 @@
+{
+ "key": "npc:senator-mehr-stonehallow",
+ "type": "npc",
+ "name": "Senator Mehr Stonehallow",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Senator Mehr Stonehallow",
+  "refs": 1
+ },
+ "summary": "Senator Mehr Stonehallow is an Ironforge politician and member of the Explorers' League stationed at the Gol'Bolar Quarry in Dun Morogh. Rather than debating policy in the capital, he has traveled to the front lines to personally oversee the containment of the local trogg infestation. He enlists eager adventurers to cull the beasts before they overrun the quarry completely.",
+ "sections": [
+  {
+   "title": "A Politician in the Pits",
+   "body": "While most members of the Ironforge Senate spend their days safely sequestered within the great stone halls of the capital, Senator Mehr Stonehallow prefers direct action. As a dwarf dedicated both to governance and the historical pursuits of the Explorers' League, he understands the practical dangers facing the realm. When vicious Rockjaw troggs began clawing out of the deep rock in Gol'Bolar Quarry, Stonehallow made the journey to the mining pit himself. Convinced that bureaucratic posturing will not save the workers, he offers bounties to capable travelers to eradicate the aggressive troggs and reclaim the quarry.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Senator Mehr Stonehallow?",
+   "aliases": [
+    "stonehallow role",
+    "who is the senator",
+    "mehr stonehallow"
+   ],
+   "answer": "Senator Mehr Stonehallow is a dwarven statesman serving in the Ironforge Senate. Unlike many of his legislative peers, he takes an active hand in frontier matters and belongs to the Explorers' League. He can currently be found standing guard and organizing defense efforts at Gol'Bolar Quarry."
+  },
+  {
+   "q": "Why is a senator stationed at Gol'Bolar Quarry?",
+   "aliases": [
+    "why is stonehallow here",
+    "why is he at the quarry",
+    "senator in dun morogh"
+   ],
+   "answer": "Stonehallow traveled down into the quarry to take personal charge of the crisis unfolding there. The mining site was suddenly invaded by Rockjaw troggs burrowing up from beneath the earth, threatening both dwarven workers and valuable excavations, and Stonehallow refused to let the problem fester while waiting on distant bureaucrats."
+  },
+  {
+   "q": "What does Senator Stonehallow want adventurers to do?",
+   "aliases": [
+    "the public servant quest",
+    "stonehallow task",
+    "quarry quests"
+   ],
+   "answer": "He hires newly arrived adventurers to cull the Rockjaw trogg population inside and around Gol'Bolar Quarry. By wiping out the troggs infesting the lower levels, recruits help secure the excavation site and safeguard the remaining miners."
+  },
+  {
+   "q": "What organization does Stonehallow belong to besides the Senate?",
+   "aliases": [
+    "stonehallow faction",
+    "is stonehallow explorers league",
+    "stonehallow affiliation"
+   ],
+   "answer": "Alongside his legislative duties in the Senate, Mehr Stonehallow is a member of the Explorers' League. This background fuels his interest in subterranean excavations and explains his willingness to venture far beyond the comforts of the capital."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, seeing an elected senator standing knee-deep in quarry mud rather than sipping ale in the High Seat of Ironforge is a welcome demonstration of true dwarven grit."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stonehallow offers an early look at how dwarven leadership operates, providing young Alliance heroes with straightforward civic duty: slaying monsters to protect working citizens."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "explorers' league",
+  "gol'bolar",
+  "ironforge senate",
+  "mehr",
+  "quarry",
+  "rockjaw",
+  "senator",
+  "stonehallow",
+  "trogg"
+ ],
+ "related": [
+  "subzone:gol-bolar-quarry",
+  "quest:433",
+  "topic:explorers-league",
+  "topic:trogg",
+  "zone:dunmorogh",
+  "zone:ironforge",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Senator Mehr Stonehallow"
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "key": "npc:brine",
+ "type": "npc",
+ "name": "Brine",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Brine",
+  "refs": 5
+ },
+ "summary": "Brine is an orc shaman residing in the arid hills of Blackthorn Ridge in the Southern Barrens. As an expert on the spirits of water, she guides shaman initiates along the spiritual path to commune with the tides and earn their Water Totem.",
+ "sections": [
+  {
+   "title": "Hermit of the Ridge",
+   "body": "Perched upon a windswept hill in northern Blackthorn Ridge, Brine lives far from the bustling trading posts of the Barrens. Despite the dry savannas surrounding her, she has dedicated her life to understanding the fluid and fickle element of water. Shaman across the Horde are directed to seek her wisdom once they have mastered earth and fire, for water requires patience and perspective that few understand as deeply as she does.",
+   "spoiler": 0
+  },
+  {
+   "title": "Memories of the Eastern Kingdoms",
+   "body": "In her younger years, Brine marched alongside her orc companions across the Hillsbrad Foothills, taking part in battles against human settlements. During that arduous campaign, she found herself in Tarren Mill, where she encountered a humble well fed by pure, fresh spring water. That well remained in her memory as a symbol of life persisting amidst devastation, reinforcing a lesson taught to her as a child: even in the darkest times of sorrow, a small token of hope can still be found.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Call of Water",
+   "body": "Brine tests aspiring shaman by sending them on pilgrimages to gather droplets of purity from varied sources, teaching them that water can be gentle yet unyielding. Her rituals culminate in communion with the spirits of the elements, allowing shaman to bind the restorative essence of water to their totemic focus.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Brine?",
+   "aliases": [
+    "brine lore",
+    "who is brine",
+    "orc on blackthorn ridge"
+   ],
+   "answer": "Brine is an experienced orc shaman living isolated atop a hill in the northern part of Blackthorn Ridge in the Southern Barrens. She acts as a mentor for spiritual initiates seeking communion with water spirits."
+  },
+  {
+   "q": "Why is a water shaman living in a desert?",
+   "aliases": [
+    "why in the barrens",
+    "why does brine live in the desert"
+   ],
+   "answer": "While the Barrens are dry, water's true value and spiritual purity are often clearest where life is parched. Her solitude allows her to commune deeply with the elements away from the noise of settlements."
+  },
+  {
+   "q": "What is Brine's connection to Tarren Mill?",
+   "aliases": [
+    "tarren mill well",
+    "brine hillsbrad",
+    "brine backstory"
+   ],
+   "answer": "Years ago, Brine fought alongside Horde warriors in Hillsbrad Foothills and entered Tarren Mill. There she found a small well of pure spring water, which served as a lasting symbol of life and hope amidst the ruin of war."
+  },
+  {
+   "q": "What role does Brine play in shaman training?",
+   "aliases": [
+    "brine shaman quest",
+    "how to get water totem",
+    "call of water brine"
+   ],
+   "answer": "Brine oversees several stages of the 'Call of Water' trials. She directs initiates to gather pristine water samples across the world, teaching them humility and resilience before granting the insight needed for their Water Totem."
+  },
+  {
+   "q": "Where exactly is Brine located?",
+   "aliases": [
+    "brine location",
+    "where is brine",
+    "find brine barrens"
+   ],
+   "answer": "She can be found sitting atop a high bluff in northern Blackthorn Ridge, located in the southern half of the Barrens, just south of the Razorfen downs and barrows."
+  },
+  {
+   "q": "What philosophy guides her teachings?",
+   "aliases": [
+    "brine philosophy",
+    "lessons of water"
+   ],
+   "answer": "Brine believes in finding slivers of hope and pure renewal even in times of intense pain and sorrow. She teaches that water represents life and perseverance against harsh trials."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Brine is an essential guide along your journey, testing your endurance and spirit before you can commune with water and claim your Water Totem."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "A veteran of the wars in Hillsbrad, Brine serves the Horde not on the front lines, but by passing down the spiritual heritage of the elements to new generations."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "blackthorn ridge",
+  "brine",
+  "call of water",
+  "shaman",
+  "tarren mill",
+  "water totem"
+ ],
+ "related": [
+  "quest:63",
+  "subzone:blackthorn-ridge",
+  "zone:barrens",
+  "subzone:tarren-mill",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Brine"
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "key": "quest:1842",
+ "type": "quest",
+ "name": "Satyr Hooves",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   1842
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Ula'elek",
+  "end": "",
+  "previous": "Ula'elek and the Brutal Gauntlets",
+  "next": "Brutal Gauntlets (quest)",
+  "wiki": "Satyr Hooves",
+  "chain": []
+ },
+ "summary": "Satyr Hooves is a quest given by the troll craftsman Ula'elek in Sen'jin Village. In pursuit of forging a pair of empowered brutal gauntlets, warriors must journey north into Ashenvale to hunt satyrs and harvest their magically bloated, uncloven hooves.",
+ "sections": [
+  {
+   "title": "Harnessing Corrupted Essence",
+   "body": "To forge armor capable of rivaling the most brutal forces on Kalimdor, the Darkspear craftsman Ula'elek looks beyond mundane iron and leather. He directs aspiring warriors north to the ancient woods of Ashenvale, where lingering demonic corruption festers within the local satyr covens.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Bloat of Ashenvale's Magic",
+   "body": "According to Ula'elek, the satyrs in northeastern Ashenvale sustain themselves by leeching the forest's latent purity and twisting it into foul power. Those demons that have gorged themselves the deepest on this borrowed life manifest abnormal, swollen hooves that have lost their natural cloven split. Ula'elek intends to drain this concentrated magical energy and weave it directly into the gauntlets he crafts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Ula'elek need satyr hooves?",
+   "aliases": [
+    "why satyr hooves",
+    "hoof purpose",
+    "what are the hooves for"
+   ],
+   "answer": "Ula'elek requires the hooves to empower the brutal gauntlets he is crafting. He intends to siphon the concentrated forest magic that the satyrs have drained and corrupted into their swollen feet."
+  },
+  {
+   "q": "Where are the satyrs found?",
+   "aliases": [
+    "where are satyrs",
+    "satyr location",
+    "where to find satyr hooves"
+   ],
+   "answer": "They inhabit northeastern Ashenvale, where they roost among corrupted ancient ruins and leech off the residual magical energy of the deep forest."
+  },
+  {
+   "q": "What makes an uncloven hoof special?",
+   "aliases": [
+    "uncloven hoof lore",
+    "why uncloven",
+    "swollen hooves"
+   ],
+   "answer": "The lack of a cloven split indicates that a satyr has engorged itself on excessive amounts of Ashenvale's pure magic, swelling its extremities with stolen power."
+  },
+  {
+   "q": "Who is Ula'elek?",
+   "aliases": [
+    "who is ulaelek",
+    "quest giver",
+    "troll in senjin"
+   ],
+   "answer": "Ula'elek is a skilled Darkspear troll armor craftsman residing in Sen'jin Village in southern Durotar, known for assisting warriors with crafting trial gear."
+  },
+  {
+   "q": "What armor is Ula'elek forging?",
+   "aliases": [
+    "what are brutal gauntlets",
+    "gauntlet quest",
+    "reward armor"
+   ],
+   "answer": "He is preparing to craft a pair of Brutal Gauntlets, heavy protective handwear imbued with stolen magical potency for rising Horde warriors."
+  },
+  {
+   "q": "Do the satyrs serve the Burning Legion here?",
+   "aliases": [
+    "satyr allegiance",
+    "are satyrs legion"
+   ],
+   "answer": "Yes. Satyrs are ancient night elves transformed by demonic pacts, and the lingering covens in Kalimdor's woodlands continue to practice fel corruption in service to demonic powers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This task is part of a warrior's rite of progression, testing their martial resilience against cunning demonic ambushers to earn personalized armor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Undertaking this hunt pushes Horde warriors out of Durotar's arid plains and deep into contested night elf territory in Ashenvale."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Ula'elek's methods demonstrate the pragmatic nature of Darkspear craftsmanship, siphoning raw essence from fallen magical foes rather than relying purely on conventional smithing."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "brutal gauntlets",
+  "durotar",
+  "hooves",
+  "satyr",
+  "sen'jin village",
+  "ula'elek",
+  "uncloven"
+ ],
+ "related": [
+  "npc:ula-elek",
+  "quest:1843",
+  "quest:1839",
+  "subzone:sen-jin-village",
+  "zone:ashenvale",
+  "zone:durotar",
+  "topic:satyr"
+ ],
+ "attribution": [
+  "Satyr Hooves"
+ ]
+}

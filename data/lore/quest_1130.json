@@ -1,0 +1,123 @@
+{
+ "key": "quest:1130",
+ "type": "quest",
+ "name": "Melor Sends Word",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1130
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Jorn Skyseer",
+  "end": "Melor Stonehoof",
+  "previous": null,
+  "next": "Steelsnap (quest)",
+  "wiki": "Melor Sends Word",
+  "chain": [
+   "Melor Sends Word",
+   "Steelsnap (quest)"
+  ]
+ },
+ "summary": "Melor Sends Word is a summons delivered by Jorn Skyseer in the Barrens on behalf of the renowned hunter Melor Stonehoof. Rising adventurers who have proven their grit across Kalimdor are directed to Hunter's Rise in Thunder Bluff to receive a far more demanding trial.",
+ "sections": [
+  {
+   "title": "A Summons to Thunder Bluff",
+   "body": "Word travels fast across the plains. As an adventurer cuts their teeth in the Barrens and surrounding lands, notable hunters take notice of those who show true promise. Jorn Skyseer, keeping watch over the crossings and encampments, serves as an emissary for the elders of Hunter's Rise. He intercepts promising hunters and warriors to let them know that Melor Stonehoof, a revered mentor among the tauren, has marked out a specific path for them.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to the Hunt",
+   "body": "Upon climbing the heights of Hunter's Rise in Thunder Bluff, the seeker meets Melor himself. The elder hunter does not offer praise, but rather asks whether the adventurer possesses the resolve to venture into perilous, distant wilderness. Answering the summons unlocks testing grounds that stretch far beyond the safety of Mulgore, pitting hunters against the fiercest predators across the continent.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Melor Stonehoof?",
+   "aliases": [
+    "melor",
+    "who is melor",
+    "melor stonehoof lore"
+   ],
+   "answer": "Melor Stonehoof is a veteran tauren hunter stationed on Hunter's Rise in Thunder Bluff. He evaluates up-and-coming trackers and warriors of the Horde, dispatching worthy candidates across Kalimdor to track and hunt notorious beasts."
+  },
+  {
+   "q": "Who delivers this summons?",
+   "aliases": [
+    "who starts quest",
+    "jorn skyseer",
+    "who sent for me"
+   ],
+   "answer": "Jorn Skyseer, a tauren seer residing at Camp Taurajo in the Barrens, carries the message. He watches over travelers and sends those who have demonstrated courage up to Thunder Bluff to speak directly with Melor."
+  },
+  {
+   "q": "Where can I find Melor Stonehoof?",
+   "aliases": [
+    "melor location",
+    "where is melor",
+    "hunters rise thunder bluff"
+   ],
+   "answer": "Melor is located on Hunter's Rise, the southeastern mesa of Thunder Bluff dedicated to the hunters, trackers, and beastmasters of the tauren."
+  },
+  {
+   "q": "What path is Melor planning for me?",
+   "aliases": [
+    "what does melor want",
+    "next quest after melor sends word",
+    "melor chain"
+   ],
+   "answer": "Melor tests your endurance and hunting instincts by sending you on challenging tracking expeditions, beginning with a hunt across the Thousand Needles for the vicious hyena matriarch Steelsnap."
+  },
+  {
+   "q": "Why does Melor recruit adventurers from the Barrens?",
+   "aliases": [
+    "why me",
+    "why does melor care"
+   ],
+   "answer": "Surviving the harsh predators, quillboar, and centaur in the Barrens proves an adventurer has the instincts required for elite hunts. Melor seeks individuals who can track elusive and deadly prey in unfamiliar lands."
+  },
+  {
+   "q": "Is this trial restricted to hunters?",
+   "aliases": [
+    "is this a hunter quest",
+    "can other classes do this"
+   ],
+   "answer": "While it originates on Hunter's Rise and tests the virtues of a tracker, Melor extends the challenge to any Horde adventurer who has proven their strength and resourcefulness in the wild."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, answering Melor's call is a traditional rite of adulthood and standing, proving one's mastery over the Hunt and bringing honor to Hunter's Rise."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Melor Stonehoof serves as an archetype of tauren beastcraft, demanding precision, patience, and absolute respect for dangerous quarry."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Camp Taurajo and Thunder Bluff rely on skilled field operatives to manage dangerous predators encroaching upon Horde supply routes and outposts."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "camp taurajo",
+  "hunter's rise",
+  "jorn skyseer",
+  "melor sends word",
+  "melor stonehoof",
+  "steelsnap",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:melor-stonehoof",
+  "quest:1131",
+  "quest:3261",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Melor Sends Word"
+ ]
+}

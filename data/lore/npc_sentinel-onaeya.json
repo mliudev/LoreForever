@@ -1,0 +1,110 @@
+{
+ "key": "npc:sentinel-onaeya",
+ "type": "npc",
+ "name": "Sentinel Onaeya",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Sentinel Onaeya",
+  "refs": 3
+ },
+ "summary": "Sentinel Onaeya is a night elf guardian stationed at Maestra's Post in northwestern Ashenvale, near the border with Darkshore. Tasked with holding the line against encroaching perils, she rallies capable Alliance adventurers to safeguard the forest and honor fallen defenders.",
+ "sections": [
+  {
+   "title": "A Guard on the Frontier",
+   "body": "Maestra's Post serves as a critical wayside outpost along the road from Darkshore into the dense, contested canopy of Ashenvale. Sentinel Onaeya stands guard outside the settlement's main lodge, keeping a vigilant watch over travelers and coordinating defensive actions. Between hostile wildlife, corrupting forces, and border tensions, sentinels like Onaeya represent the first line of defense for night elf settlements in the region.",
+   "spoiler": 0
+  },
+  {
+   "title": "Holding the Post",
+   "body": "When hostilities flare and the perimeter falls under pressure, Onaeya remains squarely focused on the battle at hand. She coordinates strikes against nearby threats and works to recover and honor fallen comrades, relying on capable adventurers arriving from Darkshore to reinforce the outpost's beleaguered defenders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sentinel Onaeya?",
+   "aliases": [
+    "onaeya",
+    "sentinel onaeya",
+    "who is onaeya"
+   ],
+   "answer": "Sentinel Onaeya is a night elf sentinel stationed at Maestra's Post in northwestern Ashenvale. She acts as a quest giver and frontline defender, directing travelers to assist the outpost."
+  },
+  {
+   "q": "Where is Sentinel Onaeya located?",
+   "aliases": [
+    "onaeya location",
+    "where is sentinel onaeya",
+    "find onaeya"
+   ],
+   "answer": "She can be found standing just outside the main building at Maestra's Post, along the northern roadway in Ashenvale right below the border with Darkshore."
+  },
+  {
+   "q": "What faction does Sentinel Onaeya belong to?",
+   "aliases": [
+    "onaeya faction",
+    "is onaeya alliance",
+    "onaeya friendly to horde"
+   ],
+   "answer": "She is a member of the Night Elf Sentinels and is loyal to the Alliance. Horde adventurers will find her hostile on sight."
+  },
+  {
+   "q": "Why is Sentinel Onaeya too busy to talk sometimes?",
+   "aliases": [
+    "cant talk",
+    "onaeya in combat",
+    "were in a bit of a fight here"
+   ],
+   "answer": "When Maestra's Post comes under attack or is actively threatened, Onaeya focuses entirely on defense, warning passersby that the post is in the middle of a skirmish."
+  },
+  {
+   "q": "What kind of tasks does Sentinel Onaeya give?",
+   "aliases": [
+    "onaeya quests",
+    "what quests does onaeya have"
+   ],
+   "answer": "Onaeya recruits capable scouts and fighters to strike at nearby dangers, honor fallen defenders, and help keep the roads through northwestern Ashenvale clear for travelers."
+  },
+  {
+   "q": "Why is Maestra's Post important to the Sentinels?",
+   "aliases": [
+    "why maestras post",
+    "maestras post importance"
+   ],
+   "answer": "Maestra's Post acts as a crucial checkpoint connecting Darkshore's supply routes to the heart of Ashenvale. Holding it prevents hostile incursions from cutting off night elf travelers moving south."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves traveling south from Darkshore, Onaeya represents the front line defending sacred Ashenvale woodland from external threats."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Onaeya coordinates essential defensive tasks for Alliance travelers transitioning from the coastal wilds into the contested forests of Ashenvale."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As a dedicated sentinel holding Maestra's Post, Onaeya is an active enemy combatant guarding the northern approaches into Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "darkshore",
+  "maestra's post",
+  "night elf",
+  "onaeya",
+  "sentinel"
+ ],
+ "related": [
+  "subzone:maestra-s-post",
+  "zone:ashenvale",
+  "zone:darkshore",
+  "topic:night-elf",
+  "quest:5713"
+ ],
+ "attribution": [
+  "Sentinel Onaeya"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "key": "subzone:fallow-sanctuary",
+ "type": "subzone",
+ "name": "Fallow Sanctuary",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Fallow Sanctuary"
+ },
+ "summary": "The Fallow Sanctuary is a secluded village hidden deep within the bogs of the Swamp of Sorrows. It serves as home to an isolated tribe of mutated draenei known as the Lost Ones, whose severe grief and homesickness have driven them feral.",
+ "sections": [
+  {
+   "title": "A Refuge Lost to Madness",
+   "body": "Tucked away among the sunken trees of the Swamp of Sorrows, the Fallow Sanctuary was established by stranded Lost Ones seeking a place of their own. Severed from their ancestral world and deformed by dark energies, these wretched outcasts found no peace in the marshland. Over time, relentless sorrow and isolation shattered their sanity, reducing the tribe to a hostile, feral state where they fiercely attack any outsiders who trespass into their village.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vanished Leaders and Cursed Experiments",
+   "body": "The settlement was once guided by figures like Ongeku and Noboru the Cudgel, though the village's leadership crumbled following their absence and demise. Adding to the tribe's ongoing degradation, dark magical tampering in the region\u2014notably the arcane experiments conducted by the wandering warlock Cersei Dusksinger\u2014further twisted members of the tribe into wretched, cursed horrors.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Fallow Sanctuary?",
+   "aliases": [
+    "fallow sanctuary lore",
+    "what is this village",
+    "lost one camp swamp"
+   ],
+   "answer": "It is a settlement located in the Swamp of Sorrows inhabited by the Lost Ones, a heavily mutated and tragic branch of draenei who crossed through the Dark Portal."
+  },
+  {
+   "q": "Why are the Lost Ones here hostile?",
+   "aliases": [
+    "why do lost ones attack",
+    "are lost ones evil",
+    "feral lost ones"
+   ],
+   "answer": "Trapped on Azeroth and separated from everything they once knew, the Lost Ones here have been driven completely mad by grief and homesickness, rendering them fiercely feral and aggressive toward outsiders."
+  },
+  {
+   "q": "Who leads the Fallow Sanctuary?",
+   "aliases": [
+    "who runs fallow sanctuary",
+    "noboru",
+    "ongeku"
+   ],
+   "answer": "The tribe previously answered to prominent figures such as Ongeku and Noboru the Cudgel, though their leadership fell apart due to their disappearance and deaths."
+  },
+  {
+   "q": "What caused the appearance of the Cursed Lost Ones?",
+   "aliases": [
+    "cursed lost ones",
+    "cersei dusksinger fallow sanctuary",
+    "why are they cursed"
+   ],
+   "answer": "They were the tragic result of arcane meddling and strange experiments conducted by the warlock Cersei Dusksinger within the marsh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The twisted fate of the Lost Ones and Cersei Dusksinger's volatile magical experiments here demonstrate how fel and arcane energies warp living flesh and shatter frail minds."
+  }
+ ],
+ "keywords": [
+  "cersei dusksinger",
+  "fallow sanctuary",
+  "lost ones",
+  "noboru the cudgel",
+  "ongeku",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "zone:swampofsorrows"
+ ],
+ "attribution": [
+  "Fallow Sanctuary"
+ ]
+}

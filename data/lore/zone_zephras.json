@@ -1,0 +1,120 @@
+{
+ "key": "zone:zephras",
+ "type": "zone",
+ "name": "Zephras Isle",
+ "era": "classic",
+ "zone": "zephras",
+ "meta": {
+  "wiki": [
+   "Zephras Isle"
+  ],
+  "levels": "1-10",
+  "aliases": []
+ },
+ "summary": "Zephras Isle is a flying island suspended within Skywall, the Elemental Plane of air. It serves as the ancestral starting home of the Skyborne, whose society now faces an existential crisis as the island's sustaining magic steadily erodes. With contact severed from neighboring sky-realms, its inhabitants struggle against elemental collapse and arriving refugees.",
+ "sections": [
+  {
+   "title": "A Realm Aloft",
+   "body": "Zephras Isle is an isolated landmass adrift in the endless winds of Skywall. For generations, the Skyborne lived here alongside native air elementals who helped preserve the magical currents holding the isle aloft. However, several centuries ago, those elemental stewards vanished entirely. Deprived of their presence and guardianship, the latent enchantments upholding the land have slowly begun to fail, causing Zephras to slowly fracture and destabilize.",
+   "spoiler": 0
+  },
+  {
+   "title": "Severed Horizons",
+   "body": "Zephras was not the only sanctuary inhabited by the Skyborne within the Elemental Plane. Sister islands known as Anvilas and Siroccas also drifted across Skywall, but communications between them ceased after the elementals vanished. In recent times, refugees from these crumbling neighboring landmasses have managed to reach Zephras seeking safety, bearing grim tidings that the other islands are disintegrating outright beneath their feet.",
+   "spoiler": 0
+  },
+  {
+   "title": "Threshold to Azeroth",
+   "body": "With their own landmass in slow decay, the Skyborne of Zephras have begun looking beyond the boundaries of Skywall toward Azeroth. From the skydocks of Valanaar, airships now venture forth to establish rare lifelines to the mortal realm. These voyages connect the airy domain directly to points on Azeroth, including the outskirts of Dalaran in the Alterac Mountains and the Skywatcher Plateau in Mulgore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Zephras Isle located?",
+   "aliases": [
+    "zephras isle location",
+    "where is zephras",
+    "what plane is zephras on"
+   ],
+   "answer": "Zephras Isle is situated inside Skywall, the Elemental Plane of air, rather than upon the surface of Azeroth. It floats among the perpetual clouds and wind currents of this ethereal domain."
+  },
+  {
+   "q": "Why is Zephras Isle falling apart?",
+   "aliases": [
+    "why is zephras collapsing",
+    "zephras isle destruction",
+    "dying island"
+   ],
+   "answer": "The island relied on the presence of native air elementals who once coexisted with the Skyborne. Several centuries ago, these elementals vanished, leaving the magical foundations that anchor and preserve the flying land to slowly weaken and decay over time."
+  },
+  {
+   "q": "What are Anvilas and Siroccas?",
+   "aliases": [
+    "anvilas",
+    "siroccas",
+    "other skyborne islands"
+   ],
+   "answer": "They are neighboring floating islands in Skywall also populated by the Skyborne. Zephras Isle lost communication with both when the elementals disappeared, and fleeing refugees now report that both Anvilas and Siroccas are collapsing into oblivion."
+  },
+  {
+   "q": "How do people travel between Zephras Isle and Azeroth?",
+   "aliases": [
+    "how to leave zephras",
+    "zephras airships",
+    "travel to azeroth"
+   ],
+   "answer": "The Skyborne operate skydocks at the settlement of Valanaar. Airships launch from these docks across the planar boundary to Azeroth, landing near Dalaran in the Alterac Mountains and at Skywatcher Plateau in Mulgore."
+  },
+  {
+   "q": "Who are the Skyborne?",
+   "aliases": [
+    "skyborne race",
+    "who lives on zephras"
+   ],
+   "answer": "The Skyborne are the inhabitants who make their home on Zephras Isle and its sister sky-realms. Having dwelled in Skywall for generations, they now face the slow destruction of their flying homeland as its binding magic fades."
+  },
+  {
+   "q": "Who lives on Zephras Isle besides the Skyborne?",
+   "aliases": [
+    "zephras inhabitants",
+    "enemies on zephras"
+   ],
+   "answer": "Aside from peaceful villages and visiting refugees, the island is troubled by local bandits, cavern-dwelling nightclaws, and beasts inhabiting areas like the Shriekling Den and Nightclaw Cavern."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "Zephras Isle is your ancestral home and starting ground, though its lingering beauty masks an urgent crisis of collapsing terrain and fading elemental power."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Existing directly within the Elemental Plane of air, Zephras Isle showcases what happens to elemental lands when the spirits that balance them suddenly disappear."
+  }
+ ],
+ "keywords": [
+  "airships",
+  "anvilas",
+  "elemental plane",
+  "siroccas",
+  "skyborne",
+  "skywall",
+  "valanaar",
+  "windstones",
+  "zephras"
+ ],
+ "related": [
+  "topic:skyborne",
+  "topic:skywall",
+  "topic:elemental-plane",
+  "npc:ventaari-brightwish",
+  "quest:93552",
+  "zone:alterac",
+  "zone:mulgore",
+  "subzone:dalaran"
+ ],
+ "attribution": [
+  "Zephras Isle"
+ ]
+}

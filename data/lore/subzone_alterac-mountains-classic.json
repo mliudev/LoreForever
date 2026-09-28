@@ -1,0 +1,95 @@
+{
+ "key": "subzone:alterac-mountains-classic",
+ "type": "subzone",
+ "name": "Alterac Mountains (Classic)",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "wiki": "Alterac Mountains (Classic)"
+ },
+ "summary": "The Alterac Mountains are a rugged, overcast highland rising sharply north of Hillsbrad Foothills, crowned with permanent snow and jagged peaks. Once the home of the human kingdom of Alterac and the scholarly redoubts of Dalaran, the region now lies largely in ruins, fought over by brutal ogres, noble-born bandits, and the opposing armies of Alterac Valley.",
+ "sections": [
+  {
+   "title": "A Shattered Highland",
+   "body": "Rising high above the Hillsbrad lowlands, the Alterac Mountains are a harsh realm of rain, pine, and high-altitude snow. Once anchored by three major human powers\u2014the mountain kingdom of Alterac, the magocracy of Dalaran, and the fortified town of Strahnbrad\u2014the region collapsed under betrayal and war. Today, the ruined capital of Alterac is squatted by the Crushridge ogres, Strahnbrad is occupied by outlaws, and the shattered remnants of Dalaran are sealed behind a shimmering, opaque violet dome while its surviving wizards work tirelessly to restore their ruined sanctuary.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bandits, Beasts, and War",
+   "body": "Beyond the indigenous mountain lions and yeti that stalk the frostbitten ridges, the uplands are contested by desperate mortal factions. The Syndicate\u2014dispossessed human nobles turned brigands\u2014wield blade and ambush from old estates and foothill encampments, clashing incessantly with the encroaching ogres. Meanwhile, deep passes leading into the high crags serve as staging camps for the bloody war between the Stormpike Expedition and the Frostwolf Clan over the hidden reaches of Alterac Valley.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the kingdom of Alterac?",
+   "aliases": [
+    "why is alterac in ruins",
+    "who ruled alterac",
+    "fall of alterac"
+   ],
+   "answer": "Alterac fell into disgrace during the Second War when its ruler, King Aiden Perenolde, betrayed the Grand Alliance to aid the Horde. Following the war, the kingdom was dismantled. Bereft of leadership, its cities crumbled, Strahnbrad fell to ruin, and its capital was overrun by the brutish Crushridge ogres."
+  },
+  {
+   "q": "Who are the Syndicate bandits in the mountains?",
+   "aliases": [
+    "who is the syndicate",
+    "why are there rogues in alterac",
+    "alterac bandits"
+   ],
+   "answer": "The Syndicate is an outlaw organization made up primarily of former Alterac nobility and their retainers. Having lost their land, status, and wealth after Alterac's betrayal, they took to espionage, assassination, and highway robbery in an attempt to reclaim the lands they believe are rightfully theirs."
+  },
+  {
+   "q": "What is the massive purple dome on the lake shore?",
+   "aliases": [
+    "purple bubble in alterac",
+    "what is dalaran bubble",
+    "magical shield dalaran"
+   ],
+   "answer": "That impenetrable magical dome encloses the ruins of Dalaran. After the city was razed by the demon lord Archimonde during the Third War, the surviving Kirin Tor mages erected the protective barrier to keep out the Scourge and Forsaken while they secretly reconstruct their devastated towers."
+  },
+  {
+   "q": "How do you reach Alterac Mountains?",
+   "aliases": [
+    "how to get to alterac",
+    "alterac entrance",
+    "path to alterac"
+   ],
+   "answer": "Travelers typically enter on foot from the Hillsbrad Foothills, taking the northern roads leading out of Tarren Mill or north of Southshore. Alternatively, daring swimmers can cross southeast over Lordamere Lake from the shores of Silverpine Forest or the outskirts of the Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Tucked away in a secluded mountain valley on the border of Alterac sits Ravenholdt Manor, the historic headquarters of the guild of thieves and assassins led by Lord Jorach Ravenholdt."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance maintains a forward outpost in these frozen hills under Lieutenant Haggerdin, recruiting stalwart fighters to reinforce the dwarven Stormpike Guard in Alterac Valley."
+  }
+ ],
+ "keywords": [
+  "alterac mountains",
+  "alterac valley",
+  "crushridge ogres",
+  "dalaran",
+  "lordamere",
+  "ruins of alterac",
+  "strahnbrad",
+  "syndicate",
+  "uplands"
+ ],
+ "related": [
+  "zone:alterac",
+  "subzone:ruins-of-alterac",
+  "subzone:strahnbrad",
+  "subzone:dalaran",
+  "subzone:ravenholdt-manor",
+  "topic:alterac-kingdom",
+  "topic:syndicate",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Alterac Mountains (Classic)"
+ ]
+}

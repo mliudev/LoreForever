@@ -1,0 +1,122 @@
+{
+ "key": "quest:143",
+ "type": "quest",
+ "name": "Messenger to Westfall",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   143
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Magistrate Solomon",
+  "end": "Gryan Stoutmantle",
+  "previous": "Messenger to Stormwind (2)",
+  "next": "Messenger to Westfall (2)",
+  "wiki": "Messenger to Westfall",
+  "chain": []
+ },
+ "summary": "Messenger to Westfall is an Alliance errand carrying an urgent plea from Magistrate Solomon in Redridge across Elwynn to Westfall. Facing total abandonment by the Stormwind military, Lakeshire's leadership seeks mutual aid from Gryan Stoutmantle's newly formed People's Militia.",
+ "sections": [
+  {
+   "title": "A Desperate Appeal",
+   "body": "Magistrate Solomon finds Lakeshire in a desperate situation. The Redridge Mountains are besieged by Blackrock orcs and gnolls, yet the Stormwind Army has failed to arrive in force. Recognizing that Lakeshire cannot survive on town guards and irregulars alone, Solomon writes a formal plea for assistance. With regular royal reserves nowhere in sight, he turns his eyes west, having heard word of a citizen defense group forming beyond Elwynn Forest.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reaching Across Borders",
+   "body": "The intended recipient of the dispatch is Gryan Stoutmantle, a veteran commander who has begun rallying volunteer fighters under the banner of the People's Militia. By sending a courier directly across the kingdom, Solomon hopes that Westfall's organized volunteers might spare troops to reinforce Lakeshire's borders until the Crown's armies finally mobilize. However, as messengers soon discover, Westfall is mired in its own catastrophic struggles against the Defias Brotherhood.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Magistrate Solomon asking Westfall for help?",
+   "aliases": [
+    "why westfall",
+    "solomons plea",
+    "why ask gryan"
+   ],
+   "answer": "Stormwind has failed to send the military reinforcements Lakeshire urgently needs against the orcs and gnolls. Having heard reports of an armed citizen force gathering in Westfall, Solomon hopes Gryan Stoutmantle can spare troops to reinforce Redridge."
+  },
+  {
+   "q": "Who is Gryan Stoutmantle?",
+   "aliases": [
+    "who is gryan",
+    "stoutmantle role",
+    "who leads westfall"
+   ],
+   "answer": "Gryan Stoutmantle is a veteran soldier stationed at Sentinel Hill in Westfall. In the absence of Crown authority and protection, he organized and leads the People's Militia to defend local farmsteads from brigands and the Defias Brotherhood."
+  },
+  {
+   "q": "Where does this courier journey lead?",
+   "aliases": [
+    "where do i deliver",
+    "where is stoutmantle",
+    "redridge to westfall"
+   ],
+   "answer": "The message must be carried from the town hall in Lakeshire all the way west across Redridge and Elwynn Forest, ending at Sentinel Hill in central Westfall."
+  },
+  {
+   "q": "Why hasn't the Stormwind Army relieved Lakeshire?",
+   "aliases": [
+    "why no stormwind army",
+    "where are royal guards",
+    "stormwind army missing"
+   ],
+   "answer": "Magistrate Solomon notes that something odd is afoot with the army, as promised troops have not materialized. Stormwind's leadership is gridlocked under the regency of Bolvar Fordragon and Lady Prestor, leaving outlying territories to fend for themselves."
+  },
+  {
+   "q": "Can Westfall actually spare any troops for Redridge?",
+   "aliases": [
+    "does westfall help",
+    "will militia come",
+    "can gryan help"
+   ],
+   "answer": "No. When you arrive at Sentinel Hill, you find that Westfall is barely holding together against the Defias Brotherhood. The People's Militia has no soldiers to spare and is struggling to protect its own borders."
+  },
+  {
+   "q": "What comes after delivering the letter?",
+   "aliases": [
+    "what next",
+    "follow up quest",
+    "after messenger to westfall"
+   ],
+   "answer": "Gryan Stoutmantle receives the message and immediately drafts a response explaining Westfall's dire situation, sending you back on a return journey with a reply for Magistrate Solomon."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This dispatch highlights the complete collapse of central defense in the Kingdom of Stormwind, forcing border towns to negotiate private mutual defense pacts."
+  },
+  {
+   "target": "race:Human",
+   "text": "The message demonstrates the shared plight of human settlers across Redridge and Westfall, who must rely on volunteers and mercenaries while the capital sits idle."
+  }
+ ],
+ "keywords": [
+  "gryan stoutmantle",
+  "lakeshire",
+  "magistrate solomon",
+  "peoples militia",
+  "redridge mountains",
+  "sentinel hill",
+  "solomons plea",
+  "westfall"
+ ],
+ "related": [
+  "npc:magistrate-solomon",
+  "npc:gryan-stoutmantle",
+  "quest:12",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "zone:westfall",
+  "topic:stormwind-kingdom",
+  "topic:stormwind-army"
+ ],
+ "attribution": [
+  "Messenger to Westfall"
+ ]
+}

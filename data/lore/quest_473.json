@@ -1,0 +1,124 @@
+{
+ "key": "quest:473",
+ "type": "quest",
+ "name": "Report to Captain Stoutfist",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   473
+  ],
+  "level": "26",
+  "faction": "Alliance",
+  "start": "Valstag Ironjaw",
+  "end": "Captain Stoutfist",
+  "previous": null,
+  "next": "War Banners",
+  "wiki": "Report to Captain Stoutfist",
+  "chain": []
+ },
+ "summary": "Report to Captain Stoutfist is an Alliance military directive in Menethil Harbor. Following initial skirmishes against the Dragonmaw clan at Dun Algaz, Mountaineer Valstag Ironjaw sends proven combatants inside the harbor's keep to coordinate deeper defense efforts. Captain Stoutfist commands the local garrison and is organizing direct strikes against the entrenched orcs across the Wetlands.",
+ "sections": [
+  {
+   "title": "A Widening Threat",
+   "body": "While dwarven mountaineers have long monitored the narrow mountain passes of Dun Algaz, the resurgence of the Dragonmaw clan cannot be contained to the borders of Loch Modan alone. Valstag Ironjaw recognizes that these orcs are pressing outward, establishing encampments and threatening the entirety of the marshlands. Securing the pass is merely the opening move in a larger campaign to safeguard the road to Ironforge.",
+   "spoiler": 0
+  },
+  {
+   "title": "The War Room of Menethil",
+   "body": "Deep inside Menethil Keep sits the war room, where Captain Stoutfist oversees the defenses of the Alliance port. Facing attacks from Dark Iron saboteurs, local beasts, and marsh murlocs, the captain relies on capable volunteers to counter external military threats. Valstag's recommendation confirms that you are hardened enough to take on direct orders against the Dragonmaw war machine.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me to Captain Stoutfist?",
+   "aliases": [
+    "who gives this quest",
+    "quest giver",
+    "valstag ironjaw"
+   ],
+   "answer": "Mountaineer Valstag Ironjaw, stationed in the mountain pass of Dun Algaz between Loch Modan and the Wetlands, sends you to report to Captain Stoutfist after you prove yourself in battle against the local Dragonmaw orcs."
+  },
+  {
+   "q": "Where is Captain Stoutfist located?",
+   "aliases": [
+    "captain stoutfist location",
+    "where is stoutfist",
+    "menethil war room"
+   ],
+   "answer": "Captain Stoutfist is inside Menethil Keep, located at the heart of Menethil Harbor in the western Wetlands. He can be found standing over tactical maps within the keep's war room."
+  },
+  {
+   "q": "Why are the Dragonmaw orcs a priority for Menethil Keep?",
+   "aliases": [
+    "why fight dragonmaw",
+    "dragonmaw threat",
+    "orcs in wetlands"
+   ],
+   "answer": "The Dragonmaw clan holds ancient strongholds throughout the Wetlands and poses an aggressive threat to the trade roads connecting Menethil Harbor with Ironforge. With their forces pressing beyond Dun Algaz, the garrison cannot ignore their growing encampments."
+  },
+  {
+   "q": "What happens after reporting to Captain Stoutfist?",
+   "aliases": [
+    "what next",
+    "followup quest",
+    "after report to stoutfist"
+   ],
+   "answer": "Once you report to Captain Stoutfist, he enlists you directly into the offensive against the Dragonmaw clan, dispatching you to target their encampments and strike down their war banners in the marsh."
+  },
+  {
+   "q": "Who are the Dragonmaw orcs in the Wetlands?",
+   "aliases": [
+    "dragonmaw lore",
+    "who are dragonmaw",
+    "wetlands orcs"
+   ],
+   "answer": "The Dragonmaw are remnants of the old Horde who famously enslaved red dragons at Grim Batol during the Second War. Though Grim Batol was broken, surviving warbands remain entrenched across the marshlands, raiding travelers and defying Alliance authority."
+  },
+  {
+   "q": "Why is Menethil Harbor stretched so thin?",
+   "aliases": [
+    "menethil defense",
+    "why are troops busy",
+    "harbor problems"
+   ],
+   "answer": "Menethil Harbor contends with constant marsh wildlife, encroaching murlocs, and hostile Dark Iron dwarves attempting to undermine the port. With garrison forces occupied defending the walls and docks, Captain Stoutfist relies on outside champions to strike distant orc outposts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Defending the trade line between Menethil Harbor and the gates of Ironforge is vital to the security of Khaz Modan, making this assignment essential dwarf business."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Menethil Harbor serves as the primary gateway for storming goods and reinforcements between the southern kingdoms and Khaz Modan; losing the road to orc raiding parties would cripple Alliance trade."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Valstag Ironjaw recognizes raw combat prowess, dispatching seasoned front-line fighters directly to Captain Stoutfist's tactical command."
+  }
+ ],
+ "keywords": [
+  "captain stoutfist",
+  "dragonmaw",
+  "dun algaz",
+  "menethil harbor",
+  "menethil keep",
+  "valstag ironjaw",
+  "war room",
+  "wetlands"
+ ],
+ "related": [
+  "npc:captain-stoutfist",
+  "npc:valstag-ironjaw",
+  "quest:464",
+  "zone:wetlands",
+  "subzone:dun-algaz",
+  "subzone:war-room"
+ ],
+ "attribution": [
+  "Report to Captain Stoutfist"
+ ]
+}

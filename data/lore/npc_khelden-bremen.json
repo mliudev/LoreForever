@@ -1,0 +1,70 @@
+{
+ "key": "npc:khelden-bremen",
+ "type": "npc",
+ "name": "Khelden Bremen",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Khelden Bremen",
+  "refs": 1
+ },
+ "summary": "Khelden Bremen is a human mage and instructor stationed on the upper floor of Northshire Abbey in Elwynn Forest. He oversees the earliest instruction of novice spellcasters who take up the arcane arts in service to Stormwind.",
+ "sections": [
+  {
+   "title": "Tutor of the Arcane",
+   "body": "Situated within the tranquil stone walls of Northshire Abbey, Khelden Bremen acts as the primary instructor for fledgling human mages. While the clergy and defenders handle martial and spiritual pursuits below, Bremen maintains a quiet study upstairs. Here, he introduces novices to the discipline, focus, and fundamental techniques required to weave raw magical energy safely before they venture out into Elwynn Forest and beyond to Stormwind's Mage Quarter.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Khelden Bremen?",
+   "aliases": [
+    "who is khelden",
+    "bremen",
+    "mage trainer northshire"
+   ],
+   "answer": "Khelden Bremen is the resident mage trainer at Northshire Abbey in Elwynn Forest. He guides newly awakened mages through their first spells and foundational arcane studies."
+  },
+  {
+   "q": "Where can I find Khelden Bremen?",
+   "aliases": [
+    "where is khelden",
+    "khelden bremen location",
+    "northshire mage trainer location"
+   ],
+   "answer": "He is located on the second floor of Northshire Abbey. Enter the abbey and head up the staircase found in the second room on the left."
+  },
+  {
+   "q": "What role does he play for new adventurers?",
+   "aliases": [
+    "what does khelden do",
+    "bremen quests",
+    "glyphic letter recipient"
+   ],
+   "answer": "Aspiring human mages are directed to Khelden upon arriving in Northshire, often bearing a Glyphic Letter of introduction. He teaches essential early spells and helps novices harness their magical aptitude."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For human mages, Khelden Bremen represents the first formal step into arcane scholarship before continuing advanced training in the towers of Stormwind City."
+  }
+ ],
+ "keywords": [
+  "arcane",
+  "elwynn forest",
+  "glyphic letter",
+  "khelden bremen",
+  "mage trainer",
+  "northshire abbey"
+ ],
+ "related": [
+  "subzone:northshire-abbey",
+  "quest:3104",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Khelden Bremen"
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "key": "subzone:circle-of-west-binding",
+ "type": "subzone",
+ "name": "Circle of West Binding",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Circle of West Binding"
+ },
+ "summary": "The Circle of West Binding is one of several ancient ritual sites scattered across the Arathi Highlands, situated near Thoradin's Wall. Centered around the Stone of West Binding, this arcane ring is overrun by fiery elemental entities bound to the site.",
+ "sections": [
+  {
+   "title": "The Western Keystone",
+   "body": "Tucked against the rugged slopes near Thoradin's Wall, the Circle of West Binding forms part of a wider network of ritual sites dispersed throughout the Arathi Highlands. At its heart sits the Stone of West Binding, an ancient relic tied to elemental containment. The grounds are swarming with Burning Exiles\u2014volatile fire elementals that relentlessly guard the perimeter, making any approach to the stone a perilous endeavor for travelers traversing the western plains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Circle of West Binding?",
+   "aliases": [
+    "circle of west binding",
+    "stone of west binding",
+    "west binding circle"
+   ],
+   "answer": "It is an ancient ritual site in western Arathi Highlands, located near Thoradin's Wall. It holds the Stone of West Binding and is fiercely guarded by hostile fire elementals."
+  },
+  {
+   "q": "Why are there fire elementals here?",
+   "aliases": [
+    "burning exiles arathi",
+    "why fire elementals west binding",
+    "elementals circle of west binding"
+   ],
+   "answer": "The Burning Exiles inhabit and guard the Stone of West Binding. They are elemental forces drawn or bound to the ancient magical foci constructed across the Arathi Highlands."
+  },
+  {
+   "q": "Who is Ruul Onestone?",
+   "aliases": [
+    "ruul onestone",
+    "ruul",
+    "dwarf at west binding"
+   ],
+   "answer": "Ruul Onestone is an individual found associated with the site, interested in the mysterious properties and dangers surrounding the elemental binding stone."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The binding stones of Arathi offer arcane practitioners insight into how ancient mages and shamans anchored and subdued planar elemental entities."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The volatile presence of the Burning Exiles reveals the lingering elemental unrest tethered to these ancient Arathi keystones."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "burning exile",
+  "circle of west binding",
+  "elemental",
+  "ruul onestone",
+  "stone of west binding",
+  "thoradin's wall"
+ ],
+ "related": [
+  "zone:arathi",
+  "subzone:thoradin-s-wall"
+ ],
+ "attribution": [
+  "Circle of West Binding"
+ ]
+}

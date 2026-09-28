@@ -1,0 +1,95 @@
+{
+ "key": "subzone:eastvale-logging-camp",
+ "type": "subzone",
+ "name": "Eastvale Logging Camp",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Eastvale Logging Camp"
+ },
+ "summary": "Eastvale Logging Camp is a vital lumber settlement tucked into the eastern woodlands of Elwynn Forest, near the border with the Redridge Mountains. The camp supplies vital timber to Stormwind and surrounding settlements, but its operations are constantly hampered by hungry predators prowling the surrounding forests.",
+ "sections": [
+  {
+   "title": "A Vital Operation Under Siege",
+   "body": "Orders for timber constantly stream into Eastvale Logging Camp from buyers across the Kingdom of Stormwind, but meeting these strict deadlines is a harrowing task. The dense wilderness surrounding the camp swarms with vicious wolves and prowling bears that routinely chase lumberjacks away from their worksites, leaving valuable cut timber abandoned in the woods. Under the direction of Supervisor Raelen, the camp frequently relies on wandering adventurers to cull the encroaching beasts and retrieve fallen wood before deliveries fall fatally behind schedule.",
+   "spoiler": 0
+  },
+  {
+   "title": "Life on the Eastern Frontier",
+   "body": "Despite its remote location, Eastvale is more than just a logging outpost. It features several residential dwellings and bustling horse stables where travelers can purchase fine mounts. The lumber trade here is closely tied to Stormwind nobility, including Lord Joran Tremaind, whose family maintains significant business interests in the camp's timber harvest. On a nearby hill overlooking the worksite sits the quiet manor of retired Marshal Haggard, the former leader of the Stormwind Guard, who withdrew to this rustic outpost to live out his retirement away from capital politics.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the main purpose of Eastvale Logging Camp?",
+   "aliases": [
+    "why is eastvale here",
+    "what is eastvale",
+    "eastvale lumber role"
+   ],
+   "answer": "Eastvale serves as the primary timber source in eastern Elwynn Forest for the Kingdom of Stormwind. Lumberjacks here work long hours under strict deadlines to fulfill heavy demands for wood from builders and nobles across the realm."
+  },
+  {
+   "q": "Why is the logging camp always hiring adventurers?",
+   "aliases": [
+    "eastvale problems",
+    "why do loggers need help",
+    "wolves at eastvale"
+   ],
+   "answer": "Dense woods surround the camp, and aggressive wild bears and prowling wolves constantly menace the workers. The attacks often force the woodcutters to flee, leaving chopped timber behind and putting timber orders at serious risk of missing shipment deadlines."
+  },
+  {
+   "q": "Who is Marshal Haggard?",
+   "aliases": [
+    "haggard",
+    "old man near eastvale",
+    "marshal haggard elwynn"
+   ],
+   "answer": "Marshal Haggard is the retired former leader of the Stormwind Guard. He stepped down from service a few years ago and now resides in a peaceful estate on the bluffs overlooking the Eastvale Logging Camp."
+  },
+  {
+   "q": "Can you buy mounts at Eastvale Logging Camp?",
+   "aliases": [
+    "horse vendor eastvale",
+    "eastvale horses",
+    "buy mount elwynn"
+   ],
+   "answer": "Yes. The logging camp features an active horse-breeding stable where Alliance adventurers can purchase riding horses and riding training."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, Eastvale provides the essential timber that continues to rebuild and maintain the kingdom's settlements."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Eastvale Logging Camp is one of the premier locations in Elwynn Forest where Alliance members can purchase dependable Stormwind steeds."
+  }
+ ],
+ "keywords": [
+  "eastvale",
+  "elwynn",
+  "haggard",
+  "horses",
+  "logging camp",
+  "lumber",
+  "raelen",
+  "timber",
+  "tremaind"
+ ],
+ "related": [
+  "npc:supervisor-raelen",
+  "quest:1666",
+  "quest:52",
+  "quest:5545",
+  "zone:elwynn",
+  "topic:stormwind-kingdom",
+  "zone:redridge",
+  "subzone:goldshire"
+ ],
+ "attribution": [
+  "Eastvale Logging Camp"
+ ]
+}

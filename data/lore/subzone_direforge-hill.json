@@ -1,0 +1,92 @@
+{
+ "key": "subzone:direforge-hill",
+ "type": "subzone",
+ "name": "Direforge Hill",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Direforge Hill"
+ },
+ "summary": "Direforge Hill is a rugged highland nestled in the northeastern Wetlands, situated between the Green Belt and the mountains bordering the Arathi Highlands. Under the command of the dark warlock Balgaras the Foul, a contingent of treacherous Dark Iron dwarves has fortified these slopes. Their fiery sorcery and encampments pose an immediate peril to the surrounding wetlands and the ancient guardians watching over them.",
+ "sections": [
+  {
+   "title": "A Bastion of Dark Sorcery",
+   "body": "Perched southeast of the contested stronghold of Dun Modr, Direforge Hill serves as a strategic staging ground for the Dark Iron clan within the Wetlands. Rather than merely mining or fortifying the hills, the dwarves under Balgaras the Foul practice dark magics that threaten to scorch the surrounding bogs. From crude wooden stockades and bonfires, these hostile dwarves launch raids and guard their encampment fiercely, defying both the Ironforge patrols guarding the roads and the primal caretakers seeking to keep the marshland alive.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat to the Wetlands",
+   "body": "The presence of Balgaras and his followers atop Direforge Hill extends far beyond normal border skirmishes. Dark Iron warlock magic defiles the natural balance of the Wetlands, drawing the ire of protectors such as Rethiel the Greenwarden down in the marsh. Left unchecked, the defilement and burning camps upon the hillside could spread unchecked into the Green Belt and down toward Raptor Ridge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Direforge Hill located?",
+   "aliases": [
+    "direforge hill location",
+    "where is direforge hill",
+    "direforge wetlands"
+   ],
+   "answer": "Direforge Hill is located in the northeastern portion of the Wetlands. It lies southeast of Dun Modr, just northeast of the lush Green Belt, and northwest of the rocky bluffs of Raptor Ridge."
+  },
+  {
+   "q": "Who controls Direforge Hill right now?",
+   "aliases": [
+    "who is at direforge hill",
+    "who lives at direforge hill",
+    "direforge hill mobs"
+   ],
+   "answer": "The hill is occupied by hostile Dark Iron dwarves commanded by the warlock Balgaras the Foul. They have fortified the high ground with barricades, watchtowers, and open flame pits."
+  },
+  {
+   "q": "Why is Direforge Hill significant to the Wetlands?",
+   "aliases": [
+    "why is direforge hill important",
+    "direforge threat",
+    "what is happening at direforge hill"
+   ],
+   "answer": "The Dark Iron encampment acts as a staging area for subversive activity in northern Wetlands. Their foul warlock sorcery and fires threaten the surrounding nature, drawing the attention of local nature guardians and Ironforge scouts alike."
+  },
+  {
+   "q": "Who is Balgaras the Foul?",
+   "aliases": [
+    "balgaras",
+    "balgaras the foul lore",
+    "who is balgaras"
+   ],
+   "answer": "Balgaras the Foul is a Dark Iron dwarf warlock who commands the forces encamped at Direforge Hill. His corrupted arts and aggressive presence in the hills make him a priority target for those defending the marsh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For the Bronzebeard dwarves of Ironforge, seeing the treachery of the Dark Iron clan creep into the Wetlands\u2014especially under warlocks like Balgaras\u2014is an outrage that must be answered with cold steel."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The dark, burning magic wielded by the warlocks of Direforge Hill threatens the primordial balance of the Wetlands, directly disturbing guardians like Rethiel the Greenwarden."
+  }
+ ],
+ "keywords": [
+  "balgaras",
+  "balgaras the foul",
+  "dark iron dwarves",
+  "direforge",
+  "direforge hill",
+  "dun modr",
+  "green belt",
+  "wetlands"
+ ],
+ "related": [
+  "zone:wetlands",
+  "subzone:dun-modr",
+  "subzone:green-belt",
+  "subzone:raptor-ridge",
+  "npc:rethiel-the-greenwarden",
+  "quest:463"
+ ],
+ "attribution": [
+  "Direforge Hill"
+ ]
+}

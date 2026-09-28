@@ -1,0 +1,107 @@
+{
+ "key": "npc:karang-amakkar",
+ "type": "npc",
+ "name": "Karang Amakkar",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Karang Amakkar",
+  "refs": 3
+ },
+ "summary": "Karang Amakkar is an orc scout stationed at Zoram'gar Outpost along the rocky coast of Ashenvale. Operating on the fringe of Horde territory, he focuses on curbing the violent furbolg tribes that threaten the outpost's supply lines and borders. Adventurers travelling through the outpost rely on his local intelligence to navigate the perilous tensions of the forest.",
+ "sections": [
+  {
+   "title": "On the Coast of Ashenvale",
+   "body": "Perched at Zoram'gar Outpost on the Zoram Strand, Karang Amakkar serves the Horde at one of its most vulnerable border outposts. The encampment faces constant pressure from the sea, the night elves, and wild beasts inland. Karang keeps a close eye on the hostile native populations that surround the road eastward, ensuring that Horde couriers and scouting parties do not get ambushed by territorial indigenous tribes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dealing with the Furbolgs",
+   "body": "Karang focuses much of his attention on the furbolg populations native to the ancient woods, notably the Thistlefur and Foulweald tribes. With corruption and primal hostility driving these bear-folk into frenzies, Karang tasks capable warriors with culling their leaders and clearing out dens before the tribes can muster organized assaults against Zoram'gar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Karang Amakkar?",
+   "aliases": [
+    "karang",
+    "who is karang",
+    "karang amakkar lore"
+   ],
+   "answer": "Karang Amakkar is an orc questgiver stationed at Zoram'gar Outpost along the coast of Ashenvale. He works on behalf of the Horde to manage regional threats, especially hostile furbolg clans."
+  },
+  {
+   "q": "Where can I find Karang Amakkar?",
+   "aliases": [
+    "karang location",
+    "where is karang amakkar",
+    "karang amakkar spot"
+   ],
+   "answer": "He is located in Zoram'gar Outpost, on the northwestern shoreline of Ashenvale along the Zoram Strand."
+  },
+  {
+   "q": "What tasks does Karang Amakkar offer?",
+   "aliases": [
+    "karang quests",
+    "karang tasks",
+    "what does karang want"
+   ],
+   "answer": "Karang tasks Horde adventurers with confronting aggressive furbolg tribes nearby, directing strikes against the Thistlefur clan and the leader of the Foulweald."
+  },
+  {
+   "q": "Why is Karang worried about the furbolgs?",
+   "aliases": [
+    "why kill furbolgs",
+    "furbolg threat ashenvale",
+    "thistlefur threat"
+   ],
+   "answer": "The furbolgs in Ashenvale have grown increasingly savage and corrupt, attacking travelers and threatening to cut off Zoram'gar Outpost from the rest of the Horde's strongholds in the region."
+  },
+  {
+   "q": "Is Karang Amakkar related to Initiate Amakkar?",
+   "aliases": [
+    "amakkar family",
+    "initiate amakkar relative",
+    "karang family"
+   ],
+   "answer": "While they share a clan name or family surname, any exact familial relationship between Karang and Initiate Amakkar remains unconfirmed."
+  },
+  {
+   "q": "Does Karang fight the night elves directly?",
+   "aliases": [
+    "karang vs night elves",
+    "karang alliance"
+   ],
+   "answer": "Karang's duties in Zoram'gar primarily focus on territorial defense and dealing with wild threats like the Thistlefur furbolgs, leaving overt military maneuvers against the night elves to other Horde commanders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Karang Amakkar provides vital aid to Horde travelers braving the western reaches of Ashenvale, offering work to push back hostile creatures surrounding Zoram'gar Outpost."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Stationed on a remote outpost far from Durotar, Karang embodies the gritty determination of orcish sentries holding dangerous frontier borders."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "foulweald",
+  "furbolg",
+  "karang amakkar",
+  "thistlefur",
+  "zoram strand",
+  "zoram'gar outpost"
+ ],
+ "related": [
+  "subzone:zoram-gar-outpost",
+  "zone:ashenvale",
+  "quest:216",
+  "quest:6621"
+ ],
+ "attribution": [
+  "Karang Amakkar"
+ ]
+}

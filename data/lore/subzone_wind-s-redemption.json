@@ -1,0 +1,74 @@
+{
+ "key": "subzone:wind-s-redemption",
+ "type": "subzone",
+ "name": "Wind's Redemption",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Wind's Redemption"
+ },
+ "summary": "The Wind's Redemption is an imposing warship of the Alliance navy under the command of Grand Admiral Jes-Tereth. Built to carry key commanders and elite troops into critical theaters, it stands as a symbol of Stormwind's maritime projection.",
+ "sections": [
+  {
+   "title": "A Pride of the Fleet",
+   "body": "The Wind's Redemption is one of the premier battleships serving the Alliance naval forces. Outfitted for both frontline combat and high-priority transit, the warship is entrusted to Grand Admiral Jes-Tereth, one of Stormwind's foremost naval authorities. It is built to weather harsh seas and hostile fire alike, providing the Alliance with heavy firepower and logistical reach across Azeroth's waterways.",
+   "spoiler": 0
+  },
+  {
+   "title": "Elite Service",
+   "body": "Rather than serving as a standard transport, the vessel is typically reserved for vital missions requiring hardened forces and elite personnel. Whether conveying crucial tactical assets or operating in coordination with military leadership, the vessel represents the strong naval backing supporting Alliance interests across the globe.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Wind's Redemption?",
+   "aliases": [
+    "what ship is this",
+    "winds redemption",
+    "what kind of boat is winds redemption"
+   ],
+   "answer": "The Wind's Redemption is a major battleship serving the Alliance navy, designed for heavy combat and the transport of elite forces and leadership."
+  },
+  {
+   "q": "Who captains the ship?",
+   "aliases": [
+    "who is captain",
+    "winds redemption commander",
+    "jes tereth ship"
+   ],
+   "answer": "The ship is captained by Grand Admiral Jes-Tereth, a high-ranking naval commander of the Alliance."
+  },
+  {
+   "q": "What is the ship's purpose?",
+   "aliases": [
+    "why is it here",
+    "winds redemption mission"
+   ],
+   "answer": "The vessel is designated for strategic operations, transporting high-profile commanders and coordinating vital naval actions across Alliance territories."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The vessel represents the pinnacle of Alliance naval strength and logistical might, serving directly under Grand Admiral Jes-Tereth."
+  }
+ ],
+ "keywords": [
+  "alliance navy",
+  "battleship",
+  "jes-tereth",
+  "stormwind",
+  "warship",
+  "wind's redemption",
+  "winds redemption"
+ ],
+ "related": [
+  "npc:grand-admiral-jes-tereth",
+  "topic:alliance",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Wind's Redemption"
+ ]
+}

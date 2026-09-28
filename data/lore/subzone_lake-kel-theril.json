@@ -1,0 +1,87 @@
+{
+ "key": "subzone:lake-kel-theril",
+ "type": "subzone",
+ "name": "Lake Kel'Theril",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Lake Kel'Theril"
+ },
+ "summary": "Lake Kel'Theril is a vast, frozen lake nestled in the heart of Winterspring. Along its ice-locked shores stand ancient kaldorei ruins haunted by restless spirits who have lingered since the Great Sundering.",
+ "sections": [
+  {
+   "title": "A Frozen Tomb of the Highborne",
+   "body": "Lake Kel'Theril is shrouded in eternal cold, its waters sealed under thick sheets of ice. Scattered across its surface and snowy banks are the shattered pillars and arches of ancient elven architecture. These are the remnants of Kel'Theril, once an outpost of the ancient Highborne civilization before the Great Sundering shattered Kalimdor. Rather than finding rest in death, the spirits of the fallen aristocracy wander the ice as tormented ghosts and specters, forever tethered to the tragic remnants of their former glory.",
+   "spoiler": 0
+  },
+  {
+   "title": "Restless Magic and Invasions",
+   "body": "The concentration of lingering arcane energy and restless ectoplasm makes the frozen lake a draw for occult researchers and adventurers alike. When the elemental planes violently bleed into Azeroth during periodic elemental incursions, volatile water elementals led by Princess Tempestria have manifested across the frozen expanse, turning the haunted waters into a furious battleground between ancient dead and rampaging elementals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the lake haunted by night elves?",
+   "aliases": [
+    "lake keltheril ghosts",
+    "why are there spirits here",
+    "winterspring lake ghosts"
+   ],
+   "answer": "The spirits wandering Lake Kel'Theril are the tormented ghosts of ancient Highborne. When the Great Sundering tore Kalimdor apart ten thousand years ago, the catastrophic collapse of their civilization left their souls bound to the icy ruins of their former settlement."
+  },
+  {
+   "q": "What ruins stand along the lake's shores?",
+   "aliases": [
+    "ruins in the lake",
+    "what are the keltheril ruins"
+   ],
+   "answer": "The crumbling pillars and stonework belong to the Ruins of Kel'Theril, an ancient kaldorei settlement that thrived during the reign of the Highborne prior to the War of the Ancients."
+  },
+  {
+   "q": "Who is Princess Tempestria?",
+   "aliases": [
+    "princess tempestria",
+    "lake elemental boss"
+   ],
+   "answer": "Princess Tempestria is a powerful water elemental lord who emerges upon the frozen surface of Lake Kel'Theril during periodic elemental invasions that disturb the world's natural planar boundaries."
+  },
+  {
+   "q": "Why do adventurers seek out the spirits here?",
+   "aliases": [
+    "lake ectoplasm",
+    "why hunt spirits in winterspring"
+   ],
+   "answer": "Scholars, arcanists, and armor crafters frequently seek the potent ectoplasm left behind by the restless Highborne phantoms to empower enchanted gear and magical relics."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The tragic specters walking Lake Kel'Theril serve as a chilling reminder of the ruin brought about by the reckless arrogance of the ancient Highborne."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The ethereal ectoplasm harvested from the lingering Highborne spirits here holds remarkable residual arcane resonance, ideal for advanced magical attunements."
+  }
+ ],
+ "keywords": [
+  "ectoplasm",
+  "highborne",
+  "kel'theril",
+  "lake kel'theril",
+  "princess tempestria",
+  "ruins of kel'theril",
+  "specters",
+  "winterspring"
+ ],
+ "related": [
+  "subzone:ruins-of-kel-theril",
+  "zone:winterspring",
+  "topic:highborne",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Lake Kel'Theril"
+ ]
+}

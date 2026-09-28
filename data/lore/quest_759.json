@@ -1,0 +1,121 @@
+{
+ "key": "quest:759",
+ "type": "quest",
+ "name": "Wildmane Totem",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   759
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Mull Thunderhorn",
+  "end": "",
+  "previous": "Thunderhorn Cleansing (Classic)",
+  "next": "Wildmane Cleansing (Classic)",
+  "wiki": "Wildmane Totem (Classic)",
+  "chain": []
+ },
+ "summary": "Wildmane Totem represents the third and final stage in Mull Thunderhorn's efforts to craft cleansing totems for Mulgore's poisoned wells. To restore the Wildmane Well, the ritual demands offerings taken from the territory's fiercest natural predators: prairie wolf alphas.",
+ "sections": [
+  {
+   "title": "The Final Well",
+   "body": "After securing the materials required to consecrate totems for the Winterhoof and Thunderhorn wells, only one afflicted source remains in central Mulgore: the Wildmane Well. The poisoned water across the plains threatens both migrating wildlife and settlements, demanding powerful primal ingredients to restore the earth's natural balance.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Predator's Strength",
+   "body": "To counter the potent corruption lingering in the northern waters, Mull Thunderhorn requires a sacrifice of ferocity. Prairie wolf alphas prowl the grasslands, particularly around the towering bluffs beneath Thunder Bluff. Harvesting their teeth channels the relentless drive and resilience of Mulgore's apex hunters directly into the crafting of the cleansing totem.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sacrifice and Balance",
+   "body": "In tauren spiritual tradition, drawing upon the land's creatures carries emotional and elemental weight. Mull views the gathering of alpha teeth not as conquest, but as a somber necessity where the sacrifice of Mulgore's predators helps heal the Earth Mother's stricken waters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Wildmane Totem needed for?",
+   "aliases": [
+    "why make wildmane totem",
+    "wildmane totem purpose"
+   ],
+   "answer": "The totem is crafted by Mull Thunderhorn to cleanse the Wildmane Well, the final contaminated water source endangering the tauren of Mulgore."
+  },
+  {
+   "q": "Why are prairie wolf alpha teeth specifically required?",
+   "aliases": [
+    "why wolf teeth",
+    "prairie alpha teeth purpose"
+   ],
+   "answer": "Purifying the deep contamination at the Wildmane Well requires channeling the fierce, unyielding strength of an apex predator. The teeth of the pack leaders provide the necessary primal power."
+  },
+  {
+   "q": "Where are prairie wolf alphas found in Mulgore?",
+   "aliases": [
+    "prairie wolf alpha location",
+    "where to find prairie alphas"
+   ],
+   "answer": "Prairie wolf alphas wander the northern plains of Mulgore, commonly prowling the grasslands surrounding the base of Thunder Bluff."
+  },
+  {
+   "q": "Who crafts the totem?",
+   "aliases": [
+    "who makes the totem",
+    "totem quest giver"
+   ],
+   "answer": "Mull Thunderhorn, a spiritual elder stationed in Bloodhoof Village, crafts each cleansing totem after an initiate gathers the necessary offerings."
+  },
+  {
+   "q": "What follows the crafting of the Wildmane Totem?",
+   "aliases": [
+    "what comes next",
+    "wildmane totem next quest"
+   ],
+   "answer": "Once Mull Thunderhorn assembles the totem from the alpha teeth, you are sent north with it to perform the actual purification at the Wildmane Well."
+  },
+  {
+   "q": "How does this ritual reflect tauren beliefs?",
+   "aliases": [
+    "tauren philosophy totem",
+    "mull thunderhorn beliefs"
+   ],
+   "answer": "The tauren view taking an animal's life as a solemn exchange with nature. Mull acknowledges the sacrifice of the wolves with both sadness for their death and pride in their role in healing the earth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The cleansing of ancestral wells underscores the tauren obligation to mend environmental imbalance and honor the sacrifices demanded by the Earth Mother."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman appreciate the delicate rites involved in harmonizing predator totems with elemental water to purge toxic blights."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking down the cunning alpha wolves around the high bluffs tests a hunter's respect for the wilderness and its sharpest predators."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "mulgore",
+  "mull thunderhorn",
+  "prairie wolf alpha",
+  "thunder bluff",
+  "totem",
+  "water well",
+  "wildmane"
+ ],
+ "related": [
+  "npc:mull-thunderhorn",
+  "subzone:bloodhoof-village",
+  "zone:mulgore",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Wildmane Totem (Classic)"
+ ]
+}

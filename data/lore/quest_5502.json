@@ -1,0 +1,113 @@
+{
+ "key": "quest:5502",
+ "type": "quest",
+ "name": "A Warden of the Horde",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   5502
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Orcish Orphan",
+  "end": "Orphan Matron Battlewail",
+  "previous": "You Scream, I Scream... (Horde), Let's Go Fly a Kite (Horde)",
+  "next": null,
+  "wiki": "A Warden of the Horde",
+  "chain": []
+ },
+ "summary": "A Warden of the Horde marks the heartwarming conclusion to Children's Week in Orgrimmar. Having shown young Grunth the wonders and heroes of Kalimdor, you fulfill his selfless final wish to bring foam swords back to his fellow orphans before safely returning him to Orphan Matron Battlewail.",
+ "sections": [
+  {
+   "title": "A Selfless Final Wish",
+   "body": "Throughout Children's Week, adventurers escort young Grunth across the lands of the Horde, sharing adventures that orphaned youths in Orgrimmar rarely experience. Rather than asking for another personal adventure or grand souvenir, Grunth's final request looks outward to his peers. Remembering the toys sold by the goblin vendor Blax Bottlerocket along the busy avenues of the Drag, he asks for a rack of foam swords so that every child at the orphanage can play and train together.",
+   "spoiler": 0
+  },
+  {
+   "title": "Home to the Drag",
+   "body": "Returning to the orphanage nestled in the Drag, adventurers deliver both the toys and their young charge back into the care of Orphan Matron Battlewail. Taking responsibility for the young is considered a profound duty in the new Horde, where war has left countless children without parents. Battlewail commends your compassion as the true measure of a hero of the Horde, and Grunth parts ways with a beloved pet to ensure you remember the bond forged during your travels.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "warden of the horde summary",
+    "childrens week ending horde"
+   ],
+   "answer": "This quest concludes the Horde's Children's Week festivities. After journeying together, you buy a foam sword rack for the other orphans from Blax Bottlerocket and return Grunth to Orphan Matron Battlewail in the Drag."
+  },
+  {
+   "q": "Who is Grunth?",
+   "aliases": [
+    "who is the orc orphan",
+    "grunth lore"
+   ],
+   "answer": "Grunth is an orcish youth residing at the Orgrimmar Orphanage in the Drag. During Children's Week, he is paired with a Horde champion who takes him across Kalimdor to see legendary figures and grand sights."
+  },
+  {
+   "q": "Where can I find Blax Bottlerocket?",
+   "aliases": [
+    "blax bottlerocket location",
+    "where is the toy vendor"
+   ],
+   "answer": "Blax Bottlerocket is a goblin wandering vendor who pushes his toy cart up and down the main thoroughfare of the Drag in Orgrimmar."
+  },
+  {
+   "q": "Who oversees the orphans in Orgrimmar?",
+   "aliases": [
+    "orphan matron horde",
+    "who runs the orphanage"
+   ],
+   "answer": "Orphan Matron Battlewail manages the Orgrimmar Orphanage in the Drag, dedicating her life to sheltering and raising the Horde's war orphans."
+  },
+  {
+   "q": "Why does Grunth want a foam sword rack?",
+   "aliases": [
+    "why foam swords",
+    "grunth final wish"
+   ],
+   "answer": "Grunth feels fortunate to have seen the world during the festival and wants to bring joy back to the other orphans. A rack of foam swords allows all the children to play and practice their martial skills together."
+  },
+  {
+   "q": "Why is Children's Week important to the Horde?",
+   "aliases": [
+    "childrens week lore",
+    "why care for orphans horde"
+   ],
+   "answer": "Decades of relentless warfare against demons, humans, and centaur have left countless Horde children without families. Children's Week is a time for warriors to step away from the battlefield and honor the future generations of Durotar and beyond."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, strength is not merely martial prowess; it is the collective will to protect and uplift the vulnerable who will one day carry the banner of the Warchief."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcish culture prizes courage and honor, and showing compassion to an orphaned child like Grunth exemplifies the nobility Thrall seeks to instill in the new Horde."
+  }
+ ],
+ "keywords": [
+  "battlewail",
+  "blax bottlerocket",
+  "children's week",
+  "drag",
+  "foam sword rack",
+  "grunth",
+  "orgrimmar",
+  "orphan"
+ ],
+ "related": [
+  "npc:orphan-matron-battlewail",
+  "npc:grunth",
+  "zone:orgrimmar",
+  "subzone:drag",
+  "topic:horde"
+ ],
+ "attribution": [
+  "A Warden of the Horde"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "key": "quest:96393",
+ "type": "quest",
+ "name": "Old Ironforge Incursion",
+ "era": "forever",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   96393
+  ],
+  "level": "16",
+  "faction": null,
+  "start": "Earthseer Farsen",
+  "end": "King Magni Bronzebeard",
+  "previous": "Underground Map",
+  "next": "",
+  "wiki": "Old Ironforge Incursion",
+  "chain": []
+ },
+ "summary": "Old Ironforge Incursion is the culminating mission in the investigation of Dark Iron infiltrators lurking deep beneath Ironforge. Directed by Earthseer Farsen, champions delve into the ancient Hall of Thanes beneath Old Ironforge to eliminate the enemy commander, Durgen Dirgehammer, and report the threat directly to King Magni Bronzebeard.",
+ "sections": [
+  {
+   "title": "Breaching the Vaults",
+   "body": "Following the discovery of an underground map revealing Dark Iron movements, Earthseer Farsen identifies the mastermind behind the subterranean intrusion. Deep within the ancient stone halls of Old Ironforge lies the entrance to the Hall of Thanes. While the upper city busies itself with surface matters, insidious forces have slipped into these dormant caverns right under the kingdom's feet.",
+   "spoiler": 0
+  },
+  {
+   "title": "Durgen Dirgehammer",
+   "body": "Farsen's translation of captured Dark Iron documents points to a single commander orchestrating the operations: Durgen Dirgehammer. Positioned deep within the lower vaults, Dirgehammer represents a direct threat to the heart of the Bronzebeard mountain kingdom. To break the incursion's spine, adventurers must plunge into the depths, strike him down, and carry his severed head to the Great Forge above.",
+   "spoiler": 1
+  },
+  {
+   "title": "Audience with the King",
+   "body": "Presenting Durgen Dirgehammer's head to King Magni Bronzebeard confirms the grim reality of the Dark Iron threat creeping through the city's ancient roots. Carrying both the grisly proof of victory and a personal greeting from his old friend Farsen, adventurers formally conclude the investigation and secure Magni's awareness of what lurks below.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Old Ironforge Incursion?",
+   "aliases": [
+    "old ironforge incursion quest",
+    "durgen dirgehammer quest"
+   ],
+   "answer": "It is the finale of a quest chain investigating Dark Iron activity beneath Dun Morogh. Given by Earthseer Farsen, it tasks players with entering the Hall of Thanes beneath Old Ironforge to slay the Dark Iron commander Durgen Dirgehammer."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "where is hall of thanes",
+    "hall of thanes location"
+   ],
+   "answer": "The mission takes adventurers into the Hall of Thanes, an ancient subterranean chamber located beneath Old Ironforge, deep in the bedrock under the mountain capital."
+  },
+  {
+   "q": "Who is Durgen Dirgehammer?",
+   "aliases": [
+    "who is dirgehammer",
+    "durgen dirgehammer"
+   ],
+   "answer": "Durgen Dirgehammer is the Dark Iron commander leading the subterranean incursion into the Hall of Thanes beneath Old Ironforge. Earthseer Farsen identifies his name from recovered Dark Iron documents."
+  },
+  {
+   "q": "Who gives the quest, and who receives it?",
+   "aliases": [
+    "quest giver old ironforge incursion",
+    "who turns in old ironforge incursion"
+   ],
+   "answer": "The quest is given by Earthseer Farsen following the recovery of the Underground Map. It is turned in directly to King Magni Bronzebeard in Ironforge."
+  },
+  {
+   "q": "How do I start the quest chain that leads to this?",
+   "aliases": [
+    "how to start hall of thanes quest",
+    "visitor to dun morogh start"
+   ],
+   "answer": "The chain begins with the quest A Visitor to Dun Morogh, offered by Beldin Steelgrill outside Kharanos in Dun Morogh."
+  },
+  {
+   "q": "What is the connection between Earthseer Farsen and King Magni?",
+   "aliases": [
+    "farsen and magni",
+    "earthseer farsen lore"
+   ],
+   "answer": "Earthseer Farsen considers himself an old friend of King Magni Bronzebeard, instructing adventurers to send his personal regards when presenting Durgen Dirgehammer's head in the throne room."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For the Bronzebeards, Dark Iron infiltrators lurking in the forgotten vaults beneath the High Seat is an intolerable violation of their ancestral fortress."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stopping the incursion prevents a devastating sneak attack against the Alliance's primary stronghold in the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "dirgehammer",
+  "farsen",
+  "incursion",
+  "ironforge",
+  "kharanos",
+  "magni",
+  "thanes"
+ ],
+ "related": [
+  "zone:hallofthanes",
+  "subzone:old-ironforge",
+  "quest:96391",
+  "npc:magni-bronzebeard",
+  "npc:beldin-steelgrill",
+  "quest:96408",
+  "zone:ironforge",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Old Ironforge Incursion"
+ ]
+}

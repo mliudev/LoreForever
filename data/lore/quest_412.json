@@ -1,0 +1,113 @@
+{
+ "key": "quest:412",
+ "type": "quest",
+ "name": "Operation Recombobulation",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   412
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Razzle Sprysprocket",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Operation Recombobulation (Classic)",
+  "chain": []
+ },
+ "summary": "Operation Recombobulation is a bold engineering effort orchestrated by Razzle Sprysprocket in Kharanos. In response to the tragedy of Gnomeregan, Razzle and Ozzie Togglevolt seek to reverse the horrific transformation of their afflicted kin into leper gnomes using an experimental contraption known as the Recombobulator.",
+ "sections": [
+  {
+   "title": "A Remedy for a Calamity",
+   "body": "When radiation flooded Gnomeregan to purge the trogg menace, it failed to destroy the invaders and instead warped the majority of the gnomish population into deranged, sickly leper gnomes. Refusing to accept this tragic mutation as permanent, inventor Razzle Sprysprocket has partnered with Ozzie Togglevolt to develop a technological cure: the Recombobulator. Their audacious goal is nothing less than restoring their mutated brethren back to health and sanity.",
+   "spoiler": 0
+  },
+  {
+   "title": "Scavenging from the Afflicted",
+   "body": "Building a delicate prototype requires precise components, namely Restabilization Cogs and Gyromechanic Gears. In an ironic twist of fate, these essential parts are salvaged directly from the hostile leper gnomes wandering outside the sealed gates of Gnomeregan. By harvesting mechanical debris from their corrupted brothers and sisters, Razzle hopes to assemble the very device that will undo their shared tragedy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Recombobulator supposed to do?",
+   "aliases": [
+    "what is recombobulator",
+    "purpose of recombobulator",
+    "recombobulate meaning"
+   ],
+   "answer": "The Recombobulator is an experimental machine designed by Razzle Sprysprocket and Ozzie Togglevolt intended to reverse the horrific mutagenic effects of Gnomeregan's radiation and cure the leper gnomes."
+  },
+  {
+   "q": "Who are Razzle Sprysprocket and Ozzie?",
+   "aliases": [
+    "who is razzle",
+    "who is ozzie togglevolt",
+    "razzle sprysprocket lore"
+   ],
+   "answer": "They are gnomish inventors operating out of Kharanos in Dun Morogh. Following the fall of Gnomeregan, they have dedicated their engineering talents to studying the crisis and fabricating technological solutions to rescue their displaced and irradiated people."
+  },
+  {
+   "q": "Why are there leper gnomes outside Gnomeregan?",
+   "aliases": [
+    "why are gnomes lepers",
+    "how did leper gnomes happen",
+    "gnomeregan radiation"
+   ],
+   "answer": "During the trogg invasion of Gnomeregan, radiation was released into the city to wipe out the beasts. The gambit backfired catastrophically: it failed to stop the troggs and instead drove many surviving gnomes mad, mutating them into hostile leper gnomes."
+  },
+  {
+   "q": "Where do the parts for the Recombobulator come from?",
+   "aliases": [
+    "where to get cogs and gears",
+    "restabilization cogs source",
+    "gyromechanic gears"
+   ],
+   "answer": "They are salvaged directly from the deranged leper gnomes pacing outside the entrance of Gnomeregan in western Dun Morogh, who still carry salvaged technological hardware on their bodies."
+  },
+  {
+   "q": "Does the Recombobulator actually work?",
+   "aliases": [
+    "did recombobulator cure them",
+    "can leper gnomes be cured",
+    "recombobulator success"
+   ],
+   "answer": "Razzle claims that with the right parts, hydrolubricant, and adjustments to the electrogum gel, the machine will restore the gnomes to normal. However, gnomish engineering is famously prone to volatility, and whether it can truly undo toxic irradiation remains uncertain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomes, this task represents a desperate, heartfelt hope to save lost family and friends who were warped into violent shells during the fall of their capital."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will appreciate Razzle's unorthodox tinkering, featuring intricate Restabilization Cogs, crank-o-ratchets, and viscous electrogum gel to manipulate biophysical radiation."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "gnomeregan",
+  "gyromechanic gear",
+  "kharanos",
+  "leper gnome",
+  "ozzie togglevolt",
+  "razzle sprysprocket",
+  "recombobulator",
+  "restabilization cog"
+ ],
+ "related": [
+  "npc:razzle-sprysprocket",
+  "zone:gnomeregan",
+  "topic:leper-gnome",
+  "subzone:kharanos",
+  "topic:gnome",
+  "topic:trogg",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Operation Recombobulation (Classic)"
+ ]
+}

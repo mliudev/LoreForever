@@ -1,0 +1,132 @@
+{
+ "key": "quest:1795",
+ "type": "quest",
+ "name": "The Binding",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1795
+  ],
+  "level": "30",
+  "faction": null,
+  "start": "Strahad Farsan",
+  "end": "",
+  "previous": "Tome of the Cabal (Alliance, 3)orTome of the Cabal (Horde, 3)",
+  "next": null,
+  "wiki": "The Binding (Felhunter)",
+  "chain": [
+   "Seeking Strahad (Stormwind)",
+   "Tome of the Cabal (Alliance)",
+   "Tome of the Cabal (Alliance, 2)",
+   "Tome of the Cabal (Alliance, 3)",
+   "The Binding (Felhunter)"
+  ]
+ },
+ "summary": "The Binding is the culminating rite for warlocks seeking to command a felhunter. Overseen by the enigmatic summoner Strahad Farsan above Ratchet, the ritual uses the restored Tome of the Cabal to rip an aggressive demonic predator from the Nether and force it into subjugation through trial of combat.",
+ "sections": [
+  {
+   "title": "The Cabal's Circle",
+   "body": "Perched on the bluffs overlooking the goblin port of Ratchet, Strahad Farsan conducts some of the most dangerous demonological trials on Kalimdor. After a warlock gathers the disparate fragments and reagents needed to piece together the ancient Tome of the Cabal, Strahad prepares the binding grounds. He lays down an inner glyph of containment while his loyal acolytes channel through enchanted rods to complete the outer circle, ensuring whatever horrors emerge remain isolated from the settlement below.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subjugating the Hunter",
+   "body": "Calling upon the incantations inscribed in the Tome of the Cabal, the initiate opens a bridge into the Twisting Nether. Felhunters are ravenous demonic hounds that naturally hunger for arcane power and feast upon magical energy. The summoned beast cannot be merely sweet-talked or gently enthralled; it must be violently subdued and broken in combat before it will recognize the warlock as its rightful master. Surviving the clash proves a summoner's readiness to wield the hound against enemy spellcasters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this ritual?",
+   "aliases": [
+    "why do this quest",
+    "felhunter quest goal",
+    "binding purpose"
+   ],
+   "answer": "The ritual allows a warlock to summon and bind a felhunter to their will. By reading from the completed Tome of the Cabal inside Strahad Farsan's summoning circle, the warlock draws the demonic predator from the Nether and defeats it in battle, earning the demon's permanent servitude."
+  },
+  {
+   "q": "Who is Strahad Farsan?",
+   "aliases": [
+    "who is strahad",
+    "strahad farsan lore",
+    "quest giver strahad"
+   ],
+   "answer": "Strahad Farsan is an accomplished human warlock who operates from a tower above Ratchet in the Barrens. Because of his vast knowledge of dark summoning arts, mentors from both the Alliance and the Horde quietly send their most promising practitioners to learn advanced binding rites under his tutelage."
+  },
+  {
+   "q": "Why does a warlock have to kill the demon instead of enslaving it?",
+   "aliases": [
+    "why kill felhunter",
+    "can i enslave felhunter",
+    "felhunter combat"
+   ],
+   "answer": "A felhunter is an aggressive, magic-devouring predator that respects only absolute dominance. The ritual requires the practitioner to best the demon in physical and magical combat to break its ferocity and imprint their authority over its spirit, ensuring it obeys future summonings."
+  },
+  {
+   "q": "Can both Horde and Alliance warlocks perform this ritual here?",
+   "aliases": [
+    "is this horde only",
+    "is this alliance only",
+    "who gets this quest"
+   ],
+   "answer": "Yes. While the preceding tasks to reconstruct the Tome of the Cabal differ depending on faction alignment, both Alliance and Horde warlocks are eventually directed to Strahad Farsan above Ratchet to conduct the final summoning."
+  },
+  {
+   "q": "What happens if the felhunter defeats the summoner?",
+   "aliases": [
+    "what if i die",
+    "failing the binding",
+    "can i retry the ritual"
+   ],
+   "answer": "If the summoner falls, the demon is banished back to the Nether and the ritual fails. However, Strahad allows warlocks who survive their defeat to reclaim a fresh copy of the Tome of the Cabal and attempt the summoning again once they are properly prepared."
+  },
+  {
+   "q": "What makes felhunters unique compared to other demons?",
+   "aliases": [
+    "what does a felhunter do",
+    "felhunter lore",
+    "why felhunters"
+   ],
+   "answer": "Felhunters are demonic hounds that hunt by sensing magical emanations. Rather than relying purely on brute force or shadow spells, they excel at smelling out sorcery, devouring active enchantments, and disrupting enemy spellcasters, making them invaluable companions against rival magic users."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Subduing a felhunter is a crucial milestone for any warlock, providing them with a specialized anti-magic predator capable of devouring spells and shutting down hostile casters."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance warlocks are sent from the safety of Stormwind across the sea to the rugged, neutral haven of Ratchet to complete their perilous summoning ritual under Strahad's watchful eye."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde practitioners journey into the heart of the Barrens to prove their dominion over the Nether, standing before Strahad on neutral ground to bind the hound."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "felhunter",
+  "ratchet",
+  "strahad farsan",
+  "summoning",
+  "the binding",
+  "tome of the cabal",
+  "warlock"
+ ],
+ "related": [
+  "quest:1758",
+  "npc:strahad-farsan",
+  "quest:1798",
+  "subzone:ratchet",
+  "zone:barrens",
+  "quest:1471",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "The Binding (Felhunter)"
+ ]
+}

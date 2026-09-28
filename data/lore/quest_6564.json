@@ -1,0 +1,131 @@
+{
+ "key": "quest:6564",
+ "type": "quest",
+ "name": "Allegiance to the Old Gods",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6564
+  ],
+  "level": "22",
+  "faction": "Horde",
+  "start": "Damp Note",
+  "end": "Je'neu Sancrea",
+  "previous": null,
+  "next": "Allegiance to the Old Gods (2)",
+  "wiki": "Allegiance to the Old Gods",
+  "chain": [
+   "Allegiance to the Old Gods",
+   "Allegiance to the Old Gods (2)"
+  ]
+ },
+ "summary": "Allegiance to the Old Gods is a Horde quest initiated by recovering a waterlogged message from the naga along the Zoram Strand. Delivering the note to Je'neu Sancrea at Zoram'gar Outpost uncovers a sinister ritual plot unfolding deep within the flooded ruins of Blackfathom Deeps.",
+ "sections": [
+  {
+   "title": "A Scribbled Declaration",
+   "body": "While battling the Wrathscale naga along the coast of Ashenvale, Horde scouts discover a damp, crumpled note bearing frantic handwriting. The scribbled parchment details instructions directed toward the naga priestesses, ordering them to gather elemental water crystals. Far from random pillaging, these crystals are being collected to fuel the summonings of naga aquamancers, marshaling elemental forces for a far darker objective.",
+   "spoiler": 0
+  },
+  {
+   "title": "Whispers of the Deep",
+   "body": "The recovered orders reveal that the naga intend to use the elemental energy within the crystals to appease and fully summon Aku'mai, a monstrous hydra favored by ancient cosmic masters. The note boldly proclaims that doing so will herald a return to the world's 'greatest era'\u2014the prehistoric reign of the Old Gods. Upon receiving the parchment at Zoram'gar Outpost, the Darkspear mystic Je'neu Sancrea identifies the author behind this conspiracy: the naga leader Lorgus Jett.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Damp Note?",
+   "aliases": [
+    "damp note",
+    "what does the note say",
+    "note lore"
+   ],
+   "answer": "The Damp Note is a set of recovered orders written by the naga leader Lorgus Jett. It instructs naga priestesses to collect elemental-infused crystals to bolster their aquamancers and summon the monstrous servant Aku'mai."
+  },
+  {
+   "q": "Who is Je'neu Sancrea?",
+   "aliases": [
+    "jeneu sancrea",
+    "who is jeneu",
+    "zoram outpost questgiver"
+   ],
+   "answer": "Je'neu Sancrea is a Darkspear troll seer and scholar stationed at Zoram'gar Outpost in Ashenvale. Representing the Earthen Ring, he investigates elemental imbalances and ancient threats rising from the nearby ruins of Blackfathom Deeps."
+  },
+  {
+   "q": "Who is Lorgus Jett?",
+   "aliases": [
+    "lorgus jett",
+    "who wrote the note",
+    "naga leader zoram"
+   ],
+   "answer": "Lorgus Jett is a prominent leader among the Wrathscale naga operating in and around the Zoram Strand. He oversees the harvesting of elemental crystals to empower naga rituals and reawaken dark ancient horrors."
+  },
+  {
+   "q": "What is Aku'mai?",
+   "aliases": [
+    "akumai",
+    "who is akumai",
+    "aku'mai lore"
+   ],
+   "answer": "Aku'mai is a colossal three-headed hydra dwelling within the submerged depths of Blackfathom Deeps. Bound closely to the primordial darkness of the Old Gods, the creature is revered by both the Twilight's Hammer cult and the Wrathscale naga."
+  },
+  {
+   "q": "Why are the naga collecting water crystals?",
+   "aliases": [
+    "why naga crystals",
+    "elemental crystals naga",
+    "aquamancer crystals"
+   ],
+   "answer": "The water elemental spirits trapped inside the crystals provide raw power to naga aquamancers. By siphoning this elemental magic, they hope to appease Aku'mai and gather sufficient power to usher in the return of the Old Gods."
+  },
+  {
+   "q": "Where does this quest chain lead?",
+   "aliases": [
+    "what comes after allegiance to the old gods",
+    "allegiance to the old gods part 2",
+    "next quest"
+   ],
+   "answer": "Delivering the note to Je'neu Sancrea leads directly into a follow-up mission tasked with tracking down and executing Lorgus Jett to disrupt the naga's ritual plans on the Zoram Strand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Uncovering Lorgus Jett's note helps secure Zoram'gar Outpost against the surrounding Wrathscale naga who threaten the Horde's foothold on Ashenvale's western coast."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The naga's subjugation of water elemental spirits inside ritual crystals represents a grave perversion of natural balance, demanding swift correction."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Assisting your Darkspear kin Je'neu Sancrea unmasks ancient cosmic entities whose return would threaten every tribe across Azeroth."
+  }
+ ],
+ "keywords": [
+  "aku'mai",
+  "allegiance",
+  "ashenvale",
+  "blackfathom deeps",
+  "damp note",
+  "je'neu sancrea",
+  "lorgus jett",
+  "old gods",
+  "wrathscale",
+  "zoram'gar outpost"
+ ],
+ "related": [
+  "npc:je-neu-sancrea",
+  "npc:lorgus-jett",
+  "npc:aku-mai",
+  "zone:blackfathom",
+  "subzone:zoram-gar-outpost",
+  "zone:ashenvale",
+  "topic:old-god",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Allegiance to the Old Gods"
+ ]
+}

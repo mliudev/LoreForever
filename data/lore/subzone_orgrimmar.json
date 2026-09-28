@@ -1,0 +1,94 @@
+{
+ "key": "subzone:orgrimmar",
+ "type": "subzone",
+ "name": "Orgrimmar",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Orgrimmar"
+ },
+ "summary": "Orgrimmar is the formidable warrior capital of the New Horde, carved into the winding red canyons of northern Durotar. Founded by Warchief Thrall and named in memory of Orgrim Doomhammer, it serves as the beating heart of orcish renewal and intertribal survival on Kalimdor.",
+ "sections": [
+  {
+   "title": "A Stronghold in the Stone",
+   "body": "Following the Third War and the victory at Mount Hyjal, Warchief Thrall brought his surviving people south to establish a permanent homeland in Durotar. Nestled into a natural barrier of sheer mountain crags, Orgrimmar was engineered to withstand siege, boasting spiked timber palisades, stone watchtowers, and deep mountain-carved caverns. Built in cooperation with the Darkspear trolls, tauren stonemasons, and goblin engineers, the fortress turned a desolate wilderness into an unassailable bastion of strength.",
+   "spoiler": 0
+  },
+  {
+   "title": "Heart of the New Horde",
+   "body": "Free of the demonic bloodlust that once bound them, the orcs built Orgrimmar as a beacon of honor, community, and survival. Today in 25 ADP, the city houses not only orcs and Darkspear trolls, but also welcomes emissaries from the tauren of Mulgore and emissaries from the newly allied Forsaken. Within its fortified canyons, shamans instruct the next generation in ancestral balance, while veterans clash in gladiatorial rings to hone the army that shields the fragile peace of Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Orgrimmar named after?",
+   "aliases": [
+    "orgrimmar name origin",
+    "why called orgrimmar",
+    "who was orgrimmar named for"
+   ],
+   "answer": "Warchief Thrall named the city in honor of his mentor and predecessor, the legendary orc Warchief Orgrim Doomhammer. Doomhammer fell in the Eastern Kingdoms during the liberation of the orc internment camps, bestowing his iconic warplate and battle hammer onto Thrall."
+  },
+  {
+   "q": "Who helped build the city?",
+   "aliases": [
+    "who built orgrimmar",
+    "how was orgrimmar made",
+    "orgrimmar builders"
+   ],
+   "answer": "The capital was raised rapidly through the joint effort of orcs, the Darkspear trolls, the tauren, hired goblin sappers and engineers, and the wandering champion Rexxar. Its natural stone walls were excavated and fortified to provide swift, defensible shelter in the harsh terrain of Durotar."
+  },
+  {
+   "q": "Which races call Orgrimmar home?",
+   "aliases": [
+    "who lives in orgrimmar",
+    "orgrimmar residents",
+    "races in orgrimmar"
+   ],
+   "answer": "Orgrimmar is primarily inhabited by the orcs and Sen'jin's Darkspear trolls, who share its districts. Tauren travelers frequently reside in the city as steadfast allies, and envoys of the recently accepted Forsaken have begun establishing a quiet foothold alongside them."
+  },
+  {
+   "q": "Where does Warchief Thrall reside?",
+   "aliases": [
+    "where is thrall",
+    "thrall location orgrimmar",
+    "warchief seat"
+   ],
+   "answer": "Thrall presides over the New Horde from Grommash Hold, a central stronghold located in the Valley of Wisdom within Orgrimmar, named to honor his fallen friend, Grom Hellscream."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As the supreme seat of Horde leadership, Orgrimmar is the central staging ground for military campaigns, clan alliances, and diplomatic relations across Kalimdor and beyond."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For the orcs, Orgrimmar is the realization of their redemption, where they cast off the legacy of the demonic curse to build an honorable, independent future."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "doomhammer",
+  "durotar",
+  "grommash hold",
+  "new horde",
+  "orgrimmar",
+  "tauren",
+  "thrall"
+ ],
+ "related": [
+  "zone:durotar",
+  "npc:thrall",
+  "npc:orgrim-doomhammer",
+  "subzone:grommash-hold",
+  "subzone:drag",
+  "topic:new-horde",
+  "topic:darkspear-tribe",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Orgrimmar"
+ ]
+}

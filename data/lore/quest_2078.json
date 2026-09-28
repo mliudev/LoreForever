@@ -1,0 +1,123 @@
+{
+ "key": "quest:2078",
+ "type": "quest",
+ "name": "Gyromast's Revenge",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   2078
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Gelkak Gyromast",
+  "end": "",
+  "previous": "Gyromast's Retrieval",
+  "next": null,
+  "wiki": "Gyromast's Revenge",
+  "chain": [
+   "Gyromast's Retrieval",
+   "Gyromast's Revenge"
+  ]
+ },
+ "summary": "Gelkak Gyromast seeks payback against the local murlocs who wrecked his ship along the Darkshore coastline. To carry out his vendetta, the eccentric captain sends adventurers to reactivate his mechanical first mate, the Threshwackonator 4100.",
+ "sections": [
+  {
+   "title": "A Captain's Vendetta",
+   "body": "Stranded upon the misty strands of Darkshore, Gelkak Gyromast refuses to accept defeat at the hands of the shore-dwelling murlocs. Having salvaged the pieces needed to fuel his schemes, the eccentric captain sets his sights on complete retaliation against the tribe and their chief. Rather than wading into the surf with cutlass in hand, Gelkak relies on heavy engineering to exact his vengeance, entrusting a winding key to any landlubber brave enough to handle his mechanical subordinate.",
+   "spoiler": 0
+  },
+  {
+   "title": "The First Mate's Mutiny",
+   "body": "Gelkak's trusted first mate is no salty dwarf or sailor, but the Threshwackonator 4100\u2014a clanking mechanical golem abandoned in the shallows south of the wreck. While wind-up automation promises an easy slaughter of the murlocs, gnomish and dwarven contraptions are notorious for volatile behavior when exposed to salt water. Upon being wound up and led back to the captain, the construct suffers a catastrophic malfunction, mistaking its rescuer and creator for hostile targets and forcing a battle on the beach.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gelkak's first mate?",
+   "aliases": [
+    "first mate",
+    "gelkak first mate",
+    "who is the first mate"
+   ],
+   "answer": "Gelkak's first mate is the Threshwackonator 4100, an automated mechanical golem resting on the coast south of the stranded captain's camp."
+  },
+  {
+   "q": "Why does Gelkak want revenge?",
+   "aliases": [
+    "why revenge",
+    "murloc revenge",
+    "gelkak motivation"
+   ],
+   "answer": "Gelkak's vessel was shipwrecked along Darkshore, and the native Greymist murlocs scavenged his belongings and harassed his surviving crew. Gelkak intends to use his golem to crush the tribe and their chief."
+  },
+  {
+   "q": "What happens when you bring the Threshwackonator back?",
+   "aliases": [
+    "threshwackonator attack",
+    "robot malfunction",
+    "why does the golem attack"
+   ],
+   "answer": "Once wound up and led back to Gelkak's camp, the Threshwackonator 4100 suffers an operational malfunction and turns hostile, forcing you to destroy it to protect the area."
+  },
+  {
+   "q": "What do I do with Gyromast's Key after finishing the quest?",
+   "aliases": [
+    "gyromast key use",
+    "keep gyromast key",
+    "can i delete key"
+   ],
+   "answer": "Gyromast's Key serves no further purpose once the Threshwackonator 4100 has been activated and defeated, and it can be safely discarded."
+  },
+  {
+   "q": "Where did Gelkak get the Threshwackonator?",
+   "aliases": [
+    "who built threshwackonator",
+    "threshwackonator origin"
+   ],
+   "answer": "The golem is part of the cargo and equipment salvaged from Gelkak's ill-fated voyage along northern Kalimdor, designed as heavy mechanical muscle for his crew."
+  },
+  {
+   "q": "Does Gelkak give up after the golem is destroyed?",
+   "aliases": [
+    "what happens to gelkak",
+    "after gyromast revenge"
+   ],
+   "answer": "Despite the destruction of his mechanical first mate, Gelkak grudgingly commends your survival, jokingly offering a promotion to poop deck swabby while remaining stranded on the beach."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The Threshwackonator 4100 is a classic example of clockwork automation gone awry after exposure to sea spray and water damage, reinforcing the engineering maxim to always double-check gyro-stabilizers."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomes will immediately recognize the folly of trying to reboot sensitive mechanical automata with a simple winding key in the damp, briny environment of Darkshore."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Clearing out malfunctioning machinery and aggressive murlocs helps secure the coastline for Alliance travel between Auberdine and the lands to the south."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "gelkak",
+  "golem",
+  "gyromast",
+  "key",
+  "murloc",
+  "threshwackonator",
+  "threshwackonator 4100"
+ ],
+ "related": [
+  "npc:gelkak-gyromast",
+  "quest:2098",
+  "zone:darkshore",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Gyromast's Revenge"
+ ]
+}

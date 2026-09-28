@@ -1,0 +1,131 @@
+{
+ "key": "quest:6562",
+ "type": "quest",
+ "name": "Trouble in the Deeps",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "ids": [
+   6562
+  ],
+  "level": "22",
+  "faction": "Horde",
+  "start": "Tsunaman",
+  "end": "Je'neu Sancrea",
+  "previous": null,
+  "next": "The Essence of Aku'Mai (Classic)",
+  "wiki": "Trouble in the Deeps",
+  "chain": [
+   "Trouble in the Deeps",
+   "The Essence of Aku'Mai (Classic)"
+  ]
+ },
+ "summary": "Trouble in the Deeps is a call for assistance sent from Stonetalon Mountains to the remote shores of Ashenvale. Tsunaman directs Horde adventurers to seek out the troll scholar Je'neu Sancrea at Zoram'gar Outpost, warning that dangerous forces lurk along the coast.",
+ "sections": [
+  {
+   "title": "A Summons to the Coast",
+   "body": "In the arid crags of Stonetalon Mountains, Tsunaman recognizes that dark rumblings to the north demand attention. He charges capable Horde travelers with crossing into Ashenvale\u2014the ancestral woodland of the night elves\u2014to make contact with Je'neu Sancrea. Stationed at Zoram'gar Outpost along the far western edge known as the Zoram Strand, Je'neu has found himself confronted by mounting peril that requires outside intervention.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Zoram Strand",
+   "body": "Reaching the western shore of Ashenvale is no trivial journey for Horde travelers. Whether cutting through the goblin-disturbed passes of Windshear Crag or moving north out of the Barrens, travelers must cross into hostile forest guarded fiercely by night elf sentinels. Far past the dense canopies, on the storm-washed coast of Zoram Strand, the lone outpost clings to survival while peering into the shadowed waters nearby.",
+   "spoiler": 0
+  },
+  {
+   "title": "Whispers Below the Waves",
+   "body": "Upon arriving at the shore, Je'neu Sancrea reveals that the trouble brewing is rooted in the subterranean temple of Blackfathom Deeps. Ancient corruptions, foul water elementals, and Twilight's Hammer cultists have gathered beneath the tides, coaxing ancient evils back into the world. Je'neu relies on incoming champions to venture beneath the surface and confront the primordial terror stirred within the sunken halls.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Trouble in the Deeps?",
+   "aliases": [
+    "quest giver",
+    "who starts trouble in the deeps",
+    "tsunaman"
+   ],
+   "answer": "Tsunaman, located in the Stonetalon Mountains, offers the quest. He recognizes that allies along the Ashenvale coastline need reinforcements and points traveling Horde adventurers toward the sea."
+  },
+  {
+   "q": "Where is Je'neu Sancrea located?",
+   "aliases": [
+    "where is je'neu",
+    "jeneu sancrea location",
+    "zoram'gar outpost"
+   ],
+   "answer": "Je'neu Sancrea is stationed at Zoram'gar Outpost on the Zoram Strand, situated on the far western coastline of Ashenvale."
+  },
+  {
+   "q": "How do you reach Zoram'gar Outpost from Stonetalon?",
+   "aliases": [
+    "path to ashenvale",
+    "how to get to zoram strand",
+    "stonetalon to ashenvale route"
+   ],
+   "answer": "Travelers can journey northeast through Windshear Crag into Ashenvale, or loop east through the Barrens and enter the forest from the south. From central Ashenvale, head due west until reaching the open waters of the Zoram Strand."
+  },
+  {
+   "q": "What trouble is Je'neu investigating?",
+   "aliases": [
+    "what is happening at zoram strand",
+    "why does jeneu need help"
+   ],
+   "answer": "Je'neu Sancrea is monitoring the nearby ruins of Blackfathom Deeps, where cultists and corrupt aquatic entities are stirring ancient horrors beneath the surface."
+  },
+  {
+   "q": "What quest follows Trouble in the Deeps?",
+   "aliases": [
+    "next quest",
+    "trouble in the deeps follow up"
+   ],
+   "answer": "Speaking with Je'neu Sancrea leads directly into The Essence of Aku'Mai, which sends adventurers into Blackfathom Deeps to gather sapphire-hued elemental essence."
+  },
+  {
+   "q": "Why is the journey through Ashenvale considered perilous?",
+   "aliases": [
+    "ashenvale danger",
+    "night elf threat"
+   ],
+   "answer": "Ashenvale is the sovereign domain of the night elves, who fiercely resist any Horde encroachment. Travelers moving through the woodland risk running into hostile sentinels and elusive ambushers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Holding ground at Zoram'gar Outpost is critical for securing the western flank of Kalimdor against both night elf forces and coastal horrors."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The disturbance beneath the waves of Zoram Strand threatens the balance of the local water spirits, demanding spiritual insight to cleanse the rot."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Answering the call of Je'neu Sancrea provides Darkspear kin a vital chance to assist one of their foremost scholars in uncovering ancient Kalimdor mysteries."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "blackfathom deeps",
+  "je'neu sancrea",
+  "stonetalon mountains",
+  "tsunaman",
+  "windshear crag",
+  "zoram strand",
+  "zoram'gar outpost"
+ ],
+ "related": [
+  "npc:tsunaman",
+  "npc:je-neu-sancrea",
+  "subzone:zoram-gar-outpost",
+  "subzone:zoram-strand",
+  "zone:ashenvale",
+  "zone:stonetalon",
+  "zone:blackfathom",
+  "quest:6563"
+ ],
+ "attribution": [
+  "Trouble in the Deeps"
+ ]
+}

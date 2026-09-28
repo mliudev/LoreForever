@@ -1,0 +1,73 @@
+{
+ "key": "subzone:altar-of-storms-burning-steppes",
+ "type": "subzone",
+ "name": "Altar of Storms (Burning Steppes)",
+ "era": "classic",
+ "zone": "burningsteppes",
+ "meta": {
+  "wiki": "Altar of Storms (Burning Steppes)"
+ },
+ "summary": "Perched in the jagged crags of the Burning Steppes, the Altar of Storms is a dark monument dedicated to fel rituals and demonic power. Blackrock clan warlocks occupy the sinister site, performing foul magic beneath the shadow of Blackrock Spire. Its dark aura draws ambitious practitioners of the shadow from across Azeroth.",
+ "sections": [
+  {
+   "title": "A Legacy of Shadow and Flame",
+   "body": "Constructed during the earlier wars to channel corrupting fel magic, the Altar of Storms stands as a grim monument to dark pacts. In the Burning Steppes, hostile warlocks of the Blackrock clan control the grounds, conducting occult rituals and drawing upon demonic forces. Nearby, the encampment of the hermit Gorzeeki Wildeyes and his master Mor'zul Bloodbringer overlooks the site, where renegade practitioners study its violent energies and concoct demanding rituals for ambitious spellcasters seeking greater dark power.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Altar of Storms?",
+   "aliases": [
+    "altar of storms lore",
+    "what is this altar",
+    "burning steppes altar"
+   ],
+   "answer": "It is a corrupted stone monument used for dark fel rituals and channeling demonic energy. Built during the wars of the Old Horde, it remains an active nexus of dark power harnessed by Blackrock warlocks."
+  },
+  {
+   "q": "Who controls the altar right now?",
+   "aliases": [
+    "who is at altar of storms",
+    "altar of storms enemies",
+    "who lives here"
+   ],
+   "answer": "Hostile warlocks and acolytes belonging to the Blackrock orc clan occupy the grounds immediately around the altar, performing dark ceremonies and guarding their site from intruders."
+  },
+  {
+   "q": "Who is Gorzeeki Wildeyes?",
+   "aliases": [
+    "gorzeeki wildeyes",
+    "orc on the hill",
+    "who is gorzeeki"
+   ],
+   "answer": "Gorzeeki Wildeyes is an eccentric orc scholar of the dark arts who dwells on the hill overlooking the altar alongside his master, Mor'zul Bloodbringer. He assists powerful warlocks who are seeking to master greater demonic bindings."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The Altar of Storms and its neighboring hermits, Mor'zul Bloodbringer and Gorzeeki Wildeyes, serve as crucial conduits for warlocks seeking the materials and rituals required to summon a dreaded dreadsteed."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The altar is an uncomfortable reminder of the Old Horde's dark history, where Gul'dan's Shadow Council used similar foul shrines to infuse ogres and soldiers with dark sorcery."
+  }
+ ],
+ "keywords": [
+  "altar of storms",
+  "blackrock",
+  "burning steppes",
+  "fel",
+  "gorzeeki wildeyes",
+  "mor'zul bloodbringer",
+  "warlock"
+ ],
+ "related": [
+  "zone:burningsteppes",
+  "topic:blackrock-clan"
+ ],
+ "attribution": [
+  "Altar of Storms (Burning Steppes)"
+ ]
+}

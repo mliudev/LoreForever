@@ -1,0 +1,121 @@
+{
+ "key": "quest:322",
+ "type": "quest",
+ "name": "Blessed Arm",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   322
+  ],
+  "level": "29",
+  "faction": "Alliance",
+  "start": "Glorin Steelbrow",
+  "end": "Grimand Elmore",
+  "previous": "The Lost Ingots",
+  "next": "Armed and Ready (Classic)",
+  "wiki": "Blessed Arm",
+  "chain": []
+ },
+ "summary": "Having salvaged lightforge ingots from the Loch, an adventurer is directed to carry the precious metal to Stormwind City. There, the master dwarven smith Grimand Elmore awaits to fashion the raw metal into a tool capable of confronting the necromancer Morbent Fel.",
+ "sections": [
+  {
+   "title": "A Rare Metal Returns",
+   "body": "Lightforge iron is not an everyday trade metal found in standard market stalls. Renowned for its resonance against foul and unholy entities, it demands a smith who understands its temper and quirks. After the shipment was recovered from the bottom of Loch Modan, Glorin Steelbrow packed the reclaimed ingots into a sturdy crate, knowing of only one artisan in the southern kingdoms suited to work such extraordinary material: master weaponsmith Grimand Elmore.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dwarven District's Forge",
+   "body": "Situated amidst the soot and clatter of Stormwind's Dwarven District, Grimand Elmore maintains one of the city's finest anvils. When presented with the recovered shipment, Elmore notes that years have passed since he last hammered lightforge iron. Intrigued by the heroic errand and eager to strike a blow against the necromancer Morbent Fel, the veteran artisan readily agrees to lend his hammer to the cause.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this delivery?",
+   "aliases": [
+    "why bring ingots to stormwind",
+    "blessed arm purpose",
+    "what is crate of lightforge ingots for"
+   ],
+   "answer": "The crate holds recovered lightforge iron salvaged from Loch Modan. Glorin Steelbrow sends it to Grimand Elmore so the skilled smith can shape the consecrated metal into a weapon capable of combating the necromancer Morbent Fel."
+  },
+  {
+   "q": "Who is Grimand Elmore?",
+   "aliases": [
+    "grimand elmore lore",
+    "who is the smith in dwarven district"
+   ],
+   "answer": "Grimand Elmore is a respected dwarven weaponsmith who operates in the Dwarven District of Stormwind. He is among the rare craftsmen with the training and skill necessary to forge specialized metals like lightforge iron."
+  },
+  {
+   "q": "Why is lightforge iron so important against Morbent Fel?",
+   "aliases": [
+    "why lightforge iron",
+    "how does lightforge iron hurt morbent fel"
+   ],
+   "answer": "Morbent Fel is an elusive and powerful necromancer shielded by dark magic. Normal arms struggle to pierce his unholy defenses, making weapons forged from sanctified lightforge iron necessary to strip away his protection and make him vulnerable."
+  },
+  {
+   "q": "Where does Glorin Steelbrow send you?",
+   "aliases": [
+    "where do i go for blessed arm",
+    "where is grimand elmore located"
+   ],
+   "answer": "Glorin Steelbrow sends you from Loch Modan across the Deeprun Tram or mountain passes to the Dwarven District of Stormwind City, where Grimand Elmore keeps his forge."
+  },
+  {
+   "q": "Has Grimand Elmore worked with lightforge iron before?",
+   "aliases": [
+    "did grimand forge lightforge before",
+    "elmore smithing experience"
+   ],
+   "answer": "Yes. Upon inspecting the metal, Grimand remarks that it has been years since he last worked with lightforge iron, welcoming the chance to practice his craft on such a storied material once more."
+  },
+  {
+   "q": "What must happen before the weapon can be finished?",
+   "aliases": [
+    "what comes after blessed arm",
+    "is weapon forged immediately"
+   ],
+   "answer": "While Grimand agrees to forge the weapon, shaping raw lightforge ingots into an enchanted arm requires time, additional labor, and specific components before it is ready to face the necromancer in Duskwood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Lightforge iron is a rare and finicky metal; observing an experienced dwarven smith like Grimand Elmore take on the task of working it highlights the exceptional craft required to forge holy arms."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Carrying consecrated iron to fashion an arm against a Duskwood necromancer mirrors the core calling of the Silver Hand: purifying dark sorcery with holy vigilance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The delivery demonstrates the close cooperation between the kingdoms, bridging Loch Modan's dwarven prospectors with the forges of Stormwind's Dwarven District to aid the beleaguered people of Duskwood."
+  }
+ ],
+ "keywords": [
+  "blessed arm",
+  "dwarven district",
+  "glorin steelbrow",
+  "grimand elmore",
+  "lightforge iron",
+  "loch modan",
+  "morbent fel",
+  "stormwind"
+ ],
+ "related": [
+  "quest:324",
+  "quest:1700",
+  "npc:glorin-steelbrow",
+  "subzone:dwarven-district",
+  "quest:55",
+  "quest:321",
+  "topic:stormwind-kingdom",
+  "topic:light"
+ ],
+ "attribution": [
+  "Blessed Arm"
+ ]
+}

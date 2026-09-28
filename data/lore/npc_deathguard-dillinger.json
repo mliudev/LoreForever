@@ -1,0 +1,120 @@
+{
+ "key": "npc:deathguard-dillinger",
+ "type": "npc",
+ "name": "Deathguard Dillinger",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Deathguard Dillinger",
+  "refs": 5
+ },
+ "summary": "Deathguard Dillinger is a Forsaken sentry stationed in Brill within Tirisfal Glades. Standing watch over the town's perimeter, he directs newly arrived undead toward necessary services and tasks recruits with keeping the local Scourge remnants at bay.",
+ "sections": [
+  {
+   "title": "Sentinel of Brill",
+   "body": "As a member of the Forsaken Deathguard, Dillinger stands at the entrance of Brill, serving as both a frontline protector and an orienting guide for travelers emerging from Deathknell. He provides directions to town amenities such as the inn, the town hall, and local trainers, helping newly awakened undead navigate their new reality under the Dark Lady's rule.",
+   "spoiler": 0
+  },
+  {
+   "title": "Securing the Borderlands",
+   "body": "Dillinger actively enlists capable adventurers to purge lingering mindless Scourge from the nearby farms and mills. Through assignments like cullling rotting ghouls and reclaiming infested facilities, he seeks to establish a buffer zone of security around Brill, ensuring the fledgling Forsaken settlements can endure against unending undead predation.",
+   "spoiler": 0
+  },
+  {
+   "title": "Containing Mindless Horrors",
+   "body": "Beyond routine patrols, Dillinger coordinates responses against persistent Scourge threats lurking in the ruins around Brill. When summoned horrors such as Ulag the Cleaver emerge from nearby tombs or neglected homesteads, Dillinger ensures able fighters are dispatched to put the rampaging monstrosities down before they breach the settlement's borders.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Deathguard Dillinger?",
+   "aliases": [
+    "dillinger location",
+    "where is dillinger",
+    "deathguard dillinger coordinates"
+   ],
+   "answer": "Deathguard Dillinger is posted on the outskirts of Brill in central Tirisfal Glades, watching the path leading into town."
+  },
+  {
+   "q": "What is the role of the Deathguard?",
+   "aliases": [
+    "what is deathguard",
+    "who are the deathguards",
+    "deathguard purpose"
+   ],
+   "answer": "The Deathguard serves as the military standing army and constabulary of the Forsaken, guarding settlements like Brill and the Undercity against the Scourge, the Scarlet Crusade, and other regional threats."
+  },
+  {
+   "q": "What tasks does Deathguard Dillinger offer?",
+   "aliases": [
+    "dillinger quests",
+    "what quests does dillinger have"
+   ],
+   "answer": "Dillinger tasks adventurers with slaying mindless Scourge wandering the surrounding fields and mills, reclaiming vital local infrastructure, and dealing with dangerous entities like Ulag the Cleaver."
+  },
+  {
+   "q": "Can Deathguard Dillinger provide directions?",
+   "aliases": [
+    "dillinger directions",
+    "ask dillinger for help"
+   ],
+   "answer": "Yes, speaking with Dillinger allows players to request directions to essential services, profession trainers, and class mentors located throughout Brill."
+  },
+  {
+   "q": "Why are the Forsaken fighting other undead near Brill?",
+   "aliases": [
+    "why fight scourge",
+    "undead fighting undead",
+    "brill ghouls"
+   ],
+   "answer": "The mindless undead wandering Tirisfal remain under the thrall of the Scourge and the Lich King. Having broken free of that mental control, the Forsaken must eliminate these feral remnants to protect their own territory."
+  },
+  {
+   "q": "Who is Ulag the Cleaver?",
+   "aliases": [
+    "ulag quest",
+    "who is ulag",
+    "ulag the cleaver"
+   ],
+   "answer": "Ulag the Cleaver is a dangerous Scourge horror tied to nearby tombs outside Brill. Dillinger coordinates with Forsaken recruits to summon and destroy Ulag to keep the surrounding area safe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For newly freed Forsaken arriving from Deathknell, Dillinger is often the first face of military authority they meet, directing them toward training and their first duties in service of Sylvanas."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Dillinger represents the Forsaken's struggle to carve out a secure foothold in northern Lordaeron, showing Horde allies the relentless menace posed by mindless Scourge at their doorsteps."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Aspiring Forsaken warriors frequently work directly with Dillinger to test their martial mettle against the ferocious ghouls and skeletal horrors prowling the outskirts of Brill."
+  }
+ ],
+ "keywords": [
+  "a putrid task",
+  "brill",
+  "deathguard",
+  "deathguard dillinger",
+  "dillinger",
+  "the mills overrun",
+  "tirisfal glades",
+  "ulag the cleaver"
+ ],
+ "related": [
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "quest:404",
+  "quest:426",
+  "quest:1819",
+  "quest:1818",
+  "subzone:cold-hearth-manor"
+ ],
+ "attribution": [
+  "Deathguard Dillinger"
+ ]
+}

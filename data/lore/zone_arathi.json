@@ -1,0 +1,134 @@
+{
+ "key": "zone:arathi",
+ "type": "zone",
+ "name": "Arathi Highlands",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": [
+   "Arathi Highlands (Classic)",
+   "Arathi Highlands"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "The Arathi Highlands are a rugged plateau in southeastern Lordaeron, renowned as the ancient birthplace of the Empire of Arathor. Today, the kingdom of Stromgarde lies in ruins, leaving the craggy realm engulfed in multi-front warfare between the remnants of Stromgarde, the Horde, criminal Syndicate nobles, and invading ogres.",
+ "sections": [
+  {
+   "title": "Cradle of Humanity",
+   "body": "Millennia ago, King Thoradin united the fractured human tribes under the banner of the Arathi, constructing the majestic capital of Strom across these dry, defensible plains. It was here that humanity forged its legendary compact with the high elves during the Troll Wars, mastering the arcane arts to push back the Amani. Over time, noble bloodlines migrated north into Lordaeron and south toward Stormwind, but the imperial guard stayed behind to form the martial realm of Stromgarde. For ages, Stromgarde stood as a bastion of stalwart warriors dedicated to keeping the forest trolls at bay.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Shattered Kingdom",
+   "body": "Stromgarde proved vital in defending the Alliance during the Second War under King Thoras Trollbane, but the Third War and its aftermath shattered the nation. Although the kingdom spared itself the worst ravages of the Scourge plague, the mysterious death of King Thoras threw the realm into turmoil. Boulderfist ogres swept in from the hills, while the traitorous Alteraci nobles of the Syndicate seized sprawling districts of Stromgarde Keep. Today, Prince Galen Trollbane and his loyalist survivors cling to a tiny sliver of the city and their redoubt at Refuge Pointe, waging a bitter guerrilla war against hopeless odds.",
+   "spoiler": 0
+  },
+  {
+   "title": "The War for the Highlands",
+   "body": "Arathi is a fiercely contested crossroads. In the northeast, the Horde converted an abandoned human internment camp into Hammerfall, named in honor of the legendary Warchief Orgrim Doomhammer, using it as an anchor to secure their northern holdings and safeguard allies in Hillsbrad. Meanwhile, the Witherbark troll tribe seeks vengeance against their ancient human persecutors, and the Argus Wake pulls strings behind the Syndicate's occupation. At the center of the plateau lie ancient Circles of Binding, where bound elementals restrain an enigmatic, ancient power buried beneath the stone.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to Stromgarde Keep?",
+   "aliases": [
+    "why is stromgarde ruined",
+    "who controls stromgarde",
+    "stromgarde status"
+   ],
+   "answer": "Following King Thoras Trollbane's death, Stromgarde succumbed to internal strife and overwhelming assaults. Boulderfist ogres seized the city's exterior districts while the opportunistic Syndicate seized the sanctum, leaving Prince Galen Trollbane and his dwindling garrison clinging to a single fortified corner while fighting desperate battles inside their own capital."
+  },
+  {
+   "q": "What is Hammerfall?",
+   "aliases": [
+    "horde base arathi",
+    "history of hammerfall",
+    "why is it called hammerfall"
+   ],
+   "answer": "Hammerfall is a fortified Horde outpost built within the remnants of a human internment camp where orcs were held after the Second War. It was named to honor former Warchief Orgrim Doomhammer, who fell leading the campaign to liberate the captives held across Lordaeron's camps."
+  },
+  {
+   "q": "Where does the Alliance operate in Arathi?",
+   "aliases": [
+    "alliance base arathi",
+    "refuge pointe",
+    "where are the stromgarde humans"
+   ],
+   "answer": "Alliance soldiers and Stromgarde defenders stage their operations out of Refuge Pointe, a naturally fortified canyon in the center of the highlands. From here, they launch sorties to reclaim Stromgarde Keep and fight back encroaching ogres and trolls."
+  },
+  {
+   "q": "What are the stone circles across the plains?",
+   "aliases": [
+    "circles of binding",
+    "elementals in arathi",
+    "stone circles"
+   ],
+   "answer": "The Circles of Binding\u2014Inner, Outer, East, and West\u2014are ancient magical seals maintained and guarded by rogue elementals. They serve to imprison an unknown, primordial entity buried deep beneath the highlands."
+  },
+  {
+   "q": "How do you reach the Arathi Highlands?",
+   "aliases": [
+    "getting to arathi",
+    "how to get to arathi highlands",
+    "arathi entrance"
+   ],
+   "answer": "Travelers from the north and west pass through the breach in Thoradin's Wall from the Hillsbrad Foothills. Travelers arriving from Khaz Modan in the south cross the massive dwarven bridge of the Thandol Span, which spans the chasm separating the highlands from the Wetlands."
+  },
+  {
+   "q": "What is the Syndicate doing in Arathi?",
+   "aliases": [
+    "why is syndicate in arathi",
+    "syndicate stromgarde",
+    "who leads the syndicate here"
+   ],
+   "answer": "The Syndicate consists of exiled Alteraci nobility seeking to carve out new domains by pillaging fallen realms. In Arathi, they have overrun large sections of Stromgarde Keep and outlying farms like Northfold Manor, secretly guided by the dark cultists of the Argus Wake."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Every human kingdom traces its roots to the Empire of Arathor; seeing the seat of human civilization broken and overrun by ogres and thieves is a profound cultural tragedy."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Hammerfall stands as sacred ground to the modern Horde\u2014a monument to Orgrim Doomhammer's sacrifice that freed an enslaved people from internment."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Stromgarde produced the most celebrated frontline martial tradition on Azeroth, making its rugged battlegrounds a revered trial by arms."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The craggy ridges of Arathi are rich in iron and mithril, and Drywhisker Gorge is the only known source of lesser bloodstone ore."
+  }
+ ],
+ "keywords": [
+  "arathi",
+  "arathi highlands",
+  "arathor",
+  "boulderfist",
+  "galen trollbane",
+  "hammerfall",
+  "refuge pointe",
+  "stromgarde",
+  "syndicate",
+  "thandol span",
+  "thoradin's wall"
+ ],
+ "related": [
+  "subzone:stromgarde-keep",
+  "subzone:hammerfall",
+  "subzone:refuge-pointe",
+  "subzone:thandol-span",
+  "subzone:thoradin-s-wall",
+  "npc:orgrim-doomhammer",
+  "zone:hillsbrad",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Arathi Highlands (Classic)",
+  "Arathi Highlands"
+ ]
+}

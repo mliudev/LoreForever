@@ -1,0 +1,123 @@
+{
+ "key": "quest:1898",
+ "type": "quest",
+ "name": "The Deathstalkers",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1898
+  ],
+  "level": "13",
+  "faction": "Horde",
+  "start": "Mennet Carkad",
+  "end": "Andron Gant",
+  "previous": "The Deathstalkers",
+  "next": "The Deathstalkers (3)",
+  "wiki": "The Deathstalkers (2)",
+  "chain": []
+ },
+ "summary": "This covert assignment sends an undercover operative into the Undercity's shadowy underbelly to interrogate an unwitting conspirator. Acting under orders handed down from Lord Varimathras, you pose as an expected messenger to uncover treason within the Forsaken's own capital.",
+ "sections": [
+  {
+   "title": "A Web of Deceit",
+   "body": "The Deathstalkers do not merely eliminate external threats to the Forsaken; they maintain a ruthless vigil over their own citizens. Acting on suspicions harbored by Lord Varimathras, Deathstalker Mennet Carkad sets an infiltration plan in motion. Armed with a forged or acquired letter of introduction belonging to Astor Hadren, you are tasked with slipping past the suspicions of a local merchant named Andron Gant.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shop Near the Apothecarium",
+   "body": "Andron Gant operates out of a shop near the vile fumes and bubbling cauldrons of the Apothecarium. Mennet regards the shopkeeper as foolish and unobservant\u2014lacking the wit to see through an impostor. Presenting the letter establishes your cover as a courier, prompting Gant to eagerly lower his guard and volunteer details about his dealings with an unidentified third party.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Andron Gant?",
+   "aliases": [
+    "andron gant",
+    "who is gant",
+    "where is andron gant"
+   ],
+   "answer": "Andron Gant is a shopkeeper in the Undercity situated near the Apothecarium. He has drawn the scrutiny of the Deathstalkers and Lord Varimathras for allegedly funneling intelligence and assistance to an unknown external faction."
+  },
+  {
+   "q": "Why is Lord Varimathras interested in this merchant?",
+   "aliases": [
+    "why varimathras cares",
+    "varimathras andron gant",
+    "why spy on andron"
+   ],
+   "answer": "Varimathras suspects Gant of collaborating with an organization outside the Forsaken. To safeguard the city and weed out potential subversion, the dreadlord demands concrete proof of Gant's contacts and intentions."
+  },
+  {
+   "q": "How does the player deceive Andron Gant?",
+   "aliases": [
+    "astors letter",
+    "how to trick andron gant",
+    "messenger disguise"
+   ],
+   "answer": "Mennet Carkad equips you with Astor's Letter of Introduction. Because Gant was expecting a courier and is deemed not particularly sharp by the Deathstalkers, showing him the credentials is all it takes to gain his confidence."
+  },
+  {
+   "q": "What group are the Deathstalkers?",
+   "aliases": [
+    "deathstalkers lore",
+    "who are deathstalkers",
+    "undercity rogues"
+   ],
+   "answer": "The Deathstalkers are the elite rogue order and secret intelligence agency of the Forsaken. Operating from the shadows under Queen Sylvanas and Lord Varimathras, they root out sedition, sabotage enemies, and eliminate internal threats."
+  },
+  {
+   "q": "Where can Andron Gant be found?",
+   "aliases": [
+    "andron gant location",
+    "where is gant shop"
+   ],
+   "answer": "He resides in his shop close to the entrance of the Apothecarium quarter in the Undercity, conducting business under the watchful eyes of the Royal Apothecary Society and the Deathstalkers."
+  },
+  {
+   "q": "What happens after Gant accepts the letter?",
+   "aliases": [
+    "what does gant do",
+    "gant reaction"
+   ],
+   "answer": "Gant accepts the letter without suspicion and assumes you are merely an unburdened messenger. He immediately hints at ongoing cooperation with mutual acquaintances, setting the stage for extracting further proof of his betrayal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Infiltrating a spy ring using a dead man's identity to bait a careless conspirator is tradecraft straight from the Deathstalkers' textbook."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, vigilance is survival. Any citizen discovered aiding outside factions risks immediate purging by the dark lady's secret police."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Beneath the surface of the Undercity lies a nest of political intrigue, proving that even within Horde borders, trust is a rare commodity."
+  }
+ ],
+ "keywords": [
+  "andron gant",
+  "apothecarium",
+  "astor hadren",
+  "deathstalkers",
+  "espionage",
+  "forsaken",
+  "mennet carkad",
+  "undercity",
+  "varimathras"
+ ],
+ "related": [
+  "quest:1886",
+  "npc:andron-gant",
+  "npc:varimathras",
+  "quest:1885",
+  "subzone:apothecarium",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "The Deathstalkers (2)"
+ ]
+}

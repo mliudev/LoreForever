@@ -1,0 +1,122 @@
+{
+ "key": "quest:368",
+ "type": "quest",
+ "name": "A New Plague",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   368
+  ],
+  "level": "9",
+  "faction": "Horde",
+  "start": "Apothecary Johaan",
+  "end": "",
+  "previous": "A New Plague",
+  "next": "A New Plague (3)",
+  "wiki": "A New Plague (2)",
+  "chain": [
+   "A New Plague",
+   "A New Plague (2)",
+   "A New Plague (3)",
+   "A New Plague (4)"
+  ]
+ },
+ "summary": "Tasked by Apothecary Johaan in Brill, this errand requires gathering scales from the local Vile Fin murlocs prowling the Tirisfal coast. The Royal Apothecary Society aims to harness unique biological reagents to refine their budding new contagion, ensuring it can spread beyond isolated victims to engulf larger populations.",
+ "sections": [
+  {
+   "title": "Scaling Up the Contagion",
+   "body": "Poisoning a single target is simple alchemy, but formulating a plague capable of sweeping across entire lands demands more complex components. Apothecary Johaan's ongoing research in Brill hinges on creating a disease that can self-propagate and endure in the wild. To engineer this transmissibility, he turns his attention toward the shoreline wildlife of Tirisfal Glades, identifying the resilient biology of the coastal Vile Fin murlocs as a promising source of raw material.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Vile Fin Reagents",
+   "body": "The northern and western shores of Tirisfal Glades are plagued by aggressive murloc tribes known as the Vile Fin. Harvesting their scales provides Johaan with organic compounds adapted to damp, harsh conditions. By incorporating the murlocs' slick, resilient scales into his developing cauldron, the apothecary seeks to bolster the virulence and environmental stability of the Royal Apothecary Society's new plague.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the goal of Apothecary Johaan's research?",
+   "aliases": [
+    "why make a new plague",
+    "johaan plague goal",
+    "what is johaan doing"
+   ],
+   "answer": "Johaan is developing a new plague on behalf of the Royal Apothecary Society and Lady Sylvanas. His goal goes far beyond crafting simple toxins; he is working on a contagion designed to spread across entire populations and lands, targeting both the living and the Scourge."
+  },
+  {
+   "q": "Why does Johaan need murloc scales specifically?",
+   "aliases": [
+    "why murloc scales",
+    "vile fin scale purpose",
+    "why scales for plague"
+   ],
+   "answer": "Johaan discovered during his initial brewing that simple poisons lack the biological complexity to spread effectively. The tough, slime-coated scales of the Vile Fin murlocs provide specific biological compounds needed to refine the contagion's ability to survive in the wild and transmit between hosts."
+  },
+  {
+   "q": "Where can the Vile Fin murlocs be found?",
+   "aliases": [
+    "where are murlocs tirisfal",
+    "vile fin location",
+    "murloc spots"
+   ],
+   "answer": "The Vile Fin murlocs inhabit the coasts of Tirisfal Glades, primarily concentrated along the northern beaches bordering the Great Sea and along the western shores near Brightwater Lake."
+  },
+  {
+   "q": "Who does Apothecary Johaan answer to?",
+   "aliases": [
+    "who leads the apothecaries",
+    "johaan boss",
+    "royal apothecary society leader"
+   ],
+   "answer": "Apothecary Johaan is an operative of the Royal Apothecary Society, an alchemical guild headquartered in the Undercity under Grand Apothecary Putress and answering directly to Queen Sylvanas Windrunner."
+  },
+  {
+   "q": "What is the next step in this quest chain?",
+   "aliases": [
+    "what comes next",
+    "after vile fin scales",
+    "next plague quest"
+   ],
+   "answer": "After bringing the Vile Fin scales to Johaan, he continues refining the formula, which requires sourcing further biological components and eventually putting the newly brewed strain to the test."
+  },
+  {
+   "q": "Are the Forsaken concerned about using murloc parts?",
+   "aliases": [
+    "murloc alchemy dangerous",
+    "why harvest murlocs"
+   ],
+   "answer": "Not at all. The Royal Apothecary Society is notoriously pragmatic and amoral, readily harvesting parts from whatever local flora, fauna, or beasts yield the biochemical traits needed for their experiments."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, helping Apothecary Johaan is a direct contribution to their race's ultimate weapon and defense: the creation of a deadly plague engineered specifically to protect their sovereign realm and destroy their foes."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While Forsaken apothecaries pursue these dark concoctions openly in Tirisfal Glades, knowledge of the plague's full intent and potency remains a delicate matter kept mostly quiet from their less ruthless allies in the Horde."
+  }
+ ],
+ "keywords": [
+  "a new plague",
+  "apothecary johaan",
+  "brill",
+  "murloc",
+  "royal apothecary society",
+  "tirisfal glades",
+  "vile fin scale"
+ ],
+ "related": [
+  "quest:367",
+  "npc:apothecary-johaan",
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "A New Plague (2)"
+ ]
+}

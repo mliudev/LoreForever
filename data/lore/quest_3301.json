@@ -1,0 +1,123 @@
+{
+ "key": "quest:3301",
+ "type": "quest",
+ "name": "Mura Runetotem",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   3301
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Tonga Runetotem",
+  "end": "Mura Runetotem",
+  "previous": "Altered Beings (Classic)",
+  "next": null,
+  "wiki": "Mura Runetotem (quest)",
+  "chain": []
+ },
+ "summary": "This quest entrusts a traveler with a sample of altered snapjaw shell from the Barrens to deliver to Mura Runetotem in Silverpine Forest. It bridges the healing efforts of the tauren across continents, connecting the strange vitality of Kalimdor's plains to the blighted lands of the Forsaken.",
+ "sections": [
+  {
+   "title": "A Bridge Across Seas",
+   "body": "While investigating the bizarre, magically mutated wildlife surrounding the lush oases in the Barrens, Tonga Runetotem notices something peculiar about the altered snapjaws. Despite their corruption, their shells pulse with vibrant, resilient energy. Believing this strange vitality could serve a greater purpose, Tonga asks an adventurer to carry a shell across the Great Sea to his clanmate, Mura Runetotem, stationed in the Eastern Kingdoms.",
+   "spoiler": 0
+  },
+  {
+   "title": "Aiding the Forsaken",
+   "body": "Mura Runetotem resides at the Sepulcher, a Forsaken outpost in the eerie, rotting woods of Silverpine Forest. Recognizing Silverpine as an ailing, blighted woodland, Mura made the arduous journey to assist the Horde's newest allies in cleansing and rejuvenating their home. She hopes the shell's inner glow and stubborn, enduring spark of life will unlock secrets to restore vitality to the northern continent.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mura Runetotem?",
+   "aliases": [
+    "mura",
+    "who is mura",
+    "runetotem silverpine"
+   ],
+   "answer": "Mura Runetotem is a tauren druid and clanmate of Tonga Runetotem. She traveled across the sea to Silverpine Forest, establishing herself at the Sepulcher to aid the Forsaken by studying ways to heal their dying forest."
+  },
+  {
+   "q": "Where is Mura Runetotem located?",
+   "aliases": [
+    "mura location",
+    "where is mura",
+    "find mura runetotem"
+   ],
+   "answer": "Mura Runetotem is stationed in the Sepulcher, a Forsaken town located along the road in central Silverpine Forest on the continent of the Eastern Kingdoms."
+  },
+  {
+   "q": "Why does Tonga want a snapjaw shell sent to Silverpine?",
+   "aliases": [
+    "why send shell",
+    "snapjaw shell purpose",
+    "why mura needs shell"
+   ],
+   "answer": "The snapjaw shells collected near the Barrens' oases display an unnatural vitality and inner glow. Tonga believes studying this resilient life force might give Mura insights into healing the blighted, dying ecology of Silverpine Forest."
+  },
+  {
+   "q": "Why are the tauren trying to heal Forsaken lands?",
+   "aliases": [
+    "tauren helping undead",
+    "why heal silverpine",
+    "druids in silverpine"
+   ],
+   "answer": "The tauren hold a sacred duty to nurture and mend the natural world. Recognizing that Silverpine Forest is decaying and blighted, Mura hopes to extend the healing traditions of the earth to aid their new Horde allies and restore balance to the soil."
+  },
+  {
+   "q": "How does this quest connect the Barrens to Silverpine?",
+   "aliases": [
+    "barrens to silverpine quest",
+    "cross continent quest"
+   ],
+   "answer": "It serves as a thematic and geographical thread between early Horde territories, sending adventurers from the sunbaked plains of Kalimdor to the dark forests of the Eastern Kingdoms to deliver research material."
+  },
+  {
+   "q": "What happens after giving Mura the shell?",
+   "aliases": [
+    "mura follow up",
+    "what comes next"
+   ],
+   "answer": "Mura is fascinated by the shell's lingering inner glow and resolves to study it closely, continuing her long-term pursuit to find a remedy for the blighted woodlands of Silverpine."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "This mission demonstrates the deep dedication the Runetotem clan feels toward nurturing the natural world, extending their healing hand even across the sea into the gloomy, withered groves of Silverpine."
+  },
+  {
+   "target": "race:Undead",
+   "text": "While many view Forsaken lands as lost to rot and blight, tauren druids like Mura Runetotem genuinely seek to revitalize the forest around the Sepulcher."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Studying unusual resurgences of nature\u2014even those born of strange mutations\u2014is central to the druidic effort to bring balance back to broken lands."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This task reflects the growing cooperative bond within the young Horde, connecting Kalimdor's defenders directly with the struggles of the Forsaken in Lordaeron."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "mura runetotem",
+  "oases",
+  "sepulcher",
+  "silverpine",
+  "snapjaw shell",
+  "tonga runetotem"
+ ],
+ "related": [
+  "npc:tonga-runetotem",
+  "subzone:sepulcher",
+  "zone:barrens",
+  "quest:6381"
+ ],
+ "attribution": [
+  "Mura Runetotem (quest)"
+ ]
+}

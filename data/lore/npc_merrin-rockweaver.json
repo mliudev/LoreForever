@@ -1,0 +1,91 @@
+{
+ "key": "npc:merrin-rockweaver",
+ "type": "npc",
+ "name": "Merrin Rockweaver",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Merrin Rockweaver",
+  "refs": 2
+ },
+ "summary": "Merrin Rockweaver is a dwarven researcher representing the Explorers' League in the Wetlands. Following a violent raptor infestation that overran Whelgar's Excavation Site, she took refuge nearby alongside Prospector Whelgar at his makeshift retreat.",
+ "sections": [
+  {
+   "title": "Displaced by the Dig",
+   "body": "Merrin Rockweaver traveled to the Wetlands on behalf of the Ironforge Explorers' League to unearth ancient Titan secrets buried beneath the muck. The expedition ended in disaster when pickaxes pierced subterranean raptor nests beneath the dig. Vicious prehistoric beasts swarmed the trenches, forcing Merrin and the surviving crew to abandon their equipment, notes, and progress. She now shelters at Whelgar's Retreat, an encampment perched on the bluffs overlooking the overrun ruins.",
+   "spoiler": 0
+  },
+  {
+   "title": "Salvaging the Operation",
+   "body": "Despite the retreat, Merrin refuses to let the expedition become an outright failure. While Prospector Whelgar plots vengeance against the beasts and searches for missing comrades, Merrin focuses on retrieving the lost expedition tools and precious archaeological findings left behind in the raptor-infested trenches. She relies on passing Alliance travelers willing to brave the talons below to bring back what remains of their work.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Merrin Rockweaver?",
+   "aliases": [
+    "merrin rockweaver lore",
+    "who is merrin",
+    "wetlands dwarf merrin"
+   ],
+   "answer": "Merrin Rockweaver is a dwarf archaeologist affiliated with the Explorers' League of Ironforge. She was stationed at Whelgar's Excavation Site in the Wetlands before raptors overran the operation."
+  },
+  {
+   "q": "Why is she staying at Whelgar's Retreat?",
+   "aliases": [
+    "why is merrin at the retreat",
+    "whelgars retreat merrin",
+    "what happened to her camp"
+   ],
+   "answer": "The main dig site below was ambushed by subterranean Mottled raptors disturbed by the miners. Merrin and the survivors fled up to the nearby bluff, establishing Whelgar's Retreat as a safe haven while trying to recover their supplies."
+  },
+  {
+   "q": "What does Merrin need help with?",
+   "aliases": [
+    "merrin quests",
+    "merrin rockweaver tasks",
+    "tooling around lore"
+   ],
+   "answer": "Merrin needs brave travelers to descend into the perilous dig site, retrieve the specialized mining and excavation tools abandoned during the panic, and help locate missing members of the expedition."
+  },
+  {
+   "q": "What was the expedition trying to find?",
+   "aliases": [
+    "what are they digging for",
+    "excavation site purpose"
+   ],
+   "answer": "Like most Explorers' League operations, the Wetlands dig was commissioned to uncover ancient artifacts related to dwarven ancestry and the mysterious Titan relics hidden throughout Khaz Modan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarven adventurers, aiding Merrin is a matter of national heritage, safeguarding the precious Titan relics and historical records that the Explorers' League risked their lives to uncover."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Merrin represents Ironforge's academic presence in the Wetlands, and securing her research helps maintain the Alliance's tenuous foothold in the wild marshland."
+  }
+ ],
+ "keywords": [
+  "explorers' league",
+  "merrin rockweaver",
+  "raptors",
+  "tooling around",
+  "wetlands",
+  "whelgar's excavation site",
+  "whelgar's retreat"
+ ],
+ "related": [
+  "subzone:whelgar-s-retreat",
+  "subzone:whelgar-s-excavation-site",
+  "topic:explorers-league",
+  "quest:305",
+  "zone:wetlands",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Merrin Rockweaver"
+ ]
+}

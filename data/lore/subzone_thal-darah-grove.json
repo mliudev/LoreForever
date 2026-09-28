@@ -1,0 +1,91 @@
+{
+ "key": "subzone:thal-darah-grove",
+ "type": "subzone",
+ "name": "Thal'darah Grove",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Thal'darah Grove"
+ },
+ "summary": "Thal'darah Grove is an ancient druidic sanctuary and school sheltered beneath a towering tree in Stonetalon Mountains. For generations, it has served as a place of peaceful study where both night elf and tauren druids gather to learn the ways of the wild.",
+ "sections": [
+  {
+   "title": "Sanctuary of the Wild",
+   "body": "Thal'darah Grove stands as an enduring refuge of learning nestled within the Stonetalon Mountains. At its center rises a massive, sacred tree whose roots have anchored druidic instruction for generations. In a region frequently unsettled by boundary skirmishes and logging operations, the grove remains dedicated strictly to the communion of nature, welcoming novices who look beyond mortal rivalries to study the teachings of the Cenarion Circle.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Shared Bond",
+   "body": "Unlike many settlements in Kalimdor divided strictly along faction lines, Thal'darah Grove represents the profound spiritual ties between night elves and tauren. Here, young druids of both races study side by side under shared mentors, setting aside the tensions between the Alliance and the Horde to revere the balance of the land.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Thal'darah Grove?",
+   "aliases": [
+    "what is thaldarah grove",
+    "what is this place",
+    "thaldarah tree"
+   ],
+   "answer": "Thal'darah Grove is an ancient druidic sanctuary centered around a towering tree in the Stonetalon Mountains. It serves as an academy of nature worship and training for young druids."
+  },
+  {
+   "q": "Who lives and trains in the grove?",
+   "aliases": [
+    "who is here",
+    "who trains here",
+    "who lives in thaldarah"
+   ],
+   "answer": "The grove is inhabited by druid initiates and mentors, welcoming both night elves and tauren who gather to study the ways of Cenarius and the wild."
+  },
+  {
+   "q": "Does Thal'darah Grove belong to the Alliance or the Horde?",
+   "aliases": [
+    "is thaldarah alliance or horde",
+    "who controls thaldarah",
+    "thaldarah faction"
+   ],
+   "answer": "Thal'darah Grove is a neutral druidic sanctuary. Both night elves and tauren train together here in peace, focusing on communion with nature rather than faction politics."
+  },
+  {
+   "q": "Where in Stonetalon Mountains is the grove located?",
+   "aliases": [
+    "thaldarah location",
+    "where is thaldarah grove",
+    "find thaldarah"
+   ],
+   "answer": "Thal'darah Grove is located within the rugged valleys of the Stonetalon Mountains, sheltered beneath a colossal ancient tree."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The grove represents the timeless connection between tauren and night elf druids, serving as living proof that reverence for the balance transcends political allegiance."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For tauren walk-paths, the sanctuary is an honored site where shamans and druids recognize ancient shared traditions nurtured peacefully alongside night elven tutors."
+  }
+ ],
+ "keywords": [
+  "ancient tree",
+  "battlescar",
+  "cenarion",
+  "druid school",
+  "stonetalon",
+  "thal'darah",
+  "thaldarah grove"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "topic:druid",
+  "topic:tauren",
+  "topic:alliance",
+  "topic:horde",
+  "subzone:battlescar-valley"
+ ],
+ "attribution": [
+  "Thal'darah Grove"
+ ]
+}

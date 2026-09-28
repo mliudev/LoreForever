@@ -1,0 +1,92 @@
+{
+ "key": "subzone:scarlet-monastery-graveyard",
+ "type": "subzone",
+ "name": "Scarlet Monastery Graveyard",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Scarlet Monastery Graveyard"
+ },
+ "summary": "The Scarlet Monastery Graveyard is the burial wing of the grand religious complex in northeastern Tirisfal Glades. Once a serene resting place for Lordaeron's clergy and nobility, it has fallen into chilling neglect, overrun by lingering undead and the corrupted magic of the fallen crusader Bloodmage Thalnos.",
+ "sections": [
+  {
+   "title": "A Defiled Sanctuary",
+   "body": "Before the Third War, this cloistered cemetery served as the peaceful burial ground for the priesthood of Lordaeron. When the Scarlet Crusade fortified the monastery against the undead, their fanatical vigilance failed to cleanse their own crypts. Today, the Graveyard is neglected and deeply haunted. Lingering spirits, restless corpses, and shambling horrors wander the Chamber of Atonement and the mist-covered Forlorn Cloister. Rather than hallowed rest, the dead have found endless torment beneath the crusade's uncaring gaze.",
+   "spoiler": 0
+  },
+  {
+   "title": "Corruption from Within",
+   "body": "At the rear of the grounds stands Honor's Tomb, where the greatest mockery of the Crusade's dogma festers: Bloodmage Thalnos. Once a sworn defender of the Order, Thalnos succumbed to dark magics and madness, twisted into an undead abomination wielding sinister soul drain and fire. The crusaders above preach total extermination of the undead plague, yet they harbor a rotting, fallen sorcerer within their own consecrated soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there undead inside a Scarlet Crusade stronghold?",
+   "aliases": [
+    "why undead in sm gy",
+    "undead in scarlet monastery",
+    "why are there ghosts here"
+   ],
+   "answer": "The Crusade's leadership is consumed with fanaticism, directing their crusaders outward to slaughter living outsiders and wage war in Tirisfal. Consequently, the monastery's crypts and burial plots have been utterly neglected, allowing dormant plague remnants and restless spirits of dead clergy to rise unchecked."
+  },
+  {
+   "q": "Who is Bloodmage Thalnos?",
+   "aliases": [
+    "thalnos lore",
+    "who is bloodmage thalnos",
+    "graveyard boss"
+   ],
+   "answer": "Thalnos was once a mage aligned with the Scarlet Crusade who pursued dark, forbidden magic to fight the Scourge. Instead of purging the undead, his obsession corrupted him into an undead abomination who now rules the desecrated crypts of Honor's Tomb."
+  },
+  {
+   "q": "Where is the Graveyard wing located inside the monastery?",
+   "aliases": [
+    "where is sm gy",
+    "how to find graveyard wing",
+    "which door is graveyard"
+   ],
+   "answer": "Upon entering the Grand Vestibule of the Scarlet Monastery, the Graveyard entrance is the leftmost instance portal. It does not require a key to enter, unlike the Armory and Cathedral wings."
+  },
+  {
+   "q": "What is the Forlorn Cloister?",
+   "aliases": [
+    "forlorn cloister",
+    "graveyard courtyard"
+   ],
+   "answer": "The Forlorn Cloister is the open-air garden and cemetery between the entrance crypts and Honor's Tomb. It is littered with tombstones, roaming ghouls, and damp earth rich in Grave Moss."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "The damp, defiled soil of the Forlorn Cloister is one of the most reliable sources in northern Lordaeron for gathering Grave Moss."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken spellcasters and apothecaries view the Graveyard as grim proof of the Crusade's hypocrisy: zealots who condemn the Forsaken while an undead bloodmage rots in their basement."
+  }
+ ],
+ "keywords": [
+  "chamber of atonement",
+  "forlorn cloister",
+  "grave moss",
+  "graveyard",
+  "honor's tomb",
+  "scarlet monastery",
+  "thalnos"
+ ],
+ "related": [
+  "zone:scarlet",
+  "subzone:grand-vestibule",
+  "npc:bloodmage-thalnos",
+  "subzone:forlorn-cloister",
+  "subzone:chamber-of-atonement",
+  "topic:scarlet-crusade",
+  "zone:tirisfal",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Scarlet Monastery Graveyard"
+ ]
+}

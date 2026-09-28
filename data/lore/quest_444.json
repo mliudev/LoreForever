@@ -1,0 +1,116 @@
+{
+ "key": "quest:444",
+ "type": "quest",
+ "name": "Rot Hide Origins",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   444
+  ],
+  "level": "17",
+  "faction": "Horde",
+  "start": "Apothecary Renferrel",
+  "end": "Bethor Iceshard",
+  "previous": "Rot Hide Ichor (quest)",
+  "next": "Thule Ravenclaw (quest)",
+  "wiki": "Rot Hide Origins",
+  "chain": []
+ },
+ "summary": "\"Rot Hide Origins\" is a Forsaken quest bridging the research of the Royal Apothecary Society in the Silverpine forest with the sorcerous expertise of the Undercity. After analyzing putrid fluids taken from gnolls, Apothecary Renferrel sends an adventurer to consult Bethor Iceshard to uncover the magical lineage behind these rotting beasts.",
+ "sections": [
+  {
+   "title": "A Concoction of Death and Fel",
+   "body": "While examining the fluid harvested from the rot hide gnolls infesting Silverpine Forest, Apothecary Renferrel manages to reduce the foul substance into its basic elements. His preliminary chemical distillation reveals something far stranger than ordinary gnoll disease: the ichor carries the unmistakable dual signature of necromancy and warlock arts. Realizing pure alchemy cannot unravel the full scope of the sorcery at play, Renferrel tasks an agent with taking a prepared sample directly to the capital for esoteric scrutiny.",
+   "spoiler": 0
+  },
+  {
+   "title": "Audience with the Mage",
+   "body": "The sample is carried to Bethor Iceshard, an accomplished Forsaken mage stationed high within the Magic Quarter of the Undercity. Bethor does not belong to the Royal Apothecary Society, but his deep familiarity with arcane and dark disciplines makes him an invaluable resource for decoding unusual weaves of power. Upon receiving the vile vial, Bethor detects old, potent enchantments that he has not observed in years, immediately preparing a divination spell to identify who wove the foul magic.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends the player on this quest?",
+   "aliases": [
+    "who starts rot hide origins",
+    "where do i get rot hide origins"
+   ],
+   "answer": "Apothecary Renferrel, an alchemist of the Royal Apothecary Society based in Silverpine Forest at the Sepulcher, assigns this task after examining the ichor recovered from nearby rot hide gnolls."
+  },
+  {
+   "q": "Why does Renferrel send the sample to Bethor Iceshard?",
+   "aliases": [
+    "why bethor iceshard",
+    "why give sample to mage"
+   ],
+   "answer": "Renferrel discovers that the rot hide ichor is steeped in necromantic and warlock magic. Since alchemy alone cannot fully explain the enchantments at work, he seeks the arcane expertise of Bethor Iceshard in the Undercity to divine its magical origins."
+  },
+  {
+   "q": "Where is Bethor Iceshard located?",
+   "aliases": [
+    "bethor location",
+    "where is bethor iceshard"
+   ],
+   "answer": "Bethor Iceshard resides in the Magic Quarter of the Undercity, surrounded by arcane researchers and trainers."
+  },
+  {
+   "q": "What are the Rot Hides?",
+   "aliases": [
+    "what are rot hides",
+    "rot hide gnolls silverpine"
+   ],
+   "answer": "Rot hides are undead gnolls prowling Silverpine Forest. Unlike ordinary mindless beasts, their rotting condition is artificially induced by foul magical experiments."
+  },
+  {
+   "q": "What happens when you deliver the sample to Bethor?",
+   "aliases": [
+    "what does bethor do",
+    "bethor iceshard reaction"
+   ],
+   "answer": "Bethor recognizes ancient and potent magic laced throughout the fluid, noting that he has not encountered these particular spells in a very long time. He immediately begins casting a divination spell to track the source of the magic."
+  },
+  {
+   "q": "What quest comes next?",
+   "aliases": [
+    "next quest after rot hide origins",
+    "follow up to rot hide origins"
+   ],
+   "answer": "Following this delivery and Bethor's divination, he sends the adventurer on the quest 'Thule Ravenclaw' to investigate the renegade mage responsible for corrupting the gnolls."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This task demonstrates the cooperation between the Royal Apothecary Society and the arcane masters of the Undercity, coordinating science and sorcery to safeguard Lordaeron."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Bethor Iceshard's role underscores how arcane divination and scholarly spellcraft remain vital tools for solving dark mysteries that confound ordinary alchemy."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The discovery of fel and warlock magics intermingled with necromancy in the rot hide ichor points toward deliberate, taboo spellcraft at work in the Silverpine wilderness."
+  }
+ ],
+ "keywords": [
+  "apothecary renferrel",
+  "bethor iceshard",
+  "magic quarter",
+  "rot hide ichor",
+  "rot hide origins",
+  "sample ichor",
+  "silverpine forest",
+  "undercity"
+ ],
+ "related": [
+  "npc:bethor-iceshard",
+  "npc:apothecary-renferrel",
+  "zone:undercity",
+  "subzone:magic-quarter"
+ ],
+ "attribution": [
+  "Rot Hide Origins"
+ ]
+}

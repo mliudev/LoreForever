@@ -1,0 +1,72 @@
+{
+ "key": "subzone:razor-hill-watchtower",
+ "type": "subzone",
+ "name": "Razor Hill Watchtower",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Razor Hill Watchtower"
+ },
+ "summary": "Perched on the red stone bluffs overlooking Razor Hill, this sturdy outpost serves as an early warning post for the heart of Durotar. Sentries stationed here keep a vigilant eye across the dusty plains and toward the coast, safeguarding the settlement below from encroaching threats.",
+ "sections": [
+  {
+   "title": "Eyes Over Durotar",
+   "body": "Constructed from thick timber and iron framing, the Razor Hill Watchtower guards the settlement of Razor Hill and the surrounding canyons. Durotar faces relentless threats from Kul Tiras marines along the eastern shore, quillboar raiders prowling the scrublands, and Burning Blade cultists lurking in nearby crags. From this elevated vantage point atop the ridgeline, Horde sentries can spot approaching warbands, smoke signals, and incursions long before they reach the settlement gates.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Razor Hill Watchtower?",
+   "aliases": [
+    "why is the watchtower here",
+    "watchtower purpose",
+    "razor hill tower"
+   ],
+   "answer": "The watchtower serves as the primary lookout post for Razor Hill and central Durotar. Its high elevation allows scouts to monitor the trails, watch for hostile beasts, and detect any troop movements from nearby Alliance encampments or centaur raiding parties."
+  },
+  {
+   "q": "Who guards the watchtower?",
+   "aliases": [
+    "who is at the tower",
+    "watchtower guards"
+   ],
+   "answer": "Horde sentries and scouts are stationed here on rotation from Razor Hill. They keep watch over the surrounding red ravines and stand ready to sound the alarm if the town below is threatened."
+  },
+  {
+   "q": "What threats can be seen from up here?",
+   "aliases": [
+    "threats to razor hill",
+    "what are they looking for"
+   ],
+   "answer": "Scouts primarily keep watch for aggressive quillboar from the Razormane tribes, human infiltrators from Tiragarde Keep along the eastern coast, and wild beasts roaming the dry valleys."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For young warriors and scouts emerging from the Valley of Trials, the watchtower is a reassuring landmark signaling the safety and strength of the fledgling Horde."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The high vantage point offers an unobstructed view of the surrounding crags, ideal for spotters tracking quarry and tracking beast movements across Durotar."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "lookout",
+  "razor hill",
+  "razor hill watchtower",
+  "sentry",
+  "watchtower"
+ ],
+ "related": [
+  "subzone:razor-hill",
+  "zone:durotar",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Razor Hill Watchtower"
+ ]
+}

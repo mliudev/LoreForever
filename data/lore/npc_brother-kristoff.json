@@ -1,0 +1,79 @@
+{
+ "key": "npc:brother-kristoff",
+ "type": "npc",
+ "name": "Brother Kristoff",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Brother Kristoff",
+  "refs": 2
+ },
+ "summary": "Brother Kristoff is a human member of the Church of the Holy Light stationed in Stormwind's Cathedral Square. He can be found standing outdoors near the grand statue of Uther the Lightbringer. Preoccupied with theological study, he frequently seeks out practical literature to weave into sermons on spiritual strength.",
+ "sections": [
+  {
+   "title": "A Preacher by the Statue",
+   "body": "Brother Kristoff serves the Church of the Holy Light from the open courtyard of Cathedral Square, lingering in the shadow of the great monument to Uther the Lightbringer. Unlike some clerics who remain secluded within the marble cloisters of the Cathedral of Light, Kristoff works among the citizens and pilgrims passing through the plaza. In preparing his discourses\u2014such as sermons on the Fortitude of the Spirit\u2014he draws upon grounded, worldly analogies. He famously looks to technical treatises like 'The Stresses of Iron' to explain how the mortal soul endures pressure, comparing the inner resolve granted by the Holy Light to the tempered strength of worked metal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Brother Kristoff?",
+   "aliases": [
+    "brother kristoff lore",
+    "who is kristoff",
+    "kristoff stormwind"
+   ],
+   "answer": "Brother Kristoff is a human priest and scholar of the Church of the Holy Light. He is stationed outside the Cathedral of Light in Stormwind's Cathedral Square, right near the monumental statue of Uther the Lightbringer."
+  },
+  {
+   "q": "What does Brother Kristoff do in Cathedral Square?",
+   "aliases": [
+    "kristoff purpose",
+    "kristoff role",
+    "why is brother kristoff standing outside"
+   ],
+   "answer": "Kristoff prepares sermons and addresses on matters of the Light and faith. Notably, he works on a lecture discussing the Fortitude of the Spirit, seeking out references from metallurgy texts to illustrate spiritual resilience."
+  },
+  {
+   "q": "Why does Brother Kristoff need a book about iron?",
+   "aliases": [
+    "the stresses of iron",
+    "speaking of fortitude book",
+    "why does kristoff want metallurgy"
+   ],
+   "answer": "Kristoff seeks the treatise 'The Stresses of Iron' to enrich his sermon on fortitude. He uses the material properties of iron under stress as an earthly metaphor to explain how devotion to the Holy Light fortifies the mortal spirit against adversity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Priests studying in Cathedral Square will appreciate Kristoff's grounded approach to the liturgy, as he draws on tangible, worldly arts to teach the deeper mysteries of inner fortitude."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Smiths may find it amusing that a cleric of the Light turns to texts on iron stresses and metallurgy to teach the clergy about resilience."
+  }
+ ],
+ "keywords": [
+  "brother kristoff",
+  "cathedral of light",
+  "cathedral square",
+  "fortitude",
+  "kristoff",
+  "stresses of iron",
+  "uther statue"
+ ],
+ "related": [
+  "subzone:cathedral-square",
+  "subzone:cathedral-of-light",
+  "topic:church-of-the-holy-light",
+  "quest:343",
+  "quest:346",
+  "topic:light",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Brother Kristoff"
+ ]
+}

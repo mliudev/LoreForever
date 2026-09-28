@@ -1,0 +1,118 @@
+{
+ "key": "quest:125",
+ "type": "quest",
+ "name": "The Lost Tools",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   125
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Foreman Oslow",
+  "end": "",
+  "previous": null,
+  "next": "The Everstill Bridge",
+  "wiki": "The Lost Tools",
+  "chain": []
+ },
+ "summary": "With Lakeshire under pressure from hostile forces, town maintenance and defense rely entirely on local labor. Foreman Oslow's essential tools, shipped from Goldshire, were lost when Blackrock catapult fire sank his transport boat into Lake Everstill. Retrieving the sunken chest from the lakebed is critical to rebuilding the town's shattered bridge.",
+ "sections": [
+  {
+   "title": "A Delivery Gone Awry",
+   "body": "Lakeshire's lifeline to Elwynn Forest has been severed by the destruction of the Great Bridge. When a replacement shipment of stonemasonry and carpentry tools was dispatched overland from Goldshire, it could not cross directly into town. The crew transferred the supplies into a rowboat to cross Lake Everstill, only for the vessel to be struck directly by a Blackrock orc catapult. The boat was obliterated, and Oslow's heavy ironbound toolbox plunged directly to the deep lake floor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hazards of the Deep",
+   "body": "Reclaiming the toolbox is far more perilous than a standard dive. The waters of Lake Everstill are infested with aggressive murloc tribes prowling the shallows, while predatory threshers hunt the murky depths. Despite the danger, recovering the tools is necessary if Foreman Oslow is to resume repair work on the bridge and keep Lakeshire from falling completely into ruin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why were the tools sent by boat in the first place?",
+   "aliases": [
+    "why boat",
+    "how did the tools sink",
+    "why lake transport"
+   ],
+   "answer": "The main road into Lakeshire crosses a stone bridge spanning Lake Everstill, but Blackrock orcs blew out a large span of it. Because supply wagons coming from Goldshire could no longer cross, the crew had to unload the tools and attempt to ferry them across the water."
+  },
+  {
+   "q": "How did the boat sink?",
+   "aliases": [
+    "who destroyed the boat",
+    "how did it get hit"
+   ],
+   "answer": "While crossing the lake, the transport boat came under fire from Blackrock orcs, who struck it directly with a catapult projectile from the surrounding heights, sinking the boat and its cargo instantly."
+  },
+  {
+   "q": "Who is Foreman Oslow?",
+   "aliases": [
+    "foreman oslow",
+    "oslow role"
+   ],
+   "answer": "Foreman Oslow is Lakeshire's chief builder and overseer. He is responsible for public works and civil maintenance in town, most urgently the critical task of reconstructing the ruined bridge."
+  },
+  {
+   "q": "What threats are in Lake Everstill?",
+   "aliases": [
+    "what's in the lake",
+    "lake monsters",
+    "lake everstill danger"
+   ],
+   "answer": "The lake is populated by hostile murloc tribes patrolling near the shores and ruins, as well as vicious, carnivorous lake threshers that hunt in the open water and deeper depths."
+  },
+  {
+   "q": "Why does Lakeshire need these tools so badly?",
+   "aliases": [
+    "why are tools important",
+    "bridge repair tools"
+   ],
+   "answer": "Lakeshire is effectively under siege, cut off from immediate reinforcements and regular shipments. Without heavy tools, Oslow cannot rebuild the bridge or repair the defenses needed to hold off attacking orcs and gnolls."
+  },
+  {
+   "q": "Where does the quest lead next?",
+   "aliases": [
+    "next quest",
+    "what after lost tools"
+   ],
+   "answer": "Once his toolbox is recovered, Foreman Oslow enlists adventurers to collect the raw building materials needed to repair the Great Bridge in the follow-up quest, The Everstill Bridge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire stands as the Alliance's Eastern bastion against the Blackrock clan; ensuring civilian builders have their equipment is vital to maintaining the Kingdom of Stormwind's frontier."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Quality tools are hard to forge under siege conditions, making the recovery of specialized smithing and construction implements from Goldshire indispensable to the town."
+  }
+ ],
+ "keywords": [
+  "catapult",
+  "foreman oslow",
+  "goldshire",
+  "lake everstill",
+  "lakeshire",
+  "murloc",
+  "redridge",
+  "thresher",
+  "toolbox"
+ ],
+ "related": [
+  "npc:foreman-oslow",
+  "subzone:lake-everstill",
+  "quest:89",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "subzone:goldshire",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "The Lost Tools"
+ ]
+}

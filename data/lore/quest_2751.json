@@ -1,0 +1,106 @@
+{
+ "key": "quest:2751",
+ "type": "quest",
+ "name": "Barbaric Battlements",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   2751
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "",
+  "end": "",
+  "previous": null,
+  "next": "On Iron Pauldrons",
+  "wiki": "Barbaric Battlements",
+  "chain": [
+   "Barbaric Battlements",
+   "On Iron Pauldrons",
+   "Trampled Under Foot",
+   "Horns of Frenzy",
+   "Joys of Omosh"
+  ]
+ },
+ "summary": "Barbaric Battlements is the opening trial set by Orokk Omosh, an aging blacksmith in Orgrimmar desperate to preserve his ancestral legacy. Having no heirs, Orokk demands that an aspiring smith demonstrate fundamental mastery over bronze and basic craftsmanship before he reveals the secrets of his craft.",
+ "sections": [
+  {
+   "title": "The End of the Omosh Line",
+   "body": "Orokk Omosh stands over the anvils of Orgrimmar bearing a heavy burden. For twenty generations, his family has worked the forge, shaping countless tons of ore into devastating weapons and rugged armor for the Horde. Tragically, Orokk considers himself a personal failure of his lineage, being kinless and unable to sire offspring. Facing the absolute extinction of the Omosh craft, he has chosen to set aside bloodline pride and seek out an apprentice capable of carrying forward his family's armory traditions.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Test of Metal and Tooth",
+   "body": "Orokk refuses to pass down his secrets to an amateur. To prove their basic competence at the anvil, he demands two patterned bronze bracers, two bronze greatswords, and a pair of sharp beast claws. For Orokk, true blacksmithing is not an art of idle luxury; its highest honor is seeing armor and steel bathed in the blood of enemies. Fulfilling his demands convinces the old smith that his lineage's legacy might endure in spirit, opening the door to deeper metalworking techniques.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Orokk Omosh?",
+   "aliases": [
+    "orokk omosh",
+    "who is orokk",
+    "omosh blacksmith"
+   ],
+   "answer": "Orokk Omosh is a master blacksmith residing in Orgrimmar. He represents the twentieth generation of blacksmiths in the Omosh line, but lacking kin or heirs, he is determined to train an outsider rather than allow his clan's trade secrets to vanish."
+  },
+  {
+   "q": "Why does Orokk need someone else to teach?",
+   "aliases": [
+    "why apprentice",
+    "orokk heir",
+    "why omosh legacy dying"
+   ],
+   "answer": "Orokk cannot produce offspring and has no surviving kin to inherit his workshop. Without an apprentice to pass his blueprints and techniques to, twenty generations of hard-won smithing knowledge would die with him."
+  },
+  {
+   "q": "What items are required to prove competence to Orokk?",
+   "aliases": [
+    "what do i need for barbaric battlements",
+    "items for barbaric battlements",
+    "barbaric battlements turn in"
+   ],
+   "answer": "Orokk demands two patterned bronze bracers, two forged bronze greatswords, and two sharp claws taken from fierce predatory beasts."
+  },
+  {
+   "q": "What comes after completing Barbaric Battlements?",
+   "aliases": [
+    "next quest",
+    "chain after barbaric battlements",
+    "what follows"
+   ],
+   "answer": "Satisfied with your fundamental mastery of bronze, Orokk continues your training with 'On Iron Pauldrons', advancing toward heavier iron forging and complex plate armor crafting."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "For Horde blacksmiths, this task marks a major milestone in transitioning from basic bronze and copper crafting to intermediate armor traditions."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Omosh legacy reflects the Horde's martial ethos: metalwork is meant to be tested in combat and drenched in the blood of foes."
+  }
+ ],
+ "keywords": [
+  "barbaric battlements",
+  "blacksmithing",
+  "bronze",
+  "legacy",
+  "omosh",
+  "orgrimmar",
+  "orokk omosh"
+ ],
+ "related": [
+  "npc:orokk-omosh",
+  "quest:2753",
+  "quest:2755",
+  "zone:orgrimmar",
+  "zone:thousandneedles"
+ ],
+ "attribution": [
+  "Barbaric Battlements"
+ ]
+}

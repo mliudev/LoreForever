@@ -1,0 +1,71 @@
+{
+ "key": "subzone:thistlefuzz-arcanery",
+ "type": "subzone",
+ "name": "Thistlefuzz Arcanery",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Thistlefuzz Arcanery"
+ },
+ "summary": "Thistlefuzz Arcanery is a prominent workshop and academy of the magical arts located east of the Great Forge in Ironforge. Run primarily by gnome practitioners, it serves as the capital's premier haven for enchanters and scholars seeking to weave magic into metal and parchment. Its busy chambers hum with arcane energy right alongside the roaring fires of dwarven industry.",
+ "sections": [
+  {
+   "title": "Arcane Craft in the Mountain",
+   "body": "Tucked directly east of the thundering Great Forge, Thistlefuzz Arcanery offers a stark contrast to the clanging anvils of dwarven smiths. Within its two levels, scholars, practitioners, and apprentices gather to master the subtle disciplines of enchanting and magical study. While the Ironforge dwarves prefer to reshape steel through muscle and fire, the gnomes of the Arcanery demonstrate how raw arcane energy can be bound directly into weaponry, armor, and curious tools. It stands as an essential sanctuary for spellcasters navigating the mountain stronghold.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Thistlefuzz Arcanery located?",
+   "aliases": [
+    "arcanery location",
+    "where is thistlefuzz",
+    "ironforge enchanting shop"
+   ],
+   "answer": "Thistlefuzz Arcanery sits along the eastern ring of the Great Forge in central Ironforge, easily identified by the arcane apparatuses and enchanting supplies displayed around its doors."
+  },
+  {
+   "q": "What services are offered inside the Arcanery?",
+   "aliases": [
+    "what is in thistlefuzz arcanery",
+    "trainers in thistlefuzz"
+   ],
+   "answer": "The shop caters to practitioners of magical crafts. Enchanting trainers, spellcraft suppliers, and scholars gather here to teach apprentices, trade rare reagents, and conduct experiments away from the physical soot of the smithies."
+  },
+  {
+   "q": "Why is an arcane workshop situated so close to the Great Forge?",
+   "aliases": [
+    "why is it near the forge",
+    "arcanery great forge connection"
+   ],
+   "answer": "Positioning an enchanting workshop right beside the Great Forge is practical. Newly forged blades, armor plates, and mechanical components produced by the dwarven smiths can immediately be carried east to be imbued with protective enchantments and elemental power."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomes residing in Ironforge, Thistlefuzz Arcanery is a comfortable reminder of their love for arcane theory, technical study, and delicate experimentation amidst a city dominated by heavy dwarven iron."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Visiting mages find familiar reagents, quiet corners of theory, and kindred spellcasters among the otherwise martial, weapon-focused halls of the dwarf capital."
+  }
+ ],
+ "keywords": [
+  "arcane",
+  "enchanter",
+  "enchanting",
+  "gnome",
+  "great forge",
+  "ironforge",
+  "thistlefuzz arcanery"
+ ],
+ "related": [
+  "zone:ironforge",
+  "subzone:great-forge"
+ ],
+ "attribution": [
+  "Thistlefuzz Arcanery"
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "key": "quest:92472",
+ "type": "quest",
+ "name": "The Next Step",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92472
+  ],
+  "level": "5",
+  "faction": null,
+  "start": "Aetheen of the Gales",
+  "end": "Constable Aonda",
+  "previous": "Foul Matriarch",
+  "next": "Welcome to Shen'dar Village",
+  "wiki": "The Next Step (Skyborne)",
+  "chain": []
+ },
+ "summary": "Following the resolution of the immediate beast threats near Thendal Village, Elder Aetheen of the Gales directs travelers southward toward Shen'dar Village. The journey marks a shift from clearing wild fauna to confronting the organized zealotry of the Al'Aketh Cult, who revere the Windlord Al'Akir.",
+ "sections": [
+  {
+   "title": "Leaving Thendal Village",
+   "body": "After proving capable against the local predators and the matriarchs plaguing the northern wilderness of Zephras Isle, adventurers are called to broader duties. Elder Aetheen of the Gales recognizes that simple pest control is secondary to the true peril taking root across the island. To protect the isle's inhabitants, capable defenders must be dispatched to support the outlying settlements.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Looming Shadow of the Cult",
+   "body": "The primary danger facing southern Zephras is the Al'Aketh Cult. Described as ruthless zealots, the cultists dedicate themselves to Al'Akir the Windlord, ruler of the elemental realm of Skywall. Their growing power poses an immediate menace to Shen'dar Village. In response, Aetheen sends travelers southward down the road, past lurking ambushers in the highlands, to reinforce Constable Aonda's local guard.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this journey lead?",
+   "aliases": [
+    "where do i go",
+    "next hub",
+    "destination"
+   ],
+   "answer": "The road leads south from Thendal Village into the Shen'dar Highlands and ends at Shen'dar Village, where Constable Aonda manages the local defense."
+  },
+  {
+   "q": "Who is Constable Aonda?",
+   "aliases": [
+    "constable aonda",
+    "who is aonda"
+   ],
+   "answer": "Constable Aonda is the civic and military authority maintaining order in Shen'dar Village, currently tasked with protecting the town against escalating cultist threats."
+  },
+  {
+   "q": "What is the Al'Aketh Cult?",
+   "aliases": [
+    "who are the al'aketh",
+    "al'aketh cult lore",
+    "cultists"
+   ],
+   "answer": "The Al'Aketh are brutal zealots on Zephras Isle who worship Al'Akir the Windlord, the elemental lord of Skywall. Their aggressive growth poses a direct threat to the island's settlements."
+  },
+  {
+   "q": "Who is Al'Akir?",
+   "aliases": [
+    "who is alakir",
+    "windlord",
+    "skywall ruler"
+   ],
+   "answer": "Al'Akir the Windlord is the elemental ruler of the skies and master of Skywall, revered by air elementals and worshiped fanatically by the Al'Aketh Cult."
+  },
+  {
+   "q": "Why does Elder Aetheen send travelers away from Thendal?",
+   "aliases": [
+    "why leave thendal",
+    "aetheen's goal"
+   ],
+   "answer": "With immediate threats around Thendal handled, Aetheen directs proven defenders to Shen'dar Village, where the Al'Aketh Cult's aggressive advances present a much larger danger to the island as a whole."
+  },
+  {
+   "q": "What hazards are along the road to Shen'dar Village?",
+   "aliases": [
+    "road hazards",
+    "traveling south",
+    "highland danger"
+   ],
+   "answer": "The trail south passes through the Shen'dar Highlands, where Al'Aketh Ambushers and rogue cult thugs harass travelers traveling between the island's settlements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "For the Skyborne, confronting the Al'Aketh represents a direct fight against elemental fanaticism threatening the safety of their home settlements across Zephras Isle."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman will recognize the danger of mortals blindly worshiping elemental lords like Al'Akir, whose volatile nature often demands servitude rather than balance."
+  }
+ ],
+ "keywords": [
+  "aetheen of the gales",
+  "al'aketh cult",
+  "al'akir",
+  "constable aonda",
+  "shen'dar village",
+  "skywall",
+  "thendal village",
+  "zephras isle"
+ ],
+ "related": [
+  "quest:92471",
+  "quest:92470",
+  "zone:zephras",
+  "quest:92544",
+  "quest:96627",
+  "topic:skywall"
+ ],
+ "attribution": [
+  "The Next Step (Skyborne)"
+ ]
+}

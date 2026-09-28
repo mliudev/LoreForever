@@ -1,0 +1,120 @@
+{
+ "key": "quest:4762",
+ "type": "quest",
+ "name": "The Cliffspring River",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   4762
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Thundris Windweaver",
+  "end": "",
+  "previous": "Thundris Windweaver (quest)",
+  "next": "The Blackwood Corrupted",
+  "wiki": "The Cliffspring River",
+  "chain": []
+ },
+ "summary": "The Cliffspring River is a major waterway in northern Darkshore that is rapidly turning foul and threatening the settlement of Auberdine. Thundris Windweaver tasks Alliance investigators with gathering a water sample from beneath a river bridge waterfall to confirm the creeping blight. The analysis points beyond the riverbanks to a much darker source of corruption festering in the eastern highlands.",
+ "sections": [
+  {
+   "title": "A Tainted Waterway",
+   "body": "Running down from the eastern highlands, the Cliffspring River empties into the coastal shoals along Mist's Edge, just north of Auberdine. Recently, its waters have begun to turn foul, carrying an unnatural rot toward the night elf settlement. Fearing that the wash will poison the surrounding shores and the town's supplies, Thundris Windweaver sends scouts upriver to draw samples from the waterfall pool beneath the road bridge.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Root in Felwood",
+   "body": "While the local Blackwood furbolgs have set up encampments along the river and show severe signs of agitation, Thundris suspects they are merely victims and conduits rather than the creators of the blight. Examining the drawn water confirms his fears: the taint trickles down directly from Felwood, the blighted forest to the east scarred during the Third War. Remedying the water will require confronting the corrupted furbolgs and purifying the land's ancient sources.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I collect the water sample?",
+   "aliases": [
+    "where is the water sample",
+    "cliffspring river location",
+    "waterfall pool location"
+   ],
+   "answer": "Head north from Auberdine until you reach the mouth of the Cliffspring River along Mist's Edge. Follow the river inland to the first waterfall, located just beneath an overhead road bridge, and fill the sampling tube in the pool."
+  },
+  {
+   "q": "Why is the Cliffspring River turning foul?",
+   "aliases": [
+    "why is river corrupted",
+    "what is poisoning darkshore water",
+    "cliffspring taint source"
+   ],
+   "answer": "The foul runoff trickles down from the blighted heights of Felwood to the east, carrying demonic corruption into Darkshore's river system and driving the local Blackwood furbolg tribe mad."
+  },
+  {
+   "q": "Who is Thundris Windweaver?",
+   "aliases": [
+    "thundris windweaver lore",
+    "who gives cliffspring river quest"
+   ],
+   "answer": "Thundris Windweaver is a night elf scholar and investigator stationed in Auberdine. He studies the ecological decay spreading through Darkshore and works to divine the causes of regional corruption."
+  },
+  {
+   "q": "Are the furbolgs responsible for poisoning the river?",
+   "aliases": [
+    "did furbolgs taint the water",
+    "blackwood furbolg corruption"
+   ],
+   "answer": "No. While the Blackwood furbolgs live along the river and spread violence in their mad state, they are merely victims of the taint washing down from Felwood rather than the true root of the plague."
+  },
+  {
+   "q": "How does this river impact Auberdine?",
+   "aliases": [
+    "threat to auberdine",
+    "why does auberdine care about cliffspring"
+   ],
+   "answer": "The Cliffspring River empties out into Mist's Edge just north of town. The coastal currents threaten to carry the putrid runoff straight into Auberdine's shoreline, endangering their fisheries, flora, and freshwater supply."
+  },
+  {
+   "q": "What happens after testing the sample?",
+   "aliases": [
+    "quest after cliffspring river",
+    "what follows cliffspring river"
+   ],
+   "answer": "Testing confirms the corruption matches the blighted magic of Felwood, leading Thundris Windweaver to send adventurers further into Blackwood territory to investigate the tribe and seek a cure."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids of the Cenarion Circle, seeing clean woodland waters turn putrid with lingering demonic taint is a call to arms to cleanse Darkshore's wounded nature."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Auberdine relies on the balance of Darkshore's coastline, and allowing Felwood's rot to spill into Mist's Edge endangers the homes and livelihood of the Kaldorei."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "blackwood",
+  "cliffspring",
+  "darkshore",
+  "felwood",
+  "river",
+  "taint",
+  "thundris",
+  "waterfall",
+  "windweaver"
+ ],
+ "related": [
+  "quest:4761",
+  "quest:4763",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "subzone:mist-s-edge",
+  "zone:felwood",
+  "topic:furbolg",
+  "quest:938"
+ ],
+ "attribution": [
+  "The Cliffspring River"
+ ]
+}

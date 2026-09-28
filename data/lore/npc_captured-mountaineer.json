@@ -1,0 +1,83 @@
+{
+ "key": "npc:captured-mountaineer",
+ "type": "npc",
+ "name": "Captured Mountaineer",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Captured Mountaineer",
+  "refs": 1
+ },
+ "summary": "The Captured Mountaineer is an Ironforge dwarf held prisoner in the basement of the Gallows' End Tavern in Brill. Bound and guarded by the Forsaken, he serves as an unwilling subject for the Royal Apothecary Society's grim experiments.",
+ "sections": [
+  {
+   "title": "A Prisoner in the Cellar",
+   "body": "Tucked away beneath the floorboards of the Gallows' End Tavern in Brill, this Ironforge Mountaineer sits captive far from the safety of Khaz Modan. While patrons drink above, the Royal Apothecary Society puts him to work as an unwitting test subject for their concoctions. Apothecary Johaan and his peers test the lethal potency of their developing plague against living Alliance physiology, using the prisoner to gauge how well their toxins bring a swift and agonizing end to the living.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the Captured Mountaineer?",
+   "aliases": [
+    "who is this dwarf",
+    "dwarf in brill tavern",
+    "captive dwarf"
+   ],
+   "answer": "He is an Alliance scout from Ironforge who fell into Forsaken hands. He is currently imprisoned in the basement of the Gallows' End Tavern in Brill."
+  },
+  {
+   "q": "Why are the Forsaken keeping him alive in the basement?",
+   "aliases": [
+    "why keep him alive",
+    "why is he in the tavern",
+    "what are they doing to the dwarf"
+   ],
+   "answer": "The Royal Apothecary Society uses him as a live test subject. Rather than executing him outright, apothecaries like Johaan administer experimental mixtures to study their effectiveness against living dwarven biology."
+  },
+  {
+   "q": "What happens to him during the tests?",
+   "aliases": [
+    "does the dwarf die",
+    "what happens in a new plague"
+   ],
+   "answer": "As part of the research into developing a new plague, he is forced to ingest concoctions brewed by the apothecaries. The lethal mixture quickly proves effective, terminating the prisoner as proof of the toxin's progress."
+  },
+  {
+   "q": "Who else interacts with him down here?",
+   "aliases": [
+    "who talks to the dwarf",
+    "renee lauer"
+   ],
+   "answer": "Aside from the apothecaries conducting experiments, locals like Renee Lauer have spent time down in the cellar, sharing stories with the captive dwarf while he remains bound."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Seeing a proud brother of Ironforge caged beneath a Forsaken tavern and subjected to horrific alchemical trials is a bitter reminder of the Forsaken's ruthless hostility toward the living."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, live Alliance captives are vital resources for the Royal Apothecary Society's goal of perfecting a plague capable of wiping out Scourge and living foes alike."
+  }
+ ],
+ "keywords": [
+  "a new plague",
+  "apothecary johaan",
+  "brill basement",
+  "captured mountaineer",
+  "dwarf prisoner",
+  "gallows end tavern",
+  "ironforge scout"
+ ],
+ "related": [
+  "quest:367",
+  "subzone:gallows-end-tavern",
+  "subzone:brill",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Captured Mountaineer"
+ ]
+}

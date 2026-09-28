@@ -1,0 +1,121 @@
+{
+ "key": "quest:5932",
+ "type": "quest",
+ "name": "Back to Thunder Bluff",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   5932
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Dendrite Starblaze",
+  "end": "Turak Runetotem",
+  "previous": "Great Bear Spirit (quest)",
+  "next": "Body and Heart (Horde)",
+  "wiki": "Back to Thunder Bluff",
+  "chain": []
+ },
+ "summary": "\"Back to Thunder Bluff\" is an essential rite of passage for young tauren druids returning from the sacred glades of Moonglade. Having communed with the Great Bear Spirit, the initiate is sent by Dendrite Starblaze back to Elder Rise to continue training under Archdruid Turak Runetotem.",
+ "sections": [
+  {
+   "title": "A Bridged Fellowship",
+   "body": "Moonglade stands apart from the factional divides of the mortal world, serving as a sanctuary where night elf and tauren practitioners of nature magic gather as the Cenarion Circle. After communion with the Great Bear Spirit, night elf mentor Dendrite Starblaze sends the young tauren back to their people. While night elves often view tauren as fledglings in the formalized teachings of Cenarius, Starblaze readily acknowledges the profound wisdom and balance maintained by Archdruid Turak Runetotem.",
+   "spoiler": 0
+  },
+  {
+   "title": "Return to the Bluffs",
+   "body": "Upon climbing back to the sweeping heights of Elder Rise in Thunder Bluff, the novice stands before Turak Runetotem transformed. Communing with ancient totemic spirits like the Great Bear Spirit is deeply ingrained in tauren culture, yet undertaking the Path of the Claw marks a serious commitment. With the spiritual connection forged, Turak prepares the druid to put that newfound strength and endurance into active practice.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was a night elf teaching a tauren in Moonglade?",
+   "aliases": [
+    "dendrite starblaze horde",
+    "why night elf mentor",
+    "cenarion circle tauren"
+   ],
+   "answer": "The Cenarion Circle is neutral and devoted entirely to the preservation of nature. Within Moonglade, political hostility between the Horde and the Alliance is strictly set aside, allowing night elf elders like Dendrite Starblaze to guide fledgling tauren druids."
+  },
+  {
+   "q": "Who is Turak Runetotem?",
+   "aliases": [
+    "turak runetotem role",
+    "elder rise druid leader"
+   ],
+   "answer": "Turak Runetotem is an esteemed tauren archdruid stationed on Elder Rise in Thunder Bluff. He oversees the training of young tauren seeking to walk the path of nature and the claw, serving as a key liaison to the Cenarion Circle."
+  },
+  {
+   "q": "What did the young druid do right before this quest?",
+   "aliases": [
+    "what came before back to thunder bluff",
+    "great bear spirit quest"
+   ],
+   "answer": "Prior to being sent back to Mulgore, the initiate traveled to Moonglade to seek out and commune with the ancient Great Bear Spirit, gaining its blessing and learning the spiritual core of bear form."
+  },
+  {
+   "q": "How do young druids travel back to Thunder Bluff from Moonglade?",
+   "aliases": [
+    "how to get back from moonglade",
+    "moonglade flight back"
+   ],
+   "answer": "Bunthen Plainswind, located in southwestern Nighthaven, provides specialized flight master services specifically to carry tauren druids back to Thunder Bluff safely after their rites."
+  },
+  {
+   "q": "What comes next in the druid's training?",
+   "aliases": [
+    "next druid quest",
+    "after back to thunder bluff"
+   ],
+   "answer": "Upon returning, Turak Runetotem gives the initiate the quest 'Body and Heart,' sending them to face a physical challenge in Mulgore to prove they can channel the spirit's strength into actual beast form."
+  },
+  {
+   "q": "Why does Dendrite Starblaze call tauren 'young in the ways of Cenarius'?",
+   "aliases": [
+    "are tauren new druids",
+    "tauren druid history cenarius"
+   ],
+   "answer": "While tauren legends trace ancient communion with Cenarius in the dawn of the world, formal Cenarion druidism was developed and sustained by night elves over ten thousand years. The tauren only recently re-established structured study under the Cenarion Circle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This leg of your journey links the ancient secluded haven of Moonglade with the windswept heights of Thunder Bluff, marking your growth along the Path of the Claw."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Returning to Elder Rise brings the wisdom of the ancient spirits back home to benefit and protect your tribes across Mulgore."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The knowledge brought back from Moonglade ensures that the Horde counts powerful shapeshifting defenders among its ranks on the plains of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "back to thunder bluff",
+  "bear form",
+  "dendrite starblaze",
+  "elder rise",
+  "great bear spirit",
+  "moonglade",
+  "nighthaven",
+  "turak runetotem"
+ ],
+ "related": [
+  "npc:turak-runetotem",
+  "npc:dendrite-starblaze",
+  "zone:thunderbluff",
+  "subzone:elder-rise",
+  "subzone:nighthaven",
+  "topic:druid",
+  "topic:cenarius",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Back to Thunder Bluff"
+ ]
+}

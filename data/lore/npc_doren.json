@@ -1,0 +1,107 @@
+{
+ "key": "npc:doren",
+ "type": "npc",
+ "name": "Doren",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Doren",
+  "refs": 4
+ },
+ "summary": "Lieutenant Doren commands the Rebel Camp nestled in northern Stranglethorn Vale. Once an officer under Colonel Kurzen, Doren led a mutiny after his superior and fellow expeditionaries descended into madness. Now, he directs a guerrilla resistance determined to uncover the source of the affliction and eliminate Kurzen.",
+ "sections": [
+  {
+   "title": "A Mutiny in the Jungle",
+   "body": "Lieutenant Doren initially deployed to Stranglethorn Vale under the banner of Stormwind and the command of Colonel Kurzen. The expedition was meant to establish a foothold in the wild southern jungle, but it quickly soured as Kurzen and his inner circle succumbed to an erratic, violent insanity. Refusing to abandon their sanity or their honor, Doren and a cadre of loyalists broke rank. They fled north and carved out the Rebel Camp along the road, choosing defection over servitude to a madman.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uncovering the Truth",
+   "body": "From their precarious outpost, Doren oversees operations against Kurzen's Compound. He maintains supply lines with neutral parties, including goblin contacts like Krazek down in Booty Bay, to keep his dwindling troops fed and armed. Beyond mere survival, Doren seeks answers: he deploys spies such as Private Thorsen behind enemy lines to discover what cursed the Colonel and to root out traitors and collaborators like Bookie Herod. Ultimately, Doren believes the only way to save what remains of their expedition's honor is to put an end to Kurzen himself.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lieutenant Doren?",
+   "aliases": [
+    "who is doren",
+    "doren lore",
+    "rebel camp leader"
+   ],
+   "answer": "Lieutenant Doren is the leader of the Rebel Camp in northern Stranglethorn Vale. Formerly second to Colonel Kurzen on an expedition from Stormwind, Doren led a breakaway faction of soldiers who refused to follow the Colonel after he went mad."
+  },
+  {
+   "q": "Why is Doren considered a rebel?",
+   "aliases": [
+    "why is it called rebel camp",
+    "why did doren rebel",
+    "kurzen mutiny"
+   ],
+   "answer": "Doren and his troops mutinied against their commanding officer, Colonel Kurzen. Because Kurzen was the officially commissioned head of the expedition, breaking away and taking up arms against him technically made Doren and his followers rebels, even though they defected to preserve their sanity and oppose Kurzen's tyranny."
+  },
+  {
+   "q": "What drove Colonel Kurzen mad?",
+   "aliases": [
+    "why did kurzen go crazy",
+    "kurzens madness"
+   ],
+   "answer": "The exact source of the madness that afflicted Kurzen and his inner circle remains a mystery that Doren actively seeks to solve. Doren uses reconnaissance and infiltrators to uncover what corrupted his former commander deep within the jungle."
+  },
+  {
+   "q": "How does Doren keep the Rebel Camp supplied?",
+   "aliases": [
+    "rebel camp supplies",
+    "doren supplies"
+   ],
+   "answer": "Cut off from official Stormwind support, Doren relies on covert supply runs and trade arrangements with third parties. Notably, he coordinates with goblin merchants such as Krazek in the southern pirate haven of Booty Bay to keep his troops outfitted."
+  },
+  {
+   "q": "Who is Bookie Herod and what is his connection to Doren?",
+   "aliases": [
+    "bookie herod",
+    "herod rebel camp"
+   ],
+   "answer": "Bookie Herod is an associate within Kurzen's forces. Doren suspects Herod was involved in uncovering the true loyalties of Doren's undercover agent, Private Thorsen, while Thorsen was infiltrating the compound."
+  },
+  {
+   "q": "Does Doren answer to Stormwind?",
+   "aliases": [
+    "doren alliance",
+    "doren stormwind allegiance"
+   ],
+   "answer": "Doren remains loyal to the ideals of the Alliance, but because he broke ranks against a commanding officer in the field, he operates autonomously. He welcomes Alliance adventurers to help clean up the disastrous expedition."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance soldiers, Doren represents the tragic fallout of Stormwind's jungle expedition, offering a chance to right Kurzen's wrongs and restore order to the wild frontier."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human travelers will recognize Doren's military discipline, a reminder of the toll that isolated duty far from the Kingdom of Stormwind can take on mind and morale."
+  }
+ ],
+ "keywords": [
+  "bookie herod",
+  "colonel kurzen",
+  "doren",
+  "kurzen",
+  "kurzen's compound",
+  "lieutenant doren",
+  "rebel camp",
+  "stranglethorn",
+  "thorsen"
+ ],
+ "related": [
+  "subzone:rebel-camp",
+  "npc:colonel-kurzen",
+  "subzone:kurzen-s-compound",
+  "zone:stranglethorn",
+  "subzone:booty-bay"
+ ],
+ "attribution": [
+  "Doren"
+ ]
+}

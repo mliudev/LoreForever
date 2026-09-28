@@ -1,0 +1,79 @@
+{
+ "key": "subzone:ruins-of-auberdine",
+ "type": "subzone",
+ "name": "Ruins of Auberdine",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Ruins of Auberdine"
+ },
+ "summary": "Auberdine is the bustling coastal port town of Darkshore, serving as the primary maritime link between Kalimdor's northern forests and the outside world. Though distant tales speak of ominous portents, the settlement remains whole and vital under the stewardship of the night elves.",
+ "sections": [
+  {
+   "title": "The Northern Haven",
+   "body": "In Darkshore, Auberdine stands as the central haven for travelers, druids, and sentinels safeguarding northern Kalimdor. Its docks provide steady passage across the waters to Rut'theran Village at the base of Teldrassil and south to the wetlands of the Eastern Kingdoms. The town's moonwell provides spiritual solace to all who venerate Elune, and its craftsmen supply travelers braving the haunted shoreline.",
+   "spoiler": 0
+  },
+  {
+   "title": "Whispers of Ruin",
+   "body": "While ominous seers speak in hushed tones of terrible calamities that could one day shatter the port to ash and sunken timbers, no such devastation has befallen the town. Auberdine stands proud against the misty gloom of Darkshore, its towers intact, its docks alive with cargo, and its community resolute.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is Auberdine in ruins?",
+   "aliases": [
+    "auberdine ruined",
+    "ruins of auberdine classic",
+    "destroyed auberdine"
+   ],
+   "answer": "No. Auberdine is completely intact and serves as the primary quest hub and harbor for the Alliance along the coast of Darkshore."
+  },
+  {
+   "q": "What services are available in Auberdine?",
+   "aliases": [
+    "auberdine vendors",
+    "auberdine trainers",
+    "what is in auberdine"
+   ],
+   "answer": "The town features an inn, hippogryph roost, blacksmithing forge, profession trainers, and a moonwell. Ferries run regularly from its long wooden piers."
+  },
+  {
+   "q": "Where do the ships in Auberdine sail?",
+   "aliases": [
+    "auberdine boat",
+    "auberdine docks destination",
+    "where does auberdine boat go"
+   ],
+   "answer": "Vessels dock here carrying passengers to and from Rut'theran Village beneath Teldrassil, as well as Menethil Harbor in the Wetlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Auberdine is the first major mainland settlement welcoming young night elves after they leave the boughs of Teldrassil."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Auberdine acts as the vital strategic bridgehead connecting Alliance territories across the seas to northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "docks",
+  "ferry",
+  "kaldorei",
+  "moonwell",
+  "port"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "zone:darkshore",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Ruins of Auberdine"
+ ]
+}

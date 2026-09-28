@@ -1,0 +1,93 @@
+{
+ "key": "npc:orphan-matron-nightingale",
+ "type": "npc",
+ "name": "Orphan Matron Nightingale",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Orphan Matron Nightingale",
+  "refs": 1
+ },
+ "summary": "Orphan Matron Nightingale oversees the Stormwind Orphanage located in Cathedral Square. Alongside Matron Shellene, she cares for children who have lost their families to the relentless conflicts troubling the kingdom. She also enlists trusted Alliance adventurers to mentor and inspire her young wards during Children's Week.",
+ "sections": [
+  {
+   "title": "Guardian of the Displaced",
+   "body": "Standing watch just outside the orphanage south-east of the Cathedral of Light, Orphan Matron Nightingale tends to Stormwind's most vulnerable survivors. Recent wars, gnoll rampages, and the rise of the Defias Brotherhood have left many children without homes or parents. Nightingale and her fellow caretaker, Matron Shellene, provide these youngsters shelter, basic care, and guidance beneath the watchful eye of the Church of the Holy Light.",
+   "spoiler": 0
+  },
+  {
+   "title": "Children's Week Patron",
+   "body": "Believing that hope is as vital as food and shelter, Matron Nightingale organizes Stormwind's Children's Week celebrations. During this time, she appeals directly to Alliance heroes to chaperone an orphan on travels across Azeroth. By pairing these children with celebrated champions, she hopes to instill confidence, grant them a broader view of the world outside the city walls, and remind them that they are never truly forgotten.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Orphan Matron Nightingale be found?",
+   "aliases": [
+    "matron nightingale location",
+    "stormwind orphanage location",
+    "where is nightingale"
+   ],
+   "answer": "She stands directly outside the entrance to the Stormwind Orphanage, situated in Cathedral Square to the south-east of the Cathedral of Light."
+  },
+  {
+   "q": "Why are there so many orphans in Stormwind?",
+   "aliases": [
+    "why are there orphans",
+    "stormwind orphans origin",
+    "who are these kids"
+   ],
+   "answer": "The kingdom has endured devastating wars, including the Third War and ongoing skirmishes with the Defias Brotherhood, orc remnants, and hostile beasts in nearby territories. Many city residents and frontier farmers have perished, leaving behind children with nowhere else to turn."
+  },
+  {
+   "q": "What is Children's Week?",
+   "aliases": [
+    "childrens week stormwind",
+    "what is children's week",
+    "orphan event"
+   ],
+   "answer": "Children's Week is an annual event in Stormwind organized by Matron Nightingale. Alliance adventurers are invited to act as guardians and chaperones for an orphan, taking them on journeys to witness the wonders and heroes of the wider world."
+  },
+  {
+   "q": "Who helps Matron Nightingale run the orphanage?",
+   "aliases": [
+    "other orphan matron",
+    "who runs the orphanage",
+    "matron shellene"
+   ],
+   "answer": "Matron Shellene works alongside Nightingale inside and around the orphanage, helping to raise, feed, and shelter the children under their care."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions, Nightingale serves as a reminder of the quiet, everyday costs of war and the duty to protect the realm's future generations."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Stationed right outside the Cathedral of Light, Nightingale's mission embodies the virtues of compassion and service that priests of the Holy Light strive to uphold."
+  }
+ ],
+ "keywords": [
+  "cathedral square",
+  "children's week",
+  "matron shellene",
+  "nightingale",
+  "orphan matron nightingale",
+  "stormwind",
+  "stormwind orphanage"
+ ],
+ "related": [
+  "subzone:cathedral-square",
+  "subzone:cathedral-of-light",
+  "zone:stormwind",
+  "quest:171",
+  "topic:stormwind-kingdom",
+  "topic:light",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Orphan Matron Nightingale"
+ ]
+}

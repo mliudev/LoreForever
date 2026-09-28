@@ -1,0 +1,120 @@
+{
+ "key": "quest:1038",
+ "type": "quest",
+ "name": "Velinde's Effects",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   1038
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Thyn'tel Bladeweaver",
+  "end": "",
+  "previous": "Velinde Starsong (quest)",
+  "next": "The Barrens Port",
+  "wiki": "Velinde's Effects",
+  "chain": []
+ },
+ "summary": "Velinde's Effects is an Alliance investigation in Darnassus uncovering the fate of Sentinel Velinde Starsong. Directed by Thyn'tel Bladeweaver, adventurers retrieve Velinde's personal journal from a chest in the Sentinels' quarters to learn why the revered priestess vanished.",
+ "sections": [
+  {
+   "title": "A Trusted Sentinel",
+   "body": "Priestess Velinde Starsong earned immense trust among the night elves through her long, devoted service. When she quietly disappeared from her duties, the Sentinels assumed she departed for personal reasons and anticipated her return. Only when outsiders uncover clues linked to the Tome of Mel'Thandris does Sentinel leadership permit an inquiry into her private possessions.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Chest in the Bunkhouse",
+   "body": "Stationed within the Tradesmen's Terrace of Darnassus, Thyn'tel Bladeweaver provides the key to Velinde's locked trunk stored inside the nearby Sentinel bunkhouse. Within the chest lies Velinde's personal journal, detailing her assignments and inner thoughts. Rather than reassuring the Sentinels, the journal hints at dire, secretive affairs that prompted her solitary journey away from Teldrassil.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Velinde Starsong?",
+   "aliases": [
+    "velinde starsong lore",
+    "who is velinde",
+    "velinde backstory"
+   ],
+   "answer": "Velinde Starsong is an esteemed night elf priestess and Sentinel commander. She commanded deep respect among her peers for her dedicated service before abruptly vanishing on an unexplained mission."
+  },
+  {
+   "q": "Where is Velinde's chest located?",
+   "aliases": [
+    "velinde chest location",
+    "where is velindes effects",
+    "sentinel bunkhouse darnassus"
+   ],
+   "answer": "The chest is kept in the Sentinels' bunkhouse on the upper floor of a building in Darnassus's Tradesmen's Terrace, accessible by crossing the elevated bridge from the neighboring mail armor shop."
+  },
+  {
+   "q": "Why didn't the Sentinels search for her earlier?",
+   "aliases": [
+    "why did sentinels ignore velinde",
+    "why wasn't velinde reported missing"
+   ],
+   "answer": "Because of Velinde's pristine reputation, her commanders believed she had legitimate, private reasons for departing and assumed she would return whenever her business concluded."
+  },
+  {
+   "q": "What is discovered inside the journal?",
+   "aliases": [
+    "velindes journal contents",
+    "what did velinde write"
+   ],
+   "answer": "Her journal reveals that her absence was far more troubling than a routine leave of absence, prompting Thyn'tel Bladeweaver to immediately seek outside help to trace her travel route."
+  },
+  {
+   "q": "How was Velinde connected to the Tome of Mel'Thandris?",
+   "aliases": [
+    "tome of melthandris velinde",
+    "why the tome of mel'thandris"
+   ],
+   "answer": "The ancient elven text contained references to her past inquiries and activities, serving as the initial catalyst that drew researchers and adventurers to investigate her whereabouts."
+  },
+  {
+   "q": "Where does the investigation lead after finding her effects?",
+   "aliases": [
+    "where to go after velindes effects",
+    "velindes effects next quest"
+   ],
+   "answer": "The journal's clues direct investigators toward the Barrens, tracing Velinde's footsteps south toward Kalimdor's transit hubs and ports."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Velinde Starsong represents the quiet sacrifices made by the Sisterhood of Elune and the Sentinels, making her sudden disappearance deeply unsettling to her kin in Darnassus."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Investigating high-ranking night elf officers highlights the lingering threats across Kalimdor that the fledgling Alliance leadership in Darnassus struggles to contain."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Velinde was a revered priestess whose reliance on sacred duties gives fellow devotees of Elune an urgent reason to trace what led her astray."
+  }
+ ],
+ "keywords": [
+  "bladeweaver",
+  "bunkhouse",
+  "darnassus",
+  "journal",
+  "mel'thandris",
+  "sentinels",
+  "starsong",
+  "thyn'tel",
+  "tradesmen's terrace",
+  "velinde"
+ ],
+ "related": [
+  "zone:darnassus",
+  "npc:thyn-tel-bladeweaver",
+  "quest:1039",
+  "topic:sentinels"
+ ],
+ "attribution": [
+  "Velinde's Effects"
+ ]
+}

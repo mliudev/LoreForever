@@ -1,0 +1,97 @@
+{
+ "key": "quest:1649",
+ "type": "quest",
+ "name": "The Tome of Valor",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1649
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Tome of Valor (Classic)",
+  "end": "Duthorian Rall",
+  "previous": "The Tome of Valor",
+  "next": "The Tome of Valor (3)",
+  "wiki": "The Tome of Valor (2)",
+  "chain": []
+ },
+ "summary": "The Tome of Valor represents a sacred transitional trial for rising paladins within the Cathedral of Light. Guided by holy texts and seasoned instructors, aspirants seek out Duthorian Rall in Stormwind to prove their unyielding faith, courage, and dedication to the Church's virtues.",
+ "sections": [
+  {
+   "title": "Tempering the Spirit",
+   "body": "Within the traditions of the Holy Light, valor is not considered an innate trait that remains pure on its own. The sacred text of the Tome compares virtues to precious, unrefined ores: valuable upon discovery, yet requiring careful smelting and refinement to endure hardship. Only through strenuous trials and true commitment can a paladin fuse faith, compassion, and courage into an alloy capable of resisting the darkest evils threatening Azeroth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Petitioning the Church",
+   "body": "Having absorbed the wisdom laid down within the Tome of Valor, the paladin is directed to Duthorian Rall, a respected leader among the paladins gathered in Stormwind's Cathedral of Light. Duthorian serves as the arbiter for those petitioning to face the trials of valor. He warns aspirants that the tests ahead are no mere ritual: defending the innocent and upholding the Church demands readiness to sacrifice one's life, ensuring only the truly steadfast earn recognition in the order.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "what is the tome of valor quest",
+    "why do i need this quest",
+    "tome of valor purpose"
+   ],
+   "answer": "This quest bridges an initiate's foundational studies of holy doctrine with active, perilous trials. After consulting the Tome of Valor, aspiring paladins present themselves to Duthorian Rall in the Cathedral of Light to petition for their true tests of faith and courage."
+  },
+  {
+   "q": "Who is Duthorian Rall?",
+   "aliases": [
+    "who is duthorian rall",
+    "duthorian rall lore",
+    "cathedral paladin trainer"
+   ],
+   "answer": "Duthorian Rall is a high-ranking paladin and teacher stationed within the Cathedral of Light in Stormwind. He oversees the development of promising defenders, administering the rigorous trials required to prove an initiate's worthiness before the Church."
+  },
+  {
+   "q": "Why does the Church test its paladins so severely?",
+   "aliases": [
+    "why are paladin trials dangerous",
+    "why test valor"
+   ],
+   "answer": "The Church of the Holy Light expects its paladins to serve as unshakeable bulwarks against despair and violence. Weak resolve or fragile faith could cost lives on the battlefield, so instructors ensure an initiate's spirit is tested and tempered before sending them on critical holy missions."
+  },
+  {
+   "q": "Where does this trial take place?",
+   "aliases": [
+    "where to turn in tome of valor",
+    "duthorian rall location"
+   ],
+   "answer": "The initiate delivers their petition directly to Duthorian Rall within the Cathedral of Light, situated prominently at the heart of the Cathedral Square in Stormwind City."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This trial marks a defining step in a paladin's growth, proving that righteous martial prowess must be anchored by disciplined faith and selfless service."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The trials administered in Stormwind help maintain the core of the Alliance's defensive and spiritual strength amidst turbulent times."
+  }
+ ],
+ "keywords": [
+  "cathedral of light",
+  "church of the holy light",
+  "duthorian rall",
+  "faith",
+  "paladin",
+  "stormwind",
+  "tome of valor",
+  "valor"
+ ],
+ "related": [
+  "npc:duthorian-rall",
+  "topic:light",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "The Tome of Valor (2)"
+ ]
+}

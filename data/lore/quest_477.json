@@ -1,0 +1,127 @@
+{
+ "key": "quest:477",
+ "type": "quest",
+ "name": "Border Crossings",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   477
+  ],
+  "level": "14",
+  "faction": "Horde",
+  "start": "Shadow Priest Allister",
+  "end": "Dalaran Crate",
+  "previous": null,
+  "next": "Maps and Runes",
+  "wiki": "Border Crossings",
+  "chain": []
+ },
+ "summary": "Border Crossings is an espionage task assigned by Shadow Priest Allister in the Sepulcher to investigate Dalaran's covert operations in Silverpine Forest. By intercepting supply crates bound for the Dalaran encampment near Pyrewood Village, the Forsaken hope to uncover why the Kirin Tor are actively supporting the human bastion of Ambermill.",
+ "sections": [
+  {
+   "title": "Supplies on the Frontier",
+   "body": "While Ambermill stands as the main stronghold of surviving human resistance in eastern Silverpine Forest, the magi of Dalaran have not left them to stand alone. Wagon shipments filled with supplies and arcana have been smuggled out of the Hillsbrad Foothills, crossing through Silverpine to supply forward outposts and staging grounds. One such logistical camp sits just north of Pyrewood Village, manned by Dalaran personnel watching the road.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Forsaken's Suspicion",
+   "body": "Shadow Priest Allister and the Forsaken leadership at the Sepulcher find Dalaran's intense investment in Ambermill troubling. To them, a provincial town would hardly justify the Kirin Tor risking resources and lives deep within Forsaken-claimed territory unless some greater strategic or magical objective was at stake. Investigating the crates gives the Forsaken direct intelligence on what Dalaran is shipping west.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uncovering the Cargo",
+   "body": "Cracking open one of the wizards' crates reveals more than mere provisions. Amid carefully packed arcane paraphernalia lies a bundle of aged, yellowing maps illustrating Silverpine Forest and wider western Lordaeron, alongside an enigmatic magical pendant. Rather than common logistics, Dalaran appears to be conducting targeted cartographic and arcane reconnaissance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are Dalaran wizards active in Silverpine Forest?",
+   "aliases": [
+    "why is dalaran here",
+    "dalaran silverpine",
+    "why dalaran at ambermill"
+   ],
+   "answer": "Dalaran operates out of Ambermill to maintain a human and Alliance presence in western Lordaeron. Shadow Priest Allister suspects the Kirin Tor have a deeper, hidden motive beyond simply defending a rural hamlet, prompting the Forsaken to raid their supply lines."
+  },
+  {
+   "q": "Where are the Dalaran crates located?",
+   "aliases": [
+    "crate location",
+    "where are the crates",
+    "pyrewood camp"
+   ],
+   "answer": "The crates are stationed in an encampment maintained by Dalaran magi and guards situated directly north of Pyrewood Village, off the main road."
+  },
+  {
+   "q": "What is inside the Dalaran crate?",
+   "aliases": [
+    "crate contents",
+    "what is in the box"
+   ],
+   "answer": "Inside the crate is a collection of carefully packed items, topped by a bundle of aging survey maps of Silverpine Forest and western Lordaeron, as well as an intricate magical pendant."
+  },
+  {
+   "q": "Who is Shadow Priest Allister?",
+   "aliases": [
+    "shadow priest allister",
+    "who gives border crossings"
+   ],
+   "answer": "Shadow Priest Allister is a prominent Forsaken leader stationed at the Sepulcher in Silverpine Forest, directing intelligence efforts and offensive strikes against human holdouts and Dalaran's incursions."
+  },
+  {
+   "q": "How are the supplies getting into Silverpine Forest?",
+   "aliases": [
+    "dalaran supply route",
+    "hillsbrad wagons"
+   ],
+   "answer": "The shipments are ferried by wagon from Dalaran's territory in the Hillsbrad Foothills, crossing through the border pass into Silverpine before reaching staging camps near Ambermill and Pyrewood."
+  },
+  {
+   "q": "What follows the completion of this quest?",
+   "aliases": [
+    "what next",
+    "follow up quest",
+    "next quest"
+   ],
+   "answer": "Discovering the cargo leads immediately into Maps and Runes, where you must deliver the unearthed maps and the pendant back to Shadow Priest Allister for study."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Forsaken cannot tolerate an unchecked Dalaran outpost on their southern flank, especially one funneling supplies right under the Sepulcher's nose."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Serving under Shadow Priest Allister gives Forsaken priests a direct hand in securing the domain of the Cult of Forgotten Shadow against holy and arcane rivals alike."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Horde spellcasters have an avid interest in intercepting Dalaran's magical shipments to discern what secrets and protective wards the Kirin Tor are employing in Lordaeron."
+  }
+ ],
+ "keywords": [
+  "ambermill",
+  "border crossings",
+  "dalaran crate",
+  "hillsbrad",
+  "pyrewood village",
+  "sepulcher",
+  "shadow priest allister",
+  "silverpine forest"
+ ],
+ "related": [
+  "quest:478",
+  "npc:shadow-priest-allister",
+  "subzone:ambermill",
+  "subzone:pyrewood-village",
+  "subzone:dalaran",
+  "zone:silverpine",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Border Crossings"
+ ]
+}

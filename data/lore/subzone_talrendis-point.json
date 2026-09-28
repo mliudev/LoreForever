@@ -1,0 +1,95 @@
+{
+ "key": "subzone:talrendis-point",
+ "type": "subzone",
+ "name": "Talrendis Point",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Talrendis Point"
+ },
+ "summary": "Talrendis Point is a fortified night elven outpost guarding the southwestern border of Azshara, just across the bridge from Ashenvale. Built around ancient ruins and anchored by a sacred moonwell, it serves as the Alliance's primary forward watch against Horde movements in the region.",
+ "sections": [
+  {
+   "title": "A Sentinel Bastion on the Border",
+   "body": "Situated just east of the mountain bridge linking Ashenvale to Azshara, Talrendis Point is an imposing night elven fortification standing amid autumn-red trees. The outpost features twin wooden guard towers, a grand lodge, and a consecrated moonwell in its southern courtyard. Its northern ramparts overlook the area of the old Shadowsong Shrine. While heavily garrisoned by vigilant Sentinels watching for Horde aggression out of nearby Valormok, the encampment provides little in the way of civic trade or lodging, functioning purely as a military stronghold.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Eastern Watch",
+   "body": "Because the ruined lands of Azshara are largely desolate and teeming with lingering magical threats, Talrendis Point acts as a secure threshold for Alliance travelers venturing east from Ashenvale. The guards maintain a wary, defensive posture rather than an offensive one, prioritizing the security of the Ashenvale border and their sacred waters over active expansion into the blighted, naga-infested coastlines beyond.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What services are available at Talrendis Point?",
+   "aliases": [
+    "flight path",
+    "innkeeper",
+    "vendors",
+    "talrendis services"
+   ],
+   "answer": "There are no typical outpost amenities here. Talrendis Point has no flight master, innkeeper, or standard vendor services. It is strictly a military watchpost staffed by sentinels, though friendly Alliance travelers are welcome to rest near the moonwell in safety."
+  },
+  {
+   "q": "Why is Talrendis Point located here?",
+   "aliases": [
+    "purpose of talrendis",
+    "why are night elves here",
+    "talrendis point lore"
+   ],
+   "answer": "The outpost guards the narrow mountain crossing leading between eastern Ashenvale and southwestern Azshara. It provides the night elves with early warning and a solid defensive barrier against hostile incursions threatening Ashenvale's eastern border."
+  },
+  {
+   "q": "Is Talrendis Point safe for Horde travelers?",
+   "aliases": [
+    "is horde friendly",
+    "horde talrendis",
+    "can horde enter"
+   ],
+   "answer": "No. Talrendis Point is heavily defended by hostile night elf sentinels who will attack Horde members on sight. Horde travelers heading toward Valormok should avoid the outpost and steer clear of the Ashenvale bridge."
+  },
+  {
+   "q": "What is the shrine located in the northern area?",
+   "aliases": [
+    "talrendis shrine",
+    "shadowsong shrine tower",
+    "northern tower"
+   ],
+   "answer": "The northern watchtower occupies the site of the ancient Shadowsong Shrine. The Sentinels integrated the elevated ground into their defensive perimeter to provide vantage over the surrounding cliffs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance explorers entering Azshara from Ashenvale, Talrendis Point provides a dependable, guarded haven before stepping into the dangerous ruins and wild cliffs to the east."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The outpost poses an active threat to Horde operations at Valormok, serving as an entrenched sentinel watchpost directly flanking the crossing into Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "azshara",
+  "moonwell",
+  "point",
+  "sentinels",
+  "shadowsong",
+  "talrendis",
+  "valormok"
+ ],
+ "related": [
+  "zone:azshara",
+  "zone:ashenvale",
+  "subzone:valormok",
+  "subzone:shadowsong-shrine",
+  "subzone:forest-song",
+  "topic:night-elf",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Talrendis Point"
+ ]
+}

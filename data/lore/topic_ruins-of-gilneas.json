@@ -1,0 +1,121 @@
+{
+ "key": "topic:ruins-of-gilneas",
+ "type": "topic",
+ "name": "Ruins of Gilneas",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Ruins of Gilneas"
+ },
+ "summary": "Gilneas is a secluded human kingdom occupying a rugged, storm-lashed peninsula south of Silverpine Forest. Following the Second War, King Genn Greymane severed ties with the outside world and locked his nation behind the colossal Greymane Wall, leaving neighboring territories abandoned and the kingdom shrouded in total isolation.",
+ "sections": [
+  {
+   "title": "A Nation Withdrawn",
+   "body": "Gilneas was once an assertive maritime powerhouse among the human realms, claiming lineage from the ancient empire of Arathor. King Genn Greymane participated reluctantly in the Second War, believing his kingdom could defend itself without foreign entanglements. Bitter over the loss of Gilnean lives and unwilling to help finance the internment camps for captured orcs, Greymane severed relations with the Alliance of Lordaeron. To permanently shield his realm from outside calamity, he ordered the construction of a massive stone barricade along the kingdom's northern frontier.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Severed Frontier",
+   "body": "Erecting the Greymane Wall demanded painful geopolitical compromises. The natural mountain passes used to anchor the ramparts cleaved straight through the holdings of Lord Darius Crowley. As a consequence, territories such as Ambermill and Pyrewood Village were cut off on the northern side, stranded outside the gate. When the Scourge swept across Lordaeron during the Third War, King Greymane refused entreaties for aid and barred the doors to human refugees, leaving the surrounding villages to face the plague and the undead alone.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Looming Shadow",
+   "body": "Desperation breached Gilneas's defenses even behind its high walls. When Scourge legions relentlessly assailed the wall, Archmage Arugal was ordered to unleash ancient feral worgen to drive them off. Though the beasts broke the undead lines, the curse turned inward, spreading among the realm's defenders and creeping through the shadows of Silverpine. Today, Gilneas remains locked behind sealed gates and treacherous sea reefs, an impenetrable enigma steeped in eerie rumors and total silence.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can players enter Gilneas?",
+   "aliases": [
+    "can you go past greymane wall",
+    "is gilneas open",
+    "get into gilneas"
+   ],
+   "answer": "No. The kingdom lies entirely behind the Greymane Wall at the southern border of Silverpine Forest. The massive iron gate remains firmly barred, and the peninsula's coastal borders are guarded by sheer sea cliffs and treacherous reefs, making it completely inaccessible."
+  },
+  {
+   "q": "Why was the Greymane Wall built?",
+   "aliases": [
+    "why did gilneas isolate",
+    "greymane wall purpose",
+    "why closed off"
+   ],
+   "answer": "King Genn Greymane believed Gilneas was self-sufficient and resented expending resources and soldiers to aid other human nations. Frustrated by debts, internment camps, and foreign conflicts following the Second War, he constructed the wall to isolate Gilneas permanently from the rest of Lordaeron."
+  },
+  {
+   "q": "What happened to Pyrewood Village and Ambermill?",
+   "aliases": [
+    "why is pyrewood outside wall",
+    "ambermill gilneas connection",
+    "crowley lands"
+   ],
+   "answer": "Both settlements were part of the holdings of Lord Darius Crowley. Because the Greymane Wall was built along the most defensible mountain ridges, it stranded Pyrewood and Ambermill on the northern exterior, separating them from the kingdom when the doors were sealed."
+  },
+  {
+   "q": "Is Gilneas part of the Alliance?",
+   "aliases": [
+    "gilneas faction",
+    "are gilneans in the alliance",
+    "gilneas alliance"
+   ],
+   "answer": "Not currently. Genn Greymane formally withdrew from the Alliance of Lordaeron years ago. Gilneas maintains no diplomatic relations, military treaties, or trade with Stormwind, Ironforge, or any other Alliance power."
+  },
+  {
+   "q": "What connection does Arugal have to Gilneas?",
+   "aliases": [
+    "arugal gilneas",
+    "how did arugal get worgen"
+   ],
+   "answer": "Archmage Arugal was tasked by King Greymane to summon the feral worgen to repel the Scourge when the undead threatened the Greymane Wall. The creatures successfully defeated the Scourge forces but subsequently turned on the defenders, driving Arugal mad and spreading the worgen plague throughout Silverpine."
+  },
+  {
+   "q": "Who rules Gilneas?",
+   "aliases": [
+    "gilneas leader",
+    "king of gilneas"
+   ],
+   "answer": "Gilneas is ruled by King Genn Greymane, an unyielding monarch who has fiercely protected his nation's independence at the cost of abandoning the world beyond his gates."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Lordaeron and Stormwind, Gilneas stands as a bitter reminder of how pride and isolationism shattered the unity of the Seven Kingdoms prior to the Third War."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken forces patrolling southern Silverpine keep a wary eye on the colossal gate, knowing an entire living human kingdom sits untouched and hostile right at their border."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The tragic history of Archmage Arugal's summoning beneath the Greymane Wall serves as a grim warning of what transpires when magic is weaponized without proper restraint."
+  }
+ ],
+ "keywords": [
+  "ambermill",
+  "arugal",
+  "darius crowley",
+  "genn",
+  "gilneas",
+  "greymane",
+  "greymane wall",
+  "pyrewood",
+  "silverpine",
+  "worgen"
+ ],
+ "related": [
+  "subzone:greymane-wall",
+  "zone:silverpine",
+  "npc:arugal",
+  "subzone:pyrewood-village",
+  "subzone:ambermill",
+  "topic:worgen",
+  "topic:alliance-of-lordaeron",
+  "npc:darius-crowley"
+ ],
+ "attribution": [
+  "Ruins of Gilneas"
+ ]
+}

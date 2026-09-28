@@ -1,0 +1,92 @@
+{
+ "key": "subzone:maestra-s-post",
+ "type": "subzone",
+ "name": "Maestra's Post",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Maestra's Post"
+ },
+ "summary": "Maestra's Post is a small Alliance settlement in western Ashenvale, perched along the road northwest of Astranaar and south of the Ruins of Ordil'Aran. Guarded by night elven Sentinels and hosting a rare human presence in Kalimdor's ancient forest, it serves as a forward watch against encroaching threats.",
+ "sections": [
+  {
+   "title": "A Forward Watch",
+   "body": "Positioned under the canopy of western Ashenvale, Maestra's Post consists of a slender night elven tower and an open lodge. It sits as an essential waypoint for travelers marching between the coast of Darkshore and the larger hub of Astranaar. Despite its tranquil elven architecture, the outpost stands perpetually on edge. The local Sentinels keep a wary eye on the surrounding wilderness, where corrupted furbolg stir and nearby Horde movements constantly threaten the Alliance's supply lines.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Alliance Gathering",
+   "body": "Unlike many insular night elf enclaves deep within the woods, Maestra's Post is notable for housing a handful of human allies. Figures such as Feero Ironhand and Delgren the Purifier dwell alongside the Sentinels here, lending their martial strength and devotion to the holy Light in service to the broader Alliance. Their presence makes this remote campsite one of the earliest meeting grounds between the eastern kingdoms and the ancient defenders of Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Maestra's Post located?",
+   "aliases": [
+    "maestra's post location",
+    "where is maestras post",
+    "find maestras post"
+   ],
+   "answer": "It is located in western Ashenvale, situated along the road northwest of Astranaar and just south of the Ruins of Ordil'Aran."
+  },
+  {
+   "q": "Who was Maestra?",
+   "aliases": [
+    "who is maestra",
+    "moon priestess maestra",
+    "who was maestra"
+   ],
+   "answer": "The post takes its name from Moon Priestess Maestra, a night elf figure of reverence, though the priestess herself is not currently present at the outpost."
+  },
+  {
+   "q": "Why are there humans at an elven outpost?",
+   "aliases": [
+    "why are humans in ashenvale",
+    "feero ironhand why here",
+    "delgren the purifier why here"
+   ],
+   "answer": "Following the third war and the night elves joining the Alliance, travelers and warriors like Feero Ironhand and Delgren the Purifier have ventured into Kalimdor to offer aid and strengthen ties with their night elf allies."
+  },
+  {
+   "q": "What threats face Maestra's Post?",
+   "aliases": [
+    "who attacks maestras post",
+    "dangers at maestras post"
+   ],
+   "answer": "The outpost must contend with corrupted furbolg clans lurking in the surrounding woodland, as well as scouting parties and incursions from the nearby Horde forces pushing into Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers leaving the safety of Darkshore, this outpost represents your first friendly welcome and fortified sanctuary in the contested forests of Ashenvale."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The post demonstrates the burgeoning partnership of the new Alliance, showing Sentinels sharing hearth and watch duty with the younger races of the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "delgren the purifier",
+  "feero ironhand",
+  "maestra's post",
+  "maestras post",
+  "ordil'aran",
+  "sentinels"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "subzone:astranaar",
+  "subzone:ruins-of-ordil-aran",
+  "npc:delgren-the-purifier",
+  "npc:feero-ironhand",
+  "topic:sentinels",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Maestra's Post"
+ ]
+}

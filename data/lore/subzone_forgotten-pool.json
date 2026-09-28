@@ -1,0 +1,71 @@
+{
+ "key": "subzone:forgotten-pool",
+ "type": "subzone",
+ "name": "Forgotten Pool",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Forgotten Pool"
+ },
+ "summary": "The Forgotten Pool is a submerged cavern tucked deep beneath the flooded corridors of Blackfathom Deeps. Located beyond the Moonshrine Ruins, this quiet dead-end serves as the aquatic lair of monstrous deep-sea predators lurking in the subterranean dark.",
+ "sections": [
+  {
+   "title": "A Submerged Lair",
+   "body": "Reaching the Forgotten Pool requires diving into the sunken subterranean waterways extending past the Moonshrine Ruins. Cut off from dry ground, the pool is an isolated, stagnant cavern completely flooded by dark waters. Away from the chanting Twilight's Hammer cultists and the patrolling naga, this secluded pocket functions primarily as a breeding nest for the ancient aquatic terror known as Old Serra'kis, keeping the beast safely hidden while it spawns its dangerous brood.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Forgotten Pool located?",
+   "aliases": [
+    "where is forgotten pool",
+    "forgotten pool location",
+    "how to find forgotten pool"
+   ],
+   "answer": "The Forgotten Pool is an entirely submerged underwater cavern situated deep within Blackfathom Deeps. To reach it, explorers must swim through the flooded tunnels branching off past the Moonshrine Ruins."
+  },
+  {
+   "q": "What lurks inside the Forgotten Pool?",
+   "aliases": [
+    "forgotten pool monster",
+    "who lives in forgotten pool",
+    "forgotten pool boss"
+   ],
+   "answer": "The cavern serves as the hidden lair of Old Serra'kis, an ancient thresher-like beast of the deep waters that uses the secluded dead-end to foster its brood."
+  },
+  {
+   "q": "Does the Forgotten Pool lead anywhere else?",
+   "aliases": [
+    "is forgotten pool a dead end",
+    "where does forgotten pool go"
+   ],
+   "answer": "No. The pool is an underwater dead-end with no further passageways, serving strictly as a secluded aquatic nest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Horde scouts venturing into Blackfathom Deeps prioritize eliminating Old Serra'kis within the pool to prevent the dangerous predator's brood from infesting the waterways of Ashenvale."
+  }
+ ],
+ "keywords": [
+  "blackfathom deeps",
+  "cavern",
+  "forgotten pool",
+  "moonshrine ruins",
+  "old serra'kis",
+  "thresher",
+  "underwater"
+ ],
+ "related": [
+  "npc:old-serra-kis",
+  "zone:blackfathom",
+  "subzone:moonshrine-ruins",
+  "zone:ashenvale",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Forgotten Pool"
+ ]
+}

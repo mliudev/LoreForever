@@ -1,0 +1,113 @@
+{
+ "key": "npc:bartleby",
+ "type": "npc",
+ "name": "Bartleby",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Bartleby",
+  "refs": 3
+ },
+ "summary": "Bartleby is a bellicose drunkard loitering within the Pig and Whistle Tavern in Stormwind's Old Town. Known for his stubborn grip on his ale, he serves as an early martial test for aspiring warriors looking to prove their mettle in a good old-fashioned tavern brawl.",
+ "sections": [
+  {
+   "title": "A Fixture at the Pig and Whistle",
+   "body": "Tucked away in the narrow, cobblestone alleys of Old Town, the Pig and Whistle Tavern draws a rougher, more weathered crowd than the pristine taprooms of the Cathedral Square. Bartleby is one of its most persistent fixtures. Clinging tightly to his favorite mug and fueled by cheap ale, he spends his days nursing grievances and picking fights with anyone unfortunate enough to disturb his drinking.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Warrior's Rite of Passage",
+   "body": "While Bartleby looks like any other neighborhood drunk, Stormwind's warrior trainers see practical value in him. Harry Burlguard regularly directs fledgling fighters to track Bartleby down and relieve him of his mug. Reclaiming the heirloom requires trading bare-knuckle blows with the intoxicated brawler, proving whether a novice warrior possesses the grit to handle an unruly opponent up close.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bartleby?",
+   "aliases": [
+    "bartleby lore",
+    "who is bartleby",
+    "bartleby stormwind"
+   ],
+   "answer": "Bartleby is an unruly tavern patron residing in the Pig and Whistle Tavern in Stormwind City's Old Town. He is known for getting thoroughly intoxicated and refusing to part with his mug without a fistfight."
+  },
+  {
+   "q": "Where can I find Bartleby?",
+   "aliases": [
+    "bartleby location",
+    "where is bartleby",
+    "bartleby pig and whistle"
+   ],
+   "answer": "You can find Bartleby drinking on the ground floor of the Pig and Whistle Tavern, located in the Old Town district of Stormwind."
+  },
+  {
+   "q": "Why do warriors need to fight him?",
+   "aliases": [
+    "why beat bartleby",
+    "warrior quest bartleby",
+    "bartleby purpose"
+   ],
+   "answer": "Harry Burlguard, a warrior trainer in Old Town, sends young recruits to Bartleby as a trial of raw combat ability. Taking Bartleby's mug by force demonstrates that a recruit can handle unexpected physical brawls and overcome tough, stubborn opposition."
+  },
+  {
+   "q": "What happens when you confront him?",
+   "aliases": [
+    "fight bartleby",
+    "beat bartleby quest",
+    "bartleby brawl"
+   ],
+   "answer": "When challenged for his prized mug, Bartleby drinks a potion to bolster his fortitude and turns hostile, initiating an unarmed brawl right in the middle of the tavern until he is beaten into submission."
+  },
+  {
+   "q": "Does Bartleby belong to any faction or organization?",
+   "aliases": [
+    "is bartleby defias",
+    "bartleby faction",
+    "bartleby alliance"
+   ],
+   "answer": "Bartleby is simply a civilian citizen of Stormwind and a habitual drunkard. He has no known affiliations with criminal syndicates like the Defias Brotherhood or the city guard."
+  },
+  {
+   "q": "Why won't he just hand over his mug?",
+   "aliases": [
+    "bartlebys mug",
+    "bartleby ale mug",
+    "why fight for mug"
+   ],
+   "answer": "Bartleby is belligerent, heavily intoxicated, and obstinate. He views anyone asking for his drink or mug as an insult, preferring to settle the matter with his fists rather than part with his booze."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Every young warrior training in Stormwind remembers their duel with Bartleby. Disarming a stubborn drunk of his mug serves as a memorable rite of passage in hand-to-hand combat."
+  },
+  {
+   "target": "race:Human",
+   "text": "Bartleby represents the gritty, working-class side of Stormwind's Old Town, where local disputes are settled over overturned barstools rather than royal decree."
+  }
+ ],
+ "keywords": [
+  "bartleby",
+  "brawl",
+  "burlguard",
+  "drunk",
+  "mug",
+  "old town",
+  "pig and whistle",
+  "tavern",
+  "warrior"
+ ],
+ "related": [
+  "subzone:pig-and-whistle-tavern",
+  "quest:1640",
+  "quest:1639",
+  "quest:1665",
+  "subzone:old-town",
+  "zone:stormwind",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Bartleby"
+ ]
+}

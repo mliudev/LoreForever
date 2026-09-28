@@ -1,0 +1,91 @@
+{
+ "key": "subzone:serpent-s-coil",
+ "type": "subzone",
+ "name": "Serpent's Coil",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Serpent's Coil"
+ },
+ "summary": "Serpent's Coil is a winding network of caves and burnt-out encampments nestled in the eastern ridges of the Blasted Lands. Littered with scorched orcish architecture left behind from the older wars, it serves as a secluded redoubt for dark cultists and solitary researchers.",
+ "sections": [
+  {
+   "title": "A Labyrinth of Ash and Stone",
+   "body": "Carved into the jagged eastern cliffs of the Blasted Lands, the winding path and caverns of Serpent's Coil wind past ruined orcish huts that date back to the First and Second Wars. Rather than simple beasts, the tunnels harbor cabals of Shadowsworn cultists and practitioners of dark arts drawn to the residual demonic energies permeating the red wastes. Deep within its twisting hollows, odd figures pursue private obsessions far from the watchful eyes of Nethergarde Keep.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cultist Lair",
+   "body": "The caverns have long served as a staging ground for Archmage Allistarj's cultists, who revere demonic lords and experiment with sinister artifacts like the Amulet of Allistarj. Even when their master's grasp wavers, loyal Shadowsworn zealots continue to patrol the cave turns, maintaining rituals in Kirith the Damned's service while hiding behind scorched barricades.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Serpent's Coil?",
+   "aliases": [
+    "serpents coil",
+    "what is this cave",
+    "blasted lands serpent coil"
+   ],
+   "answer": "Serpent's Coil is a winding cave network and canyon located in the eastern Blasted Lands, known for its charred orcish ruins and sinister occupants."
+  },
+  {
+   "q": "Why are there old orc structures here?",
+   "aliases": [
+    "why orc ruins",
+    "orc buildings blasted lands",
+    "burnt huts"
+   ],
+   "answer": "The encampment structures date back to the First and Second Wars when the Old Horde crossed through the nearby Dark Portal and fortified the surrounding region before their defeat."
+  },
+  {
+   "q": "Who lives inside Serpent's Coil?",
+   "aliases": [
+    "who is here",
+    "serpent coil enemies",
+    "who controls the cave"
+   ],
+   "answer": "The caverns are occupied by Shadowsworn cultists aligned with Archmage Allistarj and dark powers, alongside isolated individuals studying the unusual magic of the Blasted Lands."
+  },
+  {
+   "q": "Why is there an Alliance gnome camped inside a cave surrounded by danger?",
+   "aliases": [
+    "gnome in cave",
+    "kasim sharim",
+    "why is kasim here"
+   ],
+   "answer": "Kasim Sharim conducts private, dangerous magical research deep within the cavern, risking the surrounding cultists to study the potent demonic artifacts scattered throughout the territory."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "The presence of a lone gnome researcher deep inside a cultist-infested cave exemplifies the fearless\u2014or reckless\u2014lengths gnomish intellect will go to unravel forbidden magic."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The Shadowsworn operating within Serpent's Coil practice binding rituals and harbor potent artifacts, making the cavern a grim reflection of reckless demonic study."
+  }
+ ],
+ "keywords": [
+  "allistarj",
+  "blasted lands",
+  "kasim sharim",
+  "kirith the damned",
+  "serpent's coil",
+  "serpents coil",
+  "shadowsworn"
+ ],
+ "related": [
+  "zone:blastedlands",
+  "topic:first-war",
+  "topic:second-war",
+  "topic:gnome",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Serpent's Coil"
+ ]
+}

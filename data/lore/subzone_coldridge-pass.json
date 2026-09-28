@@ -1,0 +1,83 @@
+{
+ "key": "subzone:coldridge-pass",
+ "type": "subzone",
+ "name": "Coldridge Pass",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Coldridge Pass"
+ },
+ "summary": "Coldridge Pass is a rugged, snowbound tunnel cutting through the southern mountain ridge of Dun Morogh. It serves as the sole overland route connecting the secluded training grounds of Coldridge Valley to the rest of the kingdom, emerging near the bustling town of Kharanos. Because hostile troggs have overrun the passage, any traveler attempting the journey must either fight their way through or make a desperate dash for the other side.",
+ "sections": [
+  {
+   "title": "The Gateway Out of the Valley",
+   "body": "For young dwarven recruits and gnome novices taking their first steps beyond Coldridge Valley, Coldridge Pass is a harsh rite of passage. Chiseled straight through the rock, this tunnel forms the primary link sending newly trained adventurers eastward toward the frontier hub of Kharanos. What was once a secure mountain corridor has become a perilous choke point, infested with aggressive troggs that have pushed up from dark sub-terrains to menace any soul trying to travel between the sheltered valley and the wider reaches of Dun Morogh.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Coldridge Pass lead?",
+   "aliases": [
+    "where does coldridge pass go",
+    "coldridge pass destination",
+    "how to leave coldridge valley"
+   ],
+   "answer": "The pass connects Coldridge Valley in the southwest to the greater region of Dun Morogh, emptying out into the snowy hills just west of the town of Kharanos."
+  },
+  {
+   "q": "Why are there troggs in Coldridge Pass?",
+   "aliases": [
+    "why are troggs here",
+    "coldridge pass monsters",
+    "trogg infestation"
+   ],
+   "answer": "Troggs have recently surged forth from the deep subterranean cracks beneath Dun Morogh, seizing dark caves and tunnels throughout the region. Coldridge Pass provided them shelter and an easy ambush point against mountain travelers."
+  },
+  {
+   "q": "Is Coldridge Pass safe to travel through?",
+   "aliases": [
+    "is coldridge pass dangerous",
+    "can i walk through coldridge pass"
+   ],
+   "answer": "No, it is not safe. The tunnel is swarming with hostile troggs, meaning recruits and travelers must cut their way through the brutes or sprint through the darkness to reach the opposite end."
+  },
+  {
+   "q": "Who guards or maintains the pass?",
+   "aliases": [
+    "dwarf guards at coldridge pass",
+    "who controls the pass"
+   ],
+   "answer": "Mountaineers watch the valley and road exits, but the tunnel interior remains contested and uncleared, leaving individual travelers to defend themselves as they make the crossing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarven mountaineers and recruits, traversing Coldridge Pass represents your departure from novice training at Anvilmar into active service across Ironforge's lands."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Exiled gnomes seeking to aid the Alliance must push through this trogg-infested choke point to reach Kharanos and the higher road toward Ironforge."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge pass",
+  "coldridge valley",
+  "dun morogh",
+  "kharanos",
+  "mountain pass",
+  "trogg",
+  "tunnel"
+ ],
+ "related": [
+  "subzone:coldridge-valley",
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Coldridge Pass"
+ ]
+}

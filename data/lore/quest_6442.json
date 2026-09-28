@@ -1,0 +1,122 @@
+{
+ "key": "quest:6442",
+ "type": "quest",
+ "name": "Naga at the Zoram Strand",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6442
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Marukai",
+  "end": "",
+  "previous": "none",
+  "next": "Deep Despair",
+  "wiki": "Naga at the Zoram Strand",
+  "chain": []
+ },
+ "summary": "Naga at the Zoram Strand is a Horde quest tasking adventurers with culling the aggressive serpentine invaders along northwestern Ashenvale's coastline. Stationed at Zoram'gar Outpost, the orc warrior Marukai seeks to secure the contested coast by driving the Wrathtail naga away from the sunken ruins of ancient Zoram.",
+ "sections": [
+  {
+   "title": "A Precarious Foothold",
+   "body": "The Horde's presence on the Zoram Strand is tenuous. Surrounded by hostile night elf territory and bitter woodland skirmishes in Ashenvale, the outpost provides a vital coastal connection. However, the unexpected emergence of aggressive naga crawling ashore threatens to cut the Horde off from the sea and overrun the small defensive garrison before their position can be fully fortified.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes of Doomed Zoram",
+   "body": "The sandy shoals of the strand conceal the shattered remnants of Zoram, an ancient elven city swallowed by the Great Sundering thousands of years ago. Marukai and the defenders of the outpost know little of why the serpentine Wrathtail tribe has crawled out of the deep trenches now, but their sudden interest in the sunken ruins bodes ill for anyone walking the surface.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Survival",
+   "body": "Marukai views the situation through the lens of straightforward survival: reason does not matter when swords and tridents are drawn. By demanding twenty severed heads from the Wrathtail invaders, he aims to throw the serpentine monsters back into the depths through sheer force, securing the shoreline for the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Naga at the Zoram Strand?",
+   "aliases": [
+    "quest giver",
+    "who starts this",
+    "marukai location"
+   ],
+   "answer": "The quest is offered by Marukai, an orc warrior stationed at the Horde outpost of Zoram'gar along the Zoram Strand in northwestern Ashenvale."
+  },
+  {
+   "q": "What is the history behind the Zoram Strand?",
+   "aliases": [
+    "what is zoram",
+    "history of zoram",
+    "sunken city"
+   ],
+   "answer": "The strand marks the resting place of the ancient doomed city of Zoram. Destroyed and submerged beneath the Great Sea long ago during the Sundering, its ruins now lie partially underwater along the Ashenvale coastline."
+  },
+  {
+   "q": "Why are the naga attacking the shore?",
+   "aliases": [
+    "why are naga here",
+    "wrathtail motive",
+    "naga goal"
+   ],
+   "answer": "The Horde garrison does not know the exact motive behind the Wrathtail tribe's arrival, only that the creatures have surged out of the deep ocean to claim the sunken ruins and drive off any land-dwellers."
+  },
+  {
+   "q": "Which enemies do I need to fight for this quest?",
+   "aliases": [
+    "which naga",
+    "wrathtail heads",
+    "target enemies"
+   ],
+   "answer": "You need to slay members of the Wrathtail naga tribe that crawl across the beaches and surf of the Zoram Strand, collecting twenty of their severed heads for Marukai."
+  },
+  {
+   "q": "What quest follows Naga at the Zoram Strand?",
+   "aliases": [
+    "next quest",
+    "follow up",
+    "marukai next"
+   ],
+   "answer": "Completing this task allows Marukai to direct you further into the mystery and defense of the coast with the follow-up quest, Deep Despair."
+  },
+  {
+   "q": "Why does the Horde care about this remote beach?",
+   "aliases": [
+    "why is horde here",
+    "zoram'gar outpost purpose"
+   ],
+   "answer": "Ashenvale is fiercely contested between the Horde and the Night Elves. Establishing a secure maritime beachhead at the Zoram Strand gives the Horde strategic access and supply lines away from the dense inland forests."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Holding Zoram'gar Outpost is crucial for the Horde's expansion into Ashenvale, making the clearing of the naga a matter of military survival."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Marukai's straightforward strategy of brutal repelling matches the pragmatic martial culture of orcs holding a frontier border."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "marukai",
+  "naga",
+  "wrathtail",
+  "wrathtail heads",
+  "zoram strand",
+  "zoram'gar outpost"
+ ],
+ "related": [
+  "npc:marukai",
+  "subzone:zoram-strand",
+  "topic:naga",
+  "zone:ashenvale",
+  "quest:1008"
+ ],
+ "attribution": [
+  "Naga at the Zoram Strand"
+ ]
+}

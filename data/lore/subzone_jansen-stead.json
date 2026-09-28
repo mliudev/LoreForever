@@ -1,0 +1,86 @@
+{
+ "key": "subzone:jansen-stead",
+ "type": "subzone",
+ "name": "Jansen Stead",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Jansen Stead"
+ },
+ "summary": "Jansen Stead is the northernmost farmstead in Westfall, situated just down the road from the bridge to Elwynn Forest. Like much of the surrounding breadbasket, the homestead has fallen out of peasant hands and is swarming with rogue mechanical Harvest Watchers and roving Defias bandits.",
+ "sections": [
+  {
+   "title": "A Fallen Homestead",
+   "body": "Positioned right past the Elwynn border, the Jansen Stead represents the harsh reality greeting anyone traveling westward into Westfall. Once a flourishing family farm feeding the kingdom, its rightful occupants have been driven away by the rising tide of unrest. In their place, hostile Harvest Watchers\u2014malfunctioning clockwork automatons reprogrammed by the Defias Brotherhood\u2014patrol the blighted fields alongside brigands. Its proximity to the main road makes it a prominent early hazard for couriers and travelers moving between Goldshire and Sentinel Hill.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Jansen Stead located?",
+   "aliases": [
+    "jansen stead location",
+    "where is jansen stead",
+    "jansen farm westfall"
+   ],
+   "answer": "It is the very first farmstead on the right-hand side of the road as you cross the river bridge from Elwynn Forest into northeastern Westfall."
+  },
+  {
+   "q": "Who lives at Jansen Stead right now?",
+   "aliases": [
+    "who is at jansen stead",
+    "jansen stead inhabitants",
+    "mobs at jansen stead"
+   ],
+   "answer": "The farm's original residents have been displaced. Today, the overgrown fields and derelict farmhouse are occupied by hostile Harvest Watchers and footpads loyal to the Defias Brotherhood."
+  },
+  {
+   "q": "Why are mechanical scarecrows attacking people here?",
+   "aliases": [
+    "why harvest watchers attack",
+    "mechanical golems westfall",
+    "defias scarecrows"
+   ],
+   "answer": "The mechanical golems known as Harvest Watchers were originally built to tend crops and harvest wheat. The Defias Brotherhood has commandeered and reprogrammed them into deadly sentries to protect their illicit operations and drive out loyalist farmers."
+  },
+  {
+   "q": "Who is nearby asking for help?",
+   "aliases": [
+    "quests near jansen stead",
+    "furlbrows location",
+    "who gives quests near elwynn bridge"
+   ],
+   "answer": "Just south of the bridge near the entrance to Jansen Stead, Farmer Furlbrow and his wife Verna have set up camp by their broken wagon, having been forced off their own pumpkin patch down the road."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans crossing over from the relative peace of Northshire and Elwynn, the ruin of Jansen Stead offers a harsh awakening to the economic crisis and banditry paralyzing Stormwind's rural heartland."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The farmstead's fall underscores the failure of Stormwind's leadership to secure its own borders, leaving defenseless homesteaders at the mercy of outlaws within sight of Elwynn Forest."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "farm",
+  "furlbrow",
+  "harvest watcher",
+  "jansen",
+  "stead",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall",
+  "zone:elwynn",
+  "topic:defias-brotherhood",
+  "npc:farmer-furlbrow",
+  "npc:verna-furlbrow",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Jansen Stead"
+ ]
+}

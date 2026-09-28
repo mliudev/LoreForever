@@ -1,0 +1,84 @@
+{
+ "key": "subzone:stendel-s-pond",
+ "type": "subzone",
+ "name": "Stendel's Pond",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Stendel's Pond"
+ },
+ "summary": "Stendel's Pond is a small, tainted body of water located southwest of Sentinel Hill in Westfall. Surrounded by prowling gnolls and marked by nearby graves, it remains one of the few fresh fishing spots in the parched countryside despite its sinister hazards.",
+ "sections": [
+  {
+   "title": "A Dangerous Watering Hole",
+   "body": "Tucked away southwest of Sentinel Hill, Stendel's Pond offers a quiet break from Westfall's dusty plains, though danger is never far. Gnolls roam the muddy banks, while scattered skeletons and a pair of lone graves suggest that either the waters or the beasts around it are fatal to careless travelers. Anglers still risk the trek for schools of sagefish and the elusive prize known locally as Stendel's Bane.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Stendel's Pond located?",
+   "aliases": [
+    "stendel pond location",
+    "where is stendel's pond",
+    "find stendel pond"
+   ],
+   "answer": "It lies southwest of Sentinel Hill in central Westfall, just off the dusty paths leading toward the southern reaches."
+  },
+  {
+   "q": "What creatures lurk around the pond?",
+   "aliases": [
+    "who lives here",
+    "monsters at stendel's pond",
+    "stendel pond gnolls"
+   ],
+   "answer": "The pond's muddy shoreline is prowled by territorial Riverpaw gnolls who attack any wanderers approaching the water."
+  },
+  {
+   "q": "Why are there skeletons and graves by the shore?",
+   "aliases": [
+    "whose graves are these",
+    "why skeletons",
+    "grave at pond"
+   ],
+   "answer": "The skeletons and two unnamed graves point to the area's deadly perils. Whether travelers fell prey to the gnolls or were poisoned by foul pond water remains an ominous mystery."
+  },
+  {
+   "q": "Can you catch anything special while fishing here?",
+   "aliases": [
+    "stendel pond fishing",
+    "fish in stendel's pond",
+    "stendel's bane"
+   ],
+   "answer": "Yes. Beyond schools of sagefish, fishermen have been known to hook an exceptionally rare catch called Stendel's Bane."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "The sagefish harvested from these murky waters are prized by cooks for recipes that bolster mana regeneration and physical focus."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Located close to Sentinel Hill, the pond remains an uncontrolled threat on the People's Militia's southern perimeter due to gnoll encampments."
+  }
+ ],
+ "keywords": [
+  "gnolls",
+  "graves",
+  "pond",
+  "sagefish",
+  "sentinel hill",
+  "stendel",
+  "stendel's bane",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall",
+  "subzone:sentinel-hill",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Stendel's Pond"
+ ]
+}

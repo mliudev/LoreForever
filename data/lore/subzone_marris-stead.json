@@ -1,0 +1,96 @@
+{
+ "key": "subzone:marris-stead",
+ "type": "subzone",
+ "name": "Marris Stead",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Marris Stead"
+ },
+ "summary": "Perched on a ridge in the southwestern Eastern Plaguelands, the Marris Stead was once the peaceful family home of Lordaeron ranger Nathanos Marris. Following the devastation of the Third War, it now serves as the lonely, heavily defended redoubt of Nathanos Blightcaller, Champion of the Forsaken.",
+ "sections": [
+  {
+   "title": "A Ranger's Ruined Home",
+   "body": "Before the Third War, this homestead belonged to Nathanos Marris, a renowned human marksman and the only human ranger lord admitted into the Farstriders. When the Scourge tore through Lordaeron after the fall of Stratholme, the monstrous abomination Ramstein the Gorger cornered and slaughtered Nathanos at his own home. Raised as a mindless thrall bound to the Lich King, he was later discovered and liberated by Sylvanas Windrunner's rangers, breaking free of the Scourge to take his place among the Forsaken.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Champion's Bastion",
+   "body": "Now styling himself Nathanos Blightcaller, the champion returned to his ancestral farmstead alongside his pack of vicious blighthounds. Acting under orders from the Banshee Queen, he coordinates strikes across the Plaguelands against both the Scourge and the Scarlet Crusade. The farmstead has also drawn the grim scrutiny of Stormwind's intelligence service: SI:7 operatives sent to investigate Forsaken activity here were slaughtered, leading the Alliance to uncover Nathanos's terrible transformation and place a heavy bounty upon his head.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives at Marris Stead?",
+   "aliases": [
+    "who is at marris stead",
+    "who lives here",
+    "npc at farm",
+    "nathanos location"
+   ],
+   "answer": "The homestead is occupied by Nathanos Blightcaller, formerly known in life as the ranger Nathanos Marris. He resides here accompanied by his pack of blighthounds, serving as a frontline commander and Champion of the Banshee Queen."
+  },
+  {
+   "q": "How did Nathanos become undead?",
+   "aliases": [
+    "how did nathanos die",
+    "nathanos death",
+    "who killed nathanos"
+   ],
+   "answer": "During the Third War, the Scourge overran Lordaeron. Despite his martial prowess, Nathanos was cornered at his farm and murdered by the abomination Ramstein the Gorger. He was raised into the Scourge until Lady Sylvanas Windrunner freed him into the Forsaken."
+  },
+  {
+   "q": "Why is the Alliance interested in this farm?",
+   "aliases": [
+    "alliance marris stead",
+    "si7 plaguelands",
+    "why kill nathanos"
+   ],
+   "answer": "SI:7 spymaster Mathias Shaw dispatched an intelligence team to probe strange Forsaken movements in the area. When nearly all the scouts vanished, Alliance investigators discovered that the beloved ranger Nathanos had been raised as the Blightcaller, prompting Highlord Bolvar Fordragon to order a lethal strike against him."
+  },
+  {
+   "q": "What artifacts are kept inside the house?",
+   "aliases": [
+    "marris stead items",
+    "relics in house",
+    "darrowshire relics"
+   ],
+   "answer": "Several historic relics from the tragic Battle of Darrowshire are stored within the ruined farmhouse, including Davil Crokford's Libram and Redpath's Shield, collected amid the ongoing struggles in the Plaguelands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The discovery of what Nathanos has become is a bitter blow to the Alliance, turning this quiet homestead into the target of a high-priority military decapitation strike."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For the Forsaken and their Horde allies, the stead serves as an invaluable, heavily defended base of operations for waging war against the Scourge and Scarlet Crusade."
+  }
+ ],
+ "keywords": [
+  "blighthounds",
+  "darrowshire relics",
+  "eastern plaguelands",
+  "marris stead",
+  "nathanos",
+  "nathanos blightcaller",
+  "nathanos marris",
+  "ramstein the gorger",
+  "si:7"
+ ],
+ "related": [
+  "npc:nathanos-blightcaller",
+  "npc:sylvanas-windrunner",
+  "zone:easternplaguelands",
+  "subzone:crown-guard-tower",
+  "subzone:darrowshire",
+  "quest:2300",
+  "npc:mathias-shaw",
+  "topic:bolvar-fordragon"
+ ],
+ "attribution": [
+  "Marris Stead"
+ ]
+}

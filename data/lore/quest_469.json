@@ -1,0 +1,113 @@
+{
+ "key": "quest:469",
+ "type": "quest",
+ "name": "Daily Delivery",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   469
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Einar Stonegrip",
+  "end": "James Halloran",
+  "previous": null,
+  "next": null,
+  "wiki": "Daily Delivery",
+  "chain": []
+ },
+ "summary": "Daily Delivery is an errand on behalf of the dwarven hunter Einar Stonegrip, who asks travelers heading toward Menethil Harbor to deliver cured crocolisk hides to the local tanner. Rather than facing domestic friction at home, Einar relies on passing adventurers to keep his supply line moving.",
+ "sections": [
+  {
+   "title": "A Reluctant Courier",
+   "body": "Out in the marshlands, Einar Stonegrip makes his living hunting the local wildlife, particularly the aggressive crocolisks that lurk along the waterways. While he gathers plenty of valuable skins, delivering them requires a trip home to Menethil Harbor. Reluctant to confront his wife Sida during a rough patch in their marriage, Einar prefers to stay in the field and hand his parcels off to passing travelers instead.",
+   "spoiler": 0
+  },
+  {
+   "title": "Commerce in Menethil",
+   "body": "The destination for these hides is James Halloran, a tanner operating within Menethil Harbor. Halloran relies on regular deliveries from local hunters to craft boots and cure leather for merchants and sailors passing through the port. Having noticed Einar's week-long absence, the tanner easily deduces the marital spat behind the proxy delivery, musing that his own wife might need to intervene and smooth things over with Sida.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why doesn't Einar Stonegrip deliver the skins himself?",
+   "aliases": [
+    "why einar hiding",
+    "einar wife problem",
+    "why won't einar go home"
+   ],
+   "answer": "Einar admits that his wife, Sida, has been in foul humor lately. To avoid facing her temper, he lingers out in the Wetlands and hires passing travelers to run his deliveries into town."
+  },
+  {
+   "q": "Who is James Halloran?",
+   "aliases": [
+    "halloran tanner",
+    "who is james halloran"
+   ],
+   "answer": "James Halloran is a tanner and leather crafter stationed in Menethil Harbor. He buys raw pelts and hides from local trappers to cure and sell as boots and finished leather goods."
+  },
+  {
+   "q": "Who is Sida?",
+   "aliases": [
+    "einar wife",
+    "who is sida"
+   ],
+   "answer": "Sida is Einar Stonegrip's wife, residing in Menethil Harbor. Her recent sour mood is the primary reason Einar spends his days out in the marshes avoiding coming home."
+  },
+  {
+   "q": "What kind of skins are being transported?",
+   "aliases": [
+    "what skins",
+    "daily delivery items"
+   ],
+   "answer": "The delivery consists of a bundle of crocolisk skins, harvested from the large reptiles that infest the bogs and waterways of the Wetlands."
+  },
+  {
+   "q": "Does Halloran know why Einar is avoiding Menethil Harbor?",
+   "aliases": [
+    "does halloran know",
+    "tanner reaction"
+   ],
+   "answer": "Yes. When you hand over the bundle, Halloran remarks that Einar has not visited in nearly a week and immediately guesses that trouble with Sida is the cause."
+  },
+  {
+   "q": "Where does this delivery take place?",
+   "aliases": [
+    "where turn in",
+    "daily delivery location"
+   ],
+   "answer": "The delivery begins with Einar Stonegrip out along the road in the Wetlands and finishes at James Halloran's workshop in Menethil Harbor on the western coast."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Menethil Harbor serves as the primary maritime gateway connecting Ironforge's domain to the northern continents, making basic trade goods like crocolisk leather vital for outfitting local guards and dockhands."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Even far from Ironforge, dwarves make their trade in the wet lowlands, though domestic disputes apparently prove harder to face than marsh beasts."
+  }
+ ],
+ "keywords": [
+  "crocolisk skins",
+  "einar stonegrip",
+  "james halloran",
+  "menethil harbor",
+  "sida",
+  "tanner",
+  "wetlands"
+ ],
+ "related": [
+  "npc:einar-stonegrip",
+  "npc:james-halloran",
+  "npc:sida",
+  "subzone:menethil-harbor",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Daily Delivery"
+ ]
+}

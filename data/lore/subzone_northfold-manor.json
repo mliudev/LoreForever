@@ -1,0 +1,89 @@
+{
+ "key": "subzone:northfold-manor",
+ "type": "subzone",
+ "name": "Northfold Manor",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Northfold Manor"
+ },
+ "summary": "Northfold Manor is a dilapidated agricultural estate situated on the northwestern fringes of the Arathi Highlands. Once a prosperous human homestead before the collapse of Stromgarde, the grounds are now occupied by criminal operatives of the Syndicate engaging in unsettling, dark practices.",
+ "sections": [
+  {
+   "title": "A Den of Brigands",
+   "body": "Perched on the rolling highlands near the Thoradin's Wall passage, Northfold Manor once supported the kingdom of Stromgarde. In the chaos following the realm's fracturing, displaced Alteraci nobility and outlaws of the Syndicate claimed the manor house, barn, and fields as an operational base. Instead of tending crops, Syndicate mercenaries, highwaymen, and pathstalkers use the farmstead to stage ambushes along the roads and coordinate their presence across Arathi.",
+   "spoiler": 0
+  },
+  {
+   "title": "Demonic Undertones",
+   "body": "Behind the everyday thievery and armed posturing, Northfold Manor harbors more sinister pursuits. Lingering traces of demonic summoning cling to the farmstead, felt keenly by sensitive spellcasters and shamans in the region. Discarded bloodstone amulets\u2014potent talismans used to fuel dark invocations\u2014litter the grounds, indicating that the Syndicate rogues here are entangling themselves with demonic magic far beyond simple banditry.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Northfold Manor?",
+   "aliases": [
+    "who lives here",
+    "who owns northfold",
+    "syndicate farm"
+   ],
+   "answer": "The estate has fallen into the hands of the Syndicate, an organization of dispossessed Alteraci nobles, bandits, and rogue mercenaries who now use the property as an armed encampment."
+  },
+  {
+   "q": "What dark magic is being practiced here?",
+   "aliases": [
+    "demons at northfold",
+    "bloodstone",
+    "what are they summoning"
+   ],
+   "answer": "Visitors sensitive to magical energies detect residual traces of demonic summoning. The Syndicate forces stationed at the manor possess bloodstone amulets, used to channel and assist in dangerous demonic rituals."
+  },
+  {
+   "q": "Why does the Horde care about this farm?",
+   "aliases": [
+    "horde interest northfold",
+    "why tor'gan cares"
+   ],
+   "answer": "The troll shaman Tor'gan at Hammerfall sensed an unnatural disturbance brewing across the highlands. Investigating the source led him directly to Northfold Manor, prompting the Horde to investigate the Syndicate's occult activities."
+  },
+  {
+   "q": "Who is Singer?",
+   "aliases": [
+    "singer",
+    "singer rare",
+    "who is singer"
+   ],
+   "answer": "Singer is an elusive Syndicate figure occasionally spotted lurking inside the main house of Northfold Manor among the other brigands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The shamans of Hammerfall closely watch Northfold Manor, dispatching warriors to seize the bloodstone talismans the Syndicate uses to dabble in demonic summoning."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The demonic residue lingering over Northfold Manor disrupts the natural elements, causing spiritual unease and fiery rage in attuned shamans who draw near."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "bloodstone",
+  "northfold manor",
+  "singer",
+  "stromgarde",
+  "syndicate",
+  "tor'gan"
+ ],
+ "related": [
+  "topic:syndicate",
+  "zone:arathi",
+  "topic:horde",
+  "quest:255",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Northfold Manor"
+ ]
+}

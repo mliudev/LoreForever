@@ -1,0 +1,92 @@
+{
+ "key": "subzone:grim-batol",
+ "type": "subzone",
+ "name": "Grim Batol",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Grim Batol"
+ },
+ "summary": "Grim Batol is an ancient, ruined dwarven mountain fortress looming over the eastern edge of the Wetlands. Built by the Wildhammer clan, abandoned after a dark curse during the War of the Three Hammers, and later occupied by the Dragonmaw orcs as a dragon breeding lair, its sealed gates remain an ominous blight upon the highlands.",
+ "sections": [
+  {
+   "title": "A Fortress Twice Cursed",
+   "body": "Following the ancient civil war of the three clans, Thane Khardros Wildhammer carved Grim Batol out of the jagged mountains east of the marsh. During the subsequent War of the Three Hammers, the Dark Iron sorceress Modgud laid siege to the fortress. Although Khardros struck her down, Modgud cast a foul shadow across the stones before her death. The lingering taint rendered the halls uninhabitable, forcing the surviving Wildhammer dwarves to abandon their magnificent kingdom and migrate north into the Hinterlands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Chains of the Dragon Queen",
+   "body": "Decades later during the Second War, the fortress found a darker purpose when Orgrim Doomhammer dispatched the Dragonmaw clan to claim it. Led by the warlock Nekros Skullcrusher, the orcs utilized the ancient artifact known as the Demon Soul to enslave the red Dragonqueen Alexstrasza deep within the mountain's roots. Forced to hatch broods for the Horde's war effort, Alexstrasza remained chained until a small band of heroes shattered the artifact. Once freed, the enraged Dragon Aspect incinerated the orcs within, leaving Grim Batol a smoldering, desolate ruin watched closely by surviving red dragons.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can players enter Grim Batol?",
+   "aliases": [
+    "can i go inside grim batol",
+    "is grim batol open",
+    "grim batol gate"
+   ],
+   "answer": "No. The colossal stone gates at the end of the mountain road remain firmly barred and inaccessible to travelers. Only its imposing gates and exterior battlements in the eastern mountains of the Wetlands can be visited."
+  },
+  {
+   "q": "Why did the Wildhammer dwarves abandon it?",
+   "aliases": [
+    "why did dwarves leave grim batol",
+    "wildhammer curse",
+    "modgud curse"
+   ],
+   "answer": "During the War of the Three Hammers, the Dark Iron sorceress Modgud infused the stronghold with a vile shadow curse before she was slain. The taint left behind rendered the fortress unlivable for the Wildhammers, driving them to abandon it and build Aerie Peak in the Hinterlands."
+  },
+  {
+   "q": "What happened to the Dragonmaw orcs who lived here?",
+   "aliases": [
+    "dragonmaw grim batol",
+    "what happened to the orcs here",
+    "nekros skullcrusher"
+   ],
+   "answer": "When the mage Rhonin and his companions shattered the Demon Soul, the captive Dragonqueen Alexstrasza was freed from her chains. Enraged by her cruel captivity, she and her brood incinerated Nekros Skullcrusher and shattered the Dragonmaw presence in the fortress."
+  },
+  {
+   "q": "Who controls Grim Batol right now?",
+   "aliases": [
+    "who owns grim batol",
+    "who lives in grim batol now"
+   ],
+   "answer": "Presently, Grim Batol is an abandoned ruin. While remnants of the Dragonmaw clan and wild beasts linger in the surrounding crags, the Red Dragonflight maintains a watchful eye over the cursed mountain to ensure its dark history never repeats."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, Grim Batol stands as a bitter testament to the War of the Three Hammers\u2014a once-proud sister city to Ironforge rendered permanently unlivable by Dark Iron sorcery."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The mountain represents the grim heights of the Second War, where the Dragonmaw clan harnessed enslaved dragons to conquer the skies before their violent ruin."
+  }
+ ],
+ "keywords": [
+  "alexstrasza",
+  "demon soul",
+  "dragonmaw",
+  "grim batol",
+  "modgud",
+  "nekros",
+  "wetlands",
+  "wildhammer"
+ ],
+ "related": [
+  "zone:wetlands",
+  "topic:wildhammer-clan",
+  "topic:dragonmaw-clan",
+  "topic:second-war",
+  "zone:hinterlands",
+  "npc:orgrim-doomhammer",
+  "subzone:dun-algaz"
+ ],
+ "attribution": [
+  "Grim Batol"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:ameth-aran",
+ "type": "subzone",
+ "name": "Ameth'Aran",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Ameth'Aran"
+ },
+ "summary": "Ameth'Aran is an ancient ruin in southern Darkshore, once a thriving city where Queen Azshara's Highborne practiced arcane sorcery. When the Great Sundering shattered the ancient world, the city collapsed and its citizens were deceived and bound into eternal torment. Today, its broken colonnades are haunted by the vengeful ghosts of the elves who died there.",
+ "sections": [
+  {
+   "title": "A City of Sorcerers",
+   "body": "Before the Great Sundering, Ameth'Aran and its sister settlement, Bashal'Aran, stood as twin centers of Highborne influence along the ancient coastline. Under the favor of Queen Azshara, the city boasted bustling bazaars and graceful shrines to Elune, though its ruling nobility dedicated themselves to unrestrained arcane experimentation. Governed from afar by the sorcerer Athrikus Narassin in the Tower of Althalaxx, the city thrived until the catastrophic collapse of the Well of Eternity tore the Kaldorei Empire apart.",
+   "spoiler": 0
+  },
+  {
+   "title": "Betrayal and Eternal Torment",
+   "body": "As the world began to tear itself apart, Athrikus Narassin returned to Ameth'Aran, promising his panicked subjects salvation through powerful shielding magic. Instead of shielding them, the sorcerer enacted a horrific betrayal, stealing their life force to feed his own soul gems under the cruel guise of giving them eternal preservation. Shattered by cataclysm and dark magic, Ameth'Aran fell. Today, its grounds are stalked by anguished Highborne specters, unable to find rest ten thousand years after their murder.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to Ameth'Aran?",
+   "aliases": [
+    "why is ametharan ruined",
+    "ameth aran history",
+    "fall of ametharan"
+   ],
+   "answer": "During the Great Sundering ten thousand years ago, the sorcerer Athrikus Narassin promised to protect the citizens of Ameth'Aran from destruction. Instead, he betrayed them, trapping their spirits within soul gems as the city collapsed. The ruins remain haunted by those murdered souls to this day."
+  },
+  {
+   "q": "Who are the ghosts wandering the ruins?",
+   "aliases": [
+    "ghosts in ameth aran",
+    "ametharan specters",
+    "highborne ghosts darkshore"
+   ],
+   "answer": "They are the restless spirits of the Highborne elves who lived and practiced arcane magic in the city before the Great Sundering. Trapped between life and death by Athrikus Narassin's deceitful magic, they wander the broken stones in perpetual agony and fury."
+  },
+  {
+   "q": "Who was Anaya Dawnrunner?",
+   "aliases": [
+    "anaya dawnrunner",
+    "cerellean lover",
+    "ameth aran lost love"
+   ],
+   "answer": "Anaya Dawnrunner was a resident of Ameth'Aran and the beloved of Cerellean Whiteclaw. She perished when the city fell during the Sundering, and her ghost remained bound to the ruins until Cerellean sought outside aid to finally grant her soul release."
+  },
+  {
+   "q": "What are the stone tablets found in the ruins?",
+   "aliases": [
+    "ametharan tablets",
+    "runestones in ameth aran",
+    "fall of ametharan tablets"
+   ],
+   "answer": "The ruins contain ancient stone tablets inscribed with the history of Ameth'Aran and the account of its fall. Sentinel Tysha Moonblade attempted to decipher them to deliver a historical report to the Cenarion Circle, but hostile ghosts forced her to rely on passing travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, Ameth'Aran is a grim monument to the hubris and treachery of the Highborne caste that brought about the Sundering."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids view the ruins as an unhealed scar upon Darkshore, where tormented spirits linger and disrupt the natural balance of the wilds."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "anaya dawnrunner",
+  "athrikus narassin",
+  "bashal'aran",
+  "cerellean whiteclaw",
+  "darkshore",
+  "highborne",
+  "tysha moonblade"
+ ],
+ "related": [
+  "quest:953",
+  "quest:963",
+  "quest:954",
+  "zone:darkshore",
+  "npc:cerellean-whiteclaw",
+  "npc:sentinel-tysha-moonblade",
+  "subzone:tower-of-althalaxx",
+  "topic:highborne"
+ ],
+ "attribution": [
+  "Ameth'Aran"
+ ]
+}

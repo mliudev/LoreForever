@@ -1,0 +1,121 @@
+{
+ "key": "npc:mull-thunderhorn",
+ "type": "npc",
+ "name": "Mull Thunderhorn",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Mull Thunderhorn",
+  "refs": 10
+ },
+ "summary": "Mull Thunderhorn is a tauren elder residing in Bloodhoof Village in Mulgore. Deeply devoted to the Earth Mother and the balance of the land, he watches over the sacred water wells scattered across the plains. As outside exploiters threaten the region's lifegiving waters, Mull guides young tauren through the rituals required to cleanse the ancestral springs.",
+ "sections": [
+  {
+   "title": "Guardian of the Sacred Waters",
+   "body": "Standing watch in Bloodhoof Village, Mull Thunderhorn carries the weight of Mulgore's spiritual well-being. The nomadic tribes have gathered under High Chieftain Cairne Bloodhoof to establish a permanent home, yet their lands are already under siege by greed and reckless expansion. Mull serves as a spiritual anchor for the young braves stepping out of Camp Narache, calling upon them to safeguard the vital resources of their ancestors.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tainted Wells and the Venture Company",
+   "body": "The primary crisis facing Mull is the sudden sickness spreading through Mulgore's water sources: the Winterhoof, Thunderhorn, and Wildmane water wells. This foul affliction is traced to the goblins of the Venture Company, an unscrupulous commercial outfit carving operations into the surrounding hills and dumping poisons into the local water table. Mull directs young tauren to prepare specific purification totems and perform cleansing rites at each ancestral well before the corruption spreads irrevocably into the land and its wildlife.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mull Thunderhorn?",
+   "aliases": [
+    "mull thunderhorn lore",
+    "who is mull",
+    "bloodhoof village mull"
+   ],
+   "answer": "Mull Thunderhorn is a tauren quest giver situated in Bloodhoof Village in Mulgore. He acts as a guardian of the sacred water wells in the area, offering rites and rituals to keep the earth and its waters pure from external contamination."
+  },
+  {
+   "q": "Why is Mull Thunderhorn worried about the water wells?",
+   "aliases": [
+    "why are wells poisoned",
+    "water wells mulgore",
+    "winterhoof well poisoned"
+   ],
+   "answer": "The ancestral water wells\u2014such as the Winterhoof, Thunderhorn, and Wildmane wells\u2014are life-giving sources for the tribes and wildlife of Mulgore. Intrusive operations nearby have tainted these sacred springs with noxious runoff and pollution, threatening the natural balance of the plains."
+  },
+  {
+   "q": "Who is polluting the water wells in Mulgore?",
+   "aliases": [
+    "who poisoned the water",
+    "venture co in mulgore",
+    "who tainted the wells"
+   ],
+   "answer": "The pollution is caused by the Venture Company, a reckless goblin enterprise establishing industrial mining and logging footholds across the edges of Mulgore. Their operations show no regard for the sacred landscape, spilling industrial toxins into the local water table."
+  },
+  {
+   "q": "Why do Mull's purification quests only involve tauren?",
+   "aliases": [
+    "tauren only quests",
+    "why only tauren",
+    "mull thunderhorn requirements"
+   ],
+   "answer": "The water wells hold deep ancestral and spiritual significance tied to the founding lineages of the tauren tribes\u2014including the Thunderhorn, Winterhoof, and Wildmane clans. Cleansing them is viewed as a sacred rite of passage and cultural duty for maturing tauren."
+  },
+  {
+   "q": "How are the water wells purified?",
+   "aliases": [
+    "how to cleanse wells",
+    "cleansing totems",
+    "cleaning the water"
+   ],
+   "answer": "Mull instructs travelers to assemble specially consecrated totems imbued with local natural reagents, such as claws and hides. Once consecrated, these totems are brought directly to the fouled wells to channel spiritual purification and wash away the unnatural toxins."
+  },
+  {
+   "q": "What is the Rite of Vision?",
+   "aliases": [
+    "rite of vision quest",
+    "what is rite of vision"
+   ],
+   "answer": "The Rite of Vision is a foundational spiritual journey undertaken by young tauren to commune with their ancestors and animal spirits. Mull Thunderhorn directs initiates through key steps of this visionary trial after they demonstrate their respect and duty toward the earth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, Mull Thunderhorn represents tribal memory and ancestral duty, guiding young braves in protecting the sacred plains against greedy foreign invaders."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman will recognize Mull's reliance on elemental harmony, as his cleansing totems utilize ancestral spirits to mend waters torn by mechanical greed."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids share Mull's urgency, witnessing firsthand how the corrupted water wells poison the balance of Mulgore's wildlife."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Mull's struggle underscores the Horde's friction with unaligned, exploitative organizations like the Venture Company that strip Kalimdor's riches without consent."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "mulgore",
+  "mull thunderhorn",
+  "poison water",
+  "thunderhorn totem",
+  "venture company",
+  "water wells",
+  "wildmane cleansing",
+  "winterhoof cleansing"
+ ],
+ "related": [
+  "zone:mulgore",
+  "subzone:bloodhoof-village",
+  "quest:748",
+  "quest:754",
+  "quest:756",
+  "quest:758",
+  "topic:venture-company",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Mull Thunderhorn"
+ ]
+}

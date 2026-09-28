@@ -1,0 +1,135 @@
+{
+ "key": "quest:6086",
+ "type": "quest",
+ "name": "Training the Beast",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   6086
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Grif Wildheart",
+  "end": "Belia Thundergranite",
+  "previous": "Taming the Beast (Dwarf 3)",
+  "next": "",
+  "wiki": "Training the Beast (Dwarf)",
+  "chain": [
+   "The Hunter's Path (Dwarf)",
+   "Taming the Beast (Dwarf 1)",
+   "Taming the Beast (Dwarf 2)",
+   "Taming the Beast (Dwarf 3)",
+   "Training the Beast (Dwarf)"
+  ]
+ },
+ "summary": "Training the Beast is the culminating rite of passage for young dwarven hunters in Dun Morogh. Having mastered the art of soothing and taming wild predators in the snowy crags, novice rangers are directed into the heart of Ironforge to learn how to sustain, discipline, and care for a lifelong animal companion.",
+ "sections": [
+  {
+   "title": "From the Wild to the Forge",
+   "body": "After proving their mettle against the savage beasts of Dun Morogh\u2014soothing large crag boars, snow leopards, and sturdy ice claw bears with a taming rod\u2014apprentice hunters complete their trial under the watchful eye of Grif Wildheart near Kharanos. Yet capturing the wild heart of an animal is only half the bond. Grif sends his newly seasoned pupils up the mountain pass into Ironforge to find the military district known as the Hall of Arms.",
+   "spoiler": 0
+  },
+  {
+   "title": "Belia Thundergranite's Teachings",
+   "body": "Within the stone vaults of Ironforge's Hall of Arms stands Belia Thundergranite, one of the dwarven kingdom's most revered master animal trainers. Belia imparts the essential knowledge that turns a wild, terrified beast into a fiercely loyal partner. Her teachings go far beyond simple commands: she shows young hunters how to nourish their pets, teach them new battlefield skills, and even call their spirits back from death should they fall defending their master.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dwarven Hunter's Bond",
+   "body": "Dwarven tradition emphasizes that beast mastery is fundamentally built on respect rather than subjugation. Belia reminds every young hunter that an animal companion reflects the care it receives. If kept well-fed, respected, and properly trained, a beast will offer unwavering loyalty against troggs, frost trolls, and any threat that dares imperil Khaz Modan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do this quest",
+    "training the beast purpose",
+    "hunter pet quest reward"
+   ],
+   "answer": "This quest marks the final step in a dwarf hunter's foundational training. It rewards you with the core knowledge to maintain a permanent combat pet, allowing you to feed it, train its capabilities, call it to your side, and resurrect it if it dies."
+  },
+  {
+   "q": "Who is Belia Thundergranite?",
+   "aliases": [
+    "who is belia",
+    "belia thundergranite lore",
+    "hunter trainer ironforge"
+   ],
+   "answer": "Belia Thundergranite is a revered master beast trainer stationed in the Hall of Arms in Ironforge. She serves as a senior instructor for dwarf rangers, teaching them the discipline, diet, and commands required to turn tamed wild animals into lifelong allies."
+  },
+  {
+   "q": "Where do I find Belia Thundergranite?",
+   "aliases": [
+    "belia location",
+    "where is belia thundergranite",
+    "where is hall of arms ironforge"
+   ],
+   "answer": "Belia Thundergranite is located inside Ironforge in the Hall of Arms, the city's military wing where dwarf and gnome warriors, hunters, and paladins gather and train."
+  },
+  {
+   "q": "What beasts do dwarven hunters tame before receiving this training?",
+   "aliases": [
+    "what beasts do you tame",
+    "dwarf pet trial beasts",
+    "prior quests beasts"
+   ],
+   "answer": "During the trials leading up to this quest, Grif Wildheart tests young hunters by having them use an enchanted rod to temporarily pacify a large crag boar, a snow leopard, and an ice claw bear across Dun Morogh."
+  },
+  {
+   "q": "Why must dwarven hunters feed their pets?",
+   "aliases": [
+    "why feed pet",
+    "pet happiness lore",
+    "beast loyalty dwarf"
+   ],
+   "answer": "Dwarven beast lore holds that animal companions are partners, not tools. Neglecting a beast's hunger causes its mood to deteriorate and saps its willingness to fight, whereas keeping it well-fed ensures fierce loyalty and maximum effectiveness in battle."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "who starts training the beast",
+    "grif wildheart role",
+    "quest giver"
+   ],
+   "answer": "Grif Wildheart, the veteran hunter trainer stationed at the side of the road east of Kharanos in Dun Morogh, gives this quest upon the successful completion of your third taming trial."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This milestone unlocks the defining core of the hunter discipline: the abilities to properly feed, command, and revive a permanent animal companion."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarves view hunting as an enduring tradition of Khaz Modan's mountainous wilderness, treating bears, boars, and mountain cats as respected partners in exploration and defense."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The beastmasters of Ironforge contribute heavily to Alliance scouting forces, relying on loyal wilderness companions to patrol the frigid mountain passes."
+  }
+ ],
+ "keywords": [
+  "belia thundergranite",
+  "dun morogh",
+  "dwarf hunter",
+  "grif wildheart",
+  "hall of arms",
+  "ironforge",
+  "pet training",
+  "training the beast"
+ ],
+ "related": [
+  "npc:grif-wildheart",
+  "quest:6061",
+  "quest:6065",
+  "zone:ironforge",
+  "zone:dunmorogh",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Training the Beast (Dwarf)"
+ ]
+}

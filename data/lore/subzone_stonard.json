@@ -1,0 +1,93 @@
+{
+ "key": "subzone:stonard",
+ "type": "subzone",
+ "name": "Stonard",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Stonard"
+ },
+ "summary": "Stonard is a fortified Horde outpost situated in the eastern marshes of the Swamp of Sorrows. Originally built during the First War, it serves the modern Horde as an essential foothold in the southern Eastern Kingdoms and an observation post watching the Blasted Lands.",
+ "sections": [
+  {
+   "title": "A Relic of the First War",
+   "body": "Stonard stands as one of the oldest orcish settlements on Azeroth. First established when the Old Horde spilled through the Dark Portal into what was once the Black Morass, Stonard and its sister post, Rockard, anchored the invaders' lines. Though abandoned and damaged during the fallout of the Second War, Thrall's New Horde moved to reconstruct and garrison Stonard. Anchored by a traditional orcish Great Hall and fortified burrows, the outpost is now a vital island of Horde authority in an untamed, perilous mire.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontier Outpost",
+   "body": "Modern Stonard functions as both an expeditionary camp and a staging ground. Cartographers and scouts fan out across the surrounding muck to map the uncharted swamp and monitor hostile native beasts, lost draenei wanderers, and the sunken Temple of Atal'Hakkar to the east. Crucially, Stonard also provides the Horde with an organized staging post just north of the shattered Blasted Lands, ensuring a watchful eye remains near the dormant Dark Portal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Stonard important to the Horde?",
+   "aliases": [
+    "why is stonard here",
+    "stonard purpose",
+    "what is stonard"
+   ],
+   "answer": "Stonard gives the Horde a fortified military and logistics hub deep in the southern Eastern Kingdoms. It allows scouts to chart the hazardous Swamp of Sorrows, provides a base of operations for assaults on the nearby Sunken Temple, and keeps a standing garrison close to the Blasted Lands."
+  },
+  {
+   "q": "How old is Stonard?",
+   "aliases": [
+    "stonard history",
+    "when was stonard built",
+    "who founded stonard"
+   ],
+   "answer": "It dates back to the First War, making it one of the earliest orc settlements established on Azeroth. Founded by the Old Horde shortly after they passed through the Dark Portal, it fell into disuse following the Second War before Thrall's New Horde rebuilt it."
+  },
+  {
+   "q": "What happened to its sister settlement, Rockard?",
+   "aliases": [
+    "what is rockard",
+    "rockard history",
+    "stonard sister town"
+   ],
+   "answer": "Rockard was established alongside Stonard during the First War. Unlike Stonard, which was restored by the Horde, Rockard was captured by Dreadmaul ogres and turned into a hostile stronghold known as Dreadmaul Hold in the Blasted Lands."
+  },
+  {
+   "q": "Can you fly or travel directly to Stonard?",
+   "aliases": [
+    "stonard flight path",
+    "how to get to stonard",
+    "stonard portals"
+   ],
+   "answer": "Yes. Stonard maintains flight paths connecting it across the continent to Kargath, Flame Crest, Grom'gol Base Camp, and the neutral port of Booty Bay. High-ranking Horde mages can also learn spells to teleport directly here."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Stonard is renowned as the primary enclave in the southern Eastern Kingdoms where Horde shamans can find guidance and training far away from Kalimdor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Stonard serves as the Horde's solitary, fortified anchor point between the Badlands to the north and Stranglethorn Vale to the west."
+  }
+ ],
+ "keywords": [
+  "black morass",
+  "blasted lands",
+  "great hall",
+  "orcs",
+  "rockard",
+  "stonard",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "zone:blastedlands",
+  "subzone:temple-of-atal-hakkar",
+  "subzone:dark-portal",
+  "subzone:kargath",
+  "subzone:grom-gol-base-camp",
+  "topic:old-horde",
+  "topic:new-horde"
+ ],
+ "attribution": [
+  "Stonard"
+ ]
+}

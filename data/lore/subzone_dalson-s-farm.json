@@ -1,0 +1,76 @@
+{
+ "key": "subzone:dalson-s-farm",
+ "type": "subzone",
+ "name": "Dalson's Farm",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Dalson's Farm"
+ },
+ "summary": "Once a prosperous homestead known as Dalson's Orchard, this plot in the Western Plaguelands was ruined during the Third War when the Scourge swept across Lordaeron. In the present era, the blighted grounds are widely known as Dalson's Tears, an infested farmstead haunted by the undead and tainted by a Scourge plague cauldron.",
+ "sections": [
+  {
+   "title": "A Blighted Homestead",
+   "body": "Before the Third War, this estate flourished as Dalson's Orchard, providing produce and livelihood to the farmers of Lordaeron. When the Scourge unleashed the Plague of Undeath, the orchard fell alongside the surrounding region. The living inhabitants perished or were transformed into monstrous thralls of the Lich King, leaving the farmhouse and surrounding fields to rot. Today, the ruined farm is known primarily as Dalson's Tears, an active nest of undead centered around a noxious plague cauldron that continues to saturate the earth with foul contagion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between Dalson's Farm and Dalson's Tears?",
+   "aliases": [
+    "dalson farm vs dalsons tears",
+    "is dalsons tears dalson farm",
+    "dalson orchard"
+   ],
+   "answer": "Dalson's Farm, historically known as Dalson's Orchard, was the original name of the estate before the kingdom of Lordaeron fell. In the present era, the ruined and undead-infested settlement is commonly designated as Dalson's Tears on maps of the Western Plaguelands due to the plague cauldron poisoning the land and its grim tragedy during the Third War."
+  },
+  {
+   "q": "Who owns this land now?",
+   "aliases": [
+    "who owns dalson farm",
+    "who lives here",
+    "dalson family"
+   ],
+   "answer": "No living family retains control of the homestead. The estate belonged to the Dalson family before the Third War, but the Scourge slaughtered the inhabitants and raised them as mindless undead. The fields are presently contested territory occupied by ghouls, skeletons, and other agents of the Lich King."
+  },
+  {
+   "q": "Why is there a cauldron in the field?",
+   "aliases": [
+    "what is the cauldron for",
+    "plague cauldron dalson",
+    "dalson cauldron"
+   ],
+   "answer": "The cauldron in the middle of the field is a Scourge plague cauldron. The Cult of the Damned and Scourge necromancers erected these devices across Lordaeron's farmlands to pump virulent toxic fumes into the air and seep blight directly into the soil, preventing life from returning."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The devastation here exemplifies the unnatural rot that the Cenarion Circle seeks to heal, as the Scourge's foul plague continues to suffocate the soil and flora."
+  },
+  {
+   "target": "race:Human",
+   "text": "The ruined home stands as a bitter reminder of the tranquil northern kingdom that vanished when the Plague of Undeath swept through Lordaeron's countryside."
+  }
+ ],
+ "keywords": [
+  "dalson's farm",
+  "dalson's orchard",
+  "dalson's tears",
+  "lordaeron",
+  "plague cauldron",
+  "scourge",
+  "western plaguelands"
+ ],
+ "related": [
+  "subzone:dalson-s-tears",
+  "zone:westernplaguelands",
+  "topic:scourge",
+  "topic:lich-king",
+  "topic:cenarion-circle"
+ ],
+ "attribution": [
+  "Dalson's Farm"
+ ]
+}

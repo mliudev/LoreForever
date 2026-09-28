@@ -1,0 +1,89 @@
+{
+ "key": "subzone:nethergarde-mines",
+ "type": "subzone",
+ "name": "Nethergarde Mines",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Nethergarde Mines"
+ },
+ "summary": "Tucked into the northern hills of the Blasted Lands, the Nethergarde Mines supply vital iron and stone to nearby Nethergarde Keep. Dug deep beneath the blasted earth, these winding tunnels face mounting danger from hidden Horde infiltrators and ancient evils unearthed in the dark.",
+ "sections": [
+  {
+   "title": "A Vital Lifeline",
+   "body": "Carved into the jagged northern ridges of the Blasted Lands, the Nethergarde Mines are an essential resource hub for Nethergarde Keep. Overseen by Chief Prospector Hondo from his elevated office, Alliance miners work relentlessly along the cart tracks to pull usable iron from the desolate earth. Maintaining this supply line is crucial for sustaining the fortress, which watches over the blighted basin and the dormant Dark Portal. However, keeping the operation safe has proven nearly impossible.",
+   "spoiler": 0
+  },
+  {
+   "title": "Blood and Shadows",
+   "body": "Recently, the quiet labor of the quarry turned into a battleground. Fallen defenders litter the entrance after Horde operatives covertly breached the tunnels to cut off Nethergarde's vital supply line. Worse still, deep excavations accidentally broke into a forgotten subterranean chamber, freeing an ancient demon named Illycor. Now, ordinary miners find themselves trapped between enemy infiltrators sneaking through the side passages and a waking terror lurking in the deepest shafts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Nethergarde Mines?",
+   "aliases": [
+    "why do nethergarde mines exist",
+    "what are they digging here",
+    "nethergarde mine purpose"
+   ],
+   "answer": "The mines supply Nethergarde Keep with necessary iron, stone, and raw building materials. Because the Blasted Lands are barren and isolated, the fortress relies on these nearby excavations to reinforce its defenses and maintain its garrison."
+  },
+  {
+   "q": "Who is currently running the mining operation?",
+   "aliases": [
+    "who runs nethergarde mines",
+    "who is in charge",
+    "nethergarde mine leader"
+   ],
+   "answer": "Chief Prospector Hondo directs the operation on behalf of Nethergarde Keep. He manages the excavation crews and oversees output from his office stationed in an upper chamber above the main cart tracks."
+  },
+  {
+   "q": "Why is the entrance littered with dead Alliance defenders?",
+   "aliases": [
+    "why are there bodies at the mine",
+    "who attacked nethergarde mines",
+    "dead miners entrance"
+   ],
+   "answer": "The Horde launched covert attacks against the site to disrupt supply lines running into Nethergarde Keep. Hidden infiltrators managed to overwhelm the outer sentries at the threshold, slipping operatives deep into the shafts along the rail lines."
+  },
+  {
+   "q": "What demon was freed inside the mine?",
+   "aliases": [
+    "nethergarde mine demon",
+    "who is illycor",
+    "demon in the mine"
+   ],
+   "answer": "Miners digging deep beneath the northern rock accidentally broke into a hidden vault and unleashed Illycor, a demon that had remained buried beneath the Blasted Lands for ages."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The iron extracted here keeps Nethergarde Keep armed and fortified against the hostile forces of the Blasted Lands, making the defense of these tunnels a vital priority."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "These deep shafts tap into subterranean iron veins running beneath the otherwise scorched and lifeless terrain of the Blasted Lands."
+  }
+ ],
+ "keywords": [
+  "blasted lands",
+  "hondo",
+  "illycor",
+  "infiltrators",
+  "iron",
+  "mines",
+  "nethergarde"
+ ],
+ "related": [
+  "subzone:nethergarde-keep",
+  "zone:blastedlands",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Nethergarde Mines"
+ ]
+}

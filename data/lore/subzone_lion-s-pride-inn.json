@@ -1,0 +1,85 @@
+{
+ "key": "subzone:lion-s-pride-inn",
+ "type": "subzone",
+ "name": "Lion's Pride Inn",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Lion's Pride Inn"
+ },
+ "summary": "The Lion's Pride Inn is the bustling tavern and community center of Goldshire in Elwynn Forest. Kept for generations by the Farley family, it serves as the primary resting place, meeting hall, and hiring house for travelers venturing just south of Stormwind City.",
+ "sections": [
+  {
+   "title": "Heart of Goldshire",
+   "body": "Standing at the crossroads of Elwynn Forest, the Lion's Pride Inn is Goldshire's lively centerpiece. Operated by Innkeeper Farley under the tavern's traditional motto\u2014'Rest and relaxation for the tired and cold'\u2014the inn offers warm hearths, strong drinks, and rooms for weary adventurers fresh out of Northshire. Farley's family has managed the establishment with pride for generations, dating back through the reign of King Llane Wrynn I. Because Goldshire lies along the vital trade routes between Stormwind, Westfall, Redridge, and Duskwood, the tavern serves as an indispensable rallying point where town marshals, local crafters, and seasoned trainers gather to share news and contract passing mercenaries.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns and runs the Lion's Pride Inn?",
+   "aliases": [
+    "innkeeper",
+    "who owns lions pride",
+    "who runs goldshire inn"
+   ],
+   "answer": "The inn is operated by Innkeeper Farley. His family has maintained and run the Lion's Pride Inn as an above-board business for generations, dating back to before the First War in the era of King Llane Wrynn I."
+  },
+  {
+   "q": "What services are available inside the inn?",
+   "aliases": [
+    "trainers",
+    "what is inside",
+    "amenities"
+   ],
+   "answer": "Beyond food, drink, and lodging, the Lion's Pride Inn houses various class trainers, visiting merchants, and local quest givers seeking aid with the gnoll, kobold, and bandit problems troubling Elwynn Forest."
+  },
+  {
+   "q": "Why is the inn such a central hub in Elwynn?",
+   "aliases": [
+    "why so popular",
+    "goldshire crossroads",
+    "importance of lions pride"
+   ],
+   "answer": "Positioned directly at the Goldshire crossroads just south of Stormwind, the inn is the primary rest stop for travelers moving between the capital, Westfall, and the Redridge Mountains. It is naturally the first major hub young adventurers visit upon departing Northshire Valley."
+  },
+  {
+   "q": "What is the motto of the Lion's Pride Inn?",
+   "aliases": [
+    "inn motto",
+    "motto"
+   ],
+   "answer": "According to Innkeeper Farley, the inn's founding motto is 'Rest and relaxation for the tired and cold.'"
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans venturing forth from Northshire Abbey, the Lion's Pride Inn is their first encounter with the broader life and troubles of the kingdom outside monastery walls."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "As the main inn outside Stormwind's gates, it serves as a bustling waystation where Alliance travelers coordinate patrols and trade across the heartlands."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "farley",
+  "goldshire",
+  "goldshire inn",
+  "innkeeper farley",
+  "lion's pride inn",
+  "lions pride"
+ ],
+ "related": [
+  "subzone:goldshire",
+  "npc:innkeeper-farley",
+  "zone:elwynn",
+  "topic:llane-wrynn-i",
+  "topic:stormwind-kingdom",
+  "topic:stormwind-army"
+ ],
+ "attribution": [
+  "Lion's Pride Inn"
+ ]
+}

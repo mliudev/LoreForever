@@ -1,0 +1,112 @@
+{
+ "key": "quest:92473",
+ "type": "quest",
+ "name": "Aggressive Encroachment",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92473
+  ],
+  "level": "4",
+  "faction": null,
+  "start": "Valreaa Valewind",
+  "end": "",
+  "previous": "Aetheen of the Gales (quest)",
+  "next": "",
+  "wiki": "Aggressive Encroachment",
+  "chain": []
+ },
+ "summary": "Aggressive Encroachment is a task issued by Valreaa Valewind to protect the local settlement from desperate wildlife. Ursera from a nearby den have grown increasingly bold, wandering into the village and threatening its inhabitants.",
+ "sections": [
+  {
+   "title": "Desperate Predators",
+   "body": "The ursera population nesting southwest of the village has become an urgent safety hazard. Recently, a hungry adolescent beast strayed right up to the base of the village's central elder tree, nearly mauling a young child playing nearby. The settlement's rangers were forced to cut the creature down before tragedy struck.",
+   "spoiler": 0
+  },
+  {
+   "title": "Culling the Grove",
+   "body": "Recognizing that hunger and starvation are driving these predators to attack civilized grounds, the rangers have ordered a cull of the scrawniest ursera in Thendal Grove. By eliminating the desperate and malnourished beasts prowling outside the dens, the Rangers of the Grove hope to halt further encroachment until they can uncover what is disturbing the local wildlife.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers Aggressive Encroachment?",
+   "aliases": [
+    "who gives aggressive encroachment",
+    "quest giver",
+    "valreaa valewind quest"
+   ],
+   "answer": "The quest is given by Valreaa Valewind, a leader among the rangers who keeps watch over the grove and protects the nearby settlement from predatory beasts."
+  },
+  {
+   "q": "Why are the ursera wandering so close to the village?",
+   "aliases": [
+    "why ursera attack",
+    "ursera aggression",
+    "why are ursera mad"
+   ],
+   "answer": "The ursera are suffering from starvation and desperation, driving them to venture far beyond their normal hunting grounds into the heart of the settlement."
+  },
+  {
+   "q": "Where can the scrawny ursera be found?",
+   "aliases": [
+    "where are scrawny ursera",
+    "ursera location",
+    "thendal grove bears"
+   ],
+   "answer": "The scrawny ursera prowl Thendal Grove southwest of the village, lingering outside around the entrances of their den rather than deep within the cave."
+  },
+  {
+   "q": "What near-tragedy prompted this cull?",
+   "aliases": [
+    "ursera attack boy",
+    "what happened in the village",
+    "boy near elder tree"
+   ],
+   "answer": "An adolescent ursera wandered directly to the elder tree in the middle of the village and tried to attack a young boy playing nearby. Rangers killed the beast just in time to save his life."
+  },
+  {
+   "q": "Why are the ursera behaving so erratically?",
+   "aliases": [
+    "what changed with ursera",
+    "why ursera starving"
+   ],
+   "answer": "The rangers have noted that the ursera have grown unusually aggressive recently, but the underlying cause behind their sudden food shortage and behavioral shift remains an open question."
+  },
+  {
+   "q": "What proof does Valreaa Valewind require?",
+   "aliases": [
+    "what do I collect",
+    "aggressive encroachment objective"
+   ],
+   "answer": "Valreaa requests six Scrawny Ursera Claws taken from the malnourished beasts prowling the grove to ensure the dangerous predators have been dealt with."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Hunters will immediately understand the danger posed by starving predators, as desperate beasts abandon their natural wariness of humanoid settlements when driven by famine."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids will recognize the delicate balance of the grove being disrupted, noting that the sudden aggression and malnutrition of the local ursera points to an unseen disturbance in the local ecosystem."
+  }
+ ],
+ "keywords": [
+  "claws",
+  "elder tree",
+  "encroachment",
+  "scrawny ursera",
+  "thendal grove",
+  "ursera",
+  "valreaa valewind"
+ ],
+ "related": [
+  "zone:zephras"
+ ],
+ "attribution": [
+  "Aggressive Encroachment"
+ ]
+}

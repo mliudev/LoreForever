@@ -1,0 +1,86 @@
+{
+ "key": "subzone:gelkis-village",
+ "type": "subzone",
+ "name": "Gelkis Village",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Gelkis Village"
+ },
+ "summary": "Gelkis Village is the primary stronghold of the earth-aligned Gelkis centaur clan in southwestern Desolace. Built around a rugged ravine connected by wooden spans and cliffside paths, the settlement guards the southern route toward Feralas. Its vantage directly overlooks the main north-south road, making it a perilous crossing for any traveler who has not earned the clan's favor.",
+ "sections": [
+  {
+   "title": "A Fortress in the Ravine",
+   "body": "Gelkis Village sits in a deep, craggy gorge framed by precarious bluffs and rope bridges. Unlike the nomadic raiders of the Barrens, the Gelkis have fortified their ancestral grounds into a permanent settlement, complete with outposts spreading toward the border of Feralas. The heart of the clan's leadership lies within Bolgan's Hole, a cavern carved into the southern cliff face where Khan Shaka oversees his warriors. Travelers trekking south through Desolace must either cut a bloody path through the gorge or tread carefully, as the Gelkis view uninvited wanderers as fair game in their eternal war against their rival centaur brethren.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in Gelkis Village?",
+   "aliases": [
+    "gelkis residents",
+    "who controls gelkis village",
+    "centaur village south"
+   ],
+   "answer": "The settlement belongs to the Gelkis clan, one of the five warring centaur tribes native to Desolace. They are staunch earth-worshipers ruled by Khan Shaka, who resides deep in the cliffside cave known as Bolgan's Hole."
+  },
+  {
+   "q": "Why are the Gelkis centaur hostile to outsiders?",
+   "aliases": [
+    "why are gelkis attacking",
+    "gelkis hostile",
+    "can i be friendly with gelkis"
+   ],
+   "answer": "Centaur culture is intensely territorial and aggressive toward outsiders. However, the Gelkis hate their rival clan, the Magram, above all else. Adventurers who actively hunt Magram warriors can eventually earn the Gelkis clan's trust and enter the village safely."
+  },
+  {
+   "q": "Where is Gelkis Village located?",
+   "aliases": [
+    "gelkis location",
+    "how to find gelkis village",
+    "where is gelkis"
+   ],
+   "answer": "It is located in southwestern Desolace, just east and slightly south of the troll settlement of Shadowprey Village. Its ravines border the southern mountain face and overlook the trail heading directly south into Feralas."
+  },
+  {
+   "q": "What is Bolgan's Hole?",
+   "aliases": [
+    "bolgans hole",
+    "cave in gelkis village",
+    "where is gelkis khan"
+   ],
+   "answer": "Bolgan's Hole is a large cavern carved into the southern rock wall of the ravine, connected to the rest of the village via elevated bridges and bluffs. It serves as the inner sanctuary and seat of power for the Gelkis Khan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Centaur drove the tauren from their ancestral lands for generations; seeing the Gelkis fortified in their rocky bastions is a bitter reminder of their enduring threat to Kalimdor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "With the Darkspear settlement of Shadowprey Village resting directly to the west on the coast, the fortified presence of the Gelkis poses an ongoing threat to nearby Horde operations."
+  }
+ ],
+ "keywords": [
+  "bolgan's hole",
+  "centaur",
+  "desolace",
+  "feralas",
+  "gelkis",
+  "khan shaka",
+  "magram",
+  "shadowprey"
+ ],
+ "related": [
+  "subzone:bolgan-s-hole",
+  "zone:desolace",
+  "topic:centaur",
+  "subzone:shadowprey-village",
+  "zone:feralas"
+ ],
+ "attribution": [
+  "Gelkis Village"
+ ]
+}

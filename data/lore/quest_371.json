@@ -1,0 +1,130 @@
+{
+ "key": "quest:371",
+ "type": "quest",
+ "name": "At War With The Scarlet Crusade",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   371
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Executor Zygand",
+  "end": "",
+  "previous": "At War With The Scarlet Crusade (2)",
+  "next": "At War With The Scarlet Crusade (4)",
+  "wiki": "At War With The Scarlet Crusade (3)",
+  "chain": [
+   "At War With The Scarlet Crusade (Classic)",
+   "At War With The Scarlet Crusade (2)",
+   "At War With The Scarlet Crusade (3)",
+   "At War With The Scarlet Crusade (4)"
+  ]
+ },
+ "summary": "This military operation tasks Forsaken defenders with striking at the Scarlet Crusade encampment near the Balnir Farmstead in southeastern Tirisfal Glades. Under orders from Executor Zygand, players eliminate Captain Vachon and his accompanying friars to stall Crusader raids threatening the Dark Lady's domain.",
+ "sections": [
+  {
+   "title": "A Looming Encroachment",
+   "body": "As the Forsaken strive to secure the perimeter around Brill and the Undercity, the Scarlet Crusade maintains fortified pockets across the countryside. Reports funneling into town from Executor Arren alert the military command to active Crusader incursions operating out of a crumbling guard tower in southeastern Tirisfal Glades, uncomfortably close to the abandoned Balnir Farmstead.",
+   "spoiler": 0
+  },
+  {
+   "title": "Severing the Chain of Command",
+   "body": "Recognizing that disorganized zealots are far less perilous than coordinated squads, Executor Zygand focuses the offensive on their field leadership. By eliminating Captain Vachon alongside the Scarlet Friars who bolster his men with holy magic, the Forsaken aim to shatter this cell's operational cohesion and suppress human raids into nearby Forsaken territories.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who orders this strike?",
+   "aliases": [
+    "quest giver",
+    "who gives this quest",
+    "who is zygand"
+   ],
+   "answer": "Executor Zygand, stationed in the town of Brill, issues the orders. He acts on frontline intelligence compiled and delivered by Executor Arren regarding Crusade movements near the Balnir Farmstead."
+  },
+  {
+   "q": "Where is Captain Vachon located?",
+   "aliases": [
+    "vachon location",
+    "where is vachon",
+    "where are scarlet friars"
+   ],
+   "answer": "Captain Vachon and his retinue of Scarlet Friars are based at a ruined watchtower in southeastern Tirisfal Glades, just east of the Balnir Farmstead."
+  },
+  {
+   "q": "Why does Executor Zygand target Scarlet Friars specifically?",
+   "aliases": [
+    "why kill friars",
+    "scarlet friars"
+   ],
+   "answer": "Scarlet Friars provide essential magical and spiritual support to the rank-and-file zealots. Cutting down their spellcasters deprives the Crusade squad of defensive wards and healing, leaving their field operations completely crippled."
+  },
+  {
+   "q": "What threat does the ruined tower pose to Brill?",
+   "aliases": [
+    "tower threat",
+    "why attack tower",
+    "balnir tower"
+   ],
+   "answer": "The tower provides the Scarlet Crusade with elevated sightlines and a fortified launching point. From there, Crusader patrols can easily ambuscade Forsaken travelers and disrupt supply roads leading east out of Brill."
+  },
+  {
+   "q": "How does this fit into the broader conflict with the Crusade?",
+   "aliases": [
+    "scarlet war chain",
+    "war with the scarlet crusade lore"
+   ],
+   "answer": "This mission forms the third phase of Executor Zygand's tactical campaign to systematically eradicate Scarlet Crusade strongholds from the Tirisfal Glades, pushing zealot forces back before they can besiege the Undercity."
+  },
+  {
+   "q": "What happens after Captain Vachon is slain?",
+   "aliases": [
+    "next quest",
+    "what after vachon",
+    "vachon aftermath"
+   ],
+   "answer": "While Vachon's defeat slows Crusader advances in southeastern Tirisfal, Executor Zygand promptly directs attention toward larger Scarlet Crusade fortifications elsewhere in the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Every Crusader post cleared around Tirisfal Glades secures your newborn nation's borders and protects Lady Sylvanas's realm from living purifiers."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Neutralizing Scarlet zealots keeps the approach to the Undercity open and secures Horde communication routes through northern Lordaeron."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Clashing with the Scarlet Friars pits your mastery of the Shadow and distorted Holy power against the dogmatic, unyielding fanaticism of human zealots."
+  }
+ ],
+ "keywords": [
+  "arren",
+  "balnir",
+  "brill",
+  "crusader",
+  "friar",
+  "tirisfal",
+  "tower",
+  "vachon",
+  "zygand"
+ ],
+ "related": [
+  "npc:executor-zygand",
+  "topic:scarlet-crusade",
+  "subzone:balnir-farmstead",
+  "subzone:brill",
+  "npc:executor-arren",
+  "quest:370",
+  "quest:1882",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "At War With The Scarlet Crusade (3)"
+ ]
+}

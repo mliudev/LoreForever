@@ -1,0 +1,91 @@
+{
+ "key": "npc:archaeologist-flagongut",
+ "type": "npc",
+ "name": "Archaeologist Flagongut",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Archaeologist Flagongut",
+  "refs": 2
+ },
+ "summary": "Archaeologist Flagongut is a dwarven scholar representing the Explorers' League, stationed within the Deepwater Tavern at Menethil Harbor. Though originally en route to the local dig at the Whelgar Excavation Site, he becomes an important contact for field reports traveling across the sea from Darkshore.",
+ "sections": [
+  {
+   "title": "A Scholar in Port",
+   "body": "Archaeologist Flagongut can be found resting with a mug in hand at the Deepwater Tavern in Menethil Harbor. Like many members of Ironforge's Explorers' League, he traveled west across Khaz Modan aiming to assist with discoveries near the Whelgar Excavation Site in the Wetlands. Despite being far from the high halls of the library, he maintains vital ties with field researchers, helping process lost relics and reports ferried across the Great Sea from remote expeditions.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties to the Field",
+   "body": "Dwarven curiosity is rarely confined to one continent, and Flagongut finds himself sorting through the chaotic field research of absent-minded colleagues operating on the shores of Kalimdor. When relics or notes recovered from the excavation sites of Darkshore arrive at the harbor, Flagongut ensures the findings are cataloged and delivered onward to the senior league leadership back in Ironforge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Archaeologist Flagongut?",
+   "aliases": [
+    "who is flagongut",
+    "flagongut npc",
+    "archaeologist flagongut lore"
+   ],
+   "answer": "Flagongut is a dwarven researcher from the Explorers' League. He is stationed in Menethil Harbor's Deepwater Tavern, where he reviews excavation field work and communicates with dig sites."
+  },
+  {
+   "q": "Why is Flagongut at the Deepwater Tavern?",
+   "aliases": [
+    "why is flagongut in menethil",
+    "flagongut location",
+    "what is flagongut doing here"
+   ],
+   "answer": "He originally arrived at Menethil Harbor to reach the Whelgar Excavation Site in the Wetlands. While in port, he uses the tavern as a base to handle mail, incoming artifacts, and correspondence from abroad."
+  },
+  {
+   "q": "How is Flagongut connected to Darkshore?",
+   "aliases": [
+    "flagongut darkshore connection",
+    "why darkshore quest in wetlands"
+   ],
+   "answer": "Flagongut serves as the Wetlands contact for the long-running research chain started by Prospector Remtravel in Darkshore. Adventurers crossing from Auberdine to Menethil bring Remtravel's findings directly to Flagongut to be passed along to Ironforge."
+  },
+  {
+   "q": "What organization does he belong to?",
+   "aliases": [
+    "flagongut faction",
+    "flagongut explorers league"
+   ],
+   "answer": "He belongs to the Explorers' League, King Magni Bronzebeard's royal society dedicated to uncovering the ancient origins, relics, and history of the dwarven race across Azeroth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Flagongut represents the far-reaching ambitions of the Explorers' League, proving that even a tavern by the sea can serve as an outpost for piecing together Titan secrets."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Flagongut acts as a logistical bridge between the night elf lands of Darkshore and the eastern Alliance strongholds of Khaz Modan."
+  }
+ ],
+ "keywords": [
+  "archaeologist",
+  "deepwater tavern",
+  "explorers' league",
+  "flagongut",
+  "menethil harbor",
+  "remtravel",
+  "whelgar"
+ ],
+ "related": [
+  "subzone:menethil-harbor",
+  "subzone:deepwater-tavern",
+  "topic:explorers-league",
+  "quest:729",
+  "zone:wetlands",
+  "zone:darkshore",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Archaeologist Flagongut"
+ ]
+}

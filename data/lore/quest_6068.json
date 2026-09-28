@@ -1,0 +1,133 @@
+{
+ "key": "quest:6068",
+ "type": "quest",
+ "name": "The Hunter's Path",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   6068
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "",
+  "end": "Thotar",
+  "previous": "",
+  "next": "Taming the Beast (Orc and Troll 1)",
+  "wiki": "The Hunter's Path (Orc and Troll)",
+  "chain": [
+   "The Hunter's Path (Orc and Troll)",
+   "Taming the Beast (Orc and Troll 1)",
+   "Taming the Beast (Orc and Troll 2)",
+   "Taming the Beast (Orc and Troll 3)",
+   "Training the Beast (Orc and Troll)"
+  ]
+ },
+ "summary": "The Hunter's Path is a rite of passage directing young orc and troll hunters to Razor Hill. Under the guidance of master hunter Thotar, fledgling trackers learn the vital discipline of binding wild predators to their will.",
+ "sections": [
+  {
+   "title": "A Hunter's Awakening",
+   "body": "Up to this point, an apprentice hunter in Durotar relies solely on their own bow and cunning. Tracking prey through red clay canyons and harsh scrubland teaches patience, but true mastery in the Horde requires bonding with the untamed fauna of the land. Class trainers recognize when a student has grown capable enough to walk this road, directing them straight to Razor Hill.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Master at Razor Hill",
+   "body": "Waiting at Razor Hill is Thotar, a veteran hunter steeped in the wild lore of Durotar. Thotar serves as the mentor who instructs novitiates in the perilous ritual of subduing ferocious beasts without breaking their spirit. Meeting him is the first step toward walking the wilderness with a loyal companion at one's side.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of The Hunter's Path?",
+   "aliases": [
+    "why do hunters path",
+    "hunter path quest purpose",
+    "what does this quest do"
+   ],
+   "answer": "It serves as the introductory summons that sends orc and troll hunters to Razor Hill so they can begin their beast taming training."
+  },
+  {
+   "q": "Who is Thotar?",
+   "aliases": [
+    "thotar who is he",
+    "who is thotar",
+    "thotar razor hill"
+   ],
+   "answer": "Thotar is a seasoned hunter located in Razor Hill who oversees the trials required for young Horde trackers to bond with and command wild beasts."
+  },
+  {
+   "q": "Why can't young hunters tame pets immediately?",
+   "aliases": [
+    "why no pet at level 1",
+    "why must hunters wait for pets",
+    "when do hunters get pets"
+   ],
+   "answer": "Controlling a dangerous predator requires deep discipline, patience, and specialized taming techniques. Until a hunter demonstrates basic survival skills, attempting to bind a wild beast would result in mauling or death."
+  },
+  {
+   "q": "Which races undertake this specific trial?",
+   "aliases": [
+    "who gets this quest",
+    "is this for orcs and trolls only",
+    "what races do this"
+   ],
+   "answer": "This particular version of the path is meant for orcs and Darkspear trolls coming of age in Durotar, while tauren hunters undertake a similar trial in Mulgore."
+  },
+  {
+   "q": "What happens after reporting to Thotar?",
+   "aliases": [
+    "what comes next",
+    "after hunters path",
+    "next quest after thotar"
+   ],
+   "answer": "Thotar immediately tasks the hunter with tracking down and subjugating various native predators across Durotar to prove their taming prowess."
+  },
+  {
+   "q": "Where does this training take place?",
+   "aliases": [
+    "where is razor hill",
+    "thotar location",
+    "where to go"
+   ],
+   "answer": "The trial centers around Razor Hill, the primary settlement in central Durotar situated between the Valley of Trials and Orgrimmar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This summons marks the most defining threshold in your journey: moving from a lone marksman to a true master of beasts."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs, partnering with a ferocious companion echoes ancient traditions that stretch back to the wolf riders of Draenor."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear hunters regard learning to tame local raptors and boars as essential for securing their footing in Durotar's treacherous wilds."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde relies on its scouts and trackers to tame regional predators, turning the unforgiving ecology of Durotar into an asset."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "hunter trainer",
+  "hunter's path",
+  "pet quest",
+  "razor hill",
+  "tame beast",
+  "thotar"
+ ],
+ "related": [
+  "npc:thotar",
+  "quest:6061",
+  "quest:6081",
+  "subzone:razor-hill",
+  "zone:durotar",
+  "topic:troll"
+ ],
+ "attribution": [
+  "The Hunter's Path (Orc and Troll)"
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "key": "topic:shadow-council",
+ "type": "topic",
+ "name": "Shadow Council",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Shadow Council"
+ },
+ "summary": "The Shadow Council was the secret cabal of warlocks and necrolytes that orchestrated the corruption of the Old Horde on Draenor and guided its invasion of Azeroth. Founded by Gul'dan under the direction of the Burning Legion, the cult manipulated clan chieftains from behind the scenes until Warchief Orgrim Doomhammer purged their stronghold in Blackrock Mountain.",
+ "sections": [
+  {
+   "title": "Architects of the Blood Curse",
+   "body": "Before the crossing into Azeroth, Gul'dan brought together a clandestine assembly of warlocks, necrolytes, and opportunistic chieftains to manipulate the orcish clans. By elevating Blackhand the Destroyer as a malleable figurehead, the Shadow Council ruled the Old Horde from the dark. They disseminated fel magic across Draenor, coordinated the conquest of Shattrath and the Temple of Karabor, and fed the blood of the demon Mannoroth to the clans, binding the orcs to the will of the Burning Legion.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Crossing and Blackrock Mountain",
+   "body": "When Kil'jaeden vanished, the Shadow Council entered a pact with Medivh\u2014the Guardian possessed by Sargeras\u2014to breach the barrier between worlds. Using the life essences of thousands of captives to empower the Dark Portal, the Council guided the Horde into the Kingdom of Stormwind. After securing Blackrock Mountain through an uneasy arrangement brokered by Cho'gall with the Dark Iron dwarves and the fire elementals of Ragnaros, the warlocks oversaw the war effort from the upper spire.",
+   "spoiler": 0
+  },
+  {
+   "title": "Doomhammer's Purge and Death Knights",
+   "body": "Following the assassination of King Llane Wrynn by Garona, Gul'dan fell into a comatose trance. Orgrim Doomhammer seized the moment: he slew Blackhand, interrogated Garona to expose the Council's inner sanctum, and launched an assault that obliterated most of the warlocks. Awaking to find his cult shattered, Gul'dan bargained for his life by offering Doomhammer a terrifying counter to human magic. Imbuing the spirits of slaughtered Shadow Council warlocks into the corpses of fallen human knights, Gul'dan created the first death knights.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who founded the Shadow Council?",
+   "aliases": [
+    "who made shadow council",
+    "shadow council founder",
+    "guldan council"
+   ],
+   "answer": "The Shadow Council was founded by the orc warlock Gul'dan on Draenor. Serving the demon lord Kil'jaeden, Gul'dan gathered like-minded practitioners of fel magic to pull the strings of the clans while using Warchief Blackhand as an unwitting puppet."
+  },
+  {
+   "q": "What happened to the Shadow Council during the First War?",
+   "aliases": [
+    "how did shadow council fall",
+    "doomhammer shadow council",
+    "purge of the shadow council"
+   ],
+   "answer": "When Gul'dan was incapacitated after Medivh's death, Orgrim Doomhammer killed Blackhand and took command of the Horde. Doomhammer tortured the assassin Garona to uncover the Council's hidden sanctuary in Blackrock Spire, leading a purge that wiped out nearly all of its warlocks."
+  },
+  {
+   "q": "How did the first death knights come from the Shadow Council?",
+   "aliases": [
+    "shadow council death knights",
+    "who became death knights",
+    "teron gorefiend council"
+   ],
+   "answer": "After Doomhammer eradicated the Council, Gul'dan bargained for clemency by promising a dark weapon to match human sorcerers. He took the lingering souls of his slain warlocks\u2014most notably Teron'gor\u2014and infused them into the preserved bodies of fallen Stormwind knights, creating the first generation of death knights."
+  },
+  {
+   "q": "Did all orc warlocks belong to the Shadow Council?",
+   "aliases": [
+    "were all warlocks shadow council",
+    "drekthar shadow council",
+    "nekros shadow council"
+   ],
+   "answer": "No. While the Shadow Council controlled the widespread adoption of fel magic across Draenor, several practitioners refused membership. Notable figures such as Drek'Thar of the Frostwolves and Nekros Skullcrusher learned the dark arts but remained strictly loyal to their respective clans instead of Gul'dan's cabal."
+  },
+  {
+   "q": "What was Cho'gall's role in the Council?",
+   "aliases": [
+    "chogall shadow council",
+    "chogall role",
+    "twilight hammer shadow council"
+   ],
+   "answer": "Cho'gall was Gul'dan's foremost apprentice and chief lieutenant. He led the Twilight's Hammer clan within the Council's orbit and utilized his hidden ties to the Old Gods to broker a truce with the Dark Iron dwarves and fire elementals in Blackrock Mountain."
+  },
+  {
+   "q": "Does the Shadow Council still exist?",
+   "aliases": [
+    "is shadow council around",
+    "shadow council today",
+    "shadow council present"
+   ],
+   "answer": "The original Council was shattered by Doomhammer, and its remnants further fractured when Gul'dan died at the Tomb of Sargeras. However, splintered cultists, surviving warlocks, and demonic agents continuing the Legion's work across Azeroth and the ruins of Draenor still trace their lineage to Gul'dan's organization."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The Shadow Council formalized the study of fel sorcery and demonic pacts among mortals; modern warlocks draw directly upon the summoning rites and soul-harvesting techniques they pioneered."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The Shadow Council engineered the ruin of Draenor and the blood pact that cursed the orcish race, leaving deep generational shame that Thrall's new Horde actively strives to purge."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Warchief Orgrim Doomhammer's brutal slaughter of the Shadow Council marked the turning point where the Horde first attempted to sever itself from demonic puppet masters."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The kingdom of Stormwind fell largely to the covert operations of the Shadow Council, from the opening of the Dark Portal to the assassination of King Llane Wrynn."
+  }
+ ],
+ "keywords": [
+  "blackhand",
+  "blackrock mountain",
+  "burning legion",
+  "cho'gall",
+  "dark portal",
+  "death knight",
+  "fel magic",
+  "gul'dan",
+  "mannoroth",
+  "shadow council",
+  "teron gorefiend"
+ ],
+ "related": [
+  "npc:orgrim-doomhammer",
+  "topic:old-horde",
+  "subzone:blackrock-mountain",
+  "topic:burning-legion",
+  "subzone:dark-portal",
+  "topic:twilight-s-hammer",
+  "topic:medivh",
+  "topic:first-war"
+ ],
+ "attribution": [
+  "Shadow Council"
+ ]
+}

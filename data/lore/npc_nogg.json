@@ -1,0 +1,91 @@
+{
+ "key": "npc:nogg",
+ "type": "npc",
+ "name": "Nogg",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Nogg",
+  "refs": 2
+ },
+ "summary": "Nogg is a goblin engineer operating out of Nogg's Machine Shop in the Drag of Orgrimmar. He offers tinkering expertise and specialized craftsmanship to the Horde, notably analyzing strange mechanical salvage recovered from deep within Gnomeregan.",
+ "sections": [
+  {
+   "title": "Nogg's Machine Shop",
+   "body": "Tucked away in the shaded corridors of the Drag in Orgrimmar, Nogg runs an independent engineering workshop catering to adventurers and craftsmen alike. While the surrounding city relies heavily on traditional orcish steel and brute strength, Nogg provides the specialized mechanical finesse that only a goblin can offer. He maintains a keen interest in foreign contraptions and tech, happily examining curious trinkets and mechanical oddities dragged back from Alliance lands or subterranean ruins.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gnomish Gadgets and Salvage",
+   "body": "Nogg takes special interest in items recovered from the fallen gnomish capital of Gnomeregan. When Horde operatives retrieve intricate rings or technological remnants from the irradiated vaults across the sea, Nogg is one of the few minds in Durotar capable of disassembling, deciphering, and retrofitting such bizarre clockwork mechanisms for Horde use.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Nogg?",
+   "aliases": [
+    "nogg location",
+    "where is nogg",
+    "nogg's machine shop"
+   ],
+   "answer": "Nogg is located in the Drag inside Orgrimmar, running his own workshop known as Nogg's Machine Shop."
+  },
+  {
+   "q": "What is Nogg's connection to Gnomeregan?",
+   "aliases": [
+    "why nogg gnomeregan",
+    "nogg ring",
+    "return of the ring"
+   ],
+   "answer": "When Horde adventurers venture into the irradiated tunnels of Gnomeregan in Khaz Modan, they can salvage intricate technological trinkets. Nogg is the local expert in Orgrimmar who inspects and reconfigures these foreign gnomish rings."
+  },
+  {
+   "q": "Is Nogg part of the Horde?",
+   "aliases": [
+    "is nogg horde",
+    "nogg faction"
+   ],
+   "answer": "Nogg is an independent goblin artisan operating directly within Orgrimmar, actively serving Horde adventurers and lending his technical skills to their war effort."
+  },
+  {
+   "q": "Can Nogg alter or reforge rings?",
+   "aliases": [
+    "ring redo",
+    "change gnomeregan ring"
+   ],
+   "answer": "Yes. If an adventurer brings him a Sparklematic-extracted ring from Gnomeregan and desires different enchantments or mechanical properties, Nogg knows how to dismantle and rebuild the piece to better suit their needs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Fellow engineers often stop by Nogg's Machine Shop in the Drag to pick up parts, talk shop, and marvel at how easily goblin hands repurpose intricate gnomish tech."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For Horde warriors returning from dangerous operations in the Eastern Kingdoms, Nogg bridges the gap between crude salvage and finely calibrated battle gear."
+  }
+ ],
+ "keywords": [
+  "gnomeregan",
+  "goblin engineer",
+  "machine shop",
+  "nogg",
+  "orgrimmar",
+  "return of the ring",
+  "the drag"
+ ],
+ "related": [
+  "subzone:drag",
+  "zone:orgrimmar",
+  "quest:2947",
+  "quest:2950",
+  "zone:gnomeregan",
+  "topic:goblin",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Nogg"
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "key": "subzone:booty-bay",
+ "type": "subzone",
+ "name": "Booty Bay",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Booty Bay"
+ },
+ "summary": "Booty Bay is a sprawling pirate haven built into the sheer sea cliffs of southern Stranglethorn Vale, operated by the Steamwheedle Cartel's Blackwater Raiders. Entered by land through the gaping jaws of a giant shark carcass, it serves as a fiercely enforced neutral port where Alliance and Horde mingle under the watchful eyes of heavily armed goblin bruisers.",
+ "sections": [
+  {
+   "title": "A Den of Scoundrels and Profit",
+   "body": "Originally known as Blackwater Cove when it was a human settlement later overrun by jungle trolls, the bay was eventually captured by the goblins of the Steamwheedle Cartel before the First War. Today, it is an international crossroads and a haven for scoundrels, outcasts, and merchants alike. Overseen by Baron Revilgaz alongside Fleet Master Seahorn from the balconies of the Salty Sailor Tavern, the port is ostensibly lawless yet strictly managed: anyone may drink, trade, or hire mercenaries here, provided they obey the cartel's peace and pay their harbor fees.",
+   "spoiler": 0
+  },
+  {
+   "title": "Threats on the Water",
+   "body": "Booty Bay's bustling docks connect the Eastern Kingdoms directly to Ratchet across the Great Sea, making it a critical hub for trade and cross-continental travel. However, its immense wealth attracts relentless hostility. The town's primary nemesis is the Bloodsail Buccaneers, an aggressive pirate fleet that constantly raids Blackwater shipping, roams the Stranglethorn coastline, and actively plots the total destruction and plunder of the goblin port.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules Booty Bay?",
+   "aliases": [
+    "booty bay leader",
+    "who is in charge of booty bay",
+    "booty bay boss"
+   ],
+   "answer": "The port is ruled by Baron Revilgaz, a prominent figure in the Steamwheedle Cartel, working in close concert with Fleet Master Seahorn, the tauren commander of the Blackwater Raiders. Both run their operations from the upper decks of the Salty Sailor Tavern overlooking the harbor."
+  },
+  {
+   "q": "Why can Alliance and Horde players stand together here?",
+   "aliases": [
+    "why is booty bay neutral",
+    "booty bay safe zone",
+    "can horde attack alliance here"
+   ],
+   "answer": "Booty Bay is controlled by the neutral Steamwheedle Cartel, which values profit and commerce far above the faction conflict. The cartel maintains strict neutrality, welcoming anyone with coin and unleashing elite goblin bruisers upon anyone foolish enough to start a brawl."
+  },
+  {
+   "q": "Who are the Bloodsail Buccaneers?",
+   "aliases": [
+    "bloodsail pirates",
+    "why do bloodsail hate booty bay",
+    "bloodsail buccaneers lore"
+   ],
+   "answer": "The Bloodsail Buccaneers are a rival outlaw syndicate at bitter war with the Blackwater Raiders. They control ships along the southern coast of Stranglethorn Vale and actively scheme to overwhelm Booty Bay and seize its lucrative harbor."
+  },
+  {
+   "q": "Where does the boat in Booty Bay sail?",
+   "aliases": [
+    "booty bay boat destination",
+    "where does the ship go",
+    "boat to kalimdor"
+   ],
+   "answer": "The passenger vessel operating from the lower docks sails across the Great Sea directly to the port town of Ratchet in the Barrens, providing the main neutral transit route between the southern Eastern Kingdoms and Kalimdor."
+  },
+  {
+   "q": "What is the giant statue standing at the bay's entrance?",
+   "aliases": [
+    "booty bay statue",
+    "colossus of booty bay",
+    "statue on the island"
+   ],
+   "answer": "The massive statue of an unknown goblin with outstretched arms stands on Janeiro's Point just outside the harbor mouth. It serves as a navigational beacon and welcoming monument for incoming merchant ships and pirate crews."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Known as a scoundrel's paradise, Booty Bay is teeming with underworld contacts, fences, lockboxes, and covert informants ready to trade secrets for coin."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Far south of Stormwind's protected borders, Booty Bay provides Alliance travelers with rare neutral amenities, flight routes, and ship passage straight to Kalimdor."
+  }
+ ],
+ "keywords": [
+  "blackwater raiders",
+  "bloodsail buccaneers",
+  "booty bay",
+  "ratchet",
+  "revilgaz",
+  "salty sailor",
+  "seahorn",
+  "steamwheedle cartel",
+  "stranglethorn"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "subzone:salty-sailor-tavern",
+  "npc:baron-revilgaz",
+  "npc:fleet-master-seahorn",
+  "subzone:ratchet",
+  "subzone:janeiro-s-point",
+  "topic:steamwheedle-cartel",
+  "topic:pirate"
+ ],
+ "attribution": [
+  "Booty Bay"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "subzone:moonspray",
+ "type": "subzone",
+ "name": "Moonspray",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Moonspray"
+ },
+ "summary": "The Moonspray is an Alliance transport vessel belonging to the Kaldorei Fleet. It provides essential maritime passage across the waters separating mainland Kalimdor from the great World Tree, Teldrassil.",
+ "sections": [
+  {
+   "title": "A Vital Island Ferry",
+   "body": "Graceful in design like all night elven ships, the Moonspray serves as an indispensable lifeline between the docks of Auberdine on Darkshore's coast and Rut'theran Village at the root of Teldrassil. Traversing the Veiled Sea, the transport carries adventurers, couriers, and vital provisions between the isolated night elf sanctuary in the crown of the World Tree and the ancient mainland of Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Moonspray travel?",
+   "aliases": [
+    "moonspray route",
+    "where does moonspray go",
+    "moonspray destination"
+   ],
+   "answer": "The Moonspray sails between the harbor town of Auberdine in Darkshore and Rut'theran Village, which sits at the oceanic base of Teldrassil."
+  },
+  {
+   "q": "Who owns and operates this ship?",
+   "aliases": [
+    "who sails the moonspray",
+    "kaldorei fleet moonspray",
+    "is moonspray alliance"
+   ],
+   "answer": "The Moonspray is a night elven vessel operating as part of the Kaldorei Fleet, sailing under the banner of the Alliance."
+  },
+  {
+   "q": "Why is this ferry route important?",
+   "aliases": [
+    "why take moonspray",
+    "teldrassil boat"
+   ],
+   "answer": "Teldrassil is an island perched high in the sea off the northwestern coast of Kalimdor. Ships like the Moonspray are the primary means of transferring troops, provisions, and travelers across the water to the mainland."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves leaving Teldrassil to explore the wider world, the Moonspray is often the very vessel that carries them from their secluded home to the mainland for the first time."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Moonspray forms a key transport link connecting the Alliance's primary coastal hub in northern Kalimdor with the isolated capital of Darnassus."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "boat",
+  "darkshore",
+  "ferry",
+  "kaldorei fleet",
+  "moonspray",
+  "rut'theran village",
+  "teldrassil",
+  "transport"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "subzone:rut-theran-village",
+  "zone:darkshore",
+  "quest:940"
+ ],
+ "attribution": [
+  "Moonspray"
+ ]
+}

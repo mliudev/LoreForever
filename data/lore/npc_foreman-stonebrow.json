@@ -1,0 +1,84 @@
+{
+ "key": "npc:foreman-stonebrow",
+ "type": "npc",
+ "name": "Foreman Stonebrow",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Foreman Stonebrow",
+  "refs": 1
+ },
+ "summary": "Foreman Stonebrow is a dwarven overseer representing the Miners' League at Gol'Bolar Quarry in eastern Dun Morogh. After aggressive troggs erupted from the rock and overran the excavation site, he was forced to organize a defense and hire adventurers to clear the pits.",
+ "sections": [
+  {
+   "title": "The Crisis at Gol'Bolar",
+   "body": "Foreman Stonebrow was charged with directing operations at Gol'Bolar Quarry, a key dwarven excavation nestled in the mountains east of Kharanos. When deep digging broke into hidden trogg burrows, subterranean beasts swarmed the pits and drove the miners from their equipment. Refusing to abandon the site entirely, Stonebrow remains at the rim of the quarry to enlist any able-bodied travelers willing to push the troggs back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Foreman Stonebrow?",
+   "aliases": [
+    "stonebrow",
+    "who is stonebrow",
+    "foreman stonebrow lore"
+   ],
+   "answer": "Foreman Stonebrow is a dwarf affiliated with the Miners' League who oversees work at the Gol'Bolar Quarry in Dun Morogh. He coordinates operations and tries to keep the quarry secure."
+  },
+  {
+   "q": "Why is Foreman Stonebrow asking for help?",
+   "aliases": [
+    "gol bolar trogg problem",
+    "why need help",
+    "quarry quest"
+   ],
+   "answer": "Excavations at Gol'Bolar Quarry inadvertently breached subterranean trogg caverns. Troggs swarmed the lower terraces, killing workers and forcing the surviving miners to retreat to the camp at the rim."
+  },
+  {
+   "q": "What is the Miners' League?",
+   "aliases": [
+    "miners league",
+    "what is miners league"
+   ],
+   "answer": "The Miners' League is a dwarven guild and trade organization centered in Ironforge that oversees mining expeditions, resource extraction, and quarry operations throughout Khaz Modan."
+  },
+  {
+   "q": "Where can Foreman Stonebrow be found?",
+   "aliases": [
+    "stonebrow location",
+    "where is foreman stonebrow"
+   ],
+   "answer": "He is stationed at the rim camp overlooking Gol'Bolar Quarry, situated in the eastern hills of Dun Morogh, just off the road leading toward Loch Modan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, the trogg invasion of Gol'Bolar Quarry is a direct blow to Ironforge's stone industry and a grim reminder of the ancient menaces lurking beneath their ancestral soil."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners have a professional stake in helping Stonebrow, as reclaiming the quarry's rich stone and ore deposits is vital to the guild operations of Khaz Modan."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "foreman stonebrow",
+  "gol bolar",
+  "gol'bolar quarry",
+  "miners' league",
+  "stonebrow",
+  "troggs"
+ ],
+ "related": [
+  "subzone:gol-bolar-quarry",
+  "quest:432",
+  "topic:trogg",
+  "topic:dwarf",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Foreman Stonebrow"
+ ]
+}

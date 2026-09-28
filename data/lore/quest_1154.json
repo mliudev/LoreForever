@@ -1,0 +1,128 @@
+{
+ "key": "quest:1154",
+ "type": "quest",
+ "name": "Test of Lore",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1154
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Braug Dimspirit",
+  "end": "",
+  "previous": "Test of Lore",
+  "next": "Test of Lore (3)",
+  "wiki": "Test of Lore (2)",
+  "chain": []
+ },
+ "summary": "The Test of Lore is a trial set by Braug Dimspirit at the entrance to Talondeep Path, testing a Horde adventurer's mind rather than their physical endurance. To pass, the seeker must venture deep into the haunted barrow dens of Ashenvale, recover an ancient tome of dragon history, and study its contents before being quizzed.",
+ "sections": [
+  {
+   "title": "A Shift in the Trials",
+   "body": "After proving their physical endurance and unwavering faith across the salt flats and plateaus of Thousand Needles, candidates under Dorn Plainstalker's series of trials are sent north to Braug Dimspirit in the Stonetalon Mountains. Stationed near the mouth of Talondeep Path, Braug dismisses the earlier challenges as simple physical exercises. To truly serve the Horde with distinction, an adventurer requires a sharp and disciplined intellect, prepared to understand ancient histories rather than merely striking down beasts.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadows of Dor'Danil",
+   "body": "Braug directs petitioners to venture through Talondeep Path into the forested reaches of southern Ashenvale. There, hidden beneath the canopy south of Splintertree Post, lies the Dor'Danil Barrow Den. The subterranean sanctuary is a perilous ruin haunted by fallen night elf druids and the vicious creatures that slaughtered them. Rested upon a stony podium deep in the lower chambers lies the prize: 'Legacy of the Aspects', a rare manuscript detailing the ancient creation and corruption of the great Dragon Aspects.",
+   "spoiler": 0
+  },
+  {
+   "title": "Study or Suffer",
+   "body": "Securing the tome is only half of Braug's trial. Before surrendering the volume, the seeker must commit its teachings to memory. Braug immediately takes the book upon delivery and tests the seeker's recall regarding the Titan-forged protectors and the cataclysmic betrayal that birthed Deathwing. Those who fail to study or guess poorly find themselves abruptly banished across Kalimdor to Camp Taurajo in the southern Barrens, forced to trek back to Stonetalon in disgrace.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Braug Dimspirit?",
+   "aliases": [
+    "braug dimspirit",
+    "who gives test of lore",
+    "stonetalon quest giver"
+   ],
+   "answer": "Braug Dimspirit is an elder orc overseer stationed near the entrance to Talondeep Path in the Stonetalon Mountains. He serves as an examiner following Dorn Plainstalker's earlier trials, testing whether Horde champions possess the intellect and knowledge necessary to complement their raw martial prowess."
+  },
+  {
+   "q": "Where is the book Legacy of the Aspects located?",
+   "aliases": [
+    "legacy of the aspects location",
+    "where is the book",
+    "dor danil book spot"
+   ],
+   "answer": "The book rests inside the Dor'Danil Barrow Den in southern Ashenvale, located almost directly south of Splintertree Post. It sits on a stone podium situated upon a central platform in the subterranean depths of the barrows."
+  },
+  {
+   "q": "What lurks inside Dor'Danil Barrow Den?",
+   "aliases": [
+    "dor danil enemies",
+    "who guards the book",
+    "ashenvale barrow den"
+   ],
+   "answer": "The barrow den was once a sanctuary for night elf druids, but tragedy struck the hollows. It is now overrun by the restless spirits of dead druids and the lethal invaders that butchered them, presenting a deadly maze for any trespasser."
+  },
+  {
+   "q": "Why does Braug make me read the book before turning it in?",
+   "aliases": [
+    "why read legacy of aspects",
+    "quiz test of lore",
+    "what happens if i fail the question"
+   ],
+   "answer": "Braug insists on confiscating the book the moment you hand it over. Once it is in his hands, he questions you directly on its contents. If you answer incorrectly, he magically teleports you all the way to Camp Taurajo in the Barrens, forcing a long run back."
+  },
+  {
+   "q": "How does this quest fit into the broader trial series?",
+   "aliases": [
+    "test of faith chain",
+    "what comes before test of lore",
+    "dorn plainstalker trials"
+   ],
+   "answer": "This trial follows the Test of Faith initiated by Dorn Plainstalker at the Weathered Nook in Thousand Needles. Where Dorn tested your nerve and survival against deadly odds, Braug assesses your lore-keeping and historical awareness."
+  },
+  {
+   "q": "What is the subject matter of the Legacy of the Aspects?",
+   "aliases": [
+    "legacy of the aspects story",
+    "book lore",
+    "what is the book about"
+   ],
+   "answer": "The manuscript chronicles the mythic history of the Titans empowering the five great Dragon Aspects to safeguard Azeroth. Crucially, it touches upon the fall of Neltharion the Earth-Warder and his transformation into the monstrous destroyer known as Deathwing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The trial reflects the Horde's need for warriors who can understand Kalimdor's deep history and navigate the perilous elven ruins of Ashenvale without succumbing to ignorance."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Venturing into the Dor'Danil Barrow Den brings druidic travelers face-to-face with the tragedy of corrupted and slain night elf brethren who once slept in communion with the Emerald Dream."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "braug dimspirit",
+  "camp taurajo",
+  "deathwing",
+  "dor'danil barrow den",
+  "dorn plainstalker",
+  "legacy of the aspects",
+  "talondeep path",
+  "test of lore"
+ ],
+ "related": [
+  "quest:1152",
+  "quest:1149",
+  "subzone:dor-danil-barrow-den",
+  "subzone:talondeep-path",
+  "npc:dorn-plainstalker",
+  "npc:deathwing",
+  "topic:titan",
+  "subzone:camp-taurajo"
+ ],
+ "attribution": [
+  "Test of Lore (2)"
+ ]
+}

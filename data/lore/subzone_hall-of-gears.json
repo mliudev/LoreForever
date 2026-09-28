@@ -1,0 +1,93 @@
+{
+ "key": "subzone:hall-of-gears",
+ "type": "subzone",
+ "name": "Hall of Gears",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Hall of Gears"
+ },
+ "summary": "The Hall of Gears is a multi-tiered industrial chamber situated inside the fallen city of Gnomeregan, just past the Clockwerk Run. Once a bustling center of mechanical movement, it has fallen into ruin, flooded with toxic sludge, roaming oozes, and irradiated troggs.",
+ "sections": [
+  {
+   "title": "A Fractured Machine",
+   "body": "Positioned just beyond the Clockwerk Run, the Hall of Gears illustrates the catastrophic collapse of the gnome capital. Divided into two main levels, the chamber's upper catwalks are held by aggressive, irradiated troggs that claw through collapsed access shafts. Below, the floor sits drenched in pools of radioactive fallout, where corrosive slimes and living poison elementals thrive in the toxic runoff.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pathways through the Waste",
+   "body": "The chamber serves as a critical junction deep within Gnomeregan's operational quarters. From its upper walkways, paths branch toward contaminated dead ends and the relative safety of the Clean Zone and the Dormitory. Descending into the radioactive depths below eventually leads travelers through winding maintenance passages toward the Launch Bay, though navigating either floor requires cutting through the lingering horrors of Sicco Thermaplugg's devastating venting scheme.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Hall of Gears located?",
+   "aliases": [
+    "hall of gears location",
+    "where is hall of gears",
+    "how to get to hall of gears"
+   ],
+   "answer": "The Hall of Gears lies deep inside the dungeon of Gnomeregan, directly following the Clockwerk Run. It connects further inward toward the Clean Zone, the Dormitory, and the Launch Bay."
+  },
+  {
+   "q": "Why is the lower level full of radioactive sludge?",
+   "aliases": [
+    "why is it green",
+    "radioactive waste hall of gears",
+    "what is the sludge"
+   ],
+   "answer": "When High Tinker Mekkatorque ordered the venting of radioactive gas to repel the trogg invasion, the contaminated runoff collected in the city's low-lying machinery halls, turning the lower floor of the Hall of Gears into a toxic wasteland."
+  },
+  {
+   "q": "What creatures inhabit this chamber?",
+   "aliases": [
+    "hall of gears enemies",
+    "what lives in hall of gears",
+    "hall of gears mobs"
+   ],
+   "answer": "The upper level is infested with mutated, irradiated troggs pouring through breach tunnels. The lower tier is filled with radioactive fallout slimes, oozes, and volatile poison elementals that formed from the industrial runoff."
+  },
+  {
+   "q": "Where do the exits lead from here?",
+   "aliases": [
+    "hall of gears exits",
+    "where to go from hall of gears"
+   ],
+   "answer": "The upper walkways lead southwest toward the Clean Zone and the Dormitory, as well as a dead-end maintenance corridor to the southeast. The lower irradiated floor features a winding passage to the west that leads directly into the Launch Bay."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Seeing the massive cogs and catwalks submerged in irradiated sludge is a painful reminder of the desperate decision that poisoned the city and drove the gnome race into exile."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The sheer scale of the automated gearing and elevated platforms displays the pinnacle of pre-fall gnomish engineering, though now heavily corroded by radioactive fallout."
+  }
+ ],
+ "keywords": [
+  "clean zone",
+  "clockwerk run",
+  "dormitory",
+  "gnomeregan",
+  "hall of gears",
+  "launch bay",
+  "radioactive",
+  "troggs"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "subzone:clockwerk-run",
+  "subzone:clean-zone",
+  "subzone:dormitory",
+  "subzone:launch-bay",
+  "npc:sicco-thermaplugg",
+  "topic:trogg",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Hall of Gears"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "key": "quest:1055",
+ "type": "quest",
+ "name": "Raene's Cleansing",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1055
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Hidden Shrine",
+  "end": "Shael'dryn",
+  "previous": "Raene's Cleansing (6)",
+  "next": "Raene's Cleansing (8)",
+  "wiki": "Raene's Cleansing (7)",
+  "chain": []
+ },
+ "summary": "This task marks the completion of the Rod of Transformation at the hidden shrine in Ashenvale. With the sacred artifact assembled, it must be returned immediately to the priestess Shael'dryn at her moonwell sanctuary.",
+ "sections": [
+  {
+   "title": "A Restored Relic",
+   "body": "The arduous effort to cleanse and assemble the Rod of Transformation reaches a quiet turning point at the secluded shrine hidden deep within Ashenvale's wilds. Piecing together corrupted components, gathering elemental purities, and scouring the forest for ancient gems has produced an intact, newly consecrated rod. The artifact now hums with restored magic, ready to serve as a weapon against the demonic and foul corruptions spreading through the ancient night elf territory.",
+   "spoiler": 0
+  },
+  {
+   "title": "Return to Shael'dryn",
+   "body": "With the assembly complete, word and relic must be delivered swiftly back to Shael'dryn. Stationed beside the calm waters of the forest moonwell, the devoted priestess has guided every step of this restoration effort. Presenting the assembled rod to her not only confirms that the forest's sacred craft remains unbroken, but also allows the Sentinel defenders to take the next critical steps in defending their besieged homeland.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this stage of the quest?",
+   "aliases": [
+    "what to do raenes cleansing 7",
+    "what is this quest",
+    "quest goal"
+   ],
+   "answer": "Having successfully assembled the Rod of Transformation at the hidden shrine, you simply need to take the finished rod back to the priestess Shael'dryn, who waits at the moonwell in northern Ashenvale."
+  },
+  {
+   "q": "Who is Shael'dryn?",
+   "aliases": [
+    "shaeldryn",
+    "who is shael'dryn",
+    "priestess at moonwell"
+   ],
+   "answer": "Shael'dryn is a night elf priestess tending a sacred moonwell in Ashenvale. Working to cleanse the ancient forest of spreading corruption, she directs trusted allies to gather relics, purify components, and restore sacred artifacts."
+  },
+  {
+   "q": "Where is Shael'dryn located?",
+   "aliases": [
+    "shael'dryn location",
+    "where is shaeldryn",
+    "where moonwell"
+   ],
+   "answer": "Shael'dryn resides at a quiet moonwell nestled in northern Ashenvale, east of the main road leading between Astranaar and Felwood, surrounded by the tranquil waters she watches over."
+  },
+  {
+   "q": "What is the Rod of Transformation?",
+   "aliases": [
+    "what is rod of transformation",
+    "rod of transformation lore",
+    "the rod"
+   ],
+   "answer": "The Rod of Transformation is an ancient artifact associated with night elf magic and forest lore. When restored and empowered, it holds the power to break dark hexes, see through foul curses, and reshape the forms of creatures afflicted by lingering corruption."
+  },
+  {
+   "q": "Why is assembling the rod so important to Astranaar?",
+   "aliases": [
+    "why raenes cleansing",
+    "why astranaar cares",
+    "raene importance"
+   ],
+   "answer": "Ashenvale faces unprecedented corruption from lingering demonic taint, foul furbolg tribes, and foreign invaders. Raene Wolfrunner and her fellow night elves depend on sacred relics like the rod to cleanse sacred sites and protect Astranaar from falling to dark forces."
+  },
+  {
+   "q": "Does assembling the rod end the cleansing chain?",
+   "aliases": [
+    "is this the last quest",
+    "does raenes cleansing end here",
+    "chain end"
+   ],
+   "answer": "No. Returning the assembled rod to Shael'dryn completes this step, but she will immediately enlist your help to wield the restored power of the relic against the remaining threats poisoning Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Restoring the sacred Rod of Transformation aids your sisters in the Sisterhood of Elune as they fight to rescue the sacred groves of Ashenvale from rot and dark sorcery."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing Ashenvale is crucial for the Alliance's standing in northern Kalimdor, safeguarding Astranaar against relentless attacks by local corruption and hostile forces."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Assisting Shael'dryn highlights the ancient rituals of Elune, demonstrating the moonwells' power to cleanse even the most persistent curses through consecrated faith."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "elune",
+  "hidden shrine",
+  "moonwell",
+  "raene's cleansing",
+  "rod of transformation",
+  "shael'dryn"
+ ],
+ "related": [
+  "npc:shael-dryn",
+  "subzone:moonwell-ashenvale",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Raene's Cleansing (7)"
+ ]
+}

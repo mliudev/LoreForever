@@ -1,0 +1,95 @@
+{
+ "key": "npc:krusk",
+ "type": "npc",
+ "name": "Krusk",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Krusk",
+  "refs": 1
+ },
+ "summary": "Krusk is an orc scout stationed at Tarren Mill in the Hillsbrad Foothills. Dispatched directly under Warchief Thrall's orders to investigate the Syndicate and recover relics from the ruins of Durnholde Keep, he now coordinates reconnaissance and rescue efforts after his initial infiltration was ambushed.",
+ "sections": [
+  {
+   "title": "A Mission Gone Wrong",
+   "body": "When Warchief Thrall turned his attention back to the ruins of Durnholde Keep, he dispatched Krusk and a small strike team to scout Syndicate activity and retrieve relics tied to the fortress's grim past. However, the human outlaws proved more entrenched and coordinated than anticipated. An ambush inside Durnholde's crumbling walls overwhelmed the orcish scout squad. Krusk managed to fight his way out, but his three companions\u2014Gol'dir, Drull, and Tog'thar\u2014were captured and locked away deep within the ruins. Regrouping at Tarren Mill, Krusk now directs Horde adventurers to breach Durnholde, recover the lost items, and liberate his trapped comrades.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes on the Syndicate",
+   "body": "Beyond recovering his scouts, Krusk remains fixated on dismantling the Syndicate's hold over Hillsbrad. The fallen nobles of Alterac represent a volatile threat, operating out of Durnholde Keep and scheming against both Horde outposts and their former Alliance brethren. Working from Tarren Mill, Krusk tracks the movements of Syndicate leaders, such as Lord Aliden Perenolde, hoping to sever their leadership before they can threaten the tenuous Horde foothold in Lordaeron.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Krusk?",
+   "aliases": [
+    "krusk",
+    "who is krusk",
+    "krusk tarren mill"
+   ],
+   "answer": "Krusk is an orc scout sent to Tarren Mill by Warchief Thrall. He was tasked with investigating Syndicate operations around the ruins of Durnholde Keep and recovering historic relics."
+  },
+  {
+   "q": "What happened to Krusk's squad?",
+   "aliases": [
+    "krusk squad",
+    "what happened to krusk",
+    "durnholde ambush"
+   ],
+   "answer": "Krusk and his team were ambushed by the Syndicate inside Durnholde Keep. While Krusk escaped, his companions Gol'dir, Drull, and Tog'thar were captured and imprisoned within the ruined fortress."
+  },
+  {
+   "q": "Why is the Horde interested in Durnholde Keep?",
+   "aliases": [
+    "why durnholde",
+    "thrall durnholde",
+    "durnholde relics"
+   ],
+   "answer": "Durnholde holds deep personal and historical significance to Warchief Thrall, who was raised as a captive gladiator there by Aedelas Blackmoore before leading the orcish rebellion that razed the keep."
+  },
+  {
+   "q": "Where can I find Krusk?",
+   "aliases": [
+    "krusk location",
+    "where is krusk"
+   ],
+   "answer": "Krusk is stationed outdoors in the Horde settlement of Tarren Mill in northern Hillsbrad Foothills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Krusk represents Warchief Thrall's direct interests in Lordaeron, focusing on securing Durnholde's history and ensuring no captured orc is left in the hands of the Syndicate."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Helping Krusk rescue his fellow scouts touches upon the honor and painful history of the orcish internment camps, specifically the fortress where Thrall broke his people's chains."
+  }
+ ],
+ "keywords": [
+  "drull",
+  "durnholde keep",
+  "gol'dir",
+  "hillsbrad",
+  "krusk",
+  "syndicate",
+  "tarren mill",
+  "thrall",
+  "tog'thar"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "subzone:durnholde-keep",
+  "topic:syndicate",
+  "npc:thrall",
+  "quest:498",
+  "zone:hillsbrad",
+  "topic:horde",
+  "quest:1361"
+ ],
+ "attribution": [
+  "Krusk"
+ ]
+}

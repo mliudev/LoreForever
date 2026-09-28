@@ -1,0 +1,87 @@
+{
+ "key": "subzone:champions-hall",
+ "type": "subzone",
+ "name": "Champions' Hall",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Champions' Hall"
+ },
+ "summary": "Tucked away in the southern reaches of Old Town, the Champions' Hall serves as the officer's barracks and supply armory for the Alliance's decorated veterans in Stormwind. Beyond its threshold, quartermasters dispense specialized weapons, plate, and regalia to proven warriors of the faction. Access is strictly guarded, reserved only for officers who have demonstrated valor on the field of war.",
+ "sections": [
+  {
+   "title": "The Alliance Officer's Barracks",
+   "body": "Hidden behind a guarded threshold in Old Town, the Champions' Hall is a restricted haven for the Alliance's most distinguished combatants. Military commanders gather here over tactical maps of Azeroth to confer on ongoing campaigns, flanked by armaments and the grand insignias of rank. Only soldiers who have climbed the Alliance hierarchy to achieve officer status\u2014specifically the rank of Knight or higher\u2014are permitted entry. Inside, military quartermasters supply battle-hardened soldiers with elite arms, armor, and mounts crafted specifically to turn the tide against the Horde in contested zones across the world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Champions' Hall located?",
+   "aliases": [
+    "where is champions hall",
+    "pvp vendor stormwind location",
+    "how to find champions hall"
+   ],
+   "answer": "The Champions' Hall is located in the southern section of Old Town in Stormwind City, tucked away behind a guarded entrance."
+  },
+  {
+   "q": "Who is allowed inside the Champions' Hall?",
+   "aliases": [
+    "can anyone enter",
+    "champions hall requirements",
+    "why cant i enter champions hall"
+   ],
+   "answer": "Only Alliance veterans who have earned the military rank of Knight (Rank 6) or higher through the faction's honor system are granted passage through the entrance portal. Unproven recruits and civilians are barred at the threshold."
+  },
+  {
+   "q": "What is inside the Champions' Hall?",
+   "aliases": [
+    "what does champions hall have",
+    "what vendors are in champions hall",
+    "champions hall rewards"
+   ],
+   "answer": "The hall contains quartermasters offering officer-tier weapons, armor, insignia, and specialized war mounts. Alliance tacticians and generals also congregate around war tables lined with regional maps of Azeroth."
+  },
+  {
+   "q": "What is the Horde equivalent of this building?",
+   "aliases": [
+    "horde version of champions hall",
+    "orgrimmar pvp room",
+    "horde pvp barracks"
+   ],
+   "answer": "The Horde counterpart is the Hall of Legends, situated in Orgrimmar, which provides identical military supply services to decorated warriors of the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The hall stands as the premier symbol of Alliance military merit in Stormwind, honoring those who dedicate their lives to repelling Horde incursions."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "For front-line combatants, the hall represents the ultimate military stockpile, offering heavy battle gear and armaments reserved only for proven battlefield leaders."
+  }
+ ],
+ "keywords": [
+  "champions hall",
+  "grand marshal",
+  "knight",
+  "officer barracks",
+  "old town",
+  "pvp vendors",
+  "quartermaster",
+  "stormwind"
+ ],
+ "related": [
+  "subzone:old-town",
+  "zone:stormwind",
+  "subzone:hall-of-legends",
+  "topic:alliance",
+  "topic:horde",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Champions' Hall"
+ ]
+}

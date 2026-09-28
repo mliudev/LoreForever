@@ -1,0 +1,127 @@
+{
+ "key": "quest:4732",
+ "type": "quest",
+ "name": "Beached Sea Turtle",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   4732
+  ],
+  "level": "19",
+  "faction": "Alliance",
+  "start": "Beached Sea Turtle",
+  "end": "Gwennyth Bly'Leggonde",
+  "previous": null,
+  "next": null,
+  "wiki": "Beached Sea Turtle (5)",
+  "chain": []
+ },
+ "summary": "Along the wind-battered coast of Darkshore, the bleached bones of giant sea turtles wash ashore with unsettling frequency. Investigating these tragic strandings provides Gwennyth Bly'Leggonde in Auberdine with specimens to study why Kalimdor's marine life is dying out.",
+ "sections": [
+  {
+   "title": "A Strand of Bones",
+   "body": "The mist-shrouded coast of Darkshore is strewn with the remains of great leviathans and majestic sea turtles. Many of these ancient reptiles have drifted onto the shoals or hauled themselves onto the sand to perish. Greymist murlocs frequently swarm the massive carcasses, picking the flesh down to the shell and bone while establishing crude camps around the carrion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vanishing Waters",
+   "body": "Before the Third War, sea turtles were known to thrive in the sacred waters around Mount Hyjal and the roots of the World Tree, Nordrassil. Following Nordrassil's sacrifice to defeat the Burning Legion and the subsequent planting of Teldrassil off Kalimdor's northern shore, the population collapsed. Priestesses of Elune like Gwennyth Bly'Leggonde study these coastal remains on behalf of the Temple of the Moon, seeking to understand whether dark magic, the changing sea, or the loss of their ancient sanctuary is driving these gentle giants to their deaths.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are sea turtles beaching themselves in Darkshore?",
+   "aliases": [
+    "why do turtles die here",
+    "darkshore turtle mystery",
+    "why beached"
+   ],
+   "answer": "The exact reason remains a mystery to the night elves. Historically, sea turtles thrived in the waters beneath the World Tree Nordrassil. Following Nordrassil's destruction in the Third War and the raising of Teldrassil, their numbers have plummeted, and many seem to deliberately end their lives along the Darkshore shoals."
+  },
+  {
+   "q": "Who is Gwennyth Bly'Leggonde?",
+   "aliases": [
+    "who is gwennyth",
+    "where to turn in turtle remains",
+    "auberdine researcher"
+   ],
+   "answer": "Gwennyth Bly'Leggonde is a night elf scholar and representative of the Temple of the Moon stationed in Auberdine. She is tasked with cataloging and studying the washed-up sea creatures along the coast to uncover why Darkshore's wildlife is suffering."
+  },
+  {
+   "q": "Why are murlocs gathered around the turtle remains?",
+   "aliases": [
+    "why murlocs on turtle",
+    "greymist scavengers",
+    "murloc camps on beach"
+   ],
+   "answer": "The local Greymist murlocs are opportunists who scavenge the enormous carcasses for sustenance and materials. They often pitch their shoreline settlements right next to beached sea turtles and sea creatures to strip them clean."
+  },
+  {
+   "q": "What connection do these turtles have to Nordrassil?",
+   "aliases": [
+    "nordrassil connection",
+    "hyjal turtles",
+    "mount hyjal turtle link"
+   ],
+   "answer": "According to the night elves, sea turtles were once common and playful in the pristine waters around the base of Mount Hyjal and the World Tree Nordrassil. The violent destruction of Nordrassil deeply disrupted the natural balance, after which sightings of these creatures drastically declined."
+  },
+  {
+   "q": "Does Teldrassil have anything to do with their decline?",
+   "aliases": [
+    "teldrassil effect on turtles",
+    "why did teldrassil change turtles"
+   ],
+   "answer": "The priesthood notes that since the growth of Teldrassil, sea turtles have been seen in ever-decreasing numbers. Whether the new World Tree has altered coastal currents, disrupted their migration, or carries an unnatural aura affecting ocean life is an active area of study for the Temple of the Moon."
+  },
+  {
+   "q": "Are there multiple beached creatures along Darkshore?",
+   "aliases": [
+    "more beached quests",
+    "other beached turtles",
+    "beached sea creatures"
+   ],
+   "answer": "Yes. Darkshore's long coastline holds multiple beached sea creatures and sea turtles. Each carcass provides unique bone and tissue samples that Gwennyth Bly'Leggonde uses to piece together the broader ecological disaster unfolding along the shore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The tragic stranding of these ancient ocean dwellers is a stark sign of nature out of balance following the battle at Mount Hyjal and the sudden arrival of Teldrassil."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The Temple of the Moon seeks to honor and understand the fading creatures that once frolicked peacefully beneath Nordrassil's boughs."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Serving the Temple of the Moon by retrieving these remains helps the Sisterhood of Elune diagnose the unseen spiritual sickness spreading through Kalimdor's waters."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "beached",
+  "darkshore",
+  "greymist",
+  "gwennyth bly'leggonde",
+  "murloc",
+  "nordrassil",
+  "sea turtle",
+  "teldrassil",
+  "temple of the moon"
+ ],
+ "related": [
+  "npc:gwennyth-bly-leggonde",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "subzone:temple-of-the-moon",
+  "topic:nordrassil",
+  "quest:940",
+  "topic:murloc",
+  "quest:4722"
+ ],
+ "attribution": [
+  "Beached Sea Turtle (5)"
+ ]
+}

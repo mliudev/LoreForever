@@ -1,0 +1,124 @@
+{
+ "key": "quest:24",
+ "type": "quest",
+ "name": "Shadumbra's Head",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   24
+  ],
+  "level": "27",
+  "faction": "Horde",
+  "start": "Shadumbra's Head",
+  "end": "Senani Thunderheart",
+  "previous": "The Ashenvale Hunt (Ashenvale)",
+  "next": "The Hunt Completed",
+  "wiki": "Shadumbra's Head (Classic)",
+  "chain": []
+ },
+ "summary": "This quest represents the proof of victory over Shadumbra, a notoriously ferocious nightsaber stalking the western paths of Ashenvale. Taking the beast's severed head back to Senani Thunderheart at Splintertree Post fulfills a key trial of the Ashenvale Hunt and secures travel routes toward the Zoram Strand.",
+ "sections": [
+  {
+   "title": "A Menace of the Western Road",
+   "body": "Shadumbra is no ordinary predator among the towering trees of Ashenvale. The great nightsaber stalked the wilderness west of Splintertree Post, preying upon Horde scouts and couriers attempting to journey toward the Zoram Strand. Her speed, stealth, and sheer savagery made travel on foot perilous, leaving Splintertree's defenders on edge whenever patrols moved west.",
+   "spoiler": 0
+  },
+  {
+   "title": "Proof of the Hunt",
+   "body": "As part of the Ashenvale Hunt, the tauren huntress Senani Thunderheart challenges Horde champions to track and fell the forest's apex beasts. Presenting Shadumbra's head is not merely a grim display of prowess; it serves as undeniable proof that the roads have been made safer and that the hunter has mastered one of Kalimdor's deadliest native stalkers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Shadumbra?",
+   "aliases": [
+    "what is shadumbra",
+    "shadumbra lore",
+    "who is the cat"
+   ],
+   "answer": "Shadumbra was an exceptionally savage nightsaber that prowled the forests west of Splintertree Post. Known for ambushing travelers making the long trek toward the coast, she was considered one of Ashenvale's most dangerous local beasts."
+  },
+  {
+   "q": "Why does Senani Thunderheart want the head?",
+   "aliases": [
+    "why bring head",
+    "senani thunderheart trophy",
+    "ashenvale hunt proof"
+   ],
+   "answer": "Senani Thunderheart oversees the Ashenvale Hunt at Splintertree Post. Claiming the head serves both as a traditional trophy of an impressive hunt and as confirmation that the threat to westward travelers has been eliminated."
+  },
+  {
+   "q": "Where does this fit into the Ashenvale Hunt?",
+   "aliases": [
+    "what is ashenvale hunt",
+    "hunt questline",
+    "next hunt quest"
+   ],
+   "answer": "It is one of the primary trials initiated after accepting the Ashenvale Hunt. Slaying Shadumbra, along with the other great beasts of the forest like Ursangous and Sharptalon, leads to final recognition and the quest The Hunt Completed."
+  },
+  {
+   "q": "Why is clearing this beast important to the Horde?",
+   "aliases": [
+    "why horde care",
+    "zoram strand road danger",
+    "splintertree post safety"
+   ],
+   "answer": "Splintertree Post relies on scouts and runners traveling west toward the Horde encampment at Zoram'gar Outpost on the Zoram Strand. Shadumbra's predatory nature posed a constant danger to Horde foot traffic through the untamed woods."
+  },
+  {
+   "q": "Where can Shadumbra be found?",
+   "aliases": [
+    "shadumbra location",
+    "where is shadumbra",
+    "find shadumbra"
+   ],
+   "answer": "Shadumbra stalks the woodlands west of Splintertree Post, prowling among the trees between the road and the ancient night elf ruins scattered through central and western Ashenvale."
+  },
+  {
+   "q": "Is Shadumbra allied with the night elves?",
+   "aliases": [
+    "is shadumbra a pet",
+    "sentinel pet",
+    "shadumbra night elf"
+   ],
+   "answer": "No. While nightsabers are often tamed and revered by the night elves, Shadumbra is a wild, feral terror of the forest that acts purely on raw predatory instinct, threatening any who cross her territory."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, hunting a beast of Shadumbra's caliber honors the Earth Mother's natural order by testing skill against an apex predator while protecting tribal brothers on the road."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking and conquering an elusive nightsaber like Shadumbra is a quintessential trial of marksmanship, patience, and survival in dense woodland terrain."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Splintertree Post remains an isolated Horde stronghold; eliminating local threats like Shadumbra keeps vital supply lines open to the Zoram Strand."
+  }
+ ],
+ "keywords": [
+  "ashenvale hunt",
+  "nightsaber",
+  "senani thunderheart",
+  "shadumbra",
+  "splintertree post",
+  "trophy",
+  "zoram strand"
+ ],
+ "related": [
+  "quest:235",
+  "npc:senani-thunderheart",
+  "subzone:splintertree-post",
+  "quest:247",
+  "subzone:zoram-strand",
+  "zone:ashenvale",
+  "quest:1008"
+ ],
+ "attribution": [
+  "Shadumbra's Head (Classic)"
+ ]
+}

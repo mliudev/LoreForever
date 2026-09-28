@@ -1,0 +1,121 @@
+{
+ "key": "quest:6503",
+ "type": "quest",
+ "name": "Ashenvale Outrunners",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6503
+  ],
+  "level": "24",
+  "faction": "Horde",
+  "start": "Kuray'bin",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Ashenvale Outrunners (Classic)",
+  "chain": []
+ },
+ "summary": "Ashenvale Outrunners is a Horde patrol-interception mission issued by Kuray'bin in Ashenvale. Night elf scouts have fanned out from Silverwing Outpost to gather intelligence on nearby Horde encampments, prompting a preemptive strike to keep the outpost's defenses hidden. By hunting down these stealthy scouts, the Horde blinds the local Alliance forces and discourages future incursions.",
+ "sections": [
+  {
+   "title": "Eyes in the Canopies",
+   "body": "The forests of Ashenvale remain a contested frontier where every path and ridge is fiercely watched. Intelligence is as deadly as an axe, and reports reaching Kuray'bin confirm that night elf scouts known as Ashenvale Outrunners have slipped out from the Alliance stronghold at Silverwing Outpost. Operating in the dense wilderness east of their base and south of local Horde holdings, these scouts stalk the woodland paths to map out fortifications and track troop movements.",
+   "spoiler": 0
+  },
+  {
+   "title": "Blinding the Alliance",
+   "body": "To prevent an organized assault, the Horde relies on eliminating enemy reconnaissance before it can return home. By hunting down the outrunners, Horde champions deny the commanders at Silverwing Outpost vital knowledge about troop strength and outpost perimeter defenses. Stripped of their forward eyes, the night elves are left disoriented and far less willing to risk aggressive maneuvers through the contested woodlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Ashenvale Outrunners?",
+   "aliases": [
+    "quest giver",
+    "who gives quest",
+    "kuray'bin quest"
+   ],
+   "answer": "The quest is given by Kuray'bin, a Horde scout coordinator stationed in Ashenvale who works to track and counter night elf movements across the forest."
+  },
+  {
+   "q": "Where are the Ashenvale Outrunners located?",
+   "aliases": [
+    "outrunners location",
+    "where are outrunners",
+    "where to find outrunners"
+   ],
+   "answer": "The outrunners prowl the forests east of Silverwing Outpost and south of Kuray'bin's camp, patrolling through the underbrush to gather intelligence."
+  },
+  {
+   "q": "Why are the outrunners a threat to the Horde?",
+   "aliases": [
+    "why kill outrunners",
+    "threat of outrunners",
+    "outrunner purpose"
+   ],
+   "answer": "The outrunners are advanced scouts operating out of Silverwing Outpost. If they successfully map Horde encampments and troop counts, the Alliance can coordinate precise raids against vulnerable positions."
+  },
+  {
+   "q": "What is Silverwing Outpost?",
+   "aliases": [
+    "silverwing outpost lore",
+    "what is silverwing outpost",
+    "silverwing alliance"
+   ],
+   "answer": "Silverwing Outpost is a prominent night elf military installation in Ashenvale, serving as a frontline base for Alliance forces defending the forest and contesting Horde expansion."
+  },
+  {
+   "q": "Is this quest part of a longer storyline?",
+   "aliases": [
+    "quest chain",
+    "follow up quest",
+    "outrunner chain"
+   ],
+   "answer": "This quest stands primarily as a standalone tactical task designed to reduce Alliance reconnaissance in the sector, rewarding fighters who aid Kuray'bin in securing the perimeter."
+  },
+  {
+   "q": "Can Alliance players complete this quest?",
+   "aliases": [
+    "is this horde only",
+    "alliance version",
+    "can alliance do this"
+   ],
+   "answer": "No, this quest is exclusive to the Horde. Kuray'bin operates strictly on behalf of the Horde's frontlines in Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Every night elf scout cut down in Ashenvale protects local encampments and lumber operations from coordinated Alliance counter-offensives."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking down concealed outrunners in deep woodland terrain relies on keen instincts, heightened tracking senses, and sharp marksmanship."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Neutralizing enemy outrunners turns the tables on night elf stealth, ensuring Horde infiltrators hold dominion over the shadows of the forest."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "ashenvale",
+  "ashenvale outrunners",
+  "horde",
+  "kuray'bin",
+  "night elf scouts",
+  "silverwing outpost"
+ ],
+ "related": [
+  "npc:kuray-bin",
+  "subzone:silverwing-outpost",
+  "zone:ashenvale",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Ashenvale Outrunners (Classic)"
+ ]
+}

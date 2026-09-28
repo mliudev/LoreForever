@@ -1,0 +1,93 @@
+{
+ "key": "subzone:durnholde-keep",
+ "type": "subzone",
+ "name": "Durnholde Keep",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Durnholde Keep"
+ },
+ "summary": "Durnholde Keep is a shattered fortress situated east of Tarren Mill in the Hillsbrad Foothills. Once the nerve center of the Alliance's orc internment camps and the place where Warchief Thrall was raised as a captive gladiator, it now lies in ruin, occupied by outlaws of the Syndicate.",
+ "sections": [
+  {
+   "title": "A Crucible of Captivity",
+   "body": "Built by the Alliance, Durnholde served as the headquarters overseeing the southern internment camps following the Second War. Commanded by the ambitious and corrupt Lieutenant General Aedelas Blackmoore, it functioned as both an administrative fortress and a gladiatorial arena. It was here that Blackmoore raised the orphaned infant Go'el, naming him Thrall and training him to fight for sport and profit. Aided by Taretha Foxton, Thrall escaped captivity and later united the dispersed orc clans under the banner of the new Horde. Returning to Durnholde, Thrall laid siege to the fortress, slew Blackmoore, and called upon the earth spirits to shatter its walls.",
+   "spoiler": 0
+  },
+  {
+   "title": "In the Clutches of the Syndicate",
+   "body": "Since its collapse prior to the Third War, Durnholde Keep has remained a scarred heap of masonry. In the vacuum left by Lordaeron's fall, the aristocratic bandits of the Syndicate took refuge among the ramparts. Operating out of the broken bailey and towers, these dispossessed Alterac nobles and cutthroats prey upon travelers across the Hillsbrad Foothills, turning a former instrument of martial law into a heavily fortified rogue outpost.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Durnholde Keep in ruins?",
+   "aliases": [
+    "who destroyed durnholde",
+    "what happened to durnholde keep",
+    "why is durnholde destroyed"
+   ],
+   "answer": "Thrall returned to Durnholde at the head of the liberated Horde to defeat his former master, Lieutenant General Aedelas Blackmoore. After slaying Blackmoore, Thrall communed with the spirits of the earth to demolish the fortress so it could never again cage his people."
+  },
+  {
+   "q": "Who currently occupies Durnholde Keep?",
+   "aliases": [
+    "who lives in durnholde",
+    "durnholde mobs",
+    "syndicate at durnholde"
+   ],
+   "answer": "The stronghold is held by the Syndicate, a faction of exiled Alterac nobles turned outlaws. They use the crumbling ramparts as a fortified redoubt to conduct banditry and launch attacks across Hillsbrad."
+  },
+  {
+   "q": "What was Thrall's connection to this place?",
+   "aliases": [
+    "did thrall live here",
+    "thrall durnholde history",
+    "was thrall a prisoner here"
+   ],
+   "answer": "Aedelas Blackmoore discovered the orphaned orc as a child and raised him at Durnholde as a slave. Thrall was educated in tactics and forced to fight as a gladiator in the arena before he managed to break out with help from a human woman named Taretha Foxton."
+  },
+  {
+   "q": "What purpose did the keep serve during the Second War?",
+   "aliases": [
+    "durnholde second war",
+    "what was durnholde used for"
+   ],
+   "answer": "Beyond serving as an Alliance stronghold, it was used as a prison facility. During the conflict, the forest troll warlord Zul'jin was held captive here until Orgrim Doomhammer breached the fortress to liberate him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "The ruined stones of Durnholde mark the forge where Warchief Thrall threw off his chains, ending decades of orcish captivity and kindling the rebirth of the Horde."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Once a linchpin of Lordaeron's defense and justice, Durnholde's shattered ramparts now serve only as a wretched lair for Syndicate outlaws and cutthroats."
+  }
+ ],
+ "keywords": [
+  "blackmoore",
+  "durnholde keep",
+  "hillsbrad",
+  "internment",
+  "syndicate",
+  "taretha foxton",
+  "tarren mill",
+  "thrall"
+ ],
+ "related": [
+  "npc:thrall",
+  "zone:hillsbrad",
+  "topic:syndicate",
+  "npc:orgrim-doomhammer",
+  "subzone:tarren-mill",
+  "topic:alterac-kingdom",
+  "topic:second-war",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Durnholde Keep"
+ ]
+}

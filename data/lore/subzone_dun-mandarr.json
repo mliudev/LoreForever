@@ -1,0 +1,71 @@
+{
+ "key": "subzone:dun-mandarr",
+ "type": "subzone",
+ "name": "Dun Mandarr",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Dun Mandarr"
+ },
+ "summary": "Dun Mandarr is an abandoned dwarven camp situated before an icy cavern in south-eastern Winterspring. Established by the dwarf Jaron Stoneshaper, the site now sits in ruins after its occupants fled an onslaught of enraged local moonkin.",
+ "sections": [
+  {
+   "title": "A Forsaken Camp",
+   "body": "Bearing the traditional dwarven prefix 'Dun', Dun Mandarr was established by the explorer Jaron Stoneshaper as a base of operations in the frozen reaches of southeastern Winterspring. Stoneshaper's curiosity proved his undoing when he uncovered a relic known as the Blue-Feathered Amulet. The artifact's disturbance provoked the fury of the native wildkin, who descended upon the encampment in an uncontrollable rage. Overwhelmed and driven out, the dwarves abandoned the camp entirely. Today, no friendly souls remain among the snowbanks; ferocious, territorial moonkin guard the cavern and prowl the broken shelters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the camp at Dun Mandarr?",
+   "aliases": [
+    "why is dun mandarr abandoned",
+    "who built dun mandarr",
+    "what is dun mandarr"
+   ],
+   "answer": "Dun Mandarr was built by the dwarf explorer Jaron Stoneshaper. While excavating the area, he uncovered a mysterious Blue-Feathered Amulet. The relic deeply agitated the surrounding wildkin, who launched a furious assault on the settlement. Jaron and his companions were chased off, leaving the outpost abandoned and overrun."
+  },
+  {
+   "q": "Why are there so many moonkin here?",
+   "aliases": [
+    "why are there wildkin here",
+    "dun mandarr owlbeasts",
+    "why are owlbeasts attacking"
+   ],
+   "answer": "The local wildkin hold the cavern and surrounding relics sacred. When Jaron Stoneshaper excavated the Blue-Feathered Amulet, the creatures flew into a violent frenzy to reclaim the artifact and protect their territory, driving out the intruders and claiming the camp as their own."
+  },
+  {
+   "q": "Where did Jaron Stoneshaper go?",
+   "aliases": [
+    "where is jaron stoneshaper",
+    "jaron stoneshaper location"
+   ],
+   "answer": "After being driven from his camp by the rampaging moonkin, Jaron Stoneshaper retreated elsewhere into Winterspring to regroup and seek aid in recovering his stolen research and gear."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The ruined site bears the traditional dwarven naming convention, serving as a harsh reminder of how easily archaeological ambition in ancient Kalimdor can turn disastrous."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The moonkin guarding Dun Mandarr are fiercely protective of natural and celestial artifacts, reacting violently when sacred relics like the Blue-Feathered Amulet are disturbed by outsiders."
+  }
+ ],
+ "keywords": [
+  "blue-feathered amulet",
+  "dun mandarr",
+  "dwarf camp",
+  "jaron stoneshaper",
+  "moonkin",
+  "wildkin",
+  "winterspring"
+ ],
+ "related": [
+  "zone:winterspring"
+ ],
+ "attribution": [
+  "Dun Mandarr"
+ ]
+}

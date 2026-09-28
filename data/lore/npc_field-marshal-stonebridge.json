@@ -1,0 +1,91 @@
+{
+ "key": "npc:field-marshal-stonebridge",
+ "type": "npc",
+ "name": "Field Marshal Stonebridge",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Field Marshal Stonebridge",
+  "refs": 1
+ },
+ "summary": "Field Marshal Stonebridge is a high-ranking Alliance officer stationed near the entrance of Stormwind City. Posted beside the Gates of Stormwind in the Valley of Heroes, she oversees city defenses alongside General Marcus Jonathan and serves as an authority for major martial triumphs.",
+ "sections": [
+  {
+   "title": "A Bulwark at the Gates",
+   "body": "Positioned just inside the towering entrance of the Valley of Heroes, Field Marshal Stonebridge stands watch beneath the eastern archway near the main gates. Her high rank within the Grand Alliance military places her among the highest echelons of Stormwind's strategic leadership, operating in close coordination with General Marcus Jonathan. From this prominent vantage, she observes the flow of defenders, travelers, and returning champions passing into the capital, standing ready to organize the garrison should threats breach the outer perimeter.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bearer of Trophies",
+   "body": "Beyond her ceremonial and defensive duties at the city gate, Field Marshal Stonebridge receives critical reports and spoils from campaigns against the greatest adversaries threatening the kingdom. High-ranking commanders rely on officers like Stonebridge to verify crucial intelligence and celebrate monumental victories won in the field, including the defeat of warlords and monsters nesting within the crags of Blackrock Mountain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Field Marshal Stonebridge located?",
+   "aliases": [
+    "stonebridge location",
+    "where is field marshal stonebridge",
+    "find stonebridge"
+   ],
+   "answer": "She stands under an archway in the northeastern portion of the Valley of Heroes in Stormwind City, just to the right of General Marcus Jonathan as you enter through the city gates."
+  },
+  {
+   "q": "What is Field Marshal Stonebridge's role in Stormwind?",
+   "aliases": [
+    "what does stonebridge do",
+    "stonebridge purpose",
+    "who is field marshal stonebridge"
+   ],
+   "answer": "She is a high-ranking Alliance military officer assisting General Marcus Jonathan with the defense of Stormwind's main gate and acts as a receiving officer for notable martial intelligence and grand victory trophies brought back by Alliance champions."
+  },
+  {
+   "q": "What rank is a Field Marshal in the Alliance?",
+   "aliases": [
+    "alliance field marshal rank",
+    "how high rank is stonebridge"
+   ],
+   "answer": "Field Marshal is one of the highest officer ranks in the Grand Alliance military command structure, standing just below Grand Marshal. Officers of this rank oversee major tactical deployments, city defense sectors, and strategic garrisons."
+  },
+  {
+   "q": "What major quests involve Field Marshal Stonebridge?",
+   "aliases": [
+    "stonebridge quests",
+    "the lord of blackrock quest ender"
+   ],
+   "answer": "She is the officer who receives the report and trophy for 'The Lord of Blackrock', confirming the fall of Nefarian when Alliance adventurers drag the dragon's head back to the gates of Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "As one of the supreme military commanders stationed at the city gates, Field Marshal Stonebridge commands respect from frontline soldiers who strive to achieve high martial standing within the Alliance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Standing shoulder-to-shoulder with General Marcus Jonathan, Stonebridge represents the unwavering vigilance of the Alliance military guarding Stormwind against outside invasion."
+  }
+ ],
+ "keywords": [
+  "field marshal",
+  "gates",
+  "lord of blackrock",
+  "marcus jonathan",
+  "nefarian",
+  "stonebridge",
+  "stormwind",
+  "valley of heroes"
+ ],
+ "related": [
+  "subzone:valley-of-heroes",
+  "npc:general-marcus-jonathan",
+  "quest:7781",
+  "zone:stormwind",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Field Marshal Stonebridge"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:valley-of-trials",
+ "type": "subzone",
+ "name": "Valley of Trials",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Valley of Trials"
+ },
+ "summary": "Tucked away behind the rugged red cliffs of southern Durotar, the Valley of Trials serves as the testing ground for new recruits of the Horde. Young orcs and their Darkspear troll allies come here to prove their strength and earn their place among the warriors of Kalimdor. Those who survive the valley's harsh wildlife and hidden threats depart ready to defend their fledgling nation.",
+ "sections": [
+  {
+   "title": "A Crucible of Sand and Stone",
+   "body": "The Valley of Trials is designed to weed out the weak before they ever set foot in the broader reaches of Durotar. Overseen by chieftains and trainers stationed in the carved cliffside shelter known as The Den, young fighters are thrust into the sun-scorched gulch to hunt scorpids, culled aggressive boars, and enforce discipline among lazy peons harvesting scarce timber. The trial is uncompromising: those who prove their mettle earn the right to venture forth as true soldiers of the Horde, while those who fail are left to bleach beneath the desert sun.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadow in the North",
+   "body": "What was once an isolated training ground has recently taken on a far more sinister edge. In the natural caves along the northern cliffs, cultists of the Burning Blade have taken root, summoning minor demonic familiars into the valley. While trainers treat these interlopers as live-combat practice for fresh recruits, the presence of fel magic so close to Orgrimmar's threshold fuels dark rumors that the Shadow Council is actively attempting to sink its claws back into the orcish people.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Valley of Trials?",
+   "aliases": [
+    "why are orcs here",
+    "what is this place",
+    "valley of trials purpose"
+   ],
+   "answer": "It is the traditional proving ground for recruits of the Horde, primarily young orcs and Darkspear trolls. Within its sheltered canyons, new adventurers complete rigorous tasks to demonstrate their martial skill, survival instinct, and loyalty before being permitted to leave for the rest of Durotar."
+  },
+  {
+   "q": "What is The Den?",
+   "aliases": [
+    "the den",
+    "cave in valley of trials",
+    "who is in the den"
+   ],
+   "answer": "The Den is a central cavern carved into the valley's western cliffs. It houses class trainers, vendors, and overseers like Gornek who direct new recruits, equip them, and monitor their progress during their initial trials."
+  },
+  {
+   "q": "Why are there demons in a beginner's training ground?",
+   "aliases": [
+    "why demons in valley of trials",
+    "burning blade in durotar",
+    "demons north cave"
+   ],
+   "answer": "Cultists belonging to the Burning Blade have established a secret coven in the northern caves. Although trainers use their weak familiars to test recruits, the cult's presence suggests shadowy forces like the Shadow Council are seeking a foothold right on Durotar's doorsteps."
+  },
+  {
+   "q": "Who is Sarkoth?",
+   "aliases": [
+    "sarkoth lore",
+    "giant scorpid",
+    "sarkoth quest"
+   ],
+   "answer": "Sarkoth is an unusually large, venomous scorpid residing in the rocky heights of the valley. Due to his aggression and lethality, instructors task promising recruits with hunting him down to test their courage and obtain samples of his potent venom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "The valley represents a rite of passage for every young orc seeking honor, echoing the warrior traditions of Draenor in a newly forged homeland."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Having lost their home on the Echo Isles to Zalazane, the Darkspear trolls train alongside their orc allies in this canyon to earn their place in the Horde."
+  }
+ ],
+ "keywords": [
+  "burning blade coven",
+  "durotar",
+  "gornek",
+  "orcs",
+  "peons",
+  "sarkoth",
+  "the den",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:gornek",
+  "zone:durotar",
+  "quest:1089",
+  "subzone:burning-blade-coven",
+  "subzone:echo-isles",
+  "topic:horde",
+  "topic:darkspear-tribe",
+  "topic:shadow-council"
+ ],
+ "attribution": [
+  "Valley of Trials"
+ ]
+}

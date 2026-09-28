@@ -1,0 +1,121 @@
+{
+ "key": "quest:1825",
+ "type": "quest",
+ "name": "Speak with Thun'grim",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1825
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Ruga Ragetotem",
+  "end": "Thun'grim Firegaze",
+  "previous": "Trial at the Field of Giants",
+  "next": "Brutal Armor",
+  "wiki": "Speak with Thun'grim",
+  "chain": []
+ },
+ "summary": "This errand directs rising Horde warriors to Thun'grim Firegaze, an acclaimed orc blacksmith camping in the Barrens. Having proved themselves through demanding physical trials, warriors are invited to have custom armor forged in recognition of their valor. The quest serves as the crucial bridge connecting general warrior testing with the crafting of Brutal Armor.",
+ "sections": [
+  {
+   "title": "The Call of the Smith",
+   "body": "After proving their mettle against the silithid hives during the Trial at the Field of Giants, Horde warriors earn more than simple praise from Ruga Ragetotem. Word of their endurance and martial prowess quickly reaches Thun'grim Firegaze, a renowned orc smith who maintains a camp perched on a ridge east of the Crossroads. Recognizing a warrior worthy of his craft, Thun'grim sends word that he wishes to fashion them an exceptional suit of battle plate.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Master's Standard",
+   "body": "Thun'grim Firegaze does not forge for ordinary soldiers. For an armorsmith of his reputation, steel must match the spirit of the one who carries it into battle. Reaching his camp signifies that a warrior has advanced past simple militia drills and is ready to undertake the grueling, specialized tasks required to gather rare crafting reagents across Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thun'grim Firegaze?",
+   "aliases": [
+    "who is thungrim",
+    "thungrim lore",
+    "thungrim firegaze"
+   ],
+   "answer": "Thun'grim Firegaze is an esteemed orc blacksmith camped atop a rocky ridge just east of the Crossroads in the Barrens. He crafts custom, formidable armor for Horde warriors who have proven their valor through dangerous trials."
+  },
+  {
+   "q": "Why does Ruga Ragetotem send me to him?",
+   "aliases": [
+    "why speak with thungrim",
+    "ruga sending me"
+   ],
+   "answer": "Ruga Ragetotem recognizes that you have outgrown basic trials after surviving the silithid in the Southern Barrens. He directs you to Thun'grim so the master smith can reward your service to the Horde by forging a specialized set of armor."
+  },
+  {
+   "q": "Where can I find Thun'grim's camp?",
+   "aliases": [
+    "where is thungrim",
+    "thungrim location",
+    "find thungrim firegaze"
+   ],
+   "answer": "Thun'grim makes his camp on the high bluffs east of the Crossroads in the Barrens, looking out over the dry savanna."
+  },
+  {
+   "q": "What happens after speaking with Thun'grim?",
+   "aliases": [
+    "next quest after thungrim",
+    "what does thungrim want"
+   ],
+   "answer": "Meeting Thun'grim begins the Brutal Armor questline, sending warriors across distant lands to collect tough materials such as charred chitin and iron bars to fashion a bespoke mail harness."
+  },
+  {
+   "q": "Is this quest available to all classes?",
+   "aliases": [
+    "can non warriors do this",
+    "is this warrior only"
+   ],
+   "answer": "No. This quest and its associated armor chain are strictly part of the martial training regimen reserved for Horde warriors."
+  },
+  {
+   "q": "What trial was required before this meeting?",
+   "aliases": [
+    "prerequisite quest",
+    "what did i do before this"
+   ],
+   "answer": "Prior to this errand, warriors had to travel to the Southern Barrens to complete the Trial at the Field of Giants, gathering silithid carapaces to demonstrate their combat stamina."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This quest marks an important rite of passage, elevating you from a novice fighter to a recognized champion deserving of custom-forged armor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde armorsmiths take pride in arming their fiercest defenders, ensuring that those fighting on the frontier wear gear that matches their battlefield deeds."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Thun'grim Firegaze represents traditional orcish smithing philosophy, where mastercrafted armor must be earned through martial trials rather than mere coin."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brutal armor",
+  "crossroads",
+  "firegaze",
+  "ragetotem",
+  "ruga",
+  "thun'grim",
+  "warrior"
+ ],
+ "related": [
+  "quest:1824",
+  "quest:1838",
+  "quest:1502",
+  "npc:ruga-ragetotem",
+  "subzone:crossroads",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Speak with Thun'grim"
+ ]
+}

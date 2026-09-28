@@ -1,0 +1,126 @@
+{
+ "key": "quest:951",
+ "type": "quest",
+ "name": "Mathystra Relics",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   951
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Onu",
+  "end": "",
+  "previous": "Return to Onu",
+  "next": null,
+  "wiki": "Mathystra Relics",
+  "chain": []
+ },
+ "summary": "This quest sends Alliance adventurers north along the coast of Darkshore to sift through the overgrown Ruins of Mathystra. Onu, an Ancient of Lore rooted in the Grove of the Ancients, seeks these ancient kaldorei artifacts to understand how the Twilight's Hammer cult is manipulating night elven sorcery for their sinister rites.",
+ "sections": [
+  {
+   "title": "A Disturbing Discovery",
+   "body": "After adventurers recovered a tainted parchment from the cultists lurking around the colossal monument known as the Master's Glaive, Onu deciphered a disturbing revelation. The text was not native cult scripture, but a cursed fragment of ancient night elven writing. Tainted by the Twilight's Hammer, the parchment revealed that these apocalyptic zealots are harnessing forgotten elven magic to awaken or summon their ancient masters back into the mortal world.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Fallen Bastion",
+   "body": "To counteract this dark endeavor, Onu directs heroes to the Ruins of Mathystra, located along the northeastern shores of Darkshore. Long ago, Mathystra was a shining bastion of highborne civilization before it shattered during the Sundering. Though the city has collapsed into rubble, weeds, and naga infestation, powerful remnants of its original arcane and spiritual enchantments linger in shattered urns and ancient relics scattered across the stone foundations.",
+   "spoiler": 0
+  },
+  {
+   "title": "Divining Dark Designs",
+   "body": "By collecting surviving artifacts from the ruin's grassy debris, defenders of Darkshore hope to unravel the specific techniques the cultists intend to exploit. Onu studies the residual magic imbued within the relics, racing against time to decipher the cult's plans before the Twilight's Hammer can fully bend ancient kaldorei sorcery toward freeing their subterranean masters.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Mathystra Relics?",
+   "aliases": [
+    "what are the relics",
+    "mathystra relic lore",
+    "elven relics mathystra"
+   ],
+   "answer": "They are fragments of enchanted pottery, urns, and artifacts left behind in the Ruins of Mathystra. Created during the height of ancient night elven civilization prior to the Great Sundering, they still hum with lingering magical energy."
+  },
+  {
+   "q": "Why does Onu want these relics?",
+   "aliases": [
+    "why does onu want relics",
+    "purpose of mathystra relics"
+   ],
+   "answer": "Onu discovered that the Twilight's Hammer cult is using ancient elven magic to try and bring their dark masters back into the world. By studying intact relics from Mathystra, Onu hopes to understand how the cult intends to manipulate that ancient power."
+  },
+  {
+   "q": "Where were the Ruins of Mathystra located?",
+   "aliases": [
+    "where is mathystra",
+    "mathystra location"
+   ],
+   "answer": "The ruins sit along the northeastern coastline of Darkshore, just north of the Ameth'Aran and Bashal'Aran ruins, and south of the Tower of Althalaxx."
+  },
+  {
+   "q": "Who is the Twilight's Hammer trying to bring back?",
+   "aliases": [
+    "who are twilight hammer masters",
+    "cult masters darkshore"
+   ],
+   "answer": "The cult is dedicated to ancient, malevolent entities deep beneath the earth and sea\u2014often associated with the giant slain monstrosity buried at the Master's Glaive in southern Darkshore."
+  },
+  {
+   "q": "What was Mathystra before it became a ruin?",
+   "aliases": [
+    "history of mathystra",
+    "what was mathystra"
+   ],
+   "answer": "Mathystra was once a great bastion and city of the night elves thousands of years ago. It fell into ruin during the Great Sundering and has since been overrun by wilderness, ghosts, and vile beach-dwelling creatures like the naga."
+  },
+  {
+   "q": "Who gives the quest 'Mathystra Relics'?",
+   "aliases": [
+    "who starts mathystra relics",
+    "quest giver mathystra relics"
+   ],
+   "answer": "The quest is provided by Onu, an ancient treant rooted at the Grove of the Ancients in south-central Darkshore, following the investigation of the Master's Glaive."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, seeing relics of their pre-Sundering glory dug out of the dirt is a somber reminder of their civilization's fall\u2014and an alarming warning that their ancestors' potent arts are being exploited by apocalyptic madmen."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Aiding Onu allows druids to serve one of nature's greatest elder sentinels, safeguarding the ancient history of Darkshore from being twisted by dark cultists."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Preventing the Twilight's Hammer from weaponizing ancient magic is essential to securing northern Kalimdor against dark, subterranean forces."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "grove of the ancients",
+  "master's glaive",
+  "mathystra",
+  "onu",
+  "relics",
+  "ruins of mathystra",
+  "twilight's hammer"
+ ],
+ "related": [
+  "subzone:ruins-of-mathystra",
+  "quest:948",
+  "quest:952",
+  "subzone:master-s-glaive",
+  "quest:944",
+  "topic:twilight-s-hammer",
+  "quest:950",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Mathystra Relics"
+ ]
+}

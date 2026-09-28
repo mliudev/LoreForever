@@ -1,0 +1,112 @@
+{
+ "key": "quest:8354",
+ "type": "quest",
+ "name": "Chicken Clucking for a Mint",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   8354
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Innkeeper Norman",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Chicken Clucking for a Mint (Horde)",
+  "chain": []
+ },
+ "summary": "During the festive season of Hallow's End, Innkeeper Norman of the Undercity offers a piece of candy to travelers helping an ailing child. To earn the Undercity Mint, adventurers must cast aside their dignity and flap about like a chicken.",
+ "sections": [
+  {
+   "title": "A Rare Bit of Mirth",
+   "body": "The Undercity is rarely known for laughter or warmth, built as it is beneath the ruins of Lordaeron by the liberated Forsaken. Yet when Hallow's End arrives, even the grim denizens of the Trade Quarter join in seasonal revelry. Innkeeper Norman holds onto a stash of Undercity Mints, designated for those collecting treats on behalf of young Spoops, a sick orphan in need of holiday cheer.",
+   "spoiler": 0
+  },
+  {
+   "title": "Earning the Treat",
+   "body": "Rather than surrendering the treat outright to seasoned adventurers, Norman demands a bit of humiliating spectacle. Believing that grown warriors and spellcasters ought to earn their confections, he refuses to part with the mint until the petitioner mimics a barnyard chicken right before his counter.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Innkeeper Norman want me to cluck like a chicken?",
+   "aliases": [
+    "why chicken emote",
+    "why cluck norman",
+    "norman chicken dance"
+   ],
+   "answer": "Innkeeper Norman believes grown champions are too old to go around trick-or-treating without putting on a show. To lighten the mood during Hallow's End, he demands a ridiculous performance\u2014flapping and clucking like a chicken\u2014before he will hand over his holiday treat."
+  },
+  {
+   "q": "Who is the treat intended for?",
+   "aliases": [
+    "who gets the mint",
+    "what is the mint for",
+    "why get undercity mint"
+   ],
+   "answer": "The Undercity Mint is collected on behalf of Spoops, a sick orphan resting in Orgrimmar who is unable to go trick-or-treating himself during the Hallow's End festival."
+  },
+  {
+   "q": "Where is Innkeeper Norman located?",
+   "aliases": [
+    "norman location",
+    "where is undercity innkeeper"
+   ],
+   "answer": "Innkeeper Norman operates the central tavern within the Trade Quarter of the Undercity, serving Forsaken patrons and visiting Horde travelers."
+  },
+  {
+   "q": "Is this a seasonal festival quest?",
+   "aliases": [
+    "is this hallows end",
+    "when is this quest available"
+   ],
+   "answer": "Yes. This quest is part of the annual Hallow's End holiday celebrations celebrated across Azeroth by both Horde and Alliance."
+  },
+  {
+   "q": "Do Forsaken normally celebrate Hallow's End?",
+   "aliases": [
+    "forsaken hallows end",
+    "undead holiday"
+   ],
+   "answer": "The Forsaken celebrate Hallow's End with great enthusiasm, burning a massive wicker man outside the ruins of Lordaeron to commemorate their liberation and break with their former mortal lives."
+  },
+  {
+   "q": "What happens after getting the Undercity Mint?",
+   "aliases": [
+    "next quest",
+    "what do i do with the mint"
+   ],
+   "answer": "The mint is combined with other signature treats gathered from the various Horde racial capitals to assemble a full holiday gift for young Spoops."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Finding silly humor among the rotting halls of the Undercity is rare, making Norman's seasonal demand a bizarre break from daily necromantic pragmatism."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde adventurers travel between every capital city during Hallow's End, braving foolish indignities in each to bring joy to an orphaned child."
+  }
+ ],
+ "keywords": [
+  "chicken",
+  "cluck",
+  "hallow's end",
+  "innkeeper norman",
+  "spoops",
+  "trade quarter",
+  "undercity",
+  "undercity mint"
+ ],
+ "related": [
+  "npc:innkeeper-norman",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Chicken Clucking for a Mint (Horde)"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "npc:lieutenant-lisande",
+ "type": "npc",
+ "name": "Lieutenant Lisande",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Lieutenant Lisande",
+  "refs": 1
+ },
+ "summary": "Lieutenant Lisande is an emissary of the Argent Dawn stationed upon the high mesas of Thunder Bluff. As a human operating openly in tauren lands, she serves as a liaison against the shared existential threat of the Scourge.",
+ "sections": [
+  {
+   "title": "An Unlikely Envoy",
+   "body": "While human faces are rare across the windblown heights of Thunder Bluff, the Argent Dawn transcends traditional faction enmities. Lieutenant Lisande serves the holy order by watching for signs of the Lich King's taint even in remote Kalimdor. When undead forces stir on the plains below, she rallies brave Horde champions to ride out and investigate the encroaching menace before it can defile the sacred earth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is a human standing in Thunder Bluff?",
+   "aliases": [
+    "human in thunder bluff",
+    "why is Lisande here",
+    "is she hostile"
+   ],
+   "answer": "Lisande represents the Argent Dawn, a neutral organization dedicated solely to eliminating the Scourge. Because the Dawn welcomes both Alliance and Horde races into its ranks, its liaisons are granted diplomatic entry into capital cities to coordinate defenses against the undead."
+  },
+  {
+   "q": "What is the Argent Dawn's interest in Mulgore?",
+   "aliases": [
+    "scourge in mulgore",
+    "why thunder bluff",
+    "undead in tauren lands"
+   ],
+   "answer": "The reach of the Lich King threatens every corner of Azeroth, not just the Eastern Kingdoms. Lisande monitors any sign of necromantic activity or invading Scourge forces threatening the peace of Mulgore, ensuring local defenders are alert to the danger."
+  },
+  {
+   "q": "What tasks does Lieutenant Lisande give out?",
+   "aliases": [
+    "lisande quest",
+    "what does lisande do",
+    "investigate quest"
+   ],
+   "answer": "Lisande directs adventurers to descend from the bluffs to investigate Scourge incursions sighted around the surrounding territory, tasking them with reporting back so the Dawn can assess the scale of the threat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Though Lisande is an outsider, the tauren respect the Argent Dawn's dedication to purifying the land from the vile corruption of the undead."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Lisande stands as a reminder that the war against the Scourge requires pragmatism and occasional cooperation with neutral human orders."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "lieutenant lisande",
+  "lisande",
+  "mulgore",
+  "scourge",
+  "scourge invasion",
+  "thunder bluff"
+ ],
+ "related": [
+  "topic:argent-dawn",
+  "quest:9264",
+  "zone:thunderbluff",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Lieutenant Lisande"
+ ]
+}

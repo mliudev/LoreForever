@@ -1,0 +1,110 @@
+{
+ "key": "npc:oggleflint",
+ "type": "npc",
+ "name": "Oggleflint",
+ "era": "classic",
+ "zone": "ragefire",
+ "meta": {
+  "wiki": "Oggleflint",
+  "refs": 5
+ },
+ "summary": "Oggleflint is the chieftain of the trogg tribe dwelling within the volcanic depths of Ragefire Chasm directly beneath Orgrimmar. Once master of the entire subterranean cavern, he and his kin have been pushed toward the upper tunnels by the arrival of the Searing Blade cultists. Now entrenched near the entrance, he commands his savage pack and poses an immediate threat to the Horde capital above.",
+ "sections": [
+  {
+   "title": "Chieftain of the Deep",
+   "body": "Before shadow cultists infiltrated the chasm beneath Orgrimmar, Oggleflint and his troggs ruled the fiery subterranean tunnels uncontested. Brutal and territorial, they carved out a primitive domain among the molten rock. Though troggs possess little in the way of advanced civilization, Oggleflint maintained absolute authority over the pack through sheer brute strength.",
+   "spoiler": 0
+  },
+  {
+   "title": "Displaced by the Cult",
+   "body": "The balance of power beneath the city shattered when the Searing Blade moved into the deepest chambers of Ragefire Chasm. Unable to match the dark magic and coordinated zealots of the cult, Oggleflint was forced to cede the lower tunnels. Retreating upward, the trogg chieftain now waits near the cavern entrance, striking at any outsiders while nursing grudges against the interlopers below.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat Beneath Orgrimmar",
+   "body": "Having displaced troggs directly beneath Thrall's capital is a hazard the Horde cannot tolerate. Pushed closer to the surface, Oggleflint's tribe is far too volatile to leave unchecked, threatening to spill into the Drag and Cleft of Shadows if left undisturbed. Warchief Thrall and his commanders task young champions with descending into the chasm to eliminate Oggleflint and pacify the tunnel invasion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Oggleflint?",
+   "aliases": [
+    "oggleflint",
+    "who is oggleflint",
+    "ragefire trogg boss"
+   ],
+   "answer": "Oggleflint is a powerful trogg chieftain who leads the pack inhabiting Ragefire Chasm beneath the city of Orgrimmar."
+  },
+  {
+   "q": "Where can Oggleflint be found?",
+   "aliases": [
+    "where is oggleflint",
+    "oggleflint location",
+    "find oggleflint"
+   ],
+   "answer": "He is located in the upper caverns of Ragefire Chasm, not far from the entrance tunnel, where his surviving clan made camp after being pushed out of the deeper reaches."
+  },
+  {
+   "q": "Why are the troggs in Ragefire Chasm?",
+   "aliases": [
+    "why are troggs under orgrimmar",
+    "ragefire trogg lore"
+   ],
+   "answer": "Troggs naturally dwell deep underground in subterranean volcanic networks. Oggleflint's pack claimed the fiery caverns beneath Durotar long before the Searing Blade cult arrived."
+  },
+  {
+   "q": "Why is Oggleflint hostile to the Horde?",
+   "aliases": [
+    "why kill oggleflint",
+    "why fight oggleflint"
+   ],
+   "answer": "Troggs are fiercely territorial and violent beasts by nature. Pushed toward the surface by cultists, Oggleflint and his followers pose an imminent danger to the Horde tunnels and the city above."
+  },
+  {
+   "q": "What is Oggleflint's relationship with the Searing Blade?",
+   "aliases": [
+    "searing blade and oggleflint",
+    "are troggs with the cult"
+   ],
+   "answer": "They are bitter enemies. The Searing Blade cultists invaded Ragefire Chasm and overpowered Oggleflint's troggs, driving the survivors into the upper caves."
+  },
+  {
+   "q": "Why does the Horde want Oggleflint dead?",
+   "aliases": [
+    "repel the invasion quest",
+    "horde bounty oggleflint"
+   ],
+   "answer": "With troggs massing right near the entrance to Orgrimmar's lower districts, the Horde leadership ordered his elimination to secure the perimeter and prevent a trogg rampage into the city."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Living directly beneath Thrall's fortress, Oggleflint's troggs represent a wild, unpredictable security risk right in the heart of Durotar."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For young orcs proving their mettle in the trial of arms, slaying the chieftain lurking right under the Drag is an early test of martial discipline."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Facing Oggleflint means confronting a heavy brute who relies entirely on raw muscle and primal rage rather than armor or discipline."
+  }
+ ],
+ "keywords": [
+  "oggleflint",
+  "orgrimmar",
+  "ragefire chasm",
+  "repel the invasion",
+  "searing blade",
+  "trogg"
+ ],
+ "related": [
+  "zone:ragefire",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Oggleflint"
+ ]
+}

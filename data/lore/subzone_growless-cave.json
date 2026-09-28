@@ -1,0 +1,81 @@
+{
+ "key": "subzone:growless-cave",
+ "type": "subzone",
+ "name": "Growless Cave",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Growless Cave"
+ },
+ "summary": "Growless Cave is a frigid cavern carved into the crags of the Alterac Mountains, overrun by ferocious mountain yetis. It is best known as the resting place of the Flame of Uzel, an unholy ceremonial pyre tied to the dark necromancy of Helcular.",
+ "sections": [
+  {
+   "title": "A Den of Beasts and Dark Magic",
+   "body": "Tucked away in the snow-dusted heights overlooking the foothills, Growless Cave serves primarily as a den for the territorial mountain yetis that roam Alterac. Travelers navigating the treacherous slopes often steer clear of its mouth, especially when the notorious yeti Skhowl is sighted prowling outside. Beyond the primal danger of the beasts, the cave harbors a sinister past: inside lies the Flame of Uzel, an arcane brazier left behind by the ambitious human mage Helcular. Before his demise, Helcular intended to use the pyre in a dark ritual to achieve lichdom, and its foul warmth once drew the massive predator Frostmaw out from the frozen wastes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures live in Growless Cave?",
+   "aliases": [
+    "who lives here",
+    "growless cave mobs",
+    "what is inside growless cave"
+   ],
+   "answer": "The cave is occupied by wild mountain yetis native to Alterac. Occasionally, a dangerous rare yeti named Skhowl wanders just outside the entrance."
+  },
+  {
+   "q": "What is the Flame of Uzel?",
+   "aliases": [
+    "flame of uzel",
+    "pyre in growless cave",
+    "helcular flame"
+   ],
+   "answer": "The Flame of Uzel is a ceremonial pyre established by Helcular, a former mage of Dalaran turned necromancer. He created the pyre as part of a forbidden ritual meant to transform himself into an undying lich."
+  },
+  {
+   "q": "Who is Frostmaw?",
+   "aliases": [
+    "frostmaw yeti",
+    "frostmaw"
+   ],
+   "answer": "Frostmaw is a massive, exceptionally fierce yeti that roams the Alterac peaks. In the past, burning fresh meat upon the Flame of Uzel would lure the ravenous beast directly to the cavern."
+  },
+  {
+   "q": "Why would travelers venture here?",
+   "aliases": [
+    "why go to growless cave",
+    "growless cave quests"
+   ],
+   "answer": "Adventurers braving the cave typically seek to hunt the dangerous yetis for their pelts or pursue the lingering necromantic artifacts tied to Helcular's legacy in Alterac."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The cave holds grim significance for the Forsaken assisting in the vengeance of Helcular, whose dark rites and relics remain scattered across the fallen realm of Alterac."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The remnants of the Flame of Uzel stand as a stark warning of what happens when Kirin Tor wizardry is perverted into necromantic pursuits."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "flame of uzel",
+  "frostmaw",
+  "growless cave",
+  "helcular",
+  "skhowl",
+  "yeti"
+ ],
+ "related": [
+  "zone:alterac",
+  "zone:hillsbrad",
+  "topic:alterac-kingdom"
+ ],
+ "attribution": [
+  "Growless Cave"
+ ]
+}

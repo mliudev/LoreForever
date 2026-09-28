@@ -1,0 +1,67 @@
+{
+ "key": "npc:mupsi-shacklefridd",
+ "type": "npc",
+ "name": "Mupsi Shacklefridd",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Mupsi Shacklefridd",
+  "refs": 1
+ },
+ "summary": "Mupsi Shacklefridd is a goblin resident stationed just outside the port town of Ratchet in the Barrens. She serves as a local contact for travelers looking to smooth over troubled relations with the Steamwheedle Cartel.",
+ "sections": [
+  {
+   "title": "On the Outskirts of Ratchet",
+   "body": "Mupsi Shacklefridd operates just outside Ratchet along the dusty coastal roads of the Barrens. Life near the port town is always busy, with Steamwheedle guards patrolling the perimeter and merchants coming and going. For those who find themselves in poor standing with the goblins, Mupsi provides a path to reconciliation\u2014provided travelers are willing to offer the supplies and labor the cartel demands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mupsi Shacklefridd?",
+   "aliases": [
+    "mupsi",
+    "who is mupsi",
+    "ratchet mupsi"
+   ],
+   "answer": "She is a goblin stationed just outside the settlement of Ratchet in the Barrens who assists travelers seeking to restore their standing with the Steamwheedle Cartel."
+  },
+  {
+   "q": "Where can I find her?",
+   "aliases": [
+    "mupsi location",
+    "where is mupsi shacklefridd",
+    "find mupsi"
+   ],
+   "answer": "Mupsi is located right outside Ratchet in the Barrens, close enough to the main settlement that wandering port guards and patrols occasionally cross her path."
+  },
+  {
+   "q": "Why would someone talk to Mupsi Shacklefridd?",
+   "aliases": [
+    "mending old wounds ratchet",
+    "ratchet reputation turn in",
+    "mupsi quest"
+   ],
+   "answer": "Travelers who have angered the Steamwheedle Cartel\u2014often through run-ins with goblins or siding with pirates\u2014can work with Mupsi through supply donations to repair their reputation."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barrens",
+  "goblin",
+  "mupsi",
+  "ratchet",
+  "reputation",
+  "shacklefridd",
+  "steamwheedle"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "zone:barrens",
+  "quest:9267",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Mupsi Shacklefridd"
+ ]
+}

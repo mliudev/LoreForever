@@ -1,0 +1,93 @@
+{
+ "key": "subzone:lakeshire-inn",
+ "type": "subzone",
+ "name": "Lakeshire Inn",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Lakeshire Inn"
+ },
+ "summary": "The Lakeshire Inn is the social hub and primary refuge in the beleaguered town of Lakeshire. Situated in the heart of the Redridge Mountains, it provides warmth, ale, and safe lodging for local townsfolk and weary travelers contending with the surrounding perils.",
+ "sections": [
+  {
+   "title": "A Beacon of Warmth",
+   "body": "Perched on the shore of Lake Everstill, the Lakeshire Inn offers a brief respite from the gnoll bands and Blackrock orcs pressing in on the town. Despite Lakeshire's increasingly desperate military situation, the tavern maintains a cozy, bustling atmosphere. Barkeep Daniels and Innkeeper Brianna attend to the locals and travelers, serving up flagons of ale, wine, and warm meals. It is a vital meeting point where townspeople trade news, drown their sorrows, and seek hired blades to help defend the eastern border of the kingdom.",
+   "spoiler": 0
+  },
+  {
+   "title": "Patrons and Whispers",
+   "body": "Beyond ordinary patrons nursing drinks at the counter, the inn draws a variety of colorful figures. Wiley the Black watches the room from a table, keeping his own counsel and keeping tabs on regional dangers. Traveling brewers like Yorus Barleybrew make stops here, while Darcy Parker and other townsfolk frequent the common room. For adventurers venturing further into the jagged peaks or heading south toward Duskwood, the inn is the final bastion of civilization and safety before entering contested wilderness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What services does the Lakeshire Inn provide?",
+   "aliases": [
+    "lakeshire inn services",
+    "what can I do at lakeshire inn",
+    "innkeeper lakeshire"
+   ],
+   "answer": "The inn functions as the primary rest stop in Redridge. Innkeeper Brianna binds hearthstones and rents rooms to weary travelers, while Barkeep Daniels supplies refreshments, food, and drink for the road."
+  },
+  {
+   "q": "Why is the inn so crowded despite the nearby attacks?",
+   "aliases": [
+    "why is lakeshire inn full",
+    "lakeshire refugees inn",
+    "redridge tavern crowd"
+   ],
+   "answer": "With orcs from the Blackrock clan descending from the northern crags and gnolls raiding local farms, townspeople and displaced settlers seek safety within the town center. The tavern provides both physical shelter and a place to share news of the defense."
+  },
+  {
+   "q": "Who is Wiley the Black?",
+   "aliases": [
+    "wiley the black",
+    "guy in lakeshire tavern",
+    "wiley npc"
+   ],
+   "answer": "Wiley the Black is a somber local figure found seated inside the inn. He keeps a sharp eye on the threats facing Lakeshire and provides insight and tasks to capable adventurers looking to push back the enemy presence in Redridge."
+  },
+  {
+   "q": "Where is the inn located within Lakeshire?",
+   "aliases": [
+    "where is lakeshire inn",
+    "lakeshire tavern location",
+    "find lakeshire inn"
+   ],
+   "answer": "The inn sits right near the western entrance of Lakeshire along the northern bank of Lake Everstill, just off the main road leading into town from Elwynn Forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Lakeshire Inn is an indispensable stronghold of Alliance hospitality, serving as the staging ground for anyone fighting to protect Stormwind's vulnerable eastern flank."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "The common room is a lively spot to procure culinary staples, local recipes, and fresh drink from Barkeep Daniels while traveling through the mountains."
+  }
+ ],
+ "keywords": [
+  "barkeep daniels",
+  "darcy parker",
+  "innkeeper brianna",
+  "lake everstill",
+  "lakeshire inn",
+  "redridge inn",
+  "wiley the black",
+  "yorus barleybrew"
+ ],
+ "related": [
+  "subzone:lakeshire",
+  "zone:redridge",
+  "npc:wiley-the-black",
+  "npc:barkeep-daniels",
+  "npc:darcy-parker",
+  "quest:1698",
+  "subzone:three-corners"
+ ],
+ "attribution": [
+  "Lakeshire Inn"
+ ]
+}

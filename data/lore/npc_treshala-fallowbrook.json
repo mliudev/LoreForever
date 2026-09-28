@@ -1,0 +1,86 @@
+{
+ "key": "npc:treshala-fallowbrook",
+ "type": "npc",
+ "name": "Treshala Fallowbrook",
+ "era": "classic",
+ "zone": "razorfenkraul",
+ "meta": {
+  "wiki": "Treshala Fallowbrook",
+  "refs": 1
+ },
+ "summary": "Treshala Fallowbrook is a night elf residing quietly on the upper level of the Tradesmen's Terrace in Darnassus. Her attention is fixed upon the harsh, newly discovered vulnerabilities of mortal life following the Third War, leading her to study relics drawn from dangerous corners of Kalimdor.",
+ "sections": [
+  {
+   "title": "A Watcher on the Terrace",
+   "body": "Treshala Fallowbrook keeps a modest vigil on the second floor of a workshop in Darnassus's Tradesmen's Terrace. Like many of the kaldorei coming to terms with the sacrifice of their ancient immortality at Mount Hyjal, she observes the frailty that now stalks her people. She is closely tied to investigations into strange artifacts of power and survival\u2014specifically interested in relics recovered from the brambled depths of Razorfen Kraul in the Barrens, seeking insight into how life endures or fades when its natural vigor begins to wane.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Treshala Fallowbrook?",
+   "aliases": [
+    "treshala location",
+    "where is fallowbrook",
+    "how to find treshala"
+   ],
+   "answer": "She is located on the second floor of a workshop in the Tradesmen's Terrace of Darnassus. You can reach her room by heading up the wooden interior ramp inside the weapons building."
+  },
+  {
+   "q": "What is Treshala researching?",
+   "aliases": [
+    "treshala quest",
+    "mortality wanes lore",
+    "what does treshala want"
+   ],
+   "answer": "Treshala studies the shift toward mortal vulnerability facing the night elves after the loss of the World Tree Nordrassil. She takes an active interest in artifacts of enduring vitality recovered by Alliance adventurers, including pendants retrieved from the hostile quilboar strongholds of Razorfen Kraul."
+  },
+  {
+   "q": "Why is she concerned with Razorfen Kraul?",
+   "aliases": [
+    "why razorfen kraul",
+    "fallowbrook razorfen",
+    "connection to rfk"
+   ],
+   "answer": "Razorfen Kraul harbors foul magic and resilient thorny brambles rooted in the legacy of the boar god Agamaggan. Items uncovered within its depths, such as pendants of enduring vigor, offer curious scholars like Treshala insights into unnatural stamina and mortal preservation."
+  },
+  {
+   "q": "Is she a shopkeeper or a craftswoman?",
+   "aliases": [
+    "is treshala a vendor",
+    "what does she sell"
+   ],
+   "answer": "No, Treshala is neither a merchant nor a crafter. She resides above the busy artisan stalls of the Tradesmen's Terrace as an observant scholar concerned with the state of the kaldorei."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, Treshala's concerns strike directly at the core of their post-Hyjal reality: the loss of eternal youth and the bitter necessity of facing true aging and disease."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Treshala serves as an Alliance point of contact in Darnassus for champions returning from harrowing expeditions against the quilboar thorn-dens deep in the Barrens."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "fallowbrook",
+  "mortality wanes",
+  "night elf",
+  "razorfen kraul",
+  "tradesmen's terrace",
+  "treshala"
+ ],
+ "related": [
+  "quest:1142",
+  "subzone:tradesmen-s-terrace",
+  "zone:darnassus",
+  "zone:razorfenkraul",
+  "topic:night-elf",
+  "quest:940"
+ ],
+ "attribution": [
+  "Treshala Fallowbrook"
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "key": "quest:6282",
+ "type": "quest",
+ "name": "Harpies Threaten",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   6282
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Maggran Earthbinder",
+  "end": "",
+  "previous": null,
+  "next": "Bloodfury Bloodline",
+  "wiki": "Harpies Threaten",
+  "chain": [
+   "Harpies Threaten",
+   "Bloodfury Bloodline"
+  ]
+ },
+ "summary": "Harpies Threaten is a Horde quest offered by Maggran Earthbinder at Sun Rock Retreat in the Stonetalon Mountains. Fulfilling the tauren calling as stewards of the land, adventurers are directed south into the devastated Charred Vale to cull the surging ranks of the Bloodfury harpy coven.",
+ "sections": [
+  {
+   "title": "Protectors of the Land",
+   "body": "The tauren of Sun Rock Retreat hold a profound duty to safeguard Stonetalon, maintaining natural balance and shielding peaceful travelers from the region's hazards. Maggran Earthbinder, an elder shaman watching over the retreat, observes with growing alarm the relentless rise of the local harpy population. The Bloodfury coven has spread across the scorched wastes of the Charred Vale, harassing passing beasts and choking off travel routes. Left unchecked, their predatory flocks threaten to isolate Sun Rock Retreat entirely.",
+   "spoiler": 0
+  },
+  {
+   "title": "Scouring the Charred Vale",
+   "body": "South of Sun Rock Retreat lies the Charred Vale, a desolate wasteland of ash, scorched earth, and smoldering trees left behind after catastrophic fires. Here, nesting high in the charred remnants of ancient woods, the Bloodfuries have established a stronghold. Maggran tasks Horde warriors with venturing into this hostile caldera to cull dozens of harpy ambushers, slayers, and roguefeathers. Thinning the flock shatters the immediate grip the coven holds over the vale and clears the path to confront their matriarchal lineage directly.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Harpies Threaten?",
+   "aliases": [
+    "quest giver harpies threaten",
+    "where to pick up harpies threaten",
+    "maggran earthbinder quest"
+   ],
+   "answer": "The quest is given by Maggran Earthbinder, a tauren located near the central pool of water in Sun Rock Retreat in the Stonetalon Mountains."
+  },
+  {
+   "q": "Where are the Bloodfury harpies located?",
+   "aliases": [
+    "where are bloodfury harpies",
+    "bloodfury harpy location",
+    "charred vale harpies"
+   ],
+   "answer": "The Bloodfury harpies dwell throughout the Charred Vale, a burnt expanse located directly south of Sun Rock Retreat. A mountain path behind Sun Rock leads straight down into the vale."
+  },
+  {
+   "q": "Why do the tauren want the harpies culled?",
+   "aliases": [
+    "why kill harpies",
+    "tauren harpy conflict",
+    "why maggran hates harpies"
+   ],
+   "answer": "The tauren consider themselves guardians of Stonetalon's natural balance. Maggran Earthbinder fears the Bloodfuries are expanding aggressively across Kalimdor, attacking innocents and preventing living creatures from freely traveling through the land."
+  },
+  {
+   "q": "What comes after completing Harpies Threaten?",
+   "aliases": [
+    "next quest harpies threaten",
+    "harpies threaten follow up",
+    "what after harpies threaten"
+   ],
+   "answer": "Completing Harpies Threaten unlocks the follow-up quest, Bloodfury Bloodline, in which Maggran Earthbinder sends you to eliminate the ruling leadership of the Bloodfury coven."
+  },
+  {
+   "q": "Is this quest Horde only?",
+   "aliases": [
+    "can alliance do harpies threaten",
+    "harpies threaten horde only",
+    "alliance harpies threaten"
+   ],
+   "answer": "Yes. The quest is offered exclusively to the Horde from the settlement of Sun Rock Retreat."
+  },
+  {
+   "q": "What kinds of harpies must be slain?",
+   "aliases": [
+    "which harpies to kill",
+    "harpy types charred vale",
+    "harpies threaten objectives"
+   ],
+   "answer": "You must slay seven Bloodfury Harpies, seven Bloodfury Ambushers, seven Bloodfury Slayers, and seven Bloodfury Roguefeathers across the Charred Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren characters, culling the encroaching Bloodfuries is an honorable duty to fulfill their ancestral promise as protectors of Kalimdor's wilderness."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing the skies of the Charred Vale strengthens the Horde's foothold at Sun Rock Retreat against dangerous wild factions inhabiting Stonetalon."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The twisted presence of the Bloodfury coven desecrates the already fragile, fire-ravaged ecology of the Charred Vale."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Working at the behest of Maggran Earthbinder, shaman answer the call to purge aggressive defilers who upset the natural elemental balance."
+  }
+ ],
+ "keywords": [
+  "ambushers",
+  "bloodfury",
+  "charred vale",
+  "coven",
+  "harpies threaten",
+  "maggran earthbinder",
+  "roguefeathers",
+  "slayers",
+  "stonetalon mountains",
+  "sun rock retreat"
+ ],
+ "related": [
+  "quest:6283",
+  "subzone:charred-vale",
+  "subzone:sun-rock-retreat",
+  "npc:maggran-earthbinder",
+  "topic:harpy",
+  "topic:tauren",
+  "zone:stonetalon",
+  "quest:6301"
+ ],
+ "attribution": [
+  "Harpies Threaten"
+ ]
+}

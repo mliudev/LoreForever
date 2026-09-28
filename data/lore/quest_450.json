@@ -1,0 +1,125 @@
+{
+ "key": "quest:450",
+ "type": "quest",
+ "name": "A Recipe For Death",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   450
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Master Apothecary Faranell",
+  "end": "Apothecary Renferrel",
+  "previous": "A Recipe For Death",
+  "next": "A Recipe For Death (3)",
+  "wiki": "A Recipe For Death (2)",
+  "chain": [
+   "A Recipe For Death",
+   "A Recipe For Death (2)",
+   "A Recipe For Death (3)"
+  ]
+ },
+ "summary": "Master Apothecary Faranell tasks Horde adventurers with recovering the lost research of Apothecary Berard from Pyrewood Village. Berard fell victim to Archmage Arugal's shadow magic, leaving behind critical notes on an ancient blight that wiped out Lake Lordamere's aquatic life.",
+ "sections": [
+  {
+   "title": "A Mind Lost to Shadow",
+   "body": "Before his downfall, Apothecary Berard was considered one of the Royal Apothecary Society's most promising researchers. Stationed in Pyrewood Village, he investigated past ecological disasters to aid the Forsaken's alchemical pursuits. However, when Archmage Arugal unleashed his dark sorcery over Silverpine Forest, Berard succumbed to the curse, degrading into a mindless servant under the mage's thrall.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Secrets of Lake Lordamere",
+   "body": "Though Berard is considered a lost cause by Master Apothecary Faranell, his research remains immensely valuable to the Society. Berard had been cataloging the characteristics of a forgotten plague that eradicated all aquatic life in Lake Lordamere long ago. Recovering his journal from the Pyrewood Village Inn and delivering it to Apothecary Renferrel at the Sepulcher ensures the Royal Apothecary Society can adapt those deadly properties for the Dark Lady's arsenal.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Apothecary Berard?",
+   "aliases": [
+    "berard lore",
+    "who was berard",
+    "apothecary berard pyrewood"
+   ],
+   "answer": "Apothecary Berard was once a brilliant researcher for the Royal Apothecary Society based in Silverpine Forest. His promising career ended when Archmage Arugal cast a dark curse across the region, shattering Berard's mind and binding him as a thrall in Pyrewood Village."
+  },
+  {
+   "q": "Why does the Royal Apothecary Society want Berard's journal?",
+   "aliases": [
+    "why get the journal",
+    "berards journal purpose",
+    "lake lordamere plague notes"
+   ],
+   "answer": "Prior to his mental degradation, Berard was documenting an ancient plague that killed off all aquatic life in Lake Lordamere ages ago. The Society seeks these records to understand the virulent agent and incorporate its lethal mechanisms into their ongoing research."
+  },
+  {
+   "q": "Where is Berard's journal located?",
+   "aliases": [
+    "where is the journal",
+    "find berard journal",
+    "pyrewood inn journal"
+   ],
+   "answer": "The journal is kept in Berard's study on an upper floor of the Pyrewood Village Inn, located toward the rear of the village. The afflicted apothecary still guards his former quarters."
+  },
+  {
+   "q": "Who receives the recovered journal?",
+   "aliases": [
+    "who turns in berard journal",
+    "who do i bring the journal to",
+    "where take journal"
+   ],
+   "answer": "The journal must be delivered to Apothecary Renferrel, who oversees the Royal Apothecary Society's field operations from the Sepulcher in Silverpine Forest."
+  },
+  {
+   "q": "What happened to Pyrewood Village?",
+   "aliases": [
+    "pyrewood curse",
+    "what is wrong with pyrewood",
+    "arugal curse pyrewood"
+   ],
+   "answer": "Pyrewood Village fell under the corrupting influence of Archmage Arugal, who unleashed shadow magic from nearby Shadowfang Keep. The curse warp the minds and bodies of the villagers, subjecting them to Arugal's dark will."
+  },
+  {
+   "q": "Who is Master Apothecary Faranell?",
+   "aliases": [
+    "faranell",
+    "who gives recipe for death",
+    "apothecary leader undercity"
+   ],
+   "answer": "Master Apothecary Faranell is the head of the Royal Apothecary Society, conducting operations from the Apothecarium in the Undercity. He directly oversees the creation of new blights and venoms to defend the Forsaken and eradicate their enemies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Royal Apothecary Society shows cold pragmatism: when a promising peer like Berard is lost to madness, his personal tragedy is disregarded in favor of salvaging his lethal research."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting the Royal Apothecary Society in Silverpine helps secure the Forsaken's borders against the wild terrors unleashed by Arugal."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "berard",
+  "faranell",
+  "journal",
+  "lordamere",
+  "pyrewood",
+  "renferrel",
+  "sepulcher"
+ ],
+ "related": [
+  "quest:447",
+  "npc:master-apothecary-faranell",
+  "npc:apothecary-renferrel",
+  "subzone:pyrewood-village",
+  "subzone:sepulcher",
+  "npc:arugal",
+  "topic:royal-apothecary-society"
+ ],
+ "attribution": [
+  "A Recipe For Death (2)"
+ ]
+}

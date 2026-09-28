@@ -1,0 +1,123 @@
+{
+ "key": "quest:5481",
+ "type": "quest",
+ "name": "Gordo's Task",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   5481
+  ],
+  "level": "5",
+  "faction": "Horde",
+  "start": "",
+  "end": "",
+  "previous": null,
+  "next": "Doom Weed (Classic)",
+  "wiki": "Gordo's Task (Classic)",
+  "chain": [
+   "Gordo's Task (Classic)",
+   "Doom Weed (Classic)"
+  ]
+ },
+ "summary": "Gordo's Task is an errand in Tirisfal Glades given by Gordo, a wandering abomination trying to gather flora along the road to Brill. Unsuited for delicate fieldwork, he recruits travelers to pick Gloom Weed and deliver it to his handler, Junior Apothecary Holland.",
+ "sections": [
+  {
+   "title": "A Clumsy Laborer",
+   "body": "Gordo is an abomination who trudges back and forth along the countryside between Deathknell and Brill. While abominations excel at brute combat and heavy hauling, their massive, sutured hands make fine manipulation almost impossible. Sent into the meadows to gather ingredients for the Royal Apothecary Society, Gordo quickly realizes his blunt fingers crush more stems than they pluck, prompting him to bully or bribe passersby into doing the tedious work for him.",
+   "spoiler": 0
+  },
+  {
+   "title": "Apothecary Frustrations",
+   "body": "Junior Apothecary Holland awaits the delivery in the graveyard behind Brill's town hall, but the errand goes awry. Gordo completely misunderstands his orders, directing travelers to collect harmless Gloom Weed instead of the volatile Doom Weed required for alchemical research. Holland is thoroughly exasperated by the stitched giant's incompetence, treating the mistaken delivery as proof of the abomination's uselessness before immediately assigning the player to correct the error.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gordo?",
+   "aliases": [
+    "who is gordo",
+    "gordo tirisfal",
+    "gordo npc",
+    "what is gordo"
+   ],
+   "answer": "Gordo is an abomination bound to the service of the Royal Apothecary Society. He patrols the meadows west of Brill, attempting to complete labor tasks assigned by his master, Junior Apothecary Holland."
+  },
+  {
+   "q": "Why does Gordo need help gathering weeds?",
+   "aliases": [
+    "why does gordo need weeds",
+    "why can't gordo pick weeds",
+    "gordo hands"
+   ],
+   "answer": "Gordo's hands are enormous, clumsy appendages of stitched dead flesh. He simply lacks the dexterity required to pick delicate plants without ruining them, so he recruits traveling Forsaken adventurers to gather the flora instead."
+  },
+  {
+   "q": "Who is Master Holland?",
+   "aliases": [
+    "master holland",
+    "who is holland",
+    "apothecary holland"
+   ],
+   "answer": "Junior Apothecary Holland is an alchemist with the Royal Apothecary Society stationed in the Brill graveyard. He oversees Gordo and conducts research on the local flora and blighted soil to aid the Forsaken war effort."
+  },
+  {
+   "q": "Why is Holland upset when the Gloom Weed is delivered?",
+   "aliases": [
+    "why is holland mad",
+    "gloom weed mistake",
+    "wrong weed"
+   ],
+   "answer": "Holland never wanted Gloom Weed. Gordo completely misunderstood his orders and sent adventurers after the wrong plant. Holland actually needed Doom Weed, a far more potent and dangerous ingredient for his concoctions."
+  },
+  {
+   "q": "Where can Gloom Weed be found?",
+   "aliases": [
+    "where to find gloom weed",
+    "gloom weed locations",
+    "finding gloom weed"
+   ],
+   "answer": "Gloom Weed sprouts low to the ground in the wild fields between Deathknell and Brill, particularly in the open meadows east of the Solliden Farmstead."
+  },
+  {
+   "q": "What happens after completing Gordo's Task?",
+   "aliases": [
+    "what comes next",
+    "gordo's task follow up",
+    "next quest after gordo"
+   ],
+   "answer": "Upon receiving the useless Gloom Weed, Junior Apothecary Holland immediately sends you back out into the fields on the quest 'Doom Weed' to gather the actual volatile plants he originally requested."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Trained herbalists will find this task effortless, as their tracking sense easily highlights Gloom Weed patches nestled amidst the blighted grass."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For newly risen Forsaken leaving Deathknell, this task provides a first encounter with the clunky realities of abomination labor and the sharp temper of the Royal Apothecary Society."
+  }
+ ],
+ "keywords": [
+  "abomination",
+  "apothecary",
+  "brill",
+  "doom weed",
+  "gloom weed",
+  "gordo",
+  "holland",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:brill",
+  "zone:tirisfal",
+  "subzone:deathknell",
+  "subzone:solliden-farmstead",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Gordo's Task (Classic)"
+ ]
+}

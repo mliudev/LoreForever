@@ -1,0 +1,84 @@
+{
+ "key": "npc:godrick-farsan",
+ "type": "npc",
+ "name": "Godrick Farsan",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Godrick Farsan",
+  "refs": 2
+ },
+ "summary": "Godrick Farsan is an undead warlock assistant located in the Undercity, serving alongside Carendin Halgar in the Magic Quarter. Despite being entirely blind, he possesses mystical senses that allow him to perceive the dark energies and souls around him.",
+ "sections": [
+  {
+   "title": "Eyes in the Dark",
+   "body": "Situated amidst the summoning circles of the Magic Quarter, Godrick Farsan aids Master Carendin Halgar in guiding aspiring Forsaken warlocks. Though he lacks physical sight, Godrick claims to see through unconventional, demonic means, perceiving the world through shadows and residual soul energies. He tests practitioners seeking to bind greater demonic entities, dispatching them to gather pure hearts and essences needed for intricate summoning rituals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Godrick Farsan?",
+   "aliases": [
+    "godrick farsan",
+    "who is godrick"
+   ],
+   "answer": "Godrick Farsan is a Forsaken warlock stationed in the Magic Quarter of the Undercity. He serves as an assistant to Master Carendin Halgar, aiding in the instruction and rituals of fledgling warlocks."
+  },
+  {
+   "q": "How can Godrick see if he is blind?",
+   "aliases": [
+    "is godrick blind",
+    "how does godrick see"
+   ],
+   "answer": "While Godrick has lost his mortal eyesight, he perceives his surroundings through magical senses. He taps into the flow of fel power and the spiritual resonance of souls to navigate and observe the world around him."
+  },
+  {
+   "q": "Is Godrick related to Strahad Farsan?",
+   "aliases": [
+    "strahad farsan relation",
+    "strahad farsan brother",
+    "are godrick and strahad related"
+   ],
+   "answer": "Sharing the same surname and affinity for demonology, Godrick is believed to be kin to Strahad Farsan, the warlock master residing above Ratchet in the Barrens."
+  },
+  {
+   "q": "What role does he play in warlock training?",
+   "aliases": [
+    "godrick warlock quests",
+    "hearts of the pure quest"
+   ],
+   "answer": "Godrick helps oversee the binding rites for warlocks, specifically guiding them through tasks such as acquiring pure hearts to lure and bind a succubus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Forsaken warlocks looking to master the art of summoning a succubus must consult Godrick to prepare the necessary lures and understand the devouring nature of demonic servants."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Godrick exemplifies the Forsaken warlock philosophy, embracing physical ruin and blindness while honing dark magical awareness to replace mortal frailties."
+  }
+ ],
+ "keywords": [
+  "carendin halgar",
+  "godrick farsan",
+  "hearts of the pure",
+  "strahad farsan",
+  "succubus",
+  "undercity",
+  "warlock"
+ ],
+ "related": [
+  "npc:carendin-halgar",
+  "quest:1476",
+  "quest:1472",
+  "npc:strahad-farsan",
+  "zone:undercity",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Godrick Farsan"
+ ]
+}

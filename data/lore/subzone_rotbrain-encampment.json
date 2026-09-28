@@ -1,0 +1,84 @@
+{
+ "key": "subzone:rotbrain-encampment",
+ "type": "subzone",
+ "name": "Rotbrain Encampment",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Rotbrain Encampment"
+ },
+ "summary": "The Rotbrain Encampment is a hostile encampment situated just outside Deathknell in Tirisfal Glades. It is held by newly risen undead who refuse allegiance to Sylvanas Windrunner and the Forsaken, lashing out in confusion and rage.",
+ "sections": [
+  {
+   "title": "A Gathering of the Refusal",
+   "body": "Not all corpses raised from the graves of Tirisfal Glades willingly accept their dark renewal. The Rotbrain Encampment gathers those freshly awakened dead who have succumbed to madness, confusion, or fierce denial. Under the command of Marcus Redpath, these mindless and recalcitrant undead, known as Rotbrains, congregate on the perimeter of Deathknell to plot vengeance against the Dark Lady's realm. Skirmishing incessantly with Deathguard Protectors, the encampment represents an immediate internal threat to the stability of the Forsaken's newborn ranks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Rotbrain Encampment?",
+   "aliases": [
+    "rotbrain camp",
+    "deathknell rotbrains",
+    "where are the rotbrains"
+   ],
+   "answer": "It is an outpost just outside Deathknell inhabited by newly resurrected undead who reject joining the Forsaken. Driven by confusion, madness, and denial, they organize under hostile leadership to strike back against Deathknell."
+  },
+  {
+   "q": "Who leads the Rotbrain Encampment?",
+   "aliases": [
+    "who leads rotbrains",
+    "rotbrain leader",
+    "marcus redpath camp"
+   ],
+   "answer": "The encampment is rallied under Marcus Redpath, an undead who refuses to serve the Forsaken and seeks vengeance against Sylvanas's followers."
+  },
+  {
+   "q": "Why do the Rotbrains attack the Forsaken?",
+   "aliases": [
+    "why are rotbrains hostile",
+    "why do rotbrains fight",
+    "rotbrain motives"
+   ],
+   "answer": "Upon waking from the grave, some undead cannot cope with the shock of their horrific transformation. Lost in denial, grief, or outright fury, they view the Forsaken as tormentors rather than liberators and lash out violently."
+  },
+  {
+   "q": "What kinds of enemies inhabit the camp?",
+   "aliases": [
+    "rotbrain types",
+    "rotbrain mobs"
+   ],
+   "answer": "The encampment is fortified with aggressive Rotbrain Berserkers and spellcasting Rotbrain Magi, who constantly skirmish with stationed Deathguard Protectors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The camp is a stark reminder of the tragedy of resurrection, showcasing the fate of those whose minds shatter upon waking into undeath."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing Deathknell's borders from chaotic renegades is crucial for maintaining the Horde's foothold across Lordaeron."
+  }
+ ],
+ "keywords": [
+  "berserker",
+  "darnell",
+  "deathknell",
+  "forsaken",
+  "magi",
+  "marcus redpath",
+  "rotbrain",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:deathknell",
+  "npc:marcus-redpath",
+  "topic:forsaken",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Rotbrain Encampment"
+ ]
+}

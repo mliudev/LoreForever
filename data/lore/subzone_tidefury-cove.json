@@ -1,0 +1,95 @@
+{
+ "key": "subzone:tidefury-cove",
+ "type": "subzone",
+ "name": "Tidefury Cove",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Tidefury Cove"
+ },
+ "summary": "Tidefury Cove is a treacherous stretch of water and rocky shallows along the southeastern coast of Dustwallow Marsh, south of Theramore Isle. Renowned for its hazardous reefs and wrecked vessels, it serves as a secluded haven for roaming makrura and solitary anglers.",
+ "sections": [
+  {
+   "title": "A Graveyard of Ships and Reefs",
+   "body": "Tucked away at the far end of Dustwallow Bay between Theramore Isle and the Wyrmbog, Tidefury Cove presents a notorious navigational hazard to passing sailors. Jagged reefs and shifting shoals have claimed multiple vessels over the years, leaving rotting wooden hulks half-submerged in the tideline. Today, the ruined ships are crawled over by opportunistic makrura, turning the cove into a dangerous, isolated stretch of coastline visited mostly by hardy scavengers or quiet hermits seeking distance from Theramore's busy docks.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Historic Foothold",
+   "body": "During the invasion of Durotar, the shores of Tidefury Cove became a crucial strategic battleground. Admiral Daelin Proudmoore's Kul Tiran expedition fortified the coast with an imposing coastal fortress and guard towers to command the approaches to Theramore. To break Proudmoore's grip, Thrall marshaled the combined strength of the young Horde\u2014uniting orcs, Darkspear trolls, and tauren alongside Rexxar and the Stonemaul ogres\u2014to storm the shoreline and dismantle the Kul Tiran beachhead before pressing directly toward the island fortress.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Tidefury Cove located?",
+   "aliases": [
+    "tidefury cove location",
+    "where is tidefury cove",
+    "tidefury cove map"
+   ],
+   "answer": "Tidefury Cove sits along the southeastern edge of Dustwallow Marsh, just south of Theramore Isle and bordering the Wyrmbog coast at the southern end of Dustwallow Bay."
+  },
+  {
+   "q": "Why are there shipwrecks in Tidefury Cove?",
+   "aliases": [
+    "tidefury shipwrecks",
+    "broken ships tidefury",
+    "sunken ships dustwallow bay"
+   ],
+   "answer": "The cove is filled with shallow sandbars and hidden rocky reefs that make navigation extremely hazardous. Ships that stray too close to the coast frequently run aground, where waves and scavengers quickly reduce them to broken hulls."
+  },
+  {
+   "q": "Who lives in Tidefury Cove today?",
+   "aliases": [
+    "who is in tidefury cove",
+    "tidefury cove residents",
+    "nat pagle location"
+   ],
+   "answer": "Aside from aggressive shoreline makrura, the cove's most notable resident is the famed angler Nat Pagle, who maintains an encampment known as Nat's Landing on one of the outer islets."
+  },
+  {
+   "q": "What battle took place here in the past?",
+   "aliases": [
+    "battle of tidefury cove",
+    "warcraft 3 tidefury",
+    "invasion of durotar tidefury"
+   ],
+   "answer": "During Admiral Daelin Proudmoore's campaign against the new Horde, Kul Tiran forces built a heavily fortified coastal stronghold here. Thrall's Horde, bolstered by tauren and ogre allies, assaulted and destroyed the base to clear the way to Theramore Isle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, this coastline was the launching point for the final counter-offensive that broke Grand Admiral Proudmoore's naval aggression and secured the young nation's survival."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "The rich coastal shallows and proximity to master angler Nat Pagle make this stretch of Dustwallow a prime destination for fishermen seeking prized catches."
+  }
+ ],
+ "keywords": [
+  "cove",
+  "dustwallow",
+  "makrura",
+  "pagle",
+  "proudmoore",
+  "reefs",
+  "shipwreck",
+  "theramore",
+  "tidefury"
+ ],
+ "related": [
+  "subzone:dustwallow-bay",
+  "subzone:nat-s-landing",
+  "subzone:theramore-isle",
+  "subzone:wyrmbog",
+  "zone:dustwallow",
+  "npc:nat-pagle",
+  "npc:thrall",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Tidefury Cove"
+ ]
+}

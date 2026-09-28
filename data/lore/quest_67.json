@@ -1,0 +1,123 @@
+{
+ "key": "quest:67",
+ "type": "quest",
+ "name": "The Legend of Stalvan",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   67
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Clerk Daltry",
+  "end": "Old Footlocker",
+  "previous": "The Legend of Stalvan (Classic)",
+  "next": "The Legend of Stalvan (3)",
+  "wiki": "The Legend of Stalvan (2)",
+  "chain": []
+ },
+ "summary": "This errand begins the paper trail into the fate of Stalvan Mistmantle, sent by Clerk Daltry from the town hall of Darkshire. His oldest records point across kingdom borders to the abandoned Moonbrook Schoolhouse in Westfall, setting off a classic investigation into an ordinary man's unraveling.",
+ "sections": [
+  {
+   "title": "The Town Clerk's Request",
+   "body": "After the initial inquiries in Darkshire, Clerk Daltry pulls the town registry to locate Stalvan Mistmantle. To his surprise, the ledger hasn't been updated in years and lists Stalvan's last known residence far to the west, at the schoolhouse in Moonbrook. Unaware of the sinister nature of the investigation, Daltry treats it as routine bureaucratic upkeep, asking travelers to look into the address and gather whatever records might bring Darkshire's dusty archives up to date.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ruins of Moonbrook",
+   "body": "Following the trail means venturing beyond the gloom of Duskwood into the lawless dust of Westfall. Moonbrook, once a thriving agricultural settlement, now crawls with Defias Brotherhood outlaws. Near the center of the derelict town stands its abandoned schoolhouse, standing quiet amid the bandit occupation. Inside, an old footlocker holds the first tangible clues to Stalvan's past life as an educator, as well as a lingering, restless sorrow bound to the chest.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Tragic Haunting",
+   "body": "Disturbing the old footlocker reveals more than just forgotten pages; it summons a Forlorn Spirit that attacks anyone unearthing Stalvan's past. The apparition's mournful magic curses intruders and hints at an unresolved tragedy tied to the schoolmaster's departure from Westfall, marking the transition of a simple historical inquiry into an active haunting.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Clerk Daltry?",
+   "aliases": [
+    "daltry",
+    "darkshire clerk",
+    "who starts legend of stalvan 2"
+   ],
+   "answer": "Clerk Daltry is the town records keeper situated in the Darkshire Town Hall in Duskwood. He assists by searching the local registry for mention of Stalvan Mistmantle, only to find ancient, outdated entries."
+  },
+  {
+   "q": "Where is the Moonbrook Schoolhouse?",
+   "aliases": [
+    "moonbrook schoolhouse location",
+    "where is the schoolhouse",
+    "where is stalvan footlocker"
+   ],
+   "answer": "The schoolhouse is located in Moonbrook in southwestern Westfall. It resembles the Darkshire town hall in architecture and stands in the middle of town, surrounded by hostile Defias bandits."
+  },
+  {
+   "q": "What is inside the Old Footlocker?",
+   "aliases": [
+    "stalvan footlocker",
+    "what is in the footlocker"
+   ],
+   "answer": "The footlocker holds old records and personal belongings from Stalvan Mistmantle's tenure as an instructor in Moonbrook, providing the next lead in the search for his whereabouts."
+  },
+  {
+   "q": "Why does a ghost attack when opening the footlocker?",
+   "aliases": [
+    "forlorn spirit",
+    "why does a ghost spawn",
+    "curse of stalvan ghost"
+   ],
+   "answer": "Opening the footlocker summons a Forlorn Spirit that attacks with polymorph and curses. The restless apparition is bound to the dark tragedy surrounding Stalvan's past and his departure from Moonbrook."
+  },
+  {
+   "q": "Why did Stalvan leave Westfall?",
+   "aliases": [
+    "why did stalvan leave moonbrook",
+    "stalvan moonbrook history"
+   ],
+   "answer": "Stalvan served as a schoolmaster in Moonbrook before moving on to seek private tutoring employment elsewhere in the kingdom, leaving his old schoolhouse belongings locked away in the abandoned town."
+  },
+  {
+   "q": "Is Moonbrook safe to enter?",
+   "aliases": [
+    "is moonbrook dangerous",
+    "mobs in moonbrook"
+   ],
+   "answer": "No. Moonbrook has fallen entirely under the control of the Defias Brotherhood, meaning anyone seeking the schoolhouse must fight through armed thieves and outlaws."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This leg of the investigation highlights how deeply the kingdom's rural towns have fractured, forcing heroes to trek through Defias-occupied Westfall just to resolve a Darkshire town registry query."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The Forlorn Spirit that guards the footlocker uses polymorphism and debilitating curses, offering an eerie encounter with sorrow-bound magic in an otherwise mundane classroom setting."
+  }
+ ],
+ "keywords": [
+  "daltry",
+  "duskwood",
+  "footlocker",
+  "forlorn spirit",
+  "mistmantle",
+  "moonbrook",
+  "schoolhouse",
+  "stalvan",
+  "westfall"
+ ],
+ "related": [
+  "npc:clerk-daltry",
+  "subzone:moonbrook-schoolhouse",
+  "subzone:moonbrook",
+  "zone:westfall",
+  "zone:duskwood",
+  "quest:938"
+ ],
+ "attribution": [
+  "The Legend of Stalvan (2)"
+ ]
+}

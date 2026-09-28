@@ -1,0 +1,121 @@
+{
+ "key": "quest:314",
+ "type": "quest",
+ "name": "Protecting the Herd",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   314
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Rudra Amberstill",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Protecting the Herd",
+  "chain": []
+ },
+ "summary": "Protecting the Herd is a task given by Rudra Amberstill at the Amberstill Ranch in Dun Morogh. A ferocious predatory beast named Vagash has been attacking the ranch's prized mountain rams in the night, and with Ironforge's military garrison spread thin across the realm, the local breeders must rely on passing adventurers for defense.",
+ "sections": [
+  {
+   "title": "A Threat to the Ranch",
+   "body": "Amberstill Ranch supplies the mountain rams that serve as iconic mounts and working beasts for the Bronzebeard dwarves. Maintaining these herds is vital to Dun Morogh's rustic economy. When night fell and frantic cries echoed over the paddocks, the Amberstill family discovered two of their prized rams missing. The culprit is Vagash, a notorious and savage beast lurking in the nearby crags above the ranch, known for violently preying on local livestock.",
+   "spoiler": 0
+  },
+  {
+   "title": "Strained Defenses",
+   "body": "Normally, local threats of this magnitude would be handled by the dwarven mountaineers or King Magni Bronzebeard's royal forces. However, Ironforge's standing army is currently stretched thin across distant frontiers supporting the broader Alliance. Left without an official military detachment to patrol the ridgelines, Rudra Amberstill is forced to ask independent fighters to hunt down Vagash and bring back one of the beast's deadly fangs as proof.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Vagash?",
+   "aliases": [
+    "what is vagash",
+    "vagash monster",
+    "vagash lore"
+   ],
+   "answer": "Vagash is a dangerous, predatory monster that stalks the snowy ridges directly above Amberstill Ranch. Feared for his sheer strength and vicious appetite, he poses a lethal threat to both domestic ram herds and unwary travelers in eastern Dun Morogh."
+  },
+  {
+   "q": "Where can Vagash be found?",
+   "aliases": [
+    "vagash location",
+    "where is vagash",
+    "find vagash"
+   ],
+   "answer": "Vagash makes his den in a snow-covered cave high up in the crags overlooking the Amberstill Ranch. Ascending the snowy hill just past the pine trees behind the homestead leads directly to the mouth of his lair."
+  },
+  {
+   "q": "Why are the Ironforge guards not handling this?",
+   "aliases": [
+    "why no guards",
+    "where is ironforge army",
+    "why help amberstill"
+   ],
+   "answer": "King Magni Bronzebeard's forces are currently spread thin defending strategic garrisons and supporting distant Alliance campaign efforts. As a result, rural homesteads like Amberstill Ranch must fend for themselves or recruit capable adventurers."
+  },
+  {
+   "q": "Who is Veron mentioned by Rudra?",
+   "aliases": [
+    "who is veron",
+    "veron amberstill",
+    "veron"
+   ],
+   "answer": "Veron Amberstill is a master ram breeder at the ranch who trains and tends the Bronzebeards' celebrated riding rams. Rudra mentions that Veron will be immensely relieved once the predatory menace stalking their prized animals is eliminated."
+  },
+  {
+   "q": "Why is proof of the kill required?",
+   "aliases": [
+    "why vagash fang",
+    "fang of vagash",
+    "what is the proof"
+   ],
+   "answer": "Rudra asks for Vagash's fang to ensure beyond a shadow of a doubt that the genuine monster terrorizing their herds has been slain, rather than a common prowler from the mountain slopes."
+  },
+  {
+   "q": "What importance do the rams have to Dun Morogh?",
+   "aliases": [
+    "why are rams important",
+    "amberstill ram purpose",
+    "dwarf rams lore"
+   ],
+   "answer": "Mountain rams are hardy, sure-footed creatures uniquely suited to navigating the freezing, rocky terrain of Khaz Modan. They serve as essential draft animals, wool sources, and cavalry mounts for the dwarven kingdom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarven wanderers, defending Amberstill Ranch protects the very mountain rams that carry your kin into battle across Khaz Modan."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking down a notorious apex predator like Vagash in his mountain den is a classic proving ground for any tracker honing their skills in Dun Morogh's snowdrifts."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With High Seat regiments drawn outward to bolster Alliance commitments across the Eastern Kingdoms, aiding hard-pressed rural homesteads helps stabilize the home front."
+  }
+ ],
+ "keywords": [
+  "amberstill ranch",
+  "dun morogh",
+  "ironforge",
+  "mountain rams",
+  "protecting the herd",
+  "rudra amberstill",
+  "vagash",
+  "veron amberstill"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "zone:ironforge",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Protecting the Herd"
+ ]
+}

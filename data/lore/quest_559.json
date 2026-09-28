@@ -1,0 +1,127 @@
+{
+ "key": "quest:559",
+ "type": "quest",
+ "name": "Farren's Proof",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   559
+  ],
+  "level": "32",
+  "faction": "Alliance",
+  "start": "Lieutenant Farren Orinelle",
+  "end": "",
+  "previous": "Down the Coast",
+  "next": "Farren's Proof (2)",
+  "wiki": "Farren's Proof",
+  "chain": [
+   "Down the Coast",
+   "Farren's Proof",
+   "Farren's Proof (2)",
+   "Farren's Proof (3)",
+   "Stormwind Ho!",
+   "Reassignment"
+  ]
+ },
+ "summary": "Farren's Proof is an Alliance assignment in Southshore given by Lieutenant Farren Orinelle. Tasked with proving his coastal patrol efforts to his superior, Magistrate Henry Maleb and Captain Redpath, Farren sends recruits out to harvest severed murloc heads along the Western Strand.",
+ "sections": [
+  {
+   "title": "A Grudging Request",
+   "body": "Following initial sweeps along the coastline in Down the Coast, Lieutenant Farren Orinelle finds himself under scrutiny by Captain Redpath and town leadership. Claiming credit for clearing out the local murlocs is one thing; presenting undeniable evidence to skeptical superiors is quite another. Unwilling to soil his own hands with gruesome butchery, Farren tasks wandering Alliance adventurers with returning to the shoreline to collect tangible proof of the kill.",
+   "spoiler": 0
+  },
+  {
+   "title": "Grisly Evidence",
+   "body": "The task takes fighters west of Southshore along the Western Strand, where coastal murlocs nest along the shallows. The lieutenant requires ten severed murloc heads to appease the town garrison's officers. Farren himself detests the creatures, admitting that the repulsive sight and smell of amphibious fish-men has utterly ruined his appetite for Southshore's primary export and staple food.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lieutenant Farren Orinelle?",
+   "aliases": [
+    "farren orinelle",
+    "who gives farren's proof",
+    "lieutenant farren"
+   ],
+   "answer": "Lieutenant Farren Orinelle is an Alliance town officer stationed in Southshore. While eager to report success to his superiors, he prefers delegating the violent and filthy aspects of shoreline security to capable adventurers."
+  },
+  {
+   "q": "Why does Farren need severed murloc heads?",
+   "aliases": [
+    "why murloc heads",
+    "farren proof reason",
+    "why collect heads"
+   ],
+   "answer": "Captain Redpath and town officials were not satisfied by simple verbal reports that the Western Strand had been cleared. They demanded physical evidence of dead murlocs before officially acknowledging the patrol's success."
+  },
+  {
+   "q": "Where are these murlocs located?",
+   "aliases": [
+    "murloc head location",
+    "where is western strand",
+    "murloc spots hillsbrad"
+   ],
+   "answer": "The murlocs inhabit the Western Strand, the coastal beaches stretching directly west of Southshore toward the border of Silverpine Forest."
+  },
+  {
+   "q": "What happens after turning in Farren's Proof?",
+   "aliases": [
+    "next quest after farren's proof",
+    "farren quest chain",
+    "farren's proof followup"
+   ],
+   "answer": "Farren's administrative troubles continue. Satisfying Captain Redpath turns out to be only the first bureaucratic hurdle, leading to further requests for proof and eventually orders tied to Stormwind command."
+  },
+  {
+   "q": "Why is Farren disgusted by the murlocs?",
+   "aliases": [
+    "farren fish",
+    "why doesn't farren like fish"
+   ],
+   "answer": "Farren finds walking, bipedal fish inherently repulsive. Handling their cold, slimy remains has completely turned his stomach against eating fish, making daily life in Southshore's fishing community miserable for him."
+  },
+  {
+   "q": "Who is Captain Redpath?",
+   "aliases": [
+    "captain redpath",
+    "who is redpath"
+   ],
+   "answer": "Captain Redpath is a commanding military officer within the Southshore town defense forces, responsible for holding junior officers like Farren Orinelle accountable for regional security."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Holding Southshore requires securing its coastlines against native predators so the outpost can focus on threats from the Syndicate and the Horde."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "For fish-based cooks in Southshore, Farren's squeamish aversion to seafood is baffling, though fighting along the beach often yields spare raw catches."
+  }
+ ],
+ "keywords": [
+  "farren",
+  "heads",
+  "hillsbrad",
+  "murloc",
+  "orinelle",
+  "redpath",
+  "southshore",
+  "strand"
+ ],
+ "related": [
+  "npc:lieutenant-farren-orinelle",
+  "quest:536",
+  "subzone:southshore",
+  "zone:hillsbrad",
+  "topic:murloc",
+  "quest:562",
+  "quest:563",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Farren's Proof"
+ ]
+}

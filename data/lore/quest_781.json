@@ -1,0 +1,118 @@
+{
+ "key": "quest:781",
+ "type": "quest",
+ "name": "Attack on Camp Narache",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   781
+  ],
+  "level": "4",
+  "faction": "Horde",
+  "start": "Dirt-stained Map",
+  "end": "Chief Hawkwind",
+  "previous": "",
+  "next": "",
+  "wiki": "Attack on Camp Narache",
+  "chain": []
+ },
+ "summary": "Attack on Camp Narache is a vital discovery made within the quilboar den of Brambleblade Ravine. A dirt-stained map reveals that the aggressive Bristleback tribe is actively plotting an organized siege against Camp Narache. Delivering these plans to Chief Hawkwind alerts the Red Cloud tauren in time to summon aid from Bloodhoof Village.",
+ "sections": [
+  {
+   "title": "A Plot in the Brambles",
+   "body": "While scouting deep inside the caverns of Brambleblade Ravine, young tauren adventurers uncover a crude, dirt-stained map laying on the rock floor. Upon closer inspection, the parchment reveals deliberate tactical markings made by the Bristleback quilboar. Rather than engaging in mere opportunistic skirmishes, the quilboar are coordinating a full-scale, prolonged siege against Camp Narache.",
+   "spoiler": 0
+  },
+  {
+   "title": "Warning the Chieftain",
+   "body": "Carrying the attack plans back to Camp Narache provides Chief Hawkwind with crucial intelligence. Recognizing the dire threat posed to the relatively undefended camp and its young initiates, Hawkwind prepares to send word to Bloodhoof Village for reinforcements. The intercepted map transforms what could have been a catastrophic ambush into a prepared defense.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Bristleback attack plans found?",
+   "aliases": [
+    "map location",
+    "where is dirt-stained map",
+    "find the plans"
+   ],
+   "answer": "The plans originate from a dirt-stained map located inside a cave in Brambleblade Ravine, just up a path to the right of Chief Sharptusk's hut."
+  },
+  {
+   "q": "Who receives the Bristleback attack plans?",
+   "aliases": [
+    "who to turn in to",
+    "who gets the map",
+    "quest ender"
+   ],
+   "answer": "The plans must be delivered directly to Chief Hawkwind at the center of Camp Narache."
+  },
+  {
+   "q": "Why are the Bristleback quilboar targeting Camp Narache?",
+   "aliases": [
+    "why attack camp narache",
+    "quilboar motives mulgore",
+    "bristleback siege"
+   ],
+   "answer": "The Bristleback tribe seeks to drive the tauren from the Red Cloud Mesa and reclaim the hunting grounds and sacred plains of Mulgore for their own kind."
+  },
+  {
+   "q": "How does Chief Hawkwind plan to counter the siege?",
+   "aliases": [
+    "hawkwind plan",
+    "reinforcements camp narache"
+   ],
+   "answer": "With early warning provided by the intercepted map, Chief Hawkwind intends to call upon their brethren in Bloodhoof Village to reinforce the mesa and repel the assault."
+  },
+  {
+   "q": "Does this quest require speaking to anyone before picking up the map?",
+   "aliases": [
+    "quest starter",
+    "dirt stained map starter",
+    "how to start attack on camp narache"
+   ],
+   "answer": "No. The quest begins directly from the Dirt-stained Map lying on the cave floor in Brambleblade Ravine, turning into the battle plans once retrieved."
+  },
+  {
+   "q": "What happens if Camp Narache falls?",
+   "aliases": [
+    "stakes of camp narache",
+    "why defend narache"
+   ],
+   "answer": "Camp Narache is the primary haven for young tauren braves and rites of passage; losing it would compromise the security of Red Cloud Mesa and sever Mulgore's spiritual training grounds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren braves undertaking their earliest rites on the mesa, intercepting this map proves your loyalty to your tribe and protects your kin from a sudden massacre."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Preserving the tauren's foothold in Mulgore ensures the Horde retains its vital southern anchor in central Kalimdor."
+  }
+ ],
+ "keywords": [
+  "attack plans",
+  "bloodhoof village",
+  "brambleblade ravine",
+  "bristleback",
+  "camp narache",
+  "chief hawkwind",
+  "dirt-stained map",
+  "quilboar",
+  "red cloud mesa"
+ ],
+ "related": [
+  "subzone:camp-narache",
+  "subzone:brambleblade-ravine",
+  "npc:chief-hawkwind",
+  "subzone:bloodhoof-village",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Attack on Camp Narache"
+ ]
+}

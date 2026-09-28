@@ -1,0 +1,90 @@
+{
+ "key": "subzone:ban-ethil-barrow-den",
+ "type": "subzone",
+ "name": "Ban'ethil Barrow Den",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Ban'ethil Barrow Den"
+ },
+ "summary": "Ban'ethil Barrow Den is a sacred subterranean sanctuary hollowed out within the roots of Teldrassil. Originally created as a resting place for the sleeping Druids of the Talon, the cavern complex has recently fallen into chaos. The corrupted furbolgs of the Gnarlpine tribe have overrun its chambers, turning a place of peaceful slumber into a perilous den of madness.",
+ "sections": [
+  {
+   "title": "A Defiled Sanctuary",
+   "body": "Barrow dens serve as sacred resting chambers where night elf druids slumber while projecting their spirits into the Emerald Dream. Ban'ethil Barrow Den was dedicated specifically to sheltering the Druids of the Talon as they communed with nature. Divided into upper and lower subterranean chambers, the den once resonated with tranquil reverie and deep meditative magic. However, the affliction sweeping Teldrassil's wildlife did not spare the Gnarlpine furbolgs, who invaded the complex, turning its hollowed halls into a fortified warren.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Gnarlpine Incursion",
+   "body": "Driven mad by mysterious corruption taking root across the World Tree, the Gnarlpine tribe drove out or endangered the slumbering druids within Ban'ethil. The furbolgs now fiercely guard the winding tunnels, aggressive toward any night elf who approaches. For the defenders of Teldrassil, reclaiming the barrow den is an urgent priority, not merely to drive back the hostile furbolgs, but to protect the vulnerable druids and sacred relics trapped within its lower depths.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Ban'ethil Barrow Den?",
+   "aliases": [
+    "what is ban'ethil",
+    "ban'ethil barrow den purpose",
+    "what is this cave"
+   ],
+   "answer": "Ban'ethil Barrow Den is a subterranean hollow in Teldrassil crafted by the night elves. It was designed to shelter sleeping Druids of the Talon while their spirits roamed the Emerald Dream."
+  },
+  {
+   "q": "Why are there furbolgs inside Ban'ethil Barrow Den?",
+   "aliases": [
+    "why are gnarlpine in ban'ethil",
+    "furbolgs in barrow den",
+    "who took over ban'ethil"
+   ],
+   "answer": "The Gnarlpine furbolgs have fallen victim to a spreading corruption affecting Teldrassil's creatures. Driven hostile and territorial, they invaded the barrow den, displacing the keepers and threatening the slumbering druids."
+  },
+  {
+   "q": "What are the sections of the barrow den?",
+   "aliases": [
+    "ban'ethil layout",
+    "upper den lower den",
+    "ban'ethil levels"
+   ],
+   "answer": "The cavern complex is split into two primary interconnected tiers: the Upper Den near the entrance passages and the Lower Den deeper in the subterranean roots."
+  },
+  {
+   "q": "Why are barrow dens so important to druids?",
+   "aliases": [
+    "why do druids sleep in barrows",
+    "druid barrow dens lore",
+    "emerald dream barrow den"
+   ],
+   "answer": "Barrow dens provide safe, secure physical shelter for druids who enter prolonged, deep slumbers to project their consciousness into the Emerald Dream, leaving their waking bodies helpless for years or decades."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Ban'ethil represents sacred ground for the Cenarion Circle, specifically built to protect Druids of the Talon while communing with the Emerald Dream."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The occupation of Ban'ethil by corrupted Gnarlpine furbolgs is an alarming sign of the growing sickness plaguing their new home of Teldrassil."
+  }
+ ],
+ "keywords": [
+  "ban'ethil",
+  "barrow den",
+  "druids of the talon",
+  "emerald dream",
+  "furbolg",
+  "gnarlpine",
+  "teldrassil"
+ ],
+ "related": [
+  "zone:teldrassil",
+  "topic:druid",
+  "topic:furbolg",
+  "topic:night-elf",
+  "quest:940"
+ ],
+ "attribution": [
+  "Ban'ethil Barrow Den"
+ ]
+}

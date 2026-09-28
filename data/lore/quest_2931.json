@@ -1,0 +1,123 @@
+{
+ "key": "quest:2931",
+ "type": "quest",
+ "name": "Castpipe's Task",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2931
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Gaxim Rustfizzle",
+  "end": "Master Mechanic Castpipe",
+  "previous": null,
+  "next": "Data Rescue",
+  "wiki": "Castpipe's Task",
+  "chain": [
+   "Castpipe's Task",
+   "Data Rescue"
+  ]
+ },
+ "summary": "Castpipe's Task is an Alliance summons directing capable adventurers to seek out Master Mechanic Castpipe in Ironforge. Castpipe is coordinating perilous salvage operations into the irradiated ruins of Gnomeregan to extract vital mechanical and technical records. It serves as an official briefing that points mercenaries toward deep-retrieval missions inside the fallen city.",
+ "sections": [
+  {
+   "title": "A Call to Tinkertown",
+   "body": "Following the tragic fall and subsequent radioactive quarantine of Gnomeregan, the surviving gnomes took refuge in Ironforge's Tinkertown. While their grand home remains overrun by troggs and irradiated constructs, crucial operational records and mechanical schematics are trapped deep within the city's surviving computing arrays. Recognizing that these files could prove invaluable to reclaiming or understanding what went wrong, Master Mechanic Castpipe began actively enlisting intrepid outsiders willing to brave the toxic halls.",
+   "spoiler": 0
+  },
+  {
+   "title": "Assembly Endorsement",
+   "body": "Word of Castpipe's venture is spread by figures like Gaxim Rustfizzle of the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences. Though Castpipe is not a member of this esteemed academic body himself, fellow gnomes respect his technical acumen enough to endorse the effort. Rustfizzle's own calculations put the likelihood of Castpipe's mission having true strategic value at an encouraging eighty-four percent, motivating travelers to report to Tinkertown for orders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Master Mechanic Castpipe?",
+   "aliases": [
+    "castpipe",
+    "who is castpipe",
+    "master mechanic castpipe"
+   ],
+   "answer": "Master Mechanic Castpipe is a respected gnomish engineer based in Tinkertown within Ironforge. He organizes salvage teams and data recovery operations focused on the subterranean ruins of Gnomeregan."
+  },
+  {
+   "q": "Why does Castpipe want data from Gnomeregan?",
+   "aliases": [
+    "gnomeregan data",
+    "why retrieve data",
+    "gnomeregan records"
+   ],
+   "answer": "When Gnomeregan was contaminated and evacuated, vast amounts of critical technical knowledge, blueprints, and internal system logs were left behind in the mainframe memory. Retrieving this information is vital for the displaced gnomes hoping to rebuild."
+  },
+  {
+   "q": "Who is Gaxim Rustfizzle?",
+   "aliases": [
+    "gaxim",
+    "rustfizzle"
+   ],
+   "answer": "Gaxim Rustfizzle is a gnome scholar affiliated with the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences. He acts as an advocate and liaison, directing capable adventurers toward Castpipe's recovery efforts."
+  },
+  {
+   "q": "Where can Castpipe be found?",
+   "aliases": [
+    "castpipe location",
+    "where is castpipe"
+   ],
+   "answer": "Master Mechanic Castpipe is stationed in Tinkertown, the gnome-settled district in the northwestern quarter of the dwarven capital city of Ironforge."
+  },
+  {
+   "q": "What happens after reporting to Castpipe?",
+   "aliases": [
+    "next quest",
+    "what comes next",
+    "after castpipe"
+   ],
+   "answer": "Reporting to Master Mechanic Castpipe leads directly into a mission within the fallen city itself, known as Data Rescue, where adventurers must penetrate Gnomeregan's contaminated interior to extract computer punch cards and storage media."
+  },
+  {
+   "q": "What is the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences?",
+   "aliases": [
+    "the assembly",
+    "enlightened assembly"
+   ],
+   "answer": "The Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences is a prestigious gnomish intellectual society dedicated to rigorous scientific, magical, and mechanical study. Its members, such as Gaxim Rustfizzle, apply rigorous probability to evaluate critical tasks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every recovery operation represents a fragment of your fallen home preserved from radiation and destruction, making Castpipe's mission a matter of cultural survival."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The data cores inside Gnomeregan hold computational marvels and advanced schematics unmatched anywhere else on Azeroth."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Assisting the displaced gnomish allies in securing their lost archives helps stabilize Tinkertown and strengthens the Alliance's collective technological standing."
+  }
+ ],
+ "keywords": [
+  "assembly",
+  "castpipe",
+  "data rescue",
+  "gaxim",
+  "gnomeregan",
+  "ironforge",
+  "rustfizzle",
+  "tinkertown"
+ ],
+ "related": [
+  "quest:2930",
+  "npc:gaxim-rustfizzle",
+  "zone:gnomeregan",
+  "zone:ironforge",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Castpipe's Task"
+ ]
+}

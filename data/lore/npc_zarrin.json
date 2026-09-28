@@ -1,0 +1,73 @@
+{
+ "key": "npc:zarrin",
+ "type": "npc",
+ "name": "Zarrin",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Zarrin",
+  "refs": 1
+ },
+ "summary": "Zarrin is a night elf culinary mentor located in Dolanaar on the boughs of Teldrassil. Tending an open hearth behind the village inn, he instructs young night elves and visitors in traditional Kaldorei cooking techniques.",
+ "sections": [
+  {
+   "title": "Hearthkeeper of Dolanaar",
+   "body": "Situated behind the Dolanaar inn away from the main thoroughfare, Zarrin tends an open fire where he shares the culinary arts of the Kaldorei. Survival in Teldrassil requires utilizing the native flora and fauna of the giant tree, and Zarrin serves as an instructor for those seeking to sustain themselves through foraging and home-cooked meals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Zarrin?",
+   "aliases": [
+    "zarrin location",
+    "where is zarrin",
+    "dolanaar cooking trainer"
+   ],
+   "answer": "Zarrin stands behind the inn in Dolanaar on Teldrassil, working over a cooking fire in the open yard opposite the road."
+  },
+  {
+   "q": "What does Zarrin teach?",
+   "aliases": [
+    "zarrin trainer",
+    "what does zarrin teach"
+   ],
+   "answer": "He is a Cooking trainer who teaches the basics of culinary preparation and traditional night elf recipes to novices."
+  },
+  {
+   "q": "What tasks does Zarrin offer?",
+   "aliases": [
+    "zarrin quest",
+    "recipe of the kaldorei quest"
+   ],
+   "answer": "Zarrin asks travelers to help him prepare traditional dishes, offering the quest 'Recipe of the Kaldorei' to teach newcomers local culinary practices."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "For adventurers beginning their journey in Teldrassil, Zarrin is the primary mentor for learning how to turn wild beast meats and foraged goods into nourishing meals."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Zarrin preserves everyday Kaldorei foodways, ensuring that traditional tastes and methods endure within the canopy of the World Tree."
+  }
+ ],
+ "keywords": [
+  "cooking",
+  "dolanaar",
+  "kaldorei",
+  "teldrassil",
+  "trainer",
+  "zarrin"
+ ],
+ "related": [
+  "subzone:dolanaar",
+  "quest:4161",
+  "zone:teldrassil",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Zarrin"
+ ]
+}

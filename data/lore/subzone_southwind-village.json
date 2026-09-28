@@ -1,0 +1,90 @@
+{
+ "key": "subzone:southwind-village",
+ "type": "subzone",
+ "name": "Southwind Village",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Southwind Village"
+ },
+ "summary": "Southwind Village is the haunted ruin of a night elf outpost located in the sands of Silithus. Wiped out by the qiraji during the War of the Shifting Sands, its streets are now bound by the restless spirits of fallen defenders and prowling silithid.",
+ "sections": [
+  {
+   "title": "A Tragedy in the Sands",
+   "body": "Southwind Village once served as a primary night elf stronghold during the ancient War of the Shifting Sands a thousand years ago. When the qiraji legions breached the defensive perimeter, Valstann Staghelm\u2014son of Archdruid Fandral Staghelm\u2014led a detachment to hold the village. The defense ended in utter disaster: the night elven defenders were overwhelmed and slaughtered, and Valstann himself was dragged away into captivity by General Rajaxx. The village was completely ruined, leaving its former buildings fractured under the sun.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Tormented Dead",
+   "body": "A millennium after its fall, Southwind Village remains an open wound in the desert. The trauma of the assault was so absolute that the spirits of the slain night elf Sentinels and druids could not move on. Driven mad by the horror of their final moments, these restless phantoms\u2014led by the Shade of Ambermoon\u2014endlessly roam the crumbled stone walls, lashing out at any who intrude while predatory silithid swarm the surrounding dunes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to Southwind Village?",
+   "aliases": [
+    "why is southwind ruined",
+    "southwind lore",
+    "what destroyed southwind village"
+   ],
+   "answer": "Southwind Village was destroyed a thousand years ago during the War of the Shifting Sands. The ravenous qiraji army swarmed the night elven garrison, mercilessly butchering its defenders and flattening the outpost."
+  },
+  {
+   "q": "Who was Valstann Staghelm?",
+   "aliases": [
+    "valstann staghelm southwind",
+    "fandral staghelm son",
+    "who defended southwind"
+   ],
+   "answer": "Valstann Staghelm was the beloved son of Archdruid Fandral Staghelm. He led the desperate defense of Southwind Village against the invading insectoids, but his troops were decimated and he was captured by the qiraji commander, General Rajaxx."
+  },
+  {
+   "q": "Why are there night elf ghosts here?",
+   "aliases": [
+    "southwind spirits",
+    "why are there ghosts in southwind",
+    "shade of ambermoon"
+   ],
+   "answer": "The sudden and brutal slaughter of the defenders trapped their souls in the ruins. The spirits of the slain druids and Sentinels are caught in an eternal loop of their final, terrifying battle, overseen by the lingering Shade of Ambermoon."
+  },
+  {
+   "q": "Are the bugs related to what destroyed the village?",
+   "aliases": [
+    "silithid southwind",
+    "are bugs connected to southwind"
+   ],
+   "answer": "Yes. The silithid swarming around the ruins are part of the broader insectoid scourge tied to the qiraji, the very force that invaded Silithus and destroyed the outpost centuries ago."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, Southwind Village represents one of the most agonizing defeats in their history, and the tortured specters wandering its broken masonry are fellow kaldorei awaiting peace."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The ruined grove-like structures and tormented spirits of ancient druids lingering in Southwind serve as a grim reminder of nature's loss against the insectoid hordes."
+  }
+ ],
+ "keywords": [
+  "fandral staghelm",
+  "qiraji",
+  "rajaxx",
+  "shade of ambermoon",
+  "silithus",
+  "southwind village",
+  "valstann staghelm",
+  "war of the shifting sands"
+ ],
+ "related": [
+  "zone:silithus",
+  "npc:fandral-staghelm",
+  "topic:night-elf",
+  "topic:sentinels",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Southwind Village"
+ ]
+}

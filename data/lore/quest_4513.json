@@ -1,0 +1,114 @@
+{
+ "key": "quest:4513",
+ "type": "quest",
+ "name": "A Little Slime Goes a Long Way",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   4513
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Laris Geardawdle",
+  "end": "",
+  "previous": "A Little Slime Goes a Long Way",
+  "next": null,
+  "wiki": "A Little Slime Goes a Long Way (2)",
+  "chain": []
+ },
+ "summary": "Following his initial study of tainted specimens, the gnome researcher Laris Geardawdle seeks untainted ooze samples to understand how these strange creatures adapt to their environment. Having realized that oozes absorb the corrupted nature of places like Felwood, he sends adventurers to discover and gather pure, unpolluted specimens from across Kalimdor.",
+ "sections": [
+  {
+   "title": "A Matter of Purity",
+   "body": "Laris Geardawdle's preliminary experiments in Ironforge hit an immediate stumbling block: the oozes he previously examined were thoroughly polluted by the dark energies of Felwood. While this demonstrated that oozes absorb and reflect the traits of their surroundings, it left him without a control group. To understand the baseline nature of ooze life, he needs specimens untouched by demonic taint or urban filth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tracking the Primal Slime",
+   "body": "Finding untainted slimes is no simple task on an Azeroth scarred by corruption and war. The trail ultimately leads far south to the prehistoric basin of Un'Goro Crater, where Glutinous Oozes thrive in an isolated, primordial ecosystem. By securing samples from these wild creatures, adventurers provide Laris with the rare, pure material he needs to uncover how these amorphous beings interact with Azeroth's living biomes.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Laris Geardawdle need pure ooze samples?",
+   "aliases": [
+    "why pure ooze",
+    "laris pure slime",
+    "what is pure ooze"
+   ],
+   "answer": "His earlier specimens were tainted by the corrupt energies of Felwood. To test his theory that slimes adapt and reflect their immediate environments, Laris needs pristine samples from an unpolluted habitat to serve as a clean baseline for study."
+  },
+  {
+   "q": "Where are the pure oozes located?",
+   "aliases": [
+    "where find pure ooze",
+    "pure sample jars location",
+    "where are pure slimes"
+   ],
+   "answer": "Pure samples can be harvested from the Glutinous Oozes dwelling in the lush, prehistoric wilderness of Un'Goro Crater in southern Kalimdor."
+  },
+  {
+   "q": "Who is Laris Geardawdle?",
+   "aliases": [
+    "who is laris",
+    "laris geardawdle lore"
+   ],
+   "answer": "He is an inquisitive gnomish researcher stationed in Ironforge, deeply dedicated to unraveling the biological mysteries of Azeroth's slimes and oozes."
+  },
+  {
+   "q": "What makes oozes so interesting to researchers?",
+   "aliases": [
+    "why study slime",
+    "ooze lore"
+   ],
+   "answer": "Oozes possess a unique biological adaptability, readily absorbing and reflecting the magical, environmental, and corruptive aspects of the regions they inhabit."
+  },
+  {
+   "q": "Does this follow an earlier task for Laris?",
+   "aliases": [
+    "previous quest laris",
+    "what came before this"
+   ],
+   "answer": "Yes. Laris previously asked for oozes to begin his research, but the initial samples revealed heavy demonic taint from Felwood, prompting this search for untarnished slimes."
+  },
+  {
+   "q": "What does Laris intend to do with the samples?",
+   "aliases": [
+    "laris ooze research",
+    "what is slime used for"
+   ],
+   "answer": "He intends to compare the pure samples against corrupted ones to understand how environmental changes affect living creatures and, by extension, the wider population of Azeroth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Laris embodies the quintessential gnomish scientific method, insisting on isolating variables and finding an uncontaminated control group before drawing broad conclusions."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Operating out of Ironforge, Alliance adventurers are tasked with journeying into the untamed wilds of Kalimdor to support gnomish scientific inquiry."
+  }
+ ],
+ "keywords": [
+  "felwood",
+  "glutinous ooze",
+  "ironforge",
+  "laris geardawdle",
+  "ooze research",
+  "pure sample jars",
+  "un'goro crater"
+ ],
+ "related": [
+  "npc:laris-geardawdle",
+  "quest:4512",
+  "zone:ironforge",
+  "zone:ungoro",
+  "zone:felwood"
+ ],
+ "attribution": [
+  "A Little Slime Goes a Long Way (2)"
+ ]
+}

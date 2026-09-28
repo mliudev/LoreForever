@@ -1,0 +1,84 @@
+{
+ "key": "subzone:wellspring-lake",
+ "type": "subzone",
+ "name": "Wellspring Lake",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Wellspring Lake"
+ },
+ "summary": "Wellspring Lake is a serene body of fresh water resting high within the boughs of Teldrassil, situated northeast of Darnassus. Fed by natural springs originating from deep within the World Tree, its waters feed the winding Wellspring River. Once a peaceful retreat for night elf fishermen, the lake's shores have fallen prey to the growing corruption unsettling Teldrassil's wildlife.",
+ "sections": [
+  {
+   "title": "A Tainted Refuge",
+   "body": "Nestled beneath the canopy between Darnassus and the Oracle Glade, Wellspring Lake was long cherished by the Kaldorei as a quiet haven for fishing and contemplation. Its clear waters originate from subterranean springs running through the colossal boughs of the World Tree, which then cascade westward into the Wellspring River. In recent times, however, an insidious blight has begun to seize the surrounding wilds. Aggressive spiders, prowling nightsabers, and agitated timberlings now roam the banks, making what was once an idyllic pond a treacherous place for unwary travelers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Wellspring Lake located?",
+   "aliases": [
+    "where is wellspring lake",
+    "wellspring lake location",
+    "how to get to wellspring lake"
+   ],
+   "answer": "Wellspring Lake lies in northern Teldrassil, northeast of the capital city of Darnassus and just southeast of the Oracle Glade."
+  },
+  {
+   "q": "Where does the lake's water come from and go?",
+   "aliases": [
+    "where does wellspring lake drain",
+    "wellspring river source",
+    "wellspring lake water source"
+   ],
+   "answer": "The lake is fed by natural springs rising deep from within the roots and wood of Teldrassil itself. The excess water drains westward into the Wellspring River."
+  },
+  {
+   "q": "Why is the area around Wellspring Lake dangerous?",
+   "aliases": [
+    "what lives at wellspring lake",
+    "wellspring lake mobs",
+    "why is wellspring lake hostile"
+   ],
+   "answer": "While it was previously a tranquil spot favored by Kaldorei anglers, the spreading corruption across the World Tree has driven local beasts mad. Prowling nightsabers, giant webwood spiders, and corrupted timberling bark-spirits now stalk the shoreline."
+  },
+  {
+   "q": "Who used to gather at Wellspring Lake?",
+   "aliases": [
+    "wellspring lake history",
+    "night elf fishermen lake"
+   ],
+   "answer": "Local night elven fishermen often visited the lake for quiet reflection and angling before the recent blight agitated the wildlife and made the shores hazardous."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, the degradation of peaceful groves like Wellspring Lake into dangerous monster dens is a painful reminder that something has gone deeply wrong with their young World Tree."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids study the agitated timberlings and beasts near Wellspring Lake to understand the source of the unnatural sickness spreading through Teldrassil's waters and soil."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "kaldorei",
+  "nightsaber",
+  "oracle glade",
+  "teldrassil",
+  "timberlings",
+  "wellspring lake",
+  "wellspring river"
+ ],
+ "related": [
+  "subzone:wellspring-river",
+  "zone:teldrassil",
+  "subzone:oracle-glade",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Wellspring Lake"
+ ]
+}

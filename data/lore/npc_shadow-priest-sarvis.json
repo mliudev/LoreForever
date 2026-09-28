@@ -1,0 +1,90 @@
+{
+ "key": "npc:shadow-priest-sarvis",
+ "type": "npc",
+ "name": "Shadow Priest Sarvis",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Shadow Priest Sarvis",
+  "refs": 1
+ },
+ "summary": "Shadow Priest Sarvis stands inside the ruined chapel of Deathknell, serving as one of the primary guides for newly awakened Forsaken. He introduces fresh corpses to their grim reality, directing them to purge mindless undead and gather intelligence on local threats. Under Lady Sylvanas's banner, Sarvis works tirelessly to shape bewildered undead into disciplined servants of the Forsaken.",
+ "sections": [
+  {
+   "title": "Shepherd of the Newly Awakened",
+   "body": "Within the shadowy chapel of Deathknell, Shadow Priest Sarvis waits for those who have just clawed their way out of the grave. The awakening of a Forsaken soul is jarring and horrific, with many immediately losing their minds to mindless frenzy or despondency. Sarvis acts as an anchor, giving purpose to the newly risen. He assigns new recruits to put down the shambling, mindless corpses roaming the cemetery and directs them to secure Deathknell's borders against the encroaching Scourge.",
+   "spoiler": 0
+  },
+  {
+   "title": "Securing Deathknell",
+   "body": "Beyond acclimating new recruits, Sarvis oversees crucial local defenses against lingering threats in Tirisfal Glades. He monitors the rogue mindless undead gathering at the Rotbrain Encampment and coordinates the containment of Scourge forces probing Deathknell's perimeter. By directing novices toward vital intelligence and martial trials, Sarvis ensures that the town remains a fortified bastion for the Forsaken.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Shadow Priest Sarvis?",
+   "aliases": [
+    "sarvis",
+    "who is sarvis",
+    "deathknell priest"
+   ],
+   "answer": "Sarvis is a Forsaken shadow priest stationed in Deathknell. He guides freshly awakened undead, giving them their initial orders and helping secure the town against the Scourge."
+  },
+  {
+   "q": "Where can I find Shadow Priest Sarvis?",
+   "aliases": [
+    "sarvis location",
+    "where is sarvis",
+    "find sarvis"
+   ],
+   "answer": "He is located inside the ruined church at the center of Deathknell, the Forsaken starting area in Tirisfal Glades."
+  },
+  {
+   "q": "Why is Sarvis having players kill mindless zombies?",
+   "aliases": [
+    "why kill mindless ones",
+    "rotbrains",
+    "the mindless ones"
+   ],
+   "answer": "Not every corpse raised from the grave retains their free will and sanity. Those who succumb to madness are deemed a hazard to the settlement and must be destroyed before they endanger the living dead."
+  },
+  {
+   "q": "What is the Rotbrain Encampment?",
+   "aliases": [
+    "rotbrain camp",
+    "rotbrains deathknell"
+   ],
+   "answer": "The Rotbrain Encampment is a nearby pocket where mindless, feral undead gather. Sarvis orders assaults against it to prevent these rogue ghouls and zombies from overrunning Deathknell."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Sarvis is one of the very first voices you hear after waking from the grave, setting you on your path to serve the Dark Lady."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Sarvis exemplifies the Forsaken's embrace of shadow magic, serving as a dark mentor figure in a chapel stripped of Holy Light."
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "forsaken",
+  "novice elreth",
+  "rotbrain",
+  "sarvis",
+  "shadow priest sarvis",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:deathknell",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "topic:scourge",
+  "subzone:rotbrain-encampment"
+ ],
+ "attribution": [
+  "Shadow Priest Sarvis"
+ ]
+}

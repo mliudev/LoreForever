@@ -1,0 +1,115 @@
+{
+ "key": "npc:lord-ello-ebonlocke",
+ "type": "npc",
+ "name": "Lord Ello Ebonlocke",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Lord Ello Ebonlocke",
+  "refs": 6
+ },
+ "summary": "Lord Ello Ebonlocke is the mayor of Darkshire and the leader of its governing council, stationed inside the Darkshire Town Hall. Surrounded by darkness and creeping horrors, he struggles daily to maintain order and protect his besieged citizens despite receiving little aid from Stormwind.",
+ "sections": [
+  {
+   "title": "A Beleaguered Mayor",
+   "body": "Seated in the gloom of the Darkshire Town Hall, Lord Ello Ebonlocke bears the heavy burden of governing a settlement on the brink of ruin. Once part of the prosperous rural haven known as Grand Hamlet, Darkshire is now smothered by perpetual shadow and besieged by ravenous ghouls, skeletal abominations, and feral beasts. Ello presides over the Council of Darkshire, striving against impossible odds to keep the remnants of civilization functioning while Stormwind turns a blind eye to their plight.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Divided Frontier",
+   "body": "Because Stormwind's garrison refuses to spare soldiers for the borderlands, Darkshire relies almost entirely on local volunteer militias like the Night Watch, commanded by his relative, Althea Ebonlocke. When neighboring leaders like Magistrate Solomon of Lakeshire plead for reinforcements to combat Blackrock orcs, Lord Ebonlocke must make agonizing choices. As he solemnly explains to messengers from Redridge, Darkshire cannot spare a single blade: sending their guards beyond the forest's edge would leave their own homes to be instantly overrun by the surrounding evils.",
+   "spoiler": 0
+  },
+  {
+   "title": "Blind to the Hermit's Designs",
+   "body": "Beyond patrolling the roads, Lord Ebonlocke frequently relies on wandering adventurers to handle peculiar matters around the woods. In his earnest desire to assist all residents of Duskwood, he coordinates communications with solitary figures like the hermit Abercrombie. Regrettably, Ebonlocke's lack of true insight into the hermit's cryptic writings blinds him to the grisly, stitched nightmare festering just beyond the town borders until it is nearly too late.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lord Ello Ebonlocke?",
+   "aliases": [
+    "who is ello",
+    "mayor of darkshire",
+    "ello ebonlocke lore"
+   ],
+   "answer": "Lord Ello Ebonlocke is the mayor of Darkshire and head of the Council of Darkshire. From his seat in the town hall, he oversees the defense, civic affairs, and survival of Duskwood's remaining human populace."
+  },
+  {
+   "q": "How is he related to Commander Althea Ebonlocke?",
+   "aliases": [
+    "althea ebonlocke relation",
+    "is althea ello's daughter"
+   ],
+   "answer": "Commander Althea Ebonlocke, the stalwart leader of the Night Watch, is Lord Ello's close kin. While he governs the civic and diplomatic affairs of Darkshire, she directs the militia that actively guards the settlement."
+  },
+  {
+   "q": "Why does Lord Ebonlocke refuse to send troops to Lakeshire?",
+   "aliases": [
+    "why no help for redridge",
+    "messenger to darkshire",
+    "magistrate solomon ello ebonlocke"
+   ],
+   "answer": "When Magistrate Solomon requests aid against the Blackrock orcs in Redridge, Lord Ebonlocke is forced to refuse. Darkshire is so hard-pressed by undead and monstrosities that stripping the town of guards would cause it to be completely overrun before the militia even reached the forest border."
+  },
+  {
+   "q": "Where can Lord Ello Ebonlocke be found?",
+   "aliases": [
+    "ello ebonlocke location",
+    "where is mayor ebonlocke"
+   ],
+   "answer": "He is located inside the Darkshire Town Hall, which stands at the center of Darkshire in eastern Duskwood."
+  },
+  {
+   "q": "Why doesn't Stormwind send troops to help Lord Ebonlocke?",
+   "aliases": [
+    "why won't stormwind help duskwood",
+    "stormwind neglect"
+   ],
+   "answer": "Stormwind is embroiled in internal political strife following King Varian Wrynn's disappearance. With the kingdom's resources constrained, the House of Nobles has largely abandoned the southern regions, forcing local leaders like Lord Ebonlocke to organize their own defenses."
+  },
+  {
+   "q": "What is Lord Ebonlocke's involvement with Abercrombie?",
+   "aliases": [
+    "ello abercrombie note",
+    "translate abercrombie's note"
+   ],
+   "answer": "Lord Ebonlocke assists in handling communications with the hermit Abercrombie, helping arrange translations of strange notes. Unbeknownst to the mayor, his well-meaning civic duties unwittingly play into the hermit's horrific, necromantic schemes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lord Ebonlocke represents the forgotten edges of the Alliance, where isolated mayors must lead their people through nightmare conditions without imperial aid."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans traveling from Stormwind, speaking with Lord Ebonlocke is a sobering reminder of how far the southern provinces have fallen into ruin and abandonment."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "althea",
+  "council",
+  "darkshire",
+  "duskwood",
+  "ebonlocke",
+  "ello",
+  "lakeshire",
+  "mayor"
+ ],
+ "related": [
+  "subzone:darkshire-town-hall",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "npc:althea-ebonlocke",
+  "topic:night-watch",
+  "quest:145",
+  "npc:magistrate-solomon",
+  "npc:abercrombie"
+ ],
+ "attribution": [
+  "Lord Ello Ebonlocke"
+ ]
+}

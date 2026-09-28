@@ -1,0 +1,92 @@
+{
+ "key": "npc:kanati-greycloud",
+ "type": "npc",
+ "name": "Kanati Greycloud",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Kanati Greycloud",
+  "refs": 1
+ },
+ "summary": "Kanati Greycloud is a tauren hunter stationed at Whitereach Post within Thousand Needles. Alongside his hunting companions, he musters what defense he can while enduring constant hostility from the local Galak centaur.",
+ "sections": [
+  {
+   "title": "A Precarious Perch",
+   "body": "Kanati Greycloud makes his camp at Whitereach Post, high atop the sandstone spires of western Thousand Needles. While the canyon offers abundant game and open vistas, it is hemmed in by the Galak centaur, whose warbands contest every inch of the arid flats below. Together with other tauren hunters, Kanati keeps watch over the canyon floor, striving to preserve the post against the brutal depredations of the surrounding marauders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Centaur Ambush",
+   "body": "The Galak centaur do not merely seek to isolate Whitereach Post; they intend to annihilate its defenders outright. Messengers sent between centaur camps carry explicit orders targeting Kanati and his companions for assassination. It falls to visiting travelers to intercept these marching orders and stand shoulder-to-shoulder with Kanati when the Galak raiding parties descend upon the mesa to cut down the outpost's hunters.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kanati Greycloud?",
+   "aliases": [
+    "who is kanati",
+    "kanati greycloud lore",
+    "whitereach post tauren"
+   ],
+   "answer": "Kanati Greycloud is a tauren hunter based at Whitereach Post in western Thousand Needles, where he maintains a camp and defends against predatory local threats."
+  },
+  {
+   "q": "Where can I find Kanati Greycloud?",
+   "aliases": [
+    "kanati location",
+    "where is kanati",
+    "where is greycloud"
+   ],
+   "answer": "Kanati is located at Whitereach Post, an elevated tauren encampment situated along the northern bluffs in the western portion of Thousand Needles."
+  },
+  {
+   "q": "Why are the Galak centaur trying to kill him?",
+   "aliases": [
+    "why centaur attack kanati",
+    "galak assassination plot",
+    "protect kanati why"
+   ],
+   "answer": "The Galak centaur seek total dominance over the canyons of Thousand Needles and actively target Horde outposts. Intercepted orders reveal a coordinated plot by the centaur to assassinate Kanati and break the post's defenses."
+  },
+  {
+   "q": "Is Kanati related to other Greyclouds?",
+   "aliases": [
+    "greycloud family",
+    "tor greycloud relative",
+    "kar greycloud"
+   ],
+   "answer": "He shares his surname with Tor Greycloud and Kar Greycloud, two tauren found elsewhere in the Kalimdor wilderness, though the exact familial bond between them is not detailed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren traversing Thousand Needles, aiding Kanati at Whitereach Post is a vital defense of tribal kin against their ancient, bitter enemies, the centaur."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Whitereach Post serves as a critical vantage point over the needle canyons; keeping Kanati alive ensures Horde scouts retain eyes on centaur troop movements."
+  }
+ ],
+ "keywords": [
+  "assassination plot",
+  "centaur",
+  "galak",
+  "greycloud",
+  "kanati",
+  "thousand needles",
+  "whitereach post"
+ ],
+ "related": [
+  "subzone:whitereach-post",
+  "zone:thousandneedles",
+  "quest:4881",
+  "topic:centaur",
+  "topic:tauren",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Kanati Greycloud"
+ ]
+}

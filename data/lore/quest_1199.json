@@ -1,0 +1,135 @@
+{
+ "key": "quest:1199",
+ "type": "quest",
+ "name": "Twilight Falls",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "ids": [
+   1199
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Argent Guard Manados",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Twilight Falls (Classic)",
+  "chain": []
+ },
+ "summary": "Argent Guard Manados in Darnassus calls upon Alliance champions to strike at the Twilight's Hammer cultists gathered within Blackfathom Deeps. The dark cult has allied with serpent-like naga to occupy the sunken night elf temple along the Ashenvale coast. By gathering pendants from the fallen cultists, adventurers strike a blow against their insidious plans to awaken ancient evils.",
+ "sections": [
+  {
+   "title": "A Sanctum Defiled",
+   "body": "Beneath the rugged cliffs of the Zoram Strand in Ashenvale lie the ruins of Blackfathom Deeps. Once a sacred night elf temple dedicated to Elune and home to a powerful moonwell, it was shattered and plunged into the depths during the Sundering. Today, the sacred waters have turned putrid and foul, overrun by bloodthirsty naga and fanatic cultists who venerate forces far darker than the sea.",
+   "spoiler": 0
+  },
+  {
+   "title": "Whispers of the Old Gods",
+   "body": "The Twilight's Hammer is an apocalyptic cult devoted to the chaotic Old Gods, seeking to bring about the return of their primordial patrons and cover the world in madness and ruin. Reports reaching Darnassus confirm that these madmen have joined hands with the naga inhabiting Blackfathom Deeps. Deep within the submerged halls, they conduct blasphemous rituals, using the sunken temple's tainted waters to feed their dark masters' resurgence.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Vigil of the Argent Dawn",
+   "body": "Stationed in Darnassus, Argent Guard Manados represents the Argent Dawn's vigilance against all scourges that threaten Azeroth. Recognizing that the depravity within Blackfathom Deeps could unleash horrors upon all civilized races, the order offers recognition and aid to any heroes willing to descend into the flooded labyrinth, cull the cultists, and pry the Twilight Pendants from their necks as proof of their downfall.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Argent Guard Manados?",
+   "aliases": [
+    "manados",
+    "who gives twilight falls",
+    "argent guard manados location"
+   ],
+   "answer": "Argent Guard Manados is an emissary of the Argent Dawn stationed in Darnassus. Acting as the eyes and ears of his order in Kalimdor, he monitors malevolent cults and dark forces that threaten the realm, enlisting adventurers to eradicate them."
+  },
+  {
+   "q": "Why is the Argent Dawn concerned about Blackfathom Deeps?",
+   "aliases": [
+    "why argent dawn darnassus",
+    "argent dawn blackfathom"
+   ],
+   "answer": "While the Argent Dawn is best known for fighting the Scourge in Lordaeron, their charter encompasses confronting any existential, unnatural evil. The resurgence of Old God worship and the alliance between cultists and naga in Kalimdor represents a global catastrophe if left unchecked."
+  },
+  {
+   "q": "What is the Twilight's Hammer?",
+   "aliases": [
+    "twilight hammer cult",
+    "who are twilight's hammer",
+    "twilights hammer"
+   ],
+   "answer": "The Twilight's Hammer is a fanatical doomsday cult that worships the Old Gods\u2014chaotic, primordial entities imprisoned beneath the earth long ago. Cultists believe in hastening an apocalyptic end where their shadowy masters rise again to remake the world in terror and madness."
+  },
+  {
+   "q": "What were the Twilight Pendants used for?",
+   "aliases": [
+    "twilight pendant lore",
+    "what are twilight pendants"
+   ],
+   "answer": "The Twilight Pendants are dark talismans worn by members of the Twilight's Hammer. Symbolizing their allegiance to the chaotic entities they worship, the Argent Dawn collects them as verifiable proof that a cultist has been slain and neutralized."
+  },
+  {
+   "q": "What was Blackfathom Deeps originally?",
+   "aliases": [
+    "blackfathom history",
+    "bfd temple history",
+    "blackfathom moonwell"
+   ],
+   "answer": "Long before its corruption, Blackfathom Deeps was a magnificent night elven temple dedicated to the moon goddess Elune. It was renowned for housing a profoundly potent moonwell before the Great Sundering cracked the earth and submerged its halls beneath the sea."
+  },
+  {
+   "q": "Why are the Twilight's Hammer working with the naga?",
+   "aliases": [
+    "naga cultists alliance",
+    "bfd naga alliance"
+   ],
+   "answer": "Both the naga and the Twilight's Hammer share deep, dark allegiances to the chaotic forces of the deep. Within Blackfathom Deeps, their cooperation allows the cultists safe access to ancient submerged chambers while the naga benefit from the cult's vile sorceries and sacrificial rites."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of a sacred temple and moonwell by creeping void-worshipers and naga is a direct affront to Elune and the ancestral lands of Ashenvale."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Twilight's Hammer poses an encroaching peril just south of Darkshore, making the purge of Blackfathom Deeps essential to securing northern Kalimdor."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "As champions of the Holy Light aligned with orders like the Argent Dawn, paladins view the Twilight's Hammer's depraved Old God worship as an abomination demanding righteous cleansing."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests are keenly attuned to the perversion of the temple's once-sacred moonwell and the maddening, shadowy whispers driving the cultists deeper into madness."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "argent guard manados",
+  "ashenvale",
+  "blackfathom deeps",
+  "darnassus",
+  "manados",
+  "naga",
+  "old gods",
+  "twilight falls",
+  "twilight pendant",
+  "twilight's hammer"
+ ],
+ "related": [
+  "npc:argent-guard-manados",
+  "zone:blackfathom",
+  "topic:twilight-s-hammer",
+  "topic:argent-dawn",
+  "topic:old-god",
+  "topic:naga",
+  "zone:darnassus",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Twilight Falls (Classic)"
+ ]
+}

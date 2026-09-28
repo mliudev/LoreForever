@@ -1,0 +1,128 @@
+{
+ "key": "quest:1701",
+ "type": "quest",
+ "name": "Fire Hardened Mail",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1701
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Furen Longbeard",
+  "end": "",
+  "previous": "The Shieldsmith",
+  "next": "Furen's Armor",
+  "wiki": "Fire Hardened Mail",
+  "chain": []
+ },
+ "summary": "\"Fire Hardened Mail\" is an Alliance warrior quest offered by the dwarf armorer Furen Longbeard in Stormwind City. Building upon his previous smithing work, Furen promises to fashion a suit of exceptionally durable mail armor if the warrior can retrieve rare alchemical and beast-harvested components scattered across both continents.",
+ "sections": [
+  {
+   "title": "A Master Armorer's Ambition",
+   "body": "After forging an exceptional buckler for the aspiring warrior, Furen Longbeard proposes an even greater project: a suit of mail hardened against the fiercest blows. Such dwarf craftsmanship requires more than mere iron or steel; it demands exotic materials imbued with elemental heat and natural resilience. Because the smith cannot abandon his forge in Stormwind, the burden of collecting these hazardous reagents falls entirely upon the warrior seeking the armor.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Cross-Continental Expedition",
+   "body": "Furen's detailed instructions send the warrior to distant wildernesses and treacherous depths. The recipe requires fangs harvested from the venomous arachnids crawling through the damp crevices of the Wetlands, as well as scorched and galvanized horns stripped from the fierce chimaeras nesting in the Stonetalon Mountains. To bind and temper these beast parts into wearable mail, the armor also calls for a vial of volatile phlogiston seized from Roogug, a geomancer deep inside the bristling thorn-labyrinths of Razorfen Kraul in the Barrens.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Furen Longbeard?",
+   "aliases": [
+    "furen",
+    "who gives fire hardened mail",
+    "who is the smith"
+   ],
+   "answer": "Furen Longbeard is a veteran dwarven armorer and shieldsmith stationed in the Dwarven District of Stormwind City. He specializes in crafting tailored defensive equipment for promising warriors willing to aid him."
+  },
+  {
+   "q": "Why does Furen require such strange ingredients?",
+   "aliases": [
+    "why spider fangs",
+    "why horns",
+    "what is phlogiston"
+   ],
+   "answer": "Traditional smelting produces ordinary steel, but Furen's secret techniques require organic materials conditioned by natural venom, mountain winds, and breath weapons, compounded by the volatile catalytic substance phlogiston to temper the metal beyond typical dwarven methods."
+  },
+  {
+   "q": "Where do the chimaera horns come from?",
+   "aliases": [
+    "where to find chimaera horns",
+    "charred horn location",
+    "galvanized horn"
+   ],
+   "answer": "The charred horns and the prized galvanized horn come from chimaeras dwelling in Kalimdor's Stonetalon Mountains, particularly the younger beasts and the formidable Chimaera Matriarch who leads them."
+  },
+  {
+   "q": "Where can phlogiston be found?",
+   "aliases": [
+    "vial of phlogiston",
+    "who drops phlogiston",
+    "roogug"
+   ],
+   "answer": "A vial of phlogiston is carried by the quilboar geomancer Roogug, who makes his lair within Razorfen Kraul, located at the southern tip of the Barrens in Kalimdor."
+  },
+  {
+   "q": "Which spiders carry scorched spider fangs?",
+   "aliases": [
+    "scorched spider fangs",
+    "where are the spiders",
+    "wetlands spiders"
+   ],
+   "answer": "The fangs are obtained from the giant arachnids of the Wetlands in the Eastern Kingdoms, specifically Leech Stalkers and Cave Stalkers lurking along the region's marshes and caverns."
+  },
+  {
+   "q": "What happens after all the materials are gathered?",
+   "aliases": [
+    "what comes next",
+    "fire hardened mail follow up",
+    "reward"
+   ],
+   "answer": "Upon receiving the fangs, horns, and phlogiston, Furen immediately begins working his forge to hammer the raw elements into a custom breastplate for the warrior in the quest 'Furen's Armor'."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This undertaking represents a major rite of passage for Alliance warriors, forcing them to brave Kalimdor's wilds and deep dungeons to earn a piece of masterwork armor."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Furen's craft reflects the enduring dwarven belief that true armor requires unyielding materials drawn straight from the harshest natural predators."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Fulfilling Furen's list requires an Alliance soldier to venture deep into the Barrens and Stonetalon Mountains, regions heavily contested by the Horde."
+  }
+ ],
+ "keywords": [
+  "charred horn",
+  "fire hardened mail",
+  "furen longbeard",
+  "galvanized horn",
+  "phlogiston",
+  "razorfen kraul",
+  "roogug",
+  "scorched spider fang",
+  "stonetalon",
+  "wetlands"
+ ],
+ "related": [
+  "npc:furen-longbeard",
+  "quest:1782",
+  "quest:1702",
+  "zone:razorfenkraul",
+  "zone:stonetalon",
+  "zone:wetlands",
+  "topic:stormwind-kingdom",
+  "topic:razorfen"
+ ],
+ "attribution": [
+  "Fire Hardened Mail"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "key": "subzone:scarlet-monastery-instance",
+ "type": "subzone",
+ "name": "Scarlet Monastery (instance)",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Scarlet Monastery (instance)"
+ },
+ "summary": "The Scarlet Monastery complex stands in northeastern Tirisfal Glades, serving as the heavily fortified headquarters of the Scarlet Crusade. Once a revered center of holy learning for the kingdom of Lordaeron, its halls are now held by zealous crusaders committed to purging any they deem impure.",
+ "sections": [
+  {
+   "title": "Heart of the Crusade",
+   "body": "Perched on the bluffs of Tirisfal Glades, the Scarlet Monastery represents the pinnacle of the Crusade's military power and religious fanaticism. Built originally as a peaceful redoubt for the priesthood and holy orders of Lordaeron, the monastery was completely militarized following the kingdom's collapse to the Scourge. Today, its distinct cloisters, libraries, and cathedral grounds are garrisoned by crusader troops who view all outsiders\u2014living or undead\u2014with unyielding paranoia and hostility.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Sanctum Besieged",
+   "body": "Behind the monastery's iron gates lies a grim contradiction. While crusaders patrol the courtyards and pray in its grand cathedral, the order struggles to contain horrors within its own walls. Undead break through the lower crypts and burial grounds, even as the Crusade's leadership directs inquisitions and purges across the surrounding lands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was the Scarlet Monastery before the Third War?",
+   "aliases": [
+    "monastery history",
+    "original purpose of monastery",
+    "who built scarlet monastery"
+   ],
+   "answer": "Originally, the monastery served as a bastion of the Holy Light and a center for study under the kingdom of Lordaeron. Priests and clerics gathered here to worship, transcribe sacred texts, and train followers before the Scourge tore through the kingdom."
+  },
+  {
+   "q": "Who controls the monastery today?",
+   "aliases": [
+    "who runs scarlet monastery",
+    "who is in charge",
+    "crusade leadership"
+   ],
+   "answer": "The stronghold serves as the grand headquarters of the Scarlet Crusade, defended by ranks of fanatical human warriors, priests, and inquisitors who follow the orders of high-ranking commanders like High Inquisitor Whitemane."
+  },
+  {
+   "q": "Why is the Scarlet Crusade hostile to outside adventurers?",
+   "aliases": [
+    "why do crusaders attack",
+    "why is scarlet crusade hostile",
+    "are crusaders evil"
+   ],
+   "answer": "Driven by zealotry and paranoia after the fall of Lordaeron, the Crusade believes that anyone outside their order is either infected by the plague or complicit with the undead. They execute non-members on sight to maintain what they consider sacred purity."
+  },
+  {
+   "q": "Are there undead inside the monastery?",
+   "aliases": [
+    "undead in monastery",
+    "is the monastery infested"
+   ],
+   "answer": "Yes. Despite the crusaders' obsession with cleanliness and eradication of the Scourge, dark forces and walking corpses have breached parts of the monastery grounds, including the adjacent cemetery and crypt areas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For paladins, the monastery is a tragic sight: a once-hallowed place of the Holy Light twisted into a den of blind vengeance and extremism."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Standing within sight of the Undercity, the monastery poses an immediate military threat to the Forsaken, who are viewed by the crusaders as abominations to be eradicated."
+  }
+ ],
+ "keywords": [
+  "cathedral",
+  "crusaders",
+  "scarlet crusade",
+  "scarlet monastery",
+  "tirisfal glades",
+  "whitemane"
+ ],
+ "related": [
+  "zone:scarlet",
+  "topic:scarlet-crusade",
+  "subzone:scarlet-monastery-graveyard",
+  "subzone:forlorn-cloister"
+ ],
+ "attribution": [
+  "Scarlet Monastery (instance)"
+ ]
+}

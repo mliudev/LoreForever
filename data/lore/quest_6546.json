@@ -1,0 +1,120 @@
+{
+ "key": "quest:6546",
+ "type": "quest",
+ "name": "Warsong Outrider Update",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6546
+  ],
+  "level": "25",
+  "faction": "Horde",
+  "start": "Warsong Outrider",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "Warsong Outrider Update (quest)",
+  "chain": []
+ },
+ "summary": "Warsong Outrider Update is a Horde delivery quest originating along the perilous paths of eastern Ashenvale. A lone Warsong scout entrusts an adventurer with vital intelligence detailing threats from the nearby Alliance, entrenched satyr, and encroaching naga in neighboring Azshara.",
+ "sections": [
+  {
+   "title": "Eyes Along the Forest Edge",
+   "body": "Eastern Ashenvale is a contested border zone where Horde supply lines face constant harassment. The Warsong Outriders maintain a vigilant screen across the woods, scouting enemy movements long before raiding parties can strike outposts like the Mor'shan Rampart or Splintertree Post. Encountering an outrider on patrol means stepping directly into an active theater of reconnaissance, where information can mean the difference between holding a fortification or losing it to ambush.",
+   "spoiler": 0
+  },
+  {
+   "title": "Threats on Every Horizon",
+   "body": "The report compiled by the outrider paints a grim tactical picture for the Horde in Kalimdor's central forests. Beyond the ever-present skirmishes with the night elves and the broader Alliance, eastern Ashenvale crawls with cunning, demonic satyr. Compounding the danger, scouts have uncovered a massive naga presence spreading across the ruined coastal lands of neighboring Azshara, warning commanders that the Horde is hemmed in by hostile powers from almost every direction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Warsong Report?",
+   "aliases": [
+    "warsong report quest item",
+    "what does the report say",
+    "scout report"
+   ],
+   "answer": "It is an intelligence dispatch written by a Warsong Outrider summarizing enemy troop dispositions and regional dangers. It highlights threats from nearby Alliance forces, active satyr covens in eastern Ashenvale, and newly discovered naga movements across Azshara."
+  },
+  {
+   "q": "Who is Kadrak?",
+   "aliases": [
+    "who is kadrak",
+    "where is kadrak",
+    "kadrak turn in"
+   ],
+   "answer": "Kadrak is a Horde commander stationed at the Mor'shan Rampart, the defensive barricade guarding the northern border between the Barrens and Ashenvale. He oversees incoming scouts and coordinates forward operations into the forest."
+  },
+  {
+   "q": "Why are the naga in Azshara mentioned?",
+   "aliases": [
+    "naga azshara connection",
+    "why mention azshara",
+    "azshara naga threat"
+   ],
+   "answer": "Azshara directly borders eastern Ashenvale. The outriders track foreign movements in adjacent territories to ensure Horde flanks are not surprised by massive incursions while they contend with the night elves."
+  },
+  {
+   "q": "What makes eastern Ashenvale so dangerous for the Horde?",
+   "aliases": [
+    "why is eastern ashenvale dangerous",
+    "ashenvale threats",
+    "satyr threat"
+   ],
+   "answer": "The region is caught between active Alliance detachments, ancient satyr ruins infused with demonic corruption, and untamed woodland beasts, leaving Horde couriers and patrols vulnerable to ambushes from all directions."
+  },
+  {
+   "q": "Who are the Warsong Outriders?",
+   "aliases": [
+    "what are outriders",
+    "warsong scouts",
+    "outriders lore"
+   ],
+   "answer": "They are the forward vanguard and reconnaissance cavalry of the Warsong clan in Ashenvale, responsible for tracking night elf movements, screening logging camps, and securing trade roads."
+  },
+  {
+   "q": "Why can't the outrider deliver the report himself?",
+   "aliases": [
+    "why do i deliver report",
+    "why not deliver himself"
+   ],
+   "answer": "The outrider is tasked with maintaining his watch on the trail to track developing hostile movements in real time. Leaving his vantage point would blind the frontline to unexpected Alliance or satyr advances."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Every dispatch carried along the Mor'shan line reinforces the Horde's fragile foothold in the lush forests of Ashenvale."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The Warsong clan takes pride in holding the vanguard, but their scouts know bravery alone cannot stop enemies surrounding them on all sides."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "azshara",
+  "kadrak",
+  "mor'shan rampart",
+  "naga",
+  "satyr",
+  "warsong outrider",
+  "warsong report"
+ ],
+ "related": [
+  "npc:warsong-outrider",
+  "npc:kadrak",
+  "zone:ashenvale",
+  "zone:azshara",
+  "topic:satyr",
+  "topic:naga",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Warsong Outrider Update (quest)"
+ ]
+}

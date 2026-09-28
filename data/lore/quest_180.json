@@ -1,0 +1,120 @@
+{
+ "key": "quest:180",
+ "type": "quest",
+ "name": "Wanted: Lieutenant Fangore",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   180
+  ],
+  "level": "26",
+  "faction": "Alliance",
+  "start": "Wanted: Lieutenant Fangore",
+  "end": "Magistrate Solomon",
+  "previous": null,
+  "next": null,
+  "wiki": "Wanted: Lieutenant Fangore (quest)",
+  "chain": []
+ },
+ "summary": "Wanted: Lieutenant Fangore is a local bounty posted in Lakeshire by Magistrate Solomon. It calls on adventurers to hunt down Lieutenant Fangore, the vicious chieftain of the Shadowhide gnolls encroaching upon the Redridge Mountains. Eliminating him strikes a direct blow against the renegade sorcerer Morganth, whom the gnolls serve.",
+ "sections": [
+  {
+   "title": "A Town Under Siege",
+   "body": "Lakeshire sits in a desperate position. With Stormwind's army stretched thin and King Varian Wrynn mysteriously absent, Highlord Bolvar Fordragon has left frontier settlements like Redridge to look after themselves. The Shadowhide clan has grown increasingly bold, raiding trade routes, burning farmsteads, and pressing right up against the town's perimeter. Magistrate Solomon relies on posted bounties to draw mercenary blades where royal soldiers will not march.",
+   "spoiler": 0
+  },
+  {
+   "title": "Morganth's Lieutenant",
+   "body": "Lieutenant Fangore is not merely a marauding beast; he operates as an enforcer for Morganth, a rogue dark wizard lurking in the hills of Redridge. Under Fangore's command, the Shadowhide gnolls coordinate their strikes rather than fighting as disjointed scavengers, threatening to completely sever Lakeshire from Elwynn Forest. Striking off Fangore's paw provides Magistrate Solomon with proof that Morganth's brute vanguard has been broken.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lieutenant Fangore?",
+   "aliases": [
+    "lieutenant fangore",
+    "who is fangore",
+    "fangore lore"
+   ],
+   "answer": "Lieutenant Fangore is a powerful leader within the Shadowhide gnoll clan residing in Redridge. He coordinates the gnoll raiding parties and enforces the will of Morganth, a dark sorcerer threatening Lakeshire."
+  },
+  {
+   "q": "Who posted the bounty for Lieutenant Fangore?",
+   "aliases": [
+    "who posted the bounty",
+    "who wants fangore dead",
+    "magistrate solomon fangore"
+   ],
+   "answer": "The bounty was issued by Magistrate Solomon, the town leader of Lakeshire, who is attempting to secure the perimeter of Redridge against hostile gnolls and dark spellcasters."
+  },
+  {
+   "q": "Why doesn't Stormwind send soldiers to handle the gnolls?",
+   "aliases": [
+    "why no stormwind guard",
+    "where are stormwind soldiers",
+    "why isn't the army helping"
+   ],
+   "answer": "Stormwind is paralyzed by the sudden disappearance of King Varian Wrynn and domestic unrest. Highlord Bolvar Fordragon and the House of Nobles have refused to send regular army detachments to peripheral towns like Lakeshire, forcing Magistrate Solomon to hire mercenary adventurers."
+  },
+  {
+   "q": "What proof is required to claim the bounty?",
+   "aliases": [
+    "fangore proof",
+    "fangores paw",
+    "what item for turn in"
+   ],
+   "answer": "Magistrate Solomon requires the severed paw of Lieutenant Fangore as physical proof that the Shadowhide warlord has been slain."
+  },
+  {
+   "q": "Who is Morganth and why does Fangore follow him?",
+   "aliases": [
+    "who is morganth",
+    "why do gnolls follow morganth",
+    "fangore morganth"
+   ],
+   "answer": "Morganth is a rogue human spellcaster practicing dark magic from a tower in the Redridge Mountains. He has bent the Shadowhide gnolls to his will, using Lieutenant Fangore as an enforcer to terrorize the local countryside."
+  },
+  {
+   "q": "What are the Shadowhide gnolls?",
+   "aliases": [
+    "shadowhide clan",
+    "redridge gnolls",
+    "shadowhide lore"
+   ],
+   "answer": "The Shadowhide clan is a ferocious tribe of gnolls inhabiting the crags and forests of the Redridge Mountains. Known for their aggression and brutal ambush tactics, they have plagued the settlers of Lakeshire for years."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire stands as a critical bastion for the Alliance in Redridge; clearing out Fangore prevents the settlement from falling into total isolation."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human defenders feel the bite of Stormwind's neglect firsthand in Redridge, making personal intervention against gnoll chieftains a matter of hometown survival."
+  }
+ ],
+ "keywords": [
+  "fangore",
+  "gnoll",
+  "lakeshire",
+  "lieutenant fangore",
+  "magistrate solomon",
+  "morganth",
+  "redridge",
+  "shadowhide"
+ ],
+ "related": [
+  "npc:magistrate-solomon",
+  "quest:249",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "topic:gnoll",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Wanted: Lieutenant Fangore (quest)"
+ ]
+}

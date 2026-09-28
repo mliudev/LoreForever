@@ -1,0 +1,90 @@
+{
+ "key": "npc:skorn-whitecloud",
+ "type": "npc",
+ "name": "Skorn Whitecloud",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Skorn Whitecloud",
+  "refs": 2
+ },
+ "summary": "Skorn Whitecloud is a tauren hunter and weapon merchant residing at Camp Sungraze in the rolling plains of Mulgore. He guides young hunters in understanding their relationship with the land's predators and aids travelers who cross paths with Mulgore's lurking dangers.",
+ "sections": [
+  {
+   "title": "A Guide on the Golden Plains",
+   "body": "Positioned at Camp Sungraze in southern Mulgore, Skorn Whitecloud serves as both an armorer and an instructor in the ways of the hunt. While he provides basic weapons and hunting implements to passing travelers, his primary role is instilling respect for the wild creatures of the plains. He tests aspiring hunters by directing them to track Mulgore's ferocious flatland cougars, ensuring that those who take up the bow or spear understand the balance between predator and prey.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vigilance Against the Unnatural",
+   "body": "Beyond ordinary hunting duties, Skorn remains watchful for strange disturbances across the savannah. When unnatural threats surface\u2014such as signs of demonic corruption left upon the wildlife and beasts of the plains\u2014Skorn helps piece together what transpired, ensuring the tribes of Mulgore remain alert to malevolent forces creeping into their ancestral home.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Skorn Whitecloud be found?",
+   "aliases": [
+    "skorn whitecloud location",
+    "where is skorn",
+    "skorn whitecloud map"
+   ],
+   "answer": "Skorn Whitecloud is located at Camp Sungraze, a small tauren encampment situated in the southern grasslands of Mulgore."
+  },
+  {
+   "q": "What role does Skorn play for young hunters?",
+   "aliases": [
+    "what does skorn do",
+    "skorn hunter quest",
+    "the hunters way"
+   ],
+   "answer": "Skorn teaches the core principles of hunting through the rite known as The Hunter's Way. He tasks aspiring hunters with proving their tracking and combat skills against the plains' stealthy flatland cougars."
+  },
+  {
+   "q": "What goods does Skorn sell?",
+   "aliases": [
+    "skorn vendor",
+    "what does skorn sell",
+    "skorn weapons"
+   ],
+   "answer": "Skorn serves as a weaponsmith and general arms merchant, offering basic melee armaments, staves, and thrown weapons to adventurers passing through Camp Sungraze."
+  },
+  {
+   "q": "Is Skorn Whitecloud related to any other tauren in Mulgore?",
+   "aliases": [
+    "whitecloud family",
+    "skorn relatives",
+    "provisioner whitecloud"
+   ],
+   "answer": "He shares a surname with Provisioner Whitecloud, a tauren merchant residing at Bloodhoof Village, suggesting ties to the same extended tribal family."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For young tauren hunters, Skorn Whitecloud offers early guidance in stalking swift predators like the flatland cougar, reinforcing the spiritual harmony of the hunt."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Skorn exemplifies the Whitecloud family's dedication to providing shelter, weaponry, and practical wisdom across the scattered settlements of Mulgore."
+  }
+ ],
+ "keywords": [
+  "camp sungraze",
+  "flatland cougar",
+  "mulgore",
+  "skorn",
+  "tauren",
+  "the hunter's way",
+  "whitecloud"
+ ],
+ "related": [
+  "zone:mulgore",
+  "topic:tauren",
+  "quest:861",
+  "quest:770"
+ ],
+ "attribution": [
+  "Skorn Whitecloud"
+ ]
+}

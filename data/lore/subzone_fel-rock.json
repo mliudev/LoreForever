@@ -1,0 +1,93 @@
+{
+ "key": "subzone:fel-rock",
+ "type": "subzone",
+ "name": "Fel Rock",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Fel Rock"
+ },
+ "summary": "Fel Rock is a blighted cavern hidden within the woods just north of Dolanaar on the boughs of Teldrassil. Once a tranquil hollow, it has fallen into corruption under the influence of the satyr Lord Melenas and his horde of vicious grells.",
+ "sections": [
+  {
+   "title": "A Den of Corruption",
+   "body": "Tucked away in the forested hills north of Dolanaar, Fel Rock was once an ordinary, peaceful cavern carved into the wood and stone of Teldrassil. Today, it stands as an unsettling reminder of the creeping taint encroaching on the world tree. Twisted roots and unnatural shadows dominate the cavern interior, overrun by swarms of wild grells and grellkin.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Satyr's Hold",
+   "body": "The corruption within Fel Rock stems from the presence of Lord Melenas, a wicked satyr who has claimed the hollow as a stronghold. From deep within the cave, he orchestrates the spread of malevolent corruption right under the watchful gaze of the night elf sentinels. Druids from Dolanaar, particularly Tallonkai Swiftroot, actively enlist capable defenders to cleanse the cave and slay Melenas before his foul blight can spread further into the surrounding woodlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Fel Rock located?",
+   "aliases": [
+    "fel rock location",
+    "where is fel rock",
+    "find fel rock"
+   ],
+   "answer": "Fel Rock is located in central Teldrassil, tucked into the hills directly north of the settlement of Dolanaar."
+  },
+  {
+   "q": "Who rules Fel Rock?",
+   "aliases": [
+    "who is in fel rock",
+    "boss of fel rock",
+    "lord melenas location"
+   ],
+   "answer": "The cavern is commanded by Lord Melenas, a vile satyr who has made Fel Rock his lair and gathered a host of grells to do his bidding."
+  },
+  {
+   "q": "Why are druids concerned about Fel Rock?",
+   "aliases": [
+    "why clean fel rock",
+    "fel rock quest",
+    "tallonkai swiftroot quest"
+   ],
+   "answer": "The presence of a satyr and fel-tainted grells within the world tree's boughs poses an immediate threat to the natural balance of Teldrassil. Druids like Tallonkai Swiftroot dispatch adventurers to cut down Lord Melenas and stem the corruption."
+  },
+  {
+   "q": "What creatures dwell inside the cavern?",
+   "aliases": [
+    "fel rock mobs",
+    "what is inside fel rock",
+    "fel rock enemies"
+   ],
+   "answer": "Inside Fel Rock, you will encounter aggressive grells, grellkin, and their dark master, the satyr Lord Melenas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, the presence of a satyr like Lord Melenas so close to Dolanaar is an alarming affront to Teldrassil that demands swift retribution."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids of the Cenarion Circle view Fel Rock as a festering wound on the young world tree, requiring immediate purging before demonic corruption spreads."
+  }
+ ],
+ "keywords": [
+  "dolanaar",
+  "fel rock",
+  "grell",
+  "lord melenas",
+  "satyr",
+  "tallonkai swiftroot",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:932",
+  "subzone:dolanaar",
+  "npc:tallonkai-swiftroot",
+  "topic:satyr",
+  "zone:teldrassil",
+  "topic:druid",
+  "topic:night-elf",
+  "quest:940"
+ ],
+ "attribution": [
+  "Fel Rock"
+ ]
+}

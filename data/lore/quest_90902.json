@@ -1,0 +1,119 @@
+{
+ "key": "quest:90902",
+ "type": "quest",
+ "name": "Rediscovering the Light",
+ "era": "forever",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   90902
+  ],
+  "level": "2",
+  "faction": "Horde",
+  "start": "Aramis Hammerhand",
+  "end": "",
+  "previous": "The Mindless Ones",
+  "next": null,
+  "wiki": "Rediscovering the Light",
+  "chain": []
+ },
+ "summary": "Offered by Aramis Hammerhand in Deathknell, this task challenges newly raised Forsaken paladins to embrace the Holy Light once more. Calling upon holy powers inflicts intense agony upon undead flesh, requiring fledgling paladins to channel healing into injured Deathguards despite the burning torment.",
+ "sections": [
+  {
+   "title": "A Painful Reunion",
+   "body": "For former champions of the Silver Hand and fallen knights of Lordaeron, awakening in undeath means confronting a horrifying reality: the Holy Light still answers their call, but it burns their withered bodies from within. Aramis Hammerhand instructs newly risen Forsaken paladins that abilities once practiced as second nature now bring excruciating pain. Because holy energy naturally conflicts with the foul magic sustaining undeath, channeling the Light requires raw willpower and agonizing perseverance.",
+   "spoiler": 0
+  },
+  {
+   "title": "Purification Through Suffering",
+   "body": "Rather than allowing this torment to deter them, Forsaken paladins view the pain as an enduring testament of faith. Deathguard throughout Deathknell suffer grievous wounds combating mindless zombies, and it falls upon these undead knights to restore them. Aramis teaches that pushing through the burning pain is like exercising an atrophied muscle\u2014the agony itself is treated as a badge of honor and living proof that the Light has not forsaken them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does using the Light hurt Forsaken paladins?",
+   "aliases": [
+    "why does light hurt undead",
+    "holy light burning undead",
+    "why pain when healing"
+   ],
+   "answer": "The Holy Light is fundamentally opposed to the necrotic energies that sustain undeath. While a Forsaken's will and conviction allow them to channel the power of the Light, circulating that sacred energy through dead flesh inflicts excruciating, burning pain."
+  },
+  {
+   "q": "Who is Aramis Hammerhand?",
+   "aliases": [
+    "who is aramis hammerhand",
+    "aramis hammerhand lore",
+    "quest giver"
+   ],
+   "answer": "Aramis Hammerhand is an undead paladin trainer stationed in Deathknell. He guides newly risen Forsaken paladins as they reforge their shattered connection to the Holy Light."
+  },
+  {
+   "q": "Why are the Deathguards in Deathknell injured?",
+   "aliases": [
+    "why are deathguards hurt",
+    "injured deathguard lore",
+    "deathknell defenders"
+   ],
+   "answer": "The Deathguard are the soldiers defending Deathknell from mindless undead, feral Scourge remnants, and hostile wildlife that surround the settlement as the newly risen awaken from their graves."
+  },
+  {
+   "q": "Can undead naturally wield the Holy Light?",
+   "aliases": [
+    "can forsaken be paladins",
+    "undead using the light",
+    "forsaken paladin lore"
+   ],
+   "answer": "Yes, provided they retain the faith, willpower, and memory of their former vows. The Light responds to genuine conviction, though it exacts a brutal physical toll upon dead bodies."
+  },
+  {
+   "q": "What does Aramis mean when he calls pain a badge of honor?",
+   "aliases": [
+    "pain purifying property",
+    "badge of honor meaning",
+    "aramis speech"
+   ],
+   "answer": "Aramis views the burning agony not as a curse, but as undeniable proof that the Light still listens. Forsaken paladins endure the searing heat of their spells to demonstrate their unyielding loyalty and purpose."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "where is this quest",
+    "quest location",
+    "deathknell quest"
+   ],
+   "answer": "It takes place entirely within Deathknell, the secluded starter haven in northwestern Tirisfal Glades where newly raised Forsaken first emerge into their undead existence."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For an undead paladin, reconnecting with the Light is a crucible of faith and endurance, proving that holy vows can survive death itself despite the blistering agony it brings."
+  },
+  {
+   "target": "race:Undead",
+   "text": "This rite demonstrates the fierce resilience of the Forsaken, who turn even the searing torment of the Light into a disciplined weapon for their survival."
+  }
+ ],
+ "keywords": [
+  "aramis hammerhand",
+  "deathguard",
+  "deathknell",
+  "forsaken paladin",
+  "holy light",
+  "rediscovering the light",
+  "tirisfal glades",
+  "undead paladin"
+ ],
+ "related": [
+  "npc:aramis-hammerhand",
+  "subzone:deathknell",
+  "topic:light",
+  "topic:forsaken",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Rediscovering the Light"
+ ]
+}

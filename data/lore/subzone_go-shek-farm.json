@@ -1,0 +1,95 @@
+{
+ "key": "subzone:go-shek-farm",
+ "type": "subzone",
+ "name": "Go'Shek Farm",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Go'Shek Farm"
+ },
+ "summary": "Go'Shek Farm is an agricultural outpost in the eastern Arathi Highlands, occupied by the Horde and guarded by orcs from Hammerfall. Behind its mundane rural facade, Forsaken apothecaries conduct secretive alchemical experiments far from prying eyes.",
+ "sections": [
+  {
+   "title": "A Horde Outpost in the East",
+   "body": "Once a human farmstead held by Second War veterans, Go'Shek Farm fell into Horde hands following the chaos of the Third War. Positioned south of Hammerfall and just north of the hostile Witherbark troll territory, the farmstead nominally serves as a vital supply and staging hub for the orcish settlement. Hammerfall Grunts patrol the fields and stables, securing food and livestock to sustain the Horde's embattled foothold in the Arathi Highlands.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Apothecary's Workshop",
+   "body": "Beneath the routine work of tilling soil and tending beasts lies a darker purpose. The Royal Apothecary Society has established a quiet presence at the farmstead, led by figures such as Apothecary Jorell. Couriers slip between Go'Shek Farm and Tarren Mill, ferrying notes, reagents, and research into early variants of the Forsaken's new plague. The Alliance has taken notice, dispatching scouts to intercept these messengers and uncover the nature of the poison brewing in the Arathi soil.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Horde occupying Go'Shek Farm?",
+   "aliases": [
+    "who owns goshek farm",
+    "why are orcs at goshek farm",
+    "goshek farm horde"
+   ],
+   "answer": "The farmstead provides essential agricultural supplies and livestock for the nearby orc stronghold of Hammerfall. Additionally, it gives the Forsaken a discreet, guarded staging ground to conduct sensitive chemical and alchemical research."
+  },
+  {
+   "q": "Who used to own this farm?",
+   "aliases": [
+    "goshek farm history",
+    "human farm arathi",
+    "primwell skye"
+   ],
+   "answer": "It was originally a human farmstead, occupied by human veterans of the Second War such as Primwell Skye, before the devastation of the Third War allowed the Horde to claim the land."
+  },
+  {
+   "q": "What kind of experiments are happening here?",
+   "aliases": [
+    "apothecary jorell",
+    "plague experiments arathi",
+    "forsaken research goshek"
+   ],
+   "answer": "Forsaken apothecaries, including Apothecary Jorell, use the remote farm to test and refine early formulas for a new plague. They correspond and trade research materials with fellow apothecaries in Tarren Mill."
+  },
+  {
+   "q": "Why are there Alliance agents watching the farm?",
+   "aliases": [
+    "quae kinelory",
+    "alliance scouting goshek",
+    "hints of a new plague"
+   ],
+   "answer": "Alliance scouts Quae and Kinelory were dispatched to monitor suspicious courier movements between the farmstead and Tarren Mill. They seek to intercept Forsaken dispatches and determine what biological threats the Undercity is concocting."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Go'Shek Farm represents a dual threat: an agricultural artery feeding the garrison at Hammerfall, and a covert laboratory developing toxic Forsaken contagions."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing the farm is critical to keeping Hammerfall provisioned, while also maintaining a heavily fortified perimeter against the encroaching Witherbark trolls."
+  }
+ ],
+ "keywords": [
+  "apothecary jorell",
+  "arathi",
+  "go'shek farm",
+  "goshek",
+  "hammerfall",
+  "kinelory",
+  "quae",
+  "swee",
+  "witherbark"
+ ],
+ "related": [
+  "subzone:hammerfall",
+  "zone:arathi",
+  "subzone:tarren-mill",
+  "quest:367",
+  "topic:forsaken",
+  "topic:horde",
+  "subzone:witherbark-village",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Go'Shek Farm"
+ ]
+}

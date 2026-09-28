@@ -1,0 +1,85 @@
+{
+ "key": "npc:bingles-blastenheimer",
+ "type": "npc",
+ "name": "Bingles Blastenheimer",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Bingles Blastenheimer",
+  "refs": 2
+ },
+ "summary": "Bingles Blastenheimer is an eccentric gnomish aviator stranded on the southeastern shores of the Loch in Loch Modan. Having crash-landed his experimental flying machine, he finds himself marooned amidst local troggs and beasts, desperate to salvage his precious tools and components.",
+ "sections": [
+  {
+   "title": "A Rough Landing",
+   "body": "Like many ambitious gnomish engineers, Bingles Blastenheimer took to the skies in a customized flying craft, only to discover that coming down safely is far more difficult than lifting off. After his gyrocopter malfunctioned and crashed into the southeastern shores of the Loch, Bingles survived the impact intact, but his machine shattered into scattered parts. Stranded far from Ironforge, he remains huddled near the wreckage, guarded against hungry crocolisks and hostile troggs while pleading with passing travelers to retrieve his scattered tools so he can piece his invention back together.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bingles Blastenheimer?",
+   "aliases": [
+    "who is bingles",
+    "bingles blastenheimer lore",
+    "who is the gnome by the lake"
+   ],
+   "answer": "Bingles Blastenheimer is a gnomish pilot and tinkerer who suffered a catastrophic crash in his flying machine on the southeastern bank of the Loch in Loch Modan."
+  },
+  {
+   "q": "What happened to his flying machine?",
+   "aliases": [
+    "why did bingles crash",
+    "bingles gyrocopter",
+    "what happened to bingles plane"
+   ],
+   "answer": "Bingles crashed his gyrocopter on the shoreline. The impact shattered the craft and scattered his essential tools, spare parts, and engine components into the surrounding wilderness and water."
+  },
+  {
+   "q": "Why hasn't Bingles returned to town?",
+   "aliases": [
+    "why is bingles stranded",
+    "why stay by the lake"
+   ],
+   "answer": "Bingles is isolated and besieged by the dangerous predators and troggs infesting the lakeside. Without his lost tools and gear, he refuses to abandon the wreckage of his life's mechanical work."
+  },
+  {
+   "q": "Where does Bingles end up after his craft is fixed?",
+   "aliases": [
+    "where does bingles go",
+    "bingles lodge"
+   ],
+   "answer": "Once safe from the immediate peril on the banks of the Loch, Bingles seeks refuge with the dwarven hunters and rangers stationed at Farstrider Lodge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Bingles represents the quintessential gnomish drive for aerial innovation, where mechanical failure and explosions are simply treated as minor setbacks on the path to progress."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Any tinkerer will recognize the plight of losing irreplaceable custom spanners and gadgets to the local wildlife after an ambitious test flight goes wrong."
+  }
+ ],
+ "keywords": [
+  "bingles",
+  "blastenheimer",
+  "farstrider lodge",
+  "gnome",
+  "gyrocopter",
+  "loch modan",
+  "pilot"
+ ],
+ "related": [
+  "quest:2038",
+  "quest:2039",
+  "subzone:the-loch",
+  "zone:lochmodan",
+  "subzone:farstrider-lodge",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Bingles Blastenheimer"
+ ]
+}

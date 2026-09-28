@@ -1,0 +1,119 @@
+{
+ "key": "quest:7673",
+ "type": "quest",
+ "name": "Frost Ram Exchange",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   7673
+  ],
+  "level": "1",
+  "faction": "Alliance",
+  "start": "Veron Amberstill",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Frost Ram Exchange",
+  "chain": []
+ },
+ "summary": "Frost Ram Exchange is an arrangement handled by Veron Amberstill at the Amberstill Ranch in Dun Morogh. It permits skilled riders to trade their older frost rams for updated riding stock bred on the ranch. This service keeps the mounts of Ironforge's defenders dependable and well-tended.",
+ "sections": [
+  {
+   "title": "Stock of the Amberstills",
+   "body": "Tucked away in the snowdrifts northeast of Kharanos lies Amberstill Ranch, the ancestral home of Ironforge's preeminent ram breeders. Veron Amberstill oversees the herd, raising tough, thick-coated beasts capable of navigating Dun Morogh's sheer cliffs and icy passes. The exchange allows riders who possess an older breed of ram to trade it directly for fresh riding stock, ensuring their trusty steeds remain well-suited for long patrols across the mountains.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Mount for Mountain Folk",
+   "body": "Dwarven cavalry and scouts rely heavily on rams for their surefooted nature and stubborn resilience. When dwarven mount regulations were revised across the Alliance, ranchers like Veron established exchange programs to help riders update their stock without abandoning the deep traditions of mountain horsemanship. Veron handles the intake of these retired steeds, reintroducing them into the care of the ranch.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Frost Ram Exchange?",
+   "aliases": [
+    "what is this quest",
+    "frost ram exchange purpose",
+    "why exchange ram"
+   ],
+   "answer": "It is an exchange offered by Veron Amberstill at Amberstill Ranch in Dun Morogh, allowing riders to turn in older breeds of frost rams in return for current riding stock."
+  },
+  {
+   "q": "Who is Veron Amberstill?",
+   "aliases": [
+    "veron amberstill",
+    "who gives frost ram exchange",
+    "ram breeder dun morogh"
+   ],
+   "answer": "Veron Amberstill is a dwarven ram breeder who manages the Amberstill Ranch in Dun Morogh. He supplies the Alliance with hardy dwarven mounts and oversees the care and trading of working rams."
+  },
+  {
+   "q": "Where is this exchange conducted?",
+   "aliases": [
+    "where is veron",
+    "amberstill ranch location",
+    "ram exchange place"
+   ],
+   "answer": "The exchange takes place at Amberstill Ranch, located in the hills northeast of Kharanos and directly east of Ironforge's outer gates in Dun Morogh."
+  },
+  {
+   "q": "Why would someone exchange a frost ram?",
+   "aliases": [
+    "why trade frost ram",
+    "old mount exchange",
+    "ram trade reason"
+   ],
+   "answer": "As mount breeds and bridles were standardized across Ironforge's military and civilian registries, breeders like Veron offered direct exchanges so older, out-of-date rams could be peacefully traded for newly outfitted mounts."
+  },
+  {
+   "q": "Can any adventurer make this trade?",
+   "aliases": [
+    "who can do this quest",
+    "is this dwarf only",
+    "frost ram exchange requirement"
+   ],
+   "answer": "This exchange is intended specifically for Alliance riders who already possess the older breed of frost ram and are seeking to update their mount with Veron Amberstill."
+  },
+  {
+   "q": "What happens to the rams turned in to Veron?",
+   "aliases": [
+    "what happens to old rams",
+    "veron ram fate",
+    "are the rams killed"
+   ],
+   "answer": "The rams remain at Amberstill Ranch, where they are cared for by the Amberstill family alongside the rest of their mountain herds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, rams are a matter of cultural pride and practical necessity, bred specifically to conquer the high crags of Dun Morogh."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Living as guests in Dun Morogh, gnomes often marvel at the stubborn endurance of the Amberstill rams, though most prefer their own mechanized striders."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Dwarven mount breeders supply some of the sturdiest shock cavalry mounts in the entire Alliance army."
+  }
+ ],
+ "keywords": [
+  "amberstill ranch",
+  "dun morogh",
+  "frost ram",
+  "ironforge",
+  "mount exchange",
+  "ram mount",
+  "veron amberstill"
+ ],
+ "related": [
+  "npc:veron-amberstill",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Frost Ram Exchange"
+ ]
+}

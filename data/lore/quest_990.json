@@ -1,0 +1,116 @@
+{
+ "key": "quest:990",
+ "type": "quest",
+ "name": "Trek to Ashenvale",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   990
+  ],
+  "level": "19",
+  "faction": "Alliance",
+  "start": "Sentinel Selarin",
+  "end": "Raene Wolfrunner",
+  "previous": "Escape Through Stealth or Escape Through Force",
+  "next": "",
+  "wiki": "Trek to Ashenvale",
+  "chain": []
+ },
+ "summary": "Trek to Ashenvale is an Alliance journey quest directing seasoned adventurers south from Darkshore into the primeval forests of Ashenvale. Dispatched by Sentinel Selarin after operations near the border, travelers are sent to report to Raene Wolfrunner in the town of Astranaar, where the Sentinels struggle against spreading corruption.",
+ "sections": [
+  {
+   "title": "Leaving the Coast",
+   "body": "Having assisted Sentinel Selarin along the southern border of Darkshore, travelers leave behind the somber gray beaches and shadowed ruins of the coastline. The Sentinel recognizes capable fighters and scouts who can hold their own, pointing them directly toward the heart of night elf woodland territory. With local threats in Darkshore handled, attention turns toward the far greater perils encroaching from the south.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Astranaar",
+   "body": "The path southward follows an ancient night elf road winding through the dense ancient canopies of Ashenvale. Raene Wolfrunner, leader of the Sentinels stationed in Astranaar, has put out an urgent call for reinforcements. Between demonic taints, rampant wildlife, and external incursions into ancestral lands, the Sentinels in Astranaar are stretched thin and require outside aid to maintain their hold on the sacred forest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you on this trek?",
+   "aliases": [
+    "quest giver",
+    "who starts trek to ashenvale",
+    "selarin"
+   ],
+   "answer": "Sentinel Selarin, a night elf sentinel stationed in southern Darkshore, directs you south toward Astranaar once you have proven your capabilities along the border."
+  },
+  {
+   "q": "Who is Raene Wolfrunner?",
+   "aliases": [
+    "raene",
+    "wolfrunner",
+    "astranaar leader"
+   ],
+   "answer": "Raene Wolfrunner is the head Sentinel commander residing in Astranaar, responsible for organizing the defense of Ashenvale and coordinating efforts to stem the corruption afflicting the forest."
+  },
+  {
+   "q": "Why are adventurers being sent to Ashenvale?",
+   "aliases": [
+    "why ashenvale",
+    "what is happening in ashenvale",
+    "corruption ashenvale"
+   ],
+   "answer": "The ancient forests of Ashenvale are succumbing to spreading corruption and mounting external threats. The local night elf sentinels are overwhelmed and urgently need capable allies to assist the citizens and defenders of Astranaar."
+  },
+  {
+   "q": "Is the road between Darkshore and Ashenvale safe?",
+   "aliases": [
+    "road safety",
+    "ashenvale road safe"
+   ],
+   "answer": "Sentinel Selarin specifically advises sticking close to the road. Wandering off the path into the deep woods exposes travelers to aggressive predators, satyrs, and hostile forces that roam the untamed borders."
+  },
+  {
+   "q": "What should I do upon arriving in Astranaar?",
+   "aliases": [
+    "what to do in astranaar",
+    "astranaar arrival"
+   ],
+   "answer": "After reporting directly to Raene Wolfrunner, she advises speaking with the other residents and defenders throughout Astranaar, as many of them require immediate aid dealing with local crises."
+  },
+  {
+   "q": "What level of adventurer is this intended for?",
+   "aliases": [
+    "what level",
+    "level requirement"
+   ],
+   "answer": "This journey typically marks a graduation from Darkshore around level 19, transitioning intermediate adventurers into the broader and more contested frontier of Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, this journey is a return into the sacred heartland of Kalimdor, answering the call of your sisters to protect ancient holy grounds from unnatural rot."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance champion, answering Astranaar's call strengthens ties with the night elves and shores up the faction's primary foothold in northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "darkshore",
+  "night elf",
+  "raene wolfrunner",
+  "sentinel selarin",
+  "trek to ashenvale"
+ ],
+ "related": [
+  "npc:raene-wolfrunner",
+  "npc:sentinel-selarin",
+  "subzone:astranaar",
+  "zone:ashenvale",
+  "zone:darkshore",
+  "quest:938"
+ ],
+ "attribution": [
+  "Trek to Ashenvale"
+ ]
+}

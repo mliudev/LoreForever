@@ -1,0 +1,111 @@
+{
+ "key": "npc:rethiel-the-greenwarden",
+ "type": "npc",
+ "name": "Rethiel the Greenwarden",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Rethiel the Greenwarden",
+  "refs": 6
+ },
+ "summary": "Rethiel the Greenwarden is an ancient, sentient bog beast residing in Greenwarden's Grove within the Wetlands. Deeply attuned to the natural balance of the marsh, he watches over the land and enlists travelers to cull threats that disrupt its harmony.",
+ "sections": [
+  {
+   "title": "Guardian of the Marsh",
+   "body": "Standing amidst the damp thickets of Greenwarden's Grove, Rethiel is a towering creature of moss, peat, and primal plant life. While many bog beasts in the marshlands wander aimlessly as aggressive predators, Rethiel possesses a rare, conscious awareness and a sorrowful voice. He perceives the wetlands not merely as murky terrain, but as a living ecosystem that currently cries out under the weight of foreign predation and corruption.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tending the Wounds",
+   "body": "Rethiel seeks to alleviate the suffering of the Wetlands by dispatching sympathetic adventurers against its major agitators. He urges visitors to hunt down destructive Mosshide gnolls who ravage the wildlife, quench the unnatural fires stoked by Dragonmaw orc encampments, and thin out the bloated, rotting oozes that seep poison into the marsh waters. Through these cullings, he hopes to restore peace to the wounded soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rethiel the Greenwarden?",
+   "aliases": [
+    "who is rethiel",
+    "rethiel lore",
+    "bog beast npc wetlands"
+   ],
+   "answer": "Rethiel is a sentient bog beast residing at Greenwarden's Grove in the Wetlands. Unlike the mindless creatures of his kind, he can communicate with mortals and acts as a protector of the marsh."
+  },
+  {
+   "q": "Where can I find Rethiel?",
+   "aliases": [
+    "rethiel location",
+    "where is rethiel",
+    "greenwardens grove location"
+   ],
+   "answer": "He can be found at Greenwarden's Grove, situated along the road in the eastern portion of the Wetlands, east of the main marsh crossroads and west of Dun Algaz."
+  },
+  {
+   "q": "Why does Rethiel want travelers to help him?",
+   "aliases": [
+    "why rethiel gives quests",
+    "rethiel goal",
+    "what does rethiel want"
+   ],
+   "answer": "Rethiel senses that the marsh is actively suffering. He seeks adventurers to purge invasive threats\u2014specifically destructive gnoll bands, unnatural Dragonmaw fire-users, and toxic oozes\u2014to bring relief to the land."
+  },
+  {
+   "q": "Are all bog beasts sentient like Rethiel?",
+   "aliases": [
+    "can bog beasts talk",
+    "intelligent bog beasts",
+    "why can rethiel speak"
+   ],
+   "answer": "Most bog beasts encountered across Azeroth act on raw, hostile instinct and lack higher intellect. Rethiel is an exceptional creature whose deep natural attunement grants him sapience and speech."
+  },
+  {
+   "q": "What threats does Rethiel focus on?",
+   "aliases": [
+    "rethiel quests",
+    "rethiel enemies",
+    "threats to wetlands rethiel"
+   ],
+   "answer": "He focuses on curbing the aggressive Mosshide gnolls, extinguishing the flames of the hostile Dragonmaw orcs, and purging the foul oozes festering in the marsh."
+  },
+  {
+   "q": "Is Rethiel aligned with the Alliance or the Horde?",
+   "aliases": [
+    "is rethiel alliance",
+    "rethiel faction",
+    "can horde talk to rethiel"
+   ],
+   "answer": "Rethiel is a neutral guardian of nature. He is concerned solely with the welfare of the land and will entreat any traveler, regardless of allegiance, who is willing to mend the marsh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Rethiel represents an unusual expression of Azeroth's wild balance, speaking directly for a wounded ecosystem much like the ancient protectors of Kalimdor."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Attuned to the elemental and physical disharmony of the marsh, Rethiel echoes the distress of the land itself as it groans under contamination and fire."
+  }
+ ],
+ "keywords": [
+  "bog beast",
+  "dragonmaw",
+  "greenwarden",
+  "greenwarden's grove",
+  "mosshide",
+  "nature",
+  "rethiel",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:greenwarden-s-grove",
+  "zone:wetlands",
+  "quest:463",
+  "quest:275",
+  "quest:276",
+  "quest:277"
+ ],
+ "attribution": [
+  "Rethiel the Greenwarden"
+ ]
+}

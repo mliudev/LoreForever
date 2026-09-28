@@ -1,0 +1,68 @@
+{
+ "key": "subzone:northern-elwynn-mountains",
+ "type": "subzone",
+ "name": "Northern Elwynn Mountains",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Northern Elwynn Mountains"
+ },
+ "summary": "The Northern Elwynn Mountains form the rugged, towering northern border of Stormwind City and Elwynn Forest. These jagged peaks shelter the kingdom's capital from the untamed wildlands of the north, rising high above the city ramparts and coastline.",
+ "sections": [
+  {
+   "title": "A Natural Bulwark",
+   "body": "The craggy ridges of the Northern Elwynn Mountains cradle the city of Stormwind along its northern edge. Serving as a massive natural barricade, the range shields the kingdom's capital from overland invasion and bounds the northern perimeter of the coastal cliffs and the surrounding forest. Though largely sheer rock faces, these high bluffs watch silently over the bustling streets, fortified walls, and winding waterways below.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Northern Elwynn Mountains located?",
+   "aliases": [
+    "northern elwynn mountains location",
+    "where is northern elwynn mountains",
+    "where are the northern mountains"
+   ],
+   "answer": "They lie directly along the northern periphery of Stormwind City, rising behind the city's coastal cliffs and defining the northernmost geographic boundary of the Elwynn region."
+  },
+  {
+   "q": "What borders the Northern Elwynn Mountains?",
+   "aliases": [
+    "northern elwynn mountains borders",
+    "what is near northern elwynn mountains"
+   ],
+   "answer": "The mountains sit directly adjacent to the northern edges of Stormwind City, Elwynn Forest, and the surrounding Stormwind outskirts."
+  },
+  {
+   "q": "Is there a settlement in these mountains?",
+   "aliases": [
+    "who lives in the northern elwynn mountains",
+    "are there towns in northern elwynn mountains"
+   ],
+   "answer": "No. The mountains consist of rugged, uninhabited rock faces and high ridges that serve primarily as a defensive natural barrier rather than populated land."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "These looming heights provide a crucial geographic shield for the Alliance's primary stronghold in the Eastern Kingdoms, preventing easy overland access to Stormwind from the north."
+  }
+ ],
+ "keywords": [
+  "cliffs",
+  "elwynn",
+  "mountains",
+  "northern elwynn mountains",
+  "ridge",
+  "stormwind"
+ ],
+ "related": [
+  "zone:stormwind",
+  "zone:elwynn",
+  "subzone:stormwind-city-outskirts",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Northern Elwynn Mountains"
+ ]
+}

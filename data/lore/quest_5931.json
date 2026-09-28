@@ -1,0 +1,118 @@
+{
+ "key": "quest:5931",
+ "type": "quest",
+ "name": "Back to Darnassus",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   5931
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Dendrite Starblaze",
+  "end": "Mathrengyl Bearwalker",
+  "previous": "Great Bear Spirit (quest)",
+  "next": "Body and Heart (Alliance)",
+  "wiki": "Back to Darnassus",
+  "chain": []
+ },
+ "summary": "This quest marks the return of a novice night elf druid from the sacred groves of Moonglade to Darnassus. Having communed with the Great Bear Spirit, the initiate reports back to Mathrengyl Bearwalker in the Cenarion Enclave to begin practical shapeshifting trials.",
+ "sections": [
+  {
+   "title": "A Journey Between Sanctuaries",
+   "body": "After communing with the Great Bear Spirit in Moonglade, a young druid must bridge the divide between timeless nature sanctuaries and the unsettled world. Dendrite Starblaze sends the initiate back from Nighthaven to Darnassus, entrusting the next phase of training to the local mentors watching over Teldrassil.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Path of the Claw",
+   "body": "Mathrengyl Bearwalker awaits in the Cenarion Enclave, guarding nature even in places where the balance falters. Receiving the blessing of the Great Bear Spirit is merely the first step; Mathrengyl prepares the initiate to anchor that fierce ancestral wisdom into physical form through demanding trials of body and heart.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do I need to return to Darnassus?",
+   "aliases": [
+    "why return to darnassus",
+    "why leave moonglade",
+    "where does dendrite send me"
+   ],
+   "answer": "Moonglade provides the spiritual communion with the Great Bear Spirit, but your direct mentor, Mathrengyl Bearwalker, resides in the Cenarion Enclave of Darnassus. He guides the practical tests required to master your newly granted power."
+  },
+  {
+   "q": "Who is Mathrengyl Bearwalker?",
+   "aliases": [
+    "who is mathrengyl",
+    "mathrengyl bearwalker lore",
+    "bearwalker"
+   ],
+   "answer": "Mathrengyl Bearwalker is a seasoned night elf druid trainer stationed in Darnassus's Cenarion Enclave. He specializes in guiding young initiates through the Way of the Claw and mastering bear form."
+  },
+  {
+   "q": "How do I get back to Darnassus from Moonglade?",
+   "aliases": [
+    "how to leave nighthaven",
+    "moonglade flight back",
+    "silva fil'naveth"
+   ],
+   "answer": "The hippogryph master Silva Fil'naveth, located in southwestern Nighthaven, provides initiates with direct flights back across the sea to Darnassus."
+  },
+  {
+   "q": "What happens after I speak to Mathrengyl?",
+   "aliases": [
+    "next quest after back to darnassus",
+    "what comes next"
+   ],
+   "answer": "Mathrengyl will assign your first true test of purpose, tasking you to confront corrupted creatures in Teldrassil to prove your body and heart are ready to wield the bear form."
+  },
+  {
+   "q": "What is the Path of the Claw?",
+   "aliases": [
+    "path of the claw",
+    "druid claw lore"
+   ],
+   "answer": "The Path of the Claw is the druidic tradition focused on channeling the ferocity, resilience, and strength of the bear, embodied through communion with ancient primal spirits."
+  },
+  {
+   "q": "Why does Dendrite mention balance faltering near Darnassus?",
+   "aliases": [
+    "balance faltered darnassus",
+    "teldrassil corrupted"
+   ],
+   "answer": "Teldrassil is young and unblessed by the Dragon Aspects, leaving its boughs vulnerable to strange corruptions, furbolg madness, and encroaching darkness that druids in the Cenarion Enclave actively combat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This journey represents a crucial rite of passage for young druids, marking the transition from theoretical spiritual communion to physical shapeshifting."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Traveling between the ancient sanctuary of Moonglade and the newly planted World Tree of Teldrassil reflects the balance between millenia of kaldorei heritage and their present duties."
+  }
+ ],
+ "keywords": [
+  "bear spirit",
+  "bearwalker",
+  "cenarion enclave",
+  "darnassus",
+  "dendrite",
+  "mathrengyl",
+  "moonglade",
+  "shapeshifting",
+  "starblaze"
+ ],
+ "related": [
+  "npc:mathrengyl-bearwalker",
+  "npc:dendrite-starblaze",
+  "subzone:cenarion-enclave",
+  "subzone:nighthaven",
+  "zone:darnassus",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Back to Darnassus"
+ ]
+}

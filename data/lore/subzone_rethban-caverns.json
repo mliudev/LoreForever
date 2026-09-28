@@ -1,0 +1,90 @@
+{
+ "key": "subzone:rethban-caverns",
+ "type": "subzone",
+ "name": "Rethban Caverns",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Rethban Caverns"
+ },
+ "summary": "Rethban Caverns is an extensive cave system tucked into the northwestern cliffs of the Redridge Mountains. Infested with aggressive Redridge gnolls, it is best known as the sole source of uncommon Rethban ore.",
+ "sections": [
+  {
+   "title": "A Gnoll Warren",
+   "body": "Carved deep into the northwestern mountains overlooking Lake Everstill, Rethban Caverns serves as a fortified redoubt for the local gnolls. Under the cunning leadership of Ardo Dirtpaw, the pack fiercely guards the twisting passages and subterranean chambers, attacking any wanderers who stray too close to their hillside entrance.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Veins of Rethban",
+   "body": "The caverns take their name from Bart Rethban, though today they are primarily remembered for Rethban ore, a distinct mineral found within the rock walls and carried by the Dirtpaw pack. Blacksmiths and researchers in Lakeshire often send travelers into the dangerous, winding tunnels to recover samples of this rare mountain ore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are Rethban Caverns located?",
+   "aliases": [
+    "rethban caverns location",
+    "where is rethban",
+    "how to find rethban caverns"
+   ],
+   "answer": "The caverns lie along the jagged bluffs in the northwestern region of the Redridge Mountains, north of the main road heading toward Lakeshire."
+  },
+  {
+   "q": "What creatures dwell inside Rethban Caverns?",
+   "aliases": [
+    "rethban mobs",
+    "who lives in rethban caverns",
+    "rethban enemies"
+   ],
+   "answer": "The tunnels are overrun by Redridge gnolls of the Dirtpaw clan, who answer to the cunning chieftain Ardo Dirtpaw."
+  },
+  {
+   "q": "Why do adventurers venture into the caverns?",
+   "aliases": [
+    "rethban cavern quests",
+    "why go to rethban caverns",
+    "rethban ore quest"
+   ],
+   "answer": "Travelers and townsfolk from Lakeshire seek out Rethban ore, an uncommon mineral vein found deep inside the caves and held by the residing gnolls."
+  },
+  {
+   "q": "Who is Rethban Caverns named after?",
+   "aliases": [
+    "who was rethban",
+    "bart rethban",
+    "origin of rethban name"
+   ],
+   "answer": "The cavern system is believed to have been named after an individual known as Bart Rethban."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The caverns are famed for yielding Rethban ore, a mineral deposit fiercely contested by the local gnoll tribes."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The aggressive gnoll pack entrenched inside the caverns poses an ongoing threat to travelers in northern Redridge, requiring Lakeshire's defenders to keep the bluffs secure."
+  }
+ ],
+ "keywords": [
+  "ardo dirtpaw",
+  "bart rethban",
+  "dirtpaw",
+  "gnolls",
+  "lakeshire",
+  "redridge",
+  "rethban",
+  "rethban caverns",
+  "rethban ore"
+ ],
+ "related": [
+  "quest:347",
+  "zone:redridge",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Rethban Caverns"
+ ]
+}

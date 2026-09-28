@@ -1,0 +1,112 @@
+{
+ "key": "quest:6324",
+ "type": "quest",
+ "name": "Return to Podrig",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   6324
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Michael Garrett",
+  "end": "Deathguard Podrig",
+  "previous": "Michael Garrett (Classic)",
+  "next": null,
+  "wiki": "Return to Podrig",
+  "chain": []
+ },
+ "summary": "Return to Podrig is a logistics quest concluding a courier run between Silverpine Forest and the Undercity. After delivering a dispatch to the capital, the courier is entrusted with a crate of weapons to ferry back to Deathguard Podrig at the Sepulcher using the Forsaken bat handler network.",
+ "sections": [
+  {
+   "title": "The Undercity Supply Line",
+   "body": "Outposts throughout Lordaeron depend heavily on regular shipments from the Undercity to remain operational. At the Sepulcher in Silverpine Forest, Deathguard sentries face pressure from local worgen, Dalaran remnants, and Scourge stragglers. Supplying remote garrisons with freshly forged armaments is vital to holding the region under Forsaken control.",
+   "spoiler": 0
+  },
+  {
+   "title": "Wings of the Forsaken",
+   "body": "Bat Master Michael Garrett operates the central roost in the Undercity courtyard, serving as the hub for Forsaken aerial travel. While bats naturally return to the capital, riders must first coordinate with local handlers like Karos Razok before flights to distant outposts can be charted. Flying Gordon's Crate across Lordaeron's skies teaches couriers how the Forsaken bind their scattered strongholds together.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in Gordon's Crate?",
+   "aliases": [
+    "gordons crate contents",
+    "what am i delivering to podrig"
+   ],
+   "answer": "The crate contains fresh weapons produced in the Undercity to keep the Deathguards stationed at the Sepulcher properly equipped against surrounding threats."
+  },
+  {
+   "q": "Who is Deathguard Podrig?",
+   "aliases": [
+    "podrig",
+    "who is podrig"
+   ],
+   "answer": "Deathguard Podrig is a Forsaken soldier stationed at the Sepulcher in Silverpine Forest who oversees logistical and defense duties for the local garrison."
+  },
+  {
+   "q": "Who is Michael Garrett?",
+   "aliases": [
+    "michael garrett",
+    "undercity bat master"
+   ],
+   "answer": "Michael Garrett is the Forsaken bat master stationed in the upper courtyard of the Undercity, responsible for coordinating flight paths across Lordaeron."
+  },
+  {
+   "q": "Why do you have to speak to a bat master before flying somewhere?",
+   "aliases": [
+    "flight path rules",
+    "how do bat handlers work"
+   ],
+   "answer": "Forsaken bats naturally know the way back to the central roost in the Undercity, but outward flights require establishing a route with a regional handler first to ensure safe arrival."
+  },
+  {
+   "q": "Why is the Sepulcher so important to supply?",
+   "aliases": [
+    "why sepulcher matters",
+    "sepulcher importance"
+   ],
+   "answer": "The Sepulcher is the Forsaken's main forward base in Silverpine Forest. It anchors their military presence against worgen packs, Moonrage threats, and Dalaran forces in the area."
+  },
+  {
+   "q": "Who is Karos Razok?",
+   "aliases": [
+    "karos razok",
+    "sepulcher bat master"
+   ],
+   "answer": "Karos Razok is the bat master stationed at the Sepulcher in Silverpine Forest, managing roosted bats that connect the outpost to the Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Keeping forward garrisons armed is essential to defending Lordaeron and securing Queen Sylvanas's fledgling realm."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This task demonstrates the logistical framework connecting the Undercity to remote outposts across the northern continent."
+  }
+ ],
+ "keywords": [
+  "bat master",
+  "gordons crate",
+  "karos razok",
+  "michael garrett",
+  "podrig",
+  "sepulcher",
+  "silverpine",
+  "undercity"
+ ],
+ "related": [
+  "quest:6322",
+  "zone:undercity",
+  "subzone:sepulcher",
+  "npc:karos-razok"
+ ],
+ "attribution": [
+  "Return to Podrig"
+ ]
+}

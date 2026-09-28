@@ -1,0 +1,90 @@
+{
+ "key": "subzone:northdale",
+ "type": "subzone",
+ "name": "Northdale",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Northdale"
+ },
+ "summary": "Northdale is a ruined settlement nestled north of Light's Hope Chapel in the Eastern Plaguelands, near the border of Quel'Thalas. Once a thriving northern township, it now lies broken and overrun by banshees, shadowy watchers, and corrupted elementals. It is most famous as the bitter crossroads where Taelan Fordring abandoned the Order of the Silver Hand to embrace the fanaticism of the Scarlet Crusade.",
+ "sections": [
+  {
+   "title": "A Town of Sorrow",
+   "body": "Situated along the hills north of Light's Hope Chapel, Northdale was once a peaceful community along the northern highway leading toward Quel'Thalas. The Third War left it in shattered ruins, its hearths cold and its population slain or driven out. Today, wailing banshees drift through the crumbling masonry, while invisible Eyeless Watchers lurk in the dark to survey the cursed roads. Even the nearby lake has succumbed to the plague, its waters bubbling with twisted, corrupted water elementals.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Forsaken Oath",
+   "body": "Northdale holds a dark significance in the tragic history of the Fordring family. Following the fall of Lordaeron and the dissolution of the Knights of the Silver Hand, young Taelan Fordring stood within these broken streets and formally cast aside his father's teachings. Believing the remnants of the Silver Hand too weak to purge the undead scourge, he surrendered his sacred duty and joined the radical ranks of the Scarlet Crusade, a fateful decision that shaped the crusade's hold over Hearthglen.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to Northdale?",
+   "aliases": [
+    "why is northdale ruined",
+    "northdale history",
+    "what is northdale"
+   ],
+   "answer": "Northdale was destroyed during the Third War when the Scourge swept through Lordaeron. Its buildings were razed and its people fell to the plague, leaving behind a husk of stone now haunted by vengeful spirits and corrupted elementals."
+  },
+  {
+   "q": "What significant event took place here?",
+   "aliases": [
+    "taelan fordring northdale",
+    "what happened to taelan",
+    "order of the silver hand northdale"
+   ],
+   "answer": "It is the place where Taelan Fordring renounced the Order of the Silver Hand. Despairing over the fall of Lordaeron, he cast aside his paladin vows here and pledged himself to the emerging Scarlet Crusade."
+  },
+  {
+   "q": "What creatures haunt the ruins today?",
+   "aliases": [
+    "mobs in northdale",
+    "northdale enemies",
+    "whats in northdale"
+   ],
+   "answer": "The town ruins are infested with wailing banshees and unseen Eyeless Watchers serving the Scourge. The adjacent waters are also spoiled, crawling with corrupted water elementals."
+  },
+  {
+   "q": "Where is Northdale located?",
+   "aliases": [
+    "northdale location",
+    "where is northdale",
+    "finding northdale"
+   ],
+   "answer": "Northdale sits in the northeastern reaches of the Eastern Plaguelands, just north of Light's Hope Chapel and southeast of the Thalassian Pass into Quel'Thalas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For knights of the Light, Northdale is a sobering monument to lost faith\u2014the very soil where Taelan Fordring abandoned the Silver Hand to chase vengeance."
+  },
+  {
+   "target": "race:Human",
+   "text": "The burnt foundations and wandering banshees of Northdale represent yet another lost Lordaeron community slaughtered and claimed by the Scourge."
+  }
+ ],
+ "keywords": [
+  "banshee",
+  "eyeless watcher",
+  "fordring",
+  "northdale",
+  "plaguelands",
+  "scarlet crusade",
+  "silver hand",
+  "taelan"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "subzone:light-s-hope-chapel",
+  "topic:scarlet-crusade",
+  "topic:light"
+ ],
+ "attribution": [
+  "Northdale"
+ ]
+}

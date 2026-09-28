@@ -1,0 +1,111 @@
+{
+ "key": "npc:lord-pythas",
+ "type": "npc",
+ "name": "Lord Pythas",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "wiki": "Lord Pythas",
+  "refs": 5
+ },
+ "summary": "Lord Pythas, once a night elf warrior named Aryn, is one of the four corrupted leaders of the Druids of the Fang in the Wailing Caverns. Originally a childhood friend and sworn protector of the archdruid Naralex, he fell victim to the nightmare tainting the oasis underground. Now he wields both martial might and twisted serpent magic against any who try to reach his slumbering master.",
+ "sections": [
+  {
+   "title": "A Guardian Falls",
+   "body": "Before adopting the moniker Pythas, this night elf was known as Aryn. A seasoned warrior and trusted childhood companion to Naralex, he served as the archdruid's personal guard when the expedition ventured into the dry wastes of the Barrens. Eager to better serve Naralex's ambitious dream of restoring lush life to the arid realm, Aryn took up the study of druidism, proving to be an exceptionally fast learner. However, physical discipline and martial valor offered no shelter against the insidious corruption waiting deep within the subterranean fissures.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lethal Sentinel",
+   "body": "When Naralex's connection to the Emerald Dream was hijacked by dark nightmares, Aryn's mind succumbed alongside those of his fellow acolytes. Shedding his former name and loyalty, he became Lord Pythas, leader among the Druids of the Fang. Where his fellow serpent lords favor cunning spellcasting or beast forms, Pythas seamlessly blends lethal combat prowess with nature magic. He now prowls the winding tunnels of the caverns, determined to defend the nightmare's twisted grip on the cavern spring.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lord Pythas?",
+   "aliases": [
+    "who is pythas",
+    "lord pythas lore",
+    "who was aryn"
+   ],
+   "answer": "Lord Pythas was originally a night elf warrior named Aryn. He was a childhood friend and personal bodyguard to Archdruid Naralex who studied druidism to assist his master's work in the Barrens."
+  },
+  {
+   "q": "Why did he turn against Naralex?",
+   "aliases": [
+    "why is pythas evil",
+    "how did pythas go mad",
+    "why did he become druid of the fang"
+   ],
+   "answer": "Pythas did not betray Naralex willingly. When Naralex attempted to tap into the Emerald Dream to heal the Barrens, a nightmare seized the archdruid's thoughts. The corrupting dream seeped into the minds of his acolytes, stripping away Aryn's sanity and remaking him into a serpent lord."
+  },
+  {
+   "q": "What makes Pythas different from the other Fang leaders?",
+   "aliases": [
+    "pythas fighting style",
+    "pythas vs other leaders"
+   ],
+   "answer": "Unlike the other leaders who rely purely on nature magic and beast forms, Pythas was a seasoned warrior before training as a druid. He combines martial combat skill with druidic magic, making him one of the most physically formidable defenders in the caverns."
+  },
+  {
+   "q": "Why do adventurers need to defeat him?",
+   "aliases": [
+    "leaders of the fang quest",
+    "gem of pythas"
+   ],
+   "answer": "Pythas carries one of the four enchanted gems needed to complete the quest Leaders of the Fang. Naralex's surviving loyalists, the Disciple of Naralex, require the defeat of all four Fang leaders to disrupt the corruption and safely wake the sleeping archdruid."
+  },
+  {
+   "q": "Where can Lord Pythas be found?",
+   "aliases": [
+    "pythas location",
+    "where is pythas"
+   ],
+   "answer": "Lord Pythas lurks within the deep interior chambers of the Wailing Caverns, surrounded by corrupted beasts and fellow Fang cultists."
+  },
+  {
+   "q": "What happens to his gem?",
+   "aliases": [
+    "gem of pythas use",
+    "what is gem of pythas"
+   ],
+   "answer": "Upon his defeat, the Gem of Pythas is recovered from his remains. Adventurers bring it, along with the gems of the other three serpent lords, to Naralex's loyalists in the cave above the entrance to prove the leadership of the Fang has been broken."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Pythas represents the tragic fate of a promising acolyte who embraced nature magic out of devotion, only to have the Emerald Dream's corruption twist his teachings into a viperous heresy."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Before he was corrupted into a serpent cultist, Pythas was a disciplined night elf warrior and personal protector\u2014a grim reminder that martial prowess alone cannot stave off mental madness."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Watching a respected protector like Aryn fall to dark madness is a bitter sorrow for any night elf seeking to restore balance to the scarred soils of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "aryn",
+  "druids of the fang",
+  "gem of pythas",
+  "leaders of the fang",
+  "lord pythas",
+  "naralex",
+  "pythas",
+  "wailing caverns"
+ ],
+ "related": [
+  "zone:wailing",
+  "npc:naralex",
+  "topic:druids-of-the-fang",
+  "quest:914",
+  "topic:druid",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Lord Pythas"
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "key": "subzone:undercroft",
+ "type": "subzone",
+ "name": "Undercroft",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Undercroft"
+ },
+ "summary": "The Undercroft is an ancient burial crypt nestled in the southwestern hills of the Eastern Plaguelands. Once a dignified tomb of Lordaeron, it has been desecrated by a band of undead trolls under the command of Zaeldarr the Outcast. Amid the defiled catacombs lies an ersatz grave dug long ago to feign the death of the exiled paladin Tirion Fordring.",
+ "sections": [
+  {
+   "title": "A Desecrated Sepulcher",
+   "body": "Carved into the rugged bluffs southwest of Corin's Crossing, the Undercroft was originally built as a final resting place for the honored dead of Lordaeron. The fall of the kingdom stripped away its sanctity, and the tomb is now infested by a band of savage undead trolls. Led by the hulking monstrosity Zaeldarr the Outcast, these ghoulish marauders use the underground halls as a redoubt from which to stalk the Plaguelands, even daring to raid the grave pits of Light's Hope Chapel to gather raw corpses for their sinister practices.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Pretender's Tomb",
+   "body": "Beyond its monstrous squatter, the Undercroft harbors a poignant secret of the Second War era: a mock grave bearing the name of Tirion Fordring. Following his trial for treason and subsequent exile, Fordring's allies staged his symbolic burial here to allow his family to maintain their standing while letting the fallen paladin slip into hiding. Within this earthen deception rests a personal memento from Tirion's past, hidden away where only those who know the truth would dare to search.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Undercroft?",
+   "aliases": [
+    "where is undercroft",
+    "what is this crypt",
+    "undercroft epl"
+   ],
+   "answer": "The Undercroft is a burial crypt situated in the southwestern region of the Eastern Plaguelands. Originally constructed to inter local nobility and fallen soldiers of Lordaeron, it has fallen into ruin and is now occupied by undead horrors."
+  },
+  {
+   "q": "Who occupies the crypt now?",
+   "aliases": [
+    "who is inside undercroft",
+    "undercroft mobs",
+    "trolls in undercroft"
+   ],
+   "answer": "The crypt is infested by a band of undead trolls led by a massive undead dire troll known as Zaeldarr the Outcast. They use the tunnels as a lair between scavenging raids across the region."
+  },
+  {
+   "q": "Why are there undead trolls in the Eastern Plaguelands?",
+   "aliases": [
+    "why trolls here",
+    "zaeldarr lore",
+    "undead trolls epl"
+   ],
+   "answer": "While the Scourge primarily raised humans and elves in northern Lordaeron, troll tribes such as the Mossflayer and Witherbark dwell nearby. Undead trolls like Zaeldarr and his reanimated followers roam the bluffs, pillaging burial sites and preying on unwary travelers."
+  },
+  {
+   "q": "Why is Tirion Fordring's name on a grave here?",
+   "aliases": [
+    "tirion grave",
+    "is tirion dead",
+    "fordring tomb"
+   ],
+   "answer": "The grave is an ersatz, or false, resting place. After Tirion was stripped of his rank and exiled by the Alliance of Lordaeron, a mock burial was arranged at the Undercroft so his family could preserve their honor and claim his death while he lived secretly in hiding."
+  },
+  {
+   "q": "Why do the Undercroft trolls raid Light's Hope Chapel?",
+   "aliases": [
+    "zaeldarr raids",
+    "grave pit raid",
+    "trolls light's hope"
+   ],
+   "answer": "Zaeldarr the Outcast occasionally leads nighttime raids against the grave pits outside Light's Hope Chapel. His objective is to unearth and steal newly buried corpses to bolster his own band or feed their morbid appetites."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For holy warriors, entering the Undercroft means witnessing both the tragic mock burial of the exiled hero Tirion Fordring and the foul desecration of sacred crypts by Zaeldarr's vile brood."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Troll travelers will view Zaeldarr the Outcast and his undead kindred as a grim, perverted mockery of troll traditions and the sacred rites owed to deceased ancestors."
+  }
+ ],
+ "keywords": [
+  "crypt",
+  "dire troll",
+  "eastern plaguelands",
+  "grave",
+  "light's hope",
+  "the outcast",
+  "tirion fordring",
+  "undercroft",
+  "zaeldarr"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "npc:tirion-fordring",
+  "subzone:light-s-hope-chapel",
+  "topic:argent-dawn",
+  "topic:troll",
+  "topic:light"
+ ],
+ "attribution": [
+  "Undercroft"
+ ]
+}

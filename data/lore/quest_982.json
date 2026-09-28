@@ -1,0 +1,120 @@
+{
+ "key": "quest:982",
+ "type": "quest",
+ "name": "Deep Ocean, Vast Sea",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   982
+  ],
+  "level": "17",
+  "faction": "Alliance",
+  "start": "Gorbold Steelhand",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Deep Ocean, Vast Sea",
+  "chain": []
+ },
+ "summary": "Deep Ocean, Vast Sea is an Alliance quest offered by Gorbold Steelhand in Auberdine. Players are tasked with diving into the waters north of the village to recover personal lockboxes from two sunken night elf vessels, the Silver Dawning and the Mist Veil. Both ships were ambushed by coastal murlocs, leaving their surviving crew members in search of closure.",
+ "sections": [
+  {
+   "title": "Tragedy off the Coast",
+   "body": "The waters off Darkshore have grown increasingly hazardous, not just from treacherous currents and natural reefs, but from aggressive coastal tribes. The vessels Silver Dawning and Mist Veil were making their way into port at Auberdine when they were overwhelmed by swarming murlocs. Neither ship survived the encounter, and both sank into the shallows north of the settlement. The surviving crew made it ashore, but the loss of their ships and captains cast a heavy shadow over the port.",
+   "spoiler": 0
+  },
+  {
+   "title": "Recovering Lost Memories",
+   "body": "Gorbold Steelhand, a dwarf stationed in Auberdine, takes up the cause of honoring the fallen night elf captains. Although the vessels are now underwater ruins claimed as trophies and nests by the local murlocs, the captains' lockboxes remain locked in the flooded holds. Recovering the logs and personal effects inside allows the surviving sailors in Auberdine to properly mourn their commanders and lay their spirits to rest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the sunken ships located?",
+   "aliases": [
+    "where are the shipwrecks",
+    "wreck location",
+    "where to find silver dawning"
+   ],
+   "answer": "The wrecks of both the Silver Dawning and the Mist Veil lie submerged off the coast of Darkshore, directly to the north of the Auberdine docks."
+  },
+  {
+   "q": "What happened to the Silver Dawning and the Mist Veil?",
+   "aliases": [
+    "how did ships sink",
+    "why did ships wreck",
+    "what sank mist veil"
+   ],
+   "answer": "Both vessels were ambushed by murlocs as they sailed toward Auberdine across the sea. The crews were overrun, both captains died, and the ships foundered and settled on the ocean floor."
+  },
+  {
+   "q": "Who is Gorbold Steelhand?",
+   "aliases": [
+    "who gives deep ocean vast sea",
+    "gorbold steelhand lore"
+   ],
+   "answer": "Gorbold Steelhand is a dwarf residing in the night elf port of Auberdine. He looks out for the surviving sailors around town and tasks adventurers with recovering the lost captains' belongings."
+  },
+  {
+   "q": "What is inside the lockboxes?",
+   "aliases": [
+    "what are in the lockboxes",
+    "captains lockbox contents"
+   ],
+   "answer": "The lockboxes contain the personal effects and logs belonging to the fallen night elf captains, items cherished by the surviving crew members who escaped the wreck."
+  },
+  {
+   "q": "Why do the survivors care so much about these effects?",
+   "aliases": [
+    "why recover lockboxes",
+    "why help the captains"
+   ],
+   "answer": "The captains were respected night elf mariners. Recovering their logs and possessions provides closure to their surviving crew and is believed to help put their spirits to rest."
+  },
+  {
+   "q": "What creatures inhabit the shipwrecks now?",
+   "aliases": [
+    "what is guarding the ships",
+    "mobs at the shipwrecks"
+   ],
+   "answer": "The ruins have been overtaken by murlocs, who treat the wrecked hulls as trophies and prowl the surrounding waters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The fallen captains were night elf mariners serving Auberdine's maritime trade, making the recovery of their belongings a matter of ancestral honor."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Gorbold Steelhand shows the typical dwarven instinct to honor fallen comrades and support his fellow sailors in foreign ports."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The shared grief of the crew in Auberdine demonstrates the close maritime cooperation between dwarfs and night elves along the Kalimdor coast."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "deep ocean vast sea",
+  "gorbold steelhand",
+  "lockbox",
+  "mist veil",
+  "murloc",
+  "shipwreck",
+  "silver dawning"
+ ],
+ "related": [
+  "npc:gorbold-steelhand",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "topic:murloc",
+  "quest:938"
+ ],
+ "attribution": [
+  "Deep Ocean, Vast Sea"
+ ]
+}

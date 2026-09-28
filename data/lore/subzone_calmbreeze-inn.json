@@ -1,0 +1,77 @@
+{
+ "key": "subzone:calmbreeze-inn",
+ "type": "subzone",
+ "name": "Calmbreeze Inn",
+ "era": "classic",
+ "zone": "zephras",
+ "meta": {
+  "wiki": "Calmbreeze Inn"
+ },
+ "summary": "Calmbreeze Inn refers to the primary establishments offering shelter and services across Zephras Isle, found in both Shen'dar Village and Valaanar. They serve as essential rest stops for travelers exploring the island, housing local trade trainers, innkeepers, and historical artifacts.",
+ "sections": [
+  {
+   "title": "Rest on the Isle",
+   "body": "The Calmbreeze Inns provide sanctuary amid the winding trails of Zephras Isle. In Shen'dar Village, the inn operates under Coriella Calmbreeze and doubles as a central hub where island tradesfolk gather, including mentors in herbalism, skinning, and enchanting. Across the way in Valaanar, another Calmbreeze Inn accommodates local wayfarers and shelters rare curios, including an audio crystal recording the history of the ancient rebellion in Eldre'Thalas.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Calmbreeze Inns located?",
+   "aliases": [
+    "calmbreeze inn location",
+    "where is calmbreeze inn",
+    "calmbreeze inn map"
+   ],
+   "answer": "Calmbreeze Inn locations can be found in both Shen'dar Village and Valaanar on Zephras Isle."
+  },
+  {
+   "q": "Who runs the inn in Shen'dar Village?",
+   "aliases": [
+    "calmbreeze innkeeper",
+    "who runs calmbreeze inn"
+   ],
+   "answer": "The Shen'dar Village location is maintained by Innkeeper Coriella Calmbreeze, offering hospitality to island residents and travelers alike."
+  },
+  {
+   "q": "What trainers can be found at the inn?",
+   "aliases": [
+    "calmbreeze trainers",
+    "shen'dar inn trainers"
+   ],
+   "answer": "In Shen'dar Village, the inn houses Halassa Fernbreeze for Herbalism, Mendalass Tattermend for Skinning, Nasalanna Windsinger for Enchanting, and Miriann Mistblade for Rogue training."
+  },
+  {
+   "q": "What is the audio crystal found upstairs in Valaanar?",
+   "aliases": [
+    "valaanar audio crystal",
+    "the rebellion in eldre'thalas crystal"
+   ],
+   "answer": "Upstairs in the Valaanar inn rests an audio crystal containing Part 3 of 'The Rebellion In Eldre'Thalas', chronicling historic events from the ancient Highborne city."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists visiting Shen'dar Village can seek out Halassa Fernbreeze inside the Calmbreeze Inn to hone their gathering craft."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Miriann Mistblade offers rogue instruction from the hearth of the Shen'dar Village Calmbreeze Inn."
+  }
+ ],
+ "keywords": [
+  "calmbreeze inn",
+  "coriella calmbreeze",
+  "eldre'thalas",
+  "shen'dar village",
+  "valaanar",
+  "zephras isle"
+ ],
+ "related": [
+  "zone:zephras"
+ ],
+ "attribution": [
+  "Calmbreeze Inn"
+ ]
+}

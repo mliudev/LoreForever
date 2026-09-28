@@ -1,0 +1,66 @@
+{
+ "key": "npc:cyrus-therepentous",
+ "type": "npc",
+ "name": "Cyrus Therepentous",
+ "era": "classic",
+ "zone": "burningsteppes",
+ "meta": {
+  "wiki": "Cyrus Therepentous",
+  "refs": 2
+ },
+ "summary": "Cyrus Therepentous is a formidable black dragonspawn residing in the cavernous depths of Slither Rock in the Burning Steppes. Rather than immediately striking down intruders, he tests daring mortals to see if they possess the strength to serve the purposes of the Black dragonflight.",
+ "sections": [
+  {
+   "title": "The Master of Slither Rock",
+   "body": "Secluded inside a cavern at Slither Rock, Cyrus Therepentous oversees the volcanic crags of the Burning Steppes. Like many of his kind, he views mortal travelers with immense condescension, declaring that only fools would disturb his lair. Yet beneath his ferocious exterior lies a cold calculation: rather than consuming every trespasser on sight, he offers them a lethal challenge against his minions, willing to exploit those resilient enough to survive the trials of flame.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Cyrus Therepentous?",
+   "aliases": [
+    "cyrus therepentous",
+    "who is cyrus",
+    "slither rock dragonspawn"
+   ],
+   "answer": "Cyrus Therepentous is an intelligent black dragonspawn stationed in a cave at Slither Rock in the Burning Steppes. He serves the Black dragonflight and tests mortal adventurers who dare enter his lair."
+  },
+  {
+   "q": "Where can Cyrus Therepentous be found?",
+   "aliases": [
+    "cyrus location",
+    "where is cyrus therepentous",
+    "cyrus cave"
+   ],
+   "answer": "He resides deep inside a cave located at Slither Rock, in the northeastern region of the Burning Steppes."
+  },
+  {
+   "q": "Why doesn't Cyrus attack adventurers on sight?",
+   "aliases": [
+    "why is cyrus friendly",
+    "why doesn't cyrus kill me",
+    "cyrus talk"
+   ],
+   "answer": "While he openly considers eating trespassers, Cyrus prefers to see if mortals can be of use to him. He spares those who prove useful by pitting them against deadly trials and minions instead."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "black dragonflight",
+  "burning steppes",
+  "cyrus therepentous",
+  "dragonspawn",
+  "slither rock",
+  "taste of flame"
+ ],
+ "related": [
+  "subzone:slither-rock",
+  "zone:burningsteppes",
+  "topic:black-dragonflight",
+  "zone:searinggorge"
+ ],
+ "attribution": [
+  "Cyrus Therepentous"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "key": "npc:ahanu",
+ "type": "npc",
+ "name": "Ahanu",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Ahanu",
+  "refs": 2
+ },
+ "summary": "Ahanu is a tauren merchant operating within Hewa's Armory on the lower rise of Thunder Bluff. He crafts and trades leather armor to travelers and young braves setting out across Mulgore and the wider plains. He also helps newly arrived couriers navigate the bluffs when delivering messages from nearby settlements.",
+ "sections": [
+  {
+   "title": "Merchant of Hewa's Armory",
+   "body": "Situated amidst the leatherworking stalls and armories of Thunder Bluff's lower rise, Ahanu provides vital equipment to those who make their living across Kalimdor's grasslands. Together with companions like Jahan Hawkwing and Varg Windwhisper, he represents the everyday tradesfolk who keep the tauren capital supplied with durable cured and tanned hide gear. For travelers fresh off a wind rider from Bloodhoof Village, Ahanu frequently serves as a first point of contact in the grand city, receiving deliveries and directing messengers toward the local flight roosts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ahanu?",
+   "aliases": [
+    "ahanu npc",
+    "ahanu lore",
+    "who is ahanu"
+   ],
+   "answer": "Ahanu is a tauren merchant residing on the lower rise of Thunder Bluff inside Hewa's Armory. He sells leather armor and assists couriers arriving in the capital from Bloodhoof Village."
+  },
+  {
+   "q": "What does Ahanu sell?",
+   "aliases": [
+    "ahanu goods",
+    "ahanu wares",
+    "ahanu vendor"
+   ],
+   "answer": "He sells various basic pieces of cured and tanned leather armor, including jerkins, belts, boots, and bracers designed for hunters, rogues, and young adventurers."
+  },
+  {
+   "q": "Where in Thunder Bluff can I find him?",
+   "aliases": [
+    "ahanu location",
+    "where is ahanu",
+    "ahanu map"
+   ],
+   "answer": "Ahanu is located inside Hewa's Armory on Thunder Bluff's lower rise, near other armorers, leatherworkers, and weapon smiths."
+  },
+  {
+   "q": "What quests involve Ahanu?",
+   "aliases": [
+    "ahanu quests",
+    "ride to thunder bluff ahanu"
+   ],
+   "answer": "Young Horde adventurers are sent to deliver goods to him via wind rider in 'Ride to Thunder Bluff', after which he points them back to Tal, the city's wind rider master."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren braves making their very first journey away from Bloodhoof Village, Ahanu offers both familiar hospitality and essential hides for the road."
+  }
+ ],
+ "keywords": [
+  "ahanu",
+  "hewa's armory",
+  "jahan hawkwing",
+  "leather armor",
+  "mulgore",
+  "thunder bluff"
+ ],
+ "related": [
+  "quest:6362",
+  "quest:6363",
+  "zone:thunderbluff",
+  "npc:jahan-hawkwing",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Ahanu"
+ ]
+}

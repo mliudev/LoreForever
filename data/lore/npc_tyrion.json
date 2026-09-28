@@ -1,0 +1,119 @@
+{
+ "key": "npc:tyrion",
+ "type": "npc",
+ "name": "Tyrion",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Tyrion",
+  "refs": 3
+ },
+ "summary": "Tyrion is a covert gnome operative stationed inside Stormwind Keep. Operating in the shadows alongside close associates like Elling Trias, he aids adventurers in unearthing sensitive intelligence and combating treacherous plots against the kingdom.",
+ "sections": [
+  {
+   "title": "A Quiet Presence in the Keep",
+   "body": "Amid the grandeur of Stormwind Keep, Tyrion keeps a low profile. While noble courtiers and royal guards bustle through the halls, this clever gnome operates under the radar, watching palace movements and liaising with outside contacts who operate far from official oversight.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows and Espionage",
+   "body": "Tyrion is a trusted confidant of Elling Trias, the renowned cheese merchant of the Trade District who operates a discreet information network. When sensitive matters arise that require bypassing the official bureaucracy of the House of Nobles, Trias directs reliable operatives straight to Tyrion inside the castle walls.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uncovering the Threat",
+   "body": "Tyrion assists investigators with critical infiltration tasks and securing sensitive goods within the city. His efforts culminate in identifying imminent danger within the royal heart of the kingdom, warning allies before an orchestrated strike can compromise Stormwind's leadership.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tyrion?",
+   "aliases": [
+    "who is this gnome",
+    "tyrion identity",
+    "what does tyrion do"
+   ],
+   "answer": "Tyrion is a resourceful gnome operative stationed within Stormwind Keep. Working alongside clandestine allies, he manages covert tasks and intelligence gathering that bypass standard royal channels."
+  },
+  {
+   "q": "Where can I find Tyrion?",
+   "aliases": [
+    "tyrion location",
+    "where is tyrion",
+    "find tyrion"
+   ],
+   "answer": "Tyrion is located inside Stormwind Keep in Stormwind City, keeping watch and assisting agents who arrive with word from his trusted contacts."
+  },
+  {
+   "q": "What is his connection to Elling Trias?",
+   "aliases": [
+    "tyrion and elling trias",
+    "does tyrion know trias",
+    "trias connection"
+   ],
+   "answer": "Tyrion and Elling Trias are longtime friends and collaborators. Trias uses his trade connections to gather whispers throughout the kingdom, sending reliable adventurers to Tyrion when covert action inside the Keep is required."
+  },
+  {
+   "q": "What quests does Tyrion offer?",
+   "aliases": [
+    "tyrion quests",
+    "what quests does he give"
+   ],
+   "answer": "Tyrion is involved in covert operations including 'Infiltrating the Castle', 'Items of Some Consequence', and warning allies during 'The Attack!'."
+  },
+  {
+   "q": "Why is a gnome handling secret operations in the human court?",
+   "aliases": [
+    "why is a gnome in stormwind keep",
+    "gnome operative keep"
+   ],
+   "answer": "Gnomes are key allies of the Alliance, and individuals like Tyrion provide sharp intellect, stealth, and technical resourcefulness that human authorities often overlook."
+  },
+  {
+   "q": "What is the nature of the plot Tyrion is investigating?",
+   "aliases": [
+    "tyrion conspiracy",
+    "what is tyrion investigating"
+   ],
+   "answer": "Tyrion assists in tracking stolen intelligence and hidden plots operating right under the nose of the royal court, leading up to an armed ambush within the city itself."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Tyrion exemplifies the subtlety and intellect gnomes bring to high-stakes Alliance espionage, operating right beneath the noses of pompous human nobility."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "For rogues dealing with Elling Trias's covert operations, Tyrion serves as the vital inside man within Stormwind Keep."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Tyrion's intelligence work is instrumental in protecting the crown from covert threats brewing within the kingdom's capital."
+  }
+ ],
+ "keywords": [
+  "elling trias",
+  "gnome",
+  "infiltrating the castle",
+  "items of some consequence",
+  "spy",
+  "stormwind keep",
+  "the attack",
+  "tyrion"
+ ],
+ "related": [
+  "npc:elling-trias",
+  "subzone:stormwind-keep",
+  "zone:stormwind",
+  "quest:2745",
+  "quest:2746",
+  "quest:434",
+  "topic:stormwind-kingdom",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Tyrion"
+ ]
+}

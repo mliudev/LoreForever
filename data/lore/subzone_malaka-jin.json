@@ -1,0 +1,88 @@
+{
+ "key": "subzone:malaka-jin",
+ "type": "subzone",
+ "name": "Malaka'jin",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Malaka'jin"
+ },
+ "summary": "Malaka'jin is a small Horde encampment nestled in the lower hills of the Stonetalon Mountains, just south of the Grimtotem Post. Inhabited primarily by Darkspear troll hunters, the settlement serves as a rustic waystation and hunting outpost for travelers ascending into the rugged peaks from the Barrens.",
+ "sections": [
+  {
+   "title": "A Hunters' Refuge",
+   "body": "Tucked away near the main path into the Stonetalon Mountains, Malaka'jin provides a welcome sanctuary for Horde wanderers venturing into contested heights. The village is home to a band of rugged troll hunters who eke out a living off the crags and scrublands. While living modestly, these hunters offer supplies, trade their fresh game to weary adventurers, and keep a wary eye on the hostile mountain wildlife and the belligerent Grimtotem tauren lurking further up the trails.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Foothold in the Heights",
+   "body": "Perched precariously near the boundary of the Barrens, Malaka'jin marks one of the earliest Horde presences established in Stonetalon. Though small and quiet compared to the major fortress at Sun Rock Retreat further north, it functions as a vital logistical anchor, allowing Horde trackers to monitor tribal unrest and secure the winding roads against encroaching threats.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Malaka'jin?",
+   "aliases": [
+    "where is malakajin",
+    "what is this place",
+    "malakajin stonetalon"
+   ],
+   "answer": "Malaka'jin is a small Horde village and outpost in the southern Stonetalon Mountains. It is inhabited by a community of Darkspear troll hunters who provide shelter, trade, and supplies to travelers climbing up from the Barrens."
+  },
+  {
+   "q": "Who lives in Malaka'jin?",
+   "aliases": [
+    "malakajin npcs",
+    "who is here",
+    "trolls in stonetalon"
+   ],
+   "answer": "The settlement is populated almost entirely by troll hunters. They sustain themselves by hunting the mountain game and trading meat and leather with passing adventurers."
+  },
+  {
+   "q": "What threats face the camp?",
+   "aliases": [
+    "malakajin enemies",
+    "who attacks malakajin"
+   ],
+   "answer": "Aside from fierce mountain predators, the village is situated directly south of the hostile Grimtotem Post, leaving the small troll camp constantly vigilant against aggression from the antagonistic tauren tribe."
+  },
+  {
+   "q": "Is there a flight master here?",
+   "aliases": [
+    "malakajin flight path",
+    "fly to malakajin"
+   ],
+   "answer": "No. In this era, Malaka'jin has no flight master. Adventurers traveling through the Stonetalon Mountains must rely on the flight master at Sun Rock Retreat further northwest or traverse the road on foot."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, Malaka'jin is a proud demonstration of troll self-reliance and tracking prowess, carving out a home in the rugged heights far from Kalimdor's tropical shores."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Malaka'jin serves as the Horde's southernmost threshold in Stonetalon, offering a vital waystation on the trail between the Barrens and the northern mountain strongholds."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "grimtotem",
+  "horde",
+  "hunters",
+  "malaka'jin",
+  "outpost",
+  "stonetalon",
+  "trolls"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "topic:horde",
+  "topic:troll",
+  "topic:grimtotem-tribe"
+ ],
+ "attribution": [
+  "Malaka'jin"
+ ]
+}

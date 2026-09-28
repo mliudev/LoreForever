@@ -1,0 +1,87 @@
+{
+ "key": "subzone:boulderslide-ravine",
+ "type": "subzone",
+ "name": "Boulderslide Ravine",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Boulderslide Ravine"
+ },
+ "summary": "Boulderslide Ravine is a rugged, secluded canyon tucked away in the central peaks of the Stonetalon Mountains, reached via Webwinder Path. Largely spared from the direct clashes between the Horde and Alliance, it serves as the rocky approach to Boulderslide Cavern and remains home to wild mountain beasts.",
+ "sections": [
+  {
+   "title": "A Quiet Mountain Pass",
+   "body": "Tucked away off Webwinder Path, Boulderslide Ravine is a narrow cut of rock in the Stonetalon heights. While loggers, night elves, and the Horde battle over timber and sacred glades throughout the region, this craggy pass remains relatively undisturbed by military forces. Wild mountain rams and roaming crag beasts like Cliff Stormers make up the local fauna, navigating the treacherous ledges and sheer stone walls. Prospectors also keep an eye on the ravine, as rich mineral veins frequently crop up along the rocky slopes leading deeper toward the cavern network.",
+   "spoiler": 0
+  },
+  {
+   "title": "Traces in the Stone",
+   "body": "Opposite the entrance to Boulderslide Cavern lies a small, quiet cave overlooking the ravine. Lit by rough torches and stacked with weathered supply barrels, the shelter contains primitive tribal paintings across its interior walls. The crude artwork bears a striking resemblance to ancient tauren designs, suggesting that native tribes traveled or sought temporary shelter in these crags long before modern conflict swept into the mountains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Boulderslide Ravine located?",
+   "aliases": [
+    "boulderslide ravine location",
+    "how to get to boulderslide ravine",
+    "where is boulderslide ravine"
+   ],
+   "answer": "Boulderslide Ravine is located in the Stonetalon Mountains. It is reached by traveling along Webwinder Path into the higher crags."
+  },
+  {
+   "q": "What creatures inhabit Boulderslide Ravine?",
+   "aliases": [
+    "boulderslide ravine mobs",
+    "what is in boulderslide ravine"
+   ],
+   "answer": "The ravine is mainly populated by local wildlife, particularly mountain rams and dangerous crag stalkers such as Cliff Stormers."
+  },
+  {
+   "q": "What is the abandoned cave across from Boulderslide Cavern?",
+   "aliases": [
+    "abandoned cave boulderslide",
+    "cave in boulderslide ravine",
+    "tauren cave stonetalon"
+   ],
+   "answer": "Facing the cavern entrance is a small alcove lit by torches and stocked with old barrels. Its stone walls display tribal pictographs that resemble traditional tauren art, pointing to past use by local wanderers or hunters."
+  },
+  {
+   "q": "Why is Boulderslide Ravine significant?",
+   "aliases": [
+    "what is boulderslide ravine for",
+    "boulderslide ravine purpose"
+   ],
+   "answer": "It serves as the natural approach to Boulderslide Cavern, a subterranean lair deep in the mountains, and offers valuable mineral outcroppings for travelers passing through."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The steep rock walls of the ravine are a reliable place to spot mineral veins exposed by the mountain's shifting stone."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The faded art inside the small side cave bears the distinct touch of tauren tribal markers, hinting at ancestral paths through the Stonetalon heights."
+  }
+ ],
+ "keywords": [
+  "boulderslide cavern",
+  "boulderslide ravine",
+  "cliff stormer",
+  "rams",
+  "stonetalon",
+  "webwinder path"
+ ],
+ "related": [
+  "subzone:boulderslide-cavern",
+  "subzone:webwinder-path",
+  "quest:6421",
+  "zone:stonetalon",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Boulderslide Ravine"
+ ]
+}

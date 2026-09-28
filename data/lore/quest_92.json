@@ -1,0 +1,118 @@
+{
+ "key": "quest:92",
+ "type": "quest",
+ "name": "Redridge Goulash",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   92
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Chef Breanna",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Redridge Goulash (quest)",
+  "chain": []
+ },
+ "summary": "Redridge Goulash is a local culinary tradition kept alive by Chef Breanna in the lakeside settlement of Lakeshire. After exhausting her pantry to feed the defending Stormwind garrison during the recent Blackrock orc incursions, Breanna turns to traveling adventurers to replenish her supply of hearty mountain ingredients.",
+ "sections": [
+  {
+   "title": "A Bare Mountain Pantry",
+   "body": "Lakeshire sits perpetually under siege from Blackrock orcs, gnolls, and ferocious wild beasts. When the recent orc uprising broke out along the ridges, Chef Breanna shouldered the task of feeding the entire brigade of Stormwind troops stationed in town. Sustaining an active military garrison rapidly cleared out her cupboards, leaving the town cook with plenty of appetite to satisfy but empty larders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mountain Bounty",
+   "body": "Rather than relying on distant supply wagons from Elwynn Forest that rarely arrive, Chef Breanna turns to the dangerous wilderness outside Lakeshire's gates. The signature goulash demands a rugged blend of local meats: tough cuts from mountain condors, seasoned snouts from the formidable Great Goretusks, and crisp leg meat harvested from giant tarantulas prowling the hills.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Chef Breanna out of food supplies?",
+   "aliases": [
+    "why empty pantry",
+    "breanna pantry",
+    "why no food"
+   ],
+   "answer": "During the recent Blackrock orc uprising, Breanna had to feed the entire brigade of Stormwind troops deployed to defend Lakeshire, completely emptying her cupboards."
+  },
+  {
+   "q": "What ingredients are used to make Redridge Goulash?",
+   "aliases": [
+    "goulash ingredients",
+    "what is in redridge goulash",
+    "goulash meat"
+   ],
+   "answer": "Authentic Redridge Goulash requires five pieces of Tough Condor Meat, five Great Goretusk Snouts, and five helpings of Crisp Spider Meat, all harvested from creatures native to the surrounding mountains."
+  },
+  {
+   "q": "Where is Chef Breanna located?",
+   "aliases": [
+    "breanna location",
+    "where is chef breanna",
+    "lakeshire chef"
+   ],
+   "answer": "Chef Breanna can be found tending her hearth and cooking kettles in the town of Lakeshire, nestled along the northern shores of Lake Everstill in the Redridge Mountains."
+  },
+  {
+   "q": "Why doesn't Lakeshire just import food from Stormwind City?",
+   "aliases": [
+    "stormwind supplies",
+    "why not trade with stormwind",
+    "lakeshire food shortage"
+   ],
+   "answer": "With orcs, Blackrock raiders, and gnolls choking the mountain passes and Stormwind's resources stretched thin, Lakeshire must frequently rely on local wildlife and visiting adventurers to stay fed."
+  },
+  {
+   "q": "Is Redridge Goulash considered a delicacy?",
+   "aliases": [
+    "is goulash good",
+    "tasty goulash",
+    "redridge delicacy"
+   ],
+   "answer": "While the combination of spider meat, boar snouts, and leathery condor flesh sounds harsh to outsiders, Chef Breanna and the frontier folk of Lakeshire consider the finished dish a hearty mountain delicacy."
+  },
+  {
+   "q": "What brigade did Breanna have to feed?",
+   "aliases": [
+    "stormwind brigade",
+    "who defended lakeshire",
+    "troops in lakeshire"
+   ],
+   "answer": "Breanna cooked for the Stormwind soldiers stationed in Lakeshire to push back against the Blackrock orc forces pressing down from the northern ridges."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "For culinarians exploring the Eastern Kingdoms, Chef Breanna's goulash demonstrates how resourceful frontier cooks transform fierce mountain beasts into sustaining, savory fare."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The meager state of Lakeshire's stores is a stark reminder of the toll the Blackrock orc invasion has taken on local Alliance garrisons and civilian infrastructure."
+  }
+ ],
+ "keywords": [
+  "blackrock orcs",
+  "chef breanna",
+  "condor meat",
+  "goretusk snout",
+  "lakeshire",
+  "redridge goulash",
+  "redridge mountains",
+  "spider meat"
+ ],
+ "related": [
+  "npc:chef-breanna",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Redridge Goulash (quest)"
+ ]
+}

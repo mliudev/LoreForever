@@ -1,0 +1,138 @@
+{
+ "key": "quest:6285",
+ "type": "quest",
+ "name": "Return to Lewis",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   6285
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Dungar Longdrink",
+  "end": "Quartermaster Lewis",
+  "previous": "Dungar Longdrink (Classic)",
+  "next": null,
+  "wiki": "Return to Lewis",
+  "chain": [
+   "A Swift Message (Classic)",
+   "Continue to Stormwind (Classic)",
+   "Dungar Longdrink (Classic)",
+   "Return to Lewis"
+  ]
+ },
+ "summary": "Return to Lewis marks the final leg of an introductory courier flight, delivering desperately needed armor from Stormwind directly to Sentinel Hill. Entrusted with Osric's Crate by Dungar Longdrink, couriers fly across the skies of Elwynn and Westfall on gryphonback to resupply the embattled People's Militia.",
+ "sections": [
+  {
+   "title": "A Lifeline by Air",
+   "body": "Westfall is slipping out of the kingdom's grasp, besieged by Defias bandits, ravenous gnolls, and mechanical harvest reapers. With overland supply routes harassed and roads dangerous for solitary wagons, the flight master network provides a crucial lifeline. Osric, an armorer based near the Valley of Heroes in Stormwind, prepared a heavy crate of armor intended to reinforce the battered volunteers of the People's Militia at Sentinel Hill.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ways of Gryphons",
+   "body": "Gryphons are remarkably loyal and well-trained beasts, but navigating them across the lands requires established familiarity. As Dungar Longdrink explains to novice couriers, while gryphons instinctively know how to return home to their capital roost in Stormwind, they will only carry a rider to a remote outpost once the traveler has physically met the destination's flight master. Having previously checked in with Thor at Sentinel Hill, the skies over the frontier open up for rapid transit.",
+   "spoiler": 0
+  },
+  {
+   "title": "Supplies for the Militia",
+   "body": "Upon landing at Sentinel Hill, the delivered crate is received by Quartermaster Lewis, the officer tasked with outfitting Gryan Stoutmantle's volunteer force. Lewis immediately sets to work distributing the armor among the frontier defenders. For Sentinel Hill, reliable aerial contact with the capital means the difference between holding the line and being completely overrun by the Defias Brotherhood.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside Osric's Crate?",
+   "aliases": [
+    "osrics crate contents",
+    "what is in the box",
+    "what am i delivering"
+   ],
+   "answer": "The crate contains freshly manufactured suits of armor arranged by the Stormwind armorer Osric. It is urgently needed by the People's Militia at Sentinel Hill, who lack standard royal provisioning and rely on donations and private shipments to equip their volunteer fighters."
+  },
+  {
+   "q": "Who is Quartermaster Lewis?",
+   "aliases": [
+    "lewis westfall",
+    "quartermaster lewis role",
+    "who is lewis"
+   ],
+   "answer": "Quartermaster Lewis is the supply officer for the People's Militia, stationed beside the tower at Sentinel Hill. He manages rations, gear, and arms for the volunteer defenders standing against the Defias Brotherhood across Westfall."
+  },
+  {
+   "q": "Who is Dungar Longdrink?",
+   "aliases": [
+    "dungar stormwind",
+    "stormwind gryphon master",
+    "flight master stormwind"
+   ],
+   "answer": "Dungar Longdrink is the veteran dwarven gryphon master of Stormwind, located at the roost just inside the capital's grand entrance. He oversees the kingdom's aerial courier and passenger routes."
+  },
+  {
+   "q": "Why do gryphons only fly to places you've already visited?",
+   "aliases": [
+    "gryphon flight rule",
+    "how flight paths work",
+    "why must i visit thor first"
+   ],
+   "answer": "According to Dungar, gryphons are naturally trained to navigate straight back to the capital city, but they rely on established waypoints and personal familiarity before ferrying riders out to remote frontier roosts like Thor's station at Sentinel Hill."
+  },
+  {
+   "q": "Who is Thor?",
+   "aliases": [
+    "thor westfall",
+    "sentinel hill gryphon master",
+    "flight master thor"
+   ],
+   "answer": "Thor is the flight master stationed at Sentinel Hill in Westfall. He tends the outpost's gryphons and receives aerial couriers arriving from Stormwind."
+  },
+  {
+   "q": "Why can't Stormwind just send royal wagons with supplies?",
+   "aliases": [
+    "why use gryphons",
+    "why not overland delivery",
+    "roads in westfall"
+   ],
+   "answer": "The roads connecting Elwynn Forest and Westfall are heavily harassed by Defias bandits, riverpaw gnolls, and thieves. Overland supply trains risk ambush and confiscation, making the aerial gryphon route far faster and safer."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Establishing gryphon routes between Stormwind and outlying settlements like Sentinel Hill is essential to binding together an increasingly fractured kingdom."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The entire aerial transit system of the kingdom relies on dwarven expertise, from Dungar Longdrink at the capital roost to Thor out in Westfall."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Every crate of breastplates and greaves flown to Sentinel Hill means one more militia fighter who can withstand the blows of Defias brigands."
+  }
+ ],
+ "keywords": [
+  "dungar longdrink",
+  "flight path",
+  "gryphon",
+  "osric",
+  "osric's crate",
+  "people's militia",
+  "quartermaster lewis",
+  "sentinel hill",
+  "thor",
+  "westfall"
+ ],
+ "related": [
+  "quest:6261",
+  "quest:6281",
+  "quest:6181",
+  "npc:quartermaster-lewis",
+  "npc:thor",
+  "subzone:sentinel-hill",
+  "zone:westfall",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Return to Lewis"
+ ]
+}

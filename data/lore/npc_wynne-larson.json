@@ -1,0 +1,115 @@
+{
+ "key": "npc:wynne-larson",
+ "type": "npc",
+ "name": "Wynne Larson",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Wynne Larson",
+  "refs": 4
+ },
+ "summary": "Wynne Larson is a human clothier and robe merchant operating in Stormwind City's Mage Quarter. With the historic arcane textile centers of Dalaran and Quel'Thalas ruined in the Third War, she relies on local craftsmen to supply mages across the kingdom. She regularly directs adventuring spellcasters toward the rare materials required to craft powerful enchanted garments.",
+ "sections": [
+  {
+   "title": "A New Arcane Market",
+   "body": "Before the Third War, the finest woven fabrics and enchanted vestments came from the magical workshops of Dalaran and the high elven kingdom of Quel'Thalas. The destruction of both northern realms crippled traditional trade routes and devastated arcane textile production. Vendors like Wynne Larson in Stormwind's Mage Quarter have had to adapt, coordinating directly with local tailors and enchanters like Lucan Cordell to meet the city's growing demand for robes and spellwoven gear.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crafting Sorcerous Robes",
+   "body": "Novice and journeyman mages seeking garments imbued with arcane potency often find their way to Wynne's shop. She knows precisely what materials are required to tailor vestments like Manaweave Robes or Astral Knot Garments, often sending practitioners of the arcane into dangerous territories to recover exotic reagents such as pristine spider silk. Her efforts ensure that Stormwind's practitioners remain properly outfitted despite northern shortages.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Wynne Larson?",
+   "aliases": [
+    "wynne larson location",
+    "where is wynne larson",
+    "mage robe vendor stormwind"
+   ],
+   "answer": "Wynne Larson is located in the Mage Quarter of Stormwind City, selling arcane cloth chestpieces and garments to aspiring spellcasters."
+  },
+  {
+   "q": "Why does Wynne mention Dalaran and Quel'Thalas?",
+   "aliases": [
+    "wynne dalaran dialogue",
+    "quelthalas robes",
+    "why are robes hard to find"
+   ],
+   "answer": "Historically, Dalaran and Quel'Thalas were the primary producers of enchanted fabrics across the Eastern Kingdoms. Their destruction during the Third War cut off imports, forcing merchants in Stormwind to rely on homegrown talent and rare imported materials."
+  },
+  {
+   "q": "What quests involve Wynne Larson?",
+   "aliases": [
+    "wynne larson quests",
+    "robe quests stormwind",
+    "manaweave robe quest"
+   ],
+   "answer": "Wynne assists mages in acquiring tailored arcane garments, participating in questlines such as Gathering Materials, Manaweave Robe, Pristine Spider Silk, and the Astral Knot Garment."
+  },
+  {
+   "q": "What does Wynne Larson sell?",
+   "aliases": [
+    "wynne larson goods",
+    "what robes does wynne sell"
+   ],
+   "answer": "She sells a selection of basic and intermediate cloth robes, including Burning Robes, Chromatic Robes, Double-Stitched Robes, and Silver Dress Robes."
+  },
+  {
+   "q": "Who does Wynne rely on for crafting supplies in Stormwind?",
+   "aliases": [
+    "who makes wynnes robes",
+    "lucan cordell connection"
+   ],
+   "answer": "Wynne mentions that local artisans, particularly enchanter Lucan Cordell and other city tradesmen, step in to weave and enchant the merchandise she sells."
+  },
+  {
+   "q": "Is Wynne Larson related to other Larsons in Stormwind?",
+   "aliases": [
+    "larson family stormwind",
+    "evan larson",
+    "jenny larson"
+   ],
+   "answer": "She shares a surname with Evan Larson, a clothier in Stormwind, and Jenny Larson, suggesting a family of tradesfolk working within the city's garment industry."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Wynne is an essential contact during your early magical career, helping tailor your iconic Manaweave and Astral Knot garments."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Wynne represents the vital role clothiers and tailors play in Stormwind following the collapse of northern textile hubs."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Her shop showcases how Stormwind has stepped forward to provide self-sufficient arcane craftsmanship for the surviving Alliance races."
+  }
+ ],
+ "keywords": [
+  "astral knot garment",
+  "dalaran",
+  "mage quarter",
+  "manaweave robe",
+  "quel'thalas",
+  "robe vendor",
+  "stormwind",
+  "wynne larson"
+ ],
+ "related": [
+  "subzone:mage-quarter",
+  "zone:stormwind",
+  "quest:1941",
+  "quest:1942",
+  "quest:1961",
+  "quest:1940",
+  "subzone:dalaran",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Wynne Larson"
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "key": "quest:9435",
+ "type": "quest",
+ "name": "Missing Crystals",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   9435
+  ],
+  "level": "29",
+  "faction": "Alliance",
+  "start": "Huraan",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Missing Crystals",
+  "chain": []
+ },
+ "summary": "Missing Crystals is an Alliance task out of Southshore focused on recovering an irreplaceable scientific shipment. Forsaken raiders intercepted a cart loaded with stone from the Azurelode Mine, making off with rare mineral specimens meant for study. Recovering the crate keeps unique geological discoveries out of the hands of the undead.",
+ "sections": [
+  {
+   "title": "Intercepted at the Crossroads",
+   "body": "The rolling hills of Hillsbrad are plagued by relentless skirmishes between Southshore and Tarren Mill, turning routine supply deliveries into high-stakes military targets. Even common wagons laden with rough stone from the Azurelode Mine risk ambushes along the road. When Forsaken raiders struck the latest quarry shipment, they seized not just construction gravel, but a specialized crate of rare crystals that scholar Huraan had arranged to examine.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Rebuilt Tower",
+   "body": "Rather than hauling their stolen materials back to the apothecary vats of Tarren Mill, the Forsaken raiders diverted the cart northeast to a ruined tower under active reconstruction. The undead make use of every scrap of stone they can scavenge to reinforce their footholds across the foothills. Securing the crystals requires piercing their defensive perimeter at the tower before the fragile mineral samples are lost or worked into enemy fortifications.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Rare Geological Find",
+   "body": "According to the Azurelode quarry foreman, the hijacked container held the only known crystal samples pulled from that specific vein of the mine. Losing them to Forsaken scavengers would have permanently severed Southshore's chance to analyze the mineral's properties. Returning the crate safe and sound ensures the unique discovery remains preserved for Alliance study.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Huraan?",
+   "aliases": [
+    "huraan southshore",
+    "who gives missing crystals",
+    "huraan lore"
+   ],
+   "answer": "Huraan is an Alliance scholar stationed in the coastal town of Southshore. He takes an interest in the unusual geology and natural resources of the Hillsbrad Foothills, commissioning supplies from local operations like the Azurelode Mine."
+  },
+  {
+   "q": "Why did the Forsaken take building materials?",
+   "aliases": [
+    "why forsaken stole cart",
+    "forsaken cart ambush",
+    "why steal rocks"
+   ],
+   "answer": "The Forsaken in Hillsbrad are actively fortifying their presence against Alliance resistance. They intercepted the quarry cart for its stone to help rebuild a defensive tower to the northeast, taking the valuable crate of crystals along with the bulk stone."
+  },
+  {
+   "q": "Where did the rare crystals come from?",
+   "aliases": [
+    "azurelode crystals",
+    "where do crystals come from",
+    "azurelode mine shipment"
+   ],
+   "answer": "The crystals were unearthed inside the Azurelode Mine, a mineral and stone excavation site located in the Hillsbrad Foothills. According to the site foreman, this particular crate held the only known samples discovered so far in the mine."
+  },
+  {
+   "q": "Where was the stolen shipment taken?",
+   "aliases": [
+    "shipment location",
+    "where is the cart",
+    "forsaken tower location"
+   ],
+   "answer": "Forsaken raiders drove the hijacked cart northeast to a stone tower that undead forces are attempting to rebuild and reinforce in the foothills."
+  },
+  {
+   "q": "Why are these crystals important to Southshore?",
+   "aliases": [
+    "why are crystals important",
+    "crystal purpose",
+    "why huraan wants crystals"
+   ],
+   "answer": "Beyond their general value as unstudied geological anomalies, the shipment represented the sole recovered specimens from the Azurelode Mine. Losing them would leave researchers with no way to determine the minerals' composition or potential uses."
+  },
+  {
+   "q": "Is Azurelode Mine held by Southshore?",
+   "aliases": [
+    "who owns azurelode mine",
+    "azurelode allegiance"
+   ],
+   "answer": "Azurelode Mine operates in Alliance-aligned territory and supplies Southshore with raw stone and excavated minerals, making its transit routes a prime target for Forsaken raiders from Tarren Mill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The border war in Hillsbrad threatens every wagon moving through the foothills; recovering intercepted supplies prevents the Forsaken from expanding their fortifications."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The Azurelode Mine occasionally yields anomalous crystal formations within its standard stone veins, making recovered core samples of great interest to miners."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Uncataloged crystal formations frequently possess latent resonance or ambient magical properties worthy of careful study before scavengers misuse them."
+  }
+ ],
+ "keywords": [
+  "azurelode",
+  "crystals",
+  "forsaken",
+  "hillsbrad",
+  "huraan",
+  "mine",
+  "quarry",
+  "shipment",
+  "southshore",
+  "tower"
+ ],
+ "related": [
+  "npc:huraan",
+  "subzone:southshore",
+  "subzone:azurelode-mine",
+  "zone:hillsbrad",
+  "topic:forsaken",
+  "topic:light"
+ ],
+ "attribution": [
+  "Missing Crystals"
+ ]
+}

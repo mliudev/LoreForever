@@ -1,0 +1,138 @@
+{
+ "key": "quest:676",
+ "type": "quest",
+ "name": "The Hammer May Fall",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   676
+  ],
+  "level": "32",
+  "faction": "Horde",
+  "start": "Tallow",
+  "end": "Drum Fel",
+  "previous": null,
+  "next": "Call to Arms (1)",
+  "wiki": "The Hammer May Fall",
+  "chain": [
+   "The Hammer May Fall",
+   "Call to Arms (1)",
+   "Call to Arms (2)",
+   "Call to Arms (3)",
+   "The Real Threat (Classic)"
+  ]
+ },
+ "summary": "Dispatched by Tallow from Tarren Mill, Horde champions are directed across the mountains into the Arathi Highlands to relieve the embattled settlement of Hammerfall. Before reporting to Drum Fel, adventurers must prove their battle readiness against the brutish Boulderfist ogres lurking near the ruins of Stromgarde.",
+ "sections": [
+  {
+   "title": "A Gruff Summons",
+   "body": "In Tarren Mill, Tallow harbors little patience for untested adventurers wandering through the Foothills. Seeing undisciplined recruits standing idle while distant allies bleed, he directs capable fighters east through Thoradin's Wall into the Arathi Highlands. The Horde outpost of Hammerfall stands besieged on multiple fronts, but Tallow refuses to send warm bodies unless they have proven their worth against substantial opposition first.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trial by Boulderfist",
+   "body": "Rather than allowing recruits to stumble blindly into Hammerfall, Tallow demands a demonstration of martial strength at the ogre mound northeast of Stromgarde. The Boulderfist tribe maintains a heavy presence in Arathi, their hulking ogres and enforcers posing an immediate threat to anyone traveling the highland trails. Slaying these brutes serves both to thin the hostile forces flanking the road and to ensure that only capable warriors arrive at the outpost.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reporting to Hammerfall",
+   "body": "Upon clearing out the Boulderfist encampment, the path leads northeast to Hammerfall, an outpost named in memory of Warchief Orgrim Doomhammer. There, commander Drum Fel accepts fresh arrivals with weary skepticism. Whether Tallow intended to bolster the garrison or simply send fools to their deaths, Drum Fel wastes no time turning proven fighters toward the endless skirmishes threatening the outpost's survival.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this quest begin and end?",
+   "aliases": [
+    "where do i start the hammer may fall",
+    "quest turn in location",
+    "who gives the hammer may fall"
+   ],
+   "answer": "The quest is offered by Tallow in Tarren Mill, located in the Hillsbrad Foothills. After completing the required kills in Arathi Highlands, it is turned in to Drum Fel inside the Horde outpost of Hammerfall."
+  },
+  {
+   "q": "Where are the Boulderfist ogres located?",
+   "aliases": [
+    "boulderfist ogre location",
+    "where are the ogres in arathi",
+    "boulderfist mound"
+   ],
+   "answer": "The Boulderfist ogres inhabit a prominent dirt mound and surrounding camp located northeast of the ruins of Stromgarde in the Arathi Highlands."
+  },
+  {
+   "q": "What is the outpost of Hammerfall?",
+   "aliases": [
+    "what is hammerfall",
+    "hammerfall lore",
+    "who founded hammerfall"
+   ],
+   "answer": "Hammerfall is a fortified Horde settlement in northeastern Arathi Highlands. It is named in honor of former Warchief Orgrim Doomhammer, who fell in battle nearby during the liberation of the orc internment camps."
+  },
+  {
+   "q": "Why does Tallow make you fight ogres before reporting to Hammerfall?",
+   "aliases": [
+    "why kill ogres first",
+    "tallow motive",
+    "why test me"
+   ],
+   "answer": "Hammerfall is under constant attack and desperate for capable fighters. Tallow sends recruits against the Boulderfist ogres as a harsh proving ground, ensuring that anyone arriving to reinforce Drum Fel can actually fight rather than becoming an added burden."
+  },
+  {
+   "q": "Who is Drum Fel?",
+   "aliases": [
+    "drum fel identity",
+    "hammerfall commander",
+    "who is drum fel"
+   ],
+   "answer": "Drum Fel is a veteran orc warrior and commander stationed at Hammerfall in the Arathi Highlands, tasked with organizing defense forces against hostile wildlife, ogres, trolls, and Alliance remnants."
+  },
+  {
+   "q": "What follows this assignment?",
+   "aliases": [
+    "next quest",
+    "hammer may fall followup",
+    "what comes after"
+   ],
+   "answer": "Reporting to Drum Fel leads directly into the Call to Arms campaign, a sequence of military operations aimed at clearing surrounding threats, including the Witherbark troll tribes threatening the highlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This task marks the primary transition from the localized disputes of Hillsbrad into the wider defense of Arathi Highlands, reinforcing Hammerfall's vital foothold in the region."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Hammerfall holds profound sentimental and historical value for orcs, having been founded where Warchief Orgrim Doomhammer gave his life during the liberation campaigns."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Facing hulking Boulderfist enforcers serves as a classic proving ground for frontline fighters looking to earn the respect of veteran orc commanders like Drum Fel."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "boulderfist enforcer",
+  "boulderfist ogre",
+  "drum fel",
+  "hammerfall",
+  "hillsbrad foothills",
+  "stromgarde",
+  "tallow",
+  "tarren mill",
+  "the hammer may fall"
+ ],
+ "related": [
+  "npc:tallow",
+  "npc:drum-fel",
+  "subzone:hammerfall",
+  "subzone:tarren-mill",
+  "zone:arathi",
+  "zone:hillsbrad",
+  "topic:troll"
+ ],
+ "attribution": [
+  "The Hammer May Fall"
+ ]
+}

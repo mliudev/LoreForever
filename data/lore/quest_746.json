@@ -1,0 +1,121 @@
+{
+ "key": "quest:746",
+ "type": "quest",
+ "name": "Dwarven Digging",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   746
+  ],
+  "level": "8",
+  "faction": "Horde",
+  "start": "Baine Bloodhoof",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Dwarven Digging",
+  "chain": []
+ },
+ "summary": "Dwarven Digging is a quest in Mulgore given by Baine Bloodhoof in Bloodhoof Village. Concerned that dwarven excavations will enrage the native beasts and defile the sacred earth, Baine tasks young Horde defenders with sabotaging their efforts by confiscating and shattering their pickaxes.",
+ "sections": [
+  {
+   "title": "Trespassers in the Hills",
+   "body": "Northwest of Bloodhoof Village, dwarven prospectors have begun staking out a dig site in the rolling hills of Mulgore. The Explorer's League and its excavation crews seek titan relics and earthen secrets across Kalimdor, but their operations rarely respect indigenous lands or customs. To the tauren, the earth is a living mother to be revered, not stripped and hollowed for stones and metal.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defending the Sacred Earth",
+   "body": "Baine Bloodhoof recognizes that the dwarven machinery and relentless blasting threaten the fragile harmony of the plains. Beyond the physical destruction, the commotion agitates the local wildlife, stirring the plains kodos into frenzy. By smashing the prospectors' tools at their own forges, the tauren hope to send a blunt message and stall the encroachment before lasting harm is done.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are dwarves digging in Mulgore?",
+   "aliases": [
+    "dwarves in mulgore",
+    "why are prospectors here",
+    "dwarven excavation mulgore"
+   ],
+   "answer": "Dwarven prospectors believe hidden secrets and artifacts lie deep within the earth of central Kalimdor. However, their disregard for tribal territory and violent mining methods have brought them into direct conflict with the tauren."
+  },
+  {
+   "q": "Who gives the quest Dwarven Digging?",
+   "aliases": [
+    "quest giver dwarven digging",
+    "who starts dwarven digging"
+   ],
+   "answer": "The quest is given by Baine Bloodhoof, the young son of High Chieftain Cairne Bloodhoof, located at Bloodhoof Village in central Mulgore."
+  },
+  {
+   "q": "Why does Baine want their tools smashed instead of just stolen?",
+   "aliases": [
+    "why break the picks",
+    "smashing dwarven tools"
+   ],
+   "answer": "Baine wants to render the equipment utterly useless to immediately halt the excavation. Destroying the tools at the forges sends a clear symbolic and practical message that the land will not yield its secrets through brute force and desecration."
+  },
+  {
+   "q": "How does the digging affect the wildlife of Mulgore?",
+   "aliases": [
+    "angry kodos",
+    "why are beasts mad"
+   ],
+   "answer": "The loud digging and deep scarring of the ground severely agitates the native creatures, particularly the massive kodos roaming the hills, turning peaceful herds irritable and aggressive."
+  },
+  {
+   "q": "Where can the picks be smashed?",
+   "aliases": [
+    "where is the forge",
+    "smash prospector picks forge"
+   ],
+   "answer": "The picks can be hammered into broken scrap at any functional forge. Players can use the forge located directly at the dwarven excavation camp itself, or carry them to the blacksmiths in Thunder Bluff."
+  },
+  {
+   "q": "Does this quest tie into the larger Explorer's League presence in Kalimdor?",
+   "aliases": [
+    "explorers league mulgore",
+    "ironforge in kalimdor"
+   ],
+   "answer": "Yes. Dwarf expeditions from Ironforge have established outposts across Kalimdor, including Mulgore, the Barrens, and Southern Kalimdor, frequently inciting skirmishes with Horde races over territorial sovereignty and sacred grounds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Earth Mother's body is sacred, and seeing foreign intruders bore into Mulgore's rolling steppes is an affront that demands an immediate, firm response."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Alliance-aligned dwarves encroaching on Horde heartlands undermines the fragile peace established after the Third War, showing blatant disregard for tribal borders."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman understand that disturbing the bedrock through careless excavation upsets the elemental balance and provokes unrest among the land's spirits and creatures."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "While miners revere the wealth hidden in stone, dwarven methods in Mulgore bypass respect and harmony, opting for reckless destruction."
+  }
+ ],
+ "keywords": [
+  "baine bloodhoof",
+  "bloodhoof village",
+  "dwarf",
+  "forge",
+  "kodo",
+  "mulgore",
+  "picks",
+  "prospector"
+ ],
+ "related": [
+  "subzone:bloodhoof-village",
+  "npc:baine-bloodhoof",
+  "zone:mulgore",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Dwarven Digging"
+ ]
+}

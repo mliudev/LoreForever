@@ -1,0 +1,117 @@
+{
+ "key": "quest:1246",
+ "type": "quest",
+ "name": "The Missing Diplomat",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1246
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Elling Trias",
+  "end": "Dashel Stonefist",
+  "previous": "The Missing Diplomat (6)",
+  "next": "The Missing Diplomat (8)",
+  "wiki": "The Missing Diplomat (7)",
+  "chain": []
+ },
+ "summary": "This errand leads investigators deep into Old Town to confront a known street brawler tied to suspicious papers. Guided by the cheese merchant Elling Trias, you must seek out Dashel Stonefist and pry answers from him by any means necessary. The trail surrounding the missing diplomat is rapidly shifting from court intrigue to Stormwind's rough underbelly.",
+ "sections": [
+  {
+   "title": "A Lead in Old Town",
+   "body": "After examining the coded notes and leads tied to the missing diplomat, Master Trias recalls a key figure connected to the operation: a rough street fighter named Dashel Stonefist, colloquially known as 'Fist'. Rather than rubbing shoulders with nobility in the Cathedral Square, Stonefist frequents the cramped alleys of Old Town. Tracking him down represents the first physical thread pulling the investigation away from the grand halls of Stormwind Keep and into the city's criminal circles.",
+   "spoiler": 0
+  },
+  {
+   "title": "Persuasion by the Fist",
+   "body": "Elling Trias knows well that men like Dashel do not speak freely with inquisitive strangers, especially when treason and kidnappings are involved. His instructions are blunt: if polite questioning fails, blunt force will have to do the talking. Stonefist considers the alleyways his domain and does not take kindly to outsiders poking their noses into matters that could cost him his livelihood or his neck.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dashel Stonefist?",
+   "aliases": [
+    "dashel stonefist",
+    "who is fist",
+    "dashel"
+   ],
+   "answer": "Dashel Stonefist is a notorious brawler who hangs around the central alleys of Old Town in Stormwind. Trias identifies him as an intermediary connected to incriminating papers unearthed during the search for the missing diplomat."
+  },
+  {
+   "q": "Where can I find Dashel Stonefist?",
+   "aliases": [
+    "dashel stonefist location",
+    "where is dashel",
+    "where is stonefist"
+   ],
+   "answer": "Dashel Stonefist lingers in Old Town, situated outdoors near the center of the district, often loitering in the alleys away from the main streets."
+  },
+  {
+   "q": "Why is Elling Trias sending me after him?",
+   "aliases": [
+    "why fight dashel",
+    "trias reason"
+   ],
+   "answer": "Trias linked Dashel's name directly to documents related to the disappearance of the King's envoy. Dashel is in deep enough that he must have names, locations, or orders regarding who organized the abduction."
+  },
+  {
+   "q": "Will Dashel cooperate willingly?",
+   "aliases": [
+    "does dashel talk",
+    "stonefist friendly"
+   ],
+   "answer": "No. Stonefist is immediately hostile to strangers meddling in his personal business. Trias anticipates this stubbornness, advising you to use a weapon or heavy fist to force him to speak."
+  },
+  {
+   "q": "What happens after finding Dashel?",
+   "aliases": [
+    "missing diplomat next step",
+    "what after dashel"
+   ],
+   "answer": "Confronting Dashel inevitably leads to a brawl. Once subdued, he reveals further leads regarding the network operating behind the diplomat's abduction, directing you toward other conspirators within the kingdom."
+  },
+  {
+   "q": "Who is the missing diplomat mentioned in the quest?",
+   "aliases": [
+    "who is missing diplomat",
+    "which diplomat"
+   ],
+   "answer": "Officially, Stormwind authorities claim an unnamed diplomat vanished en route to a peace summit with Theramore. In truth, the missing dignitary is none other than King Varian Wrynn himself, though the court keeps this tightly concealed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Operating in Old Town and navigating informants like Trias and thuggish enforcers like Stonefist puts a rogue right at home in Stormwind's shadowy underbelly."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this lead is troubling proof that local street scum are actively cooperating in high treason against the kingdom's leadership."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Unraveling the conspiracy behind the missing diplomat is vital to stabilizing the Alliance, which sits vulnerable while King Varian remains absent."
+  }
+ ],
+ "keywords": [
+  "dashel stonefist",
+  "elling trias",
+  "fist",
+  "missing diplomat",
+  "old town",
+  "stormwind",
+  "varian wrynn"
+ ],
+ "related": [
+  "npc:dashel-stonefist",
+  "npc:elling-trias",
+  "subzone:old-town",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "The Missing Diplomat (7)"
+ ]
+}

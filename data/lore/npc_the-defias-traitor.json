@@ -1,0 +1,94 @@
+{
+ "key": "npc:the-defias-traitor",
+ "type": "npc",
+ "name": "The Defias Traitor",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "The Defias Traitor",
+  "refs": 1
+ },
+ "summary": "The Defias Traitor is a captured outlaw held at the base of the Sentinel Hill watchtower in Westfall. Caught red-handed by the People's Militia, he traded the secret location of the Brotherhood's headquarters to save his own neck.",
+ "sections": [
+  {
+   "title": "A Bargain for Survival",
+   "body": "Not every member of the Defias Brotherhood possesses fanatical loyalty to Edwin VanCleef's cause. When this petty thief was caught attempting to rob Farmer Saldean of his wagon, Gryan Stoutmantle's militia had him dead to rights. Facing the gallows, the thief chose self-preservation over brotherhood, offering up the exact whereabouts of their hidden base of operations in exchange for his life.",
+   "spoiler": 0
+  },
+  {
+   "title": "Leading the Way to Moonbrook",
+   "body": "Guarded beneath the watchtower at Sentinel Hill, the turncoat's task is simple yet dangerous: guide Alliance champions straight through hostile territory to the hidden entrance beneath the ruined town of Moonbrook. Though hated by his former comrades and despised by his captors, his betrayal provides the People's Militia with the breakthrough they need to strike at the Brotherhood's heart.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the Defias Traitor?",
+   "aliases": [
+    "who is this guy",
+    "defias traitor identity",
+    "who is the traitor at sentinel hill"
+   ],
+   "answer": "He is a former member of the Defias Brotherhood captured by the People's Militia while trying to steal a wagon from Farmer Saldean. To escape execution, he agreed to lead Militia allies to the Brotherhood's secret lair."
+  },
+  {
+   "q": "Why is he standing outside the tower in Sentinel Hill?",
+   "aliases": [
+    "traitor location",
+    "why is he at sentinel hill",
+    "where is the traitor"
+   ],
+   "answer": "He is held in custody by Gryan Stoutmantle and the People's Militia right outside their stronghold. He remains there under armed watch until volunteers step forward to escort him to the Defias hideout."
+  },
+  {
+   "q": "Where does he lead you?",
+   "aliases": [
+    "where does the traitor go",
+    "traitor escort destination",
+    "where is defias hideout"
+   ],
+   "answer": "He guides travelers southwest across the plains of Westfall into the derelict town of Moonbrook, pointing out the concealed entrance to the Defias Hideout."
+  },
+  {
+   "q": "Why did he turn against the Defias Brotherhood?",
+   "aliases": [
+    "why betray defias",
+    "traitor motive",
+    "why did he flip"
+   ],
+   "answer": "Simple self-preservation. Facing execution after getting caught stealing from Farmer Saldean, he offered up the Defias Brotherhood's greatest secret in exchange for his life."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For the People's Militia and local defenders, this prisoner represents the long-awaited turning point in the struggle against the outlaws terrorizing Westfall."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "A stark reminder of the fragile loyalty within criminal syndicates: when cornered by the law, thieves and cutpurses rarely hesitate to sell out their own."
+  }
+ ],
+ "keywords": [
+  "defias hideout",
+  "defias traitor",
+  "farmer saldean",
+  "moonbrook",
+  "peoples militia",
+  "sentinel hill",
+  "westfall"
+ ],
+ "related": [
+  "quest:65",
+  "subzone:sentinel-hill",
+  "subzone:defias-hideout",
+  "subzone:moonbrook",
+  "topic:defias-brotherhood",
+  "npc:farmer-saldean",
+  "zone:westfall",
+  "quest:12"
+ ],
+ "attribution": [
+  "The Defias Traitor"
+ ]
+}

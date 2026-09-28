@@ -1,0 +1,92 @@
+{
+ "key": "subzone:ironband-s-excavation-site",
+ "type": "subzone",
+ "name": "Ironband's Excavation Site",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Ironband's Excavation Site"
+ },
+ "summary": "Ironband's Excavation Site is an expansive dwarven dig located in southeastern Loch Modan, just south of the lake and southwest of Farstrider Lodge. Led by Prospector Ironband, the archaeological operation was abruptly halted when aggressive, volatile troggs overran the trenches.",
+ "sections": [
+  {
+   "title": "Unearthing the Past",
+   "body": "Spurred by the dwarven drive to uncover their ancient Titan origins, Prospector Ironband established this sprawling digsite along the rugged cliffs of southeastern Loch Modan. What began as a promising excavation quickly turned into a disaster when the digging disturbed an unusually fierce and large breed of subterranean troggs. The creatures surged from the earth, driving back the miners and setting up camp amidst the scattered tools, broken carts, and half-excavated relics.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ruins in the Red Earth",
+   "body": "Much like archaeological efforts in the Badlands, Wetlands, and Uldaman, the site sits in dangerous limbo. Surviving prospectors cling to the edges of the perimeter, desperate to reclaim their stolen gear and protect exposed artifacts\u2014including strange ancient statues left behind by long-forgotten builders\u2014from being smashed or carried off by the ravenous trogg infestation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Ironband's Excavation Site located?",
+   "aliases": [
+    "ironband location",
+    "where is ironbands digsite",
+    "ironband map"
+   ],
+   "answer": "The excavation site is located in the southeastern region of Loch Modan, directly south of the Loch and southwest of Farstrider Lodge."
+  },
+  {
+   "q": "Who is Prospector Ironband?",
+   "aliases": [
+    "who is ironband",
+    "prospector ironband lore"
+   ],
+   "answer": "Prospector Ironband is an archaeologist and explorer heading up the excavation on behalf of the dwarven Explorers' League, attempting to salvage artifacts and drive back the local troggs."
+  },
+  {
+   "q": "Why is the excavation site overrun with troggs?",
+   "aliases": [
+    "why are troggs here",
+    "who attacked the digsite",
+    "ironband troggs"
+   ],
+   "answer": "As the dwarven miners excavated deeper into the soil of Loch Modan, their tunneling breached subterranean pockets inhabited by a large and aggressive breed of troggs, who quickly overwhelmed the workers and seized the site."
+  },
+  {
+   "q": "What were the dwarves hoping to find here?",
+   "aliases": [
+    "what are they digging for",
+    "ironband artifacts",
+    "why dig here"
+   ],
+   "answer": "Like many dwarven archaeological digs across Khaz Modan, the miners were searching for ancient Titan relics and stone ruins that might shed light on the ancestral origins of the dwarven race."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The overrun dig is a stinging setback for the Explorers' League, who view the recovery of ancient relics here as vital to understanding dwarven heritage."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The quarry and open pits showcase typical dwarven heavy-extraction techniques, though ongoing trogg hostility makes any prospecting hazardous."
+  }
+ ],
+ "keywords": [
+  "digsite",
+  "excavation site",
+  "explorers league",
+  "ironband",
+  "loch modan",
+  "prospector ironband",
+  "troggs"
+ ],
+ "related": [
+  "npc:prospector-ironband",
+  "quest:436",
+  "zone:lochmodan",
+  "subzone:farstrider-lodge",
+  "topic:trogg",
+  "topic:dwarf",
+  "subzone:uldaman",
+  "subzone:the-loch"
+ ],
+ "attribution": [
+  "Ironband's Excavation Site"
+ ]
+}

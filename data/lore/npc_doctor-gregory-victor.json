@@ -1,0 +1,87 @@
+{
+ "key": "npc:doctor-gregory-victor",
+ "type": "npc",
+ "name": "Doctor Gregory Victor",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Doctor Gregory Victor",
+  "refs": 1
+ },
+ "summary": "Doctor Gregory Victor is a Forsaken surgeon stationed at the Horde outpost of Hammerfall in the Arathi Highlands. Renowned as the premier trauma physician within the Horde, he evaluates aspiring medics seeking to master advanced triage and battlefield first aid. His cold, clinical efficiency keeps frontline warriors stitched together amidst bitter regional conflicts.",
+ "sections": [
+  {
+   "title": "Surgeon of Hammerfall",
+   "body": "While many view Forsaken apothecaries with suspicion, Doctor Gregory Victor serves the Horde through practical battlefield surgery rather than blighted alchemy. Stationed deep within the contested Arathi Highlands at Hammerfall, he operates on soldiers battered by Syndicate brigands, Boulderfist ogres, and Alliance forces. His station doubles as the primary proving ground for Horde field medics, demanding ruthless efficiency and prioritizing critical patients under intense pressure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Doctor Gregory Victor?",
+   "aliases": [
+    "doctor victor",
+    "gregory victor",
+    "who is gregory victor"
+   ],
+   "answer": "Doctor Gregory Victor is a Forsaken physician stationed at Hammerfall in the Arathi Highlands. He is the master trauma surgeon for the Horde, responsible for overseeing triage operations and instructing advanced field medics."
+  },
+  {
+   "q": "Where can I find Doctor Gregory Victor?",
+   "aliases": [
+    "gregory victor location",
+    "where is victor",
+    "doctor victor where"
+   ],
+   "answer": "He is located inside the stronghold of Hammerfall, situated in northeastern Arathi Highlands."
+  },
+  {
+   "q": "What role does he play for the Horde?",
+   "aliases": [
+    "what does gregory victor do",
+    "gregory victor first aid",
+    "horde trauma doctor"
+   ],
+   "answer": "Doctor Victor tests promising field medics in battlefield triage through rigorous examination, teaching them how to stabilize the dying and craft advanced cloth bandages for frontline combat."
+  },
+  {
+   "q": "Who is his Alliance counterpart?",
+   "aliases": [
+    "alliance equivalent doctor victor",
+    "alliance triage doctor"
+   ],
+   "answer": "Doctor Gustaf VanHowzen, stationed at Theramore Isle in Dustwallow Marsh, oversees advanced trauma and triage training for the Alliance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Doctor Victor provides crucial battlefield medicine in one of the Horde's most precarious outposts, ensuring warriors on the Arathi front return to fighting shape."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Unlike the Royal Apothecary Society's toxic concoctions, Doctor Victor demonstrates the Forsaken's mastery over conventional mortal anatomy and restorative surgery."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "doctor gregory victor",
+  "first aid",
+  "gregory victor",
+  "hammerfall",
+  "horde trauma",
+  "surgeon",
+  "triage"
+ ],
+ "related": [
+  "subzone:hammerfall",
+  "quest:6623",
+  "zone:arathi",
+  "npc:doctor-gustaf-vanhowzen",
+  "topic:forsaken",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Doctor Gregory Victor"
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "key": "quest:8355",
+ "type": "quest",
+ "name": "Incoming Gumdrop",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   8355
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Talvash del Kissel",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Incoming Gumdrop (Alliance)",
+  "chain": []
+ },
+ "summary": "Incoming Gumdrop is a seasonal Hallow's End quest found in Ironforge, given by the gnome artisan Talvash del Kissel. In order to obtain a festive treat for a sick child outside Stormwind, adventurers must first perform a playful train impression for the delighted gnome.",
+ "sections": [
+  {
+   "title": "A Whimsical Toll",
+   "body": "During the autumn celebration of Hallow's End, trick-or-treaters scour the major Alliance strongholds gathering unique regional confections. In Ironforge's Tinker Town, the gnome Talvash del Kissel holds the coveted Gnomeregan Gumdrop. While sympathetic to the plight of the young orphan who desires it, Talvash insists on upholding the holiday's spirit of mischief before parting with his sweet, demanding a convincing train impression from anyone seeking a handout.",
+   "spoiler": 0
+  },
+  {
+   "title": "Holiday Charity",
+   "body": "The quest forms a piece of an overarching seasonal endeavor to bring cheer to Jesper, an ailing orphan resting outside Stormwind City. Jesper longs for four distinct treats from across the Alliance territories: a marzipan piece from Stormwind, a mint from Darnassus, nougat from Ironforge, and a gumdrop from Gnomeregan. By mimicking a chugging locomotive to entertain Talvash, champions secure the gnome treat to complete the young boy's holiday wish.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do I need to do to complete Incoming Gumdrop?",
+   "aliases": [
+    "how to do incoming gumdrop",
+    "incoming gumdrop objective",
+    "talvash gumdrop trick"
+   ],
+   "answer": "You must perform a train impression for Talvash del Kissel by targeting him and using the train gesture. Once he hears the train noise, he will gladly hand over the Gnomeregan Gumdrop."
+  },
+  {
+   "q": "Who is Talvash del Kissel?",
+   "aliases": [
+    "who is talvash",
+    "talvash del kissel lore"
+   ],
+   "answer": "Talvash del Kissel is a gnome craftsman residing in Tinker Town within the dwarven mountain city of Ironforge. During Hallow's End, he acts as the Alliance distributor for Gnomeregan's signature gumdrops."
+  },
+  {
+   "q": "What is the Gnomeregan Gumdrop used for?",
+   "aliases": [
+    "gnomeregan gumdrop purpose",
+    "what is the gumdrop for"
+   ],
+   "answer": "The Gnomeregan Gumdrop is one of four distinct festival candies gathered to fulfill the Hallow's End request of Jesper, an orphan boy resting near the gates of Stormwind City."
+  },
+  {
+   "q": "Where can Talvash del Kissel be found?",
+   "aliases": [
+    "where is talvash",
+    "talvash location"
+   ],
+   "answer": "Talvash can be found in Tinker Town, the gnomish sector on the eastern side of the Great Forge in Ironforge."
+  },
+  {
+   "q": "Why does Talvash make you imitate a train?",
+   "aliases": [
+    "why train noise",
+    "why do train for talvash"
+   ],
+   "answer": "Hallow's End is rooted in the tradition of trick-or-treating. Talvash playfully demands a harmless trick\u2014a locomotive impression\u2014before he is willing to surrender his festive treat."
+  },
+  {
+   "q": "Is this quest available year-round?",
+   "aliases": [
+    "can i do incoming gumdrop anytime",
+    "is this seasonal"
+   ],
+   "answer": "No, this quest is only available during the annual autumn festival of Hallow's End."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For exiled gnomes in Tinker Town, offering a Gnomeregan Gumdrop during Hallow's End is a cheerful reminder of home and mechanical ingenuity amid their displacement."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The pursuit of the festival gumdrop sends Alliance heroes traversing the kingdoms to ensure an ailing child in Stormwind shares in the holiday season."
+  }
+ ],
+ "keywords": [
+  "gnomeregan gumdrop",
+  "hallow's end",
+  "incoming gumdrop",
+  "ironforge",
+  "jesper",
+  "talvash del kissel",
+  "tinker town",
+  "train emote"
+ ],
+ "related": [
+  "npc:talvash-del-kissel",
+  "quest:8311",
+  "npc:jesper",
+  "topic:gnome",
+  "zone:gnomeregan"
+ ],
+ "attribution": [
+  "Incoming Gumdrop (Alliance)"
+ ]
+}

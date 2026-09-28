@@ -1,0 +1,96 @@
+{
+ "key": "subzone:shrine-of-the-fallen-warrior",
+ "type": "subzone",
+ "name": "Shrine of the Fallen Warrior",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Shrine of the Fallen Warrior"
+ },
+ "summary": "Perched upon a secluded ridge west of the Crossroads lies the Shrine of the Fallen Warrior, a quiet memorial overlooking the sweeping red savannahs of the Barrens. Marked by a stone plinth bearing the initials 'MK' and the body of a fallen orc warrior, it is watched over by the gentle presence of a Spirit Healer named Koiter.",
+ "sections": [
+  {
+   "title": "A Silent Vigil",
+   "body": "Tucked away high upon the hills northwest of the Crossroads, the Shrine of the Fallen Warrior stands as an unusually solemn haven amidst the dust and peril of the Barrens. To find it, travelers must scale a winding ridge pathway southwest of the summit until they reach a gentle mound. Upon the summit rests a carved stone monument, its plinth carved with the initials 'MK'. Before it lies the armored form of an orc warrior at rest, watched over day and night by a named Spirit Healer known as Koiter. There are no battle horns here, only quiet contemplation honoring a champion who walked Kalimdor's lands.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Meaning of the Memorial",
+   "body": "Within the world, the shrine stands as an enduring tribute to a departed champion of the Horde whose soul lingers in the care of the spirits. Outside the realm, the monument serves as a heartfelt tribute created by the game's artists to honor Michel Koiter, a beloved illustrator who passed away during the development of the world. The resting warrior is modeled precisely after Koiter's own beta character, Twincruiser, immortalizing his presence forever beneath Kalimdor's open skies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Shrine of the Fallen Warrior located?",
+   "aliases": [
+    "shrine location",
+    "where is the shrine",
+    "how to get to shrine of fallen warrior"
+   ],
+   "answer": "The shrine sits atop a hill west of the Crossroads in the northern Barrens. Travelers can reach it by locating the base of a ridge southwest of the elevation and following a winding path up to the grassy knoll."
+  },
+  {
+   "q": "Who is the orc lying upon the plinth?",
+   "aliases": [
+    "who is the dead orc",
+    "fallen warrior identity",
+    "twincruiser"
+   ],
+   "answer": "In-game, he represents a revered fallen warrior. In reality, he is modeled directly after Twincruiser, the orc warrior character played by late Blizzard artist Michel Koiter during early development."
+  },
+  {
+   "q": "What does the 'MK' carved into the stone mean?",
+   "aliases": [
+    "mk initials",
+    "what does mk stand for",
+    "letters on the stone"
+   ],
+   "answer": "The runic initials 'MK' honor Michel Koiter, a senior artist who passed away in 2004 during the development of the world."
+  },
+  {
+   "q": "Who is the Spirit Healer standing beside the shrine?",
+   "aliases": [
+    "spirit healer koiter",
+    "angel at the shrine",
+    "who is the ghost"
+   ],
+   "answer": "The Spirit Healer is named Koiter. Unlike ordinary Spirit Healers that only appear to spirits walking in death, Koiter stands in vigil and can be seen clearly by living wanderers who make the trek up the hill."
+  },
+  {
+   "q": "Are there any quests associated with this shrine?",
+   "aliases": [
+    "shrine quest",
+    "quest for fallen warrior",
+    "is there a quest here"
+   ],
+   "answer": "No. The Shrine of the Fallen Warrior is not part of any questline or faction conflict. It exists purely as a solemn place of reflection, remembrance, and tribute."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Warriors of all races often make a quiet pilgrimage to this hill, paying respects to a fallen brother-in-arms who fought bravely before passing into legend."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Set right in the heartland of Horde territory, this solitary resting place captures the honor, duty, and sacrifice at the core of the shamanic and warrior traditions of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "koiter",
+  "memorial",
+  "michel koiter",
+  "shrine of the fallen warrior",
+  "twincruiser"
+ ],
+ "related": [
+  "subzone:crossroads",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Shrine of the Fallen Warrior"
+ ]
+}

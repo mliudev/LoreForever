@@ -1,0 +1,115 @@
+{
+ "key": "quest:6362",
+ "type": "quest",
+ "name": "Ride to Thunder Bluff",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   6362
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Devrak",
+  "end": "Ahanu",
+  "previous": "A Bundle of Hides (Classic)",
+  "next": "Tal the Wind Rider Master (Classic)",
+  "wiki": "Ride to Thunder Bluff (Classic)",
+  "chain": []
+ },
+ "summary": "This quest sends young Horde adventurers taking their first flight path across Kalimdor aboard a wind rider. Entrusted with a shipment of cured hides, travelers depart the dry crossroads of the Barrens to deliver valuable leatherwork supplies directly to the heights of Thunder Bluff.",
+ "sections": [
+  {
+   "title": "Wings Across the Savannah",
+   "body": "For many travelers making their way through the Barrens, booking a flight with Devrak marks their first journey through the skies on the back of a wind rider. These winged wyverns provide vital aerial links between the dispersed settlements of the fledgling Horde, avoiding the perilous ground routes prowled by quilboar and centaur packs.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hides for the Armory",
+   "body": "The shipment consists of a bundle of cured hides prepared in the Barrens and destined for Ahanu, a craftsman working out of Hewa's Armory in Thunder Bluff. Nestled right beneath the great wind rider roost on the central mesa, Ahanu relies on raw supplies brought in from hunting outposts across the plains to outfit local warriors and hunters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Ride to Thunder Bluff?",
+   "aliases": [
+    "quest giver",
+    "where to start ride to thunder bluff",
+    "devrak location"
+   ],
+   "answer": "Devrak, the wind rider master stationed at the Crossroads in the Barrens, offers this task to travelers who have collected a bundle of hides."
+  },
+  {
+   "q": "Who is Ahanu and where can he be found?",
+   "aliases": [
+    "where is ahanu",
+    "ahanu location",
+    "hewa's armory"
+   ],
+   "answer": "Ahanu is a tauren artisan stationed at Hewa's Armory in Thunder Bluff, situated directly near the base of the city's wind rider roost."
+  },
+  {
+   "q": "What is being transported in this delivery?",
+   "aliases": [
+    "what am i delivering",
+    "bundle of hides"
+   ],
+   "answer": "You are carrying a bundle of prepared hides sent from the Barrens, which Ahanu intends to use immediately for his leatherworking and armor crafting."
+  },
+  {
+   "q": "Why use wind riders instead of walking?",
+   "aliases": [
+    "why fly to thunder bluff",
+    "flight path benefit"
+   ],
+   "answer": "Wind riders easily scale the towering cliffs of Mulgore and cut straight across the Barrens, avoiding treacherous ambushes and exhausting climbs up the Great Lift."
+  },
+  {
+   "q": "Where does this delivery chain begin?",
+   "aliases": [
+    "previous quest",
+    "hides questline"
+   ],
+   "answer": "The delivery originates with Jahan Hawkwing at the Crossroads, who arranges the bundle of cured pelts in the preceding task, A Bundle of Hides."
+  },
+  {
+   "q": "What comes next after delivering the hides?",
+   "aliases": [
+    "next quest",
+    "followup to ride to thunder bluff"
+   ],
+   "answer": "After receiving the hides, Ahanu directs travelers upstairs to speak directly with Tal, the Wind Rider Master of Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren returning from the Barrens, this flight offers an effortless ascent straight to the towering heights of their people's majestic capital."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Reliable aerial travel via wind riders is crucial for binding the far-flung outposts of the Barrens to the major bastions of Durotar and Mulgore."
+  }
+ ],
+ "keywords": [
+  "ahanu",
+  "barrens",
+  "bundle of hides",
+  "crossroads",
+  "devrak",
+  "hewa's armory",
+  "ride to thunder bluff",
+  "wind rider"
+ ],
+ "related": [
+  "npc:devrak",
+  "npc:ahanu",
+  "zone:thunderbluff",
+  "zone:barrens",
+  "quest:4767"
+ ],
+ "attribution": [
+  "Ride to Thunder Bluff (Classic)"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "key": "npc:innkeeper-allison",
+ "type": "npc",
+ "name": "Innkeeper Allison",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Innkeeper Allison",
+  "refs": 1
+ },
+ "summary": "Innkeeper Allison manages the Gilded Rose, one of the busiest and most central inns in Stormwind City. Located in the heart of the Trade District right between the bank and auction house, she provides weary travelers and local merchants with hearthstone bindings, refreshing drinks, and shelter.",
+ "sections": [
+  {
+   "title": "Hospitality in the Trade District",
+   "body": "Positioned squarely between the bustling trade auction house and the main city vaults, the Gilded Rose serves as an epicenter for adventurers arriving in Stormwind. Innkeeper Allison stands behind the main counter on the ground floor, keeping order amidst a constant flow of peddlers, mercenaries, and visiting diplomats. Beyond offering lodging and hearthstone services, she frequently participates in local holiday festivities and coordinates small errands for traveling heroes seeking rest within the capital.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Innkeeper Allison?",
+   "aliases": [
+    "allison location",
+    "where is innkeeper allison",
+    "gilded rose innkeeper"
+   ],
+   "answer": "Innkeeper Allison stands behind the counter on the ground floor of the Gilded Rose. The inn is located directly in Stormwind City's Trade District, situated between the central bank and the auction house."
+  },
+  {
+   "q": "What services does Innkeeper Allison offer?",
+   "aliases": [
+    "what does allison do",
+    "allison services",
+    "can i bind hearthstone here"
+   ],
+   "answer": "She provides standard innkeeper services: players can set their hearthstone to the Gilded Rose, purchase food and drink for rest, and periodically interact with her during citywide seasonal events and holidays."
+  },
+  {
+   "q": "Does Innkeeper Allison offer any quests?",
+   "aliases": [
+    "allison quests",
+    "innkeeper allison quest"
+   ],
+   "answer": "Yes, Allison participates in various seasonal festivities throughout the year, such as holiday celebrations, and can occasionally be involved in city errands for travelers seeking aid across the realm."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As the proprietor of the most accessible inn in Stormwind's commercial core, Allison is one of the most familiar faces for Alliance champions returning from frontline campaigns to rest and bank their spoils."
+  }
+ ],
+ "keywords": [
+  "allison",
+  "gilded rose",
+  "hearthstone",
+  "innkeeper allison",
+  "stormwind",
+  "trade district"
+ ],
+ "related": [
+  "subzone:trade-district",
+  "zone:stormwind",
+  "topic:alliance",
+  "topic:stormwind-kingdom",
+  "quest:8356"
+ ],
+ "attribution": [
+  "Innkeeper Allison"
+ ]
+}

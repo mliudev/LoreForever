@@ -1,0 +1,72 @@
+{
+ "key": "subzone:northern-rocketway-terminus",
+ "type": "subzone",
+ "name": "Northern Rocketway Terminus",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Northern Rocketway Terminus"
+ },
+ "summary": "Perched along the cliffs of Azshara within the Bitter Reaches, the Northern Rocketway Terminus serves as a high-altitude platform along the Bilgewater Cartel's ambitious transit line. Overseen by frantic goblin crew members, it functions as an aerial stop and connection point above Bilgewater Harbor.",
+ "sections": [
+  {
+   "title": "Goblin Engineering at High Altitudes",
+   "body": "Situated high on the bluffs of Azshara just north of Bilgewater Harbor, the Northern Rocketway Terminus exemplifies the audacious, reckless ingenuity of the Bilgewater Cartel. This metal platform provides rocket cars and winged mounts a staging ground along the heights of the Bitter Reaches. Run by a bare-bones goblin crew\u2014including flight master Blitz Blastospazz, engineering supplier Meezle Spinspark, and an ever-enthusiastic Bilgewater Rocket-jockey\u2014the outpost catches anyone hurtling down the track or wandering the elevated wilderness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Northern Rocketway Terminus?",
+   "aliases": [
+    "rocketway terminus",
+    "northern terminus azshara",
+    "what is this station"
+   ],
+   "answer": "It is an elevated goblin station along the Rocketway system in Azshara, located north of Bilgewater Harbor within the Bitter Reaches. It serves as an aerial transit stop and rest area for rocket riders and travelers."
+  },
+  {
+   "q": "Who operates the Northern Rocketway Terminus?",
+   "aliases": [
+    "who runs this place",
+    "station npcs"
+   ],
+   "answer": "The platform is staffed by the Bilgewater Cartel, including flight master Blitz Blastospazz, vendor Meezle Spinspark who sells engineering supplies, and an on-duty Bilgewater Rocket-jockey."
+  },
+  {
+   "q": "Where does this station connect?",
+   "aliases": [
+    "where do the tracks go",
+    "rocketway route"
+   ],
+   "answer": "The tracks link through Azshara's cliffs across the Bitter Reaches toward the other sections of the Cartel's Rocketway network, perched directly above Bilgewater Harbor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers passing through can pick up spare parts and tinker's supplies directly from Meezle Spinspark out on the platform."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The terminus offers a convenient flight master, Blitz Blastospazz, granting aerial connectivity to the high plateaus of Azshara."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "bilgewater cartel",
+  "bitter reaches",
+  "blitz blastospazz",
+  "meezle spinspark",
+  "northern rocketway terminus",
+  "rocketway"
+ ],
+ "related": [
+  "subzone:bitter-reaches",
+  "subzone:bilgewater-harbor",
+  "zone:azshara"
+ ],
+ "attribution": [
+  "Northern Rocketway Terminus"
+ ]
+}

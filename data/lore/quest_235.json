@@ -1,0 +1,126 @@
+{
+ "key": "quest:235",
+ "type": "quest",
+ "name": "The Ashenvale Hunt",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   235
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Warcaller Gorlach",
+  "end": "Senani Thunderheart",
+  "previous": null,
+  "next": "The Ashenvale Hunt (Ashenvale)",
+  "wiki": "The Ashenvale Hunt (Orgrimmar)",
+  "chain": []
+ },
+ "summary": "Issued by Warcaller Gorlach in Orgrimmar, this directive summons budding Horde adventurers northward beyond the Barrens into the ancient forests of Ashenvale. Players are directed to report to Senani Thunderheart at Splintertree Post to participate in the ongoing hunt and reinforce the Horde's expanding frontier.",
+ "sections": [
+  {
+   "title": "Call of the Wilds",
+   "body": "Orgrimmar buzzes with martial fervor, but the young city requires vast amounts of timber, meat, and secure trade routes to sustain its growth. Warcaller Gorlach serves as the voice of the Horde's high command, directing seasoned wanderers and new blood alike toward active campaigns. For warriors coming of age in Durotar and the Barrens, the ancient woodlands of Ashenvale represent the next testing ground for both glory and survival.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Treacherous Frontier",
+   "body": "Crossing the northern border of the Barrens brings travelers directly into Ashenvale, where the Horde maintains two primary bastions: Splintertree Post nestled in the central woods and Zoram'gar Outpost along the western coast. Senani Thunderheart coordinates operations at Splintertree Post, organizing trackers and hunters to tame the beast-choked canopy and push back against hostile night elven sentinels disputing the Horde's claims.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts this quest and where can I find them?",
+   "aliases": [
+    "quest giver",
+    "where is gorlach",
+    "who gives ashenvale hunt"
+   ],
+   "answer": "Warcaller Gorlach offers this quest inside Orgrimmar, the Horde capital. He serves as an officer calling capable adventurers to take up campaigns beyond the borders of Durotar."
+  },
+  {
+   "q": "Where is Splintertree Post?",
+   "aliases": [
+    "splintertree location",
+    "where is splintertree post",
+    "how to get to splintertree"
+   ],
+   "answer": "Splintertree Post lies directly north of the Barrens in central Ashenvale, situated along the main forest road running eastward toward Azshara."
+  },
+  {
+   "q": "Who is Senani Thunderheart?",
+   "aliases": [
+    "who is senani",
+    "senani thunderheart location",
+    "turn in npc"
+   ],
+   "answer": "Senani Thunderheart is a seasoned tauren tracker stationed at Splintertree Post. She directs the hunting efforts across Ashenvale and evaluates adventurers who wish to take part in the local trials."
+  },
+  {
+   "q": "What is the purpose of the Ashenvale hunt?",
+   "aliases": [
+    "why hunt in ashenvale",
+    "ashenvale hunt story",
+    "horde goal in ashenvale"
+   ],
+   "answer": "The hunt allows the Horde to secure wild game, harvest valuable hides, and eliminate apex predators that endanger patrols around Splintertree Post and nearby logging operations."
+  },
+  {
+   "q": "What other outposts does the Horde hold in Ashenvale?",
+   "aliases": [
+    "horde bases in ashenvale",
+    "zoram strand post",
+    "ashenvale outposts"
+   ],
+   "answer": "In addition to Splintertree Post, the Horde maintains an encampment on the far western edge of the forest along the Zoram Strand."
+  },
+  {
+   "q": "Does this quest involve any combat?",
+   "aliases": [
+    "is there fighting in this quest",
+    "do i fight anything",
+    "simple turn in"
+   ],
+   "answer": "No. This quest serves purely as a breadcrumb assignment, directing you to travel safely from Orgrimmar through the Barrens to report to Senani Thunderheart."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The march into Ashenvale tests whether the newly unified Horde can expand beyond the dry crags of Durotar into resource-rich yet hostile foreign soil."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Ashenvale's dense canopies and dangerous beasts provide the ultimate wilderness proving ground for aspiring trackers answering Senani Thunderheart's call."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Serving under Senani Thunderheart allows tauren adventurers to bring their deep reverence for the great hunt to the untamed northern forest."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "barrens",
+  "gorlach",
+  "hunt",
+  "orgrimmar",
+  "senani",
+  "splintertree",
+  "thunderheart"
+ ],
+ "related": [
+  "npc:warcaller-gorlach",
+  "npc:senani-thunderheart",
+  "subzone:splintertree-post",
+  "zone:ashenvale",
+  "zone:barrens",
+  "subzone:zoram-strand",
+  "quest:1008",
+  "topic:horde"
+ ],
+ "attribution": [
+  "The Ashenvale Hunt (Orgrimmar)"
+ ]
+}

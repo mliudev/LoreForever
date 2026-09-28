@@ -1,0 +1,119 @@
+{
+ "key": "quest:237",
+ "type": "quest",
+ "name": "In Defense of the King's Lands",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   237
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Mountaineer Gravelgaw",
+  "end": "",
+  "previous": "In Defense of the King's Lands (Classic)",
+  "next": "In Defense of the King's Lands (Classic 3)",
+  "wiki": "In Defense of the King's Lands (Classic 2)",
+  "chain": []
+ },
+ "summary": "This military assignment tasks Alliance adventurers with blunting a trogg offensive in southern Loch Modan on behalf of Mountaineer Gravelgaw. With dwarven regular forces tied up in distant Alliance campaigns, local outposts must rely on volunteers to cull dangerous Stonesplinter Skullthumpers and Seers before the Valley of Kings is overrun.",
+ "sections": [
+  {
+   "title": "A Thin Defense",
+   "body": "The Mountaineers stationed along the southern pass into Dun Morogh are stretched dangerously thin. With King Magni Bronzebeard committing significant dwarven military strength to the wider Alliance front, outposts like the Valley of Kings guard towers lack regular infantry. Mountaineer Gravelgaw relies on outside volunteers to run aggressive spoiling raids into Stonesplinter Valley, keeping the subterranean invaders at bay while local garrisons wait for reinforcements that may never arrive.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stonesplinter Shamans and Brawlers",
+   "body": "The Stonesplinter troggs are not mindless beasts wandering aimlessly; their war bands coordinate through brute force and crude elemental magic. Gravelgaw targets the tribe's veteran fighters\u2014Skullthumpers\u2014and their mystic leadership, the Seers. Neutralizing these frontline commanders disrupts the tribe's momentum, throwing their southern encampments into disarray and preventing a mass push against the Ironforge road.",
+   "spoiler": 0
+  },
+  {
+   "title": "Grim Tidings from the Front",
+   "body": "Upon reporting your success, Gravelgaw shares sobering news: the promised dwarven reinforcements will not be arriving. Heavy casualties on the distant Alliance front have drained Ironforge's reserves, leaving Loch Modan entirely reliant on local mountaineers and passing sellswords to protect the kingdom's heartland.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Mountaineer Gravelgaw located?",
+   "aliases": [
+    "gravelgaw location",
+    "where is gravelgaw",
+    "turn in gravelgaw"
+   ],
+   "answer": "Mountaineer Gravelgaw is stationed at the southern guard tower along the road through the Valley of Kings, guarding the pass that connects Loch Modan to Dun Morogh."
+  },
+  {
+   "q": "Why are the dwarven Mountaineers so undermanned?",
+   "aliases": [
+    "why no dwarven guards",
+    "where are the reinforcements",
+    "ironforge army loch modan"
+   ],
+   "answer": "King Magni Bronzebeard has committed the bulk of Ironforge's standing military to the broader Alliance frontlines abroad. As casualties mount elsewhere, border posts like those in Loch Modan are left with skeleton crews forced to rely on traveling volunteers."
+  },
+  {
+   "q": "Where can the Stonesplinter Skullthumpers and Seers be found?",
+   "aliases": [
+    "stonesplinter skullthumper location",
+    "stonesplinter seer location",
+    "where are the troggs"
+   ],
+   "answer": "They congregate primarily in the southern camps of Stonesplinter Valley, situated southwest of the Valley of Kings. A smaller pocket of them can also be found haunting the northernmost island within The Loch."
+  },
+  {
+   "q": "Why target Skullthumpers and Seers specifically?",
+   "aliases": [
+    "why kill seers",
+    "why skullthumpers",
+    "trogg targets"
+   ],
+   "answer": "Skullthumpers serve as the primary vanguard shock-troops of the Stonesplinter tribe, while Seers wield crude magic and direct the lesser troggs. Eliminating both strips the invading force of its muscle and mystical coordination."
+  },
+  {
+   "q": "Where does Gravelgaw send you next?",
+   "aliases": [
+    "next quest gravelgaw",
+    "who is wallbang",
+    "after defense of the king's lands"
+   ],
+   "answer": "Gravelgaw directs you to Mountaineer Wallbang, stationed at the northern guard tower in the Valley of Kings, to assist with the next phase of the valley's defense."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For a dwarf, securing the Valley of Kings is personal: this ground honors the greatest rulers of Ironforge, and trogg feet defiling it while your kin bleed on distant battlefields is a bitter pill to swallow."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This mission lays bare the high cost of the broader Alliance war effort, showing how securing distant territories has left core member homelands vulnerable to indigenous threats."
+  }
+ ],
+ "keywords": [
+  "gravelgaw",
+  "ironforge",
+  "loch modan",
+  "mountaineer",
+  "seer",
+  "skullthumper",
+  "stonesplinter",
+  "troggs",
+  "valley of kings"
+ ],
+ "related": [
+  "quest:217",
+  "quest:563",
+  "zone:lochmodan",
+  "subzone:valley-of-kings",
+  "subzone:stonesplinter-valley",
+  "subzone:the-loch",
+  "topic:trogg",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "In Defense of the King's Lands (Classic 2)"
+ ]
+}

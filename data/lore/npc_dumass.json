@@ -1,0 +1,92 @@
+{
+ "key": "npc:dumass",
+ "type": "npc",
+ "name": "Dumass",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Dumass",
+  "refs": 2
+ },
+ "summary": "Dumass is an exceptionally bewildered Forsaken adventurer encountered in the Hillsbrad Foothills. Resurrected into undeath without a scrap of common sense or direction, he relies entirely on stronger Horde allies to keep him from stumbling into deadly peril.",
+ "sections": [
+  {
+   "title": "A Mind Wandering Astray",
+   "body": "The return from death can take a severe toll on the mind, and Dumass stands as living\u2014or rather, unliving\u2014proof of the worst that can happen. Wholly stripped of rational judgment and basic survival instinct, he treats the perilous frontline of Hillsbrad like a casual outing. Dispatched from Southpoint Gate, he immediately manages to get himself hopelessly trapped in the spider-infested depths of Azurelode Mine, blissfully unaware of the fatal danger surrounding him.",
+   "spoiler": 0
+  },
+  {
+   "title": "Directionless Loyalty",
+   "body": "Despite his utter lack of wit, Dumass holds an eager, puppy-like devotion to the Dark Lady and the Horde. When ordered by Captain Keyton to regroup at Tarren Mill, Dumass confidently believes the settlement lies far away across the sea in the Barrens. His commanders view his survival as a perplexing statistical anomaly, yet travelers repeatedly find themselves stepping in to spare the hapless Forsaken from his own baffling ignorance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dumass?",
+   "aliases": [
+    "dumass lore",
+    "who is dumass",
+    "hillsbrad dumass"
+   ],
+   "answer": "Dumass is a newly raised Forsaken whose reanimation left him almost completely devoid of rational thought. Despite his utter incompetence and total lack of orientation, he considers himself an intrepid adventurer for the Forsaken."
+  },
+  {
+   "q": "Where can Dumass be found in Hillsbrad?",
+   "aliases": [
+    "dumass location",
+    "where is dumass",
+    "find dumass"
+   ],
+   "answer": "He is first met taking orders at Southpoint Gate before wandering off into trouble. He soon ends up ensnared in webs deep inside Azurelode Mine, requiring rescue before being sent toward Tarren Mill."
+  },
+  {
+   "q": "Why does Dumass act so foolishly?",
+   "aliases": [
+    "why is dumass dumb",
+    "is dumass brain damaged",
+    "dumass side effects"
+   ],
+   "answer": "The shock and necromantic magic of resurrection can severely warp or degrade a corpse's mortal intellect. Dumass suffered the extreme end of these side effects, leaving him with boundless enthusiasm but zero common sense."
+  },
+  {
+   "q": "Why does Dumass think Tarren Mill is in the Barrens?",
+   "aliases": [
+    "dumass barrens",
+    "tarren mill barrens dumass"
+   ],
+   "answer": "Dumass has no grasp of geography whatsoever. Even after being rescued and given direct orders to report to Tarren Mill just up the road in Hillsbrad, he genuinely believes the settlement is situated in the distant Barrens of Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Dumass serves as a grim yet comical reminder to the Forsaken that the gifts of second life do not always grant a complete mind."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For Horde officers trying to maintain a disciplined campaign in Hillsbrad Foothills, unguided recruits like Dumass test the limits of military patience."
+  }
+ ],
+ "keywords": [
+  "azurelode mine",
+  "dumass",
+  "forsaken",
+  "hillsbrad",
+  "keyton",
+  "southpoint gate",
+  "tarren mill",
+  "undead"
+ ],
+ "related": [
+  "subzone:azurelode-mine",
+  "subzone:southpoint-gate",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "topic:forsaken",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Dumass"
+ ]
+}

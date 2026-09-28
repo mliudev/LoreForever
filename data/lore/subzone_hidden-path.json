@@ -1,0 +1,90 @@
+{
+ "key": "subzone:hidden-path",
+ "type": "subzone",
+ "name": "Hidden Path",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Hidden Path"
+ },
+ "summary": "The Hidden Path is a secluded mountain trail winding through the crags above the Valley of Trials in Durotar. It serves as a rite of passage for aspiring shaman seeking the sacred Spirit Rock, while offering an overlooked vantage overlooking the rugged borders of the Barrens.",
+ "sections": [
+  {
+   "title": "A Sacred Ascent",
+   "body": "Carved into the red peaks bordering the Valley of Trials, the Hidden Path is intentionally difficult to spot from the canyon floor. Young shaman are directed here by their mentors to prove their awareness and discipline before communing with the spirits at Spirit Rock. Along the trail's highest reaches, travelers are treated to expansive panoramic views stretching westward toward the rolling savannas of the Barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "Strategic Vulnerability",
+   "body": "Beyond its spiritual importance, the path cuts a precarious breach through the natural fortifications enclosing the valley. A low pass along the route provides a direct back door toward Ratchet and the road to Orgrimmar. Because it circumvents the standard canyon checkpoints, vigilant defenders fear that bold Alliance infiltrators could exploit this quiet trail to slip directly into the Horde's primary proving grounds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Hidden Path lead?",
+   "aliases": [
+    "hidden path destination",
+    "where does hidden path go",
+    "hidden path leads to"
+   ],
+   "answer": "The path ascends from the Valley of Trials up into the crags to Spirit Rock, a sacred site where shaman commune with the elements. It also winds along mountain passes that connect toward the Barrens and the coastline."
+  },
+  {
+   "q": "Why is the path significant to shaman?",
+   "aliases": [
+    "shaman path valley of trials",
+    "spirit rock path",
+    "shaman quest path"
+   ],
+   "answer": "Initiate shaman in the Valley of Trials are tasked with locating this secluded trail as part of their early elemental trials. Climbing the path allows them to reach the Spirit Rock and drink the Sapta required to commune with the spirits."
+  },
+  {
+   "q": "Could enemies use the Hidden Path to attack the Valley of Trials?",
+   "aliases": [
+    "hidden path alliance invasion",
+    "is valley of trials vulnerable",
+    "valley of trials back door"
+   ],
+   "answer": "Yes. The low gaps along the path bypass the standard guarded entrances to the valley. A cunning Alliance strike force coming from Ratchet or the coast could theoretically use the trail to bypass Horde scouts and enter the training grounds undetected."
+  },
+  {
+   "q": "What can you see from the top of the path?",
+   "aliases": [
+    "hidden path view",
+    "lookout point hidden path"
+   ],
+   "answer": "At its highest point, the trail offers a clear, elevated view looking west toward the vast plains of the Barrens, as well as sweeping views across the red canyons of Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The Hidden Path is your first true physical and spiritual climb, testing your perception before you commune with the earth spirits at Spirit Rock."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Though sacred to shaman, this unfortified passage represents a security blind spot above the Valley of Trials that warrants a watchful eye."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "durotar",
+  "hidden path",
+  "shaman",
+  "spirit rock",
+  "valley of trials"
+ ],
+ "related": [
+  "subzone:spirit-rock",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "zone:barrens",
+  "subzone:ratchet",
+  "topic:alliance",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Hidden Path"
+ ]
+}

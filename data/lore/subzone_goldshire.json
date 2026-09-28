@@ -1,0 +1,94 @@
+{
+ "key": "subzone:goldshire",
+ "type": "subzone",
+ "name": "Goldshire",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Goldshire"
+ },
+ "summary": "Goldshire is a vital human crossroads town nestled in central Elwynn Forest, connecting Stormwind City with Westfall, Redridge, and the southern frontier. Rebuilt after its destruction in the First War, it serves as a bustling waystation anchored by the famous Lion's Pride Inn and defended by a hard-pressed contingent of the Stormwind Guard.",
+ "sections": [
+  {
+   "title": "A Crossroads Under Strain",
+   "body": "Positioned where the king's highways meet, Goldshire has long been the civic and commercial heart of rural Elwynn. However, the town's bucolic charm masks escalating peril in Year 25 ADP. With Stormwind's military resources stretched thin and King Varian Wrynn mysteriously absent, Marshal Dughan must rely on passing adventurers rather than regular troops to contain surrounding threats. Aggressive Riverpaw gnolls push inward from the western border, while vicious murlocs claim the shores of Stone Cairn Lake and Crystal Lake, claiming the lives of royal guards and encroaching dangerously close to the town center.",
+   "spoiler": 0
+  },
+  {
+   "title": "Scars of the Great Wars",
+   "body": "Goldshire's quiet atmosphere belies a brutal military history. Circa 75 BDP, the settlement repelled savage assaults during the Gnoll War. Decades later in the First War, Goldshire and Moonbrook were the final strongholds overwhelmed by the Orcish Horde as Warchief Blackhand cut off King Llane Wrynn I from his realm before sacking Stormwind Keep. The town was reduced to ash and remained barren until after the Second War, when the Alliance of Lordaeron under Supreme Commander Turalyon funded and organized its reconstruction to repatriate human refugees returning south.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is in charge of defending Goldshire?",
+   "aliases": [
+    "who leads goldshire",
+    "goldshire marshal",
+    "who protects goldshire"
+   ],
+   "answer": "Marshal Dughan of the Stormwind Guard commands local defense. Operating out of the center of town, he coordinates the garrison, though a lack of reinforcements forces him to hire freelance adventurers to handle border threats and monster bounties."
+  },
+  {
+   "q": "What threats are currently menacing the town?",
+   "aliases": [
+    "goldshire problems",
+    "why is goldshire in danger",
+    "enemies near goldshire"
+   ],
+   "answer": "Goldshire is pressured from multiple fronts: Riverpaw gnolls raiding eastward toward Westbrook Garrison, and bands of hostile murlocs infesting the waterways at Stone Cairn Lake and Crystal Lake. Local scouts warn that without intervention, skirmishes could reach the village streets."
+  },
+  {
+   "q": "What happened to Goldshire during the First War?",
+   "aliases": [
+    "goldshire first war",
+    "did goldshire fall to orcs",
+    "goldshire destruction"
+   ],
+   "answer": "Goldshire was one of the last two human towns to fall before the sack of Stormwind. Warchief Blackhand destroyed it alongside Moonbrook to sever King Llane's supply lines, leaving the settlement in ruins until it was rebuilt following the Second War."
+  },
+  {
+   "q": "Why is the Lion's Pride Inn so notable?",
+   "aliases": [
+    "lions pride inn",
+    "goldshire inn",
+    "tavern in goldshire"
+   ],
+   "answer": "The Lion's Pride Inn is renowned as one of the most respectable and frequented alehouses in Azeroth. Situated at the junction of several regional highways, it serves as the primary meeting hall, resting spot, and training ground for travelers passing through the kingdom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans fresh out of Northshire Abbey, Goldshire represents the first real taste of the kingdom beyond monastery walls, offering a sobering look at Stormwind's strained borders."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Goldshire is an essential transit hub connecting the Alliance capital to the surrounding frontier lands of Westfall, Redridge, and Duskwood."
+  }
+ ],
+ "keywords": [
+  "crystal lake",
+  "elwynn",
+  "goldshire",
+  "lion's pride inn",
+  "marshal dughan",
+  "murloc",
+  "riverpaw",
+  "stone cairn lake"
+ ],
+ "related": [
+  "subzone:lion-s-pride-inn",
+  "npc:marshal-dughan",
+  "zone:elwynn",
+  "topic:stormwind-guard",
+  "quest:46",
+  "quest:11",
+  "subzone:crystal-lake",
+  "topic:first-war"
+ ],
+ "attribution": [
+  "Goldshire"
+ ]
+}

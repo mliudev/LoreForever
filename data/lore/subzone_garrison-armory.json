@@ -1,0 +1,91 @@
+{
+ "key": "subzone:garrison-armory",
+ "type": "subzone",
+ "name": "Garrison Armory",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Garrison Armory"
+ },
+ "summary": "The Garrison Armory is an Alliance mining operation carved into the hills southwest of Nethergarde Keep in the Blasted Lands. Miners and engineers work the underground veins to harvest valuable minerals, sustaining the lonely fortress and shipping raw wealth back to Stormwind. It forms a crucial industrial lifeline in an otherwise blasted, barren wilderness.",
+ "sections": [
+  {
+   "title": "A Lifeline in the Red Wastes",
+   "body": "Maintaining a permanent military garrison in the arid wastes of the Blasted Lands requires constant supply, and Nethergarde Keep cannot rely purely on long supply trains from Stormwind. The Garrison Armory serves as the keep's primary industrial excavation. Nethergarde miners, overseen by foremen and assisted by engineers, work these subterranean shafts to pull valuable minerals from the earth. The ore extracted here is utilized directly by Nethergarde's smiths and fortifications or hauled back to the capital in exchange for the foodstuffs, tools, and provisions the fortress needs to maintain its vigil over the Dark Portal.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vulnerable Industry",
+   "body": "Because the armory sits away from the main walls of Nethergarde Keep, the excavation remains exposed to the harsh perils of the red desert. Trolls, ogres, and wild beasts prowl the surrounding crags, while agents of the Horde keep a close eye on Nethergarde's mining output. The workforce within the tunnels operates under armed guard, knowing that any disruption to the armory directly threatens Nethergarde's ability to maintain its watch over the blasted frontier.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Garrison Armory used for?",
+   "aliases": [
+    "garrison armory purpose",
+    "what is this mine",
+    "why is there a mine here"
+   ],
+   "answer": "The Garrison Armory is an Alliance mining complex operated by Nethergarde Keep. Workers extract metal and minerals underground to maintain the fortress and trade back to Stormwind for essential food and equipment."
+  },
+  {
+   "q": "Who works in the armory?",
+   "aliases": [
+    "who is inside",
+    "armory npcs",
+    "garrison miners"
+   ],
+   "answer": "The mine is staffed by Nethergarde miners, engineers, and foremen affiliated with the Alliance. They work to excavate ore deposits and maintain the shafts beneath the supervision of Nethergarde's command."
+  },
+  {
+   "q": "Why does Nethergarde Keep need this mine?",
+   "aliases": [
+    "why nethergarde needs it",
+    "armory importance",
+    "nethergarde resources"
+   ],
+   "answer": "Nethergarde Keep sits isolated in the desolate Blasted Lands, making regular supply lines difficult. By extracting its own metals, the fortress can repair gear, reinforce defenses, and trade excess raw materials to Stormwind in exchange for vital survival supplies."
+  },
+  {
+   "q": "Can Horde players enter the Garrison Armory?",
+   "aliases": [
+    "can horde go here",
+    "horde in garrison armory",
+    "is it safe for horde"
+   ],
+   "answer": "The armory is occupied by hostile Alliance workers and guards, but Horde adventurers frequently brave the depths to claim the rich ore veins buried within the mine shafts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The shafts of the Garrison Armory hold valuable mineral veins carved out of the rugged Blasted Lands stone, making it a contested subterranean quarry."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Armory's workforce labors constantly to ensure Nethergarde Keep remains supplied with weapons, armor, and trade goods to hold its lonely watch."
+  }
+ ],
+ "keywords": [
+  "blasted lands",
+  "garrison armory",
+  "mine",
+  "nethergarde",
+  "nethergarde engineer",
+  "nethergarde keep",
+  "nethergarde miner",
+  "stormwind"
+ ],
+ "related": [
+  "subzone:nethergarde-keep",
+  "zone:blastedlands",
+  "topic:stormwind-kingdom",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Garrison Armory"
+ ]
+}

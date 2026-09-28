@@ -1,0 +1,122 @@
+{
+ "key": "quest:273",
+ "type": "quest",
+ "name": "Resupplying the Excavation",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   273
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Jern Hornhelm",
+  "end": "Huldar",
+  "previous": "Powder to Ironband",
+  "next": "After the Ambush",
+  "wiki": "Resupplying the Excavation (Classic)",
+  "chain": []
+ },
+ "summary": "Resupplying the Excavation is an Alliance quest in Loch Modan where adventurers pursue a powder shipment meant for Ironband's Excavation Site. Dispatched by Jern Hornhelm to catch up with the pack team, the traveler discovers a dangerous ambush along the shore of the Loch.",
+ "sections": [
+  {
+   "title": "A Heavy Cargo along the Shore",
+   "body": "Ironband's Excavation Site in southern Loch Modan requires a steady supply of blastpowder to uncover ancient titan artifacts buried deep within the mountains. After blastpowder was delivered to Thelsamar, local quartermaster Jern Hornhelm arranged for three dwarves\u2014Huldar, Miran, and Saean\u2014to haul the volatile barrels south along the lakeside road. Burdened by the weighty cargo, the supply party moved slowly, giving travelers in Thelsamar an opportunity to catch up and lend support on the road.",
+   "spoiler": 0
+  },
+  {
+   "title": "Treachery in the Shadows",
+   "body": "Catching up to the pack wagon along the southern road reveals chaos rather than a routine delivery. The shipment was ambushed by Dark Iron dwarves, who actively seek to sabotage the Bronzebeard expedition's archaeological efforts. Worse than the raid itself, the attack exposed bitter treachery: Saean, a worker trusted and employed alongside Huldar for nearly a year, proved to be a Dark Iron sympathizer who assisted in organizing the ambush.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts the quest Resupplying the Excavation?",
+   "aliases": [
+    "who gives resupplying the excavation",
+    "quest starter resupplying the excavation",
+    "where to start resupplying the excavation"
+   ],
+   "answer": "Jern Hornhelm offers the quest in Thelsamar after you deliver blastpowder to him. He asks you to follow the road south along the Loch to catch up with the supply team."
+  },
+  {
+   "q": "Where can Huldar and the wagon be found?",
+   "aliases": [
+    "find huldar",
+    "huldar location",
+    "where is the wagon loch modan"
+   ],
+   "answer": "Huldar and the wagon are located south of Thelsamar, following the road that hugs the western and southern curve of the Loch heading toward Ironband's Excavation Site."
+  },
+  {
+   "q": "Why is blastpowder being sent to Ironband?",
+   "aliases": [
+    "why ironband needs powder",
+    "ironband blastpowder",
+    "why blastpowder to excavation"
+   ],
+   "answer": "Prospector Ironband and his team are unearthing ancient earthen ruins and relics at the southern excavation site. Blastpowder is needed to break apart heavy stone and blast through subterranean layers."
+  },
+  {
+   "q": "Who ambushed Huldar's wagon?",
+   "aliases": [
+    "who attacked the wagon",
+    "wagon ambush loch modan",
+    "who attacked huldar"
+   ],
+   "answer": "The wagon was ambushed by hostile Dark Iron dwarves seeking to disrupt Ironforge's archaeological operations across Loch Modan."
+  },
+  {
+   "q": "What role did Saean play in the attack?",
+   "aliases": [
+    "who is saean",
+    "saean betrayal",
+    "what did saean do"
+   ],
+   "answer": "Saean was an associate working alongside Huldar and Miran for nearly a year, but the ambush revealed him to be a traitor and a Dark Iron sympathizer who aided the attackers."
+  },
+  {
+   "q": "What quest comes next after finding Huldar?",
+   "aliases": [
+    "next quest after resupplying the excavation",
+    "quest after huldar"
+   ],
+   "answer": "Speaking with Huldar completes this leg of the journey and leads directly into 'After the Ambush', where you deal with the immediate aftermath of the Dark Iron attack."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The ambush strikes close to home for Bronzebeard dwarves, demonstrating that Dark Iron infiltration runs deep within seemingly peaceful communities like Thelsamar."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Moving volatile blasting powder across rough terrain is hazardous enough without treachery, making this shipment essential for the excavators down south."
+  }
+ ],
+ "keywords": [
+  "blastpowder",
+  "huldar",
+  "ironband",
+  "jern hornhelm",
+  "loch modan",
+  "miran",
+  "resupplying the excavation",
+  "saean",
+  "thelsamar"
+ ],
+ "related": [
+  "npc:jern-hornhelm",
+  "npc:huldar",
+  "quest:454",
+  "quest:302",
+  "zone:lochmodan",
+  "subzone:the-loch",
+  "topic:dark-iron-dwarf",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Resupplying the Excavation (Classic)"
+ ]
+}

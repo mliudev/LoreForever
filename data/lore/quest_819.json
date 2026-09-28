@@ -1,0 +1,118 @@
+{
+ "key": "quest:819",
+ "type": "quest",
+ "name": "Chen's Empty Keg",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   819
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Chen's Empty Keg",
+  "end": "Brewmaster Drohn",
+  "previous": null,
+  "next": "Chen's Empty Keg (2)",
+  "wiki": "Chen's Empty Keg (quest)",
+  "chain": [
+   "Chen's Empty Keg (quest)",
+   "Chen's Empty Keg (2)",
+   "Chen's Empty Keg (3)"
+  ]
+ },
+ "summary": "Discarded in the wilds of the Barrens lies an empty keg bearing the inscription of Chen Stormstout. Finding it begins a journey into the past deeds of the famed wandering brewmaster who once lent his fighting skills to the founding of Durotar.",
+ "sections": [
+  {
+   "title": "A Wandering Relic",
+   "body": "Scattered across the arid expanses of the Barrens, travelers occasionally stumble upon an abandoned wooden barrel. Unlike the common casks left behind by Razormane quilboar or Kolkar centaur, this barrel features careful craftsmanship and a distinct inscribed plaque: 'Chen Stormstout - May your spirit be raised and always raise your spirits.' It is an unusual relic to find baking beneath the Kalimdor sun, prompting anyone curious enough to seek out someone knowledgeable in brewing to understand how it got there.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes of Durotar's Founding",
+   "body": "Taking the vessel to Brewmaster Drohn in Ratchet reveals its origins. Drohn recognizes the craftsmanship instantly: it belonged to Chen Stormstout, the legendary Pandaren wanderer who journeyed alongside Rexxar during the critical battles that secured Durotar for Thrall's Horde. Though years have passed since Chen walked the red earth of Kalimdor, his legendary brew recipes and wandering spirit remain vivid memories among the realm's seasoned brewers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Chen's Empty Keg?",
+   "aliases": [
+    "empty keg",
+    "chens keg",
+    "what is this barrel"
+   ],
+   "answer": "It is a discarded brewing barrel found out in the Barrens. It bears an inscription dedicating it to the wandering Pandaren brewmaster, Chen Stormstout."
+  },
+  {
+   "q": "Who is Chen Stormstout?",
+   "aliases": [
+    "who is chen",
+    "chen lore",
+    "pandaren brewmaster"
+   ],
+   "answer": "Chen Stormstout is an elusive Pandaren brewmaster from the Wandering Isle who traveled extensively through Kalimdor. He is best known for aiding the Mok'Nathal beastmaster Rexxar during the defense and early founding of Durotar."
+  },
+  {
+   "q": "Who should I take the keg to?",
+   "aliases": [
+    "where to turn in keg",
+    "who wants chens keg",
+    "keg turn in"
+   ],
+   "answer": "The keg can be taken to Brewmaster Drohn, an orc brewer stationed along the road near Ratchet who recognizes Chen's mark and knows how to recreate his recipes."
+  },
+  {
+   "q": "Why is Chen's keg lying out in the Barrens?",
+   "aliases": [
+    "why is keg in barrens",
+    "how did keg get here"
+   ],
+   "answer": "Chen roamed Kalimdor years ago while searching for exotic ingredients for his brews, particularly during his travels helping the nascent Horde secure their new homeland against Admiral Proudmoore's forces."
+  },
+  {
+   "q": "Does Chen Stormstout appear in person?",
+   "aliases": [
+    "can i find chen",
+    "where is chen stormstout",
+    "is chen in classic"
+   ],
+   "answer": "No. Chen has departed the region and has not been seen in Kalimdor for a long time. Only his old barrels, recipes, and the fond memories of allies like Drohn and Rexxar remain."
+  },
+  {
+   "q": "What does Brewmaster Drohn do with the keg?",
+   "aliases": [
+    "drohn quest line",
+    "what happens next with keg"
+   ],
+   "answer": "Drohn is thrilled to see the relic and uses the opportunity to challenge adventurous wanderers to gather local beast ingredients so he can recreate Chen's potent, legendary concoctions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Chen Stormstout is remembered as an honored ally who fought directly alongside Rexxar and Rokhan to establish Durotar and protect the Horde in its earliest days."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "The keg represents the legacy of an artisan brewer whose legendary palate and search for rare ingredients inspired craftsmen across Kalimdor."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brewing",
+  "brewmaster drohn",
+  "chen stormstout",
+  "empty keg",
+  "pandaren",
+  "ratchet",
+  "rexxar"
+ ],
+ "related": [
+  "npc:brewmaster-drohn",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Chen's Empty Keg (quest)"
+ ]
+}

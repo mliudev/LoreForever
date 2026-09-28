@@ -1,0 +1,125 @@
+{
+ "key": "topic:alliance-of-lordaeron",
+ "type": "topic",
+ "name": "Alliance of Lordaeron",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Alliance of Lordaeron"
+ },
+ "summary": "The Alliance of Lordaeron was the historic grand coalition of the seven human kingdoms, Khaz Modan dwarves, Wildhammer gryphon riders, gnomes, and high elves formed to resist the Old Horde in the Second War. Led militarily by Supreme Commander Anduin Lothar and diplomatically by King Terenas Menethil II, it shattered the invading orcish forces and secured the Eastern Kingdoms. Though political fractures and the devastation of the Scourge tore it apart during the Third War, its legacy laid the foundation for the current Alliance.",
+ "sections": [
+  {
+   "title": "A Coalition Born in Ashes",
+   "body": "Following the horrific sack of Stormwind in the First War, Regent Lord Anduin Lothar brought the battered southern refugees across the Great Sea to Capital City. Pleading their cause before King Terenas Menethil II, the leaders of the north assembled as the Council of Seven Nations. Old rivalries, border tensions, and isolationism\u2014especially from Gilneas and Alterac\u2014threatened to doom the summit before it began. It took urgent word of the Horde conquering Khaz Modan and an impassioned plea from the priest Turalyon to shake the rulers from their complacency. Choosing Lothar as their neutral Supreme Commander, the seven human nations bound themselves together in a desperate pact.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Second War and the New Vanguard",
+   "body": "Facing brutal orcish warriors, dark warlocks, and monstrous red dragons, the Alliance forged entirely new doctrines of war. Archbishop Alonsus Faol and Lothar established the Knights of the Silver Hand, elevating holy paladins like Uther the Lightbringer and Tirion Fordring to counter the Horde's dark magic. When the war raged across the Hinterlands and quelled the siege of Aerie Peak, Kurdran Wildhammer pledged his fierce gryphon riders to rule the skies. Shortly thereafter, the Bronzebeard dwarves and Gnomeregan gnomes were liberated, joining high elven rangers under Alleria Windrunner. Despite the treacherous betrayal of King Perenolde of Alterac, the grand coalition drove the Horde back to Blackrock Spire and crushed their dominion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fracture and Ruin",
+   "body": "Victory brought bitterness rather than enduring peace. Bitter disputes erupted over the high taxes required to maintain the orc internment camps and rebuild the blasted kingdom of Stormwind. Seeing little personal gain, Gilneas built the Greymane Wall and severed ties, Stromgarde departed over territorial and prisoner quarrels, and Quel'Thalas pulled back behind its enchanted runestones. The coalition that remained under King Terenas attempted to weather the political storm, only to be utterly dismantled during the Third War when the Cult of the Damned and the Plague of Undeath swept across Lordaeron. Arthas Menethil's betrayal tore the heart out of the kingdom, ending the golden age of the northern realm.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was the Alliance of Lordaeron?",
+   "aliases": [
+    "what is lordaeron alliance",
+    "who was in the first alliance",
+    "grand alliance history"
+   ],
+   "answer": "It was the military and political coalition formed between the Seven Kingdoms of humanity, the dwarves of Ironforge and Aerie Peak, the gnomes of Gnomeregan, and the high elves of Quel'Thalas to fight Orgrim Doomhammer's Horde during the Second War."
+  },
+  {
+   "q": "Why was the Alliance formed in Capital City instead of Stormwind?",
+   "aliases": [
+    "why lordaeron",
+    "stormwind in second war",
+    "why did lothar go north"
+   ],
+   "answer": "Stormwind had been completely conquered and destroyed during the First War. Regent Lord Anduin Lothar led the surviving population north by ship to Lordaeron to warn King Terenas Menethil II of the alien threat."
+  },
+  {
+   "q": "Who led the Alliance of Lordaeron?",
+   "aliases": [
+    "leader of lordaeron alliance",
+    "supreme commander",
+    "who was in charge"
+   ],
+   "answer": "King Terenas Menethil II hosted the coalition and guided its political diplomacy, while Sir Anduin Lothar was named Supreme Commander of all allied armed forces. Daelin Proudmoore served as Grand Admiral of the fleets."
+  },
+  {
+   "q": "Why did Alterac betray the Alliance?",
+   "aliases": [
+    "perenolde betrayal",
+    "what did alterac do",
+    "alterac second war"
+   ],
+   "answer": "Fearing that the Orcish Horde was unstoppable, King Aiden Perenolde secretly struck a deal with Warchief Orgrim Doomhammer. Alterac offered the Horde safe passage through its mountain passes in exchange for being spared from slaughter."
+  },
+  {
+   "q": "Why did the Alliance of Lordaeron fall apart?",
+   "aliases": [
+    "why did alliance collapse",
+    "what happened to the old alliance",
+    "why did gilneas leave"
+   ],
+   "answer": "After the Second War, disagreements over the cost of internment camps and rebuilding Stormwind caused Gilneas, Stromgarde, and Quel'Thalas to secede. The remnants were later destroyed during the Third War when Prince Arthas and the Scourge annihilated Lordaeron."
+  },
+  {
+   "q": "How is this different from the Alliance of today?",
+   "aliases": [
+    "old alliance vs new alliance",
+    "difference between alliances",
+    "is this the current alliance"
+   ],
+   "answer": "The Alliance of Lordaeron was centered entirely in the northern kingdoms around Capital City and Dalaran. Today's Alliance is centered in the rebuilt southern kingdom of Stormwind and includes the night elves of Kalimdor, though it draws inspiration from Lothar's original coalition."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The memory of the Alliance of Lordaeron provides the philosophical foundation and heroic ideals for the modern Alliance centered in Stormwind."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The Knights of the Silver Hand were created specifically by Archbishop Alonsus Faol and Anduin Lothar to serve as the divine shock troops of the Alliance of Lordaeron."
+  },
+  {
+   "target": "race:Human",
+   "text": "The alliance brought all Seven Kingdoms together under one banner for the only time since the ancient Empire of Arathor, before regional pettiness and the Scourge scattered them."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Both the Ironforge Bronzebeards and the Wildhammers of Aerie Peak forged their modern ties to human civilization during the battles of the Second War."
+  }
+ ],
+ "keywords": [
+  "alliance of lordaeron",
+  "anduin lothar",
+  "capital city",
+  "grand alliance",
+  "second war",
+  "seven kingdoms",
+  "silver hand",
+  "terenas menethil"
+ ],
+ "related": [
+  "topic:anduin-lothar",
+  "topic:terenas-menethil-ii",
+  "topic:second-war",
+  "topic:knights-of-the-silver-hand",
+  "topic:stormwind-kingdom",
+  "topic:lordaeron",
+  "topic:scourge",
+  "topic:alterac-kingdom"
+ ],
+ "attribution": [
+  "Alliance of Lordaeron"
+ ]
+}

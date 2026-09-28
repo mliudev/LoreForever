@@ -1,0 +1,94 @@
+{
+ "key": "subzone:cathedral-of-light",
+ "type": "subzone",
+ "name": "Cathedral of Light",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Cathedral of Light"
+ },
+ "summary": "The Cathedral of Light is the spiritual heart of Stormwind City and the primary sanctuary of the Church of the Holy Light. Standing tall over Cathedral Square, it serves as the central bastion for human priesthood and the Knights of the Silver Hand.",
+ "sections": [
+  {
+   "title": "Sanctuary of the Faithful",
+   "body": "Rebuilt after its devastation during the First War under the guidance of Archbishop Alonsus Faol and then-Bishop Benedictus, the Cathedral of Light stands as a towering beacon of resilience. Its vast halls and subterranean catacombs sheltered desperate refugees during the darkest hours of Stormwind's reconstruction. With the fall of Lordaeron to the Scourge during the Third War, the seat of the Church shifted south to Stormwind. Today, Archbishop Benedictus shepherds the faithful from this grand hall, providing spiritual guidance to the entire Alliance.",
+   "spoiler": 0
+  },
+  {
+   "title": "Halls of Devotion and Arms",
+   "body": "Beyond serving as a house of prayer and healing, the cathedral acts as the primary headquarters for the remaining Knights of the Silver Hand in the southern kingdoms. High-ranking figures such as Lord Grayson Shadowbreaker and Duthorian Rall train promising squires through the sacred trials of the Tome of Valor and the Tome of Divinity. Alongside them, High Priestess Laurena guides devout acolytes in the deepest tenets of the Light, preparing holy champions to defend the realm against the rising threat of the Defias Brotherhood and the Scourge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who leads the Church inside the cathedral?",
+   "aliases": [
+    "cathedral leader",
+    "who is the archbishop",
+    "who leads the church"
+   ],
+   "answer": "Archbishop Benedictus serves as the head of the Church of the Holy Light. Following the fall of Lordaeron and the demise of Archbishop Alonsus Faol, Benedictus assumed spiritual leadership over the reformed Church from his dais in Stormwind."
+  },
+  {
+   "q": "What is the cathedral's connection to the paladins?",
+   "aliases": [
+    "silver hand stormwind",
+    "paladin order stormwind",
+    "why are paladins here"
+   ],
+   "answer": "The cathedral serves as the operational headquarters of the Knights of the Silver Hand in the kingdom of Stormwind. Renowned paladins like Lord Grayson Shadowbreaker and Duthorian Rall instruct new squires, bestow sacred tomes, and direct crusaders against enemies of the realm."
+  },
+  {
+   "q": "What lies beneath the cathedral floor?",
+   "aliases": [
+    "cathedral basement",
+    "cathedral catacombs",
+    "what is under the cathedral"
+   ],
+   "answer": "Beneath the main sanctuary lie ancient catacombs. Historically used as a shelter for refugees during the First and Second Wars, they now serve as the final resting place for honored heroes, priests, and paladins."
+  },
+  {
+   "q": "Where did the cathedral's bell come from?",
+   "aliases": [
+    "cathedral bell lore",
+    "who made the bell"
+   ],
+   "answer": "The great bell tolling from the cathedral was forged upon the Great Forge in Ironforge. Crafted alongside a twin bell meant for Lordaeron, it was gifted to humanity by the dwarves as a testament to the enduring friendship between their kingdoms."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The Cathedral of Light serves as your principal order hall in Stormwind, where mentors like Duthorian Rall and Lord Grayson Shadowbreaker guide you through the sacred trials of the Tomes of Valor and Divinity."
+  },
+  {
+   "target": "class:Priest",
+   "text": "As the supreme seat of the Church of the Holy Light in the southern kingdoms, the cathedral is where High Priestess Laurena and Archbishop Benedictus nurture your spiritual devotion and sacred healing arts."
+  }
+ ],
+ "keywords": [
+  "benedictus",
+  "cathedral of light",
+  "cathedral square",
+  "duthorian rall",
+  "holy light",
+  "laurena",
+  "shadowbreaker",
+  "silver hand",
+  "stormwind"
+ ],
+ "related": [
+  "subzone:cathedral-square",
+  "topic:church-of-the-holy-light",
+  "topic:knights-of-the-silver-hand",
+  "npc:archbishop-benedictus",
+  "npc:lord-grayson-shadowbreaker",
+  "npc:high-priestess-laurena",
+  "npc:duthorian-rall",
+  "zone:stormwind"
+ ],
+ "attribution": [
+  "Cathedral of Light"
+ ]
+}

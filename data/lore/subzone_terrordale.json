@@ -1,0 +1,93 @@
+{
+ "key": "subzone:terrordale",
+ "type": "subzone",
+ "name": "Terrordale",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Terrordale"
+ },
+ "summary": "Terrordale is a ruined, ghost-haunted settlement nestled in the northwestern edge of the Eastern Plaguelands. Bordered by the blighted Plaguewood and the arachnid-infested Terrorweb Tunnel, the ruined town swarms with the Scourge and the restless dead.",
+ "sections": [
+  {
+   "title": "A Haunted Haven on the Wood's Edge",
+   "body": "Once a quiet settlement in northern Lordaeron, Terrordale fell along with the rest of the kingdom to the Scourge. Today, the village stands in grim ruin near the mouth of the Terrorweb Tunnel. Its streets are choked with restless shades and wandering undead, while the surrounding trees of the Plaguewood encroach on its rotten timber. Amidst the desolation, only a handful of living eccentrics dare remain\u2014such as the peculiar merchant Augustus the Touched and the ghost hunter Egan, who attempts to free the tortured spirits caught between worlds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Spiritual Disturbance and Exorcism",
+   "body": "The anguish of Terrordale's demise ran so deep that the physical world literally buckles beneath the torment of the spirit realm. Terrordale spirits linger in perpetual agony, bound to the earth by their tragic ends. Because of this concentrated spiritual corruption, seasoned paladins under the guidance of the Silver Hand and Lord Grayson Shadowbreaker are dispatched here to perform rites of judgment and sacrifice, banishing the torment as a sacred trial of holy discipline.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Terrordale?",
+   "aliases": [
+    "where is terrordale",
+    "what is this town",
+    "terrordale lore"
+   ],
+   "answer": "Terrordale is an abandoned, ruined hamlet in the northwestern Eastern Plaguelands. Located just west of the Plaguewood and south of the Terrorweb Tunnel, it is thoroughly overrun by Scourge horrors and tormented ghosts."
+  },
+  {
+   "q": "Who are the living people still in the town?",
+   "aliases": [
+    "who is egan",
+    "who is augustus",
+    "living npcs in terrordale"
+   ],
+   "answer": "Two eccentric figures linger among the ruins: Egan, an intrepid ghost hunter trying to pacify and free the trapped spirits, and Augustus the Touched, a half-mad hermit and merchant obsessed with recovering his old ledgers and possessions."
+  },
+  {
+   "q": "What connects this town to the paladin trials?",
+   "aliases": [
+    "paladin charger terrordale",
+    "exorcising terrordale",
+    "lord grayson shadowbreaker"
+   ],
+   "answer": "Lord Grayson Shadowbreaker sends paladins seeking to bond with their holy warhorse charger to Terrordale. Paladins must use sanctified water to banish the tormented spirits here, demonstrating the spiritual resolve, judgment, and sacrifice required of an elite knight of the Light."
+  },
+  {
+   "q": "What was Terrordale called before the plague?",
+   "aliases": [
+    "terrordale original name",
+    "was it always named terrordale"
+   ],
+   "answer": "Its original name before the Third War is lost to history. Much like Darkshire in Duskwood was once Grand Hamlet, scholars suspect Terrordale was given its grim moniker only after the Scourge decimated its population and corrupted the land."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Terrordale serves as a crucial trial ground for veteran paladins; Lord Grayson Shadowbreaker requires candidates for the charger steed to venture into the ruined hamlet to exorcise its weeping spirits."
+  },
+  {
+   "target": "race:Human",
+   "text": "The broken houses of Terrordale offer a sobering reminder of northern Lordaeron's fall, where common citizens' spirits remain trapped in death within their own front yards."
+  }
+ ],
+ "keywords": [
+  "augustus the touched",
+  "charger",
+  "eastern plaguelands",
+  "egan",
+  "grayson shadowbreaker",
+  "plaguewood",
+  "terrordale",
+  "terrorweb tunnel"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "subzone:plaguewood",
+  "subzone:terrorweb-tunnel",
+  "npc:lord-grayson-shadowbreaker",
+  "subzone:thondroril-river",
+  "subzone:northdale",
+  "topic:scourge",
+  "subzone:darkshire"
+ ],
+ "attribution": [
+  "Terrordale"
+ ]
+}

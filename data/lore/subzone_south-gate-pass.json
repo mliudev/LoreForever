@@ -1,0 +1,78 @@
+{
+ "key": "subzone:south-gate-pass",
+ "type": "subzone",
+ "name": "South Gate Pass",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "South Gate Pass"
+ },
+ "summary": "South Gate Pass is the primary mountain thoroughfare linking the snowy heights of Dun Morogh with the valley basin of Loch Modan. Flanked by dwarven tunnels and watch posts, it serves as the most direct route between Ironforge and the settlement of Thelsamar.",
+ "sections": [
+  {
+   "title": "The Road East",
+   "body": "Carved straight through the Khaz Modan range, South Gate Pass connects Dun Morogh's high mountains to the rolling valley of Loch Modan to the east. Travelers leaving the cold slopes behind emerge through stone archways into the warmer dwarven heartlands. Because the path leads straight toward Thelsamar, it carries a steady flow of mountaineers, couriers, and newly trained adventurers setting out from the capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Guarded Threshold",
+   "body": "The pass is fortified against wild beasts and prowling troggs by the South Gate Outpost, where dwarven mountaineers maintain a constant watch. Though generally safer than the untamed wilds deeper in the valley, travelers are advised to keep to the road, as hostile wildlife and roving threats frequently probe the approaches.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does South Gate Pass lead?",
+   "aliases": [
+    "where does south gate pass go",
+    "south gate pass destination",
+    "south gate road"
+   ],
+   "answer": "Heading west through the tunnels brings you into the snowy highlands of Dun Morogh, on the road toward Ironforge. Traveling east leads down into the basin of Loch Modan, directly toward the settlement of Thelsamar."
+  },
+  {
+   "q": "Is South Gate Pass safe to travel?",
+   "aliases": [
+    "is south gate pass dangerous",
+    "south gate pass threats"
+   ],
+   "answer": "The road itself is relatively secure thanks to the dwarven guards stationed at South Gate Outpost, but bears, spiders, and encroaching troggs inhabit the surrounding crags and hillsides outside the tunnel mouth."
+  },
+  {
+   "q": "Why is this pass used more than North Gate Pass?",
+   "aliases": [
+    "south gate vs north gate",
+    "why use south gate"
+   ],
+   "answer": "South Gate Pass provides the most direct and convenient overland connection between Dun Morogh and Thelsamar, making it the preferred route for local trade, supply caravans, and travelers heading into central Loch Modan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves leaving Dun Morogh, South Gate Pass is the threshold where the icy mountain air gives way to the open valleys and quarries of Loch Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The pass serves as a vital internal artery connecting Ironforge with the eastern Alliance territories, maintained and secured by the King's Mountaineers."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "loch modan",
+  "mountaineers",
+  "south gate outpost",
+  "south gate pass",
+  "thelsamar",
+  "tunnel"
+ ],
+ "related": [
+  "subzone:south-gate-outpost",
+  "subzone:thelsamar",
+  "zone:lochmodan",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "South Gate Pass"
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "key": "quest:1791",
+ "type": "quest",
+ "name": "The Windwatcher",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1791
+  ],
+  "level": "30",
+  "faction": null,
+  "start": "Klannoc Macleod",
+  "end": "Bath'rah the Windwatcher",
+  "previous": "The Affray",
+  "next": "Cyclonian (quest)",
+  "wiki": "The Windwatcher",
+  "chain": []
+ },
+ "summary": "The Windwatcher is an instructional summons directing seasoned warriors to seek out a reclusive troll shaman far to the north. Having proven their mettle in the trial of the Affray and mastered the berserker stance, warriors are directed to seek a weapon equal to their growing fury.",
+ "sections": [
+  {
+   "title": "A Weapon for a Berserker",
+   "body": "Upon surviving the brutal endurance trial of the Affray on Fray Island, warriors earn the fierce discipline of the berserker stance from Klannoc Macleod. Yet raw martial discipline demands an arm of equal renown. Recognizing this, Klannoc sends promising fighters away from the coast of the Barrens, pointing them across continents to seek out a solitary craftsman capable of forging an extraordinary armament.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hermit on the Riverbank",
+   "body": "The quest directs travelers deep into the contested valleys of northern Lordaeron, specifically the mist-shrouded borderland between the Alterac Mountains and the blighted Western Plaguelands. Resting beside the river flowing north past Tarren Mill, the troll hermit Bath'rah the Windwatcher lives in isolation among stone ruins. Bath'rah is no ordinary hermit: he is both a gifted weapon crafter and a wielder of potent elemental shamanism, waiting for warriors determined enough to forge something truly monumental.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to find the Windwatcher?",
+   "aliases": [
+    "quest giver",
+    "who gives the windwatcher",
+    "klannoc macleod quest"
+   ],
+   "answer": "Klannoc Macleod, the master of combat trials stationed on Fray Island off the eastern coast of the Barrens, sends you on this journey once you have conquered the Affray and learned the berserker stance."
+  },
+  {
+   "q": "Who is Bath'rah the Windwatcher?",
+   "aliases": [
+    "who is bathrah",
+    "bathrah the windwatcher lore",
+    "bath'rah identity"
+   ],
+   "answer": "Bath'rah is an enigmatic troll hermit, master weaponsmith, and powerful shaman living isolated in the wilderness between the Alterac Mountains and the Western Plaguelands."
+  },
+  {
+   "q": "Where exactly is Bath'rah located?",
+   "aliases": [
+    "where is bath'rah",
+    "bathrah location",
+    "find bathrah"
+   ],
+   "answer": "Bath'rah makes his camp along the eastern bank of the river that flows north past Tarren Mill, perched near ancient ruins on the border of Alterac and the Western Plaguelands."
+  },
+  {
+   "q": "Why does Klannoc send warriors to Bath'rah?",
+   "aliases": [
+    "why go to bathrah",
+    "what is the purpose of this quest",
+    "windwatcher purpose"
+   ],
+   "answer": "Klannoc recognizes that a warrior who has mastered the ferocious berserker stance needs an exceptional weapon to channel that fury, and Bath'rah possesses the rare elemental and smithing knowledge to forge one."
+  },
+  {
+   "q": "What comes after speaking with Bath'rah?",
+   "aliases": [
+    "what is next after the windwatcher",
+    "cyclonian next quest",
+    "windwatcher continuation"
+   ],
+   "answer": "Speaking with Bath'rah immediately leads into the quest to confront the tempestuous elemental Cyclonian, gathering rare materials to craft a potent martial weapon."
+  },
+  {
+   "q": "Is this journey safe for a traveler coming from the Barrens?",
+   "aliases": [
+    "is it dangerous",
+    "tarren mill river danger"
+   ],
+   "answer": "It is quite perilous. The journey takes travelers through the Hillsbrad foothills into contested northern territories near Syndicate hideouts, aggressive mountain predators, and the deadly blight of the Western Plaguelands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This rite of passage bridges your mastery of the berserker stance on Fray Island with the pursuit of a legendary armament forged through elemental power."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Seeking out Bath'rah demonstrates that even deep in the broken ruins of Lordaeron, troll shamans and weapon crafters command mystical knowledge that warriors of every heritage revere."
+  }
+ ],
+ "keywords": [
+  "alterac mountains",
+  "bath'rah",
+  "berserker stance",
+  "cyclonian",
+  "fray island",
+  "klannoc macleod",
+  "tarren mill",
+  "the affray",
+  "the windwatcher"
+ ],
+ "related": [
+  "npc:bath-rah-the-windwatcher",
+  "npc:klannoc-macleod",
+  "quest:1719",
+  "zone:barrens",
+  "zone:alterac",
+  "zone:westernplaguelands",
+  "subzone:tarren-mill",
+  "topic:troll"
+ ],
+ "attribution": [
+  "The Windwatcher"
+ ]
+}

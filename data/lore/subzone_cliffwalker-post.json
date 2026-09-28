@@ -1,0 +1,88 @@
+{
+ "key": "subzone:cliffwalker-post",
+ "type": "subzone",
+ "name": "Cliffwalker Post",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Cliffwalker Post"
+ },
+ "summary": "Cliffwalker Post is a secluded tauren settlement perched atop a high bluff in the northern reaches of the Stonetalon Mountains. Home to the peaceful Cliffwalker family, it stands as a serene, totem-lined haven looking down upon the crags and canyons below.",
+ "sections": [
+  {
+   "title": "A Sanctuary on the Rise",
+   "body": "Perched upon an elevated bluff, Cliffwalker Post serves as a home and watchpost for the Cliffwalker family and their kin. Its steep, rising approaches are marked by carved tauren totems that guide travelers and honor the earth. Tauren braves vigilantly patrol the high grounds and winding paths, keeping watch over the encroaching turmoil of the surrounding mountains while striving to maintain their quiet connection to the land.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guarded Isolation",
+   "body": "Because of its dramatic elevation, Cliffwalker Post is inherently defensible, sheltered from many of the landbound predators and territorial conflicts that ravage lower Stonetalon. Though the Cliffwalkers generally seek a calm, harmonious existence under the sun, strangers wandering near the foot of their rise are watched with intense scrutiny, and armed braves stand ready to descend upon anyone perceived as a threat to their home.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives at Cliffwalker Post?",
+   "aliases": [
+    "who is at cliffwalker post",
+    "cliffwalker post residents",
+    "cliffwalker tribe"
+   ],
+   "answer": "The post is inhabited by members of the tauren Cliffwalker family along with their brave defenders and elders who tend to the high bluff."
+  },
+  {
+   "q": "Where is Cliffwalker Post located?",
+   "aliases": [
+    "cliffwalker post location",
+    "where is cliffwalker post",
+    "how to get to cliffwalker post"
+   ],
+   "answer": "It is situated high up on a plateau in northern Stonetalon Mountains, overlooking the rugged crags and accessed via steep, totem-lined rises."
+  },
+  {
+   "q": "Are the Cliffwalkers welcoming to outsiders?",
+   "aliases": [
+    "are cliffwalkers friendly",
+    "cliffwalker post alliance",
+    "can alliance go to cliffwalker post"
+   ],
+   "answer": "While the Cliffwalkers are of a peaceful disposition, their sentinels are fiercely protective of their home. Armed braves aggressively confront suspicious travelers who approach unannounced."
+  },
+  {
+   "q": "Why did the tauren build a settlement here?",
+   "aliases": [
+    "why is cliffwalker post here",
+    "purpose of cliffwalker post"
+   ],
+   "answer": "The elevated vantage point provides both security from lowland threats and a serene place to commune with the spirits and the Earth Mother away from crowded settlements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Cliffwalker Post reflects the quiet resilience of your people, offering a traditional haven where totems watch over high mountain ridges."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The outpost represents one of the northernmost tauren enclaves in Stonetalon, keeping an eye on the treacherous mountain pathways."
+  }
+ ],
+ "keywords": [
+  "braves",
+  "cliffwalker",
+  "cliffwalker post",
+  "horde",
+  "stonetalon",
+  "tauren",
+  "totems"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "topic:tauren",
+  "topic:horde",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Cliffwalker Post"
+ ]
+}

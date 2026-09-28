@@ -1,0 +1,116 @@
+{
+ "key": "quest:138",
+ "type": "quest",
+ "name": "Captain Sanders' Hidden Treasure",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   138
+  ],
+  "level": "16",
+  "faction": "Neutral",
+  "start": "Captain's Footlocker",
+  "end": "Broken Barrel",
+  "previous": "Captain Sanders' Hidden Treasure (Classic 1)",
+  "next": "Captain Sanders' Hidden Treasure (Classic 3)",
+  "wiki": "Captain Sanders' Hidden Treasure (Classic 2)",
+  "chain": [
+   "Captain Sanders' Hidden Treasure (Classic 1)",
+   "Captain Sanders' Hidden Treasure (Classic 2)",
+   "Captain Sanders' Hidden Treasure (Classic 3)",
+   "Captain Sanders' Hidden Treasure (Classic 4)"
+  ]
+ },
+ "summary": "This quest is the second leg of a treasure hunt devised by the enigmatic pirate Captain Sanders across Westfall. Following instructions recovered from an abandoned seaside footlocker, searchers must venture east away from the coast to find another clue hidden inside an old barrel near ruined stonework.",
+ "sections": [
+  {
+   "title": "A Trail of Inland Riddles",
+   "body": "Rather than burying his plunder under a single marked cross on a sandy beach, Captain Sanders scattered riddles across the countryside. Those who successfully crack his first cipher along the shore are told to leave the churning tide behind and scale the rocky bluffs inland, following a route that climbs steadily toward the main thoroughfares of Westfall.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ruins Along the Road",
+   "body": "The clue directs seekers directly toward an old chimney standing among roadside ruins, where a discarded, weathered barrel conceals the next message. The pirate evidently knew the landmarks of Westfall intimately, using remnants of ruined farmsteads to safeguard the milestones of his elaborate scavenger hunt.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Captain Sanders?",
+   "aliases": [
+    "captain sanders lore",
+    "who is sanders",
+    "sanders pirate"
+   ],
+   "answer": "Captain Sanders was a pirate captain who operated along the coasts of Westfall. Instead of stashing his loot in an ordinary hoard, he scattered a chain of clues and riddles across the territory to challenge anyone aspiring to claim his hidden wealth."
+  },
+  {
+   "q": "Where does this clue send you?",
+   "aliases": [
+    "where do i go",
+    "clue location",
+    "chimney location"
+   ],
+   "answer": "The clue directs searchers due east up the bluffs from the western sea, continuing until they hit the road. There, beside an old ruined stone chimney, sits a broken barrel hiding the subsequent piece of the puzzle."
+  },
+  {
+   "q": "Why did Sanders hide his treasure in pieces?",
+   "aliases": [
+    "why clues",
+    "why the scavenger hunt"
+   ],
+   "answer": "Pirates routinely hid their ill-gotten gains to keep them out of the hands of rivals and the authorities. Sanders took additional precautions by dividing his directions into multi-step riddles, ensuring only someone persistent and resourceful could trace the trail to the final cache."
+  },
+  {
+   "q": "Is the treasure hunt dangerous to follow?",
+   "aliases": [
+    "is it safe",
+    "westfall dangers"
+   ],
+   "answer": "While the clues themselves are parchment and old containers, traversing Westfall brings searchers into contact with wandering beasts, prowling gnolls, and hostile members of the Defias Brotherhood who control the surrounding fields and abandoned homesteads."
+  },
+  {
+   "q": "What kind of ruins is the barrel hidden near?",
+   "aliases": [
+    "chimney ruins",
+    "which building"
+   ],
+   "answer": "The barrel sits beside the crumbling stone chimney of a ruined building near the roadside, one of many homesteads across Westfall left abandoned or demolished during recent years of turmoil."
+  },
+  {
+   "q": "Does this quest reveal the treasure itself?",
+   "aliases": [
+    "is this the final chest",
+    "do i get loot now"
+   ],
+   "answer": "No. This step only yields another clue. Sanders designed his scavenger hunt to lead seekers through several stages across the region before uncovering the actual prize."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Deciphering pirate ciphers and navigating abandoned ruins in search of forgotten spoils is second nature to those who favor stealth, cunning, and quick profit."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "While Westfall's local militia struggles against organized outlaws, pursuing Sanders' trail provides a rare diversion that traverses both the lawless coastlines and untended inland roads."
+  }
+ ],
+ "keywords": [
+  "broken barrel",
+  "captain sanders",
+  "chimney",
+  "pirate",
+  "sanders treasure",
+  "treasure hunt",
+  "westfall"
+ ],
+ "related": [
+  "quest:136",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Captain Sanders' Hidden Treasure (Classic 2)"
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "key": "quest:1666",
+ "type": "quest",
+ "name": "Marshal Haggard",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1666
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Harry Burlguard",
+  "end": "Marshal Haggard",
+  "previous": "Bartleby's Mug (quest)",
+  "next": "Dead-tooth Jack",
+  "wiki": "Marshal Haggard (quest)",
+  "chain": [
+   "Marshal Haggard (quest)",
+   "Dead-tooth Jack"
+  ]
+ },
+ "summary": "Marshal Haggard is an Alliance quest given by Harry Burlguard in Stormwind City to novice warriors seeking better arms. The young fighter is dispatched out of the capital to the Eastvale Logging Camp in eastern Elwynn Forest to meet a retired military marshal who keeps a storied collection of veteran weaponry. It marks an early step in a warrior's martial journey beyond the safety of the city walls.",
+ "sections": [
+  {
+   "title": "A Veteran's Armory",
+   "body": "Novice warriors training in Stormwind are quickly reminded that raw technique only goes so far without reliable steel. Harry Burlguard directs promising fighters to track down Marshal Haggard, a retired officer of the realm living in the quiet reaches of eastern Elwynn Forest. Over a lifetime in the field, Haggard amassed a respectable personal armory, making his homestead a natural destination for fledgling warriors in need of real equipment.",
+   "spoiler": 0
+  },
+  {
+   "title": "Retirement at Eastvale",
+   "body": "Marshal Haggard resides in a secluded manor near the Eastvale Logging Camp. Years of grueling service have taken their toll on the aging commander: his vision is failing, and he is prone to mistaking approaching travelers for prowling riverpaw gnolls. Despite his age and isolation, the old marshal remains a respected figure among Stormwind's guards and trainers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts this quest?",
+   "aliases": [
+    "where do i get marshal haggard quest",
+    "who gives marshal haggard",
+    "quest giver marshal haggard"
+   ],
+   "answer": "Harry Burlguard, a warrior trainer stationed in Stormwind City, offers this quest once an aspiring warrior has proven their foundational skills."
+  },
+  {
+   "q": "Where is Marshal Haggard located?",
+   "aliases": [
+    "marshal haggard location",
+    "where is haggard",
+    "eastvale lumber camp manor"
+   ],
+   "answer": "Marshal Haggard lives in a manor house just east of the Eastvale Logging Camp, situated in the far eastern edge of Elwynn Forest near the border of Redridge Mountains."
+  },
+  {
+   "q": "Why does Harry Burlguard send you to Haggard?",
+   "aliases": [
+    "why marshal haggard",
+    "why go to eastvale warrior",
+    "purpose of marshal haggard quest"
+   ],
+   "answer": "Burlguard recognizes that a developing warrior needs quality equipment beyond standard issue trainees' blades. Haggard gathered substantial arms and armor throughout his long career and is known to part with gear for those who prove their worth."
+  },
+  {
+   "q": "Why does Haggard mistake visitors for gnolls?",
+   "aliases": [
+    "haggard eyesight",
+    "is haggard blind",
+    "haggard gnoll dialogue"
+   ],
+   "answer": "Haggard's eyesight has deteriorated significantly in his old age. Because gnolls frequently harass the eastern timber operations and outskirts of Elwynn Forest, the cautious old veteran remains on edge against sudden visitors."
+  },
+  {
+   "q": "What comes after completing this quest?",
+   "aliases": [
+    "marshal haggard next quest",
+    "follow up to marshal haggard"
+   ],
+   "answer": "Upon greeting Haggard, the retired marshal will test your mettle by sending you on the quest Dead-tooth Jack before considering parting with any weapons from his personal stores."
+  },
+  {
+   "q": "Is this quest available to classes other than warriors?",
+   "aliases": [
+    "can paladins do marshal haggard",
+    "warrior only quest haggard"
+   ],
+   "answer": "No. This quest line forms part of the level 10 warrior class progression designed to equip young fighters for challenges beyond Elwynn Forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This task serves as an early milestone for Alliance warriors, transitioning them from formal urban training into the wider wilderness in search of martial gear."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The quest reflects how Stormwind relies on the lingering expertise and private supplies of retired veterans to foster the next generation of defenders."
+  }
+ ],
+ "keywords": [
+  "eastvale",
+  "eastvale logging camp",
+  "elwynn forest",
+  "harry burlguard",
+  "marshal haggard",
+  "stormwind",
+  "warrior"
+ ],
+ "related": [
+  "quest:1667",
+  "zone:elwynn",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Marshal Haggard (quest)"
+ ]
+}

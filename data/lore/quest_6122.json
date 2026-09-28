@@ -1,0 +1,127 @@
+{
+ "key": "quest:6122",
+ "type": "quest",
+ "name": "The Principal Source",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   6122
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Dendrite Starblaze",
+  "end": "Alanndarian Nightsong",
+  "previous": "Lessons Anew (Alliance)",
+  "next": "Gathering the Cure (Alliance)",
+  "wiki": "The Principal Source (Alliance)",
+  "chain": []
+ },
+ "summary": "The Principal Source is an essential rite of passage for young night elf druids learning to understand and mend the natural world. Dispatched from Moonglade by Dendrite Starblaze, initiates must collect corrupted water from Cliffspring Falls in Darkshore to help Auberdine naturalist Alanndarian Nightsong halt a spreading sickness among the forest deer.",
+ "sections": [
+  {
+   "title": "A Vital Waterway Corrupted",
+   "body": "Cliffspring Falls provides the primary freshwater supply for the northern reaches of Darkshore. When wildlife\u2014particularly the local deer populations\u2014began succumbing to an unnatural, lingering malady, the Cenarion Circle turned their attention to the river. Suspecting that the aquifer itself was compromised, Dendrite Starblaze in Moonglade entrusts novice druids with the crucial task of traveling to the mouth of the cavern beneath the falls to gather an untouched sample of the tainted water.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows at the Falls",
+   "body": "Sampling the water is not without peril. Vicious naga have established a presence inside Cliffspring River Cave, nesting near the very headwaters of the falls. Their presence around the subterranean spring poses a direct threat to anyone investigating the blight. Despite the danger, securing an uncontaminated sample from the cave mouth is the only way for the Cenarion Circle to study the agent sickening the wilderness.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Deeper Malady",
+   "body": "Upon delivering the sample to Alanndarian Nightsong in Auberdine, the foulness of the water confirms the worst fears of the Circle. Yet examining the foul liquid reveals an unsettling truth: while the corrupted waterfall is indeed the main conduit poisoning the riverbanks, afflicted deer have been spotted far beyond its direct path. The water serves as a vital reagent to begin crafting an antidote, but Alanndarian suspects a deeper, broader corruption is spreading across Darkshore's entire water table.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Cliffspring Falls so important to Darkshore?",
+   "aliases": [
+    "why cliffspring falls matters",
+    "cliffspring river importance",
+    "darkshore water source"
+   ],
+   "answer": "Cliffspring Falls acts as the principal natural source of drinking water for northern Darkshore. Because its flows supply local streams, rivers, and the surrounding flora and fauna, any contaminant introduced at its headwaters quickly spreads throughout the entire regional biome."
+  },
+  {
+   "q": "Why are the deer in Darkshore falling ill?",
+   "aliases": [
+    "why are deer sick",
+    "darkshore sick deer",
+    "what poisoned the deer"
+   ],
+   "answer": "The local deer drink directly from Cliffspring Falls and the streams it feeds. A virulent pollutant has tainted the water table at the source, causing the woodland creatures to suffer from a crippling, debilitating illness."
+  },
+  {
+   "q": "Who is Dendrite Starblaze?",
+   "aliases": [
+    "dendrite starblaze lore",
+    "who gave me this quest",
+    "starblaze moonglade"
+   ],
+   "answer": "Dendrite Starblaze is an elder druid trainer residing in the sacred haven of Moonglade. Acting as a guide for ascending druids, he monitors disturbances across Kalimdor and coordinates the Cenarion Circle's response to natural crises."
+  },
+  {
+   "q": "Who is Alanndarian Nightsong?",
+   "aliases": [
+    "who is alanndarian nightsong",
+    "nightsong auberdine"
+   ],
+   "answer": "Alanndarian Nightsong is a night elf naturalist stationed in Auberdine. Distressed by the spreading corruption and suffering fauna across Darkshore, she petitioned the Cenarion Circle in Moonglade for experienced aid to study the affliction and formulate a cure."
+  },
+  {
+   "q": "Why are naga at Cliffspring Falls?",
+   "aliases": [
+    "naga in cliffspring cave",
+    "why are naga here",
+    "cliffspring falls naga"
+   ],
+   "answer": "Naga from the Darkshore coast have pushed inland and occupied the cave system behind Cliffspring Falls. Their encroaching presence creates extreme hazard for anyone attempting to access the headwaters to investigate the water supply."
+  },
+  {
+   "q": "What ability does this quest help druids learn?",
+   "aliases": [
+    "what spell does this give",
+    "druid poison quest",
+    "cure poison chain"
+   ],
+   "answer": "This investigation is part of the 'Power over Poison' trial. By diagnosing this wildlife plague and synthesizing an antidote alongside Alanndarian Nightsong, druid initiates learn the vital magical art of curing poisons."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This task is part of a foundational druidic trial. By confronting ecological decay at Cliffspring Falls and compounding remedies, you awaken the spiritual and botanical knowledge required to cure poisons in the wild."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei of Auberdine, the corruption of Cliffspring Falls represents a direct desecration of their ancestral forests, demanding immediate intervention to preserve the land's innocent creatures."
+  }
+ ],
+ "keywords": [
+  "alanndarian nightsong",
+  "auberdine",
+  "cenarion circle",
+  "cliffspring falls",
+  "cure poison",
+  "darkshore",
+  "dendrite starblaze",
+  "naga",
+  "power over poison"
+ ],
+ "related": [
+  "quest:6125",
+  "npc:dendrite-starblaze",
+  "npc:alanndarian-nightsong",
+  "subzone:cliffspring-falls",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "topic:cenarion-circle",
+  "quest:947"
+ ],
+ "attribution": [
+  "The Principal Source (Alliance)"
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "key": "quest:7789",
+ "type": "quest",
+ "name": "Quell the Silverwing Usurpers",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   7789
+  ],
+  "level": "25",
+  "faction": "Horde",
+  "start": "Captain Shatterskull",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Quell the Silverwing Usurpers",
+  "chain": []
+ },
+ "summary": "Quell the Silverwing Usurpers is a call to arms issued by Captain Shatterskull at the Mor'shan Base Camp on the northern border of the Barrens. Tasking Horde fighters with entering Warsong Gulch, the mission demands the blood of the night elf Silverwing Sentinels and proof of victory on the front lines. It embodies the relentless, unapologetic expansion of the Warsong Outriders into the ancient forests of Ashenvale.",
+ "sections": [
+  {
+   "title": "Frontier Aggression",
+   "body": "Perched on the contentious border between the scorched savannah of the Barrens and the dense canopy of Ashenvale, Mor'shan Base Camp serves as the launching point for the Warsong Clan's logging efforts. Captain Shatterskull views the timber of Ashenvale not as an ecosystem to be preserved, but as vital lumber required to fuel the Horde's survival and growth across Durotar and the Barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "Clash in the Gulch",
+   "body": "To the night elf Silverwing Sentinels, the Warsong operations are a sacrilegious invasion of ancestral territory and sacred woodland. To the Horde commanders, the elves are obstinate usurpers standing in the way of necessary progress. The conflict in Warsong Gulch has descended into open war, where proof of participation and prowess in battle\u2014the Warsong Gulch Mark of Honor\u2014is demanded as tribute to the Horde's sovereign claims.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Shatterskull?",
+   "aliases": [
+    "shatterskull",
+    "who gives quest quell the silverwing usurpers",
+    "mor'shan commander"
+   ],
+   "answer": "Captain Shatterskull is a Horde officer stationed at Mor'shan Base Camp in the northern Barrens. He directs frontline operations and recruits warriors to march north into Warsong Gulch to secure resources and defeat the night elves."
+  },
+  {
+   "q": "Why does the Horde want the wood in Ashenvale?",
+   "aliases": [
+    "why horde logs ashenvale",
+    "why cut trees ashenvale",
+    "warsong lumber motive"
+   ],
+   "answer": "The orc lands of Durotar and the surrounding Barrens are arid and devoid of large timber. To construct fortifications, shelters, and war engines, the Horde relies heavily on the lumber operations established by the Warsong Outriders in southern Ashenvale."
+  },
+  {
+   "q": "Who are the Silverwing Sentinels?",
+   "aliases": [
+    "silverwing sentinels",
+    "silverwing usurpers",
+    "silverwing night elves"
+   ],
+   "answer": "The Silverwing Sentinels are an elite detachment of night elf defenders dedicated to protecting their sacred forest from deforestation and encroachment, clashing directly with the Warsong Outriders in Warsong Gulch."
+  },
+  {
+   "q": "Where is Mor'shan Base Camp located?",
+   "aliases": [
+    "mor'shan base camp location",
+    "where is morshan",
+    "morshan camp barrens"
+   ],
+   "answer": "Mor'shan Base Camp lies along the northern rampart of the Barrens, fortified right against the border canyon that leads directly into southern Ashenvale."
+  },
+  {
+   "q": "What is a Warsong Gulch Mark of Honor?",
+   "aliases": [
+    "mark of honor",
+    "warsong mark",
+    "warsong honor mark"
+   ],
+   "answer": "It is a token awarded to combatants who fight on the contested battleground of Warsong Gulch, signifying their active service and sacrifice in the war effort between the Horde and the Alliance."
+  },
+  {
+   "q": "Why does Shatterskull call the night elves 'usurpers'?",
+   "aliases": [
+    "why usurpers",
+    "why does shatterskull call elves usurpers"
+   ],
+   "answer": "Shatterskull believes that Kalimdor rightfully belongs to the Horde and views any Alliance presence contesting their territorial claims or resource harvesting as illegal interference."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "For orcs, particularly those carrying the legacy of Grommash Hellscream and the Warsong clan, harvesting Ashenvale is both an act of survival and a point of unyielding pride."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "While tauren value harmony with nature, loyalty to the Horde and the immediate survival needs of their allies place them in direct conflict with the unyielding Sentinels."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The lumber of Ashenvale fuels the war engines and fortresses protecting all Horde territories across Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "barrens",
+  "gulch",
+  "lumber",
+  "mor'shan",
+  "shatterskull",
+  "silverwing",
+  "warsong"
+ ],
+ "related": [
+  "npc:captain-shatterskull",
+  "subzone:mor-shan-base-camp",
+  "zone:ashenvale",
+  "topic:sentinels",
+  "topic:horde",
+  "zone:barrens",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Quell the Silverwing Usurpers"
+ ]
+}

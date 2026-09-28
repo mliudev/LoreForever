@@ -1,0 +1,120 @@
+{
+ "key": "quest:6102",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   6102
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Dazalar",
+  "end": "",
+  "previous": "Taming the Beast (night elf 2)",
+  "next": "Training the Beast (night elf)",
+  "wiki": "Taming the Beast (night elf 3)",
+  "chain": []
+ },
+ "summary": "This quest marks the final trial in a young night elf hunter's basic training. Under the direction of Dazalar in Dolanaar, hunters must tame a predatory owl of the skies before unlocking the power to choose a true, lifelong companion.",
+ "sections": [
+  {
+   "title": "Mastery of the Canopy",
+   "body": "Before completing their initial beastcraft, night elf hunters must establish harmony with creatures from every corner of Teldrassil's ecosystem. Having previously proven their will against beasts of the underbrush, Dazalar charges the hunter with bringing down the spirit of the skies: the Strigid Screecher. These watchful birds of prey roost high across the boughs west of Dolanaar, requiring patience and a steady nerve to pacify with the enchanted Taming Rod.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Hunter's Bond",
+   "body": "Succeeding with the Strigid Screecher fulfills the ancient lessons of communion between kaldorei hunters and nature. Upon returning the spent rod to Dazalar, the apprentice leaves behind training exercises and earns the full art of calling, dismissing, and permanently taming beasts of their own choosing across Azeroth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are Strigid Screechers found?",
+   "aliases": [
+    "screecher location",
+    "where is strigid screecher",
+    "owl location"
+   ],
+   "answer": "Strigid Screechers roost in the woods west of Dolanaar. Hunters must seek out these predatory birds among the canopy and roots outside the village to test their rod."
+  },
+  {
+   "q": "Who is Dazalar?",
+   "aliases": [
+    "dazalar role",
+    "who teaches pet taming dolanaar",
+    "hunter trainer dolanaar"
+   ],
+   "answer": "Dazalar is a night elf hunter trainer stationed in Dolanaar. He oversees young kaldorei who have reached basic competence in archery and tracking, testing them on land and sky beasts before bestowing the ability to bind a real animal companion."
+  },
+  {
+   "q": "Do I get to keep the Strigid Screecher as my pet?",
+   "aliases": [
+    "keep owl",
+    "is screecher permanent",
+    "do i keep this pet"
+   ],
+   "answer": "No. The screechers tamed during this trial are temporary subjects bound only by the Taming Rod's magic. Once the trial is turned in, the rod is surrendered, and the hunter is taught how to tame a permanent companion of their own choosing in the wild."
+  },
+  {
+   "q": "What happens after completing this trial?",
+   "aliases": [
+    "what comes next",
+    "after taming the beast",
+    "hunter pet quest finish"
+   ],
+   "answer": "Dazalar permanently unlocks your ability to tame, call, and dismiss beasts. He also points you toward further training in Darnassus to learn the vital arts of feeding and teaching your companion in combat."
+  },
+  {
+   "q": "Why do night elves tame owls specifically?",
+   "aliases": [
+    "owl lore night elf",
+    "why owls",
+    "strigid screecher importance"
+   ],
+   "answer": "Birds of prey such as owls hold deep cultural significance among the kaldorei as vigilant hunters of the night and trusted scouts. Mastering a creature of the skies proves the hunter understands aerial predators alongside ground-dwelling beasts."
+  },
+  {
+   "q": "Can hunters choose any animal after this quest?",
+   "aliases": [
+    "what pets can i get",
+    "choosing first pet",
+    "any beast tameable"
+   ],
+   "answer": "Yes. Once Dazalar teaches the permanent taming ability, a hunter is free to seek out any tameable beast of the land, water, or sky across Teldrassil and beyond."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This rite of passage is the threshold where a hunter transitions from fighting alone to forging a lifetime partnership with a wild companion."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Taming Teldrassil's native wildlife reflects the kaldorei path of walking in harmony with nature rather than bending it through force."
+  }
+ ],
+ "keywords": [
+  "beast",
+  "dazalar",
+  "dolanaar",
+  "hunter pet",
+  "screecher",
+  "strigid screecher",
+  "taming",
+  "taming rod",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:dazalar",
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "topic:night-elf",
+  "quest:6061"
+ ],
+ "attribution": [
+  "Taming the Beast (night elf 3)"
+ ]
+}

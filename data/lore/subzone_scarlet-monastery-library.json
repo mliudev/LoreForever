@@ -1,0 +1,94 @@
+{
+ "key": "subzone:scarlet-monastery-library",
+ "type": "subzone",
+ "name": "Scarlet Monastery Library",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Scarlet Monastery Library"
+ },
+ "summary": "The Library is the eastern wing of the Scarlet Monastery in Tirisfal Glades, once dedicated to holy scholarship and Lordaeron's priesthood. Now guarded by battle hounds and zealots, it houses ancient archives and rare tomes fiercely coveted by scholars and mages from both factions.",
+ "sections": [
+  {
+   "title": "Archives of Lordaeron",
+   "body": "Before the Third War, the monastery served as a center for learning and enlightenment for Lordaeron's priesthood. The eastern cloisters housed vast archives of religious thought, historical records, and arcane treatises. When the Scarlet Crusade fortified the monastery against the Scourge, they retained these repositories, turning the quiet halls into an armed redoubt. Today, beastmasters run tracking hounds through the courtyards while battle-mages patrol the shelves, guarding historic volumes like the Compendium of the Fallen and ancient research on the Titans against outsiders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guardians of the Athenaeum",
+   "body": "Breaching the Library requires navigating past Houndmaster Loksey in the Huntsman's Cloister, whose trained hounds sniff out infiltrators seeking passage into the inner chambers. Beyond the Gallery of Treasures lies the Athenaeum, overseen by Arcanist Doan. A formidable mage who wields devastating fire and protective sorcery, Doan studies in isolation, fiercely defending the Crusade's hoarded knowledge from any who venture into the heart of the complex.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Library within the Scarlet Monastery?",
+   "aliases": [
+    "library entrance",
+    "which door is library",
+    "how to find library wing"
+   ],
+   "answer": "When entering the Grand Vestibule of the Scarlet Monastery complex in Tirisfal Glades, the Library wing is accessed through the right-most instance portal."
+  },
+  {
+   "q": "Why are adventurers sent to the Library?",
+   "aliases": [
+    "why go to library",
+    "library quests",
+    "what is in the library"
+   ],
+   "answer": "Scholars, priests, and mages from both the Alliance and Horde seek precious texts preserved within its walls. Important targets include the Compendium of the Fallen, Titan lore sought by Ironforge historians, and ancient magical manuals for rising arcanists."
+  },
+  {
+   "q": "Who rules the Library wing?",
+   "aliases": [
+    "library boss",
+    "who is in charge of the library",
+    "who leads the library"
+   ],
+   "answer": "The Library's inner sanctuary, the Athenaeum, is presided over by Arcanist Doan, a powerful scarlet spellcaster. The outer courtyard is secured by Houndmaster Loksey and his vicious tracking beasts."
+  },
+  {
+   "q": "What is the Scarlet Key found here?",
+   "aliases": [
+    "doan key",
+    "scarlet key drop",
+    "where is scarlet key"
+   ],
+   "answer": "A lockbox in Arcanist Doan's Athenaeum holds the Scarlet Key, which is required to unlock the heavy iron doors granting entrance to the monastery's Armory and Cathedral wings."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The Athenaeum is an essential pilgrimage for ambitious mages seeking ancient rituals of power and to test their mettle against the destructive sorcery of Arcanist Doan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Library holds sacred records of Lordaeron's fallen heroes and Titan histories that Ironforge's Hall of Explorers is desperate to recover from Crusader hands."
+  }
+ ],
+ "keywords": [
+  "arcanist doan",
+  "athenaeum",
+  "compendium of the fallen",
+  "houndmaster loksey",
+  "library",
+  "scarlet key",
+  "scarlet monastery",
+  "tirisfal glades"
+ ],
+ "related": [
+  "zone:scarlet",
+  "subzone:grand-vestibule",
+  "subzone:athenaeum-scarlet-monastery",
+  "npc:arcanist-doan",
+  "npc:houndmaster-loksey",
+  "topic:scarlet-crusade",
+  "quest:1152",
+  "quest:1950"
+ ],
+ "attribution": [
+  "Scarlet Monastery Library"
+ ]
+}

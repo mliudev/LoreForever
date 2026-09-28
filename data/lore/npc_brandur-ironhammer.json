@@ -1,0 +1,105 @@
+{
+ "key": "npc:brandur-ironhammer",
+ "type": "npc",
+ "name": "Brandur Ironhammer",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Brandur Ironhammer",
+  "refs": 2
+ },
+ "summary": "Brandur Ironhammer is a dwarven paladin trainer residing in the Hall of Mysteries within Ironforge. He guides aspiring champions of the Holy Light through their early rites, testing their devotion and dispatching them across the Alliance.",
+ "sections": [
+  {
+   "title": "A Guide in the Mystic Ward",
+   "body": "Stationed within the quiet alcoves of the Hall of Mysteries, Brandur Ironhammer serves the Alliance by instructing novice paladins in the ways of the Holy Light. Alongside his peer, Tiza Battleforge, Brandur keeps a watchful eye on young dwarven champions, guiding them through the trials of the Tome of Divinity. While deeply committed to his holy duties, he has acknowledged personal flaws under Tiza's frank counsel, working diligently to temper his envy and maintain the inner purity demanded of a warrior of the Light.",
+   "spoiler": 0
+  },
+  {
+   "title": "Connecting the Silver Hand",
+   "body": "Brandur serves as an essential liaison between Ironforge and the wider Alliance brotherhood. When human initiates find their way into the dwarven mountain, he redirects them back south to Duthorian Rall in the Cathedral of Light. As paladins grow seasoned in the field, Brandur coordinates their deployment to battlegrounds such as Chillwind Camp in the Western Plaguelands, eventually sending veteran crusaders to Lord Grayson Shadowbreaker to undertake the demanding trials of the war charger.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Brandur Ironhammer located?",
+   "aliases": [
+    "brandur ironhammer location",
+    "find brandur ironhammer",
+    "where is brandur"
+   ],
+   "answer": "Brandur is located inside the Hall of Mysteries, which sits in the Mystic Ward on the northern side of Ironforge."
+  },
+  {
+   "q": "What role does Brandur Ironhammer play for paladins?",
+   "aliases": [
+    "brandur paladin trainer",
+    "what does brandur do",
+    "brandur purpose"
+   ],
+   "answer": "He is a paladin class trainer who teaches new spells and abilities, guides initiates through their class quests like the Tome of Divinity, and directs seasoned paladins toward advanced trials across the Alliance."
+  },
+  {
+   "q": "Who is Brandur's peer in the Hall of Mysteries?",
+   "aliases": [
+    "brandur partner",
+    "who works with brandur",
+    "tiza battleforge relation"
+   ],
+   "answer": "Brandur works alongside Tiza Battleforge, another dwarven paladin trainer in the Hall of Mysteries. Tiza acts as a candid mentor to him, having pointed out that his jealousy is his weakness\u2014a fault Brandur has sworn to overcome."
+  },
+  {
+   "q": "Why does Brandur send paladins to Stormwind City?",
+   "aliases": [
+    "brandur stormwind quest",
+    "why go to duthorian rall",
+    "brandur human paladins"
+   ],
+   "answer": "Human paladins training in Ironforge are often redirected by Brandur to Duthorian Rall or Lord Grayson Shadowbreaker in Stormwind's Cathedral of Light, ensuring they undergo the formal rites prescribed by their own kingdom."
+  },
+  {
+   "q": "Does Brandur have connections to the fight against the Scourge?",
+   "aliases": [
+    "brandur plaguelands",
+    "chillwind camp brandur",
+    "ashlam valorfist brandur"
+   ],
+   "answer": "Yes. Brandur relays urgent calls from Commander Ashlam Valorfist, dispatching proven paladins of purity and valor to assist the Alliance crusade at Chillwind Camp on the border of the Western Plaguelands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For dwarven and Alliance paladins, Brandur is a key mentor in Ironforge, offering essential martial training, sacred seals, and directives that lead to advanced holy trials."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Brandur exemplifies the Khaz Modan tradition of dwarven paladins who blend martial steel with reverence for the Holy Light within the heart of Ironforge."
+  }
+ ],
+ "keywords": [
+  "brandur",
+  "hall of mysteries",
+  "ironforge",
+  "ironhammer",
+  "mystic ward",
+  "paladin",
+  "tiza battleforge",
+  "tome of divinity",
+  "trainer"
+ ],
+ "related": [
+  "zone:ironforge",
+  "subzone:hall-of-mysteries",
+  "subzone:mystic-ward",
+  "npc:tiza-battleforge",
+  "quest:2997",
+  "npc:duthorian-rall",
+  "npc:lord-grayson-shadowbreaker",
+  "subzone:chillwind-camp"
+ ],
+ "attribution": [
+  "Brandur Ironhammer"
+ ]
+}

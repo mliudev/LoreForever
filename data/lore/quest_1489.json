@@ -1,0 +1,123 @@
+{
+ "key": "quest:1489",
+ "type": "quest",
+ "name": "Hamuul Runetotem",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "ids": [
+   1489
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Tonga Runetotem",
+  "end": "Archdruid Hamuul Runetotem",
+  "previous": "Altered Beings (Classic)",
+  "next": "Nara Wildmane (quest)",
+  "wiki": "Hamuul Runetotem (quest)",
+  "chain": []
+ },
+ "summary": "This quest directs Horde adventurers from the lush but troubled oases of the Barrens to the lofty heights of Thunder Bluff. Tonga Runetotem suspects a deep spiritual corruption within the Wailing Caverns and sends you to seek the guidance of Archdruid Hamuul Runetotem.",
+ "sections": [
+  {
+   "title": "A Disturbing Dream",
+   "body": "While studying the wildlife of the Barrens, Tonga Runetotem identified a strange affliction gripping the creatures near the lush oases. The altered beasts carried shells tainted by an unnatural force, leading Tonga to realize that the land itself is trapped in a delirious, troubled dream. Convinced that the waters flowing from the subterranean Wailing Caverns are the origin of this rot, Tonga knows that venturing inside requires far greater wisdom than a lone naturalist possesses.",
+   "spoiler": 0
+  },
+  {
+   "title": "Counsel on Elder Rise",
+   "body": "To understand the threat within the caverns, Tonga directs you to Thunder Bluff to confer with his kin, Archdruid Hamuul Runetotem. Hamuul is the highest-ranking tauren druid and a revered spiritual leader of the Cenarion Circle in Mulgore. Stationed atop the tranquil Elder Rise, Hamuul monitors disturbances across Kalimdor and confirms that the nightmare seeping through the Barrens is a dire threat demanding the full might of Horde champions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Tonga send me to Hamuul?",
+   "aliases": [
+    "why hamuul",
+    "why talk to hamuul",
+    "hamuul quest purpose"
+   ],
+   "answer": "Tonga discovered that the Barrens' oases are tainted by a bizarre affliction emerging from the Wailing Caverns. Because the phenomenon feels like a nightmare gripping the earth, he sends you to Archdruid Hamuul Runetotem on Elder Rise for high-level druidic guidance before anyone attempts to enter the caverns."
+  },
+  {
+   "q": "Where is Hamuul Runetotem located?",
+   "aliases": [
+    "hamuul location",
+    "where is hamuul",
+    "find hamuul runetotem"
+   ],
+   "answer": "Archdruid Hamuul Runetotem is located in Thunder Bluff, the capital city of the tauren in Mulgore. He stands atop the Elder Rise, overlooking the surrounding plains alongside other druids and shamans."
+  },
+  {
+   "q": "What is the source of the taint Tonga noticed?",
+   "aliases": [
+    "what is the taint",
+    "oasis corruption",
+    "wailing caverns taint"
+   ],
+   "answer": "The taint stems from the underground springs of the Wailing Caverns. The strange waters are corrupting local wildlife and flora, causing the land to behave as if it is trapped in an inescapable nightmare."
+  },
+  {
+   "q": "What happens after speaking with Hamuul?",
+   "aliases": [
+    "next quest after hamuul",
+    "what next",
+    "hamuul follow up"
+   ],
+   "answer": "Hamuul welcomes you to Thunder Bluff and prepares you for the trials ahead. He warns that dealing with the nightmare beneath the Barrens is a dire endeavor and directs you to Nara Wildmane to prepare for the descent into the Wailing Caverns."
+  },
+  {
+   "q": "Who is Hamuul Runetotem?",
+   "aliases": [
+    "who is hamuul",
+    "hamuul lore",
+    "archdruid hamuul"
+   ],
+   "answer": "Archdruid Hamuul Runetotem is the foremost leader of the tauren druids and a close childhood friend and advisor to High Chieftain Cairne Bloodhoof. Having learned the ways of the wild following the Third War, he guides tauren druids into communion with nature and the Cenarion Circle."
+  },
+  {
+   "q": "Is this quest required to enter the Wailing Caverns?",
+   "aliases": [
+    "wailing caverns attunement",
+    "is this quest mandatory"
+   ],
+   "answer": "No attunement is required to physically step into the Wailing Caverns, but this quest is the Horde narrative bridge linking the mystery of the Barrens' lush oases to the expedition inside the dungeon."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For tauren druids, reporting to Archdruid Hamuul Runetotem is a pilgrimage to the mentor who established modern tauren druidism under Malfurion Stormrage's teachings."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The mission bridges concerns in the ancestral hunting grounds of the Barrens with the guidance of the tribal elders dwelling atop the sacred bluffs of Mulgore."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As the Barrens serves as the crossroad of the young Horde, investigating the spreading taint protects the supply lines connecting Durotar, Mulgore, and the northern outposts."
+  }
+ ],
+ "keywords": [
+  "elder rise",
+  "hamuul runetotem",
+  "oases",
+  "taint",
+  "the barrens",
+  "thunder bluff",
+  "tonga runetotem",
+  "wailing caverns"
+ ],
+ "related": [
+  "npc:tonga-runetotem",
+  "subzone:elder-rise",
+  "zone:thunderbluff",
+  "zone:wailing",
+  "zone:barrens",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Hamuul Runetotem (quest)"
+ ]
+}

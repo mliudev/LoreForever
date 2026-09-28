@@ -1,0 +1,125 @@
+{
+ "key": "quest:786",
+ "type": "quest",
+ "name": "Thwarting Kolkar Aggression",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   786
+  ],
+  "level": "8",
+  "faction": "Horde",
+  "start": "Lar Prowltusk",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Thwarting Kolkar Aggression",
+  "chain": []
+ },
+ "summary": "Thwarting Kolkar Aggression is a vital Horde defense mission handed out by the scout Lar Prowltusk near Sen'jin Village. Players are tasked with infiltrating Kolkar Crag to destroy three sets of coordinated invasion plans before the centaur clan can strike the fledgling settlements of Durotar.",
+ "sections": [
+  {
+   "title": "A Looming Invasion",
+   "body": "While scouting western Durotar, the troll tracker Lar Prowltusk slipped into Kolkar Crag under cover of night. What he discovered was alarming: the Kolkar centaurs were not merely mounting disorganized coastal raids, but coordinating an ambitious, three-pronged invasion aimed squarely at the orc and Darkspear homelands. The centaur warlords divided their battle strategies among three distinct leaders, intending to strike the Valley of Trials, Sen'jin Village, and the gates of Orgrimmar itself.",
+   "spoiler": 0
+  },
+  {
+   "title": "Striking the Canyons",
+   "body": "To avert catastrophic fighting across the dry red canyons of Durotar, recruits are sent deep into Kolkar Crag to cut the head off the serpent. Infiltrating the dusty encampment and burning the three attack scrolls disrupts the centaurs' chain of command. While Lar Prowltusk remains confident that the Horde would inevitably crush any full invasion, destroying these documents spares Durotar's defenders costly bloodshed while their young nation is still finding its footing.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the quest Thwarting Kolkar Aggression?",
+   "aliases": [
+    "quest giver",
+    "who gives quest",
+    "lar prowltusk location"
+   ],
+   "answer": "The quest is given by Lar Prowltusk, a Darkspear troll scout stationed just outside Sen'jin Village along the southern bluffs of Durotar."
+  },
+  {
+   "q": "What targets are the Kolkar centaur planning to attack?",
+   "aliases": [
+    "centaur targets",
+    "what are attack plans",
+    "three targets"
+   ],
+   "answer": "The Kolkar battle plans outline a coordinated, three-tiered offensive targeting the Valley of Trials, Sen'jin Village, and the Horde capital of Orgrimmar."
+  },
+  {
+   "q": "Where is Kolkar Crag located?",
+   "aliases": [
+    "kolkar crag location",
+    "where is the crag",
+    "centaur village durotar"
+   ],
+   "answer": "Kolkar Crag is a sunbaked canyon complex tucked just west over the rocky ridges from Sen'jin Village in southern Durotar."
+  },
+  {
+   "q": "Where are the attack plans found inside the crag?",
+   "aliases": [
+    "attack plan locations",
+    "where are scrolls",
+    "centaur leaders"
+   ],
+   "answer": "The three scrolls containing the invasion blueprints are kept in the hands of three separate Kolkar leaders guarding different campsites throughout the crag."
+  },
+  {
+   "q": "Why do the Kolkar want to invade Durotar?",
+   "aliases": [
+    "why are centaur attacking",
+    "centaur motive",
+    "kolkar lore"
+   ],
+   "answer": "The Kolkar are an aggressive, expansionist centaur clan native to the dry lands of Kalimdor. They view the arriving orcs and Darkspear trolls as intruders infringing upon their territory and hunting grounds."
+  },
+  {
+   "q": "What happens after the plans are destroyed?",
+   "aliases": [
+    "quest aftermath",
+    "does centaur attack stop"
+   ],
+   "answer": "Destroying the documents prevents a coordinated siege, throwing the Kolkar's tactical offensive into disarray and protecting Durotar's fragile settlements from sudden devastation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Stopping the Kolkar offensive prevents the fledgling Horde from having to fight an exhausting, multi-front territorial war right at the threshold of its new home."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Having already lost their ancient island home, the Darkspear trolls cannot afford to let Sen'jin Village be overwhelmed by marauding centaurs."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The Valley of Trials is where young orcs undergo their rites of adulthood, making centaur aggression there an existential insult to orcish warrior culture."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "kolkar",
+  "kolkar crag",
+  "lar prowltusk",
+  "orgrimmar",
+  "sen'jin village",
+  "thwarting kolkar aggression",
+  "valley of trials"
+ ],
+ "related": [
+  "npc:lar-prowltusk",
+  "subzone:kolkar-crag",
+  "subzone:sen-jin-village",
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "zone:orgrimmar",
+  "topic:centaur",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Thwarting Kolkar Aggression"
+ ]
+}

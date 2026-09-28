@@ -1,0 +1,93 @@
+{
+ "key": "npc:lord-baurles-k-wishock",
+ "type": "npc",
+ "name": "Lord Baurles K. Wishock",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Lord Baurles K. Wishock",
+  "refs": 1
+ },
+ "summary": "Lord Baurles K. Wishock is a nobleman residing in Stormwind Keep's Petitioner's Chamber. Known among barkeeps for his unpaid tabs and fondness for strong drink, he stumbled upon darker dealings than mere drunkenness in the city's underbelly.",
+ "sections": [
+  {
+   "title": "A Nobleman's Dangerous Curiosity",
+   "body": "Holding court among the petitioners and dignitaries within Stormwind Keep, Lord Baurles K. Wishock is a member of the influential House of Nobles. Despite his elevated station, Wishock developed a habit of frequenting the dive bars of the Mage Quarter, especially the Slaughtered Lamb, leaving behind substantial unpaid bills. While drinking there, however, he caught wind of the warlock coven practicing dark arts in the cellars beneath the floorboards. Determined to shut the tavern down, Wishock began petitioning fellow nobles for a formal investigation\u2014unaware that uncovering demonic cabals in Stormwind rarely goes unpunished.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Poisoned Cup",
+   "body": "Wishock's lobbying placed him squarely in the crosshairs of the city's hidden warlocks. Rather than risk royal scrutiny or an inquisition into their underground sanctum, the warlock Zardeth of the Black Claw orchestrated the nobleman's quiet elimination. Exploiting Wishock's notorious thirst for luxury vintages, the coven prepared a lethal concoction disguised as fine ale, arranging for an unsuspecting courier to deliver the fatal drink right under the noses of the Keep's guards.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lord Baurles K. Wishock?",
+   "aliases": [
+    "baurles wishock",
+    "who is wishock",
+    "noble petitioner"
+   ],
+   "answer": "Lord Baurles K. Wishock is an aristocrat affiliated with the House of Nobles. He spends his days in the Petitioner's Chamber inside Stormwind Keep, though he is infamous in the Mage Quarter for running up large, unpaid drinking tabs."
+  },
+  {
+   "q": "Where can Lord Wishock be found?",
+   "aliases": [
+    "wishock location",
+    "where is wishock",
+    "find lord wishock"
+   ],
+   "answer": "He can be found standing inside the Petitioner's Chamber on the eastern side of Stormwind Keep, surrounded by other courtiers, diplomats, and supplicants awaiting royal attention."
+  },
+  {
+   "q": "Why do the warlocks beneath the Slaughtered Lamb want him dead?",
+   "aliases": [
+    "why kill wishock",
+    "zardeth wishock",
+    "why poison wishock"
+   ],
+   "answer": "During his late nights drinking at the Slaughtered Lamb, Wishock learned that a coven of warlocks was operating beneath the tavern. He began lobbying the House of Nobles to launch a formal inquiry and shut the establishment down, threatening to expose their secret operations."
+  },
+  {
+   "q": "How is he assassinated?",
+   "aliases": [
+    "how does wishock die",
+    "wishock poison",
+    "a noble brew"
+   ],
+   "answer": "Zardeth of the Black Claw brews a deadly poison and disguises it as an exquisite beverage. Knowing Wishock's weakness for fine alcohol and free drinks, an agent delivers the poisoned cask directly to him in Stormwind Keep."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Wishock's nosy investigation into the Slaughtered Lamb poses an immediate threat to Stormwind's shadow coven, making his quiet demise a top priority for practicing warlocks."
+  },
+  {
+   "target": "race:Human",
+   "text": "His presence in the Petitioner's Chamber reflects the decadent, self-serving reputation of the House of Nobles during the boy-king Anduin's early reign."
+  }
+ ],
+ "keywords": [
+  "baurles",
+  "house of nobles",
+  "petitioner's chamber",
+  "slaughtered lamb",
+  "stormwind keep",
+  "wishock",
+  "zardeth"
+ ],
+ "related": [
+  "quest:335",
+  "quest:397",
+  "npc:zardeth-of-the-black-claw",
+  "subzone:slaughtered-lamb",
+  "subzone:petitioner-s-chamber",
+  "subzone:stormwind-keep",
+  "topic:house-of-nobles"
+ ],
+ "attribution": [
+  "Lord Baurles K. Wishock"
+ ]
+}

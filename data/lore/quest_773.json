@@ -1,0 +1,123 @@
+{
+ "key": "quest:773",
+ "type": "quest",
+ "name": "Rite of Wisdom",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   773
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Seer Wiserunner",
+  "end": "Ancestral Spirit",
+  "previous": "Rite of Vision (3)",
+  "next": "Journey into Thunder Bluff (Classic)",
+  "wiki": "Rite of Wisdom (Classic)",
+  "chain": []
+ },
+ "summary": "The Rite of Wisdom is the concluding trial in the traditional Rites of the Earthmother undertaken by young adventurers in Mulgore. After purifying their sight through the Rite of Vision, petitioners travel to the sacred burial grounds of Red Rocks to commune with an Ancestral Spirit and receive the blessing of the dead.",
+ "sections": [
+  {
+   "title": "The Trial of Red Rocks",
+   "body": "Having cleared their perception through the Rite of Vision, young protectors are directed east of Thunder Bluff toward Red Rocks. This ancient burial ground holds the physical remains and lingering spirits of those who fought and died to carve out a peaceful existence in Mulgore. Passing the trial requires approaching the resting grounds with proper reverence and communion, facing whatever territorial threats roam the hills to seek the counsel of the honored dead.",
+   "spoiler": 0
+  },
+  {
+   "title": "Passing the Mantle",
+   "body": "At the summit of Red Rocks, the communion with the Ancestral Spirit is not a test of martial strength, but of spiritual readiness and continuity. The spirits resting there represent the generation that fought alongside Cairne Bloodhoof to establish Thunder Bluff and safeguard the tribes. By receiving their blessing, the supplicant officially inherits the solemn duty of protecting the city, earning their place as a recognized adult and defender worthy of entering Thunder Bluff with pride.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Rite of Wisdom?",
+   "aliases": [
+    "why do rite of wisdom",
+    "what does rite of wisdom do",
+    "rite of wisdom purpose"
+   ],
+   "answer": "The Rite of Wisdom completes the Rites of the Earthmother, bridging the visionary communion of youth with the solemn responsibilities of adulthood. By gaining the blessing of the ancestral spirits, petitioners prove they respect the sacrifices of those who came before and are prepared to defend Thunder Bluff."
+  },
+  {
+   "q": "Who sends you on the Rite of Wisdom?",
+   "aliases": [
+    "who gives rite of wisdom",
+    "where do i start rite of wisdom"
+   ],
+   "answer": "Seer Wiserunner at Camp Narache sends initiates on this trial once they have successfully completed the Rite of Vision and drunk from the Water of the Seers."
+  },
+  {
+   "q": "Where do you find the Ancestral Spirit?",
+   "aliases": [
+    "ancestral spirit location",
+    "where is the spirit",
+    "where to find ancestral spirit"
+   ],
+   "answer": "The Ancestral Spirit is located at Red Rocks, an ancient tauren burial ground nestled in the rocky bluffs directly east of Thunder Bluff."
+  },
+  {
+   "q": "Why is the Rite of Vision required first?",
+   "aliases": [
+    "why do vision first",
+    "rite of vision prerequisite",
+    "water of seers requirement"
+   ],
+   "answer": "Only those who have drunk from the Water of the Seers and had their spiritual sight cleansed are able to perceive and receive the blessing of the ancient spirits at Red Rocks."
+  },
+  {
+   "q": "What happens after completing the Rite of Wisdom?",
+   "aliases": [
+    "what next after rite of wisdom",
+    "next quest after rite of wisdom"
+   ],
+   "answer": "Having earned the approval of the ancestors, initiates are instructed to leave Camp Narache behind and make their official journey into the high rises of Thunder Bluff."
+  },
+  {
+   "q": "What creatures threaten the grounds of Red Rocks?",
+   "aliases": [
+    "enemies at red rocks",
+    "what guards red rocks",
+    "gnolls at red rocks"
+   ],
+   "answer": "The sacred graveyard at Red Rocks has been encroached upon by aggressive Palemane gnolls, who lurk along the rocky trails leading up to the ancient burial site."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the shu'halo, receiving the mantle from the ancestors at Red Rocks is the culminating moment of passage into full adulthood and acceptance among the tribal elders."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Communing directly with an Ancestral Spirit reinforces the core shamanic duty of honoring the dead and keeping faith with the spirits that watch over Mulgore."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The rite demonstrates the balance between the living world and the eternal cycle overseen by the Earthmother, grounding young druids in their duty to the land."
+  }
+ ],
+ "keywords": [
+  "ancestral spirit",
+  "mulgore",
+  "red rocks",
+  "rite of wisdom",
+  "rites of the earthmother",
+  "seer wiserunner",
+  "thunder bluff",
+  "water of the seers"
+ ],
+ "related": [
+  "quest:767",
+  "quest:763",
+  "subzone:red-rocks",
+  "zone:thunderbluff",
+  "zone:mulgore",
+  "topic:tauren",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Rite of Wisdom (Classic)"
+ ]
+}

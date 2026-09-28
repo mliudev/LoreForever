@@ -1,0 +1,136 @@
+{
+ "key": "quest:428",
+ "type": "quest",
+ "name": "Lost Deathstalkers",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   428
+  ],
+  "level": "12",
+  "faction": "Horde",
+  "start": "High Executor Hadrec",
+  "end": "Rane Yorick",
+  "previous": null,
+  "next": "Wild Hearts",
+  "wiki": "Lost Deathstalkers",
+  "chain": [
+   "Lost Deathstalkers",
+   "Wild Hearts",
+   "Return to Quinn",
+   "Ivar the Foul (quest)"
+  ]
+ },
+ "summary": "Lost Deathstalkers is a reconnaissance mission assigned by High Executor Hadrec at the Sepulcher. Two Forsaken scouts, Rane and Quinn Yorick, went missing weeks ago while surveying the haunted farmsteads of northern Silverpine Forest. Tracking them down reveals not only their fate, but the encroaching perils that threaten the Forsaken hold on the region.",
+ "sections": [
+  {
+   "title": "A Silence from the North",
+   "body": "The Deathstalkers serve as the eyes, ears, and hidden daggers of Lady Sylvanas and the Forsaken. When operatives go silent, command takes notice. High Executor Hadrec deployed the scouts Rane and Quinn Yorick into northern Silverpine Forest weeks ago to monitor the abandoned farms and watch for enemy movements. Having received no courier or report since their departure, Hadrec fears the duo met a grim end at the hands of the Scourge or worse.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Northern Peril",
+   "body": "Northern Silverpine is rife with danger, situated between the ruined estates of Lordaeron and the shadowed borders of Tirisfal Glades. Wandering undead, prowling beasts, and feral worgen make unescorted travel perilous even for seasoned rogues. Tracking the Yoricks requires searching the dilapidated northern farmsteads where their reconnaissance first began, hoping to recover whatever intelligence they gathered before danger overwhelmed them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trapped in the Shadows",
+   "body": "Upon following their trail, Rane and Quinn Yorick are revealed to be alive, though barely clinging to freedom. Rather than being cut down by mindless Scourge, the Deathstalkers found themselves cornered and pinned down by the ravenous beasts and lurking horrors of the surrounding woods. Rescuing them pulls the Forsaken deeper into dealing with the feral threats prowling just beyond the road.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are Rane and Quinn Yorick?",
+   "aliases": [
+    "who are the yoricks",
+    "who are the lost deathstalkers",
+    "rane and quinn lore"
+   ],
+   "answer": "Rane and Quinn Yorick are two Forsaken scouts belonging to the Deathstalkers, the intelligence and assassination wing of the Forsaken. They were dispatched north into Silverpine Forest to surveil local farmsteads before disappearing."
+  },
+  {
+   "q": "Why is High Executor Hadrec concerned about them?",
+   "aliases": [
+    "why hadrec care",
+    "who sent the yoricks",
+    "hadrec lost scouts"
+   ],
+   "answer": "Hadrec oversees Forsaken military operations from the Sepulcher. Losing communication with two key reconnaissance operatives leaves the Forsaken blind to hostile activity along their northern borders, especially with the Scourge lingering nearby."
+  },
+  {
+   "q": "Where did the Yoricks disappear?",
+   "aliases": [
+    "where are the deathstalkers",
+    "yorick location",
+    "where to find rane and quinn"
+   ],
+   "answer": "They vanished while scouting northern Silverpine Forest. Their reconnaissance route focused on the scattered, decaying farmsteads situated north of the Sepulcher."
+  },
+  {
+   "q": "What threats do the Deathstalkers face in northern Silverpine?",
+   "aliases": [
+    "what happened to them",
+    "silverpine dangers",
+    "why did they go missing"
+   ],
+   "answer": "Northern Silverpine is plagued by roaming Scourge remnants, aggressive predators, and unnatural worgen prowling the woods, any of which pose lethal hazards to isolated scouts."
+  },
+  {
+   "q": "What happens after finding the missing Deathstalkers?",
+   "aliases": [
+    "what is the next quest",
+    "after lost deathstalkers",
+    "quest chain after yorick"
+   ],
+   "answer": "Finding Rane Yorick opens up the immediate task of helping the battered scouts recover through the quest Wild Hearts, which leads to confronting local threats like Ivar the Foul."
+  },
+  {
+   "q": "Who are the Deathstalkers as an organization?",
+   "aliases": [
+    "what are deathstalkers",
+    "deathstalker order",
+    "forsaken assassins"
+   ],
+   "answer": "The Deathstalkers are the premier espionage, scouting, and assassination guild of the Forsaken, serving as the secretive vanguard of the Dark Lady across Lordaeron."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Forsaken operatives know that every missing agent represents a potential breach in their fragile defense of Silverpine. Securing your own kin keeps the Sepulcher safe from sudden assault."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The Yoricks are fellow operatives of the shadows. Seeing experienced Deathstalkers pinned down serves as a sharp reminder that stealth alone cannot guarantee survival against the northern horrors."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Holding Silverpine Forest ensures a safe corridor between Undercity and the southern reaches of Lordaeron, making reconnaissance missions like this critical to Horde security."
+  }
+ ],
+ "keywords": [
+  "deathstalkers",
+  "hadrec",
+  "quinn yorick",
+  "rane yorick",
+  "reconnaissance",
+  "scourge",
+  "sepulcher",
+  "silverpine"
+ ],
+ "related": [
+  "npc:high-executor-hadrec",
+  "npc:quinn-yorick",
+  "quest:429",
+  "quest:430",
+  "quest:425",
+  "quest:1886",
+  "zone:silverpine",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Lost Deathstalkers"
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "key": "npc:darsok-swiftdagger",
+ "type": "npc",
+ "name": "Darsok Swiftdagger",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Darsok Swiftdagger",
+  "refs": 4
+ },
+ "summary": "Darsok Swiftdagger is an orc warrior and scout stationed at the Crossroads in the heart of the Barrens. Known for his fierce hatred of harpies, he directs Horde adventurers north into the Dry Hills to break the avian matriarchy harassing travelers and settlements. He maintains ties across the plains, serving as a trusted contact for Witch Doctor Jin'Zil in Malaka'jin.",
+ "sections": [
+  {
+   "title": "A Watcher at the Crossroads",
+   "body": "Amid the bustling hub of the Crossroads, Darsok Swiftdagger keeps a sharp eye on the threats creeping out of the northern scrubland. The trade artery connecting Durotar, Mulgore, and the northern reaches is under constant siege, not only from raiders and centaur, but from organized aerial hunters. Darsok focuses his wrath on the Witchwing harpies, whose roosts in the Dry Hills northwest of the Forgotten Pools directly threaten northern caravans.",
+   "spoiler": 0
+  },
+  {
+   "title": "The War on the Witchwing",
+   "body": "Darsok does not merely defend the roads; he coordinates targeted strikes deep into harpy territory. His campaign begins by thinning the aggressive Harpy Raiders before tasking hardened fighters with executing lieutenants and ultimately taking the head of their matriarch, Serena Bloodfeather. By systematically dismantling their leadership, Swiftdagger aims to leave the predatory flock broken and scattered across the crags.",
+   "spoiler": 1
+  },
+  {
+   "title": "Connections in the Scrub",
+   "body": "While his immediate duties center around harpy eradication, Darsok Swiftdagger serves as an important point of contact within the Horde network. He maintains correspondence with Witch Doctor Jin'Zil, the enigmatic troll residing at Malaka'jin on the border of the Stonetalon Mountains. Messages and intelligence carried through Darsok help ensure that outlying enclaves stay informed of developments across the central plains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Darsok Swiftdagger located?",
+   "aliases": [
+    "darsok location",
+    "where is darsok swiftdagger",
+    "find darsok",
+    "darsok swiftdagger spot"
+   ],
+   "answer": "Darsok Swiftdagger is stationed in the Crossroads, the central Horde settlement in the Barrens. He stands ready to direct passing travelers toward northern threats."
+  },
+  {
+   "q": "Why is Darsok hunting harpies?",
+   "aliases": [
+    "why kill harpies",
+    "darsok harpy grudge",
+    "witchwing harpies barrens"
+   ],
+   "answer": "The Witchwing harpies roost in the canyons northwest of the Forgotten Pools and pose a constant predatory danger to Horde caravans, travelers, and scouts moving along the northern trails of the Barrens."
+  },
+  {
+   "q": "Who is Serena Bloodfeather?",
+   "aliases": [
+    "serena bloodfeather",
+    "harpy leader barrens",
+    "witchwing leader"
+   ],
+   "answer": "Serena Bloodfeather is the cruel matriarch leading the Witchwing harpies of the Dry Hills. Darsok tasks adventurers with slaying her to shatter the cohesion and command of the flock."
+  },
+  {
+   "q": "What is Darsok's connection to Witch Doctor Jin'Zil?",
+   "aliases": [
+    "jin'zil letter",
+    "darsok and jin'zil",
+    "witch doctor jin'zil connection"
+   ],
+   "answer": "Darsok is an ally and correspondent of Witch Doctor Jin'Zil, a Darkspear troll stationed at Malaka'jin. He facilitates communications and sends adventurers carrying missives to Jin'Zil's remote encampment."
+  },
+  {
+   "q": "Does Darsok report to Sergra Darkthorn or Thork?",
+   "aliases": [
+    "darsok thork",
+    "who does darsok answer to",
+    "crossroads leadership"
+   ],
+   "answer": "Darsok operates in coordination with Thork, the overseer of the Crossroads defenses, ensuring that reports of neutralized threats along the northern frontier are relayed back to Crossroads command."
+  },
+  {
+   "q": "Where do the Witchwing harpies nest?",
+   "aliases": [
+    "witchwing location",
+    "dry hills harpies",
+    "where to find harpies barrens"
+   ],
+   "answer": "The Witchwing harpies roost in the Dry Hills, a series of jagged ravines and cliffs situated northwest of the Forgotten Pools in the northern reaches of the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For Horde travelers, Darsok provides crucial early tactical missions that secure the crossroads trade routes against aerial ambush."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Darsok exemplifies the focused, martial mindset of orcs tasked with taming and securing Kalimdor's perilous frontier."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Living up to the name Swiftdagger, Darsok favors precise, lethal decapitation strikes against enemy leadership rather than grinding attrition."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bloodfeather",
+  "crossroads",
+  "darsok",
+  "harpy",
+  "jin'zil",
+  "serena",
+  "swiftdagger",
+  "thork",
+  "witchwing"
+ ],
+ "related": [
+  "subzone:crossroads",
+  "quest:876",
+  "quest:875",
+  "quest:867",
+  "npc:witch-doctor-jin-zil",
+  "npc:thork",
+  "subzone:forgotten-pools",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Darsok Swiftdagger"
+ ]
+}

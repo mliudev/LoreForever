@@ -1,0 +1,122 @@
+{
+ "key": "quest:6628",
+ "type": "quest",
+ "name": "Test of Lore",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   6628
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Parqual Fintallas",
+  "end": "",
+  "previous": "Test of Lore (5)",
+  "next": "Final Passage",
+  "wiki": "Test of Lore (6)",
+  "chain": []
+ },
+ "summary": "This trial marks the intellectual examination in a broader series of spiritual tests originating in Thousand Needles. After scouring the world for historical texts, initiates present themselves to Parqual Fintallas in the Undercity to prove they understand the darker histories that shape Azeroth.",
+ "sections": [
+  {
+   "title": "A Trial of Knowledge",
+   "body": "While many trials among the Horde test martial strength or raw endurance, the Test of Lore demands scholarly dedication. Originating from Dorn Plainstalker's spiritual regimen at the Weathered Nook, the journey carries candidates far from the wind-carved canyons of Thousand Needles into the shadowed halls of the Undercity. Parqual Fintallas serves as the examiner, holding seekers to an exacting standard of historical literacy.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scourge's Genesis",
+   "body": "To satisfy Parqual, an initiate must study 'Beginnings of the Undead Threat,' a text detailing the cursed origins of the Scourge in Lordaeron. The core of his interrogation concerns the origin of the entity reigning on the Frozen Throne: the former elder shaman Ner'zhul, whose essence was forged by the Burning Legion into the Lich King. Knowing this grim lineage is considered essential for understanding the Forsaken's existence and the dangers facing Kalimdor and the Eastern Kingdoms alike.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the answer to Parqual's question?",
+   "aliases": [
+    "lich king answer",
+    "parqual question",
+    "test of lore answer"
+   ],
+   "answer": "Parqual Fintallas asks for the original name of the Lich King. The correct answer is Ner'zhul, the ancient orc shaman whose spirit was bound to the Frozen Throne."
+  },
+  {
+   "q": "What happens if you answer the question wrong?",
+   "aliases": [
+    "mark of shame",
+    "wrong answer test of lore"
+   ],
+   "answer": "Answering incorrectly saddles you with the Mark of Shame debuff, forcing you to wait out the penalty before Parqual will permit you to attempt the examination again."
+  },
+  {
+   "q": "Where does this quest chain begin?",
+   "aliases": [
+    "where does test of lore start",
+    "dorn plainstalker questline"
+   ],
+   "answer": "The overarching trial begins with Dorn Plainstalker at the Weathered Nook, located within the towering spires of Thousand Needles."
+  },
+  {
+   "q": "Where is Parqual Fintallas located?",
+   "aliases": [
+    "find parqual",
+    "parqual fintallas location"
+   ],
+   "answer": "Parqual Fintallas resides in the Undercity, lingering among the Forsaken's subterranean libraries and corridors where he interrogates prospective students."
+  },
+  {
+   "q": "What text is this trial based on?",
+   "aliases": [
+    "which book for test of lore",
+    "beginnings book"
+   ],
+   "answer": "The test is based upon the tome 'Beginnings of the Undead Threat', which details the origins of the Plague of Undeath and the creation of the Lich King."
+  },
+  {
+   "q": "Why is a Thousand Needles quest sending people to Undercity?",
+   "aliases": [
+    "why go to undercity",
+    "thousand needles undercity"
+   ],
+   "answer": "The trials established by the tauren are designed to challenge every facet of an adventurer. To test lore, candidates are sent across the sea to seek out scholarly records preserved in the ruins of Lordaeron."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Initiated through elder tradition, this test pushes tauren travelers to learn the grim histories of their northern Forsaken allies and the world beyond Kalimdor."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The subject matter strikes at the heart of Forsaken identity: the tragedy of Ner'zhul's creation and the genesis of the curse that bound them before Sylvanas broke the Lich King's grip."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The trial strengthens ties between Kalimdor's tribes and the kingdom beneath Lordaeron, reminding champions that wisdom is as vital to the Horde's survival as raw strength."
+  }
+ ],
+ "keywords": [
+  "dorn plainstalker",
+  "lich king",
+  "mark of shame",
+  "nerzhul",
+  "parqual fintallas",
+  "test of lore",
+  "thousand needles",
+  "undercity",
+  "weathered nook"
+ ],
+ "related": [
+  "npc:parqual-fintallas",
+  "quest:1599",
+  "quest:1149",
+  "npc:dorn-plainstalker",
+  "zone:undercity",
+  "zone:thousandneedles",
+  "subzone:weathered-nook",
+  "topic:lich-king"
+ ],
+ "attribution": [
+  "Test of Lore (6)"
+ ]
+}

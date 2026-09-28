@@ -1,0 +1,127 @@
+{
+ "key": "quest:173",
+ "type": "quest",
+ "name": "Worgen in the Woods",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   173
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Calor",
+  "end": "",
+  "previous": null,
+  "next": "Worgen in the Woods (Classic, 2)",
+  "wiki": "Worgen in the Woods (Classic)",
+  "chain": []
+ },
+ "summary": "Calor, a disillusioned former guardsman stationed in Darkshire, tasks adventurers with culling the sinister Nightbane Shadow Weavers prowling Duskwood. By taking the hunt to Brightwood Grove and the Rotting Orchard, outsiders can prove their mettle to Master Jonathan Carevin's monster hunters.",
+ "sections": [
+  {
+   "title": "A Private Vigil",
+   "body": "The Night Watch struggles constantly against the undead, spiders, and outlaws pressing against Darkshire's borders. For some, like Calor, the official guard proved too slow and complacent to cleanse the land. Leaving the Watch behind, Calor threw in his lot with Master Jonathan Carevin, dedicating his blade to the total eradication of heresy and corruption. But Carevin does not accept just anyone into his circle; those seeking to aid their cause must first prove they can survive against the woods' most ferocious horrors.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Nightbane Lurkers",
+   "body": "The proving ground lies in Brightwood Grove and the blighted Rotting Orchard, where feral lupine beasts known as worgen hold dominion. Among them, the Nightbane Shadow Weavers harness dark magics to blind and ensnare their victims before tearing them apart. Calor sends aspiring hunters to cut down these spell-weaving beasts, both to test an outsider's resolve and to thin out a threat whose origins remain deeply unsettling to Darkshire's defenders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Monsters from Nowhere",
+   "body": "While wolf-men have become an inescapable nightmare in Duskwood, their presence defies explanation. Calor notes that the worgen seemed to appear out of thin air, with no natural lineage in the region. Unlike the ravenous feral wolves or the walking corpses risen from local barrows, these bipedal predators wield bizarre and alien sorceries. Slaying the Shadow Weavers demonstrates martial skill, but it only skims the surface of an unnatural infestation taking root across the forest.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Calor?",
+   "aliases": [
+    "calor",
+    "calor darkshire",
+    "who gives worgen in the woods"
+   ],
+   "answer": "Calor is a hunter and former member of Darkshire's Night Watch. Having grown frustrated with the town militia's cautious bureaucracy, he joined Master Jonathan Carevin to actively hunt down the foul creatures threatening Duskwood."
+  },
+  {
+   "q": "Why does Calor want Nightbane Shadow Weavers killed?",
+   "aliases": [
+    "why kill shadow weavers",
+    "worgen in the woods goal"
+   ],
+   "answer": "Calor uses the Nightbane Shadow Weavers as a trial of skill and courage. Anyone wishing to aid Master Carevin's mission must demonstrate that they can hunt dangerous spell-weaving worgen rather than just talking about defending the town."
+  },
+  {
+   "q": "Where are the Nightbane Shadow Weavers found?",
+   "aliases": [
+    "where are nightbane shadow weavers",
+    "shadow weaver location"
+   ],
+   "answer": "They prowl two primary areas west and southwest of Darkshire: the twisted trees of Brightwood Grove and the abandoned, overgrown grounds of the Rotting Orchard."
+  },
+  {
+   "q": "Where did the worgen in Duskwood come from?",
+   "aliases": [
+    "worgen origin duskwood",
+    "why are worgen in duskwood",
+    "where do worgen come from"
+   ],
+   "answer": "Their sudden appearance is a mystery to the people of Duskwood. As Calor observes, the beasts seemed to materialize out of nowhere, bringing dark shadow magic and ravenous fury to a forest already on the brink of collapse."
+  },
+  {
+   "q": "Who is Master Carevin?",
+   "aliases": [
+    "carevin",
+    "master carevin",
+    "who is master carevin"
+   ],
+   "answer": "Master Jonathan Carevin is an independent monster hunter based in Darkshire. He and his followers operate outside the Night Watch, focusing aggressively on exterminating evil, undead, and bizarre monstrosities across the region."
+  },
+  {
+   "q": "Why did Calor leave the Night Watch?",
+   "aliases": [
+    "why did calor leave the watch",
+    "calor night watch"
+   ],
+   "answer": "Calor became disillusioned with what he saw as the Night Watch's passivity and complacency. Rather than manning perimeter fences while the dark closed in, he preferred Carevin's proactive approach to hunting evil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Darkshire feels entirely abandoned by Stormwind's high seat, leaving townspeople and vigilantes like Calor to recruit any roaming Alliance adventurer capable of holding back the monsters."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans from Elwynn or Westfall, witnessing the tragic ruin of Duskwood's farms like the Rotting Orchard serves as a grim warning of what unchecked dark magic can do to a kingdom's breadbaskets."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunting the Nightbane tests tracking and beast lore to the extreme, as worgen are neither natural wildlife nor simple human outlaws, but bipedal horrors wielding shadow spells."
+  }
+ ],
+ "keywords": [
+  "brightwood grove",
+  "calor",
+  "carevin",
+  "darkshire",
+  "duskwood",
+  "nightbane",
+  "rotting orchard",
+  "shadow weaver",
+  "worgen"
+ ],
+ "related": [
+  "npc:calor",
+  "zone:duskwood",
+  "subzone:brightwood-grove",
+  "subzone:rotting-orchard",
+  "subzone:darkshire",
+  "topic:worgen"
+ ],
+ "attribution": [
+  "Worgen in the Woods (Classic)"
+ ]
+}

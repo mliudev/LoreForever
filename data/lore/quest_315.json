@@ -1,0 +1,119 @@
+{
+ "key": "quest:315",
+ "type": "quest",
+ "name": "The Perfect Stout",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   315
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Rejold Barleybrew",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Perfect Stout",
+  "chain": []
+ },
+ "summary": "Rejold Barleybrew of Brewnall Village is determined to craft the ultimate dwarven stout, combining family brewing tradition with exotic local ingredients. To perfect his experimental recipe, he seeks shimmerweed, a pungent plant cultivated exclusively by the hostile Frostmane trolls atop Shimmer Ridge. Daring travelers are sent into the troll encampment to lift the herb straight from tribal baskets.",
+ "sections": [
+  {
+   "title": "A Brewer's Ambition",
+   "body": "In Brewnall Village, brewing is more than a trade\u2014it is a way of life, especially for the Barleybrew family. Rejold Barleybrew believes that brewing greatness is in his blood, but achieving the legendary 'perfect stout' demands unconventional innovation. Rather than relying solely on standard hops, malt, and mountain spring water, Rejold looks toward the untamed flora of Dun Morogh to give his ale an unmistakable bite.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Troll Herb of Shimmer Ridge",
+   "body": "The secret ingredient Rejold covets is shimmerweed, a cold-hardy plant cultivated by the Frostmane trolls up on Shimmer Ridge to the northwest. While the Frostmanes gather it for their own tribal and mystic rituals, dwarves have had little practical use for it outside of noting its sharp, distinct flavor. Snatched directly from storage baskets in the troll village, the weed serves as the centerpiece for Rejold's latest and boldest fermentation experiment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is shimmerweed?",
+   "aliases": [
+    "shimmerweed lore",
+    "what does shimmerweed do",
+    "frostmane plant"
+   ],
+   "answer": "Shimmerweed is a distinct plant grown and harvested by the Frostmane trolls on Shimmer Ridge. While the trolls use it primarily in their tribal ceremonies and rituals, Rejold Barleybrew seeks to test its sharp, unique flavor as an unconventional flavoring agent in dwarven brewing."
+  },
+  {
+   "q": "Where is Shimmer Ridge located?",
+   "aliases": [
+    "shimmer ridge location",
+    "where is shimmer ridge",
+    "how to find shimmer ridge"
+   ],
+   "answer": "Shimmer Ridge lies in the snowy heights to the northwest of Brewnall Village in Dun Morogh. It serves as a fortified camp for the indigenous Frostmane trolls, making any herb-gathering excursion there a dangerous foray into hostile territory."
+  },
+  {
+   "q": "Why does Rejold want to steal from the Frostmane trolls?",
+   "aliases": [
+    "why steal from trolls",
+    "why troll baskets",
+    "rejold troll plan"
+   ],
+   "answer": "The Frostmane trolls hold a monopoly on cultivating shimmerweed in Dun Morogh, and tensions between dwarves and trolls make peaceful trade impossible. Since the plants are already harvested and bundled into tribal baskets in their encampment, sneaking in or fighting through to seize them is Rejold's only option."
+  },
+  {
+   "q": "Who is Rejold Barleybrew?",
+   "aliases": [
+    "who is rejold",
+    "rejold barleybrew",
+    "barleybrew family"
+   ],
+   "answer": "Rejold Barleybrew is an ambitious dwarf brewer residing in Brewnall Village. True to his family name, he has dedicated his craft to discovering the recipe for the perfect stout, constantly experimenting with new flavors and potent wild ingredients."
+  },
+  {
+   "q": "Is shimmerweed considered an alchemy herb?",
+   "aliases": [
+    "can herbalists pick shimmerweed",
+    "is shimmerweed herbalism",
+    "shimmerweed gather"
+   ],
+   "answer": "No. Shimmerweed is not an alchemical reagent gathered from wild nodes. It is a quest item stored in wicker baskets and caches throughout the Frostmane settlements atop Shimmer Ridge."
+  },
+  {
+   "q": "What becomes of the shimmerweed once turned in?",
+   "aliases": [
+    "does the stout work",
+    "rejold brew result",
+    "shimmerweed beer"
+   ],
+   "answer": "Rejold throws the freshly gathered shimmerweed directly into an active fermentation batch in Brewnall Village, hoping its unique profile will finally unlock the flawless recipe he has sought."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Brewing is practically sacred to the Bronzebeard clan, and finding an exotic wild herb to outdo rival taverns is considered a noble pursuit."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Though not a standard crafting herb, the unique botanical traits of frost-resistant shimmerweed make it an intriguing novelty in the frozen crags of Dun Morogh."
+  }
+ ],
+ "keywords": [
+  "brewnall village",
+  "dun morogh",
+  "dwarf brew",
+  "frostmane",
+  "perfect stout",
+  "rejold barleybrew",
+  "shimmer ridge",
+  "shimmerweed"
+ ],
+ "related": [
+  "npc:rejold-barleybrew",
+  "subzone:brewnall-village",
+  "subzone:shimmer-ridge",
+  "zone:dunmorogh",
+  "topic:troll"
+ ],
+ "attribution": [
+  "The Perfect Stout"
+ ]
+}

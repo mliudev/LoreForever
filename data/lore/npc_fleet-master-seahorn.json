@@ -1,0 +1,124 @@
+{
+ "key": "npc:fleet-master-seahorn",
+ "type": "npc",
+ "name": "Fleet Master Seahorn",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Fleet Master Seahorn",
+  "refs": 4
+ },
+ "summary": "Fleet Master Seahorn is a seasoned tauren mariner who serves as the naval commander of the Blackwater Raiders in Booty Bay. Stationed on the upper balcony of the Salty Sailor Tavern alongside Baron Revilgaz, he oversees the goblin port's maritime defenses. His primary duty is protecting the harbor from the looming threat posed by their sworn enemies, the Bloodsail Buccaneers.",
+ "sections": [
+  {
+   "title": "A Bull on the High Seas",
+   "body": "While tauren are renowned across Kalimdor as plains-dwellers, Fleet Master Seahorn chose a vastly different life upon the ocean. Clad in pirate regalia, he commands the fleet of the Blackwater Raiders, the private naval arm of the Steamwheedle Cartel's operation in Stranglethorn Vale. Stationed atop the Salty Sailor Tavern, Seahorn works shoulder-to-shoulder with Baron Revilgaz, coordinating shipping routes, crew deployments, and coastal defenses for the lawless yet strictly managed port of Booty Bay.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defending the Bay",
+   "body": "Seahorn's greatest ongoing concern is the Bloodsail Buccaneers, who have established fortified camps along the southern Wild Shore and anchored warships off the coast. When reports reveal that Fleet Master Firallon and the Bloodsail leadership intend to launch a direct assault to sack Booty Bay, Seahorn takes aggressive action. By dispatching mercenaries to seize enemy correspondence and neutralize Firallon, Keelhaul, and Stillwater aboard their flagship, Seahorn successfully shields the port from outright devastation.",
+   "spoiler": 1
+  },
+  {
+   "title": "Eyes Across the Seas",
+   "body": "Beyond repelling pirate raids, Seahorn manages varied commercial and salvage ventures across the Eastern Kingdoms. He coordinates recovery efforts for lost sunken treasures off the Arathi coast near Faldir's Cove, working with salvage divers to secure elven relics. He also keeps Revilgaz informed of lucrative opportunities passing through town, such as competitive angling and local trade, ensuring the Blackwater fleet stays well-funded and ahead of rival operations.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Fleet Master Seahorn located?",
+   "aliases": [
+    "where is seahorn",
+    "seahorn location",
+    "find seahorn"
+   ],
+   "answer": "He is located on the top floor and balcony of the Salty Sailor Tavern in Booty Bay, standing right beside Baron Revilgaz overlooking the docks."
+  },
+  {
+   "q": "Why is a tauren serving as a pirate fleet master?",
+   "aliases": [
+    "tauren pirate",
+    "why is seahorn a pirate",
+    "tauren in booty bay"
+   ],
+   "answer": "Though most tauren remain closely tied to the plains and spiritual traditions of Mulgore, Seahorn took to seafaring and mercenary naval life. His nautical skill and commanding presence earned him leadership of the Blackwater Raiders under Baron Revilgaz."
+  },
+  {
+   "q": "What is Seahorn's relationship with Baron Revilgaz?",
+   "aliases": [
+    "seahorn and revilgaz",
+    "is seahorn revilgaz bodyguard",
+    "who works for revilgaz"
+   ],
+   "answer": "Seahorn is Baron Revilgaz's second-in-command and the naval commander of his Blackwater Raiders. While Revilgaz manages politics, trade, and finances, Seahorn oversees the fleet, tactical intelligence, and defensive military operations for Booty Bay."
+  },
+  {
+   "q": "Who are the Blackwater Raiders?",
+   "aliases": [
+    "blackwater raiders",
+    "what faction is seahorn",
+    "booty bay pirates"
+   ],
+   "answer": "The Blackwater Raiders are a private fleet of corsairs loyal to the Steamwheedle Cartel, based out of Booty Bay. Unlike outlaw raiders who plunder indiscriminately, they act as the sanctioned navy protecting goblin merchant interests and maintaining order in the southern seas."
+  },
+  {
+   "q": "Why does Seahorn want to stop the Bloodsail Buccaneers?",
+   "aliases": [
+    "seahorn vs bloodsail",
+    "bloodsail conflict",
+    "why fight bloodsail"
+   ],
+   "answer": "The Bloodsail Buccaneers are the bitter rivals of the Blackwater Raiders. Led by Fleet Master Firallon, the Bloodsail have set up camps along the Wild Shore and intend to conquer Booty Bay itself. Seahorn works constantly to preempt their invasion plans."
+  },
+  {
+   "q": "Does Seahorn have dealings outside of Stranglethorn Vale?",
+   "aliases": [
+    "faldirs cove seahorn",
+    "seahorn sunken treasure",
+    "arathi quests seahorn"
+   ],
+   "answer": "Yes. Seahorn works with salvage agents like Doctor Draxlegauge and Shakes O'Breen to recover lost cargo and elven treasures sunken near Faldir's Cove off the Arathi Highlands, having valuable artifacts delivered back to his post in Booty Bay."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Seahorn is one of the extremely rare tauren who has abandoned the inland plains of Kalimdor to master the open ocean, serving as fleet master for a neutral goblin port."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Although Seahorn is a tauren, his allegiance belongs strictly to the Steamwheedle Cartel and the Blackwater Raiders, maintaining a neutral stance toward Horde and Alliance travelers alike."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Rogues operating in Booty Bay find Seahorn at the heart of coastal espionage, organizing covert raids against Bloodsail warships and intercepting enemy orders."
+  }
+ ],
+ "keywords": [
+  "blackwater raiders",
+  "bloodsail",
+  "booty bay",
+  "faldir's cove",
+  "firallon",
+  "fleet master seahorn",
+  "revilgaz",
+  "salty sailor tavern",
+  "seahorn",
+  "wild shore"
+ ],
+ "related": [
+  "npc:baron-revilgaz",
+  "subzone:booty-bay",
+  "subzone:salty-sailor-tavern",
+  "subzone:wild-shore",
+  "subzone:faldir-s-cove",
+  "zone:stranglethorn",
+  "topic:pirate",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Fleet Master Seahorn"
+ ]
+}

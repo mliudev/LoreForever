@@ -1,0 +1,80 @@
+{
+ "key": "subzone:three-corners",
+ "type": "subzone",
+ "name": "Three Corners",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Three Corners"
+ },
+ "summary": "Three Corners is a vital crossroads nestled just inside the western border of the Redridge Mountains. Branching toward the three neighboring towns of Goldshire, Lakeshire, and Darkshire, it marks the boundary between the heart of the kingdom and Redridge's perilous wilderness. A Stormwind Guard watchtower stands over the intersection, holding the line against encroaching gnoll packs.",
+ "sections": [
+  {
+   "title": "A Crossroads of Three Shires",
+   "body": "Situated at the western edge of the Redridge Mountains, Three Corners connects three key Alliance settlements: Goldshire in Elwynn Forest to the west, Lakeshire to the northeast, and Darkshire in Duskwood to the south. Because of this strategic junction, Stormwind erected Tower Watch at the center of the crossroads. Manning the post, local guards and scouts attempt to keep the thoroughfares clear of Redridge's aggressive gnolls, who constantly threaten travelers and supply wagons passing between the regions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this place called Three Corners?",
+   "aliases": [
+    "three corners name meaning",
+    "why three corners",
+    "three corners history"
+   ],
+   "answer": "The crossroads splits into three distinct roads heading toward the 'Three Shires' of southern Stormwind: Goldshire in Elwynn Forest, Lakeshire in Redridge, and Darkshire in Duskwood."
+  },
+  {
+   "q": "Who guards the tower at Three Corners?",
+   "aliases": [
+    "who controls three corners",
+    "tower watch guards",
+    "who is in the tower"
+   ],
+   "answer": "The outpost, known as Tower Watch, is manned by members of the Stormwind Guard. They serve as an early warning post and defensive bulwark against gnolls venturing down from the Redridge peaks toward the Elwynn border."
+  },
+  {
+   "q": "What threats are active around Three Corners?",
+   "aliases": [
+    "three corners monsters",
+    "dangers at three corners",
+    "three corners gnolls"
+   ],
+   "answer": "Gnolls from the surrounding hills constantly prowl the roadway, ambushing travelers and couriers. The guards stationed here regularly call upon passing adventurers to cull the gnoll packs and keep the roads passable."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers leaving the relative safety of Elwynn Forest, Three Corners is the first fortified outpost and a stark reminder that Stormwind's grip on its borderlands is stretched thin."
+  },
+  {
+   "target": "race:Human",
+   "text": "The watchtower links the southern human heartlands, serving as a critical junction for couriers and trade moving between Elwynn, Duskwood, and Redridge."
+  }
+ ],
+ "keywords": [
+  "crossroads",
+  "darkshire",
+  "gnolls",
+  "goldshire",
+  "lakeshire",
+  "redridge",
+  "three corners",
+  "tower watch"
+ ],
+ "related": [
+  "zone:redridge",
+  "zone:elwynn",
+  "zone:duskwood",
+  "subzone:lakeshire",
+  "subzone:goldshire",
+  "subzone:darkshire",
+  "topic:stormwind-guard",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Three Corners"
+ ]
+}

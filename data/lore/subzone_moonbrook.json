@@ -1,0 +1,92 @@
+{
+ "key": "subzone:moonbrook",
+ "type": "subzone",
+ "name": "Moonbrook",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Moonbrook"
+ },
+ "summary": "Once a bustling agricultural hub and mining town in southwestern Westfall, Moonbrook now stands as a lawless ghost town. The town has been completely overrun by the Defias Brotherhood, who use it as a fortified screen to hide their subterranean headquarters in the Deadmines.",
+ "sections": [
+  {
+   "title": "A Fallen Town",
+   "body": "Before the First War, Moonbrook was a vital community at the center of Westfall's breadbasket, supporting local farming families and the lucrative gold shafts of the Deadmines. Though it was razed by the Old Horde and painstakingly rebuilt after the Second War, its peace did not last. Neglected by the House of Nobles in Stormwind and stripped of military protection, the settlement could not resist the vengeful Stonemasons Guild when they fled into the wilderness. Bandits drove out the honest homesteaders, forcing citizens and teachers alike to flee toward Sentinel Hill and Elwynn Forest.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defias Stronghold",
+   "body": "Today, Moonbrook is effectively the surface garrison for Edwin VanCleef's rebellion. Red-masked thugs and rogue wizards patrol the streets and ransacked homes, while harvest golems patrol the surrounding weed-choked fields. The quiet residential streets conceal the entrance to the Deadmines beneath an unassuming barn on the town edge, making Moonbrook the most dangerous hotbed of treason in the kingdom.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Moonbrook abandoned?",
+   "aliases": [
+    "what happened to moonbrook",
+    "why are there bandits in moonbrook",
+    "who took over moonbrook"
+   ],
+   "answer": "Moonbrook was abandoned by its peaceful residents when the Defias Brotherhood seized control of Westfall. Without the Stormwind Army to garrison the region, the townsfolk were forced out, and the bandits claimed the entire town as their own stronghold."
+  },
+  {
+   "q": "Where does the mine inside Moonbrook lead?",
+   "aliases": [
+    "where are deadmines",
+    "what is under moonbrook",
+    "moonbrook mine entrance"
+   ],
+   "answer": "The mine entrance beneath the barn on the edge of Moonbrook leads into the Deadmines. Once an immense source of gold for Stormwind, the labyrinthine tunnels are now the secret redoubt and staging ground of the Defias Brotherhood."
+  },
+  {
+   "q": "Who used to live here before the bandits?",
+   "aliases": [
+    "moonbrook residents",
+    "who lived in moonbrook",
+    "stalvan mistmantle school"
+   ],
+   "answer": "Moonbrook was once populated by miners, farmers, and tradespeople who supported Westfall's agriculture. Notable former residents included Stalvan Mistmantle, who briefly served as the headmaster of the local Moonbrook Schoolhouse before the bandits overran the town."
+  },
+  {
+   "q": "Does Stormwind plan to reclaim the town?",
+   "aliases": [
+    "will stormwind save moonbrook",
+    "why doesn't the army help moonbrook"
+   ],
+   "answer": "Stormwind's court has repeatedly refused to send royal troops to liberate Moonbrook or the surrounding farms, claiming resources are stretched thin. The local defense is left entirely to the volunteer People's Militia stationed at Sentinel Hill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Moonbrook stands as a bitter reminder of the kingdom's neglect, where law-abiding subjects were abandoned to the Defias Brotherhood."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The alleys and ransacked homes of Moonbrook offer an unvarnished look at an entire outlaw syndicate operating in broad daylight."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "defias",
+  "moonbrook",
+  "schoolhouse",
+  "sentinel hill",
+  "vancleef",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall",
+  "zone:deadmines",
+  "topic:defias-brotherhood",
+  "npc:edwin-vancleef",
+  "subzone:sentinel-hill",
+  "subzone:moonbrook-schoolhouse",
+  "quest:12",
+  "topic:house-of-nobles"
+ ],
+ "attribution": [
+  "Moonbrook"
+ ]
+}

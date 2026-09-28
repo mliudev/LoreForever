@@ -1,0 +1,38 @@
+Lore Forever is made of three kinds of content, under different terms.
+
+1. Code: the .lua, .xml and .toc files, the scripts and the website code. MIT License, below.
+
+2. Lore text: everything in data/ and addon/LoreForever/Data/. Adapted from articles on the Warcraft Wiki
+   (https://warcraft.wiki.gg) and licensed under Creative Commons Attribution-ShareAlike 4.0 International
+   (https://creativecommons.org/licenses/by-sa/4.0/). Each entry lists the wiki articles it was adapted from.
+
+3. Narration audio (addon/LoreForever/Audio/, site/public/audio/), the logo and the social card
+   (release/logo.*, release/social-card.png, site/public/img/): Copyright (c) 2026 Mike Liu, all rights
+   reserved. You may use them as part of the add-on; please don't redistribute them separately.
+
+World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc. This project is not affiliated with
+or endorsed by Blizzard.
+
+--------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 Mike Liu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

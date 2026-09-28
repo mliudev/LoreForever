@@ -1,0 +1,104 @@
+{
+ "key": "quest:92471",
+ "type": "quest",
+ "name": "Aetheen of the Gales",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92471
+  ],
+  "level": "4",
+  "faction": null,
+  "start": "Rorian the Dayseeker",
+  "end": "Aetheen of the Gales",
+  "previous": "Return to Rorian",
+  "next": "Foul Matriarch, Aggressive Encroachment",
+  "wiki": "Aetheen of the Gales (quest)",
+  "chain": []
+ },
+ "summary": "This quest marks a rite of passage for young adventurers on Zephras Isle, directing them to report to one of the island's leading authorities. After completing early trials under Rorian the Dayseeker, promising youths are sent into Thendal Grove to meet Aetheen of the Gales, an elder who reads the winds and evaluates the next generation.",
+ "sections": [
+  {
+   "title": "A Measure of Potential",
+   "body": "The early tasks set before novitiates on Zephras Isle are not merely mundane chores; they serve as informal tests to evaluate whether rising youths possess the grit and spirit needed to defend their homeland. Recognizing that island life faces growing trials, mentors such as Rorian the Dayseeker keep a watchful eye on candidates who prove capable of handling greater responsibility.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Wind-Reader of Thendal Grove",
+   "body": "Deep within Thendal Grove sits Aetheen of the Gales, a respected member of the Council of Elders governing Zephras Isle. Aetheen spends her time reading the currents of the air and assessing young shen'dorei as they come of age. Stepping before her signifies that an initiate has outgrown minor perimeter duties and is ready to tackle direct threats facing the community.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Aetheen of the Gales?",
+   "aliases": [
+    "who is aetheen",
+    "aetheen of the gales role",
+    "aetheen zephras"
+   ],
+   "answer": "Aetheen of the Gales is a leader on Zephras Isle and a seated member of the Council of Elders. She monitors the winds in Thendal Grove and personally assesses young shen'dorei who come of age to ensure they are prepared to defend their home."
+  },
+  {
+   "q": "Why does Rorian send players to meet Aetheen?",
+   "aliases": [
+    "why meet aetheen",
+    "rorian sends to aetheen",
+    "purpose of this quest"
+   ],
+   "answer": "Rorian the Dayseeker evaluates novice adventurers through their early duties. Once an adventurer proves their capability and resilience, Rorian directs them to Aetheen so their skills can be judged and directed toward higher-level challenges facing the island."
+  },
+  {
+   "q": "Where can Aetheen of the Gales be found?",
+   "aliases": [
+    "aetheen location",
+    "where is aetheen",
+    "thendal grove aetheen"
+   ],
+   "answer": "She can be found residing within Thendal Grove on Zephras Isle, where she studies the flow of the winds and oversees coming-of-age trials for local youths."
+  },
+  {
+   "q": "What is the Council of Elders?",
+   "aliases": [
+    "council of elders zephras",
+    "who rules zephras"
+   ],
+   "answer": "The Council of Elders is the governing body guiding the shen'dorei on Zephras Isle. Leaders like Aetheen sit on this council to oversee the survival, leadership, and readiness of their community."
+  },
+  {
+   "q": "What happens after reporting to Aetheen?",
+   "aliases": [
+    "next quest after aetheen",
+    "what does aetheen want"
+   ],
+   "answer": "Upon confirming a young adventurer's willingness to serve Zephras Isle, Aetheen assigns serious tasks to address local wilderness dangers, beginning with threats like aggressive wildlife and foul matriarchs."
+  },
+  {
+   "q": "What does 'coming of age' mean for shen'dorei on Zephras Isle?",
+   "aliases": [
+    "shen'dorei coming of age",
+    "zephras coming of age"
+   ],
+   "answer": "For youths on Zephras Isle, coming of age involves proving oneself through physical and magical trials. Rather than a mere ceremony, it demands that young shen'dorei demonstrate practical capability to an island elder like Aetheen before stepping into service."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aetheen of the gales",
+  "council of elders",
+  "rorian the dayseeker",
+  "shen'dorei",
+  "thendal grove",
+  "zephras isle"
+ ],
+ "related": [
+  "quest:92469",
+  "npc:rorian-the-dayseeker",
+  "zone:zephras",
+  "quest:92460"
+ ],
+ "attribution": [
+  "Aetheen of the Gales (quest)"
+ ]
+}

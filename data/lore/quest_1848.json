@@ -1,0 +1,120 @@
+{
+ "key": "quest:1848",
+ "type": "quest",
+ "name": "Brutal Hauberk",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1848
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Thun'grim Firegaze",
+  "end": "Thun'grim Firegaze",
+  "previous": "Brutal Armor",
+  "next": null,
+  "wiki": "Brutal Hauberk (quest)",
+  "chain": []
+ },
+ "summary": "Brutal Hauberk marks the culmination of an arduous rite of passage for Horde warriors in the Barrens. After gathering rare materials and proving their mettle against dangerous foes across the lands, warriors present their bounty to the reclusive smith Thun'grim Firegaze. In return, he hammers out a rugged suit of mail designed to withstand the harshest battles.",
+ "sections": [
+  {
+   "title": "A Smith's Masterpiece",
+   "body": "Perched along the craggy hills of the northern Barrens, Thun'grim Firegaze does not forge armor for just anyone. The reclusive orc demands that aspiring warriors travel far and wide to harvest tough beast parts, rare metal, and alchemical reagents before he even lights his bellows. The finished hauberk is not merely protective gear; it is an enduring badge of endurance and grit recognized by veteran fighters throughout the Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forged in Hardship",
+   "body": "Thun'grim's task is purposefully punishing. True Horde arms and armor are expected to bear the sweat and blood of their wearer from the moment of their inception. Handing over the finished Brutal Hauberk, the smith offers no flowery praise\u2014only the expectation that the armor will be proven in brutal combat and return bearing stories of blood and honor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Brutal Hauberk?",
+   "aliases": [
+    "what is brutal hauberk",
+    "brutal hauberk quest",
+    "who makes brutal hauberk"
+   ],
+   "answer": "The Brutal Hauberk is a sturdy chestpiece custom-crafted by the orc blacksmith Thun'grim Firegaze. It serves as the crowning reward for Horde warriors who prove their combat prowess by gathering rare materials across several dangerous lands."
+  },
+  {
+   "q": "Who is Thun'grim Firegaze?",
+   "aliases": [
+    "who is thun grim",
+    "thungrim firegaze",
+    "where is thungrim"
+   ],
+   "answer": "Thun'grim Firegaze is a reclusive veteran smith who resides atop a mountain spur in the northern Barrens, just east of the road between the Crossroads and Orgrimmar. He tests emerging warriors and smiths them specialized armor when they prove their worth."
+  },
+  {
+   "q": "Why does Thun'grim require so much effort before crafting the armor?",
+   "aliases": [
+    "why gather so many materials",
+    "brutal armor requirements",
+    "thungrim trials"
+   ],
+   "answer": "Horde warrior tradition values hardship as much as martial skill. Thun'grim believes that high-grade mail is wasted on anyone who has not shed their own blood and toiled to acquire the rare components necessary to forge it."
+  },
+  {
+   "q": "Where does this quest chain lead next?",
+   "aliases": [
+    "what comes after brutal hauberk",
+    "next quest after brutal hauberk",
+    "is there a follow up"
+   ],
+   "answer": "This quest represents the final step of the Brutal Armor trials. Once Thun'grim presents you with the finished hauberk, his work for you is complete, leaving you to wear the armor into battle across Kalimdor and the Eastern Kingdoms."
+  },
+  {
+   "q": "Is the Brutal Hauberk quest available to the Alliance?",
+   "aliases": [
+    "can alliance get brutal hauberk",
+    "alliance equivalent",
+    "is this horde only"
+   ],
+   "answer": "No. The Brutal Hauberk is exclusively a Horde trial. Alliance warriors undergo a distinct martial rite involving the smiths of Ironforge and the surrounding dwarven territories to forge their own signature armor."
+  },
+  {
+   "q": "Where in the Barrens can Thun'grim be found?",
+   "aliases": [
+    "thungrim location",
+    "where is thungrim in barrens",
+    "how to find thun grim"
+   ],
+   "answer": "Thun'grim dwells on a high ridge in the northern Barrens, situated south of the Southfury River and slightly east of the main mountain road leading north toward Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "The Brutal Hauberk is a milestone achievement for young Horde warriors, representing the transition from raw recruit to a hardened combatant outfitted in bespoke mail."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Crafted from blood-earned trophies gathered from Kalimdor's wilds, the hauberk reflects the Horde's core virtues of martial self-reliance and strength."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Watching Thun'grim work provides an education in traditional orcish smithing, where martial spirit and resilience are hammered directly into the steel."
+  }
+ ],
+ "keywords": [
+  "brutal armor",
+  "brutal hauberk",
+  "crossroads",
+  "orcish smithing",
+  "the barrens",
+  "thun'grim firegaze",
+  "warrior mail"
+ ],
+ "related": [
+  "quest:1838",
+  "quest:1502",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Brutal Hauberk (quest)"
+ ]
+}

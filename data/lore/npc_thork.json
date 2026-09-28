@@ -1,0 +1,118 @@
+{
+ "key": "npc:thork",
+ "type": "npc",
+ "name": "Thork",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Thork",
+  "refs": 6
+ },
+ "summary": "Thork is an orc warrior stationed at the Crossroads who oversees the settlement's local defenses. Charged with securing the bustling crossroads of the Barrens, he directs Horde adventurers to push back raiders, secure vital supply lines, and weed out internal threats.",
+ "sections": [
+  {
+   "title": "Commander of the Crossroads",
+   "body": "The Crossroads serves as the beating heart of Horde transit in Kalimdor, connecting Durotar, Mulgore, and the wilds beyond. Holding it is no easy feat. Thork shoulders the responsibility of defending the town from constant external pressures. Between quillboar raids, centaur aggression, and marauding harpies, his forces are stretched thin, forcing him to rely on capable travelers and emerging champions to handle critical security tasks.",
+   "spoiler": 0
+  },
+  {
+   "title": "Securing the Borders",
+   "body": "Thork's duties extend well beyond the walls of the Crossroads itself. He coordinates defense efforts along vital supply corridors, dispatching scouts and liaisons north toward the Mor'shan Rampart to report directly to Kadrak. Keeping these northern and eastern arteries open is essential to sustaining the Horde's presence in the harsh and unforgiving scrublands of the Barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "Threats Inside and Out",
+   "body": "While external predators and nomadic tribes surround the settlement, Thork also contends with insidious threats close to home. Smugglers and saboteurs disrupt supply chains, and covert betrayals threaten the stability of the outpost from the inside. Thork shows little patience for treachery, swiftly tasking adventurers to root out traitors and recover stolen munitions before chaos takes hold.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thork?",
+   "aliases": [
+    "thork lore",
+    "who is thork",
+    "thork crossroads"
+   ],
+   "answer": "Thork is the orc officer in charge of military defenses at the Crossroads in the Barrens. He oversees town security, organizes retaliation against hostile tribes, and ensures supply caravans reach their destinations safely."
+  },
+  {
+   "q": "Where is Thork located?",
+   "aliases": [
+    "thork location",
+    "find thork",
+    "where is thork standing"
+   ],
+   "answer": "He can be found standing outside near the center of the Crossroads settlement in the Barrens, coordinating guards and issuing defense orders."
+  },
+  {
+   "q": "Why is the Crossroads so vulnerable to attack?",
+   "aliases": [
+    "crossroads under attack",
+    "why crossroads dangerous"
+   ],
+   "answer": "The Crossroads sits at the open intersection of major trade routes in the Barrens. Because it lacks substantial stone fortifications and borders territories held by hostile Razormane quillboar, Kolkar centaur, and Alliance scouts, it requires constant vigilance to defend."
+  },
+  {
+   "q": "What is Thork's relationship with Mankrik?",
+   "aliases": [
+    "mankrik and thork",
+    "did thork help mankrik"
+   ],
+   "answer": "When Mankrik pleaded for military assistance to hunt down the quillboar and search for his lost wife, Thork turned him down due to the strict priority of guarding the outpost and its supply caravans with limited troops."
+  },
+  {
+   "q": "How does Thork coordinate with other Horde posts?",
+   "aliases": [
+    "thork and kadrak",
+    "thork morshan rampart"
+   ],
+   "answer": "Thork maintains regular communications with the northern border, dispatching messengers and fighters to report to Kadrak at the Mor'shan Rampart to monitor the border of Ashenvale."
+  },
+  {
+   "q": "What threats does Thork deal with?",
+   "aliases": [
+    "crossroads enemies",
+    "thork quests info"
+   ],
+   "answer": "Thork deals with marauding quillboar warbands disrupting trade, stolen supply crates, and traitors aiding enemies from within the settlement's perimeter."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For Horde adventurers arriving from Durotar or Mulgore, reporting to Thork is an essential milestone in establishing your reputation as a protector of Kalimdor."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Thork represents the unyielding military duty expected of orcs defending the newly conquered lands of Kalimdor against overwhelming regional hostility."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Warriors can appreciate Thork's pragmatic, direct focus on strategic supply lines, patrol integrity, and eliminating physical threats before they breach town walls."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "kadrak",
+  "mankrik",
+  "mor'shan",
+  "orc",
+  "supplies",
+  "thork"
+ ],
+ "related": [
+  "subzone:crossroads",
+  "zone:barrens",
+  "quest:854",
+  "quest:871",
+  "quest:872",
+  "quest:879",
+  "quest:5041",
+  "npc:kadrak"
+ ],
+ "attribution": [
+  "Thork"
+ ]
+}

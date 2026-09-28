@@ -1,0 +1,76 @@
+{
+ "key": "npc:huntress-kella-nightbow",
+ "type": "npc",
+ "name": "Huntress Kella Nightbow",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Huntress Kella Nightbow",
+  "refs": 1
+ },
+ "summary": "Huntress Kella Nightbow is a skilled night elf scout and hunter serving the Alliance along the western coasts of Kalimdor. As a sentinel and tracker, she aids travelers navigating maritime routes toward northern lands such as Darkshore.",
+ "sections": [
+  {
+   "title": "Eyes of the Wild",
+   "body": "Huntress Kella Nightbow embodies the traditional vigilance of the night elf sentinels. Deeply attuned to nature and the wild beasts of Kalimdor, she assists the Alliance by keeping watch over coastal pathways and offering guidance to those seeking passage to Auberdine and beyond.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Huntress Kella Nightbow?",
+   "aliases": [
+    "who is kella nightbow",
+    "kella nightbow",
+    "huntress nightbow"
+   ],
+   "answer": "She is a night elf huntress and sentinel dedicated to guiding travelers and securing travel routes connected to dark coastal regions like Darkshore."
+  },
+  {
+   "q": "What faction does she belong to?",
+   "aliases": [
+    "is kella nightbow alliance",
+    "huntress kella faction"
+   ],
+   "answer": "Huntress Kella Nightbow is loyal to the night elves of Darnassus and serves as part of the broader Alliance."
+  },
+  {
+   "q": "Why would someone seek her out?",
+   "aliases": [
+    "kella nightbow purpose",
+    "why find kella nightbow"
+   ],
+   "answer": "Travelers and hunters seek her guidance when navigating coastal passages or finding their way toward Auberdine and the wider night elf territories."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "As an experienced huntress attuned to the beasts of the wild, Kella is a familiar spirit to any tracker mastering the art of the hunt."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Kella represents the steadfast sentinels safeguarding night elf shores and keeping coastal transit safe for her kin."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "hunter",
+  "huntress",
+  "kella",
+  "nightbow",
+  "sentinel"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "zone:darkshore",
+  "topic:night-elf",
+  "topic:alliance",
+  "quest:9633",
+  "quest:6061"
+ ],
+ "attribution": [
+  "Huntress Kella Nightbow"
+ ]
+}

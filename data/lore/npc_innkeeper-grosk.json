@@ -1,0 +1,77 @@
+{
+ "key": "npc:innkeeper-grosk",
+ "type": "npc",
+ "name": "Innkeeper Grosk",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Innkeeper Grosk",
+  "refs": 1
+ },
+ "summary": "Innkeeper Grosk manages the inn at Razor Hill, providing weary travelers with food, drink, and a place to rest in central Durotar. Located on the bustling road between the Valley of Trials and Orgrimmar, his establishment serves as the primary resting point for young Horde adventurers setting out into the wider world.",
+ "sections": [
+  {
+   "title": "Hospitality in the Red Wastes",
+   "body": "Razor Hill serves as the vital crossroad settlement connecting the southern training grounds of Durotar to the high walls of Orgrimmar. At the center of this waystation stands Innkeeper Grosk, an orc tasked with sheltering warriors, scouts, and peons alike. His inn offers a respite from the harsh desert heat, stocked with basic provisions, hearty meats, and cool water for any traveler passing beneath its sturdy timbers.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Peon's Respite",
+   "body": "Beyond serving passing travelers, Grosk assists the local labor force that keeps Durotar running. In the quest 'A Peon's Burden', overseers rely on Grosk's establishment to source much-needed supplies and food rations for the exhausted peons working the regional lumber and mining operations.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Innkeeper Grosk located?",
+   "aliases": [
+    "innkeeper grosk location",
+    "where is grosk",
+    "razor hill innkeeper"
+   ],
+   "answer": "Innkeeper Grosk stands inside the inn at Razor Hill, situated right in the center of Durotar along the primary road leading north toward Orgrimmar."
+  },
+  {
+   "q": "What services does Innkeeper Grosk provide?",
+   "aliases": [
+    "what does grosk do",
+    "grosk vendor",
+    "can i bind hearthstone at razor hill"
+   ],
+   "answer": "Grosk acts as an innkeeper where Horde adventurers can bind their Hearthstone to Razor Hill. He also sells basic food, water, and meat to replenish health and mana between travels."
+  },
+  {
+   "q": "Does Innkeeper Grosk offer any quests?",
+   "aliases": [
+    "innkeeper grosk quests",
+    "a peons burden turn in"
+   ],
+   "answer": "He is involved in the quest 'A Peon's Burden', aiding in organizing supplies and provisions intended to sustain the hardworking peons toiling across Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For newly blooded orcs, trolls, and visiting tauren traveling north from the Valley of Trials or Sen'jin Village, Grosk's inn marks the first true town and hearth location on the road toward Orgrimmar."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "grosk",
+  "innkeeper",
+  "innkeeper grosk",
+  "orgrimmar",
+  "peon's burden",
+  "razor hill"
+ ],
+ "related": [
+  "subzone:razor-hill",
+  "zone:durotar",
+  "quest:2161",
+  "zone:orgrimmar",
+  "npc:magga"
+ ],
+ "attribution": [
+  "Innkeeper Grosk"
+ ]
+}

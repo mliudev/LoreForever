@@ -1,0 +1,123 @@
+{
+ "key": "quest:289",
+ "type": "quest",
+ "name": "The Cursed Crew",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   289
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "First Mate Fitzsimmons",
+  "end": "",
+  "previous": "The Third Fleet (Classic)",
+  "next": "Lifting the Curse (Classic)",
+  "wiki": "The Cursed Crew (Classic)",
+  "chain": []
+ },
+ "summary": "First Mate Fitzsimmons, the sole living survivor of the Third Fleet of Kul Tiras, asks for mercy on behalf of his lost brethren. Trapped by a dark relic hidden aboard their sunken ships off the Wetlands coast, the drowned sailors and marines wander the wrecks as restless undead.",
+ "sections": [
+  {
+   "title": "A Restless Fleet",
+   "body": "When the Third Fleet of Kul Tiras foundered along the jagged shores north of Menethil Harbor, its tragedy did not end beneath the waves. While First Mate Fitzsimmons managed to wash ashore alive, his fellow crewmen met a fate far worse than death. A mysterious and terrible treasure hidden deep within one of the hulls unleashed an eerie sorcery upon the dying sailors, binding their souls to the sea-battered timbers and denying them the peace of the grave.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mercy by the Blade",
+   "body": "Fitzsimmons, lingering in the taverns of Menethil Harbor, remains haunted by the nightly moans and cries of his former shipmates. Believing that putting down their animated corpses will offer them release, he sends adventurers into the rotting, drowned hulks to strike down the cursed sailors, the seasoned marines, and his former peer, First Mate Snellig, retrieving Snellig's personal snuffbox as grim proof that his friend has finally been laid to rest.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was First Mate Snellig?",
+   "aliases": [
+    "snellig",
+    "first mate snellig",
+    "who is snellig"
+   ],
+   "answer": "First Mate Snellig served aboard the ill-fated Third Fleet of Kul Tiras alongside First Mate Fitzsimmons. After the fleet wrecked off the northern coast of the Wetlands, Snellig drowned with the rest of the crew, only to be resurrected by the malevolent relic stowed aboard the ships. He now haunts the flooded hold of one of the wrecks as an undead horror."
+  },
+  {
+   "q": "Why are the sailors and marines cursed?",
+   "aliases": [
+    "why are they undead",
+    "third fleet curse",
+    "cursed sailors cause"
+   ],
+   "answer": "According to Fitzsimmons, one of the fleet's vessels carried a concealed, malignant treasure. When the ships wrecked along the coast, the dark energies of this artifact bound the spirits of the drowned crew to their rotting hulls, preventing their souls from passing on and forcing them into undead torment."
+  },
+  {
+   "q": "Where are the sunken ships located?",
+   "aliases": [
+    "where are the ships",
+    "wreck location",
+    "where is snellig"
+   ],
+   "answer": "The ruined hulks of the Third Fleet lie submerged off the coast in the northern Wetlands, north of Menethil Harbor. The cursed crew prowls both the submerged decks and the surrounding water, with Snellig himself lurking inside the cracked hull of the southern vessel."
+  },
+  {
+   "q": "Why does Fitzsimmons want Snellig's snuffbox?",
+   "aliases": [
+    "snelligs snuffbox",
+    "snuff box",
+    "why snuffbox"
+   ],
+   "answer": "The snuffbox was a personal keepsake belonging to First Mate Snellig in life. Bringing it back to Fitzsimmons serves as tangible proof that his cursed comrade has finally been granted release from his rotting prison beneath the waves."
+  },
+  {
+   "q": "Who is First Mate Fitzsimmons?",
+   "aliases": [
+    "fitzsimmons",
+    "first mate fitzsimmons"
+   ],
+   "answer": "Fitzsimmons is a Kul Tiran sailor and the only known living survivor of the Third Fleet. Broken by grief and guilt, he stays in Menethil Harbor, haunted by nightmares of his drowned brothers and desperately seeking travelers willing to end their suffering."
+  },
+  {
+   "q": "Does killing the crew actually break the curse?",
+   "aliases": [
+    "is the curse lifted",
+    "does this end the curse"
+   ],
+   "answer": "Striking down the sailors and marines grants temporary respite to their restless spirits, but it does not shatter the enchantment entirely. The root of the curse remains tied to the mysterious relic still hidden aboard the wreckage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Kul Tiras has long supplied the finest sailors to the Grand Alliance; putting their tormented spirits to rest is a somber duty of honor for any Alliance adventurer."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The sailors of the Third Fleet were innocent men ensnared by a profane relic; laying them to rest cleanses unholy desecration and brings light to dark waters."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human travelers feel the weight of brotherhood with these fallen sailors, recognizing the shared naval traditions of the kingdom of Kul Tiras."
+  }
+ ],
+ "keywords": [
+  "cursed crew",
+  "cursed marine",
+  "cursed sailor",
+  "fitzsimmons",
+  "kul tiras",
+  "menethil",
+  "snellig",
+  "snuffbox",
+  "third fleet",
+  "wetlands"
+ ],
+ "related": [
+  "quest:288",
+  "npc:first-mate-fitzsimmons",
+  "subzone:menethil-harbor",
+  "zone:wetlands",
+  "topic:kul-tiras"
+ ],
+ "attribution": [
+  "The Cursed Crew (Classic)"
+ ]
+}

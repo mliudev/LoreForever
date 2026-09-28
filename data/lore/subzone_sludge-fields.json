@@ -1,0 +1,89 @@
+{
+ "key": "subzone:sludge-fields",
+ "type": "subzone",
+ "name": "Sludge Fields",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Sludge Fields"
+ },
+ "summary": "In the current era of 25 ADP, the region known in later eras as the Sludge Fields does not yet exist. The land is presently the living human agricultural settlement of the Hillsbrad Fields, fiercely defended by the remnants of Lordaeron under the Alliance.",
+ "sections": [
+  {
+   "title": "A Future Unmade",
+   "body": "Travelers seeking the Sludge Fields will find no sprawling Forsaken internment camp, plague vats, or mushroom plantations here today. In this era, the soil belongs to the human farmers and town militia of the Hillsbrad Fields. The living subjects of Southshore tend these farms under the banner of the Alliance, contesting every yard against Forsaken raiders pushing south from Tarren Mill. The dark fortress overseen by figures like Warden Stillwater remains an unrealized nightmare, as the Forsaken war machine has not yet broken through the local defenses.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Sludge Fields located?",
+   "aliases": [
+    "sludge fields location",
+    "where is sludge fields",
+    "find sludge fields"
+   ],
+   "answer": "You will not find the Sludge Fields in Hillsbrad Foothills right now. The area where that Forsaken camp would eventually be founded is currently the Hillsbrad Fields, an active human settlement populated by living farmers, peasants, and town guards allied with Southshore."
+  },
+  {
+   "q": "Who controls this land right now?",
+   "aliases": [
+    "who owns sludge fields",
+    "who controls hillsbrad fields",
+    "sludge fields faction"
+   ],
+   "answer": "The land is under the control of the human residents of Hillsbrad and the Alliance. Although the Forsaken harass the area from nearby Tarren Mill, the human farmers continue to defend and cultivate the fields."
+  },
+  {
+   "q": "Who is Warden Stillwater?",
+   "aliases": [
+    "warden stillwater",
+    "stillwater hillsbrad",
+    "where is stillwater"
+   ],
+   "answer": "Warden Stillwater is a Forsaken overseer tied to future events in Hillsbrad Foothills. At this time, he holds no plantation or internment camp here, as the Forsaken have not conquered the agricultural heart of the region."
+  },
+  {
+   "q": "Why is this area known as the Hillsbrad Fields instead?",
+   "aliases": [
+    "hillsbrad fields vs sludge fields",
+    "why hillsbrad fields",
+    "sludge fields name"
+   ],
+   "answer": "Hillsbrad Fields is the original, living name of the farmlands surrounding the town of Hillsbrad. Only if the Forsaken were to conquer the town and construct an industrial sludge and labor camp over its ruins would it become known as the Sludge Fields."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions, this fertile land is a vital stronghold of living humanity in northern Lordaeron, deserving total protection against Forsaken encroachment."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde scouts view the heavily guarded human farmlands as an obstacle to securing the southern border of Hillsbrad Foothills below Tarren Mill."
+  }
+ ],
+ "keywords": [
+  "hillsbrad",
+  "hillsbrad fields",
+  "internment camp",
+  "lordaeron",
+  "sludge fields",
+  "southshore",
+  "tarren mill",
+  "warden stillwater"
+ ],
+ "related": [
+  "subzone:hillsbrad-fields",
+  "zone:hillsbrad",
+  "topic:forsaken",
+  "topic:alliance",
+  "topic:lordaeron",
+  "topic:horde",
+  "zone:silverpine",
+  "subzone:thoradin-s-wall"
+ ],
+ "attribution": [
+  "Sludge Fields"
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "key": "quest:940",
+ "type": "quest",
+ "name": "Teldrassil",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   940
+  ],
+  "level": "11",
+  "faction": "Alliance",
+  "start": "Sentinel Arynia Cloudsbreak",
+  "end": "Arch Druid Fandral Staghelm",
+  "previous": "The Enchanted Glade (Classic)",
+  "next": "Grove of the Ancients",
+  "wiki": "Teldrassil (quest)",
+  "chain": [
+   "The Enchanted Glade (Classic)",
+   "Teldrassil (quest)",
+   "Grove of the Ancients (quest)"
+  ]
+ },
+ "summary": "Following the cleansing of the rogue harpies near the Oracle Tree, Sentinel Arynia Cloudsbreak entrusts you with carrying a status report to Darnassus. The inscribed bark is addressed to Arch Druid Fandral Staghelm, bearing news of the state of the boughs and the ongoing corruption plaguing the World Tree.",
+ "sections": [
+  {
+   "title": "A Messenger to the Stone City",
+   "body": "Deep in the boughs of Teldrassil, the Oracle Tree watches over the forest. After clearing the harpies from their nests in the Enchanted Glade, Sentinel Arynia Cloudsbreak decides it is finally safe to dispatch word to the kaldorei leadership. Entrusting you with a piece of inscribed bark, she sends you across the wilderness and into Darnassus\u2014the great 'forest of stone'\u2014to deliver the Oracle Tree's report directly to Arch Druid Fandral Staghelm.",
+   "spoiler": 0
+  },
+  {
+   "title": "Staghelm's Ambition and Frustration",
+   "body": "When presented with the report, Fandral Staghelm receives it with mixed feelings. Though grateful for the news that the harpies were pushed back, the report underlines a deeper truth: as soon as one threat is diminished on Teldrassil, another festers in its place. For Staghelm, who championed the planting of the new World Tree to reclaim the night elves' lost immortality, the ongoing afflictions of the boughs are a bitter reminder that his grand work remains far from finished.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the quest 'Teldrassil'?",
+   "aliases": [
+    "teldrassil quest objective",
+    "what does this quest do",
+    "teldrassil delivery"
+   ],
+   "answer": "This quest acts as a narrative bridge connecting your wilderness adventures around the Oracle Tree to the capital city. Sentinel Arynia Cloudsbreak tasks you with carrying an Inscribed Bark containing the Oracle Tree's report to Arch Druid Fandral Staghelm in Darnassus."
+  },
+  {
+   "q": "Who is Sentinel Arynia Cloudsbreak?",
+   "aliases": [
+    "arynia cloudsbreak lore",
+    "who starts teldrassil quest"
+   ],
+   "answer": "Arynia Cloudsbreak is a night elf Sentinel stationed near the Oracle Tree in the Teldrassil wilds. She monitors regional threats like the local Bloodfeather harpies and coordinates forest defenses with Darnassus."
+  },
+  {
+   "q": "Why does Arynia call Darnassus a 'forest of stone'?",
+   "aliases": [
+    "forest of stone meaning",
+    "why forest of stone"
+   ],
+   "answer": "While the night elves live within the canopy of the World Tree, the city of Darnassus is built with monumental marble and stone temples, bridges, and pavilions. Compared to the untamed wilderness around the Oracle Tree, the capital is a constructed forest of stone."
+  },
+  {
+   "q": "Why is Fandral Staghelm so concerned about the Oracle Tree's report?",
+   "aliases": [
+    "fandral staghelm reaction",
+    "why is staghelm worried"
+   ],
+   "answer": "Staghelm spearheaded the creation of Teldrassil in hopes of regaining kaldorei immortality after Nordrassil was damaged in the Third War. News from the Oracle Tree confirms that Teldrassil continues to suffer from spreading corruption and wildlife turmoil, putting his ambitions in jeopardy."
+  },
+  {
+   "q": "What quest leads into this, and what follows it?",
+   "aliases": [
+    "teldrassil quest chain",
+    "what quest next"
+   ],
+   "answer": "This quest immediately follows 'The Enchanted Glade', where you deal with the harpies menacing the Oracle Tree. After delivering the report to Arch Druid Staghelm, he sends you onward to Darkshore with the follow-up quest 'Grove of the Ancients'."
+  },
+  {
+   "q": "Where can Arch Druid Fandral Staghelm be found?",
+   "aliases": [
+    "where is fandral",
+    "fandral staghelm location"
+   ],
+   "answer": "Arch Druid Fandral Staghelm resides in Darnassus, standing at the summit of the Cenarion Enclave where he oversees the druids of the Cenarion Circle and guides the governance of the kaldorei."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Delivering this report brings you face-to-face with Arch Druid Staghelm, revealing his personal obsession with restoring kaldorei immortality through the troubled boughs of Teldrassil."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Carrying word from the ancient Oracle Tree directly to the leader of the Cenarion Circle highlights the ongoing struggle to cleanse Teldrassil's natural balance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions completing their early duties on the island, this mission provides a formal introduction to the night elf capital and its stern leadership."
+  }
+ ],
+ "keywords": [
+  "arynia cloudsbreak",
+  "cenarion enclave",
+  "darnassus",
+  "fandral staghelm",
+  "immortality",
+  "inscribed bark",
+  "kaldorei",
+  "oracle tree",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:fandral-staghelm",
+  "npc:sentinel-arynia-cloudsbreak",
+  "quest:937",
+  "quest:952",
+  "zone:darnassus",
+  "zone:teldrassil",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Teldrassil (quest)"
+ ]
+}

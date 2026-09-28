@@ -1,0 +1,130 @@
+{
+ "key": "quest:826",
+ "type": "quest",
+ "name": "Zalazane",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   826
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Master Gadrin",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Zalazane (quest)",
+  "chain": [
+   "Vile Familiars",
+   "Burning Blade Medallion (quest)",
+   "Report to Sen'jin Village",
+   "Zalazane (quest)"
+  ]
+ },
+ "summary": "Master Gadrin of Sen'jin Village tasks Horde champions with traveling to the Echo Isles to end the treachery of the witch doctor Zalazane. Driven mad by dark magic, Zalazane enslaved his fellow tribesmen and seized the Darkspear trolls' rightful home, forcing them into exile on Durotar's coast.",
+ "sections": [
+  {
+   "title": "Betrayal on the Isles",
+   "body": "When the Darkspear tribe fled their sunken island home and followed Thrall across the Great Sea, they established a settlement on the Echo Isles just off Durotar's southeast coast. Zalazane, a respected and potent witch doctor of the tribe, fell prey to a lust for power. Harnessing mind-enslaving hexes, he subjugated many of his kin and launched a violent uprising. The remaining free Darkspear, led by Vol'jin, were driven from their ancestral camps across the water, forced to build a temporary refuge at Sen'jin Village.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Tribe's Torment",
+   "body": "Zalazane was not content merely driving the tribe away. From his hilltop redoubt on the central Echo Isle, he regularly sends raiding parties across the channel to snatch more Darkspear and drag them into his thrall. Those afflicted become mindless voodoo and hexed thralls, utterly lost to the tribe. Master Gadrin views this not merely as an occupation of land, but as an existential threat: until Zalazane's severed head is brought before the elders, no Darkspear can ever truly be safe.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zalazane?",
+   "aliases": [
+    "zalazane lore",
+    "who is the boss on echo isles",
+    "witch doctor zalazane"
+   ],
+   "answer": "Zalazane was once a prominent witch doctor among the Darkspear trolls. Corrupted by a hunger for dark power, he turned on his brethren, using mind-controlling voodoo to enslave fellow tribespeople and conquer the Echo Isles for himself."
+  },
+  {
+   "q": "Why did the Darkspear flee the Echo Isles?",
+   "aliases": [
+    "why are trolls in sen'jin village",
+    "echo isles backstory",
+    "how did trolls lose echo isles"
+   ],
+   "answer": "Zalazane staged a surprise coup d'etat on the islands, turning brothers and sisters into mindless thralls through foul sorcery. Vol'jin and the surviving free Darkspear lacked the numbers to stand against their enchanted kin and retreated to mainland Durotar, founding Sen'jin Village as a temporary refuge."
+  },
+  {
+   "q": "What happens to the trolls under Zalazane's control?",
+   "aliases": [
+    "hexed trolls",
+    "voodoo trolls",
+    "can zalazane's thralls be cured"
+   ],
+   "answer": "The trolls under his sway have their minds completely fractured by powerful hexes. They act purely as Zalazane's mindless servants, patrolling the islands and staging mainland raids to capture more victims. Master Gadrin considers them entirely lost to the tribe, leaving execution as the only mercy."
+  },
+  {
+   "q": "Where is Zalazane located?",
+   "aliases": [
+    "zalazane location",
+    "find zalazane",
+    "where is zalazane"
+   ],
+   "answer": "Zalazane makes his lair on the largest island of the Echo Isles chain, just east off the southern coast of Durotar. He patrols between the high summit of the central hill down into the cluster of troll huts directly beneath it."
+  },
+  {
+   "q": "Who gives the quest to kill Zalazane?",
+   "aliases": [
+    "who starts zalazane",
+    "where to get zalazane quest"
+   ],
+   "answer": "Master Gadrin, the tribal elder situated in Sen'jin Village on Durotar's southern shore, offers the quest after you complete introductory tasks dealing with local threats and arrive from the Valley of Trials."
+  },
+  {
+   "q": "Why does Vol'jin not lead the assault himself?",
+   "aliases": [
+    "where is vol'jin",
+    "why isn't vol'jin fighting zalazane"
+   ],
+   "answer": "While Vol'jin rules the tribe and coordinates the Darkspear's defense alongside Warchief Thrall in Orgrimmar, Sen'jin Village remains under the local guidance of elders like Master Gadrin. Gadrin coordinates day-to-day survival and enlists capable adventurers to strike back at the treacherous witch doctor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For a Darkspear troll, slaying Zalazane is a deeply personal act of vengeance and duty, punishing the betrayer who stole your people's rightful home and enslaved your brothers."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The conflict represents one of the young Horde's first major tests of unity, proving that allies from across Durotar will rally to defend the displaced Darkspear tribe."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Zalazane perverts the spiritual crafts and primal powers practiced by troll shamans and witch doctors, turning binding magics against his own brethren."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "durotar",
+  "echo isles",
+  "hexed troll",
+  "master gadrin",
+  "sen'jin village",
+  "vol'jin",
+  "voodoo troll",
+  "zalazane"
+ ],
+ "related": [
+  "npc:master-gadrin",
+  "subzone:echo-isles",
+  "subzone:sen-jin-village",
+  "quest:808",
+  "topic:darkspear-tribe",
+  "npc:vol-jin",
+  "zone:durotar",
+  "quest:817"
+ ],
+ "attribution": [
+  "Zalazane (quest)"
+ ]
+}

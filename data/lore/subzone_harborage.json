@@ -1,0 +1,83 @@
+{
+ "key": "subzone:harborage",
+ "type": "subzone",
+ "name": "Harborage",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Harborage"
+ },
+ "summary": "The Harborage is a quiet settlement of exiled Draenor natives situated in the northern reaches of the Swamp of Sorrows. While many of their afflicted kin wandering the surrounding bogs have succumbed to madness and primal hostility, the inhabitants here have managed to hold onto their sanity and wits. They live cautiously along the waterline, seeking peace amidst a harsh and unforgiving wilderness.",
+ "sections": [
+  {
+   "title": "A Haven in the Mire",
+   "body": "Tucked away against the northern mountains of the Swamp of Sorrows, the Harborage stands in stark contrast to the feral tribes wandering the nearby waters. Constructed of rugged leather shelters and adorned with mysterious hanging crystals, this small encampment provides sanctuary to exiled Draenor survivors who have refused to surrender their minds. Under the guidance of elders like Magtoor, they maintain a fragile, civilized enclave while remaining watchful of the hostile wilderness, native predators, and the feral tribes of their fallen brothers lurking just beyond their perimeter.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in the Harborage?",
+   "aliases": [
+    "harborage residents",
+    "who is at harborage",
+    "who lives here"
+   ],
+   "answer": "The Harborage is home to a band of Draenor exiles\u2014afflicted humanoids who crossed into Azeroth and managed to preserve their minds and culture, unlike the feral tribes found elsewhere in the swamp."
+  },
+  {
+   "q": "Why are the people here peaceful while other swamp tribes attack?",
+   "aliases": [
+    "why are they friendly",
+    "lost ones friendly",
+    "harborage hostile"
+   ],
+   "answer": "The residents here retained their sanity and rational thinking despite their tragic physical transformation and displacement. While their afflicted kin across the bog lost their minds to isolation and trauma, those at the Harborage banded together to preserve their dignity."
+  },
+  {
+   "q": "Who leads the Harborage?",
+   "aliases": [
+    "harborage leader",
+    "magtoor",
+    "chief of harborage"
+   ],
+   "answer": "The community looks to respected elders like Magtoor for leadership and guidance as they navigate survival in an alien swamp."
+  },
+  {
+   "q": "Where is the Harborage located?",
+   "aliases": [
+    "harborage location",
+    "where is harborage",
+    "find harborage"
+   ],
+   "answer": "You can find it tucked against the northern cliffs of the Swamp of Sorrows, just east of the mountain pass connecting the marsh to the Redridge Mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers descending from the safety of Redridge into the dangerous marshlands, the Harborage is one of the few places in the northern swamp that offers non-hostile faces rather than immediate bloodshed."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's presence at Stonard largely dominates the swamp, but these reclusive survivors maintain their own secluded existence, keeping to themselves rather than picking sides in the regional conflicts."
+  }
+ ],
+ "keywords": [
+  "broken",
+  "draenethyst",
+  "harborage",
+  "lost ones",
+  "magtoor",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "zone:redridge",
+  "subzone:lakeshire",
+  "subzone:marshtide-watch"
+ ],
+ "attribution": [
+  "Harborage"
+ ]
+}

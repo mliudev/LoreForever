@@ -1,0 +1,81 @@
+{
+ "key": "npc:marek-ironheart",
+ "type": "npc",
+ "name": "Marek Ironheart",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Marek Ironheart",
+  "refs": 1
+ },
+ "summary": "Marek Ironheart is a veteran dwarven hunter stationed at the Farstrider Lodge in south-eastern Loch Modan. Dedicated to the traditions of the wild, he tests wandering travelers and marksmen alike before welcoming them into the ranks of the lodge's honored hunters.",
+ "sections": [
+  {
+   "title": "Master of the Hunt",
+   "body": "Perched on the scenic ridge overlooking the lake, the Farstrider Lodge serves as an outpost for the finest marksmen and trackers in the dwarven lands. Marek Ironheart embodies this frontier spirit. Unimpressed by titles or talk, Marek requires anyone seeking the lodge's respect to demonstrate their practical prowess against the varied beasts roaming Loch Modan, proving they have the patience and nerve demanded of a true stalker of the wild.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Marek Ironheart?",
+   "aliases": [
+    "marek ironheart",
+    "who is marek"
+   ],
+   "answer": "Marek Ironheart is a dwarven huntsman residing at the Farstrider Lodge in Loch Modan. He tests visitors seeking approval among the lodge's community of trackers and outdoorsmen."
+  },
+  {
+   "q": "Where can I find Marek Ironheart?",
+   "aliases": [
+    "marek ironheart location",
+    "where is marek"
+   ],
+   "answer": "He is located at the Farstrider Lodge, nestled in the hills along the south-eastern shore of Loch Modan."
+  },
+  {
+   "q": "What kind of tasks does Marek offer?",
+   "aliases": [
+    "marek ironheart quests",
+    "marek quests"
+   ],
+   "answer": "Marek directs hunters to track down and cull various local wildlife around the loch, testing their survival skills against dangerous beasts like crocolisks and swarming insects."
+  },
+  {
+   "q": "Is Marek related to any other known dwarves?",
+   "aliases": [
+    "ironheart family",
+    "marek relatives"
+   ],
+   "answer": "Sharing a notable dwarven surname, he may be kin to Archaeologist Adamant Ironheart and Imme Ironheart, though Marek devotes his life to the hunt rather than excavating relics."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For rangers and beast-stalkers, Marek Ironheart represents the rugged traditions of the Farstrider Lodge, challenging hunters to prove their accuracy and tracking skills against the local wildlife."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Marek exemplifies the outdoorsman culture cherished by many Khaz Modan dwarves, choosing the quiet watch of the mountains over the noisy forge fires of Ironforge."
+  }
+ ],
+ "keywords": [
+  "crocolisk hunting",
+  "farstrider lodge",
+  "hunter",
+  "hunting",
+  "ironheart",
+  "loch modan",
+  "marek ironheart"
+ ],
+ "related": [
+  "subzone:farstrider-lodge",
+  "zone:lochmodan",
+  "quest:385",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Marek Ironheart"
+ ]
+}

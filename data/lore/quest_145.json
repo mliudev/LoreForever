@@ -1,0 +1,118 @@
+{
+ "key": "quest:145",
+ "type": "quest",
+ "name": "Messenger to Darkshire",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   145
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Magistrate Solomon",
+  "end": "Lord Ello Ebonlocke",
+  "previous": "Messenger to Westfall (2)",
+  "next": "Messenger to Darkshire (2)",
+  "wiki": "Messenger to Darkshire",
+  "chain": []
+ },
+ "summary": "Messenger to Darkshire is an urgent diplomatic mission sent by Magistrate Solomon of Lakeshire to Lord Ello Ebonlocke in Duskwood. Desperate for military reinforcement against the Blackrock orcs and gnolls threatening Redridge, Solomon turns to his neighboring settlement for aid. The courier must brave the shadowed highways of Duskwood to deliver Solomon's formal plea to the mayor of Darkshire.",
+ "sections": [
+  {
+   "title": "A Desperate Call for Aid",
+   "body": "With Stormwind's royal court ignoring his pleas and neighboring Westfall bogged down in its own insurrection, Magistrate Solomon looks south to Duskwood. Redridge faces a mounting siege from the Blackrock orc clans and aggressive gnoll packs, leaving Lakeshire's local guards stretched to their breaking point. In desperation, Solomon pens a letter directly to Mayor Ello Ebonlocke, hoping to hire or borrow Darkshire's vaunted Night Watch to reinforce the town's perimeter.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road into the Gloom",
+   "body": "Carrying Solomon's letter requires crossing the borders of the kingdom into Duskwood, a forested region shrouded in supernatural gloom. Solomon warns couriers to stick strictly to the roads, as the wilderness between Lakeshire and Darkshire has become notoriously perilous. Reaching Town Hall in Darkshire places the missive into the hands of Lord Ebonlocke, though whether Duskwood has any forces to spare remains an entirely separate question.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Lakeshire asking Darkshire for help?",
+   "aliases": [
+    "why ask duskwood",
+    "why darkshire",
+    "solomon darkshire plea"
+   ],
+   "answer": "Stormwind has withheld formal military assistance, leaving towns like Lakeshire to defend themselves against overwhelming threats like the Blackrock orcs. Magistrate Solomon is trying every nearby Alliance ally, hoping Darkshire's civic militia, the Night Watch, might have trained fighters to lend."
+  },
+  {
+   "q": "Who is Lord Ello Ebonlocke?",
+   "aliases": [
+    "ello ebonlocke",
+    "who is ebonlocke",
+    "mayor of darkshire"
+   ],
+   "answer": "Lord Ello Ebonlocke is the mayor of Darkshire and the prominent civilian leader of Duskwood. He oversees the town from the town hall and coordinates civic affairs alongside Commander Althea Ebonlocke, who commands the Night Watch."
+  },
+  {
+   "q": "What is the Night Watch?",
+   "aliases": [
+    "night watch duskwood",
+    "who are night watch"
+   ],
+   "answer": "The Night Watch is Darkshire's independent civilian militia, established to patrol the perimeter and fight off the undead, beasts, and shadows creeping through Duskwood in the absence of Stormwind garrison troops."
+  },
+  {
+   "q": "Why does Solomon warn me to stay on the roads?",
+   "aliases": [
+    "duskwood road warning",
+    "stay on roads duskwood"
+   ],
+   "answer": "Duskwood's wilderness is thick with undead horrors, spiders, and feral beasts. Straying into the underbrush off the paved highway exposes travelers to aggressive predators and ambushes."
+  },
+  {
+   "q": "Where did this questline start?",
+   "aliases": [
+    "previous quest",
+    "messenger quest order"
+   ],
+   "answer": "This quest is part of Magistrate Solomon's series of desperate missives. It follows his previous plea sent to Gryan Stoutmantle in Westfall, continuing his exhaustive effort to recruit aid for Lakeshire."
+  },
+  {
+   "q": "Does Darkshire actually have guards to spare?",
+   "aliases": [
+    "will darkshire help",
+    "does ebonlocke send guards"
+   ],
+   "answer": "Duskwood is dealing with its own existential crisis, beset by the risen dead, rogue worgen, and lurking monstrosities. The Night Watch barely possesses enough fighters to defend Darkshire itself, making Solomon's plea a bitter long shot."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Solomon's frantic letters highlight how fractured and neglected the outlying Alliance towns have become while Stormwind's royal court remains paralyzed."
+  },
+  {
+   "target": "race:Human",
+   "text": "The mission illustrates the shared plight of southern human settlements, each forced to rely on irregular local militias after the kingdom withdrew regular army patrols."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "duskwood",
+  "ebonlocke",
+  "lakeshire",
+  "messenger",
+  "night watch",
+  "redridge",
+  "solomon"
+ ],
+ "related": [
+  "npc:magistrate-solomon",
+  "npc:lord-ello-ebonlocke",
+  "subzone:lakeshire",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "zone:redridge",
+  "topic:night-watch",
+  "quest:56"
+ ],
+ "attribution": [
+  "Messenger to Darkshire"
+ ]
+}

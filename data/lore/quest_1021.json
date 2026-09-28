@@ -1,0 +1,128 @@
+{
+ "key": "quest:1021",
+ "type": "quest",
+ "name": "Vile Satyr! Dryads in Danger!",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1021
+  ],
+  "level": "32",
+  "faction": "Alliance",
+  "start": "Illiyana",
+  "end": "Anilia",
+  "previous": null,
+  "next": "The Branch of Cenarius (Classic)",
+  "wiki": "Vile Satyr! Dryads in Danger! (Classic)",
+  "chain": [
+   "Vile Satyr! Dryads in Danger! (Classic)",
+   "The Branch of Cenarius (Classic)"
+  ]
+ },
+ "summary": "Vile Satyr! Dryads in Danger! is an urgent Alliance quest begun in Ashenvale by the dryad Illiyana. Desperate for aid, she recruits travelers to search for her missing sisters who ventured into the corrupted ruins of Xavian to recover a stolen sacred relic.",
+ "sections": [
+  {
+   "title": "A Desperate Sister",
+   "body": "While resting in Ashenvale, the dryad Illiyana finds herself overwhelmed with worry. A band of her dryad sisters departed into the corrupted northern reaches of the forest on a perilous mission to recover the Branch of Cenarius, a holy relic stolen by the vile satyrs. Though they promised to return swiftly, two days have passed in silence, prompting Illiyana to plead with passing Alliance travelers to track them down before it is too late.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ruins of Xavian",
+   "body": "The dryads directed their journey toward Xavian, an ancient night elf temple complex to the northwest that has long fallen under the shadow of the Burning Legion's lingering corruption. Swarming with fel-tainted satyrs, Xavian is an exceptionally dangerous hunting ground. Venturing deep into these ruins leads directly to Anilia, the leader of the dryad expedition, who lies gravely wounded and near death after suffering the brutal wrath of the ruins' demonic inhabitants.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Illiyana?",
+   "aliases": [
+    "illiyana",
+    "who gives vile satyr dryads in danger",
+    "quest giver"
+   ],
+   "answer": "Illiyana is a dryad living in the forests of Ashenvale. Anxious over the fate of her sisters, she sends travelers toward the ruins of Xavian to search for their missing party."
+  },
+  {
+   "q": "What is the Branch of Cenarius?",
+   "aliases": [
+    "branch of cenarius",
+    "what relic were they looking for",
+    "dryad artifact"
+   ],
+   "answer": "The Branch of Cenarius is a sacred relic deeply precious to the dryads and night elves. Satyrs in northern Ashenvale stole it, prompting Anilia and her sisters to stage a dangerous retrieval mission into Xavian."
+  },
+  {
+   "q": "What is Xavian?",
+   "aliases": [
+    "xavian",
+    "ruins of xavian",
+    "where are the dryads"
+   ],
+   "answer": "Xavian is the ruins of an ancient night elf temple located in northwestern Ashenvale. Overrun by demonic satyrs, the site is steeped in fel corruption and hostility toward nature's protectors."
+  },
+  {
+   "q": "Who is Anilia?",
+   "aliases": [
+    "anilia",
+    "missing dryad leader",
+    "where is anilia"
+   ],
+   "answer": "Anilia is a dryad who led the search party to reclaim the Branch of Cenarius from the satyrs. Travelers find her inside the corrupted ruins of Xavian, grievously injured and clinging to life."
+  },
+  {
+   "q": "Why are the dryads in conflict with the satyr?",
+   "aliases": [
+    "why do dryads hate satyrs",
+    "dryad satyr war",
+    "satyr corruption"
+   ],
+   "answer": "Dryads are the daughters of the demigod Cenarius, dedicated to preserving nature and the balance of the forest. Satyrs are ancient night elves twisted by demonic fel magic who actively corrupt the wilderness and desecrate sacred groves."
+  },
+  {
+   "q": "What quest follows this one?",
+   "aliases": [
+    "next quest",
+    "dryads in danger chain",
+    "after vile satyr"
+   ],
+   "answer": "Finding Anilia completes this search and immediately leads into 'The Branch of Cenarius', where the dying dryad asks you to avenge her fallen kin and finish their mission to recover the relic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The dryads are the sacred daughters of Cenarius, making their distress and the defilement of ancient elven temples in Xavian a matter of personal honor and spiritual duty."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids share a deep kinship with the children of Cenarius and are sworn to cleanse the demonic corruption spreading from satyr strongholds like Xavian."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Helping Illiyana strengthens the Alliance's bond with the mystical denizens of Ashenvale amid escalating regional threats."
+  }
+ ],
+ "keywords": [
+  "anilia",
+  "ashenvale",
+  "branch of cenarius",
+  "cenarius",
+  "dryad",
+  "illiyana",
+  "satyr",
+  "xavian"
+ ],
+ "related": [
+  "quest:1031",
+  "subzone:xavian",
+  "topic:satyr",
+  "topic:cenarius",
+  "npc:illiyana",
+  "zone:ashenvale",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Vile Satyr! Dryads in Danger! (Classic)"
+ ]
+}

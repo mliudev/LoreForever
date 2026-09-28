@@ -1,0 +1,123 @@
+{
+ "key": "quest:6130",
+ "type": "quest",
+ "name": "Power over Poison",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   6130
+  ],
+  "level": "14",
+  "faction": "Horde",
+  "start": "Dendrite Starblaze",
+  "end": "Turak Runetotem",
+  "previous": "Curing the Sick (Horde)",
+  "next": null,
+  "wiki": "Power over Poison (Horde)",
+  "chain": []
+ },
+ "summary": "Power over Poison is the concluding rite in a young Horde druid's trial to master restorative nature magic. Having cured afflicted gazelles around the Crossroads using only herbal mixtures, the initiate returns to Turak Runetotem on Thunder Bluff's Elder Rise to receive the true gift of Cure Poison.",
+ "sections": [
+  {
+   "title": "A Lesson in Suffering",
+   "body": "Before granting a fledgling druid the innate magical power to cleanse venoms, the Cenarion Circle demands they understand the physical reality of affliction. In Moonglade, Dendrite Starblaze required the novice to gather earthly reagents and craft a salving curat by hand. Only by treating the poisoned plains gazelles of the Barrens without spiritual aid does the student witness the agonizing struggle ordinary creatures face against natural and unnatural toxins.",
+   "spoiler": 0
+  },
+  {
+   "title": "Return to the Elder Rise",
+   "body": "With the trial complete, Dendrite sends the initiate back to Turak Runetotem, the grand druid trainer residing on the Elder Rise in Thunder Bluff. Turak observes that the strange, virulent poisons surfacing near the Crossroads threaten the natural balance of the plains and warrant grave concern. Commending the initiate's grace under pressure, Turak permanently imparts the spiritual art of curing poisons, entrusting them to safeguard Kalimdor's living creatures.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do power over poison",
+    "what does this quest do",
+    "druid poison quest purpose"
+   ],
+   "answer": "This quest marks the completion of the Horde druid trial for curing venoms. After demonstrating discipline by preparing mundane remedies to save suffering gazelles, the initiate returns to Turak Runetotem to learn the Cure Poison spell directly through druidic communion."
+  },
+  {
+   "q": "Where is Turak Runetotem located?",
+   "aliases": [
+    "turak runetotem location",
+    "where is turak",
+    "find turak runetotem"
+   ],
+   "answer": "Turak Runetotem resides atop the Elder Rise in Thunder Bluff. He makes his home within the tent and hollowed roosts where the tauren druids commune and train."
+  },
+  {
+   "q": "Who sends the druid back to Thunder Bluff?",
+   "aliases": [
+    "who gives power over poison",
+    "quest giver",
+    "dendrite starblaze"
+   ],
+   "answer": "Dendrite Starblaze, a night elf druid of the Cenarion Circle stationed in the sacred haven of Moonglade, sends the initiate back to their mentor once they successfully heal the wildlife near the Crossroads."
+  },
+  {
+   "q": "Why did the Cenarion Circle make the druid cure beasts manually first?",
+   "aliases": [
+    "why cure sick manually",
+    "why use salves first",
+    "druid poison lesson"
+   ],
+   "answer": "Dendrite Starblaze emphasizes that a druid must understand what it means to cure venom through sheer labor and mortal limitations before wielding effortless spiritual magic. Experiencing the plight of afflicted creatures teaches empathy and respect for the natural balance."
+  },
+  {
+   "q": "What concerns Turak Runetotem about the Crossroads?",
+   "aliases": [
+    "turak crossroads concern",
+    "crossroads poison balance"
+   ],
+   "answer": "Turak notes with deep concern that unnatural, aggressive venoms are being introduced to the Barrens wildlife near the Crossroads. He considers such pollution a grave disruption to the balance of the land that demands future vigilance."
+  },
+  {
+   "q": "Is this quest available to Alliance druids?",
+   "aliases": [
+    "can night elves do this",
+    "alliance power over poison"
+   ],
+   "answer": "Alliance druids undertake a parallel trial with the same name. Instead of reporting to Turak Runetotem on the Elder Rise, night elf initiates conclude their lesson by returning to Mathrengyl Bearwalker in Darnassus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This rite of passage bridges the physical herbalism of Kalimdor with innate nature magic, granting druids their permanent ability to purge toxins from allies."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For tauren initiates, completing this quest proves their dedication to the Cenarion Circle while keeping the wisdom of the Earth Mother alive upon the Elder Rise."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The trials surrounding the Crossroads demonstrate the Horde's growing role in safeguarding the wild expanses of central Kalimdor from unnatural corruption."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "cure poison",
+  "dendrite starblaze",
+  "elder rise",
+  "moonglade",
+  "thunder bluff",
+  "turak runetotem"
+ ],
+ "related": [
+  "npc:turak-runetotem",
+  "npc:dendrite-starblaze",
+  "subzone:elder-rise",
+  "zone:thunderbluff",
+  "topic:druid",
+  "subzone:crossroads",
+  "quest:6125"
+ ],
+ "attribution": [
+  "Power over Poison (Horde)"
+ ]
+}

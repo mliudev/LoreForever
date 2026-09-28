@@ -1,0 +1,124 @@
+{
+ "key": "quest:2282",
+ "type": "quest",
+ "name": "Alther's Mill",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   2282
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Lucius",
+  "end": "",
+  "previous": "Redridge Rendezvous",
+  "next": null,
+  "wiki": "Alther's Mill (quest)",
+  "chain": [
+   "SI:7 (quest)",
+   "Redridge Rendezvous",
+   "Alther's Mill (quest)"
+  ]
+ },
+ "summary": "Alther's Mill is a pivotal training assignment given to Alliance rogues by Lucius in Lakeshire. Dispatched to the nearby mill with a set of thieves' tools, initiates are tasked with infiltrating an area under Blackrock orc scrutiny to crack a locked chest and retrieve a token of thievery.",
+ "sections": [
+  {
+   "title": "A Test of Grace and Finesse",
+   "body": "In Lakeshire, rogue instructors do not bother with abstract lectures when a locked chest can teach the lesson faster. Lucius sends promising operatives northeast along the road to Alther's Mill, equipping them with their first set of thieves' tools. To earn their formal Certificate of Thievery, novices must slip into the abandoned mill, pick open Lucius's personal lockbox, and bring back the token cached within.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows Around the Saws",
+   "body": "While Alther's Mill was once an ordinary lumber outpost, it has recently drawn the dangerous attention of the Blackrock orcs encroaching upon Redridge. Lucius gleefully treats the encroaching warmongers as an added layer of practical examination. Prowling through enemy-held territory to pick locks undetected is precisely the kind of trial SI:7 expects its agents to survive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the mission to Alther's Mill?",
+   "aliases": [
+    "why go to althers mill",
+    "quest purpose",
+    "what does this quest do"
+   ],
+   "answer": "It serves as the practical field examination for Alliance rogues learning the art of lockpicking. Lucius provides you with thieves' tools and requires you to retrieve a specific token from a locked footlocker to prove your finesse."
+  },
+  {
+   "q": "Who is Lucius?",
+   "aliases": [
+    "who is lucius",
+    "lucius lakeshire",
+    "who gives this quest"
+   ],
+   "answer": "Lucius is a seasoned rogue trainer operating out of Lakeshire in the Redridge Mountains. He has spent years schooling roguish recruits sent his way by contacts throughout the Alliance, testing their stealth and manual dexterity."
+  },
+  {
+   "q": "Where is Alther's Mill located?",
+   "aliases": [
+    "where is the mill",
+    "althers mill location",
+    "how do i find althers mill"
+   ],
+   "answer": "Alther's Mill lies just off the road slightly northeast and east of Lakeshire, nestled against the foothills before the higher mountain passes."
+  },
+  {
+   "q": "Why are there orcs around Alther's Mill?",
+   "aliases": [
+    "why are orcs here",
+    "blackrock orcs redridge",
+    "who controls althers mill"
+   ],
+   "answer": "Blackrock clan orcs have descended from the heights of Stonewatch and the burning ridges above, raiding human settlements and establishing forward footholds throughout Redridge, including the area around the abandoned mill."
+  },
+  {
+   "q": "What reward does Lucius grant upon completing the task?",
+   "aliases": [
+    "what is the reward",
+    "certificate of thievery",
+    "quest completion reward"
+   ],
+   "answer": "Lucius awards you the Certificate of Thievery, acknowledging that you have mastered the basics of tumblers and lockpicks and can now operate as a fully certified field rogue."
+  },
+  {
+   "q": "How does this quest fit into rogue training across the Alliance?",
+   "aliases": [
+    "rogue quest chain",
+    "si7 connection",
+    "redridge rendezvous followup"
+   ],
+   "answer": "Rogues across Alliance lands are directed by contacts like Mathias Shaw's SI:7 handlers in Stormwind to rendezvous with Lucius in Lakeshire. The assignment to Alther's Mill forms the practical climax of their fundamental field training."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This rite of passage provides your essential lockpicking tools and field credentials, testing your patience and stealth amidst patrolling Blackrock orcs."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Training specialized thieves and infiltrators on the fringes of Lakeshire bolsters Alliance intelligence while keeping a close eye on Blackrock movements."
+  }
+ ],
+ "keywords": [
+  "alther's mill",
+  "blackrock orcs",
+  "lakeshire",
+  "lockpicking",
+  "lucius",
+  "redridge mountains",
+  "si:7",
+  "thieves tools",
+  "token of thievery"
+ ],
+ "related": [
+  "npc:lucius",
+  "quest:2281",
+  "quest:2300",
+  "subzone:lakeshire",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Alther's Mill (quest)"
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "key": "quest:5637",
+ "type": "quest",
+ "name": "Desperate Prayer",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   5637
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Maxan Anvol",
+  "end": "High Priestess Laurena",
+  "previous": null,
+  "next": null,
+  "wiki": "Desperate Prayer (Kharanos)",
+  "chain": []
+ },
+ "summary": "Desperate Prayer is a rite of passage quest calling promising dwarven priests from Dun Morogh to the grand Cathedral of Light in Stormwind. High Priestess Laurena summons rising acolytes to advance their spiritual devotion and unlock specialized holy techniques. It marks a priest's transition from local training into the wider service of the Alliance.",
+ "sections": [
+  {
+   "title": "A Summons to the Cathedral",
+   "body": "Priests who begin their service among the snows of Dun Morogh eventually outgrow the instruction of local mentors like Maxan Anvol in Kharanos. When an acolyte shows true promise, a formal summons arrives from High Priestess Laurena herself. Such direct attention from the leadership of the Cathedral of Light signifies that the young priest is ready for deeper mysteries and greater responsibilities within the faith.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bonds Across Kingdoms",
+   "body": "While Ironforge maintains its own holy traditions in the High Seat, the Church of the Holy Light in Stormwind serves as a central spiritual heart for humans and dwarves alike. Journeying south via the Deeprun Tram connects dwarven acolytes to the broader ecclesiastical community, solidifying the shared spiritual brotherhood between the two allied kingdoms.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is High Priestess Laurena calling dwarven priests to Stormwind?",
+   "aliases": [
+    "why laurena call me",
+    "why go to stormwind priest",
+    "who is high priestess laurena"
+   ],
+   "answer": "High Priestess Laurena oversees advanced religious instruction at the Cathedral of Light. When local tutors like Maxan Anvol see that an acolyte has mastered basic tenets, they send them to Laurena to receive specialized training in potent techniques like the Desperate Prayer."
+  },
+  {
+   "q": "What is Desperate Prayer in the lore?",
+   "aliases": [
+    "desperate prayer lore",
+    "what is desperate prayer",
+    "how does desperate prayer work"
+   ],
+   "answer": "Desperate Prayer is an emergency invocation practiced by human and dwarven clerics of the Holy Light. When pushed to the brink of death, the priest releases an instinctive, urgent cry of faith that immediately knits wounds and restores vitality."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "quest location",
+    "where do i go",
+    "where is laurena"
+   ],
+   "answer": "The summons begins in Kharanos in Dun Morogh, where Maxan Anvol instructs you to travel to Stormwind City. It finishes inside the Cathedral of Light in Stormwind's Cathedral Square, where High Priestess Laurena presides."
+  },
+  {
+   "q": "Why would a dwarf priest train under a human High Priestess?",
+   "aliases": [
+    "why human trainer dwarf",
+    "dwarf church of light",
+    "ironforge vs stormwind light"
+   ],
+   "answer": "Dwarves and humans share the same faith in the Holy Light, a bond strengthened during the Second War. While dwarven priests often serve in Ironforge's High Seat, the Cathedral of Light in Stormwind is one of the faith's foremost centers, welcoming all Alliance practitioners of the Light."
+  },
+  {
+   "q": "How should a young traveler reach Stormwind from Dun Morogh?",
+   "aliases": [
+    "how to get to stormwind",
+    "travel to stormwind dwarf",
+    "deeprun tram"
+   ],
+   "answer": "The fastest and safest route is through Ironforge's Tinker Town, where the Deeprun Tram provides direct subterranean transit directly beneath the mountains into Stormwind's Dwarven District."
+  },
+  {
+   "q": "Who is Maxan Anvol?",
+   "aliases": [
+    "maxan anvol lore",
+    "who gave quest",
+    "kharanos priest trainer"
+   ],
+   "answer": "Maxan Anvol is a dwarven priest trainer stationed at Kharanos in Dun Morogh. He watches over fledgling clerics, teaching them fundamentals until they are disciplined enough to study under senior church leadership in Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This quest represents a milestone in your spiritual journey, bridging basic parish duty with advanced holy techniques taught directly by the Church's leadership."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Traveling to Stormwind's Cathedral reinforces the shared spiritual covenant between the mountain kingdom of Ironforge and the human realm of Stormwind."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Spiritual cooperation between Ironforge and Stormwind ensures that practitioners of the Light stand united across racial borders."
+  }
+ ],
+ "keywords": [
+  "cathedral of light",
+  "desperate prayer",
+  "dun morogh",
+  "kharanos",
+  "laurena",
+  "maxan anvol",
+  "priest",
+  "stormwind"
+ ],
+ "related": [
+  "npc:high-priestess-laurena",
+  "npc:maxan-anvol",
+  "subzone:cathedral-of-light",
+  "topic:light",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Desperate Prayer (Kharanos)"
+ ]
+}

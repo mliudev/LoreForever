@@ -1,0 +1,102 @@
+{
+ "key": "subzone:morgan-s-vigil",
+ "type": "subzone",
+ "name": "Morgan's Vigil",
+ "era": "classic",
+ "zone": "burningsteppes",
+ "meta": {
+  "wiki": "Morgan's Vigil"
+ },
+ "summary": "Morgan's Vigil is a ruined Alliance redoubt nestled in the southeastern heights of the Burning Steppes. Once a small village, its charred homes and shattered wizard's tower now serve as an austere forward camp for scouts watching the passes to Blackrock Mountain. It remains the sole Alliance foothold in an ash-choked land dominated by Dark Iron dwarves and Blackrock orcs.",
+ "sections": [
+  {
+   "title": "The Last Hearth in the Steppes",
+   "body": "Perched upon high stone overlooking the fiery wastes, Morgan's Vigil was once a modest settlement before the horrors of the Burning Steppes overran it. Today, charred timbers and the cracked shell of a ruined mage tower stand as grim reminders of the onslaught. The remaining defenders make do beneath rough canvas tents pitched amid the soot. Despite the ruin, the camp retains a gryphon roost, offering an unbroken aerial link back across the mountains to Stormwind City. It serves as a desperately needed haven where scouts, marshals, and passing adventurers catch their breath away from the marauding warbands below.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Long Watch",
+   "body": "The outpost draws its name and purpose from the vigilance kept against the looming threat of Blackrock Mountain. With the Dark Iron clan delving deep into dark sorceries and the Blackrock orcs claiming the surrounding wastes, the camp acts as a forward staging ground. However, the outpost has thinned out; key veterans and Morgan herself have departed to confront the shadow directly within the caverns of the mountain. Those left behind maintain the camp's defenses, coordinate scouting runs across the ash, and secure the vital pass leading south into Redridge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the buildings here?",
+   "aliases": [
+    "why is morgans vigil burned",
+    "ruins at morgans vigil",
+    "who destroyed morgans vigil"
+   ],
+   "answer": "The settlement was largely burned to the ground by hostile forces roaming the Burning Steppes, likely Blackrock orcs or Dark Iron dwarves. The stone shell of the collapsed mage tower and charred wood foundations are all that survive, forcing the current garrison to sleep under canvas tents."
+  },
+  {
+   "q": "Who is Morgan?",
+   "aliases": [
+    "who is morgan",
+    "morgans vigil namesake",
+    "where is morgan"
+   ],
+   "answer": "Morgan is the commander after whom the vigil is named. Rather than remaining safely within the camp, she and several veteran companions pushed onward into the depths of Blackrock Mountain to confront the menace at its source."
+  },
+  {
+   "q": "Why does the Alliance maintain this camp?",
+   "aliases": [
+    "why alliance here",
+    "morgans vigil purpose",
+    "why keep morgans vigil"
+   ],
+   "answer": "It serves as the Alliance's only fortified vantage point in the Burning Steppes, guarding the northern pass to Redridge and keeping watch over troop movements around Blackrock Mountain while receiving swift supplies and reinforcements directly from Stormwind."
+  },
+  {
+   "q": "How can I travel to and from Morgan's Vigil?",
+   "aliases": [
+    "morgans vigil flight master",
+    "how to get to morgans vigil",
+    "flight paths morgans vigil"
+   ],
+   "answer": "The outpost maintains an Alliance gryphon master connecting directly to Stormwind City, Dragon's Mouth, Chiselgrip, and Thorium Point across the Searing Gorge."
+  },
+  {
+   "q": "Is Morgan's Vigil safe from attack?",
+   "aliases": [
+    "is morgans vigil contested",
+    "can horde enter morgans vigil",
+    "safe zone"
+   ],
+   "answer": "It is heavily guarded by Alliance sentries, but the perimeter is constantly exposed to wandering beasts, fiery elementals, and raiding orcs lurking just outside the ridge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This battered bluff is your solitary safe sanctuary in the Burning Steppes, linking directly by flight to Stormwind City while marshaling resistance against the Dark Iron and Blackrock threats."
+  },
+  {
+   "target": "race:Human",
+   "text": "Holding this ridge prevents the horrors spawned beneath Blackrock Mountain from pouring unchecked through the pass into the vulnerable valleys of Redridge and the heart of Stormwind."
+  }
+ ],
+ "keywords": [
+  "alliance outpost",
+  "blackrock mountain",
+  "burning steppes",
+  "gryphon master",
+  "mage tower",
+  "morgans vigil",
+  "ruins"
+ ],
+ "related": [
+  "zone:burningsteppes",
+  "subzone:blackrock-mountain",
+  "zone:stormwind",
+  "subzone:thorium-point",
+  "subzone:dragon-s-mouth",
+  "subzone:chiselgrip",
+  "topic:alliance",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Morgan's Vigil"
+ ]
+}

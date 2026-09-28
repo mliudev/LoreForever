@@ -1,0 +1,116 @@
+{
+ "key": "npc:great-father-winter",
+ "type": "npc",
+ "name": "Great-father Winter",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Great-father Winter",
+  "refs": 3
+ },
+ "summary": "Great-father Winter is an elderly orc hired by the Smokywood Pastures merchant company to pose as the legendary holiday figure in Orgrimmar. Stationed near Grommash Hold in the Valley of Strength during the Feast of Winter Veil, he listens to children's wishes while visibly growing weary of commercial holiday cheer. In exchange for holiday gifts and seasonal tasks, he routinely asks passersby for gingerbread cookies and ice cold milk.",
+ "sections": [
+  {
+   "title": "A Hired Myth",
+   "body": "While ancient lore speaks of Greatfather Winter as a majestic, elemental spirit wandering the land bringing snow and seasonal renewal, the figure sitting in the Valley of Strength is rather more mundane. He is an orc performer on the payroll of Smokywood Pastures, hired specifically to drive commerce, promote company wares, and entertain the youth of the Horde. Critics grumble that this commercial mascot cheapens genuine seasonal traditions, but few can deny the festive buzz he brings to the city streets.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shift Work in the Valley of Strength",
+   "body": "Stationed right outside Grommash Hold beneath the boughs of decorated evergreens, this stand-in endures an exhausting shift of children clambering onto his lap to state their gift demands. Between corporate plug drops for Smokywood Pastures discounts and half-hearted holiday greetings, his endurance frequently wanes. He openly admits to keeping a bottle of festive spirits stashed in his pack to drown out the noise as soon as his shift finishes, relying heavily on visiting adventurers to deliver snacks to keep him going.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is this the real Greatfather Winter?",
+   "aliases": [
+    "is he real",
+    "who is great-father winter",
+    "is he an actor"
+   ],
+   "answer": "No. He is an ordinary orc hired by Smokywood Pastures to dress up, pose as the legendary Winter Veil figure, and hand out holiday promotions in Orgrimmar."
+  },
+  {
+   "q": "Where can I find Great-father Winter in Orgrimmar?",
+   "aliases": [
+    "great-father winter location",
+    "where is great father winter",
+    "where to find winter orc"
+   ],
+   "answer": "He can be found in the Valley of Strength, set up just outside the entrance to Grommash Hold by the Feast of Winter Veil tree and holiday stalls."
+  },
+  {
+   "q": "What does he do during the Feast of Winter Veil?",
+   "aliases": [
+    "what does he do",
+    "great-father winter purpose",
+    "winter veil quests"
+   ],
+   "answer": "He entertains holiday-goers, listens to children's gift requests, gives out Smokywood Pastures promotional tasks, and hands out festive presents under the tree once the holiday peaks."
+  },
+  {
+   "q": "Why does he want gingerbread cookies and milk?",
+   "aliases": [
+    "treats for great father winter",
+    "why milk and cookies",
+    "gingerbread quest"
+   ],
+   "answer": "Enduring loud crowds and back-to-back children on his lap all day leaves him completely drained. He asks adventurers to bring him fresh gingerbread cookies and milk to keep his energy up through the shift."
+  },
+  {
+   "q": "What does he think of his job?",
+   "aliases": [
+    "does he like his job",
+    "great-father winter quotes",
+    "is he drunk"
+   ],
+   "answer": "He finds the performance tedious and draining. He openly grumbles about eager children, rushes through corporate slogans, and eagerly counts down the minutes until he can drink from a bottle of cheer tucked away in his bag."
+  },
+  {
+   "q": "Does the Alliance have an equivalent figure?",
+   "aliases": [
+    "alliance greatfather",
+    "ironforge santa",
+    "alliance counterpart"
+   ],
+   "answer": "Yes. The Alliance has Greatfather Winter, an elderly dwarf employed by Smokywood Pastures who sits near the holiday tree in the Commons of Ironforge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "He serves as the primary seasonal figurehead for the Horde in Orgrimmar, offering festival gifts and tasks on behalf of Smokywood Pastures."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Chefs can bake gingerbread cookies using festive holiday recipes and deliver them alongside milk directly to Great-father Winter to restore his spirits."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Though orcs revere seasonal shifts and the elements, seeing one of their own reduced to a costumed mascot peddling vendor discounts tests the patience of traditionalists."
+  }
+ ],
+ "keywords": [
+  "gingerbread cookies",
+  "great-father winter",
+  "greatfather winter",
+  "orgrimmar",
+  "smokywood pastures",
+  "valley of strength",
+  "winter veil"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "subzone:valley-of-strength",
+  "subzone:grommash-hold",
+  "quest:6962",
+  "quest:6984",
+  "quest:8827",
+  "npc:greatfather-winter",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Great-father Winter"
+ ]
+}

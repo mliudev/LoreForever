@@ -1,0 +1,75 @@
+{
+ "key": "npc:rema-schneider",
+ "type": "npc",
+ "name": "Rema Schneider",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Rema Schneider",
+  "refs": 2
+ },
+ "summary": "Rema Schneider is a human citizen who works out of the Canal Tailor and Fit Shop in Stormwind City. Situated along the quiet waterways between the major districts, she frequently assists local shopkeepers and artisans with trade deliveries.",
+ "sections": [
+  {
+   "title": "Shopkeeper of the Canals",
+   "body": "Tucked away in the Canal Tailor and Fit Shop, positioned just west of the stone bridge leading across to Cathedral Square, Rema Schneider manages the daily needs of urban trade. Like many skilled artisans and assistants across the city, her work keeps cloth and finished garments moving between local craftsmen, relying on helpful couriers to carry supplies between workshops.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Rema Schneider located?",
+   "aliases": [
+    "rema schneider location",
+    "where is rema",
+    "find rema schneider"
+   ],
+   "answer": "Rema Schneider works inside the Canal Tailor and Fit Shop in Stormwind City. The shop sits along the northern waterways, just west of the bridge that crosses into Cathedral Square."
+  },
+  {
+   "q": "What role does Rema play in Stormwind?",
+   "aliases": [
+    "who is rema schneider",
+    "what does rema do",
+    "rema schneider purpose"
+   ],
+   "answer": "She acts as a contact and quest giver for local trade errands, helping coordinate supply packages and resupply orders between merchants and craftspeople across the city."
+  },
+  {
+   "q": "Does Rema teach tailoring?",
+   "aliases": [
+    "is rema a tailor trainer",
+    "rema tailoring training"
+   ],
+   "answer": "No, while she works out of the Canal Tailor and Fit Shop and handles shipments of tailor goods, she is not a profession trainer or primary vendor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "Rema works inside the Canal Tailor and Fit Shop, serving as an everyday fixture in Stormwind's clothworking trade."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Travelers and new recruits in Stormwind often run simple courier tasks for Rema while getting their bearings in the capital."
+  }
+ ],
+ "keywords": [
+  "canal tailor",
+  "harlan needs a resupply",
+  "package for thurman",
+  "rema schneider",
+  "stormwind canals"
+ ],
+ "related": [
+  "quest:333",
+  "quest:334",
+  "zone:stormwind",
+  "subzone:canals-stormwind-city",
+  "subzone:cathedral-square",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Rema Schneider"
+ ]
+}

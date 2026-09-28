@@ -1,0 +1,127 @@
+{
+ "key": "quest:633",
+ "type": "quest",
+ "name": "The Thandol Span",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   633
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Rhag Garmason",
+  "end": "",
+  "previous": "The Thandol Span (2)",
+  "next": "Plea To The Alliance",
+  "wiki": "The Thandol Span (3)",
+  "chain": [
+   "The Thandol Span",
+   "The Thandol Span (2)",
+   "The Thandol Span (3)",
+   "Plea To The Alliance"
+  ]
+ },
+ "summary": "This critical Alliance mission tasks champions with defending the sole surviving bridge across the Thandol Span. Following the tragic murder of Ebon Rustlocke, Rhag Garmason discovers a plot by the traitorous Kam Deepfury to detonate hidden explosives and sever Ironforge's vital connection to the north.",
+ "sections": [
+  {
+   "title": "A Plot Revealed",
+   "body": "After discovering the grim fate of Ebon Rustlocke within the Thandol Span's substructure, a recovered document brings darker intentions to light. The Dark Iron agitator Kam Deepfury, architect of the bridge's initial destruction, was not finished. Having already collapsed one of the grand stone crossings, his sabotage network planted a second cache of heavy munitions just across the northern border in the Arathi Highlands, poised to finish the job.",
+   "spoiler": 0
+  },
+  {
+   "title": "Saving the Lifeline",
+   "body": "The Thandol Span is the primary overland corridor linking the southern kingdoms of Khaz Modan and Stormwind to the war-torn territories of the north. To safeguard this route, Rhag Garmason orders an immediate preemptive strike against the sabotage cache in Arathi before Deepfury's conspirators can deploy it. Detonating the munitions neutralizes the immediate peril, preserving Ironforge's access to the north, though Garmason remains desperately short of troops to defend the gap.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kam Deepfury?",
+   "aliases": [
+    "kam deepfury",
+    "who bombed thandol span",
+    "thandol span mastermind"
+   ],
+   "answer": "Kam Deepfury is the Dark Iron dwarf mastermind who orchestrated the sabotage of the Thandol Span. Not satisfied with collapsing the first arch, he cached additional explosives across the chasm in the Arathi Highlands to bring down the remaining bridge."
+  },
+  {
+   "q": "Why is the Thandol Span so strategically vital?",
+   "aliases": [
+    "why is thandol span important",
+    "thandol span lore"
+   ],
+   "answer": "The Span is the sole terrestrial bridge spanning the immense chasm between the Wetlands and the Arathi Highlands. If severed, the Alliance would lose its primary overland supply route between Ironforge, Stormwind, and their allies holding ground in northern Lordaeron."
+  },
+  {
+   "q": "What happened to Ebon Rustlocke?",
+   "aliases": [
+    "ebon rustlocke death",
+    "who was rustlocke"
+   ],
+   "answer": "Ebon Rustlocke was an Ironforge defender murdered in the depths beneath the bridge. It was from his investigation and the papers recovered from his demise that Rhag Garmason uncovered Deepfury's hidden explosive cache."
+  },
+  {
+   "q": "Where is the cache of explosives hidden?",
+   "aliases": [
+    "explosives location",
+    "where are the explosives",
+    "cache location"
+   ],
+   "answer": "The explosives were hidden in a cache just across the span on the Arathi Highlands side, placed close enough for Deepfury's conspirators to quickly transport them to the surviving span structure."
+  },
+  {
+   "q": "Who gives the order to destroy the explosives?",
+   "aliases": [
+    "who starts this quest",
+    "rhag garmason"
+   ],
+   "answer": "Rhag Garmason, a dwarf officer stationed at the Thandol Span on the Wetlands side, gives the order to locate and demolish the cache to honor Rustlocke's sacrifice and protect the remaining bridge."
+  },
+  {
+   "q": "What happens after the munitions are destroyed?",
+   "aliases": [
+    "what next after thandol span",
+    "plea to the alliance quest"
+   ],
+   "answer": "While the immediate sabotage is thwarted, Rhag Garmason realizes his garrison cannot hold the damaged bridge indefinitely without help. He drafts a formal plea for reinforcements to be sent to King Magni Bronzebeard in Ironforge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For the sons of Ironforge, defending the Thandol Span protects King Magni's lifeline to northern allies while striking a blow against traitorous Dark Iron infiltrators."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Holding the Span is essential for continental security; if this crossing falls, moving Alliance armies and resources into Arathi and Lordaeron becomes exponentially more dangerous."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate the sheer destructive power of Deepfury's munitions cache, built to demolish colossal titan-style dwarven stonework."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "dark iron",
+  "ebon rustlocke",
+  "explosives",
+  "kam deepfury",
+  "magni bronzebeard",
+  "rhag garmason",
+  "thandol span",
+  "wetlands"
+ ],
+ "related": [
+  "quest:631",
+  "quest:634",
+  "subzone:thandol-span",
+  "npc:kam-deepfury",
+  "zone:arathi",
+  "zone:wetlands",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "The Thandol Span (3)"
+ ]
+}

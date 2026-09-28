@@ -1,0 +1,112 @@
+{
+ "key": "quest:1651",
+ "type": "quest",
+ "name": "The Tome of Valor",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   1651
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Daphne Stilwell",
+  "end": "",
+  "previous": "The Tome of Valor (3)",
+  "next": "The Tome of Valor (5)",
+  "wiki": "The Tome of Valor (4)",
+  "chain": []
+ },
+ "summary": "A pivotal trial for developing paladins, this task demands the defense of Daphne Stilwell's homestead against a coordinated Defias raid. Outnumbered in the open fields of Westfall, the paladin must hold the line to embody the core tenet of valor.",
+ "sections": [
+  {
+   "title": "A Stand in the Dust",
+   "body": "While pursuing the virtues recorded in the Tome of Valor, a paladin is directed to the embattled homestead of Daphne Stilwell in Westfall. The farm sits squarely in territory contested by the Defias Brotherhood, who have made repeated attempts to overrun the property and eliminate Daphne. Knowing a retaliatory strike is imminent after earlier skirmishes, the defender must make a resolute stand beside her house rather than retreat to safer ground.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trial of Valor",
+   "body": "Armed with only her personal firearm and what blessings the Holy Light can provide, Daphne and the paladin face wave after wave of Defias raiders. Unlike solitary combat, this trial tests a guardian's ability to protect the vulnerable under crushing pressure. Weathering the onslaught proves that true valor is not merely the pursuit of personal glory, but the willingness to stand between innocent civilians and ruthless violence.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Daphne Stilwell?",
+   "aliases": [
+    "daphne stilwell",
+    "who is daphne",
+    "stilwell westfall"
+   ],
+   "answer": "Daphne Stilwell is a resilient human homesteader living in the grasslands of Westfall. Despite regular incursions by the Defias Brotherhood, she refuses to abandon her land and actively fights back against bandit raids."
+  },
+  {
+   "q": "Why are the Defias attacking this specific farm?",
+   "aliases": [
+    "why defias attack",
+    "defias raid daphne",
+    "why attack stilwell"
+   ],
+   "answer": "The Defias Brotherhood has largely seized control of Westfall's countryside, driving off or subjugating local farmers. Daphne's defiant refusal to bow to their extortion or abandon her property makes her farm an active target for their raiders."
+  },
+  {
+   "q": "What is the Tome of Valor?",
+   "aliases": [
+    "what is tome of valor",
+    "tome of valor quest",
+    "paladin valor tome"
+   ],
+   "answer": "The Tome of Valor is a sacred instructional text used by the Church of the Holy Light to guide young paladins. Knights-in-training undertake physical and spiritual trials across the kingdom to embody the virtues described within its pages."
+  },
+  {
+   "q": "What happens if Daphne falls during the battle?",
+   "aliases": [
+    "can daphne die",
+    "daphne stilwell dies"
+   ],
+   "answer": "If Daphne Stilwell falls in battle, the trial ends in failure. The core test of valor requires safeguarding her life alongside your own against the bandit assault."
+  },
+  {
+   "q": "Where does this attack take place?",
+   "aliases": [
+    "daphne stilwell location",
+    "where is the farm"
+   ],
+   "answer": "The encounter takes place outside Daphne Stilwell's farmhouse, situated in the plains of Westfall near the crossroads between Sentinel Hill and the southern hills."
+  },
+  {
+   "q": "What comes after defending the farm?",
+   "aliases": [
+    "next quest tome of valor",
+    "after defending daphne"
+   ],
+   "answer": "After proving your courage and driving off the Defias raiders, Daphne acknowledges your devotion, directing you toward the next phase of your paladin trials."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This battle tests your role as an unyielding protector. Holding the line at Daphne's side demonstrates the core virtue of valor, showing that holy warriors exist primarily to shield the innocent from harm."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With Stormwind's garrison spread thin and unable to safeguard rural homesteads, the task of defending Westfall's loyal citizens falls squarely on individual heroes."
+  }
+ ],
+ "keywords": [
+  "daphne stilwell",
+  "defias brotherhood",
+  "defias raiders",
+  "paladin trial",
+  "tome of valor",
+  "westfall"
+ ],
+ "related": [
+  "npc:daphne-stilwell",
+  "zone:westfall",
+  "topic:light"
+ ],
+ "attribution": [
+  "The Tome of Valor (4)"
+ ]
+}

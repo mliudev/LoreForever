@@ -1,0 +1,124 @@
+{
+ "key": "quest:1072",
+ "type": "quest",
+ "name": "An Old Colleague",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1072
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Gaxim Rustfizzle",
+  "end": "Lomac Gearstrip",
+  "previous": null,
+  "next": "Ineptitude + Chemicals = Fun",
+  "wiki": "An Old Colleague",
+  "chain": []
+ },
+ "summary": "An Old Colleague is an Alliance quest given by the gnome engineer Gaxim Rustfizzle in the Stonetalon Mountains. Looking to construct an extraordinarily potent device, Gaxim sends an adventurer all the way across the sea to Ironforge to track down an old acquaintance capable of synthesizing a hazardous explosive concoction. Completing this errand opens the door to procuring the volatile chemical compound known as Nitromirglyceronium.",
+ "sections": [
+  {
+   "title": "A Volatile Recipe",
+   "body": "While stationed among the peaks of Stonetalon, Gaxim Rustfizzle conceives of his most ambitious engineering endeavor yet. Creating a mechanism of that scale requires specialized fuel far beyond typical gunpowder or crude oil. Specifically, Gaxim requires Nitromirglyceronium, also designated as NG-5, an explosive mix potent enough to guarantee destructive results should everything go according to plan.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tinker Town Connection",
+   "body": "Formulating NG-5 is no simple task, and Gaxim knows of only one mind skilled enough to refine it: an old acquaintance named Lomac Gearstrip. Lomac resides far to the east in the gnome quarter of Tinker Town, tucked deep within the mountain stronghold of Ironforge. Entrusted with the long journey, the courier arrives only to be greeted by Lomac's immediate suspicion and paranoid questioning.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest An Old Colleague?",
+   "aliases": [
+    "quest giver",
+    "who starts an old colleague",
+    "gaxim quest"
+   ],
+   "answer": "The quest is provided by Gaxim Rustfizzle, a gnome engineer stationed in the Stonetalon Mountains."
+  },
+  {
+   "q": "Where can I find Lomac Gearstrip?",
+   "aliases": [
+    "where is lomac",
+    "lomac gearstrip location",
+    "ironforge lomac"
+   ],
+   "answer": "Lomac Gearstrip can be found within Tinker Town, the gnomish quarter located in the eastern portion of the dwarven city of Ironforge."
+  },
+  {
+   "q": "What is Nitromirglyceronium?",
+   "aliases": [
+    "what is ng-5",
+    "nitromirglyceronium",
+    "ng 5"
+   ],
+   "answer": "Nitromirglyceronium, also known as NG-5, is an extremely volatile chemical explosive engineered by Lomac Gearstrip and coveted by Gaxim Rustfizzle for his high-powered devices."
+  },
+  {
+   "q": "Why does Gaxim send me all the way to Ironforge?",
+   "aliases": [
+    "why travel to ironforge",
+    "why lomac",
+    "why go to tinker town"
+   ],
+   "answer": "Gaxim claims that Lomac Gearstrip is the only person capable of synthesizing the specialized NG-5 compound necessary to power his experimental device."
+  },
+  {
+   "q": "What happens after finding Lomac Gearstrip?",
+   "aliases": [
+    "next quest",
+    "what comes after an old colleague",
+    "followup quest"
+   ],
+   "answer": "Once you confirm Gaxim's request with the suspicious Lomac, he presents you with the quest Ineptitude + Chemicals = Fun to gather the hazardous reagents required to mix the batch."
+  },
+  {
+   "q": "Which faction can undertake this task?",
+   "aliases": [
+    "is this alliance only",
+    "horde version",
+    "can horde do this"
+   ],
+   "answer": "This is strictly an Alliance quest, as it originates from an Alliance-aligned gnome in Stonetalon and concludes inside the Alliance capital of Ironforge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This task sends Alliance adventurers on a continent-spanning journey from the embattled crags of Kalimdor back to the safety of Ironforge."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "A quintessential gnomish endeavor involving long-distance academic network ties, eccentric rivalries, and dangerously unstable explosive compounds."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will appreciate Gaxim and Lomac's relentless pursuit of maximum firepower regardless of the hazardous logistics involved."
+  }
+ ],
+ "keywords": [
+  "explosives",
+  "gaxim rustfizzle",
+  "ironforge",
+  "lomac gearstrip",
+  "ng-5",
+  "nitromirglyceronium",
+  "stonetalon",
+  "tinker town"
+ ],
+ "related": [
+  "npc:gaxim-rustfizzle",
+  "npc:lomac-gearstrip",
+  "quest:1073",
+  "subzone:tinker-town",
+  "zone:ironforge",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "An Old Colleague"
+ ]
+}

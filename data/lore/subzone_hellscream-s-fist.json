@@ -1,0 +1,89 @@
+{
+ "key": "subzone:hellscream-s-fist",
+ "type": "subzone",
+ "name": "Hellscream's Fist",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Hellscream's Fist"
+ },
+ "summary": "Hellscream's Fist is an imposing Horde airship moored above the arid red canyons of Durotar. Bearing the proud name of the legendary chieftain Grom Hellscream, this formidable war vessel stands as a testament to the Horde's growing military might and aerial engineering.",
+ "sections": [
+  {
+   "title": "A Fortress in the Sky",
+   "body": "Hovering prominently over the harsh landscape of Durotar, Hellscream's Fist represents the peak of goblin aeronautics harnessed for the Horde war machine. Named in honor of the mighty Grom Hellscream\u2014who freed the orcs from the blood curse of Mannoroth\u2014the gunship serves as a formidable projection of power and a staging ground for orcish forces safeguarding the young nation of Durotar from hostile eyes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes Across the Frontier",
+   "body": "Suspended high above the red dirt, the vessel provides Horde commanders with a vantage point unmatched anywhere in the region. From its armored decks, crewmen keep watch over the trade routes and surrounding valleys, ensuring that Alliance infiltrators or local threats cannot easily strike at the heart of the orcish homeland.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Hellscream's Fist?",
+   "aliases": [
+    "hellscreams fist",
+    "horde gunship durotar",
+    "orc airship"
+   ],
+   "answer": "Hellscream's Fist is a massive Horde gunship moored in the skies above Durotar, designed to provide airborne defense and showcase Horde military engineering."
+  },
+  {
+   "q": "Who is the airship named after?",
+   "aliases": [
+    "who is hellscream",
+    "grom hellscream gunship",
+    "why named hellscream"
+   ],
+   "answer": "The vessel is named in honor of Grom Hellscream, the revered chieftain of the Warsong clan who broke the demonic blood curse holding the orcish race in thrall."
+  },
+  {
+   "q": "Why is the gunship stationed in Durotar?",
+   "aliases": [
+    "why in durotar",
+    "gunship purpose",
+    "what is it doing here"
+   ],
+   "answer": "The vessel maintains an aerial watch over Durotar's canyons, deterring hostile raiders and guarding the fledgling Horde settlement against regional threats."
+  },
+  {
+   "q": "Can players board Hellscream's Fist?",
+   "aliases": [
+    "can i get on the ship",
+    "how to board",
+    "airship access"
+   ],
+   "answer": "The airship looms high above the terrain, serving primarily as an aerial bastion and naval outpost for Horde forces active in the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The gunship represents the unity and martial industry of the modern Horde, combining goblin tech with orcish valor to defend Durotar."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "For engineers, the massive zeppelin hull and heavy ironclad armor plate show the pinnacle of combined military machinery."
+  }
+ ],
+ "keywords": [
+  "airship",
+  "durotar",
+  "grom",
+  "gunship",
+  "hellscream's fist",
+  "horde",
+  "warsong",
+  "zepplin"
+ ],
+ "related": [
+  "zone:durotar",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Hellscream's Fist"
+ ]
+}

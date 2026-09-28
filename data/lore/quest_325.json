@@ -1,0 +1,122 @@
+{
+ "key": "quest:325",
+ "type": "quest",
+ "name": "Armed and Ready",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   325
+  ],
+  "level": "29",
+  "faction": "Alliance",
+  "start": "Grimand Elmore",
+  "end": "Sven Yorgen",
+  "previous": "Blessed Arm",
+  "next": "Morbent Fel (quest)",
+  "wiki": "Armed and Ready (Classic)",
+  "chain": []
+ },
+ "summary": "Armed and Ready marks the culmination of forging a weapon specifically designed to strip away the unholy defenses of the necromancer Morbent Fel. Having secured Grimand Elmore's craft and a holy blessing, the adventurer carries Morbent's Bane back across the river to the vengeful Sven Yorgen in Duskwood.",
+ "sections": [
+  {
+   "title": "A Weapon Forged",
+   "body": "Morbent Fel's grasp on the Raven Hill cemetery seemed unbreakable. Conventional steel shattered or deflected harmlessly off the dark wards shrouding the necromancer. Overcoming such vile magic required a specialized artifact: Morbent's Bane. With the metal shaped by Grimand Elmore in the Dwarven District of Stormwind and properly consecrated with sacred power, the blade is finally complete and ready to sever Fel's connection to unlife.",
+   "spoiler": 0
+  },
+  {
+   "title": "Return to the Hermit",
+   "body": "Carrying Morbent's Bane back into Duskwood brings hope to Sven Yorgen, who has watched his family and farm fall victim to the encroaching darkness. Stationed at his lonely camp near the western border of the woods, Sven immediately recognizes the fire in the traveler's eyes and the divine craftsmanship of the weapon. With the ward-breaking relic delivered, the stage is set for a direct strike against the master of Raven Hill.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Morbent's Bane?",
+   "aliases": [
+    "morbents bane",
+    "what is the weapon",
+    "morbent bane sword"
+   ],
+   "answer": "Morbent's Bane is a specially forged and consecrated weapon crafted to pierce the invulnerable magical wards surrounding the necromancer Morbent Fel in Raven Hill."
+  },
+  {
+   "q": "Who crafted the weapon?",
+   "aliases": [
+    "who made morbents bane",
+    "grimand elmore role"
+   ],
+   "answer": "Grimand Elmore, a skilled blacksmith residing in the Dwarven District of Stormwind City, fashioned the physical blade before it received a sacred blessing."
+  },
+  {
+   "q": "Where do I deliver Morbent's Bane?",
+   "aliases": [
+    "where is sven",
+    "sven yorgen location",
+    "turn in location"
+   ],
+   "answer": "You must deliver the weapon to Sven Yorgen, who is hiding at an encampment in western Duskwood, not far from the border with Westfall."
+  },
+  {
+   "q": "Why can't Sven Yorgen fight Morbent Fel himself?",
+   "aliases": [
+    "why doesnt sven fight",
+    "sven yorgen backstory"
+   ],
+   "answer": "Sven Yorgen was driven from his home and lost his family and companions to the dark forces infesting the woods. Isolated and hunted, he relies on capable champions of the Alliance to avenge the fallen."
+  },
+  {
+   "q": "What happens after completing Armed and Ready?",
+   "aliases": [
+    "what comes next",
+    "next quest after armed and ready"
+   ],
+   "answer": "Upon receiving the blessed weapon, Sven Yorgen tasks you with venturing directly into Raven Hill Cemetery to face Morbent Fel and strike him down."
+  },
+  {
+   "q": "What is the quickest route back to Sven's camp?",
+   "aliases": [
+    "fastest way to sven",
+    "how to get to sven quickly"
+   ],
+   "answer": "Traveling east from Sentinel Hill in Westfall across the river often provides a much shorter and safer journey to Sven's camp than trekking westward through the terrors of Darkshire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The combination of fine dwarven steel and holy consecration echoes the paladin tradition of infusing martial armaments with divine light to shatter undead wards."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Grimand Elmore's handiwork demonstrates how elite smithing can be combined with divine rites to craft specialized banes against supernatural threats."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Coordinating between artisans in Stormwind and front-line survivors in Duskwood highlights how the Alliance must draw upon its capital's expertise to purge creeping blights."
+  }
+ ],
+ "keywords": [
+  "armed and ready",
+  "duskwood",
+  "grimand elmore",
+  "morbent fel",
+  "morbent's bane",
+  "raven hill",
+  "stormwind",
+  "sven yorgen"
+ ],
+ "related": [
+  "npc:sven-yorgen",
+  "quest:55",
+  "quest:322",
+  "quest:1700",
+  "zone:duskwood",
+  "subzone:sentinel-hill",
+  "zone:westfall",
+  "subzone:darkshire"
+ ],
+ "attribution": [
+  "Armed and Ready (Classic)"
+ ]
+}

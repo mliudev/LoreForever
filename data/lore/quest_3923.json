@@ -1,0 +1,119 @@
+{
+ "key": "quest:3923",
+ "type": "quest",
+ "name": "Rilli Greasygob",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   3923
+  ],
+  "level": "18",
+  "faction": "Horde",
+  "start": "Wenikee Boltbucket",
+  "end": "Rilli Greasygob",
+  "previous": "Nugget Slugs (Classic)",
+  "next": "Samophlange Manual (quest)",
+  "wiki": "Rilli Greasygob (quest)",
+  "chain": []
+ },
+ "summary": "This quest sends an adventurer carrying a damaged samophlange from the tinkering tinker Wenikee Boltbucket directly to Orgrimmar. Seeking a specialist who truly understands the device's origins, Wenikee directs you to Rilli Greasygob, a former Venture Company engineer stationed in Nogg's Machine Shop.",
+ "sections": [
+  {
+   "title": "When Tinkering Fails",
+   "body": "Wenikee Boltbucket tried his hand at diagnosing the samophlange recovered from the Venture Company drilling site in the Barrens. Unfortunately, adding extra gauges only confirmed that the apparatus was on the verge of total collapse. Recognizing that piling on more levers and dials might destroy the device entirely, Boltbucket admitted defeat and decided to refer the problem to someone with proprietary expertise.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Former Company Man",
+   "body": "To decipher the inner workings of the contraption, Boltbucket sends travelers into Orgrimmar's Valley of Honor to visit Nogg's Machine Shop. There works Rilli Greasygob, an engineer who once earned his trade within the cutthroat ranks of the Venture Company. Greasygob instantly recognizes the machine, marveling that anyone survived poking around the cartel's contested operations in the Barrens.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rilli Greasygob?",
+   "aliases": [
+    "rilli greasygob",
+    "who is rilli",
+    "nogg machine shop rilli"
+   ],
+   "answer": "Rilli Greasygob is a goblin engineer working out of Nogg's Machine Shop in Orgrimmar's Valley of Honor. Having previously worked for the Venture Company, he possesses rare firsthand knowledge of the cartel's proprietary technology, including mysterious devices like the samophlange."
+  },
+  {
+   "q": "Why couldn't Wenikee Boltbucket fix the samophlange himself?",
+   "aliases": [
+    "why send to rilli",
+    "boltbucket failure",
+    "wenikee cant fix"
+   ],
+   "answer": "Wenikee Boltbucket attempted to diagnose the samophlange by attaching extra gauges, but they revealed its structural integrity was rapidly deteriorating. Realizing that haphazard tinkering would only ruin the delicate apparatus, he decided it needed someone with direct Venture Company manufacturing experience."
+  },
+  {
+   "q": "Where is Rilli Greasygob located?",
+   "aliases": [
+    "rilli greasygob location",
+    "where is greasygob",
+    "find rilli"
+   ],
+   "answer": "Rilli Greasygob is located inside Nogg's Machine Shop in the Valley of Honor, situated in the northeastern district of Orgrimmar."
+  },
+  {
+   "q": "What is the Venture Company's role in this?",
+   "aliases": [
+    "venture co connection",
+    "why venture company",
+    "who made the samophlange"
+   ],
+   "answer": "The samophlange was recovered from the Venture Company's strip-mining operation at the Sludge Fen in the northern Barrens. Because it is custom Venture Company technology, former company personnel like Rilli Greasygob are the only ones capable of properly servicing and interpreting it."
+  },
+  {
+   "q": "What happens after giving the samophlange to Rilli?",
+   "aliases": [
+    "what next after rilli",
+    "samophlange questline continuation"
+   ],
+   "answer": "Recognizing the device, Rilli Greasygob determines that to fully operate or reconstruct it, he will require the Venture Company's official operational instructions, leading adventurers to recover the Samophlange Manual."
+  },
+  {
+   "q": "What is a samophlange anyway?",
+   "aliases": [
+    "what is a samophlange",
+    "samophlange explained"
+   ],
+   "answer": "A samophlange is an intricate, bizarre mechanical device designed and deployed by Venture Company engineers to regulate their heavy drilling and extraction equipment in places like the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Every engineer knows when to put down the wrench; Boltbucket's realization that more dials would only make matters worse leads straight to specialized trade secrets preserved by former corporate technicians."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde relies on urban workshops like Nogg's in Orgrimmar to repurpose enemy machinery captured from predatory syndicates exploiting Kalimdor."
+  }
+ ],
+ "keywords": [
+  "broken and battered samophlange",
+  "nogg's machine shop",
+  "orgrimmar",
+  "rilli greasygob",
+  "samophlange",
+  "valley of honor",
+  "venture company",
+  "wenikee boltbucket"
+ ],
+ "related": [
+  "npc:nogg",
+  "quest:3921",
+  "quest:894",
+  "subzone:valley-of-honor",
+  "zone:orgrimmar",
+  "topic:venture-company",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Rilli Greasygob (quest)"
+ ]
+}

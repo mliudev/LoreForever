@@ -1,0 +1,92 @@
+{
+ "key": "subzone:westreach-summit",
+ "type": "subzone",
+ "name": "Westreach Summit",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Westreach Summit"
+ },
+ "summary": "Westreach Summit is a high tauren encampment situated on the northwestern rim of Thousand Needles. Perched along the borders overlooking the canyon, the settlement serves as a vital Horde foothold while facing persistent pressure from the hostile Grimtotem tribe.",
+ "sections": [
+  {
+   "title": "A Watchtower on the Canyons",
+   "body": "Occupying a high ridge in the northwestern corner of Thousand Needles, Westreach Summit functions as a sentinel post overlooking the towering stone pillars below. Led by Kanati Greycloud and defended by steadfast braves, this outpost maintains watchful eyes on regional threats. Its strategic perch connects Horde scouts and travelers traversing between central Kalimdor and the perilous chasms of the Needles.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadow of the Grimtotem",
+   "body": "Peace is rare atop the summit. The settlement finds itself under continuous siege from marauding members of the Grimtotem tribe, who dispute the Horde's presence and seek dominion over the region's high perches. Kanati Greycloud and the Summit Defenders hold the line against these aggressors, while scouts like Motega Firemane monitor nearby water sources and pathways to ensure the encampment remains secured.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Westreach Summit?",
+   "aliases": [
+    "westreach summit location",
+    "what is westreach",
+    "westreach outpost"
+   ],
+   "answer": "It is a fortified tauren outpost belonging to the Horde, located in the northwestern heights of Thousand Needles. It acts as an observation point and defense hub for the canyon approaches."
+  },
+  {
+   "q": "Who leads the defense here?",
+   "aliases": [
+    "who is in charge of westreach",
+    "westreach summit leader",
+    "kanati greycloud"
+   ],
+   "answer": "Kanati Greycloud oversees the camp and coordinates the defense alongside the Summit Defenders to hold off enemy incursions."
+  },
+  {
+   "q": "Why is the summit being attacked?",
+   "aliases": [
+    "who attacks westreach",
+    "grimtotem attack westreach",
+    "why fight at westreach summit"
+   ],
+   "answer": "Hostile members of the Grimtotem tribe frequently assault the camp, seeking to drive the Horde out and assert their own undisputed control over the bluffs."
+  },
+  {
+   "q": "Can you fly from Westreach Summit?",
+   "aliases": [
+    "westreach flight master",
+    "flight path westreach summit"
+   ],
+   "answer": "Yes, the encampment maintains a flight master named Nah'te who connects travelers across Kalimdor's major regional outposts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Westreach Summit is an indispensable waystation and defensive bastion against aggressive Grimtotem forces threatening Horde transit through the canyons."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For tauren travelers, the summit represents the painful strife within their own kind, where loyal braves must defend their ground against the violent aggression of the Grimtotem."
+  }
+ ],
+ "keywords": [
+  "grimtotem",
+  "kanati greycloud",
+  "motega firemane",
+  "nah'te",
+  "summit defenders",
+  "thousand needles",
+  "westreach summit"
+ ],
+ "related": [
+  "zone:thousandneedles",
+  "topic:tauren",
+  "topic:grimtotem-tribe",
+  "topic:horde",
+  "npc:kanati-greycloud",
+  "npc:motega-firemane",
+  "zone:thunderbluff",
+  "subzone:crossroads"
+ ],
+ "attribution": [
+  "Westreach Summit"
+ ]
+}

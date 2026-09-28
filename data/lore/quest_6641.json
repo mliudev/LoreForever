@@ -1,0 +1,115 @@
+{
+ "key": "quest:6641",
+ "type": "quest",
+ "name": "Vorsha the Lasher",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6641
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Muglash",
+  "end": "Warsong Runner",
+  "previous": null,
+  "next": null,
+  "wiki": "Vorsha the Lasher (quest)",
+  "chain": []
+ },
+ "summary": "Vorsha the Lasher is a violent hydra terrorizing the Horde's foothold at Zoram'gar Outpost along the coast of Ashenvale. Revering the creature's ferocity, the local naga maintain an offering brazier on an offshore island to honor her. By extinguishing this sacred flame, Horde champions provoke Vorsha and draw her ashore to end her predatory assaults.",
+ "sections": [
+  {
+   "title": "A Terror from the Deep",
+   "body": "Zoram'gar Outpost sits on a tenuous strip of coast in northwestern Ashenvale, constantly besieged by hostile wildlife, night elves, and serpentine invaders. Among the most destructive threats prowling the Zoram Strand is Vorsha the Lasher, a gargantuan hydra known for brutal, unprovoked strikes against the outpost. The beast emerges from the surf to crush fortifications and butcher warriors before vanishing back into the deep tides.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Brazier of the Naga",
+   "body": "The nearby naga do not merely tolerate the ravenous hydra; they actively venerate her predatory malice. On a rocky outcrop off the strand, the serpentine fiends keep an offering brazier burning continuously in tribute to Vorsha. Muglash, an orc determined to end the constant harassment of the outpost, realized that defiling this ritual flame would bring the beast surging to the surface in a fury, allowing the defenders to lure her into an ambush rather than waiting for another surprise slaughter.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Vorsha the Lasher?",
+   "aliases": [
+    "vorsha",
+    "what is vorsha",
+    "vorsha hydra"
+   ],
+   "answer": "Vorsha the Lasher is a fierce, massive hydra that haunts the waters off the Zoram Strand. She frequently makes unprovoked raids against Zoram'gar Outpost, destroying camp defenses and slaughtering Horde personnel."
+  },
+  {
+   "q": "Why do the naga honor Vorsha?",
+   "aliases": [
+    "why naga like hydra",
+    "vorsha naga brazier",
+    "why worship vorsha"
+   ],
+   "answer": "The naga of the Zoram Strand respect Vorsha for her unrelenting ferocity and destructive appetite. They maintain an offshore brazier kept lit in honor of her wicked nature, treating the beast as an avatar of savage coastal fury."
+  },
+  {
+   "q": "How is Vorsha lured out to fight?",
+   "aliases": [
+    "how to summon vorsha",
+    "how do you call vorsha",
+    "brazier island vorsha"
+   ],
+   "answer": "Muglash leads an assault onto the island where the naga tend Vorsha's brazier. Extinguishing the sacred flame deeply enrages both the resident naga guardians and the hydra herself, compelling Vorsha to surface from the sea to retaliate."
+  },
+  {
+   "q": "Who is Muglash?",
+   "aliases": [
+    "who is muglash",
+    "muglash orc",
+    "zoramgar muglash"
+   ],
+   "answer": "Muglash is an orc stationed at Zoram'gar Outpost. Weary of living in terror of Vorsha's unprovoked coastline rampages, he devises the plan to snuff out the naga's ritual brazier and fight the beast alongside dependable allies."
+  },
+  {
+   "q": "Why is Zoram'gar Outpost vulnerable to coastal beasts?",
+   "aliases": [
+    "why is zoramgar attacked",
+    "zoram strand danger"
+   ],
+   "answer": "Zoram'gar Outpost is an isolated and exposed frontier camp situated directly on the beaches of Ashenvale. With naga dominating the ruins in the sea and wild hydras patrolling the surf, its proximity to the water leaves it open to amphibious attacks from all directions."
+  },
+  {
+   "q": "What happens after Vorsha is slain?",
+   "aliases": [
+    "vorsha quest turn in",
+    "who to report vorsha to"
+   ],
+   "answer": "With the hydra slain, the victory is reported back to the Warsong Runners maintaining the lines at Zoram'gar Outpost, easing the constant burden on the frontier guards and securing the immediate coast from sudden assault."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Defending Zoram'gar Outpost is essential for maintaining a northern logistical foothold in Ashenvale, where supply lines are perpetually under attack."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcs like Muglash refuse to cower behind makeshift palisades, opting to charge out into the surf to hunt predatory beasts face to face."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "brazier",
+  "hydra",
+  "muglash",
+  "naga",
+  "vorsha",
+  "zoram strand",
+  "zoram'gar"
+ ],
+ "related": [
+  "subzone:zoram-gar-outpost",
+  "topic:naga",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Vorsha the Lasher (quest)"
+ ]
+}

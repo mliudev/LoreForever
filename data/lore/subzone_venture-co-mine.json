@@ -1,0 +1,94 @@
+{
+ "key": "subzone:venture-co-mine",
+ "type": "subzone",
+ "name": "Venture Co. Mine",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Venture Co. Mine"
+ },
+ "summary": "Tucked into the eastern cliffs of Mulgore, the Venture Co. Mine is an unauthorized industrial excavation run by greedy goblin opportunists. Despite being denied rights by the tauren, the Venture Company dug into the hills regardless, threatening the natural balance of the plains.",
+ "sections": [
+  {
+   "title": "Unwanted Industry",
+   "body": "When the Venture Company sought rights to strip Mulgore of its minerals, the tauren flatly refused. The corporate cartel ignored them, tunneling deep into the eastern mountain wall anyway under the direction of Supervisor Fizsprocket. Their sprawling complex features three entrances\u2014a ground tunnel guarded by hired muscle, a sheer cliffside overlook, and an upper passage leading out to a small lumber camp. The encroaching machines, smoke, and slag heaps represent a blatant defilement of sacred land.",
+   "spoiler": 0
+  },
+  {
+   "title": "Expanding Ambitions",
+   "body": "Mining was only the opening bid for the cartel. Internal documents show that Mogul Razdunk and the Venture Company board encouraged Fizsprocket to expand further into full-scale timber harvesting, promising advanced goblin shredders to clear the rolling hills. Although tauren Outrunners attacked and burned a corporate supply caravan near Stonebull Lake to stall their expansion, salvagers were immediately dispatched to recover the cargo. To halt the destruction, the tribes have turned toward direct retaliation against the mine's supervisors.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are goblins mining in Mulgore?",
+   "aliases": [
+    "why are there goblins here",
+    "venture co mulgore reason",
+    "who runs the mine"
+   ],
+   "answer": "The Venture Company sought permission to extract minerals from Mulgore, but the tauren denied their request. Unwilling to respect native territorial claims or environmental balance, the cartel sneaked workers and machinery into the eastern cliffs to plunder the hills without authorization."
+  },
+  {
+   "q": "Who is in charge of this mining site?",
+   "aliases": [
+    "mine boss",
+    "who leads the mine",
+    "supervisor fizsprocket"
+   ],
+   "answer": "Supervisor Fizsprocket oversees all Venture Company operations in Mulgore from his post inside the main entrance. He takes orders directly from the company's executive board and Mogul Razdunk."
+  },
+  {
+   "q": "What happened to the supply caravan by the lake?",
+   "aliases": [
+    "ravaged caravan story",
+    "stonebull lake caravan",
+    "who burned the caravan"
+   ],
+   "answer": "Tauren Outrunners ambushed and set fire to a Venture Company supply caravan near the northern shore of Stonebull Lake to stop machinery from reaching the mine. The goblins swiftly dispatched salvage teams to sift through the charred wreckage and recover their goods."
+  },
+  {
+   "q": "What else do the goblins plan to build here?",
+   "aliases": [
+    "venture co plans",
+    "goblin shredders mulgore",
+    "lumber camp plans"
+   ],
+   "answer": "Beyond hollowing out the cliffs for ore, internal communiques reveal plans to construct a lumber mill and deploy shredders to clear-cut Mulgore's trees for additional corporate profit."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The mine is a profound insult to the Earth Mother, bringing soot, noise, and reckless scarring to the ancestral valleys the tribes have sworn to safeguard."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Past the mine tunnels and through the higher lumber clearing lurks Twizwick Sprocketgrind, a tinkerer willing to share mechanical trade secrets away from prying corporate eyes."
+  }
+ ],
+ "keywords": [
+  "fizsprocket",
+  "goblins",
+  "mulgore",
+  "ravaged caravan",
+  "razdunk",
+  "shredders",
+  "stonebull lake",
+  "venture co mine"
+ ],
+ "related": [
+  "topic:venture-company",
+  "quest:765",
+  "quest:764",
+  "subzone:ravaged-caravan",
+  "zone:mulgore",
+  "subzone:stonebull-lake",
+  "topic:tauren",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Venture Co. Mine"
+ ]
+}

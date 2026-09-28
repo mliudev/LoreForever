@@ -1,0 +1,78 @@
+{
+ "key": "npc:seer-graytongue",
+ "type": "npc",
+ "name": "Seer Graytongue",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Seer Graytongue",
+  "refs": 1
+ },
+ "summary": "Seer Graytongue is a venerable tauren elder and spiritual guide residing on Red Cloud Mesa in Mulgore. Stationed near Camp Narache, he tests young braves undertaking their earliest tribal trials. Through rituals such as the Rite of Strength, he ensures that the youth honor the Earthmother before stepping into the wider world.",
+ "sections": [
+  {
+   "title": "A Guide on the Mesa",
+   "body": "Seer Graytongue makes his home atop Red Cloud Mesa, serving as an early instructor for aspiring tauren braves and spellweavers. As young adventurers set forth from Camp Narache, Graytongue oversees critical steps of their sacred passage, including the Rites of the Earthmother. By testing their resolve against the harsh plains and dangerous beasts of Mulgore, he instills the virtues of honor, patience, and reverence that every true tauren must carry into adulthood.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Seer Graytongue?",
+   "aliases": [
+    "graytongue",
+    "seer graytongue role",
+    "who is the seer on red cloud mesa"
+   ],
+   "answer": "Seer Graytongue is an elder tauren seer living in a lodge atop Red Cloud Mesa in Mulgore. He directs young heroes through traditional ceremonial duties to prove their worth to their tribe."
+  },
+  {
+   "q": "What trials does Seer Graytongue oversee?",
+   "aliases": [
+    "graytongue quests",
+    "what does graytongue want",
+    "rites of the earthmother graytongue"
+   ],
+   "answer": "He is tasked with guiding youths through components of the Rites of the Earthmother, including the Rite of Strength. These rituals test a brave's fortitude and respect for the natural balance of the plains."
+  },
+  {
+   "q": "Where can I find Seer Graytongue?",
+   "aliases": [
+    "seer graytongue location",
+    "where is graytongue",
+    "graytongue hut"
+   ],
+   "answer": "He resides in a modest leather lodge resting along the perimeter of Red Cloud Mesa, just outside the central activity of Camp Narache in Mulgore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren youths, visiting Seer Graytongue marks a sacred rite of passage that connects personal strength with the eternal blessings of the Earthmother."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Spiritual initiates look to elders like Graytongue to learn how sacred ritual and trial bind the physical might of a warrior to ancestral guidance."
+  }
+ ],
+ "keywords": [
+  "camp narache",
+  "graytongue",
+  "mulgore",
+  "red cloud mesa",
+  "rite of strength",
+  "rites of the earthmother",
+  "seer graytongue"
+ ],
+ "related": [
+  "subzone:red-cloud-mesa",
+  "quest:763",
+  "quest:757",
+  "zone:mulgore",
+  "topic:tauren",
+  "topic:quilboar"
+ ],
+ "attribution": [
+  "Seer Graytongue"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "key": "subzone:library-wing-northshire",
+ "type": "subzone",
+ "name": "Library Wing (Northshire)",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Library Wing (Northshire)"
+ },
+ "summary": "The Library Wing is the quiet, book-lined southern wing of Northshire Abbey in Elwynn Forest. It serves as a sanctuary for scholars, offering early instruction to fledgling priests and mages joining the defense of Stormwind. Amid the abbey's quiet study, wounded recruits also rest and receive care while the valley deals with outside threats.",
+ "sections": [
+  {
+   "title": "Haven of Arcane and Divine Study",
+   "body": "Branching south from the Main Hall of Northshire Abbey, the Library Wing houses dusty shelves, study lecterns, and quiet alcoves dedicated to intellectual and spiritual training. While martial recruits drill in the northern Hall of Arms, aspiring mages and priests gather here to grasp the fundamentals of the Arcane and the Holy Light. Currently, Priestess Anetta guides novice priests in matters of faith and healing, while Khelden Bremen teaches budding mages how to shape primal elemental energy. The wing also doubles as an infirmary where wounded trainees convalesce after skirmishes with local defias bandits and encroaching kobolds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Library Wing located?",
+   "aliases": [
+    "where is the library wing",
+    "how to find northshire library",
+    "library location northshire"
+   ],
+   "answer": "The Library Wing occupies the southern section of Northshire Abbey, situated just off the Main Hall. It sits directly opposite the martial Hall of Arms."
+  },
+  {
+   "q": "Who can I find inside the Library Wing?",
+   "aliases": [
+    "who is in the library wing",
+    "trainers in library wing",
+    "priest trainer northshire"
+   ],
+   "answer": "The wing is home to Priestess Anetta, who trains novice priests, and Khelden Bremen, who mentors fledgling mages. You will also find wounded trainees resting under the care of the abbey's clergy."
+  },
+  {
+   "q": "What is the purpose of this wing?",
+   "aliases": [
+    "why does northshire abbey have a library",
+    "library wing purpose"
+   ],
+   "answer": "It serves as the academic and spiritual center of Northshire Abbey, dedicated to scholarly research, magical instruction, and prayer for recruits training to serve the Kingdom of Stormwind."
+  },
+  {
+   "q": "Why are there wounded trainees resting in the library?",
+   "aliases": [
+    "why are there injured soldiers here",
+    "wounded trainees in library"
+   ],
+   "answer": "Northshire Valley is currently harassed by Defias bandits and vermin in the nearby vineyards and mines. The abbey's clergy use the tranquil library space as an overflow infirmary to tend to wounded recruits returning from the field."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Priestess Anetta resides here, offering fledgling priests their very first lessons in channeling the Holy Light to mend wounds and smite foes."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Khelden Bremen instructs novice mages within these quiet halls, teaching the foundational disciplines of fire and frost."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "khelden bremen",
+  "library wing",
+  "mage trainer",
+  "northshire",
+  "northshire abbey",
+  "priest trainer",
+  "priestess anetta"
+ ],
+ "related": [
+  "subzone:northshire-abbey",
+  "subzone:main-hall-northshire",
+  "subzone:hall-of-arms-northshire",
+  "subzone:northshire-valley",
+  "npc:priestess-anetta",
+  "npc:khelden-bremen",
+  "zone:elwynn",
+  "topic:stormwind-army"
+ ],
+ "attribution": [
+  "Library Wing (Northshire)"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "npc:warlord-goretooth",
+ "type": "npc",
+ "name": "Warlord Goretooth",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Warlord Goretooth",
+  "refs": 2
+ },
+ "summary": "Warlord Goretooth is the commanding orc officer stationed at Kargath in the dusty wastes of the Badlands. From his watchtower, he coordinates the Horde's frontier campaigns against the neighboring Dark Iron dwarves and monitors the volcanic menace of Blackrock Mountain. Though strict in military matters, he can occasionally be found relaxing around the camp's bonfire.",
+ "sections": [
+  {
+   "title": "Commander of Kargath",
+   "body": "Perched atop the watchtower of Kargath, Warlord Lunk Goretooth directs Horde operations on the hostile eastern frontier. Kargath serves as Orgrimmar's primary staging ground against the threats lurking within Blackrock Mountain and the surrounding ravines. Goretooth oversees patrols, coordinates scout forces like the Kargath Expeditionary Force, and issues direct kill orders targeting the Dark Iron clan's ranks and leadership. When he descends from his lookout, the stern commander shows a lighter side, frequently warming himself by the camp bonfire and trading quips with the camp's Forsaken casters before returning to duty.",
+   "spoiler": 0
+  },
+  {
+   "title": "Striking the Dark Irons",
+   "body": "Goretooth views the Dark Iron dwarves as a clear and present threat to Horde interests in the Eastern Kingdoms. Rather than engaging in defensive posturing, he pursues aggressive war plans against General Angerforge and Emperor Dagran Thaurissan's forces entrenched within Blackrock Depths. Recognizing the gravity of assaulting such an ancient subterranean stronghold, he frequently defers strategic matters to veteran orcs like Eitrigg in Orgrimmar, seeking seasoned wisdom before sanctioning further pushes into the mountain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Warlord Goretooth?",
+   "aliases": [
+    "warlord goretooth",
+    "who is goretooth",
+    "goretooth badlands",
+    "kargath commander"
+   ],
+   "answer": "Warlord Goretooth is the senior Horde military commander stationed at Kargath in the Badlands. He organizes Horde patrols and directs incursions against the Dark Iron dwarves."
+  },
+  {
+   "q": "What is his role in Kargath?",
+   "aliases": [
+    "what does goretooth do",
+    "goretooth duties",
+    "goretooth post"
+   ],
+   "answer": "He commands the outpost, regularly dispatches the Kargath Expeditionary Force into the field, and issues military orders for operations against the Dark Iron clan inside Blackrock Depths."
+  },
+  {
+   "q": "Why is Goretooth sending soldiers against Blackrock Depths?",
+   "aliases": [
+    "why kill dark irons",
+    "death to angerforge quest",
+    "goretooth dark iron"
+   ],
+   "answer": "The Dark Iron dwarves threaten the surrounding regions and actively oppose Horde presence in the area. Goretooth issues direct kill bounties against their soldiers, high-ranking officers, and General Angerforge to weaken their hold on the mountain."
+  },
+  {
+   "q": "Why does Goretooth consult Eitrigg?",
+   "aliases": [
+    "goretooth and eitrigg",
+    "eitriggs wisdom",
+    "why talk to eitrigg"
+   ],
+   "answer": "Eitrigg is a seasoned orc veteran who lived inside Blackrock Mountain and understands its internal politics and defenses better than almost anyone. Goretooth sends adventurers to seek Eitrigg's counsel before escalating assaults on Blackrock strongholds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Warlord Goretooth is the cornerstone of the Horde's foothold in the Badlands, directing critical operations against the Dark Iron dwarves."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Goretooth's brutal, straightforward military orders in Blackrock Mountain offer martial champions a chance to test their mettle against seasoned dwarven legionnaires."
+  }
+ ],
+ "keywords": [
+  "angerforge",
+  "badlands",
+  "blackrock",
+  "dark iron",
+  "eitrigg",
+  "goretooth",
+  "kargath",
+  "warlord goretooth"
+ ],
+ "related": [
+  "subzone:kargath",
+  "zone:badlands",
+  "npc:eitrigg",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Warlord Goretooth"
+ ]
+}

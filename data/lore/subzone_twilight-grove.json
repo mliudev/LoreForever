@@ -1,0 +1,93 @@
+{
+ "key": "subzone:twilight-grove",
+ "type": "subzone",
+ "name": "Twilight Grove",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Twilight Grove"
+ },
+ "summary": "Tucked away in the center of Duskwood, the Twilight Grove is a stunning enclave of lush Kalimdor flora contrasting the grim, blighted forest around it. Beneath its towering great tree and ancient night elf architecture sits a moonwell and a massive emerald gateway connected directly to the Emerald Dream.",
+ "sections": [
+  {
+   "title": "A Verdant Sanctuary",
+   "body": "Hidden behind steep crater ridges in the heart of Duskwood, the Twilight Grove looks utterly alien to the Eastern Kingdoms. Ancient night elf gazebos, vibrant green meadows, and a serene moonwell frame an unnamed great tree that towers over the gloomy canopy. Millennia ago, Archdruid Fandral Staghelm and his circle planted an enchanted bough of Nordrassil here to purge toxic corruption rising from the deep earth. The tree took root as a conduit of nature, filtering the raw vigor of the Emerald Dream into the waking world and allowing this crater to thrive even beneath the eternal gloom of Duskwood.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Emerald Gateway",
+   "body": "At the base of the great tree looms a massive stone portal, one of four known gateways across Azeroth linking the physical realm directly to the Emerald Dream. While traditionally watched over by Ysera's green dragonflight, dark whispers claim that malevolent forces have begun twisting the tranquil realm beyond. The gateway stands largely silent for now, but its emerald swirl serves as a grim reminder that cosmic corruption can spill forth into Duskwood from paths far deeper than the Scourge or the local worgen.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is there night elf architecture in Duskwood?",
+   "aliases": [
+    "elf ruins duskwood",
+    "why night elf buildings here",
+    "moonwell in duskwood"
+   ],
+   "answer": "Thousands of years ago, druids led by Fandral Staghelm traveled from Kalimdor across the world to contain subterranean blights. They planted an enchanted branch from the World Tree Nordrassil in this crater and tended to it with traditional kaldorei structures and a sacred moonwell."
+  },
+  {
+   "q": "What is the giant glowing green portal?",
+   "aliases": [
+    "green portal duskwood",
+    "emerald dream portal duskwood",
+    "stone archway in grove"
+   ],
+   "answer": "It is a Great Tree portal leading directly into the Emerald Dream, the primordial blueprint of Azeroth overseen by the green dragonflight. Three similar portals exist in Ashenvale, Feralas, and the Hinterlands."
+  },
+  {
+   "q": "Who watches over the grove today?",
+   "aliases": [
+    "who guards twilight grove",
+    "green dragons twilight grove"
+   ],
+   "answer": "Historically, lieutenants of Ysera's green dragonflight guarded this sanctuary. While often empty to travelers passing through, growing disturbances within the Emerald Dream threaten to bring corrupted guardians through the portal into the mortal world."
+  },
+  {
+   "q": "Why doesn't the Twilight Grove look dead like the rest of Duskwood?",
+   "aliases": [
+    "why is twilight grove green",
+    "why alive in duskwood"
+   ],
+   "answer": "The great tree acts as a conduit to the Emerald Dream, radiating pure, untamed life energy. This constant influx of natural vitality protects the inner basin from the supernatural curse and blight choking the surrounding woods."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids exploring the Eastern Kingdoms, the grove is a rare oasis of home, housing an active moonwell and a direct link to the ancestral dreamways."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Finding a secluded moonwell and traditional gazebos so far from Kalimdor is a poignant reminder of your people's ancient duty to heal the wounds of Azeroth."
+  }
+ ],
+ "keywords": [
+  "duskwood",
+  "emerald dream",
+  "fandral staghelm",
+  "great tree",
+  "green dragonflight",
+  "moonwell",
+  "nordrassil",
+  "portal",
+  "twilight grove"
+ ],
+ "related": [
+  "zone:duskwood",
+  "topic:emerald-dream",
+  "topic:druid",
+  "npc:fandral-staghelm",
+  "topic:nordrassil",
+  "zone:ashenvale",
+  "zone:feralas",
+  "zone:hinterlands"
+ ],
+ "attribution": [
+  "Twilight Grove"
+ ]
+}

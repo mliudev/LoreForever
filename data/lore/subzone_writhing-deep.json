@@ -1,0 +1,72 @@
+{
+ "key": "subzone:writhing-deep",
+ "type": "subzone",
+ "name": "Writhing Deep",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Writhing Deep"
+ },
+ "summary": "The Writhing Deep is a massive, insectoid hive complex carved into southeastern Feralas. Inhabited by the Zukk'ash silithid, this subterranean burrow is a growing danger that threatens nearby wildlife and surrounding encampments alike. The relentless expansion of these subterranean predators has upset the regional balance of the lush forest.",
+ "sections": [
+  {
+   "title": "The Zukk'ash Swarm",
+   "body": "Tucked away in the humid lowlands of southeastern Feralas, the Writhing Deep serves as the primary colony for the Zukk'ash silithid. Unlike the typical woodland beasts of the valley, these chittering insects dig labyrinthine tunnels and fiercely guard clutches of resinous eggs. The hive's aggressive encroachment into the nearby territories has destabilized the wild fauna and agitated local gnoll packs, pushing displaced and frenzied predators uncomfortably close to both Horde paths and native sanctuaries.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures inhabit the Writhing Deep?",
+   "aliases": [
+    "writhing deep mobs",
+    "what lives in writhing deep",
+    "silithid in feralas"
+   ],
+   "answer": "The chasm is infested by the Zukk'ash silithid, an aggressive breed of giant insects comprising workers, tunnelers, stingers, and wasps led by dangerous brood champions such as Stinglasher and Qirot."
+  },
+  {
+   "q": "Why is the Writhing Deep a threat to Camp Mojache?",
+   "aliases": [
+    "camp mojache writhing deep",
+    "why attack horde",
+    "gnolls feralas"
+   ],
+   "answer": "As the Zukk'ash swarm expands outwards, it pushes into surrounding gnoll hunting grounds. The frantic gnolls are driven northward directly toward Camp Mojache, creating an escalating security crisis for the Horde outpost."
+  },
+  {
+   "q": "Where is the Writhing Deep located?",
+   "aliases": [
+    "writhing deep location",
+    "where is writhing deep",
+    "feralas hive location"
+   ],
+   "answer": "The Writhing Deep is located in the southeastern region of Feralas, south of the main road and east of the towering forested hills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The silithid expansion out of the Writhing Deep directly threatens Camp Mojache by driving crazed gnolls and roaming insect scouts straight into your supply lines."
+  }
+ ],
+ "keywords": [
+  "camp mojache",
+  "feralas",
+  "hive",
+  "qirot",
+  "silithid",
+  "stinglasher",
+  "writhing deep",
+  "zukk'ash"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:camp-mojache",
+  "topic:gnoll",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Writhing Deep"
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "key": "quest:344",
+ "type": "quest",
+ "name": "Brother Paxton",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   344
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Milton Sheaf",
+  "end": "Brother Paxton",
+  "previous": "Speaking of Fortitude",
+  "next": "Ink Supplies",
+  "wiki": "Brother Paxton (quest)",
+  "chain": []
+ },
+ "summary": "Brother Paxton is an errand that sends adventurers from Stormwind's royal archives out to Northshire Abbey. Librarian Milton Sheaf directs searchers there to track down a borrowed dwarven mining treatise that never found its way back to the city shelves.",
+ "sections": [
+  {
+   "title": "A Borrowed Volume",
+   "body": "When researchers come looking for rare technical lore within Stormwind City, the head librarian Milton Sheaf often finds his collection scattered. A notable treatise on metallurgical techniques, 'The Stresses of Iron' by dwarven prospector Margulf Blaggon, is missing from the capital's shelves. Rather than being misplaced in the capital, it was loaned out months ago to the clerics of Northshire Abbey for transcription.",
+   "spoiler": 0
+  },
+  {
+   "title": "Northshire's Scribe",
+   "body": "The task of transcribing and preserving literature falls to Brother Paxton, the caretaker of the abbey's library. While the Holy Order of Northshire Clerics values knowledge, manual hand-copying of lengthy technical manuscripts is painstaking and slow. Caught red-handed with the overdue tome, Paxton admits he has yet to finish duplicating Blaggon's work, stalling the recovery of the original manuscript.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Milton Sheaf send you to Northshire Abbey?",
+   "aliases": [
+    "why brother paxton",
+    "where is the book",
+    "milton sheaf errand"
+   ],
+   "answer": "Milton Sheaf loaned the library's copy of 'The Stresses of Iron' to Brother Paxton months ago so the abbey could produce its own duplicate. With no word or return of the manuscript, Sheaf sends you to check on Paxton's progress."
+  },
+  {
+   "q": "Who is Brother Paxton?",
+   "aliases": [
+    "who is paxton",
+    "brother paxton lore",
+    "paxton northshire"
+   ],
+   "answer": "Brother Paxton is a cleric and the caretaker of the library at Northshire Abbey. He spends his days cataloging and manually copying valuable books to build up the abbey's local collection."
+  },
+  {
+   "q": "What is 'The Stresses of Iron'?",
+   "aliases": [
+    "what is stresses of iron",
+    "stresses of iron book",
+    "margulf blaggon book"
+   ],
+   "answer": "It is a respected technical manual written decades ago by the dwarven miner Margulf Blaggon, detailing his insights into digging ore and metallurgical stress deep within the mountains of Khaz Modan."
+  },
+  {
+   "q": "Why hasn't Paxton returned the book yet?",
+   "aliases": [
+    "why overdue",
+    "why is paxton taking so long",
+    "paxton delay"
+   ],
+   "answer": "Brother Paxton is still hand-copying the manuscript for his own library's shelves. Because copying an extensive technical work by hand takes considerable time and materials, he is reluctant to part with the original before finishing."
+  },
+  {
+   "q": "Where can Brother Paxton be found?",
+   "aliases": [
+    "paxton location",
+    "where is brother paxton"
+   ],
+   "answer": "Brother Paxton resides inside Northshire Abbey, the seat of the Holy Order of Northshire Clerics located in the Northshire Valley just north of Elwynn Forest."
+  },
+  {
+   "q": "What happens after you confront Brother Paxton?",
+   "aliases": [
+    "next quest after paxton",
+    "what does paxton need"
+   ],
+   "answer": "Paxton admits to holding the book and explains that he cannot finish duplicating it without replenishing his writing materials, sending you out to gather ink supplies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The object of your search, Margulf Blaggon's 'The Stresses of Iron', represents decades of hard-won dwarven mining knowledge carved directly out of the mountains of Khaz Modan."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The tome being sought after is dwarven craft at its finest, penned by fellow miner Margulf Blaggon and revered enough for Stormwind's scribes to covet copies."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Visiting Brother Paxton offers a glimpse into the scholarly duties of the Northshire clerics, who laboriously copy tomes by hand to preserve knowledge for the order."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This task highlights the cultural exchange binding Stormwind and Ironforge, as human libraries actively preserve and study foundational dwarven texts."
+  }
+ ],
+ "keywords": [
+  "brother paxton",
+  "margulf blaggon",
+  "milton sheaf",
+  "northshire abbey",
+  "stormwind library",
+  "the stresses of iron",
+  "transcription"
+ ],
+ "related": [
+  "npc:milton-sheaf",
+  "subzone:northshire-abbey",
+  "quest:343",
+  "quest:345",
+  "subzone:library-ironforge"
+ ],
+ "attribution": [
+  "Brother Paxton (quest)"
+ ]
+}

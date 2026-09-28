@@ -1,0 +1,94 @@
+{
+ "key": "subzone:wailing-caverns",
+ "type": "subzone",
+ "name": "Wailing Caverns",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Wailing Caverns"
+ },
+ "summary": "Tucked into the bluffs above Lushwater Oasis in the Barrens, the Wailing Caverns are a sprawling network of subterranean springs and caverns. Originally explored by the night elf druid Naralex to restore lush vitality to the arid plains, the complex has instead become a twisted den of nightmares, mutated wildlife, and corrupted druids.",
+ "sections": [
+  {
+   "title": "The Dream Curdled",
+   "body": "The caverns earn their name from the eerie, mournful wails that escape rock fissures when natural underground geysers erupt into steam. The night elf druid Naralex ventured into these deep waterways with his faithful followers, hoping to tap into the subterranean network and channel the Emerald Dream to make the barren savannas bloom. Instead, Naralex's consciousness was trapped within the Emerald Nightmare. The festering corruption bleeds outward through the slumbering druid, warping the springs and turning local beasts into unnatural deviate horrors.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Druids of the Fang",
+   "body": "As Naralex's slumber twisted into madness, his closest disciples were driven insane by the intrusive Nightmare. Renouncing their ancient traditions, they forged the Druids of the Fang under leaders like Lady Anacondra, embracing venomous snake aspects and defending their sleeping master from any who would break the trance. The subterranean waterways now threaten to poison the oases throughout the Barrens, drawing the attention of both concerned Cenarion Circle allies in Thunder Bluff and opportunistic goblins in Ratchet.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is it called the Wailing Caverns?",
+   "aliases": [
+    "why wailing",
+    "wailing caverns name meaning",
+    "why does it wail"
+   ],
+   "answer": "The caverns are named for the haunting, wailing shrieks produced when underground steam vents burst through narrow cracks in the rock ceiling, echoing through the vast stone chambers like cries of agony."
+  },
+  {
+   "q": "Who is Naralex and why is he sleeping here?",
+   "aliases": [
+    "who is naralex",
+    "sleeping druid",
+    "why is naralex asleep"
+   ],
+   "answer": "Naralex is a night elf druid who sought to transform the Barrens into lush woodland by tapping underground springs into the Emerald Dream. However, he was overwhelmed by the Emerald Nightmare while in trance, becoming an unwitting conduit for corruption."
+  },
+  {
+   "q": "What are the Druids of the Fang?",
+   "aliases": [
+    "druids of the fang lore",
+    "who are the fang druids",
+    "snake druids"
+   ],
+   "answer": "They are Naralex's former disciples who were driven insane by the Emerald Nightmare while their master slept. They adopted the aspects of serpents, actively defending the corrupted cavern and seeking to spread their warped vision of nature across the land."
+  },
+  {
+   "q": "Why are the beasts inside called 'deviate'?",
+   "aliases": [
+    "deviate beasts",
+    "what is a deviate",
+    "why deviate"
+   ],
+   "answer": "The Nightmare energy leaking from Naralex has tainted the springs, mutating ordinary raptors, crocolisks, and vipers into aberrant deviate forms characterized by strange coloring, heightened aggression, and anomalous scales and hides."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids, the caverns are a tragic cautionary tale of good intentions corrupted by the Emerald Nightmare, demanding that Naralex either be awakened or his twisted disciples put to rest."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The twisted waters threaten the fragile oases that sustain life and travel throughout the Barrens, making the cleansing of the caves an urgent matter for the safety of nearby settlements."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "cavern of mists",
+  "deviate",
+  "druids of the fang",
+  "emerald nightmare",
+  "lushwater oasis",
+  "naralex",
+  "wailing caverns"
+ ],
+ "related": [
+  "zone:wailing",
+  "npc:naralex",
+  "topic:druids-of-the-fang",
+  "subzone:lushwater-oasis",
+  "npc:lady-anacondra",
+  "npc:mutanus-the-devourer",
+  "quest:914",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Wailing Caverns"
+ ]
+}

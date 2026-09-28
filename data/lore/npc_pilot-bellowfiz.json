@@ -1,0 +1,89 @@
+{
+ "key": "npc:pilot-bellowfiz",
+ "type": "npc",
+ "name": "Pilot Bellowfiz",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Pilot Bellowfiz",
+  "refs": 2
+ },
+ "summary": "Pilot Bellowfiz, affectionately known as 'Fizzer,' is a dwarven driver stationed at Steelgrill's Depot in Dun Morogh. As a member of the Ironforge Siege Brigade, he is responsible for maintaining and fielding heavy dwarven war machines, specifically his own siege engine, Jetsteam.",
+ "sections": [
+  {
+   "title": "Master of the Jetsteam",
+   "body": "Stationed just outside the bustling halls of Ironforge at Steelgrill's Depot, Pilot Bellowfiz represents the mechanical backbone of the dwarven military. Piloting the powerful siege engine known as Jetsteam, Bellowfiz spends his days tuning components, procuring essential parts, and keeping his machine battle-ready. Alongside his comrade Pilot Stonegear, Bellowfiz is constantly discussing vehicular designs, armor plating, and engine output, ensuring that the mountain kingdom's mechanized firepower remains unmatched across Khaz Modan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Pilot Bellowfiz?",
+   "aliases": [
+    "pilot bellowfiz",
+    "fizzer",
+    "who is fizzer"
+   ],
+   "answer": "Pilot Bellowfiz is a dwarf pilot serving in the Ironforge Siege Brigade. Located at Steelgrill's Depot in Dun Morogh, he maintains and operates heavy siege engines for the defense of Khaz Modan."
+  },
+  {
+   "q": "What machine does Bellowfiz drive?",
+   "aliases": [
+    "bellowfiz tank",
+    "jetsteam",
+    "what siege engine does bellowfiz pilot"
+   ],
+   "answer": "He pilots a dwarven siege engine named Jetsteam. He frequently works to stock it with replacement parts, specialized gear, and maintenance supplies to keep it running smoothly."
+  },
+  {
+   "q": "Where can Pilot Bellowfiz be found?",
+   "aliases": [
+    "bellowfiz location",
+    "where is pilot bellowfiz",
+    "find bellowfiz"
+   ],
+   "answer": "You can find him stationed in the snow at Steelgrill's Depot, an engineering and staging yard just down the road east of Kharanos in Dun Morogh."
+  },
+  {
+   "q": "What does he do with Pilot Stonegear?",
+   "aliases": [
+    "stonegear and bellowfiz",
+    "bellowfiz conversation"
+   ],
+   "answer": "Bellowfiz and Pilot Stonegear are fellow drivers in the Siege Brigade. When not taking care of their vehicles, the two often banter and debate the fine points of siege engine design, armor, and mechanics."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "For dwarven and gnomish tinkerers, Bellowfiz represents the pinnacle of practical field engineering\u2014keeping high-powered siege engines functional in the freezing mountain weather."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Bellowfiz embodies the pride of Ironforge's mechanized brigades, showcasing the engineering prowess and heavy firepower that safeguard Khaz Modan."
+  }
+ ],
+ "keywords": [
+  "bellowfiz",
+  "dun morogh",
+  "fizzer",
+  "jetsteam",
+  "pilot bellowfiz",
+  "pilot stonegear",
+  "siege brigade",
+  "steelgrill's depot"
+ ],
+ "related": [
+  "subzone:steelgrill-s-depot",
+  "npc:pilot-stonegear",
+  "quest:317",
+  "quest:318",
+  "quest:415",
+  "zone:dunmorogh",
+  "zone:ironforge",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Pilot Bellowfiz"
+ ]
+}

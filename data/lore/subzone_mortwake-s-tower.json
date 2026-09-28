@@ -1,0 +1,95 @@
+{
+ "key": "subzone:mortwake-s-tower",
+ "type": "subzone",
+ "name": "Mortwake's Tower",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Mortwake's Tower"
+ },
+ "summary": "Mortwake's Tower, commonly known as Klaven's Tower or simply the Defias Tower, is a fortified watchtower standing near the river in southeastern Westfall. Commanded by the rogue Klaven Mortwake, it serves as a critical waypoint for smuggling stolen goods across kingdom borders.",
+ "sections": [
+  {
+   "title": "A Smuggler's Stronghold",
+   "body": "Perched on the borderlands north of the Dagger Hills, Klaven's Tower is a vital hub for Defias Brotherhood operations in southern Westfall. Together with Jerod's Landing across the river in Elwynn Forest, the site acts as a receiving post and staging ground for contraband plundered from the Redridge Mountains. Its commanding vantage over the waterways allows the Brotherhood to slip supplies past Kingdom patrols, shielding their logistical network from the crown's eyes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fumes and Shadows",
+   "body": "The tower is controlled by Klaven Mortwake, an alchemist and rogue obsessed with lethal concoctions. Mortwake spends his hours brewing exotic troll poisons within the tower's confines, churning thick, noxious fumes that permeate the upper chambers. While deadly to intruders, the vapors also dull the senses of Mortwake's own guards, providing an exploitable blind spot for stealth operatives sent by Stormwind's intelligence service, SI:7, who monitor the structure from nearby hills.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls this tower?",
+   "aliases": [
+    "who is mortwake",
+    "who is klaven",
+    "who lives in the tower"
+   ],
+   "answer": "The tower is held by Klaven Mortwake, a Defias rogue who oversees smuggling operations and conducts experiments with volatile poisons. A contingent of Defias sentries and patrollers guards the grounds under his command."
+  },
+  {
+   "q": "Why is the tower important to the Defias Brotherhood?",
+   "aliases": [
+    "defias tower purpose",
+    "what is this tower used for",
+    "why is the tower here"
+   ],
+   "answer": "It serves as a primary logistical relay for stolen goods moving into Westfall. Smuggled cargo from the Redridge Mountains is transported across Elwynn Forest, routed past Jerod's Landing, and funneled through this tower to supply the Brotherhood's wider rebellion."
+  },
+  {
+   "q": "Why is SI:7 watching this place?",
+   "aliases": [
+    "si7 mortwake tower",
+    "amber kearnen tower",
+    "why is stormwind watching"
+   ],
+   "answer": "Stormwind intelligence, led by Master Mathias Shaw, keeps the site under close surveillance due to Mortwake's lethal poison-crafting and the tower's central role in Defias supply routes. Operatives like Amber Kearnen scout the perimeter to assess Brotherhood movements and seize valuable intelligence."
+  },
+  {
+   "q": "What are the fumes lingering inside the tower?",
+   "aliases": [
+    "poison tower westfall",
+    "tower fumes",
+    "klaven poison"
+   ],
+   "answer": "The haze inside stems from Klaven Mortwake's ongoing experiments with exotic troll poisons. The fumes are dangerous to inhale, though their heavy scent also dulls the senses of the Defias guards garrisoned inside, leaving them vulnerable to skilled infiltrators."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "For rising rogues trained in Stormwind, Klaven's Tower is a rite of passage: SI:7 directs operatives here to infiltrate Mortwake's stronghold, test their lockpicking and stealth skills, and master the dangerous craft of virulent poisons."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Nestled near the borders of Elwynn, Westfall, and Redridge, this Defias stronghold demonstrates how deeply the brotherhood has compromised the kingdom's interior riverways and trade routes."
+  }
+ ],
+ "keywords": [
+  "amber kearnen",
+  "dagger hills",
+  "defias tower",
+  "klaven mortwake",
+  "klaven's tower",
+  "mortwake's tower",
+  "si:7",
+  "troll poison",
+  "westfall"
+ ],
+ "related": [
+  "quest:2359",
+  "npc:amber-kearnen",
+  "quest:2300",
+  "subzone:jerod-s-landing",
+  "zone:westfall",
+  "zone:redridge",
+  "subzone:dagger-hills",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Mortwake's Tower"
+ ]
+}

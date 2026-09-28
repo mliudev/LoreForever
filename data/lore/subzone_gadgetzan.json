@@ -1,0 +1,93 @@
+{
+ "key": "subzone:gadgetzan",
+ "type": "subzone",
+ "name": "Gadgetzan",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Gadgetzan"
+ },
+ "summary": "Gadgetzan is the walled desert hub of the Steamwheedle Cartel, standing as an island of commerce in northern Tanaris. Open to both Horde and Alliance travelers, the town operates under strictly enforced goblin neutrality, welcoming anyone with coin to spend or odd jobs to undertake.",
+ "sections": [
+  {
+   "title": "A Bastion of Profit in the Dunes",
+   "body": "Surrounded by scorching sands, Gadgetzan serves as the regional heart for the Steamwheedle Cartel's ventures in southern Kalimdor. Built with characteristic goblin ingenuity and haphazard architecture, the town boasts an independent auction house, bank, inn, and specialized crafting facilities for engineers, blacksmiths, and alchemists. It also houses flight masters catering to both major factions, ensuring steady traffic of adventurers heading toward Tanaris, Feralas, and the untamed basin of Un'Goro. Above all, commerce rules supreme: as long as visitors keep their weapons sheathed and their purses open, they are safe within its gates.",
+   "spoiler": 0
+  },
+  {
+   "title": "Desert Troubles and Enforced Order",
+   "body": "Peace in Gadgetzan is maintained not by good will, but by heavily armed goblin bruisers who swiftly pummel anyone who threatens trade or instigates faction brawls. Beyond the gates, however, life is precarious. The Gadgetzan Water Company constantly battles the Wastewander bandits, a ruthless gang occupying the vital Waterspring Field. Water is liquid gold in Tanaris, and the cartel frequently hires outside mercenaries to eliminate bandit leadership and reclaim vital water pouches to keep the town's reservoirs functional.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can Alliance and Horde attack each other in Gadgetzan?",
+   "aliases": [
+    "is gadgetzan safe",
+    "pvp in gadgetzan",
+    "can horde and alliance fight here"
+   ],
+   "answer": "No. Gadgetzan is strictly neutral territory owned by the Steamwheedle Cartel. Goblin bruisers heavily patrol the town and will immediately attack anyone caught disturbing the peace or initiating violence against other travelers."
+  },
+  {
+   "q": "Why is water such a big deal around here?",
+   "aliases": [
+    "gadgetzan water company",
+    "why water pouches",
+    "waterspring field conflict"
+   ],
+   "answer": "Situated in the middle of an arid desert, Gadgetzan relies entirely on the Gadgetzan Water Company's extraction towers at Waterspring Field. Wastewander bandits have overrun these wells, cutting off the town's primary supply and forcing the goblins to pay bounties for stolen water pouches."
+  },
+  {
+   "q": "Who controls Gadgetzan?",
+   "aliases": [
+    "who runs gadgetzan",
+    "gadgetzan faction",
+    "what cartel owns gadgetzan"
+   ],
+   "answer": "Gadgetzan is owned and governed by the Steamwheedle Cartel, the largest and most prominent mercantile goblin organization on Azeroth."
+  },
+  {
+   "q": "What makes the auction house here special?",
+   "aliases": [
+    "gadgetzan auction house",
+    "neutral auction house",
+    "cross faction ah"
+   ],
+   "answer": "Unlike the faction-restricted markets in Orgrimmar or Stormwind, Gadgetzan hosts a neutral auction house. Both Alliance and Horde players can buy and sell goods to one another here, though the goblins charge a much higher transaction fee for the privilege."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Gadgetzan is an essential crossroads for tinkerers, hosting advanced trainers, specialized schematics, and an arrival teleportation pad calibrated specifically for gnomish engineers."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The town features heavy-duty forges and anvils favored by advanced metalworkers, serving as a key staging ground for members of the Mithril Order."
+  }
+ ],
+ "keywords": [
+  "auction house",
+  "gadgetzan",
+  "goblin",
+  "neutral",
+  "steamwheedle cartel",
+  "tanaris",
+  "wastewander",
+  "waterspring field"
+ ],
+ "related": [
+  "topic:steamwheedle-cartel",
+  "zone:tanaris",
+  "subzone:waterspring-field",
+  "subzone:road-warrior",
+  "zone:ungoro",
+  "topic:goblin",
+  "subzone:ratchet"
+ ],
+ "attribution": [
+  "Gadgetzan"
+ ]
+}

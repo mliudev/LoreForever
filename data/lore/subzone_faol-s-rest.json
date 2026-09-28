@@ -1,0 +1,91 @@
+{
+ "key": "subzone:faol-s-rest",
+ "type": "subzone",
+ "name": "Faol's Rest",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Faol's Rest"
+ },
+ "summary": "Faol's Rest is a quiet, neglected gravesite situated in eastern Tirisfal Glades, just southwest of the Scarlet Monastery. It was erected as the tomb of Archbishop Alonsus Faol, the revered spiritual patriarch who founded the Knights of the Silver Hand. Today, untended beneath the blighted canopy, it serves as a release graveyard for those who perish near the monastery.",
+ "sections": [
+  {
+   "title": "Tomb of the Archbishop",
+   "body": "Before the Third War devastated Lordaeron, this secluded hollow was a place of solemn pilgrimage. It holds the stone tomb of Archbishop Alonsus Faol, who led the Church of the Holy Light through the dark days of the Second War and instituted the order of paladins to protect humanity. Faol passed away peacefully prior to the arrival of the Scourge, spared the mortal agony of seeing his kingdom fall. In those brighter years, mourners regularly journeyed up the road from Capital City to leave offerings and pay respects to the beloved patriarch.",
+   "spoiler": 0
+  },
+  {
+   "title": "Desolation in the Shadow of the Monastery",
+   "body": "When the Plague of Undeath swept across Lordaeron, Tirisfal withered, and the pilgrims vanished. Today, the monument sits abandoned and cracked in the shadows beneath the Scarlet Monastery's high bluffs. The wild brush has reclaimed the pathways, and the tomb itself lies still amid the damp mist. For adventurers striving against the zealots of the Scarlet Crusade or the lingering terrors of Tirisfal, this forgotten resting place now serves primarily as a quiet threshold where fallen spirits briefly regroup before returning to the fray.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Alonsus Faol?",
+   "aliases": [
+    "who is faol",
+    "alonsus faol lore",
+    "who is buried here"
+   ],
+   "answer": "Alonsus Faol was the Archbishop of the Church of the Holy Light during the Second War. Revered for his wisdom and compassion, he organized relief for refugees and founded the Knights of the Silver Hand, transforming holy priests and pious knights into humanity's first paladins, including Uther the Lightbringer and Turalyon."
+  },
+  {
+   "q": "Why is this monument located near the Scarlet Monastery?",
+   "aliases": [
+    "why near monastery",
+    "scarlet monastery connection",
+    "location meaning"
+   ],
+   "answer": "The grounds near the Scarlet Monastery were historically significant religious holdings of the Church of the Holy Light in northern Lordaeron. Faol was laid to rest in this tranquil corner of Tirisfal Glades before the kingdom fell, long before the scarlet-clad zealots fortified the nearby monastery."
+  },
+  {
+   "q": "Is anyone maintaining the tomb today?",
+   "aliases": [
+    "who tends faol's rest",
+    "is it abandoned",
+    "tomb upkeep"
+   ],
+   "answer": "No. Since the fall of Lordaeron to the Scourge, the site has been utterly neglected. The Scarlet Crusade rarely descends into the hollow to tend it, and the Forsaken have little interest in honoring the shrines of the old church, leaving the stone markers weathered and overgrown."
+  },
+  {
+   "q": "What practical purpose does Faol's Rest serve for travelers?",
+   "aliases": [
+    "graveyard run",
+    "what is this place in game",
+    "monastery graveyard"
+   ],
+   "answer": "Faol's Rest functions as the local spirit graveyard for the surrounding wilderness and the Scarlet Monastery. Adventurers who perish attempting to breach the monastery or traversing eastern Tirisfal find their spirits returning to the Archbishop's quiet monument."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Every paladin owes their calling to Archbishop Faol, who first gathered Uther and his peers to unite the martial arts with the Holy Light. Standing before his untended tomb is a sobering reminder of the order's beginnings."
+  },
+  {
+   "target": "class:Priest",
+   "text": "As the supreme leader of the Church of the Holy Light through the Second War, Faol was the shepherd of all priesthoods in Lordaeron; seeing his monument ruined reflects the church's tragic ruin in the north."
+  }
+ ],
+ "keywords": [
+  "alonsus faol",
+  "church of the holy light",
+  "faol's rest",
+  "graveyard",
+  "scarlet monastery",
+  "silver hand",
+  "tirisfal glades"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "zone:scarlet",
+  "topic:lordaeron",
+  "topic:plague-of-undeath",
+  "topic:scourge",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Faol's Rest"
+ ]
+}

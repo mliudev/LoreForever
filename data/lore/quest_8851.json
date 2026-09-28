@@ -1,0 +1,112 @@
+{
+ "key": "quest:8851",
+ "type": "quest",
+ "name": "Five Signets for War Supplies",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   8851
+  ],
+  "level": "19",
+  "faction": "Horde",
+  "start": "Warlord Gorchuk",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Five Signets for War Supplies (Horde)",
+  "chain": []
+ },
+ "summary": "Five Signets for War Supplies is a logistical exchange coordinated by Warlord Gorchuk in Orgrimmar. By turning in commendation signets earned during the Horde's massive military mobilization, champions receive personal supplies to keep them equipped for the coming conflict.",
+ "sections": [
+  {
+   "title": "A Continent-Wide Effort",
+   "body": "Across Kalimdor, the Horde is marshaling vast quantities of raw goods, munitions, and provisions for a massive campaign. While ordinary gatherers and tradesfolk haul crates of bandages, metals, and herbs into the city centers, military overseers issue commendation signets to honor their service. These tokens signify direct contribution to the grand stockpile accumulating in Orgrimmar's central avenues.",
+   "spoiler": 0
+  },
+  {
+   "title": "Materiel for the Frontlines",
+   "body": "Warlord Gorchuk recognizes that while collecting supplies for the greater war effort is critical, individual warriors also require gear and provisions to stay alive when marching into battle. Through this requisition, fighters can forego personal recognition and trade their commendation signets back into the war machine in exchange for field-ready supplies and surplus materiel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of turning in five signets?",
+   "aliases": [
+    "why turn in 5 signets",
+    "signet turn in purpose",
+    "what do i get for 5 signets"
+   ],
+   "answer": "It allows soldiers aiding the Horde's war mobilization to exchange their earned commendation tokens directly for personal survival gear and field supplies rather than holding them for political recognition."
+  },
+  {
+   "q": "Who is Warlord Gorchuk?",
+   "aliases": [
+    "gorchuk identity",
+    "who is gorchuk"
+   ],
+   "answer": "Warlord Gorchuk is a Horde military coordinator stationed in Orgrimmar, responsible for managing supplies and authorizing requisitions for warriors preparing for impending conflict."
+  },
+  {
+   "q": "How do you obtain Horde Commendation Signets?",
+   "aliases": [
+    "get signets",
+    "where do signets come from",
+    "commendation signet source"
+   ],
+   "answer": "Signets are awarded by quartermasters and logistics officers across the Horde when adventurers contribute raw materials, food, bandages, and crafting resources to the faction's war effort."
+  },
+  {
+   "q": "Can this requisition be repeated?",
+   "aliases": [
+    "is this repeatable",
+    "can i do this again"
+   ],
+   "answer": "Yes. Warlord Gorchuk is willing to authorize repeated exchanges as long as you continue to deliver the required batches of signets to support the troops."
+  },
+  {
+   "q": "Why does Gorchuk say I won't receive recognition for this exchange?",
+   "aliases": [
+    "no recognition meaning",
+    "why no rep"
+   ],
+   "answer": "Spending your commendation signets directly on personal supplies draws from the quartermaster's caches rather than archiving your deeds, meaning you trade away formal accolades in favor of immediate, practical field materiel."
+  },
+  {
+   "q": "Where does this exchange take place?",
+   "aliases": [
+    "where is this quest",
+    "turn in location"
+   ],
+   "answer": "The requisition is handled directly in Orgrimmar, where stockpiles and logistics coordinators gather to prepare the Horde for the war effort."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Every crate and bundle collected in Orgrimmar ensures the Horde stands fully supplied against the catastrophic threats lurking on the horizon."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Frontline brawlers who value practical survival over ceremonial recognition will find Gorchuk's supply crates well worth their accumulated signets."
+  }
+ ],
+ "keywords": [
+  "commendation",
+  "gorchuk",
+  "materiel",
+  "orgrimmar",
+  "requisition",
+  "signets",
+  "supplies",
+  "war effort"
+ ],
+ "related": [
+  "npc:warlord-gorchuk",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Five Signets for War Supplies (Horde)"
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "key": "quest:21",
+ "type": "quest",
+ "name": "Skirmish at Echo Ridge",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   21
+  ],
+  "level": "5",
+  "faction": "Alliance",
+  "start": "",
+  "end": "",
+  "previous": "Investigate Echo Ridge",
+  "next": "Report to Goldshire",
+  "wiki": "Skirmish at Echo Ridge",
+  "chain": []
+ },
+ "summary": "Skirmish at Echo Ridge is a direct military operation ordered by Marshal McBride to cleanse the Echo Ridge Mine of kobold laborers. Following initial reconnaissance, this strike aims to prevent the subterranean infestation from establishing a permanent foothold in Northshire Valley.",
+ "sections": [
+  {
+   "title": "Purging the Mine",
+   "body": "After early scouting confirmed that kobolds had overrun the Echo Ridge Mine, Marshal McBride wasted no time organizing an active counterattack. Left undisturbed, subterranean vermin rapidly fortify their tunnels, stockpile stolen resources, and multiply beyond control. To protect the vital agricultural and spiritual retreat of Northshire Valley, the local garrison relies on recruits to engage the kobold laborers directly and thin their ranks before they entrench themselves further.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Thin Defense",
+   "body": "The necessity of employing newly enlisted recruits for a direct frontal assault reflects the strained state of the Stormwind Army. With frontline garrisons stretched thin across the southern borders and rumors of rising unrest throughout Elwynn, local officers like McBride must muster whatever willing hands they can find. The successful skirmish at Echo Ridge demonstrates the recruit's reliability, earning them formal respect and readying them for more critical missions elsewhere in the kingdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are kobolds infesting the Echo Ridge Mine?",
+   "aliases": [
+    "why kobolds in mine",
+    "echo ridge kobolds",
+    "what are kobolds doing"
+   ],
+   "answer": "Kobolds are naturally drawn to mineral-rich underground tunnels and abandoned quarries. With Stormwind's military stretched thin, unguarded sites like Echo Ridge became easy targets for vermin looking to dig burrows, hoard gold, and establish subterranean footholds."
+  },
+  {
+   "q": "Who orders the skirmish?",
+   "aliases": [
+    "who gives skirmish quest",
+    "marshal mcbride orders"
+   ],
+   "answer": "Marshal McBride, the ranking officer of the Stormwind Army stationed at Northshire Abbey, commands the operation. He oversees the defense of the valley and is tasked with maintaining order despite limited military manpower."
+  },
+  {
+   "q": "What is the strategic importance of Echo Ridge Mine?",
+   "aliases": [
+    "why echo ridge matters",
+    "echo ridge mine importance"
+   ],
+   "answer": "Echo Ridge provides raw stone and ore critical for Northshire's maintenance and Stormwind's broader reconstruction efforts. Allowing an infestation to flourish right on Northshire's northern border poses a direct physical threat to the abbey and nearby vineyards."
+  },
+  {
+   "q": "Where does this mission lead next?",
+   "aliases": [
+    "what quest after skirmish",
+    "next step after echo ridge"
+   ],
+   "answer": "Once the mine is cleared of initial laborer resistance, Marshal McBride recognizes the adventurer's proven combat capability and directs them onward toward Goldshire to assist the wider regional defense."
+  },
+  {
+   "q": "Why doesn't the Stormwind Army clear the mine themselves?",
+   "aliases": [
+    "why recruits",
+    "where are stormwind soldiers"
+   ],
+   "answer": "The Stormwind Army is critically short on personnel, struggling to defend distant borders and responding to banditry across Elwynn. Officers like McBride must rely on newly sworn recruits to handle local threats while seasoned guards hold defensive perimeters."
+  },
+  {
+   "q": "Are kobolds intelligent enough to be an organized military threat?",
+   "aliases": [
+    "are kobolds smart",
+    "kobold danger level"
+   ],
+   "answer": "While individual kobold laborers are cowardly and simple-minded, they are dangerously territorial and aggressive in large numbers. Left unchecked, they rapidly dig labyrinthine tunnels, trap caverns, and invite larger, better-armed vermin to join them."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Clearing Echo Ridge represents a recruit's first true test of arms in defense of their ancestral kingdom, proving their mettle directly to the Stormwind military brass."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Every mine wrested back from encroaching monsters secures vital stone and ore necessary to rebuild and fortify human settlements in the wake of war."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Subterranean brawls against swarming workers offer young warriors their first taste of close-quarters melee against multiple entrenched foes."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Clearing the infestation restores hope that valuable mineral veins throughout Northshire Valley can once again be safely excavated and smelted."
+  }
+ ],
+ "keywords": [
+  "echo ridge",
+  "echo ridge mine",
+  "elwynn",
+  "kobold",
+  "laborer",
+  "marshal mcbride",
+  "mcbride",
+  "northshire",
+  "skirmish",
+  "stormwind army"
+ ],
+ "related": [
+  "quest:15",
+  "subzone:echo-ridge-mine",
+  "npc:marshal-mcbride",
+  "subzone:northshire-abbey",
+  "topic:kobold",
+  "topic:stormwind-army",
+  "zone:elwynn",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Skirmish at Echo Ridge"
+ ]
+}

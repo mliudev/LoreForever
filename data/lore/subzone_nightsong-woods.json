@@ -1,0 +1,87 @@
+{
+ "key": "subzone:nightsong-woods",
+ "type": "subzone",
+ "name": "Nightsong Woods",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Nightsong Woods"
+ },
+ "summary": "Nightsong Woods forms the embattled eastern expanse of Ashenvale, reaching from Raynewood Retreat toward the borders of Azshara. It serves as the primary battleground between the night elves defending their sacred forest and the Warsong clan harvesting lumber for the Horde. Across its shadowed glades, ancient groves clash with fortified encampments amidst persistent demonic corruption.",
+ "sections": [
+  {
+   "title": "A Forest Carved by War",
+   "body": "Stretching eastward across Ashenvale to Azshara, Nightsong Woods is defined by escalating violence. The Falfarren River bisects the western reaches, creating a volatile boundary between Alliance settlements and Horde encroachments. Further east, the forest fractures into heavily disputed territories where Splintertree Post coordinates Horde campaigns against the Silverwing Sentinels and Forest Song. Orcish axes continuously clear southern groves to fuel the Horde's expansion, leaving clear-cut swaths that infuriate the Kaldorei. Adding to the peril, satyr strongholds like Satyrnaar and Xavian, alongside demonic remnants in Demon Fall Canyon and Felfire Hill, taint the eastern canopies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Nightsong Woods located?",
+   "aliases": [
+    "nightsong woods location",
+    "where is nightsong woods",
+    "ashenvale east woods"
+   ],
+   "answer": "Nightsong Woods encompasses the eastern half of Ashenvale. Its boundaries extend from Raynewood Retreat and the northern road to Felwood all the way east to the untamed border of Azshara."
+  },
+  {
+   "q": "Why is there so much fighting in this part of Ashenvale?",
+   "aliases": [
+    "why fighting in nightsong woods",
+    "horde vs alliance ashenvale",
+    "warsong conflict"
+   ],
+   "answer": "The region sits on the frontline of the conflict between the Silverwing Sentinels and the Warsong clan. The Horde relies heavily on the dense timber harvested from the southern trees to build and sustain their settlements, while the night elves fight fiercely to halt the clear-cutting and reclaim their ancestral land."
+  },
+  {
+   "q": "Who controls Nightsong Woods?",
+   "aliases": [
+    "who owns nightsong woods",
+    "nightsong woods faction control"
+   ],
+   "answer": "No single faction holds dominion over the woods. The Falfarren River roughly separates western Alliance territory from eastern Horde positions around Splintertree Post and the Warsong Lumber Camp. Pockets of the woodland are also held by corrupt satyr at Satyrnaar and Xavian, as well as Legion forces near Demon Fall Canyon."
+  },
+  {
+   "q": "What demonic threats exist here?",
+   "aliases": [
+    "demons in nightsong woods",
+    "satyr in eastern ashenvale",
+    "felfire hill demons"
+   ],
+   "answer": "The eastern wilderness hosts significant demonic and corruptive influences. Satyr dwell in fortified ancient ruins such as Satyrnaar and Xavian, while lingering Burning Legion fiends inhabit Felfire Hill and the depths of Demon Fall Canyon."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Nightsong Woods represents a sacred borderland under siege; defending its ancient groves from Warsong axes and purging lingering satyr corruption are matters of fundamental duty for the Kaldorei."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This eastern front secures vital building timber and strategic supply lanes through Splintertree Post, demanding vigilance against Sentinel ambushes and demonic beasts."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "falfarren river",
+  "nightsong woods",
+  "satyrnaar",
+  "silverwing sentinels",
+  "splintertree post",
+  "warsong lumber camp"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "subzone:splintertree-post",
+  "subzone:silverwing-grove",
+  "subzone:warsong-lumber-camp",
+  "subzone:falfarren-river",
+  "subzone:raynewood-retreat",
+  "subzone:satyrnaar",
+  "subzone:demon-fall-canyon"
+ ],
+ "attribution": [
+  "Nightsong Woods"
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "key": "quest:488",
+ "type": "quest",
+ "name": "Zenn's Bidding",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   488
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Zenn Foulhoof",
+  "end": "",
+  "previous": "",
+  "next": "Seek Redemption!",
+  "wiki": "Zenn's Bidding",
+  "chain": []
+ },
+ "summary": "Zenn's Bidding is an Alliance quest offered by Zenn Foulhoof, a solitary satyr lurking just north of the road between Shadowglen and Dolanaar. He coaxes eager adventurers into hunting local wildlife to gather animal parts for his undisclosed schemes, preying upon the trust and naivety of newcomers to Teldrassil.",
+ "sections": [
+  {
+   "title": "A Dubious Bargain",
+   "body": "Travelers emerging from Shadowglen along the path toward Dolanaar may encounter Zenn Foulhoof standing casually beneath the boughs of the Great Tree. Instead of showing outright hostility, the satyr offers promises of material reward and secrets in exchange for mundane errand running. He asks adventurers to harvest nightsaber fangs, strigid owl feathers, and webwood spider silk from the surrounding woodlands, whispering conspiratorially to keep the arrangement between themselves.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Satyr's Joke",
+   "body": "Satyrs are ancient enemies of the kaldorei, corrupted by demonic magic during the War of the Ancients, making Zenn's mere presence on Teldrassil an outrage. Unsuspecting adventurers who complete his errand quickly discover they have been mocked. Rather than providing treasures or deep insights, Zenn laughs openly at how gullible the traveler was to serve a satyr, celebrating that he fooled a naive stranger into carrying out his dirty work.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zenn Foulhoof?",
+   "aliases": [
+    "who is zenn",
+    "zenn foulhoof lore",
+    "satyr questgiver"
+   ],
+   "answer": "Zenn Foulhoof is a sly satyr found lurking by the path west of Shadowglen on the way to Dolanaar. Unlike most satyrs who openly attack on sight, Zenn uses smooth talk and false promises to manipulate naive travelers into doing chores for him."
+  },
+  {
+   "q": "Why is a satyr giving quests in Teldrassil?",
+   "aliases": [
+    "why is a satyr friendly",
+    "why can i talk to zenn",
+    "satyr in teldrassil"
+   ],
+   "answer": "Zenn presents himself as non-hostile to dupe fledgling adventurers who do not yet realize the treacherous, corrupt nature of satyrs. He exploits their eagerness for work and silver to gather reagents he cannot openly hunt for himself without drawing the ire of Sentinels."
+  },
+  {
+   "q": "What does Zenn do with the fangs, feathers, and silk?",
+   "aliases": [
+    "why does zenn want silk",
+    "zenn's reagents",
+    "what are the animal parts for"
+   ],
+   "answer": "Zenn claims the parts are reagents needed for his mysterious 'business in the forest.' In reality, he relishes exerting influence over mortals and using their labor for his own corrupt ends while privately mocking their gullibility."
+  },
+  {
+   "q": "Why shouldn't night elves trust Zenn Foulhoof?",
+   "aliases": [
+    "why hate satyrs",
+    "night elf satyr history",
+    "are satyrs evil"
+   ],
+   "answer": "Satyrs were once night elves who were transformed by the demonic power of the Burning Legion ten thousand years ago during the War of the Ancients. They are ancient, sworn enemies of the kaldorei and carriers of corruption, making any bargain with one dangerous and disgraceful."
+  },
+  {
+   "q": "What happens after completing Zenn's Bidding?",
+   "aliases": [
+    "after zenn's bidding",
+    "seek redemption quest",
+    "what next after zenn"
+   ],
+   "answer": "Upon handing over the items, Zenn openly mocks you for being foolish enough to obey a satyr. Realizing the deceit and the shame of aiding such a creature, adventurers are subsequently directed to seek redemption for their mistake."
+  },
+  {
+   "q": "Where is Zenn Foulhoof located?",
+   "aliases": [
+    "zenn foulhoof location",
+    "where is zenn",
+    "zenn map location"
+   ],
+   "answer": "He is located in Teldrassil, standing just north of the main road that leads west out of Shadowglen toward Dolanaar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For a young night elf, taking orders from a satyr is deeply shameful. Satyrs are ancestral traitors corrupted by the Burning Legion, and aiding one on the boughs of Teldrassil is an offense against nature and kaldorei heritage."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids are pledged to preserve nature's balance. Poaching nightsabers, owls, and spiders on behalf of a twisted creature of corruption is an affront to Cenarion teachings."
+  }
+ ],
+ "keywords": [
+  "dolanaar",
+  "foulhoof",
+  "nightsaber",
+  "satyr",
+  "shadowglen",
+  "strigid",
+  "teldrassil",
+  "webwood",
+  "zenn"
+ ],
+ "related": [
+  "npc:zenn-foulhoof",
+  "quest:489",
+  "topic:satyr",
+  "subzone:dolanaar",
+  "subzone:shadowglen",
+  "zone:teldrassil",
+  "topic:night-elf",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Zenn's Bidding"
+ ]
+}

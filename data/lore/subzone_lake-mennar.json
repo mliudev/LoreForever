@@ -1,0 +1,69 @@
+{
+ "key": "subzone:lake-mennar",
+ "type": "subzone",
+ "name": "Lake Mennar",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Lake Mennar"
+ },
+ "summary": "Lake Mennar is a tranquil body of freshwater nestled amidst the shattered ruins of Azshara. It is remarkably renowned as one of the exceedingly rare havens outside of Northrend where members of the blue dragonflight reside. While the perimeter teems with protective blue dragonspawn, the shores of the lake itself remain strangely serene.",
+ "sections": [
+  {
+   "title": "A Sanctuary for the Blue Dragonflight",
+   "body": "Situated in the ancient, broken landscape of Azshara, Lake Mennar serves as a secluded gathering ground for the blue dragonflight. Aside from Mazthoril to the north in Winterspring, it is virtually unheard of to encounter blue dragons in such numbers across Kalimdor. Blue dragonspawn tirelessly patrol the ridges and approaches circling the basin, fiercely guarding the waters. Yet for any wanderer daring enough to slip through this vigilant ring of sentries, the calm waters of the lake offer unexpected quietude, shielded from the arcane turmoil and roaming beast packs common to the rest of the peninsula.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there blue dragons at Lake Mennar?",
+   "aliases": [
+    "why blue dragons here",
+    "who lives at lake mennar",
+    "blue dragonflight lake mennar"
+   ],
+   "answer": "Lake Mennar holds a quiet, special significance to the blue dragonflight, making it one of their very few gathering grounds on Kalimdor outside of Mazthoril in Winterspring. Dragonspawn vigilantly patrol the perimeter to safeguard the basin and keep interlopers away from their brood."
+  },
+  {
+   "q": "Is Lake Mennar dangerous to visit?",
+   "aliases": [
+    "is lake mennar safe",
+    "enemies at lake mennar"
+   ],
+   "answer": "The surrounding ridges and approaches are heavily patrolled by aggressive blue dragonkin and whelps. However, the water and immediate shoreline inside the basin are surprisingly peaceful if you manage to slip past the outer ring of guards."
+  },
+  {
+   "q": "How does Lake Mennar connect to other blue dragon roosts?",
+   "aliases": [
+    "connection to mazthoril",
+    "lake mennar winterspring"
+   ],
+   "answer": "On the continent of Kalimdor, Lake Mennar and Mazthoril in Winterspring are the primary known territories watched over by the blue flight. Both sites serve as rare outposts far to the south of the flight's ancestral home in Northrend."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "As stewards of the world's arcane energies, the blue dragons guarding Lake Mennar make the basin an area of great intrigue and caution for practitioners of arcane magic."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "azuregos",
+  "blue dragonflight",
+  "dragonspawn",
+  "lake mennar",
+  "mazthoril",
+  "whelps"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:mazthoril",
+  "npc:azuregos",
+  "zone:winterspring"
+ ],
+ "attribution": [
+  "Lake Mennar"
+ ]
+}

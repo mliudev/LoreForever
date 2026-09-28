@@ -1,0 +1,117 @@
+{
+ "key": "quest:397",
+ "type": "quest",
+ "name": "You Have Served Us Well",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   397
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Zardeth of the Black Claw",
+  "end": "Zggi",
+  "previous": "A Noble Brew (2)",
+  "next": null,
+  "wiki": "You Have Served Us Well",
+  "chain": [
+   "A Noble Brew",
+   "A Noble Brew (2)",
+   "You Have Served Us Well"
+  ]
+ },
+ "summary": "You Have Served Us Well marks the conclusion of the clandestine scheme to silence Lord Wishock in Stormwind City. Having successfully delivered a lethal, customized brew to the meddling nobleman, warlock practitioners report back to Zardeth of the Black Claw to secure their reward and guarantee the cabal's continued secrecy.",
+ "sections": [
+  {
+   "title": "A Silence Bought in Shadows",
+   "body": "Beneath the surface of Stormwind, practitioners of the dark arts operate under precarious tolerance. When noble authorities such as Lord Wishock threaten to expose or disrupt their covert studies, the coven acts decisively. By orchestrating Wishock's demise through a tainted draught, the warlocks preserve their hidden redoubt beneath the Slaughtered Lamb.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Master's Boon",
+   "body": "Upon receiving news that Wishock partook of his final drink, Zardeth of the Black Claw considers the immediate threat averted. As recompense for keeping the city guard and inquisitive peers at bay, Zardeth entrusts his sniveling servant, an imp named Zggi, with bestowing a dark token of gratitude upon the loyal practitioner.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zardeth of the Black Claw?",
+   "aliases": [
+    "who is zardeth",
+    "zardeth role",
+    "black claw leader"
+   ],
+   "answer": "Zardeth of the Black Claw is a prominent warlock operating secretly out of Stormwind City. He works to safeguard the city's hidden dark casters from discovery by local nobility, utilizing ruthless measures to eliminate any who pry too closely into their forbidden craft."
+  },
+  {
+   "q": "What happened to Lord Wishock?",
+   "aliases": [
+    "did wishock die",
+    "what was the brew for",
+    "lord wishock fate"
+   ],
+   "answer": "Lord Wishock was fed a specially prepared toxic brew concocted by Stormwind's hidden warlocks. His elimination ensures that the noble house will no longer investigate or disturb the dark practitioners conducting rituals beneath the city streets."
+  },
+  {
+   "q": "Who is Zggi?",
+   "aliases": [
+    "who is the imp zggi",
+    "zggi servant"
+   ],
+   "answer": "Zggi is an imp bound in service to Zardeth of the Black Claw. Grudging and covetous, Zggi longs to hoard the master's treasures for himself, but dreads the punishment that would follow any open defiance of Zardeth's commands."
+  },
+  {
+   "q": "Why was Lord Wishock targeted by the warlocks?",
+   "aliases": [
+    "why kill wishock",
+    "wishock threat"
+   ],
+   "answer": "Wishock posed an active threat of disturbance and exposure to Stormwind's warlock coven. By ending his interference, the warlocks bought uninterrupted safety to pursue demonology and shadow magic unhindered by the nobility."
+  },
+  {
+   "q": "Where does this quest chain conclude?",
+   "aliases": [
+    "where do i turn in you have served us well",
+    "zggi location"
+   ],
+   "answer": "The quest concludes directly with the imp Zggi, situated near Zardeth of the Black Claw in the warlock sanctum beneath the Slaughtered Lamb in Stormwind's Mage Quarter."
+  },
+  {
+   "q": "Why is this task restricted strictly to warlocks?",
+   "aliases": [
+    "is this warlock only",
+    "why warlock quest"
+   ],
+   "answer": "The operation involves delicate internal cabal politics and unlawful assassination. Entrusting such lethal subterfuge only to proven warlock disciples prevents betrayal and keeps the broader Alliance authorities ignorant of the act."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This task demonstrates the ruthless pragmatism required to survive in Stormwind: shielding your coven by eliminating nosy nobles before they turn the city guard against you."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Beneath the pristine spires and pious devotion of Stormwind lies a shadowy underbelly where forbidden warlocks secretly assassinate highborn meddlers to protect their presence."
+  }
+ ],
+ "keywords": [
+  "a noble brew",
+  "black claw",
+  "imp",
+  "lord wishock",
+  "stormwind",
+  "the slaughtered lamb",
+  "zardeth",
+  "zggi"
+ ],
+ "related": [
+  "quest:335",
+  "npc:zardeth-of-the-black-claw",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "You Have Served Us Well"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:the-den",
+ "type": "subzone",
+ "name": "The Den",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "The Den"
+ },
+ "summary": "The Den is the sheltered cave at the heart of the Valley of Trials in southwestern Durotar. Serving as the primary base of operations for young orc and troll adventurers, it provides martial and magical training before they set out into the wider world.",
+ "sections": [
+  {
+   "title": "Cradle of the Horde",
+   "body": "Tucked into the red canyon walls of the Valley of Trials, the Den serves as an austere proving ground. Within its carved, shadowy interior, novice fighters, spellcasters, and hunters report to veterans like Gornek and Zureetha Fargaze. It is here that fledglings receive their foundational combat instruction, supplies, and initial rites of passage, hardening them for the harsh realities of Durotar and the greater struggles facing the new Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Watchful Outpost",
+   "body": "Beyond housing class trainers and provisions, the Den functions as an active field redoubt. Durotar remains under constant surveillance by Kul Tiras outposts along the coast, and captured Northwatch scouts are brought directly into the cave's holding cages for interrogation. Between managing foreign trespassers and dispatching new recruits to cull the local beasts and aggressive quillboars, the overseers maintain a strict, vigilant watch over the valley.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Den?",
+   "aliases": [
+    "what is the den",
+    "why is the den here",
+    "purpose of the den"
+   ],
+   "answer": "The Den serves as the central command post and training sanctuary within the Valley of Trials. Here, novice orcs and Darkspear trolls gather to learn basic class techniques, purchase provisions, and receive assignments that prove their loyalty and combat readiness to the Horde."
+  },
+  {
+   "q": "Who runs things inside the Den?",
+   "aliases": [
+    "who leads the den",
+    "who is in charge",
+    "den overseer"
+   ],
+   "answer": "The encampment is supervised by veteran overseers such as Gornek and Foreman Thazz'ril, along with spiritual and magical mentors like Zureetha Fargaze and Canaga Earthcaller, all working together to instruct the newest generation of warriors and mystics."
+  },
+  {
+   "q": "Why are there prisoners caged inside the cave?",
+   "aliases": [
+    "why are there cages",
+    "northwatch scouts",
+    "prisoners in the den"
+   ],
+   "answer": "The cages hold captured Northwatch scouts who infiltrated Durotar from Tiragarde Keep and the coastal human outposts. They are detained here under guard to prevent them from gathering intelligence on Horde troop numbers and newly trained recruits."
+  },
+  {
+   "q": "Can you learn primary professions here?",
+   "aliases": [
+    "profession trainers den",
+    "can i learn blacksmithing here",
+    "train mining in den"
+   ],
+   "answer": "No. The Den only hosts basic class trainers and general equipment merchants. New adventurers must travel north to Razor Hill or on to Orgrimmar to study primary trade skills such as Blacksmithing, Leatherworking, or Mining."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Every young orc begins their journey at the Den, shedding the complacency of internment camps and blood haze to earn their place through discipline and labor."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Following the devastation of the Darkspear Isles, young Darkspear trolls train in the Den alongside their orc allies, proving their mettle under the Horde's banner."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "gornek",
+  "northwatch",
+  "starting cave",
+  "the den",
+  "trainers",
+  "valley of trials",
+  "zureetha fargaze"
+ ],
+ "related": [
+  "subzone:valley-of-trials",
+  "zone:durotar",
+  "npc:gornek",
+  "npc:zureetha-fargaze",
+  "subzone:razor-hill",
+  "npc:magga",
+  "npc:mai-ah",
+  "topic:troll"
+ ],
+ "attribution": [
+  "The Den"
+ ]
+}

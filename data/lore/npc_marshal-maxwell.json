@@ -1,0 +1,87 @@
+{
+ "key": "npc:marshal-maxwell",
+ "type": "npc",
+ "name": "Marshal Maxwell",
+ "era": "classic",
+ "zone": "burningsteppes",
+ "meta": {
+  "wiki": "Marshal Maxwell",
+  "refs": 2
+ },
+ "summary": "Marshal Maxwell is a high-ranking officer of the Stormwind army stationed at Morgan's Vigil in the Burning Steppes. Tasked with holding the Alliance's northernmost fortified ridge in the Redridge Mountains against the Blackrock clan and the Dark Iron dwarves, he directs scouting missions into the hostile crags below. He also plays a crucial role in coordinating efforts to discover the fate of his captured comrade, Marshal Reginald Windsor.",
+ "sections": [
+  {
+   "title": "A Lonely Post on the Steppes",
+   "body": "Morgan's Vigil stands as a precarious outpost on the southern rim of the Burning Steppes, overlooking a wasteland choked with ash, dragonkin, and Blackrock orcs. Marshal Maxwell commands the Stormwind military detachment stationed here, providing a rare friendly sight for travelers braving the fiery crags. From this rocky bastion, he oversees defensive maneuvers to keep the hostile forces of the mountain contained before they can sweep southward into Redridge and Elwynn.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uncovering the Truth in the Mountain",
+   "body": "Beyond routine containment, Maxwell serves as the primary field liaison for operations aimed at the heart of Blackrock Spire and Blackrock Depths. When rumors surface that the captured Marshal Reginald Windsor may still live in the dungeons of the Dark Iron dwarves, it is Maxwell who receives intelligence, sifts through reports, and directs trusted champions to mount a rescue. His outpost forms the critical bridge connecting frontier reconnaissance with the political turmoil brewing inside the gates of Stormwind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Marshal Maxwell?",
+   "aliases": [
+    "marshal maxwell lore",
+    "who is maxwell"
+   ],
+   "answer": "Marshal Maxwell is a commander in the Stormwind army stationed at Morgan's Vigil in the Burning Steppes. He leads the local Alliance forces keeping watch over the Blackrock orcs, Black dragons, and Dark Iron dwarves."
+  },
+  {
+   "q": "Why is Marshal Maxwell stationed at Morgan's Vigil?",
+   "aliases": [
+    "why is maxwell in burning steppes",
+    "morgan's vigil commander"
+   ],
+   "answer": "Morgan's Vigil is the Alliance's frontline encampment bordering the Burning Steppes. Maxwell is posted here to secure the mountain pass leading down into the Redridge Mountains and monitor threats pouring out of Blackrock Mountain."
+  },
+  {
+   "q": "What is Maxwell's connection to Marshal Windsor?",
+   "aliases": [
+    "maxwell and windsor",
+    "abandoned hope quest lore"
+   ],
+   "answer": "Maxwell is the key commander assisting in the search for Marshal Reginald Windsor, who was captured and dragged into Blackrock Depths. Maxwell helps coordinate rescue efforts and routes crucial intelligence regarding Windsor back to Stormwind."
+  },
+  {
+   "q": "Does Marshal Maxwell help organize strikes against Blackrock Spire?",
+   "aliases": [
+    "maxwell drakkisath",
+    "maxwell's mission"
+   ],
+   "answer": "Yes. Maxwell directs veteran Alliance champions to dismantle the upper echelons of the Blackrock clan, issuing directives targeting General Drakkisath and his forces holding the heights of Blackrock Spire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions braving the searing heat of the Burning Steppes, Marshal Maxwell represents the authority of Stormwind and the spearhead of the campaign against Blackrock Mountain."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Maxwell embodies the discipline of Stormwind's frontline military, standing tall amid volcanic ash and coordinating deep assaults behind enemy lines."
+  }
+ ],
+ "keywords": [
+  "blackrock depths",
+  "burning steppes",
+  "general drakkisath",
+  "marshal maxwell",
+  "maxwell",
+  "morgans vigil",
+  "reginald windsor",
+  "stormwind army"
+ ],
+ "related": [
+  "subzone:morgan-s-vigil",
+  "zone:burningsteppes",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Marshal Maxwell"
+ ]
+}

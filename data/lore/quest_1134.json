@@ -1,0 +1,134 @@
+{
+ "key": "quest:1134",
+ "type": "quest",
+ "name": "Pridewings of Stonetalon",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1134
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Shindrell Swiftfire",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Pridewings of Stonetalon",
+  "chain": []
+ },
+ "summary": "Concerned about covert Horde attacks, the Sentinels in Astranaar seek to intercept a deadly weapon before it can strike their people. Intelligence from Theramore reveals that orc assassins harvest toxic venom from the wyverns of Stonetalon Mountains for clandestine raids. To protect their fragile border, Alliance scouts are dispatched south to harvest the venom sacs first and starve the enemy of their lethal poison.",
+ "sections": [
+  {
+   "title": "A Fragile Truce",
+   "body": "Though open war has not been declared between the Alliance and the Horde across northern Kalimdor, the peace between them is razor-thin. Skirmishes break out under thick forest canopies, and quiet, deniable strikes have replaced full-scale armies. Sentinel commanders in Astranaar maintain constant vigilance against covert enemy movements, knowing that complacency could cost them their sanctuary.",
+   "spoiler": 0
+  },
+  {
+   "title": "Poison from the Crags",
+   "body": "Intelligence passed from secretive contacts in Theramore brought word of a sinister enterprise underway in the crags of Stonetalon. Orcish stalkers have been gathering venom from wild pridewings around Mirkfallon Lake, using the potent biological agent to coat their blades for fatal ambush raids against Alliance personnel. To blunt the threat, Shindrell Swiftfire directs champions to cull the beasts and seize the venom sacs before Horde agents can harvest them.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Painful Duty",
+   "body": "Ordering the destruction of native beasts weighs heavily on the night elves, who hold deep reverence for Kalimdor's wilderness. Shindrell herself laments that innocent creatures must suffer for a war they have no role in choosing. Yet in the grim calculus of border defense, denying an enemy lethal arms takes precedence over ecological preservation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are pridewings?",
+   "aliases": [
+    "what are pridewings",
+    "pridewing lore",
+    "stonetalon pridewings"
+   ],
+   "answer": "Pridewings are dangerous, venomous flying beasts related to wyverns that nest in high crags, particularly around Mirkfallon Lake in the Stonetalon Mountains. Their potent venom makes them lethal predators and a coveted resource for poisoners."
+  },
+  {
+   "q": "Why is the Alliance hunting them?",
+   "aliases": [
+    "why kill pridewings",
+    "quest purpose",
+    "alliance pridewing venom"
+   ],
+   "answer": "Alliance intelligence indicates that Horde assassins are actively harvesting pridewing venom to coat weapons used in covert raids against Alliance positions. By slaughtering the beasts and claiming their venom sacs first, the Alliance deprives the Horde of this deadly poison."
+  },
+  {
+   "q": "Who provided the intelligence about the orc assassins?",
+   "aliases": [
+    "who warned the alliance",
+    "theramore spy info",
+    "shindrell intel source"
+   ],
+   "answer": "The warning originated from hidden Alliance informants stationed in Theramore, who keep close watch on Horde movements and supply networks throughout the southern barrens and Stonetalon."
+  },
+  {
+   "q": "Where is Mirkfallon Lake located?",
+   "aliases": [
+    "mirkfallon lake location",
+    "where are the pridewings",
+    "find pridewings"
+   ],
+   "answer": "Mirkfallon Lake lies in the northern reaches of the Stonetalon Mountains, just south of the border trail leading from Ashenvale."
+  },
+  {
+   "q": "Are the Alliance and Horde at open war in Ashenvale?",
+   "aliases": [
+    "are horde and alliance at war",
+    "ashenvale war status",
+    "peace treaty ashenvale"
+   ],
+   "answer": "Officially, the two factions maintain a fragile peace, avoiding declared, open warfare. In reality, covert assassinations, resource skirmishes, and border conflicts flare up continuously beneath the forest canopy."
+  },
+  {
+   "q": "How does Shindrell Swiftfire feel about killing the beasts?",
+   "aliases": [
+    "shindrell reaction",
+    "druidic guilt",
+    "night elf killing beasts"
+   ],
+   "answer": "Shindrell grieves having to order the slaughter of beasts that did not willingly join the conflict. However, as an officer charged with defending Astranaar, she views it as a tragic necessity to keep her people safe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Night elves struggle with the grim necessity of slaying wild pridewings, balancing their spiritual stewardship of nature against the harsh reality of border warfare."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This mission demonstrates the quiet intelligence network linking Jaina's settlement in Theramore to the Sentinel outposts of Ashenvale in an effort to thwart Horde aggression."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Rogues can appreciate the lethal utility of pridewing venom, understanding exactly how devastating coated blades can be in covert wilderness ambushes."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids often mourn the waste of natural life, lamenting that innocent creatures must be culled simply to deny their toxins to warmongers."
+  }
+ ],
+ "keywords": [
+  "assassins",
+  "astranaar",
+  "mirkfallon lake",
+  "pridewings",
+  "shindrell swiftfire",
+  "stonetalon mountains",
+  "theramore",
+  "venom"
+ ],
+ "related": [
+  "npc:shindrell-swiftfire",
+  "subzone:mirkfallon-lake",
+  "zone:stonetalon",
+  "subzone:astranaar",
+  "zone:ashenvale",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Pridewings of Stonetalon"
+ ]
+}

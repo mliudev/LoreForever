@@ -1,0 +1,95 @@
+{
+ "key": "subzone:stonemaul-ruins",
+ "type": "subzone",
+ "name": "Stonemaul Ruins",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Stonemaul Ruins"
+ },
+ "summary": "The Stonemaul Ruins are the shattered remnants of Stonemaul Village, once the proud Kalimdor settlement of the Stonemaul ogres. After being driven out by the black dragonflight, the clan fled north, leaving their former home overrun by Firemane dragonspawn.",
+ "sections": [
+  {
+   "title": "Rise and Fall of the Clan Home",
+   "body": "Following their migration to Kalimdor, the Stonemaul ogres founded their settlement amid the murky swamps of Dustwallow Marsh. The village became famous when the beastmaster Rexxar braved the clan's lethal trials, slew their brutal chieftain Kor'gall, and rallied the ogres to defend the nascent Horde against Admiral Proudmoore's forces. After the war, Rexxar left the ogre Mok'Morokk in command. Under Mok'Morokk's selfish rule, the village fell into decline and was ultimately ambushed and shattered by the black dragonflight. The surviving ogres fled north to establish Brackenwall Village, while Onyxia's brood took complete possession of the ruins.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Struggle for Reclamation",
+   "body": "Today, the ruins are firmly ensconced within Dragonmurk and crawl with Firemane dragonspawn tending the brood's nearby nesting grounds. While Overlord Mok'Morokk grew cowardly and content to languish in Brackenwall, older and prouder clan members like Tharg and Draz'Zilb refuse to abandon their homeland. Operating out of Brackenwall, they urge Horde champions to slaughter the occupying dragonspawn and smash the dragonflight's eggs in hopes that the Stonemaul may one day march back and reclaim their ancestral village.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who used to live in Stonemaul Ruins?",
+   "aliases": [
+    "who lived here",
+    "stonemaul ruins history",
+    "who built stonemaul village"
+   ],
+   "answer": "The Stonemaul clan of ogres built and inhabited the settlement, then known as Stonemaul Village, after arriving on Kalimdor."
+  },
+  {
+   "q": "Why was the village abandoned?",
+   "aliases": [
+    "why is stonemaul destroyed",
+    "what happened to stonemaul village",
+    "who attacked stonemaul"
+   ],
+   "answer": "Onyxia's black dragonflight assaulted the settlement and drove the ogres out, turning the village into a nesting outpost for Firemane dragonspawn."
+  },
+  {
+   "q": "Where did the surviving ogres go?",
+   "aliases": [
+    "where are the ogres now",
+    "stonemaul ogre location"
+   ],
+   "answer": "The survivors retreated north into Dustwallow Marsh under Overlord Mok'Morokk and established Brackenwall Village as their temporary stronghold."
+  },
+  {
+   "q": "What was Rexxar's connection to this place?",
+   "aliases": [
+    "rexxar stonemaul",
+    "rexxar ogre chieftain"
+   ],
+   "answer": "Rexxar came here to enlist the ogres against Kul Tiras. He bested their trial, slew their tyrannical warlord Kor'gall in combat, and briefly served as chieftain before passing leadership to Mok'Morokk."
+  },
+  {
+   "q": "Do the ogres plan to retake the ruins?",
+   "aliases": [
+    "will the ogres go back",
+    "retaking stonemaul"
+   ],
+   "answer": "Yes. While Mok'Morokk was afraid to act, other Stonemaul leaders like Tharg and Draz'Zilb actively recruit Horde adventurers to culled the Firemane dragonspawn and prepare for retaking their home."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Stonemaul ogres are staunch allies who shed blood alongside Thrall's Horde against Kul Tiras. Helping them strike back against the black dragonflight honors that pact."
+  }
+ ],
+ "keywords": [
+  "brackenwall",
+  "dragonmurk",
+  "firemane",
+  "kor'gall",
+  "mok'morokk",
+  "stonemaul",
+  "stonemaul ruins",
+  "stonemaul village"
+ ],
+ "related": [
+  "subzone:brackenwall-village",
+  "subzone:dragonmurk",
+  "npc:overlord-mok-morokk",
+  "npc:onyxia",
+  "topic:black-dragonflight",
+  "topic:horde",
+  "zone:dustwallow"
+ ],
+ "attribution": [
+  "Stonemaul Ruins"
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "key": "quest:1719",
+ "type": "quest",
+ "name": "The Affray",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1719
+  ],
+  "level": "30",
+  "faction": null,
+  "start": "Klannoc Macleod",
+  "end": "",
+  "previous": "The Islander",
+  "next": "The Windwatcher",
+  "wiki": "The Affray",
+  "chain": []
+ },
+ "summary": "The Affray is a brutal martial trial conducted on Fray Island off the coast of the Barrens. Administered by Klannoc Macleod, this arena brawl pits ambitious warriors against waves of island challengers and their champion to prove they possess the mettle required for advanced training.",
+ "sections": [
+  {
+   "title": "A Proving Ground in the Great Sea",
+   "body": "Fray Island stands apart from the struggles of the mainland, serving as a sanctuary for hardy brawlers, outcasts, and combat instructors. Klannoc Macleod does not simply teach any wanderer who steps off a boat. To earn his tutelage, aspiring warriors must participate in the Affray, an open trial of martial stamina and battlefield awareness designed to separate true fighters from boastful pretenders.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Circle of Iron and Blood",
+   "body": "The rules of the Affray are simple and unforgiving. By stepping onto the central iron grate among the gathered spectators, a warrior signals ringmaster Twiggy Flathead to begin the contest. Challengers enter the ring one after another, testing the initiate's endurance. Those who survive the preliminary fighters face the island's heavyweight champion, Big Will, whose defeat is the sole condition for earning Klannoc's respect.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Affray?",
+   "aliases": [
+    "affray trial",
+    "what is the affray",
+    "fray island arena"
+   ],
+   "answer": "The Affray is an arena-style gauntlet held on Fray Island. It tests whether an aspiring warrior has the raw endurance and skill to handle advanced combat training from Klannoc Macleod."
+  },
+  {
+   "q": "Where does the Affray take place?",
+   "aliases": [
+    "where is the affray",
+    "affray location"
+   ],
+   "answer": "It takes place on Fray Island, a rugged isle situated off the eastern coast of the Barrens in the Great Sea."
+  },
+  {
+   "q": "Who organizes the trial?",
+   "aliases": [
+    "who runs the affray",
+    "affray organizer"
+   ],
+   "answer": "Warrior trainer Klannoc Macleod oversees the island's fighters and dictates the trial, while Twiggy Flathead directs the bouts from the edge of the pit."
+  },
+  {
+   "q": "How does the combat in the ring work?",
+   "aliases": [
+    "how does the fight work",
+    "affray waves",
+    "starting the affray"
+   ],
+   "answer": "A warrior steps onto the central iron grate to signal readiness. Twiggy Flathead then sends waves of Affray Challengers into the pit before finally releasing the island's brawny champion, Big Will."
+  },
+  {
+   "q": "Who is Big Will?",
+   "aliases": [
+    "big will",
+    "who is big will",
+    "fray island champion"
+   ],
+   "answer": "Big Will is the reigning champion of Fray Island's brawlers. Defeating him in the ring is the final requirement to pass the Affray."
+  },
+  {
+   "q": "Why must warriors complete this trial?",
+   "aliases": [
+    "why do the affray",
+    "affray purpose"
+   ],
+   "answer": "Klannoc Macleod refuses to teach his martial techniques to anyone who has not proven their toughness in blood and combat against multiple opponents."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "The Affray is a defining rite of passage for seasoned warriors, serving as the crucible where they prove their combat stances and battle endurance to unlock deeper mastery of their craft."
+  }
+ ],
+ "keywords": [
+  "affray",
+  "barrens",
+  "big will",
+  "fray island",
+  "klannoc macleod",
+  "twiggy flathead",
+  "warrior trial"
+ ],
+ "related": [
+  "npc:klannoc-macleod",
+  "quest:1718",
+  "quest:1791",
+  "subzone:fray-island",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "The Affray"
+ ]
+}

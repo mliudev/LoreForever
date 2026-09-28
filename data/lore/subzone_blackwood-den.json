@@ -1,0 +1,77 @@
+{
+ "key": "subzone:blackwood-den",
+ "type": "subzone",
+ "name": "Blackwood Den",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Blackwood Den"
+ },
+ "summary": "Blackwood Den is a corrupted furbolg encampment nestled in the southern reaches of Darkshore near the border of Ashenvale. Once a peaceful dwelling, the cave and surrounding camps have fallen into madness alongside the rest of the Blackwood tribe. A lone night elf scout named Volcor sits trapped within the cavern, awaiting aid from Auberdine.",
+ "sections": [
+  {
+   "title": "A Corrupted Stronghold",
+   "body": "Situated near the southern border where Darkshore meets Ashenvale, Blackwood Den consists of a winding network of crude camps and a rocky cave. The Blackwood furbolgs who dwell here have succumbed to the pervasive corruption gripping the region, turning violently hostile toward outsiders. Deep inside the den's cave, the night elf Volcor remains pinned down and endangered by the aggressive tribe, desperately needing assistance from scouts and travelers dispatched from Auberdine.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Blackwood Den?",
+   "aliases": [
+    "what is blackwood den",
+    "blackwood hold",
+    "where is blackwood den"
+   ],
+   "answer": "Blackwood Den is a furbolg settlement and cave complex located in far southern Darkshore, close to the border of Ashenvale. It serves as a base for the corrupted Blackwood furbolg tribe."
+  },
+  {
+   "q": "Who is inside the cave at Blackwood Den?",
+   "aliases": [
+    "who is trapped in the cave",
+    "who is volcor",
+    "elf in blackwood den"
+   ],
+   "answer": "Inside the cave sits Volcor, a night elf who has become trapped behind enemy lines. Travelers who encounter him must coordinate with allies in Auberdine to stage an escape and guide him safely out of the den."
+  },
+  {
+   "q": "Why are the furbolgs here hostile?",
+   "aliases": [
+    "why are blackwood furbolgs aggressive",
+    "are blackwood furbolgs evil",
+    "corrupted furbolgs darkshore"
+   ],
+   "answer": "The Blackwood furbolgs have fallen victim to the dark corruption spreading across Darkshore and Kalimdor following the Third War. The affliction has driven them into a maddened frenzy, causing them to attack any outsiders on sight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves of Auberdine, the loss of the Blackwood tribe to corruption is a tragic development, and rescuing Volcor from their clutches is an urgent duty to keep their people safe along the southern road."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids mourn the fall of the furbolgs, who were once steadfast protectors of the wilderness, and view the madness at Blackwood Den as another painful symptom of Kalimdor's tainted nature."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "auberdine",
+  "blackwood den",
+  "blackwood hold",
+  "darkshore",
+  "furbolg",
+  "volcor"
+ ],
+ "related": [
+  "zone:darkshore",
+  "zone:ashenvale",
+  "subzone:auberdine",
+  "npc:volcor",
+  "topic:furbolg",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Blackwood Den"
+ ]
+}

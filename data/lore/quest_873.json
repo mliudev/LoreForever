@@ -1,0 +1,117 @@
+{
+ "key": "quest:873",
+ "type": "quest",
+ "name": "Isha Awak",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   873
+  ],
+  "level": "27",
+  "faction": "Horde",
+  "start": "Mahren Skyseer",
+  "end": "",
+  "previous": "Mahren Skyseer",
+  "next": null,
+  "wiki": "Isha Awak (quest)",
+  "chain": []
+ },
+ "summary": "Isha Awak is a sacred rite of the hunt issued by the mystic Mahren Skyseer along the Merchant Coast. Brave Horde wanderers are charged with diving into the Great Sea to track down and slay a fearsome aquatic predator known as the Deep Doom. By claiming the beast's heart, the hunter partakes in an ancient bond of spirit and respect.",
+ "sections": [
+  {
+   "title": "The Deep Doom",
+   "body": "Off the coast south of Ratchet, lurking beneath the waves, roams Isha Awak. Known as the Deep Doom, this immense sea creature commands the coastal waters with formidable strength and predatory solemnity. The human encroachers encamped along the shoreline have learned to dread the waters, having lost many of their scouts and soldiers to the creature's relentless hunger.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Hunt of Spirit",
+   "body": "Unlike the terrified humans ashore, Mahren Skyseer holds deep reverence for the leviathan. To the tauren mystic, Isha Awak is not a curse or simple pest, but a gift: a worthy and honorable foe whose might tests the resolve of true hunters. Slaying the beast is not merely about culling a predator; it is an act of spiritual communion, claiming the heart wherein the beast's essence dwells and carrying its untamed spirit forward.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Isha Awak?",
+   "aliases": [
+    "what is isha awak",
+    "isha awak lore",
+    "deep doom"
+   ],
+   "answer": "Isha Awak, titled the Deep Doom, is a powerful sea beast prowling the waters off the eastern coast of the Barrens, south of Ratchet. It is regarded as the lord of those coastal waters and is notorious for preying upon the human sailors and soldiers stationed nearby."
+  },
+  {
+   "q": "Why does Mahren Skyseer want Isha Awak slain?",
+   "aliases": [
+    "why kill isha awak",
+    "mahren skyseer motivation"
+   ],
+   "answer": "Mahren does not hunt Isha Awak out of malice or terror. He views the great predator as a worthy, honorable opponent and a spiritual challenge. To Mahren, overcoming such a beast allows a hunter to absorb its strength and commune with its wild spirit."
+  },
+  {
+   "q": "Where can Isha Awak be found?",
+   "aliases": [
+    "isha awak location",
+    "where to find isha awak",
+    "isha awak spawn"
+   ],
+   "answer": "The beast swims in the Great Sea along the Merchant Coast in the eastern Barrens, south of the goblin port of Ratchet and near the human-inhabited shorelines."
+  },
+  {
+   "q": "What happens when you bring back the heart?",
+   "aliases": [
+    "heart of isha awak purpose",
+    "why heart of isha awak"
+   ],
+   "answer": "Mahren Skyseer believes that the essence and fate of the creature reside within its heart. By presenting it to the mystic, you spiritually bind yourself to the fallen leviathan, carrying a portion of Isha Awak's strength and predatory sight with you."
+  },
+  {
+   "q": "Who are the humans mentioned by Mahren?",
+   "aliases": [
+    "which humans",
+    "humans on the coast",
+    "who fears isha awak"
+   ],
+   "answer": "The humans referred to are the Theramore and Kul Tiras forces operating along the coastline of the Barrens, particularly around Northwatch Hold and adjacent outposts. They have lost numerous sailors and shore-dwellers to the sea beast's jaws."
+  },
+  {
+   "q": "Is Isha Awak considered an elemental or a natural animal?",
+   "aliases": [
+    "is isha awak a beast",
+    "isha awak creature type"
+   ],
+   "answer": "Isha Awak is a natural, albeit exceptionally large and powerful, aquatic beast of the Great Sea, revered by local tauren for its primal spirit and hunting prowess."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The hunt for Isha Awak reflects traditional tauren spiritual hunting customs, where prey is respected rather than despised, and taking a life brings communion with the creature's spirit."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking a legendary aquatic beast into the depths of the Great Sea serves as the ultimate test of patience, cunning, and marksmanship against a creature reigning supreme in its own territory."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Conquering the Deep Doom proves the Horde's martial superiority along the Merchant Coast, striking down a leviathan that has terrorized the local Alliance outposts."
+  }
+ ],
+ "keywords": [
+  "deep doom",
+  "heart of isha awak",
+  "isha awak",
+  "mahren skyseer",
+  "merchant coast",
+  "ratchet",
+  "sea beast"
+ ],
+ "related": [
+  "quest:874",
+  "zone:barrens",
+  "subzone:ratchet"
+ ],
+ "attribution": [
+  "Isha Awak (quest)"
+ ]
+}

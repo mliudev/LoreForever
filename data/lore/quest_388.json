@@ -1,0 +1,119 @@
+{
+ "key": "quest:388",
+ "type": "quest",
+ "name": "The Color of Blood",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "ids": [
+   388
+  ],
+  "level": "26",
+  "faction": "Alliance",
+  "start": "Nikova Raskol",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Color of Blood",
+  "chain": []
+ },
+ "summary": "The Color of Blood is a personal task given by Nikova Raskol, a grieving grandmother living in Stormwind City. Consumed by anger over the murder of her young grandson inside the city's prison, she hires adventurers to venture into The Stockade and claim the Defias gang's trademark red bandanas as retribution.",
+ "sections": [
+  {
+   "title": "A Boy on the Prison Wall",
+   "body": "When Stormwind's regular military forces were deployed away to distant fronts, local defense fell upon volunteer recruits and the city's youth. Nikova Raskol's grandson, Mac, was only fourteen years old when he took up arms as a guard within The Stockade. Tasked with watching hardened criminals and mutinous members of the Defias Brotherhood, the young guard was thrust into an intensely dangerous environment far beyond his experience.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tokens of Defiance",
+   "body": "Behind bars, the captured Defias inmates began ripping apart their provided wool prison blankets, fashioning the shredded fabric into makeshift red bandanas. These crude garments served as identifying gang colors, signaling their continued loyalty to the Brotherhood even inside prison walls. When young Mac reprimanded the prisoners and tried to enforce discipline, the inmates stabbed the boy in the back, leaving him dead on the stone floor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Grief and Vengeance",
+   "body": "Devastated by Mac's pointless death, Nikova seeks cold revenge rather than official bureaucracy. She dispatches brave adventurers into the depths of The Stockade to cull the rioting prisoners and bring back ten of their cherished red bandanas\u2014symbols dyed the color of her grandson's spilled blood. Presenting these blood-colored trophies offers a grim sense of closure to a broken family.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Nikova Raskol?",
+   "aliases": [
+    "nikova raskol",
+    "quest giver",
+    "who gives color of blood"
+   ],
+   "answer": "Nikova Raskol is an elderly resident of Stormwind City whose fourteen-year-old grandson, Mac, was recently killed while serving as a guard inside The Stockade."
+  },
+  {
+   "q": "Why was a fourteen-year-old guarding dangerous prisoners?",
+   "aliases": [
+    "why was mac a guard",
+    "mac age",
+    "child guard"
+   ],
+   "answer": "With much of Stormwind's formal military sent away to the front lines, the city had to rely on inexperienced locals and youngsters to fill defensive positions, including guarding inmates in The Stockade."
+  },
+  {
+   "q": "Why do the Defias prisoners wear red wool bandanas?",
+   "aliases": [
+    "why red bandanas",
+    "wool bandanas lore",
+    "defias red scarves"
+   ],
+   "answer": "The red bandanas are the unifying symbol of the Defias Brotherhood. While locked in The Stockade, inmates tore apart their woolen prison blankets to craft the red scarves and maintain their criminal solidarity."
+  },
+  {
+   "q": "How did Mac Raskol die?",
+   "aliases": [
+    "how did mac die",
+    "who killed mac",
+    "what happened to mac"
+   ],
+   "answer": "Mac caught prisoners shredding their wool blankets to make Defias gang scarves and reprimanded them. In response to his reprimand, the inmates stabbed the fourteen-year-old guard in the back."
+  },
+  {
+   "q": "What does Nikova do with the bandanas?",
+   "aliases": [
+    "what happens to the bandanas",
+    "nikova bandanas"
+   ],
+   "answer": "She keeps them as proof of retribution. Staring at the torn wool tokens, she grieves the senseless loss of her grandson's life while finding peace knowing those who slew him faced justice."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "where do i get the bandanas",
+    "color of blood location"
+   ],
+   "answer": "The task sends you into The Stockade, Stormwind City's high-security prison located in the canal district, where the Defias prisoners are in open revolt."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The death of Mac Raskol reveals the strain on Stormwind's home defense, showing the dire cost of deploying seasoned soldiers far from the capital."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human citizens of Stormwind bear the brunt of Defias violence both in surrounding rural farmlands and right within the city walls."
+  }
+ ],
+ "keywords": [
+  "color of blood",
+  "defias brotherhood",
+  "mac raskol",
+  "nikova raskol",
+  "red wool bandana",
+  "stockade",
+  "stormwind"
+ ],
+ "related": [
+  "zone:stockade",
+  "npc:nikova-raskol",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "The Color of Blood"
+ ]
+}

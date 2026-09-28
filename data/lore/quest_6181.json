@@ -1,0 +1,129 @@
+{
+ "key": "quest:6181",
+ "type": "quest",
+ "name": "A Swift Message",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   6181
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Quartermaster Lewis",
+  "end": "Thor",
+  "previous": null,
+  "next": "Continue to Stormwind (Classic)",
+  "wiki": "A Swift Message (Classic)",
+  "chain": [
+   "A Swift Message (Classic)",
+   "Continue to Stormwind (Classic)",
+   "Dungar Longdrink (Classic)",
+   "Return to Lewis"
+  ]
+ },
+ "summary": "Quartermaster Lewis at Sentinel Hill needs urgent armor shipments from Stormwind to equip the People's Militia. Because Westfall receives almost no official military aid, he sends you to Thor the gryphon master to carry an urgent requisition note to the capital by air.",
+ "sections": [
+  {
+   "title": "A Plea Across the Skies",
+   "body": "Sentinel Hill stands isolated against a rising tide of Defias outlaws and gnolls, starved of direct military aid from Stormwind. Quartermaster Lewis relies on private contacts in the capital to keep the People's Militia supplied with weapons and armor. With gear running thin, his only lifeline is Osric Strang, an armorer located in Old Town. Getting an urgent requisition to him requires swift travel, leading Lewis to enlist travelers to contact Westfall's gryphon master, Thor.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Flight Network",
+   "body": "Gryphons provide the Kingdom of Stormwind with an invaluable rapid transit and courier network. Perched at Sentinel Hill, Thor manages the outpost's aerial link back to the capital. Handing Lewis's note to Thor opens the skies between Westfall and the royal city, demonstrating how crucial the gryphon riders are to sustaining frontier garrisons cut off from formal aid.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Quartermaster Lewis need to send a note to Stormwind?",
+   "aliases": [
+    "why send note",
+    "lewis note purpose",
+    "why contact stormwind"
+   ],
+   "answer": "Westfall receives little direct military aid from Stormwind's government, leaving the People's Militia critically low on armor. Lewis must reach out to a trusted merchant in the city, Osric Strang, to secure fresh supplies."
+  },
+  {
+   "q": "Who is Osric Strang?",
+   "aliases": [
+    "osric strang",
+    "who is osric",
+    "limited immunity owner"
+   ],
+   "answer": "Osric Strang is an armorer whose shop, Limited Immunity, is located in Old Town within Stormwind. He serves as Lewis's dependable private supplier when official channels fail."
+  },
+  {
+   "q": "Who is Thor?",
+   "aliases": [
+    "who is thor",
+    "westfall flight master",
+    "thor gryphon master"
+   ],
+   "answer": "Thor is the gryphon master stationed at Sentinel Hill. He handles the flying mounts that connect Westfall to Stormwind, enabling fast courier transit and travel."
+  },
+  {
+   "q": "Why isn't Stormwind sending soldiers and gear to Westfall directly?",
+   "aliases": [
+    "why no stormwind help",
+    "why stormwind ignores westfall",
+    "where is the army"
+   ],
+   "answer": "With King Varian Wrynn missing and resources stretched thin, Stormwind's leadership has largely neglected the outlying farmlands. Frontier outposts like Sentinel Hill must rely on volunteer militias and private arrangements to survive."
+  },
+  {
+   "q": "Can any adventurer undertake this task?",
+   "aliases": [
+    "who can take this quest",
+    "human only quest",
+    "can dwarves do this quest"
+   ],
+   "answer": "This errand is entrusted specifically to human adventurers who have proved themselves in Westfall, serving as an introduction to using the kingdom's gryphon flight network."
+  },
+  {
+   "q": "Where does this courier mission lead next?",
+   "aliases": [
+    "next step",
+    "what happens after thor",
+    "where do i go next"
+   ],
+   "answer": "After presenting the note to Thor, he prepares a gryphon flight directly to Stormwind, where you will continue to Dungar Longdrink at the capital's roost and then seek out Osric Strang in Old Town."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of the kingdom, carrying Lewis's note highlights the strained state of Stormwind's provinces and introduces the vital gryphon routes connecting home territories."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The errand reveals the deep logistical fracture between the grand capital of Stormwind and its struggling frontier outposts in Westfall."
+  }
+ ],
+ "keywords": [
+  "armor",
+  "flight master",
+  "gryphon",
+  "old town",
+  "osric strang",
+  "peoples militia",
+  "quartermaster lewis",
+  "sentinel hill",
+  "stormwind",
+  "thor"
+ ],
+ "related": [
+  "quest:6281",
+  "npc:quartermaster-lewis",
+  "npc:thor",
+  "npc:osric-strang",
+  "quest:6261",
+  "quest:6285",
+  "zone:westfall",
+  "subzone:old-town"
+ ],
+ "attribution": [
+  "A Swift Message (Classic)"
+ ]
+}

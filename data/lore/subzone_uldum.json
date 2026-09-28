@@ -1,0 +1,91 @@
+{
+ "key": "subzone:uldum",
+ "type": "subzone",
+ "name": "Uldum",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Uldum"
+ },
+ "summary": "Uldum is a massive, sealed Titan research installation tucked behind colossal stone gates in the southernmost cliffs of Tanaris. Long hidden away behind ancient wards and forgotten machinery, it remains inaccessible to modern explorers, watched over by a lone dwarven prospector.",
+ "sections": [
+  {
+   "title": "The Gates of the Makers",
+   "body": "Carved into the rugged southern mountain range bordering the Tanaris desert, the monumental gateway to Uldum stands silent and impassable. Built during the ordering of ancient Kalimdor, the compound served as an advanced Titan facility tied to their mysterious efforts to shape and oversee the planet's biosphere. Titanic wardens and defensive constructs once maintained the perimeter, leaving modern mortals only monumental stone carved arches and buried secrets that have defied all mundane attempts at entry.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dwarven Vigil",
+   "body": "Recognizing the site's unmistakable Titan craftsmanship, the Ironforge Explorers' League dispatched Prospector Gunstan to maintain a lonely watch over the entrance. For years, Gunstan has studied the monolithic doors and searched for a mechanism or key that might unlock the ancient complex. Legend claims that true insight into the secrets locked within requires the lost Plates of Uldum, leaving the dwarven scholars peering through the keyhole of an empire they cannot yet breach.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can you open the gates to Uldum?",
+   "aliases": [
+    "how to get into uldum",
+    "open uldum door",
+    "enter uldum"
+   ],
+   "answer": "No. The massive stone gates leading into the mountain pass are completely sealed and shut fast against any mortal intrusion. No mechanism or key exists in the surrounding desert to unlock them."
+  },
+  {
+   "q": "What is inside Uldum?",
+   "aliases": [
+    "what is uldum",
+    "purpose of uldum",
+    "inside uldum"
+   ],
+   "answer": "According to ancient records and Titan lore, Uldum is a vast research facility constructed by the Titans to study and enhance the biosphere of Azeroth. However, exact details remain locked away behind Titan security measures."
+  },
+  {
+   "q": "Who is the dwarf standing outside the gate?",
+   "aliases": [
+    "gunstan",
+    "prospector gunstan",
+    "dwarf at uldum"
+   ],
+   "answer": "That is Prospector Gunstan, a field researcher sent by the Ironforge Explorers' League. He maintains a solitary camp right outside the threshold, observing the masonry and hoping to uncover a way inside."
+  },
+  {
+   "q": "What are the Plates of Uldum?",
+   "aliases": [
+    "plates of uldum",
+    "discs of uldum",
+    "uldum tablets"
+   ],
+   "answer": "The Plates of Uldum are ancient data discs created by the Titans. According to lore preserved by ancient stone keepers, specific knowledge regarding the work and facilities inside Uldum can only be accessed through these sacred plates."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves pursuing their Titan heritage through the Explorers' League, the colossal gates of Uldum represent one of the greatest uncracked mysteries on the continent of Kalimdor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance maintains a lone observational foothold through Prospector Gunstan, hoping to beat any rival power to whatever Titan secrets lie concealed in the southern mountains."
+  }
+ ],
+ "keywords": [
+  "explorers' league",
+  "gates of uldum",
+  "gunstan",
+  "plates of uldum",
+  "tanaris",
+  "titans",
+  "uldum"
+ ],
+ "related": [
+  "zone:tanaris",
+  "topic:titan",
+  "topic:explorers-league",
+  "zone:ungoro",
+  "zone:silithus",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Uldum"
+ ]
+}

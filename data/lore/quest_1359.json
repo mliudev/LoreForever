@@ -1,0 +1,118 @@
+{
+ "key": "quest:1359",
+ "type": "quest",
+ "name": "Zinge's Delivery",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1359
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Apothecary Renferrel",
+  "end": "Apothecary Zinge",
+  "previous": "Speak with Renferrel",
+  "next": "Sample for Helbrim",
+  "wiki": "Zinge's Delivery",
+  "chain": []
+ },
+ "summary": "Zinge's Delivery is a courier task dispatched by Apothecary Renferrel from the Sepulcher in Silverpine Forest. It transports strangely toxic wolf heart tissue back to Apothecary Zinge in the Undercity for formal study by the Royal Apothecary Society.",
+ "sections": [
+  {
+   "title": "A Toxic Anomaly",
+   "body": "While examining local wildlife around Silverpine Forest, Apothecary Renferrel observed an unsettling physiological trait within the wolves roaming the ruined woods. Their hearts carried a level of toxicity so profound that, under any ordinary circumstances, it ought to have killed the beasts housing them. Rather than discarding the tissue, Renferrel packaged several samples to share with colleagues at the Apothecarium in the Undercity.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Eyes of the Apothecarium",
+   "body": "The preserved organs are delivered directly to Apothecary Zinge, a researcher working in the subterranean headquarters of the Royal Apothecary Society. For the society, whose primary ambition is formulating potent plagues and novel alchemical compounds, naturally occurring poisons that sustain rather than slay are of paramount interest. Zinge welcomes the delivery as the foundation for further laboratory trials across the Forsaken alchemical network.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the wolf heart samples?",
+   "aliases": [
+    "wolf hearts",
+    "what are wolf heart samples",
+    "renferrel samples"
+   ],
+   "answer": "They are preserved biological tissue gathered from wolves in Silverpine Forest. Apothecary Renferrel discovered that the hearts contain natural toxins deadly enough that the animals should not have survived carrying them."
+  },
+  {
+   "q": "Who is Apothecary Renferrel?",
+   "aliases": [
+    "who is renferrel",
+    "renferrel silverpine"
+   ],
+   "answer": "Apothecary Renferrel is a member of the Royal Apothecary Society stationed at the Sepulcher in Silverpine Forest. He oversees field research on regional flora and fauna to harvest ingredients and biological insights for Forsaken alchemy."
+  },
+  {
+   "q": "Who is Apothecary Zinge?",
+   "aliases": [
+    "who is zinge",
+    "zinge undercity",
+    "apothecary zinge lore"
+   ],
+   "answer": "Apothecary Zinge is an alchemical researcher based within the Apothecarium quarter of the Undercity. She experiments with incoming biological specimens to uncover new toxins and alchemical agents for the Forsaken."
+  },
+  {
+   "q": "Where does this delivery lead next?",
+   "aliases": [
+    "next quest",
+    "what happens after zinge's delivery",
+    "follow up quest"
+   ],
+   "answer": "Once Zinge receives and inspects the strange heart tissue, the research continues as samples are routed to other alchemical outposts, such as Apothecary Helbrim stationed across the sea in the Barrens."
+  },
+  {
+   "q": "Why is the Royal Apothecary Society interested in wolf hearts?",
+   "aliases": [
+    "why do apothecaries want wolf hearts",
+    "ras wolf hearts"
+   ],
+   "answer": "The Royal Apothecary Society constantly seeks exotic poisons, diseases, and biological anomalies. A beast that survives lethal self-toxicity presents unique chemical pathways that could aid their development of new plagues and compounds."
+  },
+  {
+   "q": "Where is the Apothecarium in Undercity?",
+   "aliases": [
+    "undercity apothecary location",
+    "where is zinge",
+    "apothecarium map"
+   ],
+   "answer": "The Apothecarium forms the southwestern wing of the Undercity. It serves as the primary laboratory complex and governing headquarters of the Royal Apothecary Society."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Field samples collected in Lordaeron feed directly into the central alchemical laboratories beneath the Capital City ruins, advancing the scientific power of the Forsaken."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Messengers carrying biological reagents keep remote outposts like the Sepulcher unified with the leadership and research hubs in the Undercity."
+  }
+ ],
+ "keywords": [
+  "apothecarium",
+  "apothecary renferrel",
+  "apothecary zinge",
+  "sepulcher",
+  "silverpine",
+  "undercity",
+  "wolf heart samples",
+  "zinge's delivery"
+ ],
+ "related": [
+  "npc:apothecary-zinge",
+  "npc:apothecary-renferrel",
+  "topic:royal-apothecary-society",
+  "zone:undercity",
+  "quest:1358",
+  "quest:3221"
+ ],
+ "attribution": [
+  "Zinge's Delivery"
+ ]
+}

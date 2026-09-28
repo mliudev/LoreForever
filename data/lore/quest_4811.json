@@ -1,0 +1,122 @@
+{
+ "key": "quest:4811",
+ "type": "quest",
+ "name": "The Red Crystal",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   4811
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Sentinel Glynda Nal'Shea",
+  "end": "",
+  "previous": null,
+  "next": "As Water Cascades",
+  "wiki": "The Red Crystal",
+  "chain": [
+   "The Red Crystal",
+   "As Water Cascades",
+   "The Fragments Within"
+  ]
+ },
+ "summary": "Sentinel Glynda Nal'Shea of Auberdine tasks travelers with investigating rumors of a mysterious red crystal embedded along Darkshore's eastern mountains. With hostile moonkin multiplying nearby and appearing drawn to the formation, the Sentinels need to confirm whether the anomaly truly exists.",
+ "sections": [
+  {
+   "title": "A Disturbing Shift in the Wilds",
+   "body": "For generations, the night elves of Kalimdor viewed moonkin as gentle, mystical creatures closely tied to the wilderness. In recent days, however, aggressive packs have multiplied rapidly along the slopes east of Auberdine. While some traditionalists maintain reverence for the moonkin, Sentinel Glynda Nal'Shea prioritizes the town's safety and cannot ignore the rising danger. Reports suggest the beasts are flocking to a specific location along the eastern peaks.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Eastern Mountain Anomaly",
+   "body": "Scouts and wanderers brought whispers of an unnatural red crystal jutting from the rocky hillside high above Darkshore. Because wild rumors spread easily in the fog-bound coast, Glynda seeks boots on the ground to separate myth from fact. Finding the crimson monolith confirms that the anomaly is very real, leaving the Sentinels to puzzle out why the local moonkin are inexplicably drawn to it and whether its presence portends a sinister influence over the land.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the red crystal in Darkshore?",
+   "aliases": [
+    "what is red crystal",
+    "darkshore crystal",
+    "red rock auberdine"
+   ],
+   "answer": "It is an enigmatic, glowing crimson formation embedded in the eastern mountain range above Darkshore. The Sentinels initially knew little about its origins, only that local wildlife\u2014particularly moonkin\u2014appear irresistibly drawn toward its location."
+  },
+  {
+   "q": "Who sends you to look for the red crystal?",
+   "aliases": [
+    "who gives the red crystal quest",
+    "glynda nalshea quest",
+    "auberdine crystal quest giver"
+   ],
+   "answer": "Sentinel Glynda Nal'Shea, stationed in Auberdine, assigns the mission. She is responsible for defending the settlement and wants firsthand confirmation of the rumors surrounding the eastern mountains."
+  },
+  {
+   "q": "Why are moonkin behaving aggressively around the crystal?",
+   "aliases": [
+    "why are moonkin mad",
+    "angry moonkin darkshore",
+    "moonkin hostile"
+   ],
+   "answer": "Historically regarded as gentle and mystical beings, the moonkin have become territorial and volatile. Sentinel Glynda suspects their sudden change in behavior and swelling numbers are linked directly to whatever power radiates from the mysterious red crystal."
+  },
+  {
+   "q": "Where is the red crystal located?",
+   "aliases": [
+    "where to find red crystal",
+    "red crystal location",
+    "darkshore red crystal map"
+   ],
+   "answer": "The crystal lies due east of Auberdine, nestled high up along the rugged eastern mountain ridge of Darkshore, surrounded by prowling moonkin."
+  },
+  {
+   "q": "Is the crystal considered dangerous by the night elves?",
+   "aliases": [
+    "is the crystal bad",
+    "is red crystal evil"
+   ],
+   "answer": "Sentinel Glynda is deeply cautious. While unsure whether the stone is benign or sinister, the fact that it agitates and congregates wild beasts makes it an immediate concern for the security of Auberdine."
+  },
+  {
+   "q": "What happens after you discover the crystal?",
+   "aliases": [
+    "what is after red crystal",
+    "as water cascades follow up"
+   ],
+   "answer": "Reporting its existence back to Glynda proves the rumors true. She immediately seeks to uncover its true nature, leading to efforts to cleanse and sample it using water from the local falls."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The agitation of the moonkin is a troubling sight for Kaldorei, who revere these creatures as sacred wards of Elune and nature."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold close spiritual ties to moonkin and the natural order of Darkshore, making the crystal's corruptive or disruptive pull an urgent ecological concern."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Auberdine serves as the Alliance's primary coastal port on northern Kalimdor; any unchecked threat gathering in the hills risks isolating the haven from the wilderness."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "glynda nal'shea",
+  "moonkin",
+  "red crystal",
+  "sentinels"
+ ],
+ "related": [
+  "quest:4812",
+  "quest:4813",
+  "subzone:auberdine",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "The Red Crystal"
+ ]
+}

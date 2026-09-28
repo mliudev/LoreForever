@@ -1,0 +1,76 @@
+{
+ "key": "subzone:fallen-sky-lake",
+ "type": "subzone",
+ "name": "Fallen Sky Lake",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Fallen Sky Lake"
+ },
+ "summary": "Fallen Sky Lake is a secluded body of water nestled deep within the forests of eastern Ashenvale. Situated between Silverwing Outpost and the encroaching Warsong Labor Camp, the serene waters hide danger in the form of hostile shadethicket woodkin that aggressively defend the lake and its central isle.",
+ "sections": [
+  {
+   "title": "A Contested Sanctuary",
+   "body": "Tucked south of Silverwing Outpost and just west of the Warsong Labor Camp, Fallen Sky Lake offers a fleeting glimpse of Ashenvale's natural splendor before the Orcish axes took root nearby. The shores and the small islet rising from the middle of the lake are inhabited by shadethickets\u2014corrupted or territorial wildkin that view any two-legged intruder as a threat. The heart of the island serves as the domain of a powerful Shadethicket Oracle, whose presence keeps the local woodkin bound to the grove and relentlessly vigilant against travelers passing through.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Fallen Sky Lake located?",
+   "aliases": [
+    "fallen sky lake location",
+    "where is fallen sky lake",
+    "how to find fallen sky lake"
+   ],
+   "answer": "Fallen Sky Lake is located in eastern Ashenvale, directly south of Silverwing Outpost, west of the Warsong Labor Camp, and northeast of Silverwing Grove."
+  },
+  {
+   "q": "What creatures live around Fallen Sky Lake?",
+   "aliases": [
+    "mobs at fallen sky lake",
+    "what is at fallen sky lake",
+    "fallen sky lake enemies"
+   ],
+   "answer": "The lake and its surrounding banks are overrun by shadethickets\u2014aggressive wildkin creatures\u2014led by a formidable Shadethicket Oracle who dwells on the central island."
+  },
+  {
+   "q": "Why is the Shadethicket Oracle important?",
+   "aliases": [
+    "oracle at fallen sky lake",
+    "shadethicket oracle",
+    "who is on the island"
+   ],
+   "answer": "The Shadethicket Oracle is the matriarchal leader of the local woodkin gathered at the lake. Travelers and scouts in Ashenvale are often tasked with hunting down the oracle on her central isle to cull the hostile wildkin threat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Wildkin are traditionally sacred creatures touched by Elune's grace, making the corrupted, aggressive shadethickets infesting Fallen Sky Lake an unsettling sight to behold."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Positioned just south of Silverwing Outpost, the lake represents yet another corner of the sacred ancestral forest where wild beasts have grown erratic amidst the gathering drums of the Horde."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "fallen sky lake",
+  "oracle",
+  "shadethicket",
+  "silverwing outpost",
+  "warsong labor camp",
+  "wildkin"
+ ],
+ "related": [
+  "quest:1035",
+  "zone:ashenvale",
+  "subzone:silverwing-outpost",
+  "subzone:silverwing-grove",
+  "subzone:warsong-labor-camp"
+ ],
+ "attribution": [
+  "Fallen Sky Lake"
+ ]
+}

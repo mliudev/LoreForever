@@ -1,0 +1,125 @@
+{
+ "key": "quest:840",
+ "type": "quest",
+ "name": "Conscript of the Horde",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   840
+  ],
+  "level": "12",
+  "faction": "Horde",
+  "start": "Takrin Pathseeker",
+  "end": "Kargal Battlescar",
+  "previous": "",
+  "next": "Crossroads Conscription",
+  "wiki": "Conscript of the Horde (Classic)",
+  "chain": [
+   "Conscript of the Horde (Classic)",
+   "Crossroads Conscription"
+  ]
+ },
+ "summary": "Conscript of the Horde is an introductory transition quest that directs young Horde adventurers out of Durotar and into the vast wilderness of the Barrens. Initiated by the scout Takrin Pathseeker along the western road from Razor Hill, it sends recruits across the Southfury River to Kargal Battlescar's border outpost.",
+ "sections": [
+  {
+   "title": "Crossing the Southfury",
+   "body": "Once an aspiring Horde soldier proves their strength around Razor Hill, the needs of the wider nation call them westward. Takrin Pathseeker keeps watch along the dirt highway leaving Durotar, evaluating travelers on behalf of his friend, veteran Kargal Battlescar. Taking Takrin's recruitment letter marks a recruit's first formal assignment beyond the ancestral orcish home valley.",
+   "spoiler": 0
+  },
+  {
+   "title": "Border Defense",
+   "body": "The border outpost across the bridge spans the divide between Durotar's red canyons and the arid expanse of the Barrens. Kargal Battlescar is charged with mustering recruits to hold the frontiers, though border guard duty is only the beginning. With centaur, quilboar, and Alliance expeditions probing the frontier, raw manpower is urgently redirected toward the settlement of the Crossroads.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I take the recruitment letter?",
+   "aliases": [
+    "where do i go",
+    "kargal battlescar location",
+    "turn in location"
+   ],
+   "answer": "Follow the western road leading out of Razor Hill in Durotar across the wooden bridge over the Southfury River. Kargal Battlescar is stationed at the Horde outpost watchtower just across the border on the Barrens side."
+  },
+  {
+   "q": "Who is Takrin Pathseeker?",
+   "aliases": [
+    "takrin role",
+    "who gives quest",
+    "quest giver"
+   ],
+   "answer": "Takrin Pathseeker is a Horde scout stationed along the western road outside Razor Hill. He acts as an eye on the road and spots capable warriors to send westward to his comrade Kargal Battlescar."
+  },
+  {
+   "q": "Who is Kargal Battlescar?",
+   "aliases": [
+    "who is kargal",
+    "battlescar lore"
+   ],
+   "answer": "Kargal Battlescar is a gruff veteran officer managing the eastern Barrens watchpost. He inspects arriving volunteers, signs their conscription papers, and directs them deeper into the savanna to aid the Crossroads."
+  },
+  {
+   "q": "What happens after Kargal signs the letter?",
+   "aliases": [
+    "next quest",
+    "what after conscript of the horde",
+    "where next"
+   ],
+   "answer": "Kargal accepts the letter and immediately enlists you into further service with the quest 'Crossroads Conscription', instructing you to march west along the main road to report to Sergra Darkthorn at the Crossroads."
+  },
+  {
+   "q": "Why is the Horde recruiting soldiers for the Barrens?",
+   "aliases": [
+    "why conscript",
+    "barrens danger",
+    "why recruit"
+   ],
+   "answer": "The Barrens is an open frontier vital to connecting Orgrimmar with Mulgore. With fierce quilboar tribes, centaur marauders, and opportunistic Alliance incursions threatening supply routes, the Horde requires every able hand to keep the roads secure."
+  },
+  {
+   "q": "Is this quest available to Alliance players?",
+   "aliases": [
+    "can alliance do this",
+    "is this horde only"
+   ],
+   "answer": "No. This quest is exclusively for members of the Horde transitioning from the early Durotar quest lines into the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This conscription marks a warrior's transition from local protector of Durotar to a recognized defender of the broader Horde territories across Kalimdor."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For young orcs leaving their training grounds in the Valley of Trials and Razor Hill, answering the call of Kargal Battlescar is an essential rite of passage in serving the Warchief."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear trolls fighting alongside their orc allies use this deployment to aid the Horde's expansion and secure the lands bordering the Great Sea."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "conscript of the horde",
+  "crossroads",
+  "kargal battlescar",
+  "razor hill",
+  "recruitment letter",
+  "southfury river",
+  "takrin pathseeker"
+ ],
+ "related": [
+  "quest:842",
+  "npc:kargal-battlescar",
+  "zone:barrens",
+  "subzone:razor-hill",
+  "subzone:crossroads",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Conscript of the Horde (Classic)"
+ ]
+}

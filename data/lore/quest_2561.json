@@ -1,0 +1,119 @@
+{
+ "key": "quest:2561",
+ "type": "quest",
+ "name": "Druid of the Claw",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   2561
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Oben Rageclaw",
+  "end": "",
+  "previous": "The Sleeping Druid",
+  "next": null,
+  "wiki": "Druid of the Claw (quest)",
+  "chain": []
+ },
+ "summary": "Deep within the barrows of Teldrassil, the spectral form of Oben Rageclaw asks for a tragic release. Corrupted furbolgs have placed a dark enchantment over his physical vessel, forcing you to destroy his soulless shell and break the bond so his spirit may return to the Emerald Dream.",
+ "sections": [
+  {
+   "title": "A Severed Spirit",
+   "body": "While resting in the barrows beneath Teldrassil, Oben Rageclaw suffered a terrible fate. The corrupted Gnarlpine furbolgs subjected his slumbering body to a foul voodoo enchantment, severing his spirit from his mortal flesh. Trapped in a ghostly state, Oben lingers nearby, unable to return to the Emerald Dream or reclaim his own body.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mercy for the Flesh",
+   "body": "Examining the Gnarlpine's voodoo charm revealed the grim truth: Oben's physical shell is entirely under the furbolgs' dominion. To break the enchantment, an adventurer must enter the nearby chamber, strike down the mindless, hostile husk of Oben Rageclaw, and use the furbolg charm over his remains to finally shatter the magic binding his soul.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do I have to kill Oben Rageclaw?",
+   "aliases": [
+    "why kill oben",
+    "kill sleeping druid",
+    "oben rageclaw body"
+   ],
+   "answer": "The Gnarlpine furbolgs cast a powerful voodoo enchantment over Oben while he slumbered, turning his physical body into a soulless puppet. Because his flesh is fully under their thrall, destroying the physical vessel is the only way to sever the enchantment and free his lingering spirit."
+  },
+  {
+   "q": "What is the Voodoo Charm used for?",
+   "aliases": [
+    "voodoo charm use",
+    "how to use voodoo charm",
+    "gnarlpine charm oben"
+   ],
+   "answer": "The charm holds the key to the enchantment controlling Oben. Once you slay his corrupted, soulless body, activating the charm over his fallen remains unravels the dark magic holding his spirit hostage."
+  },
+  {
+   "q": "Where does Oben go after this quest?",
+   "aliases": [
+    "oben fate",
+    "what happens to oben rageclaw",
+    "does oben survive"
+   ],
+   "answer": "Once his physical body is slain and the enchantment is dispelled, Oben Rageclaw's spirit is released from the mortal world. He is finally able to journey into the Emerald Dream to rest in peace."
+  },
+  {
+   "q": "Why are the Gnarlpine using voodoo magic?",
+   "aliases": [
+    "furbolg voodoo",
+    "gnarlpine voodoo magic",
+    "why do furbolgs have charms"
+   ],
+   "answer": "The Gnarlpine furbolgs have fallen deep into corruption and madness, turning away from their ancestral harmony to dabble in foul sorceries and crude dark magic to subjugate the creatures and sleeping druids around them."
+  },
+  {
+   "q": "Who was Oben Rageclaw?",
+   "aliases": [
+    "who is oben",
+    "oben lore",
+    "oben rageclaw background"
+   ],
+   "answer": "Oben was a night elf Druid of the Claw who entered a sacred slumber in the barrows of Teldrassil, communing with the Emerald Dream before the Gnarlpine furbolgs disturbed his rest and enslaved his mortal shell."
+  },
+  {
+   "q": "Is Oben's spirit still talking to me while his body is alive?",
+   "aliases": [
+    "oben ghost and body",
+    "two obens",
+    "why is oben in two places"
+   ],
+   "answer": "Yes. The dark enchantment severed Oben's soul from his flesh. His spirit manifested as a ghost near the chamber entrance, completely unable to control or re-enter the enchanted, empty shell inside."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Seeing a slumbering Druid of the Claw desecrated by corrupted furbolgs is a chilling reminder of the perils of leaving one's physical body unattended while communing with the Emerald Dream."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Teldrassil was meant to be a refuge for the night elves, but the rapid corruption of native furbolgs like the Gnarlpine poses an immediate threat even within their sacred barrows."
+  }
+ ],
+ "keywords": [
+  "ban'ethil",
+  "druid of the claw",
+  "emerald dream",
+  "gnarlpine",
+  "oben rageclaw",
+  "teldrassil",
+  "the sleeping druid",
+  "voodoo charm"
+ ],
+ "related": [
+  "quest:2541",
+  "npc:oben-rageclaw",
+  "topic:druid",
+  "topic:emerald-dream",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Druid of the Claw (quest)"
+ ]
+}

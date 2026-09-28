@@ -1,0 +1,121 @@
+{
+ "key": "quest:455",
+ "type": "quest",
+ "name": "The Algaz Gauntlet",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   455
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Mountaineer Rockgar",
+  "end": "Valstag Ironjaw",
+  "previous": "Report to Mountaineer Rockgar",
+  "next": null,
+  "wiki": "The Algaz Gauntlet",
+  "chain": [
+   "Report to Mountaineer Rockgar",
+   "The Algaz Gauntlet"
+  ]
+ },
+ "summary": "The Algaz Gauntlet is an urgent military mission to fight through Dun Algaz, a critical mountain pass linking Loch Modan to the Wetlands. Orcs of the Dragonmaw clan have entrenched themselves in the tunnels, threatening to sever Ironforge's vital lifeline to Menethil Harbor. Adventurers are tasked with cutting down the orcish vanguard and delivering word of the invasion to Valstag Ironjaw.",
+ "sections": [
+  {
+   "title": "A Severed Artery",
+   "body": "Dun Algaz serves as the solitary overland mountain pass carving through the crags between Loch Modan and the marshy basin of the Wetlands. For the dwarves of Ironforge, this stone corridor is essential for trade, troop movements, and supplies heading to Menethil Harbor, the Alliance's primary coastal port in the region. Should the pass fall, Ironforge's connection to the western seas is effectively strangled, leaving isolated outposts cut off from dwarven reinforcements.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dragonmaw Surge",
+   "body": "While remnants of the Dragonmaw clan have long haunted the hills and ruins of the Wetlands following the Second War, their sudden, organized push into Dun Algaz marks an aggressive escalation. Instead of lingering in their marshland enclaves, Dragonmaw scouts and grunts have seized the tunnels and fortified the pass. Mountaineer Rockgar enlists brave Alliance travelers to shatter this blockade by slaying the encroaching orcs and carrying word of the assault directly to Valstag Ironjaw in Menethil Harbor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Dun Algaz so important to the Alliance?",
+   "aliases": [
+    "why dun algaz matters",
+    "dun algaz importance",
+    "why clear the pass"
+   ],
+   "answer": "Dun Algaz is the only direct mountain highway connecting Loch Modan to the Wetlands. It links the heart of Khaz Modan to Menethil Harbor, the main Alliance port facilitating naval transport across the seas."
+  },
+  {
+   "q": "Who are the Dragonmaw orcs occupying the pass?",
+   "aliases": [
+    "who are the dragonmaw",
+    "why are orcs in dun algaz",
+    "dragonmaw clan lore"
+   ],
+   "answer": "The Dragonmaw clan are remnants of the Old Horde who notoriously enslaved red dragons during the Second War. Following their defeat, scattered factions retreated into the Wetlands, and they have now pushed south into the pass to claim strategic choke points."
+  },
+  {
+   "q": "Where does this mission lead?",
+   "aliases": [
+    "where do i go after algaz gauntlet",
+    "who gets the report",
+    "where is valstag ironjaw"
+   ],
+   "answer": "Once you fight through the pass and eliminate the occupying grunts and scouts, the road leads north through the Wetlands and turns west at the fork toward Menethil Harbor, where you report to Valstag Ironjaw."
+  },
+  {
+   "q": "Why is Valstag Ironjaw surprised by the report?",
+   "aliases": [
+    "valstag reaction",
+    "why did orcs attack algaz"
+   ],
+   "answer": "The Dragonmaw typically keep to hidden camps in the marshy hills of the Wetlands. Their bold surge into the dwarven tunnels of Dun Algaz represents an unexpected and alarming shift toward organized aggression."
+  },
+  {
+   "q": "Who orders the assault on the pass?",
+   "aliases": [
+    "who gives the quest",
+    "mountaineer rockgar mission"
+   ],
+   "answer": "Mountaineer Rockgar, a dwarven guard stationed at the northern border of Loch Modan, orders the strike to prevent the orcs from solidifying their foothold and cutting off communication with the coast."
+  },
+  {
+   "q": "What comes after completing this gauntlet?",
+   "aliases": [
+    "next quest after algaz gauntlet",
+    "what to do in menethil"
+   ],
+   "answer": "Delivering the report to Valstag Ironjaw alerts the garrison at Menethil Harbor to the immediate threat, opening further opportunities to aid the dwarven defense against the Dragonmaw in the Wetlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Clearing Dun Algaz protects the ancestral mountain passes of Khaz Modan and preserves critical access between Ironforge and its western sea harbor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Menethil Harbor is the Alliance's primary gateway between the Eastern Kingdoms and western lands; keeping the overland route clear is essential for the entire faction."
+  }
+ ],
+ "keywords": [
+  "dragonmaw",
+  "dun algaz",
+  "loch modan",
+  "menethil harbor",
+  "pass",
+  "rockgar",
+  "valstag ironjaw",
+  "wetlands"
+ ],
+ "related": [
+  "quest:468",
+  "subzone:dun-algaz",
+  "npc:valstag-ironjaw",
+  "topic:dragonmaw-clan",
+  "zone:lochmodan",
+  "zone:wetlands",
+  "subzone:menethil-harbor"
+ ],
+ "attribution": [
+  "The Algaz Gauntlet"
+ ]
+}

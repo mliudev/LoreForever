@@ -1,0 +1,92 @@
+{
+ "key": "subzone:engineering-labs",
+ "type": "subzone",
+ "name": "Engineering Labs",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Engineering Labs"
+ },
+ "summary": "The Engineering Labs are a multi-tiered research and manufacturing facility deep within Gnomeregan. Connected to the Workshop Entrance and Launch Bay, this bustling center of gnome innovation was overrun during the city's radioactive cataclysm and is now swarming with crazed leper gnomes and rogue mechanical contraptions.",
+ "sections": [
+  {
+   "title": "A Fallen Center of Innovation",
+   "body": "Built around a central mechanical structure, the Engineering Labs span two primary tiers connected by a central cargo lift. In Gnomeregan's prime, tinkerers here developed schematics and fine-tuned clockwork inventions. Today, radiation leaks have driven the remaining researchers mad, transforming them into deranged leper gnomes who mindlessly guard malfunctioning machinery alongside rogue constructs.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crucial Junction",
+   "body": "Beyond its historical role as a laboratory, the chamber serves as a vital transit hub through the lower reaches of the ruined city. Passages wind toward the Launch Bay, Tinkers' Court, and the Workshop Entrance back door. The lower floor also houses the Matrix Punchograph 3005-D terminals, critical processing units required to decipher the coded punch cards carried by gnome engineers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What were the Engineering Labs originally used for?",
+   "aliases": [
+    "purpose of engineering labs",
+    "what was made here",
+    "engineering labs lore"
+   ],
+   "answer": "Before the city fell, the Engineering Labs were dedicated to research, assembly, and testing of complex gnome contraptions and automated devices. Gnomish engineers and technicians used the vast two-level chamber to blueprint new technology."
+  },
+  {
+   "q": "What threats roam the Engineering Labs now?",
+   "aliases": [
+    "who is inside",
+    "enemies in engineering labs",
+    "monsters here"
+   ],
+   "answer": "Irradiated leper gnomes and haywire mechanical automatons roam both tiers of the chamber. These lingering residents were driven completely mad by the irradiated gas released during the city's fall and attack any non-irradiated intruders on sight."
+  },
+  {
+   "q": "What are the Matrix Punchograph 3005-D machines?",
+   "aliases": [
+    "punchograph d",
+    "matrix punchograph 3005-d",
+    "yellow card machine"
+   ],
+   "answer": "These automated gnomish data terminals are found on the lower level of the Engineering Labs. They allow engineers and adventurers to punch encoded data cards, advancing their security clearance and deciphering technical archives preserved within the city."
+  },
+  {
+   "q": "How does this area connect to the rest of Gnomeregan?",
+   "aliases": [
+    "where does this lead",
+    "engineering labs exits",
+    "routes to engineering labs"
+   ],
+   "answer": "The upper level connects directly to the Workshop Entrance back door and passages leading to the Launch Bay. The lower level leads to the main corridors connecting the Launch Bay and Tinkers' Court."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The Engineering Labs represent the pinnacle of fallen gnomish automation, retaining functional automated punchograph terminals and discarded schematics amid the wreckage."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "For exiled gnomes, these laboratories are a tragic sight: once the beating heart of their race's technological triumphs, now reduced to an irradiated ruin overrun by their corrupted kin."
+  }
+ ],
+ "keywords": [
+  "engineering labs",
+  "gnomeregan",
+  "launch bay",
+  "leper gnome",
+  "punchograph",
+  "tinkers court",
+  "workshop entrance"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "subzone:workshop-entrance",
+  "subzone:launch-bay",
+  "subzone:tinkers-court",
+  "topic:leper-gnome",
+  "topic:gnome",
+  "npc:umpi"
+ ],
+ "attribution": [
+  "Engineering Labs"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "key": "subzone:starfall-village",
+ "type": "subzone",
+ "name": "Starfall Village",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Starfall Village"
+ },
+ "summary": "Starfall Village is a tranquil night elven sanctuary nestled along the snowy road of Winterspring. As the sole Alliance outpost in the frozen valley, it offers shelter and supplies to travelers braving the bitter northern chill. It also stands watch over the nearby Ban'Thallow Barrow Den.",
+ "sections": [
+  {
+   "title": "An Alliance Refuge in the Snow",
+   "body": "Situated northwest of the goblin trading post of Everlook and south of Frostsaber Rock, Starfall Village represents the lone bastion of Alliance civilization in Winterspring. Composed of traditional night elven timber lodges, the settlement serves as a haven for wayfarers, providing critical supplies and a warm hearth amid the harsh mountain elements. Despite its peaceful appearance, the village remains ever vigilant, positioned adjacent to the Ban'Thallow Barrow Den where sleeping druids maintain their sacred vigil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Starfall Village?",
+   "aliases": [
+    "starfall",
+    "starfall town",
+    "what is this place"
+   ],
+   "answer": "Starfall Village is a night elven enclave in Winterspring. It functions as the primary sanctuary and supply camp for the Alliance in the valley, providing lodging, trade, and guidance for scouts journeying toward Frostsaber Rock or investigating the nearby barrow dens."
+  },
+  {
+   "q": "Can Horde players use the amenities in Starfall Village?",
+   "aliases": [
+    "is starfall friendly to horde",
+    "can horde use starfall",
+    "starfall village horde"
+   ],
+   "answer": "No. Starfall Village is aligned strictly with the night elves and the Alliance. Horde travelers who stumble too close will be met with hostility by the local defenders."
+  },
+  {
+   "q": "What is the barrow den next to the village?",
+   "aliases": [
+    "barrow den starfall",
+    "cave next to starfall",
+    "ban thallow"
+   ],
+   "answer": "The cavern situated directly behind the village is the Ban'Thallow Barrow Den. Like other barrow dens constructed across Kalimdor, it serves as a sacred haven for night elven druids undertaking extended slumbers in the Emerald Dream."
+  },
+  {
+   "q": "Where is Starfall Village located?",
+   "aliases": [
+    "starfall location",
+    "how to get to starfall",
+    "where is starfall"
+   ],
+   "answer": "The village sits along the main snow-covered road through Winterspring, situated northwest of the goblin settlement of Everlook and south of Frostsaber Rock."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As the only Alliance settlement in Winterspring, Starfall Village offers vital respite, trade goods, and directions in an otherwise treacherous and remote highland wilderness."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, Starfall is an important northern outpost that safeguards the sleeping druids resting within the adjacent Ban'Thallow Barrow Den."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "ban'thallow",
+  "night elf",
+  "starfall",
+  "starfall village",
+  "winterspring"
+ ],
+ "related": [
+  "zone:winterspring",
+  "subzone:ban-thallow-barrow-den",
+  "subzone:everlook",
+  "subzone:frostsaber-rock",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Starfall Village"
+ ]
+}

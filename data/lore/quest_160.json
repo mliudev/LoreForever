@@ -1,0 +1,117 @@
+{
+ "key": "quest:160",
+ "type": "quest",
+ "name": "Note to the Mayor",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   160
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Abercrombie",
+  "end": "Lord Ello Ebonlocke",
+  "previous": "Ogre Thieves (Classic)",
+  "next": "Translate Abercrombie's Note",
+  "wiki": "Note to the Mayor (Classic)",
+  "chain": []
+ },
+ "summary": "Note to the Mayor is an Alliance errand in Duskwood that links the eccentric hermit Abercrombie to the leadership of Darkshire. After aiding the reclusive old man, adventurers are asked to hand-deliver a personal message to Mayor Lord Ello Ebonlocke. However, the missive immediately stirs suspicion rather than warmth.",
+ "sections": [
+  {
+   "title": "A Friendly Message?",
+   "body": "After helping Abercrombie recover his stolen chest from the ogres of the Vul'Gol Ogre Mound, the hermit sends you back down the mist-shrouded roads toward town. Cackling with delight, Abercrombie claims that he and Mayor Lord Ello Ebonlocke are old friends. He insists that upon discovering what the adventurer has accomplished, the mayor will be just as thrilled as he is.",
+   "spoiler": 0
+  },
+  {
+   "title": "Puzzled Leadership",
+   "body": "Upon arriving at the town hall in Darkshire, the reality contradicts Abercrombie's claims. Lord Ello Ebonlocke has no recollection of anyone named Abercrombie. Unfolding the parchment only deepens the mystery: far from a heartfelt greeting between old companions, the text is inscribed in an ancient, unreadable script that leaves Darkshire's mayor thoroughly baffled.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends the Note to the Mayor?",
+   "aliases": [
+    "who gives note to the mayor",
+    "who starts note to the mayor",
+    "abercrombie letter sender"
+   ],
+   "answer": "Abercrombie, an eccentric hermit dwelling in a solitary shack on the western edge of Duskwood, hands you the letter after you recover his stolen possessions from the local ogres."
+  },
+  {
+   "q": "Are Abercrombie and Mayor Ebonlocke actually friends?",
+   "aliases": [
+    "do they know each other",
+    "is abercrombie friends with the mayor",
+    "abercrombie ello ebonlocke relationship"
+   ],
+   "answer": "No. While Abercrombie claims they are old acquaintances, Mayor Lord Ello Ebonlocke has never heard of him and expresses utter bewilderment at receiving the message."
+  },
+  {
+   "q": "What is written in the note?",
+   "aliases": [
+    "what does abercrombie note say",
+    "can ello read the note",
+    "what language is the letter"
+   ],
+   "answer": "The note is written in an ancient, obscure language that neither the courier nor Mayor Ebonlocke can decipher, prompting the mayor to seek outside translation."
+  },
+  {
+   "q": "Where is Lord Ello Ebonlocke located?",
+   "aliases": [
+    "where is the mayor",
+    "ello ebonlocke location",
+    "where do i turn in note to the mayor"
+   ],
+   "answer": "Mayor Lord Ello Ebonlocke is located inside the Darkshire Town Hall, on the east side of town along the main road in Duskwood."
+  },
+  {
+   "q": "What happens after Mayor Ebonlocke receives the letter?",
+   "aliases": [
+    "what is next after note to the mayor",
+    "what follows note to the mayor"
+   ],
+   "answer": "Because Lord Ebonlocke cannot read the mysterious script, he asks you to seek out someone who can interpret the text, leading to the quest Translate Abercrombie's Note."
+  },
+  {
+   "q": "Why was Abercrombie laughing when he gave you the letter?",
+   "aliases": [
+    "why does abercrombie laugh",
+    "is abercrombie evil",
+    "abercrombie laugh note"
+   ],
+   "answer": "Abercrombie's gleeful laughter hints that his intentions are far darker than a simple reunion with an old acquaintance, foreshadowing sinister trouble for Darkshire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Darkshire's survival depends on unraveling strange disturbances before they breach the Night Watch's perimeter, making this suspicious letter an immediate security concern for Alliance agents."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human couriers serving the Night Watch and the House of Ebonlocke quickly realize that the odd old hermit on the outskirts of Duskwood has deceived them."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "darkshire",
+  "duskwood",
+  "ello ebonlocke",
+  "letter",
+  "mayor",
+  "note to the mayor"
+ ],
+ "related": [
+  "npc:abercrombie",
+  "npc:lord-ello-ebonlocke",
+  "quest:251",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Note to the Mayor (Classic)"
+ ]
+}

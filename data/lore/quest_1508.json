@@ -1,0 +1,125 @@
+{
+ "key": "quest:1508",
+ "type": "quest",
+ "name": "Blind Cazul",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   1508
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Cazul",
+  "end": "Zankaja",
+  "previous": "Devourer of Souls (Orgrimmar)",
+  "next": "News of Dogran",
+  "wiki": "Blind Cazul",
+  "chain": [
+   "Devourer of Souls (Orgrimmar)",
+   "Blind Cazul",
+   "News of Dogran",
+   "News of Dogran (2)",
+   "Ken'zigla's Draught (quest)",
+   "Dogran's Captivity",
+   "Love's Gift",
+   "The Binding (Succubus, Orgrimmar)"
+  ]
+ },
+ "summary": "Blind Cazul is a transitional step in the Horde warlock trial to bind a succubus. After being directed by the coven leaders in the Cleft of Shadow, an initiate seeks out the sightless warlock Cazul, who points toward an object of intense emotion needed for the ritual.",
+ "sections": [
+  {
+   "title": "A Matter of Enticement",
+   "body": "Subjugating a demonic minion requires more than raw willpower; certain creatures of the Twisting Nether must be drawn across the veil by their innate cravings. A succubus, known as a devourer of souls, responds eagerly to mortal longing, sorrow, and unfulfilled desire. Cazul understands this well, recognizing immediately why an aspiring summoner has sought him out.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes in the Bluffs",
+   "body": "Despite his physical blindness, Cazul remains sharply attuned to the quiet lives and tragedies unfolding within Orgrimmar's red ramparts. Rather than sending the warlock directly to battle, he directs them to a troll woman named Zankaja living atop the bluffs near the wind rider roost. Zankaja has been anxiously waiting for the return of her mate, Dogran, harboring the very despair that demons find irresistible.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Cazul?",
+   "aliases": [
+    "blind cazul",
+    "who is cazul"
+   ],
+   "answer": "Cazul is a sightless warlock who operates quietly in Orgrimmar. He assists the Shadow Council associates in the Cleft of Shadow by identifying reagents and conduits for demonic summonings."
+  },
+  {
+   "q": "Why does Cazul send you to Zankaja?",
+   "aliases": [
+    "why zankaja",
+    "what does zankaja have"
+   ],
+   "answer": "To summon and bind a succubus, an initiate requires an item steeped in powerful mortal yearning or love. Zankaja is waiting in distress for her missing mate, Dogran, making her personal connection the key to obtaining an emotional lure."
+  },
+  {
+   "q": "Where can Zankaja be found in Orgrimmar?",
+   "aliases": [
+    "zankaja location",
+    "where is zankaja"
+   ],
+   "answer": "Zankaja resides on the elevated bluffs of Orgrimmar, west of the wind rider roost. She can be reached by crossing the bridge from the flight tower and checking the nearby dwellings to the right."
+  },
+  {
+   "q": "What happens after speaking to Zankaja?",
+   "aliases": [
+    "what comes next",
+    "next step after cazul"
+   ],
+   "answer": "Zankaja is distressed because her mate Dogran has vanished. Speaking to her leads the warlock to search the Barrens for word of his fate, beginning the chain to retrieve a potent token of love."
+  },
+  {
+   "q": "What kind of demon is this quest preparing you to summon?",
+   "aliases": [
+    "which pet",
+    "demon reward"
+   ],
+   "answer": "This errand is part of the initiation rite to summon and enslave a succubus, a demonic minion that wields seduction and psychic torment."
+  },
+  {
+   "q": "Why must warlocks exploit personal tragedies for their rituals?",
+   "aliases": [
+    "warlock morality",
+    "why use dogran"
+   ],
+   "answer": "Lesser demons like the succubus are drawn to intense mortal emotions\u2014particularly passion, devotion, and heartbreak. Warlocks deliberately harness tokens tainted by grief or desire to serve as spiritual bait during the summoning ritual."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This task demonstrates that demonic conjuration relies on psychological resonance as much as fel magic, requiring conduits of intense mortal emotion to lure a succubus."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The dark arts practiced deep in the Cleft of Shadow operate just beneath the surface of the Horde capital, quietly touching the lives of ordinary citizens living on the mesas above."
+  }
+ ],
+ "keywords": [
+  "blind cazul",
+  "cazul",
+  "cleft of shadow",
+  "dogran",
+  "orgrimmar",
+  "succubus",
+  "warlock",
+  "zankaja"
+ ],
+ "related": [
+  "npc:cazul",
+  "npc:zankaja",
+  "quest:1472",
+  "quest:1509",
+  "quest:1515",
+  "quest:1512",
+  "quest:1471",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Blind Cazul"
+ ]
+}

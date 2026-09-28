@@ -1,0 +1,93 @@
+{
+ "key": "subzone:ethel-rethor",
+ "type": "subzone",
+ "name": "Ethel Rethor",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Ethel Rethor"
+ },
+ "summary": "Ethel Rethor is an ancient night elven ruin situated along the rugged northwestern coast of Desolace. While a solitary, sealed tower still rises above the waves, the majority of the sunken settlement now lies submerged in the sea and overrun by hostile naga.",
+ "sections": [
+  {
+   "title": "A Drowned Relic",
+   "body": "Perched on the desolate coast of western Kalimdor, Ethel Rethor stands as a haunting reminder of the ancient night elven civilization that flourished before the Great Sundering. Much of the grand architecture has collapsed into the ocean depths, leaving only shattered foundations and a lone, weathered tower protruding from the surf. A small bridge extends toward the tower's sealed portal, but the structure remains shut tight against the elements and intruders alike. The submerged chambers and surrounding shallows have become a stronghold for coastal naga, making the waters treacherous for any who wander near.",
+   "spoiler": 0
+  },
+  {
+   "title": "Watchers on the Shore",
+   "body": "Despite its remote location and serpentine infestation, Ethel Rethor draws travelers interested in Kalimdor's forgotten histories and ongoing threats. An agent of the Argent Dawn, Azore Aldamor, maintains a watchful presence near the ruins, monitoring the naga menace and offering aid to intrepid adventurers willing to dive into the sunken passages. Between the aquatic dangers offshore and the barren wastes inland, the ruins serve as a lonely coastal crossroads.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Ethel Rethor?",
+   "aliases": [
+    "ethel rethor lore",
+    "what is this place desolace",
+    "ethel rethor ruin"
+   ],
+   "answer": "Ethel Rethor is a ruined night elven coastal settlement in northwestern Desolace. Most of its former structures are now submerged beneath the sea, leaving behind a solitary offshore tower and drowned stonework."
+  },
+  {
+   "q": "Who controls Ethel Rethor now?",
+   "aliases": [
+    "who lives in ethel rethor",
+    "ethel rethor monsters",
+    "naga at ethel rethor"
+   ],
+   "answer": "The sunken ruins and adjacent reefs are occupied by naga. Like many ancient Kaldorei sites along the coast, the serpentine creatures have laid claim to the drowned halls and patrol the surrounding shallows aggressively."
+  },
+  {
+   "q": "Can you go inside the tower?",
+   "aliases": [
+    "open ethel rethor tower",
+    "ethel rethor door",
+    "inside ethel rethor"
+   ],
+   "answer": "The tower rising from the sea features a small bridge leading to an entrance, but the doorway remains firmly sealed shut. Travelers can only explore its exterior and dive into the sunken ruins beneath it."
+  },
+  {
+   "q": "Why is the Argent Dawn here?",
+   "aliases": [
+    "argent dawn in desolace",
+    "azore aldamor ethel rethor",
+    "argent dawn npc desolace"
+   ],
+   "answer": "An Argent Dawn representative, Azore Aldamor, is stationed near the ruins. While the Dawn primarily focuses on the Scourge in the east, their operatives across Kalimdor monitor unusual magical disturbances, ancient ruins, and emerging threats like the naga."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, Ethel Rethor is a somber monument to their lost empire, reminding them of the cataclysmic Sundering and the mutated brethren who now prowl the sunken halls."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance travelers moving through the hostile barrens of Desolace can find a rare neutral friendly face stationed near the ruins in the Argent Dawn observer Azore Aldamor."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "azore aldamor",
+  "desolace",
+  "desolace coast",
+  "ethel rethor",
+  "kaldorei ruins",
+  "naga",
+  "sunken ruins"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:naga",
+  "topic:argent-dawn",
+  "subzone:shadowprey-village",
+  "subzone:furien-s-post",
+  "subzone:karnum-s-glade",
+  "subzone:thunk-s-abode"
+ ],
+ "attribution": [
+  "Ethel Rethor"
+ ]
+}

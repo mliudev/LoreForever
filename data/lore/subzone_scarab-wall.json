@@ -1,0 +1,85 @@
+{
+ "key": "subzone:scarab-wall",
+ "type": "subzone",
+ "name": "Scarab Wall",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Scarab Wall"
+ },
+ "summary": "The Scarab Wall is a colossal barricade sealing off the southern border of Silithus from the insectoid empire of Ahn'Qiraj. Conjured at the end of the War of the Shifting Sands, the barrier combines stone and bronze dragonflight sorcery to keep ancient, crawling horrors contained. Today, it stands as an imposing reminder of the terrible cost paid to seal away the silithid menace.",
+ "sections": [
+  {
+   "title": "Shield Against the Shadow",
+   "body": "Spanning the desert from east to west, the Scarab Wall was raised a thousand years ago at the conclusion of the catastrophic War of the Shifting Sands. Pushed to the brink of annihilation by the qiraji, the night elf armies and their dragon allies forced the swarms back into their ancient kingdom. To contain them permanently, the kaldorei shaped the desert stone into an immense rampart standing at least a hundred feet tall, while the bronze dragonflight wove a colossal magical barrier above it. Known in Darnassian as Irana'ethil\u2014the 'Shield against the Shadow'\u2014the wall successfully severed the insectoid armies from Kalimdor, though the dread presence locked behind its stone remains palpable.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Sealed Ruin",
+   "body": "Beyond the sandstone masonry and shimmering draconic wards lies the ruined city of Ahn'Qiraj, a stronghold built around an ancient, malevolent force. While the massive gates remain firmly shut, the recent surge of silithid hives across southern Kalimdor suggests that the barrier's seal may not hold forever. Mortal explorers who approach the wall can hear the muffled scratching of chitinous legs and feel the oppressive shadow that lingers over the entire perimeter.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Scarab Wall?",
+   "aliases": [
+    "scarab wall purpose",
+    "what is this wall in silithus",
+    "ahn qiraj wall"
+   ],
+   "answer": "The Scarab Wall is a massive stone and magical barrier at the southern edge of Silithus. It was erected to seal away the ancient insectoid kingdom of Ahn'Qiraj and keep its ravenous swarms trapped within their desert ruins."
+  },
+  {
+   "q": "Who built the Scarab Wall?",
+   "aliases": [
+    "who made the wall",
+    "who created the scarab wall"
+   ],
+   "answer": "It was created jointly by the night elves and the bronze dragonflight at the culmination of the War of the Shifting Sands. The elves molded the desert rock into a hundred-foot-tall wall, while the dragons projected an immense magical barrier over it."
+  },
+  {
+   "q": "What does Irana'ethil mean?",
+   "aliases": [
+    "irana'ethil meaning",
+    "elven name for scarab wall"
+   ],
+   "answer": "Irana'ethil is the Darnassian name given to the Scarab Wall by the night elves who shaped it. It translates roughly to 'Shield against the Shadow.'"
+  },
+  {
+   "q": "Can players go past the wall?",
+   "aliases": [
+    "can you go past scarab wall",
+    "how to get past wall in silithus"
+   ],
+   "answer": "No. The gates are sealed tight by ancient draconic enchantments, making the ruined kingdom behind it completely inaccessible to travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, this wall is a sacred monument to the horrific sacrifices made during the War of the Shifting Sands, where an entire generation was lost to halt the swarm."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids feel the unnatural suppression of life around the perimeter, where ancient wards struggle to contain a corruptive, subterranean blight."
+  }
+ ],
+ "keywords": [
+  "ahn'qiraj",
+  "bronze dragonflight",
+  "irana'ethil",
+  "qiraji",
+  "scarab wall",
+  "silithus",
+  "war of the shifting sands"
+ ],
+ "related": [
+  "zone:silithus",
+  "topic:old-god",
+  "subzone:valor-s-rest"
+ ],
+ "attribution": [
+  "Scarab Wall"
+ ]
+}

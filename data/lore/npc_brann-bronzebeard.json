@@ -1,0 +1,120 @@
+{
+ "key": "npc:brann-bronzebeard",
+ "type": "npc",
+ "name": "Brann Bronzebeard",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Brann Bronzebeard",
+  "refs": 4
+ },
+ "summary": "Brann Bronzebeard is the youngest brother of King Magni and the late Muradin, renowned throughout Azeroth as a peerless explorer, archaeologist, and founding leader of the Explorers' League. Driven by an insatiable curiosity for titan ruins and ancient history, his wanderlust has led him deep into the deadly wastes of Silithus. He has recently vanished past the impenetrable Scarab Wall, leaving his field companions behind with only baffling clues and his beloved pet ape.",
+ "sections": [
+  {
+   "title": "A Royal Wanderer",
+   "body": "While his eldest brother Magni rules Ironforge from the throne and Muradin served on battlefield frontlines, Brann took to the open wilds. He was a veteran warrior of the Second War, fighting in the Siege of Ironforge and following High General Anduin Lothar and Turalyon all the way to the Dark Portal's destruction. Yet peacetime turned his formidable constitution toward uncovering the forgotten past. As a leader of the Explorers' League, Brann charted vast swathes of the Eastern Kingdoms\u2014from Elwynn Forest to the untamed jungles of Zul'Gurub\u2014before turning his gaze across the Great Sea to the mysteries of ancient Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trouble in Silithus",
+   "body": "Drawn south by reports from the Cenarion Circle concerning the Old God C'Thun and the slumbering qiraji swarm, Brann established the Bronzebeard Encampment in southern Silithus alongside fellow explorers Rutgar Glyphshaper and Frankal Stonebridge. Tragedy struck when the priestess Natalia Mar'alith, maddened by the whispering horrors of the shifting sands, raided their camp. Natalia ambushed Brann and knocked him senseless before his pet ape, Glibb, flew into a defensive fury and drove her screeching toward Hive'Regal.",
+   "spoiler": 1
+  },
+  {
+   "title": "Beyond the Scarab Wall",
+   "body": "Rather than retreating after the terrifying assault, the intrepid archaeologist became obsessed with entering the sealed kingdom behind the Scarab Wall. Brann discovered a hidden subterranean tunnel that bypassed the ancient barrier entirely and ventured inside alone, leaving Glibb in the care of his expedition with strict written orders to provide the ape with plenty of food, water, and affectionate hugs. His companions remain stranded in southern Silithus, desperately awaiting word from within the silithid hives.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Brann Bronzebeard?",
+   "aliases": [
+    "who is brann",
+    "brann lore",
+    "brann bronzebeard backstory"
+   ],
+   "answer": "He is the youngest brother of King Magni Bronzebeard of Ironforge and a co-founder and driving force behind the dwarven Explorers' League. Rather than sitting in council chambers, Brann is a legendary archaeologist and cartographer who travels Azeroth's most dangerous frontiers to uncover titan artifacts and lost civilizations."
+  },
+  {
+   "q": "Where is Brann Bronzebeard right now?",
+   "aliases": [
+    "brann location",
+    "where to find brann",
+    "where is brann in silithus"
+   ],
+   "answer": "He has slipped through an underground fissure into Ahn'Qiraj past the sealed Scarab Wall in southern Silithus. His associates, Rutgar Glyphshaper and Frankal Stonebridge, still tend the Bronzebeard Encampment along the southern cliffs, hoping he emerges alive."
+  },
+  {
+   "q": "What happened to his camp in Silithus?",
+   "aliases": [
+    "what happened at bronzebeard encampment",
+    "who attacked brann's camp",
+    "natalia attack brann"
+   ],
+   "answer": "The encampment was ambushed by the maddened night elf priestess Natalia Mar'alith. She struck Brann unconscious, but his pet ape Glibb flew into a defensive rage and fought her off, chasing her into the nearby insectoid tunnels of Hive'Regal."
+  },
+  {
+   "q": "Who is Glibb?",
+   "aliases": [
+    "glibb ape",
+    "brann's monkey",
+    "brann pet"
+   ],
+   "answer": "Glibb is Brann Bronzebeard's companion ape. Glibb saved Brann's life during the surprise attack by Natalia Mar'alith. When Brann departed into the tunnels beneath Ahn'Qiraj, he left Glibb behind at Bronzebeard Encampment with urgent orders for his crew to keep the beast well-fed and hugged."
+  },
+  {
+   "q": "Did Brann fight in the Second War?",
+   "aliases": [
+    "brann second war",
+    "was brann in the alliance army",
+    "brann and muradin war"
+   ],
+   "answer": "Yes. Brann fought in the Siege of Ironforge before marching alongside his brother Muradin under Anduin Lothar and Turalyon to Blackrock Mountain, fighting forest trolls and orcs all the way to the Dark Portal."
+  },
+  {
+   "q": "Why is Brann interested in Silithus?",
+   "aliases": [
+    "why did brann go to silithus",
+    "brann silithus purpose",
+    "brann c'thun"
+   ],
+   "answer": "Brann was drawn to the desert by Cenarion Circle whispers concerning the Old God C'Thun, titan history, and the trapped qiraji empire, prompting him to find a way beyond the sealed Scarab Wall to inspect the ruins first-hand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As the youngest brother of King Magni, Brann embodies the dwarven passion for digging into the roots of their titan heritage."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Brann's expeditionary work directly fuels the knowledge and archives of the Alliance, though his habit of vanishing without a trace often drives Ironforge's leadership to distraction."
+  }
+ ],
+ "keywords": [
+  "ahn'qiraj",
+  "brann",
+  "bronzebeard",
+  "explorers league",
+  "frankal",
+  "glibb",
+  "natalia mar'alith",
+  "rutgar",
+  "scarab wall",
+  "silithus"
+ ],
+ "related": [
+  "subzone:bronzebeard-encampment",
+  "subzone:scarab-wall",
+  "npc:rutgar-glyphshaper",
+  "npc:natalia-mar-alith",
+  "subzone:hive-regal",
+  "topic:explorers-league",
+  "zone:silithus",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "Brann Bronzebeard"
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "key": "quest:2300",
+ "type": "quest",
+ "name": "SI:7",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   2300
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Keryn Sylvius",
+  "end": "Renzik \"The Shiv\"",
+  "previous": null,
+  "next": "Redridge Rendezvous",
+  "wiki": "SI:7 (quest)",
+  "chain": [
+   "SI:7 (quest)",
+   "Redridge Rendezvous",
+   "Alther's Mill (quest)"
+  ]
+ },
+ "summary": "This directive summons promising young rogues from Westfall directly into the heart of Stormwind's covert intelligence network. Directed by Keryn Sylvius in Sentinel Hill, agents are ordered to report immediately to Renzik \"The Shiv\" in Old Town. Answering this summons brings an operative directly into service under Master Mathias Shaw.",
+ "sections": [
+  {
+   "title": "A Summons to Old Town",
+   "body": "Operating out of Sentinel Hill, field operative Keryn Sylvius watches over the chaotic front in Westfall, keeping tabs on local recruits. When a rogue shows enough cunning and competence against the gathering Defias threat, Sylvius passes along word from headquarters. The summons is brief and unceremonious: report to Renzik \"The Shiv\" without delay. Leaving the dusty plains behind, the agent is directed straight into the covert heart of the capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stormwind's Hidden Eyes",
+   "body": "Tucked away behind the facade of an unassuming barracks in Old Town sits the headquarters of SI:7, Stormwind's premier intelligence agency. Commanded by Master Mathias Shaw, SI:7 manages covert operations, reconnaissance, and assassination throughout the kingdom and beyond. Renzik \"The Shiv,\" Shaw's sharp-tongued second-in-command, personally vets promising field agents before dispatching them into high-stakes operations that the kingdom's formal military cannot touch.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me to report to SI:7?",
+   "aliases": [
+    "who gives quest",
+    "quest giver",
+    "keryn sylvius"
+   ],
+   "answer": "Keryn Sylvius, a covert operative stationed at Sentinel Hill in Westfall, gives you the directive. Once you prove your competence in the field, Sylvius passes down orders instructing you to report to headquarters in Stormwind."
+  },
+  {
+   "q": "Who is Renzik \"The Shiv\"?",
+   "aliases": [
+    "renzik the shiv",
+    "who is renzik",
+    "renzik"
+   ],
+   "answer": "Renzik \"The Shiv\" is a goblin operative who serves as the second-in-command of SI:7, working directly under Master Mathias Shaw. He evaluates field agents and coordinates covert intelligence assignments from SI:7's headquarters in Old Town."
+  },
+  {
+   "q": "What is SI:7?",
+   "aliases": [
+    "what is si7",
+    "what does si7 do",
+    "stormwind intelligence"
+   ],
+   "answer": "SI:7\u2014short for Stormwind Intelligence, Section 7\u2014is the covert espionage, reconnaissance, and assassination branch of the Kingdom of Stormwind. Led by Mathias Shaw, its operatives gather intelligence on threats to the crown that conventional guards and soldiers cannot address."
+  },
+  {
+   "q": "Where is the SI:7 headquarters located?",
+   "aliases": [
+    "where is si7",
+    "si7 location",
+    "where is renzik"
+   ],
+   "answer": "The SI:7 headquarters is located in the eastern portion of Old Town in Stormwind City. It operates out of a fortified guildhall and training barracks tucked away from the main streets."
+  },
+  {
+   "q": "What happens after reporting to Renzik?",
+   "aliases": [
+    "next quest",
+    "what comes after",
+    "redridge rendezvous"
+   ],
+   "answer": "Once you report to Renzik, he tests your readiness before assigning you a field mission beyond the city walls, dispatching you to meet an operative stationed in Redridge."
+  },
+  {
+   "q": "Why does Keryn Sylvius call me 'fish'?",
+   "aliases": [
+    "why called fish",
+    "fish meaning"
+   ],
+   "answer": "It is slang for an untested novice or new recruit. Operatives within the agency use colorful, abrasive nicknames to keep rookies grounded until they have proven themselves on real assignments."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This summons marks your transition from a scoundrel working local jobs into a recognized operative for Stormwind's official intelligence branch."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "SI:7 serves as the covert shield of the Alliance, handling dangerous espionage operations that regular marshals and infantry cannot publicly undertake."
+  }
+ ],
+ "keywords": [
+  "keryn sylvius",
+  "mathias shaw",
+  "old town",
+  "renzik the shiv",
+  "rogue",
+  "sentinel hill",
+  "si:7",
+  "stormwind"
+ ],
+ "related": [
+  "npc:renzik-the-shiv",
+  "npc:keryn-sylvius",
+  "quest:2281",
+  "quest:2282",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "SI:7 (quest)"
+ ]
+}

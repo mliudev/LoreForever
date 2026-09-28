@@ -1,0 +1,139 @@
+{
+ "key": "quest:829",
+ "type": "quest",
+ "name": "Neeru Fireblade",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   829
+  ],
+  "level": "12",
+  "faction": "Horde",
+  "start": "Margoz",
+  "end": "Neeru Fireblade",
+  "previous": "Skull Rock (Classic)",
+  "next": "Ak'Zeloth (Classic)",
+  "wiki": "Neeru Fireblade (quest)",
+  "chain": [
+   "Vile Familiars (Warlock)",
+   "Vile Familiars (Warlock 2)",
+   "Burning Blade Medallion (quest)",
+   "Report to Sen'jin Village",
+   "Report to Orgnil",
+   "Dark Storms (quest)",
+   "Margoz (Classic)",
+   "Skull Rock (Classic)",
+   "Neeru Fireblade (quest)",
+   "Ak'Zeloth (Classic)",
+   "The Demon Seed (quest)"
+  ]
+ },
+ "summary": "This quest sends Horde adventurers from Margoz in Durotar to Orgrimmar's shadowy underbelly. Entrusted with a demonic Searing Collar recovered from the Burning Blade cult, you are directed to Neeru Fireblade, a prominent warlock residing in the Cleft of Shadow who claims to study dark arts only to protect the Horde.",
+ "sections": [
+  {
+   "title": "A Shaman's Limits",
+   "body": "After recovering Searing Collars from the cultists lurking in Skull Rock, the shaman Margoz discovers that unraveling their foul sorcery exceeds his ancestral arts. Shamans commune with elemental spirits and the earth, while these artifacts reek of raw demonic corruption. Recognizing that understanding the Burning Blade's devices requires someone well-versed in the occult, Margoz sends you to seek out a warlock residing in the capital.",
+   "spoiler": 0
+  },
+  {
+   "title": "Into the Cleft of Shadow",
+   "body": "Beneath the red cliffs of Orgrimmar lies the Cleft of Shadow, a dimly lit cavern where practitioners of forbidden magics ply their trade under Thrall's wary eye. There dwells Neeru Fireblade, an influential orc warlock who insists his mastery of fel power is aimed entirely at thwarting demonic threats. Handing him the example collar draws his immediate curiosity, bringing Durotar's cult investigation straight into the heart of the warlock enclave.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Margoz send me to a warlock?",
+   "aliases": [
+    "why warlock",
+    "why neeru",
+    "margoz warlock"
+   ],
+   "answer": "Margoz is a shaman whose powers derive from the elements and the spirits of the ancestors. The Searing Collars retrieved from Skull Rock are purely demonic in nature, and divining their enchantments and origins requires someone trained in fel magic and the dark arts."
+  },
+  {
+   "q": "Where can I find Neeru Fireblade?",
+   "aliases": [
+    "neeru location",
+    "where is neeru fireblade",
+    "cleft of shadow neeru"
+   ],
+   "answer": "Neeru Fireblade is located in the Cleft of Shadow, the subterranean cavern complex beneath Orgrimmar where warlocks, rogues, and shadow casters gather."
+  },
+  {
+   "q": "Can Neeru Fireblade be trusted?",
+   "aliases": [
+    "is neeru evil",
+    "neeru trustworthy",
+    "can i trust fireblade"
+   ],
+   "answer": "Margoz himself harbors doubts, noting that while Neeru claims his occult research is benign and used only to fight demons, whether that is true or false remains to be seen. Thrall allows warlocks in Orgrimmar under strict supervision, but caution is advised."
+  },
+  {
+   "q": "What is the Example Collar?",
+   "aliases": [
+    "example collar",
+    "what is the collar",
+    "searing collar quest item"
+   ],
+   "answer": "The Example Collar is one of the Searing Collars taken from the Burning Blade cultists at Skull Rock. Margoz gives it to you to deliver directly to Neeru Fireblade for magical analysis."
+  },
+  {
+   "q": "What happens after giving the collar to Neeru?",
+   "aliases": [
+    "next quest after neeru",
+    "what does neeru do",
+    "quest chain after neeru"
+   ],
+   "answer": "Neeru examines the collar closely, leading into the quest Ak'Zeloth, where he sends you deeper into the investigation of the cult's shadowy presence in Durotar."
+  },
+  {
+   "q": "Why does the Horde allow warlocks in Orgrimmar?",
+   "aliases": [
+    "why are warlocks allowed",
+    "warlocks in cleft of shadow",
+    "thrall warlocks"
+   ],
+   "answer": "Warchief Thrall tolerates warlocks out of pragmatic necessity, keeping them contained within the subterranean Cleft of Shadow so their dangerous research can be watched, controlled, and occasionally used to understand demonic enemies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Margoz's admission marks a clear boundary between shamanism and demonic magic: the elements will not commune with fel artifacts, requiring the aid of a warlock."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Entering the Cleft of Shadow to consult Neeru Fireblade brings you into direct contact with the most prominent warlock in Orgrimmar, validating the pragmatic value of your forbidden craft to the Horde."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This mission demonstrates the fragile truce within Orgrimmar, where the Warchief's shamans must occasionally turn to shadowy outcasts in the Cleft of Shadow to protect Durotar from extinction."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "cleft of shadow",
+  "durotar",
+  "margoz",
+  "neeru fireblade",
+  "orgrimmar",
+  "searing collar",
+  "skull rock",
+  "warlock"
+ ],
+ "related": [
+  "quest:827",
+  "quest:828",
+  "quest:809",
+  "quest:924",
+  "quest:806",
+  "subzone:cleft-of-shadow",
+  "zone:orgrimmar",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Neeru Fireblade (quest)"
+ ]
+}

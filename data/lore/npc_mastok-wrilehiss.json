@@ -1,0 +1,110 @@
+{
+ "key": "npc:mastok-wrilehiss",
+ "type": "npc",
+ "name": "Mastok Wrilehiss",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Mastok Wrilehiss",
+  "refs": 3
+ },
+ "summary": "Mastok Wrilehiss is an orc officer stationed at Splintertree Post in eastern Ashenvale. Serving as a crucial defensive coordinator for the Horde in the contested forest, he directs scouts and warriors to secure nearby borders and handle corrupting elemental threats. His presence is vital for maintaining the precarious foothold the Horde holds amidst constant night elf hostility.",
+ "sections": [
+  {
+   "title": "A Bulwark in the Ancient Woods",
+   "body": "Splintertree Post stands deep in the shadow of Ashenvale's towering canopy, completely surrounded by hostile night elven territory. Mastok Wrilehiss serves as one of the post's core defenders, monitoring supply routes and forest activity. The position is perilous; any sign of weakness invites swift strikes from the Sentinels who view the settlement as a despoiling intrusion.",
+   "spoiler": 0
+  },
+  {
+   "title": "Coordinating the Front",
+   "body": "From his vantage within the stockade, Mastok actively tasks passing adventurers with critical strategic duties. He keeps watchful eyes on the borders leading into neighboring territories like the Stonetalon Mountains and dispatches scouts to consult shamans such as Je'neu Sancrea of the Earthen Ring at Zoram'gar Strand. His duties bridge military defense with monitoring the strange, corrupting forces afflicting the local elementals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mastok Wrilehiss?",
+   "aliases": [
+    "who is mastok",
+    "mastok wrilehiss role",
+    "who is this orc"
+   ],
+   "answer": "Mastok Wrilehiss is an elite orc stationed at Splintertree Post in Ashenvale. He acts as an officer and quest giver tasked with holding the outpost against night elf incursions and investigating nearby regional threats."
+  },
+  {
+   "q": "Where can Mastok Wrilehiss be found?",
+   "aliases": [
+    "mastok location",
+    "where is mastok wrilehiss",
+    "mastok map"
+   ],
+   "answer": "He is located inside Splintertree Post, an fortified Horde outpost situated in east-central Ashenvale along the main forest road."
+  },
+  {
+   "q": "What tasks does Mastok assign to adventurers?",
+   "aliases": [
+    "mastok quests",
+    "quests from mastok"
+   ],
+   "answer": "Mastok tasks Horde adventurers with strategic duties including investigating corrupt elemental threats in the forest, securing passes toward Stonetalon, and directing emissaries to Je'neu Sancrea of the Earthen Ring."
+  },
+  {
+   "q": "Why is Splintertree Post under constant pressure?",
+   "aliases": [
+    "why are night elves attacking splintertree",
+    "splintertree post conflict"
+   ],
+   "answer": "The outpost serves as a central Horde logging hub and stronghold within Ashenvale. The native night elves view the presence of the orcs and their timber harvesting as a severe desecration of sacred lands, resulting in unending skirmishes."
+  },
+  {
+   "q": "Why does Mastok send travelers to Je'neu Sancrea?",
+   "aliases": [
+    "why contact earthen ring",
+    "mastok and jeneu"
+   ],
+   "answer": "The Earthen Ring shamans, including Je'neu at Zoram'gar Strand, study and heal the elemental instability wracking Ashenvale. Mastok connects frontline fighters with their spiritual expertise to handle tainted water elementals and strange disturbances."
+  },
+  {
+   "q": "Is Mastok Wrilehiss hostile to Alliance players?",
+   "aliases": [
+    "can alliance talk to mastok",
+    "is mastok killable"
+   ],
+   "answer": "Yes. Mastok is a dedicated member of the Horde and an elite defender of Splintertree Post, meaning he will attack Alliance players on sight if they approach the encampment."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For Horde champions fighting to maintain a frontier foothold in Ashenvale, Mastok is a key commander who can direct you toward crucial tasks across the region."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Mastok Wrilehiss represents the entrenched orcish military presence within Ashenvale, defending the fortified settlement of Splintertree against night elf sentinels."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Mastok's concern over corrupted elementals within the forest often directs adventurers to seek guidance from the Earthen Ring at Zoram'gar Strand."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "earthen ring",
+  "mastok",
+  "orc",
+  "splintertree",
+  "stonetalon",
+  "wrilehiss"
+ ],
+ "related": [
+  "subzone:splintertree-post",
+  "zone:ashenvale",
+  "quest:824",
+  "quest:1918",
+  "quest:25",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Mastok Wrilehiss"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "subzone:frostfire-hot-springs",
+ "type": "subzone",
+ "name": "Frostfire Hot Springs",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Frostfire Hot Springs"
+ },
+ "summary": "Frostfire Hot Springs are a curious series of steaming, geothermally heated pools nestled amidst the western snowdrifts of Winterspring. Despite the bitter sub-zero temperatures all around them, these waters bubble constantly, attracting curious scholars, hardy fishers, and hostile furbolgs alike.",
+ "sections": [
+  {
+   "title": "Steaming Waters in the Snow",
+   "body": "Situated near the tunnel leading to Timbermaw Hold, Frostfire Hot Springs represent one of the strangest natural anomalies in northern Kalimdor. Thermal vents churn deep beneath the crust, feeding scalding water into several open pools while blizzards rage overhead. The local Winterfall furbolgs maintain a presence near the water, though their aggressive territorial nature makes approaching the warm banks hazardous for unwary travelers. For those able to navigate the hostile wildlife and winter chill, the unfrozen waters provide a rare haven for subterranean fish.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Geothermal Mystery",
+   "body": "The uncanny existence of such intense heat in an otherwise frozen wasteland has drawn the attention of curious observers. Nearby, an inquisitive dwarf named Donova Snowden keeps a lonely vigil over the springs, studying their origin and composition. Snowden suspects that these geothermal anomalies might not be entirely natural, hypothesizing that dark magical corruption seeping northward from the demonic stronghold of Darkwhisper Gorge could be responsible for roiling the subterranean waters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there hot springs in freezing Winterspring?",
+   "aliases": [
+    "why is water hot",
+    "frostfire origin",
+    "hot water winterspring"
+   ],
+   "answer": "Deep thermal vents feed boiling mineral water to the surface faster than the sub-zero climate can freeze it. However, the exact magical or volcanic cause remains unconfirmed, prompting local researchers to investigate whether unnatural subterranean disturbances are involved."
+  },
+  {
+   "q": "Who is Donova Snowden?",
+   "aliases": [
+    "dwarf near springs",
+    "donova snowden lore",
+    "hot springs questgiver"
+   ],
+   "answer": "Donova Snowden is an Alliance-affiliated dwarven researcher encamped just east of the hot springs. She spends her days studying the unusual flora, fauna, and thermal properties of Winterspring, seeking to determine if dark forces are tampering with the land."
+  },
+  {
+   "q": "Could the springs be tied to demonic magic?",
+   "aliases": [
+    "demon hot springs",
+    "darkwhisper connection",
+    "corrupted water"
+   ],
+   "answer": "Donova Snowden theorizes that the demonic taint festering in Darkwhisper Gorge far to the south may run deep through the earth, heating or distorting subterranean currents that bubble up at Frostfire Hot Springs."
+  },
+  {
+   "q": "Who lives around the hot springs?",
+   "aliases": [
+    "frostfire enemies",
+    "who controls hot springs",
+    "furbolgs hot springs"
+   ],
+   "answer": "The aggressive Winterfall furbolg tribe controls territory near the springs, viewing the warm pools as valuable ground. Travelers must remain on guard, as these furbolgs attack outsiders on sight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The hot springs showcase the inquisitive nature of your kin, represented by Donova Snowden, who braves the frozen elements to unlock geological mysteries."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Observing scalding waters in an arctic climate raises valid concerns regarding whether natural Ley lines or foul demonic energies from Darkwhisper Gorge are warping Kalimdor's balance."
+  }
+ ],
+ "keywords": [
+  "darkwhisper gorge",
+  "donova snowden",
+  "frostfire hot springs",
+  "timbermaw hold",
+  "winterfall",
+  "winterspring"
+ ],
+ "related": [
+  "npc:donova-snowden",
+  "zone:winterspring",
+  "subzone:timbermaw-hold",
+  "subzone:darkwhisper-gorge"
+ ],
+ "attribution": [
+  "Frostfire Hot Springs"
+ ]
+}

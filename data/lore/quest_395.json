@@ -1,0 +1,124 @@
+{
+ "key": "quest:395",
+ "type": "quest",
+ "name": "Brotherhood's End",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   395
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Master Mathias Shaw",
+  "end": "Baros Alexston",
+  "previous": "The Head of the Beast",
+  "next": "An Audience with the King",
+  "wiki": "Brotherhood's End",
+  "chain": []
+ },
+ "summary": "Brotherhood's End marks the aftermath of the clandestine strike against Lord Gregor Lescovar within Stormwind Keep. With the treacherous nobleman dead, Master Mathias Shaw sends you to City Architect Baros Alexston, cautioning you to keep quiet about who actually struck the killing blow.",
+ "sections": [
+  {
+   "title": "Loose Ends in the Shadows",
+   "body": "Following the assassination of Lord Gregor Lescovar and his Defias handler, Marzon the Silent Blade, Master Mathias Shaw advises extreme caution. Eliminating a high-ranking nobleman inside the royal keep is fraught with political peril, even if Lescovar was neck-deep in treason. Shaw counsels you to share the broad strokes of the Defias conspiracy with Baros Alexston while keeping your own lethal role\u2014and the involvement of the rogue cheese merchant Elling Trias\u2014entirely off the record.",
+   "spoiler": 1
+  },
+  {
+   "title": "A Breath of Relief",
+   "body": "Baros Alexston, the City Architect who oversaw the reconstruction of Stormwind, greets the news of Lescovar's demise with profound relief. Alexston and other prominent figures in the rebuilding effort were marked targets for Edwin VanCleef's vengeance after the Stonemasons were cast out without pay. With Lescovar silenced and the conspiracy disrupted, Alexston believes the immediate threat of retribution hanging over the kingdom's architects and nobility has finally passed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happens in Brotherhood's End?",
+   "aliases": [
+    "what is brotherhoods end",
+    "brotherhoods end quest overview",
+    "brotherhoods end summary"
+   ],
+   "answer": "Having eliminated Lord Gregor Lescovar in Stormwind Keep, you report back to Master Mathias Shaw at SI:7. Shaw instructs you to report to City Architect Baros Alexston, who is anxious to hear whether the Defias plot against the city's leaders has been foiled."
+  },
+  {
+   "q": "Why does Shaw tell you not to admit to killing Lescovar?",
+   "aliases": [
+    "why hide lescovar death",
+    "why lie about lescovar",
+    "shaw advice lescovar"
+   ],
+   "answer": "Lord Gregor Lescovar was a high nobleman in Stormwind's House of Nobles. Even though he was proven to be colluding with the Defias, publicly admitting to assassinating an aristocrat in the royal keep invites political scandal and retaliatory scrutiny. Shaw knows the cutthroat politics of the city and advises letting the deed remain unattributed."
+  },
+  {
+   "q": "Why should nobody mention Elling Trias?",
+   "aliases": [
+    "why hide trias",
+    "trias secret",
+    "selling trias cheese vendor"
+   ],
+   "answer": "Elling Trias poses as a simple cheese merchant in Old Town, but in truth he is a veteran operative closely allied with SI:7 and a former rogue of great renown. Exposing his involvement in uncovering the conspiracy would blow his cover and compromise his extensive underground network."
+  },
+  {
+   "q": "Why was Baros Alexston personally concerned about the Defias?",
+   "aliases": [
+    "why does alexston care",
+    "baros alexston vancleef",
+    "alexston defias connection"
+   ],
+   "answer": "Baros Alexston was the primary architect who helped design and oversee the reconstruction of Stormwind alongside Edwin VanCleef and the Stonemasons Guild. When the House of Nobles refused to pay the workers, the masons turned to banditry, and Alexston was placed squarely in their crosshairs as an architect of their betrayal."
+  },
+  {
+   "q": "Does this quest mark the end of the Defias threat?",
+   "aliases": [
+    "is the defias destroyed",
+    "are the defias dead now",
+    "does brotherhood end finish defias"
+   ],
+   "answer": "While it eliminates Edwin VanCleef's key sympathizer within the House of Nobles, it does not erase the Defias presence entirely. However, cutting off Lescovar strikes a critical blow to their infiltration of Stormwind's government and averts an immediate coup from within the city walls."
+  },
+  {
+   "q": "Where does this investigation lead next?",
+   "aliases": [
+    "what quest is next",
+    "next after brotherhoods end",
+    "who do i see next"
+   ],
+   "answer": "Relieved by your success in eliminating the conspirators, Baros Alexston arranges for you to receive an official audience with Highlord Bolvar Fordragon and the boy-king Anduin Wrynn to be formally recognized for your service to the crown."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Unraveling the Defias conspiracy inside Stormwind Keep proves that the kingdom faces subversion not just from bandits across the countryside, but from within its own noble halls."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Mathias Shaw's warnings highlight the unspoken rule of SI:7 operations: deliver the kingdom's justice in silence, and never take public credit for a noble's blood."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this assignment closes the loop on the Stonemasons' rebellion that began in the city's streets years ago, securing justice without tearing the kingdom apart."
+  }
+ ],
+ "keywords": [
+  "baros alexston",
+  "brotherhood's end",
+  "defias",
+  "elling trias",
+  "gregor lescovar",
+  "mathias shaw",
+  "si:7",
+  "stormwind keep"
+ ],
+ "related": [
+  "quest:394",
+  "quest:396",
+  "npc:baros-alexston",
+  "topic:defias-brotherhood",
+  "topic:stormwind-kingdom",
+  "quest:65"
+ ],
+ "attribution": [
+  "Brotherhood's End"
+ ]
+}

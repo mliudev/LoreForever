@@ -1,0 +1,86 @@
+{
+ "key": "npc:brainwashed-noble",
+ "type": "npc",
+ "name": "Brainwashed Noble",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Brainwashed Noble",
+  "refs": 0
+ },
+ "summary": "The Brainwashed Noble is an elusive, captive aristocrat found deep within the subterranean caverns outside the Deadmines in Westfall. Stripped of his autonomy through magical manipulation, he serves the Defias Brotherhood alongside undead minions rather than walking the grand halls of Stormwind.",
+ "sections": [
+  {
+   "title": "A Pawn of the Brotherhood",
+   "body": "Wandering the murky, bone-littered passages leading into the Deadmines, the Brainwashed Noble presents a jarring contrast to the desperate bandits and rotting corpses that surround him. Clad in remnants of highborn finery, he was almost certainly a sitting member or scion of Stormwind's House of Nobles before falling into Edwin VanCleef's hands. Rather than ransom him for gold, the Defias have bent his mind with enchantments, turning a member of the ruling class into a spellcasting guard for their secret sanctuary. His tragic presence speaks volumes about the lengths the Brotherhood will go to inflict revenge upon the peers who refused to pay them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the Brainwashed Noble?",
+   "aliases": [
+    "who is brainwashed noble",
+    "what is brainwashed noble",
+    "noble in deadmines"
+   ],
+   "answer": "He is an aristocratic human, presumed to be from Stormwind's House of Nobles, who has been captured and magically subjugated by the Defias Brotherhood deep within the Deadmines caverns."
+  },
+  {
+   "q": "Why is a Stormwind noble inside the Deadmines caves?",
+   "aliases": [
+    "why is he in deadmines",
+    "why is noble in caves"
+   ],
+   "answer": "The Defias Brotherhood harbors a bitter vendetta against the Stormwind aristocracy over unpaid debts after rebuilding the city. Capturing, enslaving, and twisting the mind of a noble serves both as useful magical labor and as personal vengeance."
+  },
+  {
+   "q": "Where can the Brainwashed Noble be found?",
+   "aliases": [
+    "brainwashed noble location",
+    "where does he spawn"
+   ],
+   "answer": "He is an uncommon sight in the sprawling cavern tunnels of Moonbrook that lead down toward the Deadmines entrance, specifically haunting the passages inhabited by skeletal undead."
+  },
+  {
+   "q": "How was he brainwashed?",
+   "aliases": [
+    "who brainwashed him",
+    "how is he controlled"
+   ],
+   "answer": "While the exact caster remains unstated, the Defias employ several renegade spellcasters and enchanters throughout Westfall who are fully capable of bending a captive's mind through coercive sorcery."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Seeing a peer of the realm reduced to a mindless sentry deep beneath Westfall is a chilling reminder of the visceral grudge the Defias Brotherhood holds against Stormwind's ruling elite."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The noble relies on magical staves and arcane tricks like Polymorph, suggesting he possessed formal magical education in the capital before his mind was shattered."
+  }
+ ],
+ "keywords": [
+  "brainwashed noble",
+  "deadmines",
+  "defias brotherhood",
+  "house of nobles",
+  "moonbrook",
+  "stormwind",
+  "westfall"
+ ],
+ "related": [
+  "subzone:deadmines",
+  "topic:house-of-nobles",
+  "topic:defias-brotherhood",
+  "zone:westfall",
+  "zone:deadmines",
+  "topic:stormwind-kingdom",
+  "quest:65",
+  "topic:human"
+ ],
+ "attribution": [
+  "Brainwashed Noble"
+ ]
+}

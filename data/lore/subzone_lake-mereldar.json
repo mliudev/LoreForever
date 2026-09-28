@@ -1,0 +1,82 @@
+{
+ "key": "subzone:lake-mereldar",
+ "type": "subzone",
+ "name": "Lake Mereldar",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Lake Mereldar"
+ },
+ "summary": "Lake Mereldar is a sprawling, contaminated body of water resting south of Corin's Crossing in the Eastern Plaguelands. Once part of the idyllic rural heartland of Lordaeron, its corrupted waters now spawn twisted elementals and rot beneath the lingering taint of the Scourge.",
+ "sections": [
+  {
+   "title": "A Polluted Haven",
+   "body": "Situated just south of the crossroads town of Corin's Crossing, Lake Mereldar was once a peaceful fixture of northern Lordaeron's countryside. Dotting its shores are the decaying ruins of an old homestead, an abandoned shack, and a dilapidated ferry that once carried local farmers and travelers across the gentle waters. With the coming of the Scourge and the plague of undeath, the lake fell into complete ruin. The surrounding soil withered, and the waters turned foul and poisonous.",
+   "spoiler": 0
+  },
+  {
+   "title": "Twisted Inhabitants",
+   "body": "The unnatural blight seeping into Lake Mereldar has thoroughly infected the local ecosystem and the spirits tied to it. Blighted Surges\u2014corrupted water elementals driven mad by necromantic residue\u2014lurk in the shallows and surface without warning. Along the weed-choked banks, vicious beasts such as Plague Ravagers prowl the mud, preying on whatever living creatures stray too close to the dead shoreline.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Lake Mereldar located?",
+   "aliases": [
+    "mereldar location",
+    "where is lake mereldar",
+    "find lake mereldar"
+   ],
+   "answer": "Lake Mereldar sits in the central-southern expanse of the Eastern Plaguelands, directly south of the ruined town of Corin's Crossing."
+  },
+  {
+   "q": "Why are there water elementals in the lake?",
+   "aliases": [
+    "blighted surge",
+    "water elementals mereldar",
+    "corrupted elementals"
+   ],
+   "answer": "The water elementals here, known as Blighted Surges, have been twisted and driven hostile by the pervasive necromantic blight that seeped into the lake during the fall of Lordaeron."
+  },
+  {
+   "q": "Who owned the shack and ferry on the shore?",
+   "aliases": [
+    "ferry ruins",
+    "mereldar house",
+    "abandoned dock"
+   ],
+   "answer": "They belonged to a local farming homestead established before the Third War. When the plague ravaged the Eastweald, the homesteaders perished or fled, leaving their house and ferry to rot."
+  },
+  {
+   "q": "Is the water safe to drink or swim in?",
+   "aliases": [
+    "can you drink the water",
+    "is lake mereldar poisoned"
+   ],
+   "answer": "No. The lake is heavily fouled by the plague of undeath, making it hazardous to drink, swim in, or harvest from, and its waters harbor aggressive, blighted creatures."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The existence of Blighted Surges in Lake Mereldar is a sobering testament to how the Scourge's foul magic corrupts even natural elemental spirits into mindless, violent horrors."
+  }
+ ],
+ "keywords": [
+  "blighted surge",
+  "corin's crossing",
+  "eastern plaguelands",
+  "elementals",
+  "ferry",
+  "lake mereldar",
+  "plague ravager"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "subzone:corin-s-crossing"
+ ],
+ "attribution": [
+  "Lake Mereldar"
+ ]
+}

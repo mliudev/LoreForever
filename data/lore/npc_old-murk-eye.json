@@ -1,0 +1,71 @@
+{
+ "key": "npc:old-murk-eye",
+ "type": "npc",
+ "name": "Old Murk-Eye",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Old Murk-Eye",
+  "refs": 0
+ },
+ "summary": "Old Murk-Eye is an infamous, battle-hardened murloc prowling the southern coastline of Westfall. Revered among his kind and feared by coastal sailors, he serves as a lethal menace to anyone wandering near the Westfall Lighthouse.",
+ "sections": [
+  {
+   "title": "Terror of the Coastline",
+   "body": "While murlocs are a common pest along the shores of Westfall, Old Murk-Eye stands apart from the lesser scavengers. Considerably tougher and far more aggressive than his kin, this grizzled beast prowls the surf surrounding the Westfall Lighthouse. His continued presence has caused enough grief to local mariners that the spectral Captain Grayson seeks his death, offering a bounty for the creature's pristine scales to break his grip on the shallows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Old Murk-Eye wander?",
+   "aliases": [
+    "old murk eye location",
+    "where to find old murk eye",
+    "where is murk eye"
+   ],
+   "answer": "He patrols the sandy shores and shallow waters of southwestern Westfall, directly along the coast near the Westfall Lighthouse."
+  },
+  {
+   "q": "Why does Captain Grayson want Old Murk-Eye dead?",
+   "aliases": [
+    "grayson murk eye",
+    "why kill old murk eye"
+   ],
+   "answer": "Captain Grayson considers Old Murk-Eye a persistent threat to the coastal waters. To curb the violence along the beach, he places a bounty on the legendary murloc, demanding a scale as proof of the deed."
+  },
+  {
+   "q": "Is Old Murk-Eye different from ordinary murlocs?",
+   "aliases": [
+    "how tough is murk eye",
+    "is murk eye an elite"
+   ],
+   "answer": "Yes. He is notably stronger, more durable, and more aggressive than the Coastrunner and Tidehunter lackeys surrounding him, acting as a tribal champion among the local shoreline packs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance adventurers clearing out Westfall, eliminating Old Murk-Eye removes a notorious predator that preys on stranded travelers and ship crews."
+  }
+ ],
+ "keywords": [
+  "captain grayson",
+  "coastal menace",
+  "murk-eye",
+  "murloc",
+  "old murk-eye",
+  "westfall",
+  "westfall lighthouse"
+ ],
+ "related": [
+  "npc:captain-grayson",
+  "subzone:westfall-lighthouse",
+  "quest:104",
+  "zone:westfall",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Old Murk-Eye"
+ ]
+}

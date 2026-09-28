@@ -1,0 +1,122 @@
+{
+ "key": "quest:499",
+ "type": "quest",
+ "name": "Elixir of Suffering",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   499
+  ],
+  "level": "22",
+  "faction": "Horde",
+  "start": "Apothecary Lydon",
+  "end": "Umpi",
+  "previous": "Elixir of Suffering (quest)",
+  "next": null,
+  "wiki": "Elixir of Suffering (2)",
+  "chain": [
+   "Elixir of Suffering (quest)",
+   "Elixir of Suffering (2)"
+  ]
+ },
+ "summary": "In Tarren Mill, Apothecary Lydon brews a venomous concoction intended to further the Royal Apothecary Society's sinister work. To confirm its lethality, he orders an immediate live trial on his unfortunate companion nearby.",
+ "sections": [
+  {
+   "title": "A Toxic Test",
+   "body": "Apothecary Lydon works tirelessly out of Tarren Mill to develop chemical weapons capable of fulfilling the Dark Lady's grand ambitions: a blight that will annihilate both the living humans of the Alliance and the undead horrors of the Scourge. Once the necessary reagents are gathered and steeped, Lydon mixes the foul brew into what he dubs the Elixir of Suffering, eager to witness its raw potency before deploying it on a broader scale.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fate of Umpi",
+   "body": "Rather than seeking out an enemy captive or an escaped beast, Lydon turns directly to the creature beside him. He directs the adventurer to administer the freshly brewed poison to his assistant, Umpi\u2014a harmless toad sitting quietly at his feet. A single dose of the elixir proves swiftly catastrophic, killing the amphibian on the spot and satisfying the apothecary that his deadly formula functions precisely as intended.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Apothecary Lydon?",
+   "aliases": [
+    "lydon",
+    "who is lydon",
+    "apothecary lydon tarren mill"
+   ],
+   "answer": "Apothecary Lydon is an alchemist representing the Royal Apothecary Society, stationed in the Forsaken settlement of Tarren Mill within the Hillsbrad Foothills. He spends his days refining poisons and alchemical mixtures designed to wipe out enemies of the Forsaken."
+  },
+  {
+   "q": "Who is Umpi?",
+   "aliases": [
+    "what is umpi",
+    "umpi the toad",
+    "who is the assistant"
+   ],
+   "answer": "Umpi is a simple toad perched right beside Apothecary Lydon's work table in Tarren Mill, jokingly designated by Lydon as his assistant."
+  },
+  {
+   "q": "What is the purpose of the Elixir of Suffering?",
+   "aliases": [
+    "what does the elixir do",
+    "why make elixir of suffering"
+   ],
+   "answer": "The Elixir of Suffering is an experimental chemical weapon developed to test toxic formulas meant to eradicate both living humans and the undead Scourge on behalf of Lady Sylvanas Windrunner."
+  },
+  {
+   "q": "What happens when you feed the potion to Umpi?",
+   "aliases": [
+    "does umpi die",
+    "what happens to the toad"
+   ],
+   "answer": "Upon drinking the toxic brew, Umpi croaks once and promptly drops dead, confirming the lethal efficacy of Lydon's creation."
+  },
+  {
+   "q": "Where does this test take place?",
+   "aliases": [
+    "where is lydon located",
+    "where do i find umpi"
+   ],
+   "answer": "The test occurs inside the Forsaken town of Tarren Mill, located in northern Hillsbrad Foothills, right by Lydon's brewing station."
+  },
+  {
+   "q": "Why does the Royal Apothecary Society test poisons on small animals?",
+   "aliases": [
+    "why test on toads",
+    "apothecary society animal testing"
+   ],
+   "answer": "Forsaken apothecaries routinely use small creatures and vermin for preliminary trials to verify the speed and lethality of their chemical compounds before advancing to field tests on larger targets or living captives."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, testing lethal toxins is essential business in fulfilling Lady Sylvanas's decree to eradicate both the Scourge and the living."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Allies visiting Tarren Mill get a chilling, firsthand glimpse into the ruthless alchemical methods practiced by the Royal Apothecary Society."
+  },
+  {
+   "target": "class:Druid",
+   "text": "A druid might find the casual, callous poisoning of a harmless amphibian in the name of Forsaken warfare deeply unsettling."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "elixir of suffering",
+  "hillsbrad foothills",
+  "poison",
+  "royal apothecary society",
+  "tarren mill",
+  "toad",
+  "umpi"
+ ],
+ "related": [
+  "quest:496",
+  "npc:umpi",
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Elixir of Suffering (2)"
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "key": "npc:shael-dryn",
+ "type": "npc",
+ "name": "Shael'dryn",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Shael'dryn",
+  "refs": 6
+ },
+ "summary": "Shael'dryn is an inquisitive dryad residing at Raynewood Retreat in eastern Ashenvale. Known for her lighthearted wit and fondness for wordplay, she serves as a vital contact for night elf scouts investigating forest corruption. She plays a pivotal role in aiding Astranaar's sentinels with cleansing relics to combat demonic and foul influences spreading across the wilderness.",
+ "sections": [
+  {
+   "title": "A Jester of the Woods",
+   "body": "Daughter of Cenarius like all dryads, Shael'dryn approaches the perils of the wild with an unexpectedly playful spirit. Companions and travelers know her as a lover of puns and spoken jests, often using lighthearted humor to cut through the brooding tension of the tainted woodland. Yet behind her teasing demeanor lies deep devotion to the well-being of Ashenvale and its ancient spirits.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guardian of Raynewood",
+   "body": "Stationed around Raynewood Retreat, Shael'dryn keeps watch alongside the night elf sentinels guarding the eastern approaches of the forest. When corruption surfaces among the local wildlife or tainted relics threaten the land's harmony, her deep natural understanding allows her to guide adventurers through the steps required to restore spiritual balance.",
+   "spoiler": 0
+  },
+  {
+   "title": "Purification of the Woods",
+   "body": "Shael'dryn works closely in coordination with Raene Wolfrunner in Astranaar. When sentinels recover tainted artifacts such as corrupted glowing gems and the lost Rod of Tethis, Shael'dryn knows the obscure rituals, moonwell waters, and natural tokens needed to purify them, transforming dark curiosities into potent cleansing tools for the Alliance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Shael'dryn?",
+   "aliases": [
+    "who is she",
+    "shael dryn lore",
+    "shaeldryn identity"
+   ],
+   "answer": "Shael'dryn is a dryad found at Raynewood Retreat in Ashenvale. She aids Alliance adventurers with woodland lore and natural magic, all while indulging her penchant for puns and jokes."
+  },
+  {
+   "q": "Where can I find Shael'dryn?",
+   "aliases": [
+    "shaeldryn location",
+    "where is shael'dryn",
+    "raynewood dryad"
+   ],
+   "answer": "She can be found at Raynewood Retreat, an Alliance-aligned outpost situated in the eastern reaches of Ashenvale along the road toward Azshara."
+  },
+  {
+   "q": "What is Shael'dryn's connection to Raene Wolfrunner?",
+   "aliases": [
+    "raene and shaeldryn",
+    "raenes cleansing dryad",
+    "why send me to shaeldryn"
+   ],
+   "answer": "Raene Wolfrunner directs adventurers to Shael'dryn because the dryad possesses the spiritual knowledge necessary to investigate and cleanse corrupted gems and relics recovered throughout the forest."
+  },
+  {
+   "q": "What is unique about Shael'dryn's appearance?",
+   "aliases": [
+    "dryad model",
+    "unique skin",
+    "shaeldryn color"
+   ],
+   "answer": "Shael'dryn and her fellow dryad Illiyana share an uncommon coloration that sets their models apart from most other dryads encountered across Kalimdor."
+  },
+  {
+   "q": "What kind of personality does she have?",
+   "aliases": [
+    "shaeldryn personality",
+    "does she joke",
+    "shaeldryn jokes"
+   ],
+   "answer": "Unlike the stern and somber tone common among many Kaldorei defenders, Shael'dryn is recognized by her peers as a lover of humor and clever wordplay, maintaining a jovial outlook despite the forest's plight."
+  },
+  {
+   "q": "Is Shael'dryn friendly to the Horde?",
+   "aliases": [
+    "can horde talk to shaeldryn",
+    "horde rep",
+    "is shaeldryn alliance only"
+   ],
+   "answer": "No. Positioned at the Alliance outpost of Raynewood Retreat and closely allied with the Astranaar Sentinels, Shael'dryn is hostile toward members of the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, Shael'dryn is a welcome sister of the forest whose natural ties to Cenarius make her indispensable for cleansing tainted woodland relics."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids will appreciate her natural connection to the spirits of Kalimdor and her insight into restoring flora and fauna warped by dark powers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Raynewood Retreat serves as an important sanctuary in eastern Ashenvale, where Shael'dryn assists Alliance forces resisting corruption and hostile encroachment."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "cenarius",
+  "cleansing",
+  "dryad",
+  "illiyana",
+  "raene",
+  "raynewood",
+  "shael'dryn",
+  "shaeldryn"
+ ],
+ "related": [
+  "npc:illiyana",
+  "quest:991",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Shael'dryn"
+ ]
+}

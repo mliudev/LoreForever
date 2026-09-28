@@ -1,0 +1,121 @@
+{
+ "key": "quest:5541",
+ "type": "quest",
+ "name": "Ammo for Rumbleshot",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   5541
+  ],
+  "level": "6",
+  "faction": "Alliance",
+  "start": "Loslor Rudge",
+  "end": "Hegnar Rumbleshot",
+  "previous": null,
+  "next": null,
+  "wiki": "Ammo for Rumbleshot",
+  "chain": []
+ },
+ "summary": "Gunsmith Hegnar Rumbleshot is running low on shot and powder for the riflemen practicing outside Anvilmar. A missing crate of ammunition was abandoned in the snowy wilds near the Grizzled Den when a courier was routed by hungry wendigo.",
+ "sections": [
+  {
+   "title": "A Courier's Flight",
+   "body": "Loslor Rudge in Coldridge Valley keeps steady supply lines flowing to tradesmen across Dun Morogh, but the valley's wildlife often interferes. His latest shipment of heavy ammunition never reached Hegnar Rumbleshot's roadside workshop. While camping near the cave system known as the Grizzled Den, the terrified courier crossed paths with local wendigo and fled for his life, abandoning the heavy wooden crate in the snow.",
+   "spoiler": 0
+  },
+  {
+   "title": "Powder and Shot",
+   "body": "Hegnar Rumbleshot operates a gun shop situated right along the main road leading away from Anvilmar. The clearing outside his forge sees constant traffic from Ironforge riflemen, mountaineers, and dwarven mortar squads looking to zero their sights and drill with live fire. Without steady crates of powder and lead from suppliers like Loslor, Coldridge's marksmanship training quickly grinds to a dead stop.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where was the ammo crate lost?",
+   "aliases": [
+    "ammo location",
+    "where is rumbleshot ammo",
+    "crate location"
+   ],
+   "answer": "Loslor Rudge's frightened courier dropped the shipment while encamped just outside the Grizzled Den, a wendigo-infested cave nestled in the snowy foothills of Coldridge Valley."
+  },
+  {
+   "q": "Who is Hegnar Rumbleshot?",
+   "aliases": [
+    "who is hegnar",
+    "rumbleshot",
+    "hegnar rumbleshot"
+   ],
+   "answer": "Hegnar Rumbleshot is a dwarven gunsmith who runs a weapon shop along the road near Anvilmar. He supplies powder, bullets, and firearms to the mountaineers, hunters, and siege teams drilling nearby."
+  },
+  {
+   "q": "Why was the courier chased off?",
+   "aliases": [
+    "why courier ran",
+    "wendigo attack",
+    "courier story"
+   ],
+   "answer": "The courier made the mistake of camping near the Grizzled Den, the den of the savage, territorial wendigo that roam the southern crags of Coldridge Valley."
+  },
+  {
+   "q": "Why is Hegnar Rumbleshot out of ammunition?",
+   "aliases": [
+    "why low on ammo",
+    "rumbleshot out of ammo"
+   ],
+   "answer": "Dwarven riflemen and mortar teams constantly burn through powder and lead practicing target drills near Hegnar's shop, keeping his inventory in high demand."
+  },
+  {
+   "q": "Who is Loslor Rudge?",
+   "aliases": [
+    "loslor rudge",
+    "who is loslor"
+   ],
+   "answer": "Loslor Rudge is an Anvilmar merchant who arranges deliveries and supplies for tradesmen throughout Coldridge Valley."
+  },
+  {
+   "q": "Does recovered ammunition spoil in the snow?",
+   "aliases": [
+    "ammo ruined by snow",
+    "wet powder"
+   ],
+   "answer": "Dwarven munitions are traditionally packed in heavy, weather-sealed wooden crates to keep black powder dry and ready to burn even in Dun Morogh's sub-zero blizzards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Every marksman in Coldridge knows Hegnar's shop well; keeping his shelves stocked with fresh powder and shot ensures you never face the wilderness with an empty rifle."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven craftsmanship relies on an unyielding supply chain between Anvilmar's smithies and frontline gunsmiths like Rumbleshot."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Dwarven firearms and mortars demand finely milled powder and uniform shot, making Rumbleshot's inventory essential for local tinkerers and gunners."
+  }
+ ],
+ "keywords": [
+  "ammo",
+  "anvilmar",
+  "coldridge",
+  "grizzled den",
+  "hegnar",
+  "loslor rudge",
+  "rumbleshot",
+  "wendigo"
+ ],
+ "related": [
+  "npc:hegnar-rumbleshot",
+  "npc:loslor-rudge",
+  "subzone:grizzled-den",
+  "quest:313",
+  "subzone:anvilmar",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Ammo for Rumbleshot"
+ ]
+}

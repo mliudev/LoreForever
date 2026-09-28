@@ -1,0 +1,126 @@
+{
+ "key": "quest:903",
+ "type": "quest",
+ "name": "Prowlers of the Barrens",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   903
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Sergra Darkthorn",
+  "end": "",
+  "previous": "The Zhevra (Classic)",
+  "next": "Echeyakee (Classic)",
+  "wiki": "Prowlers of the Barrens",
+  "chain": []
+ },
+ "summary": "Prowlers of the Barrens is a hunting rite assigned by Sergra Darkthorn at the Crossroads. As part of a series testing an adventurer's martial prowess, hunters are tasked with stalking the predatory savannah prowlers hiding within the tall veldt grasses. Bringing back their claws proves one's worthiness to confront the greatest beasts of the plains.",
+ "sections": [
+  {
+   "title": "A True Predator",
+   "body": "After proving capable against the skittish plainstriders and stubborn zhevras of the plains, hunters seeking the approval of Sergra Darkthorn face a deadlier challenge. The savannah prowlers are apex stalkers of the central Barrens, blending into the gold and ochre scrubland southwest of the Crossroads. Unlike grazing herd animals, these great cats hunt deliberately, ambushing prey from the tall grass and turning unwary travelers into victims.",
+   "spoiler": 0
+  },
+  {
+   "title": "Predator or Prey",
+   "body": "Sergra Darkthorn stresses the inherent risk of stalking beasts that hunt by trade. To claim their paws and claws, an adventurer must learn to read the grasses and strike before the cat leaps. Securing seven prowler claws demonstrates that a huntsman possesses the cunning and reflexes necessary to survive encounters with Kalimdor's deadliest fauna.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stepping Toward the Champion",
+   "body": "Returning successful with a fistful of claws confirms that the hunter has mastered basic survival on the open savannah. Pleased with the display of martial skill, Sergra prepares the hunter for a trial of true valor: summoning and slaying Echeyakee, the white lion revered as a champion among the predators of the Barrens.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this hunt?",
+   "aliases": [
+    "quest giver",
+    "who gives prowlers quest",
+    "sergra darkthorn"
+   ],
+   "answer": "Sergra Darkthorn, an experienced orc huntress stationed at the Crossroads in the Barrens, assigns the hunt as part of a traditional progression of hunting rites."
+  },
+  {
+   "q": "Where are the savannah prowlers located?",
+   "aliases": [
+    "where are prowlers",
+    "prowler locations",
+    "where to find savannah prowler"
+   ],
+   "answer": "They stalk the tall grasses southwest of the Crossroads, blending into the veldt where they hunt zhevra and unsuspecting travelers."
+  },
+  {
+   "q": "What trophies are required by Sergra?",
+   "aliases": [
+    "what do i need",
+    "prowler quest items",
+    "claws"
+   ],
+   "answer": "Hunters must sever and return with seven Prowler Claws to prove they bested the cats in direct combat."
+  },
+  {
+   "q": "What does this hunt lead to?",
+   "aliases": [
+    "next quest",
+    "what comes after prowlers",
+    "echeyakee"
+   ],
+   "answer": "Slaying the prowlers proves your readiness to challenge Echeyakee, the renowned white lion of the Barrens."
+  },
+  {
+   "q": "Why does Sergra have travelers hunt predators?",
+   "aliases": [
+    "why hunt prowlers",
+    "purpose of hunt",
+    "lore reason"
+   ],
+   "answer": "Beyond culling dangerous beasts that threaten the roads, Sergra's trials test whether a hunter understands the balance between predator and prey, weeding out the reckless before they face greater threats."
+  },
+  {
+   "q": "Are savannah prowlers dangerous to the settlement?",
+   "aliases": [
+    "do prowlers attack crossroads",
+    "threat to crossroads"
+   ],
+   "answer": "While prowlers rarely assault fortified encampments like the Crossroads directly, they lurk near the southern roads and actively prey on travelers, messengers, and pack animals."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Stalking savannah prowlers in the tall scrub provides essential training in tracking, stealth detection, and subduing aggressive feline beasts."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Taming the wilds around the Crossroads ensures safe passage for supply convoys traveling between Durotar, Mulgore, and the southern outposts."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Though bloody, culling rogue predators honors the natural balance and protects vulnerable caravans traversing ancestral hunting lands."
+  }
+ ],
+ "keywords": [
+  "crossroads",
+  "echeyakee",
+  "hunting",
+  "prowler claws",
+  "prowlers",
+  "savannah prowler",
+  "sergra darkthorn",
+  "the barrens"
+ ],
+ "related": [
+  "subzone:crossroads",
+  "quest:845",
+  "zone:barrens",
+  "quest:860"
+ ],
+ "attribution": [
+  "Prowlers of the Barrens"
+ ]
+}

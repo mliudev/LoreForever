@@ -1,0 +1,66 @@
+{
+ "key": "subzone:blazing-strand",
+ "type": "subzone",
+ "name": "Blazing Strand",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Blazing Strand"
+ },
+ "summary": "The Blazing Strand is a scorched stretch of coastline along western Darkshore, situated just west of the ancient ruins of Ameth'Aran. In the current era, the misty shore stands desolate against the waves of the Veiled Sea.",
+ "sections": [
+  {
+   "title": "A Mist-Shrouded Shore",
+   "body": "Running along the gloomy coast of Darkshore down from the heights of Ameth'Aran, this beach sits quiet beneath the perpetual coastal gloom. While Darkshore struggles under the corrupting influence of twisted wildlife and restless kaldorei spirits, the strand remains an open border between the haunted ancient ruins inland and the chilly waters of the Veiled Sea.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Blazing Strand located?",
+   "aliases": [
+    "blazing strand location",
+    "where is blazing strand",
+    "find blazing strand"
+   ],
+   "answer": "The Blazing Strand borders the western coast of Darkshore, lying directly west of the ancient highborne ruins of Ameth'Aran."
+  },
+  {
+   "q": "Is the Blazing Strand dangerous?",
+   "aliases": [
+    "dangers at blazing strand",
+    "enemies on blazing strand"
+   ],
+   "answer": "While the shoreline itself is quiet compared to the haunted ruins of Ameth'Aran, travelers should still watch out for wandering shoreline wildlife and the hostile spirits that drift out from the nearby ruins."
+  },
+  {
+   "q": "Why is it named the Blazing Strand?",
+   "aliases": [
+    "blazing strand name origin",
+    "why called blazing strand"
+   ],
+   "answer": "In ancient times, coastal navigation and fiery beacons often marked the jagged kaldorei shorelines. Though quiet today under Darkshore's perpetual overcast gloom, it retains its historic name alongside the nearby ruins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves of Auberdine, the coastline is a quiet perimeter just below the mournful spirits haunting Ameth'Aran."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "auberdine",
+  "beach",
+  "blazing strand",
+  "coast",
+  "darkshore"
+ ],
+ "related": [
+  "zone:darkshore",
+  "subzone:ameth-aran"
+ ],
+ "attribution": [
+  "Blazing Strand"
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "key": "quest:3092",
+ "type": "quest",
+ "name": "Etched Note",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   3092
+  ],
+  "level": "3",
+  "faction": "Horde",
+  "start": "Rohaku Stonehoof",
+  "end": "Lanka Farshot",
+  "previous": null,
+  "next": "The Hunter's Path (Horde)",
+  "wiki": "Etched Note (quest)",
+  "chain": []
+ },
+ "summary": "The Etched Note is a formal summons directed to promising young tauren hunters in Camp Narache. Delivered on behalf of the trainer Lanka Farshot, the message calls the novice forward to begin mastering the practical and spiritual arts of the wild.",
+ "sections": [
+  {
+   "title": "A Summons to the Hunt",
+   "body": "While training amidst the bluffs of Red Cloud Mesa, young tauren showing an aptitude for marksmanship and tracking are passed an etched message. Handed down through Rohaku Stonehoof, the note carries word that Lanka Farshot has taken notice of the youth's bloodline and raw capability, urging them to formalize their study beneath her watchful eye.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tradition of the Plains",
+   "body": "To the Shu'halo, a hunter is far more than a simple scout or warrior. Hunters sustain the tribes through their quarry, protect nomadic encampments, and live in close balance with the beasts of Kalimdor. By calling the novice into training, Lanka sets the groundwork for mastering weapons, understanding the creatures of Mulgore, and eventually undertaking the ancient art of taming wild companions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Etched Note?",
+   "aliases": [
+    "what does etched note do",
+    "etched note purpose",
+    "why did i get etched note"
+   ],
+   "answer": "The Etched Note serves as a formal introduction connecting a novice tauren hunter with Lanka Farshot, the local class trainer stationed in Camp Narache."
+  },
+  {
+   "q": "Who delivers the note?",
+   "aliases": [
+    "who gives etched note",
+    "etched note quest giver",
+    "rohaku note"
+   ],
+   "answer": "Rohaku Stonehoof passes the note along, explaining that a messenger from the hunter trainer sought out the young hunter moments prior."
+  },
+  {
+   "q": "Where is Lanka Farshot located?",
+   "aliases": [
+    "where is lanka farshot",
+    "find lanka farshot",
+    "lanka location"
+   ],
+   "answer": "Lanka Farshot resides within Camp Narache on Red Cloud Mesa, standing near the hunter training grounds ready to instruct new recruits."
+  },
+  {
+   "q": "Why are hunters so revered among the tauren?",
+   "aliases": [
+    "tauren hunter lore",
+    "why are tauren hunters important"
+   ],
+   "answer": "Hunters play a crucial role in tauren society by providing food, reading the untamed wilderness, and maintaining harmony with the spirits of the plains."
+  },
+  {
+   "q": "What skills does this training introduce?",
+   "aliases": [
+    "what does lanka teach",
+    "hunter basics tauren"
+   ],
+   "answer": "Lanka prepares the novice in foundational hunting techniques, including the use of ranged weaponry, understanding wild beasts, and ultimately the rituals required to tame animal companions."
+  },
+  {
+   "q": "What is the next step after reading the note?",
+   "aliases": [
+    "next quest after etched note",
+    "etched note follow up"
+   ],
+   "answer": "Reporting to Lanka Farshot completes the summons and begins The Hunter's Path, opening further instruction in tracking and survival."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This summons marks your formal induction into the hunter tradition, preparing you to master marksman arts, wilderness survival, and beast companionship."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo, hunting is a sacred duty honoring the Earth Mother through respect for the beasts that sustain the tribe across the plains of Mulgore."
+  }
+ ],
+ "keywords": [
+  "camp narache",
+  "etched note",
+  "lanka farshot",
+  "mulgore",
+  "red cloud mesa",
+  "rohaku stonehoof",
+  "tauren hunter"
+ ],
+ "related": [
+  "npc:lanka-farshot",
+  "npc:rohaku-stonehoof",
+  "subzone:camp-narache",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Etched Note (quest)"
+ ]
+}

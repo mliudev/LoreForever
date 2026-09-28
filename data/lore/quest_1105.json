@@ -1,0 +1,114 @@
+{
+ "key": "quest:1105",
+ "type": "quest",
+ "name": "Hardened Shells",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1105
+  ],
+  "level": "30",
+  "faction": null,
+  "start": "Wizzle Brassbolts",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "Hardened Shells",
+  "chain": []
+ },
+ "summary": "At the Mirage Raceway in the Shimmering Flats, the gnome tinkerer Wizzle Brassbolts worries his brother's potent new rocket fuel will dissolve their racer from the inside out. To prevent a catastrophe on the salt flats, Wizzle enlists passersby to harvest hardened shells from the local tortoises to craft an impervious fuel tank.",
+ "sections": [
+  {
+   "title": "Volatile Innovations",
+   "body": "Out in the blinding heat of the Shimmering Flats, the rivalry between gnome and goblin engineers pushes mechanical ambition to reckless extremes. Wizzle Brassbolts and his brother are determined to dominate the Mirage Raceway with their custom rocket car. However, his brother's experimental fuel mixture is showing signs of being far too potent. Fearing that the corrosive concoction will melt straight through the vehicle's standard chassis and tanks, Wizzle scrambles to find a container tough enough to survive the run.",
+   "spoiler": 0
+  },
+  {
+   "title": "Desert Armored Solutions",
+   "body": "Rather than relying on refined metals that might dissolve under chemical strain, Wizzle turns to the natural adaptations of the salt flats. The native tortoises roaming Thousand Needles possess shells remarkably resistant to harsh elements and mechanical wear. By gathering these hardened carapaces, Wizzle hopes to fashion custom fuel tanks resilient enough to hold the volatile mixture without blowing the rocket car to pieces.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Wizzle need tortoise shells instead of metal?",
+   "aliases": [
+    "why turtle shells",
+    "why tortoise shells",
+    "fuel tank shell"
+   ],
+   "answer": "His brother is brewing an experimental rocket fuel that is corrosive enough to dissolve metal. Wizzle believes the natural, ultra-hard shells of the local tortoises will withstand the chemical wear better than standard tanks."
+  },
+  {
+   "q": "Who is Wizzle Brassbolts?",
+   "aliases": [
+    "wizzle",
+    "who is wizzle"
+   ],
+   "answer": "Wizzle is a gnome engineer stationed at the Mirage Raceway in the Shimmering Flats. He works alongside his brother to build and fine-tune their high-speed rocket car to outrace their goblin competitors."
+  },
+  {
+   "q": "Where can the tortoises be found?",
+   "aliases": [
+    "tortoise location",
+    "where are the turtles",
+    "where to get hardened shells"
+   ],
+   "answer": "The tortoises wander openly across the vast salt pan of the Shimmering Flats, with particularly dense gatherings basking near the old shipwreck in the northeastern section."
+  },
+  {
+   "q": "Is this an Alliance or Horde quest?",
+   "aliases": [
+    "is hardened shells neutral",
+    "alliance or horde"
+   ],
+   "answer": "It is completely neutral. The Mirage Raceway operates outside faction warfare, focusing on engineering competitions, allowing both Alliance and Horde adventurers to assist Wizzle."
+  },
+  {
+   "q": "What happens once the shells are delivered?",
+   "aliases": [
+    "wizzle shell result",
+    "what does wizzle do with shells"
+   ],
+   "answer": "Wizzle eagerly begins fabricating them into reinforced fuel tanks, though he quickly realizes the shells are so durable he will likely ruin an entire toolbox carving them into shape."
+  },
+  {
+   "q": "Why is fuel tank failure such a concern on the flats?",
+   "aliases": [
+    "rocket car danger",
+    "why worried about fuel"
+   ],
+   "answer": "Rocket cars travel at terrifying speeds across the salt. A tank failure caused by acidic fuel would ignite mid-run, destroying the vehicle and incinerating the pilot."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Using organic armor plates to house volatile compounds is unorthodox, highlighting the eccentric trial-and-error approach gnomish tinkerers rely on under pressure."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Brotherly ingenuity and reckless scientific ambition meet head-on here, capturing the gnomish drive to out-innovate goblin rivals no matter the logistical hurdle."
+  }
+ ],
+ "keywords": [
+  "hardened shells",
+  "mirage raceway",
+  "rocket car",
+  "shimmering flats",
+  "thousand needles",
+  "tortoise",
+  "wizzle brassbolts"
+ ],
+ "related": [
+  "npc:wizzle-brassbolts",
+  "subzone:mirage-raceway",
+  "subzone:shimmering-flats",
+  "zone:thousandneedles",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Hardened Shells"
+ ]
+}

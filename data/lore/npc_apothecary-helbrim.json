@@ -1,0 +1,88 @@
+{
+ "key": "npc:apothecary-helbrim",
+ "type": "npc",
+ "name": "Apothecary Helbrim",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Apothecary Helbrim",
+  "refs": 2
+ },
+ "summary": "Apothecary Helbrim is an emissary of the Royal Apothecary Society stationed in the dusty heart of the Crossroads. Sent all the way to Kalimdor to harvest unfamiliar reagents, he studies the native flora and strange ecology of the Barrens on behalf of the Forsaken.",
+ "sections": [
+  {
+   "title": "Apothecary in the Dust",
+   "body": "While most of the Royal Apothecary Society remains sequestered in the damp underbelly of the Undercity, Helbrim operates out of the harsh sun and parched red dirt of the Crossroads. Sent far across the Great Sea to Kalimdor, his mission is simple yet crucial: identify and extract useful flora, fungi, and natural specimens from the Barrens. To this end, he relies on passing adventurers to gather samples, such as local fungal spores, and coordinates directly with his colleague, Apothecary Zamah, over in Thunder Bluff. His presence reminds travellers that the reach of Sylvanas's alchemists extends well beyond the ruined borders of Lordaeron.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Apothecary Helbrim?",
+   "aliases": [
+    "who is helbrim",
+    "helbrim lore",
+    "crossroads apothecary"
+   ],
+   "answer": "Helbrim is a Forsaken alchemist and agent of the Royal Apothecary Society. He is stationed in the Crossroads to gather and analyze the unique natural reagents found across the Barrens."
+  },
+  {
+   "q": "Why is a Forsaken apothecary stationed in the Barrens?",
+   "aliases": [
+    "why is he at crossroads",
+    "what is helbrim doing here",
+    "why forsaken in barrens"
+   ],
+   "answer": "The Royal Apothecary Society constantly seeks new compounds, toxins, and reagents to fuel their alchemical research. Helbrim was dispatched to central Kalimdor to study local specimens, such as the peculiar fungal spores sprouting across the savanna, which have no equivalent in the plague-scarred lands of Lordaeron."
+  },
+  {
+   "q": "What does he do with the fungal spores players bring him?",
+   "aliases": [
+    "fungal spores helbrim",
+    "what are spores for",
+    "fungal spore quest"
+   ],
+   "answer": "Helbrim analyzes the spores to determine their toxicity, medicinal value, and biochemical properties. He frequently packages these samples and directs couriers to deliver them to Apothecary Zamah in Thunder Bluff for further alchemical experimentation."
+  },
+  {
+   "q": "Who does Helbrim work with?",
+   "aliases": [
+    "helbrim allies",
+    "who does helbrim answer to"
+   ],
+   "answer": "Helbrim answers to the Royal Apothecary Society based in the Undercity. In Kalimdor, he collaborates directly with Apothecary Zamah at the Pools of Vision in Thunder Bluff and occasionally conducts business through goblin intermediaries like Wharfmaster Dizzywig in Ratchet."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Helbrim represents your people's practical contribution to the Horde out west, turning Kalimdor's rugged wilderness into raw material for the Society's ongoing research."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Though stationed alongside orcish guards and tauren wayfarers, Helbrim's relentless obsession with harvesting spores and toxins keeps even his allies slightly on edge."
+  }
+ ],
+ "keywords": [
+  "apothecary",
+  "barrens",
+  "crossroads",
+  "fungal spores",
+  "helbrim",
+  "royal apothecary society",
+  "zamah"
+ ],
+ "related": [
+  "topic:royal-apothecary-society",
+  "subzone:crossroads",
+  "zone:barrens",
+  "quest:848",
+  "quest:853",
+  "quest:1358",
+  "quest:1492",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Apothecary Helbrim"
+ ]
+}

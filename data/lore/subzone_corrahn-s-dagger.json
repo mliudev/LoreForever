@@ -1,0 +1,84 @@
+{
+ "key": "subzone:corrahn-s-dagger",
+ "type": "subzone",
+ "name": "Corrahn's Dagger",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Corrahn's Dagger"
+ },
+ "summary": "Corrahn's Dagger is the second ridge among the four mountainous fingers towering over northern Hillsbrad Foothills. Formerly a hideout for rogue Syndicate operatives, this high ground is now occupied by an expedition of Ironforge dwarves led by Captain Iceheart as a staging post against the Forsaken.",
+ "sections": [
+  {
+   "title": "A Northern Strongpoint",
+   "body": "Rising steeply in northern Hillsbrad Foothills, Corrahn's Dagger is the second of the four rocky projections known locally as the fingers of Hillsbrad. While the ridge was once overrun by cutthroats belonging to the Syndicate, it has recently been seized and fortified by the Stormpike clan. Under the command of Captain Iceheart, the dwarves have carved out a forward military camp complete with a forge and anvil, using the elevated perch to overlook the valley and orchestrate operations against the nearby Forsaken.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Corrahn's Dagger?",
+   "aliases": [
+    "who is at corrahn's dagger",
+    "corrahns dagger faction",
+    "who lives here"
+   ],
+   "answer": "The ridge is held by the Stormpike clan, an expedition of Ironforge dwarves led by Captain Iceheart. They maintain an active forward encampment on the heights."
+  },
+  {
+   "q": "Why are the dwarves stationed here?",
+   "aliases": [
+    "why are stormpike here",
+    "dwarf camp hillsbrad",
+    "iceheart purpose"
+   ],
+   "answer": "The Stormpike dwarves established their camp as a forward base of operations to monitor the foothills and wage war against the Forsaken of the Undercity."
+  },
+  {
+   "q": "Who used to hold this ridge before the dwarves?",
+   "aliases": [
+    "who was here before",
+    "syndicate on the ridge",
+    "corrahn dagger history"
+   ],
+   "answer": "Before the Stormpike soldiers pushed in and secured the mountain camp, Corrahn's Dagger was occupied by rogue humans affiliated with the Syndicate."
+  },
+  {
+   "q": "What are the fingers of Hillsbrad?",
+   "aliases": [
+    "four fingers hillsbrad",
+    "four ridges hillsbrad",
+    "hillsbrad fingers"
+   ],
+   "answer": "The fingers of Hillsbrad are four prominent, finger-like mountain ridges projecting southward from the northern mountain range into the Hillsbrad valley. Corrahn's Dagger is the second of these formations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The camp serves as a hardy highland outpost for the Stormpike clan, complete with working forges suited to dwarven warfare in hostile territory."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The fortified encampment represents a direct Alliance threat looming along the northern ridge overlooking Forsaken operations in Hillsbrad."
+  }
+ ],
+ "keywords": [
+  "captain iceheart",
+  "corrahn",
+  "corrahn's dagger",
+  "dagger",
+  "four fingers",
+  "hillsbrad",
+  "stormpike",
+  "syndicate"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "topic:forsaken",
+  "topic:syndicate"
+ ],
+ "attribution": [
+  "Corrahn's Dagger"
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "key": "zone:razorfenkraul",
+ "type": "dungeon",
+ "name": "Razorfen Kraul",
+ "era": "classic",
+ "zone": "razorfenkraul",
+ "meta": {
+  "wiki": [
+   "Razorfen Kraul (Classic)",
+   "Razorfen Kraul"
+  ],
+  "levels": "29-38",
+  "aliases": [],
+  "bosses": [
+   "Aggem Thorncurse",
+   "Death Speaker Jargba",
+   "Overlord Ramtusk",
+   "Agathelos the Raging",
+   "Blind Hunter",
+   "Charlga Razorflank",
+   "Earthcaller Halmgar"
+  ]
+ },
+ "summary": "Tucked away in the far south of the Barrens, Razorfen Kraul is the ancestral heartland of Kalimdor's quilboar. These ferocious tribes revere the dense labyrinth of giant brambles as the sacred resting place of their progenitor, the fallen demigod Agamaggan. Today, the Kraul has grown aggressively hostile under the tyranny of the quilboar matriarch Charlga Razorflank, whose dark dealings threaten the entire region.",
+ "sections": [
+  {
+   "title": "Blood of the Boar God",
+   "body": "Ten thousand years ago during the apocalyptic War of the Ancients, the colossal wild god Agamaggan threw himself into the fight against the Burning Legion. The great boar was eventually slain in battle, yet his sacrifice preserved life on Azeroth. Legends tell that wherever his blood seeped into the earth, massive thorn-covered vines erupted, forming thick, defensive labyrinths across the southern plains. The quilboar, venerating Agamaggan as their divine ancestor, claimed these colossal thickets as their holy lands, establishing the greatest of them as the Razorfen.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Crone's Ambition",
+   "body": "Razorfen Kraul is ruled with an iron tusk by the elder crone Charlga Razorflank. Under her despotic guidance, the shamanistic quilboar have abandoned their traditional territorial skirmishes to wage aggressive, coordinated war upon rival tribes, regional trade routes, and young Horde settlements. Far worse, troubling whispers and scout reports tell of undead fiends prowling near the brambles. It is feared that Charlga has begun negotiating with emissaries of the dreaded Scourge, seeking to harness forbidden necromancy to bolster her tribe's savagery.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Razorfen Kraul?",
+   "aliases": [
+    "what is rfk",
+    "explain razorfen kraul",
+    "razorfen overview"
+   ],
+   "answer": "Razorfen Kraul is an ancient subterranean network of massive thorny vines in the Southern Barrens. It serves as the spiritual heartland and stronghold of the quilboar race, who consider the tangled labyrinth their ancestral home."
+  },
+  {
+   "q": "How were the giant thorns created?",
+   "aliases": [
+    "why are there giant thorns",
+    "where did the brambles come from",
+    "agamaggan thorns"
+   ],
+   "answer": "The enormous brambles sprouted from the earth ten thousand years ago during the War of the Ancients, springing forth directly from the blood spilled by the fallen boar demigod Agamaggan."
+  },
+  {
+   "q": "Who rules Razorfen Kraul?",
+   "aliases": [
+    "who is the boss of rfk",
+    "charlga razorflank",
+    "crone of the kraul"
+   ],
+   "answer": "The Kraul is ruled by Charlga Razorflank, a ruthless quilboar crone and shaman who commands the Razorfen tribe and orchestrates attacks on neighboring villages and travelers."
+  },
+  {
+   "q": "Why is the Horde concerned about Razorfen Kraul?",
+   "aliases": [
+    "why does the horde care",
+    "horde rfk interest",
+    "barrens threat"
+   ],
+   "answer": "Beyond constant quilboar raids on nascent settlements in the Barrens, Horde scouts have spotted undead skulking around the thickets, raising terrifying concerns that Charlga is aligning with the Scourge."
+  },
+  {
+   "q": "Why are Alliance forces interested in the Kraul?",
+   "aliases": [
+    "alliance quests rfk",
+    "why alliance go here",
+    "thalanaar quest"
+   ],
+   "answer": "The aggressive expansion of Charlga's tribe threatens outposts near Feralas and the Thousand Needles, prompting Alliance commanders and scouts at Thalanaar to seek the crone's demise to stabilize the border."
+  },
+  {
+   "q": "What does defeating Earthcaller Halmgar mean for the story?",
+   "aliases": [
+    "what happens after earthcaller halmgar dies",
+    "earthcaller halmgar lore",
+    "halmgar defeated"
+   ],
+   "answer": "Defeating Earthcaller Halmgar, a rare and influential geomancer deep within the thickets, strikes a blow against the quilboar's earth-shaping priesthood. Stripping the Kraul of such powerful elemental summoners disrupts Charlga Razorflank's defensive fortifications and hinders the quilboar's ability to manipulate the sacred brambles of Agamaggan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The quilboar have long contested Mulgore's borders, and their desecration of the earth through dark alliances makes the cleansing of the Kraul a vital matter of tribal defense."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Quilboar geomancy twists the earth and elements around the blood of Agamaggan, providing a stark look at primal shamanistic powers wielded with savage intent."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Neutralizing the aggression within the Kraul is essential to protecting supply wagons and fledgling settlements across the southern expanses of the Barrens."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Apothecaries from the Undercity take an acute interest in the bizarre reagents, bat guano, and rumors of Scourge incursions found within the briars."
+  }
+ ],
+ "keywords": [
+  "agamaggan",
+  "barrens",
+  "charlga",
+  "halmgar",
+  "kraul",
+  "quilboar",
+  "ramtusk",
+  "razorfen",
+  "razorflank",
+  "scourge"
+ ],
+ "related": [
+  "topic:agamaggan",
+  "topic:quilboar",
+  "topic:razorfen",
+  "npc:charlga-razorflank",
+  "npc:overlord-ramtusk",
+  "quest:1101",
+  "subzone:great-lift",
+  "subzone:thalanaar"
+ ],
+ "attribution": [
+  "Razorfen Kraul (Classic)",
+  "Razorfen Kraul"
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "key": "npc:archaeologist-hollee",
+ "type": "npc",
+ "name": "Archaeologist Hollee",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Archaeologist Hollee",
+  "refs": 4
+ },
+ "summary": "Archaeologist Hollee is a dwarven researcher stationed in the coastal settlement of Auberdine. Working on behalf of dwarven excavation interests, she keeps tabs on archaeological findings and surveys throughout the ancient, fog-shrouded wilderness of Darkshore. She frequently coordinates with prospectors scouring the region for relics and geological anomalies.",
+ "sections": [
+  {
+   "title": "A Dwarven Scholar in Kaldorei Lands",
+   "body": "While Darkshore is predominantly guarded and settled by the night elves, the presence of dwarven scholars like Archaeologist Hollee reflects Ironforge's growing curiosity about Kalimdor. The League of Arathor and the Explorers' League send representatives far across the seas to uncover traces of ancient history, and Darkshore's ruins offer tempting ground for study. Hollee makes her temporary base out of Auberdine, acting as a regional contact for wandering surveyors and expedition teams.",
+   "spoiler": 0
+  },
+  {
+   "title": "Keeping Tabs on Remtravel",
+   "body": "A major part of Hollee's day-to-day work involves tracking her fellow field researchers, particularly the scatterbrained Prospector Remtravel. Entrusted with significant surveying tasks across the wild coast, Remtravel often wanders far afield without reporting back on schedule. Hollee frequently enlists travelers passing through Auberdine to track him down, recover missing survey data, and ensure that field research does not fall prey to the local wildlife or encroaching threats.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Archaeologist Hollee?",
+   "aliases": [
+    "who is hollee",
+    "hollee darkshore",
+    "dwarf in auberdine"
+   ],
+   "answer": "Archaeologist Hollee is a dwarf stationed in Auberdine in Darkshore. She conducts and oversees regional field research on behalf of dwarven archaeological efforts on the western continent."
+  },
+  {
+   "q": "Where can Hollee be found?",
+   "aliases": [
+    "hollee location",
+    "where is archaeologist hollee"
+   ],
+   "answer": "She is located in the coastal port town of Auberdine, situated on the northern coast of Darkshore."
+  },
+  {
+   "q": "Why are dwarves conducting research in Darkshore?",
+   "aliases": [
+    "why are dwarves in darkshore",
+    "ironforge in kalimdor"
+   ],
+   "answer": "Following the third war and the deepening alliance between Ironforge and the night elves, dwarven researchers have traveled to Kalimdor to study ancient relics, geological formations, and long-buried history that might shed light on their own ancestry."
+  },
+  {
+   "q": "What trouble does she need help with?",
+   "aliases": [
+    "hollee quests",
+    "absent minded prospector quest"
+   ],
+   "answer": "Hollee is primarily concerned with Prospector Remtravel, an absent-minded surveyor who wandered off into the southern reaches of Darkshore and failed to report back with his findings."
+  },
+  {
+   "q": "What is the relationship between Hollee and Prospector Remtravel?",
+   "aliases": [
+    "who is remtravel",
+    "remtravel and hollee"
+   ],
+   "answer": "They are colleagues working on the same excavation and survey efforts in Darkshore. While Remtravel does the practical fieldwork out among the ruins, Hollee coordinates reports and liaises with travelers from Auberdine."
+  },
+  {
+   "q": "Does Hollee belong to the Explorers' League?",
+   "aliases": [
+    "explorers league hollee",
+    "hollee faction"
+   ],
+   "answer": "She represents dwarven archaeological and prospecting expeditions allied with Ironforge, which are typically organized under the aegis of the Explorers' League operating out of the Eastern Kingdoms."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Seeing a compatriot so far across the sea in the misty woods of Darkshore is a reminder of Ironforge's boundless thirst for uncovering ancient history."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Hollee represents the cooperation between the Eastern Kingdoms and the night elves, utilizing Auberdine as a base to study Kalimdor's distant past."
+  }
+ ],
+ "keywords": [
+  "archaeologist hollee",
+  "auberdine",
+  "darkshore",
+  "explorers league",
+  "ironforge",
+  "prospector remtravel",
+  "the absent minded prospector",
+  "trouble in darkshore"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:729",
+  "quest:730",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Archaeologist Hollee"
+ ]
+}

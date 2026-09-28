@@ -1,0 +1,117 @@
+{
+ "key": "quest:1818",
+ "type": "quest",
+ "name": "Speak with Dillinger",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1818
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Austil de Mon",
+  "end": "Deathguard Dillinger",
+  "previous": null,
+  "next": "Ulag the Cleaver (quest)",
+  "wiki": "Speak with Dillinger",
+  "chain": []
+ },
+ "summary": "Speak with Dillinger is a Horde military directive issued in the Undercity. Austil de Mon dispatches able-bodied fighters to Deathguard Dillinger in Brill to take on a hazardous combat mission in service of Lady Sylvanas.",
+ "sections": [
+  {
+   "title": "A Summons to the Front",
+   "body": "Within the subterranean halls of the Undercity, Austil de Mon keeps a watchful eye out for promising combatants willing to serve the Dark Lady. When the Deathguards stationed on the surface require capable hands, de Mon directs unproven adventurers out of the royal capital and into the field. Deathguard Dillinger, who oversees security on the western edges of Brill, has requested someone with martial competence for an urgent task.",
+   "spoiler": 0
+  },
+  {
+   "title": "Testing the Faithful",
+   "body": "Brill sits squarely on the front line of Tirisfal Glades, where the Forsaken must constantly prove their martial dominance against hostile threats. Dillinger's post near the village graveyard puts him in prime position to manage local incursions. For the young warrior, reporting to Dillinger is more than a simple errand: it is a formal test of combat prowess and political loyalty to the newly forged Forsaken nation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this mission?",
+   "aliases": [
+    "quest giver",
+    "austil de mon",
+    "who starts speak with dillinger"
+   ],
+   "answer": "Austil de Mon, located in the Undercity, identifies potential soldiers and sends them to assist Deathguard Dillinger."
+  },
+  {
+   "q": "Where can Deathguard Dillinger be found?",
+   "aliases": [
+    "dillinger location",
+    "where is dillinger",
+    "find dillinger"
+   ],
+   "answer": "Deathguard Dillinger is stationed on the western edge of Brill in Tirisfal Glades, near the graveyard entrance."
+  },
+  {
+   "q": "What is the purpose of reporting to Dillinger?",
+   "aliases": [
+    "why speak with dillinger",
+    "dillinger purpose"
+   ],
+   "answer": "Dillinger requires an able-bodied champion for a combat mission to defend Brill and prove their allegiance to the Forsaken cause."
+  },
+  {
+   "q": "What assignment does Dillinger have prepared?",
+   "aliases": [
+    "what does dillinger want",
+    "next quest dillinger"
+   ],
+   "answer": "Once you report to Deathguard Dillinger, he tasks you with hunting down a dangerous threat known as Ulag the Cleaver."
+  },
+  {
+   "q": "Do other Horde races receive this order?",
+   "aliases": [
+    "is this undead only",
+    "can orcs do this"
+   ],
+   "answer": "Any Horde warrior who has earned the trust of Undercity officials can take the assignment, though it is primarily designed to assess recruits defending Tirisfal Glades."
+  },
+  {
+   "q": "Why is this directive given in the Undercity instead of Brill?",
+   "aliases": [
+    "why undercity start",
+    "austil de mon role"
+   ],
+   "answer": "Austil de Mon serves as an intake scout within the capital, funneling newly capable adventurers outward to frontier commanders who need immediate muscle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For newly liberated Forsaken, responding to Dillinger's call is a crucial step in proving your dedication to the Dark Lady and the defense of Tirisfal."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Deathguard commanders value sheer martial grit above all else, making this dispatch a direct test of your combat capabilities on the front line."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Answering defense calls for the Undercity cements cross-faction solidarity between Kalimdor's allies and the newly integrated Forsaken."
+  }
+ ],
+ "keywords": [
+  "austil de mon",
+  "brill",
+  "deathguard dillinger",
+  "speak with dillinger",
+  "tirisfal glades",
+  "ulag the cleaver",
+  "undercity"
+ ],
+ "related": [
+  "npc:deathguard-dillinger",
+  "npc:austil-de-mon",
+  "subzone:brill",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Speak with Dillinger"
+ ]
+}

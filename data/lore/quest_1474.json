@@ -1,0 +1,112 @@
+{
+ "key": "quest:1474",
+ "type": "quest",
+ "name": "The Binding",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1474
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Carendin Halgar",
+  "end": "",
+  "previous": "Hearts of the Pure",
+  "next": null,
+  "wiki": "The Binding (Succubus, Undercity)",
+  "chain": []
+ },
+ "summary": "The Binding is the final initiation in an Undercity warlock's journey to summon and command a succubus. Directed by Carendin Halgar, the practitioner uses pure hearts to draw a demon from the Twisting Nether into a ritual circle, subjugating its will through combat.",
+ "sections": [
+  {
+   "title": "A Test of Will",
+   "body": "Within the dark alcoves of the Magic Quarter, Forsaken warlocks refine their command over demonic entities. Summoning a succubus is considered a critical rite of passage. Unlike the brute force of a voidwalker or the minor malice of an imp, a succubus wields seductive and mental enchantments capable of ensnaring the caster. Carendin Halgar requires initiates to prove their mind and magic are ironclad before trusting them with permanent dominion over such an entity.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subjugation in the Circle",
+   "body": "Drawing upon the harvested Pure Hearts gathered from innocent souls in the wetlands and hills, the warlock unlocks an aperture into the Twisting Nether. Once summoned into the binding circle, the demon attacks instantly, seeking to overpower or entrance the caster. Only by breaking its physical form and casting its essence back into the void does the warlock assert complete mastery, earning the knowledge needed to call forth the demon at will.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do the binding",
+    "what does the binding reward",
+    "what is this quest for"
+   ],
+   "answer": "This ritual allows Forsaken warlocks to prove their mastery over higher demons. By summoning and defeating a succubus in the Magic Quarter, the warlock proves they cannot be swayed by its charms, earning the spell to summon and command one in battle."
+  },
+  {
+   "q": "Who is Carendin Halgar?",
+   "aliases": [
+    "who gives the binding",
+    "carendin halgar lore"
+   ],
+   "answer": "Carendin Halgar is a warlock trainer located in the Magic Quarter of the Undercity. He oversees the training and trials of Forsaken spellcasters, testing their mental endurance and dark arts before granting them more dangerous summoning rituals."
+  },
+  {
+   "q": "Why were pure hearts needed to summon the demon?",
+   "aliases": [
+    "why pure hearts",
+    "hearts of the pure purpose"
+   ],
+   "answer": "Demons of the succubus breed feed upon emotion, purity, and corruption. The Pure Hearts acquired in earlier tasks act as an irresistible metaphysical bait, coaxing the demon to manifest directly into the mortal realm through the summoning circle."
+  },
+  {
+   "q": "Where does the summoning take place?",
+   "aliases": [
+    "where do i summon the succubus",
+    "undercity summoning circle location"
+   ],
+   "answer": "The summoning takes place directly in the Magic Quarter of the Undercity, using the specialized ritual circle near Carendin Halgar and the warlock mentors."
+  },
+  {
+   "q": "Why does the succubus need to be slain?",
+   "aliases": [
+    "why fight the succubus",
+    "why kill summoned succubus"
+   ],
+   "answer": "Warlocks do not negotiate with their minions; they subjugate them. By shattering the demon's form in the summoning circle, the warlock bends its spirit to their dominance, ensuring it returns as a subservient thrall rather than a master."
+  },
+  {
+   "q": "Are succubi dangerous to Undercity warlocks?",
+   "aliases": [
+    "can a succubus charm undead",
+    "succubus danger"
+   ],
+   "answer": "Yes. Even though Forsaken possess considerable mental resilience against fear and sleep, Carendin Halgar explicitly warns that a succubus's charms have bound many strong minds. Carelessness during the ritual results in death or enslavement."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This rite represents a crucial step in your dark path, demonstrating your capacity to master seductive mental forces and bind cunning Nether-spawn to your will."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken practitioners view demonic subjugation pragmatically, using whatever dark tools are necessary to secure survival and dominion in Lordaeron."
+  }
+ ],
+ "keywords": [
+  "binding",
+  "carendin halgar",
+  "magic quarter",
+  "pure hearts",
+  "succubus",
+  "undercity",
+  "warlock"
+ ],
+ "related": [
+  "npc:carendin-halgar",
+  "quest:1476",
+  "subzone:magic-quarter",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "The Binding (Succubus, Undercity)"
+ ]
+}

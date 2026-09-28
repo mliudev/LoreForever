@@ -1,0 +1,90 @@
+{
+ "key": "subzone:ruins-of-aboraz",
+ "type": "subzone",
+ "name": "Ruins of Aboraz",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Ruins of Aboraz"
+ },
+ "summary": "The Ruins of Aboraz are ancient Gurubashi stone ruins nestled along the southeastern cliffs of Stranglethorn Vale. Once part of the sprawling jungle troll empire, the crumbling terraces now serve as the secluded redoubt for the renegade witch doctor Zanzil the Outcast and his mind-addled thralls.",
+ "sections": [
+  {
+   "title": "A Witch Doctor's Domain",
+   "body": "Perched on the bluffs southeast of the Ruins of Jubuwal and south of the Crystalvein Mine, the weathered masonry of Aboraz has been transformed into an alchemical testing ground. Zanzil the Outcast was banished by the local tribes and the mainlanders alike, retreating here to brew potent mind-altering concoctions and toxic elixirs. Within the stone courtyards, Zanzil exerts total control over an unsettling menagerie of servitors, including shambling undead ghouls, corrupted troll thralls, and even co-opted coastal naga.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pawns and Captives",
+   "body": "Zanzil's strange potions do not simply poison the body\u2014they shatter the will. Among the lost souls pacing the terraces is the enthralled Darkspear youth Yenniku, youngest son of the Horde chieftains, whose mind remains locked under Zanzil's sorcery. Joining him in aimless wandering is Chucky 'Ten Thumbs', a pirate debtor fleeing the collection efforts of Booty Bay's 'Sea Wolf' MacKinley, reduced by Zanzil's draughts to an oblivious guardian of the compound.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules over the Ruins of Aboraz?",
+   "aliases": [
+    "who leads aboraz",
+    "aboraz boss",
+    "who is in ruins of aboraz"
+   ],
+   "answer": "The ruins are controlled by Zanzil the Outcast, an exiled witch doctor infamous throughout Stranglethorn Vale for his dark alchemy and powerful mind-controlling brews."
+  },
+  {
+   "q": "Why are there naga and ghouls together here?",
+   "aliases": [
+    "why are naga here",
+    "aboraz ghouls",
+    "aboraz mobs"
+   ],
+   "answer": "Zanzil's unique mixtures allow him to dominate minds and animate corpses. He has bound troll outcasts, risen jungle ghouls, and ensnared coastal naga to serve as unquestioning guards for his terrace."
+  },
+  {
+   "q": "Where are the Ruins of Aboraz located?",
+   "aliases": [
+    "aboraz location",
+    "where is aboraz",
+    "how to get to ruins of aboraz"
+   ],
+   "answer": "They lie on the high bluffs in southeastern Stranglethorn Vale, south of the Crystalvein Mine and just southeast of the Ruins of Jubuwal overlooking the eastern sea."
+  },
+  {
+   "q": "Who is Yenniku and why is he here?",
+   "aliases": [
+    "yenniku location",
+    "why is yenniku here",
+    "free yenniku"
+   ],
+   "answer": "Yenniku is the youngest son of the Darkspear leader Bloodscalp adversary Nimboya. He was captured and subjected to Zanzil's sorcerous mixtures, rendering him a mindless thrall pacing the stone terraces."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For the Darkspear, Aboraz is an affront: an outcast using perverted voodoo to enslave fellow trolls and hold young Yenniku hostage in the ancestral lands of the Gurubashi."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance privateers and mercenaries frequently run into Zanzil's affairs when chasing debts or bounties tied to the goblins and pirates of Booty Bay."
+  }
+ ],
+ "keywords": [
+  "aboraz",
+  "chucky",
+  "jubuwal",
+  "stranglethorn",
+  "witch doctor",
+  "yenniku",
+  "zanzil"
+ ],
+ "related": [
+  "subzone:ruins-of-jubuwal",
+  "subzone:crystalvein-mine",
+  "zone:stranglethorn",
+  "topic:troll",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Ruins of Aboraz"
+ ]
+}

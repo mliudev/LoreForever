@@ -1,0 +1,85 @@
+{
+ "key": "subzone:north-coast",
+ "type": "subzone",
+ "name": "North Coast",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "North Coast"
+ },
+ "summary": "The North Coast is a bleak, fog-shrouded stretch of shoreline marking the northern edge of Tirisfal Glades along the Great Sea. Tainted by the fall of Lordaeron, the cold beaches are littered with rotting marine life and aggressively defended by tribes of hostile murlocs.",
+ "sections": [
+  {
+   "title": "A Blighted Shoreline",
+   "body": "Before the Third War, these northern waters and stony beaches were part of the peaceful northern boundary of Lordaeron. When the Plague of Undeath swept across the continent, its corrupting blight seeped down the bluffs and poisoned the coast. The waters turned chill and murky, washing up the carcasses of giant sea creatures that now rot upon the sand amid the perennial coastal fog.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Vile Fin Shore",
+   "body": "With the human kingdom shattered and the Forsaken focusing their attention around Brill and the Capital City, coastal murlocs claimed the desolate sands. The local Vile Fin tribe maintains huts along the surf, utilizing nearby shallows as spawning grounds. Swarms of ravenous murlocs, including notable figures like Deeb and numerous growing tadpoles, violently guard the tideline against any surface-dwellers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures inhabit the North Coast?",
+   "aliases": [
+    "north coast mobs",
+    "what lives on north coast",
+    "monsters north coast"
+   ],
+   "answer": "The beach is primarily occupied by aggressive Vile Fin murlocs, their tadpoles, and scavengers picking at the rotting sea life that washes ashore from the Great Sea."
+  },
+  {
+   "q": "Who is Deeb?",
+   "aliases": [
+    "deeb",
+    "murloc deeb",
+    "who is deeb"
+   ],
+   "answer": "Deeb is an individual murloc who can be found lingering along the North Coast among the huts and shallows of the shore."
+  },
+  {
+   "q": "Why is the coast covered in rotting carcasses?",
+   "aliases": [
+    "dead sea monsters",
+    "beached whales tirisfal",
+    "why dead creatures"
+   ],
+   "answer": "The Plague of Undeath that devastated Lordaeron seeped into the coastal ecology, poisoning the surrounding shallows and causing dead marine beasts to wash ashore to decay on the blighted sand."
+  },
+  {
+   "q": "Is the North Coast contested by any major factions?",
+   "aliases": [
+    "who owns north coast",
+    "forsaken presence north coast"
+   ],
+   "answer": "Neither the Forsaken nor any remnants of the Alliance actively garrison the North Coast. It remains a wild, untamed fringe left largely to murlocs and sea vermin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "While Forsaken patrol routes cling to the road through Brill, clearing the North Coast of encroaching murlocs ensures the northern flank of Tirisfal Glades remains relatively secure."
+  }
+ ],
+ "keywords": [
+  "beach",
+  "deeb",
+  "great sea",
+  "murloc",
+  "north coast",
+  "tirisfal glades",
+  "vile fin"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "topic:murloc",
+  "subzone:brill",
+  "topic:plague-of-undeath",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "North Coast"
+ ]
+}

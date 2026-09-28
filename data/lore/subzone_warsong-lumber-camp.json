@@ -1,0 +1,93 @@
+{
+ "key": "subzone:warsong-lumber-camp",
+ "type": "subzone",
+ "name": "Warsong Lumber Camp",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Warsong Lumber Camp"
+ },
+ "summary": "The Warsong Lumber Camp is a fortified orc logging operation deep in Ashenvale, run by the Warsong clan to harvest timber for the Horde. Anchored by the fortified Kargathia Keep, it stands as both an economic lifeline for nearby Horde settlements and an unrelenting provocation to the night elves. The constant sound of goblin-built shredders chewing through ancient boughs makes this clearing a primary flashpoint of the forest war.",
+ "sections": [
+  {
+   "title": "Heart of the Harvest",
+   "body": "Carved straight out of the dense canopy of eastern Ashenvale, the Warsong Lumber Camp is the industrial engine fueling the Horde's expansion across Kalimdor. Orc peons and hired goblin engineers strip the forest with whirring shredders, processing towering trunks into lumber to reinforce outpost walls like nearby Splintertree Post and build up the fledgling nation of Durotar. The camp is heavily fortified against constant night elf counterattacks, centering on the stockades of Kargathia Keep and an active kennel for the clan's fierce war wolves. For the Warsong, every felled tree is survival and strength; for the native Sentinels, every saw blade is an act of sacrilege.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Legacy of War",
+   "body": "The Warsong clan's presence in these woods dates back to the Third War, when Grom Hellscream first led his warriors into the sacred groves to claim wood for the Horde. That initial deforestation ignited the fury of the demigod Cenarius and brought down the ancient wrath of the night elves. Though the modern camp operates under the banners of Thrall's Horde, the old animosities burn just as fiercely. Surrounded by untamed timber, hostile elves, and the lingering demonic corruption around neighboring Felfire Hill, the camp's defenders remain armed around the clock, harvesting trees with axes in hand and ready to drop their timber to repel the next ambush.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Horde logging in Ashenvale?",
+   "aliases": [
+    "why cut trees",
+    "warsong logging reasons",
+    "why does horde need wood"
+   ],
+   "answer": "The lands settled by the Horde\u2014particularly Durotar and the Barrens\u2014are arid and sparse, lacking the dense timber required to construct buildings, palisades, and war machinery. Ashenvale offers a massive, virtually endless supply of prime wood essential for the survival and expansion of orc outposts like Splintertree Post and the capital of Orgrimmar."
+  },
+  {
+   "q": "What is Kargathia Keep?",
+   "aliases": [
+    "kargathia keep purpose",
+    "fort in lumber camp",
+    "warsong keep ashenvale"
+   ],
+   "answer": "Kargathia Keep is the fortified stronghold anchoring the Warsong Lumber Camp. It provides barracks, strategic command, and a reinforced bastion where peons and overseers can retreat and hold off night elf ambushes when Sentinels or local wildlife strike the logging perimeter."
+  },
+  {
+   "q": "Why are the night elves so hostile to this camp?",
+   "aliases": [
+    "night elf reaction",
+    "why elves attack lumber camp",
+    "sentinel attacks"
+   ],
+   "answer": "To the night elves, Ashenvale is a sacred ancestral homeland protected by nature spirits and ancients. Felling ancient trees with noisy, smoke-belching goblin machinery is considered wanton destruction and outright desecration, prompting constant guerrilla attacks to expel the Warsong orcs from the forest."
+  },
+  {
+   "q": "What role do goblins play in the camp?",
+   "aliases": [
+    "goblins at warsong camp",
+    "why are shredders here",
+    "goblin machinery ashenvale"
+   ],
+   "answer": "Goblin mercenaries and technicians provide the specialized technology driving the lumber operation, most notably steam-powered shredders. These machines allow the Warsong clan to harvest and strip massive ancient trees at speeds conventional hand axes could never achieve."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The lumber harvested here supplies the building materials for Splintertree Post and the fortifications safeguarding the Horde's future across Kalimdor."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The camp's whining shredders and falling trees represent a direct, brutal assault on the sacred balance of Ashenvale that the Sentinels have vowed to extinguish."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "kargathia keep",
+  "shredders",
+  "splintertree post",
+  "timber",
+  "warsong clan",
+  "warsong lumber camp"
+ ],
+ "related": [
+  "topic:warsong-clan",
+  "zone:ashenvale",
+  "subzone:splintertree-post",
+  "subzone:kargathia-keep",
+  "subzone:felfire-hill",
+  "topic:goblin",
+  "topic:horde",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Warsong Lumber Camp"
+ ]
+}

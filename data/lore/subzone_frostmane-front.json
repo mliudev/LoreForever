@@ -1,0 +1,74 @@
+{
+ "key": "subzone:frostmane-front",
+ "type": "subzone",
+ "name": "Frostmane Front",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Frostmane Front"
+ },
+ "summary": "The Frostmane Front is an active battlefield in Dun Morogh located just west of Frostmane Retreat. Here, dwarven riflemen, mortar teams, and siege engines clash directly with the Frostmane ice trolls to prevent them from encroaching further into dwarven territory.",
+ "sections": [
+  {
+   "title": "A Bitter Skirmish",
+   "body": "Situated just outside the craggy caves of the Frostmane Retreat, the Frostmane Front marks the direct clash between Ironforge's military and the indigenous ice trolls of Dun Morogh. Heavy dwarven machinery, including siege engines and mortar teams, supports defensive rifle lines aiming to push the trolls back into the mountains. In the frozen mud between the lines, wrecked steam tanks and ballistae stand as stark evidence of the trolls' ferocious resistance, with Frostmane scavengers looting the dwarven metalwork whenever the firing ceases.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is happening at the Frostmane Front?",
+   "aliases": [
+    "what is frostmane front",
+    "dwarves fighting trolls dun morogh",
+    "frostmane front battle"
+   ],
+   "answer": "The Frostmane Front is an active combat zone where Ironforge mountaineers, mortar teams, and siege vehicles are engaged in a standoff against the Frostmane ice trolls. The dwarves are fighting to keep the trolls contained and prevent them from seizing more surrounding land."
+  },
+  {
+   "q": "Why are there broken siege engines and steam tanks lying around?",
+   "aliases": [
+    "broken tanks frostmane",
+    "scavenged dwarven tanks",
+    "wrecked ballistae dun morogh"
+   ],
+   "answer": "The Frostmane trolls fight ferociously to defend their territory and frequently ambush dwarven war machines. The broken steam tanks and shattered ballistae littering the snow are remnants of past clashes, often scavenged by the trolls for useful parts and scrap metal."
+  },
+  {
+   "q": "Where does this fight connect into the rest of Dun Morogh?",
+   "aliases": [
+    "where is frostmane front",
+    "frostmane front location"
+   ],
+   "answer": "The front lies immediately west of the Frostmane Retreat, directly buffering the trolls' stronghold in the snowy hills from the dwarf-controlled settlements and roads of Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Ironforge, the Frostmane Front is a crucial defensive line keeping violent ice troll incursions from spilling into the heart of Dun Morogh."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The snowfield is scattered with the remnants of advanced dwarven engineering, including deployed siege engines, mortar ordnance, and stripped steam tanks."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "frostmane",
+  "frostmane front",
+  "ice trolls",
+  "ironforge",
+  "mortar team",
+  "siege engines",
+  "steam tanks"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "subzone:frostmane-retreat",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Frostmane Front"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "key": "quest:1205",
+ "type": "quest",
+ "name": "Deadmire",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1205
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Melor Stonehoof",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Deadmire (quest)",
+  "chain": []
+ },
+ "summary": "Deadmire is a hunting rite offered by the tauren hunter Melor Stonehoof on Hunter Rise in Thunder Bluff. The task sends hunters east into Dustwallow Marsh to track and slay an ancient, suffering crocolisk named Deadmire, bringing back its tooth as proof. It serves as an exercise in both challenging tracking and the hunter's duty of mercy.",
+ "sections": [
+  {
+   "title": "A Hunt of Mercy",
+   "body": "On Hunter Rise in Thunder Bluff, Melor Stonehoof instructs promising trackers in the deeper spiritual traditions of the hunt. Unlike thoughtless slaughter or trophy gathering, tauren hunting philosophy teaches reverence and connection with the natural world. Melor tasks hunters with journeying far eastward to the murky wetlands of Dustwallow Marsh to seek out Deadmire, an ancient crocolisk of immense scale whose prolonged life has turned into an agonizing burden.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ancient of the Marsh",
+   "body": "Deadmire is no ordinary beast; he is a massive, pale crocolisk who prowls the waterways north of the Stonemaul Ruins. While his youthful fury and physical power linger in sudden bursts, his aging frame is worn down by grinding bones and unrelenting pain. Melor charges hunters to grant the creature an honorable, swift end, putting its spirit to rest and claiming a single tooth as a token of the beast's release.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Deadmire?",
+   "aliases": [
+    "what is deadmire",
+    "deadmire lore",
+    "who is the crocolisk"
+   ],
+   "answer": "Deadmire is a massive, ancient white crocolisk living in the swamps of Dustwallow Marsh. Though still dangerously powerful, he suffers from excruciating physical agony due to his failing, aged body."
+  },
+  {
+   "q": "Why does Melor Stonehoof want Deadmire killed?",
+   "aliases": [
+    "why kill deadmire",
+    "melor stonehoof motive",
+    "purpose of deadmire hunt"
+   ],
+   "answer": "Melor views the hunt as an act of mercy rather than conquest. Deadmire's aging bones cause him maddening pain, and the tauren hunter believes it is a sacred duty to release the noble beast's spirit and grant him peace."
+  },
+  {
+   "q": "Where can Deadmire be found?",
+   "aliases": [
+    "where is deadmire",
+    "deadmire location",
+    "finding deadmire"
+   ],
+   "answer": "Deadmire haunts the murky waters and islands of Dustwallow Marsh, typically found wandering the riverways just north of the Stonemaul Ruins."
+  },
+  {
+   "q": "What proof does Melor require from the hunt?",
+   "aliases": [
+    "deadmire quest item",
+    "what does melor want",
+    "deadmire proof"
+   ],
+   "answer": "Melor asks you to bring back Deadmire's Tooth as proof that the mighty creature's suffering has finally been brought to an end."
+  },
+  {
+   "q": "What does this hunt teach aspiring hunters?",
+   "aliases": [
+    "hunter philosophy",
+    "tauren hunting lesson",
+    "meaning of the hunt"
+   ],
+   "answer": "The hunt teaches that the way of the hunter is not mindless killing, but spiritual communion with nature. Part of that calling involves recognizing when a creature's life has turned to suffering and delivering a merciful, honorable death."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "deadmire quest giver",
+    "who starts deadmire",
+    "melor stonehoof location"
+   ],
+   "answer": "The quest is offered by Melor Stonehoof, a hunter trainer found on Hunter Rise overlooking the city of Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For hunters, tracking Deadmire embodies the balance between martial prowess and spiritual responsibility, emphasizing that an honorable kill can be an act of grace."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The hunt reflects core tauren values of harmony with the Earth Mother's creatures, teaching that a true hunter honors the prey and respects the natural cycles of life and death."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Undertaking hunts for the elders of Thunder Bluff helps bind Horde travelers to the land and the spiritual traditions of their tauren allies."
+  }
+ ],
+ "keywords": [
+  "crocolisk",
+  "deadmire",
+  "dustwallow marsh",
+  "hunter rise",
+  "melor stonehoof",
+  "stonemaul ruins",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:melor-stonehoof",
+  "zone:thunderbluff",
+  "zone:dustwallow",
+  "subzone:stonemaul-ruins"
+ ],
+ "attribution": [
+  "Deadmire (quest)"
+ ]
+}

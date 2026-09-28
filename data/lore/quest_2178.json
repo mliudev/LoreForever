@@ -1,0 +1,119 @@
+{
+ "key": "quest:2178",
+ "type": "quest",
+ "name": "Easy Strider Living",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   2178
+  ],
+  "level": "12",
+  "faction": "Alliance",
+  "start": "Alanndarian Nightsong",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Easy Strider Living",
+  "chain": []
+ },
+ "summary": "Easy Strider Living is a local culinary task offered by Alanndarian Nightsong in Auberdine. She is eager to share her prized recipe for strider stew, provided an adventurer is willing to hunt down the fierce foreststriders wandering Darkshore and retrieve their meat.",
+ "sections": [
+  {
+   "title": "A Taste of the Wild",
+   "body": "Auberdine might be a quiet port village, but survival along the coast requires making good use of the local wildlife. Alanndarian Nightsong has developed a secret recipe for hearty strider stew, a savory dish made from the tall, fleet-footed foreststriders that stalk the shadowy woods of Darkshore. Rather than simply handing out culinary secrets, she asks aspiring cooks and hunters to venture out and cull the birds themselves.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hunting the Foreststriders",
+   "body": "Foreststriders are swift, sharp-beaked avian predators that roam the mist-shrouded woodlands and beaches north and south of Auberdine. While they can be temperamental and aggressive when provoked, their succulent meat makes an excellent base for a rich stew. Bringing back fresh meat satisfies Alanndarian's hungry pot and earns the hunter her cherished recipe.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Alanndarian Nightsong?",
+   "aliases": [
+    "alanndarian",
+    "who is alanndarian nightsong",
+    "stew cook auberdine"
+   ],
+   "answer": "Alanndarian Nightsong is a night elf resident of Auberdine in Darkshore. Known for her simmering pot of strider stew, she offers to teach her culinary craft to travelers who prove their hunting prowess."
+  },
+  {
+   "q": "Where do I find the strider meat?",
+   "aliases": [
+    "strider meat location",
+    "where are foreststriders",
+    "how to get strider meat"
+   ],
+   "answer": "Strider meat is obtained by hunting foreststriders throughout Darkshore. These large, flightless birds roam both the sandy shorelines and the forested groves outside Auberdine."
+  },
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do easy strider living",
+    "quest purpose",
+    "easy strider living objective"
+   ],
+   "answer": "The quest tasks you with hunting down foreststriders to bring back five cuts of meat for Alanndarian Nightsong, in exchange for learning how to prepare Strider Stew."
+  },
+  {
+   "q": "Are the foreststriders dangerous to hunt?",
+   "aliases": [
+    "are striders hard to kill",
+    "foreststrider danger"
+   ],
+   "answer": "Foreststriders are territorial birds armed with sharp beaks and swift legs, making them aggressive when approached. However, a reasonably equipped adventurer can hunt them down without much peril."
+  },
+  {
+   "q": "Does this quest unlock a cooking recipe?",
+   "aliases": [
+    "do i get recipe",
+    "strider stew recipe",
+    "cooking reward"
+   ],
+   "answer": "Yes. Upon bringing Alanndarian her requested meat, she shares her culinary secrets, teaching adventurers the recipe for Strider Stew."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "quest zone",
+    "where is easy strider living"
+   ],
+   "answer": "The quest begins and ends in the settlement of Auberdine, with the hunting taking place in the wilderness of Darkshore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "This task is essential for culinarians traveling through Darkshore, rewarding the recipe to prepare nourishing Strider Stew from local wildlife."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Living harmoniously in Kalimdor often involves living off the land, and hearty strider stews have become a coastal staple for night elves in Auberdine."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Foreststriders are both swift game and potential animal companions, offering tracking and hunting practice along Darkshore's mist-laden paths."
+  }
+ ],
+ "keywords": [
+  "alanndarian nightsong",
+  "auberdine",
+  "cooking",
+  "darkshore",
+  "easy strider living",
+  "foreststrider",
+  "strider meat",
+  "strider stew"
+ ],
+ "related": [
+  "npc:alanndarian-nightsong",
+  "subzone:auberdine",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Easy Strider Living"
+ ]
+}

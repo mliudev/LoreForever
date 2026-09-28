@@ -1,0 +1,86 @@
+{
+ "key": "npc:gnoarn",
+ "type": "npc",
+ "name": "Gnoarn",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Gnoarn",
+  "refs": 2
+ },
+ "summary": "Gnoarn is an exiled gnome residing in Tinker Town within the dwarven mountain city of Ironforge. Displaced following the devastating fall of Gnomeregan, he assists his scattered people by directing adventurers to assist fellow gnomish engineers and survivors.",
+ "sections": [
+  {
+   "title": "A Displaced Citizen of Gnomeregan",
+   "body": "Like the majority of his brethren, Gnoarn was forced to flee the depths of Gnomeregan when troggs invaded and catastrophic radiation rendered the great subterranean metropolis uninhabitable. Taking refuge in Ironforge's Tinker Town under the hospitality of the Bronzebeard dwarves, Gnoarn spends his days keeping track of other survivors. He serves as an informal coordinator among the refugees, pointing capable travelers toward gnomes abroad who urgently require assistance, such as the stranded pilot Bingles Blastenheimer in Loch Modan or the ambitious engineer Shoni the Shilent in Stormwind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gnoarn?",
+   "aliases": [
+    "who is this gnome",
+    "gnoarn lore",
+    "gnoarn npc"
+   ],
+   "answer": "Gnoarn is a gnomish survivor living among the refugee population in Tinker Town, the gnomish quarter of Ironforge. He directs travelers to aid fellow exiled gnomes working on various projects across Alliance lands."
+  },
+  {
+   "q": "Where can Gnoarn be found?",
+   "aliases": [
+    "gnoarn location",
+    "where is gnoarn",
+    "find gnoarn"
+   ],
+   "answer": "He can be found in Tinker Town, located in the northeastern section of Ironforge, surrounded by the whirring machinery, gears, and workbenches of his exiled kin."
+  },
+  {
+   "q": "What tasks does Gnoarn give out?",
+   "aliases": [
+    "gnoarn quests",
+    "what does gnoarn want"
+   ],
+   "answer": "Gnoarn directs adventurers to assist other scattered gnomes. Notably, he sends adventurers to Loch Modan to check on the missing pilot Bingles Blastenheimer, and dispatches travelers to Stormwind to speak with the inventor Shoni the Shilent regarding her gyrocopter schematics."
+  },
+  {
+   "q": "What happened to Gnoarn's hair?",
+   "aliases": [
+    "gnoarn gnomefro",
+    "gnoarn hair"
+   ],
+   "answer": "Before the fall of Gnomeregan, Gnoarn was known for sporting an eccentric 'gnomefro' hairstyle. Tragically, he lost his distinctive coiffure following the catastrophic fallout and radioactive venting that devastated his home city."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For fellow gnomes, Gnoarn embodies the resilience of the refugee community in Tinker Town, ensuring displaced engineers maintain communication across the Eastern Kingdoms."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance heroes passing through Ironforge can speak with Gnoarn to find leads on critical gnomish engineering efforts underway across Dun Morogh, Loch Modan, and Stormwind."
+  }
+ ],
+ "keywords": [
+  "bingles",
+  "gnoarn",
+  "gnomefro",
+  "gnomeregan",
+  "ironforge",
+  "shoni the shilent",
+  "tinker town"
+ ],
+ "related": [
+  "subzone:tinker-town",
+  "zone:ironforge",
+  "zone:gnomeregan",
+  "topic:gnome",
+  "quest:2039",
+  "quest:2041",
+  "quest:2927"
+ ],
+ "attribution": [
+  "Gnoarn"
+ ]
+}

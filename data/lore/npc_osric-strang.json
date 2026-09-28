@@ -1,0 +1,76 @@
+{
+ "key": "npc:osric-strang",
+ "type": "npc",
+ "name": "Osric Strang",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Osric Strang",
+  "refs": 2
+ },
+ "summary": "Osric Strang is a veteran armor merchant who operates Limited Immunity, a shop situated in Stormwind's Old Town. Specializing in heavy mail and plate, he supplies sturdy gear and shields to Alliance defenders and weary travelers passing through the capital.",
+ "sections": [
+  {
+   "title": "Shopkeeper of Limited Immunity",
+   "body": "Tucked away in the weathered streets of Old Town, Osric Strang manages Limited Immunity, a shop catering to frontline fighters in need of heavy armor and shields. Osric has a history of guard service in Stormwind, giving him a practical eye for the protective value of mail and plate. While his wares are suited for standard soldiers and traveling adventurers, he often assists incoming couriers who need a point of contact when arriving in the capital from nearby settlements like Redridge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Osric Strang sell?",
+   "aliases": [
+    "osric items",
+    "what does osric strang have",
+    "limited immunity goods"
+   ],
+   "answer": "Osric sells various pieces of heavy protective armor, ranging from augmented chain and polished scale to solid platemail suits, bucklers, and heater shields."
+  },
+  {
+   "q": "Where can I find Osric Strang?",
+   "aliases": [
+    "osric location",
+    "where is osric strang",
+    "limited immunity location"
+   ],
+   "answer": "He can be found inside Limited Immunity, an armor shop in Old Town near the southern district of Stormwind."
+  },
+  {
+   "q": "Why am I sent to Osric Strang on a quest?",
+   "aliases": [
+    "why talk to osric",
+    "osric strang quest",
+    "delivery to osric"
+   ],
+   "answer": "Couriers delivering goods across the kingdom, such as shipments arriving via gryphon master from Redridge, are often directed to Osric's shop in Old Town to complete deliveries and receive return messages."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Osric Strang offers reliable sets of chain, scale, plate, and shields, serving as an early source of dependable bulk protection for warriors visiting Old Town."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "A loyal resident and former city guard, Osric equips the kingdom's defenders and aids couriers maintaining supply links between Stormwind and outlying settlements."
+  }
+ ],
+ "keywords": [
+  "dungar longdrink",
+  "heavy armor",
+  "limited immunity",
+  "old town",
+  "osric strang",
+  "shields",
+  "stormwind vendor"
+ ],
+ "related": [
+  "subzone:old-town",
+  "quest:6281",
+  "quest:6261",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Osric Strang"
+ ]
+}

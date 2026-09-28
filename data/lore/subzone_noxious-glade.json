@@ -1,0 +1,89 @@
+{
+ "key": "subzone:noxious-glade",
+ "type": "subzone",
+ "name": "Noxious Glade",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Noxious Glade"
+ },
+ "summary": "Tucked away in the hills just north of Light's Hope Chapel, the Noxious Glade is a secluded basin steeped in concentrated plague. Choked with toxic green air and darkened soil, it functions as a nearby redoubt for Scourge operations right under the Argent Dawn's nose.",
+ "sections": [
+  {
+   "title": "A Foul Foothold",
+   "body": "While the Argent Dawn maintains its vigil at Light's Hope Chapel, an encampment of the Scourge lurks directly in the hills above them to the north. The Noxious Glade suffers from an infection far more severe than much of the surrounding terrain: the air hangs thick with a sickly green mist, and the soil has rotted into deep bruised purples. Within the hollow, the undead have erected ziggurats, a slaughterhouse for cobbling together abominations, and a plague cauldron that continuously spews pestilence into the atmosphere.",
+   "spoiler": 0
+  },
+  {
+   "title": "Under the Dawn's Gaze",
+   "body": "Because of its close proximity to the chapel, the glade poses a persistent threat to travelers, couriers, and holy warriors working out of Light's Hope. The Scourge forces entrenched here construct foul monstrosities and brew toxins undisturbed by the sunlight, kept hidden by the surrounding natural ridge until an unwary traveler climbs the path directly into their midst.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Noxious Glade located?",
+   "aliases": [
+    "where is noxious glade",
+    "noxious glade location",
+    "how to get to noxious glade"
+   ],
+   "answer": "The Noxious Glade lies tucked in the hills immediately north of Light's Hope Chapel in the eastern reaches of the Eastern Plaguelands."
+  },
+  {
+   "q": "Why is the air and ground a different color here?",
+   "aliases": [
+    "why is it green",
+    "why is ground purple",
+    "noxious glade blight"
+   ],
+   "answer": "The glade is heavily blighted even compared to the rest of the Plaguelands. A functioning plague cauldron and nearby Scourge structures pump unceasing toxins into the hollow, dyeing the earth dark purple and shrouding the clearing in a poisonous green haze."
+  },
+  {
+   "q": "What Scourge structures are in the glade?",
+   "aliases": [
+    "what is inside noxious glade",
+    "noxious glade buildings"
+   ],
+   "answer": "The clearing features classic Scourge architecture, including a towering plague cauldron, several ziggurats, and a slaughterhouse used to assemble monstrous constructs like abominations."
+  },
+  {
+   "q": "Does the Argent Dawn know about this place?",
+   "aliases": [
+    "lights hope chapel aware",
+    "argent dawn noxious glade"
+   ],
+   "answer": "Yes, but with their resources constantly stretched thin defending against massed Scourge onslaughts across the Plaguelands, outposts like the Noxious Glade remain dangerous festering pockets just over the chapel's perimeter."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The glade serves as an alarming reminder of how close Scourge blight creeps to the holy sanctuary of Light's Hope Chapel, offering plenty of undead abominations and necromancers to purge."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken champions will recognize the slaughterhouses and plague cauldrons here as typical tools of the Lich King's grip, starkly demonstrating the fate awaiting those who do not break free."
+  }
+ ],
+ "keywords": [
+  "blight",
+  "eastern plaguelands",
+  "light's hope chapel",
+  "noxious glade",
+  "plague cauldron",
+  "scourge",
+  "slaughterhouse",
+  "ziggurat"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "subzone:light-s-hope-chapel",
+  "subzone:cauldron",
+  "topic:scourge",
+  "topic:light"
+ ],
+ "attribution": [
+  "Noxious Glade"
+ ]
+}

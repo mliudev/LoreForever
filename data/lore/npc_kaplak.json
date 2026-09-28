@@ -1,0 +1,77 @@
+{
+ "key": "npc:kaplak",
+ "type": "npc",
+ "name": "Kaplak",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Kaplak",
+  "refs": 2
+ },
+ "summary": "Kaplak is an orc rogue trainer stationed in Razor Hill in central Durotar. He instructs young orcs and trolls in the arts of stealth, subterfuge, and bladecraft, preparing them for service to the Horde before dispatching them into Orgrimmar.",
+ "sections": [
+  {
+   "title": "A Mentor in the Shadows",
+   "body": "Tucked away in the settlement of Razor Hill, Kaplak serves as a foundational instructor for fledgling Horde rogues emerging from the Valley of Trials. Where traditional orc culture glorifies open combat and roaring charges, Kaplak teaches the colder, quieter disciplines necessary for survival: stalking unseen, picking locks, and striking lethal blows from behind. Once his students outgrow his tutelage in the dusty red ravines of Durotar, he directs them north to the capital of Orgrimmar to deepen their craft among senior guild operatives.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kaplak?",
+   "aliases": [
+    "who is kaplak",
+    "kaplak lore",
+    "kaplak razor hill"
+   ],
+   "answer": "Kaplak is an orc rogue trainer stationed in Razor Hill within Durotar. He trains novice orc and troll rogues who have left the Valley of Trials, teaching them early rogue skills before sending them along to higher trainers in Orgrimmar."
+  },
+  {
+   "q": "Where can Kaplak be found?",
+   "aliases": [
+    "where is kaplak",
+    "kaplak location",
+    "find kaplak"
+   ],
+   "answer": "Kaplak can be found in Razor Hill, the central settlement of Durotar, typically resting in or around the local barracks area alongside other class trainers."
+  },
+  {
+   "q": "What quests does Kaplak offer?",
+   "aliases": [
+    "kaplak quests",
+    "quests from kaplak"
+   ],
+   "answer": "Kaplak assists rogue adventurers as they progress, directing them toward advanced trainers and assignments such as sending them to seek out Therzok in Orgrimmar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "For young orc and troll rogues departing the Valley of Trials, Kaplak provides early professional training and directs them to the covert networks operating in Orgrimmar."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Kaplak quietly ensures that the Horde maintains skilled scouts, spies, and assassins capable of safeguarding Durotar and operating beyond standard battle lines."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "kaplak",
+  "orc",
+  "orgrimmar",
+  "razor hill",
+  "rogue trainer",
+  "stealth",
+  "therzok"
+ ],
+ "related": [
+  "subzone:razor-hill",
+  "zone:durotar",
+  "quest:1859",
+  "quest:2380",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Kaplak"
+ ]
+}

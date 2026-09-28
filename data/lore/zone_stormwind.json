@@ -1,0 +1,154 @@
+{
+ "key": "zone:stormwind",
+ "type": "city",
+ "name": "Stormwind City",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": [
+   "Stormwind City"
+  ],
+  "levels": "",
+  "aliases": [
+   "Stormwind"
+  ]
+ },
+ "summary": "Stormwind City is the bustling capital of the Kingdom of Stormwind and the premier human bastion in the world following the fall of Lordaeron. Rebuilt from ashes by the Stonemasons Guild after its destruction in the First War, its magnificent white stone districts now house the heart of the Grand Alliance. Beneath its majestic canals and cathedrals, however, the city grapples with the sudden disappearance of King Varian Wrynn and brewing political intrigue.",
+ "sections": [
+  {
+   "title": "Rise from the Ashes",
+   "body": "Founded over a millennium ago by the descendants of the Arathi, Stormwind stood for generations as a flourishing, self-sufficient realm. That golden era ended when the Orcish Horde poured through the Dark Portal, laying waste to the southern continent and razing the capital to the ground in the First War. Survivors led by Sir Anduin Lothar fled north across the Great Sea to Lordaeron. Following the Horde's defeat in the Second War, King Terenas Menethil II and the Alliance funded a complete reconstruction. The Stonemasons Guild painstakingly rebuilt the capital into New Stormwind\u2014a gleaming citadel of polished white stone and canal-laced boroughs.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Divided Court",
+   "body": "Despite its outward majesty, the capital is locked in domestic turmoil. A dispute between the House of Nobles and the Stonemasons Guild over wages left the kingdom paralyzed by debt. The ensuing rioting claimed the life of Queen Tiffin Wrynn and drove the exiled artisans into criminality as the Defias Brotherhood. Now, King Varian Wrynn has mysteriously vanished en route to a diplomatic summit. To avert panic, the crown was placed upon his young son, ten-year-old Prince Anduin Wrynn, with Highlord Bolvar Fordragon ruling as Regent and military commander alongside royal advisor Lady Katrana Prestor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Heart of the Grand Alliance",
+   "body": "With Lordaeron overrun by the Scourge, Stormwind has inherited the mantle of humanity's greatest haven and the epicenter of the Alliance. It connects directly to the dwarven kingdom of Ironforge via High Tinker Mekkatorque's subterranean Deeprun Tram. Visitors crossing the Valley of Heroes are greeted by towering statues of the Sons of Lothar who vanished beyond the Dark Portal. From the spiritual beacon of the Cathedral of Light to the arcane studies within the Wizard's Sanctum, Stormwind stands as the supreme hub of trade, culture, and defense across the southern seas.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows in the Keep",
+   "body": "The discord plaguing the kingdom is no mere administrative accident. Lady Katrana Prestor has covertly guided the decisions of the House of Nobles, inflaming hostility with the stonemasons and willfully neglecting appeals for military relief from outlying settlements like Westfall and Redridge. By whispering poison into the ears of Highlord Bolvar and dividing the realm's attention, she works to keep Stormwind\u2019s legions idle and divided while unrest festering beyond the city walls threatens the throne itself.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules Stormwind right now?",
+   "aliases": [
+    "current king",
+    "who is the king",
+    "who leads stormwind",
+    "king of stormwind"
+   ],
+   "answer": "Ten-year-old Prince Anduin Wrynn holds the crown, but actual governance is handled by Highlord Bolvar Fordragon, who acts as Regent of Stormwind and supreme commander of its military. Bolvar relies heavily on the counsel of royal advisor Lady Katrana Prestor while King Varian Wrynn remains missing."
+  },
+  {
+   "q": "What happened to King Varian Wrynn?",
+   "aliases": [
+    "where is varian",
+    "missing king",
+    "varian gone",
+    "varian wrynn missing"
+   ],
+   "answer": "King Varian vanished under suspicious circumstances while traveling by ship to a diplomatic summit in Theramore. His disappearance was kept quiet to maintain stability, though rumors run rampant through the streets and countryside."
+  },
+  {
+   "q": "Why was the city rebuilt, and by whom?",
+   "aliases": [
+    "who rebuilt stormwind",
+    "stonemasons guild",
+    "new stormwind",
+    "city rebuilding"
+   ],
+   "answer": "The original city was burned to the ground by the Orcish Horde during the First War. After the Second War, the Stonemasons Guild, led by master craftsman Edwin VanCleef, painstakingly rebuilt the capital out of gleaming white stone with financial backing from the Alliance of Lordaeron."
+  },
+  {
+   "q": "Why did the stonemasons rebel against the crown?",
+   "aliases": [
+    "defias origin",
+    "why defias mad",
+    "stonemasons riot",
+    "queen tiffin death"
+   ],
+   "answer": "The House of Nobles amassed heavy debts expanding Stormwind's military and refused to pay the Stonemasons Guild their promised wages. When Edwin VanCleef demanded restitution, the nobles disbanded the guild. The workers rioted, Queen Tiffin Wrynn was killed by a thrown rock, and the exiled stonemasons formed the Defias Brotherhood."
+  },
+  {
+   "q": "Who are the giant statues in the Valley of Heroes?",
+   "aliases": [
+    "statues at the entrance",
+    "valley of heroes statues",
+    "sons of lothar statues"
+   ],
+   "answer": "The statues honor the Sons of Lothar: General Turalyon, Ranger Captain Alleria Windrunner, Archmage Khadgar, Kurdran Wildhammer, and Danath Trollbane. They were raised to commemorate the heroes who ventured through the Dark Portal to draenor to seal the rift and protect Azeroth."
+  },
+  {
+   "q": "How does Stormwind connect to Ironforge?",
+   "aliases": [
+    "deeprun tram",
+    "train to ironforge",
+    "how to get to ironforge"
+   ],
+   "answer": "Stormwind is connected to Ironforge by the Deeprun Tram, a subterranean railway built by High Tinker Gelbin Mekkatorque and commissioned by King Magni Bronzebeard to enable swift trade and rapid military reinforcement between both capitals."
+  },
+  {
+   "q": "Why isn't Stormwind sending troops to help Westfall and Redridge?",
+   "aliases": [
+    "stormwind army missing",
+    "why no help for westfall",
+    "reinforcements refused"
+   ],
+   "answer": "The royal court, heavily advised by Lady Katrana Prestor, insists the city cannot spare troops from its own walls and immediate borders. With the kingdom's finances stressed and political infighting paralyzing the House of Nobles, regional towns have been abandoned to rely on local militias."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Stormwind stands as your people's last great seat of sovereign power following the destruction of Lordaeron, Alterac, and Dalaran in the north."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "As the most populous metropolis within the Grand Alliance, Stormwind provides naval might, spiritual grounding, and vital diplomatic leadership."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The Cathedral of Light serves as the supreme sanctuary of your faith in the south, training knights of the Silver Hand and upholding justice."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Beneath the pristine stone streets lies the SI:7 headquarters in Old Town, operating the Alliance's primary intelligence and espionage network."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Through the Deeprun Tram, your kin in the Dwarven District maintain deep commercial ties and forge brotherly military bonds with the human kingdom."
+  }
+ ],
+ "keywords": [
+  "anduin",
+  "bolvar",
+  "cathedral",
+  "deeprun",
+  "prestor",
+  "stonemasons",
+  "stormwind",
+  "vancleef",
+  "wrynn"
+ ],
+ "related": [
+  "topic:stormwind-kingdom",
+  "subzone:stormwind-keep",
+  "subzone:valley-of-heroes",
+  "subzone:cathedral-of-light",
+  "subzone:deeprun-tram",
+  "topic:bolvar-fordragon",
+  "topic:anduin-wrynn",
+  "topic:defias-brotherhood"
+ ],
+ "attribution": [
+  "Stormwind City"
+ ]
+}

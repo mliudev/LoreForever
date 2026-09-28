@@ -1,0 +1,137 @@
+{
+ "key": "quest:6561",
+ "type": "quest",
+ "name": "Blackfathom Villainy",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "ids": [
+   6561
+  ],
+  "level": "27",
+  "faction": "Horde",
+  "start": "Argent Guard Thaelrid",
+  "end": "Bashana Runetotem",
+  "previous": null,
+  "next": null,
+  "wiki": "Blackfathom Villainy (Horde)",
+  "chain": []
+ },
+ "summary": "Blackfathom Villainy is an urgent plea delivered by a dying Argent Dawn crusader trapped inside Blackfathom Deeps. Horde adventurers are charged with putting an end to Twilight Lord Kelris, the cult leader orchestrating horrific blood sacrifices to an ancient monstrosity in the ruins below.",
+ "sections": [
+  {
+   "title": "A Desperate Last Stand",
+   "body": "Drawn to the subterranean temple along the Ashenvale coast, the Argent Dawn scout Thaelrid discovered horrors far worse than simple naga incursions. Wounded and stripped of strength within the caverns, the paladin realizes he cannot finish his mission alone. Rather than letting his reconnaissance die with him, he turns to any passing Horde champions willing to strike at the dark leadership presiding over the sunken halls.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sacrifices to the Deep",
+   "body": "The target of the task is Twilight Lord Kelris, the head of the Twilight's Hammer cultists who have entrenched themselves within the ruined Temple of the Moon. Allied with the local naga, Kelris conducts dark rituals over the defiled Moon Well, feeding living captives to Aku'mai\u2014a ravenous hydra and beast of the Old Gods\u2014in a mad pursuit of cosmic power and primordial chaos.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word to Thunder Bluff",
+   "body": "Kelris was once thought dead or lost by the Argent Dawn, making confirmation of his demise vital. Rather than forcing heroes back into human lands, Thaelrid directs proof of the cult leader's death to Bashana Runetotem on the Hunter Rise in Thunder Bluff. Bashana, deeply attuned to the natural balance of the Earthmother, honors the victory for extinguishing a foul corruption bent on dragging Kalimdor into primeval ruin.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Twilight Lord Kelris?",
+   "aliases": [
+    "kelris",
+    "who is kelris",
+    "twilight lord kelris"
+   ],
+   "answer": "Kelris is the leader of the Twilight's Hammer cultists occupying Blackfathom Deeps. Believed by the Argent Dawn to have been dead or missing, he has instead been secretly gathering power by offering living sacrifices to the ancient hydra Aku'mai in the corrupted Moon Well."
+  },
+  {
+   "q": "Why is an Argent Dawn member inside Blackfathom Deeps?",
+   "aliases": [
+    "argent guard thaelrid",
+    "why is thaelrid here",
+    "argent dawn in bfd"
+   ],
+   "answer": "Argent Guard Thaelrid came to investigate the growing threat within the ruined night elf temple. Overwhelmed and mortally weakened by the denizens within, he remains trapped and must rely on visiting adventurers to finish his duty and eliminate Kelris."
+  },
+  {
+   "q": "What is Aku'mai?",
+   "aliases": [
+    "akumai",
+    "who is akumai",
+    "aku'mai lore"
+   ],
+   "answer": "Aku'mai is a monstrous, ancient multi-headed hydra considered a primordial servant of the Old Gods. Slumbering beneath the sunken ruins, it awoke when deep subterranean corruption tainted the temple's sacred waters, and it now devours captives delivered by the Twilight's Hammer."
+  },
+  {
+   "q": "Why turn the quest in to Bashana Runetotem?",
+   "aliases": [
+    "bashana runetotem",
+    "why thunder bluff",
+    "where to turn in blackfathom villainy"
+   ],
+   "answer": "Thaelrid directs Horde champions to Bashana Runetotem on the Hunter Rise in Thunder Bluff. As a steward of the Earthmother's balance, Bashana maintains communication with defenders against ancient evil and recognizes Kelris's Old God worship as an abhorrent blight upon Kalimdor."
+  },
+  {
+   "q": "What happened to the ruins of Blackfathom Deeps?",
+   "aliases": [
+    "history of blackfathom deeps",
+    "temple of elune ruins",
+    "why is bfd corrupted"
+   ],
+   "answer": "Long ago, the subterranean complex was a sacred temple dedicated to the moon goddess Elune. Cataclysmic upheaval and ancient dark seepages from the earth tainted the grand Moon Well, allowing naga and doomsday cultists to claim the sunken sanctuaries for their dark master Aku'mai."
+  },
+  {
+   "q": "What is the goal of the Twilight's Hammer cult here?",
+   "aliases": [
+    "twilight's hammer motives",
+    "why cult in bfd",
+    "kelris goals"
+   ],
+   "answer": "The Twilight's Hammer seeks to revert the world to an age of primordial chaos by worshipping the Old Gods. Kelris seeks personal power through dark communion, feeding innocents into the depths to earn the favor of ancient entities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, entering into this pact with an Argent Dawn scout represents an uncommon moment of mutual interest against a cosmic blight, earning the early favor of the Dawn."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Bashana Runetotem sees the defeat of Kelris as a vital defense of the Earthmother, purging an abomination that sought to throw the world's natural order into primeval chaos."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The defilement of an ancient night elf Moon Well by void-worshipping cultists and naga is an agonizing wound upon Kalimdor's natural and spiritual sanctuary."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The unrest stirred by Kelris and Aku'mai offends the balance of the elements, warping pure underground waters into a festering bed of shadow and sacrifice."
+  }
+ ],
+ "keywords": [
+  "aku'mai",
+  "argent dawn",
+  "bashana runetotem",
+  "blackfathom deeps",
+  "blackfathom villainy",
+  "kelris",
+  "moon well",
+  "thaelrid",
+  "twilight lord kelris",
+  "twilight's hammer"
+ ],
+ "related": [
+  "zone:blackfathom",
+  "npc:twilight-lord-kelris",
+  "npc:aku-mai",
+  "npc:bashana-runetotem",
+  "topic:twilight-s-hammer",
+  "topic:argent-dawn",
+  "topic:old-god",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Blackfathom Villainy (Horde)"
+ ]
+}

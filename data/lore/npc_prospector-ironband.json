@@ -1,0 +1,116 @@
+{
+ "key": "npc:prospector-ironband",
+ "type": "npc",
+ "name": "Prospector Ironband",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Prospector Ironband",
+  "refs": 6
+ },
+ "summary": "Prospector Darteus Ironband is an honest, hardworking dwarven surveyor who oversees an archaeological dig in southeastern Loch Modan. Working under the banner of the Dwarven Explorers' Guild, he is determined to uncover the earthen heritage buried beneath Khaz Modan. Despite setbacks and hostile local creatures, Ironband remains committed to sending regular progress reports and uncovered relics back to Ironforge.",
+ "sections": [
+  {
+   "title": "Unearthing the Past",
+   "body": "Darteus Ironband leads the dig at Ironband's Excavation Site nestled in the hills of southeastern Loch Modan. Like many field researchers in the Explorers' Guild, Ironband believes that the soil of Khaz Modan hides vital truths about the origins of the dwarven race. His camp works tirelessly digging trenches and sifting through rubble in search of ancient relics, stone tablets, and earthen artifacts. Despite the slow pace of unearthing buried history, Ironband's resolve remains unshaken, and he is always eager to recruit competent adventurers to safeguard his operation.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontier Troubles",
+   "body": "Conducting an excavation in the rugged wilds is never quiet. The site faces relentless harassment from local troggs and wildlife, threatening the supply lines and equipment essential for the dig. Relics and valuable survey equipment are constantly at risk of being stolen or wrecked before they can be examined. Ironband relies on visiting Alliance travelers to protect the cargo shipments, keep hostile raiders at bay, and investigate missing guild contacts in the neighboring badlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Prospector Ironband?",
+   "aliases": [
+    "ironband lore",
+    "who is darteus ironband",
+    "prospector ironband"
+   ],
+   "answer": "Prospector Darteus Ironband is a dedicated dwarven surveyor leading an archaeological dig in southeastern Loch Modan. He operates on behalf of the Dwarven Explorers' Guild, coordinating field excavations to recover lost relics of titan and earthen history."
+  },
+  {
+   "q": "Where can I find Prospector Ironband?",
+   "aliases": [
+    "ironband location",
+    "where is ironband",
+    "ironband excavation site loc"
+   ],
+   "answer": "He is stationed at Ironband's Excavation Site, situated in the hills of southeastern Loch Modan, just east of the main road heading toward the southern border."
+  },
+  {
+   "q": "What is the Explorers' Guild digging for here?",
+   "aliases": [
+    "why is ironband digging",
+    "what are they excavating",
+    "ironband dig goals"
+   ],
+   "answer": "The Explorers' Guild excavates ancient stone ruins throughout Khaz Modan to piece together the origins of the dwarven people and uncover artifacts left behind by the Titans."
+  },
+  {
+   "q": "Why does Ironband need adventurers to protect shipments?",
+   "aliases": [
+    "protecting the shipment lore",
+    "why defend the goods",
+    "ironband supplies"
+   ],
+   "answer": "The dig relies heavily on specialized digging tools, preservation gear, and provisions transported across Loch Modan. Local troggs and aggressive beasts constantly ambush supply caravans and attempt to raid the camp's stockpiles."
+  },
+  {
+   "q": "Who is Agmond and why does Ironband ask about him?",
+   "aliases": [
+    "find agmond",
+    "who is agmond",
+    "agmond's fate"
+   ],
+   "answer": "Agmond was a fellow dwarf surveyor who went out to scout excavations further south. When contact was lost, Ironband enlisted travelers to search the Badlands to determine his fate."
+  },
+  {
+   "q": "Is Prospector Ironband related to Bardin Ironband?",
+   "aliases": [
+    "bardin ironband relative",
+    "ironband family",
+    "darteus and bardin"
+   ],
+   "answer": "They share a surname and both work closely with frontier dwarf operations, suggesting a kinship, though Darteus keeps his focus strictly on the business of archaeology and guild reports."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Prospector Ironband works on the front lines of King Magni's push to understand dwarven ancestry, making his excavation a matter of deep cultural pride for any son or daughter of Ironforge."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Ironband's dig uses standard pickaxes and trenching techniques familiar to any miner, relying on sharp eyes to identify worked stone and buried strata amidst the rock."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Keeping Ironband's site supplied and defended helps secure the southeastern reaches of Loch Modan against trogg incursions and preserves valuable relics for the Alliance."
+  }
+ ],
+ "keywords": [
+  "agmond",
+  "darteus ironband",
+  "excavation progress report",
+  "excavation site",
+  "explorers guild",
+  "ironband",
+  "loch modan",
+  "prospector",
+  "protecting the shipment"
+ ],
+ "related": [
+  "subzone:ironband-s-excavation-site",
+  "quest:436",
+  "quest:298",
+  "quest:309",
+  "zone:lochmodan",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Prospector Ironband"
+ ]
+}

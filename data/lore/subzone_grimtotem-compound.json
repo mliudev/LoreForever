@@ -1,0 +1,75 @@
+{
+ "key": "subzone:grimtotem-compound",
+ "type": "subzone",
+ "name": "Grimtotem Compound",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Grimtotem Compound"
+ },
+ "summary": "The Grimtotem Compound is a fortified tribal settlement nestled in the central wilds of Feralas, just east of the elven ruins of Dire Maul. Occupied by the aggressive and insular Grimtotem clan, the encampment serves as a base for their mysterious and destructive operations in the region.",
+ "sections": [
+  {
+   "title": "A Bastion of the Black Tribe",
+   "body": "Spanning two encampments east of Dire Maul, the Grimtotem Compound establishes a firm foothold for the Grimtotem clan in Feralas. Unlike the tauren aligned with Cairne Bloodhoof in Thunder Bluff, the Grimtotem here operate independently and with hostility toward outsiders. In the southern half of the settlement, they keep captive sprite darters locked inside a large wooden cage for their own dark purposes, while rogue gnolls stalk the fringes of their northern perimeter.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in the Grimtotem Compound?",
+   "aliases": [
+    "who is here",
+    "grimtotem compound mobs",
+    "who controls grimtotem compound"
+   ],
+   "answer": "The settlement belongs to the Grimtotem clan, an aggressive and secretive tribe of tauren known for their xenophobia and ruthless methods. They operate separately from the Horde-allied tribes in Mulgore."
+  },
+  {
+   "q": "Why are sprite darters caged in the compound?",
+   "aliases": [
+    "why are faerie dragons caged",
+    "caged sprite darters",
+    "grimtotem sprite darters"
+   ],
+   "answer": "The Grimtotem have captured native sprite darters and locked them in a massive cage in the southern village. Their interest in these magical creatures appears tied to dark experiments and exploitation of Feralas's natural magical essence."
+  },
+  {
+   "q": "Where is the Grimtotem Compound located?",
+   "aliases": [
+    "grimtotem compound location",
+    "where is grimtotem compound"
+   ],
+   "answer": "The compound is situated in central Feralas, just east of the ancient Highborne ruins of Dire Maul, with wild gnoll packs camped nearby to the northeast."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Grimtotem clan pays nominal homage to Cairne Bloodhoof, but places like this compound reveal their true, untamed ambition far from the watchful eyes of Thunder Bluff."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Grimtotem are relentlessly hostile to the Night Elves and their allies, making this settlement a dangerous obstacle in the heart of Feralas."
+  }
+ ],
+ "keywords": [
+  "compound",
+  "dire maul",
+  "feralas",
+  "gnolls",
+  "grimtotem",
+  "sprite darter",
+  "tauren"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:dire-maul",
+  "npc:sprite-darter",
+  "topic:tauren",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Grimtotem Compound"
+ ]
+}

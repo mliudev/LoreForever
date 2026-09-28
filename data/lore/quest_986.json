@@ -1,0 +1,128 @@
+{
+ "key": "quest:986",
+ "type": "quest",
+ "name": "A Lost Master",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   986
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Terenthis",
+  "end": "",
+  "previous": "How Big a Threat? (2)",
+  "next": "A Lost Master (2)",
+  "wiki": "A Lost Master",
+  "chain": []
+ },
+ "summary": "A Lost Master tasks an Alliance adventurer with gathering materials to aid in the search for Volcor, a night elf lost in the wilderness of Darkshore. Terenthis in Auberdine offers to weave an enchanted camouflage cloak to protect the rescuer, requiring pelts from the coast's fiercest moonstalkers.",
+ "sections": [
+  {
+   "title": "A Search into the Wilds",
+   "body": "While tracking threats along the coast of Darkshore, Terenthis in Auberdine becomes concerned for the fate of Volcor and his companion, Grimclaw. Venturing deep into the southern reaches of the region is notoriously dangerous due to aggressive predators and corrupted wildlife. Rather than sending a scout unprotected, Terenthis devises a plan to craft a protective cloak imbued with wild illusions.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pelts of the Pride",
+   "body": "To weave a cloak capable of confounding Darkshore's beasts, standard hides are insufficient. Terenthis requires fine moonstalker pelts taken specifically from mature moonstalker sires or matriarchs. These formidable great cats prowl the woodlands south of Auberdine near the Wildbend River and extend toward the forested border of Ashenvale.",
+   "spoiler": 0
+  },
+  {
+   "title": "Delicate Magic",
+   "body": "The finished garment uses moonstalker fur and nature enchantments to let the wearer pass unhindered through hostile territory while searching for Volcor. However, Terenthis warns that the illusion is delicate: engaging in strenuous activity or combat breaks the enchantment, leaving the searcher exposed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Volcor?",
+   "aliases": [
+    "who is volcor",
+    "volcor lore",
+    "lost master volcor"
+   ],
+   "answer": "Volcor is a night elf scout or tracker who went missing in the wilds of southern Darkshore. His companion Grimclaw and Terenthis in Auberdine seek his whereabouts, prompting the search."
+  },
+  {
+   "q": "Who offers this task?",
+   "aliases": [
+    "quest giver",
+    "where to get a lost master",
+    "terenthis location"
+   ],
+   "answer": "Terenthis, a night elf stationed in the settlement of Auberdine in Darkshore, provides the quest after adventurers assist him with earlier local concerns."
+  },
+  {
+   "q": "Where are moonstalker sires and matriarchs found?",
+   "aliases": [
+    "fine moonstalker pelt locations",
+    "where to find moonstalkers",
+    "wildbend river cats"
+   ],
+   "answer": "These mature moonstalkers roam southern Darkshore, particularly near the banks of the Wildbend River and farther south approaching the border with Ashenvale."
+  },
+  {
+   "q": "What is the cloak meant to do?",
+   "aliases": [
+    "what does the cloak do",
+    "terenthis cloak",
+    "cloak enchantment"
+   ],
+   "answer": "Terenthis intends to craft an enchanted cloak that conceals the wearer from the hostile beasts of Darkshore, allowing them to search for Volcor without constantly drawing attacks."
+  },
+  {
+   "q": "Why does Terenthis need specific pelts?",
+   "aliases": [
+    "why sires and matriarchs",
+    "why fine pelts"
+   ],
+   "answer": "Ordinary pelts lack the strength and natural presence required to channel the camouflage illusion. Only the thick, resilient hides of sires and matriarchs can carry the enchantment."
+  },
+  {
+   "q": "Does the camouflage cloak have limitations?",
+   "aliases": [
+    "does the illusion break",
+    "cloak restrictions"
+   ],
+   "answer": "Yes. Terenthis warns that the enchantment is fragile. Speaking to others is permitted, but strenuous interactions or combat will quickly dispel the illusion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Locating Volcor reflects the night elves' duty to safeguard their kindred and wild companions across the untamed reaches of Darkshore."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters will recognize the bond between Volcor and Grimclaw, as well as the skill demanded to track and hunt Darkshore's matriarchs and sires."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids can appreciate Terenthis's respect for the natural stealth of moonstalkers, turning their wild essence into protective camouflage."
+  }
+ ],
+ "keywords": [
+  "a lost master",
+  "auberdine",
+  "darkshore",
+  "fine moonstalker pelt",
+  "grimclaw",
+  "moonstalker",
+  "terenthis",
+  "volcor",
+  "wildbend river"
+ ],
+ "related": [
+  "npc:terenthis",
+  "npc:volcor",
+  "subzone:auberdine",
+  "subzone:wildbend-river",
+  "zone:darkshore",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "A Lost Master"
+ ]
+}

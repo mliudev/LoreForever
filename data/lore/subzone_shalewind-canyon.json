@@ -1,0 +1,69 @@
+{
+ "key": "subzone:shalewind-canyon",
+ "type": "subzone",
+ "name": "Shalewind Canyon",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Shalewind Canyon"
+ },
+ "summary": "Shalewind Canyon is a rugged ravine in the eastern crags of the Redridge Mountains, tucked close to Stonewatch Falls. Bordered by towering rock faces and hostile Blackrock orc encampments, it serves as a secluded and perilous pass within Redridge's eastern wilderness.",
+ "sections": [
+  {
+   "title": "A Rugged Redridge Pass",
+   "body": "Carved into the eastern heights of the Redridge Mountains, Shalewind Canyon lies in close proximity to the roaring cascades of Stonewatch Falls and the shadowed foothills leading toward the Blackrock stronghold of Stonewatch. Unlike the peaceful waters of Lake Everstill, the canyon is an unforgiving landscape of sheer stone and high-altitude winds. With the local human settlements hard-pressed by invading Blackrock orcs, the surrounding cliffs present constant dangers from roving raiders, whelps, and hostile mountain beasts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Shalewind Canyon located?",
+   "aliases": [
+    "shalewind canyon location",
+    "where is shalewind",
+    "shalewind canyon redridge"
+   ],
+   "answer": "Shalewind Canyon is situated in the eastern reaches of the Redridge Mountains, nestled near Stonewatch Falls and south of the rocky trails that approach Stonewatch Keep."
+  },
+  {
+   "q": "Who controls Shalewind Canyon?",
+   "aliases": [
+    "who lives in shalewind canyon",
+    "who owns shalewind",
+    "shalewind canyon enemies"
+   ],
+   "answer": "The canyon is a contested wilderness territory. While nominally part of the Kingdom of Stormwind's Redridge borders, the nearby presence of Blackrock orc warbands and predatory wildlife makes it largely ungoverned and treacherous."
+  },
+  {
+   "q": "Why is this area so dangerous for travelers?",
+   "aliases": [
+    "is shalewind canyon safe",
+    "shalewind canyon threats"
+   ],
+   "answer": "The canyon sits dangerously close to the stronghold of Stonewatch, where Blackrock orcs orchestrate assaults against Lakeshire. Any traveler caught traversing the narrow passes risks ambush by orcish scouting parties or the aggressive beasts native to the crags."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance forces seeking to scout Blackrock movements around Stonewatch Falls, Shalewind Canyon serves as a treacherous eastern frontier where vigilance is vital."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "canyon",
+  "falls",
+  "redridge",
+  "shalewind",
+  "stonewatch"
+ ],
+ "related": [
+  "subzone:stonewatch-falls",
+  "subzone:stonewatch",
+  "zone:redridge",
+  "subzone:camp-everstill"
+ ],
+ "attribution": [
+  "Shalewind Canyon"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "subzone:darkwhisper-gorge",
+ "type": "subzone",
+ "name": "Darkwhisper Gorge",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Darkwhisper Gorge"
+ },
+ "summary": "Darkwhisper Gorge is a treacherous, demon-infested ravine carved into the southern heights of Winterspring. When Archimonde was destroyed at the climax of the Third War, remnants of the shattered Burning Legion fled down the slopes of Mount Hyjal and entrenched themselves in these jagged chasms. Today, powerful fiends stalk its heights, guarding ancient minerals and dark planar relics.",
+ "sections": [
+  {
+   "title": "A Legion Foothold in the Snow",
+   "body": "Following the defeat of Archimonde atop Mount Hyjal, surviving demons of the Burning Legion scattered into the surrounding mountain ranges. A disciplined vanguard took refuge in Darkwhisper Gorge, transforming the southern border of Winterspring into a lethal stronghold. Led by Hederine demons\u2014including lethal manastalkers, slayers, and initiates under Lady Hederine\u2014these fiends fiercely defend their subterranean tunnels and fiery camps. Beyond the immediate threat of its elite inhabitants, an ominous, sealed archway stands at the gorge's lowest point, hinting at sealed passages leading higher up the sacred mountain.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hidden Reagents and Rare Knowledge",
+   "body": "Despite the overwhelming danger, brave adventurers and opportunists brave the gorge for its exceptional wealth. The ravines are rich in valuable minerals like truesilver and dense deposits of thorium. Deeper within its shadowed grottos, unusual inhabitants eke out an existence, such as the imp vendor Vi'el peddling fel-tainted reagents like felcloth and gromsblood, and the elusive high elf Earthcaller Franzahl, who possesses ancient metallurgical lore regarding the smelting of rare elementium.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there so many demons in Winterspring?",
+   "aliases": [
+    "why demons here",
+    "darkwhisper legion lore",
+    "where did the demons come from"
+   ],
+   "answer": "The demons in Darkwhisper Gorge are survivors of the Burning Legion's invasion of Mount Hyjal during the Third War. After Archimonde was slain at the World Tree, his broken forces retreated down into these chasms to regroup rather than being entirely wiped out."
+  },
+  {
+   "q": "What is the sealed gate at the back of the gorge?",
+   "aliases": [
+    "darkwhisper portal",
+    "instance portal winterspring",
+    "hyjal gate"
+   ],
+   "answer": "Deep within the southern depths of the gorge stands a runed archway and an active magical barrier. It guards the mountain pass leading directly up into Mount Hyjal, keeping mortals out of the sacred heights as the mountain recovers from the demonic assault."
+  },
+  {
+   "q": "Who leads the demons here?",
+   "aliases": [
+    "darkwhisper boss",
+    "hederine leader",
+    "who rules darkwhisper"
+   ],
+   "answer": "The encampment is dominated by a sect of demonic invaders known as the Hederine, seemingly commanded by Lady Hederine. They patrol the ravines alongside slayers, initiates, and fell hounds known as manastalkers."
+  },
+  {
+   "q": "Why would an adventurer venture into Darkwhisper Gorge?",
+   "aliases": [
+    "why go to darkwhisper",
+    "darkwhisper quests",
+    "darkwhisper rewards"
+   ],
+   "answer": "The area is exceptionally dangerous, requiring coordinated groups to navigate safely. However, it attracts warlocks seeking planar bindings, priests hunting the rare Eye of Shadow, blacksmiths and miners seeking rich thorium veins, and scholars seeking the hidden Earthcaller Franzahl."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The Hederine demons prowling these caverns hold vital planar components, making the gorge a primary proving ground for warlocks seeking mastery over greater summoning rituals like the Doomguard."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The perilous chasms conceal abundant deposits of truesilver and rich thorium veins, rewarding miners bold enough to sneak past elite demons."
+  }
+ ],
+ "keywords": [
+  "burning legion",
+  "darkwhisper gorge",
+  "earthcaller franzahl",
+  "eye of shadow",
+  "hederine",
+  "lady hederine",
+  "mount hyjal",
+  "vi'el",
+  "winterspring"
+ ],
+ "related": [
+  "zone:winterspring",
+  "subzone:frostwhisper-gorge",
+  "topic:burning-legion",
+  "topic:third-war",
+  "zone:blastedlands"
+ ],
+ "attribution": [
+  "Darkwhisper Gorge"
+ ]
+}

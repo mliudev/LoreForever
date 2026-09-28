@@ -1,0 +1,100 @@
+{
+ "key": "subzone:ruins-of-alterac",
+ "type": "subzone",
+ "name": "Ruins of Alterac",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "wiki": "Ruins of Alterac"
+ },
+ "summary": "The snow-covered Ruins of Alterac are all that remain of Alterac City, once the proud mountain capital of the Kingdom of Alterac. Cast out of the Alliance and put under martial law after King Aiden Perenolde's treason during the Second War, the shattered stronghold is now overrun by the brutish Crushridge ogres.",
+ "sections": [
+  {
+   "title": "A Kingdom's Betrayal",
+   "body": "Alterac was once an independent human realm carved out of the old Arathor empire, perched high on the trade routes through the mountains. During the Second War, fearing destruction at the hands of the invading Old Horde, King Aiden Perenolde secretly struck a pact with the orcs. When the betrayal was uncovered following the fighting at Caer Darrow, the Alliance of Lordaeron retaliated swiftly. King Terenas Menethil II put the city under martial law and deposed Perenolde. The grand fortifications, church, and palace fell into disrepair as the populace fled or turned to outlawry.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ogre Occupation",
+   "body": "While surviving Alteraci nobles and rogue soldiers formed the Syndicate to wage guerrilla campaigns from towns like Strahnbrad, they lost their ancestral capital entirely. Today, the Crushridge ogres under Mug'thol dwell among the broken ramparts, palace halls, and wrecked ballistae. Neither the Syndicate nor the human defenders of Southshore have managed to reclaim the fallen city, leaving its crumbling towers and abandoned vaults as dangerous territory for treasure hunters and scavengers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was Alterac destroyed?",
+   "aliases": [
+    "why is alterac in ruins",
+    "what happened to alterac city",
+    "fall of alterac"
+   ],
+   "answer": "During the Second War, King Aiden Perenolde allied with the invading Orcish Horde to spare his kingdom. The Alliance of Lordaeron discovered the treason, invaded Alterac City, dismantled its defenses, and placed the kingdom under martial law."
+  },
+  {
+   "q": "Who lives in the ruins now?",
+   "aliases": [
+    "who controls alterac ruins",
+    "alterac ogres",
+    "who is in alterac"
+   ],
+   "answer": "The Crushridge ogres, led by Mug'thol, have overtaken the palace, walls, and snowed-in courtyards. In addition, an enterprising goblin alchemy vendor named Bro'kin sits quietly atop the northern ramparts."
+  },
+  {
+   "q": "What is the Syndicate's connection to this place?",
+   "aliases": [
+    "does the syndicate live here",
+    "syndicate alterac connection"
+   ],
+   "answer": "The Syndicate is largely composed of former Alteraci aristocracy and soldiers who lost their lands after the kingdom was dissolved. While they bitterly yearn to reclaim Alterac, they were driven from the capital itself by the Crushridge ogres and now operate out of outposts like Strahnbrad."
+  },
+  {
+   "q": "Why do Alliance adventurers come here?",
+   "aliases": [
+    "alliance quests alterac ruins",
+    "crushridge bounty"
+   ],
+   "answer": "Alliance soldiers from Southshore offer bounties on the hostile Crushridge ogres who raid the roads, while nobles in the south, such as Count Remington Ridgewell, send agents into the ruins to recover lost family heirlooms like the Perenolde Tiara."
+  },
+  {
+   "q": "Why is the Horde interested in these ruins?",
+   "aliases": [
+    "horde quests alterac ruins",
+    "sylvanas alterac"
+   ],
+   "answer": "Lady Sylvanas Windrunner and the Forsaken take an active interest in the artifacts scattered across the fallen human kingdom, dispatching champions into the ogre-infested stronghold to secure relics of power such as the Crown of Will."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of the Alliance, the ruins are a somber reminder of human weakness and treason during the Second War, where Perenolde's cowardice broke the brotherhood of the Seven Kingdoms."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The fallen city stands as an echo of the Old Horde's former alliances, but today offers opportunities for the Forsaken to scavenge magical relics from the distracted Crushridge ogres."
+  }
+ ],
+ "keywords": [
+  "alterac city",
+  "bro'kin",
+  "crushridge",
+  "mug'thol",
+  "perenolde",
+  "ruins of alterac",
+  "strahnbrad",
+  "syndicate"
+ ],
+ "related": [
+  "topic:alterac-kingdom",
+  "topic:syndicate",
+  "zone:alterac",
+  "subzone:strahnbrad",
+  "quest:543",
+  "topic:alliance-of-lordaeron",
+  "topic:terenas-menethil-ii",
+  "topic:second-war"
+ ],
+ "attribution": [
+  "Ruins of Alterac"
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "key": "quest:1839",
+ "type": "quest",
+ "name": "Ula'elek and the Brutal Gauntlets",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1839
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Thun'grim Firegaze",
+  "end": "Ula'elek",
+  "previous": "Brutal Armor",
+  "next": "Satyr Hooves",
+  "wiki": "Ula'elek and the Brutal Gauntlets",
+  "chain": []
+ },
+ "summary": "This quest directs rising Horde warriors from the heights of the Barrens back to the coast of Durotar. Sent by the blacksmith Thun'grim Firegaze, you must seek out the Darkspear craftsman Ula'elek in Sen'jin Village to forge your Brutal Gauntlets.",
+ "sections": [
+  {
+   "title": "A Journey to the Coast",
+   "body": "After proving their valor throughout the Barrens and taking up the task to assemble the Brutal Armor set, warriors are directed eastward by Thun'grim Firegaze. Rather than forging every piece on his own mountain perch, the veteran orc smith relies on a network of skilled artisans across Horde lands. To craft heavy plate gauntlets suited to an advancing champion, he sends fighters down to Durotar's rocky southern shores.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Eyes of the Loa",
+   "body": "In Sen'jin Village, the troll armorsmith Ula'elek works among his Darkspear kin. Far from being caught unawares, Ula'elek reveals that Thun'grim had already sent word of your deeds\u2014and more importantly, the spirits themselves had observed your triumphs in battle. For a warrior earning a place among the Horde's elite, craftsmanship and spiritual acknowledgement walk hand in hand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Ula'elek and the Brutal Gauntlets?",
+   "aliases": [
+    "quest giver",
+    "who starts ula'elek and the brutal gauntlets",
+    "thun'grim firegaze quest"
+   ],
+   "answer": "The quest is given by Thun'grim Firegaze, an esteemed orc armorer located atop the mountains in the Barrens."
+  },
+  {
+   "q": "Where can I find Ula'elek?",
+   "aliases": [
+    "ula'elek location",
+    "where is ula'elek",
+    "ulaelek senjin"
+   ],
+   "answer": "Ula'elek is stationed in Sen'jin Village, situated along the southern coast of Durotar."
+  },
+  {
+   "q": "What is the Brutal Armor set?",
+   "aliases": [
+    "brutal armor",
+    "what are brutal gauntlets",
+    "warrior class armor 30"
+   ],
+   "answer": "Brutal Armor is a customized set of mail and plate armor designed specifically for seasoned Horde warriors around their thirtieth season, crafted by allied smiths across Kalimdor."
+  },
+  {
+   "q": "What happens after reaching Ula'elek?",
+   "aliases": [
+    "next quest",
+    "after speaking to ula'elek",
+    "satyr hooves quest"
+   ],
+   "answer": "Upon greeting you and acknowledging your deeds in battle, Ula'elek will charge you with gathering the exotic materials needed to craft the Brutal Gauntlets, beginning with Satyr Hooves."
+  },
+  {
+   "q": "Why does Thun'grim send you to a troll armorsmith?",
+   "aliases": [
+    "why ula'elek",
+    "why go to sen'jin village",
+    "troll smith brutal armor"
+   ],
+   "answer": "Thun'grim divides the forging of the Brutal Armor set among the Horde's finest specialized smiths, trusting Darkspear craftsmen like Ula'elek for the gauntlets."
+  },
+  {
+   "q": "Do Alliance players have an equivalent to this quest?",
+   "aliases": [
+    "alliance brutal gauntlets",
+    "alliance equivalent"
+   ],
+   "answer": "Alliance warriors undertake a similar martial trial to craft their own class-specific armor, but the Brutal Armor chain and Ula'elek's craftsmanship are exclusive to the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "The Brutal Armor questline represents a crucial rite of passage for Horde warriors, signaling their transition into battle-hardened frontline champions."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Visiting Ula'elek highlights the Darkspear tribe's contribution to the Horde war effort through skilled smithing and spiritual attunement."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The collaborative effort between orcish forge-masters in the Barrens and troll smiths in Durotar showcases the cooperation binding Thrall's young coalition together."
+  }
+ ],
+ "keywords": [
+  "brutal gauntlets",
+  "darkspear",
+  "durotar",
+  "sen'jin village",
+  "the barrens",
+  "thun'grim firegaze",
+  "ula'elek",
+  "warrior"
+ ],
+ "related": [
+  "npc:ula-elek",
+  "quest:1838",
+  "quest:1842",
+  "quest:1843",
+  "quest:1502",
+  "subzone:sen-jin-village",
+  "zone:durotar",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Ula'elek and the Brutal Gauntlets"
+ ]
+}

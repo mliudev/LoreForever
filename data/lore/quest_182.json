@@ -1,0 +1,127 @@
+{
+ "key": "quest:182",
+ "type": "quest",
+ "name": "The Troll Cave",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   182
+  ],
+  "level": "4",
+  "faction": "Alliance",
+  "start": "Grelin Whitebeard",
+  "end": "",
+  "previous": null,
+  "next": "The Stolen Journal",
+  "wiki": "The Troll Cave",
+  "chain": [
+   "The Troll Cave",
+   "The Stolen Journal",
+   "Senir's Observations",
+   "Senir's Observations (2)"
+  ]
+ },
+ "summary": "Assigned by the mountaineer Grelin Whitebeard, this mission dispatches adventurers to cull young Frostmane trolls gathering in the southern caves of Coldridge Valley. With the Ironforge Senate preoccupied by an escalating trogg crisis, lone scouts and willing recruits must handle border skirmishes before the trolls establish a permanent foothold.",
+ "sections": [
+  {
+   "title": "Eyes in the Cold",
+   "body": "While Ironforge's regular forces are consumed with repelling rock-jawed trogg incursions across the snowfields, the southern approaches cannot be left unguarded. Grelin Whitebeard and his brother Senir were deployed by the mountain authorities to assess whether the native ice trolls posed an immediate danger to the heartland. Perched on a bluff overlooking the frozen valley, Grelin maintains a solitary watch on their movements.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Preemptive Strike",
+   "body": "Grelin's reconnaissance revealed that the local Frostmane clan had begun settling in a deep cave along the southern ridgeline of Coldridge Valley. Believing full military mobilization would be an unnecessary waste of dwarven manpower, the scout favored hiring capable local volunteers to cull the aggressive whelps. Thinning their young fighters serves to disrupt their encampment before the Frostmane can mount coordinated raids against nearby dwarven homesteads.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why doesn't Ironforge send regular soldiers to deal with these trolls?",
+   "aliases": [
+    "why no dwarven army",
+    "where are the guards",
+    "why hire adventurers"
+   ],
+   "answer": "The Ironforge Senate and the dwarven military are stretched thin dealing with a sudden, devastating trogg invasion across Dun Morogh. Minor threats like small troll warbands are relegated to scouts like Grelin Whitebeard, who hire independent adventurers to handle them."
+  },
+  {
+   "q": "Who are the Frostmane trolls?",
+   "aliases": [
+    "frostmane clan",
+    "dun morogh trolls",
+    "who are the frostmanes"
+   ],
+   "answer": "The Frostmane are an indigenous tribe of ice trolls native to the frigid crags of Dun Morogh. Long hostile to the Bronzebeard dwarves, they continually clash with mountaineers over hunting grounds, territory, and ancient mountain passes."
+  },
+  {
+   "q": "Where is the troll cave located?",
+   "aliases": [
+    "troll cave location",
+    "where is the cave",
+    "where are the whelps"
+   ],
+   "answer": "The cave is tucked along the southern mountain ridge of Coldridge Valley, south of Grelin Whitebeard's observation camp."
+  },
+  {
+   "q": "Who is Grelin Whitebeard?",
+   "aliases": [
+    "grelin",
+    "quest giver",
+    "whitebeard"
+   ],
+   "answer": "Grelin Whitebeard is an Ironforge scout stationed in Coldridge Valley. Along with his brother Senir, who surveys other corners of Dun Morogh, Grelin tracks hostile troll populations to report back to dwarven leaders."
+  },
+  {
+   "q": "Why does Grelin specifically target Frostmane whelps?",
+   "aliases": [
+    "why whelps",
+    "why target young trolls"
+   ],
+   "answer": "The encampment in southern Coldridge Valley is a burgeoning settlement filled with juvenile warriors. Striking down their growing fighters prevents the band from becoming strong enough to threaten dwarven supply lines."
+  },
+  {
+   "q": "What happens after culling the cave?",
+   "aliases": [
+    "what next",
+    "troll cave follow up"
+   ],
+   "answer": "Upon returning, you discover that the trolls retaliated in the night, raiding Grelin's campsite and stealing his personal field journal, requiring an immediate recovery effort deeper in their dens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For young Bronzebeard dwarves stepping out into the snow, putting down Frostmane warbands is both a matter of frontier security and an ancient mountain feud."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Taking shelter in Dun Morogh after the fall of Gnomeregan, gnomes gladly lend their wits and weapons to help relieve their dwarven hosts from surrounding threats."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The crags around the southern cave are harsh proving grounds for young trackers learning to flush hostile quarry from mountain heights."
+  }
+ ],
+ "keywords": [
+  "coldridge valley",
+  "dun morogh",
+  "frostmane",
+  "grelin whitebeard",
+  "troggs",
+  "trolls",
+  "whelp"
+ ],
+ "related": [
+  "npc:grelin-whitebeard",
+  "quest:218",
+  "quest:282",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh",
+  "topic:troll",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "The Troll Cave"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "npc:darion-mograine",
+ "type": "npc",
+ "name": "Darion Mograine",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Darion Mograine",
+  "refs": 2
+ },
+ "summary": "Darion Mograine is the younger son of the fallen Highlord Alexandros Mograine, the legendary Ashbringer. A former paladin who joined the Argent Dawn following his father's mysterious downfall, Darion's desperate quest to uncover his family's fate placed him at the center of the conflict consuming the Plaguelands.",
+ "sections": [
+  {
+   "title": "A Son of the Silver Hand",
+   "body": "Darion grew up in the shadow of his father's towering legacy. Raised near Brill in the kingdom of Lordaeron, he witnessed the onset of the plague of undeath and eventually took up arms as a recruit in the Knights of the Silver Hand during the Third War. After falling in battle at Stratholme and narrowly surviving, Darion's world unraveled when his father perished under suspicious circumstances. Struggling with grief and questioning his faith in the Holy Light, Darion chose a different road than the zealous Scarlet Crusade, ultimately throwing his lot in with the newly formed Argent Dawn.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Quest for the Ashbringer",
+   "body": "Spurred on by cryptic omens, Darion led a desperate expedition into the dread necropolis Naxxramas to find the truth behind his father's fate. He discovered Alexandros raised as a death knight in service to the Scourge. Though he reclaimed his father's corrupted blade, the blade's restless whispers revealed his brother Renault's bitter betrayal. Darion sought the counsel of the exiled paladin Tirion Fordring, who warned him that only an act of profound love could redeem his father's tormented soul.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Darion Mograine?",
+   "aliases": [
+    "darion mograine lore",
+    "who is darion",
+    "mograine son"
+   ],
+   "answer": "Darion is a human warrior and paladin of the Argent Dawn, and the younger son of Highlord Alexandros Mograine, the original wielder of the legendary Ashbringer blade."
+  },
+  {
+   "q": "Why didn't Darion join the Scarlet Crusade like his brother?",
+   "aliases": [
+    "darion scarlet crusade",
+    "why argent dawn darion"
+   ],
+   "answer": "While his elder brother Renault climbed the ranks of the fanatical Scarlet Crusade, Darion grew disillusioned with zealotry after their father's death. Guided by outside counsel and seeking genuine redemption rather than blind fury, Darion pledged his sword to the more inclusive Argent Dawn instead."
+  },
+  {
+   "q": "What is Darion's connection to the Ashbringer?",
+   "aliases": [
+    "darion and the ashbringer",
+    "did darion get the sword"
+   ],
+   "answer": "Darion witnessed the creation of the blade as a youth in Southshore. After his father was slain and raised as a death knight, Darion infiltrated Naxxramas, defeated his father's shade, and recovered the tainted greatsword in hopes of freeing Alexandros's bound spirit."
+  },
+  {
+   "q": "What advice did Tirion Fordring give him?",
+   "aliases": [
+    "tirion and darion",
+    "fordring advice darion"
+   ],
+   "answer": "When Darion sought out the exiled Tirion Fordring for help cleansing the corrupted blade, Tirion told him that nothing ordinary could save Alexandros, and that only an act of love greater than the evil done to him could ever redeem his soul."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Darion represents the deep crisis of faith paladins faced following the fall of Lordaeron, struggling to balance duty to the Light with the grim realities of the Plaguelands."
+  },
+  {
+   "target": "race:Human",
+   "text": "The tragic splintering of the Mograine household mirrors the ruin of Lordaeron itself, dividing brothers into rival orders amid the kingdom's ashes."
+  }
+ ],
+ "keywords": [
+  "alexandros",
+  "argent dawn",
+  "ashbringer",
+  "darion mograine",
+  "naxxramas",
+  "renault",
+  "silver hand"
+ ],
+ "related": [
+  "topic:argent-dawn",
+  "topic:scarlet-crusade",
+  "subzone:light-s-hope-chapel",
+  "npc:tirion-fordring",
+  "npc:lord-maxwell-tyrosus",
+  "subzone:stratholme",
+  "topic:scourge",
+  "zone:easternplaguelands"
+ ],
+ "attribution": [
+  "Darion Mograine"
+ ]
+}

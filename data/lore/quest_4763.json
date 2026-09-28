@@ -1,0 +1,122 @@
+{
+ "key": "quest:4763",
+ "type": "quest",
+ "name": "The Blackwood Corrupted",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   4763
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Thundris Windweaver",
+  "end": "",
+  "previous": "The Cliffspring River",
+  "next": null,
+  "wiki": "The Blackwood Corrupted",
+  "chain": []
+ },
+ "summary": "Following evidence found in the tainted waters of Cliffspring River, Thundris Windweaver sends adventurers to sever the dark influence strangling the Blackwood tribe. By purifying their food supply with moonwell water, you provoke their demonic handler into the open to shatter his hold on the northern camp.",
+ "sections": [
+  {
+   "title": "A Hidden Master",
+   "body": "The night elves of Auberdine have long struggled to understand why the once-peaceful Blackwood furbolgs turned so viciously against their neighbors. Investigations along the Cliffspring River traced the rot to satyr meddling. These ancient servants of the Burning Legion have been actively manipulating the tribe, channeling fel magic through insidious talismans to twist the minds of the furbolgs and drive them into feral aggression.",
+   "spoiler": 0
+  },
+  {
+   "title": "Breaking the Shackles",
+   "body": "To lure the puppet master into the open, Thundris Windweaver concocts a simple yet potent remedy. By gathering common rations\u2014grain, fruit, and nuts\u2014from the northern Blackwood settlement and immersing them in holy waters drawn from Auberdine's moonwell, the tainted nourishment is purified. Offering this blessed food at the central bonfire grants nearby furbolgs a brief respite from their madness, directly exposing the meddling satyr corruptor, Xabraxxis, who emerges in fury to defend his twisted dominion.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the Blackwood furbolgs aggressive?",
+   "aliases": [
+    "why furbolgs mad",
+    "why are furbolgs hostile",
+    "blackwood aggression"
+   ],
+   "answer": "Their minds have been poisoned by demonic influence. Satyrs secretly planted themselves near the camps, channeling foul magic through enchanted talismans to corrupt the furbolgs' food supply and twist their natural instincts into rabid violence."
+  },
+  {
+   "q": "Who is Xabraxxis?",
+   "aliases": [
+    "xabraxxis lore",
+    "who is the satyr",
+    "satyr boss darkshore"
+   ],
+   "answer": "Xabraxxis is a satyr corruptor overseeing the northern Blackwood furbolg camp. He works from the shadows to ensure the tribe remains gripped by fel madness, relying on a Talisman of Corruption to sustain his control."
+  },
+  {
+   "q": "Does cleansing their food cure the furbolgs forever?",
+   "aliases": [
+    "is the cure permanent",
+    "did we save the furbolgs",
+    "are furbolgs cured"
+   ],
+   "answer": "No. The moonwell-infused nourishment only breaks the demonic haze long enough for them to recognize peace and draw out Xabraxxis. Slaying the satyr and claiming his talisman is a significant victory, but Thundris Windweaver notes that discovering a permanent cure for the corrupted tribes will take further effort."
+  },
+  {
+   "q": "Where did the idea to use moonwell water come from?",
+   "aliases": [
+    "why moonwell water",
+    "moonwell cleansing bowl"
+   ],
+   "answer": "Moonwells are sacred pools blessed by the Goddess Elune, brimming with rejuvenating magic that counters fel and undeath. Thundris Windweaver provides a cleansing bowl so its sanctified waters can neutralize the demonic toxins woven into the furbolgs' foodstuffs."
+  },
+  {
+   "q": "What happens when the food bowl is placed at the bonfire?",
+   "aliases": [
+    "bowl near bonfire",
+    "cleansing the furbolgs"
+   ],
+   "answer": "The nearby furbolgs briefly snap out of their bloodlust, gather peacefully around the blessed food, and cease attacking. Enraged that his puppets are breaking free of their torment, Xabraxxis immediately manifests to punish the meddlers."
+  },
+  {
+   "q": "Who is Thundris Windweaver?",
+   "aliases": [
+    "thundris windweaver lore",
+    "who gives the quest"
+   ],
+   "answer": "Thundris Windweaver is a night elf researcher and investigator stationed in Auberdine. He coordinates efforts to uncover the root causes behind Darkshore's creeping ecological decay and the madness gripping local wildlife."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The furbolgs were ancient allies of the kaldorei during the War of the Ancients; watching them fall under the sway of their ancestral enemies, the satyrs, is a bitter tragedy night elves are eager to right."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Restoring balance demands cutting out the rot at its root. Seeing a satyr use fel talismans to warp primal woodland creatures makes confronting Xabraxxis an urgent priority for the Cenarion Circle."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Channeling the pure, restorative grace of Elune through moonwell waters provides a stark contrast to the corrupting shadow and fel magic deployed by the satyr."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "blackwood",
+  "darkshore",
+  "furbolg",
+  "moonwell",
+  "satyr",
+  "talisman of corruption",
+  "thundris windweaver",
+  "xabraxxis"
+ ],
+ "related": [
+  "quest:4762",
+  "quest:4761",
+  "topic:furbolg",
+  "topic:satyr",
+  "subzone:auberdine",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "The Blackwood Corrupted"
+ ]
+}

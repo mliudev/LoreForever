@@ -1,0 +1,127 @@
+{
+ "key": "topic:lich-king",
+ "type": "topic",
+ "name": "Lich King",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Lich King"
+ },
+ "summary": "The Lich King is the lord and psychic master of the undead Scourge, ruling from the Frozen Throne far to the north in Icecrown. Originally forged by the demon Kil'jaeden from the spirit of the orc shaman Ner'zhul, the entity eventually lured Prince Arthas Menethil into corruption, culminating in their fateful union atop Northrend's icy peaks.",
+ "sections": [
+  {
+   "title": "Birth of the Frozen God",
+   "body": "When the orc shaman Ner'zhul attempted to flee the dying world of Draenor, he fell directly into the clutches of Kil'jaeden the Deceiver. The demon lord tore Ner'zhul's body to shreds but bound his tormented soul into a block of diamond-hard ice cast out of the Twisting Nether. Flung into Azeroth, the glacial monolith struck the northern wastes of Northrend, forming the Frozen Throne. Kil'jaeden intended the Lich King to forge an unstoppable undead vanguard that would dismantle the mortal kingdoms without succumbing to the infighting that ruined the Orcish Horde. Instead, armed with immense telepathic power, Ner'zhul immediately began plotting his own bid for freedom.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall of Lordaeron",
+   "body": "Watching dreadlords kept close vigil over the entity, forcing Ner'zhul to act in secret. Reaching out with his mind, he ensnared the exiled Kirin Tor archmage Kel'Thuzad, who established the Cult of the Damned in Lordaeron. Through cauldrons of tainted grain, the Scourge unleashed the Plague of Undeath across the northern kingdoms. The crisis drew in Prince Arthas Menethil, whose desperation to save his people led him into ruthless brutality, culminating in the infamous slaughter of Stratholme. Blinded by vengeance against the dreadlord Mal'Ganis, Arthas pursued his quarry into Northrend, where the cursed runeblade Frostmourne waited to steal his soul and turn him into the Scourge's premier death knight.",
+   "spoiler": 0
+  },
+  {
+   "title": "Treachery and Ascendance",
+   "body": "Though forced to summon Archimonde and hand temporary command to the Burning Legion, the Lich King anticipated the demons' hubris. Arthas manipulated the demon hunter Illidan Stormrage into claiming the Skull of Gul'dan and slaying Tichondrius, ultimately contributing to Archimonde's ruin at Mount Hyjal. In the aftermath, a desperate Kil'jaeden tasked Illidan with destroying the Frozen Throne. As cracks in the icy spire weakened Ner'zhul's power\u2014allowing Sylvanas Windrunner and her Forsaken to break free\u2014the Lich King summoned his champion home. Arthas returned to Northrend, defeated Illidan at the foot of Icecrown, ascended the spire, and shattered the ice to merge with Ner'zhul into a single terrible consciousness.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the Lich King right now?",
+   "aliases": [
+    "current lich king",
+    "who rules the scourge",
+    "is arthas the lich king"
+   ],
+   "answer": "The Lich King is the merged entity of Prince Arthas Menethil and the orc shaman Ner'zhul. Arthas shattered the glacial prison atop the Frozen Throne in Icecrown and donned the Helm of Domination, uniting his mortal form and dark soul with Ner'zhul's spirit into a single absolute ruler of the Scourge."
+  },
+  {
+   "q": "Why did the Burning Legion create him?",
+   "aliases": [
+    "why make lich king",
+    "kiljaeden purpose",
+    "legion scourge origin"
+   ],
+   "answer": "Kil'jaeden created the Lich King to weaken Azeroth's defenders before a full demonic invasion. The previous invasion failed due to internal squabbling among the mortal Orcish Horde; a telepathically controlled army of the dead promised absolute obedience and complete exhaustion of mortal armies."
+  },
+  {
+   "q": "Where is the Lich King located?",
+   "aliases": [
+    "where is frozen throne",
+    "lich king location",
+    "where does he live"
+   ],
+   "answer": "He sits upon the Frozen Throne atop the icy glacier of Icecrown, deep within the remote and frozen continent of Northrend, far across the Great Sea north of Lordaeron."
+  },
+  {
+   "q": "How did Sylvanas break free from his control?",
+   "aliases": [
+    "how did forsaken break free",
+    "why sylvanas free",
+    "scourge loss of control"
+   ],
+   "answer": "When Illidan Stormrage attacked the Frozen Throne with powerful sorcery, the magical ice fractured and the Lich King's power began leaking out. As his telepathic grip weakened, a faction of undead regained their free will, rallied under Sylvanas Windrunner, and founded the Forsaken."
+  },
+  {
+   "q": "What is Frostmourne?",
+   "aliases": [
+    "what sword did arthas use",
+    "frostmourne lore",
+    "runeblade"
+   ],
+   "answer": "Frostmourne is the cursed, soul-stealing runeblade cast out from the Frozen Throne alongside the Lich King. It lured Prince Arthas Menethil into claiming it in Northrend, devouring the prince's soul and transforming him into the foremost death knight of the Scourge."
+  },
+  {
+   "q": "Who was Ner'zhul?",
+   "aliases": [
+    "nerzhul lore",
+    "who was nerzhul",
+    "original lich king"
+   ],
+   "answer": "Ner'zhul was an elder orc shaman of Draenor. When he attempted to flee the dying homeworld through dimensional rifts, he was captured by the demon Kil'jaeden, who tore his flesh away and warped his spirit into the all-seeing consciousness that became the Lich King."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Forsaken exist solely because the Lich King's telepathic grip faltered, and Queen Sylvanas drives her people with a burning hatred toward their former master in the frozen north."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans, the Lich King represents the ultimate tragedy: Prince Arthas, heir to the throne of Lordaeron and paladin of the Silver Hand, murdered his own father and annihilated his kingdom in the entity's name."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The Order of the Silver Hand was shattered by the Lich King's corrupting power, which transformed their greatest champion into a death knight who struck down Uther the Lightbringer."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The Scourge represents a grim perversion of the Light's sanctity, reminding holy practitioners of the terrible cost paid across Lordaeron's fallen parishes."
+  }
+ ],
+ "keywords": [
+  "arthas",
+  "cult of the damned",
+  "frostmourne",
+  "frozen throne",
+  "helm of domination",
+  "icecrown",
+  "kiljaeden",
+  "lich king",
+  "nerzhul",
+  "scourge"
+ ],
+ "related": [
+  "topic:arthas-menethil",
+  "topic:scourge",
+  "topic:plague-of-undeath",
+  "topic:cult-of-the-damned",
+  "npc:sylvanas-windrunner",
+  "topic:lordaeron",
+  "topic:burning-legion",
+  "subzone:stratholme"
+ ],
+ "attribution": [
+  "Lich King"
+ ]
+}

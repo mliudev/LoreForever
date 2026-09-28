@@ -1,0 +1,93 @@
+{
+ "key": "subzone:splintertree-post",
+ "type": "subzone",
+ "name": "Splintertree Post",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Splintertree Post"
+ },
+ "summary": "Splintertree Post is the primary Horde fortress in eastern Ashenvale, situated northwest of Felfire Hill. Established by Grommash Hellscream and the Warsong clan during the Third War, it serves as a heavily fortified bulwark against the night elves and a staging ground for territorial expansion.",
+ "sections": [
+  {
+   "title": "A Frontier Stronghold",
+   "body": "Carved straight out of the ancient woodlands, Splintertree Post serves as the Horde's main military and logistical hub across eastern Ashenvale. Originally established by Grommash Hellscream and the Warsong clan when orcs first pressed into the forest during the Third War, it remains a heavily armed enclave defended primarily by orcish and tauren scouts and warriors. Armed with a flight master, an inn, and steady supply lines to Orgrimmar, it anchors the Horde's contested presence beneath the canopy.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Constant Threat of Retaliation",
+   "body": "Splintertree Post exists in a state of perpetual readiness. The night elves have neither forgotten nor forgiven Grommash's actions during the war, nor do they tolerate ongoing orcish logging and raids against Astranaar. As a result, the settlement faces constant retaliatory strikes and guerilla attacks from the Sentinels hiding in the surrounding timber, testing the garrison's watchmen at all hours.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who founded Splintertree Post?",
+   "aliases": [
+    "who built splintertree",
+    "splintertree founder",
+    "grom splintertree"
+   ],
+   "answer": "It was established by Grommash Hellscream and the Warsong clan when the orcs first pushed into Ashenvale during the Third War to gather timber and establish a foothold."
+  },
+  {
+   "q": "Why do the night elves frequently attack this base?",
+   "aliases": [
+    "why are elves attacking",
+    "splintertree sentinel attacks",
+    "night elf raids splintertree"
+   ],
+   "answer": "The night elves view Splintertree as an illegal, desecrating intrusion on ancestral lands. Hostility lingers from Grommash's brutal campaigns in the Third War, fueled further by ongoing Horde logging and skirmishes against the nearby elven stronghold of Astranaar."
+  },
+  {
+   "q": "What amenities and travel options are available here?",
+   "aliases": [
+    "splintertree flight path",
+    "splintertree services",
+    "splintertree inn"
+   ],
+   "answer": "Splintertree Post provides an inn, stable master, mailbox, armor repair, and a wind rider flight master with routes connecting to Orgrimmar, the Crossroads, Valormok, Zoram'gar Outpost, and the Emerald Sanctuary."
+  },
+  {
+   "q": "Who currently makes up the garrison at Splintertree?",
+   "aliases": [
+    "splintertree guards",
+    "who lives in splintertree",
+    "splintertree races"
+   ],
+   "answer": "The settlement is populated primarily by orcs and tauren, functioning as seasoned scouts, sentries, and frontline officers tasked with holding the frontier."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Splintertree Post is the essential central base camp for adventurers pressing through Ashenvale, offering repairs, respite, and crucial flight routes across Kalimdor."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "To the night elves, this fortress is a bitter scar upon Ashenvale, founded by the very warlord who struck down Cenarius and perpetuated by invaders who butcher their ancient trees."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "felfire hill",
+  "grommash hellscream",
+  "splintertree post",
+  "vhulgra",
+  "warsong clan"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "topic:warsong-clan",
+  "topic:grommash-hellscream",
+  "subzone:astranaar",
+  "subzone:felfire-hill",
+  "zone:orgrimmar",
+  "subzone:zoram-gar-outpost",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Splintertree Post"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "key": "subzone:brill",
+ "type": "subzone",
+ "name": "Brill",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Brill"
+ },
+ "summary": "Brill is the primary Forsaken settlement in the heart of Tirisfal Glades, situated just north of the Ruins of Lordaeron. Once a prosperous human town, it now serves as the administrative and military hub for newly awakened undead stepping beyond the confines of Deathknell.",
+ "sections": [
+  {
+   "title": "From Plague Ground to Bastion",
+   "body": "Before the Third War, Brill was a lively village under the sway of regional nobles such as the Barov and Agamand families. That prosperity ended when Kel'Thuzad chose the area for the Cult of the Damned's earliest experiments with the Plague of Undeath. The devastating blight swept through the population so quickly that local militia were driven out, leaving a sprawling mass graveyard in its wake.\n\nNow rebuilt by the Forsaken under the leadership of Magistrate Sevren, the town retains its weathered Lordaeron architecture beneath an atmosphere of grim purpose. Brill functions as the regional command center, coordinating defenses against Scarlet Crusade incursions, roaming Scourge remnants, and native beasts warped by necromantic decay.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crossroads of Northern Lordaeron",
+   "body": "Beyond local defense, Brill is an essential crossroads linking Tirisfal Glades to the wider Horde. Overhead, the goblin-operated zeppelin tower provides transit south toward Durotar and deep into Stranglethorn Vale. Within the settlement, Gallows' End Tavern serves not only as a dark shelter for travelers, but also as a makeshift laboratory where captured Scarlet zealots are interrogated and subjected to apothecarial testing.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules Brill?",
+   "aliases": [
+    "brill leader",
+    "who is in charge of brill",
+    "magistrate of brill"
+   ],
+   "answer": "Magistrate Sevren oversees the civil administration and local defenses of Brill on behalf of Lady Sylvanas Windrunner and the Forsaken."
+  },
+  {
+   "q": "Why is there such a massive graveyard outside Brill?",
+   "aliases": [
+    "brill graveyard",
+    "cemetery near brill",
+    "why so many graves"
+   ],
+   "answer": "Kel'Thuzad conducted some of his very first live experiments with the Plague of Undeath in Brill. The contagion wiped out the local human population with horrifying speed, necessitating a mass graveyard to inter the victims before they rose as Scourge."
+  },
+  {
+   "q": "What is Gallows' End Tavern used for?",
+   "aliases": [
+    "gallows end",
+    "brill inn",
+    "what is happening in the brill tavern"
+   ],
+   "answer": "Aside from lodging weary travelers, the tavern's cellar serves as a base for apothecaries conducting chemical and toxicological experiments on captured Scarlet Crusade zealots."
+  },
+  {
+   "q": "Where does the zeppelin tower outside Brill travel to?",
+   "aliases": [
+    "brill zeppelin destinations",
+    "where do blimps go brill",
+    "brill flight paths"
+   ],
+   "answer": "The zeppelin tower operated by goblin crews connects Lordaeron directly to Kalimdor outside Orgrimmar, as well as south to Grom'gol Base Camp in Stranglethorn Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For Forsaken venturing out from Deathknell, Brill is the first glimpse of civilization and the starting ground for proving loyalty to the Dark Lady."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The zeppelin dock outside town serves as the northern Horde's primary link between Lordaeron and allied strongholds in Kalimdor and the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "forsaken",
+  "gallows end",
+  "lordaeron",
+  "magistrate sevren",
+  "tirisfal glades",
+  "zeppelin"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "subzone:brill-town-hall",
+  "subzone:gallows-end-tavern",
+  "npc:magistrate-sevren",
+  "subzone:deathknell",
+  "topic:forsaken",
+  "topic:scarlet-crusade",
+  "subzone:grom-gol-base-camp"
+ ],
+ "attribution": [
+  "Brill"
+ ]
+}

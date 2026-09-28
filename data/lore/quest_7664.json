@@ -1,0 +1,112 @@
+{
+ "key": "quest:7664",
+ "type": "quest",
+ "name": "Ivory Raptor Replacement",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   7664
+  ],
+  "level": "1",
+  "faction": "Horde",
+  "start": "Zjolnir",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Ivory Raptor Replacement",
+  "chain": []
+ },
+ "summary": "Ivory Raptor Replacement is a service offered by the troll raptor handler Zjolnir in Durotar. It allows veteran Horde riders who bonded with the rare ivory-scaled raptor to trade their old mount's whistle for an armored, swift beast bred for war.",
+ "sections": [
+  {
+   "title": "A Change of Mounts",
+   "body": "The Darkspear troll handlers at Sen'jin Village take great pride in rearing the finest hunting raptors in Kalimdor. As riding techniques and armor smithing advanced, Darkspear beast handlers began outfitting their swiftest predators with heavy barding and sharpened claws suited for full-scale conflict. Zjolnir offers riders carrying the whistle of an ivory raptor the chance to exchange their companion for one of these updated, armored war raptors.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Old Breeds",
+   "body": "Ivory raptors were among the early prized mounts seen carrying champions across Durotar and the Barrens. Lacking the heavy plates and gear of contemporary war mounts, these beasts relied purely on raw speed and instinct. While breeders like Zjolnir are eager to provide modern armor, some riders choose to keep their original companions as a symbol of early service to the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the ivory raptor exchange?",
+   "aliases": [
+    "who gives quest",
+    "raptor handler durotar",
+    "zjolnir"
+   ],
+   "answer": "Zjolnir, the raptor handler stationed outside Sen'jin Village in Durotar, manages the exchange of older mounts for freshly equipped swift raptors."
+  },
+  {
+   "q": "Why would someone trade in their raptor?",
+   "aliases": [
+    "why trade raptor",
+    "mount exchange reason",
+    "what do you get"
+   ],
+   "answer": "The newer swift raptors are raised and equipped with armored plating, sharpened talons, and updated harnesses tailored for frontline battle, giving champions a modern combat appearance without losing the speed of their old mount."
+  },
+  {
+   "q": "Do I have to give up my Ivory Raptor?",
+   "aliases": [
+    "keep ivory raptor",
+    "is exchange required",
+    "must i trade"
+   ],
+   "answer": "No. The exchange is entirely voluntary. Riders who appreciate the historic, unarmored appearance of the ivory raptor may simply keep their whistle and ride as they always have."
+  },
+  {
+   "q": "Where does this take place?",
+   "aliases": [
+    "where is zjolnir",
+    "replacement location"
+   ],
+   "answer": "The trade occurs at the raptor pens just east of Sen'jin Village along the southern coast of Durotar."
+  },
+  {
+   "q": "What happens to the old raptor whistle?",
+   "aliases": [
+    "lose old whistle",
+    "can i get it back"
+   ],
+   "answer": "Handing over the whistle of the ivory raptor is permanent. Zjolnir takes the original beast into the pens and issues a new mount whistle in return."
+  },
+  {
+   "q": "Can Alliance characters make this trade?",
+   "aliases": [
+    "alliance raptor trade",
+    "is this horde only"
+   ],
+   "answer": "No. Zjolnir serves only the Horde, and troll-bred raptors are kept strictly within Horde stables and territories."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "The raptors bred near Sen'jin Village represent the bond between the Darkspear and Kalimdor's fiercest predators, proving their skill at beast mastery in their new island home."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Armored mounts reflect the Horde's hardening military stance across Kalimdor, turning wild hunting predators into formidable weapons of war."
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "ivory raptor",
+  "sen'jin village",
+  "swift raptor",
+  "troll mount",
+  "whistle",
+  "zjolnir"
+ ],
+ "related": [
+  "npc:zjolnir",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Ivory Raptor Replacement"
+ ]
+}

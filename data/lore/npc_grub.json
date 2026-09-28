@@ -1,0 +1,73 @@
+{
+ "key": "npc:grub",
+ "type": "npc",
+ "name": "Grub",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Grub",
+  "refs": 1
+ },
+ "summary": "Grub is an enterprising orc living in a roadside hut just east of the Crossroads in the Barrens. Operating a modest frontier eatery alongside a cook and a baker, he is famous\u2014or perhaps notorious\u2014for introducing travelers to the culinary uses of local vermin.",
+ "sections": [
+  {
+   "title": "A Frontier Appetite",
+   "body": "Tucked against the crags just east of the Crossroads, Grub oversees a rustic dwelling shared with Duhng, his cook, and Tarban Hearthgrain, a baker. While life on the plains demands a hearty stomach, Grub takes frontier self-sufficiency to an extreme. Rather than letting the abundant dig rats of the Barrens go to waste, he has turned them into a staple ingredient, offering to teach passing wanderers how to simmer the subterranean rodents into a savory, if unglamorous, stew.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Grub?",
+   "aliases": [
+    "grub",
+    "who is grub",
+    "orc east of crossroads"
+   ],
+   "answer": "Grub is an orc residing in a hut just east of the Crossroads in the Barrens. He runs a small establishment alongside his cook, Duhng, and a baker named Tarban Hearthgrain, catering to travelers passing through the dusty frontier."
+  },
+  {
+   "q": "Where can I find Grub?",
+   "aliases": [
+    "grub location",
+    "where is grub",
+    "grub hut"
+   ],
+   "answer": "Grub can be found just east of the Crossroads along the foot of the mountains in the Barrens, nestled inside a small dwelling off the main path."
+  },
+  {
+   "q": "What does Grub need help with?",
+   "aliases": [
+    "grub quest",
+    "dig rat stew quest"
+   ],
+   "answer": "Grub tasks travelers with gathering dig rats from the Barrens, which are used to brew his signature Dig Rat Stew. In exchange, he shares the recipe with cooks willing to prepare it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Grub is an essential stop for aspiring frontier cooks, willing to share the recipe for Dig Rat Stew with anyone brave enough to gather the ingredients."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Situated just outside the Crossroads, Grub's roadside kitchen provides hearty sustenance and a lesson in resourcefulness for Horde travelers surviving the harsh plains."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "dig rat stew",
+  "duhng",
+  "grub",
+  "tarban hearthgrain"
+ ],
+ "related": [
+  "quest:862",
+  "subzone:crossroads",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Grub"
+ ]
+}

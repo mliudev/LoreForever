@@ -1,0 +1,118 @@
+{
+ "key": "quest:302",
+ "type": "quest",
+ "name": "Powder to Ironband",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   302
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Prospector Stormpike",
+  "end": "Jern Hornhelm",
+  "previous": "Report to Ironforge",
+  "next": "Resupplying the Excavation (Classic)",
+  "wiki": "Powder to Ironband",
+  "chain": []
+ },
+ "summary": "Powder to Ironband is an Alliance delivery quest connecting the Explorer's League headquarters in Ironforge to Loch Modan. Having secured official approval from Prospector Stormpike, adventurers are sent to Thelsamar to oversee a crucial shipment of blasting powder bound for Ironband's Excavation.",
+ "sections": [
+  {
+   "title": "Bureaucracy and Blasting Powder",
+   "body": "Archaeological excavation in the mountains of Khaz Modan requires heavy ordnance. When Prospector Ironband's expedition in southern Loch Modan ran short of blasting supplies, word was dispatched to the League's leadership in Ironforge. Prospector Stormpike quickly authorized the requisition, directing the runner to coordinate with Jern Hornhelm in Thelsamar, the primary logistical hub for the valley.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Missed Departure",
+   "body": "Because prior supply convoys through the Loch had vanished or suffered harassment from local troggs, Stormpike explicitly ordered the courier to personally safeguard the powder wagon. However, bureaucracy and travel time work against the League. By the time a courier arrives at the Stoutlager Inn in Thelsamar, Jern Hornhelm has already dispatched the wagon under the guard of Huldar and two dwarven porters, leaving the courier scrambling down the road to catch up.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is blasting powder being sent to Ironband?",
+   "aliases": [
+    "why need powder",
+    "ironband blasting powder",
+    "what is powder for"
+   ],
+   "answer": "Prospector Ironband leads a vital dwarven archaeological dig in southern Loch Modan. Uncovering titan artifacts and deep stone relics requires blasting through dense rock, and his team exhausted their supply amidst mounting trogg aggression."
+  },
+  {
+   "q": "Who is Prospector Stormpike?",
+   "aliases": [
+    "stormpike role",
+    "who gave quest"
+   ],
+   "answer": "Prospector Stormpike is a senior officer of the Dwarven Explorer's League stationed in the Hall of Explorers in Ironforge. He reviews field requests, authorizes critical equipment, and manages logistics for major dig sites across Khaz Modan."
+  },
+  {
+   "q": "Who is Jern Hornhelm?",
+   "aliases": [
+    "jern hornhelm location",
+    "where is jern hornhelm"
+   ],
+   "answer": "Jern Hornhelm is a logistics coordinator and mountaineer associate stationed in Thelsamar, Loch Modan. He prepares supplies and organizes transport teams heading into the more dangerous frontiers of the valley."
+  },
+  {
+   "q": "Why was personal escort requested for this shipment?",
+   "aliases": [
+    "why escort powder",
+    "trogg attacks on wagons"
+   ],
+   "answer": "Earlier shipments bound for the excavation failed to reach their destination. With Loch Modan overrun by troggs spilling out of the Stonewrought Dam and southern hills, supply lines along the main road have become increasingly hazardous."
+  },
+  {
+   "q": "What happens when you arrive in Thelsamar?",
+   "aliases": [
+    "did i miss the wagon",
+    "where is the shipment"
+   ],
+   "answer": "Jern Hornhelm has already sent the wagon on its way with Huldar and the porters Miran and Saean. You are forced to follow the southern road to catch up with them before trouble strikes."
+  },
+  {
+   "q": "How does this quest fit into the Explorer's League storyline?",
+   "aliases": [
+    "ironband chain",
+    "excavation questline"
+   ],
+   "answer": "It serves as the courier link connecting the initial request from the dig site, through the central authorities in Ironforge, and back out to the field via Thelsamar to safeguard the expedition's ongoing excavation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, securing excavation powder is not merely logistical support; it aids the holy endeavor of uncovering the mysterious origins of their race."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Maintaining the safety of Loch Modan's transit roads is crucial for Alliance cohesion between Ironforge and the eastern frontiers."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Blasting powder is an essential tool of the dwarven trade, utilized equally by miners and excavators seeking to crack the deepest bedrock."
+  }
+ ],
+ "keywords": [
+  "explorers league",
+  "huldar",
+  "ironforge",
+  "jern hornhelm",
+  "loch modan",
+  "powder to ironband",
+  "prospector stormpike",
+  "thelsamar"
+ ],
+ "related": [
+  "quest:301",
+  "npc:prospector-stormpike",
+  "npc:jern-hornhelm",
+  "npc:huldar",
+  "subzone:thelsamar"
+ ],
+ "attribution": [
+  "Powder to Ironband"
+ ]
+}

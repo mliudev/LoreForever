@@ -1,0 +1,130 @@
+{
+ "key": "quest:6062",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   6062
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Thotar",
+  "end": "Thotar",
+  "previous": "The Hunter's Path (Orc and Troll)",
+  "next": "Taming the Beast (Orc and Troll 2)",
+  "wiki": "Taming the Beast (Orc and Troll 1)",
+  "chain": [
+   "The Hunter's Path (Orc and Troll)",
+   "Taming the Beast (Orc and Troll 1)",
+   "Taming the Beast (Orc and Troll 2)",
+   "Taming the Beast (Orc and Troll 3)",
+   "Training the Beast (Orc and Troll)"
+  ]
+ },
+ "summary": "This trial marks a young Horde hunter's first step into the art of beast taming. Guided by the veteran Thotar in Razor Hill, aspiring hunters use an enchanted taming rod to subdue and bond with a vicious dire mottled boar.",
+ "sections": [
+  {
+   "title": "A Hunter's Rite of Passage",
+   "body": "For orc and Darkspear troll hunters coming of age in Durotar, surviving alone in the wilderness is only half the battle. A true master of the wilds must learn to project authority over nature itself, turning hostile beasts into loyal allies. Hunter trainer Thotar entrusts novices with an enchanted taming rod, challenging them to face down a fierce wild boar without resorting to a lethal arrow.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Boars of Durotar",
+   "body": "Dire mottled boars roam the arid brush surrounding Razor Hill. Though brutish and ill-tempered, their resilience and ferocity make them ideal introductory subjects for taming. Withstanding their charges and enduring their aggression while channeling the rod's power requires patience and iron resolve\u2014virtues essential for any tracker of the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this trial?",
+   "aliases": [
+    "why do this quest",
+    "boar taming quest reason",
+    "taming the beast point"
+   ],
+   "answer": "It serves as the first practical test for young hunters in Durotar, teaching them how to channel their will through a taming rod to subdue a wild creature rather than simply slaying it."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who gives taming the beast",
+    "where to get boar quest"
+   ],
+   "answer": "Thotar, the hunter trainer stationed in Razor Hill, offers this assignment once you have proven your basic survival skills across Durotar."
+  },
+  {
+   "q": "Where are the dire mottled boars found?",
+   "aliases": [
+    "boar location",
+    "where is dire mottled boar",
+    "where to find boar"
+   ],
+   "answer": "Dire mottled boars can be found wandering the dry scrublands just outside the palisades of Razor Hill in central Durotar."
+  },
+  {
+   "q": "Do you keep the boar permanently after this quest?",
+   "aliases": [
+    "do i keep the boar",
+    "is the boar my permanent pet",
+    "keep dire mottled boar"
+   ],
+   "answer": "No. The boar tamed during this initial exercise serves only as practice. It departs once returned to Thotar, as you must continue your training with other creatures before forming a lasting bond."
+  },
+  {
+   "q": "What comes after this task?",
+   "aliases": [
+    "next quest",
+    "what after boar taming",
+    "taming chain next step"
+   ],
+   "answer": "Once you return to Thotar, he will test your command over other deadly predators found in Durotar, including surf crawlers and armored scorpid beasts."
+  },
+  {
+   "q": "Why use a taming rod instead of pure instinct?",
+   "aliases": [
+    "why taming rod",
+    "what does the rod do",
+    "lore of taming rod"
+   ],
+   "answer": "Novice hunters lack the refined spiritual and physical discipline required to bond with beasts directly. The enchanted taming rod acts as a focus, helping novices project authority over a wild beast's spirit until they master the art permanently."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This rite of passage bridges the gap between a simple marksman and a true master of beasts, unlocking the hunter's defining bond with animal companions."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs, commanding a beast reflects strength of will and authority over the harsh wilderness of their new home in Durotar."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear hunters use this training to attune their spirits to the rugged wildlife of Kalimdor, continuing their ancient stalking traditions."
+  }
+ ],
+ "keywords": [
+  "dire mottled boar",
+  "durotar",
+  "hunter quest",
+  "pet taming",
+  "razor hill",
+  "taming rod",
+  "thotar"
+ ],
+ "related": [
+  "npc:thotar",
+  "subzone:razor-hill",
+  "zone:durotar",
+  "quest:6065",
+  "quest:6061",
+  "quest:6081",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Taming the Beast (Orc and Troll 1)"
+ ]
+}

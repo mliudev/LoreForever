@@ -1,0 +1,93 @@
+{
+ "key": "subzone:tarren-mill",
+ "type": "subzone",
+ "name": "Tarren Mill",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Tarren Mill"
+ },
+ "summary": "Tarren Mill is a beleaguered Forsaken outpost nestled in the northern reaches of the Hillsbrad Foothills beneath the Alterac Mountains. Once a peaceful human farming village, it now serves as the primary bastion of the Horde in Hillsbrad, locked in constant conflict with the Alliance town of Southshore to the south.",
+ "sections": [
+  {
+   "title": "From Grain to Grave",
+   "body": "Before the Third War, Tarren Mill was a thriving agricultural township loyal to the Kingdom of Lordaeron. During the Second War, it earned renown when Alliance forces rescued captured high elven archers from nearby orc encampments, securing Quel'Thalas's full commitment to the Alliance of Lordaeron. Today, however, the town's original living inhabitants are gone, replaced by the Forsaken. The town's architecture stands weathered and decayed, its fields barren, and its old mill silent as the new undead occupants fortify the settlement against constant threats from mountain beasts, Syndicate outlaws, and Alliance skirmishers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Front Line of Hillsbrad",
+   "body": "Tarren Mill functions as the Horde's vital forward operations base in the region. Directly opposed to the Alliance port of Southshore, the road between the two settlements has devolved into an open warzone. Horde travelers use Tarren Mill to push back against the human farmers and soldiers occupying Hillsbrad, coordinate strikes against dwarven excavators at Dun Garok, and secure the treacherous roads leading up into the snowy crags of the Alterac Mountains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Tarren Mill right now?",
+   "aliases": [
+    "who owns tarren mill",
+    "is tarren mill horde or alliance",
+    "tarren mill faction"
+   ],
+   "answer": "Tarren Mill is controlled entirely by the Forsaken and functions as the primary Horde questing hub and outpost in the Hillsbrad Foothills."
+  },
+  {
+   "q": "Why are Tarren Mill and Southshore fighting?",
+   "aliases": [
+    "southshore vs tarren mill",
+    "why fight southshore",
+    "hillsbrad war"
+   ],
+   "answer": "Tarren Mill represents the Forsaken and the Horde's southern reach in Lordaeron, while Southshore is the last major stronghold of the Alliance in the region. Their close proximity makes ongoing territorial warfare inevitable as both factions contest control of Hillsbrad's fertile land and strategic roads."
+  },
+  {
+   "q": "What was Tarren Mill like before the plague?",
+   "aliases": [
+    "tarren mill history",
+    "who lived here before",
+    "tarren mill lore"
+   ],
+   "answer": "It was a peaceful human farming and milling settlement of the Kingdom of Lordaeron. During the Second War, Alliance soldiers famously freed captive high elven archers near the town, securing Quel'Thalas's military pact with the Alliance of Lordaeron."
+  },
+  {
+   "q": "What threats exist around Tarren Mill besides the Alliance?",
+   "aliases": [
+    "tarren mill enemies",
+    "local dangers hillsbrad"
+   ],
+   "answer": "Beyond Southshore's forces, Tarren Mill must contend with local bandits of the Syndicate, highland yetis and ogres descending from the Alterac peaks, and fierce mountain wildlife roaming the foothills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Tarren Mill is your only major refuge in the Hillsbrad Foothills, offering a bat handler, supplies, and vital military support against encroaching Alliance forces from Southshore."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Taking hold of Tarren Mill expands Queen Sylvanas's southern borders, turning a once-proud Lordaeron farming town into a strategic stronghold against the living."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "forsaken",
+  "hillsbrad",
+  "hillsbrad foothills",
+  "lordaeron",
+  "southshore",
+  "syndicate",
+  "tarren mill"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "subzone:southshore",
+  "topic:forsaken",
+  "topic:horde",
+  "topic:alliance-of-lordaeron",
+  "zone:alterac",
+  "topic:syndicate",
+  "subzone:dun-garok"
+ ],
+ "attribution": [
+  "Tarren Mill"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "subzone:steam-pools",
+ "type": "subzone",
+ "name": "Steam Pools",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Steam Pools"
+ },
+ "summary": "Tucked high in the southern peaks of Feralas along the border of Silithus, the Steam Pools are a secluded mountain basin known for their mist and geothermal waters. Fed by hot springs that bubble up along the rocky slopes, the peaceful lake below remains largely untouched by the wider conflicts of Kalimdor.",
+ "sections": [
+  {
+   "title": "A Hidden Mountain Basin",
+   "body": "Perched above the canopy of southern Feralas and the barren sands of Silithus, the Steam Pools occupy an isolated highland valley. Geothermal warmth heats the upper springs, sending curls of mist over the crags into the large, clear lake resting at the bottom of the basin. Untouched by any settlement or garrison, the area remains one of the quietest and least disturbed wilderness pockets in the region.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Difficult Ascent",
+   "body": "Reaching the Steam Pools is no simple task, as no marked roads or trails lead into the valley. Travelers seeking the waters must scale the rugged hills southwest of the Darkmist Ruins past the Ruins of Isildien, or brave the sheer mountain ridges coming out of northern Silithus. Because of this natural barrier, the pools remain free of the ongoing struggles troubling the lowlands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Steam Pools located?",
+   "aliases": [
+    "steam pools location",
+    "where is steam pools",
+    "find steam pools"
+   ],
+   "answer": "The Steam Pools rest high in the mountain ridge bordering southern Feralas and northern Silithus, perched above the lowland jungles and deserts."
+  },
+  {
+   "q": "How do you reach the Steam Pools?",
+   "aliases": [
+    "how to get to steam pools",
+    "getting to steam pools",
+    "steam pools path"
+   ],
+   "answer": "There are no roads to the basin. Explorers typically hike up through the crags past the southwestern entrance of the Darkmist Ruins beyond the Ruins of Isildien, or climb the jagged ridgeline from northern Silithus."
+  },
+  {
+   "q": "Is there a settlement or camp at the Steam Pools?",
+   "aliases": [
+    "who lives at steam pools",
+    "steam pools town",
+    "steam pools resort"
+   ],
+   "answer": "No. The basin is an uninhabited natural wilderness, untouched by any permanent outposts, settlements, or camps."
+  },
+  {
+   "q": "Why are the waters steaming?",
+   "aliases": [
+    "why hot pools",
+    "geothermal pools feralas"
+   ],
+   "answer": "Natural geothermal activity beneath the mountain rock heats the higher spring pools, sending warm steam drifting across the cliffs and into the valley lake below."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei of Feralas, secluded natural sites like the Steam Pools represent the pristine, untamed beauty of Kalimdor that remains untouched by mortal ambition."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids studying the natural balance of Feralas often look to the Steam Pools as a peaceful sanctuary where elemental warmth and fresh mountain waters coexist in quiet harmony."
+  }
+ ],
+ "keywords": [
+  "darkmist ruins",
+  "feralas",
+  "geothermal",
+  "hot springs",
+  "isildien",
+  "silithus",
+  "steam pools"
+ ],
+ "related": [
+  "zone:feralas",
+  "zone:silithus",
+  "subzone:darkmist-ruins",
+  "subzone:ruins-of-isildien"
+ ],
+ "attribution": [
+  "Steam Pools"
+ ]
+}

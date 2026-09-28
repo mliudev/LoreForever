@@ -1,0 +1,132 @@
+{
+ "key": "quest:1945",
+ "type": "quest",
+ "name": "Laughing Sisters",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1945
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Deino",
+  "end": "Kil'hala",
+  "previous": "Waters of Xavian",
+  "next": "Nether-lace Garment",
+  "wiki": "Laughing Sisters",
+  "chain": []
+ },
+ "summary": "Laughing Sisters is a Horde quest that sends warlocks into the heart of Ashenvale to gather enchanted locks of hair from wild dryads. The material is destined for Kil'hala, an experienced troll tailor at the Crossroads, to spin into an empowered warlock robe. Hunting the daughters of Cenarius underscores the relentless friction between Horde spellcasters and the native defenders of the ancient woodland.",
+ "sections": [
+  {
+   "title": "Weaving the Arcane",
+   "body": "Following their efforts to secure corrupted water from Xavian, rising warlocks are directed by Deino in Orgrimmar to assist in crafting their own enchanted vestments. Arcane tailoring of this nature demands materials imbued with raw magical essence. Dryad locks, naturally suffused with the primeval vitality of the forest, hold the necessary qualities to thread intricate magical garments capable of shielding and augmenting a dark caster's powers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stalking Raynewood",
+   "body": "To harvest these locks, warlocks must venture south toward Raynewood Retreat in Ashenvale. The laughing sisters\u2014nimble, woodland dryads allied with the night elves\u2014guard these groves fiercely against encroaching woodsmen and fel practitioners alike. Because these woodland fey would never willingly surrender their hair to practitioners of shadow and fel magic, the harvest is inevitably paid in blood beneath the canopy of ancient trees.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Weaver's Prerogative",
+   "body": "Once gathered, the locks are carried south across the border to the dusty settlement of the Crossroads in the Barrens. There, the troll tailor Kil'hala receives the tribute without remorse. While acknowledging the loss of the woodland creatures with a touch of irony, Kil'hala wastes no time putting the enchanted strands to practical use, recognizing that power in the Horde often requires unyielding resolve.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who assigns the quest to hunt the Laughing Sisters?",
+   "aliases": [
+    "who gives laughing sisters quest",
+    "laughing sisters quest giver",
+    "deino quest"
+   ],
+   "answer": "Deino, a troll warlock trainer stationed in the dark recesses of the Cleft of Shadows in Orgrimmar, sends warlocks on this errand as reward and preparation for crafting their class robes."
+  },
+  {
+   "q": "What are the laughing sisters?",
+   "aliases": [
+    "what is a laughing sister",
+    "laughing sister dryad",
+    "are laughing sisters dryads"
+   ],
+   "answer": "Laughing sisters are dryads, daughters of the demigod Cenarius. Possessing the upper body of night elf women and the lower body of fawns, they protect the woodlands and sacred clearings of Ashenvale."
+  },
+  {
+   "q": "Where can the laughing sisters be found?",
+   "aliases": [
+    "laughing sisters location",
+    "where are laughing sisters",
+    "where to find laughing sisters"
+   ],
+   "answer": "They roam the forested areas near Raynewood Retreat and the Laughing Sister clearing in central Ashenvale, not far from the trade road."
+  },
+  {
+   "q": "Why does Kil'hala need dryad hair?",
+   "aliases": [
+    "why dryad hair",
+    "why laughing sister hair",
+    "what is the hair for"
+   ],
+   "answer": "Dryad hair is steeped in natural enchantment, making it an ideal thread for Kil'hala to weave into specialized, magically resonant robes suited for warlock arts."
+  },
+  {
+   "q": "Where do I deliver the hair once it is collected?",
+   "aliases": [
+    "where is kilhala",
+    "turn in laughing sisters",
+    "crossroads tailor warlock"
+   ],
+   "answer": "Deliver the hair to Kil'hala, an artisan tailor located in the bustling outpost of the Crossroads within the Barrens."
+  },
+  {
+   "q": "What happens after Kil'hala takes the hair?",
+   "aliases": [
+    "next quest after laughing sisters",
+    "after laughing sisters",
+    "nether lace garment follow up"
+   ],
+   "answer": "After receiving the hair, Kil'hala takes a brief moment to work with the material before offering the follow-up task, Nether-lace Garment, to finalize the robe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This rite of passage teaches rising warlocks that no woodland spirit or primeval sacredness is exempt from being harvested to weave instruments of dark power."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "The quest highlights the rare art of infusing living magical fibers into cloth armor, showcasing the high-level technique Kil'hala employs at the Crossroads."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Striking down the dryads of Ashenvale sharpens the conflict between the Horde's expansionist presence and the sacred forest guardians answering to the night elves."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "crossroads",
+  "deino",
+  "dryad",
+  "hair",
+  "kil'hala",
+  "laughing sisters",
+  "raynewood",
+  "warlock robe"
+ ],
+ "related": [
+  "quest:1944",
+  "quest:1946",
+  "npc:kil-hala",
+  "npc:deino",
+  "zone:ashenvale",
+  "zone:barrens",
+  "subzone:crossroads",
+  "subzone:raynewood-retreat"
+ ],
+ "attribution": [
+  "Laughing Sisters"
+ ]
+}

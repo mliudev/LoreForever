@@ -1,0 +1,74 @@
+{
+ "key": "npc:winna-hazzard",
+ "type": "npc",
+ "name": "Winna Hazzard",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": "Winna Hazzard",
+  "refs": 2
+ },
+ "summary": "Winna Hazzard is an eccentric Forsaken researcher stationed at Bloodvenom Post in Felwood. Accompanied by a feline companion and known for bouts of maniacal laughter, she studies the blighted ecosystem and conducts unsettling experiments with the zone's corrupted fauna.",
+ "sections": [
+  {
+   "title": "A Peculiar Researcher",
+   "body": "Winna Hazzard represents the Forsaken interest in Felwood's unnatural decay. Stationed in the Horde enclave of Bloodvenom Post, she spends her time observing the local wildlife and formulating experiments utilizing tainted waters and venomous samples. Her jovial, manic demeanor often masks callous motives, evident when she uses tainted liquids drawn from the land to corrupt the small kitten that stays by her side.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Winna Hazzard?",
+   "aliases": [
+    "winna hazzard",
+    "who is winna",
+    "felwood cat lady"
+   ],
+   "answer": "Winna Hazzard is a Forsaken questgiver located at Bloodvenom Post in north-central Felwood. She investigates Felwood's corrupting influences and tasks adventurers with collecting samples from the wilderness."
+  },
+  {
+   "q": "What happens to her kitten?",
+   "aliases": [
+    "winna kitten",
+    "corrupted cat",
+    "felwood cat experiment"
+   ],
+   "answer": "When adventurers bring Winna a filled flasket of corrupted liquid from the surrounding woods, she feeds it directly to her pet kitten, mutating the creature into a Corrupted Cat before laughing maniacally."
+  },
+  {
+   "q": "What is Winna Hazzard's goal in Felwood?",
+   "aliases": [
+    "winna hazzard motive",
+    "why is winna in felwood"
+   ],
+   "answer": "Like many Forsaken apothecaries and scholars, Winna seeks to understand and harness biological blights, using Felwood's pervasive corruption to study how it alters and twists living beasts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Winna embodies the darker eccentricities of the Forsaken, displaying reckless curiosity toward corruption without regard for natural harmony."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Stationed safely at Bloodvenom Post, Winna enlists passing Horde travelers to gather corrupted reagents for her bizarre research."
+  }
+ ],
+ "keywords": [
+  "bloodvenom post",
+  "corrupted cat",
+  "felwood",
+  "forsaken",
+  "kitten",
+  "winna hazzard"
+ ],
+ "related": [
+  "subzone:bloodvenom-post",
+  "zone:felwood",
+  "topic:forsaken",
+  "npc:altsoba-ragetotem"
+ ],
+ "attribution": [
+  "Winna Hazzard"
+ ]
+}

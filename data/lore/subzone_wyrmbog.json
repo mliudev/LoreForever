@@ -1,0 +1,86 @@
+{
+ "key": "subzone:wyrmbog",
+ "type": "subzone",
+ "name": "Wyrmbog",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Wyrmbog"
+ },
+ "summary": "Wyrmbog is the perilous southern expanse of Dustwallow Marsh, lying just south of the Dragonmurk. Dominated by foul mire and jagged spires of stone, it serves as the staging ground and territorial buffer for the black dragonflight. The caves of ancient wyrms, including the broodmother Onyxia and the elder Emberstrife, are carved directly into its surrounding ridges.",
+ "sections": [
+  {
+   "title": "Heart of the Brood",
+   "body": "Wyrmbog represents the most heavily infested black dragon territory in southern Kalimdor. Where the open waters of Dustwallow give way to scorched muck and towering bones, whelps and mature drakes patrol the fetid air. The bog is choked with toxic fumes and predatory beasts driven wild by the draconic presence. Travelers foolish enough to wander into these reaches find themselves directly in the shadow of Onyxia's Lair and Emberstrife's cavernous den.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Wyrmbog?",
+   "aliases": [
+    "wyrmbog",
+    "what is wyrmbog",
+    "where is wyrmbog"
+   ],
+   "answer": "Wyrmbog is the treacherous southern region of Dustwallow Marsh, situated south of the Dragonmurk. It is heavily infested with members of the black dragonflight."
+  },
+  {
+   "q": "Which dragons dwell in Wyrmbog?",
+   "aliases": [
+    "who lives in wyrmbog",
+    "dragons in wyrmbog",
+    "what dragons are here"
+   ],
+   "answer": "The black dragonflight commands the territory. Numerous black dragonkin, drakes, and whelps patrol the marsh, while elder wyrms like Emberstrife and the broodmother Onyxia keep their lairs along its southern perimeter."
+  },
+  {
+   "q": "Where is Onyxia's Lair located in relation to Wyrmbog?",
+   "aliases": [
+    "onyxia lair location",
+    "where is onyxia",
+    "entrance to onyxia"
+   ],
+   "answer": "The entrance to Onyxia's Lair is nestled into the rocky spires and cavern openings along the southern edge of the Wyrmbog."
+  },
+  {
+   "q": "Who is Emberstrife?",
+   "aliases": [
+    "emberstrife",
+    "who is emberstrife",
+    "emberstrifes den"
+   ],
+   "answer": "Emberstrife is an ancient black dragon who resides in a cave carved into the rock formations of the Wyrmbog, acting as a powerful guardian within the broodmother's territory."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions trailing the web of deception spun by the black dragonflight, Wyrmbog is the final, treacherous staging ground before reaching Onyxia's threshold."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Warchief Thrall's scouts keep a wary eye on Wyrmbog, knowing the black dragons nesting so close to the Barrens and Theramore pose a threat to the fragile balance in Kalimdor."
+  }
+ ],
+ "keywords": [
+  "black dragonflight",
+  "dragonmurk",
+  "drakes",
+  "dustwallow",
+  "emberstrife",
+  "marsh",
+  "onyxia",
+  "wyrmbog"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "subzone:onyxia-s-lair",
+  "subzone:dragonmurk",
+  "topic:black-dragonflight",
+  "npc:onyxia"
+ ],
+ "attribution": [
+  "Wyrmbog"
+ ]
+}

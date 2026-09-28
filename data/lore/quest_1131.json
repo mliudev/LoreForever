@@ -1,0 +1,128 @@
+{
+ "key": "quest:1131",
+ "type": "quest",
+ "name": "Steelsnap",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1131
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Melor Stonehoof",
+  "end": "",
+  "previous": "Melor Sends Word",
+  "next": null,
+  "wiki": "Steelsnap (quest)",
+  "chain": [
+   "Melor Sends Word",
+   "Steelsnap (quest)"
+  ]
+ },
+ "summary": "Steelsnap is a hunting task issued by Melor Stonehoof on Hunter Rise in Thunder Bluff. The hunt departs from traditional tauren reasons for killing, seeking the destruction of a vicious hyena whose pack terrorizes the wildlife of Thousand Needles.",
+ "sections": [
+  {
+   "title": "A Hunt Outside the Blessing",
+   "body": "Tauren tradition dictates that taking a life must serve a sacred or practical purpose: hunting for sustenance, hunting to uphold honor, or hunting to glean wisdom from the Earthmother. Melor Stonehoof offers this quarry as an exception to the rule. Steelsnap is viewed as an abomination against natural balance\u2014a brutal tyrant that sows senseless violence and fear rather than maintaining the cycle of life.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scourge of the Needles",
+   "body": "Steelsnap roams the canyons of northern Thousand Needles, lingering south of the centaur enclave at Camp E'thok. Unlike solitary scavengers, this formidable beast draws fierce packmates into his wake, orchestrating attacks that disrupt and cull the more docile wildlife of the canyon floor. Slaying him and retrieving his rib cleanses the needles of his vicious influence.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Melor Stonehoof want Steelsnap killed?",
+   "aliases": [
+    "why kill steelsnap",
+    "melor stonehoof reason",
+    "steelsnap motive"
+   ],
+   "answer": "Melor Stonehoof considers Steelsnap an aberration that exists outside the Earthmother's blessing. Unlike hunts meant for sustenance, honor, or natural balance, this hunt is an act of cleansing to stop a tyrannical predator from terrorizing peaceful beasts."
+  },
+  {
+   "q": "Where can Steelsnap be found?",
+   "aliases": [
+    "steelsnap location",
+    "where is steelsnap",
+    "find steelsnap"
+   ],
+   "answer": "Steelsnap prowls the dusty canyon floor of Thousand Needles, south of the centaur settlement at Camp E'thok in the northwestern reach of the zone."
+  },
+  {
+   "q": "What proof must be brought back to Thunder Bluff?",
+   "aliases": [
+    "steelsnap trophy",
+    "steelsnap objective",
+    "what do i loot"
+   ],
+   "answer": "You must claim Steelsnap's Rib from the slain beast and present it to Melor Stonehoof atop Hunter Rise."
+  },
+  {
+   "q": "Does Steelsnap fight alone?",
+   "aliases": [
+    "is steelsnap solo",
+    "steelsnap pack",
+    "steelsnap adds"
+   ],
+   "answer": "No. Steelsnap travels accompanied by other hyenas that follow his lead, making confronting him a dangerous multi-target skirmish."
+  },
+  {
+   "q": "How does this hunt differ from traditional tauren hunts?",
+   "aliases": [
+    "tauren hunting philosophy",
+    "earthmother hunting",
+    "hunt lesson"
+   ],
+   "answer": "While the tauren typically hunt solely for sustenance, martial honor, or spiritual insight, this hunt is purely preventative to remove a cruel beast that disrupts the natural harmony of the land."
+  },
+  {
+   "q": "Where does Melor Stonehoof dwell?",
+   "aliases": [
+    "melor stonehoof location",
+    "where is melor",
+    "melor coords"
+   ],
+   "answer": "Melor Stonehoof resides on Hunter Rise in Thunder Bluff, where he instructs hunters and tests seasoned trackers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the Shu'halo, taking a beast's life is a spiritual matter. Hunting Steelsnap serves as an instructive lesson in culling elements of the wild that cause senseless cruelty and fall outside the Earthmother's grace."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Taking down Steelsnap tests a tracker's ability to isolate a savage alpha pack leader amidst wandering escorts on the canyon floor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Carving a safer path through Thousand Needles protects vital supply lines and travelers crossing down from the Barrens toward Shimmering Flats."
+  }
+ ],
+ "keywords": [
+  "camp e'thok",
+  "earthmother",
+  "hunter rise",
+  "hyena",
+  "melor stonehoof",
+  "steelsnap",
+  "thousand needles",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:melor-stonehoof",
+  "quest:1130",
+  "zone:thousandneedles",
+  "subzone:hunter-rise",
+  "zone:thunderbluff",
+  "subzone:camp-e-thok",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Steelsnap (quest)"
+ ]
+}

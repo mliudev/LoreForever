@@ -1,0 +1,93 @@
+{
+ "key": "subzone:sun-rock-retreat",
+ "type": "subzone",
+ "name": "Sun Rock Retreat",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Sun Rock Retreat"
+ },
+ "summary": "Sun Rock Retreat is a hidden Horde sanctuary nestled high within the central peaks of the Stonetalon Mountains, just south of Mirkfallon Lake. Dominated by tauren and orcish forces, it serves as the Horde's primary staging ground and supply post in the region. Beyond its strategic utility, the settlement rests upon sacred ground long revered by the tauren for its deep spiritual resonance.",
+ "sections": [
+  {
+   "title": "A Sacred Haven in the Peaks",
+   "body": "Tucked away in a mountain basin south of Mirkfallon Lake, Sun Rock Retreat has long held spiritual importance for the tauren. According to ancient tradition, An'she, the Sun, kissed the very mountain peak where the village stands. For generations before the Horde's arrival, tauren shamans and pilgrims journeyed here to perform rituals bridging the mortal veil, drawing strength from the land's strong bond to the spirit world.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontier Outpost",
+   "body": "Today, Sun Rock Retreat serves as the Horde's principal base of operations across the Stonetalon Mountains. Orcs and tauren work side by side to establish a secure foothold against hostile harpy broods, local night elf sentinels, and the industrial pillaging of the Venture Company. As a central hub connecting trade and flight routes between Thunder Bluff, the Crossroads, and the borders of Ashenvale, the retreat provides shelter, provisions, and spiritual guidance to those braving the crags.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Sun Rock Retreat?",
+   "aliases": [
+    "what is sun rock",
+    "sun rock retreat info",
+    "who runs sun rock retreat"
+   ],
+   "answer": "Sun Rock Retreat is the primary Horde outpost in the Stonetalon Mountains. Inhabited mainly by tauren and orcs, it acts as a peaceful sanctuary, trading station, and command post for Horde champions working in the region."
+  },
+  {
+   "q": "Why is this place sacred to the tauren?",
+   "aliases": [
+    "why is sun rock sacred",
+    "anshe stonetalon",
+    "tauren sun rock lore"
+   ],
+   "answer": "Tauren legend holds that An'she, the Sun, touched the mountain where the retreat now stands. The land has an enduring connection to the spirit world, making it an ancient pilgrimage site for vision quests and communion with ancestors."
+  },
+  {
+   "q": "What threats does the retreat face?",
+   "aliases": [
+    "sun rock threats",
+    "who is attacking sun rock",
+    "stonetalon enemies"
+   ],
+   "answer": "The retreat contends with aggressive territorial harpies, hostile night elves guarding the sacred woods, and the destructive mining and logging efforts of the Venture Company, which ravages the natural landscape."
+  },
+  {
+   "q": "Where does the local flight master connect?",
+   "aliases": [
+    "sun rock flight paths",
+    "flying to sun rock retreat",
+    "sun rock flight master"
+   ],
+   "answer": "Sun Rock Retreat provides wind rider service connecting travelers directly to major central Kalimdor locations, including the Crossroads in the Barrens and the tauren capital of Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Sun Rock Retreat is more than an outpost to the shu'halo; it is sacred ground blessed by An'she, where shamans have walked the spirit realm for centuries."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As the Horde's main staging hub in the Stonetalon Mountains, Sun Rock Retreat offers a vital resupply post and flight hub amidst contested peaks."
+  }
+ ],
+ "keywords": [
+  "an'she",
+  "mirkfallon lake",
+  "stonetalon mountains",
+  "sun rock retreat",
+  "sunrock",
+  "tauren",
+  "venture company"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "zone:thunderbluff",
+  "subzone:crossroads",
+  "topic:tauren",
+  "topic:horde",
+  "topic:venture-company",
+  "subzone:mirkfallon-lake",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Sun Rock Retreat"
+ ]
+}

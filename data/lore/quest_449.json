@@ -1,0 +1,127 @@
+{
+ "key": "quest:449",
+ "type": "quest",
+ "name": "The Deathstalkers' Report",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   449
+  ],
+  "level": "11",
+  "faction": "Horde",
+  "start": "Rane Yorick",
+  "end": "High Executor Hadrec",
+  "previous": "Escorting Erland",
+  "next": "Speak with Renferrel",
+  "wiki": "The Deathstalkers' Report",
+  "chain": []
+ },
+ "summary": "The Deathstalkers' Report is a crucial military courier assignment delivered to High Executor Hadrec at the Sepulcher. After securing injured Deathstalkers in the northern wilds, you carry their gathered intelligence concerning unexpected Scourge activity back to Forsaken high command. This dispatch alters the Forsaken's assessment of their hold on Silverpine Forest.",
+ "sections": [
+  {
+   "title": "Frontline Intelligence",
+   "body": "The Deathstalkers act as the eyes, ears, and daggers of the Dark Lady, pushing into the untamed wilderness ahead of standard military units. Near the border of Tirisfal and Silverpine, an advance patrol ran into catastrophic resistance while charting enemy movements. Though Deathstalker Quinn barely survived his injuries and Erland fought his way to safety, their scouting mission yielded intelligence essential to the Forsaken occupation of Silverpine Forest.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scourge Factor",
+   "body": "When High Executor Hadrec reviews the sealed field report, it confirms dark news: the mindless forces of the Scourge have maintained a far heavier and more aggressive presence in Silverpine than Undercity strategists anticipated. Instead of merely securing abandoned human hamlets and pacifying rogue beasts, the Sepulcher command must brace for coordinated Scourge opposition while fighting to claim the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Deathstalker Report?",
+   "aliases": [
+    "deathstalker report",
+    "what is the report",
+    "what did yorick give me"
+   ],
+   "answer": "It is a field dispatch written by Deathstalker Rane Yorick on behalf of her wounded scouting cell. It compiles their observations regarding hostile threats, specifically unexpected Scourge activity in northern Silverpine Forest, and delivers that data straight to the regional commander at the Sepulcher."
+  },
+  {
+   "q": "Who is High Executor Hadrec?",
+   "aliases": [
+    "hadrec",
+    "high executor hadrec",
+    "sepulcher commander"
+   ],
+   "answer": "High Executor Hadrec is the military commander in charge of Forsaken operations in Silverpine Forest. Stationed at the Sepulcher, he coordinates scouts, defensive lines, and the broader campaign to push both the Scourge and hostile humans out of the region."
+  },
+  {
+   "q": "Why was the report's information a surprise to Hadrec?",
+   "aliases": [
+    "why surprised",
+    "hadrec reaction",
+    "scourge in silverpine"
+   ],
+   "answer": "The Forsaken leadership assumed the Scourge in Silverpine was scattered and minimal compared to the heavy fighting in Tirisfal Glades and the Plaguelands. The Deathstalkers' casualties and discoveries proved the Lich King's minions remain entrenched and dangerous even this far south."
+  },
+  {
+   "q": "Who are the Deathstalkers?",
+   "aliases": [
+    "deathstalkers",
+    "deathstalker lore",
+    "forsaken rogues"
+   ],
+   "answer": "The Deathstalkers are the elite covert order of the Forsaken, serving as assassins, spies, and forward scouts directly under Lady Sylvanas Windrunner's command. They operate throughout contested territories to root out threats before the regular army marches in."
+  },
+  {
+   "q": "Where is the Sepulcher located?",
+   "aliases": [
+    "where is sepulcher",
+    "sepulcher location"
+   ],
+   "answer": "The Sepulcher is a crypt and central base camp nestled in central Silverpine Forest, situated just west of the main north-south road. It serves as the primary garrison and resting point for Forsaken forces operating throughout the province."
+  },
+  {
+   "q": "What happens after Hadrec reads the report?",
+   "aliases": [
+    "next quest",
+    "what now",
+    "after hadrec"
+   ],
+   "answer": "Recognizing the gravity of the situation and the mounting threats in Silverpine, Hadrec directs you onward to consult with other specialists stationed at the Sepulcher, starting with Apothecary Renferrel to aid in developing counters to regional threats."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Delivering this intelligence directly supports the expansion of the Undercity and proves your reliability to High Executor Hadrec and the Deathstalker network."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The Deathstalkers represent the pinnacle of Forsaken espionage; carrying out their vital dispatches demonstrates your alignment with the Dark Lady's premier shadow operatives."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Forsaken's struggle to secure Silverpine against the Scourge is vital to establishing a secure Horde foothold across northern Lordaeron."
+  }
+ ],
+ "keywords": [
+  "deathstalker",
+  "erland",
+  "hadrec",
+  "quinn",
+  "rane yorick",
+  "report",
+  "scourge",
+  "sepulcher",
+  "silverpine",
+  "undercity"
+ ],
+ "related": [
+  "quest:435",
+  "npc:high-executor-hadrec",
+  "subzone:sepulcher",
+  "quest:3221",
+  "quest:1886",
+  "zone:silverpine",
+  "topic:scourge",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "The Deathstalkers' Report"
+ ]
+}

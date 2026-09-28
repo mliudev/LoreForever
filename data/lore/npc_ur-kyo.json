@@ -1,0 +1,112 @@
+{
+ "key": "npc:ur-kyo",
+ "type": "npc",
+ "name": "Ur'kyo",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Ur'kyo",
+  "refs": 3
+ },
+ "summary": "Ur'kyo is a revered jungle troll priest trainer located in the Valley of Spirits within Orgrimmar. Known as the spiritual leader and greatest priest among the Darkspear tribe, he guides fledgling practitioners of the spiritual arts in the capital of the Horde. Through his council, priests learn to commune with the spirits and balance the powerful forces of shadow and light.",
+ "sections": [
+  {
+   "title": "Spiritual Master of the Darkspear",
+   "body": "Residing in the serene waters and huts of the Valley of Spirits, Ur'kyo stands as one of the most prominent spiritual authorities in Orgrimmar. For the Darkspear trolls who fled the Echo Isles and forged a home in Durotar alongside Thrall's Horde, maintaining their sacred traditions is essential. Ur'kyo preserves these ancestral practices, serving as a pillar of spiritual discipline and guidance for tribal mystics and visiting practitioners alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guidance and Ancient Rites",
+   "body": "Priests walking the path of faith find a patient instructor in Ur'kyo. He oversees traditional training and ancient rites, including teachings that bestow the Hex of Weakness and the defensive ward known as Shadowguard. Ur'kyo also acts as a liaison for Horde priests seeking to understand the diverse spiritual practices within their coalition, helping them bridge the gap between troll voodoo, ancestral ways, and foreign disciplines.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ur'kyo?",
+   "aliases": [
+    "urkyo role",
+    "ur'kyo identity",
+    "who is urkyo"
+   ],
+   "answer": "Ur'kyo is a jungle troll and the primary priest trainer in Orgrimmar's Valley of Spirits. He is regarded as the spiritual leader of the Darkspear priests and the greatest practitioner of the priesthood among his tribe."
+  },
+  {
+   "q": "Where can I find Ur'kyo?",
+   "aliases": [
+    "ur'kyo location",
+    "urkyo map",
+    "find urkyo"
+   ],
+   "answer": "Ur'kyo resides in the Valley of Spirits, the troll-inhabited district on the western side of Orgrimmar. He can be found in the training huts near the water alongside other spiritual mentors."
+  },
+  {
+   "q": "What abilities does Ur'kyo teach?",
+   "aliases": [
+    "urkyo spells",
+    "ur'kyo abilities",
+    "troll priest spells"
+   ],
+   "answer": "As a class trainer, Ur'kyo instructs priests in foundational spells of shadow and light. In addition, he initiates Darkspear priests into their unique racial rites, guiding them to master Hex of Weakness and Shadowguard."
+  },
+  {
+   "q": "Why does Ur'kyo practice in Orgrimmar rather than the Echo Isles?",
+   "aliases": [
+    "urkyo orgrimmar lore",
+    "why is urkyo in orgrimmar"
+   ],
+   "answer": "Following the betrayal of Zalazane and the loss of the Echo Isles, the Darkspear tribe resettled alongside the orcs in Durotar. Ur'kyo established himself in the Valley of Spirits to maintain the tribe's mystical traditions and train new defenders for the Horde."
+  },
+  {
+   "q": "Does Ur'kyo interact with non-troll priests?",
+   "aliases": [
+    "can undead train at urkyo",
+    "urkyo horde trainer"
+   ],
+   "answer": "Yes. Ur'kyo instructs all Horde priests who visit him, serving as a conduit for knowledge between the Darkspear trolls and other members of the Horde, including the Forsaken."
+  },
+  {
+   "q": "What is Ur'kyo's role among the Darkspear priests?",
+   "aliases": [
+    "ur'kyo standing",
+    "greatest priest of the tribe"
+   ],
+   "answer": "Ur'kyo is recognized as the greatest priest of the Darkspear tribe and acts as their premier spiritual leader, ensuring that ancestral customs, rites, and voodoo practices are handed down to the next generation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Ur'kyo is a vital teacher for Horde priests traveling through Durotar, instructing adventurers in the mysteries of faith, shadow rites, and sacred wards."
+  },
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, Ur'kyo is the foremost spiritual guide in Orgrimmar, preserving the tribe's traditional voodoo and ancient magical rites after the loss of the Echo Isles."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Located in the heart of Orgrimmar's Valley of Spirits, Ur'kyo provides the spiritual backbone needed to prepare healers and shadowcasters for the Horde's defense."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "hex of weakness",
+  "orgrimmar",
+  "priest trainer",
+  "shadowguard",
+  "ur'kyo",
+  "urkyo",
+  "valley of spirits"
+ ],
+ "related": [
+  "subzone:valley-of-spirits",
+  "zone:orgrimmar",
+  "topic:troll",
+  "quest:5654",
+  "quest:5643",
+  "quest:5644"
+ ],
+ "attribution": [
+  "Ur'kyo"
+ ]
+}

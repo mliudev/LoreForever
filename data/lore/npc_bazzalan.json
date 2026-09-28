@@ -1,0 +1,109 @@
+{
+ "key": "npc:bazzalan",
+ "type": "npc",
+ "name": "Bazzalan",
+ "era": "classic",
+ "zone": "ragefire",
+ "meta": {
+  "wiki": "Bazzalan",
+  "refs": 5
+ },
+ "summary": "Bazzalan is a sinister satyr rogue lurking within the volcanic depths of Ragefire Chasm. Alongside Jergosh the Invoker, he commands the dark activities of the Searing Blade cult directly beneath the Horde capital of Orgrimmar.",
+ "sections": [
+  {
+   "title": "A Serpent Beneath the City",
+   "body": "While Thrall works to establish the Orcs' new home across Durotar, ancient evils have found a roost beneath his feet. Bazzalan, a cunning satyr rogue, has allied with the Searing Blade cult inside the winding lava caverns of Ragefire Chasm. Swift and lethal with twin blades, he serves as one of the cult's primary field commanders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cult Leadership and Deceit",
+   "body": "Perched upon a dark volcanic ledge overlooking the central chamber where Jergosh the Invoker conducts demonic rituals, Bazzalan oversees his cultist guards. Like all satyrs, his ultimate loyalty lies with demonic masters, using poisons, fast strikes, and dark stealth to eliminate any Horde scouts who venture too close to the cult's staging ground.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bazzalan?",
+   "aliases": [
+    "bazzalan lore",
+    "who is bazzalan",
+    "satyr boss rfc"
+   ],
+   "answer": "Bazzalan is a satyr rogue and co-leader of the Searing Blade cult operating inside Ragefire Chasm beneath Orgrimmar."
+  },
+  {
+   "q": "Where can Bazzalan be found in Ragefire Chasm?",
+   "aliases": [
+    "bazzalan location",
+    "where is bazzalan",
+    "find bazzalan"
+   ],
+   "answer": "He lurks along the upper ledges of Ragefire Chasm, stationed above Jergosh the Invoker. He can be reached by climbing dark ramps cut into the cavern walls."
+  },
+  {
+   "q": "What is a satyr doing beneath Orgrimmar?",
+   "aliases": [
+    "why is there a satyr in orgrimmar",
+    "why is bazzalan in rfc"
+   ],
+   "answer": "Bazzalan works in concert with the Searing Blade, a demonic cult seeking to undermine the Horde from within. Satyrs are bound to demonic powers and frequently act as instigators and assassins for shadow councils."
+  },
+  {
+   "q": "What abilities does Bazzalan use in combat?",
+   "aliases": [
+    "bazzalan abilities",
+    "bazzalan attacks",
+    "how does bazzalan fight"
+   ],
+   "answer": "Bazzalan fights as a classic rogue, striking rapidly with melee weapons, using Sinister Strike, and occasionally afflicting opponents with a mild debilitating poison."
+  },
+  {
+   "q": "What is his relationship to Jergosh the Invoker?",
+   "aliases": [
+    "jergosh and bazzalan",
+    "is bazzalan related to jergosh"
+   ],
+   "answer": "Bazzalan and Jergosh share leadership of the Searing Blade inside Ragefire Chasm. While Jergosh focuses on invocations and summoning dark forces, Bazzalan acts as the martial and stealth authority."
+  },
+  {
+   "q": "Why does the Horde want Bazzalan dead?",
+   "aliases": [
+    "bazzalan bounty",
+    "repel the invasion bazzalan"
+   ],
+   "answer": "His presence deep beneath the capital represents a direct demonic threat. Horde leaders commission adventurers to infiltrate Ragefire Chasm and eliminate him before the Searing Blade's plot endangers the city."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Bazzalan and his cult pose an intolerable hazard right below Thrall's stronghold, necessitating immediate extermination."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Bazzalan displays classic stealth techniques, vicious strikes, and venom-coated blades, making him an opponent of distinct professional interest."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Having fought so hard to escape the clutches of demonic manipulation, Orcs view a satyr directing cultists in their own foundations as an outrage."
+  }
+ ],
+ "keywords": [
+  "bazzalan",
+  "cultist",
+  "jergosh",
+  "orgrimmar",
+  "ragefire chasm",
+  "rfc",
+  "satyr",
+  "searing blade"
+ ],
+ "related": [
+  "zone:ragefire",
+  "npc:jergosh-the-invoker",
+  "topic:satyr"
+ ],
+ "attribution": [
+  "Bazzalan"
+ ]
+}

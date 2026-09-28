@@ -1,0 +1,105 @@
+{
+ "key": "npc:watcher-backus",
+ "type": "npc",
+ "name": "Watcher Backus",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Watcher Backus",
+  "refs": 3
+ },
+ "summary": "Watcher Backus is a member of the Night Watch tasked with patrolling the shadowy roads of Duskwood. Stationed along the thoroughfare between Darkshire and Manor Mistmantle, he keeps a weary eye out for lurking undead and strange travelers. His post also makes him a vital contact for those investigating suspicious movements tied to Stormwind's political intrigues.",
+ "sections": [
+  {
+   "title": "A Patrol in the Shadows",
+   "body": "Like the rest of the Night Watch, Watcher Backus faces an uphill struggle against the cursed woodland. Duskwood receives little support from the Stormwind garrison, leaving local volunteers to guard the misty paths on their own. Backus walks a solitary beat along the road leading west out of Darkshire, passing near the eerie Manor Mistmantle while keeping beast and ghoul at bay.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes on the Road",
+   "body": "Because of his isolated patrol route, Backus sees much of the traffic skirting the edges of Darkshire. When royal investigators trace the disappearance of a high-ranking diplomat down south, Backus serves as a crucial witness, having observed suspicious individuals passing quietly through the trees.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Watcher Backus?",
+   "aliases": [
+    "who is backus",
+    "watcher backus role",
+    "backus duskwood"
+   ],
+   "answer": "Watcher Backus is a human guard belonging to the Night Watch, the beleaguered town militia responsible for defending Darkshire and the roads of Duskwood."
+  },
+  {
+   "q": "Where can Watcher Backus be found?",
+   "aliases": [
+    "where is backus",
+    "backus location",
+    "backus patrol route"
+   ],
+   "answer": "He patrols the main road running west from Darkshire toward Manor Mistmantle in Duskwood."
+  },
+  {
+   "q": "What is the Night Watch?",
+   "aliases": [
+    "what is the night watch",
+    "night watch duskwood",
+    "darkshire guards"
+   ],
+   "answer": "The Night Watch is a local volunteer militia formed by the citizens of Duskwood to defend against undead, worgen, and feral beasts after Stormwind withdrew its official military presence."
+  },
+  {
+   "q": "How is Backus involved with The Missing Diplomat?",
+   "aliases": [
+    "backus missing diplomat",
+    "missing diplomat quest backus"
+   ],
+   "answer": "During the investigation into King Varian Wrynn's secret disappearance, clues lead adventurers to Duskwood. Backus provides firsthand information regarding the movements of suspicious travelers seen passing through the woods."
+  },
+  {
+   "q": "Does Watcher Backus have any town gossip surrounding him?",
+   "aliases": [
+    "backus brownell",
+    "watcher brownell crush"
+   ],
+   "answer": "Within Darkshire, fellow guard Watcher Brownell is known to harbor an unspoken crush on Backus, offering a rare moment of lighthearted town gossip amid the gloom."
+  },
+  {
+   "q": "Why does Backus patrol alone near Manor Mistmantle?",
+   "aliases": [
+    "why alone",
+    "backus danger"
+   ],
+   "answer": "The Night Watch is stretched thin across the entire territory. With few able-bodied defenders to spare, watchers are forced to handle long, dangerous patrol routes by themselves."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance agents unraveling the disappearance of the King, Backus represents a vital contact providing ground-level intelligence on the frontier."
+  },
+  {
+   "target": "race:Human",
+   "text": "Backus exemplifies the grit of Duskwood's human defenders, abandoned by the capital yet determined to hold the roads."
+  }
+ ],
+ "keywords": [
+  "backus",
+  "darkshire",
+  "duskwood",
+  "manor mistmantle",
+  "night watch",
+  "the missing diplomat",
+  "watcher backus"
+ ],
+ "related": [
+  "quest:1241",
+  "zone:duskwood",
+  "subzone:darkshire",
+  "subzone:manor-mistmantle"
+ ],
+ "attribution": [
+  "Watcher Backus"
+ ]
+}

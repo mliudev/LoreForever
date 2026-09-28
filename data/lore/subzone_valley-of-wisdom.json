@@ -1,0 +1,94 @@
+{
+ "key": "subzone:valley-of-wisdom",
+ "type": "subzone",
+ "name": "Valley of Wisdom",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Valley of Wisdom"
+ },
+ "summary": "Tucked against the northwestern cliffs of Orgrimmar, the Valley of Wisdom serves as the political and spiritual heart of the Horde's capital. Anchored by Grommash Hold, it is where Warchief Thrall holds court surrounded by advisers, diplomats, and towering tauren pavilions cooled by descending mountain waters.",
+ "sections": [
+  {
+   "title": "Heart of the Warchief's City",
+   "body": "While the Valley of Strength rings with martial drills, the Valley of Wisdom offers a quieter, more deliberative refuge. Surrounded by towering red rock bluffs and fed by a rushing waterfall that blankets the canyon in mist, this district serves as the seat of Horde leadership. In Grommash Hold, Warchief Thrall oversees matters of state, flanked by his council and honored champions. Outside, large tauren longhouses and tents, such as Miwana's Longhouse, establish a strong presence for Mulgore's tribes in the heart of Durotar.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Crossroads of Tradition",
+   "body": "Beyond statecraft, the valley serves as an essential nexus for spiritualists and travelers. Shamanic practitioners gather here beneath the spraying falls to commune with the elemental spirits of earth and water. The district provides all the essentials of city life\u2014traders, an inn, banking services, and an auction house\u2014while maintaining a natural, open-air atmosphere that bridges the rugged ways of the orcs with the nature-bound traditions of the tauren.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Grommash Hold located?",
+   "aliases": [
+    "where is thrall",
+    "grommash hold location",
+    "warchief seat"
+   ],
+   "answer": "Grommash Hold dominates the northern end of the Valley of Wisdom. It is the large stone structure where Warchief Thrall presides over the Horde, receives ambassadors, and plans military strategy."
+  },
+  {
+   "q": "Why are there so many tauren buildings here?",
+   "aliases": [
+    "why tauren in valley of wisdom",
+    "tauren district orgrimmar",
+    "miwana longhouse"
+   ],
+   "answer": "The Valley of Wisdom serves as the primary home and meeting ground for the tauren within Orgrimmar. Structures like Miwana's Longhouse provide a familiar lodge environment for visiting tribesmen, druids, and hunters visiting from Mulgore."
+  },
+  {
+   "q": "Which districts connect to the Valley of Wisdom?",
+   "aliases": [
+    "how to get to valley of wisdom",
+    "connections from wisdom"
+   ],
+   "answer": "The valley connects eastward into the bustling canyon of the Drag, southward toward the Valley of Strength and the subterranean Cleft of Shadow, and westward into the troll-settled Valley of Spirits."
+  },
+  {
+   "q": "What services can I find in this valley?",
+   "aliases": [
+    "wisdom valley bank",
+    "inn in valley of wisdom",
+    "trainers here"
+   ],
+   "answer": "The Valley of Wisdom offers full municipal services, including an inn, a banker, an auction house, and general trade supplies, along with specialized class trainers such as shaman instructors inside the longhouse."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren visiting the red wastes of Durotar, the Valley of Wisdom feels closest to home, hosting communal longhouses, familiar tents, and room to rest away from the clanging forges of the lower city."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "With the elemental roar of the mountain waterfall and Warchief Thrall holding council nearby, the valley stands as a premier gathering site for spiritual study and communion."
+  }
+ ],
+ "keywords": [
+  "grommash hold",
+  "longhouse",
+  "miwana",
+  "orgrimmar",
+  "shaman",
+  "tauren",
+  "thrall",
+  "valley of wisdom",
+  "waterfall"
+ ],
+ "related": [
+  "subzone:grommash-hold",
+  "npc:thrall",
+  "zone:orgrimmar",
+  "subzone:miwana-s-longhouse",
+  "topic:tauren",
+  "subzone:drag",
+  "subzone:valley-of-spirits",
+  "subzone:cleft-of-shadow"
+ ],
+ "attribution": [
+  "Valley of Wisdom"
+ ]
+}

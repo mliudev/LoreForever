@@ -1,0 +1,121 @@
+{
+ "key": "quest:2924",
+ "type": "quest",
+ "name": "Essential Artificials",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2924
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Klockmort Spannerspan",
+  "end": "",
+  "previous": "Klockmort's Essentials",
+  "next": null,
+  "wiki": "Essential Artificials",
+  "chain": []
+ },
+ "summary": "Essential Artificials is an Alliance quest offered by Klockmort Spannerspan in Ironforge's Tinker Town. Tasked with plumbing the depths of the irradiated ruins of Gnomeregan, adventurers must recover crucial universal components that were abandoned during the gnomes' desperate evacuation.",
+ "sections": [
+  {
+   "title": "Forgotten in the Exodus",
+   "body": "When the trogg invasion overwhelmed Gnomeregan and toxic radiation flooded its corridors, the fleeing gnomes could only carry what was immediately at hand. Among the countless marvels left behind were supplies of essential artificials\u2014specialized, nigh-universal mechanical components prized by tinkers and crafters. Now operating out of Tinker Town in Ironforge, master tinker Klockmort Spannerspan finds his groundbreaking new experiments stalled without them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Delving the Extrapolators",
+   "body": "These vital devices are housed within heavy, steam-powered storage units known as artificial extrapolators located deep within the fallen city. Salvaging them requires braving irradiated halls crawling with mutated leper gnomes, malfunctioning defense automatons, and feral troggs. Recovering a cache of twelve components allows Klockmort to resume his critical work, pushing gnomish innovation forward despite their exile.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is an essential artificial?",
+   "aliases": [
+    "what are essential artificials",
+    "essential artificial",
+    "what is it"
+   ],
+   "answer": "An essential artificial is a nigh-universal mechanical component developed by gnomish engineers. Highly valued by tinkers and smiths, it serves as a critical building block for intricate contraptions and advanced experimental machinery."
+  },
+  {
+   "q": "Who gives the quest Essential Artificials?",
+   "aliases": [
+    "quest giver",
+    "who starts this",
+    "where do i get essential artificials"
+   ],
+   "answer": "The quest is given by Klockmort Spannerspan, a gnomish engineer located in Tinker Town within Ironforge."
+  },
+  {
+   "q": "Where are the essential artificials found in Gnomeregan?",
+   "aliases": [
+    "where are they",
+    "extrapolator location",
+    "how to find artificials"
+   ],
+   "answer": "They are stored deep inside Gnomeregan within containers called artificial extrapolators, which resemble tall, steam-powered cabinets or closets scattered throughout the lower halls."
+  },
+  {
+   "q": "Why were they left behind in Gnomeregan?",
+   "aliases": [
+    "why left behind",
+    "why are they in gnomeregan",
+    "lore of the artificials"
+   ],
+   "answer": "During the sudden trogg invasion and the subsequent radioactive catastrophe, the gnomes fled their capital in sheer panic. In the chaos of the evacuation, stockpiles of these crucial components were left behind in the lower workshops."
+  },
+  {
+   "q": "What does Klockmort need them for?",
+   "aliases": [
+    "why does klockmort want them",
+    "klockmort's plan"
+   ],
+   "answer": "Klockmort Spannerspan requires a substantial supply of these universal components to fuel a series of new, complex experiments he is preparing to undertake from his workshop in Ironforge."
+  },
+  {
+   "q": "Is Klockmort's Essentials required before taking this quest?",
+   "aliases": [
+    "prerequisite",
+    "prereq",
+    "klockmorts essentials required"
+   ],
+   "answer": "While the courier delivery quest 'Klockmort's Essentials' introduces you to Klockmort and directs you to his workshop, it is not a strict prerequisite for accepting Essential Artificials."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Retrieving these components is a matter of national pride and technological continuity, ensuring that exile in Ironforge does not halt gnomish ingenuity."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Every engineer understands the agony of missing a single universal component; recovering these devices highlights the sheer sophistication of pre-fall Gnomeregan craftsmanship."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Assisting the exiled gnomes in reclaiming their lost tech strengthens the Alliance's technological backbone housed inside Ironforge."
+  }
+ ],
+ "keywords": [
+  "artificial extrapolator",
+  "essential artificials",
+  "gnomeregan",
+  "gnomish engineering",
+  "ironforge",
+  "klockmort spannerspan",
+  "tinker town"
+ ],
+ "related": [
+  "quest:1704",
+  "quest:2925",
+  "zone:gnomeregan",
+  "zone:ironforge",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Essential Artificials"
+ ]
+}

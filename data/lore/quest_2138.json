@@ -1,0 +1,121 @@
+{
+ "key": "quest:2138",
+ "type": "quest",
+ "name": "Cleansing of the Infected",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   2138
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Tharnariun Treetender",
+  "end": "",
+  "previous": "Plagued Lands",
+  "next": "Tharnariun's Hope (quest)",
+  "wiki": "Cleansing of the Infected",
+  "chain": [
+   "Plagued Lands",
+   "Cleansing of the Infected",
+   "Tharnariun's Hope (quest)"
+  ]
+ },
+ "summary": "Cleansing of the Infected is an Alliance task in Darkshore given by Tharnariun Treetender in Auberdine. After attempted herbal cures fail to halt the woodland sickness, the caretaker reluctantly orders a cull of the rabid thistle bears roaming the misty wilderness. It represents a bitter turning point where preservation gives way to containment.",
+ "sections": [
+  {
+   "title": "A Bitter Necessity",
+   "body": "Tharnariun Treetender has spent long hours searching for a remedy to stem the creeping affliction corrupting Darkshore's wildlife. Despite the careful brewing of medicinal drafts from native roots and mosses, the thistle bears remain deeply diseased and violent. Having exhausted his gentler options, the night elf tender concludes that putting the beasts down is the only immediate way to prevent them from mauling other creatures and spreading their sickness further into the ancient woodlands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Containing the Wilds",
+   "body": "The culling of twenty rabid bears is an agonizing duty for any servant of nature. Tharnariun admits plainly that killing the beasts will not cure the underlying plague, but it purchases valuable time for the defenders of Auberdine. Until the primary source of the forest's corruption can be identified and severed, thinning the aggressive herds remains the settlement's only buffer against catastrophe.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Tharnariun want the thistle bears killed instead of cured?",
+   "aliases": [
+    "why kill the bears",
+    "why not cure bears",
+    "tharnariun bear quest"
+   ],
+   "answer": "Tharnariun previously attempted to brew and test an herbal cure, but it utterly failed against the sickness. With the diseased bears turning violent and threatening other creatures, killing them is a last resort to slow the disease's spread."
+  },
+  {
+   "q": "Who is Tharnariun Treetender?",
+   "aliases": [
+    "tharnariun role",
+    "who gives cleansing of the infected"
+   ],
+   "answer": "Tharnariun is a night elf caretaker stationed in Auberdine. He studies the ailments gripping Darkshore's flora and fauna, striving to preserve the natural balance against spreading corruption."
+  },
+  {
+   "q": "Does slaying the rabid bears actually end the plague?",
+   "aliases": [
+    "does this fix darkshore",
+    "is the plague cured"
+   ],
+   "answer": "No. Tharnariun explicitly warns that killing the rabid bears will not stop the plague. It only buys the forest and the residents of Auberdine precious time by slowing the rate of infection and violence."
+  },
+  {
+   "q": "What comes after Cleansing of the Infected?",
+   "aliases": [
+    "next quest after cleansing",
+    "what follows cleasning infected"
+   ],
+   "answer": "Once you report back to Tharnariun, he asks you to prepare your spirit for further bloodshed and offers the follow-up quest, Tharnariun's Hope, to continue addressing the blighted wildlife."
+  },
+  {
+   "q": "Where are the rabid thistle bears found?",
+   "aliases": [
+    "rabid thistle bear location",
+    "where are bears darkshore"
+   ],
+   "answer": "Rabid thistle bears wander the coastal and inland forest stretches of central Darkshore, often found roaming among the misty pines south and east of Auberdine."
+  },
+  {
+   "q": "What caused the thistle bears to go rabid?",
+   "aliases": [
+    "why are bears sick",
+    "bear sickness darkshore"
+   ],
+   "answer": "The bears are victims of a mysterious taint sweeping through northern Kalimdor's woodlands, corrupting peaceful wildlife into frenzied, aggressive beasts that defy standard herbal remedies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, ordering the slaughter of corrupted beasts is a heavy burden, underscoring how deeply post-war corruption has penetrated their ancestral homeland."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids who revere the wild bear spirits find Tharnariun's command especially poignant: it is an act of mercy and forest triage rather than routine hunting."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters understand that culling diseased predators is sometimes mandatory to protect the wider ecology, even when the underlying cause remains unsolved."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "cleansing",
+  "darkshore",
+  "infected",
+  "rabid thistle bear",
+  "tharnariun",
+  "treetender"
+ ],
+ "related": [
+  "npc:tharnariun-treetender",
+  "quest:2118",
+  "quest:2139",
+  "zone:darkshore",
+  "subzone:auberdine"
+ ],
+ "attribution": [
+  "Cleansing of the Infected"
+ ]
+}

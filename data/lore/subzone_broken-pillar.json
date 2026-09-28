@@ -1,0 +1,85 @@
+{
+ "key": "subzone:broken-pillar",
+ "type": "subzone",
+ "name": "Broken Pillar",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Broken Pillar"
+ },
+ "summary": "The Broken Pillar is a weathered cluster of ancient troll ruins jutting from the dunes south of Gadgetzan. It serves as an isolated research post for the goblin prospector and scientist Marvon Rivetseeker, who studies the enigmatic artifacts buried beneath the surrounding sands.",
+ "sections": [
+  {
+   "title": "Sun-Bleached Stone",
+   "body": "Rising out of the sands south of Gadgetzan and east of the treacherous Abyssal Sands, the Broken Pillar marks the remnants of ancient troll architecture long swallowed by Tanaris. Despite the desolate surroundings and encroaching desert beasts, the site offers rare clues to the continent's prehistoric civilisations. Marvon Rivetseeker, a goblin researcher originally based out of Ratchet, has established a lonely camp beside the shattered stonework to examine curious relics known as Gahz'ridian scattered across the waste.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Broken Pillar?",
+   "aliases": [
+    "broken pillar tanaris",
+    "what is broken pillar",
+    "pillar ruins"
+   ],
+   "answer": "The Broken Pillar is an ancient troll ruin located in central Tanaris, south of Gadgetzan and east of the Abyssal Sands. Little remains of the original structure aside from weathered stone pillars and debris half-buried in the shifting dunes."
+  },
+  {
+   "q": "Who is camped at the Broken Pillar?",
+   "aliases": [
+    "who is at broken pillar",
+    "broken pillar npc",
+    "marvon rivetseeker location"
+   ],
+   "answer": "Marvon Rivetseeker, an inquisitive goblin scientist and prospector from Ratchet, has set up a solitary research camp among the ruins. He investigates the mysterious Gahz'ridian ornaments buried throughout the surrounding desert."
+  },
+  {
+   "q": "Who built the original ruins here?",
+   "aliases": [
+    "who built broken pillar",
+    "broken pillar history",
+    "broken pillar origin"
+   ],
+   "answer": "The stonework is of ancient troll design, dating back to the eras when ancient troll empires held dominion across southern Kalimdor long before desert sands engulfed the region."
+  },
+  {
+   "q": "What are Gahz'ridian relics?",
+   "aliases": [
+    "gahzridian",
+    "what is gahzridian",
+    "marvon quest items"
+   ],
+   "answer": "Gahz'ridian are ancient stone artifacts and carved faces buried in the sands of Tanaris. Marvon Rivetseeker studies them from his camp at the Broken Pillar to unlock the secrets and power held within the vanished empire's craft."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "The crumbling pillars are solemn markers of ancestral troll architecture, echoing an era before the empire's dominion over southern Kalimdor was fractured by time and sand."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "The curiosity driving Marvon Rivetseeker's research into unknown relic properties mirrors gnomish scholarly ambition, though his methods remain distinctively goblin."
+  }
+ ],
+ "keywords": [
+  "broken pillar",
+  "gadgetzan",
+  "gahz'ridian",
+  "marvon rivetseeker",
+  "ratchet",
+  "tanaris",
+  "troll ruins"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:gadgetzan",
+  "subzone:ratchet",
+  "topic:troll",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Broken Pillar"
+ ]
+}

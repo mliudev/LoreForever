@@ -1,0 +1,91 @@
+{
+ "key": "subzone:lake-al-ameth",
+ "type": "subzone",
+ "name": "Lake Al'Ameth",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Lake Al'Ameth"
+ },
+ "summary": "Lake Al'Ameth is one of the largest freshwater bodies nestled high in the boughs of Teldrassil, located just south of Dolanaar. Though once a tranquil haven featuring little more than a simple wooden jetty, its shores have grown perilous due to the violent agitation of the local plant life.",
+ "sections": [
+  {
+   "title": "A Troubled Shoreline",
+   "body": "Resting immediately south of the village of Dolanaar, Lake Al'Ameth serves as a vital natural basin in the heart of Teldrassil. Despite its serene waters and minimal settlement, peace here has evaporated. Swarms of agitated timberlings and timberling sprouts prowl the water's edge, driven mad by an unnatural sickness spreading through the world tree. Druids and researchers from Dolanaar frequently dispatch travelers to these shores to gather seeds and cull the aggressive creatures before the corruption spreads deeper into the surrounding forest.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Roots of Wrath",
+   "body": "The hostility around Lake Al'Ameth is directly tied to the woodland spirits losing their balance. Massive, corrupted treants like Oakenscowl lurk in the nearby groves, while natural timberlings lash out at any who approach. For the Cenarion Circle, diagnosing and treating the rot around Lake Al'Ameth is an urgent test of whether Teldrassil's unblessed creation can truly be sustained.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Lake Al'Ameth located?",
+   "aliases": [
+    "lake alameth location",
+    "where is lake al'ameth",
+    "find lake al'ameth"
+   ],
+   "answer": "Lake Al'Ameth lies directly south of the night elf settlement of Dolanaar in eastern Teldrassil."
+  },
+  {
+   "q": "Why are the creatures around Lake Al'Ameth hostile?",
+   "aliases": [
+    "why timberlings angry",
+    "lake alameth enemies",
+    "aggressive timberlings"
+   ],
+   "answer": "The timberlings and plant life along the shores have fallen victim to a corrupting sickness afflicting Teldrassil, driving previously harmless woodland spriggans and treants into a territorial rage."
+  },
+  {
+   "q": "What structures or landmarks are on the lake?",
+   "aliases": [
+    "lake alameth pier",
+    "dock at lake alameth"
+   ],
+   "answer": "The lake is largely wild and undeveloped, featuring only a simple wooden fishing jetty on its northern bank near the path from Dolanaar."
+  },
+  {
+   "q": "Who is Oakenscowl?",
+   "aliases": [
+    "what is oakenscowl",
+    "oakenscowl lake al'ameth"
+   ],
+   "answer": "Oakenscowl is a powerful, corrupted ancient lurking near the groves of Lake Al'Ameth. He serves as an embodiment of the violent rot warping the forest creatures in the area."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei of Dolanaar, Lake Al'Ameth is an alarming sign of the ailments troubling their newly raised home, forcing young defenders to protect the surrounding road."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The wild timberlings around the lake offer druids a hands-on study of the unnatural corruption undermining Teldrassil's flora and fauna."
+  }
+ ],
+ "keywords": [
+  "dolanaar",
+  "kaldorei",
+  "lake al'ameth",
+  "oakenscowl",
+  "teldrassil",
+  "timberling",
+  "timberling seeds"
+ ],
+ "related": [
+  "subzone:dolanaar",
+  "zone:teldrassil",
+  "quest:918",
+  "quest:919",
+  "quest:2499",
+  "quest:922",
+  "quest:941",
+  "quest:940"
+ ],
+ "attribution": [
+  "Lake Al'Ameth"
+ ]
+}

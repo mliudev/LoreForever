@@ -1,0 +1,94 @@
+{
+ "key": "subzone:chillwind-camp",
+ "type": "subzone",
+ "name": "Chillwind Camp",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Chillwind Camp"
+ },
+ "summary": "Chillwind Camp sits at the southern pass leading into the Western Plaguelands from the Alterac Mountains. Manned by an Alliance contingent working alongside the Argent Dawn, it serves as the final safe staging ground before the blighted ruins of Lordaeron. From this precarious outpost, commanders direct strikes against the nearby Scourge strongholds and plague cauldrons.",
+ "sections": [
+  {
+   "title": "The Edge of the Blight",
+   "body": "Tucked into the rocky pass descending from Chillwind Point, Chillwind Camp is the first line of defense and primary base of operations for Alliance forces pushing into the Western Plaguelands. Though physically separated from the worst of the corruption by the high mountain ridges, the dead chill of the north hangs heavily over the tents and palisades. Under Commander Ashlam Valorfist, a sparse garrison of soldiers, scouts, and Argent Dawn specialists attempts to contain the horrors lingering along the King's Road and gather the intelligence necessary to reclaim Lordaeron's fallen fields.",
+   "spoiler": 0
+  },
+  {
+   "title": "A War of Attrition",
+   "body": "Lacking the standing armies required for a full-scale assault on Andorhal or the necromantic fortress of Scholomance, Chillwind Camp relies heavily on independent champions and mercenaries. Operations here focus on surgical guerilla strikes: gathering field intelligence on the Cult of the Damned, neutralizing the alchemical plague cauldrons poisoning the soil, and keeping supply corridors open to eastern outposts like Light's Hope Chapel. With the Scourge occupying the ruins just to the north and the Forsaken fortifying the western border, the camp's defenders fight simply to keep the pass from being overwhelmed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Chillwind Camp?",
+   "aliases": [
+    "why is chillwind camp here",
+    "purpose of chillwind",
+    "what is chillwind camp"
+   ],
+   "answer": "Chillwind Camp serves as the primary southern foothold for the Alliance and the Argent Dawn at the border of the Western Plaguelands. It provides a secure base for staging guerrilla attacks against the Scourge in Andorhal and neutralizing the regional plague cauldrons."
+  },
+  {
+   "q": "How do you reach Chillwind Camp from Southshore?",
+   "aliases": [
+    "how to get to chillwind camp",
+    "directions to chillwind",
+    "path to chillwind"
+   ],
+   "answer": "From Southshore in the Hillsbrad Foothills, travel north along the road, head east at the crossroads, and follow the river northward into the Alterac mountain pass. Heading west through the high gap brings travelers out at Chillwind Point and down directly into the camp."
+  },
+  {
+   "q": "What is the Horde equivalent of this outpost?",
+   "aliases": [
+    "horde chillwind camp",
+    "horde version of chillwind",
+    "is there a horde chillwind"
+   ],
+   "answer": "The Horde's counterpart is the Bulwark, situated along the western frontier between Tirisfal Glades and the Western Plaguelands. Both outposts serve as fortified staging grounds for campaigns against the regional Scourge."
+  },
+  {
+   "q": "Who commands the forces at Chillwind Camp?",
+   "aliases": [
+    "chillwind camp leader",
+    "who is in charge of chillwind camp",
+    "commander of chillwind"
+   ],
+   "answer": "Commander Ashlam Valorfist leads the garrison at Chillwind Camp, coordinating Alliance volunteers, Knights of the Silver Hand, and Argent Dawn liaisons in operations across the surrounding ruins and tainted farms."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Chillwind Camp is the vanguard of the Alliance's effort to reclaim northern Lordaeron, offering safe refuge, griffon transit, and operational orders against the Scourge."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Promising paladins are directed here by Lord Grayson Shadowbreaker in Stormwind to assist Commander Valorfist and bring the holy wrath of the Silver Hand to the undead ranks."
+  }
+ ],
+ "keywords": [
+  "alterac mountains",
+  "andorhal",
+  "argent dawn",
+  "ashlam valorfist",
+  "cauldrons",
+  "chillwind camp",
+  "chillwind point",
+  "western plaguelands"
+ ],
+ "related": [
+  "zone:westernplaguelands",
+  "subzone:chillwind-point",
+  "subzone:andorhal",
+  "subzone:bulwark",
+  "subzone:scholomance",
+  "subzone:light-s-hope-chapel",
+  "topic:argent-dawn",
+  "npc:lord-grayson-shadowbreaker"
+ ],
+ "attribution": [
+  "Chillwind Camp"
+ ]
+}

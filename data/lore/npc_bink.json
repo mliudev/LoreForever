@@ -1,0 +1,88 @@
+{
+ "key": "npc:bink",
+ "type": "npc",
+ "name": "Bink",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Bink",
+  "refs": 1
+ },
+ "summary": "Bink is a gnome mage trainer who resides within the Hall of Mysteries in Ironforge's Mystic Ward. Quick-witted and enthusiastic, she guides aspiring spellcasters through the intricacies of the arcane arts and connects them with prominent wizards across the Alliance.",
+ "sections": [
+  {
+   "title": "A Beacon in the Hall of Mysteries",
+   "body": "Located in the Mystic Ward of Ironforge, Bink stands among the gathered scholars, priests, and arcanists in the Hall of Mysteries. Like many gnomes driven from Gnomeregan, she has adapted to life within the dwarven mountain stronghold, offering her keen intellect and knowledge of arcane craft to those learning the path of the mage. She is well connected to wizards across the Eastern Kingdoms and Kalimdor, regularly pointing promising apprentices toward greater mentors such as High Sorcerer Andromath in Stormwind or Tabetha in Dustwallow Marsh.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bink?",
+   "aliases": [
+    "bink lore",
+    "who is bink",
+    "bink ironforge"
+   ],
+   "answer": "Bink is an Alliance gnome mage trainer stationed inside the Hall of Mysteries within the Mystic Ward of Ironforge. She teaches arcane spellcraft and serves as a mentor and contact for developing mages."
+  },
+  {
+   "q": "Where can I find Bink?",
+   "aliases": [
+    "bink location",
+    "where is bink",
+    "find bink"
+   ],
+   "answer": "She can be found inside the Hall of Mysteries, which sits in the western wing of the Mystic Ward in the city of Ironforge."
+  },
+  {
+   "q": "What quests involve Bink?",
+   "aliases": [
+    "bink quests",
+    "speak with bink quest"
+   ],
+   "answer": "Developing mages are directed to her via quests like Speak with Bink. In turn, she directs mages toward further studies, sending them to authorities such as High Sorcerer Andromath in Stormwind Keep or the hermit mage Tabetha in Dustwallow Marsh."
+  },
+  {
+   "q": "What does Bink say to non-mages?",
+   "aliases": [
+    "bink gossip",
+    "bink dialogue"
+   ],
+   "answer": "If approached by someone who does not practice the arcane, she cheerfully offers some practical advice: 'Befriend a mage! We have a trick or two up our sleeves, we do...'"
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For Alliance mages visiting or based in Ironforge, Bink serves as a vital trainer and quest contact, dispatching students to study under powerful mentors across Azeroth."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Bink represents the continued pursuit of arcane mastery among exiled gnomes sheltering in the great halls of their dwarven allies."
+  }
+ ],
+ "keywords": [
+  "andromath",
+  "bink",
+  "gnome",
+  "hall of mysteries",
+  "ironforge",
+  "mage trainer",
+  "mystic ward",
+  "tabetha"
+ ],
+ "related": [
+  "subzone:hall-of-mysteries",
+  "subzone:mystic-ward",
+  "zone:ironforge",
+  "quest:1879",
+  "quest:1939",
+  "npc:tabetha",
+  "topic:gnome",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Bink"
+ ]
+}

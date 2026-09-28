@@ -1,0 +1,124 @@
+{
+ "key": "quest:516",
+ "type": "quest",
+ "name": "Beren's Peril",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   516
+  ],
+  "level": "21",
+  "faction": "Horde",
+  "start": "Shadow Priest Allister",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Beren's Peril (quest)",
+  "chain": []
+ },
+ "summary": "Beren's Peril is a Horde quest directed by Shadow Priest Allister from the Sepulcher. Agents of the Forsaken have caught wind of a hidden conclave of Scourge massing inside a secluded cave tucked into the southern Silverpine hills, aiming to strike them down before an offensive can begin.",
+ "sections": [
+  {
+   "title": "A Preemptive Strike",
+   "body": "Word reached Shadow Priest Allister at the Sepulcher that mindless servants of the Lich King were massing deep within southern Silverpine Forest. Left unchecked, these Scourge forces posed an immediate threat to Forsaken operations throughout the region. Rather than waiting for the assault to land, Allister directs scouts to take the initiative and eliminate the gathering horde inside their secluded lair before they can mobilize.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hidden Cave",
+   "body": "Beren's Peril itself is an obscure cavern network carved into the hills south of the Dalaran-aligned settlement of Ambermill. The treacherous terrain makes the cavern easy to overlook, approached only by navigating around the southern slopes. Within its shadows dwell the Ravenclaw drudgers and guardians, entrenched remnants of the plague whose destruction helps ensure the Forsaken maintain their tenuous hold over the forest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Beren's Peril?",
+   "aliases": [
+    "berens peril",
+    "where is berens peril",
+    "what is this cave"
+   ],
+   "answer": "Beren's Peril is a secluded cave located in the mountainous hills of southern Silverpine Forest, situated south of Ambermill. It serves as a hideout for Scourge remnants known as the Ravenclaw undead."
+  },
+  {
+   "q": "Who assigns the mission to Beren's Peril?",
+   "aliases": [
+    "who gives berens peril",
+    "quest giver berens peril",
+    "shadow priest allister quest"
+   ],
+   "answer": "Shadow Priest Allister, stationed at the Sepulcher in Silverpine Forest, gives the quest to Horde adventurers after learning that hostile undead are staging an offensive from the cave."
+  },
+  {
+   "q": "Why are the Forsaken attacking the undead there?",
+   "aliases": [
+    "why kill undead",
+    "why fight ravenclaw",
+    "arent forsaken undead"
+   ],
+   "answer": "The undead residing in Beren's Peril are loyal to the Lich King and part of the Scourge. The Forsaken broke free from the Lich King's control and actively fight to purge his lingering minions from their lands."
+  },
+  {
+   "q": "How do you find the entrance to the cave?",
+   "aliases": [
+    "how to get to berens peril",
+    "cave entrance location",
+    "where is the cave entrance"
+   ],
+   "answer": "The cave is tucked into the hills south of Ambermill. Due to the steep ridges, the entrance must be approached from the southern face of the hills rather than directly from the north."
+  },
+  {
+   "q": "What enemies inhabit Beren's Peril?",
+   "aliases": [
+    "berens peril mobs",
+    "what is inside berens peril"
+   ],
+   "answer": "The cave is inhabited by Scourge thralls, specifically Ravenclaw Drudgers and Ravenclaw Guardians, who appear to be gathering for an assault against nearby settlements."
+  },
+  {
+   "q": "What role does Dalaran play in this mission?",
+   "aliases": [
+    "dalaran connection",
+    "ambermill connection"
+   ],
+   "answer": "Dalaran has no direct role in the quest itself, though human wizards from Dalaran occupy Ambermill nearby. Allister notes their presence merely as a landmark to help scouts locate the hidden cave."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, rooting out Scourge remnants like those at Beren's Peril is a matter of pure survival, cementing their sovereignty against the lingering grip of the Lich King."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing out hidden pockets of Scourge along the borders of Silverpine helps stabilize northern Lordaeron for the Horde as a whole."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Operating under the orders of Shadow Priest Allister, dark casters assist in securing the Sepulcher's authority by snuffing out rival undead horrors."
+  }
+ ],
+ "keywords": [
+  "ambermill",
+  "beren's peril",
+  "berens peril",
+  "ravenclaw drudger",
+  "ravenclaw guardian",
+  "scourge",
+  "shadow priest allister",
+  "silverpine forest",
+  "the sepulcher"
+ ],
+ "related": [
+  "npc:shadow-priest-allister",
+  "subzone:sepulcher",
+  "zone:silverpine",
+  "topic:scourge",
+  "topic:lich-king",
+  "subzone:ambermill",
+  "subzone:dalaran"
+ ],
+ "attribution": [
+  "Beren's Peril (quest)"
+ ]
+}

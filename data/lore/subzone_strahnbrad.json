@@ -1,0 +1,93 @@
+{
+ "key": "subzone:strahnbrad",
+ "type": "subzone",
+ "name": "Strahnbrad",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Strahnbrad"
+ },
+ "summary": "Strahnbrad is a ruined human settlement nestled in the northeastern heights of the Alterac Mountains, near the border of the Western Plaguelands. Once famous as the site of Prince Arthas Menethil's early defense against Blackrock orc raiders, the town has since fallen into decay and serves as a fortified stronghold for the criminal Syndicate.",
+ "sections": [
+  {
+   "title": "A Town of Tragedy",
+   "body": "Originally a holding of the Kingdom of Alterac before being absorbed into Lordaeron following the Second War, Strahnbrad's misfortune began on the eve of the Third War. Blackrock clan orcs raided the settlement to take human sacrifices for the Burning Legion, leading Prince Arthas Menethil and the Knights of the Silver Hand to ride to its defense. Though Arthas drove the raiders away and slew their slave master, the town was heavily bloodied. When Lordaeron crumbled beneath the Scourge shortly thereafter, Strahnbrad was abandoned to the elements.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Syndicate's Grip",
+   "body": "Today, Strahnbrad has become a crucial operations hub for the Syndicate, the organization of displaced Alteraci nobility and outlaws plotting to reclaim their fallen realm. Patrolled by human rogues and brigands, its abandoned town hall and blacksmith now serve as hideouts and staging grounds. The Syndicate uses the ruined town to house supplies and captive labor, including unfortunate prisoners like the orc Gol'dir, whom Horde scouts from Tarren Mill actively seek to liberate.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Strahnbrad significant in history?",
+   "aliases": [
+    "why does strahnbrad matter",
+    "arthas strahnbrad",
+    "strahnbrad history"
+   ],
+   "answer": "Strahnbrad was the site of the opening clash of the Third War for Prince Arthas Menethil. Sent by Uther the Lightbringer to protect the settlement from rampaging Blackrock orcs, Arthas made his first celebrated stand here, rescuing townsfolk and cutting down the orc raiders."
+  },
+  {
+   "q": "Who controls Strahnbrad now?",
+   "aliases": [
+    "who owns strahnbrad",
+    "strahnbrad mobs",
+    "who lives in strahnbrad"
+   ],
+   "answer": "The Syndicate holds Strahnbrad. These human brigands, loyal to the fallen noble bloodlines of Alterac, have fortified the ruined town hall and blacksmith to use as a primary staging ground for their ambitions in the mountains."
+  },
+  {
+   "q": "Which kingdom did Strahnbrad belong to originally?",
+   "aliases": [
+    "is strahnbrad alterac or lordaeron",
+    "strahnbrad kingdom"
+   ],
+   "answer": "Strahnbrad was originally part of the Kingdom of Alterac before the First War. After Alterac betrayed the Alliance during the Second War, the town was integrated under the domain of the Kingdom of Lordaeron."
+  },
+  {
+   "q": "Why does the Horde care about this town?",
+   "aliases": [
+    "horde quests in strahnbrad",
+    "krusk strahnbrad",
+    "gol'dir strahnbrad"
+   ],
+   "answer": "The Syndicate captured an orc named Gol'dir and forced him into brutal slave labor within Strahnbrad's ruins. Horde operatives from Tarren Mill, directed by Krusk, send adventurers here to breach the Syndicate's defenses and break Gol'dir out."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Walking the cobblestones of Strahnbrad recalls the early, untainted days of Prince Arthas Menethil and Uther the Lightbringer, serving as a bitter reminder of how far Lordaeron's heroes have fallen."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Syndicate's enslavement of the orc Gol'dir makes Strahnbrad an urgent target for Horde champions seeking to strike at human brigands and rescue their kin."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "arthas",
+  "blackrock",
+  "gol'dir",
+  "krusk",
+  "lordaeron",
+  "strahnbrad",
+  "syndicate"
+ ],
+ "related": [
+  "zone:alterac",
+  "topic:syndicate",
+  "topic:arthas-menethil",
+  "topic:alterac-kingdom",
+  "topic:lordaeron",
+  "npc:krusk",
+  "subzone:tarren-mill",
+  "zone:westernplaguelands"
+ ],
+ "attribution": [
+  "Strahnbrad"
+ ]
+}

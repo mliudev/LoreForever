@@ -1,0 +1,91 @@
+{
+ "key": "npc:vanndar-stormpike",
+ "type": "npc",
+ "name": "Vanndar Stormpike",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Vanndar Stormpike",
+  "refs": 2
+ },
+ "summary": "Vanndar Stormpike is a fierce dwarf mountain king who commands the Stormpike Expedition from the northern fortress of Dun Baldar. Searching the frozen peaks of Alterac Valley for ancient relics and raw resources, he leads the Alliance's unyielding war against the Frostwolf orcs.",
+ "sections": [
+  {
+   "title": "Lord of Dun Baldar",
+   "body": "A veteran mountain king of Ironforge, Vanndar Stormpike spearheads the dwarven excavation into Alterac Valley. Following the Third War, he marched the Stormpike Guard into the northern mountains seeking hidden mineral riches and long-lost titan artifacts. Settling into the fortified redoubt of Dun Baldar, Vanndar views the valley as an ancestral right and rightful Alliance territory. He directs military outposts, defensive bunkers, and frontline pushes with grim dwarven resolve, determined that no retreat will ever be sounded under his watch.",
+   "spoiler": 0
+  },
+  {
+   "title": "War for the Frozen Pass",
+   "body": "Vanndar's relentless mining and prospecting encroached directly onto the home of the Frostwolf clan, sparking brutal mountain warfare. Despite orcish demands to withdraw, Vanndar refuses to yield an inch of ground, vowing that Alterac Valley will belong to the dwarves. From his throne room deep within Dun Baldar, flanked by his marshals and bodyguards, he personally oversees the defense against Frostwolf incursions while dispatching Alliance champions to break the enemy lines and claim the valley once and for all.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Vanndar Stormpike?",
+   "aliases": [
+    "who is vanndar",
+    "vanndar stormpike lore",
+    "stormpike leader"
+   ],
+   "answer": "Vanndar Stormpike is a dwarf mountain king and the supreme commander of the Stormpike Expedition. Based in Dun Baldar, he leads the Alliance war effort within Alterac Valley."
+  },
+  {
+   "q": "Why is Vanndar fighting in Alterac Valley?",
+   "aliases": [
+    "why are dwarves in alterac",
+    "vanndar motive",
+    "stormpike purpose"
+   ],
+   "answer": "Vanndar led the Stormpike Expedition to Alterac Valley to uncover ancient relics and extract natural resources. His refusal to abandon these claims brought the dwarves into a bloody conflict with the native Frostwolf orcs."
+  },
+  {
+   "q": "Where does Vanndar stay?",
+   "aliases": [
+    "where is vanndar",
+    "vanndar location",
+    "dun baldar boss"
+   ],
+   "answer": "He commands his forces from the northern stronghold of Dun Baldar in Alterac Valley, protected by dwarven bunkers, marshals, and elite guards."
+  },
+  {
+   "q": "Who is Vanndar's main enemy?",
+   "aliases": [
+    "vanndar rival",
+    "who does vanndar fight",
+    "frostwolf leader"
+   ],
+   "answer": "His primary adversary is Drek'Thar, the chieftain and elder shaman of the Frostwolf clan, who seeks to purge the dwarven interlopers from their ancestral homeland."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Ironforge, Vanndar exemplifies the indomitable spirit of the Mountain Kings, fighting to claim ancient heritage and honor the Explorer's Guild."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Vanndar serves as the premier commander on the Alterac front, holding the northern ramparts and pushing Alliance territory into the wild mountains."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "dun baldar",
+  "dwarf",
+  "frostwolf",
+  "mountain king",
+  "stormpike",
+  "vanndar"
+ ],
+ "related": [
+  "topic:dwarf",
+  "topic:alliance",
+  "zone:hillsbrad",
+  "topic:alterac-kingdom",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Vanndar Stormpike"
+ ]
+}

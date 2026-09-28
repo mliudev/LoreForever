@@ -1,0 +1,113 @@
+{
+ "key": "quest:1840",
+ "type": "quest",
+ "name": "Orm Stonehoof and the Brutal Helm",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1840
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Thun'grim Firegaze",
+  "end": "Orm Stonehoof",
+  "previous": "Brutal Armor",
+  "next": "Chimaeric Horn",
+  "wiki": "Orm Stonehoof and the Brutal Helm",
+  "chain": []
+ },
+ "summary": "This errand directs rising Horde warriors to Thunder Bluff to consult with Orm Stonehoof, an artisan smith. Recommended by Thun'grim Firegaze, Orm possesses the specialized craft required to forge the Brutal Helm.",
+ "sections": [
+  {
+   "title": "A Recommendation in Iron",
+   "body": "After proving their mettle and assembling pieces of the Brutal Armor in the Barrens, warriors are directed higher into the mesa city of Thunder Bluff. Thun'grim Firegaze, an accomplished armorsmith himself, recognizes his limits and refers his champions to Orm Stonehoof. Orm's craft is renowned throughout Kalimdor, specifically his ability to mold resilient battlefield helms from rare, savage trophies.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Artisan by the Pool",
+   "body": "Orm makes his home and workplace on the high bluffs of Mulgore, standing near the tranquil waters beneath the city's towering central totem. When a warrior arrives carrying word from Thun'grim, Orm steps away from routine work to discuss the demanding components needed to forge headgear truly worthy of the Horde's front lines.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Orm Stonehoof?",
+   "aliases": [
+    "orm stonehoof",
+    "who is orm"
+   ],
+   "answer": "Orm Stonehoof is a skilled tauren armorsmith residing in Thunder Bluff. Known for his craftsmanship, he aids warriors sent by Thun'grim Firegaze in crafting specialized battle headgear."
+  },
+  {
+   "q": "Where can Orm Stonehoof be found?",
+   "aliases": [
+    "where is orm",
+    "orm stonehoof location",
+    "find orm"
+   ],
+   "answer": "He is located in the heart of Thunder Bluff, standing near the pool of water close to the city's massive central totem."
+  },
+  {
+   "q": "Why does Thun'grim Firegaze send you to Thunder Bluff?",
+   "aliases": [
+    "why thunder bluff",
+    "why see orm"
+   ],
+   "answer": "While Thun'grim can craft the chestpiece and other elements of the Brutal set, he acknowledges that Orm Stonehoof possesses the precise expertise needed to fashion the Brutal Helm."
+  },
+  {
+   "q": "What is the Brutal Helm?",
+   "aliases": [
+    "brutal helm quest",
+    "what is brutal helm"
+   ],
+   "answer": "The Brutal Helm is an iconic piece of headgear forged for Horde warriors reaching veteran standing. It requires dangerous materials sourced from beasts across Kalimdor."
+  },
+  {
+   "q": "What does Orm ask for next?",
+   "aliases": [
+    "next quest",
+    "after orm stonehoof",
+    "chimaeric horn quest"
+   ],
+   "answer": "Once you speak with Orm, he directs you to gather the necessary beast trophies for the helm, beginning with hunting chimaeras in the wild to claim a Chimaeric Horn."
+  },
+  {
+   "q": "Can any class take this quest?",
+   "aliases": [
+    "is this warrior only",
+    "who can do this quest"
+   ],
+   "answer": "No. This quest line is exclusive to warriors who have advanced far enough in their martial training and completed Thun'grim's initial armor tasks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This quest marks the transition into heavyweight head protection, sending warriors to one of the Horde's finest master smiths."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The quest illustrates the cooperation between orcish weaponmasters in the Barrens and tauren craftsmen high atop Thunder Bluff."
+  }
+ ],
+ "keywords": [
+  "armor quest",
+  "brutal helm",
+  "orm stonehoof",
+  "thun'grim firegaze",
+  "thunder bluff",
+  "warrior"
+ ],
+ "related": [
+  "quest:1838",
+  "quest:1845",
+  "quest:1844",
+  "quest:1502",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Orm Stonehoof and the Brutal Helm"
+ ]
+}

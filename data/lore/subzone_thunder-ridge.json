@@ -1,0 +1,93 @@
+{
+ "key": "subzone:thunder-ridge",
+ "type": "subzone",
+ "name": "Thunder Ridge",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Thunder Ridge"
+ },
+ "summary": "Thunder Ridge is a rugged canyon in western Durotar, situated just southwest of Orgrimmar along the banks of the Southfury River. Once a lush grove of ancient trees inhabited by herds of thunder lizards, the canyon has suffered severe deforestation from human lumber operations and dark sorcery. Today, the agitated beasts and lingering cultists pose an ongoing threat to nearby settlements.",
+ "sections": [
+  {
+   "title": "A Scarred Sanctuary",
+   "body": "Not long ago, Thunder Ridge was a rare green haven in arid Durotar, sustained by ancient trees and watched over by the spirit Owa'nohe. Its tranquil balance shattered shortly after the Third War when human interlopers from Kul Tiras began felling its timber, driving the native thunder lizards into a frenzy. Later, fel sorcery wielded by the Burning Blade finished the destruction, stripping the canopy and leaving behind a barren, exposed gorge where angry lightning-spewing beasts now roam unrestrained.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cultists and Tests of Strength",
+   "body": "The denizens of Orgrimmar keep a wary eye on the ridge. The Burning Blade maintains a pocket of cultists here under the warlock Fizzle Darkclaw, who uses demonic magic to sow further chaos across Durotar. Horde veterans like Orgnil Soulscar task scouts with hunting down the cabal, while warrior trainers such as Uzzek send aspiring fighters into the crags to test their resilience against the enraged thunder lizards.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the trees in Thunder Ridge?",
+   "aliases": [
+    "why is thunder ridge barren",
+    "thunder ridge forest",
+    "deforestation thunder ridge"
+   ],
+   "answer": "Thunder Ridge was once a dense woodland, but it suffered two waves of destruction. First, lumber operations run by Kul Tiran forces aggressively felled its ancient timber shortly after Durotar was founded. Later, the Burning Blade used dark, demonic magic to raze the surviving groves, wiping out the forest entirely."
+  },
+  {
+   "q": "Why are the thunder lizards so aggressive here?",
+   "aliases": [
+    "angry lizards thunder ridge",
+    "thunder lizards durotar"
+   ],
+   "answer": "The thunder lizards lived peacefully among the ridge's ancient trees until outside intrusion ruined their habitat. The noise and destruction of human logging, combined with lingering fel corruption from the Burning Blade cultists, drove the herds into an agitated madness that makes them attack anyone who ventures into the canyon."
+  },
+  {
+   "q": "Who is Fizzle Darkclaw?",
+   "aliases": [
+    "fizzle darkclaw lore",
+    "who is darkclaw",
+    "burning blade thunder ridge"
+   ],
+   "answer": "Fizzle Darkclaw is a leader within the Burning Blade cult who established an encampment within Thunder Ridge. From this staging ground, he and his followers direct dark rituals to destabilize the region, prompting Horde leaders like Orgnil Soulscar to place a bounty on his head."
+  },
+  {
+   "q": "Did Rexxar fight in Thunder Ridge?",
+   "aliases": [
+    "rexxar thunder ridge",
+    "drek'thar thunder ridge"
+   ],
+   "answer": "Yes. Shortly after Durotar was founded, the Champion of the Horde Rexxar traveled here to gather shimmerweed for the farseer Drek'Thar. While in the canyon, Rexxar discovered the human lumber camp driving the lizards wild, forcing him to cull the frenzied beasts and salvage their eggs for Drek'Thar to study."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Warrior mentors like Uzzek send their trainees into Thunder Ridge to test their defensive prowess against the sheer physical force and lightning shocks of the wild thunder lizards."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Nestled just outside Orgrimmar's western bluffs, the ridge must be kept clear of Burning Blade agents like Fizzle Darkclaw to prevent demonic subversion at the capital's doorstep."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "durotar",
+  "fizzle darkclaw",
+  "orgnil soulscar",
+  "rexxar",
+  "southfury river",
+  "thunder lizards",
+  "thunder ridge",
+  "uzzek"
+ ],
+ "related": [
+  "zone:durotar",
+  "quest:806",
+  "quest:1498",
+  "npc:orgnil-soulscar",
+  "npc:uzzek",
+  "subzone:southfury-river",
+  "zone:orgrimmar",
+  "subzone:drygulch-ravine"
+ ],
+ "attribution": [
+  "Thunder Ridge"
+ ]
+}

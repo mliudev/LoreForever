@@ -1,0 +1,89 @@
+{
+ "key": "subzone:kurzen-s-compound",
+ "type": "subzone",
+ "name": "Kurzen's Compound",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Kurzen's Compound"
+ },
+ "summary": "Kurzen's Compound is a heavily fortified human settlement tucked into the hills of northern Stranglethorn Vale. Established by an expedition dispatched from Stormwind under Colonel Kurzen, the outpost has devolved into a rogue camp of cutthroats and wild beasts following their commander's descent into madness.",
+ "sections": [
+  {
+   "title": "Heart of Darkness",
+   "body": "What began as an official expedition into the untamed jungles of Stranglethorn turned into a nightmare when Colonel Kurzen lost his mind. Rather than fulfilling Stormwind's mission, the garrison broke away from the kingdom's authority, cutting ties with the crown and descending into tyranny. Today, the compound operates like a mercenary stronghold, complete with a functional lumber mill, stables for training captured Stranglethorn panthers and tigers as weapons of war, and an extensive cave complex known as the Stockpile where the rogue soldiers stash their plundered supplies.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Divided Regiment",
+   "body": "Not all of the expedition's original members followed their commander into savagery. When Kurzen's madness took hold, a faction of his men mutinied and fled west to form the Rebel Camp, sparking a bitter and bloody feud within the dense canopy. From their fortified compound, Kurzen and his loyal chiefs\u2014Anders, Gaulus, Miranda, and Esquivel\u2014ruthlessly hunt down the deserters, treating any outsider who steps into their jungle domain as an enemy of the expedition.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in Kurzen's Compound?",
+   "aliases": [
+    "who is here",
+    "kurzen soldiers",
+    "who lives in the compound"
+   ],
+   "answer": "The settlement is occupied by the rogue remnants of Kurzen's Expedition. These human soldiers, jungle fighters, and mercenaries follow Colonel Kurzen and his lieutenants rather than the laws of Stormwind."
+  },
+  {
+   "q": "Why are the humans here hostile?",
+   "aliases": [
+    "why do they attack",
+    "kurzen hostile",
+    "are kurzen friendly"
+   ],
+   "answer": "Colonel Kurzen descended into madness deep in the jungle and abandoned his original allegiance to the Alliance. He and his men now view all trespassers\u2014including Alliance forces and the deserters at the nearby Rebel Camp\u2014as mortal threats."
+  },
+  {
+   "q": "What is the cave in the back of the camp?",
+   "aliases": [
+    "cave in kurzen compound",
+    "the stockpile",
+    "kurzen cave"
+   ],
+   "answer": "The cave system behind the compound is known as the Stockpile. Kurzen's men use it as a fortified supply depot to store weapons, provisions, and contraband away from jungle scavengers and rebel raids."
+  },
+  {
+   "q": "Why are there caged tigers and panthers here?",
+   "aliases": [
+    "kurzen animals",
+    "caged panthers",
+    "war tigers"
+   ],
+   "answer": "The fighters capture native Stranglethorn tigers and panthers and keep them near the stables. They train these predators into vicious Kurzen War Panthers and War Tigers to defend the compound and patrol the surrounding jungle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Kurzen's expedition was sent under the banner of the Alliance, making the outpost's descent into madness a shameful scandal that neighboring rebels desperately seek to rectify."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The compound showcases crude and violent attempts to domesticate wild Stranglethorn panthers and tigers into frontline beasts of war."
+  }
+ ],
+ "keywords": [
+  "anders",
+  "colonel",
+  "compound",
+  "gaulus",
+  "kurzen",
+  "rebel",
+  "stockpile",
+  "stranglethorn"
+ ],
+ "related": [
+  "npc:colonel-kurzen",
+  "subzone:rebel-camp",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Kurzen's Compound"
+ ]
+}

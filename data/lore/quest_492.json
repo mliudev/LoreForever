@@ -1,0 +1,137 @@
+{
+ "key": "quest:492",
+ "type": "quest",
+ "name": "A New Plague",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   492
+  ],
+  "level": "11",
+  "faction": "Horde",
+  "start": "Apothecary Johaan",
+  "end": "Captured Mountaineer",
+  "previous": "A New Plague (3)",
+  "next": null,
+  "wiki": "A New Plague (4)",
+  "chain": [
+   "A New Plague",
+   "A New Plague (2)",
+   "A New Plague (3)",
+   "A New Plague (4)"
+  ]
+ },
+ "summary": "This quest marks the grim culmination of Apothecary Johaan's initial research in Brill on behalf of the Royal Apothecary Society. Having harvested venom, blood, and vile concoctions across Tirisfal Glades, Johaan sends you to the cellar of Gallows' End Tavern to test his lethal brew on a captive dwarven mountaineer.",
+ "sections": [
+  {
+   "title": "A Deadly Concoction",
+   "body": "Throughout your time aiding Apothecary Johaan, your efforts have steadily built toward refining a lethal toxin. The Royal Apothecary Society pursues an ambitious and shadowy agenda on behalf of Lady Sylvanas Windrunner: crafting a new plague that bypasses undead biology while annihilating the living. In this final step, Johaan brews what he euphemistically calls a 'special drink' and tasks you with administering it directly to an imprisoned enemy of the Forsaken.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Gallows' End Cellar",
+   "body": "Beneath Gallows' End Tavern in Brill, the Deathguard maintains a damp cellar used as a makeshift holding cell for captives awaiting interrogation or disposal. Among them sits a captured Dwarven Mountaineer, an operative of the Ironforge reconnaissance units trespassing in Tirisfal Glades. Defiant and thirsty, he eagerly accepts a drink, completely unaware of its true alchemical payload.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Chilling Demonstration",
+   "body": "When offered the flask, the mountaineer gladly drinks, comparing it wistfully to Rhapsody Malt and boasting that dwarven steam tanks are coming to save him. The poison takes effect almost instantly, killing him on the spot. Johaan's parting words ring with chilling clarity: this lethal draft is merely a taste of what the Dark Lady envisions for the rest of Azeroth.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Apothecary Johaan?",
+   "aliases": [
+    "apothecary johaan",
+    "who gives a new plague",
+    "johaan brilliance"
+   ],
+   "answer": "Apothecary Johaan is a member of the Royal Apothecary Society stationed in the town of Brill in Tirisfal Glades. He directs early research into creating a new plague tailored for Forsaken warfare, employing adventurers to gather lethal reagents from the surrounding wilderness."
+  },
+  {
+   "q": "Why is there a dwarf captured in Brill?",
+   "aliases": [
+    "dwarf in cellar",
+    "captured mountaineer",
+    "why is dwarf in tirisfal"
+   ],
+   "answer": "Ironforge Mountaineers actively scout the northern kingdoms to monitor Forsaken movements and investigate the plaguelands. The Deathguard apprehended this particular scout in Tirisfal and locked him in the tavern cellar until the apothecaries found a use for him."
+  },
+  {
+   "q": "What happens when you give the prisoner the drink?",
+   "aliases": [
+    "does the dwarf die",
+    "drink result",
+    "mountaineer death"
+   ],
+   "answer": "The dwarf takes the flagon gladly, desperate to quench his thirst after his capture. Moments after drinking, the toxic brew kills him on the spot, demonstrating the ruthless effectiveness of Johaan's latest plague formulation."
+  },
+  {
+   "q": "What is the purpose of the New Plague research?",
+   "aliases": [
+    "why make new plague",
+    "royal apothecary society goal",
+    "dark lady plague"
+   ],
+   "answer": "The Forsaken seek to invent a new plague under the orders of Lady Sylvanas Windrunner. Their goal is to develop a biological weapon potent enough to destroy both the mindless Scourge and the living races who threaten their sovereign territory."
+  },
+  {
+   "q": "Where is the Captured Mountaineer located?",
+   "aliases": [
+    "find captive dwarf",
+    "gallows end cellar",
+    "where is mountaineer"
+   ],
+   "answer": "The Captured Mountaineer is imprisoned downstairs in the cellar of Gallows' End Tavern, located in the center of Brill in Tirisfal Glades."
+  },
+  {
+   "q": "Does this quest chain continue beyond this dwarf?",
+   "aliases": [
+    "next quest",
+    "a new plague followup",
+    "after mountaineer dies"
+   ],
+   "answer": "This four-part assignment for Apothecary Johaan concludes with the mountaineer's death. However, research into the New Plague remains a central, ongoing endeavor across Lordaeron, leading you to further testing assignments in the Undercity and the Sepulcher."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Carrying out Johaan's experiment offers a firsthand glimpse into the uncompromising survival doctrine of the Forsaken and the lethal work of the Royal Apothecary Society."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The unfortunate prisoner represents the far-reaching presence of Ironforge Mountaineers, who risk death and covert interrogation to keep watch over Tirisfal Glades."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The fate of the captive mountaineer illustrates the absolute ruthlessness of the Forsaken toward Alliance intruders discovered in Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While your Kalimdor allies may fight for honor and survival, the Forsaken pursue victory through cold-blooded alchemical warfare that spares neither friend nor foe."
+  }
+ ],
+ "keywords": [
+  "a new plague",
+  "apothecary johaan",
+  "brill",
+  "captured mountaineer",
+  "gallows end",
+  "plague",
+  "poison",
+  "royal apothecary society",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:apothecary-johaan",
+  "npc:captured-mountaineer",
+  "quest:367",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "A New Plague (4)"
+ ]
+}

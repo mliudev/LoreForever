@@ -1,0 +1,122 @@
+{
+ "key": "quest:1710",
+ "type": "quest",
+ "name": "Sunscorched Shells",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   1710
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Mathiel",
+  "end": "",
+  "previous": "Mathiel",
+  "next": "Mathiel's Armor",
+  "wiki": "Sunscorched Shells",
+  "chain": []
+ },
+ "summary": "In Darnassus, the armorer Mathiel collaborates with the dwarven smith Furen Longbeard to refine a new mailcrafting technique. He tasks warriors with traveling to Thousand Needles to gather durable wyvern eggshells from the heights of Highperch.",
+ "sections": [
+  {
+   "title": "A Cross-Faction Crafting Alliance",
+   "body": "Mathiel works out of the Craftsmen's Terrace in Darnassus, but his trade takes him far beyond traditional night elven techniques. He maintains correspondence with Furen Longbeard, an accomplished dwarven armorer in Stormwind. Inspired by Furen's metallurgy and armor-smithing discoveries, Mathiel seeks to forge a suit of mail reinforced by natural components capable of withstanding extreme strain. To test this hybrid theory, he requires exotic materials that cannot be found anywhere near Teldrassil.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Perils of Highperch",
+   "body": "The key to Mathiel's experiment lies far to the south across the sea, in the canyon gorges of Thousand Needles. There, high above the salt flats and red stone mesas, Highperch wyverns nest beneath the blazing Kalimdor sun. Their eggshells harden through constant exposure to blistering heat and altitude. Mathiel intends to pulverize these sun-baked fragments and render them into a resilient lacquer, coating the links of chainmail to create flexible yet exceptionally durable armor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mathiel?",
+   "aliases": [
+    "mathiel",
+    "who gives sunscorched shells",
+    "mathiel darnassus"
+   ],
+   "answer": "Mathiel is a night elf armorer residing on the Craftsmen's Terrace in Darnassus. He works closely with dwarven methods, collaborating with Furen Longbeard to develop advanced mail armor for proven warriors."
+  },
+  {
+   "q": "Why does Mathiel need wyvern shells?",
+   "aliases": [
+    "why wyvern shells",
+    "sunscorched shell purpose",
+    "what are shells for"
+   ],
+   "answer": "The shells from Highperch wyverns are baked and hardened by the harsh sun of Thousand Needles. Mathiel crushes and renders them into a specialized lacquer to coat mail armor links, granting them superior durability."
+  },
+  {
+   "q": "Where is Highperch located?",
+   "aliases": [
+    "highperch location",
+    "where is highperch",
+    "how to find highperch"
+   ],
+   "answer": "Highperch is a steep mesa located in western Thousand Needles, south of the Feralas border. Wyverns construct their nests across the cliffs and plateau."
+  },
+  {
+   "q": "How does Furen Longbeard relate to this quest?",
+   "aliases": [
+    "furen longbeard connection",
+    "who is furen"
+   ],
+   "answer": "Furen Longbeard is a master dwarven armorer stationed in Stormwind. Mathiel considers Furen a respected colleague and uses Furen's armor-crafting discoveries to inspire his own work in Darnassus."
+  },
+  {
+   "q": "Why is an elf in Darnassus asking for materials from Thousand Needles?",
+   "aliases": [
+    "why thousand needles",
+    "darnassus to thousand needles"
+   ],
+   "answer": "The specific chemical resilience Mathiel requires is unique to wyvern eggs exposed to the relentless, dry heat of the southern canyon mesas, which cannot be replicated in the misty boughs of Teldrassil."
+  },
+  {
+   "q": "What happens after bringing the shells to Mathiel?",
+   "aliases": [
+    "what next mathiel",
+    "after sunscorched shells",
+    "mathiel follow up"
+   ],
+   "answer": "Once Mathiel receives twenty sunscorched shells, he begins immediately rendering the lacquer and forging a bespoke suit of mail armor as a reward for your field efforts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Mathiel's experiment is aimed at forging resilient mail armor, making this an essential rite of passage for Alliance warriors looking to upgrade their combat gear."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The quest demonstrates an unusual smithing technique: rendering beast components into protective lacquers to treat metal chain links."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The collaboration highlights the technical exchange between night elf craftsmen in Darnassus and dwarven armorers in Stormwind."
+  }
+ ],
+ "keywords": [
+  "eggshells",
+  "furen longbeard",
+  "highperch",
+  "lacquer",
+  "mail armor",
+  "mathiel",
+  "thousand needles",
+  "wyvern"
+ ],
+ "related": [
+  "quest:1703",
+  "quest:1711",
+  "npc:furen-longbeard",
+  "subzone:highperch",
+  "zone:thousandneedles",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Sunscorched Shells"
+ ]
+}

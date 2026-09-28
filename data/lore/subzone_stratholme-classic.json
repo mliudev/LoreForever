@@ -1,0 +1,93 @@
+{
+ "key": "subzone:stratholme-classic",
+ "type": "subzone",
+ "name": "Stratholme (Classic)",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Stratholme (Classic)"
+ },
+ "summary": "Stratholme, once northern Lordaeron's proudest jewel and the birthplace of the Silver Hand, is now a burning ruin serving as the Scourge's regional capital. Divided between the fanatical Scarlet Crusade and Baron Rivendare's undead legions, the cursed city remains locked in endless, violent war.",
+ "sections": [
+  {
+   "title": "The Cursed Capital",
+   "body": "Before the Third War, Stratholme was the northern powerhouse of Lordaeron and the sacred birthplace of the Knights of the Silver Hand. Its fate was sealed when Prince Arthas purged the city, slaughtering his own subjects after infected grain brought the plague within its walls. Left smoldering and ruined, Stratholme was claimed by the Scourge. Today, under the overarching authority of the lich Kel'Thuzad and the field command of Baron Rivendare, the city serves as the primary base for undead power in the Plaguelands.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Divided Warfront",
+   "body": "Stratholme is split between two vicious factions locked in perpetual bloodshed. To the west, the fanatical Scarlet Crusade has fortified Crusaders' Square and the Scarlet Bastion, commanded by Grand Crusader Saidan Dathrohan. To the east lies the Scourge slaughterhouses and necropolises, defended by towering ziggurats and the death knight Baron Rivendare. Anyone entering the city must navigate this grinding crossfire, surrounded by burning tenements and restless spirits.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Stratholme still burning?",
+   "aliases": [
+    "why is stratholme on fire",
+    "who burned stratholme",
+    "stratholme burning"
+   ],
+   "answer": "Prince Arthas set fire to the city during his infamous purge in the Third War to stop the plague of undeath from spreading. The fires have never truly gone out, kept smoldering by dark magic, necromancy, and the endless urban warfare between the Scourge and the Scarlet Crusade."
+  },
+  {
+   "q": "Who controls Stratholme right now?",
+   "aliases": [
+    "who rules stratholme",
+    "who is in charge of stratholme",
+    "stratholme leaders"
+   ],
+   "answer": "Control is divided. Grand Crusader Dathrohan commands a surviving contingent of the Scarlet Crusade fortified in the western bastion, while the death knight Baron Rivendare governs the eastern ruins for the Scourge under Kel'Thuzad."
+  },
+  {
+   "q": "What is the historical significance of the city to paladins?",
+   "aliases": [
+    "silver hand stratholme",
+    "paladin history stratholme"
+   ],
+   "answer": "Stratholme was the birthplace of the Order of the Silver Hand, where Archbishop Alonsus Faol first consecrated Uther the Lightbringer and the original paladins. Its downfall marks the deepest tragedy in the order's history."
+  },
+  {
+   "q": "How do you enter the Scourge-controlled side of the city?",
+   "aliases": [
+    "back door key",
+    "service entrance stratholme",
+    "how to get into undead side"
+   ],
+   "answer": "While adventurers can fight all the way through from the main gate, the eastern Scourge district can also be reached directly via the Service Entrance. Entering through this back gate requires a key held by Magistrate Barthilas, though skilled rogues, powerful blacksmith skeleton keys, or goblin explosives can also breach it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The desecration of Stratholme cuts deeply for paladins; it is both the sacred birthplace of the Silver Hand and the graveyard where Arthas shattered Uther's guidance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For the Alliance, Stratholme represents the catastrophic fall of Lordaeron, reminding soldiers and survivors of the terrible cost of the Third War."
+  }
+ ],
+ "keywords": [
+  "arthas",
+  "dathrohan",
+  "plaguelands",
+  "purge",
+  "rivendare",
+  "silver hand",
+  "slaughterhouse",
+  "stratholme"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "topic:scourge",
+  "topic:scarlet-crusade",
+  "topic:lordaeron",
+  "topic:third-war",
+  "topic:plague-of-undeath",
+  "topic:lich-king",
+  "topic:light"
+ ],
+ "attribution": [
+  "Stratholme (Classic)"
+ ]
+}

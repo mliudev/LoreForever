@@ -1,0 +1,125 @@
+{
+ "key": "quest:1024",
+ "type": "quest",
+ "name": "Raene's Cleansing",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1024
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Raene Wolfrunner",
+  "end": "Shael'dryn",
+  "previous": "Raene's Cleansing (2)",
+  "next": "Raene's Cleansing (4)",
+  "wiki": "Raene's Cleansing (3)",
+  "chain": []
+ },
+ "summary": "This intermediate step in the investigation of Ashenvale's corruption sends Alliance adventurers deep into the sacred groves east of Iris Lake. Entrusted with a recovered Glowing Gem, you must consult the dryad Shael'dryn to learn how to restore Dartol's ancient rod.",
+ "sections": [
+  {
+   "title": "A Clue in Teronis's Notes",
+   "body": "Following the tragic death of the sentinel Teronis, Raene Wolfrunner examines the field notes he left behind. His research indicates that cleansing the tainted waters and blighted soil of Ashenvale hinges on an ancient artifact: a rod crafted long ago by a night elf named Dartol. With only a Glowing Gem in hand, Raene admits her tactical expertise as a huntress is ill-suited to deciphering lost arcane and natural mysteries.",
+   "spoiler": 0
+  },
+  {
+   "title": "Seeking the Daughters of Cenarius",
+   "body": "Rather than guessing at the remaining pieces of Dartol's Rod, Raene directs travelers northeast toward Iris Lake. Tucked away beside a tranquil moonwell dwells Shael'dryn, a dryad whose natural communion with the forest grants her deep insight into ancient relics. By delivering the gem to her, adventurers hope to uncover the missing components and learn how to reforge the rod.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Teronis?",
+   "aliases": [
+    "teronis",
+    "teronis notes",
+    "who is teronis"
+   ],
+   "answer": "Teronis was a night elf scout sent by Astranaar to investigate foul corruption spreading through Ashenvale. Though he was slain during his mission, his recovered journal provided the crucial clue that restoring Dartol's Rod could aid the land."
+  },
+  {
+   "q": "What is Dartol's Rod?",
+   "aliases": [
+    "dartols rod",
+    "what is the rod",
+    "rod of dartol"
+   ],
+   "answer": "Dartol's Rod is a fabled relic created by an ancient night elf artisan named Dartol. It holds the power to sense and purge foul corruptions afflicting the sacred waters and wildlife of Ashenvale."
+  },
+  {
+   "q": "Where can I find Shael'dryn?",
+   "aliases": [
+    "where is shael'dryn",
+    "shaeldryn location",
+    "find the dryad"
+   ],
+   "answer": "Shael'dryn resides beside a secluded moonwell northeast of Astranaar, nestled in the hills just east of Iris Lake. The safest approach is following the road east and turning north before reaching the perilous lands near Raynewood Retreat."
+  },
+  {
+   "q": "What is the Glowing Gem?",
+   "aliases": [
+    "glowing gem",
+    "what is the gem for",
+    "teronis gem"
+   ],
+   "answer": "The Glowing Gem is an integral component of Dartol's Rod, recovered from the ruins of Teronis's doomed investigation. It resonates with potent magic and is needed by Shael'dryn to divine the rest of the rod's pieces."
+  },
+  {
+   "q": "Why does Raene Wolfrunner send you to a dryad?",
+   "aliases": [
+    "why see a dryad",
+    "raene wolfrunner dryad",
+    "why shael'dryn"
+   ],
+   "answer": "As a huntress and leader of the Astranaar sentinels, Raene focuses on martial defense. Understanding ancient relic crafting and natural restoration falls under the spiritual domain of dryads, the Daughters of Cenarius."
+  },
+  {
+   "q": "Why is the forest around Iris Lake in danger?",
+   "aliases": [
+    "ashenvale corruption",
+    "why is ashenvale corrupted",
+    "iris lake danger"
+   ],
+   "answer": "Since the Third War and the demonic taint unleashed by the Burning Legion, darkness has seeped into Ashenvale's elemental spirits, wildlife, and satyr haunts, prompting the Sentinels to seek purifying relics."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Restoring Dartol's legacy honors fallen scouts and preserves sacred ancient holdings around the secluded moonwells of Ashenvale."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Assisting the dryad Shael'dryn aligns directly with the Cenarion duty to mend the shattered bonds between nature and Kaldorei magic."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Strengthening Astranaar's northern perimeter and securing ancient artifacts aids the Alliance war effort against rising regional threats."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "dartol's rod",
+  "glowing gem",
+  "iris lake",
+  "moonwell",
+  "raene wolfrunner",
+  "raene's cleansing",
+  "shael'dryn",
+  "teronis"
+ ],
+ "related": [
+  "npc:raene-wolfrunner",
+  "npc:shael-dryn",
+  "subzone:iris-lake",
+  "subzone:moonwell-ashenvale",
+  "subzone:raynewood-retreat",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Raene's Cleansing (3)"
+ ]
+}

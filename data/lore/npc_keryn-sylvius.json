@@ -1,0 +1,76 @@
+{
+ "key": "npc:keryn-sylvius",
+ "type": "npc",
+ "name": "Keryn Sylvius",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Keryn Sylvius",
+  "refs": 2
+ },
+ "summary": "Keryn Sylvius is a human rogue trainer stationed on the second floor of Goldshire's Lion's Pride Inn. Tucked away in the inn's reading room, she teaches fledgling scoundrels the basics of stealth and bladecraft while acting as a quiet conduit to Stormwind's intelligence service.",
+ "sections": [
+  {
+   "title": "A Quiet Presence in Goldshire",
+   "body": "While the ground floor of the Lion's Pride Inn bustles with boisterous travelers and weary town guards, Keryn Sylvius keeps to the quiet reading room upstairs. Outwardly unassuming, she observes the constant flow of road gossip and serves as the local mentor for rogues cutting their teeth in Elwynn Forest. When promising operatives outgrow local petty thievery and roadside skulduggery, Sylvius discretely sends them onward to Stormwind City to make contact with SI:7.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Keryn Sylvius?",
+   "aliases": [
+    "keryn sylvius location",
+    "where is keryn",
+    "goldshire rogue trainer location"
+   ],
+   "answer": "She is located on the second floor of the Lion's Pride Inn in Goldshire, secluded in the small reading room."
+  },
+  {
+   "q": "What services does she offer?",
+   "aliases": [
+    "what does keryn do",
+    "can she train me",
+    "keryn sylvius role"
+   ],
+   "answer": "Keryn Sylvius is a rogue trainer who teaches new abilities, resets talent specializations, and provides direction to developing rogues."
+  },
+  {
+   "q": "What connection does she have to SI:7?",
+   "aliases": [
+    "keryn si7",
+    "is she si:7",
+    "does she work for stormwind"
+   ],
+   "answer": "Sylvius serves as an early contact point for Stormwind's covert intelligence network, sending skilled operatives to seek out Master Mathias Shaw and SI:7 in Old Town once they prove their capabilities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Sylvius is the primary mentor for budding rogues roaming Elwynn Forest, eventually pointing them toward SI:7 headquarters in Stormwind City."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Positioned above Goldshire's crossroads, she helps keep the Alliance's covert eyes open along the major thoroughfares of Elwynn."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "goldshire",
+  "keryn sylvius",
+  "lion's pride inn",
+  "rogue trainer",
+  "si:7"
+ ],
+ "related": [
+  "subzone:lion-s-pride-inn",
+  "subzone:goldshire",
+  "zone:elwynn",
+  "quest:2205",
+  "quest:2300"
+ ],
+ "attribution": [
+  "Keryn Sylvius"
+ ]
+}

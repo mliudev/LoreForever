@@ -1,0 +1,90 @@
+{
+ "key": "subzone:dalson-s-tears",
+ "type": "subzone",
+ "name": "Dalson's Tears",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Dalson's Tears"
+ },
+ "summary": "Dalson's Tears is a blighted farmstead located in the heart of the Western Plaguelands. Once known as Dalson's Orchard, the land was overrun during the Third War and converted into a staging ground for one of the Scourge's noxious plague cauldrons. The undead remains of the former owners still haunt the fields and outbuildings.",
+ "sections": [
+  {
+   "title": "A Poisoned Harvest",
+   "body": "Before the Third War, this estate flourished as Dalson's Orchard, a productive farm in the breadbasket of Lordaeron. Today, the fields are choked with decay and rechristened Dalson's Tears. At the center of the ruined property stands a massive iron cauldron, constantly billowing virulent green plague vapors across the landscape. The device is overseen by Cauldron Lord Malvinious and defended by a pack of blighted zombies, rotting cadavers, and skeletal horrors serving the Lich King.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fate of the Dalsons",
+   "body": "The farm's original occupants met a tragic end when the plague swept through the region, yet death brought no release. Mrs. Dalson wanders the poisoned soil as a mindless skeleton, clutching a key to the farm's outhouse. Inside that small shack lurks the horrifying ghoul that was once Farmer Dalson himself, locked away by his desperate wife before both succumbed completely to the Scourge's curse.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Dalson's Tears called before the plague?",
+   "aliases": [
+    "dalson's orchard",
+    "original name",
+    "what was this farm called"
+   ],
+   "answer": "Before the Third War devastated Lordaeron, this property was a prosperous agricultural plot known as Dalson's Orchard."
+  },
+  {
+   "q": "Why is there a giant cauldron in the middle of the farm?",
+   "aliases": [
+    "dalson cauldron",
+    "green smoke kettle",
+    "why is there a cauldron here"
+   ],
+   "answer": "The Scourge erected massive plague cauldrons across Lordaeron's farmland to continuously boil virulent toxins. The vapors drift across the region, blighting the earth, poisoning water supplies, and corrupting any living creature exposed to them."
+  },
+  {
+   "q": "Who guards the cauldron at Dalson's Tears?",
+   "aliases": [
+    "cauldron lord",
+    "who is the boss here",
+    "cauldron lord malvinious"
+   ],
+   "answer": "The plague cauldron is protected by Cauldron Lord Malvinious, an undead commander serving the Scourge, flanked by hordes of blighted zombies, skeletal terrors, and rotting cadavers."
+  },
+  {
+   "q": "Who is locked inside the outhouse?",
+   "aliases": [
+    "outhouse monster",
+    "who is in the outhouse",
+    "farmer dalson"
+   ],
+   "answer": "Farmer Dalson is trapped inside the outhouse. As the plague took hold of him, his wife locked him inside, where he ultimately transformed into a ravenous ghoul."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The ruined homestead is a stark reminder of the fate shared by all people of Lordaeron before Sylvanas Windrunner broke the Lich King's control over the Forsaken."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The desecrated fields and suffering souls of the Dalson family demonstrate the lingering evil that holy warriors of the Light are sworn to cleanse from Lordaeron."
+  }
+ ],
+ "keywords": [
+  "cauldron lord malvinious",
+  "dalson's orchard",
+  "dalson's tears",
+  "farmer dalson",
+  "mrs dalson",
+  "plague cauldron",
+  "western plaguelands"
+ ],
+ "related": [
+  "zone:westernplaguelands",
+  "subzone:cauldron",
+  "topic:scourge",
+  "topic:lich-king",
+  "topic:light"
+ ],
+ "attribution": [
+  "Dalson's Tears"
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "key": "quest:1715",
+ "type": "quest",
+ "name": "The Slaughtered Lamb",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   1715
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Lago Blackwrench",
+  "end": "Gakin the Darkbinder",
+  "previous": null,
+  "next": null,
+  "wiki": "The Slaughtered Lamb (quest)",
+  "chain": []
+ },
+ "summary": "This errand directs novice gnome warlocks out of Ironforge to seek advanced instruction in human lands. With King Magni Bronzebeard keeping a vigilant watch on dark practitioners within the dwarven mountain, mentors must rely on Stormwind's hidden networks to complete their disciples' training.",
+ "sections": [
+  {
+   "title": "Exile and Scrutiny",
+   "body": "Before the fall of Gnomeregan, aspiring warlocks in Khaz Modan studied under their own tinker-mages and demonic scholars deep within the techno-city. The disaster that drove the gnomes into exile scattered those institutions. The surviving practitioners found themselves cramped into Ironforge's gloomy, subterranean caverns, operating under the distrustful eye of King Magni Bronzebeard and the dwarven guard. Unable to practice demonic arts openly or cultivate dangerous rituals in such tight quarters, senior instructors like Lago Blackwrench have little choice but to send their students away.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Mage Quarter's Secret Cellar",
+   "body": "The destination for these expatriate students is the Slaughtered Lamb, an unassuming tavern nestled in Stormwind's Mage Quarter. Beneath its taproom, concealed behind twisting stone passages and descending stairs, lies a subterranean sanctum where human warlocks gather in shadows. Overseen by seasoned summoners like Gakin the Darkbinder, the cove provides the space and dark paraphernalia required to teach novices how to summon and bind minor demons without drawing the immediate wrath of city marshals.",
+   "spoiler": 0
+  },
+  {
+   "title": "Growing Strain in the Shadows",
+   "body": "While Stormwind's coven welcomes capable hands, the influx of refugee novices creates friction. Human mentors already walk a knife's edge to avoid detection from the city's paladins and authorities. Gakin and his colleagues find their clandestine sanctuary increasingly crowded by practitioners sent south from Khaz Modan. The steady stream of dwarven-mountain traffic risks blowing the lid on their discreet operation, yet neither side possesses an easier alternative.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why can't gnome warlocks train in Ironforge?",
+   "aliases": [
+    "why send to stormwind",
+    "ironforge warlock training",
+    "why gnomeregan warlock leave"
+   ],
+   "answer": "King Magni Bronzebeard keeps the practitioners in Ironforge under tight surveillance. With Gnomeregan lost, the displaced warlocks have no private academy of their own, making risky summoning rituals inside the dwarven mountain far too dangerous."
+  },
+  {
+   "q": "Where were Khaz Modan warlocks trained before?",
+   "aliases": [
+    "gnomeregan warlock history",
+    "past warlock training khaz modan"
+   ],
+   "answer": "In times past, dark practitioners across Khaz Modan trained under the auspices of master warlocks in Gnomeregan. The trogg invasion and radiation poisoning wiped out those institutions, forcing the survivors into Ironforge."
+  },
+  {
+   "q": "Who is Gakin the Darkbinder?",
+   "aliases": [
+    "who is gakin",
+    "gakin role"
+   ],
+   "answer": "Gakin the Darkbinder is a senior human warlock based in the catacombs beneath the Slaughtered Lamb in Stormwind. He instructs apprentices in the binding and summoning of demons, including novice gnomes sent south from Ironforge."
+  },
+  {
+   "q": "What is the Slaughtered Lamb?",
+   "aliases": [
+    "slaughtered lamb tavern",
+    "where is slaughtered lamb"
+   ],
+   "answer": "The Slaughtered Lamb is a tavern located in the Mage Quarter of Stormwind. While the street-level establishment appears typical, the deep cellar below hides a clandestine enclave of warlocks operating out of sight of city authorities."
+  },
+  {
+   "q": "Why is Gakin frustrated with the newcomers?",
+   "aliases": [
+    "gakin complaining",
+    "why is gakin mad"
+   ],
+   "answer": "Gakin is concerned that a massive influx of refugee gnomes will attract unwanted attention to the covert coven in Stormwind. Space and teachers are limited, and too much warlock activity risks exposure to city authorities."
+  },
+  {
+   "q": "Who is Lago Blackwrench?",
+   "aliases": [
+    "lago blackwrench",
+    "quest giver slaughtered lamb"
+   ],
+   "answer": "Lago Blackwrench is a gnome warlock trainer residing in the dark alleys of Ironforge. Bitter about Gnomeregan's loss and dwarven scrutiny, he dispatches promising novices to Stormwind to finish their foundational pacts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This journey marks an essential rite of passage for young Alliance warlocks, introducing them to the covert, underground network that binds practitioners across racial lines."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "The quest highlights the indignity gnomes face in exile, reduced to cramped quarters in Ironforge and forced to rely on human hospitality after losing their own academies in Gnomeregan."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The Ironforge authorities have zero patience for demonic dabbling, driving the city's warlock population deep into the shadows and forcing their students elsewhere."
+  }
+ ],
+ "keywords": [
+  "gakin the darkbinder",
+  "gnomeregan",
+  "ironforge",
+  "lago blackwrench",
+  "mage quarter",
+  "slaughtered lamb",
+  "stormwind",
+  "warlock"
+ ],
+ "related": [
+  "subzone:slaughtered-lamb",
+  "npc:gakin-the-darkbinder",
+  "subzone:mage-quarter",
+  "zone:ironforge",
+  "zone:gnomeregan",
+  "topic:stormwind-kingdom",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "The Slaughtered Lamb (quest)"
+ ]
+}

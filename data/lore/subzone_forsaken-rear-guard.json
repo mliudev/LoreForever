@@ -1,0 +1,76 @@
+{
+ "key": "subzone:forsaken-rear-guard",
+ "type": "subzone",
+ "name": "Forsaken Rear Guard",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Forsaken Rear Guard"
+ },
+ "summary": "In the current era of Silverpine Forest, the bleak land south of the Sepulcher is known as the Dead Field. While later military reorganizations establish a fortified camp known as the Forsaken Rear Guard, travelers today find only the blighted, haunted earth of Lordaeron's fallen days.",
+ "sections": [
+  {
+   "title": "A Contested Expanse",
+   "body": "Before any formal military rear guard establishes barracks or brings in naval reinforcements from Orgrimmar, this expanse between the Sepulcher and the southern borders of Silverpine remains part of the Dead Field. The Forsaken maintain patrols along the road, but the ground itself is withered, haunted by remnants of the Third War and encroaching feral beasts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Forsaken Rear Guard?",
+   "aliases": [
+    "forsaken rear guard lore",
+    "rear guard silverpine",
+    "who is at the rear guard"
+   ],
+   "answer": "The Forsaken Rear Guard is a fortified position established in Silverpine Forest between the Sepulcher and the southern border. However, in Year 25, the area remains the blighted expanse known as the Dead Field, awaiting formal military fortification."
+  },
+  {
+   "q": "Where is this area located in Silverpine Forest?",
+   "aliases": [
+    "rear guard location",
+    "where is dead field",
+    "silverpine rear guard spot"
+   ],
+   "answer": "It lies along the main road south of the Sepulcher, situated in the central stretch of Silverpine Forest where Forsaken scouts monitor wild predators and hostile forces moving north."
+  },
+  {
+   "q": "Why was this land called the Dead Field?",
+   "aliases": [
+    "dead field history",
+    "why dead field",
+    "dead field name meaning"
+   ],
+   "answer": "Like much of Silverpine Forest, the soil and vegetation withered during the Third War under the Scourge's corrupting plague, leaving behind lifeless fields populated by feral scavengers and wandering horrors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, keeping the southern roads past the Sepulcher clear is crucial to maintaining supply lines and holding territory against hostile forces in southern Silverpine."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The central paths of Silverpine Forest are treacherous, and Horde travelers moving south toward the Greymane Wall must stay alert amid the blighted wilderness."
+  }
+ ],
+ "keywords": [
+  "dead field",
+  "forsaken",
+  "forsaken rear guard",
+  "silverpine",
+  "silverpine forest",
+  "the sepulcher"
+ ],
+ "related": [
+  "subzone:dead-field",
+  "zone:silverpine",
+  "subzone:sepulcher",
+  "topic:forsaken",
+  "zone:orgrimmar",
+  "subzone:forsaken-high-command"
+ ],
+ "attribution": [
+  "Forsaken Rear Guard"
+ ]
+}

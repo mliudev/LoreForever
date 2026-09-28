@@ -1,0 +1,110 @@
+{
+ "key": "quest:92463",
+ "type": "quest",
+ "name": "The Cirrusfly Queen",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92463
+  ],
+  "level": "3",
+  "faction": null,
+  "start": "Elatrell Featherlight",
+  "end": "",
+  "previous": "Infestation Investigation",
+  "next": null,
+  "wiki": "The Cirrusfly Queen",
+  "chain": []
+ },
+ "summary": "The Cirrusfly Queen is a hunt targeting the matriarch of the aggressive insect hive dwelling in Thendal Grove on Zephras Isle. Following early reconnaissance of the infestation, Elatrell Featherlight directs recruits into the heart of the grove to eliminate the queen and cull the swarm at its source. Ending her reign provides immediate relief to the local rangers working to keep the wilderness manageable.",
+ "sections": [
+  {
+   "title": "Striking the Hive",
+   "body": "Initial efforts against the cirrusflies revealed that simply swatting away stray worker drones would never curb the infestation spreading across Thendal Grove. Elatrell Featherlight tasks capable wanderers with penetrating deeper into the southeastern reaches of the grove where the main hive lies. There, the queen directs the colony under the vigilant protection of heavier soldier drones.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Ranger's Burden",
+   "body": "While common cirrusflies might seem like petty pests from a distance, their larger breeds pose a serious physical danger to anyone passing beneath the boughs of Zephras. By hunting down the matriarch and withstanding her guards, novices prove their martial mettle, earning high praise and a nod of respect from Featherlight's ranger cadre.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Cirrusfly Queen located?",
+   "aliases": [
+    "queen location",
+    "where is cirrusfly queen",
+    "find the queen"
+   ],
+   "answer": "The Cirrusfly Queen makes her nest in the southeastern corner of Thendal Grove on Zephras Isle, close to the heart of the insect hive."
+  },
+  {
+   "q": "Why is slaying the worker flies not enough?",
+   "aliases": [
+    "why kill the queen",
+    "culling the hive"
+   ],
+   "answer": "Elatrell Featherlight recognizes that targeting wandering workers only thins the fringes of the swarm. As long as the queen lives, she will continue breeding aggressive soldiers and replenishing the hive, sustaining the threat to Thendal Grove."
+  },
+  {
+   "q": "Who issues the hunt for the Cirrusfly Queen?",
+   "aliases": [
+    "who gives this quest",
+    "quest giver queen"
+   ],
+   "answer": "Elatrell Featherlight offers the task once initial reports from the forest confirm the severity of the cirrusfly presence."
+  },
+  {
+   "q": "What makes the queen more dangerous than regular cirrusflies?",
+   "aliases": [
+    "queen danger",
+    "cirrusfly soldiers"
+   ],
+   "answer": "Unlike the basic workers wandering the grove, the queen is surrounded by larger, far more aggressive soldier drones dedicated to defending her hive."
+  },
+  {
+   "q": "What quest precedes this assignment?",
+   "aliases": [
+    "prerequisite quest",
+    "what comes before"
+   ],
+   "answer": "This mission directly follows the quest Infestation Investigation, which first established how pervasive the insect presence had become in the grove."
+  },
+  {
+   "q": "What role does Elatrell Featherlight serve in the area?",
+   "aliases": [
+    "featherlight role",
+    "who is featherlight"
+   ],
+   "answer": "Elatrell Featherlight oversees wilderness security on Zephras Isle, monitoring regional threats and mentoring new adventurers in woodland tracking and ranger duties."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Taking down an aggressive hive queen and outmaneuvering her defending soldiers offers an early trial in tracking and beast culling that earns direct praise from local rangers."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "Clearing out invasive swarms in Thendal Grove helps preserve the natural balance and safe travel routes across your homeland of Zephras Isle."
+  }
+ ],
+ "keywords": [
+  "cirrusfly",
+  "elatrell featherlight",
+  "hive",
+  "queen",
+  "soldier",
+  "thendal grove",
+  "zephras"
+ ],
+ "related": [
+  "quest:92462",
+  "zone:zephras"
+ ],
+ "attribution": [
+  "The Cirrusfly Queen"
+ ]
+}

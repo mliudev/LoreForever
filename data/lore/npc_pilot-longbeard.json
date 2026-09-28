@@ -1,0 +1,95 @@
+{
+ "key": "npc:pilot-longbeard",
+ "type": "npc",
+ "name": "Pilot Longbeard",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Pilot Longbeard",
+  "refs": 1
+ },
+ "summary": "Pilot Longbeard is a dwarven aviator stationed in the Hall of Arms within Ironforge's Military Ward. Though currently grounded in the mountain city, he maintains close ties with gnomish tinkerers and fellow flight enthusiasts operating far away in the Shimmering Flats.",
+ "sections": [
+  {
+   "title": "A Grounded Aviator",
+   "body": "Found amongst the martial displays and weaponsmiths of Ironforge's Military Ward, Pilot Longbeard represents the daring airborne tradition of Khaz Modan. While his duties keep him within the fortress city, Longbeard keeps an eager ear out for innovations and news from fellow mechanics across the continent, including the Brassbolts brothers tinkering out on the salt flats of Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Connections Across Continents",
+   "body": "Longbeard serves as a point of contact for adventurous travelers heading south into Kalimdor. He frequently directs promising recruits and couriers toward the Shimmering Deep and the salt flats of Thousand Needles, where gnomish inventors push mechanical boundaries alongside their goblin rivals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Pilot Longbeard?",
+   "aliases": [
+    "pilot longbeard location",
+    "where is longbeard ironforge",
+    "how to find pilot longbeard"
+   ],
+   "answer": "He is located inside the Hall of Arms in the Military Ward of Ironforge, standing near the trainers and military displays."
+  },
+  {
+   "q": "What is Pilot Longbeard's role?",
+   "aliases": [
+    "what does longbeard do",
+    "pilot longbeard quest",
+    "why talk to longbeard"
+   ],
+   "answer": "Pilot Longbeard is a quest giver who directs Alliance adventurers toward ventures abroad, particularly connecting travelers with his friends, the Brassbolts brothers, out in Thousand Needles."
+  },
+  {
+   "q": "Who are the Brassbolts brothers to Longbeard?",
+   "aliases": [
+    "brassbolts connection",
+    "why does longbeard know brassbolts",
+    "longbeard shimmering deep"
+   ],
+   "answer": "They are gnomish tinkerers and associates of Longbeard operating in the Shimmering Flats, bound by a shared passion for engineering and experimental machinery."
+  },
+  {
+   "q": "Is Pilot Longbeard related to Furen Longbeard?",
+   "aliases": [
+    "furen longbeard brother",
+    "longbeard family dwarf",
+    "is he related to furen"
+   ],
+   "answer": "They share the prominent Longbeard clan name in Ironforge, suggesting clan kinship, though Pilot Longbeard focuses on aviation and engineering connections rather than smithing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Pilot Longbeard exemplifies the dwarven adventurous spirit, bridging traditional Ironforge martial service with the excitement of gnomish aviation and mechanics."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "As an aviator with contacts among gnome tinkerers, Longbeard appreciates the mechanical ingenuity required to keep machinery flying and racing."
+  }
+ ],
+ "keywords": [
+  "brassbolts",
+  "dwarf aviator",
+  "hall of arms",
+  "ironforge",
+  "military ward",
+  "pilot longbeard",
+  "shimmering deep",
+  "thousand needles"
+ ],
+ "related": [
+  "zone:ironforge",
+  "subzone:military-ward",
+  "quest:1179",
+  "quest:467",
+  "zone:thousandneedles",
+  "subzone:shimmering-deep",
+  "npc:furen-longbeard",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Pilot Longbeard"
+ ]
+}

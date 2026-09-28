@@ -1,0 +1,73 @@
+{
+ "key": "subzone:forlorn-ridge",
+ "type": "subzone",
+ "name": "Forlorn Ridge",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Forlorn Ridge"
+ },
+ "summary": "Forlorn Ridge is a towering mountain ridge looming over southwestern Azshara. Its strategic elevation and commanding views over the coast have drawn the attention of both the Alliance and the Horde, who have each carved out fortifications along its slopes.",
+ "sections": [
+  {
+   "title": "A Contested Vantage",
+   "body": "Rising sharply above the autumnal forests of western Azshara, Forlorn Ridge dominates the surrounding terrain. Resembling an ancient, long-dormant volcano, its high vantage point offers a sweeping view over the coastal approaches and the ruined elven estates below. Because control over these heights dictates military dominance in the sector, both Alliance and Horde forces have established encampments and outposts along its mountain flanks, watching each other warily across the rugged bluffs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Forlorn Ridge?",
+   "aliases": [
+    "where is forlorn ridge",
+    "forlorn ridge azshara",
+    "what is this mountain"
+   ],
+   "answer": "Forlorn Ridge is a prominent mountain feature situated in southwestern Azshara, towering over the local wilderness and coastal roads."
+  },
+  {
+   "q": "Why are the Alliance and Horde fighting over this ridge?",
+   "aliases": [
+    "why are there camps here",
+    "who controls forlorn ridge",
+    "alliance vs horde forlorn ridge"
+   ],
+   "answer": "The ridge commands unmatched sightlines across western Azshara. Whoever holds the high ground can monitor troop movements between the coastal ruins and the inland passes, prompting both factions to fortify positions on its slopes."
+  },
+  {
+   "q": "Was Forlorn Ridge originally a volcano?",
+   "aliases": [
+    "is forlorn ridge a volcano",
+    "volcano in azshara"
+   ],
+   "answer": "The distinct shape and rugged composition of the mountain suggest it may have been a volcanic formation in the distant past, though it has long since grown quiet and overgrown."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Holding the heights of Forlorn Ridge provides early warning and tactical oversight against Horde movements spilling eastward out of the Barrens and Ashenvale."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, establishing footholds along Forlorn Ridge helps secure the rugged borderlands of Azshara just north of Durotar against Alliance incursions."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "forlorn ridge",
+  "fortifications",
+  "mountain",
+  "ruins of eldarath",
+  "volcano"
+ ],
+ "related": [
+  "zone:azshara",
+  "topic:horde",
+  "topic:alliance",
+  "subzone:ruins-of-eldarath"
+ ],
+ "attribution": [
+  "Forlorn Ridge"
+ ]
+}

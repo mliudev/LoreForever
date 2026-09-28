@@ -1,0 +1,76 @@
+{
+ "key": "npc:natoj",
+ "type": "npc",
+ "name": "Natoj",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Natoj",
+  "refs": 2
+ },
+ "summary": "Natoj is a Darkspear troll stationed in the Valley of Strength within Orgrimmar. A steadfast defender of the Horde's capital, he reminds travelers of the unity shared among orcs, trolls, and tauren.",
+ "sections": [
+  {
+   "title": "A Defender of the Capital",
+   "body": "Natoj stands vigil in the dusty expanse of Orgrimmar's Valley of Strength, watching over the heart of the Horde's stronghold. Resolutely loyal to the young coalition forged in Kalimdor, he frequently reminds champions that victory relies on complete unity between the races. When great threats fall before the Horde's champions, Natoj stands near to direct leatherworkers in turning draconic remnants into protective gear, ensuring the strength of the vanguard endures.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Natoj?",
+   "aliases": [
+    "natoj orgrimmar",
+    "who is natoj",
+    "natoj lore"
+   ],
+   "answer": "Natoj is a Darkspear troll located in the Valley of Strength inside Orgrimmar. He is a steadfast supporter of the Horde's unity, serving alongside the city's defenders."
+  },
+  {
+   "q": "Where can I find Natoj?",
+   "aliases": [
+    "natoj location",
+    "where is natoj",
+    "find natoj"
+   ],
+   "answer": "He is located in the Valley of Strength, the main entry district of Orgrimmar, standing near the bustling thoroughfare of the city."
+  },
+  {
+   "q": "What does Natoj say to adventurers?",
+   "aliases": [
+    "natoj dialogue",
+    "natoj quote",
+    "what does natoj say"
+   ],
+   "answer": "He speaks passionately about Horde solidarity, saying: 'We be horde, all of us. Tauren, orc, troll, an' all da rest. Never forget dat we in dis together.'"
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Natoj embodies the fierce loyalty the Darkspear tribe holds for the new home and allies they found under Warchief Thrall."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Natoj serves as an outspoken champion of solidarity among the allied races defending Durotar."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "natoj",
+  "orgrimmar",
+  "the journey has just begun",
+  "troll",
+  "valley of strength"
+ ],
+ "related": [
+  "subzone:valley-of-strength",
+  "zone:orgrimmar",
+  "topic:horde",
+  "topic:troll",
+  "quest:7493"
+ ],
+ "attribution": [
+  "Natoj"
+ ]
+}

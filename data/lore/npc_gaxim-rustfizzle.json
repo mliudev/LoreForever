@@ -1,0 +1,122 @@
+{
+ "key": "npc:gaxim-rustfizzle",
+ "type": "npc",
+ "name": "Gaxim Rustfizzle",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Gaxim Rustfizzle",
+  "refs": 12
+ },
+ "summary": "Gaxim Rustfizzle is an ambitious gnome scholar and tinker stationed at a small Alliance camp along the Webwinder Path in Stonetalon Mountains. A representative of the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences, he seeks to prove to skeptical night elves that advanced artifice and alchemy can preserve their woodland realm. His scientific curiosity is matched by a fierce vendetta against the destructive operations of the Venture Company.",
+ "sections": [
+  {
+   "title": "A Scientific Emissary",
+   "body": "While night elves traditionally rely on ancient druidism and nature magic, Gaxim Rustfizzle arrived in the craggy passes of Stonetalon to demonstrate a radically different perspective. Representing the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences, he genuinely believes that calculated mechanisms and chemical solutions can defend and restore Kalimdor's wilderness just as effectively as prayers to Elune. Camped alongside the sentinel Kaela Shadowspear on the Webwinder Path, he works tirelessly to convince his tall, reclusive allies of engineering's ecological merits.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sabotaging the Saws",
+   "body": "Much of Gaxim's energy is channeled against the Venture Company, whose clear-cutting and industrial greed desecrate nearby Windshear Crag. Believing that crude goblin machinery deserves neither respect nor mercy, Gaxim coordinates covert operations and volatile chemical sabotage against their logging operations. To him, crippling their shredders and stealing their schematics is not merely tactical warfare\u2014it is a practical demonstration that superior gnomish intellect always triumphs over careless corporate plunder.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gaxim Rustfizzle?",
+   "aliases": [
+    "who is gaxim",
+    "gaxim rustfizzle lore",
+    "gnome in stonetalon"
+   ],
+   "answer": "Gaxim Rustfizzle is a gnome scholar and inventor stationed at an Alliance lookout along the Webwinder Path in the Stonetalon Mountains. He serves as an emissary for the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences."
+  },
+  {
+   "q": "What is the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences?",
+   "aliases": [
+    "enlightened assembly",
+    "gaxim faction",
+    "gaxim group"
+   ],
+   "answer": "It is an academic and scientific society of gnomes dedicated to blending the disciplines of arcane magic, alchemical mixtures, and mechanical engineering. Gaxim represents their ideals abroad in Kalimdor."
+  },
+  {
+   "q": "Why is Gaxim working with the night elves?",
+   "aliases": [
+    "why is gaxim here",
+    "gaxim night elves",
+    "gaxim purpose"
+   ],
+   "answer": "Gaxim wants to demonstrate to the night elves that gnomish science and alchemy can actively protect and heal natural woodlands, offering a modern Alliance answer to forest conservation alongside traditional druidism."
+  },
+  {
+   "q": "Why does Gaxim hate the Venture Company?",
+   "aliases": [
+    "gaxim venture co",
+    "gaxim vs venture company",
+    "why fight venture co"
+   ],
+   "answer": "The Venture Company is ruthlessly clear-cutting Windshear Crag with crude machines and toxic pollution. Gaxim despises their reckless exploitation and relishes turning volatile chemicals and sabotage against their operations."
+  },
+  {
+   "q": "Who is camped with Gaxim on Webwinder Path?",
+   "aliases": [
+    "gaxim companion",
+    "who is with gaxim",
+    "gaxim and kaela"
+   ],
+   "answer": "He shares his small outpost with Kaela Shadowspear, a night elf sentinel watching over the trails leading into Windshear Crag."
+  },
+  {
+   "q": "Where can Gaxim Rustfizzle be found?",
+   "aliases": [
+    "gaxim location",
+    "where is gaxim",
+    "gaxim rustfizzle map"
+   ],
+   "answer": "He is located at a modest Alliance camp along the Webwinder Path, just southwest of the industrial logging pits of Windshear Crag in the Stonetalon Mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Gaxim represents gnomish academic pride at its finest, showing Kalimdor's ancient cultures that gears and reagents can save a forest just as well as nature magic."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Though traditionalists may scoff at his whirring gadgets and bubbling vials, Gaxim is a steadfast ally actively defending Ashenvale and Stonetalon borders from goblin industry."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Gaxim puts engineering principles to work in the field, designing covert operations and tactical devices specifically tuned to disrupt crude Venture Company machinery."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Perched on the perilous Webwinder Path, Gaxim provides crucial scouting, intelligence, and sabotage missions to check aggressive industrial incursions in Stonetalon."
+  }
+ ],
+ "keywords": [
+  "assembly",
+  "gaxim",
+  "gnome",
+  "kaela",
+  "rustfizzle",
+  "stonetalon",
+  "venture company",
+  "webwinder",
+  "windshear"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "subzone:webwinder-path",
+  "subzone:windshear-crag",
+  "npc:kaela-shadowspear",
+  "topic:venture-company",
+  "quest:1073",
+  "quest:1079",
+  "quest:1080"
+ ],
+ "attribution": [
+  "Gaxim Rustfizzle"
+ ]
+}

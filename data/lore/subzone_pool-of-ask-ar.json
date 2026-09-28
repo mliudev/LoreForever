@@ -1,0 +1,93 @@
+{
+ "key": "subzone:pool-of-ask-ar",
+ "type": "subzone",
+ "name": "Pool of Ask'ar",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Pool of Ask'ar"
+ },
+ "summary": "The Pool of Ask'ar is a sprawling, submerged cavern lake located deep within Blackfathom Deeps. Teeming with aquatic beasts and foul naga invaders, its waters conceal ancient night elven architecture alongside hidden passageways that wind deeper into the corrupted sanctuary.",
+ "sections": [
+  {
+   "title": "Depths of the Sunken Grotto",
+   "body": "Situated just beyond the Drowned Sacellum, the Pool of Ask'ar fills a massive subterranean vault with murky, cold water. The natural caverns and ancient stonework have become a nesting ground for oversized snapping turtles and deep-sea crabs, overseen by the enormous ancient chelonian known as Ghamoo-ra. The naga who have taken over the temple utilize this submerged threshold as a defensive staging ground, guarding the waterlogged approaches that lead deeper into the complex toward Lady Sarevess and the Moonshrine Ruins.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets Beneath the Surface",
+   "body": "Beyond its monstrous fauna and hostile patrols, the waters of the pool hide valuable relics from the shrine's pre-Sundering past. Submerged ledges and hidden alcoves along the cavern's edges conceal lost artifacts, including the valuable Lorgalis Manuscript sought by Darnassian scholars. Swimming through the flooded southern passageways brings travelers out into dry tunnels guarded by vile murlocs and Old God cultists, marking the pool as the critical aquatic crossroads of Blackfathom Deeps.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Pool of Ask'ar?",
+   "aliases": [
+    "pool of askar",
+    "what is this pool",
+    "bfd water area"
+   ],
+   "answer": "It is a vast subterranean pool within Blackfathom Deeps, located right past the Drowned Sacellum. It is dominated by snapping turtles, crabs, and naga guards."
+  },
+  {
+   "q": "Who lives in this subterranean pool?",
+   "aliases": [
+    "pool monsters",
+    "pool of askar bosses",
+    "who is in the pool"
+   ],
+   "answer": "The cavern is inhabited by wild reef creatures such as snapping turtles and crabs, most notably the colossal turtle Ghamoo-ra. Hostile naga also patrol the submerged banks and nearby chambers."
+  },
+  {
+   "q": "Where do the underwater tunnels lead?",
+   "aliases": [
+    "pool tunnels",
+    "where does the water go",
+    "pool of askar exit"
+   ],
+   "answer": "Navigating the flooded southern passages leads out toward chambers occupied by Lady Sarevess and Argent Guard Thaelrid, and opens into the path winding past Gelihast toward the Moonshrine Ruins."
+  },
+  {
+   "q": "What notable items can be found in the pool?",
+   "aliases": [
+    "pool of askar relics",
+    "lorgalis manuscript",
+    "pool loot"
+   ],
+   "answer": "The submerged ruins along the pool's periphery contain the Lorgalis Manuscript, an ancient document coveted by scholars in Darnassus seeking knowledge lost in the depths of Blackfathom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The pool floods what was once holy Elune temple grounds, drowning ancient architecture and scattering sacred relics like the Lorgalis Manuscript to be scavenged by naga."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The waterways must be breached to uncover the fate of Argent Guard Thaelrid, who ventured into these cavern depths on a holy mission against the Twilight's Hammer."
+  }
+ ],
+ "keywords": [
+  "blackfathom deeps",
+  "drowned sacellum",
+  "ghamoo-ra",
+  "lady sarevess",
+  "lorgalis manuscript",
+  "naga",
+  "pool of ask'ar"
+ ],
+ "related": [
+  "zone:blackfathom",
+  "npc:ghamoo-ra-classic",
+  "subzone:drowned-sacellum",
+  "npc:lady-sarevess",
+  "subzone:moonshrine-ruins",
+  "topic:naga",
+  "npc:gelihast",
+  "npc:lorgus-jett"
+ ],
+ "attribution": [
+  "Pool of Ask'ar"
+ ]
+}

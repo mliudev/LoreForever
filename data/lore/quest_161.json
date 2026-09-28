@@ -1,0 +1,128 @@
+{
+ "key": "quest:161",
+ "type": "quest",
+ "name": "A Dark Threat Looms",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   161
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Chief Engineer Hinderweir VII",
+  "end": "Ashlan Stonesmirk",
+  "previous": "A Dark Threat Looms (2)",
+  "next": "A Dark Threat Looms (4)",
+  "wiki": "A Dark Threat Looms (3)",
+  "chain": []
+ },
+ "summary": "Suspicious of sabotage at the Stonewrought Dam, Chief Engineer Hinderweir VII dispatches a courier north into the perilous Wetlands to have a sample of volatile powder examined. The courier must navigate the treacherous highway past the Algaz Gate to deliver the sample to demolition expert Ashlan Stonesmirk at Dun Modr.",
+ "sections": [
+  {
+   "title": "A Powder of Ill Intent",
+   "body": "Following disturbances around the Stonewrought Dam, Chief Engineer Hinderweir VII discovers traces of a pungent, unfamiliar compound near the foundation. Recognizing the potential for catastrophic sabotage, Hinderweir suspects the substance is a refined explosive designed to shatter dwarven masonry. Lacking specialized chemical testing equipment at the dam site, he insists on consulting a military demolitionist before jumping to conclusions.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road North",
+   "body": "The urgent analysis requires a journey through the Algaz Gate down into the sodden lowlands of the Wetlands. With the marshes crawling with hostile wildlife, aggressive dragonkin, and Dark Iron infiltrators, the route is fraught with peril. Hinderweir urges travelers to stick firmly to the cobbled roadway until reaching Dun Modr, the fortified dwarven outpost anchoring the southern approach to the Thandol Span.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Blast Expert of Dun Modr",
+   "body": "Stationed on the front line of northern Khaz Modan, Ashlan Stonesmirk is the regiment's resident master of high explosives. Half-deaf from decades of concussive detonations, Stonesmirk's keen eye and nose immediately confirm Hinderweir's worst fears: the compound is indeed a specialized demolition charge, suggesting an orchestrated plot aimed squarely at the heart of dwarven engineering.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the strange smelling powder?",
+   "aliases": [
+    "what is the powder",
+    "hinderweir powder",
+    "strange powder"
+   ],
+   "answer": "It is an alchemical explosive charge collected near the Stonewrought Dam. Chief Engineer Hinderweir VII suspects saboteurs intend to breach the dam walls with it."
+  },
+  {
+   "q": "Why send the powder all the way to Dun Modr?",
+   "aliases": [
+    "why dun modr",
+    "why ashlan stonesmirk",
+    "why go to wetlands"
+   ],
+   "answer": "Dun Modr hosts the Ironforge military contingent defending the Thandol Span, including demolitionist Ashlan Stonesmirk. As a veteran explosives expert, he possesses the technical knowledge needed to identify specialized blast compounds."
+  },
+  {
+   "q": "Where is Ashlan Stonesmirk located?",
+   "aliases": [
+    "where is stonesmirk",
+    "find ashlan",
+    "stonesmirk location"
+   ],
+   "answer": "Ashlan Stonesmirk is stationed in the military camp of Dun Modr, situated in the far northern reaches of the Wetlands just south of the Thandol Span."
+  },
+  {
+   "q": "Why does Hinderweir warn to stick to the road?",
+   "aliases": [
+    "why stick to road",
+    "wetlands dangers",
+    "road to wetlands"
+   ],
+   "answer": "The road descending from the Algaz Gate through the Wetlands cuts directly through territories infested with hostile beasts, raptors, gnolls, and Dark Iron saboteurs, making off-road travel extremely dangerous for couriers."
+  },
+  {
+   "q": "Who is sabotaging the Stonewrought Dam?",
+   "aliases": [
+    "who made the powder",
+    "dam saboteurs",
+    "dark threat culprit"
+   ],
+   "answer": "The explosives belong to the Dark Iron dwarves, who seek to undermine Bronzebeard infrastructure and collapse the Stonewrought Dam to drown the valleys below."
+  },
+  {
+   "q": "Why is Ashlan Stonesmirk hard of hearing?",
+   "aliases": [
+    "stonesmirk deaf",
+    "why can't ashlan hear"
+   ],
+   "answer": "Years of working as a frontline military sapper and explosives specialist have left Ashlan with chronic ringing in his ears and severe hearing loss from blast concussions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The Stonewrought Dam is one of the crowning jewels of Bronzebeard engineering. Any sign of a plot to shatter its masonry strikes at the pride and safety of all Khaz Modan."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Identifying high-grade explosive residues requires a sapper's practiced eye, proving that even mundane powders can reveal the technical sophistication of an enemy saboteur."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The highway running through Loch Modan and the Wetlands serves as a critical military lifeline between Ironforge and the northern Alliance holdings across the Thandol Span."
+  }
+ ],
+ "keywords": [
+  "ashlan stonesmirk",
+  "dark threat looms",
+  "dun modr",
+  "explosive powder",
+  "hinderweir",
+  "stonewrought dam",
+  "thandol span",
+  "wetlands"
+ ],
+ "related": [
+  "npc:chief-engineer-hinderweir-vii",
+  "npc:ashlan-stonesmirk",
+  "subzone:dun-modr",
+  "subzone:thandol-span",
+  "zone:lochmodan",
+  "quest:631"
+ ],
+ "attribution": [
+  "A Dark Threat Looms (3)"
+ ]
+}

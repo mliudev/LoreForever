@@ -1,0 +1,119 @@
+{
+ "key": "quest:1944",
+ "type": "quest",
+ "name": "Waters of Xavian",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1944
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Deino",
+  "end": "",
+  "previous": "Speak with Deino",
+  "next": "Laughing Sisters",
+  "wiki": "Waters of Xavian",
+  "chain": []
+ },
+ "summary": "Waters of Xavian is a Horde mage quest offered by Deino in Orgrimmar. Seeking to plumb ancient elven secrets, she tasks her apprentice with traveling to the ruins of Xavian in Ashenvale to draw a sample from its highest waterfall.",
+ "sections": [
+  {
+   "title": "A Mage's Curiosity",
+   "body": "Within the dark crevices of the Valley of Spirits, the troll mage Deino seeks out lingering reservoirs of primal arcane energy across Kalimdor. Her gaze turns to Xavian, an ancient night elf city hidden deep in the eastern canopy of Ashenvale. Legends among scholars whisper that the city was steeped in magical knowledge before the Sundering, and its waters are said to retain potent arcane properties that modern casters yearn to dissect.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ruins of Xavian",
+   "body": "Reaching the source of these waters is no simple errand. Xavian no longer belongs to peaceful elven sages; it has fallen into ruin and is now overrun by feral, corrupt satyrs who fiercely guard their territory from outsiders. Prying mages must navigate past Satyrnaar and tread through dangerous waterways, avoiding both prowling beasts and demonic sentinels to fill Deino's flask at the base of the city's towering waterfall.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Deino?",
+   "aliases": [
+    "who gives waters of xavian",
+    "deino orgrimmar"
+   ],
+   "answer": "Deino is a troll mage trainer and scholar located in the Valley of Spirits in Orgrimmar. She instructs Horde mages and investigates relics of ancient Kalimdor magic."
+  },
+  {
+   "q": "Where is Xavian located?",
+   "aliases": [
+    "xavian location",
+    "where is xavian",
+    "finding xavian"
+   ],
+   "answer": "Xavian is an ancient ruined city situated in northeastern Ashenvale, north of Splintertree Post and just northwest of the satyr stronghold of Satyrnaar."
+  },
+  {
+   "q": "Why does Deino want this water?",
+   "aliases": [
+    "why get xavian water",
+    "purpose of xavian water"
+   ],
+   "answer": "Scholarly accounts claim Xavian once held vast magical knowledge, and its waters are believed to hold lingering arcane power. Deino wants a fresh sample from the waterfall's source to analyze its properties."
+  },
+  {
+   "q": "What dangers guard the ruins of Xavian?",
+   "aliases": [
+    "xavian enemies",
+    "who controls xavian"
+   ],
+   "answer": "The ruins are infested with satyrs\u2014demonic, corrupted beings who despise trespassers and guard their territory aggressively against prying mages."
+  },
+  {
+   "q": "Where exactly is the water sample collected?",
+   "aliases": [
+    "waterfall location",
+    "where to fill flask",
+    "xavian waterfall"
+   ],
+   "answer": "The sample must be scooped into Deino's flask from the pool at the very base of the highest waterfall within the ruins of Xavian."
+  },
+  {
+   "q": "What comes next after returning the sample to Deino?",
+   "aliases": [
+    "waters of xavian followup",
+    "next quest after waters of xavian"
+   ],
+   "answer": "Satisfied with the water sample, Deino sends the mage on the next stage of study involving the dryads in Ashenvale with the quest Laughing Sisters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "This quest is an exclusive rite of study for Horde mages, testing their ability to venture into hostile wilderness to extract untamed arcane reagents."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Splintertree Post serves as the Horde's nearest staging ground in eastern Ashenvale for navigating the satyr-infested wilds surrounding Xavian."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "deino",
+  "flask",
+  "mage quest",
+  "orgrimmar",
+  "satyr",
+  "splintertree",
+  "waters of xavian",
+  "xavian"
+ ],
+ "related": [
+  "npc:deino",
+  "subzone:xavian",
+  "quest:1945",
+  "quest:1943",
+  "zone:ashenvale",
+  "subzone:satyrnaar",
+  "subzone:splintertree-post",
+  "topic:satyr"
+ ],
+ "attribution": [
+  "Waters of Xavian"
+ ]
+}

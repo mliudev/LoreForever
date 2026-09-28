@@ -1,0 +1,125 @@
+{
+ "key": "quest:118",
+ "type": "quest",
+ "name": "The Price of Shoes",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   118
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Verner Osgood",
+  "end": "Smith Argus",
+  "previous": null,
+  "next": "Return to Verner",
+  "wiki": "The Price of Shoes",
+  "chain": [
+   "The Price of Shoes",
+   "Return to Verner",
+   "Underbelly Scales",
+   "A Baying of Gnolls",
+   "Howling in the Hills"
+  ]
+ },
+ "summary": "Verner Osgood, the smith in Lakeshire, has depleted his supply of iron patching together equipment for the beleaguered town guard. With no metal left to shoe the local horses, he sends a courier across Elwynn Forest to enlist help from Smith Argus in Goldshire.",
+ "sections": [
+  {
+   "title": "A Frontier Strained to the Limit",
+   "body": "Lakeshire sits directly in the crosshairs of gnolls, orcs, and murlocs, yet Stormwind offers precious little reinforcement. The local garrison has to fight daily to keep the township from falling, and that relentless combat wears gear down quickly. Verner Osgood spends nearly every waking hour repairing dented breastplates, reshaping dulled swords, and keeping the town guards clad in iron, exhausting his raw materials in the process.",
+   "spoiler": 0
+  },
+  {
+   "title": "Supply Lines to Elwynn",
+   "body": "When a frontier settlement runs completely out of iron, even mundane tasks ground to a halt. Without horseshoes, messengers cannot ride swift relays and draft animals cannot haul supplies across the rocky paths of Redridge. Verner must swallow his pride and appeal to the heartland, sending travelers west down the Three Corners road to Goldshire, where Smith Argus still enjoys regular access to the royal realm's deep mineral stores.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Verner out of iron?",
+   "aliases": [
+    "why no iron",
+    "verner out of metal",
+    "lakeshire iron shortage"
+   ],
+   "answer": "The local guards in Lakeshire face constant assaults from Redridge's hostile wildlife, gnolls, and Blackrock orcs. Verner has been pouring all his iron stock into repairing their battered armor and weapons, leaving none behind for civilian needs."
+  },
+  {
+   "q": "Who is Smith Argus?",
+   "aliases": [
+    "argus goldshire",
+    "who is argus",
+    "blacksmith in goldshire"
+   ],
+   "answer": "Smith Argus is the resident blacksmith of Goldshire in Elwynn Forest. Located near the bustling center of the kingdom, his forge has far easier access to raw ingots and supplies than frontier towns like Lakeshire."
+  },
+  {
+   "q": "Why does Lakeshire lack supplies from Stormwind?",
+   "aliases": [
+    "why no help from stormwind",
+    "lakeshire ignored",
+    "stormwind neglect"
+   ],
+   "answer": "Stormwind's rulers are entangled in political inertia while King Varian Wrynn remains missing. With the House of Nobles withholding troops and funds, frontier towns like Lakeshire are largely left to fend for themselves using whatever regional trade they can muster."
+  },
+  {
+   "q": "Why are horseshoes so critical in Redridge?",
+   "aliases": [
+    "why need horseshoes",
+    "why shoes matter"
+   ],
+   "answer": "Redridge's rocky, unforgiving terrain quickly destroys the hooves of unshod beasts. Without shoes, messenger couriers, supply wagons, and patrol mounts become lame, cutting Lakeshire off from the rest of the kingdom."
+  },
+  {
+   "q": "What happens after reaching Smith Argus?",
+   "aliases": [
+    "next quest",
+    "what after argus"
+   ],
+   "answer": "Argus accepts Verner's note and provides a shipment of horseshoes for you to carry back to Lakeshire, opening up further tasks to help secure the embattled settlement."
+  },
+  {
+   "q": "Where is Smith Argus located in Goldshire?",
+   "aliases": [
+    "where is argus",
+    "argus location"
+   ],
+   "answer": "He can be found working the outdoor forge near the Lion's Pride Inn in Goldshire, just off the main road through Elwynn Forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The request highlights the harsh material realities of frontier smithing, where a craftsman's forge must prioritize surviving soldiers over ordinary farmsteads."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire's reliance on Goldshire underscores how thinly stretched the kingdom's logistics are under the regency in Stormwind."
+  }
+ ],
+ "keywords": [
+  "elwynn",
+  "goldshire",
+  "horseshoes",
+  "iron",
+  "lakeshire",
+  "redridge",
+  "smith argus",
+  "verner osgood"
+ ],
+ "related": [
+  "npc:verner-osgood",
+  "npc:smith-argus",
+  "quest:119",
+  "zone:redridge",
+  "subzone:goldshire",
+  "topic:stormwind-guard",
+  "topic:stormwind-kingdom",
+  "quest:124"
+ ],
+ "attribution": [
+  "The Price of Shoes"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "subzone:vice",
+ "type": "subzone",
+ "name": "Vice",
+ "era": "classic",
+ "zone": "deadwind",
+ "meta": {
+  "wiki": "Vice"
+ },
+ "summary": "The Vice is a rugged, desolate expanse of Deadwind Pass situated along the road leading toward Karazhan. It serves as the territory of the Deadwind ogres, who maintain rough mounds and scattered camps in defiance of the land's grim isolation. Travelers passing through must navigate both their crude brutality and their surprisingly adept wielders of dark magic.",
+ "sections": [
+  {
+   "title": "A Desolate Stronghold",
+   "body": "Stretching across the southern stretches of Deadwind Pass, the Vice is defined by barren earth, jagged rock faces, and crude mounds erected by the Deadwind ogre clan. While the surrounding canyon is largely abandoned to vengeful ghosts and scavenger vultures, these ogres have carved out a stubborn foothold directly beside the main path approaching Karazhan. Why they chose such a bleak and magically scarred waste remains an enduring mystery, but any traveler passing between Duskwood and the Swamp of Sorrows quickly learns they defend their camps with fierce territorial violence.",
+   "spoiler": 0
+  },
+  {
+   "title": "Brute Force and Dark Arts",
+   "body": "Unlike mere highwaymen, the ogres dwelling in the Vice possess both heavy martial strength and dangerous arcane talent. Alongside hulking bruisers, Deadwind warlocks practice crude yet lethal fel sorceries among the earthen mounds. Their presence so close to the abandoned seat of Medivh suggests a hunger for residual magical power, making the canyon a lethal gauntlet for wandering scholars and solitary scouts alike.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Vice?",
+   "aliases": [
+    "the vice deadwind",
+    "what is vice",
+    "vice area deadwind pass"
+   ],
+   "answer": "The Vice is a rugged subzone in southern Deadwind Pass, characterized by earthen mounds, scattered campfires, and rocky ravines controlled entirely by the Deadwind ogres."
+  },
+  {
+   "q": "Why are the ogres living here?",
+   "aliases": [
+    "why ogres in deadwind",
+    "deadwind ogre motive",
+    "why are ogres at the vice"
+   ],
+   "answer": "Nobody knows for certain why the ogres chose to settle in such an inhospitable, haunted gorge. Their warlocks may be drawn to the lingering arcane fallout emanating from nearby Karazhan, or they may simply exploit the remote mountain road to prey upon passing travelers."
+  },
+  {
+   "q": "Where does the road through the Vice lead?",
+   "aliases": [
+    "vice road destination",
+    "where does the road go",
+    "path through vice"
+   ],
+   "answer": "The trail traversing the Vice winds deeper into the crags of southern Deadwind Pass, leading straight toward the ominous gates of Karazhan, the abandoned tower of the Guardian Medivh."
+  },
+  {
+   "q": "What dangers should travelers expect in the Vice?",
+   "aliases": [
+    "vice threats",
+    "enemies in vice",
+    "what attacks you in the vice"
+   ],
+   "answer": "Travelers will encounter aggressive Deadwind ogres patrolling the road and defending their mounds. In addition to physically imposing brawlers, the clan includes dangerous warlocks who wield curses and shadow magic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The Deadwind ogres inhabiting the Vice display an unexpected mastery of dark magic, suggesting that even isolated brute clans can tap into corruptive fel energies."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The ogres' presence along the direct approach to Karazhan raises questions for the Kirin Tor regarding whether residual energies from Medivh's tower are influencing the local beasts and clans."
+  }
+ ],
+ "keywords": [
+  "deadwind ogres",
+  "deadwind pass",
+  "deadwind warlocks",
+  "karazhan",
+  "ogre mounds",
+  "vice"
+ ],
+ "related": [
+  "zone:deadwind",
+  "subzone:karazhan"
+ ],
+ "attribution": [
+  "Vice"
+ ]
+}

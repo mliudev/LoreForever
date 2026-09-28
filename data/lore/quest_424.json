@@ -1,0 +1,128 @@
+{
+ "key": "quest:424",
+ "type": "quest",
+ "name": "Arugal's Folly",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   424
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Dalar Dawnweaver",
+  "end": "",
+  "previous": "Arugal's Folly (2)",
+  "next": "Arugal's Folly (4)",
+  "wiki": "Arugal's Folly (3)",
+  "chain": [
+   "Prove Your Worth (Classic)",
+   "Arugal's Folly",
+   "Arugal's Folly (2)",
+   "Arugal's Folly (3)",
+   "Arugal's Folly (4)"
+  ]
+ },
+ "summary": "Arugal's Folly is a key quest in the Sepulcher's ongoing campaign against the mad archmage's influence across Silverpine Forest. Dalar Dawnweaver tasks Horde adventurers with infiltrating Deep Elem Mine to execute the corrupted foreman, Grimson the Pale, securing vital mineral wealth for Varimathras's forces.",
+ "sections": [
+  {
+   "title": "Securing the Depths",
+   "body": "While unraveling the dark enchantments Archmage Arugal unleashed upon the forest, Dalar Dawnweaver receives urgent intelligence from the Forsaken Darkstalkers. The feral sorcery spreading from Shadowfang Keep has reached the Deep Elem Mine in the southeastern hills, turning the miners into savage wretches. The mine holds crucial ore needed to fuel Undercity's militarization, but its current occupants render it completely unusable.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Severed Head",
+   "body": "At the heart of the infested shafts lurks Grimson the Pale, the tainted foreman who directs the mad remnant within the subterranean tunnels. Dawnweaver orders an immediate decapitation strike: with Grimson slain and his head returned to the Sepulcher, the scattered mine workers will lose their coordination, allowing Forsaken laborers to claim the excavation for Lord Varimathras.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Grimson the Pale?",
+   "aliases": [
+    "grimson",
+    "who is grimson",
+    "deep elem foreman"
+   ],
+   "answer": "Grimson the Pale is the foreman of Deep Elem Mine. Like many laborers and residents in southern Silverpine, he fell under the corrupting magical influence radiating from Archmage Arugal's experiments, becoming a twisted figure overseeing an infested subterranean den."
+  },
+  {
+   "q": "Where is the Deep Elem Mine located?",
+   "aliases": [
+    "deep elem mine location",
+    "where is deep elem",
+    "where to find grimson"
+   ],
+   "answer": "Deep Elem Mine lies in the craggy hills southeast of the Sepulcher in Silverpine Forest. Its tunnels cut deep into the hillside, teeming with cursed miners and ferals."
+  },
+  {
+   "q": "Why does Varimathras care about a mining operation?",
+   "aliases": [
+    "why varimathras want mine",
+    "varimathras interest"
+   ],
+   "answer": "Varimathras oversees the strategic expansion of Forsaken power. High-yield resources like iron and stone from Deep Elem Mine are vital for arming troops and reinforcing fortresses throughout Lordaeron."
+  },
+  {
+   "q": "What happens after Grimson is slain?",
+   "aliases": [
+    "after arugals folly 3",
+    "what next",
+    "next quest"
+   ],
+   "answer": "Dalar Dawnweaver takes Grimson's head as proof of victory and turns his focus back to the primary threat, preparing to strike directly at the core of Arugal's encroaching presence."
+  },
+  {
+   "q": "What kind of magic corrupted the mine?",
+   "aliases": [
+    "arugals magic in mine",
+    "what corrupted deep elem",
+    "mine curse"
+   ],
+   "answer": "Archmage Arugal unleashed wild otherworldly magic and worgen curses across Silverpine. That tainted energy drifted into the subterranean workers of Deep Elem, driving them mad and mutating their minds."
+  },
+  {
+   "q": "Who are the Darkstalkers mentioned by Dalar Dawnweaver?",
+   "aliases": [
+    "darkstalkers",
+    "who are darkstalkers"
+   ],
+   "answer": "The Darkstalkers are the covert intelligence and scouting branch of the Forsaken military, operating out of outposts like the Sepulcher to monitor enemy troop movements and regional anomalies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Every strategic holding captured from Arugal's mad thralls provides the Forsaken with raw metal to fortify their young nation against the living and the Scourge."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The rich subterranean veins of Deep Elem Mine are coveted across the hills, offering valuable ore once cleared of hostile tainted workers."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Studying how Arugal's runaway conjurations and transmutations seeped into the mines offers a harrowing lesson in magical recklessness."
+  }
+ ],
+ "keywords": [
+  "arugal's folly",
+  "dalar dawnweaver",
+  "deep elem mine",
+  "grimson the pale",
+  "sepulcher",
+  "silverpine forest",
+  "varimathras"
+ ],
+ "related": [
+  "npc:dalar-dawnweaver",
+  "subzone:deep-elem-mine",
+  "npc:arugal",
+  "npc:varimathras",
+  "subzone:sepulcher",
+  "zone:silverpine",
+  "quest:421"
+ ],
+ "attribution": [
+  "Arugal's Folly (3)"
+ ]
+}

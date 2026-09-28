@@ -1,0 +1,82 @@
+{
+ "key": "subzone:cold-hearth-manor",
+ "type": "subzone",
+ "name": "Cold Hearth Manor",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Cold Hearth Manor"
+ },
+ "summary": "Cold Hearth Manor is a blighted farmstead located just east of Brill along the main road of Tirisfal Glades. Once a bustling, hospitable estate known for bountiful crops, the outbreak of the Plague of Undeath wiped out its residents, leaving the surrounding fields choked with mindless Scourge. Today, the Forsaken have secured the main farmhouse as an outpost and waystation for travelers.",
+ "sections": [
+  {
+   "title": "A Chilled Hearth",
+   "body": "Before the Third War, this homestead bore a reputation for warmth and hospitality, supporting rich harvests in the heart of Lordaeron. When the Plague swept through the kingdom, the entire family and their laborers succumbed, rising again as husks bound to the Scourge. While feral undead still stumble through the ruined fields, Forsaken forces managed to push the mindless dead out of the main farmhouse, reclaiming the structure to serve as a trading post and foothold along the road toward the eastern glades.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the people who lived here?",
+   "aliases": [
+    "who lived at cold hearth",
+    "manor backstory",
+    "what happened to the family"
+   ],
+   "answer": "The farmers and workers who tended the estate were completely wiped out when the Plague of Undeath swept across Lordaeron. Rather than finding peace in death, they were raised as mindless zombies that still haunt the surrounding fields."
+  },
+  {
+   "q": "Why is it called Cold Hearth Manor?",
+   "aliases": [
+    "cold hearth name meaning",
+    "why cold hearth"
+   ],
+   "answer": "The estate originally had a reputation for its warm atmosphere and welcoming fires. The grim moniker was likely adopted by the Forsaken as an ironic nod to its former life, marking how cold, dead, and blighted the farm has become."
+  },
+  {
+   "q": "Who controls the manor right now?",
+   "aliases": [
+    "who owns cold hearth manor",
+    "is cold hearth friendly"
+   ],
+   "answer": "The Forsaken have taken control of the primary farmhouse, using it as a safe stop for travelers and traders along the road from Brill. However, the open fields and barns surrounding the manor remain infested with hostile Scourge."
+  },
+  {
+   "q": "Why don't the Forsaken clear out the fields?",
+   "aliases": [
+    "why are there zombies in the fields",
+    "why scourge here"
+   ],
+   "answer": "The Forsaken in Tirisfal Glades are stretched thin, fighting off mindless Scourge remnants while warding off Scarlet Crusade crusaders. Securing the farmhouse and main road provides immediate utility, leaving the scattered dead in the fields as a nuisance rather than an immediate threat to Brill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, reclaiming places like Cold Hearth Manor is a bitter reminder of their lost mortal lives, converting former human sanctuaries into grim defensive outposts against both the Scourge and the Scarlet Crusade."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The manor offers a secure vantage along the road between Brill and the eastern reaches of Tirisfal, providing a safe waypoint for travelers navigating the plagued countryside."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "cold hearth manor",
+  "farmstead",
+  "forsaken",
+  "scourge",
+  "tirisfal glades",
+  "zombies"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "subzone:brill",
+  "topic:forsaken",
+  "topic:scourge",
+  "topic:plague-of-undeath"
+ ],
+ "attribution": [
+  "Cold Hearth Manor"
+ ]
+}

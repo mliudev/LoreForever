@@ -1,0 +1,83 @@
+{
+ "key": "subzone:thistlefur-village",
+ "type": "subzone",
+ "name": "Thistlefur Village",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Thistlefur Village"
+ },
+ "summary": "Thistlefur Village is a sprawling settlement tucked into the forest north of Astranaar in west-central Ashenvale. It serves as the primary home of the Thistlefur furbolg tribe, who have fallen prey to dark corruption and violently assault any outsiders venturing near their dens.",
+ "sections": [
+  {
+   "title": "A Corrupted Den",
+   "body": "Situated just north of the night elf haven of Astranaar, Thistlefur Village was once part of the peaceful woodland communities native to Ashenvale. However, the malignant corruption that has seeped into the ancient forests has entirely claimed the Thistlefur tribe. Now thoroughly maddened and intensely hostile, the furbolgs fiercely guard the paths winding through their settlement. The clan answers to two exceptionally ferocious chieftains, Dal Bloodclaw and Rorgish Jowl, whose unyielding aggression poses a constant threat to travelers and nearby settlements.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Thistlefur Village located?",
+   "aliases": [
+    "thistlefur village location",
+    "where is thistlefur",
+    "thistlefur map"
+   ],
+   "answer": "Thistlefur Village is situated in the west-central reaches of Ashenvale, nestled deep in the woodland hills directly north of the night elf town of Astranaar."
+  },
+  {
+   "q": "Why are the furbolgs here attacking travelers?",
+   "aliases": [
+    "why are thistlefur hostile",
+    "corrupted furbolgs thistlefur",
+    "why attack"
+   ],
+   "answer": "The Thistlefur furbolgs have been gripped by the dark corruption spreading across the forests of Ashenvale. Driven mad by these foul influences, they view all outsiders as immediate enemies and attack anyone who approaches their territory."
+  },
+  {
+   "q": "Who leads the Thistlefur furbolgs?",
+   "aliases": [
+    "thistlefur boss",
+    "thistlefur leaders",
+    "who leads thistlefur"
+   ],
+   "answer": "The tribe is led by two particularly fierce and brutal warrior chieftains named Dal Bloodclaw and Rorgish Jowl, who maintain vicious dominance over the village and its nearby dens."
+  },
+  {
+   "q": "Does Thistlefur Village pose a danger to Astranaar?",
+   "aliases": [
+    "thistlefur threat to astranaar",
+    "danger to astranaar"
+   ],
+   "answer": "Yes. Because Thistlefur Village lies immediately north of Astranaar, the aggressive and unstable nature of the corrupted furbolgs makes them a persistent danger to night elf scouts, supply lines, and sentries stationed along the central roads."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For centuries, the night elves lived in harmony alongside the native furbolg tribes. Seeing the Thistlefur succumb to violent corruption so close to Astranaar is both a heartbreak and a dire security crisis for the Sentinels."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The fallen state of the Thistlefur tribe serves as a grim reminder of the lingering taint afflicting the spirits and wildlife of Ashenvale, demanding vigilant cleansing from the Cenarion Circle."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "corruption",
+  "dal bloodclaw",
+  "furbolg",
+  "rorgish jowl",
+  "thistlefur",
+  "village"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "topic:furbolg",
+  "subzone:astranaar"
+ ],
+ "attribution": [
+  "Thistlefur Village"
+ ]
+}

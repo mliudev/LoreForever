@@ -1,0 +1,94 @@
+{
+ "key": "subzone:silithus-the-wound",
+ "type": "subzone",
+ "name": "Silithus: The Wound",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Silithus: The Wound"
+ },
+ "summary": "In the current era of 25 ADP, the vast southern desert is known simply as Silithus\u2014a desolate expanse of shifting sands, teeming insectoid hives, and ancient night elf ruins. While certain apocalyptic visions and dark omens whisper of a colossal blade piercing the land and wounding the world-soul, the desert today remains undisturbed by any cosmic strike. Travelers journeying here face the waking silithid swarms and the shadowy rituals of the Twilight's Hammer rather than a shattered continent.",
+ "sections": [
+  {
+   "title": "A Desert Unbroken",
+   "body": "To any traveler standing in southern Kalimdor today, Silithus is a forbidding sea of sand, ancient elven stone, and sprawling insect mounds. It has earned notoriety not from cosmic trauma, but from the relentless emergence of the silithid hives\u2014Ashi, Zora, and Regal\u2014and the ominous presence of the Scarab Wall sealing away ancient terrors. Dark cultists and grim oracles sometimes speak of apocalyptic prophecies where a celestial blade shatters the crust and bleeds the world, but in 25 ADP, the earth remains physically intact beneath the harsh desert sun.",
+   "spoiler": 0
+  },
+  {
+   "title": "Visions and Omens",
+   "body": "Whispers of a catastrophic 'Wound' belong strictly to the domain of terrifying visions and cryptic doomsayers. Esoteric cultists and entities peering beyond the veil foretell a day when the dark titan Sargeras strikes at the world itself, gouging the desert into an open scar. Yet for the Cenarion Circle druids patrolling from Cenarion Hold, the reality of the present is grounded in tangible threats: containing the ravenous insect colonies, investigating the Twilight's Hammer encampments, and guarding the ancient seals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is there a giant sword impaled in Silithus right now?",
+   "aliases": [
+    "giant sword silithus",
+    "where is the sword",
+    "is the wound here"
+   ],
+   "answer": "No. In 25 ADP, no sword has struck the desert. The landscape consists entirely of traditional desert sands, insectoid hives, and ancient night elf ruins. Any stories of a titanic blade piercing Kalimdor are prophecies or distant visions."
+  },
+  {
+   "q": "What is 'The Wound' supposed to be?",
+   "aliases": [
+    "what is the wound",
+    "wound in the world lore",
+    "meaning of the wound"
+   ],
+   "answer": "According to grim prophecies and dark oracles, 'The Wound' refers to a catastrophic event where the dark titan Sargeras strikes Azeroth, driving a massive blade into the desert crust and mortally wounding the world-soul. However, this cataclysm has not occurred in the present era."
+  },
+  {
+   "q": "What dangers currently exist in Silithus?",
+   "aliases": [
+    "what is in silithus now",
+    "silithus threats",
+    "current state of silithus"
+   ],
+   "answer": "Travelers in the region must contend with hostile wildlife, the expanding hives of the ravenous silithid, covert cells of the Twilight's Hammer cult, and the dread sealed beyond the ancient Scarab Wall."
+  },
+  {
+   "q": "Are there mining expeditions looking for the blood of Azeroth?",
+   "aliases": [
+    "azerite mining silithus",
+    "is there azerite here",
+    "mining the wound"
+   ],
+   "answer": "No. In the present era, neither the Bilgewater Cartel nor Alliance scouts are extracting world-soul blood from the sands, as the crust has not been ruptured by a celestial strike. The desert remains quiet save for the buzzing hives and desert winds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The Cenarion Circle maintains an active vigil over Silithus, watching not for sky-falling swords, but for the corruption of the earth by the awakening silithid swarms."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts keep a watchful eye on southern Kalimdor, coordinating with night elf sentinels to ensure the seals of the Scarab Wall remain undisturbed."
+  }
+ ],
+ "keywords": [
+  "azeroth",
+  "cenarion circle",
+  "sargeras",
+  "scarab wall",
+  "silithid",
+  "silithus",
+  "sword",
+  "the wound"
+ ],
+ "related": [
+  "zone:silithus",
+  "subzone:cenarion-hold",
+  "subzone:scarab-wall",
+  "topic:sargeras",
+  "topic:cenarion-circle",
+  "subzone:hive-ashi",
+  "subzone:hive-regal",
+  "subzone:hive-zora"
+ ],
+ "attribution": [
+  "Silithus: The Wound"
+ ]
+}

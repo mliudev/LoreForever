@@ -1,0 +1,115 @@
+{
+ "key": "npc:fizzle-brassbolts",
+ "type": "npc",
+ "name": "Fizzle Brassbolts",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Fizzle Brassbolts",
+  "refs": 3
+ },
+ "summary": "Fizzle Brassbolts is a prominent gnomish engineer stationed out on the baked salt flats of the Mirage Raceway in Thousand Needles. Alongside his rival, the goblin Pozzik, Fizzle co-founded the raceway to pit gnomish precision engineering against reckless goblin ingenuity in high-speed rocket car races. He constantly seeks parts, fuel, and strange desert reagents to keep his racing team running.",
+ "sections": [
+  {
+   "title": "A Matter of Principle and Pistons",
+   "body": "Out in the shimmering heat of the Shimmering Flats, political alliances and ancient grudges yield to the roar of motorized engines. Fizzle Brassbolts arrived here with one goal in mind: proving once and for all that gnomish craftsmanship is vastly superior to crude goblin tinkering. Together with his goblin counterpart Pozzik, he helped lay out the Mirage Raceway, bringing race cars, pit crews, and spectators to an otherwise desolate basin.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tinkering on the Flats",
+   "body": "Racing across dry salt beds at breakneck speeds requires constant improvisation. As an avid member of the Mechanical Engineers' Guild of Azeroth (MEGA), Fizzle does not shy away from unorthodox experiments. Whether testing volatile mixtures concocted from local creature venom or contracting travelers to fetch replacement mechanical parts, Fizzle is determined to keep his driver's wheels turning faster than any explosive goblin contraption.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Fizzle Brassbolts?",
+   "aliases": [
+    "who is fizzle",
+    "fizzle brassbolts lore",
+    "gnome at raceway"
+   ],
+   "answer": "Fizzle Brassbolts is a master gnomish engineer and lead organizer for the Alliance racing crew stationed at the Mirage Raceway in Thousand Needles."
+  },
+  {
+   "q": "Why did Fizzle come to the Shimmering Flats?",
+   "aliases": [
+    "why is fizzle here",
+    "raceway purpose",
+    "why raceway built"
+   ],
+   "answer": "He came to settle a technical debate with the goblin engineer Pozzik over whose race boasts superior engineering. Together, they established the Mirage Raceway to test their rocket cars head-to-head on the flat salt basin."
+  },
+  {
+   "q": "What is MEGA?",
+   "aliases": [
+    "fizzle guild",
+    "mechanical engineers guild",
+    "what is mega"
+   ],
+   "answer": "MEGA stands for the Mechanical Engineers' Guild of Azeroth. Fizzle is a dedicated member, representing the guild's commitment to meticulous design and technical refinement."
+  },
+  {
+   "q": "Why does Fizzle need creature venom for race cars?",
+   "aliases": [
+    "salt flat venom quest",
+    "venom racing fuel",
+    "why does he need venom"
+   ],
+   "answer": "Fizzle experiments constantly with local reagents to formulate powerful engine fluids, additives, and accelerants capable of giving his rocket cars an edge over Pozzik's machines."
+  },
+  {
+   "q": "Does Fizzle fight against the goblins?",
+   "aliases": [
+    "is fizzle hostile to goblins",
+    "fizzle pozzik fight"
+   ],
+   "answer": "Not with weapons. While deep professional jealousy exists between them, Fizzle and Pozzik maintain an uneasy, neutral truce at the raceway to focus purely on high-speed competition."
+  },
+  {
+   "q": "Who is Pilot Longbeard?",
+   "aliases": [
+    "pilot longbeard connection",
+    "fizzle pilot friend"
+   ],
+   "answer": "Pilot Longbeard is a dwarven aviator and personal friend of the Brassbolts family who shares a fondness for dangerous machinery and desert tracks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Fizzle carries the honor of all Gnomeregan into the desert, dead-set on proving gnomish precision outperforms goblin recklessness."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Fellow engineers will appreciate Fizzle's dedication to optimizing rocket propulsion and drafting cutting-edge automotive designs under harsh desert conditions."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though operating in a neutral speed zone, Fizzle provides a friendly face and mechanical work for Alliance wanderers passing south toward Tanaris."
+  }
+ ],
+ "keywords": [
+  "brassbolts",
+  "fizzle",
+  "mega",
+  "mirage raceway",
+  "pozzik",
+  "rocket car",
+  "shimmering flats",
+  "thousand needles"
+ ],
+ "related": [
+  "subzone:mirage-raceway",
+  "npc:pozzik",
+  "quest:1104",
+  "zone:thousandneedles",
+  "npc:pilot-longbeard",
+  "topic:gnome",
+  "topic:goblin",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Fizzle Brassbolts"
+ ]
+}

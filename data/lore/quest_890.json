@@ -1,0 +1,122 @@
+{
+ "key": "quest:890",
+ "type": "quest",
+ "name": "The Missing Shipment",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   890
+  ],
+  "level": "14",
+  "faction": null,
+  "start": "Gazlowe",
+  "end": "Wharfmaster Dizzywig",
+  "previous": "Southsea Freebooters (Classic)",
+  "next": "The Missing Shipment (2)",
+  "wiki": "The Missing Shipment",
+  "chain": [
+   "Southsea Freebooters (Classic)",
+   "The Missing Shipment",
+   "The Missing Shipment (2)",
+   "Stolen Booty"
+  ]
+ },
+ "summary": "Gazlowe is expecting a delayed shipment of goods sent across the Great Sea from Booty Bay. Suspecting either dockside administrative blunders or the Southsea Freebooters, he dispatches couriers down to the Ratchet piers to cross-examine Wharfmaster Dizzywig's logs.",
+ "sections": [
+  {
+   "title": "Ratchet's Vital Lifeline",
+   "body": "Ratchet thrives as the Steamwheedle Cartel's commercial beachhead on Kalimdor. Ships regularly cross the Great Sea from Booty Bay, carrying manufactured commodities, exotic supplies, and heavy freight needed to fuel the port's rapid construction and trade ventures. When inbound inventory goes missing, it disrupts business for Chief Engineer Gazlowe, who meticulously tracks every crate entering the port.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cross-Referencing the Cargo",
+   "body": "While Southsea Freebooters infest the coastline south of the town and routinely intercept merchant vessels, Gazlowe knows better than to act without checking his own ledgers. Before accusing pirates or dispatching mercenaries into a skirmish, he sends his personal inventory records directly to Wharfmaster Dizzywig down on the docks. Dizzywig oversees the actual offloading and storage of ship cargo, making him the only goblin capable of determining whether the shipment was lost at sea or simply misplaced in a warehouse.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in the missing shipment?",
+   "aliases": [
+    "gazlowe cargo",
+    "what was stolen",
+    "missing shipment goods"
+   ],
+   "answer": "While Gazlowe refers broadly to vital goods sent over from Booty Bay, Wharfmaster Dizzywig remarks that the chief engineer is likely fretting over a custom order of boots from Drizzlek."
+  },
+  {
+   "q": "Who is Wharfmaster Dizzywig?",
+   "aliases": [
+    "dizzywig",
+    "who is dizzywig",
+    "ratchet dockmaster"
+   ],
+   "answer": "Wharfmaster Dizzywig oversees incoming and outgoing shipping manifests on the Ratchet docks. He manages cargo transfers between trans-oceanic vessels and the local warehouses on behalf of the Steamwheedle Cartel."
+  },
+  {
+   "q": "Why does Gazlowe suspect the Southsea Freebooters?",
+   "aliases": [
+    "freebooters role",
+    "pirate thieves",
+    "why pirates"
+   ],
+   "answer": "The Southsea Freebooters have established encampments along the Merchant Coast just south of Ratchet. They regularly prey on trade routes crossing between Kalimdor and the Eastern Kingdoms, making them the primary suspects whenever merchant cargo disappears."
+  },
+  {
+   "q": "Where did the shipment originate?",
+   "aliases": [
+    "shipment origin",
+    "where did it come from",
+    "booty bay cargo"
+   ],
+   "answer": "The shipment came from Booty Bay, the primary goblin port city situated at the southern tip of Stranglethorn Vale in the Eastern Kingdoms."
+  },
+  {
+   "q": "What happens after giving the ledger to Dizzywig?",
+   "aliases": [
+    "dizzywig next steps",
+    "ledger follow up"
+   ],
+   "answer": "Dizzywig checks his shipping manifests against Gazlowe's ledger to confirm whether the cargo was misrouted into Ratchet's warehouses or seized prior to offloading."
+  },
+  {
+   "q": "Why doesn't Gazlowe check the docks himself?",
+   "aliases": [
+    "why send me",
+    "gazlowe laziness"
+   ],
+   "answer": "As the Chief Engineer and leader of Ratchet, Gazlowe runs town operations and expansion projects from his central office. He prefers paying traveling adventurers to run paperwork across the settlement."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Gazlowe's constant need for spare parts, exotic imports, and custom gear from Booty Bay highlights the logistical struggles of keeping Ratchet's machinery running far from goblin industrial centers."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Ratchet maintains a neutral stance, serving as an essential port for Horde travelers crossing between Kalimdor and Stranglethorn Vale, making dockside commerce a matter of shared interest."
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "dizzywig",
+  "drizzlek",
+  "freebooters",
+  "gazlowe",
+  "ledger",
+  "ratchet",
+  "shipment"
+ ],
+ "related": [
+  "quest:887",
+  "quest:888",
+  "quest:1492",
+  "subzone:booty-bay",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "The Missing Shipment"
+ ]
+}

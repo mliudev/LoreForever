@@ -1,0 +1,122 @@
+{
+ "key": "quest:92753",
+ "type": "quest",
+ "name": "Destruction in Deadmines",
+ "era": "forever",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   92753
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Alba Fairmoon",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "Destruction in Deadmines",
+  "chain": []
+ },
+ "summary": "Destruction in Deadmines is a covert sabotage mission coordinated by Alba Fairmoon to strike at the heart of the Defias Brotherhood's industrial operations. Deep within the labyrinthine tunnels beneath Moonbrook, the Brotherhood runs a massive metallurgical forge suspected of poisoning the surrounding land. Adventurers are tasked with penetrating the complex, planting powerful explosives near the foundry, and crippling the brotherhood's war effort.",
+ "sections": [
+  {
+   "title": "Sabotaging the Foundry",
+   "body": "The Deadmines hold more than just gold veins and cutpurses; beneath the dusty surface of Moonbrook lies a fortified industrial complex fueling the Defias Brotherhood. Among their underground works is a heavy metallurgical forge used to smelt metals and assemble machinery. Alba Fairmoon identifies this forge as the likely origin of environmental contamination blighting the area, making its demolition a vital goal.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Decisive Blast",
+   "body": "Reaching the heart of the Deadmines requires fighting through barricades, cutthroats, and goblin engineers. Armed with Extra-Destructive Explosives, an operative must plant the charge directly beside the forge works and make a hasty escape to the hills above Moonbrook, where Fairmoon waits to trigger the blast and permanently disable the brotherhood's manufacturing capability.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the goal of this mission?",
+   "aliases": [
+    "quest objective",
+    "what do i do",
+    "what is destruction in deadmines"
+   ],
+   "answer": "The objective is to infiltrate the Deadmines beneath Moonbrook, locate the Defias Brotherhood's metallurgical forge, and plant Extra-Destructive Explosives nearby before rendezvous with Alba Fairmoon at the exit."
+  },
+  {
+   "q": "Who is Alba Fairmoon?",
+   "aliases": [
+    "who is alba",
+    "alba fairmoon lore",
+    "quest giver"
+   ],
+   "answer": "Alba Fairmoon is an Alliance operative working in Westfall who believes the blight and poison corrupting the region stem from heavy smelting and industrial operations inside the Deadmines."
+  },
+  {
+   "q": "Why is the Defias forge considered so dangerous?",
+   "aliases": [
+    "why destroy the forge",
+    "what does the forge do",
+    "forge poison"
+   ],
+   "answer": "Beyond producing weapons and machinery for Edwin VanCleef's brotherhood, the metallurgical forge discharges toxic waste and fumes that poison the surrounding soil and water of Westfall."
+  },
+  {
+   "q": "Where does the player meet Alba after planting the explosives?",
+   "aliases": [
+    "where is alba waiting",
+    "deadmines exit location",
+    "turn in location"
+   ],
+   "answer": "Alba Fairmoon waits outside the Deadmines complex in the hills behind Moonbrook near the mine's upper exit, ready to trigger the demolition once the operative safely emerges."
+  },
+  {
+   "q": "Where is the forge located inside the Deadmines?",
+   "aliases": [
+    "where is the forge",
+    "forge location deadmines",
+    "find the forge"
+   ],
+   "answer": "The forge is located deep inside the Deadmines instance, past the mining tunnels and within the industrial foundry sections manned by Defias laborers and goblin overseers."
+  },
+  {
+   "q": "Does destroying the forge heal the land immediately?",
+   "aliases": [
+    "will the land heal",
+    "does the poison stop",
+    "forge aftermath"
+   ],
+   "answer": "Alba hopes that eliminating the heavy smelting operations will allow the land around Moonbrook to finally recover, though years of Defias industry and neglect will take time to wash away."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Using specialized Extra-Destructive Explosives against heavy industrial infrastructure requires precise placement near key structural stress points to ensure total destruction of the forge."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The Deadmines were once Stormwind's most lucrative gold and iron mines, now perverted by the Defias into a fortified smelting complex that blights the earth."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Crippling the Defias forge strikes directly at the machinery and weaponry threatening Stormwind's sovereignty from within Westfall."
+  }
+ ],
+ "keywords": [
+  "alba fairmoon",
+  "deadmines",
+  "defias brotherhood",
+  "extra-destructive explosives",
+  "metallurgical forge",
+  "moonbrook",
+  "sabotage",
+  "westfall"
+ ],
+ "related": [
+  "subzone:deadmines",
+  "zone:deadmines",
+  "subzone:moonbrook",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Destruction in Deadmines"
+ ]
+}

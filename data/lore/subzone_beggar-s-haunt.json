@@ -1,0 +1,93 @@
+{
+ "key": "subzone:beggar-s-haunt",
+ "type": "subzone",
+ "name": "Beggar's Haunt",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Beggar's Haunt"
+ },
+ "summary": "Beggar's Haunt is an abandoned Stormwind scout tower perched on a hillside in northeastern Duskwood, near the mountain road to Deadwind Pass. While originally built to keep watch over the kingdom's eastern borders, it has become an outpost for Forsaken infiltrators deep within Alliance territory.",
+ "sections": [
+  {
+   "title": "A Watchtower in the Shadows",
+   "body": "Perched above the foggy hills east of Manor Mistmantle, Beggar's Haunt was once an active observation post manned by the Stormwind Guard to secure the eastern approaches to the realm. As Grand Hamlet collapsed into the gloom of modern Duskwood and kingdom patrols withdrew to Darkshire, the stone tower was abandoned to the elements. Today, its commanding vantage point serves a far more sinister purpose: agents of the Forsaken, including members of the Royal Apothecary Society and Deathstalkers, use the ruined stronghold to conduct research and monitor the region under the Alliance's nose.",
+   "spoiler": 0
+  },
+  {
+   "title": "Knight's Hollow and the Forgotten Dead",
+   "body": "Behind the tower, a steep, twisting path descends to a secluded pool and waterfall known as Knight's Hollow. Here lies an unmarked grave flanked by two ominous hooded stone statues resembling the guardians flanking the Dark Portal. Nearby resting plots, including the burial site of an Unknown Soldier, speak to forgotten clashes fought along this frontier long before the Forsaken moved into the watchtower.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there Forsaken at Beggar's Haunt?",
+   "aliases": [
+    "who is at beggars haunt",
+    "why is horde here",
+    "undead at beggars haunt"
+   ],
+   "answer": "Agents from the Undercity, including Apothecary Faustin of the Royal Apothecary Society and Deathstalker Zraedus, have claimed the abandoned watchtower. From here, they can monitor Alliance movements and quietly carry out experiments far to the south."
+  },
+  {
+   "q": "Was this tower originally built by the Forsaken?",
+   "aliases": [
+    "who built beggars haunt",
+    "beggars haunt history",
+    "is this an alliance tower"
+   ],
+   "answer": "No. The tower was constructed as a scout outpost by the kingdom of Stormwind. When local defenses faltered and the region deteriorated into Duskwood, the Stormwind Guard abandoned it, leaving it empty until Forsaken scouts seized it."
+  },
+  {
+   "q": "What is the strange grave behind the tower?",
+   "aliases": [
+    "knights hollow statues",
+    "grave behind tower",
+    "dark portal statues duskwood"
+   ],
+   "answer": "Down the path behind the haunt lies Knight's Hollow, a secluded waterfall pool featuring an unmarked grave framed by hooded guardian statues identical in style to the monuments flanking the Dark Portal."
+  },
+  {
+   "q": "Is Beggar's Haunt hostile to Alliance travelers?",
+   "aliases": [
+    "will they attack me",
+    "beggars haunt guards",
+    "is beggars haunt safe"
+   ],
+   "answer": "Yes. The Forsaken stationed at the tower are seasoned agents who will strike down any Alliance adventurers that wander too close to their hillside redoubt."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The presence of Forsaken agents stationed inside an old Stormwind scout tower just off the main road is an alarming sign of Horde infiltration right on Darkshire's doorstep."
+  },
+  {
+   "target": "race:Undead",
+   "text": "For Forsaken operatives, this secluded outpost offers a rare and dangerous foothold deep within the human lands of the south."
+  }
+ ],
+ "keywords": [
+  "apothecary faustin",
+  "beggar's haunt",
+  "deathstalker zraedus",
+  "duskwood",
+  "knight's hollow",
+  "scout tower",
+  "stormwind guard"
+ ],
+ "related": [
+  "zone:duskwood",
+  "topic:forsaken",
+  "topic:royal-apothecary-society",
+  "topic:stormwind-guard",
+  "subzone:manor-mistmantle",
+  "zone:deadwind",
+  "subzone:darkshire",
+  "subzone:dark-portal"
+ ],
+ "attribution": [
+  "Beggar's Haunt"
+ ]
+}

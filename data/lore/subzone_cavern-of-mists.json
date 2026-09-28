@@ -1,0 +1,78 @@
+{
+ "key": "subzone:cavern-of-mists",
+ "type": "subzone",
+ "name": "Cavern of Mists",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "wiki": "Cavern of Mists"
+ },
+ "summary": "The Cavern of Mists is the expansive outer antechamber leading into the depths of the Wailing Caverns. Fed by subterranean geysers that erupt through the rock, its central pool and hanging fog harbor strange, mutated wildlife roaming just outside the portal threshold.",
+ "sections": [
+  {
+   "title": "The Threshold of the Nightmare",
+   "body": "Before descending into the true heart of the Wailing Caverns, travelers must navigate the Cavern of Mists. Thick, warm vapor hangs permanently in the air, fed by natural geysers erupting from the cavern floor into a deep central pool. Though it serves as an entryway, it is far from peaceful. Swarms of raptors, serpents, oozes, and semi-aquatic threshadons wander the ledges and waters, alongside notorious beasts like the hydra Trigore the Lasher. It provides adventurers an ominous preview of the unnatural growth festering deeper below.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Cavern of Mists?",
+   "aliases": [
+    "cavern of mists location",
+    "where is cavern of mists",
+    "wailing caverns entrance cave"
+   ],
+   "answer": "The Cavern of Mists comprises the outer cave system of the Wailing Caverns, located southwest of the Crossroads in the Barrens. It is the non-instanced chamber that players must traverse to reach the instance portal itself."
+  },
+  {
+   "q": "Why is it called the Cavern of Mists?",
+   "aliases": [
+    "why misty",
+    "cavern of mists name origin"
+   ],
+   "answer": "Active geysers constantly burst from the stone floor, feeding the central pool and filling the subterranean air with heavy, humid fog."
+  },
+  {
+   "q": "What creatures live here?",
+   "aliases": [
+    "mobs in cavern of mists",
+    "cavern of mists monsters"
+   ],
+   "answer": "The chamber is populated by raptors, oozes, wind serpents, snakes, toads, and threshadons inhabiting the pool, as well as occasional sightings of the rare hydra Trigore the Lasher."
+  },
+  {
+   "q": "Who is Trigore the Lasher?",
+   "aliases": [
+    "trigore",
+    "hydra rare wailing caverns"
+   ],
+   "answer": "Trigore the Lasher is a dangerous rare hydra that can occasionally be found swimming alongside the threshadons in the chamber's central pool."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The twisted wildlife thriving in the heavy vapors gives Cenarion druids their first warning of how deeply Naralex's Emerald Dream communion has gone astray."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Resting right in the heart of the Barrens, clearing out the predatory beasts lurking in these mists is critical to securing the trade routes and outposts around the Crossroads."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "cavern of mists",
+  "geysers",
+  "threshadons",
+  "trigore the lasher",
+  "wailing caverns"
+ ],
+ "related": [
+  "zone:wailing",
+  "quest:938"
+ ],
+ "attribution": [
+  "Cavern of Mists"
+ ]
+}

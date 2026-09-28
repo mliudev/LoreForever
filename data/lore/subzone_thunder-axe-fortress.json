@@ -1,0 +1,89 @@
+{
+ "key": "subzone:thunder-axe-fortress",
+ "type": "subzone",
+ "name": "Thunder Axe Fortress",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Thunder Axe Fortress"
+ },
+ "summary": "Thunder Axe Fortress is a fortified compound in northwestern Desolace serving as a stronghold for the demonic Burning Blade cult. Within its stone barracks, watchtowers, and darkened caves, cultists perform dark rituals to summon demonic entities and store stolen artifacts of power. Led locally by Kohor, the cult remains an active threat to anyone traversing the desolate wastes.",
+ "sections": [
+  {
+   "title": "A Bastion of the Burning Blade",
+   "body": "Perched in northwestern Desolace, Thunder Axe Fortress serves as a heavily guarded redoubt for the Burning Blade. Composed of stone barracks, defensive watchtowers, and deep caverns, it allows the cult to maintain a fortified foothold far from the gaze of Kalimdor's major cities. Under the local command of Kohor, the cultists gather fel energies, summon lesser demons, and concoct schemes to bring far more dangerous entities into the world.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stolen Relics and Dark Summonings",
+   "body": "The fortress has long served as a repository for stolen relics and demonic conduits. In the past, the cult stored the Hand of Iruxos here, using its power to pierce the veil and sustain demonic portals at the Mannoroc Coven. More recently, the sorcerer Tyranis Malem and his allies harbored the stolen Sceptre of Light, a powerful relic taken from the coastal naga that drew the attention of the Argent Dawn. Within the deep caves beneath the walls, cultists also labor to summon Nazargen, a potent demon whose arrival poses a dire threat to the region.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Thunder Axe Fortress?",
+   "aliases": [
+    "who runs thunder axe fortress",
+    "who is in thunder axe fortress",
+    "thunder axe fortress boss"
+   ],
+   "answer": "The fortress is held by the Burning Blade cult, an organization devoted to demonic power and the remnants of the Shadow Council. On the ground, the fortress and its operations are overseen by Kohor alongside warlocks such as Tyranis Malem."
+  },
+  {
+   "q": "What is the Sceptre of Light?",
+   "aliases": [
+    "sceptre of light",
+    "scepter of light",
+    "stolen naga artifact"
+   ],
+   "answer": "The Sceptre of Light is a powerful relic that the Burning Blade stole from the naga along the Desolace coast. It was held within Thunder Axe Fortress by the traitorous warlock Tyranis Malem until agents allied with the Argent Dawn intervened to recover it."
+  },
+  {
+   "q": "What is Nazargen?",
+   "aliases": [
+    "who is nazargen",
+    "demon in thunder axe fortress"
+   ],
+   "answer": "Nazargen is a powerful demon that the Burning Blade cultists are attempting to summon into Desolace from within the caves beneath the fortress. If the ritual is triggered prematurely, the demon is weakened enough to be dispatched by wary adventurers."
+  },
+  {
+   "q": "How is this fortress connected to Mannoroc Coven?",
+   "aliases": [
+    "mannoroc coven connection",
+    "hand of iruxos"
+   ],
+   "answer": "The cultists at Thunder Axe Fortress previously held an artifact known as the Hand of Iruxos. This relic was directly linked to the demon portals active at the Mannoroc Coven in southern Desolace, binding their demonic efforts across the zone."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The Burning Blade's experiments at the fortress demonstrate the reckless bounds of demonology, from binding lesser fiends to forcing planar rifts for greater entities like Nazargen."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Investigating Thunder Axe Fortress aligns with Argent Dawn efforts to secure dangerous artifacts like the Sceptre of Light before fel cultists turn them against the continent."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "desolace",
+  "hand of iruxos",
+  "kohor",
+  "nazargen",
+  "sceptre of light",
+  "thunder axe fortress",
+  "tyranis malem"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:mannoroc-coven",
+  "topic:argent-dawn",
+  "topic:naga",
+  "topic:light"
+ ],
+ "attribution": [
+  "Thunder Axe Fortress"
+ ]
+}

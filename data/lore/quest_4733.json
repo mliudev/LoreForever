@@ -1,0 +1,123 @@
+{
+ "key": "quest:4733",
+ "type": "quest",
+ "name": "Beached Sea Creature",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   4733
+  ],
+  "level": "19",
+  "faction": "Alliance",
+  "start": "Beached Sea Creature",
+  "end": "Gwennyth Bly'Leggonde",
+  "previous": null,
+  "next": null,
+  "wiki": "Beached Sea Creature (4)",
+  "chain": []
+ },
+ "summary": "Along the rocky inlets of the Twilight Shore, the colossal carcass of a giant thresher lies stranded in the surf. Far larger than any known local specimens, its sudden death and stranding are part of a worrying trend of deep-sea anomalies troubling the night elves of Darkshore.",
+ "sections": [
+  {
+   "title": "A Giant Cast Ashore",
+   "body": "The Twilight Shore in southern Darkshore is often strewn with driftwood and sea debris, but this inlet holds something far more striking: the remains of an enormous thresher. Although scavengers and the tides have begun picking it apart, its massive skeleton dwarfs any ordinary predator found in these coastal shallows. It is clearly an outsider to these waters, driven onto the rocks either by unnatural sickness, disorientation, or some deeper disturbance out in the Veiled Sea.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Temple's Vigil",
+   "body": "In Auberdine, priestesses representing the Temple of the Moon have taken great interest in the dead giants washing ashore. Gwennyth Bly'Leggonde oversees the collection of skeletal samples to determine what drives such deep-dwelling predators to their deaths. While colossal threshers were once sighted near the roots of Teldrassil, their numbers have steadily plummeted, leading the priestesses to fear that the fragile marine balance off Kalimdor's northern coast is unraveling.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What kind of beast is this beached carcass?",
+   "aliases": [
+    "what is the beached sea creature",
+    "giant thresher darkshore",
+    "beached monster carcass"
+   ],
+   "answer": "It is the skeleton of an immense thresher, a predatory marine beast. It is several times larger than the common threshers native to the Darkshore coastline, making its presence here deeply anomalous."
+  },
+  {
+   "q": "Where did this creature originally come from?",
+   "aliases": [
+    "where do giant threshers live",
+    "thresher origin"
+   ],
+   "answer": "Priestess Gwennyth Bly'Leggonde notes that while specimens of this immense scale were once known to roam the waters near Teldrassil, their population has declined steadily. It is not native to the immediate shallows of Darkshore."
+  },
+  {
+   "q": "Why is the Temple of the Moon studying these carcasses?",
+   "aliases": [
+    "why does gwennyth want bones",
+    "temple of the moon sea creatures",
+    "why study beached animals"
+   ],
+   "answer": "The Temple of the Moon seeks to understand the widespread beaching phenomena plaguing the Darkshore coast. By inspecting bones and remains, the priestesses hope to determine whether corruption, disease, or external forces are driving deep-sea beasts onto land."
+  },
+  {
+   "q": "Where should the bones be brought?",
+   "aliases": [
+    "where to turn in sea creature bones",
+    "who gets the thresher bones"
+   ],
+   "answer": "The Sea Creature Bones are brought to Gwennyth Bly'Leggonde, a night elf researcher located in the harbor town of Auberdine."
+  },
+  {
+   "q": "Where on the coast is this carcass located?",
+   "aliases": [
+    "where is the beached creature",
+    "thresher location darkshore",
+    "twilight shore skeleton"
+   ],
+   "answer": "The carcass rests in a rocky inlet along the Twilight Shore, the southern coastal strip of Darkshore."
+  },
+  {
+   "q": "Are there other creatures beaching themselves in Darkshore?",
+   "aliases": [
+    "other beached animals",
+    "beached sea creature questline"
+   ],
+   "answer": "Yes. Multiple distinct sea beasts and behemoths have washed up along the length of Darkshore's coastline, prompting an ongoing investigation by the researchers in Auberdine."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The unexplained decline and beaching of marine life close to Teldrassil strikes a nerve among the Kaldorei, who look to Elune and the Temple of the Moon to interpret such dark omens."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Gwennyth Bly'Leggonde conducts her study under the auspices of the Temple of the Moon, seeking balance and divine insight through tangible scientific inquiry into the sea's balance."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The stranding of apex marine predators is a telltale sign of an ecosystem in distress, aligning closely with the Cenarion Circle's wider concerns throughout Darkshore."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "beached sea creature",
+  "darkshore",
+  "gwennyth bly'leggonde",
+  "sea creature bones",
+  "temple of the moon",
+  "thresher",
+  "twilight shore"
+ ],
+ "related": [
+  "npc:gwennyth-bly-leggonde",
+  "zone:darkshore",
+  "subzone:twilight-shore-darkshore",
+  "subzone:auberdine",
+  "quest:4723",
+  "quest:3524",
+  "quest:940",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Beached Sea Creature (4)"
+ ]
+}

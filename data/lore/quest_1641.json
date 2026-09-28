@@ -1,0 +1,123 @@
+{
+ "key": "quest:1641",
+ "type": "quest",
+ "name": "The Tome of Divinity",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1641
+  ],
+  "level": "12",
+  "faction": "Alliance",
+  "start": "Duthorian Rall",
+  "end": "",
+  "previous": "Tome of Divinity (Brother Wilhelm) / Tome of Divinity (5)",
+  "next": "The Tome of Divinity (human 2)",
+  "wiki": "The Tome of Divinity (human 1)",
+  "chain": []
+ },
+ "summary": "The Tome of Divinity is an essential rite of passage for young paladins in the Kingdom of Stormwind. Under the guidance of Duthorian Rall in the Cathedral of Light, initiates are tested on their understanding of virtue, devotion, and the solemn responsibilities of wielding the Holy Light.",
+ "sections": [
+  {
+   "title": "A Paladin's Calling",
+   "body": "Within the serene marble halls of the Cathedral of Light, Duthorian Rall oversees the instruction of those who take up the mantle of the paladin. While early training focuses on martial discipline and martial rites, advancing within the order demands a deeper spiritual commitment. The trials associated with the Tome of Divinity challenge initiates to look beyond combat and understand the weight of moral duty in a kingdom besieged by internal and external perils.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Path of Virtue",
+   "body": "To receive the Book of Divinity is to enter into a contract of service and self-sacrifice. Duthorian tasks aspiring champions with studying the holy text to grasp what the Light demands of its defenders. The lessons contained within prepare paladins to counter the creeping horrors of the Scourge and safeguard the common folk, proving that righteous power must always be governed by genuine virtue and compassion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Tome of Divinity?",
+   "aliases": [
+    "why tome of divinity",
+    "what is tome of divinity",
+    "paladin book quest"
+   ],
+   "answer": "The Tome of Divinity is a foundational holy text and trial given to developing paladins. It serves to test an initiate's grasp of sacred principles before they are entrusted with greater divine abilities, ensuring their strength is rooted in devotion and virtue rather than mere martial force."
+  },
+  {
+   "q": "Who is Duthorian Rall?",
+   "aliases": [
+    "duthorian rall",
+    "paladin trainer stormwind",
+    "who is duthorian"
+   ],
+   "answer": "Duthorian Rall is a high-ranking paladin trainer stationed in the Cathedral of Light in Stormwind. He is responsible for guiding newly minted paladins, presenting them with the Book of Divinity, and directing their trials across the kingdom."
+  },
+  {
+   "q": "Where does this trial take place?",
+   "aliases": [
+    "where is duthorian",
+    "cathedral of light quest",
+    "where start tome of divinity"
+   ],
+   "answer": "The quest begins in the Cathedral Square of Stormwind City, inside the grand Cathedral of Light. Initiates report directly to Duthorian Rall after completing preliminary duties in the outer townships like Goldshire."
+  },
+  {
+   "q": "Why is the Scourge mentioned in Stormwind's teachings?",
+   "aliases": [
+    "scourge threat stormwind",
+    "why scourge here",
+    "paladins vs scourge"
+   ],
+   "answer": "Although the Scourge devastated Lordaeron to the north, the undead remain an existential threat to all living mortals. The paladins of Stormwind are trained from the outset to recognize and combat the unholy corruption of the Scourge wherever it may arise across Azeroth."
+  },
+  {
+   "q": "What comes after reading the Book of Divinity?",
+   "aliases": [
+    "next step tome of divinity",
+    "after reading book",
+    "what does duthorian want next"
+   ],
+   "answer": "Studying the text is only the opening step. Duthorian Rall tests whether the initiate truly internalizes its lessons by sending them out to aid those in dire need, proving their compassion and resilience through deeds rather than words."
+  },
+  {
+   "q": "Who normally directs candidates to Duthorian Rall?",
+   "aliases": [
+    "who sent me to duthorian",
+    "previous quest tome of divinity",
+    "brother wilhelm"
+   ],
+   "answer": "Local instructors and clergy serving in the outlying settlements of Elwynn, such as Brother Wilhelm in Goldshire, recognize when an initiate is ready for formal trials and dispatch them directly to Duthorian in the capital."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This rite marks the transition from a simple apprentice of arms into a true servant of the Holy Light, establishing the core tenets of sacrifice and mercy that define the order."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this ceremony honors the legacy of Lordaeron's fallen knights, continuing the proud tradition of the Silver Hand in the southern kingdom."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Training stalwart paladins strengthens the heart of Stormwind, ensuring righteous protectors stand ready to shield the Alliance from rising darkness."
+  }
+ ],
+ "keywords": [
+  "book of divinity",
+  "brother wilhelm",
+  "cathedral of light",
+  "duthorian rall",
+  "holy light",
+  "paladin",
+  "stormwind",
+  "tome of divinity",
+  "virtue"
+ ],
+ "related": [
+  "npc:duthorian-rall",
+  "topic:light",
+  "topic:stormwind-kingdom",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "The Tome of Divinity (human 1)"
+ ]
+}

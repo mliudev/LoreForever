@@ -1,0 +1,129 @@
+{
+ "key": "quest:6543",
+ "type": "quest",
+ "name": "The Warsong Reports",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   6543
+  ],
+  "level": "19",
+  "faction": "Horde",
+  "start": "Kadrak",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Warsong Reports",
+  "chain": []
+ },
+ "summary": "Assigned by Kadrak at the border watchtower between the northern Barrens and Ashenvale, this mission tasks couriers with coordinating field intel across the contested forest. Adventurers must deliver standing orders and collect front-line reconnaissance from outriders stationed near Azshara, Splintertree Post, and the Zoram Strand.",
+ "sections": [
+  {
+   "title": "Frontier Logistics",
+   "body": "Standing atop the fortified watchtower on the northern edge of the Barrens, Kadrak oversees movement through the narrow mountain canyon leading into Ashenvale. For the Horde, securing access through this pass is crucial: the arid steppes cannot provide the vast timber supplies required by Orgrimmar, forcing the Warsong clan to push deep into ancient elven woodlands. Keeping scattered forward patrols supplied and synchronized requires reliable couriers capable of dodging night elf ambushes along Ashenvale's treacherous wilderness trails.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes Across Ashenvale",
+   "body": "The mission traces an arc across the breadth of the ancient forest. To the far west on the misty coastline of the Zoram Strand, a Warsong runner keeps watch over naga activity and coastal threats near Zoram'gar Outpost. Deeper inland at Splintertree Post, a scout coordinates defense against persistent Sentinel raids. Farther east along the winding road toward the shattered ruins of Azshara, an outrider monitors eastern approaches. Securing updates from all three posts provides Kadrak with a cohesive view of night elf troop movements and frontier vulnerabilities.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this mission begin?",
+   "aliases": [
+    "quest giver",
+    "kadrak location",
+    "who gives the warsong reports",
+    "where to start"
+   ],
+   "answer": "The mission begins with Kadrak, an orc officer stationed in the wooden watchtower guarding the mountain pass on the border between the northern Barrens and southern Ashenvale."
+  },
+  {
+   "q": "Why is the Horde spying on Ashenvale?",
+   "aliases": [
+    "why ashenvale",
+    "warsong lumber",
+    "ashenvale conflict"
+   ],
+   "answer": "The Horde relies heavily on Ashenvale's dense timber to build and reinforce settlements like Orgrimmar. The native night elves fiercely defend their sacred groves, turning the entire region into an active warzone that requires constant scouting to maintain outposts and secure supply lines."
+  },
+  {
+   "q": "Where can the three Warsong scouts be found?",
+   "aliases": [
+    "scout locations",
+    "where are the scouts",
+    "outrider runner scout location"
+   ],
+   "answer": "The Warsong Runner is stationed at Zoram'gar Outpost along the Zoram Strand in the far northwest. The Warsong Scout is garrisoned at Splintertree Post along the main road. The Warsong Outrider patrols the eastern road heading toward the border of Azshara."
+  },
+  {
+   "q": "Who are the Warsong outriders?",
+   "aliases": [
+    "warsong clan",
+    "who are warsong outriders",
+    "warsong clan ashenvale"
+   ],
+   "answer": "The Warsong outriders are scouts and raiders of the Warsong orc clan. Renowned for their fierce cavalry and skirmishing tactics, they spearhead the Horde's expansion, lumber harvesting, and territorial defense across the forests of Ashenvale."
+  },
+  {
+   "q": "What happens after returning the reports?",
+   "aliases": [
+    "reports turn in",
+    "next move",
+    "what does kadrak do"
+   ],
+   "answer": "Upon receiving the gathered intelligence, Kadrak uses the tactical updates to chart upcoming troop movements, reinforce vulnerable outposts like Zoram'gar and Splintertree, and cement the Horde's presence deeper in the forest."
+  },
+  {
+   "q": "Is the road through Ashenvale safe for low-level couriers?",
+   "aliases": [
+    "ashenvale danger",
+    "is the road safe",
+    "night elf ganks"
+   ],
+   "answer": "No. The main highway through Ashenvale frequently faces ambushes from stealthy night elf Sentinels, hostile wildlife such as prowlers and bears, and Alliance patrols operating out of settlements like Astranaar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Delivering these reports marks one of a young Horde warrior's first real steps into the territorial struggle against the night elves in northern Kalimdor."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs, supporting the Warsong clan is an act of clan honor and practical necessity, ensuring lumber keeps flowing to construct Orgrimmar."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking across Ashenvale's treacherous roads tests navigation and field survival skills against both wild predators and hidden elven archers."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "barrens",
+  "kadrak",
+  "splintertree post",
+  "warsong outrider",
+  "warsong reports",
+  "warsong runner",
+  "warsong scout",
+  "zoram strand",
+  "zoram'gar outpost"
+ ],
+ "related": [
+  "npc:kadrak",
+  "subzone:splintertree-post",
+  "subzone:zoram-gar-outpost",
+  "subzone:zoram-strand",
+  "zone:ashenvale",
+  "zone:barrens",
+  "npc:warsong-outrider",
+  "zone:azshara"
+ ],
+ "attribution": [
+  "The Warsong Reports"
+ ]
+}

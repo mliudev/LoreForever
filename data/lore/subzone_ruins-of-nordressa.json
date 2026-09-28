@@ -1,0 +1,69 @@
+{
+ "key": "subzone:ruins-of-nordressa",
+ "type": "subzone",
+ "name": "Ruins of Nordressa",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Ruins of Nordressa"
+ },
+ "summary": "The Ruins of Nordressa are ancient night elven remnants nestled among the rugged cliffs of Azshara. Now serving as an arcane camp, the site is used by apprentices seeking the guidance and trials of the eccentric Archmage Xylem.",
+ "sections": [
+  {
+   "title": "A Gathering of Apprentices",
+   "body": "Like much of Azshara, the stone pillars and overgrown rubble of Nordressa date back to the ancient Kaldorei empire before the Great Sundering. Rather than lying completely dormant, these particular ruins have become an outpost for aspiring spellcasters and acolytes. Marked by a line of guiding torches along its eastern approach, the camp is watched over by a magical projection of Archmage Xylem, serving as the staging ground for hopeful apprentices eager to prove their worth before being summoned to his private sanctuary.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Ruins of Nordressa?",
+   "aliases": [
+    "why are apprentices here",
+    "nordressa purpose",
+    "what happens at nordressa"
+   ],
+   "answer": "The ruins serve as an encampment and testing ground for prospective students seeking the tutelage of Archmage Xylem. An arcane projection of the archmage oversees the camp while his apprentices gather and assign preparatory tasks."
+  },
+  {
+   "q": "Who was Nordressa?",
+   "aliases": [
+    "nordressa history",
+    "who is nordressa"
+   ],
+   "answer": "Nordressa was likely a settlement or estate belonging to the ancient Highborne or Night Elves prior to the War of the Ancients and the Great Sundering, though centuries of neglect have left only ruined foundations behind."
+  },
+  {
+   "q": "Where does Archmage Xylem take successful apprentices?",
+   "aliases": [
+    "where is xylem",
+    "after nordressa",
+    "xylem trials location"
+   ],
+   "answer": "Those who prove their resourcefulness and survive the tasks set at Nordressa are sent upward to the Arcane Pinnacle, where Archmage Xylem conducts his personal trials atop Azshara's high plateaus."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, the camp at Nordressa represents an entrance to the eccentric teachings and enigmatic tests of Archmage Xylem."
+  }
+ ],
+ "keywords": [
+  "apprentices",
+  "arcane",
+  "azshara",
+  "nordressa",
+  "ruins",
+  "sorata",
+  "xylem"
+ ],
+ "related": [
+  "npc:archmage-xylem",
+  "subzone:arcane-pinnacle",
+  "zone:azshara"
+ ],
+ "attribution": [
+  "Ruins of Nordressa"
+ ]
+}

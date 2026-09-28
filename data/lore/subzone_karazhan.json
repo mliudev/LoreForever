@@ -1,0 +1,114 @@
+{
+ "key": "subzone:karazhan",
+ "type": "subzone",
+ "name": "Karazhan",
+ "era": "classic",
+ "zone": "deadwind",
+ "meta": {
+  "wiki": "Karazhan"
+ },
+ "summary": "Karazhan is the ominous, secluded tower standing at the southern end of Deadwind Pass. Once the sanctum of Medivh, the Last Guardian of Tirisfal, the citadel sits atop a potent convergence of ley lines that warps time, space, and reality around it. Though Medivh was slain during the First War, the abandoned fortress still hums with volatile arcane energy, restless spirits, and hidden dangers.",
+ "sections": [
+  {
+   "title": "The Guardian's Spire",
+   "body": "Long before the First War, the tower of Karazhan was raised upon ground shaped like a human skull, situated at a massive nexus of mystical ley lines. It served as a secluded refuge and repository of untold magical secrets for the Guardian Aegwynn and later her son, Medivh. Within its curving halls, Medivh lived alongside his loyal castellan Moroes, entertaining noble guests and housing an immense archive of arcane texts and relics that eclipsed even the libraries of the Kirin Tor. Yet the tower was also the stage for Azeroth's greatest betrayal, as Medivh fell under the demonic possession of Sargeras and secretly orchestrated the opening of the Dark Portal.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Haunted Threshold",
+   "body": "Following Medivh's death at the hands of Anduin Lothar and his apprentice Khadgar, Karazhan sealed its gates and was left to decay. However, the tower has never truly slept. Its intersection of potent ley lines continues to warp the fabric of reality, casting ghostly echoes, illusions, and temporal distortions across Deadwind Pass. Rumors persist that an evil presence has begun stirring inside the quiet fortress once more, and strange entities\u2014including the shadowy Dark Riders who scour the surrounding lands for forgotten relics\u2014are inexorably drawn to its towering silhouette.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who built Karazhan?",
+   "aliases": [
+    "who made karazhan",
+    "karazhan creator",
+    "origin of karazhan"
+   ],
+   "answer": "Karazhan was constructed roughly six centuries before the First War by Aegwynn, the Magna of the Council of Tirisfal. Seeking a secluded refuge away from the prying eyes of the Kirin Tor and the Council, she tapped into a powerful nexus of ley lines in Deadwind Pass to siphon energy for her magical wards."
+  },
+  {
+   "q": "Who was Medivh, and why did he live here?",
+   "aliases": [
+    "who lived in karazhan",
+    "medivh lore",
+    "the last guardian"
+   ],
+   "answer": "Medivh was the son of Aegwynn and the Last Guardian of Tirisfal, charged with defending Azeroth from demonic threats. He made Karazhan his primary home and sanctuary, surrounding himself with vast stores of arcane knowledge, servants like Moroes, and lavish gatherings to mask his descent into madness."
+  },
+  {
+   "q": "What happened to Medivh in the tower?",
+   "aliases": [
+    "how did medivh die",
+    "medivh death",
+    "fall of medivh"
+   ],
+   "answer": "Unbeknownst to the world, Medivh had been possessed since birth by the spirit of the Dark Titan Sargeras. Under this demonic influence, he used the tower's magic to contact the warlock Gul'dan and open the Dark Portal. Discovering his treachery, his apprentice Khadgar, Lord Anduin Lothar, and the half-orc Garona infiltrated Karazhan and slew the Guardian, ending his corruption."
+  },
+  {
+   "q": "Can you enter Karazhan right now?",
+   "aliases": [
+    "can i go inside karazhan",
+    "is karazhan open",
+    "entering karazhan"
+   ],
+   "answer": "No. The main gates and threshold of the tower remain tightly sealed and warded against intruders. While travelers can wander the abandoned village, crumbling church, and shadowy subterranean cellars surrounding the grounds, the spire itself is shut tight."
+  },
+  {
+   "q": "Why is the area around Karazhan so corrupted and dead?",
+   "aliases": [
+    "why is deadwind pass dead",
+    "karazhan curse",
+    "why deadwind pass empty"
+   ],
+   "answer": "Karazhan sits at an ancient epicenter of magical violence where the fabric of reality was torn open, long before the tower was built. Combined with the massive concentration of raw ley energy flowing beneath it and the dark demonic sorceries Medivh unleashed inside, the surrounding canyon withered into the desolate wasteland known as Deadwind Pass."
+  },
+  {
+   "q": "Who are the Dark Riders connected to the tower?",
+   "aliases": [
+    "what are the dark riders",
+    "riders of deadwind pass",
+    "karazhan riders"
+   ],
+   "answer": "The Dark Riders are spectral figures created when Medivh cursed a band of charlatan merchants who attempted to sell him fraudulent magical trinkets. Bound by his powerful curse, the riders are condemned to scour the lands and retrieve powerful, genuine magical artifacts to bring back to the tower."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Karazhan is a monument to the heights and perils of mortal sorcery. It houses an unmatched collection of artifacts and writings once kept out of the hands of the Kirin Tor, though its unstable ley lines threaten to consume any careless practitioner."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The tower holds tragic significance for the kingdom of Stormwind. It was the home of Medivh\u2014boyhood friend of King Llane Wrynn and Anduin Lothar\u2014whose betrayal from within these walls unleashed the First War upon humanity."
+  }
+ ],
+ "keywords": [
+  "aegwynn",
+  "dark riders",
+  "deadwind pass",
+  "guardian",
+  "karazhan",
+  "khadgar",
+  "medivh",
+  "moroes",
+  "sargeras",
+  "tirisfal"
+ ],
+ "related": [
+  "topic:medivh",
+  "zone:deadwind",
+  "topic:anduin-lothar",
+  "subzone:dark-portal",
+  "topic:first-war",
+  "topic:sargeras",
+  "topic:dark-riders",
+  "subzone:dalaran"
+ ],
+ "attribution": [
+  "Karazhan"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:nethergarde-keep",
+ "type": "subzone",
+ "name": "Nethergarde Keep",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Nethergarde Keep"
+ },
+ "summary": "Nethergarde Keep is a fortified Alliance stronghold perched high upon the bluffs along the road entering the Blasted Lands. Erected by the Stonemasons Guild after the Second War, it stands as a vigilant sentinel over the dormant Dark Portal and the chaotic energies bleeding across the red wastes. Today, mages and garrisons supported by Stormwind continue their lonely vigil against demons and lingering corruption.",
+ "sections": [
+  {
+   "title": "A Sentinel Against the Red World",
+   "body": "Following the destruction of the Dark Portal at the end of the Second War, Archmage Khadgar and the leaders of the Alliance of Lordaeron recognized that Azeroth could never again leave the rift unguarded. Under the supervision of Edwin VanCleef, the Stonemasons Guild labored to raise towering bastions, barracks, and mage spires along the canyon pass into the Blasted Lands. Staffed by Kirin Tor sorcerers, its dual purpose was to keep constant watch on the shattered gateway and weave wards preventing the demonic blight of the scorched landscape from creeping northward into the human kingdoms.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lonely Vigil",
+   "body": "When the Dark Portal reopened and the Alliance Expedition ventured into Draenor, Khadgar and his companions sealed the gateway behind them, leaving Nethergarde to guard a silent remnant. For two decades, scholars from Dalaran and the Wizard's Sanctum have analyzed the portal's lingering energies, mutated local fauna, and demonic incursions. With Dalaran ravaged during the Third War, Nethergarde relies entirely on vital supply caravans from Stormwind City to sustain its soldiers and mages as they stand alone against the horrors haunting the wasteland.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was Nethergarde Keep built?",
+   "aliases": [
+    "purpose of nethergarde",
+    "why is nethergarde here",
+    "nethergarde history"
+   ],
+   "answer": "It was commissioned after the Second War by Archmage Khadgar and the Alliance of Lordaeron to guard against another orcish invasion from Draenor and contain the spreading demonic corruption of the Blasted Lands."
+  },
+  {
+   "q": "Who constructed the keep?",
+   "aliases": [
+    "who built nethergarde",
+    "nethergarde builders",
+    "vancleef nethergarde"
+   ],
+   "answer": "Nethergarde Keep was built by the Stonemasons Guild under the architectural direction of Edwin VanCleef, funded jointly by the member kingdoms of the Alliance of Lordaeron."
+  },
+  {
+   "q": "Who commands and supplies the fortress now?",
+   "aliases": [
+    "who runs nethergarde",
+    "nethergarde supplies",
+    "stormwind nethergarde"
+   ],
+   "answer": "Originally maintained by Dalaran's Kirin Tor, the fortress now relies primarily on the Kingdom of Stormwind for troops, regular supply caravans, and logistical support following Dalaran's fall to the Scourge and the Legion."
+  },
+  {
+   "q": "What are the mages inside the keep studying?",
+   "aliases": [
+    "nethergarde mages",
+    "wizards sanctum nethergarde",
+    "what are they researching"
+   ],
+   "answer": "Researchers from the Wizard's Sanctum study the dormant energies of the Dark Portal, the strange mutations afflicting local wildlife, and methods to ward off the fel taint lingering over the red landscape."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, Nethergarde represents decades of Kirin Tor research into dimensional rifts, rift sealing, and holding back the entropic spread of fel corruption."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The fortress stands as one of the Alliance's most vital forward bulwarks, paid for in blood and gold to ensure the horrors of the First and Second Wars never spill out of the portal again."
+  }
+ ],
+ "keywords": [
+  "blasted lands",
+  "dark portal",
+  "keep",
+  "khadgar",
+  "kirin tor",
+  "nethergarde",
+  "stonemasons",
+  "stormwind",
+  "vancleef"
+ ],
+ "related": [
+  "subzone:dark-portal",
+  "zone:blastedlands",
+  "topic:stonemasons-guild",
+  "zone:stormwind",
+  "topic:second-war",
+  "topic:alliance-of-lordaeron",
+  "zone:swampofsorrows"
+ ],
+ "attribution": [
+  "Nethergarde Keep"
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "key": "quest:60",
+ "type": "quest",
+ "name": "Kobold Candles",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   60
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "William Pestle",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Kobold Candles",
+  "chain": []
+ },
+ "summary": "Kobold Candles is an early errand offered by William Pestle in the Lion's Pride Inn at Goldshire. An alchemist visiting from his shop in Stormwind, Pestle seeks the thick wax of large candles carried by the kobolds that have overstocked Elwynn Forest's local mines. For adventurers, it serves as an early introduction to the subterranean pests encroaching on the kingdom's valuable gold veins.",
+ "sections": [
+  {
+   "title": "Apothecary's Errands",
+   "body": "William Pestle runs Pestle's Apothecary alongside his brother in the Mage Quarter of Stormwind City. While brewing remedies, ointments, and concoctions, raw materials like wax are always in short supply. Rather than procuring polished candles from city merchants, Pestle recognizes that the vermin plaguing Elwynn carry surprisingly hefty lumps of tallow and wax atop their brows\u2014free for the taking if an adventurer is willing to pry them loose.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Mines of Elwynn",
+   "body": "Kobolds have thoroughly infested both Fargodeep Mine to the south of Goldshire and Jasperlode Mine to the northeast. These snuffling subterranean creatures value their candles above almost all else, using their flickering light to navigate dark shafts while digging for gold and shiny trinkets. Plundering these candles not only satisfies Pestle's alchemy stocks, but chips away at the encroaching vermin choking off the kingdom's precious mining claims.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does William Pestle need kobold candles?",
+   "aliases": [
+    "why pestle wants candles",
+    "what are candles used for",
+    "candle wax use"
+   ],
+   "answer": "William Pestle and his brother operate an apothecary shop in Stormwind's Mage Quarter. They use the rendered tallow and wax from the large candles as an ingredient for sealing, salves, and various alchemical preparations."
+  },
+  {
+   "q": "Where do you find the large candles?",
+   "aliases": [
+    "where are kobold candles",
+    "candle locations",
+    "how to get large candles"
+   ],
+   "answer": "The candles are carried by the kobold workers, vermin, and diggers dwelling in the mines of Elwynn Forest, primarily inside the tunnels of Fargodeep Mine south of Goldshire and Jasperlode Mine to the east."
+  },
+  {
+   "q": "Why are kobolds so obsessed with candles?",
+   "aliases": [
+    "why do kobolds have candles",
+    "you no take candle meaning",
+    "kobold candle lore"
+   ],
+   "answer": "Kobolds live in pitch-black tunnels underground and rely on the small flames strapped to their heads to see while digging. They hold a superstitious, almost frantic terror of the dark, fiercely defending their candles from anyone who tries to take them."
+  },
+  {
+   "q": "Who is William Pestle?",
+   "aliases": [
+    "who is william pestle",
+    "william pestle lore",
+    "goldshire pestle"
+   ],
+   "answer": "William Pestle is a human merchant and alchemist from Stormwind. When he is not working his shop in the city's Mage Quarter, he travels to Goldshire to secure cheap materials from traveling adventurers."
+  },
+  {
+   "q": "Does this quest connect to other troubles in Elwynn?",
+   "aliases": [
+    "elwynn mine problems",
+    "why are kobolds in mines",
+    "goldshire kobold threat"
+   ],
+   "answer": "Yes. The infestation of Fargodeep and Jasperlode Mines poses a major economic threat to Goldshire and Stormwind. Human miners have been driven out, and securing the tunnels is one of Marshall Dughan's top priorities."
+  },
+  {
+   "q": "Are there any other mines infested by kobolds in Elwynn?",
+   "aliases": [
+    "other kobold mines",
+    "elwynn mines list"
+   ],
+   "answer": "Fargodeep Mine and Jasperlode Mine are the two primary sites near Goldshire, but kobold activity also spills into the riverbanks of the forest and eastward toward the borders of Redridge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Clearing the kobolds for their candles brings prospectors directly into Elwynn's richest copper and gold veins, which have been abandoned by human miners."
+  },
+  {
+   "target": "race:Human",
+   "text": "Reclaiming the stolen mines of Elwynn and providing goods to Stormwind's home artisans are early duties for young subjects of the kingdom."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With the royal army stretched thin by internal political strife and missing crown forces, securing local infrastructure falls to civilian volunteers and traveling adventurers."
+  }
+ ],
+ "keywords": [
+  "apothecary",
+  "candle",
+  "elwynn",
+  "fargodeep",
+  "goldshire",
+  "jasperlode",
+  "kobold",
+  "wax",
+  "william pestle"
+ ],
+ "related": [
+  "npc:william-pestle",
+  "subzone:fargodeep-mine",
+  "subzone:jasperlode-mine",
+  "subzone:goldshire",
+  "topic:kobold",
+  "quest:62",
+  "zone:elwynn",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Kobold Candles"
+ ]
+}

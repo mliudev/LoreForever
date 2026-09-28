@@ -1,0 +1,117 @@
+{
+ "key": "npc:priestess-josetta",
+ "type": "npc",
+ "name": "Priestess Josetta",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Priestess Josetta",
+  "refs": 4
+ },
+ "summary": "Priestess Josetta is a human priest trainer stationed on the upper floor of the Lion's Pride Inn in Goldshire. Dedicated to guiding novices of the Holy Light beyond their initial trials in Northshire, she mentors young priests in faith, devotion, and practical ministry.",
+ "sections": [
+  {
+   "title": "A Beacon in Goldshire",
+   "body": "While many who take holy vows spend their days within grand cathedrals or cloistered monasteries, Priestess Josetta ministers directly among the common folk of Elwynn Forest. From her modest quarters upstairs in the bustling Lion's Pride Inn, she attends to the spiritual health of travelers, guards, and local laborers alike, demonstrating that service to the Holy Light requires presence wherever hearts need solace.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guiding Young Acolytes",
+   "body": "Josetta plays a vital role for budding priests who have completed their initial studies at Northshire Abbey. She instructs them in the practical realities of their calling, sending them into the surrounding countryside to aid wounded guards and comfort the afflicted. Through these tasks, she emphasizes that clerical duties are not merely about learning words of prayer, but actively channeling the Light to mend a broken world.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Quiet Regret",
+   "body": "Despite her steady devotion, Josetta carries a touch of wistfulness regarding her life's choices. In her youth, she lacked the courage to step onto the wider roads and explore Azeroth, choosing instead the safety of familiar ground. Though content in her sacred service in Goldshire, she often urges the young disciples who cross her threshold to be bolder than she was and take their faith to distant frontiers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Priestess Josetta?",
+   "aliases": [
+    "josetta location",
+    "where is priestess josetta",
+    "goldshire priest trainer location"
+   ],
+   "answer": "Priestess Josetta resides on the second floor of the Lion's Pride Inn in Goldshire, located in the central upstairs room alongside Michelle Belle."
+  },
+  {
+   "q": "What role does Priestess Josetta serve?",
+   "aliases": [
+    "what does josetta do",
+    "priestess josetta role"
+   ],
+   "answer": "She is a priest trainer for the Alliance, instructing novice priests in holy spells, discipline, and the responsibilities of their sacred calling as they venture forth from Northshire."
+  },
+  {
+   "q": "Why does Josetta operate out of an inn instead of a church?",
+   "aliases": [
+    "why in an inn",
+    "why lions pride inn"
+   ],
+   "answer": "Goldshire does not have a standalone chapel, so the Lion's Pride Inn functions as the town center. Stationing herself upstairs allows Josetta to tend to weary travelers, injured town guards, and local residents directly."
+  },
+  {
+   "q": "What personal regret does Josetta share with disciples?",
+   "aliases": [
+    "josetta backstory",
+    "josetta travel regret"
+   ],
+   "answer": "She admits that when she was younger, she never mustered the courage to leave home and travel the world, and she encourages young adventurers to explore beyond the borders of Elwynn."
+  },
+  {
+   "q": "What kind of duties does Josetta assign to new priests?",
+   "aliases": [
+    "josetta quests",
+    "garments of the light quest"
+   ],
+   "answer": "Josetta directs acolytes to tend to wounded defenders in the field, teaching them how to mend injuries with healing prayers and reinforcing that the Light must be carried directly to those in need."
+  },
+  {
+   "q": "Does Josetta teach racial priest spells?",
+   "aliases": [
+    "desperate prayer trainer",
+    "human priest spells"
+   ],
+   "answer": "Yes, as a human priestess in Elwynn, she introduces human priests to specialized prayers favored by their people, such as Desperate Prayer."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Josetta is an essential early mentor for young priests leaving Northshire, offering core spell training and guidance on putting vows of healing into practical service."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human priests will find familiar Church of the Light teachings in Josetta's counsel, as she helps initiate them into their ancestral prayer traditions."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Josetta strengthens the Alliance's backbone in Elwynn, ensuring local defenders have the spiritual and healing support necessary to guard the heartland."
+  }
+ ],
+ "keywords": [
+  "desperate prayer",
+  "elwynn forest",
+  "goldshire",
+  "holy light",
+  "josetta",
+  "lion's pride inn",
+  "priest trainer",
+  "priestess josetta"
+ ],
+ "related": [
+  "subzone:lion-s-pride-inn",
+  "subzone:goldshire",
+  "zone:elwynn",
+  "topic:light",
+  "quest:5624",
+  "quest:5634",
+  "quest:5623",
+  "quest:5628"
+ ],
+ "attribution": [
+  "Priestess Josetta"
+ ]
+}

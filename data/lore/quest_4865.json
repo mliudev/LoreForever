@@ -1,0 +1,126 @@
+{
+ "key": "quest:4865",
+ "type": "quest",
+ "name": "Serpent Wild",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   4865
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Hagar Lightninghoof",
+  "end": "Motega Firemane",
+  "previous": "Alien Egg (quest)",
+  "next": "Sacred Fire",
+  "wiki": "Serpent Wild",
+  "chain": []
+ },
+ "summary": "Serpent Wild is a Horde quest in Thousand Needles that connects the discovery of strange alien eggs to ancient tauren legends. Following an unsettling revelation at Freewind Post, Hagar Lightninghoof dispatches adventurers northwest to Motega Firemane at Whitereach Post to confront the awakening of Arikara.",
+ "sections": [
+  {
+   "title": "A Legend Made Flesh",
+   "body": "When strange, unnatural eggs began appearing in Thousand Needles, local tauren feared an ecological disaster. However, inspecting the artifacts reveals something far older and more ominous than ordinary predators: signs pointing to the vengeance spirit Arikara. Stunned by the horrifying confirmation, Hagar Lightninghoof realizes the canyon faces a mythical threat long thought relegated to fireside lore.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Whitereach",
+   "body": "Recognizing that the threat surpasses simple physical defense, Hagar urges immediate council with Motega Firemane. Stationed northwest along the canyon floor at Whitereach Post, Motega serves as a watcher and spiritual guide versed in the traditional omens of the Needles. His guidance is essential if the Horde hopes to understand and appease or destroy the rising vengeance spirit.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts the quest Serpent Wild?",
+   "aliases": [
+    "who gives serpent wild",
+    "serpent wild questgiver",
+    "hagar lightninghoof quest"
+   ],
+   "answer": "Hagar Lightninghoof, located high atop Freewind Post in Thousand Needles, offers the quest immediately after you investigate the strange alien eggs found throughout the canyon."
+  },
+  {
+   "q": "Where is Motega Firemane located?",
+   "aliases": [
+    "where is motega firemane",
+    "motega firemane location",
+    "find motega"
+   ],
+   "answer": "Motega Firemane resides at Whitereach Post, a small tauren camp situated along the road northwest of Freewind Post, past the fork that leads toward the Great Lift."
+  },
+  {
+   "q": "Who or what is Arikara?",
+   "aliases": [
+    "what is arikara",
+    "arikara lore",
+    "legend of arikara"
+   ],
+   "answer": "Arikara is a legendary wind serpent spirit embodying vengeance in tauren mythology, whose rumored presence in Thousand Needles poses a dire spiritual and physical threat to the local tribes."
+  },
+  {
+   "q": "What prerequisite must be finished before taking this quest?",
+   "aliases": [
+    "prereq for serpent wild",
+    "alien egg quest chain",
+    "serpent wild unlock"
+   ],
+   "answer": "You must complete the quest Alien Egg, wherein you recover an unusual egg from the wild beasts of the canyon and deliver it to Hagar Lightninghoof for inspection."
+  },
+  {
+   "q": "What happens after reaching Motega Firemane?",
+   "aliases": [
+    "what comes after serpent wild",
+    "serpent wild follow up",
+    "sacred fire quest"
+   ],
+   "answer": "Speaking with Motega unlocks the quest Sacred Fire, starting the ritual preparations necessary to confront the spirit Arikara."
+  },
+  {
+   "q": "Why is Hagar Lightninghoof so alarmed?",
+   "aliases": [
+    "why is hagar scared",
+    "hagar wiping brow",
+    "hagar reaction"
+   ],
+   "answer": "Hagar believed the tales of Arikara were mere stories. Actually seeing evidence of the vengeance spirit's manifestation in the canyon terrifies him, prompting him to send for elder wisdom immediately."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The awakening of Arikara turns folklore into urgent crisis, testing the spiritual stewardship of the tauren defending Thousand Needles."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Disturbances of vengeful spirits like Arikara highlight the delicate balance of elemental and spiritual forces inhabiting the canyon mesas."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Keeping the supply lines open through Thousand Needles requires resolving mystical threats that could terrorize the road between the Great Lift and Feralas."
+  }
+ ],
+ "keywords": [
+  "arikara",
+  "freewind post",
+  "hagar lightninghoof",
+  "motega firemane",
+  "sacred fire",
+  "serpent wild",
+  "thousand needles",
+  "whitereach post"
+ ],
+ "related": [
+  "npc:hagar-lightninghoof",
+  "npc:motega-firemane",
+  "subzone:whitereach-post",
+  "subzone:freewind-post",
+  "quest:5062",
+  "quest:5088",
+  "zone:thousandneedles",
+  "subzone:great-lift"
+ ],
+ "attribution": [
+  "Serpent Wild"
+ ]
+}

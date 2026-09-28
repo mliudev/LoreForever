@@ -1,0 +1,117 @@
+{
+ "key": "quest:1946",
+ "type": "quest",
+ "name": "Nether-lace Garment",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1946
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Kil'hala",
+  "end": "",
+  "previous": "Laughing Sisters",
+  "next": null,
+  "wiki": "Nether-lace Garment",
+  "chain": []
+ },
+ "summary": "Nether-lace Garment marks the completion of tailor Kil'hala's specialized crafting work in the Barrens. By weaving the gathered hair of dryads into refined cloth, the tailor crafts an enchanted garment fit for spellcasters.",
+ "sections": [
+  {
+   "title": "Weaving the Nether-Lace",
+   "body": "Kil'hala, working out of the Crossroads in the Barrens, undertakes the delicate process of fashioning nether-lace. Requiring rare and magically resonant components\u2014specifically the locks harvested from the dryads known as laughing sisters in Ashenvale\u2014the tailor binds natural woodland enchantment directly into comfortable, durable cloth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Favors for Orgrimmar",
+   "body": "Beyond simply practicing his trade, Kil'hala has personal motivations for ensuring the quality of the garment. He is particularly keen on currying favor with Deino, a respected troll mage residing in the Valley of Spirits in Orgrimmar. By crafting exceptional garb for aspiring practitioners, Kil'hala hopes to secure and maintain Deino's good graces.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is nether-lace?",
+   "aliases": [
+    "nether lace cloth",
+    "what is nether lace garment"
+   ],
+   "answer": "Nether-lace is an enchanted fabric tailored by Kil'hala. It is woven with magical materials, specifically the tresses of laughing sisters, making it both resilient and naturally imbued with arcane resonance."
+  },
+  {
+   "q": "Who crafts the Nether-lace Garment?",
+   "aliases": [
+    "who makes nether lace",
+    "kil hala nether lace"
+   ],
+   "answer": "Kil'hala, a skilled Horde tailor stationed at the Crossroads in the Barrens, crafts the garment once provided with the necessary dryad hair from Ashenvale."
+  },
+  {
+   "q": "Why does Kil'hala mention Deino?",
+   "aliases": [
+    "who is deino",
+    "why mention deino"
+   ],
+   "answer": "Deino is an influential troll mage trainer residing in Orgrimmar's Valley of Spirits. Kil'hala is eager to stay on her good side and hopes your satisfaction with his tailoring will reflect favorably upon him."
+  },
+  {
+   "q": "Where did the materials for the garment come from?",
+   "aliases": [
+    "nether lace materials",
+    "dryad hair cloth"
+   ],
+   "answer": "The core material is hair gathered from the laughing sisters, a group of elusive dryads found across the forests of Ashenvale."
+  },
+  {
+   "q": "Who is this garment made for?",
+   "aliases": [
+    "who uses nether lace garment",
+    "nether lace class"
+   ],
+   "answer": "It is crafted primarily for spellcasters, particularly mages in training who require robes that can channel arcane energies without hindering movement."
+  },
+  {
+   "q": "Where is Kil'hala located?",
+   "aliases": [
+    "kil hala location",
+    "where is kil hala"
+   ],
+   "answer": "Kil'hala resides at the Crossroads, the central crossroads settlement situated in the heart of the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The nether-lace garment serves as an important milestone for progressing mages, bridging wilderness trials in Ashenvale with Kil'hala's craftsmanship under Deino's guidance."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Kil'hala's craft demonstrates how exotic reagents like dryad hair can be spun into fabrics carrying innate magical protection."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Procuring components from Kalimdor's sacred woods to equip Horde spellcasters showcases the ongoing contest between the Horde and Ashenvale's woodland defenders."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "barrens",
+  "crossroads",
+  "deino",
+  "kil'hala",
+  "laughing sisters",
+  "mage",
+  "nether-lace"
+ ],
+ "related": [
+  "quest:1945",
+  "npc:kil-hala",
+  "npc:deino",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Nether-lace Garment"
+ ]
+}

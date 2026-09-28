@@ -1,0 +1,115 @@
+{
+ "key": "quest:148",
+ "type": "quest",
+ "name": "Supplies from Darkshire",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   148
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Abercrombie",
+  "end": "Madame Eva",
+  "previous": "The Hermit (Classic)",
+  "next": "Ghost Hair Thread (Classic)",
+  "wiki": "Supplies from Darkshire (Classic)",
+  "chain": []
+ },
+ "summary": "Supplies from Darkshire is an Alliance quest in Duskwood where the hermit Abercrombie asks passing travelers to run an errand to Darkshire on his behalf. Claiming to be too frail to make the dangerous trek through the haunted forest, he seeks a rare material known as Ghost Hair Thread from Madame Eva.",
+ "sections": [
+  {
+   "title": "A Feeble Request",
+   "body": "Isolated out along the road toward the darkened hills of southern Duskwood, the hermit Abercrombie cuts a pitiful figure. When approached by travelers, he laments his old age and frail body, claiming he cannot survive the journey through the woods to purchase goods from Darkshire. His requested errand appears simple: travel back to the township's town square and speak with Madame Eva to procure a spool of Ghost Hair Thread.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Curious Material",
+   "body": "Reaching Madame Eva reveals that Abercrombie's request is far from standard sewing supplies. Madame Eva, the local diviner and spinner of strange artifacts, does not keep Ghost Hair Thread readily in stock. Fulfilling the hermit's errand requires securing raw hair from the vengeful phantoms that haunt Duskwood's cursed cemeteries, marking this simple delivery run as the start of a far more sinister arrangement.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts the quest Supplies from Darkshire?",
+   "aliases": [
+    "quest giver supplies from darkshire",
+    "who starts supplies from darkshire",
+    "abercrombie errand"
+   ],
+   "answer": "The quest is given by Abercrombie, a hermit living in a lonely shack along the southern road of Duskwood."
+  },
+  {
+   "q": "Who do I speak with in Darkshire to get the supplies?",
+   "aliases": [
+    "where to turn in supplies from darkshire",
+    "supplies from darkshire turn in",
+    "madame eva location"
+   ],
+   "answer": "You must speak with Madame Eva, who resides in a house overlooking the central square in Darkshire."
+  },
+  {
+   "q": "What specific item is Abercrombie looking for?",
+   "aliases": [
+    "what does abercrombie want",
+    "what are the supplies",
+    "abercrombie item"
+   ],
+   "answer": "Abercrombie asks for Ghost Hair Thread, an unusual and macabre material woven by Madame Eva."
+  },
+  {
+   "q": "Does Madame Eva have the Ghost Hair Thread ready?",
+   "aliases": [
+    "does eva have thread",
+    "supplies from darkshire completion"
+   ],
+   "answer": "No, Madame Eva has none in stock when you arrive. She agrees to spin it for you, but only if you gather the spectral materials she needs from nearby spirits."
+  },
+  {
+   "q": "What quest precedes Supplies from Darkshire?",
+   "aliases": [
+    "prerequisite supplies from darkshire",
+    "supplies from darkshire prequest"
+   ],
+   "answer": "The prerequisite quest is The Hermit, which directs adventurers out from Darkshire to seek out Abercrombie at his lonely dwelling."
+  },
+  {
+   "q": "What quest follows Supplies from Darkshire?",
+   "aliases": [
+    "next quest after supplies from darkshire",
+    "supplies from darkshire followup"
+   ],
+   "answer": "Completing this conversation with Madame Eva immediately leads into the quest Ghost Hair Thread, tasking you with hunting restless spirits for their hair."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers seeking to assist the beleaguered settlement of Darkshire often find themselves running courier tasks for isolated hermits living along the hazardous backroads."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Woven items usually rely on linen or silk, making Madame Eva's craft of spinning ethereal hair into thread a macabre curiosity for any tailor."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "darkshire",
+  "duskwood",
+  "ghost hair thread",
+  "madame eva",
+  "supplies from darkshire",
+  "the hermit"
+ ],
+ "related": [
+  "npc:abercrombie",
+  "npc:madame-eva",
+  "quest:149",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Supplies from Darkshire (Classic)"
+ ]
+}

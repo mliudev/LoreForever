@@ -1,0 +1,82 @@
+{
+ "key": "subzone:circle-of-inner-binding",
+ "type": "subzone",
+ "name": "Circle of Inner Binding",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Circle of Inner Binding"
+ },
+ "summary": "The Circle of Inner Binding is an ancient ring of ritual stones situated in the southern hills of the Arathi Highlands, just east of Stromgarde Keep. Guarded by hostile earth elementals, it holds the Stone of Inner Binding, the most potent seal used to restrain the imprisoned elemental princess Myzrael deep beneath the earth.",
+ "sections": [
+  {
+   "title": "The Core Seal",
+   "body": "Perched upon a plateau south of the main road, the Circle of Inner Binding anchors the strongest of the ancient wards sealing Myzrael beneath Arathi. Towering slabs surround the central Stone of Inner Binding, which thrums with dense geo-magical power. Enormous rumbling earth elementals patrol the stones relentlessly, drawn to the site's resonance or bound as guardians. Despite these potent wards, cracks in this inner seal permit the trapped entity beneath the Highlands to reach out telepathically, whispering pleas for freedom to unsuspecting wanderers who handle shards of its stone.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Circle of Inner Binding?",
+   "aliases": [
+    "why is this circle here",
+    "what does the inner binding do",
+    "circle of inner binding lore"
+   ],
+   "answer": "The Circle houses the Stone of Inner Binding, which acts as the primary and strongest ward anchoring the subterranean prison of Myzrael. It works alongside other elemental circles scattered throughout the Arathi Highlands to keep the creature restrained beneath the surface."
+  },
+  {
+   "q": "What creatures guard this circle?",
+   "aliases": [
+    "what enemies are here",
+    "inner binding mobs",
+    "rumbling exile"
+   ],
+   "answer": "The circle is heavily guarded by powerful earth elementals, primarily Rumbling Exiles. These rocky behemoths aggressively attack anyone who approaches the ritual stones."
+  },
+  {
+   "q": "Who is whispering through the stone?",
+   "aliases": [
+    "who talks to you here",
+    "myzrael voice",
+    "whispering stone"
+   ],
+   "answer": "The voice reaching out through the binding shard belongs to Myzrael, an ancient and powerful elemental princess imprisoned deep beneath the earth. Her psychic reach has managed to pierce through this fractured seal to contact mortal minds."
+  },
+  {
+   "q": "Where is the Circle of Inner Binding located?",
+   "aliases": [
+    "inner binding location",
+    "where is circle of inner binding",
+    "how to find inner binding"
+   ],
+   "answer": "It is located in the southern portion of the Arathi Highlands, situated on the elevated ridgeline just east of the ruined stronghold of Stromgarde Keep."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The raw earthen energy surging through the Circle of Inner Binding indicates ancient, heavy elemental bonds, though the unnatural agitation of the local earth spirits warns of corruption beneath the soil."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The geometric arrangement of the stones forms an intricate, long-lasting containment field capable of channeling and anchoring immense subterranean magical pressures."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "circle of inner binding",
+  "earth elementals",
+  "myzrael",
+  "rumbling exile",
+  "stone of inner binding",
+  "stromgarde keep"
+ ],
+ "related": [
+  "zone:arathi",
+  "subzone:stromgarde-keep"
+ ],
+ "attribution": [
+  "Circle of Inner Binding"
+ ]
+}

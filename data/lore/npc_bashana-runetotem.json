@@ -1,0 +1,90 @@
+{
+ "key": "npc:bashana-runetotem",
+ "type": "npc",
+ "name": "Bashana Runetotem",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Bashana Runetotem",
+  "refs": 1
+ },
+ "summary": "Bashana Runetotem is an herbalist and druidic researcher residing on the Elder Rise in Thunder Bluff. The daughter of Archdruid Hamuul Runetotem, she aids the Cenarion Circle by overseeing agricultural investigations and guiding Horde adventurers against corrupting forces.",
+ "sections": [
+  {
+   "title": "A Daughter of the Circle",
+   "body": "Standing atop the breezy heights of the Elder Rise, Bashana Runetotem carries on the druidic legacy of her father, Archdruid Hamuul Runetotem. While her father guides the burgeoning tauren druids and advises Cairne Bloodhoof, Bashana focuses on practical research into botanical anomalies and regional threats. She equips travelers with tools like evergreen pouches to cultivate mysterious flora, notably the enigmatic morrowgrain, while also coordinating Horde efforts to cleanse foul corruption spreading from places like Blackfathom Deeps.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bashana Runetotem?",
+   "aliases": [
+    "who is bashana",
+    "bashana lore",
+    "who is bashana runetotem"
+   ],
+   "answer": "Bashana is a tauren druid and researcher living on Thunder Bluff's Elder Rise. She is the daughter of Archdruid Hamuul Runetotem and works on behalf of the Cenarion Circle to study peculiar flora and organize responses to natural threats across Kalimdor."
+  },
+  {
+   "q": "What research does she conduct with morrowgrain?",
+   "aliases": [
+    "morrowgrain research",
+    "what does bashana do with morrowgrain",
+    "why morrowgrain"
+   ],
+   "answer": "Bashana enlists Horde adventurers to cultivate and gather morrowgrain using seed packets and soil. The Cenarion Circle studies this potent, mysterious herb to understand its unusual properties and its connection to larger botanical mysteries unfolding across Kalimdor."
+  },
+  {
+   "q": "Why does she send adventurers to Blackfathom Deeps?",
+   "aliases": [
+    "bashana blackfathom deeps",
+    "blackfathom villainy quest",
+    "why bfd"
+   ],
+   "answer": "The foul Twilight's Hammer cultists and satyrs infesting the submerged temple of Blackfathom Deeps pose a grave threat to the natural balance. Bashana seeks to see their sinister leaders slain and their vile corruption eradicated from Ashenvale's coast."
+  },
+  {
+   "q": "Where can she be found?",
+   "aliases": [
+    "where is bashana runetotem",
+    "bashana location",
+    "how to find bashana"
+   ],
+   "answer": "She is located on the Elder Rise in Thunder Bluff, the mesa dedicated to the city's shamans, druids, and spiritual elders, standing near the druidic pavilions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For tauren druids learning their craft under her father Hamuul, Bashana represents the active fieldwork required to understand Kalimdor's shifting ecology."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Bashana serves as a key bridge between Thunder Bluff's Cenarion Circle representatives and Horde champions seeking to strike against cultist threats."
+  }
+ ],
+ "keywords": [
+  "bashana",
+  "blackfathom deeps",
+  "cenarion circle",
+  "elder rise",
+  "hamuul",
+  "morrowgrain",
+  "runetotem",
+  "thunder bluff"
+ ],
+ "related": [
+  "quest:1489",
+  "quest:1200",
+  "subzone:elder-rise",
+  "zone:thunderbluff",
+  "topic:cenarion-circle",
+  "zone:blackfathom",
+  "topic:tauren",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Bashana Runetotem"
+ ]
+}

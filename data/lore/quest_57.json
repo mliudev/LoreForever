@@ -1,0 +1,133 @@
+{
+ "key": "quest:57",
+ "type": "quest",
+ "name": "The Night Watch",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   57
+  ],
+  "level": "26",
+  "faction": "Alliance",
+  "start": "Commander Althea Ebonlocke",
+  "end": "",
+  "previous": "The Night Watch (Classic)",
+  "next": "The Night Watch (3)",
+  "wiki": "The Night Watch (2)",
+  "chain": [
+   "The Night Watch (Classic)",
+   "The Night Watch (2)",
+   "The Night Watch (3)"
+  ]
+ },
+ "summary": "Tasked directly by Commander Althea Ebonlocke, adventurers are sent into Duskwood's haunted barrows to cull the rising tide of restless dead. This ongoing campaign targets the skeletal horrors clawing their way out of Tranquil Gardens Cemetery and Raven Hill. Driving back the skeletal scourge is essential to keeping the fragile haven of Darkshire from falling completely to the darkness.",
+ "sections": [
+  {
+   "title": "The Dead Do Not Rest",
+   "body": "Duskwood's tragic descent from the verdant region once called Grand Hamlet into a fog-drenched twilight has left its graveyards unnaturally restless. Commander Althea Ebonlocke, leading Darkshire's volunteer militia known as The Night Watch, faces an endless siege. Without aid from Stormwind, her forces are stretched dangerously thin. Reports of animated skeletal fiends and horrors rising from the dirt threaten to overrun the eastern settlements, forcing the militia to recruit any able-bodied travelers willing to enter the deadlands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Haunted Soil",
+   "body": "The campaign takes recruits to two focal points of necromantic unrest: the Tranquil Gardens Cemetery just south of town, and the vast, overgrown expanses of Raven Hill Graveyard to the far west. Skeletons pull themselves from forgotten tombs and shallow roadside graves, animated by dark magic lingering in the shadowed forest. Cutting down these fiends buys vital breathing room for Darkshire's beleaguered citizens, though it remains a ceaseless battle against an entrenched evil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Night Watch relying on travelers rather than Stormwind guards?",
+   "aliases": [
+    "why no stormwind help",
+    "where is stormwind army",
+    "why darkshire alone"
+   ],
+   "answer": "Stormwind has largely abandoned Duskwood to its own devices, leaving the defense of the region to Commander Althea Ebonlocke and her local volunteer militia. Facing internal political strife and a missing king, the capital provides no garrison reinforcements, forcing the Night Watch to hire passing adventurers."
+  },
+  {
+   "q": "Where are the skeletons coming from?",
+   "aliases": [
+    "skeletons duskwood origin",
+    "why are there skeletons",
+    "undead source duskwood"
+   ],
+   "answer": "The skeletal fiends and horrors are clawing out of the consecrated grounds of Tranquil Gardens Cemetery and the sprawling Raven Hill Graveyard. Dark magical forces pervading the woods have disturbed centuries of burials, raising ancient remains as mindless, violent sentries."
+  },
+  {
+   "q": "Who leads the Night Watch?",
+   "aliases": [
+    "night watch leader",
+    "who is althea ebonlocke",
+    "commander ebonlocke"
+   ],
+   "answer": "Commander Althea Ebonlocke commands the Night Watch. She is the daughter of Darkshire's town magistrate, Solomon Ebonlocke, and she personally directs the defense of the town and coordinates operations against Duskwood's undead and monstrous threats."
+  },
+  {
+   "q": "What is the difference between Tranquil Gardens and Raven Hill?",
+   "aliases": [
+    "tranquil gardens vs raven hill",
+    "which graveyard is better",
+    "graveyard locations duskwood"
+   ],
+   "answer": "Tranquil Gardens Cemetery lies immediately south of Darkshire and represents an immediate, localized threat to the town. Raven Hill Graveyard, situated across the forest to the far west, is a massive burial ground that serves as the heart of Duskwood's undead infestation."
+  },
+  {
+   "q": "What happens after culling these skeletons?",
+   "aliases": [
+    "what next night watch",
+    "night watch questline",
+    "after night watch 2"
+   ],
+   "answer": "Clearing skeletal horrors and fiends is only one phase of Althea's campaign. The Night Watch continuously monitors rising threats across the forest, escalating from ghouls and skeletons to more dangerous undead and the sinister necromancers directing them deeper within Duskwood."
+  },
+  {
+   "q": "Why is Darkshire in constant danger?",
+   "aliases": [
+    "why duskwood dangerous",
+    "darkshire danger",
+    "what cursed duskwood"
+   ],
+   "answer": "Once a peaceful province of the Kingdom of Stormwind known as Grand Hamlet, Duskwood was consumed by a magical twilight and plagued by shadowy curses. The woods are now overrun with feral worgen, ravenous spiders, and restless undead, leaving Darkshire as the last bastion of living humanity in the zone."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Darkshire represents the fragile southeastern border of the Alliance in the southern Eastern Kingdoms. Aiding the Night Watch ensures the town remains a viable foothold rather than falling completely to ruin."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "For the Silver Hand and knights of the Light, confronting the defiled dead in Tranquil Gardens is a sacred duty to cleanse corrupted resting places."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests walking the tainted soil of Raven Hill face the raw perversion of burial traditions, using their faith to bring quiet rest to tormented souls."
+  },
+  {
+   "target": "race:Human",
+   "text": "Many of the skeletons rising from Duskwood's earth are the ancestors of living Stormwind and Darkshire citizens, making the battle deeply personal for human defenders."
+  }
+ ],
+ "keywords": [
+  "althea ebonlocke",
+  "darkshire",
+  "duskwood",
+  "night watch",
+  "raven hill",
+  "skeletal fiend",
+  "skeletal horror",
+  "tranquil gardens"
+ ],
+ "related": [
+  "quest:56",
+  "npc:althea-ebonlocke",
+  "topic:night-watch",
+  "zone:duskwood",
+  "subzone:darkshire",
+  "subzone:tranquil-gardens-cemetery",
+  "quest:163"
+ ],
+ "attribution": [
+  "The Night Watch (2)"
+ ]
+}

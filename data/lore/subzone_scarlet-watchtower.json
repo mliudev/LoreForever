@@ -1,0 +1,92 @@
+{
+ "key": "subzone:scarlet-watchtower",
+ "type": "subzone",
+ "name": "Scarlet Watchtower",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Scarlet Watchtower"
+ },
+ "summary": "The Scarlet Watchtower is a ruined scout outpost nestled in the southern hills of Tirisfal Glades. Held by the zealous Scarlet Crusade, it provides a direct vantage over aerial traffic entering and leaving the Undercity. Its close proximity to the Forsaken capital's rear sewer entrance makes it a constant thorn in the side of the local undead defenders.",
+ "sections": [
+  {
+   "title": "A Thorn at the Gates",
+   "body": "Perched above the southern ridge of Tirisfal Glades, the Scarlet Watchtower serves as an audacious observation post for the Scarlet Crusade. Standing mere paces away from the sewer back entrance of the Undercity, the ruined tower allows crusader scouts to monitor incoming and outgoing flight routes and surface movements into Queen Sylvanas's capital. Commanded by Captain Perrine, the zealots stationed here dare to gaze directly into the heart of Forsaken territory, seeking any opportunity to gather intelligence or strike at the undead they consider abominations.",
+   "spoiler": 0
+  },
+  {
+   "title": "Network of Zealotry",
+   "body": "The tower is not an isolated redoubt, but one of four Crusader's Outposts established across Tirisfal Glades. Together, these vantage points form an early-warning web and scouting perimeter for Scarlet forces operating against Lordaeron's new masters. Its position so close to the ruined kingdom's seat of power makes it an intolerable insult to the Royal Apothecary Society and Forsaken commanders, who regularly direct emerging champions to thin the outpost's ranks and silence Captain Perrine.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Scarlet Crusade so close to the Undercity?",
+   "aliases": [
+    "why scarlet tower near undercity",
+    "scarlet watchtower purpose",
+    "why are scarlets here"
+   ],
+   "answer": "The Scarlet Crusade established the watchtower to monitor flight routes and scouting movement coming in and out of the Forsaken capital. Its high vantage point near the southern hills allows them to keep an eye on undead surface operations and the nearby sewer exit."
+  },
+  {
+   "q": "Who commands the Scarlet Watchtower?",
+   "aliases": [
+    "scarlet watchtower boss",
+    "tower commander",
+    "captain perrine"
+   ],
+   "answer": "The outpost is commanded by Captain Perrine, a Scarlet Crusade officer who directs local scouts and maintains surveillance over the approaches to the Undercity."
+  },
+  {
+   "q": "How does this tower fit into the wider Scarlet presence in Tirisfal?",
+   "aliases": [
+    "other scarlet towers",
+    "crusader outposts tirisfal",
+    "scarlet network"
+   ],
+   "answer": "This tower is one of four Crusader's Outposts strategically scattered across Tirisfal Glades. Together, they create a scouting network designed to harass Forsaken patrols and keep the Scarlet Crusade informed of undead maneuvers."
+  },
+  {
+   "q": "What is the tower's connection to the Sewers of the Undercity?",
+   "aliases": [
+    "tower near sewers",
+    "undercity back door tower",
+    "sewer entrance scarlet"
+   ],
+   "answer": "The tower sits directly in the southern hills near the drainage canal leading into the Undercity Sewers. This backdoor passage is an important alternative route into the capital, making the presence of hostile crusaders right above it an active security hazard for the Forsaken."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The existence of an enemy observation tower practically peering into your capital's drainage exits is an unacceptable indignity that local Forsaken authorities are eager to eliminate."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Travelers and scouts arriving on bat-back to the Undercity risk coming under observation from the zealous sharpshooters stationed on the heights of this tower."
+  }
+ ],
+ "keywords": [
+  "captain perrine",
+  "crusader's outpost",
+  "scarlet crusade",
+  "scarlet watchtower",
+  "sewers",
+  "tirisfal glades",
+  "undercity"
+ ],
+ "related": [
+  "topic:scarlet-crusade",
+  "subzone:crusader-s-outpost",
+  "zone:undercity",
+  "subzone:sewers",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "quest:94"
+ ],
+ "attribution": [
+  "Scarlet Watchtower"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "subzone:cauldron",
+ "type": "subzone",
+ "name": "Cauldron",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Cauldron"
+ },
+ "summary": "The Cauldron is a massive open-pit excavation site dominating the center of the Searing Gorge. Operated by the Dark Iron clan, this fiery quarry is worked day and night by broken slaves under the watch of cruel overseers and roving elementals.",
+ "sections": [
+  {
+   "title": "The Molten Quarry",
+   "body": "Carved deep into the scorched earth of the Searing Gorge, the Cauldron was fortified following the catastrophic summoning of Ragnaros by Emperor Thaurissan. Massive, smoke-belching Dark Iron excavation machinery rims the canyon walls, scraping rock and ore from the smoldering stone. Down within its burning crevices, living fire and magma elementals prowl alongside Dark Iron taskmasters, while subterranean heat rises continuously from the depths of the mountain.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Broken Workforce",
+   "body": "Deep within the pit, captured slave workers endure brutal, endless shifts under the lash of Dark Iron overseers. Broken by relentless labor, sweltering heat, and torment, many of these laborers have been driven completely mad. They no longer recognize friend from foe, lashing out violently against any outsiders who disturb their toil\u2014even those who might otherwise offer them a chance at liberation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Cauldron?",
+   "aliases": [
+    "the cauldron lore",
+    "what is the cauldron",
+    "searing gorge quarry"
+   ],
+   "answer": "The Cauldron is an enormous strip mine and excavation quarry located in the center of the Searing Gorge. Built and fortified by the Dark Iron clan, it serves as an industrial hub for extracting stone and ore under intensely volatile volcanic conditions."
+  },
+  {
+   "q": "Who controls the excavation?",
+   "aliases": [
+    "who runs the cauldron",
+    "cauldron masters"
+   ],
+   "answer": "The Dark Iron clan controls the entire site. They oversee operations using heavy excavators and armed overseers, maintaining a brutal hold over the pit and its laborers."
+  },
+  {
+   "q": "Why do the slaves attack adventurers who try to help?",
+   "aliases": [
+    "why are slaves hostile",
+    "slave workers attacking",
+    "can you free the slaves"
+   ],
+   "answer": "The slaves have been broken by cruel torment, blinding heat, and relentless exhaustion. Driven mad by their masters and their grueling existence, their fractured minds view any interruption to their work as a threat, causing them to attack anyone nearby."
+  },
+  {
+   "q": "What kinds of creatures live inside the pit?",
+   "aliases": [
+    "cauldron mobs",
+    "what is in the cauldron",
+    "monsters in cauldron"
+   ],
+   "answer": "Aside from Dark Iron overseers and their enslaved workforce, the fiery fissures of the Cauldron crawl with volatile fire and magma elementals unleashed by the volcanic nature of the gorge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The massive mechanical dredges and open-pit terracing of the Cauldron showcase the industrial scale of Dark Iron excavation, carved directly into volatile volcanic crust."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Seeing the depravity of the Dark Irons firsthand\u2014using sentient captives as expendable, broken labor amid fire elementals\u2014stirs deep disgust in Ironforge dwarves."
+  }
+ ],
+ "keywords": [
+  "cauldron",
+  "dark iron",
+  "excavation",
+  "magma elementals",
+  "quarry",
+  "searing gorge",
+  "slave workers",
+  "slaves"
+ ],
+ "related": [
+  "zone:searinggorge",
+  "topic:dark-iron-clan",
+  "subzone:ruins-of-thaurissan",
+  "subzone:vice"
+ ],
+ "attribution": [
+  "Cauldron"
+ ]
+}

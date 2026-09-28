@@ -1,0 +1,120 @@
+{
+ "key": "quest:1688",
+ "type": "quest",
+ "name": "Surena Caledon",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   1688
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Gakin the Darkbinder",
+  "end": "",
+  "previous": "Gakin's Summons (Voidwalker)",
+  "next": "The Binding (Voidwalker, Stormwind)",
+  "wiki": "Surena Caledon (quest)",
+  "chain": [
+   "Gakin's Summons (Voidwalker)",
+   "Surena Caledon (quest)",
+   "The Binding (Voidwalker, Stormwind)"
+  ]
+ },
+ "summary": "Surena Caledon is a warlock training task given by Gakin the Darkbinder in the hidden basement beneath the Slaughtered Lamb in Stormwind. Gakin tasks an aspiring warlock with hunting down his former pupil, who betrayed him to run off with the Defias Brotherhood, and reclaiming a prized bloodstone choker.",
+ "sections": [
+  {
+   "title": "A Bitter Master",
+   "body": "Beneath the Slaughtered Lamb tavern in the Mage Quarter, Gakin the Darkbinder trains novices in the forbidden arts of fel summoning. Yet Gakin's history is not without misjudgment. Before taking on new pupils, he taught a young woman named Surena Caledon, admiring both her latent magical talent and her beauty. However, Surena abandoned her studies and Gakin's favor, fleeing the city to join the Defias Brotherhood alongside her lover, Erlan Drudgemoor.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Stolen Bloodstone",
+   "body": "Gakin cares little for the girl's survival after her departure, but he refuses to part with the valuable bloodstone choker he gifted her during her tutelage. He sends his newest apprentice southeast to the Brackwell Pumpkin Patch in Elwynn Forest, a farmstead overrun by Defias bandits, with explicit instructions to strip the jewel from Surena by any means necessary. The reclaimed bloodstone provides the magical catalyst needed for the apprentice's next trial: summoning and binding a Voidwalker.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Surena Caledon?",
+   "aliases": [
+    "surena lore",
+    "who is surena",
+    "surena caledon backstory"
+   ],
+   "answer": "Surena Caledon was an apprentice warlock under Gakin the Darkbinder in Stormwind. Endowed with natural talent, she gained Gakin's favor and gifts before abandoning her craft to elope with a Defias bandit named Erlan Drudgemoor."
+  },
+  {
+   "q": "Why does Gakin want her choker back?",
+   "aliases": [
+    "why get the choker",
+    "bloodstone choker importance"
+   ],
+   "answer": "The choker holds a valuable bloodstone that Gakin gifted to Surena during her apprenticeship. In addition to resenting her theft and betrayal, Gakin requires the stone's dark resonance as a ritual reagent to help his new apprentice bind a Voidwalker."
+  },
+  {
+   "q": "Where can Surena Caledon be found?",
+   "aliases": [
+    "surena location",
+    "where is surena",
+    "where is the pumpkin patch"
+   ],
+   "answer": "Surena can be found sheltering alongside her Defias companions at the Brackwell Pumpkin Patch, an abandoned farmstead in southeastern Elwynn Forest."
+  },
+  {
+   "q": "What happens after recovering the choker?",
+   "aliases": [
+    "what comes next",
+    "next quest after surena"
+   ],
+   "answer": "Returning the bloodstone choker to Gakin completes this trial, opening the next task: entering the summoning circle in the crypts beneath the Slaughtered Lamb to bind a Voidwalker from the Twisting Nether."
+  },
+  {
+   "q": "Who is Erlan Drudgemoor?",
+   "aliases": [
+    "erlan lore",
+    "who is erlan drudgemoor"
+   ],
+   "answer": "Erlan Drudgemoor is a rogue affiliated with the Defias Brotherhood who seduced Surena Caledon and persuaded her to abandon her warlock training and flee Stormwind to live among the bandits."
+  },
+  {
+   "q": "Does Gakin show any remorse over Surena's fate?",
+   "aliases": [
+    "does gakin care",
+    "gakin reaction to surena"
+   ],
+   "answer": "Not at all. Gakin openly declares that her life means nothing to him anymore, coldly remarking that while it is a shame to waste magical talent, her betrayal makes her elimination necessary."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Hunting Surena Caledon is an Alliance warlock's proving ground, showing that betrayal carries a lethal cost and that sentimental attachment has no place in the dark arts."
+  },
+  {
+   "target": "race:Human",
+   "text": "Surena's desertion highlights the persistent lure of the Defias Brotherhood among disgruntled citizens within the kingdom of Stormwind."
+  }
+ ],
+ "keywords": [
+  "bloodstone choker",
+  "brackwell pumpkin patch",
+  "defias",
+  "erlan drudgemoor",
+  "gakin the darkbinder",
+  "slaughtered lamb",
+  "surena caledon",
+  "voidwalker"
+ ],
+ "related": [
+  "npc:gakin-the-darkbinder",
+  "quest:1471",
+  "quest:1685",
+  "subzone:brackwell-pumpkin-patch",
+  "zone:elwynn",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Surena Caledon (quest)"
+ ]
+}

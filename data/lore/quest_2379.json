@@ -1,0 +1,128 @@
+{
+ "key": "quest:2379",
+ "type": "quest",
+ "name": "Zando'zan",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   2379
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Shenthul",
+  "end": "Zando'zan",
+  "previous": "To Orgrimmar! or Find the Shattered Hand",
+  "next": "Wrenix of Ratchet",
+  "wiki": "Zando'zan (quest)",
+  "chain": [
+   "To Orgrimmar!",
+   "Find the Shattered Hand",
+   "Zando'zan (quest)",
+   "Wrenix of Ratchet",
+   "Plundering the Plunderers"
+  ]
+ },
+ "summary": "This errand directs promising Horde rogues to introduce themselves to Zando'zan deep within Orgrimmar's Cleft of Shadow. Sent by trainer Shenthul, the initiate takes the first steps into the covert ranks and illicit techniques of the Shattered Hand.",
+ "sections": [
+  {
+   "title": "A Walk into the Shadows",
+   "body": "Orgrimmar may appear to be a fortress of brute strength and martial discipline, but its rulers know that raw muscle alone cannot win every war. Down in the subterranean gloom of the Cleft of Shadow operates the Shattered Hand, the covert guild handling espionage, sabotage, and theft for the Horde. When the rogue trainer Shenthul decides an initiate has shown enough promise, he dispatches them to report directly to Zando'zan for dedicated operative training.",
+   "spoiler": 0
+  },
+  {
+   "title": "Proving One's Worth",
+   "body": "Zando'zan does not automatically hand out respect to every green rogue wandering down into the cavern. Approaching him is a formal initiation into finer clandestine arts, beginning with the delicate skills of stealth, subterfuge, and thievery. Meeting Zando'zan bridges the gap between rough street cutpurses and organized intelligence operatives, preparing the rogue for tricky fieldwork beyond the safety of the capital's red canyon walls.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zando'zan?",
+   "aliases": [
+    "zandozan",
+    "who is zando'zan",
+    "zando'zan cleft of shadow"
+   ],
+   "answer": "Zando'zan is a rogue trainer and handler for the Shattered Hand residing in Orgrimmar's subterranean Cleft of Shadow. He evaluates new recruits and instructs them in practical stealth, burglary, and operative tradecraft."
+  },
+  {
+   "q": "Why does Shenthul send rogues to see Zando'zan?",
+   "aliases": [
+    "why do i talk to zando'zan",
+    "shenthul zando'zan",
+    "purpose of quest"
+   ],
+   "answer": "Shenthul recognizes when a fledgling rogue has outgrown basic brawling and needs specialized training as a Shattered Hand operative. Zando'zan oversees the lessons in burglary and lock-manipulation required for clandestine field operations."
+  },
+  {
+   "q": "What is the Shattered Hand in Orgrimmar?",
+   "aliases": [
+    "what is shattered hand",
+    "shattered hand orgrimmar",
+    "horde rogues shattered hand"
+   ],
+   "answer": "Originally a brutal orcish clan from Draenor known for ritual self-mutilation, the Shattered Hand in Durotar has evolved into the covert intelligence and assassination arm of the Horde. They operate from the shadows of Orgrimmar, dealing in espionage, poison, and scouting."
+  },
+  {
+   "q": "Where does this training chain lead next?",
+   "aliases": [
+    "next quest",
+    "what comes after zando'zan",
+    "wrenix of ratchet"
+   ],
+   "answer": "After presenting yourself to Zando'zan, he directs you outward to Ratchet on the coast of the Barrens to consult a goblin contact named Wrenix, beginning practical field work in lockpicking."
+  },
+  {
+   "q": "Where can I find Zando'zan?",
+   "aliases": [
+    "zando'zan location",
+    "where is zando'zan",
+    "how to find zando'zan"
+   ],
+   "answer": "He lurks within the Cleft of Shadow, the deep cavern network carved beneath the center of Orgrimmar where warlocks, shadow priests, and rogue operatives gather out of broad daylight."
+  },
+  {
+   "q": "Why does Zando'zan apologize upon meeting me?",
+   "aliases": [
+    "why zandozan apologize",
+    "completion dialogue zando'zan"
+   ],
+   "answer": "Zando'zan likely had misgivings or doubted your nerve before your arrival. Seeing you stand before him ready to train forces him to acknowledge your commitment and retract his initial skepticism."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This task marks your formal induction into the covert apparatus of the Shattered Hand, transitioning you from an untrained knifefighter into a recognized operative of the Horde."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While the warchief speaks often of honor and frontal assault, the Shattered Hand provides the essential espionage and covert dirty work that keeps the young Horde safe from unseen threats."
+  }
+ ],
+ "keywords": [
+  "cleft of shadow",
+  "lockpicking",
+  "orgrimmar",
+  "rogue",
+  "shattered hand",
+  "shenthul",
+  "stealth",
+  "wrenix",
+  "zando'zan"
+ ],
+ "related": [
+  "npc:shenthul",
+  "subzone:cleft-of-shadow",
+  "quest:2378",
+  "quest:2380",
+  "quest:2382",
+  "quest:2381",
+  "quest:1858",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Zando'zan (quest)"
+ ]
+}

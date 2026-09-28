@@ -1,0 +1,120 @@
+{
+ "key": "quest:417",
+ "type": "quest",
+ "name": "A Pilot's Revenge",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   417
+  ],
+  "level": "11",
+  "faction": "Alliance",
+  "start": "A Dwarven Corpse",
+  "end": "Pilot Hammerfoot",
+  "previous": "The Lost Pilot (Classic)",
+  "next": null,
+  "wiki": "A Pilot's Revenge (Classic)",
+  "chain": [
+   "The Lost Pilot (Classic)",
+   "A Pilot's Revenge (Classic)"
+  ]
+ },
+ "summary": "Following the trail of a missing dwarven aviator leads to a frozen corpse in the wilds of Dun Morogh. Found among the remains, Hildelve's personal journal details his fatal struggle against a notorious predator known as Mangeclaw, leaving behind a dying wish for vengeance.",
+ "sections": [
+  {
+   "title": "A Final Entry",
+   "body": "Pilot Hildelve did not survive his time stranded in the rugged snowy crags. When travelers locate his remains, they discover his journal resting beside him. In his last penned words, Hildelve recorded a savage encounter with a massive Ice Claw bear he named Mangeclaw. Though he managed to fend off the monstrosity initially, the injuries proved severe, and the beast eventually returned to finish off the weakened pilot.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Aviator's Dying Wish",
+   "body": "Knowing his end was near, Hildelve wrote down one final plea in his journal: retribution against the monster that took his life. Returning to Pilot Hammerfoot with the journal and a claw torn from the fallen beast brings grim closure to the Ironforge Siege Brigade, honoring their lost comrade and removing a deadly menace from the mountain paths.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Hildelve?",
+   "aliases": [
+    "hildelve",
+    "who is the dead dwarf",
+    "lost pilot"
+   ],
+   "answer": "Pilot Hildelve was a dwarven aviator and a member of the Ironforge Siege Brigade. After disappearing during a flight over the mountains of Dun Morogh, his friend Pilot Hammerfoot sent searchers to locate him, only to uncover his remains in the snow."
+  },
+  {
+   "q": "What is Mangeclaw?",
+   "aliases": [
+    "mangeclaw",
+    "ice claw bear",
+    "who killed hildelve"
+   ],
+   "answer": "Mangeclaw is an exceptionally large and ferocious Ice Claw bear roaming the slopes of Dun Morogh. It ambushed Pilot Hildelve and inflicted mortal wounds before eventually returning to kill him."
+  },
+  {
+   "q": "Who is Pilot Hammerfoot?",
+   "aliases": [
+    "hammerfoot",
+    "pilot hammerfoot"
+   ],
+   "answer": "Pilot Hammerfoot is a seasoned flyer stationed in Dun Morogh who belongs to the Ironforge Siege Brigade. Deeply concerned about his missing friend Hildelve, he directs adventurers into the wilderness to find out what happened."
+  },
+  {
+   "q": "Why does Hildelve's death matter to Ironforge?",
+   "aliases": [
+    "why care about hildelve",
+    "siege brigade importance"
+   ],
+   "answer": "The Ironforge Siege Brigade depends on its trained pilots and machinery to scout and defend the mountainous territory around the capital. Losing a skilled flyer like Hildelve is a harsh blow to the brigade's ranks."
+  },
+  {
+   "q": "Where does this quest chain begin?",
+   "aliases": [
+    "how to start a pilot's revenge",
+    "lost pilot quest chain"
+   ],
+   "answer": "The journey begins with Pilot Hammerfoot offering 'The Lost Pilot', asking you to search for his missing friend. That leads to finding Hildelve's corpse, which starts 'A Pilot's Revenge'."
+  },
+  {
+   "q": "What proof do you need to bring to Hammerfoot?",
+   "aliases": [
+    "mangeclaw proof",
+    "what items needed"
+   ],
+   "answer": "You must present both Hildelve's Journal, recovered from the pilot's corpse, and a Mangy Claw taken from the carcass of Mangeclaw to prove the beast was slain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Avenging a fallen brother of the Ironforge Siege Brigade is a matter of honor, ensuring Hildelve's memory is respected and his killer punished."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The pilots of Ironforge form a crucial branch of dwarven and Alliance defense, making the recovery of lost flyers an essential duty."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking down an unusually vicious alpha beast like Mangeclaw in the freezing winds of Dun Morogh is a true test of mountain survival."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "hammerfoot",
+  "hildelve",
+  "ice claw bear",
+  "ironforge siege brigade",
+  "mangeclaw",
+  "revenge"
+ ],
+ "related": [
+  "quest:419",
+  "npc:pilot-hammerfoot",
+  "zone:dunmorogh",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "A Pilot's Revenge (Classic)"
+ ]
+}

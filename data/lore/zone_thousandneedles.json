@@ -1,0 +1,134 @@
+{
+ "key": "zone:thousandneedles",
+ "type": "zone",
+ "name": "Thousand Needles",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": [
+   "Thousand Needles (Classic)",
+   "Thousand Needles"
+  ],
+  "levels": "25-35",
+  "aliases": []
+ },
+ "summary": "Thousand Needles is a sprawling canyon of sheer sandstone pillars and sunbaked salt pans in southern Kalimdor. Tauren tribes cling to settlements atop towering mesas to escape aggressive centaur packs, while gnomish and goblin tinkerers run high-speed rocket cars across the dried-up seabed of the Shimmering Flats.",
+ "sections": [
+  {
+   "title": "A Forest of Stone",
+   "body": "Before the Great Sundering shattered ancient Kalimdor, this territory was a lush river canyon fed by inland waterways flowing out toward the sea. The cataclysm tore the continent apart, thrusting the riverbed above the water table and altering the river's path until only dry stone and sandstone spires remained. Today, dozens of slender cylindrical columns rise from the canyon floor like a petrified forest. Tauren settled on the summits, stringing precarious rope bridges between peaks to establish villages out of reach of the hostile centaur marauders patrolling the shadow-draped canyon floor below.",
+   "spoiler": 0
+  },
+  {
+   "title": "Peril on the Mesas",
+   "body": "Atop the needle-like spires, life is far from peaceful. At Freewind Post, tauren loyal to the Horde contend not only with predatory wind serpents and wyverns from Highperch, but also with their treacherous kin: the militant Grimtotem clan entrenched at Darkcloud Pinnacle. Cliffwatcher Longhorn oversees the defense of the plateau, seeking bold fighters to strike at Grimtotem agitators and secure the fragile bridges linking the peaks. To the north, the enormous mechanical winches of the Great Lift carry travelers down from the southern Barrens, though crossing the canyon floor remains a deadly gambit.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Mirage Raceway",
+   "body": "To the southeast, the canyon walls peel back into the Shimmering Flats, an enormous, desiccated salt pan sitting below sea level. In this harsh, blinding white expanse, gnomes and goblins maintain an uneasy neutrality around the Mirage Raceway. Rival engineers Pozzik and Fizzle Brassbolts race experimental rocket cars across the hard salt to settle which race possesses technological superiority. The pit stop attracts scoundrels, swindlers like Kravel Koalbeard, and hunters hunting the hardy scorpions, turtles, and basilisks that roam the searing basin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How did Thousand Needles get its name?",
+   "aliases": [
+    "why is it called thousand needles",
+    "needle pillars origin",
+    "spires lore"
+   ],
+   "answer": "The zone is named after the dozens of massive, cylindrical sandstone spires that erupt from the canyon bottom. Originally carved by rushing river currents before the Great Sundering, these geological towers now resemble a forest of giant needles."
+  },
+  {
+   "q": "How do you get down into Thousand Needles from the Barrens?",
+   "aliases": [
+    "how to get to thousand needles",
+    "great lift entrance",
+    "elevator to needles"
+   ],
+   "answer": "Travelers take the Great Lift, an immense double-car elevator operated by Horde guards on the southern border of the Barrens. Stepping off the edge is fatal, so waiting for the platform is essential. Alliance travelers can also hike in from the west via Thalanaar in Feralas."
+  },
+  {
+   "q": "Why do the tauren live on top of the mesas?",
+   "aliases": [
+    "why are tauren on pillars",
+    "freewind post history",
+    "tauren high ground"
+   ],
+   "answer": "Centaur warbands once pushed the nomadic tauren nearly to extinction. Building outposts like Freewind Post atop inaccessible stone pillars kept them safe from ground charges. They connected the mesas using wooden suspension bridges, allowing high-altitude travel above the predators and raiders below."
+  },
+  {
+   "q": "What is the Mirage Raceway?",
+   "aliases": [
+    "salt flats track",
+    "gnome goblin race",
+    "rocket car track"
+   ],
+   "answer": "The Mirage Raceway is an engineering proving ground on the Shimmering Flats salt pan. Gnomish and goblin tinkerers run experimental rocket-propelled racecars across the flat salt bed to settle their ongoing rivalry over which race builds the finest machinery."
+  },
+  {
+   "q": "What is the Grimtotem presence in the canyon?",
+   "aliases": [
+    "grimtotem thousand needles",
+    "darkcloud pinnacle tauren",
+    "evil tauren needles"
+   ],
+   "answer": "The Grimtotem clan occupies Darkcloud Pinnacle, a fortified cluster of spires directly opposing Freewind Post. Unlike the rest of the tauren tribes who pledged to the Horde, the Grimtotem actively attack other tauren and conspire to seize dominance over the mesas."
+  },
+  {
+   "q": "What are the Shimmering Flats?",
+   "aliases": [
+    "salt pan",
+    "white desert needles",
+    "eastern desert"
+   ],
+   "answer": "The Shimmering Flats are a vast, dried lakebed east of the canyon mesas. The salt crust formed when the ancient inland sea evaporated after the Sundering. The searing heat, blinding white salt, and harsh predators make it an inhospitable desert used mainly for high-speed vehicular testing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Freewind Post stands as a reminder of how high your people had to climb to escape centaur slaughter, and a staging ground against the treacherous Grimtotem at Darkcloud Pinnacle."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "The Mirage Raceway in the Shimmering Flats is your faction's premier chance to demonstrate the precision and elegance of gnomish engineering over shoddy goblin contraptions."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The salt flats are a pilgrimage site for tinkerers looking to study rocket fuel, vehicle parts, and high-speed propulsion at the Mirage Raceway."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Great Lift links the Barrens to your stronghold at Freewind Post, serving as a strategic southern boundary against centaur clans and rebel tauren."
+  }
+ ],
+ "keywords": [
+  "cliffwatcher longhorn",
+  "darkcloud pinnacle",
+  "fizzle brassbolts",
+  "freewind post",
+  "great lift",
+  "grimtotem",
+  "kravel koalbeard",
+  "mirage raceway",
+  "pozzik",
+  "shimmering flats",
+  "thousand needles"
+ ],
+ "related": [
+  "subzone:freewind-post",
+  "subzone:shimmering-flats",
+  "subzone:mirage-raceway",
+  "subzone:great-lift",
+  "subzone:darkcloud-pinnacle",
+  "zone:barrens",
+  "zone:feralas",
+  "zone:tanaris"
+ ],
+ "attribution": [
+  "Thousand Needles (Classic)",
+  "Thousand Needles"
+ ]
+}

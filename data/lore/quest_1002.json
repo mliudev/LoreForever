@@ -1,0 +1,121 @@
+{
+ "key": "quest:1002",
+ "type": "quest",
+ "name": "Buzzbox 323",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   1002
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Buzzbox 411",
+  "end": "Buzzbox 323",
+  "previous": "Buzzbox 411 (quest)",
+  "next": "Buzzbox 525 (quest)",
+  "wiki": "Buzzbox 323 (quest)",
+  "chain": []
+ },
+ "summary": "Buzzbox 323 is the second task in a field-research line along the coast of Darkshore, commissioned through a speaker device by the eccentric gnome engineer Wizbang Cranktoggle. Players must gather Moonstalker fangs from local predators and deposit them into the humming contraption situated north of Auberdine.",
+ "sections": [
+  {
+   "title": "A Slurred Transmission",
+   "body": "After operating Buzzbox 411 further south, the voice of the gnomish inventor Wizbang Cranktoggle crackles to life over the speaker. Interspersed with the sounds of heavy drinking and slurred directions, Wizbang directs adventurers north toward Auberdine, pointing them to Buzzbox 323 near a road bridge. His research requires six Moonstalker Fangs, harvested from the fierce feline hunters roaming the shrouded forests of Darkshore.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gnomish Field Machinery",
+   "body": "Approaching Buzzbox 323 reveals a machine that chatters with static and faint muttering even before repairs begin. Once the requested fangs are placed inside its intake hopper, the machine violently rattles to life, noisily pulverizing the teeth to dust. Wizbang's boozy voice promptly resumes over the transceiver, celebrating the delivery before prodding the traveler toward the next machine in his scattered network.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Buzzbox 323 located?",
+   "aliases": [
+    "buzzbox 323 location",
+    "where is buzzbox 323",
+    "find buzzbox 323"
+   ],
+   "answer": "Buzzbox 323 stands alongside the main road north of Auberdine, just near the bridge crossing the local river in Darkshore."
+  },
+  {
+   "q": "Who is speaking through the Buzzbox?",
+   "aliases": [
+    "who talks in buzzbox",
+    "buzzbox gnome",
+    "wizbang cranktoggle"
+   ],
+   "answer": "The voice belongs to Wizbang Cranktoggle, a gnome inventor stationed elsewhere in Darkshore who communicates through remote transmitters while heavily indulging in ale."
+  },
+  {
+   "q": "What does Buzzbox 323 do with the fangs?",
+   "aliases": [
+    "what happens to the fangs",
+    "why moonstalker fangs",
+    "buzzbox grinding"
+   ],
+   "answer": "Upon dropping the Moonstalker fangs inside, internal gears immediately grind them down into fine powder as part of Wizbang's automated biological sampling mechanism."
+  },
+  {
+   "q": "Where can I find Moonstalkers in Darkshore?",
+   "aliases": [
+    "where are moonstalkers",
+    "moonstalker fang farm",
+    "moonstalker location"
+   ],
+   "answer": "Moonstalkers and their runts prowl the shaded woodlands and hills bordering the road both north and south of Auberdine."
+  },
+  {
+   "q": "What quest comes before and after Buzzbox 323?",
+   "aliases": [
+    "buzzbox quest chain",
+    "what follows buzzbox 323",
+    "buzzbox order"
+   ],
+   "answer": "This assignment follows Buzzbox 411, which required crawler claws, and directly precedes Buzzbox 525, which sends you to harvest thresher eyes further along the coast."
+  },
+  {
+   "q": "Why does Wizbang sound so incoherent?",
+   "aliases": [
+    "why is wizbang drunk",
+    "buzzbox voice slurring"
+   ],
+   "answer": "Wizbang is thoroughly intoxicated while giving instructions, pausing to search for his ale and taking loud gulps between sentences."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Wizbang's remote acoustic communication network showcases typical gnomish engineering flair\u2014even if his personal discipline leaves much to be desired."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "While native night elves treat the fierce Moonstalkers with reverent caution, gnomish science reduces their lethal fangs to pulverized machine fuel."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The Buzzbox series demonstrates automated material processing coupled with long-range voice relay, an impressive technical design despite its rough operation."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "buzzbox",
+  "buzzbox 323",
+  "cranktoggle",
+  "darkshore",
+  "fangs",
+  "moonstalker",
+  "wizbang"
+ ],
+ "related": [
+  "quest:1001",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Buzzbox 323 (quest)"
+ ]
+}

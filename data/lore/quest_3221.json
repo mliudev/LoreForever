@@ -1,0 +1,97 @@
+{
+ "key": "quest:3221",
+ "type": "quest",
+ "name": "Speak with Renferrel",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   3221
+  ],
+  "level": "12",
+  "faction": "Horde",
+  "start": "High Executor Hadrec",
+  "end": "Apothecary Renferrel",
+  "previous": "The Deathstalkers' Report",
+  "next": "Zinge's Delivery",
+  "wiki": "Speak with Renferrel",
+  "chain": []
+ },
+ "summary": "Speak with Renferrel is a brief errand within the Sepulcher in Silverpine Forest. High Executor Hadrec directs you back to the Royal Apothecary Society's local researcher to discuss findings regarding tainted wolf hearts.",
+ "sections": [
+  {
+   "title": "Summons from the Society",
+   "body": "After assisting the Deathstalkers across Silverpine Forest, High Executor Hadrec passes along an urgent message from Apothecary Renferrel. Renferrel has spent time analyzing the discolored wolf hearts gathered from the local wildlife and requires your presence immediately.",
+   "spoiler": 0
+  },
+  {
+   "title": "Alchemical Curiosities",
+   "body": "Apothecary Renferrel serves the Royal Apothecary Society from his laboratory inside the crypt at the Sepulcher. His ongoing work explores how dark magic and disease are altering the beasts of Silverpine, bridging frontline military recon with chemical research.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Apothecary Renferrel located?",
+   "aliases": [
+    "renferrel location",
+    "where is renferrel",
+    "find renferrel"
+   ],
+   "answer": "Apothecary Renferrel is located inside the Sepulcher's crypt in central Silverpine Forest, standing near his alchemy equipment just steps away from High Executor Hadrec."
+  },
+  {
+   "q": "Why does Apothecary Renferrel want to speak with me?",
+   "aliases": [
+    "why does renferrel want me",
+    "renferrel wolf hearts"
+   ],
+   "answer": "Renferrel has been analyzing discolored wolf hearts gathered from local Silverpine wolves and discovered peculiarities in their corruption that require further investigation and communication with the Undercity."
+  },
+  {
+   "q": "Who sends you to Renferrel?",
+   "aliases": [
+    "who gives speak with renferrel",
+    "quest giver"
+   ],
+   "answer": "High Executor Hadrec, the Forsaken military commander at the Sepulcher, delivers Renferrel's summons to you once you report back from aiding his Deathstalkers."
+  },
+  {
+   "q": "What follows this conversation?",
+   "aliases": [
+    "next quest after speak with renferrel",
+    "renferrel follow up"
+   ],
+   "answer": "Speaking with Renferrel leads directly into tasks that help connect the Sepulcher's regional alchemical research with senior figures like Apothecary Zinge in the Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Royal Apothecary Society works closely with military command at the Sepulcher, ensuring every biological anomaly in Silverpine is studied to benefit the Dark Lady's goals."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As the Horde establishes footholds across Lordaeron, understanding the corruption affecting local beasts is vital to securing the wilderness."
+  }
+ ],
+ "keywords": [
+  "hadrec",
+  "renferrel",
+  "royal apothecary society",
+  "sepulcher",
+  "silverpine",
+  "wolf hearts"
+ ],
+ "related": [
+  "npc:high-executor-hadrec",
+  "npc:apothecary-renferrel",
+  "subzone:sepulcher",
+  "quest:449",
+  "quest:1359",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Speak with Renferrel"
+ ]
+}

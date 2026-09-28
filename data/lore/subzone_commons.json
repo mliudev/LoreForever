@@ -1,0 +1,93 @@
+{
+ "key": "subzone:commons",
+ "type": "subzone",
+ "name": "Commons",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Commons"
+ },
+ "summary": "The Commons serves as the vibrant commercial heart of Ironforge, connecting the city entrance directly to its vast caverns. Teeming with merchants, travelers, and bankers, it is the busiest thoroughfare in the dwarven capital and the central marketplace for the entire Alliance.",
+ "sections": [
+  {
+   "title": "The Commercial Hub of the Mountain",
+   "body": "Located just northeast of the Gates of Ironforge, the Commons is the first district that greets travelers entering the mountain kingdom. Carved directly out of the stone, this bustling market street houses the primary Alliance Auction House, the Stonefire Tavern, and the city's central bank within the Vault of Ironforge. Broad avenues connect it seamlessly to the Great Forge, the Mystic Ward, and the Military Ward, ensuring that nearly all foot traffic in the mountain passes through its bustling storefronts.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Crossroads for the Alliance",
+   "body": "Due to Ironforge's central location on the Eastern Kingdoms continent and its direct underground Deeprun Tram link to Stormwind, the Commons functions as the Alliance's primary trade nexus. Adventurers converge here to trade goods brought from every corner of Azeroth, purchase armaments from merchants like Steelfury and Barim, or meet under the warm lantern light of the local inn before heading out into the Khaz Modan snows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What makes the Commons so crowded compared to other districts?",
+   "aliases": [
+    "why is commons busy",
+    "why so many players here",
+    "ironforge trade hub"
+   ],
+   "answer": "The Commons hosts the Alliance's primary Auction House, the city's main bank in the Vault of Ironforge, and the bustling Stonefire Tavern. Its position directly inside the main gates makes it the most convenient gathering and trading place in the entire kingdom."
+  },
+  {
+   "q": "Where does the Commons lead?",
+   "aliases": [
+    "commons exits",
+    "how to leave commons",
+    "commons directions"
+   ],
+   "answer": "The Commons connects to almost every major district in Ironforge. Heading southwest leads back to the city gates, northeast connects to the Great Forge, east branches toward the Military Ward, and north leads into the Mystic Ward."
+  },
+  {
+   "q": "What key shops and services are found here?",
+   "aliases": [
+    "commons vendors",
+    "services in commons",
+    "ironforge commons amenities"
+   ],
+   "answer": "Beyond the Auction House and the bank, the Commons features the Ironforge Visitor's Center, Steelfury's Weapon Emporium, the Ironforge Armory, Barim's Reagents, and Fizzlespinner's General Goods."
+  },
+  {
+   "q": "Is the bank located here?",
+   "aliases": [
+    "where is ironforge bank",
+    "ironforge vault",
+    "bank location"
+   ],
+   "answer": "Yes, the Vault of Ironforge stands prominently along the western wall of the Commons, serving as the city's primary depository and banking center."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Commons acts as the de facto trading floor of the Alliance, drawing heroes from Teldrassil, Stormwind, and Gnomeregan to auction valuable spoils and stock up on supplies."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "To the Bronzebeard dwarves, the Commons is a source of pride, proving that dwarven hospitality, industry, and commerce can thrive deep within a frozen mountain."
+  }
+ ],
+ "keywords": [
+  "auction house",
+  "bank",
+  "commons",
+  "ironforge",
+  "market",
+  "stonefire tavern",
+  "vault of ironforge"
+ ],
+ "related": [
+  "zone:ironforge",
+  "subzone:vault-of-ironforge",
+  "subzone:stonefire-tavern",
+  "subzone:gates-of-ironforge",
+  "subzone:great-forge",
+  "subzone:military-ward",
+  "subzone:mystic-ward",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Commons"
+ ]
+}

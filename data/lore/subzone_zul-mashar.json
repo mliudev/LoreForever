@@ -1,0 +1,88 @@
+{
+ "key": "subzone:zul-mashar",
+ "type": "subzone",
+ "name": "Zul'Mashar",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Zul'Mashar"
+ },
+ "summary": "Zul'Mashar is an ancient forest troll settlement tucked into the northeastern corner of the Eastern Plaguelands. Formerly the proud capital of the Mossflayer tribe, it has deteriorated into a desolate ruin following continuous wars with human kingdoms and the devastation of the Plague of Undeath. Today, its remaining defenders face an insidious collapse as the Scourge works from within to turn them into undead thralls.",
+ "sections": [
+  {
+   "title": "A Falling Stronghold",
+   "body": "Long before the Scourge swept across northern Lordaeron, Zul'Mashar served as the seat of power for the Mossflayer forest trolls. Constant border skirmishes against the humans of Lordaeron chipped away at their dominance, leaving their territories fractured. When the Plague of Undeath blanketed the region, it struck the Mossflayers just as mercilessly as it did their mortal enemies. While the great stepped ziggurat of Mazra'Alor still stands, Zul'Mashar is a hollow shell of its former glory. Commanded by Warlord Thresh'jin and Zul'Brin Warpbranch, the remaining trolls cling stubbornly to their ancient home, largely blind to the reality that Scourge influence is already seeping into their ranks and quietly transforming their kin into rotting monstrosities.",
+   "spoiler": 0
+  },
+  {
+   "title": "Infiltration from the Shadows",
+   "body": "The true peril facing Zul'Mashar is not a direct siege by the Scourge, but a creeping rot from within. Even as the Mossflayers attempt to guard their ziggurat and maintain their independence in the ruined north, agents and covert rot spread through their population. With scouts like Infiltrator Hameya operating amid the ruins and their living warriors gradually succumbing to undeath, the once-proud stronghold stands on the verge of falling completely under the Lich King's sway without a single grand battle.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Zul'Mashar?",
+   "aliases": [
+    "who lives in zulmashar",
+    "zul mashar rulers",
+    "mossflayer leaders"
+   ],
+   "answer": "Zul'Mashar is held by the Mossflayer tribe of forest trolls, led by Warlord Thresh'jin alongside Zul'Brin Warpbranch. However, their hold is actively slipping as the undead plague infiltrates their society."
+  },
+  {
+   "q": "What is Mazra'Alor?",
+   "aliases": [
+    "mazraalor",
+    "zul mashar pyramid",
+    "troll ziggurat epl"
+   ],
+   "answer": "Mazra'Alor is the prominent stepped troll ziggurat situated within Zul'Mashar. It represents the architectural heart and spiritual center of the Mossflayer tribe's ancestral capital."
+  },
+  {
+   "q": "Why is Zul'Mashar in ruins?",
+   "aliases": [
+    "why is zulmashar destroyed",
+    "what happened to zul mashar"
+   ],
+   "answer": "Zul'Mashar was worn down by long, grinding conflicts against the human kingdom of Lordaeron before being ravaged by the Plague of Undeath. The blight ruined the surrounding land and left the Mossflayers isolated and weakened."
+  },
+  {
+   "q": "Are the trolls here allied with the Scourge?",
+   "aliases": [
+    "are mossflayers scourge",
+    "trolls working with scourge"
+   ],
+   "answer": "No, the living Mossflayers are hostile to outsiders and fight to protect their ancestral lands. However, the Scourge is covertly infecting and converting their people into undead, steadily hollowing out the tribe from within."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, witnessing the plight of the Mossflayers at Zul'Mashar is a grim reminder of the fate awaiting isolated tribes that cling to ancient hatreds rather than finding allies in a changing world."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The Forsaken view Zul'Mashar with wary pragmatism, keeping an eye on whether the decaying Mossflayer tribe will resist or inevitably swell the ranks of the Scourge with fresh, zombified forest trolls."
+  }
+ ],
+ "keywords": [
+  "eastern plaguelands",
+  "forest troll",
+  "hameya",
+  "mazra'alor",
+  "mossflayer",
+  "thresh'jin",
+  "warpbranch",
+  "zul'mashar"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "topic:troll",
+  "topic:plague-of-undeath",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Zul'Mashar"
+ ]
+}

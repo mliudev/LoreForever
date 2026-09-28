@@ -1,0 +1,127 @@
+{
+ "key": "quest:9262",
+ "type": "quest",
+ "name": "Investigate the Scourge of Darnassus",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   9262
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Lieutenant Beitha",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Investigate the Scourge of Darnassus",
+  "chain": []
+ },
+ "summary": "Investigate the Scourge of Darnassus is an emergency mission issued by Lieutenant Beitha on behalf of the Argent Dawn. As the Lich King's airborne necropolises loom overhead, Alliance defenders are tasked with destroying encroaching undead and deciphering the dark runic circles appearing outside the city gates.",
+ "sections": [
+  {
+   "title": "A Plague on the World Tree",
+   "body": "The Scourge invasion has reached the sheltered boughs of Teldrassil. Floating necropolises appear in the sky, vomiting forth ghouls, skeletons, and necromantic horrors right outside Darnassus. Lieutenant Beitha of the Argent Dawn has stepped forward to coordinate the capital's defense, enlisting willing volunteers to blunt the vanguard and gather intelligence before the undead can overwhelm the night elven homeland.",
+   "spoiler": 0
+  },
+  {
+   "title": "Whispers in the Runes",
+   "body": "Beyond simply slaying the undead and collecting their dim necrotic stones, scouts are directed to inspect strange, glowing runic formations pulsing on the ground near the invasion encampments. Stepping close to these circles exposes defenders to unsettling supernatural whispers, revealing that the runes serve as unnatural communication relays transmitting commands from the necropolis overhead and the dark masters of the Scourge.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lieutenant Beitha?",
+   "aliases": [
+    "who gives investigate the scourge of darnassus",
+    "beitha quest giver",
+    "lieutenant beitha lore"
+   ],
+   "answer": "Lieutenant Beitha is an officer representing the Argent Dawn stationed at Darnassus. She organizes local resistance against the Scourge invasion, distributing tasks to curb undead numbers and study their necromantic apparatus."
+  },
+  {
+   "q": "Why is the Scourge attacking Darnassus?",
+   "aliases": [
+    "why are undead in darnassus",
+    "teldrassil invasion",
+    "lich king attacking night elves"
+   ],
+   "answer": "Under the orders of the Lich King, the Scourge has dispatched necropolises worldwide to sow terror and destroy major mortal population centers. Even the secluded haven of Teldrassil is not exempt from the undead assault."
+  },
+  {
+   "q": "What are the glowing runic circles outside the city?",
+   "aliases": [
+    "scourge runes darnassus",
+    "runic circles outside darnassus",
+    "what are the invasion runes"
+   ],
+   "answer": "The runic circles are magical conduits linked to the hovering necropolises. Closer inspection reveals sinister voices speaking through them, confirming that the Scourge uses these markings to coordinate their forces and relay necromantic directives."
+  },
+  {
+   "q": "What are Dim Necrotic Stones?",
+   "aliases": [
+    "necrotic stones",
+    "what do necrotic stones do",
+    "dim necrotic stone lore"
+   ],
+   "answer": "Dim Necrotic Stones are crystallized conduits of dark magic carried by Scourge foot soldiers. They serve both as fuel for necromantic abilities and as tangible proof of slain undead for the Argent Dawn."
+  },
+  {
+   "q": "Who is funding or leading the response in Darnassus?",
+   "aliases": [
+    "who leads defense of darnassus",
+    "argent dawn darnassus"
+   ],
+   "answer": "The defense against this invasion is spearheaded locally by the Argent Dawn, an independent order devoted to battling the Scourge across Azeroth, cooperating directly with the Alliance sentinels guarding Darnassus."
+  },
+  {
+   "q": "Can listening to the runic circles harm you?",
+   "aliases": [
+    "runic circles whispers",
+    "runic circle voices danger"
+   ],
+   "answer": "The runes pulse with unnatural mental energy and dark whispers capable of fraying mortal minds. Lieutenant Beitha notes with relief whenever an investigator returns with their sanity intact after contacting the runes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, the presence of rotting necropolises and defiling undead so close to Teldrassil's holy ground is a grotesque violation that must be purged immediately."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The defense of Darnassus demonstrates the Alliance's commitment to standing united against the global threat posed by the Lich King's invasion force."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests face the chilling test of examining corrupted necromantic runes, using their mental discipline and faith to resist the madness whispering through the Scourge's dark network."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The spread of necromancy and decaying flesh on Teldrassil's soil represents an unnatural blight that every protector of the wild is sworn to eradicate."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "beitha",
+  "darnassus",
+  "lich king",
+  "necropolis",
+  "necrotic stone",
+  "runic circle",
+  "scourge",
+  "teldrassil",
+  "undead"
+ ],
+ "related": [
+  "npc:lieutenant-beitha",
+  "zone:darnassus",
+  "topic:argent-dawn",
+  "topic:scourge",
+  "topic:lich-king"
+ ],
+ "attribution": [
+  "Investigate the Scourge of Darnassus"
+ ]
+}

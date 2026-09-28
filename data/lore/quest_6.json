@@ -1,0 +1,118 @@
+{
+ "key": "quest:6",
+ "type": "quest",
+ "name": "Bounty on Garrick Padfoot",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   6
+  ],
+  "level": "5",
+  "faction": "Alliance",
+  "start": "Deputy Willem",
+  "end": "",
+  "previous": "Brotherhood of Thieves",
+  "next": null,
+  "wiki": "Bounty on Garrick Padfoot",
+  "chain": []
+ },
+ "summary": "Bounty on Garrick Padfoot is an Alliance bounty contract issued by Deputy Willem at Northshire Abbey. It directs young recruits to hunt down a notorious local thief who has been harassing Elwynn's farmers and merchants from a secluded shack near the vineyards.",
+ "sections": [
+  {
+   "title": "A Plague on the Valley",
+   "body": "Northshire Valley was once considered a secure sanctuary for training recruits and tending sacred vineyards, but the recent collapse of law and order across Elwynn has left it exposed. Bands of thieves have crept into the valley, and a cutthroat named Garrick Padfoot quickly rose to lead them. For weeks, Garrick and his gang have plundered shipments, robbed merchants along the roads, and threatened the local farmers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Deputy Willem's Justice",
+   "body": "With the Stormwind guards stretched thin protecting the capital and outer borders, local marshals and deputies must rely on eager volunteers to keep peace in Northshire. Deputy Willem places a public bounty on Garrick's head to rid the valley of his gang once and for all. Taking down Padfoot at his rundown shack east of the river strikes an early blow against the broader lawlessness seeping into the human heartland.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Garrick Padfoot?",
+   "aliases": [
+    "garrick padfoot",
+    "who is garrick",
+    "padfoot"
+   ],
+   "answer": "Garrick Padfoot is a bandit and cutthroat operating in Northshire Valley. He has spent weeks harassing local farmers and ambushing merchants, gathering a small ring of thugs around him to stake out territory near the vineyards."
+  },
+  {
+   "q": "Where can Garrick Padfoot be found?",
+   "aliases": [
+    "where is garrick padfoot",
+    "garrick location",
+    "garrick shack"
+   ],
+   "answer": "He holes up in a small wooden shack located east of Northshire Abbey, across the river bridge and near the vineyards. He is guarded by his fellow thugs."
+  },
+  {
+   "q": "Who issues the bounty on Garrick?",
+   "aliases": [
+    "who gives bounty on garrick padfoot",
+    "willem bounty"
+   ],
+   "answer": "Deputy Willem, stationed outside Northshire Abbey, posts the bounty. Lacking enough city guards to police the valley, Willem hires wandering recruits to bring the outlaw to justice."
+  },
+  {
+   "q": "Why is Stormwind not sending regular soldiers to deal with him?",
+   "aliases": [
+    "why don't guards kill garrick",
+    "where are stormwind guards"
+   ],
+   "answer": "Stormwind's military is overextended. With King Varian Wrynn missing and tensions rising across Elwynn Forest and beyond, the capital cannot spare veteran garrisons for every small-time thug, leaving local deputies to deputize recruits."
+  },
+  {
+   "q": "Is Garrick Padfoot working alone?",
+   "aliases": [
+    "is garrick solo",
+    "padfoot gang"
+   ],
+   "answer": "No. Garrick has surrounded himself with a small gang of outlaws and bandits who camp around his shack near the Northshire vineyards to protect him."
+  },
+  {
+   "q": "What proof does Deputy Willem require?",
+   "aliases": [
+    "proof of garrick death",
+    "garricks head"
+   ],
+   "answer": "Deputy Willem demands physical proof before paying out the coin, specifically requiring you to bring back Garrick Padfoot's severed head to Northshire Abbey."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Taking down Garrick Padfoot represents one of the first direct services an aspiring Alliance adventurer performs to restore stability to the Kingdom of Stormwind."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans raised in the kingdom, ridding Northshire of cutthroats like Padfoot is a personal matter of protecting their homeland's sacred ground and local farmers."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Garrick Padfoot provides rogues with an early glimpse of how outlaws operate in the shadows of Elwynn, showing that poorly hidden hideouts invite swift blades."
+  }
+ ],
+ "keywords": [
+  "bounty",
+  "cutthroat",
+  "elwynn",
+  "garrick",
+  "northshire",
+  "padfoot",
+  "thieves",
+  "vineyard",
+  "willem"
+ ],
+ "related": [
+  "subzone:northshire-abbey",
+  "quest:18",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Bounty on Garrick Padfoot"
+ ]
+}

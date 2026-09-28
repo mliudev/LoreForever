@@ -1,0 +1,123 @@
+{
+ "key": "quest:923",
+ "type": "quest",
+ "name": "Tumors",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   923
+  ],
+  "level": "9",
+  "faction": "Alliance",
+  "start": "Rellian Greenspyre",
+  "end": "",
+  "previous": "Rellian Greenspyre (Classic)",
+  "next": "Return to Denalan",
+  "wiki": "Tumors",
+  "chain": []
+ },
+ "summary": "Assisting the Cenarion Circle in Darnassus, this task sends adventurers to cull the afflicted timberlings around Wellspring Lake in northern Teldrassil. By collecting mossy tumors from these twisted nature spirits, druids hope to study the spreading poison and safely incinerate the corrupting growths.",
+ "sections": [
+  {
+   "title": "Blight upon the Timberlings",
+   "body": "Teldrassil was raised to be a sanctuary of harmony, but a strange affliction has begun twisting its native flora and fauna. Timberlings\u2014typically placid, bark-skinned nature spirits\u2014have grown hostile and erratic. Upon their living wood, grotesque mossy tumors have sprouted, pulsing with a foul, unnatural poison. While Cenarion scholars like Denalan and Rellian Greenspyre search for the root cause of this sickness, those creatures already lost to the malevolence must be culled to protect the rest of the boughs.",
+   "spoiler": 0
+  },
+  {
+   "title": "Containment at Wellspring Lake",
+   "body": "Wellspring Lake in northern Teldrassil has become a focal point for the outbreak. The timberlings wandering its shores are among the most heavily tainted on the entire world tree. Rellian Greenspyre charges travelers with cutting down these corrupted guardians and excising their growths. By bringing the tumors directly to the druids in Darnassus to be safely burned, the night elves hope to stem the spread of the contagion before the waters of the lake poison the rest of the boughs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the timberlings growing tumors?",
+   "aliases": [
+    "what is wrong with timberlings",
+    "timberling disease",
+    "why timberlings sick"
+   ],
+   "answer": "A mysterious sickness has taken root in Teldrassil's wild spirits. The mossy tumors are outward physical symptoms of a toxic taint coursing through their bodies, twisting their natural protective instincts into blind aggression."
+  },
+  {
+   "q": "Who is Rellian Greenspyre?",
+   "aliases": [
+    "rellian greenspyre lore",
+    "who is greenspyre",
+    "rellian greenspyre"
+   ],
+   "answer": "Rellian Greenspyre is a night elf researcher affiliated with the Cenarion Circle, stationed in Darnassus. He works closely with other botanists like Denalan to study the strange corruptions plaguing Teldrassil's ecosystem."
+  },
+  {
+   "q": "Why must the tumors be burned?",
+   "aliases": [
+    "burn tumors",
+    "why burn the tumors",
+    "destroying mossy tumors"
+   ],
+   "answer": "The tumors contain a potent, contagious poison. If left to rot in the wilderness or seep into the soil, the corruption could spread further into Teldrassil's roots. Rellian incinerates them to permanently neutralize the blight."
+  },
+  {
+   "q": "Where is Wellspring Lake?",
+   "aliases": [
+    "wellspring lake location",
+    "where to find timberlings",
+    "where are mossy tumors"
+   ],
+   "answer": "Wellspring Lake lies in the northern reaches of Teldrassil, fed by the bough's pristine waterways. The timberlings surrounding its shores are noticeably more diseased than those found elsewhere."
+  },
+  {
+   "q": "Can the timberlings be cured instead of killed?",
+   "aliases": [
+    "can timberlings be saved",
+    "curing timberlings"
+   ],
+   "answer": "The Cenarion Circle is actively searching for a cure or origin for the blight, but the timberlings wandering Wellspring Lake are deemed already beyond help. Until the source is identified, putting down the most aggressive spirits is the only way to safeguard the forest."
+  },
+  {
+   "q": "What happens after bringing the tumors to Darnassus?",
+   "aliases": [
+    "after tumors quest",
+    "what next tumors"
+   ],
+   "answer": "After Rellian secures and destroys the tumors, he directs adventurers back to the field botanist Denalan near Lake Al'Ameth to continue investigating the corruption spreading through Teldrassil's flora."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids of the Cenarion Circle, destroying corrupted nature spirits is a tragic but necessary duty to protect Teldrassil's fragile balance from total collapse."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The rapid appearance of disease on the newly grown World Tree is an alarming sign to the Kaldorei, challenging Fandral Staghelm's promise of an untouched haven."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists and botanists are unsettled to see living wood and moss warp into venomous, malignant tumors rather than healthy foliage."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "corruption",
+  "darnassus",
+  "denalan",
+  "mossy tumor",
+  "rellian greenspyre",
+  "teldrassil",
+  "timberling",
+  "tumors",
+  "wellspring lake"
+ ],
+ "related": [
+  "quest:922",
+  "quest:2498",
+  "subzone:wellspring-lake",
+  "zone:darnassus",
+  "quest:940"
+ ],
+ "attribution": [
+  "Tumors"
+ ]
+}

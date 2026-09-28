@@ -1,0 +1,76 @@
+{
+ "key": "npc:elder-bloodhoof",
+ "type": "npc",
+ "name": "Elder Bloodhoof",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Elder Bloodhoof",
+  "refs": 1
+ },
+ "summary": "Elder Bloodhoof is an ancestral spirit found resting just north of Bloodhoof Village in Mulgore. Appearing prominently to travelers during the Lunar Festival, he stands as a revered guardian spirit of the Bloodhoof tribe.",
+ "sections": [
+  {
+   "title": "Spirit of the Ancestors",
+   "body": "Elder Bloodhoof represents the deep spiritual bond the tauren share with their lineage. Manifesting near Bloodhoof Village, this ghostly elder watches over his people and rewards respectful travelers who seek wisdom during the Lunar Festival. His presence reinforces the enduring guidance of deceased chieftains and tribal forebears, whose spirits remain intimately tied to the plains of Mulgore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elder Bloodhoof?",
+   "aliases": [
+    "elder bloodhoof lore",
+    "who is the ghost outside bloodhoof village",
+    "elder bloodhoof identity"
+   ],
+   "answer": "Elder Bloodhoof is a ghostly tauren spirit who appears just north of Bloodhoof Village in Mulgore. He represents the honored ancestors of the Bloodhoof tribe, offering blessings and ancient wisdom to travelers who visit him during seasonal traditions like the Lunar Festival."
+  },
+  {
+   "q": "When can you see Elder Bloodhoof?",
+   "aliases": [
+    "where is elder bloodhoof",
+    "elder bloodhoof missing",
+    "how to find elder bloodhoof"
+   ],
+   "answer": "Elder Bloodhoof primarily manifests during the annual Lunar Festival, where he acts as an elder spirit offering festival blessings. His spirit has also been glimpsed near Red Rocks during tribal observances honoring fallen chieftains."
+  },
+  {
+   "q": "What is his connection to Bloodhoof Village?",
+   "aliases": [
+    "why is he near bloodhoof village",
+    "elder bloodhoof relation to cairne"
+   ],
+   "answer": "As an honored ancestor bearing the clan's name, Elder Bloodhoof watches over the ancestral settlement of Bloodhoof Village. Tauren tradition places deep significance on ancestral spirits lingering close to where their descendants live and gather."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren pilgrims, paying respects to Elder Bloodhoof is a direct communion with tribal lineage, honoring the sacrifice of those who walked Mulgore long before the founding of Thunder Bluff."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman revere Elder Bloodhoof as a manifestation of ancestral reverence, demonstrating how ancestral spirits guide and protect their descendants in the physical realm."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "bloodhoof village",
+  "elder bloodhoof",
+  "lunar festival",
+  "mulgore",
+  "red rocks",
+  "tauren spirit"
+ ],
+ "related": [
+  "subzone:bloodhoof-village",
+  "quest:8673",
+  "zone:mulgore",
+  "subzone:red-rocks",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Elder Bloodhoof"
+ ]
+}

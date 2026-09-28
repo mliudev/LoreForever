@@ -1,0 +1,91 @@
+{
+ "key": "npc:bluff-runner-windstrider",
+ "type": "npc",
+ "name": "Bluff Runner Windstrider",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Bluff Runner Windstrider",
+  "refs": 1
+ },
+ "summary": "Bluff Runner Windstrider is a wandering tauren messenger roaming the mesas of Thunder Bluff. He carries urgent dispatches across the city, directing Horde adventurers toward distant frontiers like Ashenvale, Feralas, and the Plaguelands.",
+ "sections": [
+  {
+   "title": "A Messenger on the Mesas",
+   "body": "Thunder Bluff's soaring plateaus require swift feet to keep its leaders and visitors informed, and Bluff Runner Windstrider fills that vital role. Continually jogging the rope bridges and pathways of the tauren capital, he acts as a town crier and dispatch runner. When key outposts across Kalimdor or the Eastern Kingdoms require reinforcements, Windstrider flags down passing champions to carry word and take up the call to arms.",
+   "spoiler": 0
+  },
+  {
+   "title": "Calls to the Frontier",
+   "body": "Windstrider's dispatches range far beyond Mulgore's serene borders. He directs hunters northward into Ashenvale to join the Warsong Clan's logging efforts, points hardened scouts south toward Camp Mojache in deep Feralas, and relays grave warnings regarding the ongoing undead menace in the Western Plaguelands. Through him, the tribal heart of Mulgore stays bound to the wider conflicts of the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bluff Runner Windstrider?",
+   "aliases": [
+    "windstrider npc",
+    "bluff runner",
+    "who is windstrider"
+   ],
+   "answer": "Bluff Runner Windstrider is a tauren messenger who wanders Thunder Bluff. He is responsible for sharing news and rallying capable Horde travelers to assist with urgent campaigns across Azeroth."
+  },
+  {
+   "q": "Where can I find Bluff Runner Windstrider?",
+   "aliases": [
+    "windstrider location",
+    "where is bluff runner",
+    "find windstrider"
+   ],
+   "answer": "Windstrider does not stand in a single place. He is constantly jogging along the bridges and terraces of Thunder Bluff, often circling between the central mesa and neighboring rises."
+  },
+  {
+   "q": "What quests does Windstrider offer?",
+   "aliases": [
+    "windstrider quests",
+    "what does he give",
+    "bluff runner tasks"
+   ],
+   "answer": "He offers breadcrumb quests that point growing adventurers toward distant contested regions, including the Ashenvale hunt, the establishment of Camp Mojache in Feralas, and calls to arms in the Plaguelands."
+  },
+  {
+   "q": "Why is he called a 'Bluff Runner'?",
+   "aliases": [
+    "what is a bluff runner",
+    "bluff runner title"
+   ],
+   "answer": "Tauren rely on agile, endurance-trained runners to convey messages across the rugged mesas, cliffs, and suspended bridges of Thunder Bluff where mounted travel can be cumbersome or slow."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Windstrider serves as a vital bridge between the peaceful plains of Mulgore and the bloody fronts where the Horde fights for resources and survival."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Traditional runners like Windstrider keep the dispersed tribes and central elders connected without relying on modern machinery or foreign post networks."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "bluff runner",
+  "camp mojache",
+  "messenger",
+  "mulgore",
+  "thunder bluff",
+  "windstrider"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "topic:tauren",
+  "topic:horde",
+  "quest:235",
+  "zone:ashenvale",
+  "subzone:camp-mojache"
+ ],
+ "attribution": [
+  "Bluff Runner Windstrider"
+ ]
+}

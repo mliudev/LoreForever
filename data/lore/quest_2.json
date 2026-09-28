@@ -1,0 +1,124 @@
+{
+ "key": "quest:2",
+ "type": "quest",
+ "name": "Sharptalon's Claw",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   2
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Sharptalon's Claw",
+  "end": "Senani Thunderheart",
+  "previous": "The Ashenvale Hunt (Ashenvale)",
+  "next": "The Hunt Completed",
+  "wiki": "Sharptalon's Claw (Classic)",
+  "chain": []
+ },
+ "summary": "Sharptalon's Claw is a trophy quest representing the defeat of the ferocious hippogryph Sharptalon in Ashenvale. Taking the creature's severed talon back to Senani Thunderheart at Splintertree Post proves your skill and protects Horde supply lines through the ancient forest.",
+ "sections": [
+  {
+   "title": "A Scourge of the Forest Trails",
+   "body": "As the Horde attempts to carve out resources in Ashenvale, the native fauna proves just as perilous as the night elven sentinels. Sharptalon, a notoriously aggressive hippogryph, haunted the canopies and paths winding toward Splintertree Post. The beast preyed upon vulnerable peons and couriers traveling between the forward logging camps and the outpost, severely hampering Horde operations in the region.",
+   "spoiler": 0
+  },
+  {
+   "title": "Proof of the Hunt",
+   "body": "Under the guidance of the tauren huntress Senani Thunderheart, Horde stalkers are tasked with clearing out the deadlier predators lurking beneath Ashenvale's canopy. Carving the massive talon from Sharptalon serves as undeniable evidence that the sky-terror has fallen. Delivering the trophy to Splintertree Post earns honor among the outpost's defenders and brings relief to the frightened laborers who must walk the woods.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Sharptalon?",
+   "aliases": [
+    "who is sharptalon",
+    "sharptalon mob",
+    "what kind of beast is sharptalon"
+   ],
+   "answer": "Sharptalon is a named, predatory hippogryph inhabiting Ashenvale. Known for its ferocity, it relentlessly ambushed travelers moving through the ancient woodlands."
+  },
+  {
+   "q": "Why does Senani Thunderheart want the claw?",
+   "aliases": [
+    "why turn in claw",
+    "senani thunderheart trophy",
+    "purpose of sharptalon's claw"
+   ],
+   "answer": "Senani Thunderheart coordinates the Ashenvale Hunt from Splintertree Post. The claw serves as physical proof that a major predator threatening Horde workers and supply routes has been eliminated."
+  },
+  {
+   "q": "Where do I turn in Sharptalon's Claw?",
+   "aliases": [
+    "where turn in",
+    "who takes the claw",
+    "claw hand in location"
+   ],
+   "answer": "You turn the claw in to Senani Thunderheart, a tauren located at Splintertree Post in eastern Ashenvale."
+  },
+  {
+   "q": "How does killing Sharptalon help the Horde?",
+   "aliases": [
+    "why kill sharptalon lore",
+    "horde interest in sharptalon"
+   ],
+   "answer": "Sharptalon regularly attacked peons traveling between the remote lumber mills and Splintertree Post. Slaying the beast ensures safer transit for supplies, lumber, and messengers."
+  },
+  {
+   "q": "Is this quest part of a larger chain?",
+   "aliases": [
+    "ashenvale hunt chain",
+    "quest chain sharptalon"
+   ],
+   "answer": "Yes. It is part of 'The Ashenvale Hunt', a series of beast-stalking trials offered by Senani Thunderheart that culminates in 'The Hunt Completed'."
+  },
+  {
+   "q": "Who is Senani Thunderheart?",
+   "aliases": [
+    "senani lore",
+    "who is senani"
+   ],
+   "answer": "Senani Thunderheart is a tauren huntress stationed at Splintertree Post who observes the balance of the forest and tests the mettle of Horde hunters against Ashenvale's most dangerous creatures."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Defeating Sharptalon secures vital trails for the Warsong lumber operations and protects vulnerable peons walking between forward outposts and Splintertree Post."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Besting a legendary airborne predator like Sharptalon stands as an ultimate test of tracking and marksmanship under the thick canopy of Ashenvale."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Following the rites of the hunt through Senani Thunderheart demonstrates the traditional tauren reverence for testing oneself against nature's fiercest beasts."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Removing aerial terrors from the forest eases the burden on the Warsong clan's grueling wood-gathering campaign."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "ashenvale hunt",
+  "hippogryph",
+  "peons",
+  "senani thunderheart",
+  "sharptalon",
+  "splintertree post",
+  "warsong"
+ ],
+ "related": [
+  "quest:235",
+  "quest:247",
+  "npc:senani-thunderheart",
+  "subzone:splintertree-post",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Sharptalon's Claw (Classic)"
+ ]
+}

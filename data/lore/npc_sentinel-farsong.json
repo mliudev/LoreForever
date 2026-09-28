@@ -1,0 +1,77 @@
+{
+ "key": "npc:sentinel-farsong",
+ "type": "npc",
+ "name": "Sentinel Farsong",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Sentinel Farsong",
+  "refs": 1
+ },
+ "summary": "Sentinel Farsong is a night elf sentinel stationed at Silverwing Grove in Ashenvale. Serving as a crucial liaison for the Silverwing Sentinels, she coordinates intelligence and combat efforts against the encroaching Warsong Outriders in Warsong Gulch.",
+ "sections": [
+  {
+   "title": "Guardian of Silverwing Grove",
+   "body": "Standing vigil within Silverwing Grove, Sentinel Farsong is deeply involved in the defense of Ashenvale's southern border. With the Warsong clan continuously harvesting lumber and pushing deeper into ancestral night elf territories, she mobilizes Alliance champions to strike at Warsong Outriders and ensures field reports reach Silverwing command. Her duties center on rallying volunteers to check the Horde's territorial expansion and preserve the sacred woods.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sentinel Farsong?",
+   "aliases": [
+    "farsong",
+    "sentinel farsong lore",
+    "who is farsong"
+   ],
+   "answer": "Sentinel Farsong is a night elf sentinel affiliated with the Silverwing Sentinels in Ashenvale. Stationed at Silverwing Grove near the entrance to Warsong Gulch, she recruits Alliance adventurers and collects critical battle intelligence."
+  },
+  {
+   "q": "Where can she be found?",
+   "aliases": [
+    "sentinel farsong location",
+    "where is farsong",
+    "farsong ashenvale map"
+   ],
+   "answer": "She is located at Silverwing Grove in southeastern Ashenvale, the staging ground for the Alliance's ongoing military efforts in Warsong Gulch."
+  },
+  {
+   "q": "Why is she fighting the Warsong Outriders?",
+   "aliases": [
+    "why fight warsong outriders",
+    "farsong motivation",
+    "ashenvale conflict"
+   ],
+   "answer": "The Warsong Outriders are harvesting timber and desecrating the sacred forests of Ashenvale. Farsong coordinates defense efforts to halt their operations and reclaim territory claimed by the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Sentinel Farsong represents the Alliance's frontline mobilization in Ashenvale, directing volunteers directly into the struggle against the Warsong Clan."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "As a protector of Elune's sacred woods, Farsong embodies the kaldorei commitment to driving out any who defile the ancient groves."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "sentinel farsong",
+  "silverwing grove",
+  "silverwing sentinels",
+  "warsong gulch",
+  "warsong outriders"
+ ],
+ "related": [
+  "subzone:silverwing-grove",
+  "quest:9521",
+  "npc:warsong-outrider",
+  "zone:ashenvale",
+  "topic:night-elf",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Sentinel Farsong"
+ ]
+}

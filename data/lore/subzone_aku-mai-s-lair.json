@@ -1,0 +1,92 @@
+{
+ "key": "subzone:aku-mai-s-lair",
+ "type": "subzone",
+ "name": "Aku'mai's Lair",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Aku'mai's Lair"
+ },
+ "summary": "Aku'mai's Lair is the deepest and darkest cavern within Blackfathom Deeps. Located beyond the Moonshrine Sanctum, this submerged hollow serves as the nesting ground for Aku'mai, a monstrous hydra venerated as a harbinger of the Old Gods.",
+ "sections": [
+  {
+   "title": "Heart of the Depths",
+   "body": "Sealed away behind the Moonshrine Sanctum, Aku'mai's Lair represents the culmination of the corruption sweeping Blackfathom Deeps. To enter the cavern, dark rituals must be engaged by igniting the four brazier fires flanking a naga statue, awakening guardians sworn to defend the threshold. Beyond these heavy double doors lies a sunless, flooded grotto. Here, both the Twilight's Hammer cultists and invading naga gather in reverence of Aku'mai, an ancient three-headed hydra considered a primordial devourer and living servant of the Old Gods.",
+   "spoiler": 0
+  },
+  {
+   "title": "Harbinger of Ruin",
+   "body": "The presence of Aku'mai within the lair makes it a focal point for the apocalyptic plans of the Twilight's Hammer. The cultists revere the great beast as an omen of a promised age of darkness, believing its emergence and continued sustenance will herald the breaking of subterranean prisons holding their ancient deities. Fed by sacrificial offerings and guarded zealously by dark magic, the subterranean pool serves as a grim symbol of the ancient evil clawing its way back into Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Aku'mai's Lair located?",
+   "aliases": [
+    "where is akumai lair",
+    "how to get to akumai room",
+    "akumai lair location"
+   ],
+   "answer": "Aku'mai's Lair is found at the very end of the Blackfathom Deeps cavern complex in Ashenvale, situated just beyond the sealed doors of the Moonshrine Sanctum."
+  },
+  {
+   "q": "How do you open the doors to Aku'mai's Lair?",
+   "aliases": [
+    "open akumai door",
+    "how to unlock akumai lair",
+    "light fires akumai"
+   ],
+   "answer": "The double doors leading into the lair are unlocked by lighting the four ritual braziers surrounding the naga statue within the Moonshrine Sanctum and defeating the waves of creatures summoned to protect them."
+  },
+  {
+   "q": "What dwells inside this cavern?",
+   "aliases": [
+    "who is in akumai lair",
+    "what lives in akumai lair",
+    "boss in akumai lair"
+   ],
+   "answer": "The cavern is inhabited by Aku'mai, a massive three-headed hydra tainted by ancient dark powers, serving as a pet and manifestation of the Old Gods' will."
+  },
+  {
+   "q": "Why is the Twilight's Hammer cult worshiping here?",
+   "aliases": [
+    "why do cultists worship akumai",
+    "twilights hammer akumai lair",
+    "why is twilight hammer here"
+   ],
+   "answer": "The Twilight's Hammer venerates Aku'mai as an apocalyptic herald whose rise foreshadows the freeing of their dark masters from their underground prisons to destroy the world."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, seeing a desecrated Elune temple culminating in a filthy nest for a foul Old God spawn is an intolerable defilement of sacred Ashenvale soil."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The vile mutation and unnatural corruption radiating from Aku'mai's watery den represents a severe blight on the natural waterways and beasts of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "aku'mai's lair",
+  "akumai",
+  "blackfathom deeps",
+  "hydra",
+  "moonshrine sanctum",
+  "naga",
+  "old gods",
+  "twilight's hammer"
+ ],
+ "related": [
+  "npc:aku-mai",
+  "zone:blackfathom",
+  "subzone:moonshrine-sanctum",
+  "topic:twilight-s-hammer",
+  "topic:old-god",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Aku'mai's Lair"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "key": "quest:1640",
+ "type": "quest",
+ "name": "Beat Bartleby",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1640
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Bartleby",
+  "end": "",
+  "previous": "Bartleby the Drunk",
+  "next": "Bartleby's Mug (quest)",
+  "wiki": "Beat Bartleby",
+  "chain": [
+   "A Warrior's Training",
+   "Bartleby the Drunk",
+   "Beat Bartleby",
+   "Bartleby's Mug (quest)"
+  ]
+ },
+ "summary": "Beat Bartleby is a straightforward test of martial mettle for aspiring Alliance warriors in Stormwind City. To fulfill an initiation task, the trainee must physically brawl with a stubborn town drunk who refuses to hand over his prized mug without a fight. Proving one's strength against him earns both his begrudging respect and the vessel required by the warrior trainers.",
+ "sections": [
+  {
+   "title": "A Brawler's Challenge",
+   "body": "Warrior instructors in Stormwind do not accept excuses, nor do they teach their students that combat will always be noble and grand. As part of a recruit's formal training, young warriors are tasked with retrieving a particular mug from Bartleby, a notorious drunkard found lounging in the city. When approached, Bartleby scoffs at any polite requests, swearing that the only way anyone will claim his prized drinkware is by prying it from his cold, dead fingers. For a fledgling warrior, words quickly give way to bare-knuckle violence.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Drunken Lesson",
+   "body": "Though Bartleby makes grand declarations about fighting to the death, a thorough thrashing is all that is truly required to sober him up. Once beaten into submission, his bravado collapses into bruised admiration. Recognizing that his opponent is far tougher than they appear, he yields peacefully, allowing the victor to finally claim the mug and complete the trial for the training hall.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bartleby?",
+   "aliases": [
+    "bartleby",
+    "who is bartleby",
+    "bartleby npc"
+   ],
+   "answer": "Bartleby is a belligerent drunkard who frequents Stormwind City. Known for clutching a beloved drinking vessel, he serves as an unwitting obstacle and sparring test for novice warriors sent to prove their physical resolve."
+  },
+  {
+   "q": "Why do I have to fight Bartleby?",
+   "aliases": [
+    "why fight bartleby",
+    "beat bartleby reason",
+    "why beat him"
+   ],
+   "answer": "Alliance warrior trainers send recruits to recover a specific mug in Bartleby's possession. Because he stubbornly refuses to give it up without a brawl, the trainee must defeat him in hand-to-hand combat to loosen his grip."
+  },
+  {
+   "q": "Do I actually kill Bartleby in this quest?",
+   "aliases": [
+    "does bartleby die",
+    "kill bartleby",
+    "is bartleby dead"
+   ],
+   "answer": "No. Despite his boasting that you must pry the mug from his cold, dead fingers, Bartleby surrenders once his health is depleted, readily admitting that you are far tougher than he assumed."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "beat bartleby location",
+    "where is bartleby",
+    "bartleby spot"
+   ],
+   "answer": "The confrontation takes place within the city of Stormwind, where Bartleby can be found drinking and loitering."
+  },
+  {
+   "q": "What happens after I defeat him?",
+   "aliases": [
+    "after beat bartleby",
+    "what next bartleby"
+   ],
+   "answer": "Once beaten, Bartleby yields and speaks to you amicably. You are then able to take his mug and deliver it back to the warrior trainers to complete your initiation."
+  },
+  {
+   "q": "What level of training does this trial represent?",
+   "aliases": [
+    "bartleby quest level",
+    "when do i fight bartleby"
+   ],
+   "answer": "This brawl represents an early milestone for fledgling warriors around their tenth season of experience, serving as a practical test of basic melee endurance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This tavern brawl forms an iconic early trial for Alliance warriors, instilling the hard lesson that force of will and a heavy fist often resolve disputes where diplomacy fails."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Set within the capital streets of Stormwind, this skirmish offers a colorful glimpse into the city's rough-and-tumble underbelly alongside its stately stone walls."
+  }
+ ],
+ "keywords": [
+  "bartleby",
+  "brawl",
+  "drunk",
+  "mug",
+  "stormwind",
+  "training",
+  "trial",
+  "warrior"
+ ],
+ "related": [
+  "npc:bartleby",
+  "quest:1639",
+  "quest:1665",
+  "quest:1638"
+ ],
+ "attribution": [
+  "Beat Bartleby"
+ ]
+}

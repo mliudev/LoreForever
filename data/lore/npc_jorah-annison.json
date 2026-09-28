@@ -1,0 +1,112 @@
+{
+ "key": "npc:jorah-annison",
+ "type": "npc",
+ "name": "Jorah Annison",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Jorah Annison",
+  "refs": 3
+ },
+ "summary": "Jorah Annison is a Forsaken cartographer stationed in the Magic Quarter of the Undercity. Though his profession revolves around maps and geography, his expertise proves invaluable to traveling spellcasters in search of obscure, scattered knowledge across Azeroth.",
+ "sections": [
+  {
+   "title": "A Scholar of Darkened Lands",
+   "body": "Dwelling amidst the alchemical vapors and arcane echoes of the Undercity's Magic Quarter, Jorah Annison plies the trade of cartography. While many Forsaken scholars dedicate their unlife purely to the plague or destructive magics, Jorah focuses on the precise charting of terrain, borders, and forgotten sites across the continents, providing vital logistical insights to the Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cabal's Trail",
+   "body": "Jorah's knowledge of the land extends well beyond the ruins of Lordaeron. Warlocks seeking the elusive Tome of the Cabal are frequently directed to him to uncover where ancient texts and remnants of dark sects might be salvaged, bridging the gap between historical lore and distant geography.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jorah Annison?",
+   "aliases": [
+    "jorah annison who",
+    "who is jorah",
+    "undercity cartographer"
+   ],
+   "answer": "Jorah Annison is an undead cartographer who resides within the Magic Quarter of the Undercity, assisting Horde travelers with geographical lore and historical locations."
+  },
+  {
+   "q": "Where can I find Jorah Annison?",
+   "aliases": [
+    "jorah annison location",
+    "where is jorah annison",
+    "find jorah"
+   ],
+   "answer": "He is located in the Magic Quarter of the Undercity, the subterranean capital of the Forsaken situated beneath the ruins of Lordaeron."
+  },
+  {
+   "q": "Why do warlocks need to speak with him?",
+   "aliases": [
+    "jorah warlock quest",
+    "tome of the cabal jorah",
+    "why talk to jorah"
+   ],
+   "answer": "Warlocks pursuing the ancient Tome of the Cabal consult Jorah for his cartographical mastery, as he can point them toward the far-flung locations where scattered fragments of the text can be recovered."
+  },
+  {
+   "q": "What faction does Jorah Annison belong to?",
+   "aliases": [
+    "is jorah horde",
+    "jorah annison faction"
+   ],
+   "answer": "He is a member of the Forsaken and loyal to the Horde, serving his brethren from within their capital city."
+  },
+  {
+   "q": "Does Jorah Annison sell maps directly to players?",
+   "aliases": [
+    "does jorah sell maps",
+    "jorah merchant"
+   ],
+   "answer": "Jorah primarily functions as an advisor and quest contact regarding forgotten landmarks rather than an active goods vendor."
+  },
+  {
+   "q": "Is Jorah Annison ever found outside the Undercity?",
+   "aliases": [
+    "jorah in barrens",
+    "jorah outside undercity"
+   ],
+   "answer": "Although his mapmaking and quest guidance involve distant locales such as the Barrens, Jorah himself remains stationed in the Magic Quarter of the Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Jorah is an essential contact for Horde warlocks assembling the Tome of the Cabal, providing vital coordinates to recover lost pages across the world."
+  },
+  {
+   "target": "race:Undead",
+   "text": "A citizen of the Undercity, Jorah shows how Forsaken intellectual pursuits like cartography serve the broader survival of his people."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Through his mapmaking expertise, Jorah aids Horde adventurers in navigating unfamiliar continents and recovering valuable relics."
+  }
+ ],
+ "keywords": [
+  "annison",
+  "cartographer",
+  "jorah",
+  "magic quarter",
+  "maps",
+  "tome of the cabal",
+  "undercity",
+  "warlock"
+ ],
+ "related": [
+  "subzone:magic-quarter",
+  "zone:undercity",
+  "quest:1758",
+  "topic:forsaken",
+  "topic:horde",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Jorah Annison"
+ ]
+}

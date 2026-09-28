@@ -1,0 +1,93 @@
+{
+ "key": "subzone:mazthoril",
+ "type": "subzone",
+ "name": "Mazthoril",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Mazthoril"
+ },
+ "summary": "Mazthoril is a massive, frostbitten cavern in central Winterspring that serves as the primary redoubt for the blue dragonflight in northern Kalimdor. Heavily guarded by dragonkin, spell-wielding wyrms, and arcane sentries, its winding ice tunnels conceal powerful magic and lead to the aerie of the reclusive blue matriarch Haleh.",
+ "sections": [
+  {
+   "title": "A Bastion of Blue Dragons",
+   "body": "Carved into the frozen mountains just south of Everlook, Mazthoril houses an extensive brood answering to the Spell-Weaver, Malygos. The cavern and its surrounding crags are patrolled by vigilant drakes including Spellmaw, Azurous, and General Colbatann, while elite guardians watch the inner caverns. Intruders who wander into Mazthoril face dragonspawn thoroughly attuned to raw arcane energy, making any venture inside perilous without serious preparation.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Teleportation Rune and the Matriarch",
+   "body": "Deep inside the frozen labyrinth lies a mystical floor rune watched closely by drakes Manaclaw and Scryer. Stepping upon this rune transports travelers to an isolated mountain aerie above the cavern. There resides Haleh, a matriarch of the flight who maintains the guise of a high elf. Though naturally cautious toward mortals, Haleh possesses deep lore concerning draconic lineage and plays a critical role in unlocking the hidden ward protecting Onyxia's Lair.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules Mazthoril?",
+   "aliases": [
+    "who leads mazthoril",
+    "who is the boss of mazthoril",
+    "mazthoril matriarch"
+   ],
+   "answer": "Mazthoril is overseen by Haleh, a powerful blue dragon matriarch. She resides in an isolated aerie high above the cave complex, accessible only by a magical teleportation rune situated in the depths of the tunnels. When greeting mortal visitors, she appears in the form of a high elven woman."
+  },
+  {
+   "q": "Why are blue dragons living in Winterspring?",
+   "aliases": [
+    "why are there dragons in winterspring",
+    "why blue flight here",
+    "malygos brood winterspring"
+   ],
+   "answer": "The blue dragonflight, charged by the titans with guarding Azeroth's arcane magic, keeps a close watch on lingering fonts of ancient energy across the world. Winterspring holds remnants of the Highborne's ancient civilization around Lake Kel'Theril, making Mazthoril a natural stronghold for their sentinels in Kalimdor."
+  },
+  {
+   "q": "How do you reach Haleh?",
+   "aliases": [
+    "reach haleh",
+    "get to haleh",
+    "teleport to haleh",
+    "where is haleh"
+   ],
+   "answer": "To reach Haleh, you must fight through the dragonkin to the back of Mazthoril's inner cavern. There, flanked by the drakes Manaclaw and Scryer, lies a glowing arcane rune on the floor. Stepping into the center of this rune teleports you to her high perch atop the mountain."
+  },
+  {
+   "q": "What role does Mazthoril play in entering Onyxia's Lair?",
+   "aliases": [
+    "onyxia key mazthoril",
+    "onyxia attunement haleh",
+    "drakefire amulet haleh"
+   ],
+   "answer": "Heroes working to uncover Lady Katrana Prestor's true identity are sent by Marshal Windsor to consult Haleh. Possessing profound knowledge of the black dragonflight's wards, she assists Alliance champions in empowering the medallion needed to pass the threshold into Onyxia's Lair."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance heroes unmasking the treachery of Onyxia must seek out the matriarch Haleh in Mazthoril to complete their key to the black broodmother's lair."
+  },
+  {
+   "target": "class:Mage",
+   "text": "As the realm of Malygos's servants, Mazthoril is teeming with creatures saturated in pure arcane power, making it a site of great interest to scholars of the arcane."
+  }
+ ],
+ "keywords": [
+  "blue dragonflight",
+  "colbatann",
+  "haleh",
+  "malygos",
+  "mazthoril",
+  "onyxia key",
+  "spellmaw",
+  "winterspring"
+ ],
+ "related": [
+  "zone:winterspring",
+  "subzone:onyxia-s-lair",
+  "npc:onyxia",
+  "subzone:everlook",
+  "subzone:lake-kel-theril",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Mazthoril"
+ ]
+}

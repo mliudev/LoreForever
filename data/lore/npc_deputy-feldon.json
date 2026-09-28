@@ -1,0 +1,80 @@
+{
+ "key": "npc:deputy-feldon",
+ "type": "npc",
+ "name": "Deputy Feldon",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Deputy Feldon",
+  "refs": 1
+ },
+ "summary": "Deputy Feldon is a member of the Redridge town guard stationed just south of the Great Lakeshire Bridge. Tasked with watching the primary road into Lakeshire, he keeps a nervous vigil against the aggressive gnoll packs creeping toward the town perimeter.",
+ "sections": [
+  {
+   "title": "A Guard on Edge",
+   "body": "Standing watch near the southern approach to the Lakeshire bridge, Deputy Feldon represents an overextended town guard fighting to keep basic trade and travel routes open. With the Blackrock orcs pressing from the north and gnoll packs overrunning the southern hills, guardsmen like Feldon are stretched to their limits. Unable to leave his post without compromising the town's perimeter, he relies on passing adventurers to cull the gnolls encroaching on the roadway before they can cut Lakeshire off entirely.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Deputy Feldon?",
+   "aliases": [
+    "feldon",
+    "who is feldon",
+    "deputy feldon role"
+   ],
+   "answer": "Deputy Feldon is an officer of the Lakeshire town guard stationed just south of the bridge connecting the town to the main southern road in Redridge Mountains."
+  },
+  {
+   "q": "Why is Deputy Feldon worried about gnolls?",
+   "aliases": [
+    "why gnolls",
+    "feldon gnoll problem",
+    "encroaching gnolls"
+   ],
+   "answer": "Gnoll packs have grown increasingly bold, creeping close to the southern edge of town and harassing travelers. Feldon fears that if their numbers are not pruned back, they will completely choke off the southern road into Lakeshire."
+  },
+  {
+   "q": "Why doesn't Feldon deal with the gnolls himself?",
+   "aliases": [
+    "why doesn't feldon fight",
+    "feldon duty"
+   ],
+   "answer": "The Lakeshire guard is severely understaffed and facing simultaneous threats from orcs and gnolls. Feldon cannot abandon his sentry post at the bridge without leaving the entrance to the town unguarded."
+  },
+  {
+   "q": "Where can Deputy Feldon be found?",
+   "aliases": [
+    "feldon location",
+    "where is feldon"
+   ],
+   "answer": "He stands watch on the road just south of the Great Lakeshire Bridge, keeping watch over the southern approaches to the town."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Feldon embodies the desperate state of Stormwind's outer territories, where local guardsmen must beg passing champions for help maintaining the king's peace."
+  }
+ ],
+ "keywords": [
+  "bridge",
+  "deputy feldon",
+  "feldon",
+  "gnolls",
+  "guard",
+  "lakeshire",
+  "redridge"
+ ],
+ "related": [
+  "subzone:lakeshire",
+  "zone:redridge",
+  "quest:244",
+  "quest:246",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Deputy Feldon"
+ ]
+}

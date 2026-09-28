@@ -1,0 +1,73 @@
+{
+ "key": "subzone:spirit-rock",
+ "type": "subzone",
+ "name": "Spirit Rock",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Spirit Rock"
+ },
+ "summary": "Spirit Rock is a sacred crag perched in the rugged bluffs above the Valley of Trials in Durotar. Reached by a winding trail known as the Hidden Path, it serves as a secluded holy site where initiates commune directly with the elemental forces of the land.",
+ "sections": [
+  {
+   "title": "A Sanctuary of the Elements",
+   "body": "Overlooking the red canyon where young Horde warriors and scouts begin their training, Spirit Rock stands as an altar of communion. Isolated from the clatter of the Valley of Trials, it is approached only via the Hidden Path winding up the rocky ridgeline. Aspiring shaman make pilgrimages to this desolate outcrop to drink the traditional sapta, piercing the veil of the physical world to hear the rumblings and whisperings of the earth itself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Spirit Rock used for?",
+   "aliases": [
+    "spirit rock purpose",
+    "what happens at spirit rock",
+    "spirit rock use"
+   ],
+   "answer": "Spirit Rock is a sacred site used primarily by Horde shaman initiates. By consuming a specialized draught known as an Earth Sapta at the rock, novices gain the spiritual vision required to commune directly with the spirits of the earth."
+  },
+  {
+   "q": "How do you reach Spirit Rock?",
+   "aliases": [
+    "how to get to spirit rock",
+    "path to spirit rock",
+    "spirit rock location"
+   ],
+   "answer": "Spirit Rock sits high in the cliffs above the Valley of Trials in southwestern Durotar. It is accessible by ascending the Hidden Path, a narrow, unmarked trail that winds out of the canyon floor into the rugged hills."
+  },
+  {
+   "q": "What is a sapta?",
+   "aliases": [
+    "earth sapta",
+    "what is sapta",
+    "sapta drink"
+   ],
+   "answer": "A sapta is a ceremonial elemental brew prepared by shaman trainers. Drinking it alters the seeker's perception, allowing them to perceive elemental manifestations that remain invisible to ordinary senses."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Spirit Rock is a vital rite of passage for young orc and troll shaman, who venture up the Hidden Path to drink the Earth Sapta and forge their first bond with the spirits of stone and soil."
+  }
+ ],
+ "keywords": [
+  "call of earth",
+  "durotar",
+  "earth spirits",
+  "hidden path",
+  "sapta",
+  "shaman",
+  "spirit rock",
+  "valley of trials"
+ ],
+ "related": [
+  "subzone:hidden-path",
+  "subzone:valley-of-trials",
+  "quest:1520",
+  "zone:durotar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Spirit Rock"
+ ]
+}

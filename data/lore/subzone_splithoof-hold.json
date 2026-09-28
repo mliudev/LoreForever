@@ -1,0 +1,79 @@
+{
+ "key": "subzone:splithoof-hold",
+ "type": "subzone",
+ "name": "Splithoof Hold",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Splithoof Hold"
+ },
+ "summary": "Splithoof Hold is a deep cavern stronghold carved into the stone of Splithoof Crag in Thousand Needles. Held by the Galak centaur tribe, the cavern serves as a fortified den and houses the Ancient Brazier, a site holding an eternally burning sacred flame.",
+ "sections": [
+  {
+   "title": "A Centaur Bastion",
+   "body": "Tucked away inside Splithoof Crag, Splithoof Hold serves as a fortified redoubt for the Galak centaur. Unlike the windswept canyon floor, this enclosed cave offers them shelter, defensible chokepoints, and a secure sanctuary from rival tribes and travelers passing through the Needles.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Sacred Flame",
+   "body": "Deep within the shadowed recesses of the hold lies an ancient brazier cradling the Sacred Flame. This mystic fire burns incessantly, serving as a focal point of power and ritual reverence for the centaur and an object of deep curiosity for spiritual wanderers across the canyon.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Splithoof Hold located?",
+   "aliases": [
+    "splithoof hold location",
+    "where is splithoof hold",
+    "how to find splithoof hold"
+   ],
+   "answer": "Splithoof Hold is situated within the crags and ramparts of Splithoof Crag, along the southern cliffs of Thousand Needles. It is entered through a cave opening nestled inside the main centaur settlement."
+  },
+  {
+   "q": "Who controls Splithoof Hold?",
+   "aliases": [
+    "who lives in splithoof hold",
+    "splithoof hold mobs",
+    "who owns splithoof hold"
+   ],
+   "answer": "The cavern is held by the Galak centaur tribe, who aggressively defend the cave against outsiders, beast incursions, and the nearby tauren of Freewind Post."
+  },
+  {
+   "q": "What is inside the hold?",
+   "aliases": [
+    "what is in splithoof hold",
+    "ancient brazier location",
+    "sacred flame splithoof"
+   ],
+   "answer": "Beyond hostile Galak centaur defenders, the cave houses the Ancient Brazier, an artifact that keeps the mystical Sacred Flame burning eternally within the depths of the rock."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Galak centaur remain sworn blood enemies of the tauren, making any stronghold they maintain in Thousand Needles an immediate threat to the peace of Freewind Post."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The existence of an eternal flame burning deep within a dark stone cavern draws the attention of any spiritualist attuned to the primal mysteries of elemental fire."
+  }
+ ],
+ "keywords": [
+  "ancient brazier",
+  "galak centaur",
+  "sacred flame",
+  "splithoof crag",
+  "splithoof hold",
+  "thousand needles"
+ ],
+ "related": [
+  "subzone:splithoof-crag",
+  "zone:thousandneedles",
+  "topic:centaur",
+  "quest:1195"
+ ],
+ "attribution": [
+  "Splithoof Hold"
+ ]
+}

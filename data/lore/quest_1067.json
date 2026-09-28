@@ -1,0 +1,123 @@
+{
+ "key": "quest:1067",
+ "type": "quest",
+ "name": "Return to Thunder Bluff",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1067
+  ],
+  "level": "23",
+  "faction": "Horde",
+  "start": "Apothecary Lydon",
+  "end": "Apothecary Zamah",
+  "previous": "Blood of Innocents (quest)",
+  "next": "The Flying Machine Airport",
+  "wiki": "Return to Thunder Bluff (1)",
+  "chain": []
+ },
+ "summary": "This quest charges an operative with carrying a potent chemical agent brewed by Apothecary Lydon in Tarren Mill back across the sea to Thunder Bluff. There, Apothecary Zamah awaits the compound so she can engineer a dispersal apparatus against the Venture Company. It marks a crucial step in the Royal Apothecary Society's clandestine research under the very roofs of their Tauren hosts.",
+ "sections": [
+  {
+   "title": "A Transcontinental Delivery",
+   "body": "After securing the volatile ingredients requested in the Hillsbrad Foothills, Apothecary Lydon successfully synthesizes his virulent concoction. Lydon is thoroughly thrilled to see his biological handiwork tested on live subjects, but the raw toxin alone lacks an effective delivery mechanism. To ensure maximum devastation, the vial must be brought back across the Great Sea to the crags of Mulgore, into the waiting hands of Apothecary Zamah.",
+   "spoiler": 0
+  },
+  {
+   "title": "Zamah's Apparatus",
+   "body": "Residing in the shaded lower tier beneath Thunder Bluff's Spirit Rise, Zamah operates as an ambassador and researcher for the Royal Apothecary Society. Upon receiving Lydon's formulation, she sets to work converting the fluid into an aerosol agent, fabricating a pressurized device known as the Toxic Fogger. Her ultimate goal is to unleash this biological weapon directly upon the intrusive goblins of the Venture Company.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of bringing the toxin to Thunder Bluff?",
+   "aliases": [
+    "why thunder bluff",
+    "what does zamah do with toxin",
+    "lydons toxin use"
+   ],
+   "answer": "Apothecary Lydon created the raw liquid toxin, but it requires a specialized dispersal system to maximize its lethality across a broad area. Apothecary Zamah possesses the engineering skills needed to adapt the formula into an aerosolized device called the Toxic Fogger."
+  },
+  {
+   "q": "Who is the target of this concoction?",
+   "aliases": [
+    "who gets poisoned",
+    "target of lydon toxin",
+    "who are we fighting"
+   ],
+   "answer": "The toxin is engineered specifically for deployment against the Venture Company, the ruthless goblin mining syndicate ravaging the land in the Stonetalon Mountains and beyond."
+  },
+  {
+   "q": "Where is Apothecary Zamah located?",
+   "aliases": [
+    "find zamah",
+    "where is apothecary zamah",
+    "zamah location"
+   ],
+   "answer": "Apothecary Zamah is situated in the Pools of Vision, a cavern network concealed beneath the Spirit Rise in Thunder Bluff."
+  },
+  {
+   "q": "Why are Undercity apothecaries working in a Tauren city?",
+   "aliases": [
+    "forsaken in thunder bluff",
+    "why are undead in thunder bluff",
+    "apothecaries in mulgore"
+   ],
+   "answer": "The Tauren granted the Forsaken asylum and supported their admission into the Horde, largely hoping to help them find a cure for their affliction. Apothecary Zamah acts as an envoy of the Royal Apothecary Society, though her work often leans far more toward pestilence and offensive bioweapons than healing."
+  },
+  {
+   "q": "What happens after turning in the toxin?",
+   "aliases": [
+    "next quest",
+    "what after return to thunder bluff",
+    "fogger quest"
+   ],
+   "answer": "Once Zamah takes the vial, she constructs the Toxic Fogger by her side. She will then dispatch you to deploy the aerosol machine directly at a Venture Company facility in the Stonetalon Mountains."
+  },
+  {
+   "q": "Who created the original formula?",
+   "aliases": [
+    "who made the poison",
+    "who is lydon",
+    "apothecary lydon lore"
+   ],
+   "answer": "The poison was concocted by Apothecary Lydon, a researcher for the Royal Apothecary Society stationed in Tarren Mill within the Hillsbrad Foothills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This task demonstrates the Royal Apothecary Society's far-reaching operational network, coordinating research between the Lordaeron front and research outposts on Kalimdor."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "While Magatha Grimtotem and the elders welcomed the Forsaken to Thunder Bluff in hopes of finding redemption or healing, the Apothecaries beneath Spirit Rise spend their time developing contagious bioweapons."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The collaborative effort between Forsaken alchemists helps protect Horde interests by targeting the destructive operations of the Venture Company."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "apothecary zamah",
+  "lydon's toxin",
+  "pools of vision",
+  "return to thunder bluff",
+  "royal apothecary society",
+  "tarren mill",
+  "toxic fogger",
+  "venture company"
+ ],
+ "related": [
+  "quest:853",
+  "quest:1086",
+  "zone:thunderbluff",
+  "topic:venture-company"
+ ],
+ "attribution": [
+  "Return to Thunder Bluff (1)"
+ ]
+}

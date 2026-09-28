@@ -1,0 +1,88 @@
+{
+ "key": "subzone:satyrnaar",
+ "type": "subzone",
+ "name": "Satyrnaar",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Satyrnaar"
+ },
+ "summary": "Satyrnaar is an ancient, ruined night elf settlement in northeastern Ashenvale that has fallen entirely into the hands of the Bleakheart satyrs. Perched just off the main road between Splintertree Post and Azshara, it is the most intact and easily accessible of the satyr strongholds in the forest.",
+ "sections": [
+  {
+   "title": "A Den of Fel and Shadow",
+   "body": "Located northeast of Splintertree Post and southwest of Forest Song, Satyrnaar stands as one of Ashenvale's three primary satyr settlements alongside Xavian and Night Run. Unlike the deeper wilderness ruins, Satyrnaar is relatively well-preserved, featuring pitched tents nestled among crumbled elven architecture. It serves as a bustling camp for the Bleakheart satyrs, making the nearby trade route fraught with peril for travelers moving east toward Azshara. Furthermore, dark ties fester here: the satyrs have forged an alliance with the shadowy Cult of the Dark Strand, harboring one of their insidious soulgems amidst the corrupted stones.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Satyrnaar?",
+   "aliases": [
+    "satyrnaar overview",
+    "what is this place",
+    "satyr camp"
+   ],
+   "answer": "Satyrnaar is a ruined night elf site in northeastern Ashenvale that has been claimed and occupied by the Bleakheart satyrs. It serves as one of their primary strongholds in the region."
+  },
+  {
+   "q": "Who lives in Satyrnaar?",
+   "aliases": [
+    "who is here",
+    "satyrnaar mobs",
+    "bleakheart satyrs"
+   ],
+   "answer": "The settlement is held by the Bleakheart tribe of satyrs. They have erected tents among the ancient ruins and work in league with the Cult of the Dark Strand."
+  },
+  {
+   "q": "Why is Satyrnaar significant compared to other satyr ruins?",
+   "aliases": [
+    "satyrnaar vs xavian",
+    "why satyrnaar"
+   ],
+   "answer": "Of the three main satyr sites in Ashenvale\u2014Satyrnaar, Night Run, and Xavian\u2014Satyrnaar is the most intact and centrally located, lying right off the road toward Azshara."
+  },
+  {
+   "q": "What is the dark artifact hidden in Satyrnaar?",
+   "aliases": [
+    "dark strand soulgem",
+    "satyrnaar crystal",
+    "soulgem"
+   ],
+   "answer": "Satyrnaar houses one of the corrupted soulgems belonging to the Cult of the Dark Strand, a mortal shadow cult allied with the Bleakheart satyrs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Seeing ancestral stonework defiled by fel corruption and inhabited by the cursed remnants of the Highborne is a bitter offense to any night elf traveling through Ashenvale."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The twisted fel corruption spread by the Bleakheart satyrs actively chokes the natural spirit of Ashenvale, demanding swift cleansing."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "bleakheart",
+  "dark strand",
+  "forest song",
+  "satyr",
+  "satyrnaar",
+  "soulgem",
+  "splintertree"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "topic:satyr",
+  "subzone:splintertree-post",
+  "subzone:forest-song",
+  "subzone:night-run",
+  "subzone:xavian",
+  "zone:azshara",
+  "topic:emerald-dream"
+ ],
+ "attribution": [
+  "Satyrnaar"
+ ]
+}

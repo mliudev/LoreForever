@@ -1,0 +1,73 @@
+{
+ "key": "subzone:speedbarge-bar",
+ "type": "subzone",
+ "name": "Speedbarge Bar",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Speedbarge Bar"
+ },
+ "summary": "Tucked away beneath the deck of Fizzle and Pozzik's vessel, the Speedbarge Bar serves as the social heart and local tavern for the engineers and spectators of Thousand Needles. Run by the barkeep Daisy alongside Hotfix, it offers a sheltered retreat where travelers can escape the glaring desert sun and share a strong drink.",
+ "sections": [
+  {
+   "title": "Below the Decks",
+   "body": "While engineers tinker and race above, the underdeck of the massive floating barge houses a cozy tavern. Managed by the welcoming Daisy with assistance from Hotfix, the Speedbarge Bar provides lodging and sustenance to adventurers traveling through the canyon. With bottles of stiff grog flowing freely, the tavern balances the chaotic camaraderie of rival goblin and gnomish tinkerers with the occasional spirited scuffle.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Speedbarge Bar located?",
+   "aliases": [
+    "speedbarge bar location",
+    "where is speedbarge inn",
+    "speedbarge tavern"
+   ],
+   "answer": "The bar is situated below deck aboard Fizzle and Pozzik's Speedbarge, the large waterborne platform located in Thousand Needles."
+  },
+  {
+   "q": "Who runs the Speedbarge Bar?",
+   "aliases": [
+    "speedbarge innkeeper",
+    "who is the barkeep",
+    "daisy speedbarge"
+   ],
+   "answer": "Daisy tends bar and oversees innkeeping duties for visitors, while Hotfix works alongside her below deck to keep the establishment running."
+  },
+  {
+   "q": "Can travelers rest and stay at the bar?",
+   "aliases": [
+    "is speedbarge an inn",
+    "speedbarge hearthstone",
+    "can you bind at speedbarge"
+   ],
+   "answer": "Yes, Daisy serves as both tavernkeeper and innkeeper, offering weary adventurers a place to rest their heads and bind their hearthstones away from the elements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "The tavern serves as a handy local waterhole, where cooks and adventurers can grab a mug of grog and take inspiration from tavern fare."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Located right below the bustling craft tables and launch bays of the barge, it is the natural gathering spot to toast successful inventions or mourn catastrophic malfunctions."
+  }
+ ],
+ "keywords": [
+  "daisy",
+  "fizzle and pozzik",
+  "grog",
+  "hotfix",
+  "inn",
+  "speedbarge bar",
+  "thousand needles"
+ ],
+ "related": [
+  "zone:thousandneedles",
+  "npc:pozzik"
+ ],
+ "attribution": [
+  "Speedbarge Bar"
+ ]
+}

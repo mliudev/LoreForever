@@ -1,0 +1,93 @@
+{
+ "key": "subzone:valley-of-heroes",
+ "type": "subzone",
+ "name": "Valley of Heroes",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Valley of Heroes"
+ },
+ "summary": "The Valley of Heroes forms the monumental southern entrance to Stormwind City, carrying travellers across a stone bridge spanning the moat. Flanked by towering statues honoring the leaders of the Alliance Expedition to Draenor, it serves as both an awe-inspiring welcome and a heavily fortified checkpoint.",
+ "sections": [
+  {
+   "title": "A Monument to the Lost",
+   "body": "Erected during the grand rebuilding of Stormwind following the Second War, the statues lining the causeway commemorate the commanders of the Alliance Expedition. These champions marched through the Dark Portal into the orcish homeworld of Draenor to seal the rift forever, giving their lives so Azeroth might survive. Visitors proceeding north toward the Trade District pass beneath the visages of Archmage Khadgar, Kurdran Wildhammer, Ranger-Captain Alleria Windrunner, Force Commander Danath Trollbane, and High General Turalyon.",
+   "spoiler": 0
+  },
+  {
+   "title": "The City Bastion",
+   "body": "Beyond its ceremonial role, the valley is the primary defensive choke point guarding Stormwind from overland invasion. The approaches are overseen by General Marcus Jonathan, commander of the city guard, who monitors all traffic entering and departing through the great gates astride his steed. Flanking commanders, including Major Mattingly and Field Marshal Stonebridge, maintain vigilance alongside rows of seasoned guards, ensuring the capital remains secure against external threats.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the statues lining the path?",
+   "aliases": [
+    "statues in stormwind",
+    "who are the heroes",
+    "valley statues",
+    "names on statues"
+   ],
+   "answer": "The five colossal monuments depict the legendary commanders of the Sons of Lothar who led the Alliance Expedition to Draenor: High General Turalyon, Ranger-Captain Alleria Windrunner, Archmage Khadgar, Kurdran Wildhammer, and Force Commander Danath Trollbane."
+  },
+  {
+   "q": "Why were these monuments placed at the city gate?",
+   "aliases": [
+    "why build statues here",
+    "valley of heroes purpose"
+   ],
+   "answer": "Constructed during the city's restoration after the Second War, the statues serve as an enduring tribute to the heroes assumed lost during the destruction of Draenor. They remind all who enter of the steep price paid to keep the kingdom safe."
+  },
+  {
+   "q": "Who commands the guards stationed at the entrance?",
+   "aliases": [
+    "guard captain",
+    "who is the guy on the horse",
+    "who leads stormwind defense"
+   ],
+   "answer": "General Marcus Jonathan, the supreme commander of the Stormwind City Guard, oversees the security of the valley directly from the front lines, supported by officers such as Major Mattingly and Field Marshal Stonebridge."
+  },
+  {
+   "q": "Where does the Valley of Heroes lead?",
+   "aliases": [
+    "where does bridge go",
+    "directions stormwind gate"
+   ],
+   "answer": "Heading north over the bridge brings travelers directly into Stormwind City's bustling Trade District, while heading south exits the gates into the pastoral forests of Elwynn."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Every citizen of the Grand Alliance reveres the valley as a solemn testament to racial cooperation, honoring human, high elven, and dwarven martyrs side by side."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The statue of General Turalyon stands as a profound inspiration to paladins, immortalizing one of the original champions of the Knights of the Silver Hand."
+  }
+ ],
+ "keywords": [
+  "alleria",
+  "danath",
+  "khadgar",
+  "kurdran",
+  "marcus jonathan",
+  "stormwind gate",
+  "turalyon",
+  "valley of heroes"
+ ],
+ "related": [
+  "subzone:stormwind-gate",
+  "zone:stormwind",
+  "zone:elwynn",
+  "subzone:trade-district",
+  "npc:general-marcus-jonathan",
+  "topic:alliance",
+  "topic:second-war",
+  "subzone:dark-portal"
+ ],
+ "attribution": [
+  "Valley of Heroes"
+ ]
+}

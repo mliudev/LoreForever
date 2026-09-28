@@ -1,0 +1,71 @@
+{
+ "key": "subzone:goodgrub-smoking-pit",
+ "type": "subzone",
+ "name": "Goodgrub Smoking Pit",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Goodgrub Smoking Pit"
+ },
+ "summary": "Tucked away northeast of Starfall Village in the snowy drifts of Winterspring lies the Goodgrub Smoking Pit. Established by Jez Goodgrub, this modest camp operates as a haven for curing and smoking the rich meats harvested from the region's hardy wildlife.",
+ "sections": [
+  {
+   "title": "A Warm Camp in the Snow",
+   "body": "Winterspring is notoriously inhospitable, yet the aromatic woodsmoke rising from the Goodgrub Smoking Pit offers a welcome beacon for cold travelers. Founded by Jez Goodgrub, the camp is dedicated to transforming tough local game into savory smoked provisions. The residents rely heavily on passing hunters and wanderers to cull the dangerous predators of the snowy valleys, trading assistance for hot meals and cured supplies that can endure the biting northern frost.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Goodgrub Smoking Pit located?",
+   "aliases": [
+    "goodgrub smoking pit location",
+    "where is goodgrub pit",
+    "goodgrub smoking pit map"
+   ],
+   "answer": "The smoking pit is situated in the snowy northern wastes of Winterspring, located just northeast of the ruins of Starfall Village."
+  },
+  {
+   "q": "Who founded this camp?",
+   "aliases": [
+    "who runs goodgrub smoking pit",
+    "owner of goodgrub pit",
+    "jez goodgrub"
+   ],
+   "answer": "The camp was established by Jez Goodgrub, who set up the site to smoke and cure meat harvested from the beasts roaming Winterspring."
+  },
+  {
+   "q": "What is the purpose of the smoking pit?",
+   "aliases": [
+    "why is goodgrub pit here",
+    "what do they do at goodgrub smoking pit"
+   ],
+   "answer": "The camp operates primarily as a butchery and smokehouse. The residents encourage travelers to hunt local wildlife, providing hearty food that can sustain travelers through the freezing climate."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "For culinarians braving the frost, the pit is a testament to how properly smoking game can turn tough mountain beasts into hearty rations."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The camp relies on skilled trackers to harvest the fierce wildlife roaming near the Starfall ruins, making it a natural stop for big-game hunters."
+  }
+ ],
+ "keywords": [
+  "goodgrub smoking pit",
+  "jez goodgrub",
+  "meat",
+  "smokehouse",
+  "starfall village",
+  "winterspring"
+ ],
+ "related": [
+  "zone:winterspring",
+  "subzone:starfall-village"
+ ],
+ "attribution": [
+  "Goodgrub Smoking Pit"
+ ]
+}

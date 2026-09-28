@@ -1,0 +1,94 @@
+{
+ "key": "subzone:thandol-span",
+ "type": "subzone",
+ "name": "Thandol Span",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Thandol Span"
+ },
+ "summary": "The Thandol Span is a pair of colossal dwarven stone bridges connecting the Wetlands of Khaz Modan with the Arathi Highlands of southern Lordaeron. Long celebrated as a marvel of engineering and the vital artery between the northern and southern kingdoms, it is currently in a state of disaster following a sabotage attack by Dark Iron infiltrators.",
+ "sections": [
+  {
+   "title": "A Lifeline Severed",
+   "body": "Constructed following the War of the Three Hammers to bridge Ironforge with the Wildhammer clan of the Aerie Peak, the Thandol Span stands among the grandest stonecraft feats of dwarven history. Capable of supporting entire marching armies, it served as the critical land corridor between Lordaeron and Khaz Modan throughout the Second War, notably carrying Sir Anduin Lothar's counter-offensive southward. Today, the crossing is grievously wounded. Dark Iron saboteurs led by Balgaras the Foul and Kam Deepfury mounted a devastating assault from nearby Dun Modr, shattering one span entirely with explosives and threatening to sever overland travel between the allied realms completely.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fight for the Crossing",
+   "body": "The surviving bridge remains contested and heavily guarded. Mountaineers from Ironforge fight desperately to preserve the remaining roadway and repel Dark Iron sappers, suffering painful losses in the process. The loss of the bridge would leave northern trade and military movements almost entirely reliant on maritime routes, cutting off Alliance forces stationed across the Arathi Highlands from immediate reinforcement.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Thandol Span?",
+   "aliases": [
+    "thandol span overview",
+    "what is this bridge",
+    "thandol bridge"
+   ],
+   "answer": "It is a massive dwarven double-arched stone bridge spanning the deep canyon between the Wetlands in northern Khaz Modan and the Arathi Highlands in southern Lordaeron."
+  },
+  {
+   "q": "Why is one of the bridges broken?",
+   "aliases": [
+    "who blew up the bridge",
+    "thandol span destroyed",
+    "why is thandol span broken"
+   ],
+   "answer": "Dark Iron dwarves launched an assault from the captured outpost of Dun Modr, using high explosives to demolish one of the two spans in an attempt to cut Alliance supply lines."
+  },
+  {
+   "q": "Why was the Thandol Span originally built?",
+   "aliases": [
+    "who built thandol span",
+    "thandol history",
+    "why was it built"
+   ],
+   "answer": "Ironforge dwarves built the span after the War of the Three Hammers to foster trade, diplomacy, and enduring ties with their Wildhammer cousins living across the canyon in the north."
+  },
+  {
+   "q": "Did armies cross here during the Second War?",
+   "aliases": [
+    "thandol span second war",
+    "orcs at thandol span",
+    "lothar thandol span"
+   ],
+   "answer": "Yes. Although the Old Horde bypassed the bridges by crossing the sea to invade Lordaeron, Sir Anduin Lothar later led the Alliance counter-offensive across the Span to drive the orcs back into Khaz Modan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For the dwarves of Ironforge, the Span represents both a masterwork of their stonemasons and a painful battleground where Dark Iron kin have brought destruction to their front door."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Span is the sole direct overland link uniting Khaz Modan with the beleaguered northern outposts of Lordaeron, making its defense vital to the war effort."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "balgaras",
+  "dark iron",
+  "dun modr",
+  "ironforge",
+  "kam deepfury",
+  "thandol span",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:dun-modr",
+  "zone:wetlands",
+  "zone:arathi",
+  "quest:631",
+  "quest:303",
+  "quest:378",
+  "npc:kam-deepfury",
+  "topic:second-war"
+ ],
+ "attribution": [
+  "Thandol Span"
+ ]
+}

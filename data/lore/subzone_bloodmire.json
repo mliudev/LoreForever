@@ -1,0 +1,91 @@
+{
+ "key": "subzone:bloodmire",
+ "type": "subzone",
+ "name": "Bloodmire",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Bloodmire"
+ },
+ "summary": "The Bloodmire is a muddy, contested battleground situated in the Swamp of Sorrows. Here, the forces of the Alliance from Marshtide Watch clash relentlessly against the Horde stationed at Stonard in an escalating struggle for control of the marshland.",
+ "sections": [
+  {
+   "title": "A Swamp Drenched in War",
+   "body": "Spanning the murky grounds between Marshtide Watch and Stonard, the Bloodmire earns its grim name from the endless skirmishes fought in the swamp's muck. Alarmed by the lingering Horde bastion so close to their territories, the Alliance has launched a determined offensive to drive the orcs out of the wetlands entirely. Horde warriors, aided by rallying wardrummers and peons felling trees for fortifications, clash head-on with Marshtide footmen and attending clerics across a landscape littered with shattered ballistae, blade throwers, and wrecked siege engines.",
+   "spoiler": 0
+  },
+  {
+   "title": "Escalating Conflict",
+   "body": "What began as front-line skirmishing has rapidly turned into an all-out meat grinder. As the frontline stalls, both factions escalate their presence: Alliance mages summon mounted knights to shatter enemy formations, while Horde warlocks bind brute ogres into service. The contested mire remains in violent deadlock, with each side straining to turn the tide and push the frontline straight into the enemy's fortified gates.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the Alliance and Horde fighting here?",
+   "aliases": [
+    "why fighting bloodmire",
+    "what is bloodmire battle",
+    "who is fighting in bloodmire"
+   ],
+   "answer": "The Alliance garrison at Marshtide Watch views the nearby Horde settlement of Stonard as an unacceptable threat to their borders. In response, they have launched an offensive to drive the Horde out of the Swamp of Sorrows, turning this strip of marsh into an active frontline."
+  },
+  {
+   "q": "Which settlements control this battleground?",
+   "aliases": [
+    "bases near bloodmire",
+    "where do troops come from",
+    "stonard vs marshtide"
+   ],
+   "answer": "The conflict is waged directly between Stonard, the longstanding Horde stronghold to the east, and Marshtide Watch, the Alliance's fortified forward outpost stationed to the west."
+  },
+  {
+   "q": "What war machines are abandoned here?",
+   "aliases": [
+    "siege engines swamp",
+    "bloodmire siege weapons",
+    "broken tanks in bloodmire"
+   ],
+   "answer": "The battleground is scattered with remnants of brutal siege warfare, including broken ballistae, shattered blade throwers, a wrecked Alliance steam tank, and battered siege engines left decaying in the mud."
+  },
+  {
+   "q": "Who leads the forces in this clash?",
+   "aliases": [
+    "bloodmire commanders",
+    "who gives bloodmire quests",
+    "dispatch commander ruag joanna blueheart"
+   ],
+   "answer": "The Alliance push is coordinated by Joanna Blueheart from Marshtide Watch, while the Horde's counteroffensive is directed by Dispatch Commander Ruag out of Stonard."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance soldiers, the Bloodmire represents a crucial push to clear out the remnants of Stonard and secure the swamp from renewed orcish aggression."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde defenders must hold the Bloodmire at all costs, defending the venerable outpost of Stonard from being overrun and severed by the Alliance advance."
+  }
+ ],
+ "keywords": [
+  "blade thrower",
+  "bloodmire",
+  "dispatch commander ruag",
+  "joanna blueheart",
+  "marshtide watch",
+  "steam tank",
+  "stonard",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "subzone:stonard",
+  "subzone:marshtide-watch",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Bloodmire"
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "key": "npc:captain-rugelfuss",
+ "type": "npc",
+ "name": "Captain Rugelfuss",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Captain Rugelfuss",
+  "refs": 6
+ },
+ "summary": "Captain Rugelfuss is a stern dwarven officer stationed at the southern gate in the Valley of Kings. Tasked with securing the border of Loch Modan, he organizes the defense against a sudden and aggressive trogg uprising. He coordinates scouting reports, counterattacks, and rescue efforts to protect the kingdom's frontier.",
+ "sections": [
+  {
+   "title": "Holding the Southern Gate",
+   "body": "Positioned near the monumental carved arches of the Valley of Kings, Captain Rugelfuss oversees the southern gateway into Loch Modan. With Alliance forces stretched thin across the world, Ironforge relies on veteran officers like him to keep the home territories secure. Rugelfuss dismisses military pomp and formalities, preferring to focus entirely on the grim reality facing the border.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Trogg Incursion",
+   "body": "The primary crisis demanding Rugelfuss's attention is the swelling trogg threat. Unearthed from ancient caverns and surging into the highlands, these savage brutes have overwhelmed outlying dwarven patrols and established fortified footholds nearby. Under the banner of defending the King's lands, the captain recruits capable travelers to cull their ranks and push the creatures back from the roadway.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontline Reconnaissance",
+   "body": "Rugelfuss's duties extend beyond blunt force. His mountaineers continually scout trogg encampments, occasionally falling into enemy hands. When his scouts go missing, Rugelfuss is quick to authorize bold rescue operations to retrieve captured mountaineers before they fall victim to trogg brutality.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Rugelfuss?",
+   "aliases": [
+    "captain rugelfuss lore",
+    "who is rugelfuss",
+    "rugelfuss loch modan"
+   ],
+   "answer": "Captain Rugelfuss is an Ironforge dwarven military commander stationed at the southern gateway in the Valley of Kings within Loch Modan. He is responsible for regional defense and frontier security."
+  },
+  {
+   "q": "Where can Captain Rugelfuss be found?",
+   "aliases": [
+    "where is rugelfuss",
+    "captain rugelfuss location"
+   ],
+   "answer": "He is stationed near the South Gate in the Valley of Kings, guarding the southern pass that connects Loch Modan toward the Dun Morogh borders."
+  },
+  {
+   "q": "Why is Captain Rugelfuss concerned about troggs?",
+   "aliases": [
+    "why fight troggs",
+    "trogg threat loch modan"
+   ],
+   "answer": "A recent trogg uprising poses a severe hazard to dwarven settlements and supply lines. The troggs have encroached directly on the southern gateway and attacked Ironforge patrols, threatening to overrun the King's territory if left unchecked."
+  },
+  {
+   "q": "What is his relationship with Thelsamar?",
+   "aliases": [
+    "rugelfuss thelsamar",
+    "south gate status report"
+   ],
+   "answer": "Rugelfuss communicates regularly with the garrison and leadership in Thelsamar, exchanging status reports to coordinate the overall military defense of Loch Modan."
+  },
+  {
+   "q": "What happens to the mountaineers under his command?",
+   "aliases": [
+    "captured mountaineer quest",
+    "what happened to the mountaineers"
+   ],
+   "answer": "Several mountaineers scouting the advancing trogg packs are ambushed and captured. Rugelfuss tasks adventurers with tracking down and liberating these prisoners from trogg camps."
+  },
+  {
+   "q": "Why does Rugelfuss brush off military formalities?",
+   "aliases": [
+    "rugelfuss personality",
+    "at ease race"
+   ],
+   "answer": "Rugelfuss views unnecessary salute and ceremony as dangerous distractions when the King's lands are actively besieged. He demands immediate, practical action over protocol."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, Captain Rugelfuss represents the steadfast resolve of Ironforge's military, standing guard over ancestral mountain passes against ancestral subterranean foes."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Rugelfuss reminds Alliance travelers that while major armies fight elsewhere, defending the domestic homelands from savage incursions is critical to the alliance's survival."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Warriors will find common ground in Rugelfuss's no-nonsense tactical demeanor and straightforward mandate to clear the frontlines with blade and shield."
+  }
+ ],
+ "keywords": [
+  "captain rugelfuss",
+  "captured mountaineer",
+  "ironforge guard",
+  "loch modan",
+  "mountaineer",
+  "rugelfuss",
+  "thelsamar",
+  "trogg threat",
+  "valley of kings"
+ ],
+ "related": [
+  "subzone:valley-of-kings",
+  "zone:lochmodan",
+  "quest:217",
+  "quest:267",
+  "npc:captured-mountaineer",
+  "subzone:thelsamar",
+  "topic:trogg",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Captain Rugelfuss"
+ ]
+}

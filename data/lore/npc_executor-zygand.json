@@ -1,0 +1,113 @@
+{
+ "key": "npc:executor-zygand",
+ "type": "npc",
+ "name": "Executor Zygand",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Executor Zygand",
+  "refs": 11
+ },
+ "summary": "Executor Zygand is a senior Forsaken commander stationed at the town hall in Brill, overseeing defensive and military operations across central Tirisfal Glades. Reporting directly to the Undercity's high command, he coordinates the purge of Scarlet Crusade forces pressing into Forsaken territory.",
+ "sections": [
+  {
+   "title": "Command in Brill",
+   "body": "Positioned at the administrative heart of Brill, Executor Zygand coordinates regional defense for the Forsaken after their initial awakening in Deathknell. Serving as the direct superior to regional officers like Executor Arren and field sentries such as Deathguard Linnea, Zygand synthesizes scout intelligence and dispatches able recruits to safeguard Lordaeron's borders from encroachment.",
+   "spoiler": 0
+  },
+  {
+   "title": "The War on the Crusade",
+   "body": "Zygand's primary military concern is the fanatic presence of the Scarlet Crusade, which infests outposts across Tirisfal Glades. Under his direction, agents are sent systematically to strike at Crusader scouts, encampments, and forward bases, ensuring the zealots never muster sufficient strength to threaten the approaches to the Undercity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Executor Zygand?",
+   "aliases": [
+    "zygand",
+    "who is executor zygand",
+    "zygand role"
+   ],
+   "answer": "Executor Zygand is a senior Forsaken officer operating out of Brill in Tirisfal Glades. He commands local Deathguard garrisons, receives tactical reports from lower-ranking officers, and directs military campaigns against local threats."
+  },
+  {
+   "q": "Where can I find Executor Zygand?",
+   "aliases": [
+    "zygand location",
+    "where is zygand",
+    "executor zygand map"
+   ],
+   "answer": "He is located inside or near the main town hall of Brill, the central Forsaken settlement in Tirisfal Glades situated just north of the Undercity."
+  },
+  {
+   "q": "What is Zygand's main goal in Tirisfal Glades?",
+   "aliases": [
+    "zygand quest goal",
+    "why fight crusade",
+    "zygand purpose"
+   ],
+   "answer": "His primary focus is orchestrating the regional war against the Scarlet Crusade. He monitors the zealots' movements throughout Tirisfal and issues orders to dismantle their encampments and leadership before they can march on the Undercity."
+  },
+  {
+   "q": "Who reports to Executor Zygand?",
+   "aliases": [
+    "zygand subordinates",
+    "who serves zygand",
+    "arren superior"
+   ],
+   "answer": "Zygand acts as the superior officer to Executor Arren, who directs initial recruits in Deathknell, as well as field sentries like Deathguard Linnea patrolling the main crossroads of Tirisfal Glades."
+  },
+  {
+   "q": "Does Executor Zygand handle rogue undead threats?",
+   "aliases": [
+    "maggot eye",
+    "zygand bounties",
+    "wanted quests"
+   ],
+   "answer": "Yes. In addition to fighting the Scarlet Crusade, Zygand issues regional bounties to eliminate feral undead and dangerous rogue scavengers, such as the mindless ghoul Maggot Eye, that endanger travel through the glades."
+  },
+  {
+   "q": "What rank does an 'Executor' hold among the Forsaken?",
+   "aliases": [
+    "what is an executor",
+    "executor rank",
+    "forsaken executor"
+   ],
+   "answer": "An Executor serves as a regional governor and military commander within the Forsaken hierarchy. They manage settlements, command local units of the Deathguard, and enforce Queen Sylvanas's rule across Lordaeron's contested regions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For Forsaken venturing out of Deathknell, Executor Zygand represents the wider military authority of the Undercity, welcoming new citizens into active service against their bitterest enemies."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Travelers from Kalimdor visiting Tirisfal Glades see in Zygand the structured, disciplined military leadership driving the Forsaken's struggle to secure Lordaeron."
+  }
+ ],
+ "keywords": [
+  "arren",
+  "brill",
+  "deathguard",
+  "executor",
+  "maggot eye",
+  "scarlet crusade",
+  "tirisfal",
+  "zygand"
+ ],
+ "related": [
+  "subzone:brill",
+  "zone:tirisfal",
+  "quest:370",
+  "npc:executor-arren",
+  "npc:deathguard-linnea",
+  "quest:398",
+  "topic:scarlet-crusade",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Executor Zygand"
+ ]
+}

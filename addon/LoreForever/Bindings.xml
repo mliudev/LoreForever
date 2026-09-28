@@ -1,0 +1,8 @@
+<Bindings>
+  <Binding name="LOREFOREVER_TOGGLE" header="LOREFOREVER" category="ADDONS">
+    LoreForever_Toggle()
+  </Binding>
+  <Binding name="LOREFOREVER_NARRATE" category="ADDONS">
+    LoreForever_Narrate()
+  </Binding>
+</Bindings>

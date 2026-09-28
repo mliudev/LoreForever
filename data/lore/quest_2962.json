@@ -1,0 +1,125 @@
+{
+ "key": "quest:2962",
+ "type": "quest",
+ "name": "The Only Cure is More Green Glow",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2962
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Ozzie Togglevolt",
+  "end": "",
+  "previous": "Gnogaine",
+  "next": null,
+  "wiki": "The Only Cure is More Green Glow",
+  "chain": [
+   "The Day After",
+   "Gnogaine",
+   "The Only Cure is More Green Glow"
+  ]
+ },
+ "summary": "Following earlier inconclusive tests on surface troggs, Ozzie Togglevolt tasks adventurers with retrieving pure, high-potency radioactive fallout directly from inside Gnomeregan. His ultimate goal is to understand the toxic radiation that devastated his people and concoct a cure for the afflicted leper gnomes.",
+ "sections": [
+  {
+   "title": "A Pure Sample",
+   "body": "Ozzie Togglevolt's preliminary trials outside the city were a failure. The irradiated troggs roaming Dun Morogh carried insufficient and impure residue, leaving his lab in Kharanos with more questions than answers. To engineer a true remedy for leper gnomes, Togglevolt concludes that scientific integrity demands a fresh, concentrated sample directly from deep within the city's toxic belly.",
+   "spoiler": 0
+  },
+  {
+   "title": "Straight from the Tap",
+   "body": "Obtaining fallout of sufficient potency means braving Gnomeregan itself. The lower depths around the Hall of Gears and Clean Zone teem with irradiated horrors, lurkers, and slimes spawned by the disastrous venting of radioactive waste. Extracting this unstable ooze into a heavy leaden phial is hazardous work: the fallout rapidly degrades, making containment extremely volatile and time-sensitive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Ozzie need radioactive fallout?",
+   "aliases": [
+    "ozzie togglevolt cure",
+    "why get green glow",
+    "cure for leper gnomes"
+   ],
+   "answer": "Ozzie Togglevolt is trying to synthesize a cure for the leper gnomes, whose minds and bodies were ruined by the fallout released during the fall of Gnomeregan. He believes understanding the undiluted poison is the first step toward reversing its dreadful effects."
+  },
+  {
+   "q": "Where does the player find the fallout?",
+   "aliases": [
+    "where is high potency radioactive fallout",
+    "fallout location gnomeregan"
+   ],
+   "answer": "The fallout must be gathered from living irradiated horrors, lurkers, and slimes found inside the depths of Gnomeregan, particularly in the lower levels around the Hall of Gears and past the Clean Zone."
+  },
+  {
+   "q": "Why were the surface trogg samples rejected?",
+   "aliases": [
+    "why not troggs",
+    "what was wrong with gnogaine"
+   ],
+   "answer": "The troggs wandering outside Gnomeregan did not carry enough concentrated contamination. Their samples were too weak and impure to serve as reliable research material for Ozzie's cure experiments."
+  },
+  {
+   "q": "Why is the fallout on a time limit?",
+   "aliases": [
+    "why does fallout expire",
+    "fallout duration"
+   ],
+   "answer": "The fallout is highly unstable and active. Even inside a leaden collection phial, the volatile radiation breaks down rapidly, forcing researchers to return it to the laboratory in Kharanos before it loses its potency."
+  },
+  {
+   "q": "Who are the leper gnomes Ozzie hopes to help?",
+   "aliases": [
+    "leper gnomes lore",
+    "what are leper gnomes"
+   ],
+   "answer": "Leper gnomes are former citizens of Gnomeregan who were trapped inside when the radiation valves opened to combat the troggs. Instead of dying, they mutated into sickened, deranged survivors hostile to their former kin."
+  },
+  {
+   "q": "Who assigns this task?",
+   "aliases": [
+    "who gives the quest",
+    "ozzie togglevolt location"
+   ],
+   "answer": "The quest is assigned by Ozzie Togglevolt, a gnome researcher stationed out of Kharanos in Dun Morogh who is dedicated to remedying the aftermath of Gnomeregan's catastrophe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every gnome carries the grief of their lost home. Helping Ozzie test whether the horrific mutation can be undone strikes at the heart of their hopes to redeem their fallen kin."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The volatile nature of radiation containment requires sturdy lead shielding and precise instruments, illustrating the catastrophic consequences when engineering fails."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stabilizing Dun Morogh and reclaiming Gnomeregan requires understanding the lethal hazards still corrupting Ironforge's doorstep."
+  }
+ ],
+ "keywords": [
+  "gnogaine",
+  "gnomeregan",
+  "hall of gears",
+  "kharanos",
+  "leper gnome",
+  "ozzie togglevolt",
+  "radiation",
+  "radioactive fallout"
+ ],
+ "related": [
+  "quest:2926",
+  "quest:2927",
+  "npc:ozzie-togglevolt",
+  "zone:gnomeregan",
+  "topic:leper-gnome",
+  "subzone:hall-of-gears",
+  "subzone:clean-zone",
+  "subzone:kharanos"
+ ],
+ "attribution": [
+  "The Only Cure is More Green Glow"
+ ]
+}

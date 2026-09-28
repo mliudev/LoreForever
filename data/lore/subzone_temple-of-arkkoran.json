@@ -1,0 +1,76 @@
+{
+ "key": "subzone:temple-of-arkkoran",
+ "type": "subzone",
+ "name": "Temple of Arkkoran",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Temple of Arkkoran"
+ },
+ "summary": "The Temple of Arkkoran is an ancient night elven ruin resting on the northeastern cliffs of Azshara above the Shattered Strand. Originally built in honor of Elune, the crumbling structure has since been claimed by the towering sea giant Arkkoroc and his aquatic thralls.",
+ "sections": [
+  {
+   "title": "A Consecrated Ruin Claimed by the Sea",
+   "body": "Like many of the grand ruins dotting Azshara's coast, the Temple of Arkkoran was once a sanctum dedicated to the moon goddess Elune before the Sundering shattered the ancient night elf empire. Today, its weathered marble steps and broken colonnades are overrun by tidal monstrosities. The sea giant Arkkoroc presides over the temple's highest level, surrounded by loyal makrura and vicious murlocs who violently defend the surrounding coastline from any land-dwelling intruders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was the Temple of Arkkoran originally built for?",
+   "aliases": [
+    "temple of arkkoran history",
+    "who built temple of arkkoran",
+    "what is this temple"
+   ],
+   "answer": "Long before it became known by its current name, the structure was a night elven temple dedicated to the worship of Elune. It fell into ruins during the Great Sundering alongside the rest of the surrounding coastal civilization."
+  },
+  {
+   "q": "Who is Arkkoroc?",
+   "aliases": [
+    "who is arkkoroc",
+    "arkkoroc sea giant",
+    "who rules arkkoran"
+   ],
+   "answer": "Arkkoroc is a powerful sea giant who has made this former night elven temple his home. He resides on the highest platform of the ruins, commanding the surrounding shore and the coastal beasts that inhabit it."
+  },
+  {
+   "q": "What creatures guard the temple grounds?",
+   "aliases": [
+    "temple of arkkoran mobs",
+    "what lives at temple of arkkoran",
+    "enemies at temple of arkkoran"
+   ],
+   "answer": "The temple and its surrounding terraces are patrolled by aggressive makrura and murlocs, including Arkkoran clackers, pincers, and muckdwellers. The surrounding beaches of the Shattered Strand are also home to hydras and other sea giants."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Seeing a sacred house of Elune degraded into a nesting ground for makrura and sea giants is a bitter reminder of the splendor lost ten thousand years ago."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Though ancient symbols of Elune linger among the weathered stones, no divine communion remains within these sea-battered ruins."
+  }
+ ],
+ "keywords": [
+  "arkkoroc",
+  "azshara",
+  "elune",
+  "makrura",
+  "murloc",
+  "sea giant",
+  "shattered strand",
+  "temple of arkkoran"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:shattered-strand",
+  "topic:elune",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Temple of Arkkoran"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:stratholme-service-entrance",
+ "type": "subzone",
+ "name": "Stratholme Service Entrance",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Stratholme Service Entrance"
+ },
+ "summary": "The Stratholme Service Entrance is a fortified rear gateway located at Eastwall Gate in the northern Eastern Plaguelands. It provides direct, covert access into the Scourge-controlled eastern quarter of the burning city, bypassing the grand front gates.",
+ "sections": [
+  {
+   "title": "A Breached Bastion",
+   "body": "While the monumental Main Gate of Stratholme opens into King's Square and the crusader-held districts, the Service Entrance breaches the city's eastern fortification at Eastwall Gate. In Lordaeron's prime, this passage allowed supply convoys and municipal workers into the city's utility corridors without disrupting traffic along the main boulevards. Today, it leads directly into the corrupted heart of the metropolis: Elders' Square and the blighted pathways leading toward Baron Rivendare's slaughterhouses.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scourge Redoubt",
+   "body": "Venturing through the service portal avoids the Scarlet Crusade garrisons near the front entrance, plunging straight into Scourge territory. The surrounding alleys crawl with gargoyles, crypt fiends, and cultists guarding the dread ziggurats. For the Argent Dawn and daring adventurers seeking to strike at the ruling death knight directly, this hidden iron gate serves as the primary staging point for surgical strikes against the Lich King's commanders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Stratholme Service Entrance located?",
+   "aliases": [
+    "service entrance location",
+    "where is back gate",
+    "strat side entrance map",
+    "how to find strat back door"
+   ],
+   "answer": "The entrance is situated at Eastwall Gate, along the northern mountains of the Eastern Plaguelands, just east of the main ruins of Stratholme. It is tucked into a stone archway along the fortified wall."
+  },
+  {
+   "q": "How does this entrance differ from the Stratholme Main Gate?",
+   "aliases": [
+    "back door vs front door",
+    "service entrance difference",
+    "which strat entrance"
+   ],
+   "answer": "The Main Gate leads directly into the living and crusader-controlled ruins around King's Square, whereas the Service Entrance deposits you into Elders' Square, placing you on the doorstep of the undead-dominated wing and the road toward Slaughter Square."
+  },
+  {
+   "q": "Why is it called the Service Entrance?",
+   "aliases": [
+    "why service entrance",
+    "service gate lore"
+   ],
+   "answer": "Before Stratholme fell, it was the commercial and logistical postern gate used by workers, couriers, and supply wagons to deliver goods into the city's infrastructure without congesting the monumental main plazas."
+  },
+  {
+   "q": "Who controls this part of the city?",
+   "aliases": [
+    "who controls back gate",
+    "service entrance bosses",
+    "undead side leader"
+   ],
+   "answer": "The district beyond the gate is firmly held by the Scourge, overseen by Baron Rivendare and his acolytes, who maintain the ziggurats anchoring their dark magic within Elders' Square."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For knights of the Light, this threshold leads straight into the defiled necromantic apparatus of the Scourge, offering a direct path to purge Rivendare and reclaim the holy city's fallen honor."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The service gate embodies classic tactical infiltration, allowing adventurers to bypass fortified battle lines and slip quietly into the city's utility corridors."
+  }
+ ],
+ "keywords": [
+  "back door",
+  "baron rivendare",
+  "eastern plaguelands",
+  "eastwall gate",
+  "elders square",
+  "scourge",
+  "service entrance",
+  "stratholme"
+ ],
+ "related": [
+  "subzone:stratholme",
+  "subzone:eastwall-gate",
+  "subzone:stratholme-main-gate",
+  "zone:easternplaguelands",
+  "topic:scourge",
+  "topic:lich-king",
+  "topic:scarlet-crusade",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Stratholme Service Entrance"
+ ]
+}

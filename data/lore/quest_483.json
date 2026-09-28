@@ -1,0 +1,124 @@
+{
+ "key": "quest:483",
+ "type": "quest",
+ "name": "The Relics of Wakening",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   483
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Athridas Bearmantle",
+  "end": "",
+  "previous": "Gnarlpine Corruption",
+  "next": "Ursal the Mauler",
+  "wiki": "The Relics of Wakening",
+  "chain": []
+ },
+ "summary": "The Relics of Wakening is an urgent rescue mission to save the Druids of the Talon slumbering within the Ban'ethil Barrow Den. Corrupted Gnarlpine furbolgs have overrun the sacred mounds, endangering the dormant druids whose spirits wander the Emerald Dream. Without these four specific ritual artifacts, the sleepers cannot safely be roused back into the waking world.",
+ "sections": [
+  {
+   "title": "A Sanctum Defiled",
+   "body": "Barrow dens serve as the secluded sanctuaries where night elf druids lie in deep hibernation while walking the Emerald Dream. West of Dolanaar, the winding corridors of the Ban'ethil Barrow Den have fallen beneath a swarm of corrupted Gnarlpine furbolgs. Driven to madness by the foul taint spreading across Teldrassil, these former allies desecrated the sanctum, threatening the defenseless sleepers who remain completely unaware of the danger threatening their physical bodies.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Tools of Return",
+   "body": "A druid entering the Dream cannot simply be shaken awake; jarring their slumber without proper spiritual anchor can shatter their mind or leave their spirit stranded forever. To perform the delicate awakening ceremony, Athridas Bearmantle requires four sacred relics sealed in chests across the den: the Raven Claw Talisman, the Black Feather Quill, the Sapphire of Sky, and the Rune of Nesting. Recovering them is the only hope of stirring the Druids of the Talon before the Gnarlpine butcher or abduct them completely.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why can't the druids just be shaken awake?",
+   "aliases": [
+    "why need relics to wake druids",
+    "why wake ritual",
+    "why are relics necessary"
+   ],
+   "answer": "Druidic hibernation is a deeply delicate trance that bridges the mortal shell with the Emerald Dream. Rouse them improperly or without the protective rites of the Relics of Wakening, and their consciousness risks being stranded in the Dream forever, severed from their physical form."
+  },
+  {
+   "q": "Who are the Druids of the Talon?",
+   "aliases": [
+    "druids of the talon",
+    "talon druids",
+    "who sleeps in ban'ethil"
+   ],
+   "answer": "They are night elf druids attuned to the powers of Aviana, capable of taking the form of storm crows and commanding the winds. Many entered deep contemplation within the barrow dens of Teldrassil to commune with nature spirits and heal the newborn tree."
+  },
+  {
+   "q": "Why are the Gnarlpine furbolgs attacking the barrow den?",
+   "aliases": [
+    "why are furbolgs in the barrow den",
+    "gnarlpine attacks",
+    "why furbolgs aggressive"
+   ],
+   "answer": "The Gnarlpine tribe has fallen victim to a dark corruption that is steadily poisoning Teldrassil's wildlife and forests. Once peaceful neighbors to the night elves, their corrupted minds have turned violent, driving them to swarm ancient sanctuaries like Ban'ethil."
+  },
+  {
+   "q": "What are the four relics being recovered?",
+   "aliases": [
+    "which relics",
+    "relics needed",
+    "names of relics"
+   ],
+   "answer": "Athridas Bearmantle tasks adventurers with gathering the Raven Claw Talisman, the Black Feather Quill, the Sapphire of Sky, and the Rune of Nesting, each stored in a sacred chest inside Ban'ethil Barrow Den."
+  },
+  {
+   "q": "Who is Athridas Bearmantle?",
+   "aliases": [
+    "athridas bearmantle",
+    "quest giver dolanaar"
+   ],
+   "answer": "Athridas is a night elf stationed at Dolanaar who monitors the spiritual health of the surrounding wilds and organizes efforts to counter the sudden corruption afflicting the Gnarlpine furbolgs and the barrow dens."
+  },
+  {
+   "q": "Where is Ban'ethil Barrow Den located?",
+   "aliases": [
+    "ban'ethil location",
+    "where is banethil",
+    "where is the den"
+   ],
+   "answer": "Ban'ethil Barrow Den is tunneled into the hills directly west of the settlement of Dolanaar on the boughs of Teldrassil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For young druids, the assault on Ban'ethil is a direct strike against their Cenarion brethren. Securing the relics demonstrates your duty to preserve the sacred bridge between mortal soil and the Emerald Dream."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of a barrow den on the boughs of Teldrassil itself underscores the unsettling speed with which corruption is warping the Gnarlpine tribe and unsettling the balance of your new home."
+  }
+ ],
+ "keywords": [
+  "athridas bearmantle",
+  "ban'ethil barrow den",
+  "black feather quill",
+  "dolanaar",
+  "druids of the talon",
+  "emerald dream",
+  "gnarlpine",
+  "raven claw talisman",
+  "relics of wakening",
+  "rune of nesting",
+  "sapphire of sky"
+ ],
+ "related": [
+  "npc:athridas-bearmantle",
+  "subzone:ban-ethil-barrow-den",
+  "subzone:dolanaar",
+  "quest:476",
+  "quest:486",
+  "quest:2541",
+  "topic:emerald-dream",
+  "topic:druid"
+ ],
+ "attribution": [
+  "The Relics of Wakening"
+ ]
+}

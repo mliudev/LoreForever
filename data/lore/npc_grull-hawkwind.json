@@ -1,0 +1,79 @@
+{
+ "key": "npc:grull-hawkwind",
+ "type": "npc",
+ "name": "Grull Hawkwind",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Grull Hawkwind",
+  "refs": 2
+ },
+ "summary": "Grull Hawkwind is a young tauren brave stationed at Camp Narache on the Red Cloud Mesa in Mulgore. As the son of Chief Hawkwind, he helps guide novice tauren taking their very first steps into the world. He directs young hunters and warriors through their earliest trials to test their resolve and honor their ancestors.",
+ "sections": [
+  {
+   "title": "A Chieftain's Son",
+   "body": "Standing proudly beside the braves and elders of Camp Narache, Grull Hawkwind bears both the proud lineage of Chief Hawkwind and the responsibility of preparing the tribe's youth. He serves as an initial mentor for new arrivals on the Red Cloud Mesa, assessing their readiness to serve the Shu'halo. By assigning trials that test stamina, tracking, and survival against local beasts such as plainstriders and mountain cougars, Grull ensures that young tauren understand that balance and respect for nature are foundational to life in Mulgore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Grull Hawkwind?",
+   "aliases": [
+    "grull hawkwind role",
+    "who is grull",
+    "grull hawkwind lore"
+   ],
+   "answer": "Grull Hawkwind is a tauren quest giver residing in Camp Narache on the Red Cloud Mesa. He is the son of Chief Hawkwind, the leader of the settlement, and acts as one of the primary mentors for young tauren beginning their journey."
+  },
+  {
+   "q": "What role does Grull Hawkwind play for young adventurers?",
+   "aliases": [
+    "grull quests",
+    "what does grull do",
+    "grull hawkwind purpose"
+   ],
+   "answer": "Grull assesses the basic training of novice tauren, receiving introductory notes from tribal elders and tasking youth with their opening trials of hunting and survival in the surrounding plains."
+  },
+  {
+   "q": "Is Grull related to the camp's leadership?",
+   "aliases": [
+    "chief hawkwind son",
+    "grull hawkwind family",
+    "is grull related to the chief"
+   ],
+   "answer": "Yes, Grull is the son of Chief Hawkwind, the chieftain of Camp Narache. He upholds his father's traditions and helps prepare the camp's defenders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren stepping out onto Red Cloud Mesa, Grull Hawkwind is often the very first brave to test their mettle and introduce them to the traditions of the Shu'halo."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Grull provides novice hunters with fundamental early tasks, testing their patience and skill against the fauna of Mulgore."
+  }
+ ],
+ "keywords": [
+  "camp narache",
+  "chief hawkwind",
+  "grull hawkwind",
+  "mulgore",
+  "red cloud mesa",
+  "rite of strength",
+  "tauren"
+ ],
+ "related": [
+  "npc:chief-hawkwind",
+  "subzone:camp-narache",
+  "zone:mulgore",
+  "topic:tauren",
+  "quest:757",
+  "quest:747",
+  "quest:780"
+ ],
+ "attribution": [
+  "Grull Hawkwind"
+ ]
+}

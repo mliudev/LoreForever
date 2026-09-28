@@ -1,0 +1,76 @@
+{
+ "key": "npc:elder-bronzebeard",
+ "type": "npc",
+ "name": "Elder Bronzebeard",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Elder Bronzebeard",
+  "refs": 1
+ },
+ "summary": "Elder Bronzebeard is an ancient spirit of the earthen who appears in the Mystic Ward of Ironforge during the Lunar Festival. Bearing the name of the clan that rules the city, his spectral presence serves as a bridge between modern dwarves and their stony stone-hewn ancestors.",
+ "sections": [
+  {
+   "title": "A Progenitor in the Mystic Ward",
+   "body": "Appearing near the pool in Ironforge's Mystic Ward, Elder Bronzebeard does not wear the flesh of modern dwarves; instead, his ghostly form is that of an earthen, the ancient race forged from living stone by the Titans. Dwarven scholars and explorers are only beginning to uncover their origins through excavations across Khaz Modan and beyond, making this spirit's presence a striking living relic. His very name and visage suggest he is a direct ancestor of the Bronzebeard clan, standing silent witness to how far his stoneborn progeny have evolved.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Elder Bronzebeard look like an earthen instead of a regular dwarf?",
+   "aliases": [
+    "why is elder bronzebeard stone",
+    "is elder bronzebeard earthen",
+    "elder bronzebeard race"
+   ],
+   "answer": "Dwarves are the descendants of the earthen, ancient beings crafted from stone by the Titans who later succumbed to the Curse of Flesh. Because Elder Bronzebeard lived in the distant past before this transformation fully took hold, his spirit retains the stony form of his earthen era."
+  },
+  {
+   "q": "Is he related to King Magni Bronzebeard?",
+   "aliases": [
+    "is he magni's ancestor",
+    "magni bronzebeard relative",
+    "bronzebeard family tree"
+   ],
+   "answer": "While the exact branches of ancient family trees are lost to history, his name and presence in the dwarven capital strongly indicate he is a venerated progenitor of the Bronzebeard clan, the lineage that currently rules Ironforge under King Magni."
+  },
+  {
+   "q": "Why is Elder Bronzebeard in Ironforge?",
+   "aliases": [
+    "what is elder bronzebeard doing here",
+    "where is elder bronzebeard",
+    "mystic ward ghost"
+   ],
+   "answer": "During the Lunar Festival, spirits of the elders materialize throughout Azeroth to bestow wisdom and blessings upon travelers. Elder Bronzebeard manifests in the Mystic Ward of Ironforge, resting near the tranquil pool where dwarven mages and scholars gather."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, meeting Elder Bronzebeard offers a rare, direct look at their earthen ancestry, validating the historical findings being uncovered by the Explorers' League."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance pilgrims visiting Ironforge during the Lunar Festival find an elder who represents the very foundations of the dwarven kingdom."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "earthen",
+  "elder bronzebeard",
+  "ironforge",
+  "lunar festival",
+  "magni",
+  "mystic ward"
+ ],
+ "related": [
+  "zone:ironforge",
+  "subzone:mystic-ward",
+  "topic:bronzebeard-clan",
+  "quest:8866"
+ ],
+ "attribution": [
+  "Elder Bronzebeard"
+ ]
+}

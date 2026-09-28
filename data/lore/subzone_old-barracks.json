@@ -1,0 +1,81 @@
+{
+ "key": "subzone:old-barracks",
+ "type": "subzone",
+ "name": "Old Barracks",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Old Barracks"
+ },
+ "summary": "The Old Barracks refers to a secluded military structure set behind the tranquil Park in Stormwind City. Overlooking the bluffs at the city's western edge, it stands in quiet contrast to the bustling military quarters of the Command Center.",
+ "sections": [
+  {
+   "title": "A Quiet Outpost",
+   "body": "Tucked away along the western perimeter of Stormwind City, the Old Barracks sits in the shadow behind the verdant Park. While the city's active military presence is focused primarily in the valley of Old Town and the Command Center, this blue-roofed redoubt remains a quiet, closed-off installation. Guarding the cliffs and maintaining an eye on the coastal approaches, it stands undisturbed while druids, night elven travelers, and wandering citizens seek peace among the neighboring groves.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Old Barracks located?",
+   "aliases": [
+    "where are old barracks",
+    "old barracks location",
+    "how to get to old barracks"
+   ],
+   "answer": "The Old Barracks sits near the northwestern edge of Stormwind City, tucked away behind the groves of the Park and overlooking the coastal cliffs."
+  },
+  {
+   "q": "Can you go inside the Old Barracks?",
+   "aliases": [
+    "can you enter old barracks",
+    "is old barracks open",
+    "old barracks door"
+   ],
+   "answer": "No. The building is closed and inaccessible, functioning as part of the city's background defenses rather than an open public hall."
+  },
+  {
+   "q": "Why is it called the Old Barracks if the main barracks are in Old Town?",
+   "aliases": [
+    "why old barracks",
+    "old barracks name meaning"
+   ],
+   "answer": "While the active army and guard center operate out of Old Town's Command Center, the Old Barracks likely represents an older or disused military fixture tucked away on the bluffs."
+  },
+  {
+   "q": "Are there any trainers or quest givers here?",
+   "aliases": [
+    "old barracks npcs",
+    "trainers at old barracks"
+   ],
+   "answer": "No, the structure has no active vendors or trainers. The nearby Park houses night elven and druidic emissaries, while the military trainers of the city remain in Old Town."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Stormwind's active soldiers muster at the Command Center in Old Town, leaving this western redoubt quiet and shuttered."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Positioned above the western bluffs, the facility marks the outer boundary where the city's stone walls meet the sea."
+  }
+ ],
+ "keywords": [
+  "barracks",
+  "caretaker folsom",
+  "old barracks",
+  "park",
+  "stormwind",
+  "stormwind guard"
+ ],
+ "related": [
+  "subzone:park",
+  "zone:stormwind",
+  "topic:stormwind-guard",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Old Barracks"
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "key": "topic:old-god",
+ "type": "topic",
+ "name": "Old God",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Old God"
+ },
+ "summary": "The Old Gods are colossal, parasitic horrors of flesh and madness that plummeted from the cosmos during Azeroth's primordial dawn. Though vanquished and bound deep beneath the crust by the Titans, their ancient whispers still corrode mortal minds, twist nature, and drive doomsday cults to unearth their prisons.",
+ "sections": [
+  {
+   "title": "The Black Empire",
+   "body": "Long before mortal records began, Azeroth was dominated by the Black Empire\u2014a terrifying civilization ruled by the Old Gods: Y'Shaarj, C'Thun, Yogg-Saron, and N'Zoth. These colossal mountains of chaotic flesh embedded themselves into the planet's crust, commanding elemental armies and insectoid swarms. When the Titans arrived, their armies fought an apocalyptic war to uproot them. However, when the Titan Aman'Thul ripped Y'Shaarj from the surface, it tore a catastrophic wound into the world's crust, causing the planet's arcane lifeblood to hemorrhage. Realizing that slaying the entities outright would destroy Azeroth itself, the Titans chose to bind the surviving Old Gods in vast, subterranean prisons to keep them dormant forever.",
+   "spoiler": 0
+  },
+  {
+   "title": "Whispers from the Deep",
+   "body": "Even chained beneath miles of stone and enchanted wards, the Old Gods have never truly slept. Their psychic malice seeps continually into the world, corrupting the vulnerable. It was their collective malice that slowly drove Neltharion the Earth-Warder mad during the War of the Ancients, twisting the noble dragon into Deathwing. When Queen Azshara and her Highborne drowned beneath the raging waters of the Great Sundering, an Old God answered their desperation, transforming them into the serpentine naga. Furthermore, their insidious taint has breached the Emerald Dream, twisting druidic realms into the creeping terror known as the Emerald Nightmare.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stirrings in the Sands",
+   "body": "In the modern era, mortal civilizations treat the Old Gods as myth, yet their prisons are fracturing. Nearly a millennium ago, the insectoid qiraji swarmed out of the southern desert of Silithus in the War of the Shifting Sands, serving their master C'Thun until the night elves and dragons sealed them behind the Scarab Wall. Today, ominous cults like the Twilight's Hammer gather in dark corners across Kalimdor and the Eastern Kingdoms, performing foul rites to shatter the Titans' bindings and hasten the end of all mortal life.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What exactly are the Old Gods?",
+   "aliases": [
+    "what is an old god",
+    "old gods lore",
+    "who are the old gods"
+   ],
+   "answer": "They are ancient, eldritch monstrosities of flesh, tentacles, and void energy that crashed onto Azeroth eons ago. They feed on chaos and seek to corrupt the nascent world, driving mortals and elementals toward madness."
+  },
+  {
+   "q": "How many Old Gods were there on Azeroth?",
+   "aliases": [
+    "how many old gods",
+    "list of old gods",
+    "names of old gods"
+   ],
+   "answer": "Four great Old Gods ruled primordial Azeroth: Y'Shaarj, C'Thun, Yogg-Saron, and N'Zoth. Y'Shaarj was ripped apart by the Titans, while the remaining three were chained in subterranean vaults across the globe."
+  },
+  {
+   "q": "Why didn't the Titans just kill them all?",
+   "aliases": [
+    "why didn't titans kill old gods",
+    "why imprison old gods",
+    "why spare old gods"
+   ],
+   "answer": "The Old Gods burrowed so deeply into Azeroth's bedrock that ripping them out proved catastrophic. When Aman'Thul wrenched Y'Shaarj out, it tore an immense, bleeding wound in the planet's crust. Fearing the world's total destruction, the Titans built prisons instead."
+  },
+  {
+   "q": "Are the Old Gods connected to Deathwing and the naga?",
+   "aliases": [
+    "did old gods make naga",
+    "old gods deathwing",
+    "who corrupted neltharion"
+   ],
+   "answer": "Yes. The Old Gods whispered into the mind of Neltharion the Earth-Warder until he snapped and became Deathwing. When Queen Azshara and her Highborne sank during the Great Sundering, an Old God answered their cries and remade them into the naga."
+  },
+  {
+   "q": "Who are the Twilight's Hammer?",
+   "aliases": [
+    "twilights hammer cult",
+    "who worships old gods",
+    "old god cultists"
+   ],
+   "answer": "The Twilight's Hammer is a nihilistic, apocalyptic cult dedicated to serving the Old Gods. They seek to unbind the imprisoned entities, unleash the elemental lords, and plunge the world into total ruin."
+  },
+  {
+   "q": "Where are the Old Gods imprisoned?",
+   "aliases": [
+    "where are old gods",
+    "old god locations",
+    "c'thun location"
+   ],
+   "answer": "Their known prisons are scattered across the world, entombed deep beneath Titan ruins. For instance, C'Thun lies trapped beneath Ahn'Qiraj in Silithus, while others were bound beneath the northern reaches and deep subterranean foundations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The kaldorei fought the qiraji minion hordes in the War of the Shifting Sands, sealing Silithus behind the Scarab Wall, while their druids now battle the Old Gods' taint creeping into the Emerald Dream."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests who delve into shadow magic often brush against the cold, maddening whispers of the Void, a dangerous power closely tied to the ancient horrors chained beneath the earth."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold a sacred duty to cleanse the Emerald Nightmare, an unnatural corruption born from the Old Gods' subterranean tendrils piercing the Dream."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Though warlocks primarily draw from fel magic and demons of the Burning Legion, some foolishly seek the forbidden curses and sacrificial rites left behind by the Old Gods' servants."
+  }
+ ],
+ "keywords": [
+  "ahn'qiraj",
+  "black empire",
+  "c'thun",
+  "n'zoth",
+  "old god",
+  "qiraji",
+  "silithus",
+  "twilight's hammer",
+  "void",
+  "y'shaarj",
+  "yogg-saron"
+ ],
+ "related": [
+  "subzone:scarab-wall",
+  "zone:silithus",
+  "topic:twilight-s-hammer",
+  "topic:titan",
+  "topic:emerald-dream",
+  "topic:naga",
+  "npc:deathwing",
+  "topic:war-of-the-ancients"
+ ],
+ "attribution": [
+  "Old God"
+ ]
+}

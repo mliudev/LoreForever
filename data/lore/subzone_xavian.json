@@ -1,0 +1,93 @@
+{
+ "key": "subzone:xavian",
+ "type": "subzone",
+ "name": "Xavian",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Xavian"
+ },
+ "summary": "Xavian is an ancient ruined night elf temple complex in northeastern Ashenvale, now overrun and claimed by the satyrs. Serving as the primary seat of satyr influence in the forest, the ruin is foul with demonic corruption and dark rites directed against the woodland.",
+ "sections": [
+  {
+   "title": "A Seat of Shadow",
+   "body": "Tucked away in the northeastern hills of Ashenvale, west of Forest Song and north of Satyrnaar, Xavian stands as the foremost bastion of satyr power in the region. Once a sacred elven temple, its stone arches and terraces have been desecrated by followers of the Burning Legion. Leaders among the satyrs, including Prince Raze and Geltharis, oversee their kin from these ruins. They perform defiling rituals across the grounds, even utilizing stolen Warsong oil to further blight the sacred woodland. The area takes its name from Xavius, the highborne councilor who became the first satyr during the War of the Ancients after failing Sargeras.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fallen Vanguard",
+   "body": "The corruption radiating from Xavian has not gone unchallenged, but confronting the satyrs comes at a grim price. Sentinels and woodland guardians keep a watchful eye on the stronghold, knowing its strategic malice eclipses nearby enclaves like Night Run. Recently, dryad defenders attempted to infiltrate the ruins to recover the sacred Branch of Cenarius, only to suffer grievous losses. Adventurers who breach the outer terraces can find the dying dryad Anilia, struck down while attempting to halt the defilers from using holy relics in their dark incantations.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this place named Xavian?",
+   "aliases": [
+    "origin of xavian",
+    "who is xavian named after",
+    "xavius xavian"
+   ],
+   "answer": "The stronghold is named in honor of Lord Xavius, the highborne courtier of Queen Azshara who helped usher the Burning Legion into Azeroth during the War of the Ancients. After displeasing Sargeras, Xavius was remade into the very first satyr, a demonic curse that spread to others of his kind."
+  },
+  {
+   "q": "What are the satyrs doing here?",
+   "aliases": [
+    "what are they doing in xavian",
+    "xavian satyr rituals"
+   ],
+   "answer": "The satyrs use Xavian as their primary command center in Ashenvale. They conduct dark rituals to spread demonic corruption throughout the ancient forest, utilizing defiled sacred relics like the stolen Branch of Cenarius as well as machinery oil pilfered from the Warsong orcs."
+  },
+  {
+   "q": "Who is the dying dryad lying on the ground?",
+   "aliases": [
+    "injured dryad xavian",
+    "who is anilia",
+    "dryad in xavian"
+   ],
+   "answer": "Her name is Anilia. She was part of a dryad effort to recover the stolen Branch of Cenarius from the satyrs. She was mortally wounded during the skirmish and lies among the ruins, pleading for someone to reclaim the sacred branch before it is completely corrupted."
+  },
+  {
+   "q": "How does Xavian differ from Satyrnaar or Night Run?",
+   "aliases": [
+    "satyrnaar vs xavian",
+    "other satyr camps",
+    "why is xavian important"
+   ],
+   "answer": "While Satyrnaar and Night Run are notable satyr camps within Ashenvale, Xavian acts as the political and ritual heart of their forces in the forest. High-ranking satyr leaders such as Geltharis and Prince Raze make their base here among the ruins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Seeing the desecrated halls of an ancient temple defiled by the twisted descendants of the Highborne is a bitter offense to any night elf, demanding swift retribution."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The satyrs here have stolen the Branch of Cenarius and use fel rites to corrupt the land; druids are called upon to reclaim the artifact and heal the grove's spiritual wounds."
+  }
+ ],
+ "keywords": [
+  "anilia",
+  "ashenvale",
+  "branch of cenarius",
+  "geltharis",
+  "raze",
+  "satyr",
+  "xavian",
+  "xavius"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "topic:satyr",
+  "subzone:satyrnaar",
+  "subzone:night-run",
+  "subzone:forest-song",
+  "topic:cenarius",
+  "topic:sargeras",
+  "topic:war-of-the-ancients"
+ ],
+ "attribution": [
+  "Xavian"
+ ]
+}

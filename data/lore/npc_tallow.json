@@ -1,0 +1,84 @@
+{
+ "key": "npc:tallow",
+ "type": "npc",
+ "name": "Tallow",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Tallow",
+  "refs": 1
+ },
+ "summary": "Tallow is a Forsaken warrior stationed in the fortified settlement of Tarren Mill within the Hillsbrad Foothills. Serving the Dark Lady and the Horde, he watches over the contested front lines, helping organize strikes against local Alliance threats.",
+ "sections": [
+  {
+   "title": "A Blade in Tarren Mill",
+   "body": "Situated in the heart of Tarren Mill, Tallow stands among the Forsaken and Horde forces holding the line in the Hillsbrad Foothills. The region is a powder keg of conflict, caught between nearby Southshore humans, wandering Syndicate outlaws, and hostile wildlife. Tallow helps direct capable adventurers into the field, tasking them with blunt-force operations like recovering strategic relics and eliminating Alliance officers to secure the northern valley.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tallow?",
+   "aliases": [
+    "who is tallow",
+    "tallow lore",
+    "tallow tarren mill"
+   ],
+   "answer": "Tallow is a Forsaken warrior based in Tarren Mill in the Hillsbrad Foothills, acting as an organizer and quest giver for Horde champions fighting in the area."
+  },
+  {
+   "q": "Where can I find Tallow?",
+   "aliases": [
+    "where is tallow",
+    "tallow location",
+    "find tallow"
+   ],
+   "answer": "He can be found standing in the Forsaken-held town of Tarren Mill, located in the northern half of the Hillsbrad Foothills."
+  },
+  {
+   "q": "What quests does Tallow offer?",
+   "aliases": [
+    "tallow quests",
+    "the hammer may fall quest"
+   ],
+   "answer": "Tallow is known for directing Horde adventurers in the mission 'The Hammer May Fall', dispatching fighters to strike at Alliance targets and recover important war assets."
+  },
+  {
+   "q": "What is Tarren Mill's role in the conflict?",
+   "aliases": [
+    "why is tarren mill important",
+    "tarren mill role"
+   ],
+   "answer": "Tarren Mill serves as the primary northern Horde stronghold in the Hillsbrad Foothills, facing constant skirmishes and open warfare against the human bastion of Southshore to the south."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Tallow provides essential frontline tasks for Horde champions looking to weaken the human presence throughout the Hillsbrad Foothills."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Like many Forsaken in Tarren Mill, Tallow fights to expand Undercity's dominion south of the Alterac Mountains."
+  }
+ ],
+ "keywords": [
+  "forsaken",
+  "hillsbrad foothills",
+  "horde warrior",
+  "tallow",
+  "tarren mill",
+  "the hammer may fall"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "quest:676",
+  "zone:hillsbrad",
+  "subzone:southshore",
+  "topic:forsaken",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Tallow"
+ ]
+}

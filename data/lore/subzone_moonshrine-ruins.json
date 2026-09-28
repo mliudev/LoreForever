@@ -1,0 +1,91 @@
+{
+ "key": "subzone:moonshrine-ruins",
+ "type": "subzone",
+ "name": "Moonshrine Ruins",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Moonshrine Ruins"
+ },
+ "summary": "The Moonshrine Ruins are a flooded expanse of ancient night elven architecture deep within Blackfathom Deeps. Once dedicated to the worship of Elune, these crumbling halls have been desecrated and seized by the Twilight's Hammer cult.",
+ "sections": [
+  {
+   "title": "Flooded Halls of Elune",
+   "body": "Past the cavernous Pool of Ask'ar lies the Moonshrine Ruins, a somber testament to the night elves' ancient past along the Ashenvale coast. These partially submerged halls once rang with chants honoring the Moon Goddess Elune, but the Great Sundering shattered the temple and drowned its lower levels in sea water. Today, the murky waters churn with feral aquatic beasts, from aggressive crabs to serpentine threshadons, while the Twilight's Hammer cult maintains an active presence throughout the stones, bent on dark rituals that mock the shrine's sacred origin.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Elemental Depths",
+   "body": "Connecting directly toward the Forgotten Pool and the Moonshrine Sanctum, the ruins serve as a staging ground for the cult's summonings. Beneath the surface of the flooded chambers sits an ancient runestone bound to the elements. Through this aquatic focus, the Twilight's Hammer manipulates the waters of the deeps, calling forth Baron Aquanis, a monstrous water elemental bound to their dark designs.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What were the Moonshrine Ruins originally built for?",
+   "aliases": [
+    "moonshrine origins",
+    "who built moonshrine ruins",
+    "what is this place"
+   ],
+   "answer": "The ruins were originally part of a grand underground temple complex dedicated to the night elven goddess Elune, constructed before the Great Sundering tore the ancient continent apart."
+  },
+  {
+   "q": "Who controls the Moonshrine Ruins now?",
+   "aliases": [
+    "who is here",
+    "moonshrine mobs",
+    "twilights hammer blackfathom"
+   ],
+   "answer": "The ruins are infested with hostile aquatic beasts like threshadons and snapping crabs, alongside cultists belonging to the Twilight's Hammer, who have overrun the entire sunken complex."
+  },
+  {
+   "q": "Where do the Moonshrine Ruins lead?",
+   "aliases": [
+    "moonshrine exits",
+    "where does this go",
+    "path through ruins"
+   ],
+   "answer": "The ruins lie past the tunnels beyond the Pool of Ask'ar. From the Moonshrine Ruins, pathways connect directly deeper toward the Moonshrine Sanctum and provide access to the Forgotten Pool."
+  },
+  {
+   "q": "Who is Baron Aquanis?",
+   "aliases": [
+    "baron aquanis lore",
+    "underwater boss moonshrine",
+    "elemental in water"
+   ],
+   "answer": "Baron Aquanis is a powerful water elemental summoned by touching a submerged runestone hidden in the murky water beneath the ruins, serving the sinister aims of the Twilight's Hammer."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Seeing these sacred halls dedicated to Elune reduced to flooded, cult-infested ruins is a bitter grievance for any night elf journeying into the deeps."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The binding of water spirits like Baron Aquanis via dark runestones reveals how deeply the Twilight's Hammer distorts and enslaves elemental forces."
+  }
+ ],
+ "keywords": [
+  "aquanis",
+  "blackfathom",
+  "moonshrine",
+  "ruins",
+  "sanctum",
+  "threshadon",
+  "twilight's hammer"
+ ],
+ "related": [
+  "zone:blackfathom",
+  "subzone:moonshrine-sanctum",
+  "quest:6922",
+  "subzone:pool-of-ask-ar",
+  "subzone:forgotten-pool",
+  "topic:twilight-s-hammer"
+ ],
+ "attribution": [
+  "Moonshrine Ruins"
+ ]
+}

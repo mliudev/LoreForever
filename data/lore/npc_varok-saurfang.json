@@ -1,0 +1,95 @@
+{
+ "key": "npc:varok-saurfang",
+ "type": "npc",
+ "name": "Varok Saurfang",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Varok Saurfang",
+  "refs": 1
+ },
+ "summary": "High Overlord Varok Saurfang is a legendary orc warrior of the Blackrock clan and a veteran of the First, Second, and Third Wars. Serving as Warchief Thrall's trusted military commander, he represents the proud martial spine of the modern Horde while privately carrying the heavy remorse of past atrocities.",
+ "sections": [
+  {
+   "title": "A Living Legend of the Wars",
+   "body": "Few living warriors possess a martial pedigree to rival Varok Saurfang. A member of the revered Blackrock clan, Saurfang served alongside Eitrigg under Blackhand and later became the trusted second-in-command to Warchief Orgrim Doomhammer himself. Through the savage assaults on Stormwind in the First War and the brutal northern marches across the Hillsbrad Foothills and the Hinterlands in the Second War, Saurfang was considered an unstoppable force on the battlefield. When Thrall rallied the scattered orc clans to cross the Great Sea and establish Durotar, Saurfang took up arms once more, defending Kalimdor through the Third War and standing as a bulwark of the newborn Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Weight of the Blood",
+   "body": "Though he stands as an unmatched champion of the Horde, Saurfang is not driven by reckless battle-lust. Like many of his generation, he freely partook in the demonic blood of Mannoroth before the opening of the Dark Portal and bears deep sorrow for the cruelties carried out under the Blood Curse. Following the sacrifice of Grommash Hellscream that freed the orcs, Saurfang has dedicated much of his life to counseling fellow veterans through their guilt. While he will relentlessly defend the Horde and enforce Thrall's rule against any threat, Saurfang harbors a profound disdain for warmongering and fights strictly for honor and preservation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Varok Saurfang?",
+   "aliases": [
+    "varok saurfang backstory",
+    "who is saurfang",
+    "high overlord saurfang"
+   ],
+   "answer": "Varok Saurfang is a renowned orc warrior of the Blackrock clan, brother of the famous Broxigar, and the primary military commander serving Warchief Thrall in the Horde."
+  },
+  {
+   "q": "What wars did Saurfang fight in?",
+   "aliases": [
+    "saurfang war history",
+    "did saurfang fight in the first war",
+    "saurfang battles"
+   ],
+   "answer": "Saurfang fought in the First, Second, and Third Wars. He led Blackrock forces during the sack of Stormwind, served as Orgrim Doomhammer's second-in-command across Lordaeron, and defended Mount Hyjal alongside Thrall's forces."
+  },
+  {
+   "q": "How does Saurfang view the Horde's past?",
+   "aliases": [
+    "saurfang blood curse",
+    "saurfang draenei guilt",
+    "why does saurfang regret the past"
+   ],
+   "answer": "Saurfang deeply regrets the atrocities committed under the demon blood curse, especially the slaughter of innocent draenei on Draenor. The memory haunts him so thoroughly that he refuses to eat pork because the sound of swine slaughter echoes the screams of dying children."
+  },
+  {
+   "q": "What is Saurfang's role in the current Horde?",
+   "aliases": [
+    "what does saurfang do now",
+    "saurfang orgrimmar role"
+   ],
+   "answer": "He serves as High Overlord of Thrall's forces, overseeing military readiness, enforcing the Warchief's commands, and acting as a seasoned mentor to younger warriors within the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "To the orcs, High Overlord Saurfang is both the ultimate paragon of martial strength and a sobering reminder of the spiritual toll exacted by the demonic blood curse."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Warriors revere Saurfang as a peerless veteran whose axe technique, tactical battlefield brilliance, and enduring resolve define the ideal soldier."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "broxigar",
+  "doomhammer",
+  "korkron",
+  "overlord",
+  "saurfang",
+  "thrall",
+  "varok",
+  "warrior"
+ ],
+ "related": [
+  "npc:thrall",
+  "npc:orgrim-doomhammer",
+  "npc:eitrigg",
+  "topic:blackrock-clan",
+  "topic:grommash-hellscream",
+  "topic:first-war",
+  "topic:second-war",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Varok Saurfang"
+ ]
+}

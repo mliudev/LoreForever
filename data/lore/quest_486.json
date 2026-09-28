@@ -1,0 +1,134 @@
+{
+ "key": "quest:486",
+ "type": "quest",
+ "name": "Ursal the Mauler",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   486
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Athridas Bearmantle",
+  "end": "",
+  "previous": "The Relics of Wakening",
+  "next": null,
+  "wiki": "Ursal the Mauler (quest)",
+  "chain": []
+ },
+ "summary": "Ursal the Mauler is the culmination of Athridas Bearmantle's efforts to awaken the slumbering Druids of the Talon in Teldrassil. To break the unnatural sleep binding his brethren within the Barrow Den, the corrupted furbolg chief responsible for disrupting their calling must be slain.",
+ "sections": [
+  {
+   "title": "A Slumber Turned Nightmare",
+   "body": "The Druids of the Talon secluded themselves in the Barrow Den of Ban'ethil to slumber and commune with the Emerald Dream. However, their peaceful trance was warped into an inescapable prison. Athridas Bearmantle identified the gnarlpine furbolg, specifically their vicious leader Ursal the Mauler, as the catalyst who meddled with the druids' sacred ritual, leaving them trapped between waking and the Dream.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Den in the Cleft",
+   "body": "Gathering the Relics of Wakening was only half the struggle. For Athridas's awakening ritual to pierce the spiritual fog binding the druids, the source of the interference had to be extinguished. Ursal the Mauler made his lair deep within the Cleft, a sunken, corrupted crag nestled north of the main road through Teldrassil. Striking down the furbolg warlord breaks his grasp on the sleeper's minds.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Symptom of Deeper Rot",
+   "body": "While Ursal's demise allows Athridas to conduct the ritual and rescue the Druids of the Talon, his death does not cure what ails Teldrassil. As Athridas notes upon your return, the savage furbolg was merely acting under a darker corruption spreading through the world tree's boughs. Ursal's defeat frees the sleepers, but the root cause of the madness poisoning the Gnarlpine tribe remains lurking in the shadows.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ursal the Mauler?",
+   "aliases": [
+    "who is ursal",
+    "ursal lore",
+    "who is the boss in the cleft"
+   ],
+   "answer": "Ursal the Mauler is a ferocious, corrupted Gnarlpine furbolg chieftain residing within the Cleft in Teldrassil. He actively meddled with the reverie of the Druids of the Talon, trapping them within their Barrow Den slumber."
+  },
+  {
+   "q": "Why must Ursal be killed to awaken the druids?",
+   "aliases": [
+    "why kill ursal",
+    "why does ursal need to die",
+    "relilcs of wakening purpose"
+   ],
+   "answer": "Even with the sacred Relics of Wakening in hand, Athridas Bearmantle's ritual cannot take effect while Ursal lives. The furbolg's foul interference acts as an ongoing spiritual anchor, preventing the druids' spirits from returning to their bodies."
+  },
+  {
+   "q": "Where can Ursal the Mauler be found?",
+   "aliases": [
+    "ursal location",
+    "where is the cleft",
+    "how to find ursal"
+   ],
+   "answer": "Ursal lairs inside the Cleft, an overgrown ravine located northwest along the main path from Dolanaar, branching north off the road toward Darnassus."
+  },
+  {
+   "q": "Does killing Ursal completely save the Gnarlpine furbolgs?",
+   "aliases": [
+    "are furbolgs cured",
+    "did we save the furbolgs",
+    "is teldrassil saved"
+   ],
+   "answer": "No. Ursal's death liberates the sleeping druids, but Athridas warns that the dark corruption plaguing the Gnarlpine furbolgs and the forests of Teldrassil persists deeper within the world tree."
+  },
+  {
+   "q": "Who are the Druids of the Talon?",
+   "aliases": [
+    "druids of the talon",
+    "who is sleeping",
+    "what druids were saved"
+   ],
+   "answer": "The Druids of the Talon are a sect of night elf druids devoted to the stormcrow totem and the guidance of Aviana. They entered deep slumber within the Barrow Den to watch over the wilds from within the Emerald Dream."
+  },
+  {
+   "q": "Who is Athridas Bearmantle?",
+   "aliases": [
+    "athridas bearmantle",
+    "quest giver athridas",
+    "who gives ursal quest"
+   ],
+   "answer": "Athridas Bearmantle is a Druid of the Claw stationed outside the Ban'ethil Barrow Den. He directs adventurers to recover stolen relics and eliminate Ursal so that his brethren can be safely awakened."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The Gnarlpine furbolgs were once ancient allies of the kaldorei. Putting down their maddened leader Ursal is a tragic necessity to protect your kin and the sleeping druids."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Preserving the sacred rites of the Emerald Dream is paramount. Ursal's meddling with the Druids of the Talon represents a severe desecration of Cenarion communion."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing Teldrassil's interior roadways and restoring the circle of druids strengthens the night elves' stronghold as they integrate into the wider Alliance."
+  }
+ ],
+ "keywords": [
+  "athridas",
+  "ban'ethil",
+  "bearmantle",
+  "cleft",
+  "druid",
+  "furbolg",
+  "gnarlpine",
+  "mauler",
+  "talon",
+  "teldrassil",
+  "ursal"
+ ],
+ "related": [
+  "quest:483",
+  "npc:athridas-bearmantle",
+  "subzone:cleft",
+  "zone:teldrassil",
+  "topic:druid",
+  "quest:487",
+  "npc:moon-priestess-amara",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Ursal the Mauler (quest)"
+ ]
+}

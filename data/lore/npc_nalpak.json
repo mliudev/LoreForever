@@ -1,0 +1,83 @@
+{
+ "key": "npc:nalpak",
+ "type": "npc",
+ "name": "Nalpak",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "wiki": "Nalpak",
+  "refs": 1
+ },
+ "summary": "Nalpak is a tauren druid disciple who watches over the troubled Wailing Caverns in the Barrens. Stationed in the high cliff-cave overlooking the cavern entrance, he enlists passing adventurers to help contain the nightmare twisting the subterranean ecosystem.",
+ "sections": [
+  {
+   "title": "Watcher Above the Caverns",
+   "body": "Perched inside a hidden cavern directly above the mouth of the Wailing Caverns, Nalpak remains loyal to the vision of Archdruid Naralex. While his master lies trapped in a corrupted slumber deep below, Nalpak works to keep the spreading corruption at bay. Rather than descending blindly into the darkness, he charges resourceful adventurers with gathering materials from the mutated fauna, such as the hides of deviate beasts, to study and counteract the unnatural transformation overtaking the oasis.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Nalpak located?",
+   "aliases": [
+    "nalpak location",
+    "where is nalpak",
+    "find nalpak"
+   ],
+   "answer": "Nalpak is located in a cave high up on the rock face directly above the natural rock formation that leads into the Wailing Caverns in the central Barrens."
+  },
+  {
+   "q": "Who is Nalpak?",
+   "aliases": [
+    "who is nalpak",
+    "nalpak lore"
+   ],
+   "answer": "He is a tauren druid and one of the Disciples of Naralex, tasked with monitoring the emergence of twisted creatures from the Wailing Caverns while his master attempts to restore the Barrens through the Emerald Dream."
+  },
+  {
+   "q": "Why does Nalpak want deviate hides?",
+   "aliases": [
+    "why deviate hides",
+    "deviate hides quest"
+   ],
+   "answer": "Nalpak collects deviate hides from the corrupted raptors, crocolisks, and vipers inside the caves to study the unnatural mutations wrought by the Emerald Nightmare and assist his fellow druids in clothing and protecting their expedition."
+  },
+  {
+   "q": "What is Nalpak's relationship to Naralex?",
+   "aliases": [
+    "is nalpak naralex disciple",
+    "nalpak and naralex"
+   ],
+   "answer": "Nalpak is a faithful student and follower of Archdruid Naralex, serving as one of the disciples sent to support the ambitious attempt to reawaken the springs of the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For fellow druids, Nalpak is a grim reminder of how perilous touching the Emerald Dream can be when darkness takes root in what was meant to be a restorative ritual."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Nalpak represents the tauren dedication to healing the parched lands of Kalimdor, refusing to abandon the mission even when disaster strikes the dreamers."
+  }
+ ],
+ "keywords": [
+  "barrens druid",
+  "deviate hides",
+  "disciples of naralex",
+  "nalpak",
+  "naralex",
+  "tauren",
+  "wailing caverns"
+ ],
+ "related": [
+  "npc:naralex",
+  "zone:wailing",
+  "quest:1486",
+  "zone:barrens",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Nalpak"
+ ]
+}

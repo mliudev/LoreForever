@@ -1,0 +1,130 @@
+{
+ "key": "quest:5723",
+ "type": "quest",
+ "name": "Testing an Enemy's Strength",
+ "era": "classic",
+ "zone": "ragefire",
+ "meta": {
+  "ids": [
+   5723
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Rahauro",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Testing an Enemy's Strength",
+  "chain": []
+ },
+ "summary": "Testing an Enemy's Strength is a Horde mission assigned by Rahauro on the Elder Rise in Thunder Bluff on behalf of Magatha Grimtotem. After a disastrous diplomatic overture beneath Orgrimmar ended with slaughtered emissaries, the tauren seek retribution by culling the troggs infesting Ragefire Chasm.",
+ "sections": [
+  {
+   "title": "Diplomacy Meets Savagery",
+   "body": "When subterranean troggs first emerged from the fiery chasms beneath the orcish capital of Orgrimmar, Elder Crone Magatha Grimtotem made an overture of peace. She dispatched tauren emissaries into the depths to negotiate with the creatures. The response was brutal and immediate: the troggs butchered the delegates without hesitation. Viewing the massacre as an unforgivable insult to the tauren and a gathering danger to the entire Horde, Magatha resolved to answer savagery with decisive force.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threat Beneath Orgrimmar",
+   "body": "Operating as Magatha's agent in Thunder Bluff, the tauren Rahauro coordinates the military response. He directs warriors to infiltrate Ragefire Chasm, locate the trogg swarms, and eradicate their frontline warriors and shamans. By striking deep into their subterranean domain, the Horde aims to suppress the trogg population before their subterranean tunnels allow them to pour freely into the streets of Orgrimmar above.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is a quest for an Orgrimmar dungeon handed out in Thunder Bluff?",
+   "aliases": [
+    "why thunder bluff",
+    "quest start thunder bluff",
+    "rahauro location"
+   ],
+   "answer": "The quest originates with the tauren leadership. Magatha Grimtotem personally sent diplomats into Ragefire Chasm to parley with the troggs, and after those delegates were slaughtered, her assistant Rahauro took charge of organizing warriors from the Elder Rise in Thunder Bluff to avenge them."
+  },
+  {
+   "q": "Who is Rahauro?",
+   "aliases": [
+    "who is rahauro",
+    "rahauro npc",
+    "rahauro elder rise"
+   ],
+   "answer": "Rahauro is a tauren questgiver located on the Elder Rise in Thunder Bluff. He acts on behalf of Magatha Grimtotem, coordinating expeditions into Ragefire Chasm to eliminate troggs and recover relics lost during earlier failed diplomatic missions."
+  },
+  {
+   "q": "Why did Magatha Grimtotem attempt peace with troggs?",
+   "aliases": [
+    "why peace with troggs",
+    "magatha trogg diplomacy",
+    "why negotiate with troggs"
+   ],
+   "answer": "Publicly, Magatha framed the initiative as an act of goodwill, attempting to establish relations with the subterranean beings rather than immediately shedding blood. However, the troggs proved incapable of or unwilling to engage in civil discourse, slaughtering her emissaries upon arrival."
+  },
+  {
+   "q": "What enemies need to be slain for this task?",
+   "aliases": [
+    "which mobs to kill",
+    "quest targets",
+    "ragefire troggs"
+   ],
+   "answer": "You are tasked with entering Ragefire Chasm beneath Orgrimmar and slaying both Ragefire Troggs and Ragefire Shamans to break their front lines and diminish their spellcasting support."
+  },
+  {
+   "q": "Can this quest be completed alongside other dungeon tasks?",
+   "aliases": [
+    "other rfc quests",
+    "lost satchel quest",
+    "ragefire chasm quests"
+   ],
+   "answer": "Yes. Rahauro also provides the quest Searching for the Lost Satchel, which sends adventurers into the same chasm to find the remnants of the failed diplomatic party, making it efficient to undertake both simultaneously."
+  },
+  {
+   "q": "Where are the troggs coming from?",
+   "aliases": [
+    "trogg origin rfc",
+    "where do troggs come from",
+    "why are troggs under orgrimmar"
+   ],
+   "answer": "The troggs emerged from deep volcanic fissures beneath Durotar. As Rahauro notes upon the quest's completion, the Horde still knows little about the origins of these savage cave-dwellers or why they have chosen this moment to dig upward into Orgrimmar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The blood of tauren diplomats stains the stones of Ragefire Chasm, making this assault an act of direct retribution on behalf of the Elder Rise."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Though directed by tauren leadership, this mission directly protects the heart of the orc capital from being overrun by troggs tunneling beneath the city."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The troggs have their own crude spiritual practitioners who wield primal elements in the lava tunnels, presenting a perverted mirror to honorable shamanistic traditions."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The mission demonstrates cross-factional solidarity, as Thunder Bluff expends resources and warriors to safeguard the foundations of Orgrimmar."
+  }
+ ],
+ "keywords": [
+  "elder rise",
+  "magatha grimtotem",
+  "orgrimmar",
+  "ragefire chasm",
+  "rahauro",
+  "testing an enemy's strength",
+  "thunder bluff",
+  "troggs"
+ ],
+ "related": [
+  "npc:rahauro",
+  "quest:5722",
+  "zone:ragefire",
+  "zone:thunderbluff",
+  "zone:orgrimmar",
+  "topic:trogg",
+  "topic:tauren",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Testing an Enemy's Strength"
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "key": "subzone:northshire-vineyards",
+ "type": "subzone",
+ "name": "Northshire Vineyards",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Northshire Vineyards"
+ },
+ "summary": "The Northshire Vineyards are cultivated grape fields lying just east of Northshire Abbey in the valley's sheltered basin. Though once a peaceful source of wine for the clerics, the fields have fallen under the control of the Defias Brotherhood and their local brigands.",
+ "sections": [
+  {
+   "title": "A Plundered Harvest",
+   "body": "Located east across the stream from Northshire Abbey, the Northshire Vineyards represent the valley's quiet agrarian life. The fields are tended by local workers like Milly Osworth, but rising civil unrest has left them unprotected. Bandits aligned with the Defias Brotherhood, led on the ground by a cutthroat named Garrick Padfoot, have seized the acreage. Rather than mere vandalism, the thieves occupy the fields to plunder the harvest and strip the local farmers of their livelihood, providing new recruits to the Brotherhood an easy foothold right under the abbey's nose.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls the Northshire Vineyards right now?",
+   "aliases": [
+    "who is at the vineyards",
+    "who took over northshire vineyards",
+    "who is garrick padfoot"
+   ],
+   "answer": "Thieves and cutthroats belonging to the Defias Brotherhood occupy the fields. Their local ringleader is Garrick Padfoot, a wanted rogue who directs the looting of the crops and terrorizes the local workers."
+  },
+  {
+   "q": "Why is the abbey letting bandits run rampant in the fields?",
+   "aliases": [
+    "why no stormwind guards",
+    "why isn't the abbey defending the vineyards"
+   ],
+   "answer": "Stormwind's military resources are stretched extraordinarily thin with King Varian Wrynn missing. The abbey guards have pulled back to defend the abbey itself and watch the valley roads, forcing local farmers to rely on newly arrived adventurers to reclaim their stolen goods."
+  },
+  {
+   "q": "Who is Milly Osworth?",
+   "aliases": [
+    "milly osworth",
+    "who is milly"
+   ],
+   "answer": "Milly Osworth is a local farmer working the vineyards. When the Defias bandits moved in and seized the grape harvest, she was driven off and now seeks brave travelers to venture into the fields and recover her plundered crates."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For many young humans venturing out into the world, the occupied vineyards are their first direct encounter with the bitterness and reach of the Defias Brotherhood."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The unrest in these peaceful grape fields demonstrates how deeply lawlessness has penetrated even the most protected corners of the kingdom of Stormwind."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "elwynn",
+  "garrick padfoot",
+  "grapes",
+  "milly osworth",
+  "northshire valley",
+  "northshire vineyards"
+ ],
+ "related": [
+  "subzone:northshire-valley",
+  "topic:defias-brotherhood",
+  "quest:3903",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Northshire Vineyards"
+ ]
+}

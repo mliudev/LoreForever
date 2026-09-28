@@ -1,0 +1,92 @@
+{
+ "key": "subzone:forgotten-pools",
+ "type": "subzone",
+ "name": "Forgotten Pools",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Forgotten Pools"
+ },
+ "summary": "The Forgotten Pools is the northernmost of the verdant oases scattered across the arid Barrens, located just northwest of the Crossroads. Fed by subterranean springs, this vibrant pocket of lush flora and waters is bitterly contested between indigenous wildlife, wandering Kolkar centaur, and the Horde.",
+ "sections": [
+  {
+   "title": "An Oasis in the Wastes",
+   "body": "Situated off the western road leading out of the Crossroads, the Forgotten Pools offers a stark contrast to the parched savannas that surround it. Thick reeds, palm trees, and unusual flora like Laden Mushrooms cluster around its freshwater shore, drawing plainstriders, snapjaw turtles, and zhevras from miles around. However, the oasis is far from peaceful. Kolkar centaur maintain a constant encampment along the banks, jealously guarding the water supply against travelers and bringing them into direct conflict with Horde scouts posted nearby.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ecological Mysteries",
+   "body": "Beyond its strategic value as a watering hole, the Forgotten Pools harbors peculiar ecological traits. It is one of the rare surface waters in the region where the enigmatic Deviate Fish thrive, hinting at deeper subterranean ties to the strange transformative energies altering the Barrens' water table. Horde naturalists and scouts keep a close eye on the waters and the unique fungal growths along the banks, wary of what might be seeping into the soil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Forgotten Pools located?",
+   "aliases": [
+    "forgotten pools location",
+    "where is forgotten pools",
+    "find forgotten pools"
+   ],
+   "answer": "The Forgotten Pools lies in the northern Barrens, directly northwest of the Crossroads, just north of the road that branches west toward the Stonetalon Mountains."
+  },
+  {
+   "q": "Why are the Kolkar centaur here?",
+   "aliases": [
+    "centaur at forgotten pools",
+    "why are kolkar here",
+    "kolkar forgotten pools"
+   ],
+   "answer": "Water is life in the arid Barrens. The Kolkar aggressively claim every oasis they can reach to sustain their warbands and deny vital resources to traveling Horde caravans and nearby settlements."
+  },
+  {
+   "q": "What makes the fish and plants here unusual?",
+   "aliases": [
+    "deviate fish forgotten pools",
+    "laden mushrooms",
+    "why are fish weird here"
+   ],
+   "answer": "The oasis is one of the few places above ground where Deviate Fish can be caught, and it hosts clusters of unusual Laden Mushrooms. These strange mutations point to subterranean disturbances influencing the Barrens' underground aquifers."
+  },
+  {
+   "q": "Did Thrall pass through this oasis?",
+   "aliases": [
+    "thrall forgotten pools",
+    "did orcs camp here",
+    "warcraft 3 oasis"
+   ],
+   "answer": "Local history suggests this was likely one of the three life-saving oases where Thrall and the Orcish Horde rested their forces while crossing the Barrens alongside Cairne Bloodhoof during their long march west."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Holding the pools is vital to securing the trade routes radiating out from the Crossroads, keeping the Kolkar from throttling the Horde's western supply lines."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The rapid growth of mutated vegetation and Deviate Fish around these pools provides critical evidence for Cenarion researchers investigating the unnatural shifts across the Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "centaur",
+  "crossroads",
+  "deviate fish",
+  "forgotten pools",
+  "kolkar",
+  "laden mushrooms",
+  "oasis"
+ ],
+ "related": [
+  "quest:870",
+  "subzone:crossroads",
+  "zone:barrens",
+  "topic:centaur",
+  "npc:thrall",
+  "subzone:forgotten-pool"
+ ],
+ "attribution": [
+  "Forgotten Pools"
+ ]
+}

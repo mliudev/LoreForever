@@ -1,0 +1,124 @@
+{
+ "key": "quest:834",
+ "type": "quest",
+ "name": "Winds in the Desert",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   834
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Rezlak",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Winds in the Desert",
+  "chain": []
+ },
+ "summary": "Rezlak, an engineer contracted from Gazlowe's operations, needs help recovering crucial construction materials stolen by harpies in Durotar. A caravan bound for Orgrimmar was ambushed in Razorwind Canyon, scattering sacks of supplies among the cliffs.",
+ "sections": [
+  {
+   "title": "A Goblin on a Deadline",
+   "body": "Rezlak was sent directly by Chief Engineer Gazlowe of Ratchet to assist the Horde with their ambitious construction projects across Durotar. Building fortifications in harsh, barren terrain is demanding enough without logistical disasters, but Rezlak's shipments keep disappearing before they reach the building sites. Without essential cargo, all progress grinds to a halt, leaving the irritable goblin supervisor stranded with nothing to build with.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ambush in the Canyon",
+   "body": "The latest vital supply run promised to Rezlak was intercepted by the Dustwind harpies inhabiting Razorwind Canyon. These winged scavengers roost along the high ravine cuts flanking the road between Razor Hill and Orgrimmar, swooping down on unsuspecting wagons. Instead of eating or destroying the freight, the harpies hoard the crates and sacks around their nesting sites, leaving the cargo intact for anyone brave enough to fight into their territory.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rezlak?",
+   "aliases": [
+    "rezlak",
+    "who is rezlak",
+    "who gave this quest"
+   ],
+   "answer": "Rezlak is a goblin worker employed by Gazlowe, the boss of Ratchet. Gazlowe sent him to Durotar to assist the orcs with their ongoing construction efforts outside the gates of Orgrimmar."
+  },
+  {
+   "q": "Why are goblins helping build in Durotar?",
+   "aliases": [
+    "why are goblins helping orcs",
+    "gazlowe durotar",
+    "goblin horde cooperation"
+   ],
+   "answer": "Gazlowe and the Steamwheedle Cartel have an ongoing commercial and engineering partnership with Warchief Thrall. Goblin engineers and machines helped lay out the foundations of Orgrimmar, and Gazlowe continues to supply contracted labor and materials to the Horde."
+  },
+  {
+   "q": "Where did the supplies come from?",
+   "aliases": [
+    "where are the supplies from",
+    "caravan origin"
+   ],
+   "answer": "The supplies were transported via caravan through Durotar to support regional construction efforts, likely shipped overland through the Southfury river routes or brought north from merchant vessels docked at Ratchet."
+  },
+  {
+   "q": "What are the harpies doing in Durotar?",
+   "aliases": [
+    "why harpies in durotar",
+    "dustwind harpies lore",
+    "razorwind harpies"
+   ],
+   "answer": "The Dustwind harpies are aggressive, predatory scavengers that infest the cliffs and ravines of central Durotar. They harass travelers, raid trade lines through Razorwind Canyon, and scavenge anything bright or useful for their nests."
+  },
+  {
+   "q": "Where is Razorwind Canyon located?",
+   "aliases": [
+    "razorwind canyon location",
+    "where to find supplies",
+    "sacks of supplies location"
+   ],
+   "answer": "Razorwind Canyon branches directly off the main southern gorge that connects Orgrimmar to Razor Hill. Ravines cut into both the eastern and western cliff walls, forming high roosts where the Dustwind harpies stash their stolen cargo."
+  },
+  {
+   "q": "Why didn't the orc guards protect the caravan?",
+   "aliases": [
+    "why failed caravan",
+    "durotar security",
+    "orc caravans"
+   ],
+   "answer": "The young Horde's military resources are stretched thin across Durotar, dealing with threats from Centaur raiders, Bristleback quilboar, and Kul Tiras marines along the coast. Guard detachments are often too small to fend off sudden aerial strikes from cliff-dwelling harpies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Every shipment lost to canyon beasts threatens the rapid expansion and fortification of the Horde's stronghold in Durotar."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcs rely on goblin expertise and foreign supplies to turn the harsh, dry soil of Durotar into a fortified homeland."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Rezlak represents the pragmatic ingenuity of Steamwheedle engineers, who care far more about keeping blueprints and deliveries on schedule than local wildlife troubles."
+  }
+ ],
+ "keywords": [
+  "caravan",
+  "durotar",
+  "dustwind harpies",
+  "gazlowe",
+  "orgrimmar",
+  "ratchet",
+  "razorwind canyon",
+  "rezlak",
+  "supplies"
+ ],
+ "related": [
+  "npc:rezlak",
+  "quest:835",
+  "subzone:razorwind-canyon",
+  "zone:durotar",
+  "zone:orgrimmar",
+  "subzone:razor-hill"
+ ],
+ "attribution": [
+  "Winds in the Desert"
+ ]
+}

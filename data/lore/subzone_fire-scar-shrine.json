@@ -1,0 +1,91 @@
+{
+ "key": "subzone:fire-scar-shrine",
+ "type": "subzone",
+ "name": "Fire Scar Shrine",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Fire Scar Shrine"
+ },
+ "summary": "Fire Scar Shrine is a despoiled night elf shrine nestled in the southwestern forests of Ashenvale. Once a serene place of worship, it has been corrupted by demonic forces and turned into a blister of fel energy right on Astranaar's doorstep.",
+ "sections": [
+  {
+   "title": "A Blight in the Forest",
+   "body": "Located southwest of Astranaar and west of the Ruins of Stardust, Fire Scar Shrine stands as a grim reminder of the Burning Legion's lingering poison in Ashenvale. The shrine has fallen under the sway of demonic corruption, nurtured by servants of the shadowy Cult of the Dark Strand and the Shadow Council. Fel magic has twisted the surrounding earth into scorched rock, where roaming demons now gather in open defiance of the forest's defenders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows of the Dark Strand",
+   "body": "The shrine's descent into darkness was spearheaded by agents like the orcish warlock Ilkrud Magthrull, operating under the orders of Athrikus Narassin. Though mortal sorcerers brought the corruption to bear, summoned fiends now patrol the altar stones unchecked. The localized tear in the veil occasionally draws greater horrors, including the towering doomguard Akkrilus.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Fire Scar Shrine located?",
+   "aliases": [
+    "fire scar shrine location",
+    "where is fire scar shrine",
+    "fire scar shrine map"
+   ],
+   "answer": "Fire Scar Shrine is situated in southwestern Ashenvale, directly southwest of the night elf hub of Astranaar, south of the Shrine of Aessina, and just west of the Ruins of Stardust."
+  },
+  {
+   "q": "Why are there demons at Fire Scar Shrine?",
+   "aliases": [
+    "why demons here",
+    "what corrupted fire scar shrine",
+    "who summoned the demons"
+   ],
+   "answer": "The shrine was infiltrated and corrupted by agents of the Shadow Council and the Cult of the Dark Strand, notably the orc warlock Ilkrud Magthrull. Their dark rituals summoned demons and infused the sacred ground with lingering fel taint."
+  },
+  {
+   "q": "Who is Akkrilus?",
+   "aliases": [
+    "akkrilus",
+    "doomguard at fire scar",
+    "rare demon fire scar shrine"
+   ],
+   "answer": "Akkrilus is a formidable doomguard that occasionally manifests around Fire Scar Shrine, drawn to the potent demonic energies that pool around the corrupted stones."
+  },
+  {
+   "q": "What connection does this place have to the Cult of the Dark Strand?",
+   "aliases": [
+    "cult of the dark strand fire scar",
+    "dark strand connection",
+    "athrikus narassin fire scar"
+   ],
+   "answer": "The orc warlock who operated here, Ilkrud Magthrull, served Athrikus Narassin, the leader of the Cult of the Dark Strand. They leveraged the shrine as a foothold for their demonic summoning and dark ambitions within Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The desecration of Fire Scar Shrine is a bitter affront so near to Astranaar, demanding swift retribution against any demonic trespassers who sully the forest."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The fel scarring and wild demonic summons here bear the clear signature of the Shadow Council's subtle infiltrations throughout Kalimdor."
+  }
+ ],
+ "keywords": [
+  "akkrilus",
+  "ashenvale",
+  "astranaar",
+  "athrikus narassin",
+  "cult of the dark strand",
+  "fire scar shrine",
+  "ilkrud magthrull",
+  "shadow council"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "subzone:astranaar",
+  "subzone:shrine-of-aessina",
+  "subzone:ruins-of-stardust",
+  "topic:shadow-council"
+ ],
+ "attribution": [
+  "Fire Scar Shrine"
+ ]
+}

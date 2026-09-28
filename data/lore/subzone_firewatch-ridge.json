@@ -1,0 +1,84 @@
+{
+ "key": "subzone:firewatch-ridge",
+ "type": "subzone",
+ "name": "Firewatch Ridge",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Firewatch Ridge"
+ },
+ "summary": "Firewatch Ridge is a high volcanic bluff in the northern reaches of Searing Gorge, serving as a primary encampment for the Dark Iron dwarves. Looming directly above the vast excavation known as the Cauldron, the ridge is heavily fortified by dwarven sentries, mechanical golems, and nesting fire spiders. To the northwest, an ominous cave system reveals an entrenched presence of the Twilight's Hammer cult.",
+ "sections": [
+  {
+   "title": "A Scorched Vantage Point",
+   "body": "Perched above the industrial devastation of the Cauldron, Firewatch Ridge functions as a critical staging ground for the Dark Iron clan's operations in Searing Gorge. Dwarven guards, engineers, and molten golem creations patrol the crags, fiercely defending their foothold alongside venomous flame spiders native to the smoldering rocks. Its elevation provides the Dark Irons an unobstructed view of the surrounding ash plains, ensuring early warning against rival incursions from Ironforge or the Thorium Brotherhood.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadow of the Cult",
+   "body": "Tucked away in the northwestern reaches of the ridge lies an underground cave network claimed by the Twilight's Hammer. These cultists operate in the shadows of the Dark Iron encampment, conducting dark rituals and harboring powerful elite zealots beneath the rock. Their proximity to both the Dark Iron infrastructure and Blackrock Mountain reflects the pervasive, insidious reach of elemental and apocalyptic cults within the fiery heart of the Redridge Mountains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Firewatch Ridge?",
+   "aliases": [
+    "what is this place",
+    "firewatch ridge info",
+    "firewatch ridge overview"
+   ],
+   "answer": "Firewatch Ridge is an elevated ridge in Searing Gorge where the Dark Iron dwarves have established a major camp overlooking the Cauldron excavation site."
+  },
+  {
+   "q": "What enemies inhabit Firewatch Ridge?",
+   "aliases": [
+    "what mobs are here",
+    "enemies firewatch",
+    "firewatch ridge threats"
+   ],
+   "answer": "The ridge is populated by hostile Dark Iron dwarves, mechanical golems, and native fire spiders, while the cave system to the northwest is occupied by elite members of the Twilight's Hammer cult."
+  },
+  {
+   "q": "Why is the Twilight's Hammer here?",
+   "aliases": [
+    "twilights hammer firewatch",
+    "cultists in cave",
+    "northwest cave firewatch"
+   ],
+   "answer": "The Twilight's Hammer cult has entrenched itself in the northwestern caves of the ridge to pursue their elemental worship and apocalyptic rituals in close proximity to Blackrock Mountain and the fire elementals bound within the region."
+  },
+  {
+   "q": "How does Firewatch Ridge relate to the Cauldron?",
+   "aliases": [
+    "firewatch and cauldron",
+    "cauldron overlook",
+    "why overlook cauldron"
+   ],
+   "answer": "Firewatch Ridge sits directly above the Cauldron, offering the Dark Iron dwarves a fortified vantage point to supervise mining operations and defend against potential strikes on their quarry."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Ironforge, Firewatch Ridge is a grim reminder of their Dark Iron cousins' entrenched malice, iron industry, and dark alliances in the shadow of Blackrock Mountain."
+  }
+ ],
+ "keywords": [
+  "cauldron",
+  "dark iron",
+  "firewatch ridge",
+  "flame spiders",
+  "golems",
+  "searing gorge",
+  "twilight's hammer"
+ ],
+ "related": [
+  "subzone:cauldron",
+  "zone:searinggorge",
+  "topic:twilight-s-hammer"
+ ],
+ "attribution": [
+  "Firewatch Ridge"
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "key": "quest:5041",
+ "type": "quest",
+ "name": "Supplies for the Crossroads",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   5041
+  ],
+  "level": "14",
+  "faction": "Horde",
+  "start": "Thork",
+  "end": "",
+  "previous": "Disrupt the Attacks",
+  "next": "",
+  "wiki": "Supplies for the Crossroads (Classic)",
+  "chain": []
+ },
+ "summary": "Supplies for the Crossroads is a Horde task issued by Thork to recover essential provisions taken during Razormane quilboar raids. By reclaiming these lost supply crates from thorny encampments, adventurers help sustain the Crossroads amidst constant regional conflict.",
+ "sections": [
+  {
+   "title": "A Lifeline Under Siege",
+   "body": "The Crossroads serves as the central junction for Horde travel, trade, and defense throughout the Barrens. Keeping such a hub operational requires a steady stream of cargo flowing from Durotar and Mulgore. When a supply caravan is ambushed, the outpost faces immediate shortages of provisions, tools, and arms vital for enduring the harsh wilderness.",
+   "spoiler": 0
+  },
+  {
+   "title": "Thieving Quilboar",
+   "body": "The culprits behind the raid are the Razormane quilboar, native swine-beasts who contest Horde dominance across central Kalimdor. Rather than destroying the stolen goods, the quilboar dragged the heavy crates back to their fortified thorn-bush camps to hoard for themselves. Thork charges trusted warriors with penetrating deep into Razormane grounds to reclaim what rightfully belongs to the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "thork quest",
+    "who starts supplies for the crossroads"
+   ],
+   "answer": "Thork, the Horde officer overseeing the defense and operations of the Crossroads, gives this quest."
+  },
+  {
+   "q": "Why were the supplies stolen in the first place?",
+   "aliases": [
+    "caravan raid",
+    "why stolen",
+    "what happened to the supplies"
+   ],
+   "answer": "A supply caravan headed toward the Crossroads was ambushed by aggressive Razormane quilboar, who carted the crates back to their nearby camps."
+  },
+  {
+   "q": "Where can the stolen crates be found?",
+   "aliases": [
+    "crate locations",
+    "where are supplies",
+    "find crates"
+   ],
+   "answer": "The stolen Crossroads Supply Crates are scattered on the ground throughout the Razormane quilboar camps located to the west and south of the Crossroads."
+  },
+  {
+   "q": "Why is recovering these supplies so important to Thork?",
+   "aliases": [
+    "why care",
+    "crossroads importance",
+    "importance of supplies"
+   ],
+   "answer": "The Crossroads is an isolated and bustling hub surrounded by hostile threats. Lost caravans threaten the outpost's daily operations and security, leaving both soldiers and travelers without critical necessities."
+  },
+  {
+   "q": "What comes before this quest?",
+   "aliases": [
+    "prerequisite",
+    "prev quest",
+    "disrupt the attacks"
+   ],
+   "answer": "This quest follows 'Disrupt the Attacks', where adventurers first strike at the Razormane forces to weaken their aggression against Horde travel routes."
+  },
+  {
+   "q": "Who are the Razormane?",
+   "aliases": [
+    "razormane quilboar",
+    "who are quilboar",
+    "razormane"
+   ],
+   "answer": "The Razormane are a fierce, territorial tribe of quilboar native to the Barrens who aggressively raid caravans and fiercely contest the Horde's presence on their ancestral lands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Holding the Crossroads is essential to connecting the Horde's capitals in Durotar and Mulgore; recovering ambushed freight ensures the frontier outpost remains provisioned."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Securing these vital supply lines from thieving quilboar fulfills an essential duty to protect the expanding settlements of the new Horde."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "caravan",
+  "crates",
+  "crossroads",
+  "quilboar",
+  "razormane",
+  "supplies",
+  "thork"
+ ],
+ "related": [
+  "subzone:crossroads",
+  "npc:thork",
+  "quest:871",
+  "topic:quilboar",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Supplies for the Crossroads (Classic)"
+ ]
+}

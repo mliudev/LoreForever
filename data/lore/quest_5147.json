@@ -1,0 +1,120 @@
+{
+ "key": "quest:5147",
+ "type": "quest",
+ "name": "Wanted - Arnak Grimtotem",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   5147
+  ],
+  "level": "29",
+  "faction": "Horde",
+  "start": "Wanted Poster - Arnak Grimtotem",
+  "end": "Cliffwatcher Longhorn",
+  "previous": null,
+  "next": null,
+  "wiki": "Wanted - Arnak Grimtotem",
+  "chain": []
+ },
+ "summary": "Wanted: Arnak Grimtotem is a Horde bounty posted at Freewind Post demanding the execution of a violent Grimtotem exile. Arnak is targeted by the local authorities for murder and kidnapping on the mesas above the canyon.",
+ "sections": [
+  {
+   "title": "A Gruesome Crime",
+   "body": "While tensions between the mainstream tauren of the Horde and the reclusive Grimtotem tribe are perpetually strained, Arnak took matters far beyond political friction. Branded an outcast, Arnak murdered a tauren and abducted the victim's sister, Lakota Windsong. In response to these heinous acts, Cliffwatcher Longhorn of Freewind Post sanctioned an open bounty calling for the rogue tauren's death.",
+   "spoiler": 0
+  },
+  {
+   "title": "Darkcloud Pinnacle",
+   "body": "Arnak took refuge upon the high crags of Darkcloud Pinnacle, an extensive network of rope bridges and mesa encampments occupied by the Grimtotem clan near the entrance to Razorfen Downs. Trapped upon these windswept heights alongside Arnak is his captive, Lakota Windsong, awaiting rescue from anyone brave enough to fight across the Grimtotem bridges.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Arnak Grimtotem?",
+   "aliases": [
+    "who is arnak",
+    "arnak grimtotem lore",
+    "who is the wanted tauren"
+   ],
+   "answer": "Arnak Grimtotem is a notorious tauren outcast who committed murder and kidnapped Lakota Windsong. His violent crimes prompted Freewind Post to put a bounty on his head."
+  },
+  {
+   "q": "Where can Arnak Grimtotem be found?",
+   "aliases": [
+    "where is arnak",
+    "arnak grimtotem location",
+    "how to find arnak"
+   ],
+   "answer": "He is located high up on the northern cliff mesas of Darkcloud Pinnacle in Thousand Needles, accessible by ascending the winding path south of the Great Lift and crossing the high wooden bridges toward Razorfen Downs."
+  },
+  {
+   "q": "Who is Lakota Windsong?",
+   "aliases": [
+    "who is lakota",
+    "lakota windsong story"
+   ],
+   "answer": "Lakota Windsong is a tauren captive held by Arnak on Darkcloud Pinnacle. Her brother was murdered by Arnak during her abduction, and she remains stranded on the mesa until Arnak is dealt with."
+  },
+  {
+   "q": "Who offers the bounty reward?",
+   "aliases": [
+    "who turns in arnak",
+    "bounty turn in",
+    "cliffwatcher longhorn reward"
+   ],
+   "answer": "Cliffwatcher Longhorn in Freewind Post manages the bounty. He rewards travelers who present Arnak's severed hoof as proof that the rogue tauren has been brought to justice."
+  },
+  {
+   "q": "Is Arnak officially working for the Grimtotem tribe?",
+   "aliases": [
+    "is arnak with grimtotem",
+    "arnak tribe status"
+   ],
+   "answer": "The bounty specifically describes Arnak as an outcast, indicating he has acted beyond any tribal law. Nevertheless, he has taken refuge within the Grimtotem stronghold of Darkcloud Pinnacle."
+  },
+  {
+   "q": "What proof is required to claim the bounty?",
+   "aliases": [
+    "what do i bring cliffwatcher longhorn",
+    "arnak proof",
+    "arnaks hoof"
+   ],
+   "answer": "Hunters must sever and return Arnak's Hoof to Cliffwatcher Longhorn at Freewind Post to verify his death and receive the bounty."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren loyal to Cairne Bloodhoof, tracking down Arnak is an act of tribal justice, punishing a kinslayer who dishonored their traditions by abducting Lakota Windsong."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Freewind Post serves as the Horde's vital lifeline through Thousand Needles, and eliminating ruthless renegades on Darkcloud Pinnacle secures the heights along the canyon floor."
+  }
+ ],
+ "keywords": [
+  "arnak grimtotem",
+  "bounty",
+  "cliffwatcher longhorn",
+  "darkcloud pinnacle",
+  "freewind post",
+  "lakota windsong",
+  "outcast",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:cliffwatcher-longhorn",
+  "npc:lakota-windsong",
+  "quest:4904",
+  "subzone:darkcloud-pinnacle",
+  "subzone:freewind-post",
+  "quest:5064",
+  "zone:thousandneedles",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Wanted - Arnak Grimtotem"
+ ]
+}

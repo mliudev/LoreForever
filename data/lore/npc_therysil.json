@@ -1,0 +1,86 @@
+{
+ "key": "npc:therysil",
+ "type": "npc",
+ "name": "Therysil",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Therysil",
+  "refs": 1
+ },
+ "summary": "Therysil is a dryad dwelling at the Shrine of Aessina in central Ashenvale. Deeply devoted to the preservation of nature, she waits anxiously for word of her sister, Therylune, who fell into the hands of sinister cultists.",
+ "sections": [
+  {
+   "title": "A Guardian's Vigil",
+   "body": "Therysil makes her home near the tranquil waters of the Shrine of Aessina, a sacred glade within the ancient woods of Ashenvale. Like all dryads, the daughters of Cenarius, she is bound to the defense of the wild and the spirits dwelling within it. Yet her focus has been torn from quiet stewardship to gnawing worry. Her sister, Therylune, was captured nearby by the deranged Twilight's Hammer cult, leaving Therysil desperate for any wandering ally willing to aid in her sister's rescue.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Therysil?",
+   "aliases": [
+    "who is therysil",
+    "therysil lore",
+    "dryad at aessina"
+   ],
+   "answer": "Therysil is a dryad found residing at the Shrine of Aessina in Ashenvale. She is a daughter of Cenarius and the sister of Therylune."
+  },
+  {
+   "q": "What is Therysil's concern?",
+   "aliases": [
+    "what is therysil doing",
+    "why is therysil worried",
+    "therysil quest"
+   ],
+   "answer": "Her sister, Therylune, was ambushed and taken captive by the Twilight's Hammer cultists lurking in Ashenvale. Therysil waits at the shrine hoping an adventurer can guide her sister safely home."
+  },
+  {
+   "q": "Who is Therylune?",
+   "aliases": [
+    "therylune",
+    "therysil sister",
+    "who is therylune"
+   ],
+   "answer": "Therylune is Therysil's sister, another dryad of Ashenvale. She was captured by the Twilight's Hammer and requires an escort to escape their clutches and reunite with Therysil."
+  },
+  {
+   "q": "Where can Therysil be found?",
+   "aliases": [
+    "therysil location",
+    "where is therysil",
+    "shrine of aessina dryad"
+   ],
+   "answer": "Therysil stands at the Shrine of Aessina, a sacred natural haven nestled along the roadway in central Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a daughter of Cenarius, Therysil represents the deep bond between the Cenarion circle and the natural spirits of Ashenvale, making her plight especially urgent to visiting druids."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The dryads have long been staunch allies of the kaldorei in safeguarding Ashenvale's sacred groves, such as the Shrine of Aessina."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "cenarius",
+  "dryad",
+  "shrine of aessina",
+  "therylune",
+  "therysil",
+  "twilight's hammer"
+ ],
+ "related": [
+  "npc:therylune",
+  "quest:945",
+  "subzone:shrine-of-aessina",
+  "zone:ashenvale",
+  "topic:twilight-s-hammer"
+ ],
+ "attribution": [
+  "Therysil"
+ ]
+}

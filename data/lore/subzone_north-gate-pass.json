@@ -1,0 +1,75 @@
+{
+ "key": "subzone:north-gate-pass",
+ "type": "subzone",
+ "name": "North Gate Pass",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "North Gate Pass"
+ },
+ "summary": "North Gate Pass is a vital mountain thoroughfare connecting the snowy crags of Dun Morogh with the rolling basin of Loch Modan. It forms the northern corridor through the Khaz Modan peaks, watched over by a fortified dwarven outpost. Travelers heading toward the northern lowlands of the Wetlands frequently traverse this high road.",
+ "sections": [
+  {
+   "title": "Gateway Between the Peaks",
+   "body": "Carved into the sheer stone of Khaz Modan, North Gate Pass serves as the northern arterial link between the high, frozen valleys of Dun Morogh and the temperate waters of Loch Modan. Descending through steep mountain tunnels, travelers emerging from the west are greeted by the broad expanse of the loch valley. Because it sits within easy striking distance of the paths heading down into the Wetlands, the pass carries heavy traffic of dwarven messengers, merchants, and roaming adventurers. Its strategic value is anchored by the North Gate Outpost, where mountaineers keep vigilant watch against troggs and mountain predators.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does North Gate Pass lead?",
+   "aliases": [
+    "where does north gate pass go",
+    "north gate pass destination",
+    "path through north gate pass"
+   ],
+   "answer": "The pass connects eastern Dun Morogh to northwestern Loch Modan. Following the road further north around the loch leads toward the mountain tunnels descending into the Wetlands, making it a critical junction for northern travelers."
+  },
+  {
+   "q": "What guards the pass?",
+   "aliases": [
+    "who guards north gate pass",
+    "north gate pass guards",
+    "dwarf outpost north gate"
+   ],
+   "answer": "The Ironforge Mountaineers maintain North Gate Outpost directly along the road, monitoring travelers and keeping the mountain passage clear of prowling beasts and roaming troggs."
+  },
+  {
+   "q": "How does this differ from South Gate Pass?",
+   "aliases": [
+    "difference north and south gate pass",
+    "north gate vs south gate"
+   ],
+   "answer": "Both passes link Dun Morogh to Loch Modan through carved tunnels, but North Gate Pass lies to the north, offering the most direct overland route for travelers moving onward toward the Wetlands and northern lands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves journeying between the high gates of Ironforge and the frontier settlements around The Loch, the pass is a familiar, stone-hewn threshold guarded by fellow mountaineers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The pass represents a crucial military and supply corridor connecting the dwarven capital to northern Alliance expeditions bound for the Wetlands."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "ironforge",
+  "loch modan",
+  "mountaineers",
+  "north gate outpost",
+  "north gate pass",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:north-gate-outpost",
+  "zone:lochmodan",
+  "zone:dunmorogh",
+  "zone:wetlands",
+  "subzone:the-loch"
+ ],
+ "attribution": [
+  "North Gate Pass"
+ ]
+}

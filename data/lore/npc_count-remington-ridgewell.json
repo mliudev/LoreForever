@@ -1,0 +1,89 @@
+{
+ "key": "npc:count-remington-ridgewell",
+ "type": "npc",
+ "name": "Count Remington Ridgewell",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Count Remington Ridgewell",
+  "refs": 1
+ },
+ "summary": "Count Remington Ridgewell is a wealthy human aristocrat found in the Petitioner's Chamber within Stormwind Keep. As a member of the House of Nobles, he prides himself on curating the finest private collection of rare historical artifacts, heirlooms, and fine art in the kingdom.",
+ "sections": [
+  {
+   "title": "A Connoisseur of Antiquities",
+   "body": "Remington Ridgewell represents the elite tastes of the House of Nobles, taking immense pride in his family's personal museum of jewelry and artifacts. Rather than concerning himself with military campaigns or local uprisings, the Count spends his considerable wealth acquiring relics from fallen civilizations and fallen houses across Azeroth. To expand his prestigious gallery, he finances daring adventurers and employs field agents such as Mayara Brightwing, dispatching them to retrieve priceless oddities from perilous ruins, from the mountain redoubts of Alterac to the volcanic wastes of the Burning Steppes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Count Remington Ridgewell?",
+   "aliases": [
+    "who is remington ridgewell",
+    "remington ridgewell",
+    "count ridgewell"
+   ],
+   "answer": "Count Remington Ridgewell is a human noble and collector of antiquities stationed in the Petitioner's Chamber of Stormwind Keep. He uses his family fortune to acquire valuable relics, jewels, and art from across the world."
+  },
+  {
+   "q": "What artifacts does Count Ridgewell seek?",
+   "aliases": [
+    "ridgewell quests",
+    "perenolde tiara quest",
+    "what does he want"
+   ],
+   "answer": "Ridgewell hires adventurers to recover lost heirlooms for his museum. Notable acquisitions include the Perenolde Tiara from the ruins of Alterac and historical Dark Iron dwarf treasures retrieved from the Ruins of Thaurissan."
+  },
+  {
+   "q": "Who is Mayara Brightwing?",
+   "aliases": [
+    "mayara brightwing connection",
+    "who is mayara"
+   ],
+   "answer": "Mayara Brightwing is an agent employed by Count Ridgewell. He sent her to the Burning Steppes to scout for antiquities within the ancient Ruins of Thaurissan."
+  },
+  {
+   "q": "Where can Count Remington Ridgewell be found?",
+   "aliases": [
+    "where is count ridgewell",
+    "ridgewell location",
+    "petitioner's chamber noble"
+   ],
+   "answer": "He resides in the Petitioner's Chamber inside Stormwind Keep, alongside various other nobles and dignitaries seeking audience with the royal court."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance mercenaries, Count Ridgewell represents a lucrative patron willing to pay handsomely for reclaimed relics of fallen northern kingdoms and lost dwarven cities."
+  },
+  {
+   "target": "race:Human",
+   "text": "As a member of Stormwind's House of Nobles, Ridgewell exemplifies the wealthy aristocracy that prioritizes cultural prestige and art collecting despite the kingdom's political instability."
+  }
+ ],
+ "keywords": [
+  "house of nobles",
+  "mayara brightwing",
+  "museum",
+  "perenolde tiara",
+  "petitioner's chamber",
+  "remington ridgewell",
+  "ridgewell",
+  "stormwind keep"
+ ],
+ "related": [
+  "subzone:petitioner-s-chamber",
+  "subzone:stormwind-keep",
+  "quest:543",
+  "topic:house-of-nobles",
+  "topic:alterac-kingdom",
+  "subzone:ruins-of-thaurissan",
+  "subzone:ruins-of-alterac",
+  "zone:burningsteppes"
+ ],
+ "attribution": [
+  "Count Remington Ridgewell"
+ ]
+}

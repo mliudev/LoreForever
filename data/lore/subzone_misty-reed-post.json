@@ -1,0 +1,76 @@
+{
+ "key": "subzone:misty-reed-post",
+ "type": "subzone",
+ "name": "Misty Reed Post",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Misty Reed Post"
+ },
+ "summary": "Misty Reed Post is a rugged Horde encampment situated between Stagalbog and the Misty Reed Strand in the eastern reaches of the Swamp of Sorrows. Established as a frontline watch under the authority of Stonard, it serves to monitor the dangerous wetlands and the treacherous coastline.",
+ "sections": [
+  {
+   "title": "A Lonely Outpost",
+   "body": "Tucked away in the humid gloom between the Stagalbog and the eastern shore, Misty Reed Post is little more than a spartan camp under Stonard's banner. It is manned by a handful of Stonard hunters, a shaman, Katar, and Tok'Kar, who oversees the watch. Conditions are rough, offering no fortified shelter from the marsh's hostile wildlife and lingering damp. Tok'Kar harbors quiet ambitions that the Horde command in Stonard will one day reinforce the position with a sturdy orcish burrow or watchtower, though for now, the scouts must hold the marsh with tents, campfire smoke, and sharpened steel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Misty Reed Post?",
+   "aliases": [
+    "why is misty reed post here",
+    "misty reed post purpose",
+    "what is this camp"
+   ],
+   "answer": "It serves as a secondary forward camp for the Horde garrison at Stonard. Stationed between the wetlands of Stagalbog and the coast of the Misty Reed Strand, its sentries keep watch over coastal threats and native swamp beasts."
+  },
+  {
+   "q": "Who is in charge here?",
+   "aliases": [
+    "who leads misty reed post",
+    "tokkar",
+    "tok'kar"
+   ],
+   "answer": "The post is led by Tok'Kar, an orc tasked with holding the vulnerable camp alongside Katar, a Stonard shaman, and several Stonard hunters. Tok'Kar hopes the settlement will eventually be granted the resources to construct permanent fortifications."
+  },
+  {
+   "q": "Is there a flight master at Misty Reed Post?",
+   "aliases": [
+    "misty reed flight path",
+    "is there a flight path here",
+    "flight master misty reed post"
+   ],
+   "answer": "No. Misty Reed Post is an austere field encampment without wind rider facilities. Travelers seeking flight paths must make the journey west along the road to Stonard."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The camp offers a welcome pocket of safety and local guidance for Horde scouts navigating the perilous eastern edges of the marsh."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Staffed primarily by Stonard hunters who know the surrounding marsh ecology, the post represents the grit needed to track and survive amidst hostile wetland predators."
+  }
+ ],
+ "keywords": [
+  "katar",
+  "misty reed post",
+  "misty reed strand",
+  "stagalbog",
+  "stonard",
+  "swamp of sorrows",
+  "tok'kar"
+ ],
+ "related": [
+  "subzone:stonard",
+  "zone:swampofsorrows",
+  "subzone:misty-reed-strand",
+  "subzone:stagalbog",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Misty Reed Post"
+ ]
+}

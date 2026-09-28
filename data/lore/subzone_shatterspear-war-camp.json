@@ -1,0 +1,94 @@
+{
+ "key": "subzone:shatterspear-war-camp",
+ "type": "subzone",
+ "name": "Shatterspear War Camp",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Shatterspear War Camp"
+ },
+ "summary": "The Shatterspear War Camp is a fortified encampment situated along the northern coastline of Darkshore, just north of the Ruins of Mathystra. Built and manned by the Shatterspear trolls alongside allied Horde Enforcers, the outpost serves as an aggressive staging ground encroaching deep into night elf territory. Equipped with coastal docks and holding pens for night elf prisoners, it poses a direct military threat to the surrounding region.",
+ "sections": [
+  {
+   "title": "Frontier Encroachment",
+   "body": "Perched on the northern bluffs and shorelines of Darkshore, the Shatterspear War Camp represents an overt military thrust by the Shatterspear tribe from their secluded home in Shatterspear Vale. Supported by veteran orc and tauren Horde Enforcers, the camp bristles with axe-throwers, mystics, and laborers fortifying the perimeter. Down by the water, a bustling dock allows the garrison to receive supplies and reinforce their beachfront hold, placing a hostile force directly on the doorstep of ancient kaldorei holdings.",
+   "spoiler": 0
+  },
+  {
+   "title": "Captives of the Shore",
+   "body": "Beyond acting as a forward base of operations, the war camp serves a grim secondary purpose as an interrogation site. The Shatterspear have captured local night elves wandering or defending the surrounding woods, including figures like Sentinel Aynasha and Alanndarian Nightsong. Under the watch of tribal torturers and enforcers, these captives are held under guard, making the stockade a critical flashpoint for Sentinel resistance operating in northern Darkshore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Shatterspear War Camp?",
+   "aliases": [
+    "what is this camp",
+    "shatterspear camp",
+    "who owns shatterspear war camp"
+   ],
+   "answer": "It is a fortified military base situated north of the Ruins of Mathystra in northern Darkshore. It is operated by the Shatterspear troll tribe with the backing of orc and tauren enforcers."
+  },
+  {
+   "q": "Why are there Horde troops here in Darkshore?",
+   "aliases": [
+    "why is horde in darkshore",
+    "why are orcs here",
+    "horde presence"
+   ],
+   "answer": "The Shatterspear trolls have allied with the broader Horde, utilizing orc and tauren military muscle to expand their influence out of the mountains and establish a forward military foothold along the coast."
+  },
+  {
+   "q": "Who is being held prisoner in the camp?",
+   "aliases": [
+    "night elf prisoners",
+    "who is captured",
+    "captives in camp"
+   ],
+   "answer": "The camp holds several captured night elves, notably Sentinel Aynasha and Alanndarian Nightsong, who are guarded closely by tribal captors and Horde combatants."
+  },
+  {
+   "q": "Where did the Shatterspear trolls come from?",
+   "aliases": [
+    "shatterspear origin",
+    "where do these trolls live",
+    "troll home"
+   ],
+   "answer": "The tribe hails from Shatterspear Vale, a secluded mountain valley tucked away in the rugged heights between Darkshore and northern Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The camp is a grave threat on the northern frontier of Darkshore, demanding swift action to liberate captured Sentinels and check tribal expansion."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The war camp serves as a vital forward staging ground and beachhead, demonstrating the reach of the Horde's allies along the northern coast."
+  }
+ ],
+ "keywords": [
+  "aynasha",
+  "darkshore",
+  "enforcer",
+  "mathystra",
+  "nightsong",
+  "shatterspear",
+  "troll",
+  "war camp"
+ ],
+ "related": [
+  "zone:darkshore",
+  "subzone:shatterspear-vale",
+  "subzone:ruins-of-mathystra",
+  "npc:sentinel-aynasha",
+  "npc:alanndarian-nightsong",
+  "topic:horde",
+  "topic:troll",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Shatterspear War Camp"
+ ]
+}

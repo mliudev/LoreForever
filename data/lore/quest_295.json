@@ -1,0 +1,120 @@
+{
+ "key": "quest:295",
+ "type": "quest",
+ "name": "Ormer's Revenge",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   295
+  ],
+  "level": "27",
+  "faction": "Alliance",
+  "start": "Ormer Ironbraid",
+  "end": "",
+  "previous": "Ormer's Revenge",
+  "next": "Ormer's Revenge (3)",
+  "wiki": "Ormer's Revenge (2)",
+  "chain": []
+ },
+ "summary": "Ormer's Revenge is an Alliance task given by Prospector Ormer Ironbraid at the ruined Whelgar Excavation Site in the Wetlands. With the initial scout raptors culled, Ormer demands the slaughter of the heavier Mottled Scytheclaws and Razormaws that drove his expedition from the pits.",
+ "sections": [
+  {
+   "title": "Escalating the Hunt",
+   "body": "Ormer Ironbraid's grudge against the raptors running rampant over the Whelgar Excavation Site is deeply personal. After thinning out the smaller juveniles that overran the upper camp, he turns your blades against the adult predators prowling the lower dig site. The Mottled Scytheclaws and Razormaws represent the core threat to any hope of reclaiming the archaeological effort, tearing through dwarven prospectors and leaving the trenches littered with shattered crates and abandoned picks.",
+   "spoiler": 0
+  },
+  {
+   "title": "Blood in the Trenches",
+   "body": "The excavation pits have effectively turned into a raptor nesting ground. As Ormer broods on the ridge overlooking the dig, he directs capable adventurers down into the mud to strike directly at the mature beasts. While Prospector Whelgar and his crew hope to salvage ancient relics, Ormer is entirely consumed by vengeance, demanding a hefty tally of dead scytheclaws and razormaws before he considers taking on the apex terror of the site.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Ormer so angry at these raptors?",
+   "aliases": [
+    "why ormer mad",
+    "ormer revenge reason",
+    "why kill raptors wetlands"
+   ],
+   "answer": "The mottled raptors violently swarmed and overwhelmed the Whelgar Excavation Site, driving out the dwarven team and slaughtering anyone who couldn't escape in time. Ormer Ironbraid was left displaced and bitter, and he refuses to let the beasts control the dig without paying dearly in blood."
+  },
+  {
+   "q": "Where are the Mottled Scytheclaws and Razormaws found?",
+   "aliases": [
+    "mottled scytheclaw location",
+    "mottled razormaw location",
+    "where to find raptors ormer"
+   ],
+   "answer": "Both breeds of raptors prowl the lower dig trenches and surrounding earthworks of the Whelgar Excavation Site, situated in the eastern hills of the Wetlands just south of the main road."
+  },
+  {
+   "q": "Who is Ormer Ironbraid?",
+   "aliases": [
+    "who is ormer",
+    "ormer ironbraid lore"
+   ],
+   "answer": "Ormer Ironbraid is a dwarven member of the Explorers' League stationed at the Whelgar Excavation Site. Following the catastrophic overrun of the dig, he has made it his personal mission to exterminate the raptor pack infesting their work."
+  },
+  {
+   "q": "What happens after culling these raptors?",
+   "aliases": [
+    "what next after ormer revenge",
+    "ormer's revenge sequel",
+    "next quest after scytheclaws"
+   ],
+   "answer": "Once you have culled the Scytheclaws and Razormaws, Ormer turns his focus to the matron and leader of the local pack, directing you to put an end to the prime source of the raptor infestation."
+  },
+  {
+   "q": "Does this quest connect to other tasks in the excavation site?",
+   "aliases": [
+    "whelgar excavation quests",
+    "uncovering the past connection"
+   ],
+   "answer": "Yes. While hunting down the raptors throughout the lower dig site for Ormer, adventurers frequently assist Prospector Whelgar and his team with 'Uncovering the Past', collecting fragmented earthen artifacts scattered across the same trenches."
+  },
+  {
+   "q": "Why were the dwarves digging here in the first place?",
+   "aliases": [
+    "why excavate wetlands",
+    "whelgar excavation purpose"
+   ],
+   "answer": "The Explorers' League of Ironforge established the Whelgar Excavation Site to search for titan relics and uncover the ancient history of the dwarven race, though their operations were halted when aggressive wildlife overran the dig."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Ormer's fury reflects the fierce pride of the Explorers' League, who refuse to let wild beasts permanently stall dwarven efforts to unearth their ancestral past."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The Mottled raptors of the Wetlands are ferociously territorial pack hunters, presenting a lethal tracking challenge inside the enclosed, muddy trenches."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Reclaiming the Whelgar Excavation Site secures safe operations along the eastern road connecting the Wetlands to the Arathi Highlands."
+  }
+ ],
+ "keywords": [
+  "dwarf",
+  "excavation",
+  "explorers league",
+  "mottled razormaw",
+  "mottled scytheclaw",
+  "ormer ironbraid",
+  "raptors",
+  "wetlands",
+  "whelgar excavation"
+ ],
+ "related": [
+  "quest:294",
+  "npc:ormer-ironbraid",
+  "quest:299",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Ormer's Revenge (2)"
+ ]
+}

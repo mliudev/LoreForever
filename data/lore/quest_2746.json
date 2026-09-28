@@ -1,0 +1,132 @@
+{
+ "key": "quest:2746",
+ "type": "quest",
+ "name": "Items of Some Consequence",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   2746
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Tyrion",
+  "end": "",
+  "previous": "Infiltrating the Castle",
+  "next": "The Attack!",
+  "wiki": "Items of Some Consequence",
+  "chain": []
+ },
+ "summary": "To sneak his mechanical spy into Stormwind Keep and eavesdrop on Lord Lescovar, the covert operative Tyrion demands a very specific assortment of disguise materials. You must supply fine silk and crisp orchard apples to assemble an eccentric cover identity that can bypass the royal guards undetected.",
+ "sections": [
+  {
+   "title": "A Tightening Schedule",
+   "body": "Word from Master Mathias Shaw and the cheese merchant Elling Trias has accelerated operations against Lord Gregor Lescovar. Suspecting that the noble's machinations within Stormwind Keep pose an immediate danger to the realm, Trias insisted the timetable be moved forward. Lurking in the alleys of the city, Tyrion agrees to advance the operation, though he insists that gathering the proper infiltration supplies requires careful preparation.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Art of the Disguise",
+   "body": "Tyrion's plan hinges on an unconventional asset: Spybot, a small mechanical contraption intended to slip past the vigilant castle guards and into the keep's secluded gardens. Rather than relying on simple stealth, Tyrion constructs a bizarre feminine disguise to deflect suspicion. To complete this masquerade, he sends operatives out to Clara's orchard just outside the city walls for appropriately sized apples, while demanding bolts of silk cloth to tailor the puppet's garments.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uncovering Treason",
+   "body": "Tyrion reveals that his initial surveillance of Lord Lescovar was not tied to the Defias Brotherhood at all, but rather suspicious leads connecting the noble to the Twilight's Hammer cult. The discovery that Lescovar is actively colluding with Defias conspirators makes his continued presence in the royal court untenable, turning a routine surveillance mission into a high-stakes sting in the heart of the kingdom.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Tyrion need apples and silk cloth?",
+   "aliases": [
+    "why apples",
+    "what are the apples for",
+    "tyrion disguise materials",
+    "spybot disguise"
+   ],
+   "answer": "Tyrion is crafting a peculiar feminine disguise for his mechanical scout, Spybot, to slip past the royal guards in Stormwind Keep without raising an alarm. The silk is tailored into makeshift garments, while the apples from Clara's farm provide the exact shape needed to complete the illusion."
+  },
+  {
+   "q": "Who is Tyrion working for?",
+   "aliases": [
+    "who does tyrion report to",
+    "tyrion allegiance",
+    "elling trias tyrion"
+   ],
+   "answer": "Tyrion works in coordination with Elling Trias, the cheese merchant who acts as a crucial eyes-and-ears operative for Mathias Shaw and the SI:7 intelligence network within Stormwind."
+  },
+  {
+   "q": "Where do I find Clara's apples?",
+   "aliases": [
+    "clara farm location",
+    "where are claras apples",
+    "fresh apples stormwind"
+   ],
+   "answer": "Clara's farm sits just outside the city gates of Stormwind in northern Elwynn Forest. Fresh apples can be gathered directly around her modest orchard."
+  },
+  {
+   "q": "What did Tyrion originally suspect Lord Lescovar of doing?",
+   "aliases": [
+    "lescovar twilight hammer",
+    "why was lescovar investigated",
+    "tyrion lescovar history"
+   ],
+   "answer": "Tyrion and Trias initially tracked leads suggesting Lord Lescovar had ties to the sinister Twilight's Hammer cult. Uncovering his collaboration with the Defias Brotherhood proved that his treason ran far deeper and posed an imminent threat to the crown."
+  },
+  {
+   "q": "What is the next step after delivering these items?",
+   "aliases": [
+    "what happens next",
+    "after items of some consequence",
+    "next quest after items of some consequence"
+   ],
+   "answer": "Once Spybot is fully outfitted and sent into the keep's library wing, you will be tasked with directly confronting and eliminating the conspirators in the follow-up mission, 'The Attack!'."
+  },
+  {
+   "q": "Why use a mechanical spybot instead of sneaking in personally?",
+   "aliases": [
+    "why use spybot",
+    "why not sneak in yourself",
+    "stormwind keep security"
+   ],
+   "answer": "Stormwind Keep is heavily guarded by royal sentries who scrutinize everyone entering the throne room and private courtyards. A disguised mechanical construct can navigate vents and alcoves unnoticed to record illicit meetings that no mortal agent could easily reach."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Working alongside operatives like Tyrion and Elling Trias highlights SI:7's unorthodox surveillance methods and shows how domestic intelligence operates right under the nobles' noses."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Tyrion's improvised scheme requires genuine silk cloth, reminding tailors that fine textiles are as vital for undercover intrigue as they are for formal gowns."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Safeguarding the young King Anduin and Highlord Bolvar Fordragon requires rooting out corrupt aristocrats who conspire with outlaws within Stormwind Keep itself."
+  }
+ ],
+ "keywords": [
+  "clara",
+  "elling trias",
+  "infiltrating the castle",
+  "lord lescovar",
+  "silk cloth",
+  "spybot",
+  "stormwind keep",
+  "the attack",
+  "tyrion"
+ ],
+ "related": [
+  "quest:2745",
+  "quest:434",
+  "npc:tyrion",
+  "topic:defias-brotherhood",
+  "topic:twilight-s-hammer",
+  "topic:stormwind-kingdom",
+  "quest:65"
+ ],
+ "attribution": [
+  "Items of Some Consequence"
+ ]
+}

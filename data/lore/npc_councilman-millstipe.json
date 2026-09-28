@@ -1,0 +1,95 @@
+{
+ "key": "npc:councilman-millstipe",
+ "type": "npc",
+ "name": "Councilman Millstipe",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "wiki": "Councilman Millstipe",
+  "refs": 2
+ },
+ "summary": "Councilman Millstipe is a member of Darkshire's governing council, residing within the town hall of Duskwood. Deeply resentful of royal neglect and judicial meddling from the capital, he actively seeks retribution against criminals who endanger the darkened region.",
+ "sections": [
+  {
+   "title": "Justice Denied by Stormwind",
+   "body": "While Darkshire struggles under the shadow of the undead and ferocious beast attacks, its local council fights an uphill battle against the bureaucracy of Stormwind City. Councilman Millstipe represents the town's growing bitterness toward the crown. When the notorious grave robber Dextren Ward was caught selling freshly dug corpses to the necromancer Morbent Fel, Darkshire's leaders sentenced him to death. Instead, Stormwind's House of Nobles intervened, commuting Ward's execution and locking him safely away inside the Stormwind Stockade.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Message to the Nobles",
+   "body": "Refusing to let the capital's corrupt politicians override the safety and justice of Duskwood, Millstipe discreetly tasks adventurers with finishing the job. By ordering the summary execution of Dextren Ward within his Stockade cell, Millstipe aims to send an unmistakable message to the House of Nobles: if Stormwind refuses to protect the people of Duskwood, the people will take justice into their own hands.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Councilman Millstipe be found?",
+   "aliases": [
+    "millstipe location",
+    "where is millstipe",
+    "find councilman millstipe"
+   ],
+   "answer": "Councilman Millstipe is located inside Darkshire's town hall, situated in the eastern part of Duskwood."
+  },
+  {
+   "q": "Why does Millstipe want Dextren Ward dead?",
+   "aliases": [
+    "why kill dextren ward",
+    "millstipe dextren ward",
+    "ward crime"
+   ],
+   "answer": "Dextren Ward was a grave robber who exhumed the dead of Duskwood and sold them to the necromancer Morbent Fel. Darkshire sentenced him to hang, but Stormwind's House of Nobles spared his life and threw him into the Stockade instead."
+  },
+  {
+   "q": "What is Millstipe's grievance with Stormwind?",
+   "aliases": [
+    "why mad at stormwind",
+    "house of nobles darkshire",
+    "millstipe politics"
+   ],
+   "answer": "Millstipe believes Stormwind has abandoned Duskwood while meddling in its local justice. The House of Nobles overruled Darkshire's rightful death sentence for Dextren Ward, leaving the traumatized settlement feeling ignored and unprotected by the throne."
+  },
+  {
+   "q": "Does Millstipe have any known family?",
+   "aliases": [
+    "millstipe relatives",
+    "dorothea millstipe",
+    "millstipe family"
+   ],
+   "answer": "He is believed to share lineage with Baroness Dorothea Millstipe, whose restless spirit haunts the banqueting halls of the abandoned tower of Karazhan in Deadwind Pass."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Millstipe embodies the deep political rift between Stormwind's sheltered nobility and the desperate frontier settlements of Duskwood, which receive little aid yet face heavy-handed meddling from the capital."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "For an operative willing to slip into the heavily guarded Stockade and carry out an unsanctioned political execution, Millstipe offers work that directly defies the House of Nobles."
+  }
+ ],
+ "keywords": [
+  "councilman millstipe",
+  "darkshire",
+  "dextren ward",
+  "duskwood",
+  "house of nobles",
+  "millstipe",
+  "morbent fel",
+  "stockade"
+ ],
+ "related": [
+  "quest:377",
+  "npc:dextren-ward",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "subzone:stormwind-stockade",
+  "quest:55",
+  "topic:house-of-nobles",
+  "subzone:karazhan"
+ ],
+ "attribution": [
+  "Councilman Millstipe"
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "key": "npc:watcher-dodds",
+ "type": "npc",
+ "name": "Watcher Dodds",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Watcher Dodds",
+  "refs": 1
+ },
+ "summary": "Watcher Dodds is a human scout of the Night Watch stationed at the central crossroads of Duskwood. Manning a lonely roadside outpost far from Darkshire's town walls, he monitors the encroaching horrors and tasks travelers with culling the local giant spider population.",
+ "sections": [
+  {
+   "title": "On the Crossroads Watch",
+   "body": "Watcher Dodds serves the Night Watch under Commander Althea Ebonlocke, holding down an exposed post at the intersection connecting Darkshire to Raven Hill and Deadwind Pass. While Darkshire huddles within its palisades, forward sentries like Dodds live on the knife's edge between wolf packs, ravenous ghouls, and oversized arachnids. From his roadside camp, he keeps an eye on approaching threats and enlists wandering mercenaries to thin out the spiders crawling out from the undergrowth before they completely overrun the overgrown thoroughfares.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Watcher Dodds?",
+   "aliases": [
+    "watcher dodds",
+    "who is dodds",
+    "dodds duskwood"
+   ],
+   "answer": "He is a human member of the Night Watch, the militia formed to defend Duskwood against the undead and beasts plaguing the region. He is stationed at the central crossroads rather than within the safety of Darkshire."
+  },
+  {
+   "q": "Where can I find Watcher Dodds?",
+   "aliases": [
+    "watcher dodds location",
+    "where is dodds",
+    "dodds coords"
+   ],
+   "answer": "Dodds maintains a small roadside camp at the main crossroads in central Duskwood, where the roads between Darkshire, Raven Hill, and the southern passes diverge."
+  },
+  {
+   "q": "Why does he want spiders killed?",
+   "aliases": [
+    "eight-legged menaces",
+    "dodds spider quest",
+    "why kill spiders"
+   ],
+   "answer": "Giant venomous spiders infest the surrounding woods and prey upon wanderers and supply couriers using the road. Dodds relies on passing adventurers to cull the webwood brood to prevent the paths from becoming entirely impassable."
+  },
+  {
+   "q": "Who does Watcher Dodds report to?",
+   "aliases": [
+    "dodds commander",
+    "who leads night watch"
+   ],
+   "answer": "He answers to Commander Althea Ebonlocke, the leader of the Night Watch headquartered at the town hall in Darkshire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers navigating Duskwood, Dodds's campfire marks one of the few safe bastions of friendly support along the dark roads between Darkshire and western lands."
+  }
+ ],
+ "keywords": [
+  "althea ebonlocke",
+  "crossroads",
+  "darkshire",
+  "duskwood",
+  "night watch",
+  "spiders",
+  "watcher dodds"
+ ],
+ "related": [
+  "npc:althea-ebonlocke",
+  "quest:245",
+  "zone:duskwood",
+  "subzone:crossroads",
+  "subzone:darkshire",
+  "quest:163"
+ ],
+ "attribution": [
+  "Watcher Dodds"
+ ]
+}

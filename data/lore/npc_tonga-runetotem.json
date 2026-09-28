@@ -1,0 +1,122 @@
+{
+ "key": "npc:tonga-runetotem",
+ "type": "npc",
+ "name": "Tonga Runetotem",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Tonga Runetotem",
+  "refs": 9
+ },
+ "summary": "Tonga Runetotem is a knowledgeable tauren druid stationed outside the inn at the Crossroads in the Barrens. Dispatched from Thunder Bluff, he investigates an unnatural corruption seeping into the region's sparse oases and sickening the native wildlife. His research aims to trace the spiritual disturbance back to its origin before the delicate ecosystem collapses entirely.",
+ "sections": [
+  {
+   "title": "Watcher at the Crossroads",
+   "body": "Amid the dust and bustling commerce of the Crossroads, Tonga Runetotem keeps a quiet vigil. Sent down from the high mesas of Mulgore by his elders in Thunder Bluff, Tonga possesses an intimate understanding of the arid savannah. Where others see only barren scrub and predatory beasts, he reads the subtle currents of the land's health. In recent times, those currents have soured dramatically, compelling him to recruit capable travelers to investigate the heart of the savannah's life: its isolated oases.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tainted Waters and Warped Beasts",
+   "body": "The Barrens depends entirely on its scattered water sources, but the waters of the Forgotten Pools and the Stagnant Oasis have turned volatile. Strange bubbles of magical vapor rise to the surface, and the creatures drinking from them have begun mutating into aberrant, aggressive forms. Tonga works tirelessly to collect plant and creature samples, seeking to understand whether this malady is natural rot or the work of an intrusive power. His findings increasingly point toward deep subterranean fissures, connecting the poisoned pools directly to the subterranean labyrinths of the Wailing Caverns.",
+   "spoiler": 1
+  },
+  {
+   "title": "The Runetotem Lineage",
+   "body": "Bearing the proud name of the Runetotem clan, Tonga carries the heavy druidic heritage championed by Archdruid Hamuul Runetotem. While Archdruid Hamuul maintains relations with the Cenarion Circle and studies in the sacred groves of Moonglade, scouts like Tonga are the eyes and hands on the frontier. Tonga calls upon Moonglade's traditional botanical wisdom to compound healing salves and counter poisons, ensuring the young tauren druidic tradition proves its vital worth to the fledgling Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tonga Runetotem?",
+   "aliases": [
+    "tonga runetotem",
+    "who is tonga",
+    "crossroads druid"
+   ],
+   "answer": "Tonga is a tauren druid located near the inn at the Crossroads in the Barrens. He acts as an investigator sent by his elders in Thunder Bluff to study the strange natural corruptions spreading across the savannah."
+  },
+  {
+   "q": "What is Tonga investigating in the Barrens?",
+   "aliases": [
+    "what is tonga doing",
+    "tonga quest goal",
+    "why investigate oases"
+   ],
+   "answer": "He is investigating the unnatural emergence of strange vapors, mutated beasts, and tainted waters within the Barrens oases, including the Forgotten Pools and the Stagnant Oasis."
+  },
+  {
+   "q": "Where does Tonga believe the corruption is coming from?",
+   "aliases": [
+    "source of oasis corruption",
+    "where is the taint from",
+    "wailing caverns connection"
+   ],
+   "answer": "Through studying altered creatures and water fissures, Tonga deduces that the magical taint infecting the oases originates deep underground within the Wailing Caverns."
+  },
+  {
+   "q": "Is Tonga related to Hamuul Runetotem?",
+   "aliases": [
+    "is he related to hamuul",
+    "runetotem family",
+    "hamuul relation"
+   ],
+   "answer": "Yes, Tonga belongs to the prominent Runetotem clan, the primary tauren lineage studying the druidic arts under the leadership of Archdruid Hamuul Runetotem in Thunder Bluff."
+  },
+  {
+   "q": "What does Tonga do for the poisoned wildlife?",
+   "aliases": [
+    "gazelle cure",
+    "tonga curing sick",
+    "dreadmist peak poison"
+   ],
+   "answer": "Using teachings from Moonglade alongside local reagents, Tonga prepares curative salves to treat poisoned gazelles and counteract toxins flowing from sources like Dreadmist Peak."
+  },
+  {
+   "q": "Why is Tonga stationed at the Crossroads instead of Camp Taurajo or Thunder Bluff?",
+   "aliases": [
+    "why crossroads",
+    "why is tonga here"
+   ],
+   "answer": "The Crossroads serves as the central hub of the northern Barrens, placing Tonga in close proximity to the affected oases while providing access to adventurers who can venture into dangerous territory on his behalf."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For tauren druids learning their craft, Tonga represents the practical application of Cenarion teachings, demonstrating how to diagnose and cleanse blighted ecosystems far from Moonglade."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tonga exemplifies the tauren commitment to the Earth Mother, working diligently to safeguard the fragile water sources that keep life alive across the parched plains."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde relies on Tonga's ecological investigations to ensure their primary thoroughfare through the Barrens remains habitable and protected from subterranean magical threats."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "druid",
+  "forgotten pools",
+  "oases",
+  "runetotem",
+  "stagnant oasis",
+  "tonga",
+  "wailing caverns"
+ ],
+ "related": [
+  "subzone:crossroads",
+  "zone:barrens",
+  "quest:886",
+  "quest:870",
+  "quest:877",
+  "zone:wailing",
+  "quest:1489",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Tonga Runetotem"
+ ]
+}

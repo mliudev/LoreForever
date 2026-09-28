@@ -1,0 +1,120 @@
+{
+ "key": "quest:832",
+ "type": "quest",
+ "name": "Burning Shadows",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   832
+  ],
+  "level": "12",
+  "faction": "Horde",
+  "start": "Eye of Burning Shadow",
+  "end": "Neeru Fireblade",
+  "previous": null,
+  "next": null,
+  "wiki": "Burning Shadows",
+  "chain": []
+ },
+ "summary": "Recovered from the Burning Blade cultist Gazz'uz in the depths of Skull Rock, this mysterious glowing pendant whispers urgent warnings into the bearer's mind. The voice specifically threatens Gazz'uz with the wrath of Neeru Fireblade, an orc warlock residing in Orgrimmar.",
+ "sections": [
+  {
+   "title": "A Voice in the Stone",
+   "body": "Upon slaying Gazz'uz deep within Skull Rock, an ominous pendant known as the Eye of Burning Shadow is retrieved from his remains. Rather than being an inert magical trinket, the stone vibrates with psychic communication. A demanding voice speaks directly into the mind of anyone holding it, demanding reports from Gazz'uz and warning him that his clandestine operations east of Orgrimmar have been compromised.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Curious Threat",
+   "body": "What catches any loyal Horde scout off guard is the voice's desperate ultimatum: respond, or Neeru Fireblade will be notified to hunt Gazz'uz down with swift brutality. Neeru Fireblade dwells openly in Orgrimmar's Cleft of Shadow, ostensibly practicing dark arts under Thrall's strict oversight. Delivering the talisman to Neeru prompts feigned surprise and curiosity, with the warlock marveling that his name was invoked as a boogeyman against the cult.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Eye of Burning Shadow?",
+   "aliases": [
+    "eye of burning shadow",
+    "what is this pendant",
+    "gazz'uz eye"
+   ],
+   "answer": "The Eye of Burning Shadow is an enchanted pendant dropped by the Burning Blade leader Gazz'uz inside Skull Rock. It acts as a two-way telepathic relay between cult operatives and their unseen masters."
+  },
+  {
+   "q": "Who is speaking through the pendant?",
+   "aliases": [
+    "who spoke to me",
+    "voice in the pendant",
+    "who talks through eye"
+   ],
+   "answer": "An unidentified superior within the Shadow Council or Burning Blade hierarchy is attempting to contact Gazz'uz, unaware that the cultist has already been slain in Skull Rock."
+  },
+  {
+   "q": "Why does the voice threaten Gazz'uz with Neeru Fireblade?",
+   "aliases": [
+    "why mention neeru",
+    "neeru fireblade threat",
+    "neeru connection"
+   ],
+   "answer": "The voice claims Neeru Fireblade will descend upon Gazz'uz with brutal force if he fails to report. On the surface, this frames Neeru as a feared loyal enforcer of Thrall, though the familiarity between the cult and Neeru suggests deeper undercurrents."
+  },
+  {
+   "q": "Where do I take the Eye of Burning Shadow?",
+   "aliases": [
+    "where to turn in burning shadows",
+    "where is neeru fireblade"
+   ],
+   "answer": "Bring the pendant to Neeru Fireblade, who can be found hovering over cauldrons and tomes deep within the Cleft of Shadow in Orgrimmar."
+  },
+  {
+   "q": "How does Neeru Fireblade react when given the eye?",
+   "aliases": [
+    "neeru reaction",
+    "what does neeru say"
+   ],
+   "answer": "Neeru claims ignorance, acting baffled that cultists would invoke his name. He takes the pendant ostensibly to study its magic and uncover why the Burning Blade bears a name so similar to his own clan identity."
+  },
+  {
+   "q": "Where is Gazz'uz located?",
+   "aliases": [
+    "where is gazz'uz",
+    "gazz'uz location",
+    "skull rock boss"
+   ],
+   "answer": "Gazz'uz lurks at the deepest point of Skull Rock, a cavern hidden along the crags on Durotar's eastern coastline just east of Orgrimmar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "For a warlock training in the Cleft of Shadow, witnessing another practitioner's name invoked by the Burning Blade serves as a stark reminder of how thin the line is between state-sanctioned fel study and open treason."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Uncovering whispers between cultists right outside the capital's gates reveals that the demonic corruption of the Old Horde still festers uncomfortably close to Durotar's heart."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcs who fought alongside Thrall to purge the Legion's taint view the Burning Blade's presence in Durotar as an intolerable desecration of their new homeland."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "burning shadows",
+  "cleft of shadow",
+  "durotar",
+  "eye of burning shadow",
+  "gazz'uz",
+  "neeru fireblade",
+  "orgrimmar",
+  "skull rock"
+ ],
+ "related": [
+  "quest:827",
+  "quest:829",
+  "zone:durotar"
+ ],
+ "attribution": [
+  "Burning Shadows"
+ ]
+}

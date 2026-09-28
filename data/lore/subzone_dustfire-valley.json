@@ -1,0 +1,69 @@
+{
+ "key": "subzone:dustfire-valley",
+ "type": "subzone",
+ "name": "Dustfire Valley",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Dustfire Valley"
+ },
+ "summary": "Dustfire Valley is a dry, windswept gulch nestled along the northern edge of the Searing Gorge. It serves as the scorched threshold leading directly to the fortified gate of Stonewrought Pass, which bars the mountain route into Loch Modan.",
+ "sections": [
+  {
+   "title": "The Northern Boundary",
+   "body": "Tucked away in northern Searing Gorge, Dustfire Valley is defined by choking ash, brittle rock, and barren canyon walls. Its most notable feature is the imposing, locked dwarven gateway sealing Stonewrought Pass. Because of these locked iron doors, direct travel north into the Valley of Kings and Loch Modan remains entirely barred to ordinary wanderers, leaving the valley an isolated cul-de-sac amidst the sulfurous wastes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the gate in Dustfire Valley lead?",
+   "aliases": [
+    "dustfire gate",
+    "locked door dustfire",
+    "where does stonewrought pass lead"
+   ],
+   "answer": "The gate seals Stonewrought Pass, a mountain passage carved through the heights into the Valley of Kings in Loch Modan."
+  },
+  {
+   "q": "Can you open the gate to Loch Modan?",
+   "aliases": [
+    "how to open gate",
+    "open stonewrought pass",
+    "key to dustfire gate"
+   ],
+   "answer": "The gate is locked tight by dwarven craftsmanship to protect the lands of Loch Modan from the threats of Searing Gorge. Passing through requires securing a specific key."
+  },
+  {
+   "q": "Why is this area called Dustfire Valley?",
+   "aliases": [
+    "dustfire valley name",
+    "why dustfire"
+   ],
+   "answer": "The name reflects the choking combination of volcanic ash, dry dust, and lingering heat that characterizes this canyon near the northern mountain walls."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, the gated passage here marks a heavily fortified back door between the safety of Khaz Modan and the treacherous territory ruled by the Dark Iron clan."
+  }
+ ],
+ "keywords": [
+  "dustfire valley",
+  "loch modan",
+  "locked gate",
+  "searing gorge",
+  "stonewrought pass",
+  "valley of kings"
+ ],
+ "related": [
+  "subzone:stonewrought-pass",
+  "subzone:valley-of-kings",
+  "zone:searinggorge",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Dustfire Valley"
+ ]
+}

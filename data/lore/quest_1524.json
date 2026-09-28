@@ -1,0 +1,126 @@
+{
+ "key": "quest:1524",
+ "type": "quest",
+ "name": "Call of Fire",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1524
+  ],
+  "level": "11",
+  "faction": "Horde",
+  "start": "Kranal Fiss",
+  "end": "Telf Joolam",
+  "previous": "Call of Fire (Horde)",
+  "next": "Call of Fire (3)",
+  "wiki": "Call of Fire (2)",
+  "chain": [
+   "Call of Fire (Horde)",
+   "Call of Fire (2)",
+   "Call of Fire (3)",
+   "Call of Fire (4)",
+   "Call of Fire (5)"
+  ]
+ },
+ "summary": "This pilgrimage marks the second trial in the shamanic pursuit to commune with fire. Sent by Kranal Fiss from the Barrens, an aspiring shaman carries the unlit Torch of the Dormant Flame to a secluded mountaintop shrine perched high over the Southfury River in Durotar.",
+ "sections": [
+  {
+   "title": "A Test of Readiness",
+   "body": "While an initiate may demonstrate raw mystical strength, fire demands far more than power; it requires temperance, focus, and respect. Kranal Fiss entrusts the shaman with the Torch of the Dormant Flame. The object serves as both ritual instrument and credential, demonstrating to the shrine's keeper that the bearer has been formally judged ready to attempt the trial.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hidden Peak",
+   "body": "The destination lies across the Southfury River within Durotar's southern crags. Marked only by a weathered stone inscribed with a fire rune, an obscure path climbs toward one of the region's highest heights. At its summit rests the Shrine of the Dormant Flame, watched over by the troll hermit Telf Joolam. Telf regularly turns away curious travelers and treasure hunters, safeguarding the sacred brazier from mundane eyes until a true petitioner arrives carrying the unlit torch.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Torch of the Dormant Flame?",
+   "aliases": [
+    "why carry torch",
+    "dormant flame torch",
+    "torch meaning"
+   ],
+   "answer": "The unlit torch is a token of intent provided by Kranal Fiss. It identifies the carrier as a worthy shaman initiate to Telf Joolam, the keeper of the shrine, who otherwise turns away casual wanderers and treasure seekers."
+  },
+  {
+   "q": "Who is Telf Joolam?",
+   "aliases": [
+    "telf joolam",
+    "shrine keeper",
+    "who is the troll at the shrine"
+   ],
+   "answer": "Telf Joolam is a shamanic hermit of the Horde who watches over the Shrine of the Dormant Flame atop the peaks of southern Durotar. He safeguards the brazier from those who do not understand or respect the nature of the spirits."
+  },
+  {
+   "q": "Where is the hidden path located?",
+   "aliases": [
+    "hidden path location",
+    "how to find shrine of the dormant flame",
+    "path up the mountain"
+   ],
+   "answer": "The trail begins in Durotar, south of the bridge crossing the Southfury River. Along the riverbank near where the mountains meet the coastline, a standing stone marked with a flame rune marks the narrow trail ascending the high ridge."
+  },
+  {
+   "q": "Why must the torch be brought unlit?",
+   "aliases": [
+    "why is torch unlit",
+    "dormant torch ritual",
+    "why dormant flame"
+   ],
+   "answer": "Fire cannot simply be claimed; it must be awakened and mastered through proper ritual. Carrying the torch unlit symbolizes the dormant state of the flame before the shaman undertakes the communion required to kindle it."
+  },
+  {
+   "q": "What happens after reaching Telf Joolam?",
+   "aliases": [
+    "next step call of fire",
+    "what after telf joolam"
+   ],
+   "answer": "Once Telf Joolam verifies the torch, he directs the initiate into the harsher, more dangerous rites needed to kindle the dormant flame and prove mastery over elemental fire."
+  },
+  {
+   "q": "Why is this shrine kept secret from the rest of the Horde?",
+   "aliases": [
+    "why secret shrine",
+    "is the shrine hidden"
+   ],
+   "answer": "Elemental forces are volatile and perilous in untrained hands. Shamanic traditions hold sacred sites away from everyday settlements so that treasure hunters and the curious do not disturb the resting spirits or invite calamity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The path to the Fire Totem requires communing directly with the elemental forces of Kalimdor, demanding pilgrimage to remote shrines rather than simple instruction."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The shared shamanic teachings between orcs, tauren, and trolls unify their spiritual traditions, sending disciples from the plains of the Barrens to the sacred cliffs of Durotar."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "call of fire",
+  "durotar",
+  "fire totem",
+  "kranal fiss",
+  "shrine of the dormant flame",
+  "southfury river",
+  "telf joolam"
+ ],
+ "related": [
+  "npc:kranal-fiss",
+  "npc:telf-joolam",
+  "subzone:shrine-of-the-dormant-flame",
+  "subzone:hidden-path",
+  "subzone:southfury-river",
+  "zone:durotar",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Call of Fire (2)"
+ ]
+}

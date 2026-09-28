@@ -1,0 +1,119 @@
+{
+ "key": "quest:2985",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   2985
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Searn Firewarder",
+  "end": "Islen Waterseer",
+  "previous": null,
+  "next": "Call of Water (2)",
+  "wiki": "Call of Water (Orgrimmar)",
+  "chain": []
+ },
+ "summary": "Call of Water marks the beginning of a shaman's communion with the fluid element of healing and adaptability. Having already proved their mastery over earth and fire, an initiate is directed by Searn Firewarder in Orgrimmar to seek out the recluse Islen Waterseer on the eastern coast of the Barrens.",
+ "sections": [
+  {
+   "title": "A Shift in the Elements",
+   "body": "A shaman's training demands balance. After learning the steadfast resilience of earth and enduring the wild ferocity of fire, initiates are called toward the flowing, adaptable nature of water. In Orgrimmar, the troll shaman Searn Firewarder assesses his students' spiritual growth. When an initiate has proven their command of flame without being consumed by it, Searn recognizes that their spirit is tempered enough to seek out the teachings of water.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Recluse of the Merchant Coast",
+   "body": "To learn the secrets of the water spirits, the shaman must travel south along the Southfury River into the Barrens and push east toward the coast, just beyond the bustling goblin port of Ratchet. There, by the ocean shore near the carcass of a massive shark, dwells Islen Waterseer. Unlike the cloistered trainers in the Valley of Spirits, Islen lives where the salt waves relentlessly meet the land, serving as the Horde's principal guide for communion with water.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts call of water",
+    "searn firewarder"
+   ],
+   "answer": "Searn Firewarder, a troll shaman trainer residing in the Valley of Spirits in Orgrimmar, gives this task once you have proven your command over fire and earth."
+  },
+  {
+   "q": "Where can I find Islen Waterseer?",
+   "aliases": [
+    "where is islen",
+    "islen location",
+    "how to find islen waterseer"
+   ],
+   "answer": "Islen Waterseer lives along the eastern coast of the Barrens, just south of Ratchet. Follow the Southfury River south out of Durotar, head toward the shore past Ratchet, and look for her camp marked by a large beached shark."
+  },
+  {
+   "q": "Why must a shaman learn the elements in a specific order?",
+   "aliases": [
+    "element order",
+    "why water after fire",
+    "shaman progression"
+   ],
+   "answer": "Shamanic tradition requires an initiate to build spiritual balance step by step. Grounded by earth and tempered by fire, the soul becomes steady enough to withstand the fluid, shifting purity of water without being swept away."
+  },
+  {
+   "q": "Is this quest available to other classes?",
+   "aliases": [
+    "can non shaman do this",
+    "is call of water shaman only"
+   ],
+   "answer": "No. The Call of Water quests are exclusive to shamans seeking to earn the favor of the water spirits and manifest their Water Totem."
+  },
+  {
+   "q": "What landmark should I look for when searching for Islen?",
+   "aliases": [
+    "shark landmark",
+    "how to spot islen's camp",
+    "islen coast"
+   ],
+   "answer": "Searn advises travelers to look for a massive beached shark along the shoreline south of Ratchet. Islen has made her dwelling right beside it."
+  },
+  {
+   "q": "What happens after reaching Islen Waterseer?",
+   "aliases": [
+    "next step",
+    "what does islen do",
+    "after call of water"
+   ],
+   "answer": "Speaking to Islen begins the true trials of water, requiring the shaman to journey across Kalimdor to gather pure drops of water and confront spirits before earning the totem."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This summons marks the critical transition from destructive fire and stalwart earth toward the restorative, restorative powers of water, unlocking the spiritual conduit required to cast healing totems."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde shamans across Kalimdor\u2014whether orc, troll, or tauren\u2014are directed to Islen Waterseer on the Barrens coast to undertake their watery communion."
+  }
+ ],
+ "keywords": [
+  "call of water",
+  "islen waterseer",
+  "orgrimmar",
+  "ratchet",
+  "searn firewarder",
+  "shaman",
+  "southfury river",
+  "the barrens",
+  "water totem"
+ ],
+ "related": [
+  "npc:islen-waterseer",
+  "npc:searn-firewarder",
+  "zone:barrens",
+  "subzone:ratchet",
+  "subzone:southfury-river"
+ ],
+ "attribution": [
+  "Call of Water (Orgrimmar)"
+ ]
+}

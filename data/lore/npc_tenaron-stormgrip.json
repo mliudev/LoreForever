@@ -1,0 +1,106 @@
+{
+ "key": "npc:tenaron-stormgrip",
+ "type": "npc",
+ "name": "Tenaron Stormgrip",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Tenaron Stormgrip",
+  "refs": 4
+ },
+ "summary": "Tenaron Stormgrip is a night elf druid situated high within Aldrassil, the central great bough of Shadowglen. Serving the Cenarion Circle, he oversees the early ritual purifications that young kaldorei perform across the crown of Teldrassil.",
+ "sections": [
+  {
+   "title": "Watcher of Aldrassil",
+   "body": "Perched upon the winding wooden platforms of Aldrassil, Tenaron Stormgrip stands as an early mentor to young night elves stepping forth from the boughs of Shadowglen. From his vantage point, he monitors the health of the local woods and the vital moonwells that sustain them. His role is to instruct novices in understanding their profound spiritual connection to the World Tree.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crown of the Earth",
+   "body": "Tenaron is best known for directing initiates in the sacred rite known as Crown of the Earth. By having acolytes gather pure moonwell water and carry it across the reaches of Teldrassil, he seeks to nourish and purify the land's boughs while observing whether the young tree is flourishing or afflicted by hidden sickness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Tenaron Stormgrip located?",
+   "aliases": [
+    "tenaron location",
+    "where is tenaron",
+    "tenaron stormgrip spot"
+   ],
+   "answer": "Tenaron Stormgrip stands atop the wooden ramp structures of Aldrassil, the massive central tree at the heart of Shadowglen in Teldrassil."
+  },
+  {
+   "q": "What is Tenaron Stormgrip's role in Shadowglen?",
+   "aliases": [
+    "what does tenaron do",
+    "tenaron stormgrip purpose",
+    "who is tenaron"
+   ],
+   "answer": "He is an elder guide and member of the Cenarion Circle who instructs young night elves in tending to the sacred moonwells and testing the vitality of the World Tree through the ritual of the Crown of the Earth."
+  },
+  {
+   "q": "What is the Crown of the Earth quest?",
+   "aliases": [
+    "crown of the earth lore",
+    "why carry moonwell water"
+   ],
+   "answer": "It is a rite overseen by Tenaron where initiates take purified water drawn from the moonwells of Shadowglen and pour it into ritual phials and sacred spots across Teldrassil to nurture the boughs and investigate the health of the tree."
+  },
+  {
+   "q": "Why is Tenaron concerned about Teldrassil's waters?",
+   "aliases": [
+    "why precious waters",
+    "teldrassil water issues"
+   ],
+   "answer": "The moonwells are essential vessels of Elune's grace and natural purity. Because Teldrassil is young and lacks the full blessing of the Aspects, caretakers like Tenaron closely monitor every water source for signs of corruption or taint."
+  },
+  {
+   "q": "Does Tenaron send adventurers beyond Shadowglen?",
+   "aliases": [
+    "tenaron next quest",
+    "where does tenaron send you"
+   ],
+   "answer": "Yes. Once an initiate demonstrates reverence and competence in handling the sacred waters, Tenaron directs them outward into greater Teldrassil, sending them down to Dolanaar to continue serving the kaldorei."
+  },
+  {
+   "q": "Is Tenaron a druid or a priest?",
+   "aliases": [
+    "tenaron stormgrip class",
+    "is tenaron druid"
+   ],
+   "answer": "Tenaron operates closely with the Cenarion Circle, focusing on the ecological health and balance of Teldrassil's boughs, while honoring the sacred lunar magic of the moonwells."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For young night elves, Tenaron Stormgrip provides one of the very first introductions to the communal and spiritual duties required to keep Teldrassil alive and pure."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Tenaron's tasks highlight the druidic stewardship needed to monitor Teldrassil's unprecedented growth and guard against subtle corruption."
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "cenarion circle",
+  "crown of the earth",
+  "moonwell",
+  "shadowglen",
+  "stormgrip",
+  "teldrassil",
+  "tenaron"
+ ],
+ "related": [
+  "subzone:aldrassil",
+  "zone:teldrassil",
+  "quest:929",
+  "quest:940",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Tenaron Stormgrip"
+ ]
+}

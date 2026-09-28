@@ -1,0 +1,137 @@
+{
+ "key": "quest:831",
+ "type": "quest",
+ "name": "The Admiral's Orders",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   831
+  ],
+  "level": "7",
+  "faction": "Horde",
+  "start": "Gar'Thok",
+  "end": "Vol'jin",
+  "previous": "The Admiral's Orders",
+  "next": null,
+  "wiki": "The Admiral's Orders (2)",
+  "chain": []
+ },
+ "summary": "This quest sends young Horde adventurers to Grommash Hold in Orgrimmar to deliver recovered naval orders to Vol'jin, chieftain of the Darkspear trolls. Recovered from Kul Tiras forces at Tiragarde Keep, the parchment reveals that the late Grand Admiral Daelin Proudmoore laid meticulous military plans that endure well past his defeat.",
+ "sections": [
+  {
+   "title": "A Legacy of Enmity",
+   "body": "Grand Admiral Daelin Proudmoore sailed across the Great Sea with an obsession: wiping out the new Horde before it could take root in Kalimdor. Though the Admiral was slain at Theramore through the combined efforts of Rexxar, Thrall, and even Jaina Proudmoore's reluctant non-intervention, his subordinates have not laid down their arms. From fortresses like Tiragarde Keep along the Durotar coast, Kul Tiran troops continue to harass orcish settlements, blindly executing operational orders written before Proudmoore fell.",
+   "spoiler": 0
+  },
+  {
+   "title": "Council in Grommash Hold",
+   "body": "When Gar'Thok at Razor Hill examines documents retrieved from Lieutenant Benedict, he realizes the threat runs far deeper than localized coastal skirmishes. The orders outline contingency deployments and future reinforcement waves, proving that the human threat remains an active peril to Durotar. Because the matter involves high-level diplomacy and territorial defense, Gar'Thok sends the documents directly to Vol'jin, who advises Warchief Thrall from the shadowed corners of Grommash Hold.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Warchief's Caution",
+   "body": "Vol'jin receives the orders with grim validation. The Darkspear chieftain has persistently warned Thrall that humanity cannot be trusted, having witnessed human treachery and aggression firsthand. Yet rather than gloating over the broken peace, Vol'jin immediately recognizes the severe strategic peril. He puts aside personal pride to confront the Warchief, urging urgent military preparedness before fresh ships from Kul Tiras or rogue human elements can exploit the Horde's vulnerable eastern coastline.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I deliver Admiral Proudmoore's Orders?",
+   "aliases": [
+    "where is vol'jin",
+    "turn in location",
+    "who gets the orders",
+    "hand in orders"
+   ],
+   "answer": "You must take the orders to Vol'jin, chieftain of the Darkspear trolls. He is stationed inside Grommash Hold, located in the Valley of Wisdom within the capital city of Orgrimmar."
+  },
+  {
+   "q": "Why does Gar'Thok send you to Vol'jin instead of Thrall directly?",
+   "aliases": [
+    "why vol'jin",
+    "why not thrall",
+    "garthok orders recipient"
+   ],
+   "answer": "Vol'jin acts as one of Warchief Thrall's chief advisors and strategists. Gar'Thok trusts the troll chieftain to analyze the military intelligence and properly counsel Thrall, especially given Vol'jin's longstanding wariness of human intentions."
+  },
+  {
+   "q": "Who was Admiral Proudmoore?",
+   "aliases": [
+    "who is proudmoore",
+    "daelin proudmoore lore",
+    "admiral backstory"
+   ],
+   "answer": "Grand Admiral Daelin Proudmoore was the ruler of the island nation of Kul Tiras and the supreme naval commander of the Alliance during the Second War. Driven by hatred for the orcs who killed his son Derek, he sailed to Kalimdor to eradicate the Horde, refusing to accept any peace until he was killed during the battle at Theramore Isle."
+  },
+  {
+   "q": "Why are Kul Tiras sailors still attacking Durotar if their Admiral is dead?",
+   "aliases": [
+    "why are humans at tiragarde",
+    "why is tiragarde keep hostile",
+    "benedict orders"
+   ],
+   "answer": "Before his death, Admiral Proudmoore issued detailed contingency plans and standing orders to his officers, including Lieutenant Benedict at Tiragarde Keep. Even without central leadership, the remaining sailors faithfully carry out their deceased commander's commands to harass and encircle the Horde."
+  },
+  {
+   "q": "What is Vol'jin's stance on the humans?",
+   "aliases": [
+    "vol'jin thoughts on humans",
+    "voljin human peace",
+    "does vol'jin like alliance"
+   ],
+   "answer": "Vol'jin is deeply suspicious of humanity. He has repeatedly warned Thrall that peace between the Horde and the Alliance is untenable and that human aggression will inevitably flare back up to threaten their people."
+  },
+  {
+   "q": "What is the previous quest in this chain?",
+   "aliases": [
+    "prior quest",
+    "how to start this quest",
+    "admirals orders part 1"
+   ],
+   "answer": "This quest immediately follows 'The Admiral's Orders' given by Gar'Thok, which requires you to storm Tiragarde Keep in eastern Durotar, kill Lieutenant Benedict, and recover the sealed naval orders from his quarters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Delivering these recovered battle plans marks one of a young warrior's earliest contributions to high-level Horde security, bringing direct intelligence to the Warchief's inner circle in Orgrimmar."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Approaching Vol'jin in Grommash Hold allows Darkspear adventurers to see their chieftain serving as the critical voice of caution and defense beside Warchief Thrall."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs carving out a homeland in Durotar, these papers are a sobering reminder that old enemies from the Eastern Kingdoms have not forgotten the Second War."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "These orders demonstrate the unyielding zeal of Kul Tiras naval forces, who continue to wage Daelin Proudmoore's private crusade regardless of Jaina's truce with Thrall."
+  }
+ ],
+ "keywords": [
+  "benedict",
+  "gar'thok",
+  "grommash hold",
+  "kul tiras",
+  "orgrimmar",
+  "proudmoore",
+  "thrall",
+  "tiragarde",
+  "vol'jin"
+ ],
+ "related": [
+  "quest:830",
+  "npc:vol-jin",
+  "npc:gar-thok",
+  "npc:thrall",
+  "subzone:grommash-hold",
+  "zone:orgrimmar",
+  "zone:durotar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "The Admiral's Orders (2)"
+ ]
+}

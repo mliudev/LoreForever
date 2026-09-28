@@ -1,0 +1,70 @@
+{
+ "key": "subzone:darkshire-town-hall",
+ "type": "subzone",
+ "name": "Darkshire Town Hall",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Darkshire Town Hall"
+ },
+ "summary": "Darkshire Town Hall stands on the western edge of the town square as the seat of local governance in Duskwood. From inside these dimly lit halls, Mayor Lord Ello Ebonlocke and his council attempt to administer a settlement besieged by creeping darkness and undead monstrosities.",
+ "sections": [
+  {
+   "title": "The Seat of Darkshire",
+   "body": "Located directly west of the main town square, the Town Hall is where Darkshire's civic leadership gathers to govern an increasingly isolated territory. Within its weathered walls sits Mayor Lord Ello Ebonlocke, struggling to preserve civil order and protect the populace while Stormwind offers little in the way of military aid. Alongside the mayor, municipal officials like Clerk Daltry work to track local records and the travelers braving Duskwood's dangerous roads, though keeping ledgers current is a grim and challenging task in such perilous times.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who leads the town from this building?",
+   "aliases": [
+    "who is the mayor",
+    "who runs darkshire",
+    "who is in the town hall"
+   ],
+   "answer": "Lord Ello Ebonlocke serves as the Mayor of Darkshire and presides over the town council from inside the Town Hall. He directs local defenses and appeals to visiting adventurers for help, as the town receives virtually no reinforcements from the kingdom's capital."
+  },
+  {
+   "q": "What records are kept inside the Town Hall?",
+   "aliases": [
+    "clerk daltry records",
+    "what does daltry do",
+    "town registry"
+   ],
+   "answer": "Clerk Daltry maintains town registries documenting the residents and the travelers passing through Darkshire. Due to the chaos and frequent dangers plaguing Duskwood, many of his logs and records have fallen somewhat out of date."
+  },
+  {
+   "q": "Why is the Town Hall so important to Duskwood's survival?",
+   "aliases": [
+    "why does the town hall matter",
+    "darkshire council role"
+   ],
+   "answer": "With Duskwood cut off from direct military support from Stormwind, the Town Hall functions as the operational hub for the Night Watch and local authorities. It is where the council coordinates civilian defense and dispatches aid across the shadowy region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers, the Town Hall represents the fragile authority of the kingdom's southern frontiers, showing how thin Stormwind's protection stretches in isolated settlements."
+  }
+ ],
+ "keywords": [
+  "clerk daltry",
+  "council",
+  "darkshire",
+  "duskwood",
+  "ello ebonlocke",
+  "town hall"
+ ],
+ "related": [
+  "subzone:darkshire",
+  "npc:lord-ello-ebonlocke",
+  "npc:clerk-daltry",
+  "quest:1041",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Darkshire Town Hall"
+ ]
+}

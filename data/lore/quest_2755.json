@@ -1,0 +1,113 @@
+{
+ "key": "quest:2755",
+ "type": "quest",
+ "name": "Joys of Omosh",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   2755
+  ],
+  "level": "15-30",
+  "faction": "Horde",
+  "start": "Orokk Omosh",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Joys of Omosh",
+  "chain": []
+ },
+ "summary": "Joys of Omosh is a heartwarming closing moment between the blacksmith Orokk Omosh and an adventurer who has helped him in Orgrimmar. Moved to tears, the veteran smith insists that soot is just in his eye before demonstrating a cherished family tradition. By performing the vigorous Omosh dance of joy, he passes down an unusual bit of family heritage.",
+ "sections": [
+  {
+   "title": "A Soot-Stained Tear",
+   "body": "Orokk Omosh is a burly blacksmith working near the scorching heat of the forge in Orgrimmar, known more for heavy strikes on the anvil than emotional displays. Yet after receiving great aid from an adventurer, even this rugged craftsman finds himself overwhelmed. He stubbornly insists that a stray bit of soot got into his eye rather than admitting to weeping openly.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Omosh Tradition",
+   "body": "Rather than parting ways quietly, Orokk insists on sharing one final secret of the Omosh lineage before he can die happy. He immediately launches into the vigorous and exhausting Omosh dance of joy, demonstrating the animated tradition for his apprentice before teaching them to strike with an iron fist.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Orokk Omosh?",
+   "aliases": [
+    "who is orokk",
+    "orokk omosh backstory",
+    "orokk blacksmith"
+   ],
+   "answer": "Orokk Omosh is an ogre blacksmith located in the Valley of Honor in Orgrimmar. He is fiercely proud of his family's craft and lineage, blending smithing expertise with lively personal traditions."
+  },
+  {
+   "q": "Why is Orokk crying?",
+   "aliases": [
+    "why orokk cry",
+    "is orokk sad",
+    "soot in eye"
+   ],
+   "answer": "Orokk insists that he is not crying and that it is simply forge soot trapped in his eye. In truth, he is deeply moved and touched by the adventurer's assistance, having found someone worthy to share his family's traditions with."
+  },
+  {
+   "q": "What is the Omosh dance of joy?",
+   "aliases": [
+    "omosh dance",
+    "dance of joy",
+    "what is the dance"
+   ],
+   "answer": "The dance of joy is a vigorous physical routine passed down through the Omosh family line. Performing it is deeply tiring for Orokk, who has not practiced the celebratory dance in a very long time."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "quest location",
+    "where is joys of omosh",
+    "orgrimmar forge"
+   ],
+   "answer": "The quest takes place in Orgrimmar, specifically around the blacksmithing forge in the Valley of Honor where Orokk Omosh works his metal."
+  },
+  {
+   "q": "What does Orokk teach you?",
+   "aliases": [
+    "omosh reward",
+    "what do i learn",
+    "fist of iron"
+   ],
+   "answer": "Beyond demonstrating the energetic Omosh dance of joy, Orokk promises to pass on the knowledge of the fist of iron, cementing the bond between smith and adventurer."
+  },
+  {
+   "q": "Can Alliance players participate in this quest?",
+   "aliases": [
+    "alliance joys of omosh",
+    "is this horde only"
+   ],
+   "answer": "No. Orokk Omosh is allied with the Horde and resides within the fortified walls of Orgrimmar, making this interaction exclusive to Horde adventurers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "For smiths accustomed to the harsh, stoic heat of the forge, Orokk's sentimental family dance offers an unusually humorous and tender look into the personal life of a veteran craftsman."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Valley of Honor is a hub of martial pride, making Orokk's tearful joy and spirited dance an endearing sight amidst Orgrimmar's clashing steel."
+  }
+ ],
+ "keywords": [
+  "blacksmith",
+  "dance of joy",
+  "joys of omosh",
+  "orgrimmar",
+  "orokk omosh",
+  "soot in eye",
+  "valley of honor"
+ ],
+ "related": [
+  "npc:orokk-omosh"
+ ],
+ "attribution": [
+  "Joys of Omosh"
+ ]
+}

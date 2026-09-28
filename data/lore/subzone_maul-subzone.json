@@ -1,0 +1,92 @@
+{
+ "key": "subzone:maul-subzone",
+ "type": "subzone",
+ "name": "Maul (subzone)",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Maul (subzone)"
+ },
+ "summary": "The Maul is a sunken fighting arena situated in the Broken Commons outside the ruins of Dire Maul in Feralas. Formerly a grand venue of ancient elven Eldre'Thalas, the pit is now an uncontrolled bloodsport ring where wanderers fight for glory or survival against fierce beasts and rival champions.",
+ "sections": [
+  {
+   "title": "The Sunken Pit",
+   "body": "Carved deep into the stone of the Broken Commons, the Maul once served the Highborne of Eldre'Thalas as a theater or ceremonial arena. Following the Sundering and the subsequent occupation by the Gordok ogres, the pit devolved into a raw colosseum. Like the notorious Gurubashi Arena in distant Stranglethorn Vale, entering the sands of the Maul suspends all allegiances, casting combatants into a lawless free-for-all where faction lines dissolve and survival depends purely on martial strength.",
+   "spoiler": 0
+  },
+  {
+   "title": "Beasts and Bloodshed",
+   "body": "Challengers who descend into the arena must mind their approach. While daring fighters often leap directly from the high ledges of the commons, the fall carries brutal impact. A safer western archway leads through tunnels lined with slumbering Gordok hyenas, providing the only foot exit out of the fighting floor. At irregular intervals, dangerous beasts and notorious gladiators emerge into the pit, making every descent an unpredictable trial of steel and instinct.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why can I attack members of my own faction here?",
+   "aliases": [
+    "ffa pvp dire maul",
+    "free for all arena",
+    "why can i hit horde"
+   ],
+   "answer": "The Maul functions as a lawless fighting pit, much like the Gurubashi Arena in Stranglethorn Vale. Upon stepping onto its sands, standard faction treaties and truces no longer apply, flagging combatants for free-for-all combat against anyone not directly in their party."
+  },
+  {
+   "q": "How do I safely enter and leave the Maul?",
+   "aliases": [
+    "how to get into the maul",
+    "maul entrance",
+    "exit maul"
+   ],
+   "answer": "While you can jump directly down from the Broken Commons, doing so causes significant falling damage. The safest path is through a doorway on the western side of the commons, leading through a tunnel past sleeping Gordok hyenas. This tunnel is also the only way to climb back out on foot."
+  },
+  {
+   "q": "What kinds of enemies appear in the arena?",
+   "aliases": [
+    "arena rares",
+    "who spawns in the maul",
+    "maul bosses"
+   ],
+   "answer": "Aside from rival adventurers, exotic and vicious threats are known to prowl into the arena pit, including the massive fungal giant Mushgog, the chimera known as The Razza, and the fierce gladiator Skarr the Unbreakable."
+  },
+  {
+   "q": "What was this arena originally used for?",
+   "aliases": [
+    "lore of the maul",
+    "who built the maul",
+    "eldre'thalas arena"
+   ],
+   "answer": "Before the Sundering shattered ancient Kalimdor, this stone colosseum belonged to the great Highborne city of Eldre'Thalas. The invading Gordok ogres repurpose the ancient elven architecture into a blood arena suited to their savage tastes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For warriors seeking genuine combat outside organized battlegrounds, the Maul offers raw, unvarnished bloodsport where only personal prowess and thick armor dictate survival."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Watching the proud architecture of ancient Eldre'Thalas reduced to an ogre-infested execution pit is a stark and painful reminder of how far the Highborne civilization fell."
+  }
+ ],
+ "keywords": [
+  "broken commons",
+  "dire maul arena",
+  "eldre'thalas",
+  "feralas",
+  "ffa pvp",
+  "mushgog",
+  "skarr the unbreakable",
+  "the maul",
+  "the razza"
+ ],
+ "related": [
+  "subzone:dire-maul",
+  "subzone:commons",
+  "zone:feralas",
+  "subzone:gurubashi-arena",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Maul (subzone)"
+ ]
+}

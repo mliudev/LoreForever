@@ -1,0 +1,95 @@
+{
+ "key": "npc:sentinel-selarin",
+ "type": "npc",
+ "name": "Sentinel Selarin",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Sentinel Selarin",
+  "refs": 1
+ },
+ "summary": "Sentinel Selarin is a night elf scout dispatched to the coastal settlement of Auberdine. Acting as an emissary for the defenders of Ashenvale, she seeks reinforcements to help stem the rising perils threatening the ancient forest.",
+ "sections": [
+  {
+   "title": "A Plea for Reinforcements",
+   "body": "As tensions and dark threats mount across Ashenvale, the garrison there has found its resources stretched to the breaking point. Under the direction of Raene Wolfrunner, Sentinel Selarin traveled north along the forest road into Darkshore. Her mission was straightforward: seek out Terenthis in Auberdine and request assistance from the sentinels and scouts stationed on the coast.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rallying the Wayfarers",
+   "body": "Upon arriving in Auberdine, Selarin found Terenthis thoroughly consumed by local duties and unable to personally answer the call. Rather than returning empty-handed, Selarin resolved to remain in town and enlist capable travelers passing through Darkshore. She directs proven adventurers south toward Astranaar, urging them to lend their blades and spells to Raene Wolfrunner's beleaguered forces.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sentinel Selarin?",
+   "aliases": [
+    "selarin lore",
+    "who is selarin",
+    "sentinel selarin"
+   ],
+   "answer": "Sentinel Selarin is a night elf warrior of the Sentinels. She serves as a courier and liaison, dispatched from Ashenvale to solicit aid from the settlement of Auberdine in Darkshore."
+  },
+  {
+   "q": "Why did Selarin come to Auberdine?",
+   "aliases": [
+    "why is selarin in darkshore",
+    "selarin mission",
+    "what is selarin doing"
+   ],
+   "answer": "She was ordered by Raene Wolfrunner to locate Terenthis in Auberdine and secure reinforcements to combat the growing dangers threatening the Ashenvale wilderness."
+  },
+  {
+   "q": "Why didn't Terenthis go to Ashenvale with her?",
+   "aliases": [
+    "why doesn't terenthis help",
+    "terenthis and selarin",
+    "terenthis busy"
+   ],
+   "answer": "Terenthis was tied up managing critical affairs and investigating threats within Darkshore itself. Consequently, Selarin decided to recruit independent Alliance travelers to journey south instead."
+  },
+  {
+   "q": "Where does she send adventurers?",
+   "aliases": [
+    "where does selarin send me",
+    "selarin quest destination",
+    "after selarin"
+   ],
+   "answer": "She directs adventurers southward across the border into Ashenvale to report directly to Raene Wolfrunner at Astranaar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Selarin serves as an important bridge for Alliance champions journeying south from Darkshore into the contested wilderness of Ashenvale."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "As a member of the Sentinels, Selarin embodies the vigilance and unity required to defend the ancestral borders of the kaldorei."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "auberdine",
+  "darkshore",
+  "raene wolfrunner",
+  "selarin",
+  "sentinel selarin",
+  "sentinels",
+  "terenthis"
+ ],
+ "related": [
+  "npc:terenthis",
+  "npc:raene-wolfrunner",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "zone:ashenvale",
+  "quest:990",
+  "topic:sentinels",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Sentinel Selarin"
+ ]
+}

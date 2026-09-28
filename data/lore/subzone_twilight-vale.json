@@ -1,0 +1,84 @@
+{
+ "key": "subzone:twilight-vale",
+ "type": "subzone",
+ "name": "Twilight Vale",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Twilight Vale"
+ },
+ "summary": "Twilight Vale encompasses the dense, shadowed southern woodlands of Darkshore stretching toward the Ashenvale border. Beneath its gloom, corrupted furbolgs, rabid bears, and vicious nightsabers prowl the undergrowth, making off-road passage perilous. It serves as a grim threshold between the tainted coast of Darkshore and the sacred canopies to the south.",
+ "sections": [
+  {
+   "title": "A Perilous Threshold",
+   "body": "Running from the south of the ancient ruins of Ameth'Aran all the way to the border of Ashenvale, the Twilight Vale blankets the southern reaches of Darkshore in perpetual dusk. The encroaching corruption plaguing northern Kalimdor has bitten deep into the wildlife here. Rabid bears roam alongside feral nightsabers, and hostile furbolg tribes stalk the dark wood. Sentinels and travelers alike advise sticking strictly to the main road, as straying even a few paces into the trees invites swift and deadly ambushes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Twilight Vale located?",
+   "aliases": [
+    "twilight vale location",
+    "where is twilight vale",
+    "twilight vale map"
+   ],
+   "answer": "Twilight Vale forms the southern portion of Darkshore. It begins just south of the highborne ruins of Ameth'Aran and extends all the way to the border pass that enters Ashenvale."
+  },
+  {
+   "q": "What threats wander this forest?",
+   "aliases": [
+    "twilight vale monsters",
+    "what is in twilight vale",
+    "danger twilight vale"
+   ],
+   "answer": "The vale is infested with afflicted wildlife and hostile tribes. Travelers will encounter rabid bears, aggressive nightsabers, and corrupted furbolgs who attack anyone intruding upon their territory."
+  },
+  {
+   "q": "Is it safe to travel through the vale?",
+   "aliases": [
+    "is twilight vale safe",
+    "safe path darkshore to ashenvale"
+   ],
+   "answer": "No wilderness in Darkshore is entirely safe, but sticking firmly to the established dirt road is far safer than cutting through the underbrush. Straying off the beaten track puts you directly in the path of feral beasts."
+  },
+  {
+   "q": "Why is the wildlife in the vale corrupted?",
+   "aliases": [
+    "why are bears rabid in darkshore",
+    "furbolg corruption twilight vale"
+   ],
+   "answer": "Darkshore has suffered heavily since the Third War and the sundering magic lingering across northern Kalimdor. Tainted water and dark magical residue have maddened the local wildlife and turned peaceful furbolgs violent."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The degradation of the southern woods weighs heavily on the night elves, who mourn the corruption of the native beasts and the fall of their furbolg neighbors so close to Ashenvale's threshold."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids passing between Darkshore and Ashenvale witness firsthand the sickness afflicting the vale's creatures, underscoring the urgent need to cleanse the land."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "ashenvale",
+  "darkshore",
+  "furbolgs",
+  "nightsabers",
+  "rabid bears",
+  "twilight vale"
+ ],
+ "related": [
+  "zone:darkshore",
+  "zone:ashenvale",
+  "subzone:ameth-aran",
+  "topic:furbolg",
+  "topic:druid",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Twilight Vale"
+ ]
+}

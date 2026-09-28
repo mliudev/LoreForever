@@ -1,0 +1,93 @@
+{
+ "key": "subzone:kharanos",
+ "type": "subzone",
+ "name": "Kharanos",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Kharanos"
+ },
+ "summary": "Kharanos is a bustling mountain settlement nestled in the snowy heart of Dun Morogh, just down the road from Ironforge. Serving as the primary hub for travelers leaving Coldridge Valley, the town hosts a forge, gnomish workshops, and the famous Thunderbrew Distillery.",
+ "sections": [
+  {
+   "title": "A Hearty Frontier Haven",
+   "body": "Situated along the central road of Dun Morogh, Kharanos is the first true town welcoming recruits arriving from Anvilmar. Despite the biting cold and biting winds, the settlement thrives thanks to local dwarven grit and gnomish ingenuity. It centers around a roaring public forge and the Thunderbrew Distillery, renowned across the eastern mountains for producing some of the finest ale in Khaz Modan. Between bustling crafters and weary travelers seeking warmth, the town stands as the essential staging ground for business in the lower peaks.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guarding the Lowlands",
+   "body": "Behind its cozy hearths, Kharanos serves as a vital military outpost tasked with keeping the mountain passes secure. Fierce indigenous wendigo prowl the frozen caverns directly to the west, while aggressive Frostmane trolls remain entrenched atop Shimmer Ridge to the northwest. With Ironforge's regular forces stretched thin across the realm, the town relies heavily on visiting adventurers and local watchmen to drive back raiding parties, cull dangerous predators, and ensure the trade routes remain open.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Kharanos?",
+   "aliases": [
+    "kharanos overview",
+    "where is kharanos",
+    "kharanos town"
+   ],
+   "answer": "Kharanos is the primary dwarf and gnome settlement in central Dun Morogh. It acts as a crossroads connecting Coldridge Valley, Ironforge, and the outer wilderness, featuring essential trade, training services, and an inn."
+  },
+  {
+   "q": "What services and facilities are in Kharanos?",
+   "aliases": [
+    "kharanos trainers",
+    "what is in kharanos",
+    "kharanos inn"
+   ],
+   "answer": "The town features the famous Thunderbrew Distillery, which serves as an inn and taproom, as well as a large public forge and class and profession trainers. Nearby workshops like Steelgrill's Depot provide mechanized engineering supplies."
+  },
+  {
+   "q": "What threats endanger the town?",
+   "aliases": [
+    "kharanos enemies",
+    "frostmane trolls kharanos",
+    "wendigo kharanos"
+   ],
+   "answer": "Kharanos faces constant pressure from aggressive Frostmane troll tribes entrenched on Shimmer Ridge to the northwest, as well as predatory wendigo roaming the icy caves directly to the west."
+  },
+  {
+   "q": "Who was Lazlo Grindwidget?",
+   "aliases": [
+    "lazlo hero",
+    "who saved kharanos",
+    "giant troll attack kharanos"
+   ],
+   "answer": "Lazlo Grindwidget is remembered as a local folk hero who saved Kharanos when a massive Frostmane troll assaulted the settlement and nearly overwhelmed the dwarven defenders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves leaving the sheltered crags of Coldridge Pass, Kharanos is the first taste of the wider kingdom, filled with steaming forges and the legendary stout of the Thunderbrew clan."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Refugees and tinkerers from Gnomeregan frequently base themselves in and around Kharanos, collaborating with local smiths and operating out of nearby depots."
+  }
+ ],
+ "keywords": [
+  "distillery",
+  "dun morogh",
+  "frostmane",
+  "kharanos",
+  "lazlo grindwidget",
+  "shimmer ridge",
+  "thunderbrew"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "subzone:thunderbrew-distillery",
+  "zone:ironforge",
+  "subzone:anvilmar",
+  "subzone:shimmer-ridge",
+  "subzone:steelgrill-s-depot",
+  "subzone:gol-bolar-quarry",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Kharanos"
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "key": "npc:elanaria",
+ "type": "npc",
+ "name": "Elanaria",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Elanaria",
+  "refs": 3
+ },
+ "summary": "Elanaria is a night elf warrior trainer and coordinator stationed on the Warrior's Terrace in Darnassus. She directs developing fighters across Kalimdor, testing their mettle against dangerous threats such as the satyr Vorlus Vilehoof and spiritual entities like the Shade of Elura. Her guidance serves as a crucial bridge for Alliance soldiers honing their martial prowess in the night elven capital.",
+ "sections": [
+  {
+   "title": "A Sentinel of the Terrace",
+   "body": "Standing proudly on the Warrior's Terrace within the boughs of Darnassus, Elanaria serves as an instructor and point of contact for martial champions. In an era where the night elves have formally aligned with the Grand Alliance, her role extends beyond mentoring local Sentinels to preparing warriors of all backgrounds for the harsh challenges facing their lands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trials of Iron and Spirit",
+   "body": "Elanaria does not offer easy praise; she expects discipline, resilience, and proven strength. She assigns seasoned adventurers to strike down formidable adversaries plaguing Ashenvale and Darkshore, including the corrupt satyr Vorlus Vilehoof and troubled spirits like the Shade of Elura. She also liaises with skilled craftsmen like Smith Mathiel to ensure that deserving warriors are properly armed for war.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elanaria?",
+   "aliases": [
+    "elanaria darnassus",
+    "who is elanaria",
+    "elanaria npc"
+   ],
+   "answer": "Elanaria is a night elf located on the Warrior's Terrace in Darnassus. She serves as a martial quest giver who tasks rising warriors with combat trials throughout northern Kalimdor."
+  },
+  {
+   "q": "Where can I find Elanaria?",
+   "aliases": [
+    "elanaria location",
+    "where is elanaria",
+    "elanaria spot"
+   ],
+   "answer": "She is located on the Warrior's Terrace, the elevated northern district of Darnassus dedicated to the city's military training grounds and defenses."
+  },
+  {
+   "q": "What quests does Elanaria offer?",
+   "aliases": [
+    "elanaria quests",
+    "quests from elanaria",
+    "elanaria warrior quest"
+   ],
+   "answer": "Elanaria is a key figure in intermediate warrior progression, offering assignments such as hunting down the satyr Vorlus Vilehoof, confronting the Shade of Elura, and coordinating with local armorers like Smith Mathiel."
+  },
+  {
+   "q": "Why does Elanaria send fighters against Vorlus Vilehoof?",
+   "aliases": [
+    "elanaria vorlus",
+    "vorlus vilehoof quest",
+    "why kill vorlus vilehoof"
+   ],
+   "answer": "Vorlus Vilehoof is a dangerous satyr whose demonic corruption threatens the northern wilds. Elanaria tasks capable warriors with slaying him to both safeguard the forests and prove their battlefield prowess."
+  },
+  {
+   "q": "Who is Smith Mathiel?",
+   "aliases": [
+    "mathiel connection",
+    "smith mathiel warrior",
+    "elanaria and mathiel"
+   ],
+   "answer": "Smith Mathiel is a master armorer stationed in Darnassus. Elanaria directs warriors to Mathiel so they may craft or receive specialized martial equipment suitable for frontline combat."
+  },
+  {
+   "q": "Does Elanaria interact with non-night elves?",
+   "aliases": [
+    "can humans talk to elanaria",
+    "alliance warrior elanaria"
+   ],
+   "answer": "Yes. As part of the Alliance, Elanaria assists all eligible Alliance warriors who arrive on the Warrior's Terrace seeking guidance and specialized training."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Elanaria is an essential contact on the Warrior's Terrace, assigning level-appropriate martial trials that reward sturdy equipment and refine tactical combat skills."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Representing the martial traditions of Darnassus, Elanaria works to purge corrupted entities like satyrs and restless shades from the ancestral lands of the kaldorei."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "From the capital of Teldrassil, Elanaria helps maintain military readiness and arms soldiers who defend Alliance interests across northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "elanaria",
+  "shade of elura",
+  "smith mathiel",
+  "teldrassil",
+  "vorlus vilehoof",
+  "warrior trainer",
+  "warrior's terrace"
+ ],
+ "related": [
+  "subzone:warrior-s-terrace",
+  "zone:darnassus",
+  "quest:1683",
+  "quest:1686",
+  "quest:1692",
+  "quest:1703",
+  "quest:940",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Elanaria"
+ ]
+}

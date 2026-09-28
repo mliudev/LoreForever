@@ -1,0 +1,119 @@
+{
+ "key": "quest:700",
+ "type": "quest",
+ "name": "A King's Tribute",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   700
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Grand Mason Marblesten",
+  "end": "King Magni Bronzebeard",
+  "previous": "A King's Tribute",
+  "next": null,
+  "wiki": "A King's Tribute (3)",
+  "chain": []
+ },
+ "summary": "A King's Tribute marks the final step in honoring the sacrifice of the fallen dwarven soldier Sully Balloo. After fine granite is gathered from the ruins of Lordaeron, Grand Mason Marblesten sculpts a solemn memorial monument in Ironforge on the orders of King Magni Bronzebeard.",
+ "sections": [
+  {
+   "title": "A Monument Carved in Grief",
+   "body": "King Magni Bronzebeard commissioned a permanent monument to honor Sully Balloo, a brave dwarf who lost his life in service to his people. Crafted by Grand Mason Marblesten using high-quality granite transported from the war-torn lands of Lordaeron, the finished memorial stands in Ironforge as an enduring testament to fallen soldiers whose sacrifices preserve the dwarven kingdom.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Sovereign's Reflection",
+   "body": "When presented with news of the monument's completion, Magni reflects somberly on the limits of stone and mortality. While acknowledging that carved rock can never truly equate to a brave dwarf's life, he hopes the memorial endures so future generations walking Azeroth will never forget the heroes who bled to secure their tomorrow.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is being honored by this memorial?",
+   "aliases": [
+    "who is this memorial for",
+    "sully balloo monument",
+    "who died"
+   ],
+   "answer": "The monument is built in memory of Sully Balloo, a brave dwarven soldier who gave his life fighting valiantly for his people and the Alliance."
+  },
+  {
+   "q": "Why was the stone gathered from Lordaeron?",
+   "aliases": [
+    "why lordaeron stone",
+    "lordaeron granite",
+    "marblesten stone"
+   ],
+   "answer": "Grand Mason Marblesten required the finest granite suitable for a lasting royal tribute. Lordaeron produces exceptional quarried stone, even though the region itself has fallen into ruin following the Scourge."
+  },
+  {
+   "q": "Where does this quest take place?",
+   "aliases": [
+    "where to turn in",
+    "who completes quest"
+   ],
+   "answer": "The quest begins with Grand Mason Marblesten and finishes with King Magni Bronzebeard in the High Seat of Ironforge."
+  },
+  {
+   "q": "Why does King Magni commission this tribute personally?",
+   "aliases": [
+    "why does magni care",
+    "magni bronzebeard sully balloo"
+   ],
+   "answer": "Magni believes that rulers must honor the foot soldiers who defend their realms. He views memorial stone as a vital reminder to future generations of the high price paid by common soldiers for their safety."
+  },
+  {
+   "q": "What happens after the memorial is finished?",
+   "aliases": [
+    "what comes next",
+    "kings tribute follow up"
+   ],
+   "answer": "Reporting to King Magni concludes the memorial chain. The crafted statue remains in Ironforge as a solemn, permanent landmark for Sully Balloo."
+  },
+  {
+   "q": "What is the masonry significance of the statue?",
+   "aliases": [
+    "marblesten role",
+    "grand mason craft"
+   ],
+   "answer": "Grand Mason Marblesten is among the most accomplished dwarven artisans in Ironforge. Working the imported Lordaeron granite, he shaped the raw stone into a fitting national work of art on the monarch's behalf."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, honoring ancestral fallen warriors in enduring stone is one of their most sacred cultural traditions."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The monument serves as a poignant reminder of the heavy toll exacted across Khaz Modan and the northern kingdoms during recent conflicts."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Magni's words directly honor the selfless valor of frontline soldiers like Sully Balloo who sacrificed everything in battle."
+  }
+ ],
+ "keywords": [
+  "a king's tribute",
+  "granite",
+  "ironforge",
+  "lordaeron",
+  "magni bronzebeard",
+  "marblesten",
+  "memorial",
+  "sully balloo"
+ ],
+ "related": [
+  "npc:magni-bronzebeard",
+  "npc:grand-mason-marblesten",
+  "quest:686",
+  "topic:dwarf",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "A King's Tribute (3)"
+ ]
+}

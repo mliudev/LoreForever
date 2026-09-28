@@ -1,0 +1,107 @@
+{
+ "key": "npc:lord-shalzaru",
+ "type": "npc",
+ "name": "Lord Shalzaru",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Lord Shalzaru",
+  "refs": 4
+ },
+ "summary": "Lord Shalzaru is the tyrannical leader of the Hatecrest naga operating out of the Isle of Dread off the coast of Feralas. Ruling his serpentine followers with absolute cruelty, he oversees extensive excavations among the submerged and ruined elven settlements. His recent discovery of a strange, ancient relic has drawn the attention of outside investigators eager to wrest it from his grasp.",
+ "sections": [
+  {
+   "title": "Master of the Hatecrest",
+   "body": "Lord Shalzaru commands the Hatecrest naga, directing their presence along the southern coast of Feralas. From his subterranean lair within a cavern on the Isle of Dread, he enforces his rule through cruelty and ruthless authority. Under his command, the Hatecrest scour the ancient ruins of ancient Kalimdor, searching for forgotten treasures and powerful relics left behind from the Sundering.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Mysterious Relic",
+   "body": "During excavations south of the primary ruins across the Isle of Dread, Shalzaru personally uncovered a strange, ancient relic. The purpose and power of this artifact remain a mystery, but its recovery by such a powerful naga warlord presents a clear threat. Operatives on the mainland seek brave champions to venture into the serpent's den, end Shalzaru's command, and secure the odd relic before the Hatecrest can turn it to darker ends.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lord Shalzaru?",
+   "aliases": [
+    "lord shalzaru lore",
+    "shalzaru",
+    "who is shalzaru"
+   ],
+   "answer": "Lord Shalzaru is the cruel royal leader of the Hatecrest naga. He oversees naga forces and excavations on the Isle of Dread, situated off the coast of Feralas."
+  },
+  {
+   "q": "Where can Lord Shalzaru be found?",
+   "aliases": [
+    "shalzaru location",
+    "where is lord shalzaru",
+    "isle of dread cave"
+   ],
+   "answer": "He lairs in a cave located south of the main elven ruins across the waters on the Isle of Dread, off the southwestern coast of Feralas."
+  },
+  {
+   "q": "What is the Hatecrest?",
+   "aliases": [
+    "hatecrest naga",
+    "hatecrest tribe"
+   ],
+   "answer": "The Hatecrest are a hostile tribe of naga occupying the coastline and islands of Feralas, known for scouring ancient ruins and terrorizing the coastal waters under Shalzaru's command."
+  },
+  {
+   "q": "What relic does Lord Shalzaru possess?",
+   "aliases": [
+    "shalzaru relic",
+    "mysterious relic feralas"
+   ],
+   "answer": "During a recent excavation on the Isle of Dread, Shalzaru uncovered a mysterious, ancient relic of unknown origin and power, prompting mainland factions to dispatch adventurers to claim it."
+  },
+  {
+   "q": "Why must Lord Shalzaru be defeated?",
+   "aliases": [
+    "against lord shalzaru",
+    "kill lord shalzaru"
+   ],
+   "answer": "Eliminating Shalzaru breaks the Hatecrest leadership on the Isle of Dread and allows adventurers to recover the mysterious relic he recently excavated before the naga can harness it."
+  },
+  {
+   "q": "What are the Hatecrest digging for in Feralas?",
+   "aliases": [
+    "hatecrest excavation",
+    "why are naga in feralas"
+   ],
+   "answer": "The Hatecrest excavate the ruined Night Elf settlements shattered during the Great Sundering, seeking powerful magical relics and remnants of Highborne history hidden beneath the soil and waves."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The Hatecrest naga violate the ancient ruins of ancient Kalimdor; reclaiming relics from Shalzaru prevents the Highborne's dark legacy from empowering his serpentine kin."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing Shalzaru's relic and neutralizing the Hatecrest warlord helps safeguard the remote Alliance outposts on the untamed coast of Feralas."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde scouts keep a watchful eye on coastal threats in Feralas, and striking down the naga lord removes an unpredictable danger near Camp Mojache's sphere of interest."
+  }
+ ],
+ "keywords": [
+  "feralas",
+  "hatecrest",
+  "isle of dread",
+  "lord shalzaru",
+  "mysterious relic",
+  "naga",
+  "shalzaru"
+ ],
+ "related": [
+  "subzone:isle-of-dread",
+  "zone:feralas",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Lord Shalzaru"
+ ]
+}

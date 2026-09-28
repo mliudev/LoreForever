@@ -1,0 +1,95 @@
+{
+ "key": "npc:morgan-the-collector",
+ "type": "npc",
+ "name": "Morgan the Collector",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Morgan the Collector",
+  "refs": 0
+ },
+ "summary": "Morgan the Collector is a high-ranking Defias operative overseeing the Brotherhood's extortion and gathering activities across Elwynn Forest. Based in the overrun Brackwell Pumpkin Patch, he coordinates local thievery right under the nose of the Goldshire guard.",
+ "sections": [
+  {
+   "title": "The Tithe of Elwynn",
+   "body": "Morgan earned his epithet by squeezing the outlying farms of Elwynn Forest on behalf of the Defias Brotherhood. While common bandits harass wayfarers along the roads, Morgan directs organized shakedowns and collects stolen coin and supplies to funnel deeper into the Brotherhood's network. He has made his headquarters inside the farmhouse at the Brackwell Pumpkin Patch, surrounded by loyal enforcers including Surena Caledon and Erlan Drudgemoor.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Signet of the Past",
+   "body": "Morgan's operations are not just simple street crimes; he carries a distinct signet ring that marks his authority. To investigators in Goldshire, this band offers hard evidence tying the masked thieves terrorizing the heartland back to the disgraced Stonemasons Guild that rebuilt Stormwind City after the First and Second Wars. Recovering his ring pierces the mystery behind who actually directs the bandits in the woods.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Morgan the Collector?",
+   "aliases": [
+    "who is morgan",
+    "morgan lore",
+    "collector in elwynn"
+   ],
+   "answer": "He is an officer in the Defias Brotherhood responsible for extorting wealth and supplies from Elwynn Forest's farms and coordinating bandit activity in the region."
+  },
+  {
+   "q": "Where is Morgan found?",
+   "aliases": [
+    "morgan location",
+    "where is morgan the collector",
+    "brackwell pumpkin patch house"
+   ],
+   "answer": "He hoards his stolen goods inside the abandoned farmhouse at the Brackwell Pumpkin Patch, located in eastern Elwynn Forest."
+  },
+  {
+   "q": "Why is Stormwind hunting him?",
+   "aliases": [
+    "why kill morgan",
+    "manhunt target"
+   ],
+   "answer": "Marshal Dughan and local authorities want Morgan eliminated to sever Defias leadership in Elwynn and recover proof of who is organizing the rural uprisings."
+  },
+  {
+   "q": "What is special about the ring he carries?",
+   "aliases": [
+    "collectors ring",
+    "collector signet ring",
+    "morgan ring lore"
+   ],
+   "answer": "His signet ring provides direct physical evidence linking the Defias bandits in Elwynn Forest to the former Stonemasons Guild of Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Morgan shows how organized criminal discipline turns disjointed thieves into a functional, underground syndicate capable of funding an insurgency."
+  },
+  {
+   "target": "race:Human",
+   "text": "Taking down Morgan strikes back against the traitors who have turned Stormwind's peaceful farms into fortified bandit dens."
+  }
+ ],
+ "keywords": [
+  "brackwell",
+  "brotherhood",
+  "defias",
+  "dughan",
+  "manhunt",
+  "morgan",
+  "pumpkin patch",
+  "signet",
+  "the collector"
+ ],
+ "related": [
+  "quest:147",
+  "subzone:brackwell-pumpkin-patch",
+  "topic:defias-brotherhood",
+  "topic:stonemasons-guild",
+  "npc:marshal-dughan",
+  "quest:1688",
+  "zone:elwynn",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Morgan the Collector"
+ ]
+}

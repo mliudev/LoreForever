@@ -1,0 +1,90 @@
+{
+ "key": "subzone:ruins-of-kel-theril",
+ "type": "subzone",
+ "name": "Ruins of Kel'Theril",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Ruins of Kel'Theril"
+ },
+ "summary": "The Ruins of Kel'Theril are the shattered remnants of an ancient night elven city bordering the frozen expanse of Lake Kel'Theril in central Winterspring. Destroyed ten thousand years ago during the Great Sundering, its frostbitten stone pillars and temples remain haunted by the tormented spirits of Highborne who perished in the cataclysm.",
+ "sections": [
+  {
+   "title": "A Shattered Legacy",
+   "body": "Long before Winterspring became a frozen highland, Kel'Theril stood as a grand settlement of the ancient night elven empire. When the Well of Eternity collapsed during the Great Sundering, the city was blasted into ruin and buried beneath ice and snow. The disaster caught the residing Highborne unaware, binding their souls to the snowbound stones. Today, the spirits of these former spellcasters linger among the frostbitten arches, endlessly reliving their final, catastrophic moments.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes in the Snow",
+   "body": "Travelers braving central Winterspring encounter restless, spectral Highborne haunting the ruined lakeside colonnades. These phantoms are often hostile, driven mad by millenniums of isolation and the violent magic that tore their civilization apart. However, a few sorrowful apparitions, such as the Remorseful Highborne, seek out travelers willing to hear their lingering laments and make peace with their forgotten past.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the city of Kel'Theril?",
+   "aliases": [
+    "kel'theril history",
+    "why is kel'theril ruined",
+    "how did kel'theril fall"
+   ],
+   "answer": "Kel'Theril was destroyed ten thousand years ago during the Great Sundering. When the Well of Eternity imploded and tore the ancient continent of Kalimdor apart, the city collapsed into rubble and was engulfed by the sudden bitter chill that settled over Winterspring."
+  },
+  {
+   "q": "What spirits haunt these ruins?",
+   "aliases": [
+    "kel'theril ghosts",
+    "who haunts kel'theril",
+    "kel'theril undead"
+   ],
+   "answer": "The ruins are haunted by the apparitions of Highborne night elves who were killed in the Great Sundering. Their souls remain tethered to the fallen stones, trapped in agony and wandering the snowy outskirts of Lake Kel'Theril."
+  },
+  {
+   "q": "Can you speak with any of the ghosts?",
+   "aliases": [
+    "friendly ghost kel'theril",
+    "remorseful highborne",
+    "ghost quests kel'theril"
+   ],
+   "answer": "While most lingering spirits are hostile and lost to madness, a solitary Remorseful Highborne can be found among the ruins who is willing to speak with Alliance travelers seeking to understand the site's tragic past."
+  },
+  {
+   "q": "Where are the ruins located?",
+   "aliases": [
+    "kel'theril location",
+    "where is kel'theril",
+    "find kel'theril"
+   ],
+   "answer": "The Ruins of Kel'Theril are situated along the shores of Lake Kel'Theril, a frozen lake nestled in the heart of central Winterspring."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For night elves, Kel'Theril is a solemn reminder of the arrogance of the ancient Highborne caste and the horrific devastation wrought by their reckless use of arcane magic."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages exploring the ruins will feel the ancient, dormant arcane energies that once sustained one of Kalimdor's proudest pre-Sundering magic cities."
+  }
+ ],
+ "keywords": [
+  "ghosts",
+  "highborne",
+  "kel'theril",
+  "lake kel'theril",
+  "ruins",
+  "sundering",
+  "winterspring"
+ ],
+ "related": [
+  "subzone:lake-kel-theril",
+  "zone:winterspring",
+  "topic:highborne",
+  "topic:alliance",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Ruins of Kel'Theril"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "key": "topic:brotherhood-of-northshire",
+ "type": "topic",
+ "name": "Brotherhood of Northshire",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Brotherhood of Northshire"
+ },
+ "summary": "The Brotherhood of Northshire is a holy human clerical order dedicated to the Church of the Holy Light, based out of Northshire Abbey in Elwynn Forest. Originally known as the Clerics of Northshire, the order suffered catastrophic losses during the First War before being reformed under Archbishop Alonsus Faol. Today, the Brotherhood serves as both a spiritual sanctuary and the primary training ground for fledgling Alliance defenders.",
+ "sections": [
+  {
+   "title": "The Clerics of the First War",
+   "body": "Centuries ago, pious missionaries traveled south from Lordaeron into the kingdom of Stormwind, establishing Northshire Abbey to minister to the people and soothe the realm through the Holy Light. Originally known as the Holy Order of Northshire Clerics, their compassion was legendary\u2014they even tended to injured gnolls and jungle trolls during past border wars. When the Orcish Horde crossed through the Dark Portal, the clerics marched bravely to the front lines without armor or weapons to heal fallen soldiers. Because their healing sustained the Stormwind Army, the orcs ruthlessly targeted them. The order was decimated, the abbey was ransacked and burned, and the surviving clerics were forced to flee north across the sea to Southshore with Sir Anduin Lothar.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Spark of the Paladins",
+   "body": "The slaughter of the Northshire clerics sent shockwaves through the human kingdoms. Realizing that faith alone could not withstand an axe without armor and martial discipline, Archbishop Alonsus Faol resolved to create warriors who possessed both the sacred powers of the Light and the martial mastery of a knight. Drawing upon the surviving clerics and devout knights, Faol formed the Knights of the Silver Hand, giving rise to humanity's first paladins. In this way, the sacrifice of Northshire's fallen healers became the very foundation for the holy warriors who broke the Horde in the Second War.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rebuilding and Present Duty",
+   "body": "Following the reclamation of Stormwind and the destruction of the Dark Portal, Archbishop Faol oversaw the rebuilding of Northshire Abbey and reorganized the order as the Brotherhood of Northshire. Now in 25 ADP, Northshire Abbey stands as a quiet yet vital center where new recruits gather to begin their service to the realm. Under figures like Priestess Anetta, Brother Sammuel, and Brother Paxton, the Brotherhood attends to the spiritual health of the valley, preserves ancient texts in their library, and trains the next generation of defenders to confront brigands, wolves, and the gathering shadows across Elwynn Forest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Brotherhood of Northshire?",
+   "aliases": [
+    "who are the brotherhood of northshire",
+    "brotherhood of northshire lore",
+    "clerics of northshire"
+   ],
+   "answer": "They are a monastic order within the Church of the Holy Light based at Northshire Abbey in Elwynn Forest. Formerly known as the Clerics of Northshire, they provide spiritual guidance, heal the wounded, and train new Alliance adventurers starting their journey."
+  },
+  {
+   "q": "What happened to the original clerics during the First War?",
+   "aliases": [
+    "northshire clerics first war",
+    "what happened to the abbey",
+    "destruction of northshire abbey"
+   ],
+   "answer": "The clerics entered the First War as unarmored battlefield healers. Recognizing that human soldiers could not easily be beaten while sustained by holy magic, the orcs prioritized butchering the clerics. The abbey was overrun and ruined, and only a remnant escaped across the Great Sea to Lordaeron."
+  },
+  {
+   "q": "How did the Northshire Clerics inspire the paladins?",
+   "aliases": [
+    "creation of paladins",
+    "silver hand origin",
+    "alonsus faol paladins"
+   ],
+   "answer": "Witnessing how easily unarmored clerics were slain by the Horde, Archbishop Alonsus Faol realized the Alliance needed holy warriors capable of surviving brutal combat. He combined the spiritual devotion of the clerics with the martial prowess of knights, forging the Knights of the Silver Hand."
+  },
+  {
+   "q": "Who leads or trains people at Northshire Abbey today?",
+   "aliases": [
+    "who is at northshire abbey",
+    "northshire abbey trainers",
+    "brother paxton"
+   ],
+   "answer": "The abbey is home to several notable figures of the Brotherhood, including Brother Paxton, who manages provisions and copies texts for the library, Priestess Anetta, who instructs aspiring priests, and Brother Sammuel, who guides novice paladins."
+  },
+  {
+   "q": "What was the expedition to the Deadmines during the First War?",
+   "aliases": [
+    "tome of divinity deadmines",
+    "anduin lothar deadmines",
+    "turok deadmines"
+   ],
+   "answer": "An ogre chieftain named Turok stole the sacred Tome of Divinity from Northshire. Sir Anduin Lothar led an expedition into the Deadmines of Westfall to retrieve it, but was trapped until Stormwind forces rescued him and secured the book back to the abbey."
+  },
+  {
+   "q": "Are they connected to the Defias Brotherhood?",
+   "aliases": [
+    "brotherhood of northshire defias",
+    "are they defias",
+    "northshire defias"
+   ],
+   "answer": "No, they are entirely opposed. While both share the word 'brotherhood', the Brotherhood of Northshire is a holy religious order loyal to Stormwind, whereas the Defias Brotherhood is a criminal syndicate of outlaws and bandits plaguing the countryside."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Northshire Abbey is the cradle of Stormwind's clerical tradition, where ancient disciplines of healing, confession, and the Holy Light were cultivated long before the First War."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The tragic butchery of Northshire's unarmored clerics during the First War was the direct catalyst for Archbishop Faol to create the Knights of the Silver Hand."
+  },
+  {
+   "target": "race:Human",
+   "text": "For generations of Stormwind citizens, the Brotherhood has offered spiritual comfort in hardship, and its abbey serves as the humble beginning for the kingdom's greatest champions."
+  }
+ ],
+ "keywords": [
+  "alonsus faol",
+  "brother paxton",
+  "brotherhood of northshire",
+  "church of the holy light",
+  "clerics of northshire",
+  "elwynn forest",
+  "northshire abbey",
+  "priestess anetta"
+ ],
+ "related": [
+  "subzone:northshire-abbey",
+  "subzone:northshire-valley",
+  "topic:church-of-the-holy-light",
+  "topic:first-war",
+  "topic:second-war",
+  "topic:anduin-lothar",
+  "zone:elwynn",
+  "quest:1641"
+ ],
+ "attribution": [
+  "Brotherhood of Northshire"
+ ]
+}

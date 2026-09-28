@@ -1,0 +1,138 @@
+{
+ "key": "topic:horde",
+ "type": "topic",
+ "name": "Horde",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Horde"
+ },
+ "summary": "The Horde is a coalition of outcast nations united under Warchief Thrall to secure their mutual survival and freedom. Anchored by the shamanic bond of the orcs, Darkspear trolls, and tauren across Kalimdor, the faction also maintains an uneasy alliance of convenience with the Forsaken in Lordaeron. Beset by historical grievances and hostile neighbors, the Horde values strength, action, and honor over political maneuverings.",
+ "sections": [
+  {
+   "title": "A Reborn Union",
+   "body": "The modern Horde bears little resemblance to the demonic army that marched through the Dark Portal in the First and Second Wars. After shattering the Burning Legion's grasp upon his people, Warchief Thrall led the orcs across the Great Sea to Kalimdor to build a spiritual homeland founded on ancestral traditions and honor. Along the way, Thrall forged lasting ties with Vol'jin's displaced Darkspear trolls and Cairne Bloodhoof's tauren tribes, fighting side by side to drive off centaur and demonic incursions during the Third War.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Kalimdor Core",
+   "body": "In Kalimdor, the orcs carved out the nation of Durotar and built the fortress capital of Orgrimmar, offering the Darkspear refuge upon the nearby Echo Isles. Just south, in the lush plains of Mulgore, the nomadic tauren unified around Thunder Bluff under High Chieftain Cairne Bloodhoof. Sharing shamanic reverence, a deep bond with nature, and mutual survival needs, these three races view each other not as tactical assets, but as an enduring family bound by spilled blood and spiritual respect.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Alliance of Convenience",
+   "body": "Across the sea in the ruined lands of Lordaeron, Lady Sylvanas Windrunner led the free-willed Forsaken out of the Scourge's grasp. Desperate for allies against surviving human factions and remnants of the Scourge, Sylvanas dispatched emissaries to both Stormwind and the Horde. While her messengers were turned away by the humans, Archdruid Hamuul Runetotem argued the undead could be spiritually redeemed. Persuaded by Cairne Bloodhoof, Thrall admitted the Forsaken into the Horde, establishing a vital military outpost in the Eastern Kingdoms despite persistent misgivings among Kalimdor's ranks.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Cold War",
+   "body": "Despite Thrall's hopes to build an enduring peace with the Alliance, the legacy of the Old Horde casts an inescapable shadow. To human and dwarven eyes, orcs remain bloodthirsty invaders, and undead can never be trusted. Clashes over vital lumber in Ashenvale and skirmishes along territorial borders have plunged both factions into a tense, fragile cold war. Thrall actively directs campaigns against demon cults like the Burning Blade to prove the Horde has severed ties with the Legion, but deep-seated hatred threatens to reignite all-out war at any spark.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between the Old Horde and the New Horde?",
+   "aliases": [
+    "old horde vs new horde",
+    "how is this horde different",
+    "is this the same horde"
+   ],
+   "answer": "The Old Horde was a blood-crazed conqueror host manipulated by the Burning Legion into invading Azeroth during the First and Second Wars. The New Horde, founded by Warchief Thrall, rejected demonic corruption, returned to ancestral shamanism, and reorganized as a defensive alliance of outcasts seeking survival, land, and spiritual renewal."
+  },
+  {
+   "q": "Who leads the Horde?",
+   "aliases": [
+    "who is the horde leader",
+    "horde warchief",
+    "who rules the horde"
+   ],
+   "answer": "The faction is led supreme by Warchief Thrall, based in the Valley of Wisdom within Orgrimmar. While Thrall directs the military and diplomatic affairs of the entire Horde, he relies on the counsel and leadership of High Chieftain Cairne Bloodhoof of the tauren, Shadow Hunter Vol'jin of the Darkspear, and Lady Sylvanas Windrunner of the Forsaken."
+  },
+  {
+   "q": "Why are the Forsaken part of the Horde?",
+   "aliases": [
+    "why are undead in horde",
+    "how did forsaken join horde",
+    "tauren helped undead join"
+   ],
+   "answer": "Surrounded by hostile Alliance remnants and the Scourge in Lordaeron, Sylvanas Windrunner sent ambassadors seeking survival allies. Archdruid Hamuul Runetotem believed the Forsaken could be spiritually healed and urged Cairne Bloodhoof to advocate on their behalf. Cairne convinced a reluctant Thrall to accept them, gaining the Horde a critical defensive foothold in the Eastern Kingdoms."
+  },
+  {
+   "q": "Where is the capital of the Horde?",
+   "aliases": [
+    "horde capital",
+    "what is the horde main city",
+    "where does thrall rule"
+   ],
+   "answer": "The fortified city of Orgrimmar, built into the crags of northern Durotar in Kalimdor, serves as the Horde's administrative and military center. It houses Thrall's throne as well as enclaves for troll, tauren, and Forsaken delegates."
+  },
+  {
+   "q": "Are the Horde and Alliance actively at war right now?",
+   "aliases": [
+    "are we at war with alliance",
+    "horde alliance war classic",
+    "is it peace or war"
+   ],
+   "answer": "Formally, the factions exist under an uneasy truce negotiated following the Battle of Mount Hyjal. However, border conflicts over lumber in Ashenvale, territorial friction in the Alterac Mountains, and deep-seated historical hatred keep both sides locked in a simmering cold war marked by localized skirmishes."
+  },
+  {
+   "q": "Do all trolls belong to the Horde?",
+   "aliases": [
+    "which trolls are horde",
+    "are forest trolls horde",
+    "trolls in horde"
+   ],
+   "answer": "No. The Darkspear tribe is the primary troll member of the Horde, having sailed to Kalimdor with Thrall. Most other troll tribes across Azeroth are hostile, though certain groups, like the Revantusk tribe of the Hinterlands, maintain a separate pact of friendship and mutual defense without formally joining."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "The New Horde is your people's path to redemption, casting off the legacy of the demon blood to reclaim ancestral shamanic honor under Thrall's banner."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "By standing shoulder-to-shoulder with the orcs during the centaur wars, the tribes preserved their sacred lands in Mulgore and found steadfast spiritual brothers."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Rescued from destruction on their island home by Thrall's fleet, the Darkspear tribe pledged their spears and shadows to the survival of the Horde."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken membership within the Horde is a vital shield against the Living who would purge Lordaeron, though many in Kalimdor eye your methods with quiet caution."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "To human, dwarven, and elven eyes, the Horde remains an assembly of monstrous savages and treacherous corpses that cannot be trusted to keep any peace."
+  }
+ ],
+ "keywords": [
+  "cairne bloodhoof",
+  "darkspear",
+  "durotar",
+  "forsaken",
+  "horde",
+  "kalimdor",
+  "new horde",
+  "orgrimmar",
+  "tauren",
+  "thrall",
+  "vol'jin",
+  "warchief"
+ ],
+ "related": [
+  "npc:thrall",
+  "zone:orgrimmar",
+  "npc:cairne-bloodhoof",
+  "npc:vol-jin",
+  "npc:sylvanas-windrunner",
+  "topic:old-horde",
+  "topic:alliance",
+  "quest:787"
+ ],
+ "attribution": [
+  "Horde"
+ ]
+}

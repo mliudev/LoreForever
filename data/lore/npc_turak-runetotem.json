@@ -1,0 +1,124 @@
+{
+ "key": "npc:turak-runetotem",
+ "type": "npc",
+ "name": "Turak Runetotem",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Turak Runetotem",
+  "refs": 8
+ },
+ "summary": "Turak Runetotem is a revered tauren druid trainer residing in the Hall of Elders atop Thunder Bluff's Elder Rise. Serving as a trusted assistant to Archdruid Hamuul Runetotem, he guides novice tauren along the sacred paths of nature and balance. Through Turak, young druids undertake foundational trials to commune with spirits and master animal aspects.",
+ "sections": [
+  {
+   "title": "Voice of the Earthmother",
+   "body": "Within the serene confines of the Hall of Elders, Turak Runetotem stands as one of the Horde's foremost druidic mentors. Renowned for his deep patience and balanced demeanor, he assists Archdruid Hamuul Runetotem in reviving the ancient druidic arts among the tauren people. Turak ensures that every aspiring druid honors the will of the Earthmother, teaching that physical power must always be grounded in spiritual respect and harmony with nature.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Path of the Claw",
+   "body": "When a fledgling druid is prepared to embrace animal forms, Turak directs them into the wider world. He initiates their communion with the Cenarion Circle, teaching the art of teleporting across Kalimdor to the sacred haven of Moonglade. Recalling the bewilderment and intensity of his own youthful audience with the Great Bear Spirit, Turak tests his students' courage by sending them to face Lunaclaw and obtain the strength of body and heart needed to walk the Path of the Claw.",
+   "spoiler": 0
+  },
+  {
+   "title": "Guardians of Balance",
+   "body": "Turak's guidance expands beyond primal combat forms to environmental stewardship. Recognizing the creeping decay and corrupted natural wells across the Barrens, he tasks his disciples with cleansing poisons affecting the land near the Crossroads. Through these trials, along with the arduous rituals beneath the tides to awaken the aquatic form, Turak shapes novices into enduring protectors capable of healing Azeroth's deepest wounds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Turak Runetotem?",
+   "aliases": [
+    "turak location",
+    "where is turak runetotem",
+    "turak runetotem thunder bluff"
+   ],
+   "answer": "Turak Runetotem is located on Elder Rise in Thunder Bluff, stationed inside the tent of the Hall of Elders alongside Archdruid Hamuul Runetotem."
+  },
+  {
+   "q": "What role does Turak play for new druids?",
+   "aliases": [
+    "what does turak teach",
+    "turak druid trainer",
+    "turak role"
+   ],
+   "answer": "He serves as the primary quest giver and instructor for young tauren druids. He teaches them to commune with Moonglade, unlocks their Bear and Aquatic forms through sacred trials, and instructs them in curing natural poisons."
+  },
+  {
+   "q": "What is Turak's connection to Moonglade?",
+   "aliases": [
+    "turak moonglade",
+    "how does turak know dendrite",
+    "teleport moonglade turak"
+   ],
+   "answer": "Turak teaches novice druids the spell to teleport directly to the sacred grove of Moonglade, directing them to the Cenarion Circle's representative, Dendrite Starblaze, for advanced spiritual guidance."
+  },
+  {
+   "q": "How is Turak related to Archdruid Hamuul Runetotem?",
+   "aliases": [
+    "is turak related to hamuul",
+    "hamuul and turak"
+   ],
+   "answer": "Both belong to the venerable Runetotem tribe. Turak serves directly under Archdruid Hamuul as one of his most trusted assistants and teachers in the Hall of Elders."
+  },
+  {
+   "q": "Why does Turak send druids to the Crossroads?",
+   "aliases": [
+    "turak crossroads",
+    "turak poison quest",
+    "power over poison"
+   ],
+   "answer": "Turak sends students to investigate and neutralize natural toxins threatening the environment around the Crossroads, preparing them to master the power to cure poison permanently."
+  },
+  {
+   "q": "What was Turak's personal experience with the Great Bear Spirit?",
+   "aliases": [
+    "turak bear spirit",
+    "turak path of the claw"
+   ],
+   "answer": "Turak openly shares that when he first walked the path to become a Druid of the Claw, his communion with the Great Bear Spirit was bewildering yet profoundly intense, an experience that deepened his reverence for the form."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For tauren druids, Turak Runetotem is the pillar of early training, granting the ability to teleport to Moonglade and testing aspirants until they earn their Bear and Aquatic forms."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "As a member of the Runetotem tribe, Turak embodies the revival of druidic customs among the tauren following the Third War, helping his people reclaim their ancient harmony with the Earthmother."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Turak plays a vital part in anchoring nature magic within the Horde, training guardians capable of combating blights, environmental corruption, and the lingering scars across Kalimdor."
+  }
+ ],
+ "keywords": [
+  "aquatic form",
+  "bear form",
+  "dendrite starblaze",
+  "druid",
+  "elder rise",
+  "hall of elders",
+  "hamuul",
+  "lunaclaw",
+  "moonglade",
+  "runetotem",
+  "thunder bluff",
+  "turak"
+ ],
+ "related": [
+  "subzone:elder-rise",
+  "zone:thunderbluff",
+  "npc:dendrite-starblaze",
+  "quest:6001",
+  "quest:5921",
+  "quest:6125",
+  "quest:31",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Turak Runetotem"
+ ]
+}

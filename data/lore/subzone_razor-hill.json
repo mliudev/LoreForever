@@ -1,0 +1,93 @@
+{
+ "key": "subzone:razor-hill",
+ "type": "subzone",
+ "name": "Razor Hill",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Razor Hill"
+ },
+ "summary": "Razor Hill is the principal Horde settlement in central Durotar, nestled at the strategic crossroads between the Valley of Trials, the Barrens, and Orgrimmar. Centered around a prominent fortified barracks, it serves as the staging ground and training center for young orc and troll warriors testing their mettle in the harsh wilderness.",
+ "sections": [
+  {
+   "title": "Heart of Durotar",
+   "body": "Built at a vital geographical junction, Razor Hill connects northern Durotar with the coastal settlements to the south and the sprawling plains of the Barrens across the Southfury River. Dominated by its stone-and-timber barracks and classic orcish burrows, the settlement was established early in the founding of Durotar. Shortly after the Third War, human forces from Kul Tiras lured the Horde into an ambush here under the guise of an emissary summit, an assault thwarted when Rexxar went in Thrall's stead. Today, the outpost stands fully fortified against further coastal incursions.",
+   "spoiler": 0
+  },
+  {
+   "title": "Watch on the Frontier",
+   "body": "Under the command of veteran officers like Gar'Thok, Razor Hill coordinates local defense against several looming threats. Human marine remnants still hold Tiragarde Keep along the eastern shoreline, while aggressive quilboar and harpy tribes harass local supply lines. Far more insidious is the presence of the Burning Blade cult, whose shadowy rituals and corrupted agents in the nearby crags are closely tracked and stamped out by investigators like Orgnil Soulscar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Razor Hill's purpose in Durotar?",
+   "aliases": [
+    "why is razor hill here",
+    "razor hill purpose",
+    "what is razor hill"
+   ],
+   "answer": "Razor Hill serves as the main administrative and defensive outpost in central Durotar. It connects the southern shores and the Valley of Trials to Orgrimmar in the north and the Barrens to the west, while providing supplies and training for young adventurers."
+  },
+  {
+   "q": "What happened here during the Kul Tiras invasion?",
+   "aliases": [
+    "kul tiras ambush",
+    "rexxar razor hill",
+    "what happened at razor hill summit"
+   ],
+   "answer": "Following the Third War, forces loyal to Kul Tiras offered a peaceful summit with Warchief Thrall at Razor Hill. Suspecting treachery, the champion Rexxar went in Thrall's place, uncovered an ambush, and defeated the human assassins."
+  },
+  {
+   "q": "Who commands the settlement?",
+   "aliases": [
+    "razor hill leader",
+    "who runs razor hill",
+    "gar'thok"
+   ],
+   "answer": "The settlement's garrison is commanded by the orc veteran Gar'Thok from within the town's barracks, overseeing patrols against human remnants and local wild beasts."
+  },
+  {
+   "q": "What is the Burning Blade doing near Razor Hill?",
+   "aliases": [
+    "burning blade durotar",
+    "orgnil soulscar",
+    "cultists near razor hill"
+   ],
+   "answer": "The shadowy demonic cult has infiltrated hidden crags and canyons around central Durotar. Horde scouts, directed by Orgnil Soulscar, work out of Razor Hill to uncover their covens and eliminate their influence."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As the first true town encountered after leaving the training grounds, Razor Hill serves as the launchpad for young Horde soldiers proving their loyalty to Thrall's new nation."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Razor Hill stands as a testament to the new life orcs have carved out in Durotar, trading demonic servitude for sturdy burrows and hard-won survival."
+  }
+ ],
+ "keywords": [
+  "barracks",
+  "burning blade",
+  "durotar",
+  "gar'thok",
+  "kul tiras",
+  "orgnil soulscar",
+  "razor hill"
+ ],
+ "related": [
+  "zone:durotar",
+  "zone:orgrimmar",
+  "subzone:sen-jin-village",
+  "subzone:valley-of-trials",
+  "subzone:tiragarde-keep",
+  "npc:gar-thok",
+  "npc:orgnil-soulscar",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Razor Hill"
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "key": "quest:1959",
+ "type": "quest",
+ "name": "Report to Anastasia",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1959
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Uthel'nay, Cain Firesong, Thurston Xane, or Un'Thuwa",
+  "end": "Anastasia Hartwell",
+  "previous": null,
+  "next": "Investigate the Alchemist Shop",
+  "wiki": "Report to Anastasia",
+  "chain": []
+ },
+ "summary": "Report to Anastasia is a summons issued to developing Horde mages across Kalimdor and the Eastern Kingdoms. Anastasia Hartwell, a prominent arcanist in the Undercity's Magic Quarter, has detected an unknown magical disturbance within the city and requires capable spellcasters to investigate.",
+ "sections": [
+  {
+   "title": "A Call to the Arcane",
+   "body": "Word travels quickly through the ranks of Horde spellcasters. Whether studying atop the bluffs of Thunder Bluff, in the dusty heat of the Barrens, or amid the ruins of Lordaeron, mages of sufficient talent receive a clear directive. The arcane practitioners of the Undercity have sensed an unexplainable disturbance rippling through their domain, and they require assistance on the ground.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Mage of the Undercity",
+   "body": "Anastasia Hartwell oversees matters of the arcane from the Magic Quarter of the Undercity. Upon arrival, she confirms the unsettling news: anomalous energies have been registered within the subterranean metropolis. Because the nature of the magic remains entirely unknown\u2014neither proven to be benign nor overtly hostile\u2014she needs an adept to quietly investigate its source, starting within the city's Apothecarium.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Anastasia Hartwell?",
+   "aliases": [
+    "anastasia hartwell lore",
+    "who is anastasia",
+    "hartwell undercity"
+   ],
+   "answer": "Anastasia Hartwell is a Forsaken mage and arcane mentor stationed in the Magic Quarter of the Undercity. She guides fledgling practitioners and keeps a watchful eye over arcane abnormalities occurring within the Forsaken capital."
+  },
+  {
+   "q": "Where is Anastasia Hartwell located?",
+   "aliases": [
+    "where is anastasia",
+    "hartwell location",
+    "anastasia undercity map"
+   ],
+   "answer": "She resides in the Magic Quarter of the Undercity, located in the northern arc of the subterranean city. She can be found among the other spellcasting trainers and arcane researchers."
+  },
+  {
+   "q": "Why are mages from Thunder Bluff or the Barrens being summoned to the Undercity?",
+   "aliases": [
+    "why travel to undercity",
+    "why report to anastasia",
+    "thunder bluff mage quest"
+   ],
+   "answer": "While the Forsaken cultivate their own arcane specialists, unusual magical anomalies threaten the entire Horde presence in Lordaeron. Mentors in Kalimdor send their promising pupils to the Undercity to offer aid and gain practical experience with complex magical phenomena."
+  },
+  {
+   "q": "What kind of disturbance is Anastasia investigating?",
+   "aliases": [
+    "what disturbance",
+    "magical disturbance undercity",
+    "what is wrong in undercity"
+   ],
+   "answer": "The mages detected unexplained magical fluctuations within the city. At the time of this summons, Anastasia Hartwell has not yet determined whether the energy is hostile, accidental, or benign, prompting her to initiate a careful inquiry."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "who starts report to anastasia",
+    "quest starters report to anastasia"
+   ],
+   "answer": "Various Horde mage trainers can initiate this summons once a spellcaster gains enough experience, including Uthel'nay in Thunder Bluff, Thurston Xane in Tirisfal Glades, Cain Firesong, and Un'Thuwa in the Barrens."
+  },
+  {
+   "q": "What happens after reporting to Anastasia?",
+   "aliases": [
+    "next quest after report to anastasia",
+    "report to anastasia follow up"
+   ],
+   "answer": "Once you speak with Anastasia and receive your briefing, she immediately directs you to look deeper into the disturbance, beginning with an inquiry into the city's Apothecarium in the quest Investigate the Alchemist Shop."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "This task marks an important milestone for Horde mages, drawing practitioners out of regional training outposts and introducing them to the deeper arcane mysteries\u2014and hazards\u2014brewing beneath the ruins of Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The summons demonstrates the collaborative exchange between the Forsaken and the broader Horde, utilizing magical talents across all member races to safeguard their shared interests."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken mages are called home to the Undercity's Magic Quarter to help secure their young kingdom against unseen arcane threats inside its own walls."
+  }
+ ],
+ "keywords": [
+  "anastasia hartwell",
+  "cain firesong",
+  "investigate the alchemist shop",
+  "mage",
+  "magic quarter",
+  "report to anastasia",
+  "thurston xane",
+  "un'thuwa",
+  "undercity",
+  "uthel'nay"
+ ],
+ "related": [
+  "npc:anastasia-hartwell",
+  "quest:1960",
+  "subzone:magic-quarter",
+  "zone:undercity",
+  "quest:1881",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Report to Anastasia"
+ ]
+}

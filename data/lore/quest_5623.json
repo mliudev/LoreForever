@@ -1,0 +1,123 @@
+{
+ "key": "quest:5623",
+ "type": "quest",
+ "name": "In Favor of the Light",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   5623
+  ],
+  "level": "4",
+  "faction": "Alliance",
+  "start": "Priestess Anetta",
+  "end": "Priestess Josetta",
+  "previous": null,
+  "next": "Garments of the Light (Elwynn Forest)",
+  "wiki": "In Favor of the Light (Elwynn Forest)",
+  "chain": [
+   "In Favor of the Light (Elwynn Forest)",
+   "Garments of the Light (Elwynn Forest)"
+  ]
+ },
+ "summary": "In Favor of the Light marks an early milestone for novice priests training within Northshire Valley. Given by Priestess Anetta, it directs the fledgling minister beyond the cloistered abbey to Goldshire. There, Priestess Josetta awaits to deepen their spiritual discipline and guide them further into the faith of the Holy Light.",
+ "sections": [
+  {
+   "title": "Stepping Beyond Northshire",
+   "body": "Northshire Abbey provides shelter and initial instruction for novices, but clerical training in the Church of the Holy Light demands practical ministry out in the world. Once an initiate demonstrates basic mastery of prayer and divine healing, Priestess Anetta sends them south along the sunlit roads to Goldshire. The journey signifies a transition from secluded student to active parish servant amidst the everyday trials of the Elwynn populace.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tutelage in Goldshire",
+   "body": "At the Lion's Pride Inn in Goldshire, Priestess Josetta tends to local spiritual needs and oversees rising acolytes. Josetta builds directly upon the fundamentals laid down at the abbey, testing the initiate's ability to offer solace, ward the faithful, and mend the injured. Stepping under her guidance introduces the young priest to the duties required of the Church's servants across the broader kingdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts this quest and who do I report to?",
+   "aliases": [
+    "who gives in favor of the light",
+    "quest turn in",
+    "where to turn in in favor of the light"
+   ],
+   "answer": "Priestess Anetta inside Northshire Abbey gives the quest, sending you down the road to meet Priestess Josetta in Goldshire."
+  },
+  {
+   "q": "Why is a priest sent away from Northshire so early?",
+   "aliases": [
+    "why go to goldshire",
+    "why leave northshire abbey"
+   ],
+   "answer": "Northshire provides foundational lessons in the Holy Light, but young ministers are expected to serve real communities quickly. Goldshire offers an immediate parish environment where an acolyte can assist everyday townspeople and town guards under Josetta's direction."
+  },
+  {
+   "q": "Where can Priestess Josetta be found in Goldshire?",
+   "aliases": [
+    "where is priestess josetta",
+    "find josetta",
+    "josetta location"
+   ],
+   "answer": "Priestess Josetta resides inside the Lion's Pride Inn in Goldshire, serving as the local priest trainer."
+  },
+  {
+   "q": "What happens after meeting Priestess Josetta?",
+   "aliases": [
+    "next quest after in favor of the light",
+    "what follows in favor of the light"
+   ],
+   "answer": "Priestess Josetta immediately puts your training to the test with the follow-up task, Garments of the Light, which requires ministering to a wounded guard and receiving ceremonial clerical vestments."
+  },
+  {
+   "q": "Is this quest restricted to priests?",
+   "aliases": [
+    "can any class do in favor of the light",
+    "is this priest only"
+   ],
+   "answer": "Yes. This task represents formal spiritual instruction within the Church of the Holy Light and is only offered to priest initiates."
+  },
+  {
+   "q": "What role does the Church of the Holy Light play in Elwynn?",
+   "aliases": [
+    "church of the holy light role",
+    "priests in elwynn"
+   ],
+   "answer": "The Church offers comfort, spiritual leadership, and physical mending to townsfolk and defenders facing increasing banditry and wildlife incursions throughout the forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This rite of passage bridges your sheltered studies in Northshire with active pastoral work among the citizens and garrisons of Elwynn Forest."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, seeking guidance from the priesthood in Goldshire is an essential step in upholding the moral and spiritual backbone of the kingdom."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Church of the Holy Light forms one of the Alliance's key pillars, nurturing devoted healers capable of sustaining frontline defenders."
+  }
+ ],
+ "keywords": [
+  "anetta",
+  "church",
+  "elwynn forest",
+  "goldshire",
+  "holy light",
+  "josetta",
+  "northshire",
+  "priest quest"
+ ],
+ "related": [
+  "quest:5624",
+  "npc:priestess-josetta",
+  "npc:priestess-anetta",
+  "topic:light",
+  "subzone:goldshire",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "In Favor of the Light (Elwynn Forest)"
+ ]
+}

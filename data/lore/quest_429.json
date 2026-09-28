@@ -1,0 +1,130 @@
+{
+ "key": "quest:429",
+ "type": "quest",
+ "name": "Wild Hearts",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   429
+  ],
+  "level": "11",
+  "faction": "Horde",
+  "start": "Rane Yorick",
+  "end": "Apothecary Renferrel",
+  "previous": "Lost Deathstalkers",
+  "next": "Return to Quinn",
+  "wiki": "Wild Hearts",
+  "chain": [
+   "Lost Deathstalkers",
+   "Wild Hearts",
+   "Return to Quinn",
+   "Ivar the Foul (quest)"
+  ]
+ },
+ "summary": "Wild Hearts is a Horde quest in Silverpine Forest tasked by Rane Yorick. To save his brother Quinn from wounds inflicted by the ghoul Ivar the Foul, you must harvest discolored worg hearts and deliver them to Apothecary Renferrel at the Sepulcher for an alchemical remedy.",
+ "sections": [
+  {
+   "title": "A Brother's Desperation",
+   "body": "Following the disastrous mission that scattered the Deathstalkers near Malden's Orchard, Rane Yorick finds himself attending to his severely wounded brother, Quinn. The feral ghoul Ivar the Foul left Quinn mangled and failing to recover. Knowing conventional rest will not restore an undead body torn by such savagery, Rane looks to the macabre arts of the Royal Apothecary Society to stitch his brother back together.",
+   "spoiler": 0
+  },
+  {
+   "title": "Alchemy of the Scourge-Tainted Wilds",
+   "body": "Silverpine's wolves have not escaped the dark corruption plaguing northern Lordaeron. The local worgs carry corrupted, discolored hearts that contain uniquely potent essences. While vile to ordinary eyes, the Royal Apothecaries have learned to distill these blighted organs into concoctions capable of revitalizing withered Forsaken flesh.",
+   "spoiler": 0
+  },
+  {
+   "title": "Renferrel's Cold Duty",
+   "body": "Stationed within the Sepulcher, Apothecary Renferrel views the incident with frustration rather than sympathy. Tasked directly by Lady Sylvanas Windrunner with pressing research, Renferrel resents the Royal Apothecary Society being treated as field medics for blundering scouts. Nevertheless, he accepts the gruesome ingredients and prepares the draught to keep the Dark Lady's agents operational.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Quinn Yorick need worg hearts to heal?",
+   "aliases": [
+    "why worg hearts",
+    "quinn healing",
+    "healing potion recipe"
+   ],
+   "answer": "Forsaken physiology does not heal like the living. After sustaining grievous wounds from the ghoul Ivar the Foul, Quinn requires specialized alchemical aid. The Royal Apothecary Society utilizes the tainted, discolored hearts of Silverpine worgs to brew restorative tonics tailored for undead tissue."
+  },
+  {
+   "q": "Where can the discolored worg hearts be found?",
+   "aliases": [
+    "where are the worgs",
+    "worg locations silverpine",
+    "worg heart farming"
+   ],
+   "answer": "The worgs roam throughout the woods of central Silverpine Forest, particularly in the untamed stretches between the road where the Yorick brothers are stranded and Malden's Orchard to the east."
+  },
+  {
+   "q": "Who is Ivar the Foul?",
+   "aliases": [
+    "who is ivar",
+    "ivar the foul lore",
+    "ghoul ivar"
+   ],
+   "answer": "Ivar the Foul is a dangerous Scourge ghoul lingering near Malden's Orchard. He ambushed the Deathstalker scouting party led by Quinn Yorick, slaughtering some and leaving Quinn critically injured."
+  },
+  {
+   "q": "Why is Apothecary Renferrel annoyed by the task?",
+   "aliases": [
+    "why is renferrel mad",
+    "renferrel dialogue",
+    "renferrel's attitude"
+   ],
+   "answer": "Apothecary Renferrel is stationed at the Sepulcher on direct orders from Sylvanas Windrunner to advance critical plague research. He considers Deathstalkers failing their scouting missions an embarrassment and an unnecessary distraction from his grander alchemical experiments."
+  },
+  {
+   "q": "What happens after giving the hearts to Renferrel?",
+   "aliases": [
+    "next quest after wild hearts",
+    "what to do with the potion"
+   ],
+   "answer": "Once Renferrel processes the discolored hearts, he sends you back to Rane and Quinn Yorick with the restorative potion so Quinn can recover sufficiently to seek vengeance."
+  },
+  {
+   "q": "Why do the Deathstalkers need help from an adventurer?",
+   "aliases": [
+    "why can't rane get the hearts",
+    "deathstalker failure"
+   ],
+   "answer": "Rane Yorick cannot leave his brother's side due to the severity of Quinn's injuries and the danger of further ambushes from roaming Scourge and beasts. He relies on passing Horde travelers to harvest the organs and deliver the plea to the Sepulcher."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The quest highlights the pragmatic ruthlessness of the Forsaken; even in brotherhood, survival hinges on scavenged organs and cold alchemical science rather than divine grace."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Seeing seasoned Deathstalkers brought low by a feral ghoul serves as a grim warning about the stealth and lethality required to survive the Lordaeron wilderness."
+  }
+ ],
+ "keywords": [
+  "apothecary renferrel",
+  "discolored worg heart",
+  "ivar the foul",
+  "maldens orchard",
+  "quinn yorick",
+  "rane yorick",
+  "sepulcher",
+  "silverpine forest",
+  "wild hearts"
+ ],
+ "related": [
+  "quest:428",
+  "quest:430",
+  "quest:425",
+  "npc:apothecary-renferrel",
+  "subzone:sepulcher",
+  "subzone:malden-s-orchard",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Wild Hearts"
+ ]
+}

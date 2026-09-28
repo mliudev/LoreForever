@@ -1,0 +1,117 @@
+{
+ "key": "quest:3903",
+ "type": "quest",
+ "name": "Milly Osworth",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   3903
+  ],
+  "level": "4",
+  "faction": "Alliance",
+  "start": "Deputy Willem",
+  "end": "Milly Osworth",
+  "previous": "Brotherhood of Thieves",
+  "next": "Milly's Harvest (quest)",
+  "wiki": "Milly Osworth (quest)",
+  "chain": []
+ },
+ "summary": "Milly Osworth is a short errand entrusted to promising new recruits by Deputy Willem at Northshire Abbey. It directs adventurers across the abbey grounds to assist Milly, a local woman whose wagon and livelihood are in jeopardy. The assignment marks a shift from clearing abbey grounds to aiding the beleaguered civilians of Elwynn Forest.",
+ "sections": [
+  {
+   "title": "A Dependable Pair of Hands",
+   "body": "After proving their mettle against the Defias thieves encroaching on Northshire Valley, recruits catch the eye of Deputy Willem. Recognizing capable and willing help, Willem refers adventurers to his friend Milly Osworth. Rather than official garrison business, this task represents a personal favor to assist a civilian trapped by the valley's growing unrest.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trouble by the Stables",
+   "body": "Milly Osworth waits near her wagon on the northern side of Northshire Abbey, close to the stables. While Deputy Willem remains bound to his station defending the abbey, Milly's troubles require direct action out in the valley that the stretched guard garrison simply cannot spare the manpower to resolve.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to speak with Milly Osworth?",
+   "aliases": [
+    "who gives milly osworth",
+    "quest giver milly osworth",
+    "where to get milly osworth quest"
+   ],
+   "answer": "Deputy Willem, stationed just outside the main gates of Northshire Abbey, gives you this quest after you prove your reliability by dealing with the Defias bandits."
+  },
+  {
+   "q": "Where can Milly Osworth be found?",
+   "aliases": [
+    "milly osworth location",
+    "where is milly",
+    "where is milly osworth"
+   ],
+   "answer": "Milly Osworth is stationed by her wagon on the other side of Northshire Abbey, near the stables and the path leading toward the valley's northern vineyards."
+  },
+  {
+   "q": "Why can't Deputy Willem help Milly himself?",
+   "aliases": [
+    "why doesnt willem help",
+    "willem duties",
+    "why help milly"
+   ],
+   "answer": "Willem's guard duties keep him tied to Northshire Abbey. With the valley pressed by bandits and vermin, the local garrison lacks the spare hands to deal with private civilian troubles."
+  },
+  {
+   "q": "What prerequisites are needed for this quest?",
+   "aliases": [
+    "milly osworth requirements",
+    "brotherhood of thieves follow up",
+    "how to unlock milly osworth quest"
+   ],
+   "answer": "You must complete the quest Brotherhood of Thieves for Deputy Willem before he considers you dependable enough to assist Milly."
+  },
+  {
+   "q": "What does Milly need help with?",
+   "aliases": [
+    "what does milly want",
+    "milly problem",
+    "milly harvest troubles"
+   ],
+   "answer": "Milly is struggling to manage her crop and wagon amidst the local turmoil, leading directly into the task of securing her harvest from the surrounding valley."
+  },
+  {
+   "q": "Who is Milly Osworth to Deputy Willem?",
+   "aliases": [
+    "willem and milly",
+    "is milly related to willem",
+    "how does willem know milly"
+   ],
+   "answer": "Willem refers to Milly simply as a friend in need, someone from the Northshire community he looks out for despite being confined to his post."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This task illustrates the strain on local Alliance forces in Northshire, where guardsmen must rely on passing adventurers to shield local townspeople from emerging threats."
+  },
+  {
+   "target": "race:Human",
+   "text": "For young humans beginning their journey in Northshire, stepping in for Willem demonstrates the community spirit essential to holding Elwynn together."
+  }
+ ],
+ "keywords": [
+  "deputy willem",
+  "elwynn forest",
+  "harvest",
+  "milly osworth",
+  "northshire abbey",
+  "stables",
+  "wagon"
+ ],
+ "related": [
+  "npc:willem",
+  "quest:18",
+  "subzone:northshire-abbey",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Milly Osworth (quest)"
+ ]
+}

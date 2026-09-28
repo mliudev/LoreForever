@@ -1,0 +1,82 @@
+{
+ "key": "subzone:darkwalk",
+ "type": "subzone",
+ "name": "Darkwalk",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Darkwalk"
+ },
+ "summary": "The Darkwalk is a subterranean passage deep within the subterranean reaches of Tirisfal Glades, hidden beneath the surface of the Tomb of Tyr. It forms a ruined conduit connecting the resting vault of Keeper Tyr to the ancient prison holding the remains of the C'Thraxxi horror Zakajz the Corruptor.",
+ "sections": [
+  {
+   "title": "A Buried Threshold",
+   "body": "Carved into the deep stone far beneath Tirisfal, the Darkwalk is an underground, partially collapsed hall constructed in the mythic past following the cataclysmic battle between Keeper Tyr and the monstrous servant of the Old Gods, Zakajz the Corruptor. Designed to bridge the vault holding Tyr's remains with the deep containment chamber of his fallen foe, the passage is a silent monument to Titan craft now shrouded in earth, dust, and lingering corruption.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows of the Deep",
+   "body": "Though long forgotten by the surface-dwelling Forsaken and the remnants of Lordaeron, the Darkwalk remains suffused with malevolent echoes. Deep within this subterranean labyrinth, ancient Titan architecture sits cracked and worn by time. The proximity to the slumbering evil interred at its terminus means that any passage through these shattered stone galleries remains heavy with an oppressive, unseen dread.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Darkwalk located?",
+   "aliases": [
+    "darkwalk location",
+    "where is darkwalk",
+    "how to find darkwalk"
+   ],
+   "answer": "The Darkwalk lies buried deep under Tirisfal Glades within the subterranean complex of the Tomb of Tyr. It serves as an intermediary passage connecting Tyr's vault to the lower prison chamber."
+  },
+  {
+   "q": "What connects to the Darkwalk?",
+   "aliases": [
+    "what is in darkwalk",
+    "where does darkwalk go"
+   ],
+   "answer": "The passage connects the main chamber of the Tomb of Tyr to the Grave-Prison of Zakajz, bridging the resting place of the Titan keeper and the prison of the defeated monstrosity."
+  },
+  {
+   "q": "Why is the passage collapsed?",
+   "aliases": [
+    "why is darkwalk broken",
+    "is darkwalk ruined"
+   ],
+   "answer": "Millennia of subterranean shifting and the immense violence of the prehistoric battle that shattered the surrounding earth left portions of the Titan-built tunnel collapsed and decayed."
+  },
+  {
+   "q": "Do the people of Lordaeron or the Forsaken know about it?",
+   "aliases": [
+    "do forsaken know about darkwalk",
+    "is darkwalk common knowledge"
+   ],
+   "answer": "No. The subterranean vaults beneath Tirisfal are largely forgotten legends to the surface inhabitants, known only through ancient fragmented myths regarding Tyr's sacrifice."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "The dark echoes lingering through this deep stone corridor serve as a stark reminder of the ancient Void forces that warred against the Titan keepers long before humanity walked Lordaeron."
+  }
+ ],
+ "keywords": [
+  "darkwalk",
+  "passage",
+  "tirisfal glades",
+  "titan",
+  "tomb of tyr",
+  "zakajz"
+ ],
+ "related": [
+  "subzone:tomb-of-tyr",
+  "subzone:grave-prison-of-zakajz",
+  "zone:tirisfal",
+  "topic:titan",
+  "topic:old-god"
+ ],
+ "attribution": [
+  "Darkwalk"
+ ]
+}

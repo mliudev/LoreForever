@@ -1,0 +1,117 @@
+{
+ "key": "quest:306",
+ "type": "quest",
+ "name": "In Search of The Excavation Team",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   306
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Merrin Rockweaver",
+  "end": "Tarrel Rockweaver",
+  "previous": "In Search of The Excavation Team",
+  "next": null,
+  "wiki": "In Search of The Excavation Team (2)",
+  "chain": [
+   "In Search of The Excavation Team",
+   "In Search of The Excavation Team (2)"
+  ]
+ },
+ "summary": "This errand delivers word of a disastrous dinosaur attack at the Whelgar's Excavation site back to Menethil Harbor. Merrin Rockweaver writes a hasty letter to reassure her anxious husband, Tarrel, while recounting how the expedition was overrun.",
+ "sections": [
+  {
+   "title": "A Message from the Ruins",
+   "body": "After locating the remnants of the excavation team cowering near the ridge overlooking the dig site, Merrin Rockweaver provides a hasty report. Unearthing rare artifacts alongside massive prehistoric fossils proved fatal when packs of native mottled raptors swarmed the diggers. The sudden ferocity left most of the crew dead and the survivors cut off from civilization.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bitter Relief",
+   "body": "Returning to Menethil Harbor brings grim comfort to Tarrel Rockweaver. Knowing his wife and at least two companions survived thanks to the courage of a defender named Ormer eases his mind, though the slaughter of so many colleagues weighs heavily on the town's frontier spirit.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the excavation team in the Wetlands?",
+   "aliases": [
+    "what happened to dig site",
+    "wetlands excavation disaster",
+    "why did excavation fail"
+   ],
+   "answer": "While unearthing rare artifacts and massive ancient bones, the dwarven expedition was caught off guard and overrun by territorial mottled raptors. Most of the diggers were slain, leaving only a handful of survivors trapped on the bluffs above the dig site."
+  },
+  {
+   "q": "Who saved Merrin Rockweaver?",
+   "aliases": [
+    "who saved merrin",
+    "ormer rockweaver",
+    "who is ormer"
+   ],
+   "answer": "Merrin credits a brave defender named Ormer with fighting off the raptors and escorting her and the Prospector to relative safety up on the ridge as the lower site collapsed."
+  },
+  {
+   "q": "Who is Tarrel Rockweaver?",
+   "aliases": [
+    "who is tarrel",
+    "tarrel rockweaver location"
+   ],
+   "answer": "Tarrel Rockweaver is Merrin's husband, stationed back at Menethil Harbor. Anxious over the lack of communication from the dig site, he sought travelers to investigate her whereabouts."
+  },
+  {
+   "q": "Where is the dig site located?",
+   "aliases": [
+    "where is excavation",
+    "whelgar excavation location"
+   ],
+   "answer": "The excavation site lies inland in the southern reach of the Wetlands, east of Menethil Harbor near the base of the Ironforge mountain ridges."
+  },
+  {
+   "q": "What was the expedition digging for?",
+   "aliases": [
+    "what were they digging for",
+    "excavation artifacts"
+   ],
+   "answer": "Under the direction of dwarven prospectors, the team was excavating rare subterranean artifacts and large prehistoric fossils buried in the marshes."
+  },
+  {
+   "q": "Are there other survivors beside Merrin?",
+   "aliases": [
+    "who else survived",
+    "excavation survivors"
+   ],
+   "answer": "Yes, Merrin mentions that Ormer and the chief Prospector managed to escape the raptors alongside her, bringing the known survivor count to three."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The disaster at the excavation cuts deeply into dwarven archeological ambitions, highlighting the perils King Magni's explorers face far from the safety of Ironforge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The supply roads and frontier projects across the Wetlands remain dangerously vulnerable to wild beasts, requiring constant vigilance from Alliance travelers."
+  }
+ ],
+ "keywords": [
+  "excavation",
+  "menethil harbor",
+  "merrin rockweaver",
+  "mottled raptors",
+  "ormer",
+  "tarrel rockweaver",
+  "wetlands",
+  "whelgar"
+ ],
+ "related": [
+  "quest:305",
+  "npc:merrin-rockweaver",
+  "npc:tarrel-rockweaver",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "In Search of The Excavation Team (2)"
+ ]
+}

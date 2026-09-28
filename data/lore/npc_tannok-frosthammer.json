@@ -1,0 +1,81 @@
+{
+ "key": "npc:tannok-frosthammer",
+ "type": "npc",
+ "name": "Tannok Frosthammer",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Tannok Frosthammer",
+  "refs": 1
+ },
+ "summary": "Tannok Frosthammer is a dwarven resident found at Thunderbrew Distillery outside Kharanos in Dun Morogh. He serves as an anxious recipient of goods coming from Coldridge Valley, deeply troubled by how trogg attacks have cut off the roads to Anvilmar.",
+ "sections": [
+  {
+   "title": "A Severed Supply Line",
+   "body": "Stationed around the Thunderbrew Distillery in Kharanos, Tannok Frosthammer keeps a watchful eye on incoming deliveries and local tidings. The sudden surge of troggs swarming Coldridge Pass has severed normal transit from Coldridge Valley, leaving Tannok cut off from regular communication with the settlement at Anvilmar. Relying on couriers like the gnome tinkerer Hands Springsprocket to ferry vital supplies and news through the perilous, snowy mountain pass, Tannok represents the quiet worry shared by many Bronzebeards as subterranean threats crawl closer to their doorsteps.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Tannok Frosthammer located?",
+   "aliases": [
+    "tannok location",
+    "where is tannok",
+    "find tannok frosthammer"
+   ],
+   "answer": "Tannok Frosthammer is located outside the Thunderbrew Distillery, situated just east of the main crossroads in Kharanos within Dun Morogh."
+  },
+  {
+   "q": "Why is Tannok worried about Coldridge Valley?",
+   "aliases": [
+    "tannok concerns",
+    "why is tannok worried",
+    "coldridge pass troggs"
+   ],
+   "answer": "Tannok is deeply concerned by the trogg infestation choking Coldridge Pass. The overrun pathway has severed regular communication and trade between the valley settlement of Anvilmar and the rest of Dun Morogh."
+  },
+  {
+   "q": "Who does Tannok work with in Coldridge Valley?",
+   "aliases": [
+    "tannok supplier",
+    "hands springsprocket delivery",
+    "who supplies tannok"
+   ],
+   "answer": "Tannok receives deliveries from Hands Springsprocket, a gnomish supplier stationed down in Coldridge Valley who enlists passing travelers to carry goods through the dangerous pass."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves leaving Anvilmar for the wider world, delivering supplies to Tannok at Thunderbrew Distillery marks one of their very first steps into the heart of Dun Morogh."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Tannok's stranded shipments highlight how even heartland settlements like Kharanos are feeling the strain of rising trogg incursions."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge",
+  "distillery",
+  "frosthammer",
+  "kharanos",
+  "tannok",
+  "thunderbrew",
+  "troggs"
+ ],
+ "related": [
+  "quest:2160",
+  "npc:hands-springsprocket",
+  "subzone:thunderbrew-distillery",
+  "subzone:kharanos",
+  "subzone:coldridge-pass",
+  "subzone:coldridge-valley",
+  "subzone:anvilmar",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Tannok Frosthammer"
+ ]
+}

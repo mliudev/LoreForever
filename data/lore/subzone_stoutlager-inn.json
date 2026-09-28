@@ -1,0 +1,72 @@
+{
+ "key": "subzone:stoutlager-inn",
+ "type": "subzone",
+ "name": "Stoutlager Inn",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Stoutlager Inn"
+ },
+ "summary": "The Stoutlager Inn is the lively heart of Thelsamar and a primary haven for travelers in Loch Modan. Tucked beneath the rolling hills of the loch, it offers warm hearths, strong dwarven ale, and a bustling gathering place for adventurers and locals alike.",
+ "sections": [
+  {
+   "title": "A Welcoming Hearth in the Hills",
+   "body": "Situated squarely in the settlement of Thelsamar, the Stoutlager Inn serves as the center of community life for southern Loch Modan. Miners, mountaineers, and wayfarers passing between Dun Morogh and the Wetlands stop here to trade rumors, secure lodging, and share hearty drafts of dwarven brew. While the wilderness beyond Thelsamar grows increasingly hostile with trogg and gnoll activity, the thick stone walls and roaring fires of the Stoutlager provide a dependable sanctuary.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What services are available at the Stoutlager Inn?",
+   "aliases": [
+    "inn services",
+    "what is in the inn",
+    "thelsamar innkeeper"
+   ],
+   "answer": "The inn provides traditional tavern amenities, including an innkeeper to bind hearthstones, beds for weary travelers, and local merchants offering provisions and drinks to sustain journeys across Loch Modan."
+  },
+  {
+   "q": "Where is the Stoutlager Inn located?",
+   "aliases": [
+    "inn location",
+    "where is stoutlager",
+    "find stoutlager inn"
+   ],
+   "answer": "It is built right in the center of Thelsamar, the primary Alliance town situated in western Loch Modan along the main roadway."
+  },
+  {
+   "q": "Why is the inn so important to Thelsamar?",
+   "aliases": [
+    "why is it popular",
+    "thelsamar tavern lore"
+   ],
+   "answer": "Beyond offering food and lodging, the Stoutlager Inn acts as the town square and news hub. It is where local mountaineers post bounties and travelers plan excursions into the surrounding hills."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For Bronzebeard dwarves, the Stoutlager Inn embodies the familiar warmth of home, renowned for genuine hospitality, fresh ale, and reliable companionship away from Ironforge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The inn serves as a crucial staging ground and safe haven for Alliance adventurers heading north toward the Wetlands or patrolling the troubled valleys around the loch."
+  }
+ ],
+ "keywords": [
+  "dwarf",
+  "hearthstone",
+  "innkeeper",
+  "loch modan",
+  "stoutlager inn",
+  "tavern",
+  "thelsamar"
+ ],
+ "related": [
+  "subzone:thelsamar",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Stoutlager Inn"
+ ]
+}

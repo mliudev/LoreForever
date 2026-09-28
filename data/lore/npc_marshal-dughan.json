@@ -1,0 +1,113 @@
+{
+ "key": "npc:marshal-dughan",
+ "type": "npc",
+ "name": "Marshal Dughan",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Marshal Dughan",
+  "refs": 11
+ },
+ "summary": "Marshal Dughan is the commanding officer of the Stormwind Army detachment stationed in Goldshire. Tasked with protecting the heart of Elwynn Forest, he finds his local garrison stretched thin against growing incursions of kobolds, gnolls, and bandits. To keep the crossroads town and surrounding farmsteads safe, he relies heavily on independent adventurers.",
+ "sections": [
+  {
+   "title": "Commander of the Crossroads",
+   "body": "Stationed prominently in Goldshire outside the Lion's Pride Inn, Marshal Dughan bears the heavy burden of keeping Elwynn Forest secure while Stormwind's military resources are tied up elsewhere. The surrounding woods are steadily deteriorating: vermin choke the mines, gnolls mass along the riverbanks, and highwaymen harass travelers along the King's Road. With too few footmen under his direct command, Dughan orchestrates local defense by directing fresh recruits to reinforce outposts and scout contested ground.",
+   "spoiler": 0
+  },
+  {
+   "title": "Threats on Every Border",
+   "body": "Dughan's immediate concerns lie with the kobold infestations overrunning Fargodeep and Jasperlode Mines, threatening Goldshire's vital mineral output. To the west, Riverpaw gnolls led by the notorious Hogger press hard against Westbrook Garrison. To the east, Dughan is forced to confront reports from Guard Thomas concerning vicious murlocs slaughtering patrols along the river. Managing these overlapping crises with limited manpower keeps the marshal in constant need of capable mercenaries.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Marshal Dughan?",
+   "aliases": [
+    "dughan",
+    "marshal dughan lore",
+    "goldshire marshal"
+   ],
+   "answer": "Marshal Dughan is an officer of the Stormwind Army stationed in Goldshire. He oversees military security for central Elwynn Forest, coordinating defense efforts against local threats such as thieves, gnolls, and kobolds."
+  },
+  {
+   "q": "Why doesn't Dughan send more guards to help Westbrook Garrison or the east?",
+   "aliases": [
+    "why no guards",
+    "goldshire garrison strength",
+    "dughan troops"
+   ],
+   "answer": "The Stormwind Army is spread thin, leaving Dughan with barely enough guards to maintain order in Goldshire itself. Because he lacks the standing manpower to garrison every outlying farm and border post, he relies on visiting adventurers to scout hot spots, deliver dispatches, and eliminate regional dangers."
+  },
+  {
+   "q": "What is Dughan's view on the murloc threat in Elwynn?",
+   "aliases": [
+    "dughan murlocs",
+    "remy two times murloc",
+    "dughan fish men"
+   ],
+   "answer": "Initially, Dughan dismissed warnings from Remy 'Two Times' that murlocs were a serious threat to the region. He only recognized the true peril after Guard Thomas sent tragic reports confirming the deaths of guardsmen Rolf Hartford and Malakai Stone along the eastern waterways."
+  },
+  {
+   "q": "How does Dughan handle local crime and rowdy civilians?",
+   "aliases": [
+    "dughan crime",
+    "goldshire law",
+    "stockade threat"
+   ],
+   "answer": "Dughan enforces the law strictly but gives fair warning before throwing citizens behind bars. When locals or travelers cause public disturbances in Goldshire, he warns them that continuing to pick fights will land them directly in Stormwind's Stockade, and he will actively hunt them down if they commit murder."
+  },
+  {
+   "q": "Why is Dughan concerned about the mines?",
+   "aliases": [
+    "fargodeep mine dughan",
+    "jasperlode mine dughan",
+    "kobold infestation"
+   ],
+   "answer": "Fargodeep Mine and Jasperlode Mine are essential sources of gold and ore for Stormwind. Kobolds have overrun both subterranean complexes, driving out the miners and threatening to expand their tunnels directly under Elwynn's settlements."
+  },
+  {
+   "q": "Does Marshal Dughan coordinate with Westfall?",
+   "aliases": [
+    "dughan gryan",
+    "report to westfall",
+    "dughan sentinel hill"
+   ],
+   "answer": "Yes. Once an adventurer proves their capability in Elwynn Forest, Marshal Dughan directs them to Westfall to report to Gryan Stoutmantle at Sentinel Hill, where the People's Militia desperately needs veteran help against the Defias Brotherhood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Marshal Dughan represents the frontline administrative authority for the Alliance in Elwynn, providing newly arrived recruits with their earliest military assignments on behalf of Stormwind."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "For martial fighters, Dughan embodies the standard discipline and logistical strain of Stormwind's military footmen holding the line against impossible odds."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "fargodeep",
+  "goldshire",
+  "hogger",
+  "jasperlode",
+  "marshal dughan",
+  "stormwind army",
+  "westbrook garrison"
+ ],
+ "related": [
+  "subzone:goldshire",
+  "zone:elwynn",
+  "npc:guard-thomas",
+  "npc:remy-two-times",
+  "quest:176",
+  "subzone:westbrook-garrison",
+  "npc:gryan-stoutmantle",
+  "topic:stormwind-army"
+ ],
+ "attribution": [
+  "Marshal Dughan"
+ ]
+}

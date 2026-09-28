@@ -1,0 +1,76 @@
+{
+ "key": "subzone:circle-of-aquementas",
+ "type": "subzone",
+ "name": "Circle of Aquementas",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Circle of Aquementas"
+ },
+ "summary": "The Circle of Aquementas is a mysterious ring of upright standing stones positioned along the eastern shoreline of Tanaris, just south of Lost Rigger Cove. It serves as a ritual site where travelers can call forth the elemental spirit Aquementas.",
+ "sections": [
+  {
+   "title": "A Ring by the Sea",
+   "body": "Tucked away along the windswept eastern coast of Tanaris, the Circle of Aquementas sits quietly south of the pirate stronghold at Lost Rigger Cove. Composed of weathered, upright stones arranged in a circular formation, this unusual site hums with elemental energy against the desert shore. It acts as a focus for summoning Aquementas, an elemental entity tied to an ancient artifact. While the surrounding beaches crawl with Southsea brigands and roaming sea creatures, the circle itself remains a solemn pocket of ritual power amidst the dunes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Circle of Aquementas?",
+   "aliases": [
+    "what is this stone ring",
+    "circle of aquementas purpose",
+    "standing stones tanaris"
+   ],
+   "answer": "It is a circular arrangement of upright standing stones situated on the southeastern coastline of Tanaris, used to summon the elemental entity Aquementas."
+  },
+  {
+   "q": "Where is the circle located?",
+   "aliases": [
+    "where is circle of aquementas",
+    "how to find circle of aquementas",
+    "circle of aquementas location"
+   ],
+   "answer": "The circle lies on the eastern shore of Tanaris, directly south of the cliffs and entrance leading to Lost Rigger Cove."
+  },
+  {
+   "q": "Who is Aquementas?",
+   "aliases": [
+    "who is aquementas",
+    "aquementas lore"
+   ],
+   "answer": "Aquementas is an elemental spirit linked to an ancient quest line involving strange artifacts, summoned directly into the circle of stones."
+  },
+  {
+   "q": "Is the circle guarded by pirates?",
+   "aliases": [
+    "are there pirates here",
+    "southsea pirates near circle"
+   ],
+   "answer": "While Southsea pirates prowl nearby Lost Rigger Cove and the surrounding shoreline, the circle itself is primarily an isolated site for summoning."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The circle's ability to focus primal energies and anchor an elemental spirit makes it an intriguing curiosity for any shaman wandering the Tanaris coast."
+  }
+ ],
+ "keywords": [
+  "aquementas",
+  "circle of aquementas",
+  "elemental",
+  "lost rigger cove",
+  "standing stones",
+  "tanaris"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:lost-rigger-cove",
+  "topic:pirate"
+ ],
+ "attribution": [
+  "Circle of Aquementas"
+ ]
+}

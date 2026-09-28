@@ -1,0 +1,118 @@
+{
+ "key": "quest:431",
+ "type": "quest",
+ "name": "Candles of Beckoning",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   431
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Crate of Candles",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Candles of Beckoning",
+  "chain": []
+ },
+ "summary": "Candles of Beckoning is a brief task centered around salvaging specialized ritual tapers discovered in Tirisfal Glades. These eerie tallow candles are steeped in dark practices and recovered directly from crates left among the shadows of Lordaeron's ruins.",
+ "sections": [
+  {
+   "title": "Tallow and Dark Rites",
+   "body": "Across Tirisfal Glades, dark magic lingers in neglected crypts, decaying farms, and cultist encampments. Tapers such as the Candles of Beckoning are not everyday illumination; they are crafted specifically to focus shadowy energies, invoke unseen presences, or channel forbidden incantations. Recovering them from discarded caches prevents them from fueling rogue practitioners or Scourge infiltrators.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Reclaimed Relic",
+   "body": "When Forsaken scouts locate crates containing these candles, securing them becomes an immediate concern. Taking possession of even a single candle provides vital reagents or wards that can be studied in the Undercity or turned toward bolstering the Forsaken hold on the shattered glades.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Candles of Beckoning?",
+   "aliases": [
+    "what are candles of beckoning",
+    "purpose of candles",
+    "what do candles do"
+   ],
+   "answer": "These candles are ritualistic tapers imbued with shadowy intent, often utilized in occult ceremonies to focus magical summonings or invoke lingering entities throughout Tirisfal Glades."
+  },
+  {
+   "q": "Where are these candles found?",
+   "aliases": [
+    "where to find candles of beckoning",
+    "candle crate location",
+    "crate of candles"
+   ],
+   "answer": "They are stored within scattered supply crates situated in the shadowy corners and encampments of Tirisfal Glades, left behind amid ongoing factional skirmishes and occult operations."
+  },
+  {
+   "q": "Who crafted these candles?",
+   "aliases": [
+    "who made candles of beckoning",
+    "candle creator",
+    "who made the crate"
+   ],
+   "answer": "While their exact origins often tie to occultists, cultists, or rogue necromancers operating in Lordaeron's ruins, they are typically found stored in nondescript supply crates intended for ritual use."
+  },
+  {
+   "q": "Why does the Horde or Forsaken want them?",
+   "aliases": [
+    "why forsaken need candles",
+    "why retrieve candles",
+    "why horde candles"
+   ],
+   "answer": "Securing ritual implements denies their use to hostile groups\u2014such as the Scourge or Scarlet Crusade\u2014and offers Forsaken apothecaries and spellcasters valuable materials for their own defensive and arcane studies."
+  },
+  {
+   "q": "Can just anyone use the candle?",
+   "aliases": [
+    "can i light it",
+    "how to use candle",
+    "use candle of beckoning"
+   ],
+   "answer": "While physically simple to take and store in a pack, the magical effects tied to ritual beckoning require specific incantations and ceremonial preparation."
+  },
+  {
+   "q": "Are the candles linked to the Scourge?",
+   "aliases": [
+    "is this scourge magic",
+    "are candles scourge",
+    "scourge cult candles"
+   ],
+   "answer": "Cults aligned with dark magic and Scourge remnants frequently employ ritual items of this kind to summon or direct the undead across the northern ruins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, salvaging occult implements in Tirisfal is a matter of both survival and study, ensuring dangerous artifacts do not fall into hostile hands."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Practitioners of the dark arts readily recognize the distinct tallow and magical resonance used in ritual beckoning."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Shadow priests understand the delicate balance required when handling items crafted to invoke lingering spirits and call forth unseen presences."
+  }
+ ],
+ "keywords": [
+  "candles of beckoning",
+  "crate of candles",
+  "forsaken",
+  "occult",
+  "ritual taper",
+  "tirisfal glades",
+  "undercity"
+ ],
+ "related": [
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "Candles of Beckoning"
+ ]
+}

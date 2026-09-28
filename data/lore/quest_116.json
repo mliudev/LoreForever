@@ -1,0 +1,121 @@
+{
+ "key": "quest:116",
+ "type": "quest",
+ "name": "Dry Times",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   116
+  ],
+  "level": "15",
+  "faction": "Alliance",
+  "start": "Barkeep Daniels",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Dry Times",
+  "chain": []
+ },
+ "summary": "Dry Times is a task given by Barkeep Daniels of Lakeshire to resupply the town inn with liquor during an ongoing siege. With the Blackrock orc invasion severing trade routes, Daniels relies on adventurous couriers to fetch specialty alcohol from across Stormwind's territories.",
+ "sections": [
+  {
+   "title": "A Town Under Siege",
+   "body": "Lakeshire sits on the front line of an aggressive push by the Blackrock clan orcs descending from Stonewatch Keep. With regular supply lines choked and the roads unsafe, the town's local innkeeper, Barkeep Daniels, faces an imminent crisis of empty casks. To keep spirits high among frightened villagers and beleaguered town guards, he turns to outside travelers to bypass the road blockades and restock his shelves.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Grand Tour of the Kingdom",
+   "body": "Restocking Daniels's cellar is no simple delivery; it requires an ambitious journey across the breadth of the kingdom of Stormwind. A courier must secure a cask of Merlot from the capital itself, Sweet Rum from the Lion's Pride Inn in Goldshire, potent Moonshine from gloomy Darkshire in Duskwood, and a special keg of Thunderbrew Lager brewed by Grimbooze Thunderbrew out in the hills of Westfall.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Lakeshire running out of alcohol?",
+   "aliases": [
+    "why dry times",
+    "why no booze lakeshire",
+    "barkeep daniels problem"
+   ],
+   "answer": "The Blackrock orc invasion of Redridge has completely disrupted regular trade and supply caravans. Barkeep Daniels's normal shipments are long overdue, threatening to leave his tavern completely dry while the town is under immense wartime stress."
+  },
+  {
+   "q": "Where do I find all the drinks Barkeep Daniels needs?",
+   "aliases": [
+    "dry times drink locations",
+    "where to buy merlot moonshine rum",
+    "where to get drinks for daniels"
+   ],
+   "answer": "You must collect four items from across the kingdom: Merlot from the taverns in Stormwind City, Sweet Rum from Goldshire in Elwynn Forest, Moonshine from Darkshire in Duskwood, and a keg of Thunderbrew Lager from Grimbooze Thunderbrew in the hills of Westfall."
+  },
+  {
+   "q": "Who is Grimbooze Thunderbrew?",
+   "aliases": [
+    "grimbooze location",
+    "where is grimbooze thunderbrew",
+    "westfall thunderbrew"
+   ],
+   "answer": "Grimbooze Thunderbrew is a dwarven brewer residing in the hills of Westfall. Barkeep Daniels considers his Thunderbrew Lager essential stock, but getting it requires completing a separate errand for Grimbooze to secure a fresh keg."
+  },
+  {
+   "q": "Who is Barkeep Daniels?",
+   "aliases": [
+    "barkeep daniels",
+    "lakeshire innkeeper",
+    "who gives dry times"
+   ],
+   "answer": "Daniels is the barkeep running the inn in Lakeshire. Desperate to keep his tavern stocked and his patrons pacified amidst the looming threat of the Blackrock orcs, he hires travelers to personally retrieve supplies."
+  },
+  {
+   "q": "Why does Daniels need drinks from so many different regions?",
+   "aliases": [
+    "why so many drinks",
+    "why visit duskwood and westfall"
+   ],
+   "answer": "Daniels caters to a diverse crowd of refugees, local militiamen, and passing adventurers, requiring a wide variety of stock ranging from dwarven lager to fine capital wine and potent regional spirits from Duskwood and Elwynn."
+  },
+  {
+   "q": "What reward does Barkeep Daniels give for making the run?",
+   "aliases": [
+    "dry times reward",
+    "what does daniels give"
+   ],
+   "answer": "In addition to reimbursing your travel expenses with a purse of coins, Daniels presents a hand-crafted cloak sewn by his wife as thanks for braving the contested roads of the realm."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This errand illustrates how the breakdown of road security in Redridge affects daily life, requiring Alliance couriers to knit together severed trade routes between Stormwind, Elwynn, Westfall, Duskwood, and Redridge."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Even during an orc invasion, human taverns rely on dwarven brewing expertise, sending couriers all the way to Westfall to secure Grimbooze Thunderbrew's renowned lager."
+  }
+ ],
+ "keywords": [
+  "barkeep daniels",
+  "dry times",
+  "grimbooze thunderbrew",
+  "lakeshire",
+  "merlot",
+  "moonshine",
+  "redridge",
+  "sweet rum",
+  "thunderbrew lager"
+ ],
+ "related": [
+  "npc:barkeep-daniels",
+  "quest:117",
+  "npc:grimbooze-thunderbrew",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "subzone:darkshire",
+  "subzone:goldshire",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Dry Times"
+ ]
+}

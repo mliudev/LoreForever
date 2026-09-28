@@ -1,0 +1,93 @@
+{
+ "key": "subzone:dreamer-s-rock",
+ "type": "subzone",
+ "name": "Dreamer's Rock",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "wiki": "Dreamer's Rock"
+ },
+ "summary": "Dreamer's Rock is a secluded natural sanctuary tucked deep within the Wailing Caverns past the Screaming Gully. Here lies the sleeping night elf druid Naralex, whose noble effort to revive the Barrens has instead birthed a living nightmare. It serves as both a sacred barrow chamber and the epicenter of the corruption mutating the surrounding subterranean ecosystem.",
+ "sections": [
+  {
+   "title": "The Slumber of Naralex",
+   "body": "Located in the heart of the Wailing Caverns, Dreamer's Rock functions much like an improvised barrow den. Here, the night elf druid Naralex entered a deep trance to tap the underground springs and channel the Emerald Dream into the arid soil of the Barrens. Instead of bringing life, his connection was seized by dark forces. The nightmare twisting his thoughts now spills physically into this chamber, twisting the local wildlife, turning his followers into the venomous Druids of the Fang, and manifesting terrifying aberrations into the waking world.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Awakening Ritual",
+   "body": "Only by ending the corruption of the Fanglords can a surviving Disciple of Naralex venture to Dreamer's Rock to perform the ritual of waking. The process is fraught with peril: as the chant begins, Naralex's lingering nightmare manifests monstrosities to defend its hold over his sleeping mind. The ultimate culmination of this psychic torment is Mutanus the Devourer, a vile aberration that materializes directly from the depths of the dreamer's subconscious to consume all who seek to free him.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is sleeping at Dreamer's Rock?",
+   "aliases": [
+    "sleeping elf",
+    "who is asleep here",
+    "who is naralex",
+    "dreamer identity"
+   ],
+   "answer": "Naralex, a powerful night elf druid, lies in slumber here. He came to the Wailing Caverns hoping to harness its subterranean water channels to restore lush life to the Barrens, but his communion with the Emerald Dream was hijacked by terrible nightmares."
+  },
+  {
+   "q": "Why is this chamber called Dreamer's Rock?",
+   "aliases": [
+    "why dreamers rock",
+    "dreamers rock name meaning",
+    "name origin"
+   ],
+   "answer": "The chamber is named for Naralex himself, 'the Dreamer.' Acting much like a traditional night elf barrow den, it provides the physical resting place for his body while his spirit traverses the Dream."
+  },
+  {
+   "q": "What happens when you try to wake Naralex?",
+   "aliases": [
+    "waking naralex",
+    "disciple ritual",
+    "naralex event"
+   ],
+   "answer": "Once the Fanglords throughout the caverns are slain, a loyal Disciple of Naralex comes to the rock to begin an awakening chant. The nightmare violently resists being broken, sending waves of shadow-tainted beasts and finally the monstrous Mutanus the Devourer into the waking world."
+  },
+  {
+   "q": "Why did Naralex's followers turn hostile?",
+   "aliases": [
+    "druids of the fang origin",
+    "why are the druids evil",
+    "corrupted druids"
+   ],
+   "answer": "As Naralex's communion turned into a nightmare, the dark visions warped the minds of his acolytes. Abandoning their Cenarion vows, they embraced serpent aspects, becoming the Druids of the Fang and zealously defending their master's tormented, unending sleep."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Dreamer's Rock stands as a grim warning of the dangers lurking within the Emerald Dream, showing how easily noble intentions can be subverted by slumbering horrors."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Finding a sacred barrow-style resting chamber corrupted beneath the arid Barrens is a somber reminder of the tragic risks Naralex and his followers took far from Kalimdor's northern forests."
+  }
+ ],
+ "keywords": [
+  "barrow den",
+  "dreamer's rock",
+  "dreamers rock",
+  "druids of the fang",
+  "emerald dream",
+  "mutanus",
+  "naralex",
+  "wailing caverns"
+ ],
+ "related": [
+  "npc:naralex",
+  "zone:wailing",
+  "npc:mutanus-the-devourer",
+  "subzone:screaming-gully",
+  "topic:druid",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Dreamer's Rock"
+ ]
+}

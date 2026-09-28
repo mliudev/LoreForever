@@ -1,0 +1,83 @@
+{
+ "key": "npc:deathstalker-faerleia",
+ "type": "npc",
+ "name": "Deathstalker Faerleia",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Deathstalker Faerleia",
+  "refs": 1
+ },
+ "summary": "Deathstalker Faerleia is an operative of the Forsaken intelligence agency stationed deep within enemy territory inside Pyrewood Village. Operating out of the settlement's town hall, she orchestrates covert strikes against the local Gilnean leadership.",
+ "sections": [
+  {
+   "title": "Behind Enemy Lines",
+   "body": "As an agent of the Deathstalkers\u2014the covert intelligence and assassin branch of the Undercity\u2014Faerleia is tasked with infiltrating Pyrewood Village in southern Silverpine Forest. The isolated human enclave harbors dark secrets, including a curse that transforms its populace under the night sky. Stationed within the upper levels of the town hall, Faerleia coordinates operations to disrupt the settlement from the inside, calling on Horde operatives to eliminate the influential members of the Pyrewood Council.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Deathstalker Faerleia?",
+   "aliases": [
+    "faerleia",
+    "who is faerleia",
+    "deathstalker faerleia"
+   ],
+   "answer": "She is an operative of the Deathstalkers, the stealth and intelligence division of Queen Sylvanas Windrunner's Forsaken. She has slipped into Pyrewood Village to wage a covert war against its leadership."
+  },
+  {
+   "q": "Where can Deathstalker Faerleia be found?",
+   "aliases": [
+    "where is faerleia",
+    "faerleia location",
+    "find faerleia"
+   ],
+   "answer": "Faerleia is tucked away inside the town hall of Pyrewood Village, located in southern Silverpine Forest just north of the Greymane Wall."
+  },
+  {
+   "q": "What mission does she give?",
+   "aliases": [
+    "faerleia quest",
+    "pyrewood ambush quest"
+   ],
+   "answer": "She directs adventurers in the Pyrewood Ambush, an operation to assassinate the councilmen governing Pyrewood Village to weaken the enclave's resistance against the Forsaken."
+  },
+  {
+   "q": "Why are the Deathstalkers targeting Pyrewood Village?",
+   "aliases": [
+    "why attack pyrewood",
+    "deathstalkers in pyrewood"
+   ],
+   "answer": "Pyrewood remains an active human settlement affiliated with Gilneas right on the border of Forsaken territory. Weakening its leadership helps secure Silverpine Forest from hostile threats."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Faerleia exemplifies the Deathstalkers' reliance on infiltration and cold calculation to dismantle enemies of the Dark Lady without committing an entire army."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "For rogues serving the Forsaken, Faerleia represents the pinnacle of Deathstalker field craft: slipping unnoticed straight into the enemy's seat of power to orchestrate ambushes."
+  }
+ ],
+ "keywords": [
+  "ambush",
+  "council",
+  "deathstalker",
+  "faerleia",
+  "forsaken",
+  "pyrewood",
+  "silverpine"
+ ],
+ "related": [
+  "subzone:pyrewood-village",
+  "quest:452",
+  "zone:silverpine",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Deathstalker Faerleia"
+ ]
+}

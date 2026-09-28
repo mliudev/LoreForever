@@ -1,0 +1,76 @@
+{
+ "key": "subzone:jagged-reef",
+ "type": "subzone",
+ "name": "Jagged Reef",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Jagged Reef"
+ },
+ "summary": "The Jagged Reef forms the rugged northern coast of Azshara, where sandy beaches meet jagged stone spurs and churning surf. Treacherous rocks lurk beneath the shallow water, making maritime travel impossible. The desolate shore is primarily populated by prowling hydras, scavenging makrura, and territorial murloc tribes.",
+ "sections": [
+  {
+   "title": "A Perilous Shoreline",
+   "body": "Stretching across Azshara's northern edge, the Jagged Reef is a harsh littoral expanse where broken cliffs and jutting stone outcroppings divide the sandy shores into secluded inlets. Beneath the breaking waves lie submerged crags and shifting shallows, turning the waters into a graveyard for any vessel foolish enough to venture near. On land, the wild coastline offers little comfort; salt-crusted beasts, predatory hydras, and aggressive makrura wander the surf line alongside entrenched murlocs scouring the tides for scraps and unwary prey.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Jagged Reef located?",
+   "aliases": [
+    "jagged reef location",
+    "where is jagged reef"
+   ],
+   "answer": "The Jagged Reef encompasses the northern coastline of Azshara, spanning stretches of beach, rocky jets, and small ocean inlets along the region's northern shores."
+  },
+  {
+   "q": "What creatures inhabit the Jagged Reef?",
+   "aliases": [
+    "what lives here",
+    "jagged reef mobs",
+    "monsters in jagged reef"
+   ],
+   "answer": "The coast is teeming with dangerous aquatic life, including aggressive murlocs, ravenous multi-headed hydras, and armored makrura scouring both the shallow waters and the sandy beach."
+  },
+  {
+   "q": "Can ships navigate the waters around the Jagged Reef?",
+   "aliases": [
+    "can boats sail here",
+    "jagged reef shipping"
+   ],
+   "answer": "No. The area earns its name from the sheer abundance of treacherous underwater rocks and erratic shallows, making maritime navigation through the reef virtually suicidal for any ship."
+  },
+  {
+   "q": "Are there any settlements along the reef?",
+   "aliases": [
+    "towns near jagged reef",
+    "who lives at jagged reef"
+   ],
+   "answer": "There are no civilized settlements along the Jagged Reef. Aside from transient explorers or hunters, the only organized presence comes from wild murloc encampments scattered across the shore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The exposed northern beaches offer abundant opportunities to study or tame native amphibious beasts such as hydras and shoreline crustaceans."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "beach",
+  "coast",
+  "hydras",
+  "jagged reef",
+  "makrura",
+  "murlocs",
+  "shallows"
+ ],
+ "related": [
+  "zone:azshara",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Jagged Reef"
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "key": "npc:dorn-plainstalker",
+ "type": "npc",
+ "name": "Dorn Plainstalker",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Dorn Plainstalker",
+  "refs": 8
+ },
+ "summary": "Dorn Plainstalker is a solitary tauren elder residing in the Weathered Nook overlooking the canyons of Thousand Needles. He serves as an overseer of traditional rite of passage trials, challenging Horde adventurers to prove their character and fortitude. Through trials of faith, endurance, strength, and lore, he tests whether travelers are worthy servants of the Earth Mother and their people.",
+ "sections": [
+  {
+   "title": "Hermit of the High Cliffs",
+   "body": "Secluded in a shallow cave high atop the canyon ridges of the Weathered Nook, Dorn Plainstalker lives apart from the bustle of Freewind Post. Reaching his mountain redoubt requires winding along the sheer northern cliffs overlooking the towering mesas below. From this quiet vantage point, Dorn maintains ancient customs and judges those who seek guidance in the harsh southern barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Four Trials",
+   "body": "Dorn Plainstalker guides pilgrims through a demanding series of tests meant to measure the core virtues of a tauren champion: faith, endurance, strength, and lore. Rather than mere exercises in brute force, these trials force aspirants to confront fear, leap blindly into the unknown, outlast cunning wilderness predators, and ponder the sacred history of Kalimdor before claiming their final passage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dorn Plainstalker?",
+   "aliases": [
+    "who is dorn",
+    "dorn lore",
+    "dorn plainstalker"
+   ],
+   "answer": "Dorn Plainstalker is a tauren hermit and elder who dwells in the Weathered Nook, a secluded cliffside shelter high above Thousand Needles. He administers traditional trials of passage to aspiring Horde champions."
+  },
+  {
+   "q": "Where can I find Dorn Plainstalker?",
+   "aliases": [
+    "where is dorn",
+    "how to reach dorn plainstalker",
+    "weathered nook location"
+   ],
+   "answer": "He is located in a cave at the Weathered Nook. From Freewind Post, head north to the high cliff walls bordering the canyon, then follow the ridge east until you discover a ramp ascending into his mountain sanctuary."
+  },
+  {
+   "q": "What are the trials Dorn administers?",
+   "aliases": [
+    "dorn plainstalker quests",
+    "test of faith",
+    "trials of passage thousand needles"
+   ],
+   "answer": "Dorn oversees four sacred tests: the Test of Faith, Test of Endurance, Test of Strength, and Test of Lore. Completing them proves a traveler's courage, physical resolve, combat skill, and respect for tradition."
+  },
+  {
+   "q": "What is the Test of Faith?",
+   "aliases": [
+    "leap of faith thousand needles",
+    "test of faith dorn"
+   ],
+   "answer": "The Test of Faith requires the pilgrim to step off a dizzying cliff plank into the chasm below, demonstrating absolute trust and overcoming primal fear."
+  },
+  {
+   "q": "Why does Dorn live alone in a cave?",
+   "aliases": [
+    "why is dorn isolated",
+    "dorn plainstalker background"
+   ],
+   "answer": "Dorn adheres to ascetic tauren spiritual traditions. By dwelling alone in the heights of the Weathered Nook, away from the daily trade and defense of Freewind Post, he maintains an untroubled place of contemplation and trial for seekers."
+  },
+  {
+   "q": "Is Dorn affiliated with Freewind Post?",
+   "aliases": [
+    "freewind post elder",
+    "is dorn horde"
+   ],
+   "answer": "While he lives outside Freewind Post itself, Dorn is a loyal member of the Horde and the tauren tribes, assisting brave travelers who wander through the windswept canyons."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren wandering through Thousand Needles, Dorn represents the continuation of nomadic ancestral traditions and spiritual rites that test one's balance with the Earth Mother."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Dorn welcomes all Horde champions willing to brave his trials, ensuring that warriors, hunters, and shamans of every race prove their mettle in Kalimdor's rugged wilds."
+  }
+ ],
+ "keywords": [
+  "dorn plainstalker",
+  "freewind post",
+  "tauren trial",
+  "test of endurance",
+  "test of faith",
+  "test of lore",
+  "test of strength",
+  "thousand needles",
+  "weathered nook"
+ ],
+ "related": [
+  "subzone:weathered-nook",
+  "quest:1149",
+  "quest:1150",
+  "quest:1151",
+  "quest:1152",
+  "subzone:freewind-post",
+  "zone:thousandneedles",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Dorn Plainstalker"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "key": "subzone:hillsbrad-fields",
+ "type": "subzone",
+ "name": "Hillsbrad Fields",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Hillsbrad Fields"
+ },
+ "summary": "The Hillsbrad Fields encompass the cultivated farmlands and rustic settlement of Hillsbrad in western Hillsbrad Foothills. As one of the few surviving human communities in former Lordaeron that refused to succumb to the Scourge or join the fanatical Scarlet Crusade, its farmers and militia now face constant assaults from the nearby Forsaken at Tarren Mill.",
+ "sections": [
+  {
+   "title": "A Defiant Bastion of Lordaeron",
+   "body": "Spanning orchards, pumpkin patches, and pastures between Darrow Hill and the Azurelode Mine, the Hillsbrad Fields supply essential provisions to Southshore and the surviving Alliance resistance. While much of Lordaeron fell to the plague of undeath, the people of Hillsbrad endured, proudly retaining the royal tabard and heraldry of their fallen kingdom. Led by Magistrate Burnside and the Council of Hillsbrad, the township operates as an independent civic body under constant siege. The local blacksmith Verringtan and his apprentices keep the populace armed, ensuring every farmer and laborer is prepared to defend their land.",
+   "spoiler": 0
+  },
+  {
+   "title": "Front Line of the Undead Advance",
+   "body": "The fertile fields are a prime target for High Executor Darthalia and the Forsaken forces entrenched at Tarren Mill. Viewing the thriving human settlement as an existential threat on their southern flank, the Undercity has orchestrated continuous raids against the community's infrastructure, targeting crops, livestock, councilors, and civilian farmers alike. In response, Hillsbrad's defenders have formed a hardened militia. Far from helpless peasants, local landowners like Farmer Ray and Farmer Getz organize ambushes and fight fiercely against undead incursions to preserve their homes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there still living humans farming here?",
+   "aliases": [
+    "why are humans in hillsbrad",
+    "who lives in hillsbrad fields",
+    "are the farmers alive"
+   ],
+   "answer": "Hillsbrad and neighbouring Southshore are among the very few settlements in Lordaeron that avoided complete destruction by the Scourge during the Third War. Unlike other survivors who fled south or joined the fanatical Scarlet Crusade, these residents remained to rebuild their lives and maintain their homeland."
+  },
+  {
+   "q": "Who rules over the town and fields?",
+   "aliases": [
+    "who leads hillsbrad",
+    "hillsbrad leadership",
+    "magistrate of hillsbrad"
+   ],
+   "answer": "The town and farmlands are governed by Magistrate Burnside, aided by Clerk Horrace Whitesteed and the Council of Hillsbrad from the local town hall. Landowners such as Farmer Ray and Farmer Getz manage the surrounding estates, while local blacksmith Verringtan equips the town watch."
+  },
+  {
+   "q": "Why are the Forsaken attacking the farms?",
+   "aliases": [
+    "why forsaken attack hillsbrad",
+    "battle of hillsbrad reason",
+    "tarren mill attacks"
+   ],
+   "answer": "High Executor Darthalia at Tarren Mill considers Hillsbrad a dangerous Alliance foothold on the Forsaken border. Undercity orders direct soldiers to break the human supply lines by destroying food stores, slaughtering livestock, and eliminating town leaders to clear the way for Forsaken dominance in the foothills."
+  },
+  {
+   "q": "What happened to Hillsbrad during the Second War?",
+   "aliases": [
+    "hillsbrad second war",
+    "orcs destroyed hillsbrad",
+    "history of hillsbrad fields"
+   ],
+   "answer": "During the Second War, Warchief Orgrim Doomhammer ordered a devastating assault on Hillsbrad to break human morale while building up Horde forces in the Southshore region. Hillsbrad was destroyed in a gruesome show of force, but the Alliance drove the orcs out and the town was subsequently rebuilt."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Hillsbrad Fields are a vital breadbasket and a poignant symbol of Lordaeron's enduring spirit, warranting protection against Forsaken extermination."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "High Executor Darthalia demands the systematic dismantling of Hillsbrad's farms and militia to secure the southern frontier for the Forsaken."
+  }
+ ],
+ "keywords": [
+  "battle of hillsbrad",
+  "darthalia",
+  "farmer getz",
+  "farmer ray",
+  "hillsbrad",
+  "hillsbrad fields",
+  "magistrate burnside",
+  "southshore",
+  "tarren mill",
+  "verringtan"
+ ],
+ "related": [
+  "quest:527",
+  "quest:567",
+  "zone:hillsbrad",
+  "subzone:southshore",
+  "subzone:tarren-mill",
+  "subzone:azurelode-mine",
+  "npc:high-executor-darthalia",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Hillsbrad Fields"
+ ]
+}

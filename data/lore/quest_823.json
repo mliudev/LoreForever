@@ -1,0 +1,123 @@
+{
+ "key": "quest:823",
+ "type": "quest",
+ "name": "Report to Orgnil",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   823
+  ],
+  "level": "7",
+  "faction": "Horde",
+  "start": "Master Gadrin",
+  "end": "Orgnil Soulscar",
+  "previous": "Report to Sen'jin Village (Classic)",
+  "next": "Dark Storms (quest)",
+  "wiki": "Report to Orgnil",
+  "chain": []
+ },
+ "summary": "Report to Orgnil is an early Horde quest dispatched by Master Gadrin from Sen'jin Village. It directs fledgling adventurers northward to Razor Hill to warn Orgnil Soulscar about the insidious reach of the Burning Blade cult. This dispatch helps coordinate Durotar's scattered defense against demonic corruption brewing right in the orcs' homeland.",
+ "sections": [
+  {
+   "title": "A Coordinated Defense",
+   "body": "While Sen'jin Village grapples with its own local woes\u2014most notably Zalazane's treachery on the Echo Isles\u2014Master Gadrin recognizes that reports of the Burning Blade cult represent a far wider danger. Whispers of demonic corruption were uncovered in the Valley of Trials, and the Darkspear witch doctor knows these threats cannot be handled in isolation. He dispatches traveling heroes north along the dusty road to Razor Hill, where the local orc authorities maintain a broader watch over Durotar.",
+   "spoiler": 0
+  },
+  {
+   "title": "Orgnil Soulscar",
+   "body": "Stationed in the military encampment of Razor Hill, Orgnil Soulscar is an orc charged with rooting out domestic evils and safeguarding the central heartlands. When adventurers deliver Gadrin's warning, Orgnil wastes no time integrating the reports from both the Valley of Trials and Sen'jin Village. Recognizing that the shadow of the Burning Blade looms dangerously close, he quickly mobilizes forces to dismantle the cultists before their dark rituals can unseat the young nation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Report to Orgnil?",
+   "aliases": [
+    "who gives report to orgnil",
+    "where to get report to orgnil",
+    "quest giver report to orgnil"
+   ],
+   "answer": "Master Gadrin, the Darkspear witch doctor and spiritual leader residing in Sen'jin Village, gives you this task after you assist the trolls with their initial local struggles."
+  },
+  {
+   "q": "Where is Orgnil Soulscar located?",
+   "aliases": [
+    "where is orgnil soulscar",
+    "orgnil soulscar location",
+    "find orgnil soulscar"
+   ],
+   "answer": "Orgnil Soulscar is located in Razor Hill, the fortified settlement situated north of Sen'jin Village in central Durotar."
+  },
+  {
+   "q": "Why does Master Gadrin send you to Razor Hill?",
+   "aliases": [
+    "why report to orgnil",
+    "why go to razor hill",
+    "purpose of report to orgnil"
+   ],
+   "answer": "Master Gadrin realizes that demonic cult activity discovered in the Valley of Trials and around Durotar poses a threat to everyone, not just the trolls. He directs you to Orgnil Soulscar, the orc responsible for policing the region against the Burning Blade."
+  },
+  {
+   "q": "What is the Burning Blade mentioned in the quest?",
+   "aliases": [
+    "who are the burning blade",
+    "burning blade cult",
+    "what is burning blade"
+   ],
+   "answer": "The Burning Blade is a treacherous cult of demon worshippers operating in the shadows of Durotar and beyond. Their covert presence in nearby canyons and caves threatens the safety and stability of the nascent Horde."
+  },
+  {
+   "q": "What quest follows Report to Orgnil?",
+   "aliases": [
+    "next quest after report to orgnil",
+    "report to orgnil followup",
+    "what comes after report to orgnil"
+   ],
+   "answer": "Upon turning in the report to Orgnil Soulscar in Razor Hill, he immediately assigns you the quest Dark Storms to investigate and combat the gathering cultist threat."
+  },
+  {
+   "q": "What prerequisite must be completed before receiving this quest?",
+   "aliases": [
+    "prereq report to orgnil",
+    "how to unlock report to orgnil",
+    "previous quest report to orgnil"
+   ],
+   "answer": "It naturally follows your arrival in Sen'jin Village via the quest Report to Sen'jin Village, linking early Valley of Trials discoveries with the wider Durotar campaign."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This task marks the vital communication and cooperation between the newly allied Darkspear trolls and the orcs of Durotar as they face shared threats."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Though the Darkspear are absorbed in their battle against Zalazane, Master Gadrin demonstrates the trolls' commitment to the Horde by alerting orc leaders to regional dangers."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orgnil Soulscar represents the frontline defense of your new homeland, ensuring demonic taint does not take root within Durotar's borders."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "durotar",
+  "master gadrin",
+  "orgnil soulscar",
+  "razor hill",
+  "report to orgnil",
+  "sen'jin village"
+ ],
+ "related": [
+  "npc:master-gadrin",
+  "npc:orgnil-soulscar",
+  "subzone:razor-hill",
+  "subzone:sen-jin-village",
+  "zone:durotar",
+  "subzone:valley-of-trials"
+ ],
+ "attribution": [
+  "Report to Orgnil"
+ ]
+}

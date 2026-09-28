@@ -1,0 +1,88 @@
+{
+ "key": "subzone:hall-of-explorers",
+ "type": "subzone",
+ "name": "Hall of Explorers",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Hall of Explorers"
+ },
+ "summary": "The Hall of Explorers is the sprawling archaeological wing of Ironforge and the bustling headquarters of the dwarven Explorers' League. Part museum, part archive, and part expedition command, it gathers relics, fossils, and ancient tomes from every corner of Azeroth to piece together the forgotten origins of the dwarven race.",
+ "sections": [
+  {
+   "title": "Headquarters of the League",
+   "body": "Occupying the northeastern cavern of Ironforge, the Hall of Explorers\u2014sometimes referred to as the Assembly of Explorers\u2014serves as the nerve center for all Alliance-sanctioned archaeological endeavors. Under the direction of High Explorer Muninn Magellas, scholars and field agents coordinate digs across distant lands, shipping back mysterious relics, ancient titan machinery, and prehistoric bones. The vast Library at its center functions as both a public museum and a restricted storehouse of historical lore. Beyond pure scholarship, the hall maintains quiet ties to Stormwind intelligence, occasionally sharing sensitive discoveries or trading strategic information directly with SI:7 agents under the cover of academic study.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hall of Explorers used for?",
+   "aliases": [
+    "hall of explorers purpose",
+    "what happens here",
+    "explorers league base"
+   ],
+   "answer": "It serves as the global headquarters and archival museum of the Explorers' League. Scholars analyze field reports, catalog relics from excavations, and organize archaeological digs to uncover the origins of the dwarves and ancient Azeroth."
+  },
+  {
+   "q": "Who leads the operations here?",
+   "aliases": [
+    "who runs hall of explorers",
+    "explorers league leader",
+    "high explorer"
+   ],
+   "answer": "High Explorer Muninn Magellas oversees the hall's expeditions, museum curation, and research archives from within the district."
+  },
+  {
+   "q": "How does this place connect to the rest of Ironforge?",
+   "aliases": [
+    "how to get here",
+    "hall of explorers exits",
+    "where is hall of explorers"
+   ],
+   "answer": "The Hall of Explorers lies in the northeastern section of the city. Archways connect it directly to the Great Forge to the southwest, the Forlorn Cavern to the west, and Tinker Town to the south."
+  },
+  {
+   "q": "Is the hall involved in espionage?",
+   "aliases": [
+    "si7 connection",
+    "spy hall of explorers",
+    "secret alliance intelligence"
+   ],
+   "answer": "Yes, unofficially. While outwardly an academic institution, the Explorers' League maintains an informal intelligence channel with Stormwind's SI:7, sharing geopolitical observations and discreet missives recovered from faraway dig sites."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarven adventurers, the hall is the ultimate repository of your race's heritage, housing relics aimed at uncovering your ancient origins and connection to the Titans."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Behind the dusty fossils and scholarly books lies an informal conduit for SI:7 intelligence, making the district a surprisingly useful waypoint for Alliance operatives."
+  }
+ ],
+ "keywords": [
+  "archaeology",
+  "explorers' league",
+  "hall of explorers",
+  "ironforge library",
+  "magellas",
+  "museum",
+  "si:7"
+ ],
+ "related": [
+  "topic:explorers-league",
+  "subzone:library-ironforge",
+  "zone:ironforge",
+  "subzone:great-forge",
+  "subzone:tinker-town",
+  "subzone:forlorn-cavern",
+  "quest:301",
+  "quest:2300"
+ ],
+ "attribution": [
+  "Hall of Explorers"
+ ]
+}

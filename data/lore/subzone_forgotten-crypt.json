@@ -1,0 +1,90 @@
+{
+ "key": "subzone:forgotten-crypt",
+ "type": "subzone",
+ "name": "Forgotten Crypt",
+ "era": "classic",
+ "zone": "deadwind",
+ "meta": {
+  "wiki": "Forgotten Crypt"
+ },
+ "summary": "Tucked away behind the ominous tower of Karazhan, the Forgotten Crypt sits within the overgrown graveyard of Morgan's Plot. Heavy iron bars seal its dark maw, shielding whatever lurks beneath Deadwind Pass from the light of day. It remains one of the most unsettling, impenetrable mysteries in the kingdom.",
+ "sections": [
+  {
+   "title": "A Sealed Chamber Beneath the Pass",
+   "body": "Behind the spectral haunt of Karazhan lies Morgan's Plot, a desolate patch of burial ground where the weathered mausoleum of the Forgotten Crypt stands. Unlike the catacombs directly burrowed into the tower's foundation, this subterranean tomb sprawls deep into the earth. Sturdy iron gates bar curious travelers from peering too deep into its subterranean stairs. Locals avoid it entirely, whispered warnings cautioning that the depths beneath Deadwind Pass harbor horrors best kept buried from living eyes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Whispers of the Deep Vaults",
+   "body": "Those brave or foolish enough to press their faces against the grating speak of a freezing chill emanating from the stone passages. Though completely abandoned and sealed off from common entry, distant sounds of stagnant water and decaying timbers echo up from the dark. Some believe these vaults were constructed alongside Karazhan itself to inter those cursed or altered by Medivh's volatile sorcery, while others wonder if it was intended as a final resting place for the unfortunate souls claimed by the pass.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Forgotten Crypt located?",
+   "aliases": [
+    "forgotten crypt location",
+    "where is the crypt in deadwind pass",
+    "how to find forgotten crypt"
+   ],
+   "answer": "The Forgotten Crypt is located in Deadwind Pass, situated in the graveyard known as Morgan's Plot just south and behind the tower of Karazhan."
+  },
+  {
+   "q": "Can you go inside the crypt?",
+   "aliases": [
+    "is the forgotten crypt open",
+    "can you enter forgotten crypt",
+    "how to get into forgotten crypt"
+   ],
+   "answer": "No. The entrance is securely gated and locked off. Whatever rests within its sprawling subterranean tunnels remains completely sealed from normal entry."
+  },
+  {
+   "q": "Is the Forgotten Crypt part of Karazhan?",
+   "aliases": [
+    "karazhan crypts connection",
+    "is it part of karazhan"
+   ],
+   "answer": "It is distinct from the tower itself and from the catacombs dug directly beneath Karazhan's foundation, although its location in Morgan's Plot places it directly in the shadow of Medivh's ancient seat of power."
+  },
+  {
+   "q": "Why is the crypt abandoned?",
+   "aliases": [
+    "who built forgotten crypt",
+    "why was it sealed"
+   ],
+   "answer": "Few records remain of its original construction. It was likely built as a sprawling tomb for the surrounding region, but was ultimately abandoned and barred shut as Karazhan's corruption overtook Deadwind Pass."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The crypt radiates a palpable aura of misery and ancient necromancy, drawing the curiosity of practitioners eager to commune with whatever residual suffering clings to its barred halls."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The utter absence of the Light within the unhallowed grounds of Morgan's Plot makes this sealed tomb a deeply foreboding monument to desecration."
+  }
+ ],
+ "keywords": [
+  "catacombs",
+  "cemetery",
+  "deadwind pass",
+  "forgotten crypt",
+  "karazhan",
+  "morgans plot",
+  "tomb",
+  "upside-down sinners"
+ ],
+ "related": [
+  "subzone:morgan-s-plot",
+  "subzone:karazhan",
+  "subzone:karazhan-catacombs",
+  "zone:deadwind",
+  "zone:duskwood",
+  "subzone:tranquil-gardens-cemetery"
+ ],
+ "attribution": [
+  "Forgotten Crypt"
+ ]
+}

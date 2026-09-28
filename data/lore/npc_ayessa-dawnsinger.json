@@ -1,0 +1,88 @@
+{
+ "key": "npc:ayessa-dawnsinger",
+ "type": "npc",
+ "name": "Ayessa Dawnsinger",
+ "era": "classic",
+ "zone": "zephras",
+ "meta": {
+  "wiki": "Ayessa Dawnsinger",
+  "refs": 1
+ },
+ "summary": "Ayessa Dawnsinger is a Skyborne leader found in Valanaar on Zephras Isle. She leads the Windshapers, guiding the Skyborne aligned with the Horde through their trials and politics.",
+ "sections": [
+  {
+   "title": "Leader of the Windshapers",
+   "body": "Standing within the settlement of Valanaar on Zephras Isle, Ayessa Dawnsinger serves as the paramount guide for the Windshapers\u2014the faction of Skyborne aligned with the Horde. From this vantage, she directs critical efforts across the island, managing external threats, internal fractures, and the overarching survival of her people as they navigate alliances in Kalimdor and beyond.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Struggle for Zephras",
+   "body": "Ayessa plays a pivotal role in resolving conflicts on the isle, dispatching trusted champions to address rogue constructs, hostile figures like Lorthuna, and the grander fate awaiting the Skyborne. Her authority steers the Windshapers through tense political and physical confrontations, ensuring their voice and strength remain respected within the Horde.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ayessa Dawnsinger?",
+   "aliases": [
+    "ayessa lore",
+    "who is ayessa",
+    "ayessa dawnsinger background"
+   ],
+   "answer": "Ayessa Dawnsinger is a prominent Skyborne figure who leads the Windshapers, the faction of Skyborne allied with the Horde on Zephras Isle."
+  },
+  {
+   "q": "Where can Ayessa Dawnsinger be found?",
+   "aliases": [
+    "where is ayessa",
+    "ayessa location",
+    "ayessa dawnsinger map"
+   ],
+   "answer": "She is located in the settlement of Valanaar on Zephras Isle."
+  },
+  {
+   "q": "What are the Windshapers?",
+   "aliases": [
+    "windshapers faction",
+    "who are windshapers"
+   ],
+   "answer": "The Windshapers are the Skyborne faction aligned with the Horde, guided by Ayessa Dawnsinger from their base in Valanaar."
+  },
+  {
+   "q": "What is Ayessa's role in local quests?",
+   "aliases": [
+    "ayessa quests",
+    "ayessa questline"
+   ],
+   "answer": "Ayessa issues multiple vital quests dealing with the island's defense, including investigating rogue constructs, confronting Lorthuna, and shaping the future fate of Zephras."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, Ayessa Dawnsinger represents their primary Skyborne partnership, anchoring their presence and diplomatic ties on Zephras Isle."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "As the leader of the Windshapers, Ayessa embodies the vision of Skyborne who choose solidarity with the Horde to secure their future."
+  }
+ ],
+ "keywords": [
+  "ayessa",
+  "dawnsinger",
+  "horde",
+  "skyborne",
+  "valanaar",
+  "windshapers",
+  "zephras"
+ ],
+ "related": [
+  "topic:skyborne",
+  "zone:zephras",
+  "topic:horde",
+  "quest:93746"
+ ],
+ "attribution": [
+  "Ayessa Dawnsinger"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:fenris-keep",
+ "type": "subzone",
+ "name": "Fenris Keep",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Fenris Keep"
+ },
+ "summary": "Fenris Keep is an isolated stone fortress situated atop Fenris Isle in the heart of Lordamere Lake. Once a strategic stronghold housing Lordaeron troops, it has fallen into the hands of the Scourge under the rogue mage Thule Ravenclaw.",
+ "sections": [
+  {
+   "title": "A Fallen Bastion of Lordaeron",
+   "body": "Before the Third War, Fenris Keep held strategic importance for the Kingdom of Lordaeron, stationing a sizable contingent of troops to safeguard Lordamere Lake. When the undead Scourge swept across the land, the island fortress was overwhelmed along with the rest of the realm. Rather than crumbling into forgotten ruin, it was seized by Thule Ravenclaw, a traitorous former wizard of the Kirin Tor. Ravenclaw allied himself with the Scourge, subjugated the resident gnolls with foul necromancy to create the ravenous Rot Hide pack, and entrenched himself deep inside the keep's stone halls.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scourge on Lordamere",
+   "body": "Today, Fenris Keep serves as the seat of Ravenclaw's power and an imminent threat to the Forsaken securing Silverpine Forest. From this bastion, Thule directs legions of Rot Hide gnolls that violently assail anyone daring to set foot on the isle. Because Fenris Isle sits mere miles across the water from the Tirisfal border, the Forsaken of the Sepulcher and Undercity actively dispatch champions to batter down the keep's defenses and put an end to the rogue necromancer.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Fenris Keep?",
+   "aliases": [
+    "fenris keep lore",
+    "what is fenris keep",
+    "fenris castle"
+   ],
+   "answer": "Fenris Keep is a fortified stone castle situated on Fenris Isle in Lordamere Lake. Formerly a military stronghold for the fallen kingdom of Lordaeron, it is currently held by the undead Scourge."
+  },
+  {
+   "q": "Who rules Fenris Keep right now?",
+   "aliases": [
+    "who controls fenris keep",
+    "fenris keep boss",
+    "master of fenris isle"
+   ],
+   "answer": "The keep is ruled by Thule Ravenclaw, a former Kirin Tor mage who betrayed the living to serve the Scourge. He commands an army of undead-tainted Rot Hide gnolls from within the fortress."
+  },
+  {
+   "q": "Why are there gnolls inside Fenris Keep?",
+   "aliases": [
+    "rot hide gnolls fenris",
+    "why gnolls in keep",
+    "fenris gnolls"
+   ],
+   "answer": "The local gnoll population was subjugated by Thule Ravenclaw through dark magic and disease, twisting them into the Rot Hide gnolls. They serve as Ravenclaw's loyal shock troops and guards throughout the castle and the surrounding island."
+  },
+  {
+   "q": "Why do the Forsaken care about Fenris Keep?",
+   "aliases": [
+    "why forsaken attack fenris",
+    "forsaken fenris keep",
+    "undercity fenris"
+   ],
+   "answer": "Fenris Keep provides the Scourge with a defensible base on Lordamere Lake, directly menacing Forsaken movements through eastern Silverpine Forest and Tirisfal Glades. Sylvanas's forces cannot leave an active Scourge commander unchecked so close to their borders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde\u2014and the Forsaken in particular\u2014Fenris Keep represents a lingering Scourge stronghold that must be eradicated to safeguard Silverpine Forest and the waterways of Lordamere Lake."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The master of Fenris Keep, Thule Ravenclaw, represents a grim betrayal of the Kirin Tor's teachings, having twisted Dalaran's arcane knowledge into the dark arts of the Scourge."
+  }
+ ],
+ "keywords": [
+  "fenris isle",
+  "fenris keep",
+  "lordaeron",
+  "lordamere lake",
+  "rot hide",
+  "scourge",
+  "silverpine forest",
+  "thule ravenclaw"
+ ],
+ "related": [
+  "subzone:fenris-isle",
+  "quest:446",
+  "subzone:lordamere-lake",
+  "zone:silverpine",
+  "topic:scourge",
+  "topic:forsaken",
+  "topic:gnoll",
+  "quest:366"
+ ],
+ "attribution": [
+  "Fenris Keep"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "key": "subzone:twilight-post",
+ "type": "subzone",
+ "name": "Twilight Post",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Twilight Post"
+ },
+ "summary": "Twilight Post is a fortified encampment established by the Twilight's Hammer cult in northwestern Silithus. Situated far west of Cenarion Hold and northwest of the Twilight Base Camp, it serves as a critical site for the cultists' elemental summoning rituals. Adventurers venturing here face zealous cultists and the wind stones they use to contact otherworldly forces.",
+ "sections": [
+  {
+   "title": "A Bastion of Elemental Zealotry",
+   "body": "Tucked away in the desert sands of northwestern Silithus, Twilight Post serves as an outpost for the Twilight's Hammer cult. The camp is populated by heavily armed defenders and ritualists, including Twilight Avengers, Geolords, and Stonecallers under the leadership of Twilight Keeper Mayna and the rare fanatic Twilight Lord Everun. Like other encampments scattered across the wastes, the post revolves around ancient summoning conduits\u2014Lesser, regular, and Greater Wind Stones. Through dark rites and elemental communion, the cultists utilize these stones to entreat and bind elemental horrors from the realms beyond, threatening the fragile peace maintained by the Cenarion Circle in the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Twilight Post located?",
+   "aliases": [
+    "twilight post location",
+    "where is twilight post",
+    "twilight post silithus map"
+   ],
+   "answer": "Twilight Post is located in the far northwestern reaches of Silithus, situated well to the west of Cenarion Hold and to the northwest of the larger Twilight Base Camp."
+  },
+  {
+   "q": "Who occupies the Twilight Post?",
+   "aliases": [
+    "who is at twilight post",
+    "twilight post mobs",
+    "enemies at twilight post"
+   ],
+   "answer": "The post is held by the Twilight's Hammer cult. Notable figures stationed here include Twilight Keeper Mayna and Twilight Lord Everun, protected by ranks of Twilight Avengers, Geolords, and Stonecallers."
+  },
+  {
+   "q": "What are the wind stones found in the camp?",
+   "aliases": [
+    "what are wind stones",
+    "wind stones silithus",
+    "lesser wind stone twilight post"
+   ],
+   "answer": "The wind stones\u2014ranging from Lesser Wind Stones to regular and Greater Wind Stones\u2014are arcane conduits used by the Twilight's Hammer to summon and bind elemental creatures to their service."
+  },
+  {
+   "q": "Why is the Twilight's Hammer operating in Silithus?",
+   "aliases": [
+    "why are cultists in silithus",
+    "twilight hammer silithus goal"
+   ],
+   "answer": "The Twilight's Hammer has flocked to the desert wastes of Silithus to awaken and commune with ancient, dark powers slumbering beneath the sands, bolstering their ranks through elemental summonings."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The Twilight's Hammer perverts the sacred communion of the elements, forcefully summoning and binding spirits through the wind stones found at outposts like this one."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The Cenarion Circle watches the rise of the cult's outposts closely, as the cultists' dark elemental rituals threaten to further degrade the fragile, scarred balance of Silithus."
+  }
+ ],
+ "keywords": [
+  "geolord",
+  "silithus",
+  "stonecaller",
+  "twilight keeper mayna",
+  "twilight lord everun",
+  "twilight post",
+  "twilight's hammer",
+  "wind stone"
+ ],
+ "related": [
+  "zone:silithus",
+  "subzone:twilight-base-camp",
+  "subzone:cenarion-hold"
+ ],
+ "attribution": [
+  "Twilight Post"
+ ]
+}

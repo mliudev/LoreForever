@@ -1,0 +1,95 @@
+{
+ "key": "npc:onyxia",
+ "type": "npc",
+ "name": "Onyxia",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Onyxia",
+  "refs": 1
+ },
+ "summary": "Onyxia is the broodmother of the black dragonflight and the devious daughter of Deathwing. Masquerading as the noblewoman Lady Katrana Prestor, she operates from the heart of Stormwind Keep, subtly manipulating the royal court and crippling the kingdom from within.",
+ "sections": [
+  {
+   "title": "The Broodmother in the Court",
+   "body": "While her brother Nefarian consolidates his armies within Blackrock Spire, Onyxia pursues power through guile. Taking the guise of Lady Katrana Prestor, she has wormed her way into the highest echelons of Stormwind's nobility. By posing as a trusted adviser to the House of Nobles, she systematically undercuts the kingdom's military efforts, intentionally withholding soldiers and resources from outposts in Westfall, Redridge, and the Burning Steppes to leave mortal realms defenseless.",
+   "spoiler": 0
+  },
+  {
+   "title": "Architect of Ruin",
+   "body": "Behind the painted smiles of Lady Prestor lies a predatory mastermind responsible for Stormwind's most agonizing tragedies. It was Onyxia who stoked the bitter dispute between the Stonemasons' Guild and the House of Nobles, sparking the deadly riot that claimed the life of Queen Tiffin Wrynn. With King Varian now abducted en route to a peace summit at Theramore, Prestor exerts deep influence over the young boy-king Anduin and ensnares Highlord Bolvar Fordragon, bringing the throne teetering on the edge of her talons.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lady Katrana Prestor?",
+   "aliases": [
+    "prestor identity",
+    "who is prestor",
+    "katrana prestor real identity"
+   ],
+   "answer": "Lady Katrana Prestor is the mortal persona assumed by the black dragon Onyxia. Using this noble guise, she whispers counsel to Stormwind's House of Nobles and manipulates the kingdom's politics without arousing suspicion."
+  },
+  {
+   "q": "Why does Onyxia target Stormwind?",
+   "aliases": [
+    "onyxia goal",
+    "why attack stormwind",
+    "prestor motive"
+   ],
+   "answer": "Onyxia considers humanity the mortal race best positioned to challenge dragonkind. By infiltrating Stormwind's government, she aims to subjugate the kingdom from the shadows, neutralize its military power, and aid her brother Nefarian's dominion over the region."
+  },
+  {
+   "q": "Where does Onyxia live?",
+   "aliases": [
+    "where is onyxia",
+    "onyxia location",
+    "onyxia lair location"
+   ],
+   "answer": "While her human persona resides primarily in Stormwind Keep, Onyxia's true home is a subterranean lair nestled in the swamps of Dustwallow Marsh, where she tends to the clutches of her black dragonflight."
+  },
+  {
+   "q": "What is her connection to Nefarian and Deathwing?",
+   "aliases": [
+    "onyxia brother",
+    "onyxia father",
+    "onyxia family"
+   ],
+   "answer": "Onyxia is the daughter of the Aspect Deathwing and his consort Sintharia. She is also the younger twin sister of Nefarian, working closely with him to restore the black dragonflight's supremacy across Azeroth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Every crisis plaguing the southern Alliance\u2014from the Defias rebellion to the lack of reinforcements in Lakeshire\u2014traces back to Lady Prestor's whisperings in Stormwind Keep."
+  },
+  {
+   "target": "race:Human",
+   "text": "Stormwind's court has unknowingly surrendered its leadership to a black dragon, who orchestrated the death of their queen and paralyzes their kingdom in King Varian's absence."
+  }
+ ],
+ "keywords": [
+  "anduin wrynn",
+  "black dragonflight",
+  "bolvar fordragon",
+  "deathwing",
+  "katrana prestor",
+  "nefarian",
+  "onyxia",
+  "stormwind"
+ ],
+ "related": [
+  "subzone:onyxia-s-lair",
+  "topic:black-dragonflight",
+  "zone:stormwind",
+  "npc:deathwing",
+  "topic:house-of-nobles",
+  "topic:bolvar-fordragon",
+  "topic:varian-wrynn",
+  "topic:defias-brotherhood"
+ ],
+ "attribution": [
+  "Onyxia"
+ ]
+}

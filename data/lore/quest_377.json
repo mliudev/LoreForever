@@ -1,0 +1,127 @@
+{
+ "key": "quest:377",
+ "type": "quest",
+ "name": "Crime and Punishment",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "ids": [
+   377
+  ],
+  "level": "26",
+  "faction": "Alliance",
+  "start": "Councilman Millstipe",
+  "end": "Councilman Millstipe",
+  "previous": null,
+  "next": null,
+  "wiki": "Crime and Punishment (Classic)",
+  "chain": []
+ },
+ "summary": "Crime and Punishment is an Alliance bounty originating in Darkshire that demands the extrajudicial execution of a grave robber imprisoned within the Stormwind Stockade. Councilman Millstipe issues the contract after the House of Nobles overrides Duskwood's death sentence for Dextren Ward. Carrying out the hit satisfies local vengeance while delivering a sharp warning to the capital's negligent aristocracy.",
+ "sections": [
+  {
+   "title": "Justice Denied in Duskwood",
+   "body": "Duskwood already suffers beneath a shroud of creeping horrors and official indifference from the capital. When Dextren Ward was caught digging up fresh corpses from the Darkshire cemetery to sell to the necromancer Morbent Fel, the town's ruling council showed no mercy. Lord Ello Ebonlocke sentenced the grave robber to beheadment. However, before the axe could fall, the House of Nobles intervened, claiming Ward as an imperial prisoner and transferring him to the high-security cells of the Stormwind Stockade.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Insult to the Dead",
+   "body": "To Councilman Millstipe and the grieving citizens of Darkshire, sparing Ward from the headsman's block was an intolerable insult. The nobles in their secure city showed complete disregard for the torment suffered by frontier families whose dead relatives were fed into Fel's dark craft. Frustrated by Stormwind's bureaucratic meddling, Millstipe recruits daring mercenaries to infiltrate the riotous Stockade, assassinate Ward in his cell, and sever his hand as proof of execution.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Message to the Crown",
+   "body": "Killing Ward is as much a political act as it is closure for the wronged. By ordering the assassination of a high-value prisoner under the crown's own lock and key, the Darkshire Council sends a defiant message back to Stormwind. If the nobility refuses to defend Duskwood or honor its local laws, the town has shown it will enforce its own brand of frontier justice right beneath the regent's nose.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Councilman Millstipe want Dextren Ward dead?",
+   "aliases": [
+    "why kill dextren ward",
+    "what did dextren ward do",
+    "millstipe motivation"
+   ],
+   "answer": "Ward was caught robbing the Darkshire cemetery, selling freshly buried corpses to the necromancer Morbent Fel. Lord Ebonlocke sentenced him to beheading, but Stormwind's House of Nobles snatched him away to lock him in the Stockade instead."
+  },
+  {
+   "q": "Where is Dextren Ward located?",
+   "aliases": [
+    "dextren ward location",
+    "where is ward",
+    "how to find dextren ward"
+   ],
+   "answer": "He is held deep inside the Stormwind Stockade dungeon in the capital city of Stormwind, located along the far left corridor of the prison complex."
+  },
+  {
+   "q": "Why didn't Stormwind just execute Dextren Ward?",
+   "aliases": [
+    "why was ward imprisoned",
+    "why stockade not execution"
+   ],
+   "answer": "The House of Nobles claimed jurisdiction over Ward for their own unspecified reasons, overruling Darkshire's local sentence and sparking outrage among Duskwood residents who feel abandoned by the capital."
+  },
+  {
+   "q": "Why does Millstipe demand Ward's hand?",
+   "aliases": [
+    "hand of dextren ward",
+    "why hand proof"
+   ],
+   "answer": "Councilman Millstipe requires indisputable physical proof that the sentence was carried out in defiance of the House of Nobles, offering closure to the victimized families in Duskwood."
+  },
+  {
+   "q": "Who is Morbent Fel?",
+   "aliases": [
+    "who is fel",
+    "morbent fel lore"
+   ],
+   "answer": "Morbent Fel is a powerful necromancer haunting Duskwood, animating the dead and orchestrating dark rituals using bodies supplied by unscrupulous scum like Dextren Ward."
+  },
+  {
+   "q": "What does this quest reveal about Duskwood's relationship with Stormwind?",
+   "aliases": [
+    "darkshire and stormwind politics",
+    "duskwood resentment"
+   ],
+   "answer": "It highlights deep political resentment. Duskwood feels neglected and unprotected by the throne, and the council's willingness to send assassins into the capital's prison shows how strained that loyalty has become."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The quest exposes severe friction within the Alliance heartland, pitting the struggling, neglected frontier of Darkshire against the distant, arrogant bureaucrats of the House of Nobles."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Millstipe's task is a brazen political assassination requiring a covert infiltration into the crown's own maximum-security penitentiary to bypass royal decree."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of the southern kingdoms, this contract tests whether your loyalty lies with the distant crown in Stormwind or the desperate settlers holding the line in Duskwood."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "dextren ward",
+  "duskwood",
+  "grave robber",
+  "house of nobles",
+  "millstipe",
+  "morbent fel",
+  "stockade"
+ ],
+ "related": [
+  "npc:dextren-ward",
+  "npc:councilman-millstipe",
+  "zone:stockade",
+  "zone:duskwood",
+  "quest:55",
+  "topic:house-of-nobles",
+  "subzone:darkshire",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Crime and Punishment (Classic)"
+ ]
+}

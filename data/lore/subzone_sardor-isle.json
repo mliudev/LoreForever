@@ -1,0 +1,84 @@
+{
+ "key": "subzone:sardor-isle",
+ "type": "subzone",
+ "name": "Sardor Isle",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Sardor Isle"
+ },
+ "summary": "Sardor Isle is a lush island situated off the western coast of Feralas, north of the perilous Isle of Dread. It serves as the home to Feathermoon Stronghold, the primary night elven military bastion in southern Kalimdor. Despite the heavy sentinel presence, parts of the island remain prowled by wild beasts and hostile naga creeping up from the shallows.",
+ "sections": [
+  {
+   "title": "Sentinel Bastion and Wild Shores",
+   "body": "Resting across the water from mainland Feralas, Sardor Isle is anchored by Feathermoon Stronghold, an impressive elven garrison commanded by General Shandris Feathermoon. While the fortress itself is heavily fortified and linked to the mainland via regular ferry crossings, the broader island is far from tame. Roaming wolf packs claim the timbered slopes, while encroaching naga lurk along the rocky western and northern beaches, constantly testing the resolve of the night elven sentinels.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Sardor Isle located?",
+   "aliases": [
+    "sardor isle location",
+    "where is sardor",
+    "find sardor isle"
+   ],
+   "answer": "Sardor Isle lies off the western coast of Feralas in southern Kalimdor, just north of the Isle of Dread. It can be reached by a boat that runs from the Forgotten Coast on the mainland."
+  },
+  {
+   "q": "What is the main settlement on Sardor Isle?",
+   "aliases": [
+    "who lives on sardor isle",
+    "sardor isle town",
+    "night elf base sardor"
+   ],
+   "answer": "The island is dominated by Feathermoon Stronghold, the primary fortress and staging ground of the night elves and the Alliance in Feralas, commanded by General Shandris Feathermoon."
+  },
+  {
+   "q": "What threats are found on the island outside the stronghold?",
+   "aliases": [
+    "sardor isle enemies",
+    "danger on sardor isle",
+    "monsters sardor"
+   ],
+   "answer": "Outside the protective walls of Feathermoon Stronghold, travelers face packs of wild wolves prowling the woods, as well as hostile naga lurking around the coastal reefs and beaches."
+  },
+  {
+   "q": "How does Sardor Isle differ from the Isle of Dread?",
+   "aliases": [
+    "sardor isle vs isle of dread",
+    "difference from isle of dread"
+   ],
+   "answer": "Sardor Isle lies to the north and is heavily occupied by the night elves of Feathermoon Stronghold. The Isle of Dread sits further south and is a much harsher, untamed territory swarming with dangerous chimaeras and naga."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Sardor Isle is the Alliance's primary anchor of power in Feralas, offering safe harbor, supplies, and flight masters within Feathermoon Stronghold."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Under General Shandris Feathermoon, the Sentinels on Sardor Isle keep close watch over the ancient ruins and emergent naga threats throughout Feralas."
+  }
+ ],
+ "keywords": [
+  "feathermoon stronghold",
+  "feralas",
+  "isle of dread",
+  "naga",
+  "sardor isle",
+  "sentinels",
+  "shandris feathermoon"
+ ],
+ "related": [
+  "subzone:feathermoon-stronghold",
+  "zone:feralas",
+  "npc:shandris-feathermoon",
+  "subzone:isle-of-dread",
+  "topic:naga"
+ ],
+ "attribution": [
+  "Sardor Isle"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:tyr-s-fall",
+ "type": "subzone",
+ "name": "Tyr's Fall",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Tyr's Fall"
+ },
+ "summary": "Tyr's Fall is a craterous lake hidden deep within the Whispering Forest in western Tirisfal Glades. In the ancient tongue of the vrykul, 'Tyr's Fall' translates to 'Tirisfal', providing the entire glade with its namesake. Beneath its tranquil waters lies the ancient, buried tomb of the fallen titan keeper Tyr and the monstrous horror he sacrificed his life to defeat.",
+ "sections": [
+  {
+   "title": "The Fall of the Keeper",
+   "body": "Thousands of years ago, the titan keeper Tyr fled south from the far north alongside Archaedas, Ironaya, and their followers. Pursued by two titanic horrors sent by the corrupted keeper Loken\u2014the C'Thrax generals Zakajz and Kith'ix\u2014Tyr made a desperate stand to buy his comrades time to escape. For six days and nights, arcane fury and shadow magic tore through the peaceful forest. Exhausted, Tyr unleashed all of his remaining life force in a cataclysmic explosion. The blast laid low Zakajz and forced Kith'ix to flee, carving a massive crater into the earth. Ironaya named the hollow 'Tyr's Fall' in honor of their fallen champion.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Silent Vigil",
+   "body": "Following the battle, Tyr and Zakajz were interred where they fell, with the keeper's great silver hand placed atop the burial site as a monument. While Archaedas and Ironaya journeyed onward to Uldaman, a devoted contingent of vrykul remained behind to guard the resting place, eventually passing their vigil down to humanity through an order known as Tyr's Guard. In the ages since, the crater filled with water, submerging the tomb beneath a secluded lake while the quiet woods swallowed all obvious trace of the ancient clash.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the connection between Tyr's Fall and Tirisfal Glades?",
+   "aliases": [
+    "why is it called tirisfal",
+    "meaning of tirisfal",
+    "tirisfal name origin"
+   ],
+   "answer": "The glade takes its name directly from the site. In the ancient vrykul tongue, 'Tyr's Fall' translates directly to 'Tirisfal', commemorating the place where the titan keeper Tyr gave his life to protect his followers."
+  },
+  {
+   "q": "What lies beneath the lake?",
+   "aliases": [
+    "whats under the lake",
+    "tomb under tyrs fall",
+    "tyrs fall tomb"
+   ],
+   "answer": "Beneath the crater lake lies the Tomb of Tyr. It houses the remains of the titan keeper Tyr along with the corpse of the ancient monstrosity Zakajz, sealed together in deep stone beneath ancient wards."
+  },
+  {
+   "q": "Why is the area so secluded?",
+   "aliases": [
+    "where is tyrs fall",
+    "how do you get here",
+    "whispering forest lake"
+   ],
+   "answer": "Tyr's Fall sits tucked away in the Whispering Forest, nestled deep in the mountainous northwestern borders of Tirisfal Glades. Ringed by steep ridges and untouched by the roads connecting Lordaeron's old towns, the secluded lake has stayed largely forgotten by common travelers."
+  },
+  {
+   "q": "Who guarded the tomb after Tyr died?",
+   "aliases": [
+    "who watched the tomb",
+    "tyrs guard lore",
+    "vrykul at tyrs fall"
+   ],
+   "answer": "The vrykul followers who witnessed Tyr's sacrifice resolved to guard his resting place forever, founding the order known as Tyr's Guard. As mortality took its toll, they inducted early human tribes into their ranks, passing down the history and their solemn oath across generations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The Order of the Silver Hand draws its inspiration and name from the silver hand of Tyr, whose legendary self-sacrifice for others occurred right beneath these waters."
+  },
+  {
+   "target": "race:Human",
+   "text": "Early human ancestors were taught the virtues of justice and sacrifice by the ancient guardians here, laying the spiritual groundwork for Lordaeron's earliest moral traditions."
+  }
+ ],
+ "keywords": [
+  "keeper tyr",
+  "tirisfal",
+  "titan",
+  "tomb of tyr",
+  "tyr's fall",
+  "tyr's guard",
+  "tyrs fall",
+  "whispering forest",
+  "zakajz"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "subzone:whispering-forest",
+  "subzone:tomb-of-tyr",
+  "topic:titan",
+  "subzone:uldaman",
+  "topic:lordaeron",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Tyr's Fall"
+ ]
+}

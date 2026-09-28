@@ -1,0 +1,81 @@
+{
+ "key": "npc:supervisor-raelen",
+ "type": "npc",
+ "name": "Supervisor Raelen",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Supervisor Raelen",
+  "refs": 1
+ },
+ "summary": "Supervisor Raelen oversees timber operations at the Eastvale Logging Camp on the eastern edge of Elwynn Forest. She is responsible for managing the local laborers, maintaining daily logging quotas, and ensuring that harvested lumber safely makes its way into Stormwind's supply chains.",
+ "sections": [
+  {
+   "title": "Keeping the Camp on Schedule",
+   "body": "Located in the heart of Eastvale Logging Camp near Marshal Patterson and the camp's wood wagons, Supervisor Raelen directs the labor force tasked with harvesting timber for the kingdom. Operating a lumber camp on the border of the Redridge Mountains carries significant logistical challenges, from coordinating weary woodcutters to dealing with wildlife and bandit interference that threatens production quotas. Despite the hazards of the surrounding woods, Raelen focuses squarely on getting timber gathered, processed, and bundled for transport.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Supervisor Raelen?",
+   "aliases": [
+    "who is raelen",
+    "raelen elwynn",
+    "eastvale supervisor"
+   ],
+   "answer": "Supervisor Raelen is a human overseer stationed at the Eastvale Logging Camp in eastern Elwynn Forest. She manages the camp's logging crews and makes sure their wood collection quotas are steadily met."
+  },
+  {
+   "q": "Where can I find Supervisor Raelen?",
+   "aliases": [
+    "where is raelen",
+    "supervisor raelen location",
+    "find raelen"
+   ],
+   "answer": "She can be found in the center of Eastvale Logging Camp in eastern Elwynn Forest, standing near the loaded wood wagons alongside Marshal Patterson and the gryphon master Goss the Swift."
+  },
+  {
+   "q": "Why does Supervisor Raelen need help from adventurers?",
+   "aliases": [
+    "raelen quest",
+    "bundle of trouble quest",
+    "why help raelen"
+   ],
+   "answer": "Gathering timber around the edges of the forest has grown dangerous, and cut lumber bundles frequently get abandoned or scattered among the trees when workers face local wildlife or other disruptions."
+  },
+  {
+   "q": "What role does the Eastvale Logging Camp play in Elwynn Forest?",
+   "aliases": [
+    "what is eastvale",
+    "eastvale logging role",
+    "why is eastvale important"
+   ],
+   "answer": "Eastvale is the primary logging operation in eastern Elwynn Forest, providing essential lumber to support the rebuilding and maintenance efforts across Stormwind and its neighboring settlements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Maintaining the kingdom's timber supplies is essential for keeping Stormwind's defenses and construction efforts funded, making Raelen's lumber quotas vital to the war effort."
+  }
+ ],
+ "keywords": [
+  "a bundle of trouble",
+  "eastvale",
+  "eastvale logging camp",
+  "elwynn forest",
+  "lumber",
+  "raelen",
+  "supervisor raelen",
+  "wood quotas"
+ ],
+ "related": [
+  "subzone:eastvale-logging-camp",
+  "quest:5545",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Supervisor Raelen"
+ ]
+}

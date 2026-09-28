@@ -1,0 +1,131 @@
+{
+ "key": "quest:1031",
+ "type": "quest",
+ "name": "The Branch of Cenarius",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1031
+  ],
+  "level": "32",
+  "faction": "Alliance",
+  "start": "Anilia",
+  "end": "Illiyana",
+  "previous": "Vile Satyr! Dryads in Danger! (Classic)",
+  "next": null,
+  "wiki": "The Branch of Cenarius (Classic)",
+  "chain": [
+   "Vile Satyr! Dryads in Danger! (Classic)",
+   "The Branch of Cenarius (Classic)"
+  ]
+ },
+ "summary": "Following a desperate plea from the dying dryad Anilia, an adventurer is tasked with recovering a sacred relic stolen by the vile satyr Geltharis. Reclaiming the Branch of Cenarius means confronting the demon-sworn corrupters lurking in eastern Ashenvale and returning the treasured bough to Forest Song.",
+ "sections": [
+  {
+   "title": "A Dying Request",
+   "body": "Sent into the corrupted folds of eastern Ashenvale to search for missing dryads, Alliance travelers stumble upon Anilia clinging to the very edge of life. With her final breaths, the wounded daughter of Cenarius gestures toward the satyr ruins to the north. Gasping out the name of her killer\u2014Geltharis\u2014she begs with her fading strength for the recovery of the Branch of Cenarius before succumbing to her wounds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Corruption in the Ruins",
+   "body": "The thief, Geltharis, is a vile satyr nested within the ancient elven ruins of Night Run. To the satyr, ancient relics tied to the demigod Cenarius are prized trophies ripe for defilement and demonic mockery. Defeating Geltharis and tearing the branch from his claws is not merely an act of justice for Anilia, but a defense against the spreading taint that the Burning Legion's ancient servants inflict upon Ashenvale's sacred flora.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sorrow at Forest Song",
+   "body": "Returning the branch to the dryad Illiyana at Forest Song brings a bittersweet close to the search. While the sacred relic is preserved from demonic degradation, the news of Anilia's demise strikes a heavy blow to her surviving kin. The dryads of Ashenvale, once accustomed to carefree frolics beneath the ancient boughs, are forced to face the harsh reality of war and encroaching corruption.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Branch of Cenarius?",
+   "aliases": [
+    "branch of cenarius relic",
+    "what is the branch",
+    "cenarius branch"
+   ],
+   "answer": "It is a sacred nature relic linked to the forest lord Cenarius, deeply cherished by his dryad daughters. The satyr Geltharis stole it from Anilia after mortally wounding her."
+  },
+  {
+   "q": "Who killed Anilia?",
+   "aliases": [
+    "anilia killer",
+    "who attacked anilia",
+    "who killed the dryad"
+   ],
+   "answer": "Anilia was attacked and fatally wounded by the satyr Geltharis, who stole the Branch of Cenarius before leaving her to die in the forest."
+  },
+  {
+   "q": "Where is Geltharis located?",
+   "aliases": [
+    "geltharis location",
+    "find geltharis",
+    "where to kill geltharis"
+   ],
+   "answer": "Geltharis can be found lurking beneath the stone arches and corrupted structures of the Night Run ruins, north of where Anilia lay dying."
+  },
+  {
+   "q": "Where do I take the Branch of Cenarius once it is recovered?",
+   "aliases": [
+    "turn in branch of cenarius",
+    "illiyana location",
+    "who gets the branch"
+   ],
+   "answer": "You must take the recovered branch to the dryad Illiyana, who resides at the night elf outpost of Forest Song in eastern Ashenvale."
+  },
+  {
+   "q": "Why do the satyrs want Cenarius's artifacts?",
+   "aliases": [
+    "satyr motives",
+    "why steal cenarius branch",
+    "why did geltharis take it"
+   ],
+   "answer": "Satyrs are ancient night elves transformed by demonic pacts, nursing an enduring hatred for nature and the demigod Cenarius. Corrupting or stealing sacred relics serves both their demonic masters and their spite against their former kin."
+  },
+  {
+   "q": "Who was Anilia to Illiyana?",
+   "aliases": [
+    "anilia and illiyana",
+    "are the dryads sisters"
+   ],
+   "answer": "They were close dryad companions and sisters in spirit, who had spent countless days running and playing freely in the wilds of Ashenvale before the rising dangers of corruption took Anilia's life."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The daughters of Cenarius are beloved allies of the Kaldorei. Avenge Anilia and purge the satyr filth desecrating your ancestral forests."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Cenarius taught the first mortal druids, making his relics deeply sacred. Reclaiming his branch from a demon-tainted satyr is a spiritual imperative."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The dryads of Forest Song rely on Alliance aid to push back demonic threats in the untamed east of Ashenvale."
+  }
+ ],
+ "keywords": [
+  "anilia",
+  "ashenvale dryads",
+  "branch of cenarius",
+  "forest song",
+  "geltharis",
+  "illiyana",
+  "night run",
+  "satyr"
+ ],
+ "related": [
+  "quest:1021",
+  "npc:illiyana",
+  "subzone:forest-song",
+  "topic:cenarius",
+  "topic:satyr",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "The Branch of Cenarius (Classic)"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "key": "npc:josef-gregorian",
+ "type": "npc",
+ "name": "Josef Gregorian",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Josef Gregorian",
+  "refs": 2
+ },
+ "summary": "Josef Gregorian is a Forsaken tailoring trainer found working in the Magic Quarter of the Undercity. He guides ambitious Horde tailors seeking to weave enchanted fabrics, providing expertise and directing them toward specialized garments.",
+ "sections": [
+  {
+   "title": "Weaver of the Magic Quarter",
+   "body": "Amid the dim alchemical lanterns and damp vaults of the Magic Quarter, Josef Gregorian maintains the fine craft of tailoring for the Forsaken and their Horde allies. While life in the subterranean kingdom has turned cold, cloth-working remains vital for warlocks, mages, and priests who channel raw energies through woven fibers. Gregorian serves as a dependable instructor in the capital, ready to teach foundational patterns and direct advanced practitioners toward securing rare materials for enchanted attire.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Josef Gregorian?",
+   "aliases": [
+    "josef gregorian location",
+    "where is gregorian",
+    "undercity tailor trainer"
+   ],
+   "answer": "Josef Gregorian is located in the Magic Quarter of the Undercity, practicing and teaching the tailoring craft among the city's casters and scholars."
+  },
+  {
+   "q": "What role does Josef Gregorian serve in the Undercity?",
+   "aliases": [
+    "what does josef gregorian do",
+    "josef gregorian trainer",
+    "undercity tailoring"
+   ],
+   "answer": "He is a tailoring trainer who teaches sewing recipes and techniques to Horde crafters. He also offers instruction on obtaining rare materials to craft specialized caster vestments like the Robe of the Archmage or other enchanted garments."
+  },
+  {
+   "q": "What quests does Josef Gregorian offer?",
+   "aliases": [
+    "josef gregorian quests",
+    "robe quests undercity"
+   ],
+   "answer": "Gregorian assists tailoring practitioners with quests such as Gathering Materials and fashioning Spellfire Robes, tasking crafters with collecting elusive reagents needed to produce potent cloth garments."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "For Horde clothiers, Josef Gregorian is a prime contact in Lordaeron, offering instruction and guiding skilled weavers in gathering materials for powerful woven robes."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Gregorian demonstrates that despite death and undeath, the delicate arts of human tailoring survived the fall of Lordaeron to serve the new Forsaken society."
+  }
+ ],
+ "keywords": [
+  "gathering materials",
+  "josef gregorian",
+  "magic quarter",
+  "spellfire robes",
+  "tailoring trainer",
+  "undercity"
+ ],
+ "related": [
+  "subzone:magic-quarter",
+  "zone:undercity",
+  "quest:1961",
+  "quest:1962",
+  "topic:forsaken",
+  "topic:horde",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Josef Gregorian"
+ ]
+}

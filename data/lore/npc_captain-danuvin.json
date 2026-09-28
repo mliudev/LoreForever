@@ -1,0 +1,111 @@
+{
+ "key": "npc:captain-danuvin",
+ "type": "npc",
+ "name": "Captain Danuvin",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Captain Danuvin",
+  "refs": 5
+ },
+ "summary": "Captain Danuvin is an officer stationed at Sentinel Hill in Westfall, serving as one of the leaders tasked with holding the frontier together. Working alongside the People's Militia, he directs volunteers and recruits to patrol the roads and push back against encroaching Gnolls and outlaws. His commands are vital to keeping the supply lines and farmlands from falling completely into hostile hands.",
+ "sections": [
+  {
+   "title": "Holding the Hill",
+   "body": "Perched at the fortified tower of Sentinel Hill, Captain Danuvin coordinates ground patrols across Westfall. The region has spiraled into chaos with the withdrawal of regular Stormwind garrison troops, leaving local defenses severely depleted. Danuvin relies heavily on wandering adventurers, local farmhands, and volunteer fighters to maintain even a semblance of order across the grassy plains.",
+   "spoiler": 0
+  },
+  {
+   "title": "Patrolling the Frontier",
+   "body": "Danuvin's immediate strategic concern is the security of the roadways and open lands around Sentinel Hill. With the Riverpaw Gnolls growing bolder and raiding close to central outposts, he organizes active patrols to cull their packs and secure the perimeter. His orders help prevent the encampment from being entirely surrounded by Westfall's opportunists and marauders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Captain Danuvin?",
+   "aliases": [
+    "danuvin location",
+    "where is captain danuvin",
+    "danuvin westfall"
+   ],
+   "answer": "Captain Danuvin is stationed at Sentinel Hill, the primary Alliance outpost located in central Westfall. He is usually found standing near the hill's fortified tower overlooking the road."
+  },
+  {
+   "q": "What faction does Captain Danuvin represent?",
+   "aliases": [
+    "danuvin faction",
+    "who does danuvin serve"
+   ],
+   "answer": "Danuvin serves the Alliance and works directly in support of the local defense forces in Westfall, collaborating closely with Gryan Stoutmantle and the People's Militia."
+  },
+  {
+   "q": "What duties does he assign to adventurers?",
+   "aliases": [
+    "danuvin quests",
+    "what does captain danuvin want",
+    "patrolling westfall quest"
+   ],
+   "answer": "Danuvin tasks recruits with securing the countryside, primarily through orders like patrolling the plains and driving back the aggressive Riverpaw Gnoll packs encroaching on Sentinel Hill."
+  },
+  {
+   "q": "Why is Danuvin relying on volunteers instead of the Stormwind Army?",
+   "aliases": [
+    "why no stormwind army",
+    "why militia",
+    "stormwind garrison westfall"
+   ],
+   "answer": "Stormwind's royal court has refused to commit official garrison troops to defend Westfall, citing budget shortfalls and political discord. Danuvin and the rest of the leadership at Sentinel Hill have no choice but to rely on mercenaries and militia recruits."
+  },
+  {
+   "q": "Does Danuvin have connections outside of Westfall?",
+   "aliases": [
+    "danuvin redridge",
+    "danuvin connections"
+   ],
+   "answer": "As an officer tracking the regional defense of southern human lands, Danuvin monitors threats across nearby borders, including the plight of Redridge Mountains and Darkshire, often pointing seasoned fighters toward neighboring zones in need of aid."
+  },
+  {
+   "q": "What is his role compared to Gryan Stoutmantle?",
+   "aliases": [
+    "stoutmantle vs danuvin",
+    "is danuvin in charge"
+   ],
+   "answer": "While Gryan Stoutmantle oversees the broad defense strategy and leadership of the People's Militia, Captain Danuvin acts as a field officer managing tactical concerns, road patrols, and the immediate gnoll threat around the base."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Captain Danuvin represents one of the few standing military figures striving to uphold order in Westfall despite the crown's neglect, offering Alliance recruits steady work defending the realm."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Danuvin respects martial discipline and direct frontline action, valuing warriors who are willing to charge into gnoll packs and clear the highway through brute strength."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of the kingdom, assisting Danuvin is a matter of homeland survival, ensuring the breadbasket of Stormwind is not permanently lost to raiders and beasts."
+  }
+ ],
+ "keywords": [
+  "captain danuvin",
+  "danuvin",
+  "gryan stoutmantle",
+  "patrolling westfall",
+  "peoples militia",
+  "riverpaw",
+  "sentinel hill",
+  "westfall"
+ ],
+ "related": [
+  "subzone:sentinel-hill",
+  "zone:westfall",
+  "quest:102",
+  "quest:12",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Captain Danuvin"
+ ]
+}

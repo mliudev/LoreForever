@@ -1,0 +1,120 @@
+{
+ "key": "quest:433",
+ "type": "quest",
+ "name": "The Public Servant",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   433
+  ],
+  "level": "11",
+  "faction": "Alliance",
+  "start": "Senator Mehr Stonehallow",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Public Servant (Classic)",
+  "chain": []
+ },
+ "summary": "Senator Mehr Stonehallow of Ironforge has traveled directly to Gol'Bolar Quarry to address the sudden trogg invasion threatening Dun Morogh's mining operations. Seeking to reclaim the site, he enlists adventurers to cut down the aggressive Rockjaw Bonesnappers so miners can return to work.",
+ "sections": [
+  {
+   "title": "A Senator in the Field",
+   "body": "It is rare to find a member of Ironforge's Senate standing in the slush and dirt of a contested mine, but Senator Mehr Stonehallow is no typical politician. Holding dual allegiance to the dwarven ruling body and the scholarly Explorers' League, Stonehallow has taken personal responsibility for organizing a response to the trogg infestation at Gol'Bolar Quarry. Rather than waiting for slow legislative measures, he directly contracts capable mercenaries and travelers to cull the invaders.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Disaster at Gol'Bolar",
+   "body": "Gol'Bolar Quarry was once a vital source of stone and mineral wealth for Dun Morogh, but deep excavations broke into previously sealed subterranean hollows. Primitive, savage troggs of the Rockjaw tribe flooded into the pits, wrecking delicate mining equipment and driving out civilian laborers. Stonehallow's objective is to clear out the vicious Rockjaw Bonesnappers, paving the way for Mountaineer garrisons to secure the quarry and restore iron-shoveling infrastructure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Senator Mehr Stonehallow?",
+   "aliases": [
+    "stonehallow",
+    "senator stonehallow",
+    "who is the senator"
+   ],
+   "answer": "Mehr Stonehallow is a dwarven dignitary who serves in the Ironforge Senate while also holding membership in the Explorers' League. He has taken a direct, hands-on role in dealing with the trogg threat at Gol'Bolar Quarry rather than remaining behind city walls."
+  },
+  {
+   "q": "Why is Gol'Bolar Quarry overrun with troggs?",
+   "aliases": [
+    "why are troggs at gol bolar",
+    "quarry troggs",
+    "what happened to the quarry"
+   ],
+   "answer": "Dwarven miners dug too deeply into the earth beneath the quarry, unwittingly breaching caverns inhabited by the Rockjaw trogg tribe. The creatures burst into the open excavations, smashed machinery, and forced the workers to flee."
+  },
+  {
+   "q": "What are Rockjaw Bonesnappers?",
+   "aliases": [
+    "rockjaw bonesnapper",
+    "bonesnappers",
+    "bonesnapper troggs"
+   ],
+   "answer": "Rockjaw Bonesnappers are brute-force combatants within the subterranean Rockjaw trogg clan. They wield crude weapons and rely on sheer ferocity to overwhelm dwarven miners and defenders."
+  },
+  {
+   "q": "What is the plan after clearing out the troggs?",
+   "aliases": [
+    "stonehallow plan",
+    "what happens next gol bolar"
+   ],
+   "answer": "Once the initial trogg forces are culled, Senator Stonehallow aims to bring in Ironforge Mountaineers to properly fortify the quarry, rebuild the wrecked machinery, and resume resource extraction."
+  },
+  {
+   "q": "Why is the Explorers' League involved here?",
+   "aliases": [
+    "explorers league mining",
+    "why league here"
+   ],
+   "answer": "Senator Stonehallow is affiliated with the Explorers' League, whose members frequently investigate ancient excavations, subterranean ruins, and trogg incursions throughout the Khaz Modan mountain ranges."
+  },
+  {
+   "q": "Where is Gol'Bolar Quarry located?",
+   "aliases": [
+    "gol bolar location",
+    "where is quarry"
+   ],
+   "answer": "Gol'Bolar Quarry lies in southeastern Dun Morogh, cut into the snowy hills south of the road between Kharanos and the East Gate heading toward Loch Modan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The trogg breach at Gol'Bolar strikes directly at your homeland's industry, proving once more how costly it is when deep digging meets subterranean terrors."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners feel the sting of Gol'Bolar's shutdown, as rich veins of stone and ore sit abandoned under the clubs of invading troggs."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Ironforge's resources are critical for the broader Alliance, making the defense of Dun Morogh's quarries an economic necessity."
+  }
+ ],
+ "keywords": [
+  "bonesnapper",
+  "dun morogh",
+  "gol'bolar",
+  "quarry",
+  "rockjaw",
+  "senate",
+  "stonehallow",
+  "trogg"
+ ],
+ "related": [
+  "subzone:gol-bolar-quarry",
+  "npc:senator-mehr-stonehallow",
+  "topic:trogg",
+  "zone:dunmorogh",
+  "topic:explorers-league"
+ ],
+ "attribution": [
+  "The Public Servant (Classic)"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "npc:doomsayer-wiserunner",
+ "type": "npc",
+ "name": "Doomsayer Wiserunner",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Doomsayer Wiserunner",
+  "refs": 2
+ },
+ "summary": "In the present era, this respected tauren elder is known as Seer Wiserunner, serving his people faithfully in the rolling hills of Mulgore. Stationed near the ancestral grounds, he aids young tauren braves as they undertake the traditional rites of passage that lead toward spiritual adulthood.",
+ "sections": [
+  {
+   "title": "A Guide on the Sacred Path",
+   "body": "Seer Wiserunner stands among the gentle bluffs of Mulgore as an elder and mystic of the shu'halo. When young hunters and shamans complete their initial trials of strength and vision, they are sent to seek his counsel during their ancestral rites. He interprets visions of the Earth Mother and guides the youth on how to honor their forebears, offering the steady wisdom that binds the scattered nomadic tribes into a unified community.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this NPC associated with the name 'Doomsayer Wiserunner'?",
+   "aliases": [
+    "doomsayer wiserunner name",
+    "why doomsayer",
+    "seer vs doomsayer"
+   ],
+   "answer": "He is not known by that title in our present time. In 25 ADP, he is simply Seer Wiserunner, an honored tauren elder in good standing with the tribes of Mulgore. Whispers or rumors linking him to apocalyptic doomsaying do not reflect his current role guiding young initiates through sacred rites."
+  },
+  {
+   "q": "What role does he play in Mulgore?",
+   "aliases": [
+    "what does wiserunner do",
+    "seer wiserunner purpose",
+    "wiserunner role"
+   ],
+   "answer": "Seer Wiserunner serves as a spiritual mentor for young tauren. After braves embark on their early vision quests, he receives them to complete the traditional Rite of Wisdom, testing their readiness to serve both tribe and Earth Mother."
+  },
+  {
+   "q": "Where can Seer Wiserunner be found?",
+   "aliases": [
+    "where is wiserunner",
+    "seer wiserunner location",
+    "wiserunner coords"
+   ],
+   "answer": "He can be found watching over the hills of central Mulgore, situated to the north of the sacred ancestral grounds where tauren youth travel between their various spiritual trials."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young shu'halo venturing beyond Red Cloud Mesa, Seer Wiserunner is an essential mentor on the ancestral journey toward spiritual maturity."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman will recognize Wiserunner as a keeper of ancient traditions who understands the messages woven through the earth and sky."
+  }
+ ],
+ "keywords": [
+  "camp narache",
+  "doomsayer wiserunner",
+  "mulgore",
+  "rite of vision",
+  "rite of wisdom",
+  "seer wiserunner",
+  "tauren elder"
+ ],
+ "related": [
+  "quest:773",
+  "quest:767",
+  "zone:mulgore",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Doomsayer Wiserunner"
+ ]
+}

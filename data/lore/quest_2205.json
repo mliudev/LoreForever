@@ -1,0 +1,112 @@
+{
+ "key": "quest:2205",
+ "type": "quest",
+ "name": "Seek out SI: 7",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   2205
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Keryn Sylvius",
+  "end": "Mathias Shaw",
+  "previous": null,
+  "next": "Snatch and Grab",
+  "wiki": "Seek out SI: 7",
+  "chain": [
+   "Seek out SI: 7",
+   "Snatch and Grab"
+  ]
+ },
+ "summary": "Seek out SI: 7 is an introductory task handed to fledgling rogues in Elwynn Forest by Keryn Sylvius. Carrying a small package from Goldshire to Stormwind City, novice agents are introduced to Master Mathias Shaw, the leader of the crown's covert intelligence network.",
+ "sections": [
+  {
+   "title": "A Courier's Test",
+   "body": "In the Lion's Pride Inn at Goldshire, rogue trainer Keryn Sylvius wastes little time flattering newcomers. Believing fresh initiates look more like cheese delivery hands than capable covert operatives, Sylvius nonetheless passes along an errand: carry a sealed delivery into the capital. The task acts as both a reliable courier run and a quiet vetting process for scouts entering the broader service of the realm.",
+   "spoiler": 0
+  },
+  {
+   "title": "Behind Closed Doors in Old Town",
+   "body": "The destination lies deep within Old Town, the bustling and worn quarter of Stormwind City. Tucked into the southeastern corner of the district stands the command center of SI:7\u2014Stormwind Intelligence, Section 7. Here, Master Mathias Shaw oversees the kingdom's covert operations. Receiving the package with his characteristic dry skepticism, Shaw evaluates whether the traveler possesses the grit needed for real espionage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is SI:7?",
+   "aliases": [
+    "what does si 7 mean",
+    "what is si7",
+    "si:7 lore"
+   ],
+   "answer": "SI:7 stands for Stormwind Intelligence, Section 7. It is the clandestine intelligence and covert operations branch of the Kingdom of Stormwind, led by Master Mathias Shaw from their headquarters in Old Town."
+  },
+  {
+   "q": "Who is Keryn Sylvius?",
+   "aliases": [
+    "keryn sylvius",
+    "goldshire rogue trainer"
+   ],
+   "answer": "Keryn Sylvius is a rogue trainer stationed in Goldshire at the Lion's Pride Inn. Operating in liaison with SI:7, he evaluates local recruits and directs promising scouts toward Master Mathias Shaw in Stormwind City."
+  },
+  {
+   "q": "Where is Mathias Shaw located in Stormwind?",
+   "aliases": [
+    "where is shaw",
+    "find mathias shaw",
+    "mathias shaw location"
+   ],
+   "answer": "Master Mathias Shaw can be found on the upper floor of the SI:7 headquarters, located in the southeastern corner of Old Town in Stormwind City, past the city's rogue trainers."
+  },
+  {
+   "q": "What happens after delivering the package to Shaw?",
+   "aliases": [
+    "next quest after seek out si 7",
+    "what does shaw want"
+   ],
+   "answer": "Once you report to Mathias Shaw, he immediately tests your practical rogue skills by sending you on a covert operation to Jerod's Landing to lift a shipping schedule from a Defias dockmaster."
+  },
+  {
+   "q": "Why does Keryn mock the player before handing over the delivery?",
+   "aliases": [
+    "why does keryn insult me",
+    "cheese delivery insult"
+   ],
+   "answer": "SI:7 operatives pride themselves on high competence and sharp instincts. Sylvius treats green recruits harshly to gauge their temperament and ensure only those with thick skin and real resolve bother Master Shaw."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This mission marks a rogue's formal entry into the service of Stormwind's premier espionage agency, transitioning from petty back-alley tricks to royal reconnaissance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "SI:7 serves as the crown's eyes and ears against internal and external threats, quietly protecting the realm while King Varian Wrynn remains missing."
+  }
+ ],
+ "keywords": [
+  "goldshire",
+  "keryn sylvius",
+  "mathias shaw",
+  "old town",
+  "rogue",
+  "seek out si: 7",
+  "si:7",
+  "stormwind"
+ ],
+ "related": [
+  "quest:2206",
+  "npc:mathias-shaw",
+  "npc:keryn-sylvius",
+  "subzone:old-town",
+  "zone:stormwind",
+  "subzone:goldshire",
+  "quest:2300"
+ ],
+ "attribution": [
+  "Seek out SI: 7"
+ ]
+}

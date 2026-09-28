@@ -1,0 +1,127 @@
+{
+ "key": "quest:58",
+ "type": "quest",
+ "name": "The Night Watch",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   58
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Commander Althea Ebonlocke",
+  "end": "",
+  "previous": "The Night Watch (2)",
+  "next": null,
+  "wiki": "The Night Watch (3)",
+  "chain": [
+   "The Night Watch (Classic)",
+   "The Night Watch (2)",
+   "The Night Watch (3)"
+  ]
+ },
+ "summary": "This final mission from Commander Althea Ebonlocke directs Alliance adventurers into the crypts of eastern Raven Hill Cemetery. With the Night Watch spread thin defending Darkshire, outsiders must enter the tombs to exterminate the teeming plague spreaders. It marks the culmination of the town guard's direct military campaign to contain the undead overrun.",
+ "sections": [
+  {
+   "title": "A Desperate Frontier",
+   "body": "Darkshire stands almost entirely isolated, abandoned by the Stormwind military and reliant entirely on its own civilian militia, the Night Watch. Commander Althea Ebonlocke has exhausted her limited manpower simply guarding the crossroads, town perimeter, and supply lines. As the restless dead multiply throughout Duskwood, the commander has no choice but to deputize wandering champions to carry the fight directly into the shadowed recesses of Raven Hill.",
+   "spoiler": 0
+  },
+  {
+   "title": "Purging the Mausoleum",
+   "body": "The eastern mausoleum in Raven Hill Cemetery represents one of the most hazardous concentrations of undeath in the region. Unlike the open barrows, this stone crypt teems with plague spreaders\u2014ghouls bearing corrupting afflictions capable of sickening the living. Clearing out twenty of these abominations buys precious breathing room for the weary Night Watch, ensuring Darkshire does not face a coordinated undead surge from the west.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Night Watch sending adventurers instead of their own men?",
+   "aliases": [
+    "why help darkshire",
+    "why the night watch needs help",
+    "night watch low numbers"
+   ],
+   "answer": "The Night Watch is stretched thin across all of Duskwood. With Stormwind providing no official troops, Commander Althea Ebonlocke barely has enough guards to hold Darkshire's perimeter and monitor the roads, leaving no spare militia to clear deep, fortified crypts like Raven Hill."
+  },
+  {
+   "q": "Where is the eastern mausoleum located?",
+   "aliases": [
+    "where are plague spreaders",
+    "eastern mausoleum location",
+    "where is the mausoleum"
+   ],
+   "answer": "It is situated in the eastern portion of Raven Hill Cemetery, located in northwestern Duskwood. The entrance leads underground into stone crypts where plague spreaders gather."
+  },
+  {
+   "q": "What makes the plague spreaders dangerous?",
+   "aliases": [
+    "why kill plague spreaders",
+    "what are plague spreaders"
+   ],
+   "answer": "Plague spreaders are ravenous ghouls carrying virulent decay. Left unchecked, their foul corruption threatens to spread beyond the cemetery and taint the surviving residents of Darkshire."
+  },
+  {
+   "q": "Who is Commander Althea Ebonlocke?",
+   "aliases": [
+    "who is althea",
+    "commander ebonlocke",
+    "who leads the night watch"
+   ],
+   "answer": "Althea Ebonlocke is the commander and leader of the Night Watch, as well as the daughter of Darkshire's mayor, Lord Carlain Ebonlocke. She organizes the defense of Duskwood from inside Darkshire."
+  },
+  {
+   "q": "Does completing this chain end the undead threat in Duskwood?",
+   "aliases": [
+    "is raven hill saved",
+    "is darkshire safe now"
+   ],
+   "answer": "No. While thinning out the mausoleum eases immediate pressure on Darkshire, Raven Hill remains thoroughly infested, and darker powers throughout Duskwood continue to stir the dead."
+  },
+  {
+   "q": "How does this fit into the Night Watch questline?",
+   "aliases": [
+    "what chain is this",
+    "is this the last night watch quest"
+   ],
+   "answer": "This is the third and final chapter in Commander Ebonlocke's direct 'The Night Watch' martial series, moving from the open roads to the graveyard outskirts, and finally deep into the mausoleum."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "With the royal crown in Stormwind ignoring Duskwood's pleas, Alliance champions must personally step up to save loyal citizens from being overrun by the undead."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Raven Hill's plague-ridden vaults represent an unholy mockery of sacred burial rites, making the purge of its crypts a vital duty for servants of the Holy Light."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The vile contagion spread by the ghouls in the eastern mausoleum challenges the Light's sanctity, demanding spiritual and physical cleansing."
+  }
+ ],
+ "keywords": [
+  "althea ebonlocke",
+  "darkshire",
+  "duskwood",
+  "ghouls",
+  "mausoleum",
+  "night watch",
+  "plague spreaders",
+  "raven hill",
+  "undead"
+ ],
+ "related": [
+  "topic:night-watch",
+  "npc:althea-ebonlocke",
+  "quest:56",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "quest:163",
+  "topic:light"
+ ],
+ "attribution": [
+  "The Night Watch (3)"
+ ]
+}

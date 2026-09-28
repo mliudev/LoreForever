@@ -1,0 +1,71 @@
+{
+ "key": "npc:quinn-yorick",
+ "type": "npc",
+ "name": "Quinn Yorick",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Quinn Yorick",
+  "refs": 1
+ },
+ "summary": "Quinn Yorick is a wounded Forsaken scout sheltering on the upper floor of a ruined farmhouse in the Ivar Patch. Having barely survived an encounter with the feral worgen known as Ivar the Foul, he now relies on passing allies to help secure his survival.",
+ "sections": [
+  {
+   "title": "A Precarious Refuge",
+   "body": "Tucked away inside an abandoned home at the Ivar Patch, Quinn Yorick lies gravely injured upstairs. His condition is the result of a vicious clash with Ivar the Foul, one of the savage worgen haunting the northern stretches of Silverpine Forest. Unable to finish his mission or safely retreat alone, Quinn remains in hiding, waiting for travelers working for the Forsaken to aid his plight and deliver retribution to the beast that nearly tore him apart.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Quinn Yorick located?",
+   "aliases": [
+    "quinn yorick location",
+    "where is quinn",
+    "quinn yorick house"
+   ],
+   "answer": "Quinn Yorick can be found hiding on the upper floor of a broken farmhouse in the Ivar Patch, located in Silverpine Forest north of the Sepulcher."
+  },
+  {
+   "q": "Who injured Quinn Yorick?",
+   "aliases": [
+    "who attacked quinn",
+    "what happened to quinn yorick",
+    "quinn injured"
+   ],
+   "answer": "He was severely wounded by Ivar the Foul, a powerful and vicious worgen prowling the nearby farmland."
+  },
+  {
+   "q": "What role does Quinn serve for Horde adventurers?",
+   "aliases": [
+    "quinn yorick quest",
+    "quinn quest giver"
+   ],
+   "answer": "Quinn serves as the turn-in point for Forsaken scouts and allies sent to assist him in the field, seeking vengeance against Ivar the Foul."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Quinn's predicament highlights the ever-present danger the feral worgen pose to Forsaken forces attempting to secure northern Silverpine."
+  }
+ ],
+ "keywords": [
+  "forsaken scout",
+  "ivar patch",
+  "ivar the foul",
+  "quinn yorick",
+  "silverpine forest",
+  "worgen"
+ ],
+ "related": [
+  "subzone:ivar-patch",
+  "quest:425",
+  "quest:430",
+  "zone:silverpine",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Quinn Yorick"
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "key": "topic:titan",
+ "type": "topic",
+ "name": "Titan",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Titan"
+ },
+ "summary": "The titans are a primordial race of colossal, godlike beings who wander the cosmos bringing order and shaping worlds. In ancient antiquity, they came to Azeroth to vanquish the chaotic Old Gods, establish massive terrestrial facilities, and foster life before departing into the Great Dark Beyond.",
+ "sections": [
+  {
+   "title": "Architects of the Cosmos",
+   "body": "The titans are cosmic giants forged from primordial matter and arcane magic, embodying the forces of order and creation. In their journeys across the Great Dark Beyond, they sought out slumbering worlds to cultivate, raising up continents, calming chaotic elemental forces, and designing life. To enforce balance, they established powerful constructs made of stone, iron, and sea to watch over their works.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ordering of Azeroth",
+   "body": "Long ago, the Pantheon of titans discovered Azeroth in the grip of the chaotic elemental lords and the horrific Old Gods. The titans waged war against these parasitic horrors, banishing the elementals to pocket planes and sealing the monstrous Old Gods deep beneath the crust of the earth. Upon securing the world, they carved great biomes, established vault complexes like Uldaman, and entrusted five great dragons\u2014the Dragon Aspects\u2014with stewardship of the land, magic, time, and life itself before journeying back among the stars.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fallen Champion",
+   "body": "Not all titans remained aligned with the Pantheon's vision of perfect order. Sargeras, once the greatest warrior and defender of the titans, grew despondent and terrified by the deep cosmic darkness and demonic malevolence he was charged with combating. Rejecting the work of his kin, Sargeras turned to nihilism, founding the demonic Burning Legion to extinguish all creation rather than allow it to be corrupted.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Are the titans still alive and on Azeroth?",
+   "aliases": [
+    "where are the titans",
+    "are titans on azeroth",
+    "titan locations"
+   ],
+   "answer": "The titans themselves departed Azeroth eons ago into the Great Dark Beyond after defeating the Old Gods and ordering the world. They left behind titanic watchers, stone and iron constructs, and vast buried vault complexes to oversee their design."
+  },
+  {
+   "q": "Why do the dwarves care so much about the titans?",
+   "aliases": [
+    "dwarf titan connection",
+    "why dwarves dig",
+    "dwarves and the creators"
+   ],
+   "answer": "Dwarves descend directly from the earthen, a race of subterranean stone beings fashioned by the titans to carve the foundations of the world. Through archaeology and the excavation of ruins like Bael Modan and Uldaman, dwarves seek to uncover their own forgotten lineage."
+  },
+  {
+   "q": "What is the Pantheon?",
+   "aliases": [
+    "titan pantheon",
+    "who leads the titans",
+    "titan leaders"
+   ],
+   "answer": "The Pantheon is the governing council of the titans, led by the Highfather Aman'Thul. Other members include Khaz'goroth the shaper of worlds, Eonar the life-binder, Norgannon the keeper of celestial magics, Golganneth the lord of skies, and Aggramar, the champion who replaced Sargeras."
+  },
+  {
+   "q": "Did the titans create the Dragon Aspects?",
+   "aliases": [
+    "titan dragons",
+    "aspect origins",
+    "who made the aspects"
+   ],
+   "answer": "Yes. Before leaving Azeroth, the Pantheon channeled their powers through the keepers to bless five proto-dragons. Alexstrasza, Ysera, Malygos, Nozdormu, and Neltharion were granted immense power to safeguard life, nature, magic, time, and the earth."
+  },
+  {
+   "q": "Is Sargeras a titan?",
+   "aliases": [
+    "who is sargeras",
+    "is sargeras a god",
+    "sargeras origin"
+   ],
+   "answer": "Sargeras was once the champion of the Pantheon, defending the cosmos against chaos and demons. Driven to despair and madness by the darkness he witnessed, he broke away from his brethren to form the Burning Legion, dedicating himself to burning down the ordered universe."
+  },
+  {
+   "q": "Did a titan fall in Silithus?",
+   "aliases": [
+    "silithus titan",
+    "prophecy of c'thun titan",
+    "did c'thun kill a titan"
+   ],
+   "answer": "Prophecies recorded by the twilight cultist Skeram claim that a titan battled an ancient evil in the southern deserts of Silithus and fell. However, scholars and explorers debate whether this entity was a true titan or merely one of their titanic constructs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The titans are revered as the divine Makers. Discovering their origins through titanic relics is the central mission of the Explorer's Guild and King Magni Bronzebeard."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomes share a mechanical legacy originating from titanic creations, driving their natural affinity for clockwork design and excavation."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Arcane magic is the fundamental lifeblood of the titans, and its ordered principles trace directly to the structural enchantments woven across the world by the Pantheon."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners dig deep into the bones of the earth, often unearthing pristine titan-forged metal nodes and architectural foundations that predate recorded history."
+  }
+ ],
+ "keywords": [
+  "aman'thul",
+  "earthen",
+  "eonar",
+  "khaz'goroth",
+  "makers",
+  "norgannon",
+  "order",
+  "pantheon",
+  "titan"
+ ],
+ "related": [
+  "npc:magni-bronzebeard",
+  "topic:old-god",
+  "topic:sargeras",
+  "topic:burning-legion",
+  "topic:emerald-dream",
+  "npc:deathwing",
+  "zone:silithus",
+  "npc:greatfather-winter"
+ ],
+ "attribution": [
+  "Titan"
+ ]
+}

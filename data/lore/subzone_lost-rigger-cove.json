@@ -1,0 +1,89 @@
+{
+ "key": "subzone:lost-rigger-cove",
+ "type": "subzone",
+ "name": "Lost Rigger Cove",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Lost Rigger Cove"
+ },
+ "summary": "Tucked away along the eastern cliffs of Tanaris, Lost Rigger Cove serves as the primary base of operations for the Southsea Pirates in the region. Shielded by towering desert mountains on three sides, this hidden port boasts docks, fortified encampments, and an active shipyard constructing new pirate vessels.",
+ "sections": [
+  {
+   "title": "Pirates and Mountain Walls",
+   "body": "Naturally fortified by sheer rock walls on almost every side, Lost Rigger Cove provides the Southsea Freebooters an ideal maritime stronghold on Kalimdor's southeastern edge. Here, pirate cutthroats, dockworkers, and brigands haul salvage and assemble fresh hulls right under the noses of Gadgetzan's authorities. The cove allows the Southseas to project power across the Great Sea while raiding trade routes between Ratchet, Booty Bay, and coastal settlements.",
+   "spoiler": 0
+  },
+  {
+   "title": "Goblin and Gnome Ambition",
+   "body": "The pirates do not hold their cove unchallenged. Outside the cove's narrow pass, competing emissaries\u2014a goblin and a gnome\u2014have established a contentious forward camp. Both are vying for lucrative favors and commercial contracts from the Steamwheedle bosses in Gadgetzan by hiring out mercenaries to slaughter the Southseas, thin their ranks, and sabotage their shipbuilding operations.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Lost Rigger Cove?",
+   "aliases": [
+    "who owns lost rigger cove",
+    "who lives in lost rigger cove",
+    "lost rigger cove factions"
+   ],
+   "answer": "The cove is held by the Southsea Pirates, an infamous maritime syndicate operating throughout Kalimdor and the South Seas. They use this natural harbor to repair their fleet and construct new warships."
+  },
+  {
+   "q": "Why are gnomes and goblins camped outside?",
+   "aliases": [
+    "gnome goblin camp tanaris",
+    "why are gnomes here",
+    "why fight the pirates"
+   ],
+   "answer": "Representatives from both races are attempting to win favor and trade deals with Baron Noggenfogger and the leaders of Gadgetzan. Each hopes to impress the goblin authorities by organizing strikes against the pirate stronghold."
+  },
+  {
+   "q": "Where is Lost Rigger Cove located?",
+   "aliases": [
+    "where is lost rigger cove",
+    "how to get to lost rigger cove",
+    "lost rigger cove map"
+   ],
+   "answer": "It lies along the eastern coast of Tanaris, southeast of Gadgetzan. It is accessed through a winding canyon path cut through the coastal mountain barrier."
+  },
+  {
+   "q": "What are the pirates building in the cove?",
+   "aliases": [
+    "shipyard lost rigger cove",
+    "pirate boat construction"
+   ],
+   "answer": "The Southsea Pirates operate an active drydock and shipyard in the center of the cove, where carpenters and brigands are busy assembling the hull of a large ocean-going war vessel."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The sprawling pirate camp is dense with pockets to pick, private lockboxes, and cutthroats who know every dirty trick of maritime swashbuckling."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomish operatives stationed near the entrance are eager to demonstrate technological superiority over their goblin competitors by dismantling the Southsea operations."
+  }
+ ],
+ "keywords": [
+  "freebooter",
+  "gadgetzan",
+  "lost rigger cove",
+  "shipyard",
+  "southsea pirates",
+  "tanaris"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:gadgetzan",
+  "subzone:southbreak-shore",
+  "topic:gnome",
+  "topic:goblin",
+  "topic:pirate"
+ ],
+ "attribution": [
+  "Lost Rigger Cove"
+ ]
+}

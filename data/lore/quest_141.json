@@ -1,0 +1,129 @@
+{
+ "key": "quest:141",
+ "type": "quest",
+ "name": "The Defias Brotherhood",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   141
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Master Mathias Shaw",
+  "end": "Gryan Stoutmantle",
+  "previous": "The Defias Brotherhood (3)",
+  "next": "The Defias Brotherhood (5)",
+  "wiki": "The Defias Brotherhood (4)",
+  "chain": []
+ },
+ "summary": "Carrying intelligence from Master Mathias Shaw back to Westfall, this mission uncovers the mastermind behind the red-masked brigands. Shaw's report reveals that the Defias Brotherhood is led by Edwin VanCleef, the very architect who rebuilt Stormwind City after the First War.",
+ "sections": [
+  {
+   "title": "A Builder Turned Bandit",
+   "body": "For months, Gryan Stoutmantle and the People's Militia fought a seemingly faceless uprising of highwaymen, thieves, and cutthroats across Westfall. When Master Mathias Shaw of SI:7 examines the evidence gathered from Defias couriers, he pieces together a shocking truth: the guild of architects and stonemasons who reconstructed the white ramparts of Stormwind never disbanded. Instead, their leader, Edwin VanCleef, took them underground.",
+   "spoiler": 1
+  },
+  {
+   "title": "Bitterness and Betrayal",
+   "body": "Following the devastation of the First War, Stormwind lay in ashes. VanCleef's Stonemasons' Guild undertook the monumental effort of restoring the kingdom's capital, transforming it into the jewel of humanity once again. Yet when the work concluded, a bitter dispute arose over compensation. Dissatisfied with their treatment by the crown and the House of Nobles, VanCleef and his artisans took up daggers and red bandanas, turning from civic craft to violent rebellion against the throne.",
+   "spoiler": 1
+  },
+  {
+   "title": "Stoutmantle's Disbelief",
+   "body": "When Shaw's report reaches Sentinel Hill, Gryan Stoutmantle finds the news difficult to stomach. Stoutmantle remembers VanCleef not as a cutthroat skulking in the shadows of the countryside, but as an industrious and gifted artisan whose work sheltered thousands of returning citizens. Faced with such an alarming accusation, the militia commander demands concrete evidence before fully accepting that Stormwind's chief architect is orchestrating Westfall's ruin.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Shaw's Report?",
+   "aliases": [
+    "shaws report",
+    "mathias shaw document",
+    "the report to stoutmantle"
+   ],
+   "answer": "It is a confidential intelligence briefing prepared by Master Mathias Shaw, leader of SI:7. It outlines the history of the Stonemasons' Guild, their fallout with the royal court after rebuilding Stormwind, and the revelation that Edwin VanCleef is the ringleader behind the Defias Brotherhood."
+  },
+  {
+   "q": "Who is Edwin VanCleef?",
+   "aliases": [
+    "vancleef identity",
+    "who is edwin vancleef",
+    "edwin vancleef lore"
+   ],
+   "answer": "Edwin VanCleef was the Grand Master of the Stonemasons' Guild. He oversaw the reconstruction of Stormwind City after it was razed by the orcs during the First War. After an unpaid labor dispute with the crown, he organized his disenfranchised laborers into the Defias Brotherhood."
+  },
+  {
+   "q": "Why is Gryan Stoutmantle skeptical of the report?",
+   "aliases": [
+    "why doesnt gryan believe it",
+    "stoutmantle reaction",
+    "why does gryan need proof"
+   ],
+   "answer": "Gryan Stoutmantle remembers Edwin VanCleef as a brilliant, hardworking civic leader who rebuilt the nation's capital. The idea that such an esteemed craftsman could fall so far and become a ruthless bandit king terrorizing innocent farmers is hard for him to accept without undeniable proof."
+  },
+  {
+   "q": "Why did the Stonemasons turn against Stormwind?",
+   "aliases": [
+    "why are defias mad",
+    "stonemason dispute",
+    "vancleef motive"
+   ],
+   "answer": "After rebuilding the capital from the ruins of the First War, the Stonemasons' Guild found themselves mistreated and shortchanged by the King and the House of Nobles. Feeling cheated out of their fair wage and cast aside, VanCleef and his followers rebelled."
+  },
+  {
+   "q": "What role does SI:7 play in this quest?",
+   "aliases": [
+    "why mathias shaw",
+    "si7 involvement",
+    "rogue guild stormwind"
+   ],
+   "answer": "Master Mathias Shaw leads SI:7, Stormwind's intelligence service operating from Old Town. While the People's Militia fights on the front lines in Westfall, SI:7 pieces together captured coded communications to identify the true leadership and motives behind the uprising."
+  },
+  {
+   "q": "Where does this investigation lead next?",
+   "aliases": [
+    "what comes next",
+    "next quest defias",
+    "after shaws report"
+   ],
+   "answer": "Because Stoutmantle demands irrefutable proof of VanCleef's complicity, he directs his agents to track down a former associate who can provide direct testimony confirming VanCleef's leadership of the Defias."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The rebellion of the Stonemasons reveals deep fractures within the kingdom: the very workers who rebuilt Stormwind's stone ramparts now threaten to tear them down."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Carrying intelligence directly from Mathias Shaw showcases the reach of SI:7, highlighting the contrast between the crown's shadow operatives and VanCleef's rogue highwaymen."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this revelation hits close to home. The walls of their homes and the Cathedral itself were built by the very men now pillaging the Westfall countryside."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "sentinel hill",
+  "shaw",
+  "stonemasons",
+  "stormwind",
+  "stoutmantle",
+  "vancleef",
+  "westfall"
+ ],
+ "related": [
+  "npc:gryan-stoutmantle",
+  "npc:edwin-vancleef",
+  "topic:defias-brotherhood",
+  "zone:westfall",
+  "topic:stormwind-kingdom",
+  "topic:first-war"
+ ],
+ "attribution": [
+  "The Defias Brotherhood (4)"
+ ]
+}

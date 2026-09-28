@@ -1,0 +1,94 @@
+{
+ "key": "subzone:pyrewood-village",
+ "type": "subzone",
+ "name": "Pyrewood Village",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Pyrewood Village"
+ },
+ "summary": "Pyrewood Village is an isolated human settlement nestled in southern Silverpine Forest beneath Shadowfang Keep. Originally part of Gilneas before being stranded outside the Greymane Wall, its living residents harbor a horrific secret brought upon them by the mad archmage Arugal.",
+ "sections": [
+  {
+   "title": "A Town Severed",
+   "body": "Pyrewood was once a prosperous Gilnean settlement owned by Lord Darius Crowley. When King Genn Greymane chose to isolate his kingdom behind the massive Greymane Wall following the Second War, Pyrewood and its neighbor Ambermill were abandoned on the northern side. Cut off from their homeland, the townsfolk were left entirely defenseless during the Third War as the Scourge marched across Lordaeron. Though they managed to survive the initial wave of the undead, their true nightmare began when the mage Arugal took refuge in the fortress above.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Moonrage Curse",
+   "body": "From the towers of Shadowfang Keep, Archmage Arugal unleashed otherworldly beasts upon the surrounding lands, ultimately cursing the living population of Pyrewood. By the light of day, the citizens appear as normal human villagers, quietly maintaining their town hall, blacksmith, and chapel, even offering trade to visiting Alliance travelers. Yet as soon as the sun dips beneath the horizon, a terrible transformation occurs: every resident shifts into a savage, bloodthirsty worgen of the Moonrage pack, turning on anyone unfortunate enough to linger within the walls.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Pyrewood Village attack me at night?",
+   "aliases": [
+    "pyrewood hostile at night",
+    "pyrewood worgen shift",
+    "why are they worgen"
+   ],
+   "answer": "The villagers are afflicted by a dark curse cast by Archmage Arugal of Shadowfang Keep. During the day, they retain their human forms and normal faculties, but each night they transform into ravenous Moonrage worgen who attack all outsiders on sight."
+  },
+  {
+   "q": "Why is Pyrewood outside the Greymane Wall?",
+   "aliases": [
+    "why outside the wall",
+    "is pyrewood gilnean",
+    "darius crowley pyrewood"
+   ],
+   "answer": "King Genn Greymane ordered the Greymane Wall constructed to seal Gilneas off from the outside world following the Second War. Lord Darius Crowley strongly opposed the wall because it cut off his northern holdings, including Pyrewood and Ambermill, leaving their residents to fend for themselves."
+  },
+  {
+   "q": "Can Alliance players visit Pyrewood safely?",
+   "aliases": [
+    "alliance pyrewood friendly",
+    "can alliance go to pyrewood",
+    "pyrewood vendors"
+   ],
+   "answer": "Yes, but strictly during daylight hours. Alliance travelers can walk among the townsfolk and trade with the village merchants while the sun is up. Once darkness falls, however, the entire village transforms into hostile worgen regardless of your faction."
+  },
+  {
+   "q": "How does the Horde view Pyrewood?",
+   "aliases": [
+    "forsaken pyrewood",
+    "horde hostile pyrewood",
+    "deathstalker faerleia pyrewood"
+   ],
+   "answer": "The Forsaken view the village as an intolerable threat on their southern border. Under the direction of agents like Deathstalker Faerleia, the Horde seeks to assassinate the village's council and sever Pyrewood's ties to Arugal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The village represents a tragic remnant of living humanity in Lordaeron, willing to trade with travelers by day before succumbing to a horrific curse each night."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For the Forsaken, Pyrewood is a lingering pocket of hostile humans and monstrous worgen serving Archmage Arugal right on the border of their lands."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "crowley",
+  "greymane wall",
+  "moonrage",
+  "pyrewood",
+  "pyrewood village",
+  "shadowfang",
+  "silverpine"
+ ],
+ "related": [
+  "zone:shadowfang",
+  "npc:arugal",
+  "zone:silverpine",
+  "subzone:greymane-wall",
+  "subzone:ambermill",
+  "topic:worgen",
+  "quest:452",
+  "npc:deathstalker-faerleia"
+ ],
+ "attribution": [
+  "Pyrewood Village"
+ ]
+}

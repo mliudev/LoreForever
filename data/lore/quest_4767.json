@@ -1,0 +1,120 @@
+{
+ "key": "quest:4767",
+ "type": "quest",
+ "name": "Wind Rider",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   4767
+  ],
+  "level": "29",
+  "faction": "Horde",
+  "start": "Elu",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Wind Rider (quest)",
+  "chain": []
+ },
+ "summary": "Wind Rider is a Horde quest offered by Elu atop Freewind Post in Thousand Needles. Aspiring to become a wind rider himself, Elu tasks adventurers with climbing into the craggy heights of Highperch to gather wild wyvern eggs to bolster the Horde's aerial mount reserves.",
+ "sections": [
+  {
+   "title": "The Call of the Sky",
+   "body": "Across Kalimdor, the Horde relies heavily on wind riders to ferry couriers, scouts, and warriors across vast distances. At Freewind Post, a young tauren named Elu aspires to join their esteemed ranks. With the demands of the expanding Horde outpacing the availability of mounts, Elu has been charged with helping procure new wyverns to supply the master wind riders, offering eager travelers a chance to assist in this vital effort.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ascending Highperch",
+   "body": "Highperch rises atop the towering mesas of Thousand Needles, serving as a prime nesting ground for wild wyverns. Gathering viable eggs requires braving the cliffs and facing the fiercely protective adults that patrol the roosts. By securing these clutches, Elu hopes to prove his dedication and begin the rigorous process of hand-raising and training wyverns for the Horde's flight masters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "wind rider quest giver",
+    "who starts wind rider",
+    "elu location"
+   ],
+   "answer": "The quest is given by Elu, an aspiring wind rider located atop Freewind Post in Thousand Needles."
+  },
+  {
+   "q": "What does Elu need?",
+   "aliases": [
+    "wind rider objectives",
+    "what do i collect",
+    "wyvern eggs"
+   ],
+   "answer": "Elu asks you to bring him ten Highperch Wyvern Eggs gathered directly from the nests in Highperch."
+  },
+  {
+   "q": "Where is Highperch located?",
+   "aliases": [
+    "how to get to highperch",
+    "highperch entrance",
+    "where are wyvern eggs"
+   ],
+   "answer": "Highperch is an elevated mesa plateau located northwest of Freewind Post, or just south of Whitereach Post. A natural ramp marked by a totem pole leads up from the canyon floor to the nesting grounds."
+  },
+  {
+   "q": "Why is the Horde gathering wild wyvern eggs?",
+   "aliases": [
+    "why harvest wyvern eggs",
+    "lore behind wyvern eggs"
+   ],
+   "answer": "The Horde's master wind riders are facing growing demand for aerial mounts across their outposts, and captive breeding alone cannot keep up. Raising wyverns from wild clutches allows handlers to train fresh mounts to meet their transport and scouting needs."
+  },
+  {
+   "q": "Are the wild wyverns hostile?",
+   "aliases": [
+    "will wyverns attack",
+    "wyvern danger"
+   ],
+   "answer": "Yes. Wild wyverns are fiercely territorial and protective of their broods, readily attacking anyone who approaches their clutches on Highperch."
+  },
+  {
+   "q": "What does Elu intend to do with the eggs?",
+   "aliases": [
+    "elu wyverns",
+    "what happens to the eggs"
+   ],
+   "answer": "Elu hopes that delivering the eggs will allow him to begin formal wind rider training, raising and bonding with the creatures to serve the Horde in the skies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Wyverns form the backbone of the Horde's transit network in Kalimdor, making the replenishment of their stables critical for frontier communication and defense."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The wind riders of Freewind Post take pride in their mastery of aerial flight, viewing the stewardship and training of wyverns as an honorable pursuit."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters familiar with taming and beast temperament will appreciate the peril and precision required to snatch wild clutches directly from a territorial predator's nest."
+  }
+ ],
+ "keywords": [
+  "elu",
+  "freewind post",
+  "highperch",
+  "thousand needles",
+  "wind rider",
+  "wyvern eggs"
+ ],
+ "related": [
+  "npc:elu",
+  "subzone:highperch",
+  "subzone:freewind-post",
+  "subzone:whitereach-post",
+  "zone:thousandneedles",
+  "topic:horde",
+  "quest:92472"
+ ],
+ "attribution": [
+  "Wind Rider (quest)"
+ ]
+}

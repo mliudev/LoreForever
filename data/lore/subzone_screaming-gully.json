@@ -1,0 +1,78 @@
+{
+ "key": "subzone:screaming-gully",
+ "type": "subzone",
+ "name": "Screaming Gully",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "wiki": "Screaming Gully"
+ },
+ "summary": "Screaming Gully is the first sprawling subterranean cavern encountered just beyond the entrance of the Wailing Caverns. Bathed in unnatural fungal glow and shallow waters, it serves as the outer redoubt for the corrupted Druids of the Fang and their mutated beasts.",
+ "sections": [
+  {
+   "title": "Threshold of the Nightmare",
+   "body": "Stepping through the threshold of the Wailing Caverns leads directly into Screaming Gully, an echoing chasm where the wind groans through subterranean fissures. Far from the arid Barrens above, the gully is choked with damp overgrowth, humid mist, and aggressive wildlife twisted by the Emerald Nightmare. The Fanglord Lady Anacondra oversees the chamber, surrounded by acolytes of the Druids of the Fang and vicious deviate raptors, while ancient snapping turtles like Kresh patrol the shallow waterways below.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Screaming Gully located?",
+   "aliases": [
+    "screaming gully location",
+    "where is screaming gully",
+    "how to find screaming gully"
+   ],
+   "answer": "The Screaming Gully is the first major chamber you enter directly after stepping through the portal inside the Wailing Caverns, located beneath the northern Barrens."
+  },
+  {
+   "q": "Why is it called the Screaming Gully?",
+   "aliases": [
+    "why screaming gully",
+    "screaming gully name origin"
+   ],
+   "answer": "The Wailing Caverns earn their name from the howling, moaning sounds caused by subterranean steam and winds venting through rock fissures, and this wide entrance chasm catches the brunt of those echoing cries."
+  },
+  {
+   "q": "Who rules over the Screaming Gully?",
+   "aliases": [
+    "screaming gully boss",
+    "who is in screaming gully",
+    "screaming gully leader"
+   ],
+   "answer": "The chamber is overseen by Lady Anacondra, one of the primary Fanglords who fell under the corruption of the Emerald Nightmare alongside Naralex."
+  },
+  {
+   "q": "What creatures roam this chamber?",
+   "aliases": [
+    "screaming gully mobs",
+    "enemies in screaming gully"
+   ],
+   "answer": "The gully is populated by deviate raptors, corrupted Druids of the Fang, and wandering aquatic life, including the ancient turtle Kresh roaming the flooded floor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For Cenarion druids, Screaming Gully is a heartbreaking display of their fallen brethren who abandoned the path of the claw and sky to embrace serpentine corruption."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "deviate raptor",
+  "fanglords",
+  "kresh",
+  "lady anacondra",
+  "screaming gully",
+  "wailing caverns"
+ ],
+ "related": [
+  "zone:wailing",
+  "npc:lady-anacondra",
+  "topic:druids-of-the-fang",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Screaming Gully"
+ ]
+}

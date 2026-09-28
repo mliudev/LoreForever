@@ -1,0 +1,83 @@
+{
+ "key": "subzone:ursolan",
+ "type": "subzone",
+ "name": "Ursolan",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Ursolan"
+ },
+ "summary": "Ursolan is a sprawling Timbermaw furbolg settlement situated in western Azshara, just east of Timbermaw Hold. Bisected by a deep ravine, the encampment honors the bear Ancient Ursol and serves as a vital stronghold for uncorrupted furbolgs defending their territory from outside incursions.",
+ "sections": [
+  {
+   "title": "Bastion of the Bear",
+   "body": "Perched on the rugged bluffs of western Azshara, Ursolan constitutes the eastern branch of the Timbermaw tribe's domain, connecting directly through Timbermaw Hold to Bear's Head in the south. Named after the revered bear Ancient Ursol, this camp represents a rare haven of sanity among Kalimdor's furbolg populations, which have largely fallen victim to demonic corruption. The village spans both rims of a dramatic earthen chasm, where the Timbermaw vigilantly guard their borders against encroaching interlopers, including intrusive researchers from the night elven camp of Talrendis.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in Ursolan?",
+   "aliases": [
+    "who is at ursolan",
+    "ursolan inhabitants",
+    "ursolan furbolgs"
+   ],
+   "answer": "Ursolan is inhabited by the Timbermaw furbolgs, one of the last remaining tribes of furbolgs that has managed to resist the demonic corruption plaguing Kalimdor."
+  },
+  {
+   "q": "Why is this area called Ursolan?",
+   "aliases": [
+    "ursolan name origin",
+    "who is ursolan named after",
+    "meaning of ursolan"
+   ],
+   "answer": "The settlement is named in honor of Ursol, one of the twin bear demigods deeply venerated by the furbolg race."
+  },
+  {
+   "q": "What is the deep gorge running through the camp?",
+   "aliases": [
+    "canyon in ursolan",
+    "ravine in ursolan",
+    "chasm ursolan"
+   ],
+   "answer": "Ursolan is split by a deep scar in the earth. Down within this ravine, Talrendis biologists from the nearby night elven encampment can often be found conducting field studies."
+  },
+  {
+   "q": "How does Ursolan connect to the rest of the Timbermaw territory?",
+   "aliases": [
+    "ursolan connection",
+    "how to get to timbermaw hold from ursolan"
+   ],
+   "answer": "Ursolan sits directly east of the Azshara entrance to Timbermaw Hold, linking their northern presence through the mountain tunnels down to Bear's Head in the south."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druids hold profound respect for the patrons of Ursolan, as the twin bear Ancients Ursol and Ursoc are central figures in nature worship and bear form mastery."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Although night elves revere the bear Ancients, tensions exist on the ground, evidenced by the Talrendis researchers examining the ravine under the wary eyes of the furbolgs."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "furbolg",
+  "ravine",
+  "talrendis",
+  "timbermaw",
+  "ursol",
+  "ursolan"
+ ],
+ "related": [
+  "subzone:timbermaw-hold",
+  "topic:furbolg",
+  "subzone:bear-s-head",
+  "zone:azshara"
+ ],
+ "attribution": [
+  "Ursolan"
+ ]
+}

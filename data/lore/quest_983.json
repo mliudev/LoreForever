@@ -1,0 +1,122 @@
+{
+ "key": "quest:983",
+ "type": "quest",
+ "name": "Buzzbox 827",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   983
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Wizbang Cranktoggle",
+  "end": "Buzzbox 827",
+  "previous": null,
+  "next": "Buzzbox 411 (quest)",
+  "wiki": "Buzzbox 827 (quest)",
+  "chain": []
+ },
+ "summary": "Buzzbox 827 is the first in an experimental communication relay built by the gnome Wizbang Cranktoggle along the coastline of Darkshore. Plagued by breakdowns, these curious mechanical contraptions rely on an eccentric design that uses local wildlife parts for field repairs. Restoring the silent machine allows Wizbang to test his long-distance voice network directly from Auberdine.",
+ "sections": [
+  {
+   "title": "Gnomish Innovation on Ancient Shores",
+   "body": "While visiting Auberdine, the eccentric gnomish engineer Wizbang Cranktoggle sought to bridge the long distances of the wild coast with a series of long-range acoustic relays called Buzzboxes. Designed to transmit voice over great distances, these lever-laden devices stand out starkly against the ancient ruins and somber forests of Darkshore. However, like many ambitious gnomish inventions, they suffer from chronic instability and require near-constant upkeep to keep their internal gears churning.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ecological Maintenance",
+   "body": "Rather than hauling refined iron gears and copper pins across the wilderness, Wizbang adopted an unconventional solution: he built each Buzzbox to be serviced using components harvested from nearby native fauna. Buzzbox 827, stationed just south of Auberdine along the misty shoreline, was engineered to function with the sturdy, jointed legs of local tide and reef crawlers. Depositing the legs into the receiver hopper prompts the machine to self-assemble and jump back to life, broadcasting Wizbang's distant voice through its speakers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Buzzbox?",
+   "aliases": [
+    "what does a buzzbox do",
+    "buzzbox purpose",
+    "gnome box darkshore"
+   ],
+   "answer": "A Buzzbox is a long-distance voice communication machine invented by the gnome Wizbang Cranktoggle. Equipped with levers and internal machinery, it is designed to transmit voices across the untamed expanse of Darkshore, allowing people to speak across miles."
+  },
+  {
+   "q": "Why does a metal machine need crab legs to run?",
+   "aliases": [
+    "why crawler legs",
+    "crawler leg repair",
+    "why feed it legs"
+   ],
+   "answer": "Wizbang purposefully designed each Buzzbox to use organic components from surrounding wildlife as improvised replacement parts. By placing Buzzbox 827 near the beach where crawlers dwell, he ensured travelers could make emergency mechanical repairs using chitinous limbs instead of rare machined metal."
+  },
+  {
+   "q": "Where is Buzzbox 827 located?",
+   "aliases": [
+    "buzzbox 827 location",
+    "where is buzzbox 827",
+    "find buzzbox 827"
+   ],
+   "answer": "Buzzbox 827 is situated along the shoreline of Darkshore, just a short trek south of the coastal settlement of Auberdine."
+  },
+  {
+   "q": "Who is Wizbang Cranktoggle?",
+   "aliases": [
+    "wizbang cranktoggle",
+    "who made buzzbox",
+    "auberdine gnome"
+   ],
+   "answer": "Wizbang Cranktoggle is a gnome tinkerer staying on the upper floor of the Auberdine inn. Ambitious and enterprising, he is attempting to construct an interconnected communication network across Darkshore despite the constant malfunctions of his prototypes."
+  },
+  {
+   "q": "Where can I find Crawler Legs for the repair?",
+   "aliases": [
+    "crawler leg location",
+    "how to get crawler legs",
+    "pygmy tide crawler"
+   ],
+   "answer": "Crawler Legs can be gathered from Pygmy Tide Crawlers and Young Reef Crawlers scuttling along the sands and shallows of the Darkshore beach just south of Auberdine."
+  },
+  {
+   "q": "What happens once Buzzbox 827 is repaired?",
+   "aliases": [
+    "after buzzbox 827",
+    "buzzbox questline next",
+    "buzzbox 827 completion"
+   ],
+   "answer": "Once the Crawler Legs are fed into the hopper, the machine churns them into place, hums back to life, and relays Wizbang's voice from Auberdine. Pleased with the success, he immediately asks you to travel further down the coast to repair the next unit in the chain, Buzzbox 411."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Using organic chitin and arthropod limbs in place of forged brass gears is quintessential gnomish improvisation, trading durability for readily scavenged local materials."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Wizbang's device represents classic gnomish ambition, attempting to bring technological connectivity to an ancient, untamed land that has never seen a telephone or radio."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The clanking, smoking Buzzboxes are a bizarre eyesore on the sacred, somber shores of Kalimdor, though the night elves of Auberdine tolerate the tinkerer's experiments."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "buzzbox 827",
+  "crawler legs",
+  "darkshore",
+  "gnomish engineering",
+  "reef crawler",
+  "tide crawler",
+  "wizbang cranktoggle"
+ ],
+ "related": [
+  "npc:wizbang-cranktoggle",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Buzzbox 827 (quest)"
+ ]
+}

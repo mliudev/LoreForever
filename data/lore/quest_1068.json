@@ -1,0 +1,131 @@
+{
+ "key": "quest:1068",
+ "type": "quest",
+ "name": "Shredding Machines",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1068
+  ],
+  "level": "23",
+  "faction": "Horde",
+  "start": "Seereth Stonebreak",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Shredding Machines",
+  "chain": []
+ },
+ "summary": "Shredding Machines is a Horde quest tasking adventurers with hunting down two specialized Venture Company logging mechs in Windshear Crag. Directed by the shaman Seereth Stonebreak, players strike against the mechanical deforestation that torments Stonetalon's native spirits.",
+ "sections": [
+  {
+   "title": "A Vision of Deforestation",
+   "body": "Stationed along the dusty border between the Barrens and the Stonetalon Mountains, the tauren shaman Seereth Stonebreak listens closely to the unseen realm. While much of Stonetalon's spiritual voice is drowned out by chaos, one vision came to him with harrowing clarity: man-shaped contraptions tearing through ancient woods with unnatural haste. Marked with the mechanical designations XT:4 and XT:9, these goblin-engineered shredders butcher the timberlands of Windshear Crag, sending waves of distress through the surrounding nature spirits.",
+   "spoiler": 0
+  },
+  {
+   "title": "Silencing the Saws",
+   "body": "To stem the devastation, Horde champions venture deep into Windshear Crag, northwest of Greatwood Vale, where the Venture Company operates. Tracking down and wrecking these specific logging constructs deals a sharp blow to the commercial deforestation of the mountains. Though bringing down XT:4 and XT:9 calms the immediate cries of the wounded tree spirits, Seereth warns that unless the Venture Company abandons Stonetalon entirely, far darker atrocities await the land.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Seereth Stonebreak?",
+   "aliases": [
+    "who is seereth",
+    "quest giver seereth",
+    "seereth stonebreak lore"
+   ],
+   "answer": "Seereth Stonebreak is a tauren shaman posted at the southern border of the Stonetalon Mountains near the Barrens. Attuned to the elemental and spiritual forces of the land, he acts as a conduit for the anguished forest spirits protesting the rapid expansion of the Venture Company."
+  },
+  {
+   "q": "What are XT:4 and XT:9?",
+   "aliases": [
+    "what are the shredders",
+    "xt4 and xt9",
+    "shredder targets"
+   ],
+   "answer": "XT:4 and XT:9 are specialized, designated logging shredders operated by the Venture Company in Windshear Crag. Powered by steam engines and piloted by goblin operators, these mechanized walkers cut down ancient timber far faster than manual laborers ever could."
+  },
+  {
+   "q": "Where is Windshear Crag?",
+   "aliases": [
+    "windshear crag location",
+    "where do i find the shredders",
+    "where are the machines"
+   ],
+   "answer": "Windshear Crag lies in the northern reaches of the Stonetalon Mountains, situated northwest of Greatwood Vale. It has been transformed into a massive industrial logging basin by the Venture Company."
+  },
+  {
+   "q": "Why does a shaman care about trees and druidic magic?",
+   "aliases": [
+    "why do shaman care about trees",
+    "shaman druid connection",
+    "nature spirits shaman"
+   ],
+   "answer": "As Seereth explains, shamanistic communion with spirits shares close ties with druidic nature magic. The trauma inflicted upon living forests echoes into the spiritual realm, enabling perceptive shaman to hear the wails of slaughtered tree spirits alongside elemental unrest."
+  },
+  {
+   "q": "Who owns and operates these shredders?",
+   "aliases": [
+    "who made xt4",
+    "who runs the shredders",
+    "venture company shredders"
+   ],
+   "answer": "The shredders belong to the Venture Company, an unscrupulous goblin-run commercial conglomerate infamous across Azeroth for ruthlessly stripping valuable natural resources with no regard for the local ecosystem or ancestral inhabitants."
+  },
+  {
+   "q": "Does destroying XT:4 and XT:9 drive the Venture Company away?",
+   "aliases": [
+    "does the venture company leave",
+    "after shredding machines",
+    "quest outcome"
+   ],
+   "answer": "No. While destroying these flagship machines calms the weeping tree spirits and sets back local logging efforts, the Venture Company maintains an extensive industrial foothold across Windshear Crag, requiring ongoing resistance from defenders of the wild."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Seereth highlights the profound resonance between spiritual magic and nature, reminding shaman that elemental balance relies on defending the spirits inhabiting the land."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The desecration of Stonetalon's ancient forests by soulless goblin machinery directly violates the tauren devotion to the Earth Mother."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The XT-series logging mechs showcase advanced goblin shredder design, balancing mechanical hydraulic saws with raw steam locomotion."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As the Horde establishes footholds across Kalimdor, checking the unregulated greed of the Venture Company is critical to preserving the land and securing safe transit through Stonetalon."
+  }
+ ],
+ "keywords": [
+  "logging",
+  "seereth stonebreak",
+  "shredder",
+  "shredding machines",
+  "stonetalon mountains",
+  "venture company",
+  "windshear crag",
+  "xt:4",
+  "xt:9"
+ ],
+ "related": [
+  "npc:seereth-stonebreak",
+  "subzone:windshear-crag",
+  "topic:venture-company",
+  "zone:stonetalon",
+  "quest:1061",
+  "subzone:greatwood-vale",
+  "topic:druid",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Shredding Machines"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "key": "subzone:steamwheedle-port",
+ "type": "subzone",
+ "name": "Steamwheedle Port",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Steamwheedle Port"
+ },
+ "summary": "Steamwheedle Port is a bustling coastal outpost on the eastern shore of Tanaris, directly connected to Gadgetzan. Operated by the neutral Steamwheedle Cartel, it serves as an essential sea link to distant islands like Kezan while constantly warding off encroaching Southsea Pirates.",
+ "sections": [
+  {
+   "title": "A Gateway on the Shifting Sands",
+   "body": "Tucked against the dunes along the South Seas, Steamwheedle Port offers the inland desert city of Gadgetzan a direct lifeline to maritime trade. Run by the Steamwheedle Cartel, the settlement bustles with dockhands, traders, and sea captains braving the treacherous waters. Supply vessels regularly ply the routes between here and distant goblin strongholds, including Kezan, bringing valuable mechanical components, luxuries, and raw materials into southern Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pirates and Strange Scholars",
+   "body": "Life on the port is far from peaceful. Just south along the coast lies Lost Rigger Cove, home to rampant Southsea Freebooters who regularly raid goblin shipping, steal cargo, and contest control of the coastline. Aside from haggling dockworkers and paranoid merchants trying to recover stolen shipments, the port also shelters unusual travelers, such as the enigmatic troll Yeh'kinya, who studies the ancient and ominous spirits of the world away from prying eyes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Steamwheedle Port?",
+   "aliases": [
+    "who runs steamwheedle port",
+    "steamwheedle port faction",
+    "is steamwheedle port friendly"
+   ],
+   "answer": "The settlement is built and administered by the Steamwheedle Cartel, the primary trade conglomerate of neutral goblins. As long as you maintain standing with Gadgetzan and the Cartel, both Alliance and Horde travelers are welcomed freely."
+  },
+  {
+   "q": "Where do the ships from this port travel?",
+   "aliases": [
+    "where do ships go from steamwheedle",
+    "steamwheedle port ferry"
+   ],
+   "answer": "The port serves as the Cartel's maritime link across the South Seas, notably connecting to the island of Kezan and other regional trading hubs, though it does not operate public commercial passenger transports for adventurers."
+  },
+  {
+   "q": "Why are there so many pirates nearby?",
+   "aliases": [
+    "lost rigger cove pirates",
+    "southsea pirates tanaris"
+   ],
+   "answer": "The Southsea Freebooters established their base just south at Lost Rigger Cove. They frequently hijack incoming cargo, raid dock supplies, and pick off stragglers along the shoreline, making them the primary local threat to goblin trade."
+  },
+  {
+   "q": "Who is Yeh'kinya?",
+   "aliases": [
+    "yehkinya purpose",
+    "troll in steamwheedle port"
+   ],
+   "answer": "Yeh'kinya is an eccentric troll scholar resting at the port. He enlists daring adventurers to travel abroad, capturing spiritual essences such as screechers from Feralas to research forgotten, primordial rituals."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The port is an invaluable depot for parts and supplies imported directly from Kezan, making it a natural hub of gossip and schematics for tinkerers."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The constant friction between goblin merchants and the nearby Southsea Pirates creates lucrative opportunities for pickpockets, scouts, and recovery contracts."
+  }
+ ],
+ "keywords": [
+  "gadgetzan harbor",
+  "kezan trade",
+  "lost rigger cove",
+  "southsea pirates",
+  "steamwheedle port",
+  "tanaris docks",
+  "yeh'kinya"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:gadgetzan",
+  "topic:steamwheedle-cartel",
+  "subzone:lost-rigger-cove",
+  "npc:yeh-kinya",
+  "topic:pirate",
+  "subzone:south-seas",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Steamwheedle Port"
+ ]
+}

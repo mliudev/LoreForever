@@ -1,0 +1,118 @@
+{
+ "key": "npc:daphne-stilwell",
+ "type": "npc",
+ "name": "Daphne Stilwell",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Daphne Stilwell",
+  "refs": 3
+ },
+ "summary": "Daphne Stilwell tends an isolated orchard nestled atop the coastal cliffs of Westfall overlooking the Longshore. Together with her husband Jordan, she fled turmoil in the north and relocated south, quietly aiding the Church of the Holy Light while defending her home from nearby outlaws.",
+ "sections": [
+  {
+   "title": "A Life on the Cliffs",
+   "body": "Perched on the bluffs to the west of Moonbrook and the exit of the Deadmines, Daphne Stilwell manages a secluded homestead and apple orchard. From below along the Longshore or above on gryphon routes south to Stranglethorn Vale, the small farm looks quiet and unassuming. Yet running a homestead in modern Westfall is anything but safe. Despite the encroaching bandits and roaming scavengers, Daphne diligently works her trees and keeps watch over her isolated patch of land.",
+   "spoiler": 0
+  },
+  {
+   "title": "Refugees of the North",
+   "body": "Before settling in the hills of Westfall, Daphne and her husband Jordan lived in Lordaeron near Pyrewood Village, working in what is now Shadowfang Keep. When darkness and disaster overtook the region, they were driven southward along with thousands of other human refugees. In Stormwind's orbit, Jordan's renowned craftsmanship and Daphne's steady presence led them to forge close ties with the Church of the Holy Light, providing support and holy arms to paladins of the Silver Hand.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defending the Farm",
+   "body": "Living so close to the Deadmines puts Daphne square in the path of the Defias Brotherhood. While Jordan travels or labors on forging holy weaponry outside the capital, Daphne is frequently left to maintain their coastal home alone. When brigands raided the farmstead seeking retribution or plunder, Daphne picked up arms and fought alongside aspiring paladins sent by the Cathedral, proving herself remarkably fierce and capable in the heat of battle.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Daphne Stilwell?",
+   "aliases": [
+    "who is daphne",
+    "daphne stilwell info",
+    "stilwell wife"
+   ],
+   "answer": "Daphne Stilwell is a human homesteader living in an isolated farmhouse above Westfall's Longshore. She is the wife of the famed blacksmith Jordan Stilwell, with whom she escaped the devastated northern kingdoms."
+  },
+  {
+   "q": "Where did Daphne come from?",
+   "aliases": [
+    "daphne origin",
+    "where is daphne from",
+    "is daphne gilnean"
+   ],
+   "answer": "Daphne previously lived in the north near Pyrewood Village and worked at what is now known as Shadowfang Keep before calamity drove her and Jordan southward to the lands of Stormwind."
+  },
+  {
+   "q": "Why is her farm attacked by the Defias Brotherhood?",
+   "aliases": [
+    "why do defias attack daphne",
+    "defias farm attack",
+    "stilwell farm bandits"
+   ],
+   "answer": "Her farm sits on the cliffs directly overlooking the southern waters of Westfall, right above the exit tunnels of the Deadmines. Its proximity to the Defias stronghold makes it an easy target for outlaws looking to raid supplies or remove meddlers."
+  },
+  {
+   "q": "What is Daphne's connection to paladins?",
+   "aliases": [
+    "paladin quest daphne",
+    "tome of valor daphne",
+    "why do paladins visit daphne"
+   ],
+   "answer": "Her husband Jordan aids the Church of the Holy Light by forging sanctified weapons. As part of their trials for the Tome of Valor, paladins of the Silver Hand are dispatched to Westfall to safeguard Daphne from bandit attacks."
+  },
+  {
+   "q": "Can Daphne defend herself?",
+   "aliases": [
+    "does daphne fight",
+    "is daphne a warrior"
+   ],
+   "answer": "Yes. When the Defias assault her orchard, she does not cower; she draws a weapon and directly battles the attackers alongside any paladins defending the homestead."
+  },
+  {
+   "q": "How do you reach her farmhouse?",
+   "aliases": [
+    "where is daphne farm",
+    "how to get to stilwell farm",
+    "daphne stilwell location"
+   ],
+   "answer": "Her farm is tucked on the clifftops of south-western Westfall, situated southwest of Moonbrook near the Deadmines secret cove exit overlooking the Longshore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Daphne Stilwell is a vital figure in the trials of the Tome of Valor; defending her from ruthless Defias marauders proves a paladin's devotion to protecting the innocent."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Stilwells embody the plight of displaced northern refugees who continue to serve the Alliance and the Church of the Holy Light despite the perils of the Westfall frontier."
+  }
+ ],
+ "keywords": [
+  "daphne stilwell",
+  "defias brotherhood",
+  "jordan stilwell",
+  "longshore",
+  "orchard",
+  "pyrewood village",
+  "shadowfang keep",
+  "tome of valor",
+  "westfall"
+ ],
+ "related": [
+  "npc:jordan-stilwell",
+  "quest:1649",
+  "zone:westfall",
+  "subzone:longshore",
+  "topic:defias-brotherhood",
+  "topic:church-of-the-holy-light",
+  "zone:shadowfang",
+  "zone:deadmines"
+ ],
+ "attribution": [
+  "Daphne Stilwell"
+ ]
+}

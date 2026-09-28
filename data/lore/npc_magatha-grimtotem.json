@@ -1,0 +1,128 @@
+{
+ "key": "npc:magatha-grimtotem",
+ "type": "npc",
+ "name": "Magatha Grimtotem",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "wiki": "Magatha Grimtotem",
+  "refs": 4
+ },
+ "summary": "Magatha Grimtotem is the matriarch of the Grimtotem tribe and the Elder Crone of Thunder Bluff. A formidable shaman and political schemer, she resides on Elder Rise while continually challenging Cairne Bloodhoof's vision for the tauren nation.",
+ "sections": [
+  {
+   "title": "The Matriarch of Elder Rise",
+   "body": "Magatha rose to absolute authority over the Grimtotem through an arranged union followed by the sudden, fatal climbing accident of her mate. Operating from Elder Rise with her personal retinue and bodyguards, she stands as the undisputed political and spiritual leader of her reclusive tribe. Unlike Cairne Bloodhoof, Magatha preaches tauren dominance, viewing other mortal races as intruders upon Kalimdor who ought to be eradicated or swept aside.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Curious Alliance",
+   "body": "Despite her open disdain for non-tauren, Magatha was among the earliest advocates for admitting the Forsaken into the Horde. She claims the tauren can teach the undead spiritual balance and guide them toward reclaiming their humanity. In practice, however, Magatha collaborates directly with the Royal Apothecary Society beneath Thunder Bluff, consulting figures like Apothecary Zamah on practical alchemy and arcane relic studies.",
+   "spoiler": 0
+  },
+  {
+   "title": "Political Machinations",
+   "body": "Behind a facade of wise counsel, Magatha actively works to weaken Cairne's authority while testing the defenses of potential threats. She dispatches adventurers into deep hazards\u2014from probing trogg forces in Ragefire Chasm to hunting down the vengeful spirit Arikara. Every task she assigns serves to either consolidate Grimtotem leverage or prepare for the day she can supplant the Bloodhoof dynasty entirely.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Magatha Grimtotem?",
+   "aliases": [
+    "magatha backstory",
+    "who is the elder crone",
+    "elder crone thunder bluff"
+   ],
+   "answer": "Magatha is the elder crone and matriarch of the Grimtotem tribe. A gifted shaman since childhood, she assumed total rule of her clan following her husband's suspicious death. She resides on Elder Rise in Thunder Bluff, where she serves as Cairne Bloodhoof's primary political rival."
+  },
+  {
+   "q": "Why does Magatha support the Forsaken?",
+   "aliases": [
+    "magatha and undead",
+    "why magatha likes forsaken",
+    "magatha apothecary zamah"
+   ],
+   "answer": "Ostensibly, Magatha believes tauren traditions and shamanic understanding can guide the Forsaken back toward humanity. However, many suspect her friendship with the Royal Apothecary Society is driven by a desire for esoteric alchemical secrets and political allies outside Cairne's loyal inner circle."
+  },
+  {
+   "q": "What is Magatha's relationship with Cairne Bloodhoof?",
+   "aliases": [
+    "magatha vs cairne",
+    "does magatha hate cairne",
+    "cairne and magatha"
+   ],
+   "answer": "Magatha views Cairne as soft, naive, and unfit to lead the united tauren. While Cairne advocates coexistence within the Horde and peace across Kalimdor, Magatha believes the Grimtotem should reclaim ancestral lands by force and eliminate foreign intruders."
+  },
+  {
+   "q": "What was the mission in Ragefire Chasm?",
+   "aliases": [
+    "magatha ragefire quest",
+    "why magatha sent maur",
+    "lost satchel magatha"
+   ],
+   "answer": "Magatha sent an emissary named Maur into Ragefire Chasm beneath Orgrimmar to negotiate with the resident troggs. The troggs killed Maur instead, prompting Magatha to send Horde adventurers into the cavern to retrieve Maur's satchel and butcher the troggs in retribution."
+  },
+  {
+   "q": "Who is Arikara?",
+   "aliases": [
+    "serpent of vengeance",
+    "arikara quest",
+    "magatha arikara"
+   ],
+   "answer": "Arikara is a vengeful wind serpent spirit said to seek retribution against the tauren people. Magatha claims Arikara seeks vengeance directly against Cairne Bloodhoof and tasks capable champions with using enchanted agave to summon and slay the beast."
+  },
+  {
+   "q": "Where can Magatha Grimtotem be found?",
+   "aliases": [
+    "magatha location",
+    "where is magatha",
+    "magatha elder rise"
+   ],
+   "answer": "Magatha resides inside the large main tent atop Elder Rise in Thunder Bluff, attended by her servant Rahauro and two stoic Grimtotem guards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Every tauren knows of the Grimtotem's dark reputation, making Magatha's presence on Elder Rise an uneasy reminder of the ideological divide threatening their united tribes."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken travelers find a surprisingly warm reception from the Elder Crone, who actively consults the Royal Apothecary Society in the Pools of Vision."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Magatha is undeniably one of the most powerful shamans on Kalimdor, commanding primal elements with an authority few living tauren can rival."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While Magatha offers valuable aid and council against regional threats, her fierce clan loyalty and open contempt for other races make her an untrustworthy comrade."
+  }
+ ],
+ "keywords": [
+  "arikara",
+  "bloodhoof",
+  "cairne",
+  "elder crone",
+  "elder rise",
+  "grimtotem",
+  "magatha",
+  "ragefire",
+  "thunder bluff",
+  "zamah"
+ ],
+ "related": [
+  "npc:cairne-bloodhoof",
+  "topic:grimtotem-tribe",
+  "subzone:elder-rise",
+  "quest:1063",
+  "quest:1064",
+  "quest:5088",
+  "quest:5722",
+  "quest:853"
+ ],
+ "attribution": [
+  "Magatha Grimtotem"
+ ]
+}

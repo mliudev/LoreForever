@@ -1,0 +1,125 @@
+{
+ "key": "quest:1838",
+ "type": "quest",
+ "name": "Brutal Armor",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1838
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Thun'grim Firegaze",
+  "end": "",
+  "previous": "Speak with Thun'grim",
+  "next": "Brutal Hauberk (quest), Orm Stonehoof and the Brutal Helm, Ula'elek and the Brutal Gauntlets, Velora Nitely and the Brutal Legguards",
+  "wiki": "Brutal Armor",
+  "chain": []
+ },
+ "summary": "Brutal Armor is a Horde warrior rite of passage overseen by the near-blind smith Thun'grim Firegaze in the northern Barrens. Seeking to craft armor worthy of a rising champion, Thun'grim sends seasoned warriors across distant lands to gather rare reagents and exotic smelting agents. Fulfilling his scroll begins the forging of a complete set of brutal battle gear.",
+ "sections": [
+  {
+   "title": "A Master's Calling",
+   "body": "Perched along the craggy hills of the northern Barrens, the veteran orc smith Thun'grim Firegaze listens closely to the winds of war. Though his eyesight is failing and clouded, his reputation at the forge remains unmatched. Having heard rumors of a warrior whose strength and valor outpace ordinary soldiers, Thun'grim decides to craft an enduring set of mail that can withstand the harshest clashes of Kalimdor and the Eastern Kingdoms.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Cross-Continental Search",
+   "body": "Forging armor of this caliber requires far more than common ore. Struggling by firelight with weak eyes, Thun'grim pens an exacting scroll detailing the components required for the core chestpiece. The task demands common refined iron alongside rare smoky iron ingots carried by burrowing kobolds, powdered azurite worked by miners across the sea, and a volatile vial of phlogiston. Only a warrior willing to endure far-flung trials can hope to see the suit brought to life.",
+   "spoiler": 0
+  },
+  {
+   "title": "The First Strike of the Hammer",
+   "body": "Delivering these rare supplies is only the start of Thun'grim's vision. Upon accepting the materials and firing his furnace to forge the Brutal Hauberk, the old smith recognizes that one artisan alone cannot finish such an ambitious armory. Creating the full set demands calling upon expert craftsmen of the other Horde races\u2014a Tauren helm-shaper, a Troll gauntlet-maker, and an Undead greave-smith across the continents.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thun'grim Firegaze?",
+   "aliases": [
+    "who is thungrim",
+    "thun'grim firegaze lore",
+    "thungrim backstory"
+   ],
+   "answer": "Thun'grim Firegaze is an esteemed veteran orc blacksmith dwelling on a hill overlooking the northern Barrens. Despite his failing vision, his instincts at the anvil are sharp, and he crafts powerful, custom battle plate for Horde warriors who have earned renown through acts of valor."
+  },
+  {
+   "q": "What is Brutal Armor?",
+   "aliases": [
+    "what is brutal armor",
+    "brutal armor set lore",
+    "warrior armor chain"
+   ],
+   "answer": "Brutal Armor is a celebrated set of battle-forged mail designed specifically for seasoned Horde warriors. Crafted through the collective expertise of Horde smiths, each piece requires dangerous journeys to secure rare alchemical reagents, purified ores, and ancient techniques."
+  },
+  {
+   "q": "Why does Thun'grim need such unusual ingredients?",
+   "aliases": [
+    "why powdered azurite",
+    "why phlogiston",
+    "what are the reagents for"
+   ],
+   "answer": "Standard iron is too brittle to withstand the heavy blows dealt to a frontline champion. Exotic reagents like powdered azurite, smoky iron ingots, and volatile phlogiston are used as flux and tempering agents, allowing Thun'grim to infuse the metal with immense resilience and strength."
+  },
+  {
+   "q": "Does Thun'grim forge the entire set himself?",
+   "aliases": [
+    "does thungrim make all of it",
+    "who makes the brutal armor pieces"
+   ],
+   "answer": "No. Thun'grim creates the central hauberk himself, but he directs the warrior to fellow artisan smiths throughout the Horde\u2014including Orm Stonehoof, Ula'elek, and Velora Nitely\u2014to craft the matching helm, gauntlets, and legguards."
+  },
+  {
+   "q": "Where does this quest chain lead next?",
+   "aliases": [
+    "what comes after brutal armor",
+    "brutal armor follow up"
+   ],
+   "answer": "Completing this trial leads directly into the forging of the Brutal Hauberk, while opening up avenues to consult smiths in Thunder Bluff, the Echo Isles, and the Undercity to assemble the rest of the brutal battle plate."
+  },
+  {
+   "q": "Why does a warrior have to travel so far for these materials?",
+   "aliases": [
+    "why travel to eastern kingdoms",
+    "why so many materials"
+   ],
+   "answer": "The trial is both a test of martial tenacity and a lesson in resourcefulness. Proving worthy of master-forged armor requires a warrior to navigate enemy territory, delve into hazardous mines, and gather components beyond ordinary reach."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This quest represents a defining milestone for Horde warriors, proving their valor and endurance across multiple continents to earn custom-forged battle armor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Brutal Armor suits are a testament to Horde solidarity, uniting the distinct craft traditions of Orc, Tauren, Troll, and Forsaken smiths into one battle set."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Thun'grim's scroll demonstrates advanced metallurgical alchemy, blending smoky iron, powdered azurite, and phlogiston to elevate standard iron smelting."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brutal armor",
+  "brutal hauberk",
+  "phlogiston",
+  "powdered azurite",
+  "smoky iron ingot",
+  "thun'grim firegaze",
+  "warrior quest"
+ ],
+ "related": [
+  "quest:1825",
+  "quest:1502",
+  "zone:barrens",
+  "topic:horde",
+  "topic:kobold"
+ ],
+ "attribution": [
+  "Brutal Armor"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "npc:narain-soothfancy",
+ "type": "npc",
+ "name": "Narain Soothfancy",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Narain Soothfancy",
+  "refs": 2
+ },
+ "summary": "Narain Soothfancy is an eccentric gnome dwelling in a secluded beach hut just north of Steamwheedle Port in Tanaris. While he loudly advertises himself as a master soothsayer capable of divining the future, those who know him consider his psychic talents a complete farce compared to his genuine engineering genius.",
+ "sections": [
+  {
+   "title": "Psychic Visions and Practical Gearing",
+   "body": "Perched on the eastern coast of Tanaris just north of the goblin docks, Narain Soothfancy lives as a retired engineer turned self-proclaimed master fortune teller. He routinely greets visitors by pressing unopened envelopes against his forehead or making wildly inaccurate guesses about their business, such as wondering if they have arrived seeking the legendary Ashbringer. Despite his theatrical charade, Narain possesses deep technical knowledge. Even ancient beings like the blue dragon Azuregos note that while Narain is a terrible psychic, his engineering aptitude is undeniably brilliant. Travelers often find him useful for resetting specialized trade knowledge using his handbook, 'Soothsaying for Dummies.'",
+   "spoiler": 0
+  },
+  {
+   "title": "A Shoreline Crash",
+   "body": "Before settling by Steamwheedle Port, Narain suffered a catastrophic flying machine crash far to the south along Land's End Beach. He survived the wreck thanks to an unexpected rescue, though his eccentric personality and strange obsessions have kept him isolated on the desert shores, tinkering with arcane-adjacent technology and peddling dubious prophecies to anyone who passes by.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Narain Soothfancy?",
+   "aliases": [
+    "narain soothfancy lore",
+    "who is narain",
+    "tanaris psychic gnome"
+   ],
+   "answer": "Narain Soothfancy is a retired gnome engineer residing in Tanaris north of Steamwheedle Port. He advertises himself as a master soothsayer, though his divinations are famously inaccurate."
+  },
+  {
+   "q": "Is Narain actually a psychic?",
+   "aliases": [
+    "can narain see the future",
+    "is narain psychic",
+    "soothfancy fortune teller"
+   ],
+   "answer": "No. Powerful acquaintances like the dragon Azuregos openly describe him as an awful psychic. His true talent lies in masterwork engineering and tinkering, regardless of his theatrical attempts at mind-reading."
+  },
+  {
+   "q": "What is the book 'Soothsaying for Dummies' beside him?",
+   "aliases": [
+    "soothsaying for dummies",
+    "narain tradeskill book"
+   ],
+   "answer": "It is a practical manual kept by Narain that allows adventurers to unlearn and relearn specialized trade knowledge, bypassing his absurd psychic theatrics."
+  },
+  {
+   "q": "How does Narain know Azuregos?",
+   "aliases": [
+    "narain and azuregos",
+    "blue dragon narain"
+   ],
+   "answer": "Narain is an old associate of the blue dragon Azuregos, who wanders Azshara. Despite Narain's bizarre pretensions, the dragon respects his unmatched engineering and crafting capabilities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will find Narain's wild inventions fascinating, even if he prefers to pretend his mechanical triumphs are actually mystical visions."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Narain exemplifies the eccentric extreme of gnomish ingenuity, pairing brilliant technological problem-solving with bizarre, obsessive hobbies."
+  }
+ ],
+ "keywords": [
+  "azuregos",
+  "engineer",
+  "narain",
+  "soothfancy",
+  "soothsayer",
+  "steamwheedle port",
+  "tanaris"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:steamwheedle-port",
+  "subzone:land-s-end-beach",
+  "npc:azuregos",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Narain Soothfancy"
+ ]
+}

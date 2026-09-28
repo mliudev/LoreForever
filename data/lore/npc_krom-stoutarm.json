@@ -1,0 +1,112 @@
+{
+ "key": "npc:krom-stoutarm",
+ "type": "npc",
+ "name": "Krom Stoutarm",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Krom Stoutarm",
+  "refs": 3
+ },
+ "summary": "Krom Stoutarm is a dwarven scholar and warlock found deep within the Library of the Hall of Explorers in Ironforge. Unlike most of his kin who delve solely into ancient stone and titan relics, Krom studies darker, arcane texts and demonic rituals. He acts as an indispensable contact for Alliance warlocks seeking esoteric knowledge across Kalimdor and the Eastern Kingdoms.",
+ "sections": [
+  {
+   "title": "A Darker Corner of the Hall",
+   "body": "The Hall of Explorers is typically known for dwarven archaeologists obsessed with picks, shovels, and titan artifacts. Krom Stoutarm cuts an unusual figure among them. Lurking in the Library surrounded by massive tomes, he pursues occult lore and the binding rites of demonic summoners. His presence in Ironforge demonstrates that while warlock arts are widely distrusted, scholar-practitioners who study the forbidden arts still operate within the mountain city's halls.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Tome of the Cabal",
+   "body": "When Alliance warlocks seek to bind potent demonic servants like the felhunter, their journey inevitably crosses paths with Krom. Possessing knowledge of scattered occult volumes, he directs aspiring summoners far across the seas\u2014including dangerous forays into hostile territories like the Barrens\u2014to recover torn pages and fragments of the infamous Tome of the Cabal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Krom Stoutarm?",
+   "aliases": [
+    "krom stoutarm location",
+    "where is krom stoutarm",
+    "krom stoutarm ironforge"
+   ],
+   "answer": "Krom Stoutarm is located inside the Library wing of the Hall of Explorers in the dwarven capital of Ironforge."
+  },
+  {
+   "q": "What role does Krom Stoutarm play for players?",
+   "aliases": [
+    "what does krom do",
+    "krom stoutarm purpose",
+    "krom stoutarm quests"
+   ],
+   "answer": "Krom serves as a crucial quest contact for Alliance warlocks pursuing their class-defining demonic rituals, particularly guiding them through the retrieval of the Tome of the Cabal."
+  },
+  {
+   "q": "Is Krom Stoutarm related to other Stoutarms?",
+   "aliases": [
+    "krom relatives",
+    "sten stoutarm related"
+   ],
+   "answer": "He shares his surname with Sten Stoutarm and Borgus Stoutarm, suggesting kinship within the Stoutarm clan, though his pursuits are markedly more arcane and occult than those of his kin."
+  },
+  {
+   "q": "Why is a warlock permitted inside the Hall of Explorers?",
+   "aliases": [
+    "why is krom in hall of explorers",
+    "ironforge warlock allowed"
+   ],
+   "answer": "While demonic arts are viewed with intense suspicion, the Explorers' League values ancient knowledge and historical manuscripts. Krom operates as a specialist researcher in esoteric texts within the Library, keeping his magical studies grounded in scholarly inquiry."
+  },
+  {
+   "q": "Why is Krom connected to the Barrens?",
+   "aliases": [
+    "krom stoutarm barrens",
+    "why barrens quest krom"
+   ],
+   "answer": "In his research into dark manuscripts, Krom sends warlocks to retrieve lost segments of the Tome of the Cabal, with one such critical piece hidden in a chest deep within the Quillboar-infested lands of the Barrens."
+  },
+  {
+   "q": "Does Krom Stoutarm train spells?",
+   "aliases": [
+    "can krom train me",
+    "krom warlock trainer"
+   ],
+   "answer": "Krom is a scholarly quest giver rather than a standard class trainer. He directs warlocks along specific rites of passage rather than teaching everyday grimoires."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Alliance warlocks must consult Krom during their pursuit of dark bindings, notably the dangerous task of assembling the Tome of the Cabal."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarves usually disown the fell arts, making Krom's position among the revered shelves of the Hall of Explorers a curious rarity."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Krom provides the Alliance's covert practitioners a safe intellectual haven within Ironforge's mighty mountain bastions."
+  }
+ ],
+ "keywords": [
+  "hall of explorers",
+  "ironforge",
+  "krom stoutarm",
+  "library",
+  "stoutarm",
+  "tome of the cabal",
+  "warlock"
+ ],
+ "related": [
+  "quest:1758",
+  "subzone:library-ironforge",
+  "subzone:hall-of-explorers",
+  "zone:ironforge",
+  "npc:sten-stoutarm",
+  "zone:barrens",
+  "topic:dwarf",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Krom Stoutarm"
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "key": "quest:1221",
+ "type": "quest",
+ "name": "Blueleaf Tubers",
+ "era": "classic",
+ "zone": "razorfenkraul",
+ "meta": {
+  "ids": [
+   1221
+  ],
+  "level": "26",
+  "faction": null,
+  "start": "Mebok Mizzyrix",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Blueleaf Tubers",
+  "chain": []
+ },
+ "summary": "Blueleaf Tubers is a retrieval contract commissioned by the goblin merchant Mebok Mizzyrix in Ratchet. Seeking to profit from a rare subterranean delicacy, Mizzyrix equips adventurers with trained snufflenose gophers to locate and dig up the tubers buried inside the thorned depths of Razorfen Kraul.",
+ "sections": [
+  {
+   "title": "A Prized Subterranean Delicacy",
+   "body": "Blueleaf tubers are coveted across the world as a rare and lavish culinary delicacy. Despite their high value, harvesting them is notoriously difficult because they do not grow in open fields or standard wild groves. Instead, they are found almost exclusively deep in the sunless earth beneath the southern Barrens, tangled among the labyrinthine roots of Razorfen Kraul.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mizzyrix's Ingenuity",
+   "body": "Because the tubers remain completely buried and virtually impossible for ordinary humanoids to spot, the Ratchet merchant Mebok Mizzyrix devised an unusual solution. By training native snufflenose gophers\u2014creatures capable of catching the scent of a buried tuber from fifty paces away\u2014Mizzyrix turned vermin into foraging tools. He supplies scavengers with a command stick, a ventilated crate, and an instruction manual to guide the creatures through quillboar territory.",
+   "spoiler": 0
+  },
+  {
+   "title": "Harvesting in the Thorns",
+   "body": "Reclaiming the tubers requires delving into the territory of the hostile Death's Head quillboar tribe. Foragers must protect their trained gophers from the feral beasts and thorny briars of the Kraul, commanding the rodents to unearth the hidden bulbs before packing them away for transport back to Ratchet, where Mizzyrix's high-paying foreign buyers await.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Blueleaf Tubers used for?",
+   "aliases": [
+    "blueleaf tuber use",
+    "what are blueleaf tubers",
+    "why collect blueleaf tubers"
+   ],
+   "answer": "They are considered a rare and highly sought-after culinary delicacy around the world. Wealthy buyers pay significant sums for fresh tubers, making them a lucrative trade commodity for goblins like Mebok Mizzyrix."
+  },
+  {
+   "q": "Where are Blueleaf Tubers found?",
+   "aliases": [
+    "where to find blueleaf tubers",
+    "blueleaf tubers location",
+    "where do they grow"
+   ],
+   "answer": "They grow buried in the subterranean earth and thorny root systems beneath the southern Barrens, specifically inside the quillboar stronghold of Razorfen Kraul."
+  },
+  {
+   "q": "Why do you need a Snufflenose Gopher to find them?",
+   "aliases": [
+    "why use gophers",
+    "snufflenose gopher purpose",
+    "how do gophers find tubers"
+   ],
+   "answer": "The tubers are hidden entirely underground and cannot be spotted with ordinary eyesight. The snufflenose gopher has a keen sense of smell that can detect buried tubers from up to fifty paces away, allowing it to dig them out of the dirt."
+  },
+  {
+   "q": "Who is Mebok Mizzyrix?",
+   "aliases": [
+    "who gives blueleaf tubers quest",
+    "mebok mizzyrix lore",
+    "ratchet goblin questgiver"
+   ],
+   "answer": "Mebok Mizzyrix is an entrepreneurial goblin merchant operating out of the neutral port town of Ratchet in the Barrens. He specializes in training native wildlife and acquiring exotic goods for foreign trade."
+  },
+  {
+   "q": "What equipment does Mizzyrix provide for the job?",
+   "aliases": [
+    "tuber quest items",
+    "gopher command stick",
+    "crate with holes"
+   ],
+   "answer": "Mizzyrix gives adventurers a Crate with Holes containing a trained gopher, a Snufflenose Command Stick used to direct the animal to dig, and a Snufflenose Owner's Manual outlining how to operate the beast."
+  },
+  {
+   "q": "Why can't Mebok gather the tubers himself?",
+   "aliases": [
+    "why doesnt mebok get them",
+    "why hire adventurers"
+   ],
+   "answer": "Razorfen Kraul is heavily guarded by aggressive quillboar tribes, thorny vines, and dangerous subterranean predators. Mizzyrix prefers risking mercenary lives over venturing into the dangerous barrows himself."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary artisans know that blueleaf tubers are regarded as one of the rarest delicacies across Azeroth, fetched by elite buyers who prize their distinct, earthy flavor."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Unlike standard surface flora, blueleaf tubers thrive strictly underground amidst the briar roots of Razorfen, shielded from sunlight."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance expeditions entering the neutral port of Ratchet can take advantage of Mizzyrix's trade contract to justify a delve into hostile Horde-adjacent territory."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde warriors defending the Barrens from quillboar incursions can easily turn a profit on the side by running Mizzyrix's trained gophers through the Kraul."
+  }
+ ],
+ "keywords": [
+  "blueleaf tubers",
+  "command stick",
+  "delicacy",
+  "mebok mizzyrix",
+  "quillboar",
+  "ratchet",
+  "razorfen kraul",
+  "snufflenose gopher",
+  "the barrens"
+ ],
+ "related": [
+  "npc:mebok-mizzyrix",
+  "zone:razorfenkraul",
+  "subzone:ratchet",
+  "zone:barrens",
+  "topic:razorfen",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Blueleaf Tubers"
+ ]
+}

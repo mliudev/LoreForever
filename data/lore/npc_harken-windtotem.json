@@ -1,0 +1,80 @@
+{
+ "key": "npc:harken-windtotem",
+ "type": "npc",
+ "name": "Harken Windtotem",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Harken Windtotem",
+  "refs": 1
+ },
+ "summary": "Harken Windtotem is a tauren huntsman residing in Bloodhoof Village in Mulgore. Dedicated to the traditions of his people, he tasks young hunters and travelers with proving their tracking and foraging skills across the golden plains.",
+ "sections": [
+  {
+   "title": "Huntsman of Bloodhoof",
+   "body": "Situated near the heart of Bloodhoof Village, Harken Windtotem serves as an instructor and guide for those learning the hunting ways of the tauren. Life on the plains of Mulgore demands respect for the natural world alongside the practical skill to sustain one's tribe. Harken evaluates young adventurers by directing them to hunt the native swoops that circle the mesas, collecting their quills to gauge a hunter's patience, aim, and ability to harvest without waste.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Harken Windtotem?",
+   "aliases": [
+    "harken windtotem lore",
+    "who is harken"
+   ],
+   "answer": "Harken is a tauren hunter living in Bloodhoof Village in central Mulgore. He guides travelers and fledgling adventurers in learning the fundamental tracking and hunting traditions of the tauren."
+  },
+  {
+   "q": "Where can Harken Windtotem be found?",
+   "aliases": [
+    "harken location",
+    "where is harken windtotem"
+   ],
+   "answer": "Harken is stationed in Bloodhoof Village, a settlement situated south of Thunder Bluff along the shores of Stonebull Lake in central Mulgore."
+  },
+  {
+   "q": "What tasks does Harken give to adventurers?",
+   "aliases": [
+    "harken windtotem quests",
+    "swoop hunting quest"
+   ],
+   "answer": "He offers the task Swoop Hunting, asking hunters to venture into the grasslands of Mulgore to bring down wild swoops and gather their sturdy flight quills."
+  },
+  {
+   "q": "Is Harken related to Bovan Windtotem?",
+   "aliases": [
+    "is harken related to bovan",
+    "bovan windtotem relation"
+   ],
+   "answer": "They share the Windtotem clan name, suggesting a tribal kinship or family connection, though Harken remains focused on local village hunts in Mulgore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Harken Windtotem embodies the ancestral tauren philosophy of hunting: proving discipline and self-sufficiency on the plains while honoring the beasts of the Earth Mother."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "For wilderness trackers passing through Bloodhoof Village, Harken's task of bringing down airborne swoops provides an essential early test of marksmanship and quarry collection."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "harken windtotem",
+  "mulgore",
+  "swoop hunting",
+  "tauren",
+  "windtotem"
+ ],
+ "related": [
+  "subzone:bloodhoof-village",
+  "quest:761",
+  "zone:mulgore",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Harken Windtotem"
+ ]
+}

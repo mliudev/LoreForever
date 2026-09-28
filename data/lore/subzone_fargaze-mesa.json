@@ -1,0 +1,77 @@
+{
+ "key": "subzone:fargaze-mesa",
+ "type": "subzone",
+ "name": "Fargaze Mesa",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Fargaze Mesa"
+ },
+ "summary": "Fargaze Mesa is a high peak situated in southwestern Mulgore, directly overlooking Camp Narache and the surrounding plains. Held sacred by the shu'halo, it serves as a secluded sanctuary where tauren spiritwalkers commune with ancestral spirits. It also acts as a natural vantage point that guides young adventurers departing Red Cloud Mesa for the wider homeland.",
+ "sections": [
+  {
+   "title": "A Sacred Vantage",
+   "body": "Rising sharply to the west of Camp Narache, Fargaze Mesa offers sweeping views across the rolling savannah of Mulgore. A winding path leads up from the hunting grounds below to a quiet stone ring near the summit. The peak is revered as holy ground by the tauren, drawing spiritwalkers like Ussoh who sit within the stones to listen to the whispers of ancient ancestors. Alongside its spiritual role, the mesa marks an important milestone for young braves: figures like Dyami Windsoar wait along its heights to help emerging travelers take their first steps down into the greater world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Fargaze Mesa used for?",
+   "aliases": [
+    "purpose of fargaze mesa",
+    "why visit fargaze mesa",
+    "fargaze mesa role"
+   ],
+   "answer": "Fargaze Mesa is both a sacred ceremonial site and a lookout point. Tauren spiritwalkers come here to commune with the spirits of ancestors within an elevated stone ring, while guides like Dyami Windsoar use the vantage to direct young tauren leaving Red Cloud Mesa into Mulgore proper."
+  },
+  {
+   "q": "How do you reach Fargaze Mesa?",
+   "aliases": [
+    "path to fargaze mesa",
+    "how to get to fargaze mesa",
+    "fargaze mesa access"
+   ],
+   "answer": "A winding mountain path leads to the summit, beginning just west of Camp Narache on Red Cloud Mesa."
+  },
+  {
+   "q": "Who lives on or visits Fargaze Mesa?",
+   "aliases": [
+    "npcs on fargaze mesa",
+    "who is on fargaze mesa",
+    "spiritwalkers fargaze"
+   ],
+   "answer": "Dyami Windsoar resides on the mesa to guide young braves, alongside Spiritwalker Ussoh, who meditates within the sacred stone circle to connect with the spirit realm."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the shu'halo, Fargaze Mesa is a solemn place where the veil between the physical realm and ancestral spirits is remarkably thin, making it a sacred site of contemplation."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Spiritwalkers favor Fargaze Mesa's open sky and quiet stone ring for communion with the ancestors, making it an inspiring stop for those devoted to spiritual guidance."
+  }
+ ],
+ "keywords": [
+  "ancestors",
+  "camp narache",
+  "dyami windsoar",
+  "fargaze mesa",
+  "mulgore",
+  "red cloud mesa",
+  "spiritwalker ussoh",
+  "spiritwalkers"
+ ],
+ "related": [
+  "subzone:camp-narache",
+  "subzone:red-cloud-mesa",
+  "zone:mulgore",
+  "topic:tauren",
+  "subzone:thornmantle-s-hideout"
+ ],
+ "attribution": [
+  "Fargaze Mesa"
+ ]
+}

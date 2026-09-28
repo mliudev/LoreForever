@@ -1,0 +1,74 @@
+{
+ "key": "subzone:mirkfallon-lake",
+ "type": "subzone",
+ "name": "Mirkfallon Lake",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Mirkfallon Lake"
+ },
+ "summary": "Mirkfallon Lake sits in a central highland basin in the Stonetalon Mountains, nestled beneath the sheer cliffs of Windshear Crag. Its waters and surrounding banks teem with native wildlife, including aggressive slimes, roaming thunder lizards, and descending wyverns.",
+ "sections": [
+  {
+   "title": "A Highland Basin",
+   "body": "Positioned at the geographic center of the Stonetalon range, Mirkfallon Lake rests between the mountain passes leading south toward the Webwinder Path and north toward Cliffwalker Post and Stonetalon Peak. Fed by highland runoff, the lake offers a fertile oasis amidst the craggy peaks, drawing thunder lizards down to drink and wyverns from their roosts high above. The waters are also inhabited by strange, bubbling slimes, turning an otherwise serene mountain tarn into a hazardous crossing for lone travelers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crossroads of the Crag",
+   "body": "Paths crisscross the lake basin in all directions. To the east, rocky tracks ascend into Windshear Crag and the logging operations running deep into the forested valleys. Travelers pressing north past the lake climb toward night elven sanctums and tauren heights, while those skirting south must contend with venomous spider hollows. As a result, the shores of Mirkfallon Lake often serve as an unpredictable crossing point for explorers and scouts navigating the contested mountains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures live around Mirkfallon Lake?",
+   "aliases": [
+    "mirkfallon lake beasts",
+    "mirkfallon wildlife",
+    "what is at mirkfallon lake"
+   ],
+   "answer": "The lake and its shoreline are home to roaming thunder lizards, noxious ooze slimes in the shallow waters, and mountain wyverns that hunt around the surrounding basin and nest in the heights overhead."
+  },
+  {
+   "q": "Where does the lake lead?",
+   "aliases": [
+    "mirkfallon paths",
+    "where does mirkfallon go",
+    "mirkfallon lake directions"
+   ],
+   "answer": "Climbing north leads past Cliffwalker Post toward Stonetalon Peak. Heading south descends through Webwinder Path, while the rocky ascents to the east wind up into Windshear Crag."
+  },
+  {
+   "q": "Is Mirkfallon Lake safe to fish in?",
+   "aliases": [
+    "fishing mirkfallon lake",
+    "can i fish in mirkfallon"
+   ],
+   "answer": "The lake is rich with sagefish and floating salvage, making it tempting for anglers. However, aggressive beasts such as slimes and wyverns frequent the shoreline, making undisturbed fishing difficult."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The wild beasts around Mirkfallon Lake represent the delicate balance of Stonetalon's wilderness, situated uncomfortably close to the encroaching mechanical axes in the crag above."
+  }
+ ],
+ "keywords": [
+  "mirkfallon",
+  "mirkfallon lake",
+  "stonetalon lake",
+  "stonetalon thunder lizards",
+  "windshear lake"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "subzone:windshear-crag",
+  "subzone:webwinder-path",
+  "subzone:cliffwalker-post",
+  "subzone:stonetalon-peak"
+ ],
+ "attribution": [
+  "Mirkfallon Lake"
+ ]
+}

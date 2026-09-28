@@ -1,0 +1,91 @@
+{
+ "key": "subzone:darkspear-isle",
+ "type": "subzone",
+ "name": "Darkspear Isle",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Darkspear Isle"
+ },
+ "summary": "Darkspear Isle is the largest landmass among the Echo Isles off the southeastern coast of Durotar. Originally settled by the Darkspear trolls following their exodus from the South Seas, it currently languishes under the dark hexes of the traitorous witch doctor Zalazane.",
+ "sections": [
+  {
+   "title": "A Lost Sanctuary",
+   "body": "When Sen'jin fell in the Darkspear Islands and Thrall offered the survivors refuge in Kalimdor, the Darkspear tribe sought a home of their own along the coast of Durotar. They settled the Echo Isles, establishing their primary villages across the archipelago with the largest island as their heart. That refuge was shattered when one of their own prominent witch doctors, Zalazane, went mad with power. Using twisted voodoo, Zalazane enslaved the minds of his fellow tribesfolk, forcing Chieftain Vol'jin and the free Darkspear to flee to the mainland at Sen'jin Village. Today, the island crawls with Zalazane's thralls, savage beasts, and dark rituals.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reclaiming the Isles",
+   "body": "From the mainland shores, Vol'jin and his remaining advisors direct strikes against the island to disrupt Zalazane's influence and put their enchanted brethren to rest. The Darkspear refuse to abandon their rightful home to a madman. Horde scouts and young warriors regularly cross the water to recover fallen relics, eliminate Zalazane's practitioners, and prepare for the day the tribe can finally purge the traitor and retake their islands for good.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why don't the Darkspear live on the island right now?",
+   "aliases": [
+    "why echo isles abandoned",
+    "why did trolls leave",
+    "darkspear isle empty"
+   ],
+   "answer": "The witch doctor Zalazane betrayed Chieftain Vol'jin, using powerful dark magic to drive many of the tribesfolk mad and bend them to his will. Vol'jin led the remaining free trolls across the water to Sen'jin Village on the mainland of Durotar to regroup."
+  },
+  {
+   "q": "Who is Zalazane?",
+   "aliases": [
+    "who is zalazane",
+    "traitor troll zalazane"
+   ],
+   "answer": "Zalazane was once a respected witch doctor among the Darkspear tribe. He betrayed his people by tapping into dark voodoo to strip his brethren of their free will, taking command of the Echo Isles and declaring himself master of the islands."
+  },
+  {
+   "q": "Is Darkspear Isle part of the Echo Isles?",
+   "aliases": [
+    "darkspear isle echo isles difference",
+    "is darkspear isle in echo isles"
+   ],
+   "answer": "Yes. Darkspear Isle is the largest and central landmass within the tropical archipelago known as the Echo Isles, located just off the southeastern shore of Durotar."
+  },
+  {
+   "q": "What can you find on the island currently?",
+   "aliases": [
+    "what is on darkspear isle",
+    "mobs on darkspear isle"
+   ],
+   "answer": "The island is currently overrun by Zalazane's hexed troll thralls, aggressive raptors, coastal hexstriders, and hostile tiger and beast populations, along with Zalazane's inner circle of dark practitioners."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "The Echo Isles represent the sanctuary promised to your people by Thrall after the fall of Sen'jin. Seeing your kin enslaved by Zalazane's dark voodoo on your own soil makes reclaiming this island a personal matter of tribal honor."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Darkspear are vital allies in Durotar, and Zalazane's rebellion threatens the security of Durotar's southern coastline. Helping Vol'jin strike at the island stabilizes the young Horde's homeland."
+  }
+ ],
+ "keywords": [
+  "darkspear isle",
+  "darkspear tribe",
+  "durotar",
+  "echo isles",
+  "sen'jin village",
+  "vol'jin",
+  "voodoo",
+  "zalazane"
+ ],
+ "related": [
+  "subzone:echo-isles",
+  "topic:darkspear-tribe",
+  "npc:vol-jin",
+  "quest:826",
+  "quest:808",
+  "zone:durotar",
+  "topic:horde",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Darkspear Isle"
+ ]
+}

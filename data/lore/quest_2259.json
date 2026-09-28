@@ -1,0 +1,124 @@
+{
+ "key": "quest:2259",
+ "type": "quest",
+ "name": "Erion Shadewhisper",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   2259
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Jannok Breezesong",
+  "end": "Erion Shadewhisper",
+  "previous": null,
+  "next": "Erion's Behest",
+  "wiki": "Erion Shadewhisper (quest)",
+  "chain": [
+   "Erion Shadewhisper (quest)",
+   "Erion's Behest"
+  ]
+ },
+ "summary": "Erion Shadewhisper is a straightforward summons sending emerging Alliance rogues into Darnassus. Delivered by Jannok Breezesong, the message directs travelers to the Cenarion Enclave where Erion awaits to push their efforts beyond local borders.",
+ "sections": [
+  {
+   "title": "A Summons to the Enclave",
+   "body": "When a rogue makes a name for themselves in the surrounding lands of Teldrassil, Jannok Breezesong steps in to ensure their talents do not go to waste. Relieving any anxious thoughts about being sent to the exacting trainer Syurna, Jannok instead directs the agent straight into the heart of Darnassus. There, deep within the verdant boughs of the Cenarion Enclave, Erion Shadewhisper oversees matters that require a quieter, more subtle touch.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes on the Horizon",
+   "body": "Reaching Erion marks an important turning point for any rogue operating in night elf territory. His greeting makes it clear that the sheltering forests of Teldrassil can no longer contain an agent's responsibilities. Erion's role is to direct capable hands outward into a wider, more dangerous world, acting as a springboard toward assignments across the sea.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to find Erion Shadewhisper?",
+   "aliases": [
+    "quest giver",
+    "who starts erion shadewhisper",
+    "jannok breezesong quest"
+   ],
+   "answer": "Jannok Breezesong issues the summons, telling you to head into Darnassus immediately to speak with Erion Shadewhisper at the Cenarion Enclave."
+  },
+  {
+   "q": "Where is Erion Shadewhisper located?",
+   "aliases": [
+    "erion location",
+    "where is erion",
+    "where to find erion shadewhisper"
+   ],
+   "answer": "Erion Shadewhisper is located in the Cenarion Enclave in Darnassus, found nestled among the trees on the enclave's upper tiers."
+  },
+  {
+   "q": "Why does Jannok mention Syurna?",
+   "aliases": [
+    "who is syurna",
+    "why not syurna",
+    "jannok syurna line"
+   ],
+   "answer": "Syurna is a prominent rogue trainer in Darnassus known for her sternness and demanding training. Jannok makes a lighthearted quip reassuring you that you are not in trouble or being hauled in for her rigorous lessons."
+  },
+  {
+   "q": "What happens after reporting to Erion?",
+   "aliases": [
+    "what next",
+    "erion follow up",
+    "quest after erion shadewhisper"
+   ],
+   "answer": "Upon completing your report, Erion gives you his next task in the quest Erion's Behest, sending you out of Teldrassil to broaden your operational reach in Kalimdor."
+  },
+  {
+   "q": "What kind of work does Erion oversee?",
+   "aliases": [
+    "is erion a rogue trainer",
+    "erion shadewhisper role",
+    "what does erion do"
+   ],
+   "answer": "Erion coordinates operations and directs fledgling rogues within Darnassus, acting as a handler who connects local agents to broader missions across the Alliance network."
+  },
+  {
+   "q": "Why is a rogue handler stationed in the Cenarion Enclave?",
+   "aliases": [
+    "cenarion enclave rogue",
+    "why druid area for rogue"
+   ],
+   "answer": "While the Cenarion Enclave is primarily known for druids and nature worship, its sprawling, shadowed trees provide ample seclusion for stealthier operatives to gather and conduct business away from the Temple of the Moon."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This breadcrumb quest signifies your transition out of novice work on Teldrassil, pointing you directly to Erion Shadewhisper for missions that demand finesse beyond the starting forests."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For night elf shadow-stalkers, reporting to Erion in Darnassus is an essential rite of passage, transitioning from local warding to wider continental duties."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The quest directs Alliance operatives in northern Kalimdor to coordinate with Darnassus handlers before venturing out into contested territory."
+  }
+ ],
+ "keywords": [
+  "cenarion enclave",
+  "darnassus",
+  "erion shadewhisper",
+  "erion's behest",
+  "jannok breezesong",
+  "rogue breadcrumb",
+  "syurna"
+ ],
+ "related": [
+  "quest:2260",
+  "npc:jannok-breezesong",
+  "subzone:cenarion-enclave",
+  "zone:darnassus",
+  "npc:syurna"
+ ],
+ "attribution": [
+  "Erion Shadewhisper (quest)"
+ ]
+}

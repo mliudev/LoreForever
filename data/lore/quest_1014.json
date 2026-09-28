@@ -1,0 +1,122 @@
+{
+ "key": "quest:1014",
+ "type": "quest",
+ "name": "Arugal Must Die",
+ "era": "classic",
+ "zone": "shadowfang",
+ "meta": {
+  "ids": [
+   1014
+  ],
+  "level": "27",
+  "faction": "Horde",
+  "start": "Dalar Dawnweaver",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Arugal Must Die",
+  "chain": []
+ },
+ "summary": "Arugal Must Die is a decisive Horde mission issued by Dalar Dawnweaver at the Sepulcher. It tasks brave champions with storming Shadowfang Keep to slay the rogue archmage Archmage Arugal and claim his severed head. Eliminating Arugal is critical for Lady Sylvanas Windrunner to break the worgen menace and secure Silverpine Forest for the Forsaken.",
+ "sections": [
+  {
+   "title": "A Thorn in the Dark Lady's Side",
+   "body": "While the Forsaken have carved out a base in the Sepulcher, Silverpine Forest remains treacherous and deeply contested. Perched high upon the cliffs overlooking the woods sits Shadowfang Keep, the lair of Archmage Arugal. Driven mad by guilt and dark sorcery, Arugal unleashed the feral worgen upon Lordaeron. His ravenous beasts roam the forest paths, directly hindering Lady Sylvanas Windrunner's efforts to establish a fortified strategic hold over the region.",
+   "spoiler": 0
+  },
+  {
+   "title": "Striking the Beast at the Neck",
+   "body": "Dalar Dawnweaver recognizes that merely hunting wandering beasts in the forest will never cleanse the land. The heart of the corruption beats within Shadowfang Keep itself. Horde champions must breach the ancient stronghold, fight through Arugal's devoted worgen brood, and confront the mad wizard in his aerie. Bringing his head back to the Sepulcher finally shatters his magical hold over the region, clearing the way for Forsaken supremacy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Dalar Dawnweaver want Arugal dead?",
+   "aliases": [
+    "why kill arugal",
+    "dalar dawnweaver goal",
+    "arugal target"
+   ],
+   "answer": "Dalar Dawnweaver acts under the orders of the Dark Lady. Arugal's worgen overrun Silverpine Forest, making it impossible for the Forsaken to turn the region into a secure strategic stronghold until the mad mage is slain."
+  },
+  {
+   "q": "Where can Arugal be found?",
+   "aliases": [
+    "where is arugal",
+    "arugal location",
+    "find arugal"
+   ],
+   "answer": "Archmage Arugal resides at the very peak of Shadowfang Keep, a grim fortress looming over southern Silverpine Forest."
+  },
+  {
+   "q": "What proof is required to complete the mission?",
+   "aliases": [
+    "what does dalar need",
+    "arugal head quest",
+    "proof of death"
+   ],
+   "answer": "Dalar Dawnweaver requires tangible proof of the wizard's demise: champions must retrieve and present the severed Head of Arugal."
+  },
+  {
+   "q": "What threat does Arugal pose to the Horde?",
+   "aliases": [
+    "why is arugal dangerous",
+    "worgen threat silverpine",
+    "is arugal a threat"
+   ],
+   "answer": "Beyond his potent offensive magics, Arugal commands legions of cursed worgen that harass Horde forces and threaten Forsaken control throughout Silverpine Forest."
+  },
+  {
+   "q": "Who does Dalar Dawnweaver serve?",
+   "aliases": [
+    "who does dawnweaver work for",
+    "sepulcher leadership"
+   ],
+   "answer": "Dalar Dawnweaver serves Lady Sylvanas Windrunner and the Forsaken, operating out of the Sepulcher to consolidate Forsaken control across Lordaeron."
+  },
+  {
+   "q": "What happens after Arugal is defeated?",
+   "aliases": [
+    "after arugal dies",
+    "result of arugal death"
+   ],
+   "answer": "With Arugal's death, his foul magical grip over Silverpine is broken, allowing the Forsaken to expand their dominance across western Lordaeron without fear of his coordinated worgen packs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, eliminating Arugal secures their southwestern border and ensures the safety of routes connecting the Sepulcher to the Undercity."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Taking down Arugal demonstrates the Horde's growing martial reach in the Eastern Kingdoms, breaking an entrenched wizard and freeing vital roads."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Confronting Arugal serves as a cautionary tale of arcane hubris, pitting practitioners of the magical arts against a Kirin Tor mage warped by otherworldly summons."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "dalar dawnweaver",
+  "head of arugal",
+  "sepulcher",
+  "shadowfang keep",
+  "silverpine",
+  "sylvanas",
+  "worgen"
+ ],
+ "related": [
+  "npc:arugal",
+  "npc:dalar-dawnweaver",
+  "zone:shadowfang",
+  "zone:silverpine",
+  "subzone:sepulcher",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Arugal Must Die"
+ ]
+}

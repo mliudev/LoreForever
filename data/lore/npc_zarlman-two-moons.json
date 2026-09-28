@@ -1,0 +1,114 @@
+{
+ "key": "npc:zarlman-two-moons",
+ "type": "npc",
+ "name": "Zarlman Two-Moons",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Zarlman Two-Moons",
+  "refs": 3
+ },
+ "summary": "Zarlman Two-Moons is a revered tauren mystic residing in Bloodhoof Village in central Mulgore. While Baine Bloodhoof oversees the village's daily earthly affairs, Zarlman guides its spiritual life and communions with the spirits. He plays a vital role in initiating young tauren into adulthood through the sacred Rite of Vision.",
+ "sections": [
+  {
+   "title": "Keeper of the Unseen",
+   "body": "Within Bloodhoof Village, leadership is divided between the physical and the mystical. Baine Bloodhoof commands the settlement's defense and temporal needs, but it is Zarlman Two-Moons who maintains the harmony of the spirit world. In a culture deeply rooted in reverence for the Earth Mother and ancestral wisdom, Zarlman serves as a conduit between the everyday struggles of the plains and the timeless voices of the past.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Rite of Vision",
+   "body": "Zarlman's most crucial duty to his people is administering the Rite of Vision, a traditional trial every maturing tauren must undertake. By guiding initiates to prepare sacred draughts and listen closely to ancestral portents, he helps young hunters, shamans, and warriors discover their destined path and spirit guides. Under his instruction, initiates learn that physical strength on the plains means little without spiritual clarity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zarlman Two-Moons?",
+   "aliases": [
+    "who is zarlman",
+    "zarlman two moons lore",
+    "who is the shaman in bloodhoof"
+   ],
+   "answer": "Zarlman Two-Moons is a prominent tauren mystic stationed in Bloodhoof Village. While Baine Bloodhoof handles temporal leadership and the town's practical defense, Zarlman watches over the settlement's spiritual well-being and guides young adventurers through ancient tribal traditions."
+  },
+  {
+   "q": "What is Zarlman's role in Bloodhoof Village?",
+   "aliases": [
+    "zarlman job",
+    "zarlman purpose",
+    "bloodhoof village mystic"
+   ],
+   "answer": "Zarlman oversees spiritual affairs, ancestral communion, and cultural rites for the residents of Bloodhoof Village. He complements Baine Bloodhoof's physical leadership by ensuring the tribe remains in balance with nature spirits and their ancestors."
+  },
+  {
+   "q": "What is the Rite of Vision?",
+   "aliases": [
+    "rite of vision quest",
+    "what is the vision rite",
+    "tauren vision quest"
+   ],
+   "answer": "The Rite of Vision is a traditional rite of passage for young tauren passing through Mulgore. Guided by Zarlman, initiates drink a ritual concoction that opens their spiritual sight, allowing them to follow visions and receive guidance from nature spirits."
+  },
+  {
+   "q": "Where can Zarlman Two-Moons be found?",
+   "aliases": [
+    "where is zarlman",
+    "zarlman location",
+    "how to find zarlman"
+   ],
+   "answer": "Zarlman Two-Moons is located in Bloodhoof Village, situated in the center of Mulgore just south of Stonebull Lake."
+  },
+  {
+   "q": "How does Zarlman relate to Baine Bloodhoof?",
+   "aliases": [
+    "baine and zarlman",
+    "zarlman relation to baine"
+   ],
+   "answer": "Zarlman works alongside Baine Bloodhoof as a spiritual counterpart. While Baine leads the village in physical and martial matters, Zarlman provides mystical wisdom and watches over the tribe's spiritual balance."
+  },
+  {
+   "q": "Why is the Rite of Vision important to young tauren?",
+   "aliases": [
+    "why do rite of vision",
+    "rite of vision importance"
+   ],
+   "answer": "The Rite of Vision is essential for every tauren coming of age. It marks the transition from unproven youth to an acknowledged member of the tribe, revealing their inner spirit guide and cementing their bond with the Earth Mother."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren adventurers, Zarlman is an essential guide who helps you complete the sacred rites of your youth and awaken your spiritual sight."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Zarlman exemplifies the classical tauren tradition of shamanism, balancing communion with the spirits alongside practical tribal leadership."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Stationed in Mulgore's central hub, Zarlman introduces newly arrived Horde allies to the deep spiritual customs that shape tauren culture."
+  }
+ ],
+ "keywords": [
+  "bloodhoof",
+  "mulgore",
+  "rite",
+  "shaman",
+  "spirits",
+  "tauren",
+  "two-moons",
+  "village",
+  "vision",
+  "zarlman"
+ ],
+ "related": [
+  "subzone:bloodhoof-village",
+  "npc:baine-bloodhoof",
+  "quest:767",
+  "zone:mulgore",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Zarlman Two-Moons"
+ ]
+}

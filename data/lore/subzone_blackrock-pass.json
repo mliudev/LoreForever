@@ -1,0 +1,71 @@
+{
+ "key": "subzone:blackrock-pass",
+ "type": "subzone",
+ "name": "Blackrock Pass",
+ "era": "classic",
+ "zone": "burningsteppes",
+ "meta": {
+  "wiki": "Blackrock Pass"
+ },
+ "summary": "Blackrock Pass is a mountain corridor connecting the northern cliffs of Redridge Mountains to the arid wastes of the Burning Steppes. Passing beneath a heavy iron gate, it marks the sudden threshold between the tranquil human heartlands and the dangerous war grounds of the Dark Iron dwarves and the Blackrock orcs. For any weary traveler journeying north on foot, it represents a harsh and perilous frontier.",
+ "sections": [
+  {
+   "title": "A Scorched Threshold",
+   "body": "Carved into the jagged spine of the mountains, Blackrock Pass serves as the overland route between Redridge Mountains and the Burning Steppes. A stout iron gate stands along the rocky boundary, demarcating the idyllic forests and lakes of the southern valleys from the volcanic ruin beyond. Crossing this line leaves behind the pastoral lands protected by Lakeshire's beleaguered militia, thrusting travelers into an open wasteland populated by fire elementals, dragonkin, and hostile orc warbands. Few make the crossing on foot unless bound for the shadow of Blackrock Mountain itself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Blackrock Pass lead?",
+   "aliases": [
+    "where does blackrock pass go",
+    "blackrock pass destination",
+    "path from redridge to burning steppes"
+   ],
+   "answer": "Blackrock Pass connects the northern border of Redridge Mountains directly into the southern perimeter of the Burning Steppes. It is one of the direct overland gateways linking the southern Alliance territories to the foothills of Blackrock Mountain."
+  },
+  {
+   "q": "Is it safe for travelers from Lakeshire to cross the pass?",
+   "aliases": [
+    "can i go through blackrock pass",
+    "is blackrock pass dangerous",
+    "level requirement blackrock pass"
+   ],
+   "answer": "No. The lands immediately north of the pass are far more lethal than the surrounding hills of Redridge. The Burning Steppes are filled with ferocious Blackrock orcs, giant fire elementals, and black whelps, making it extraordinarily hazardous for low-level adventurers and common wayfarers."
+  },
+  {
+   "q": "Who controls Blackrock Pass?",
+   "aliases": [
+    "who owns blackrock pass",
+    "guards at blackrock pass",
+    "faction control blackrock pass"
+   ],
+   "answer": "Neither Stormwind nor the Horde holds full control over the pass. It remains a contested, sparsely fortified chokepoint flanked by encroaching Blackrock orcs and wild beasts, monitored with deep dread by the Redridge town guards down below."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For the defenders of Redridge and the Kingdom of Stormwind, Blackrock Pass is a perpetual source of dread, as it offers the Blackrock orcs a straight path south into human lands."
+  }
+ ],
+ "keywords": [
+  "blackrock orcs",
+  "blackrock pass",
+  "burning steppes",
+  "frontier",
+  "gate",
+  "lakeshire",
+  "redridge mountains"
+ ],
+ "related": [
+  "zone:burningsteppes",
+  "zone:redridge",
+  "subzone:blackrock-mountain",
+  "subzone:redridge-pass"
+ ],
+ "attribution": [
+  "Blackrock Pass"
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "key": "quest:1076",
+ "type": "quest",
+ "name": "Devils in Westfall",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1076
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Collin Mauren",
+  "end": "",
+  "previous": "A Scroll from Mauren",
+  "next": null,
+  "wiki": "Devils in Westfall",
+  "chain": []
+ },
+ "summary": "\"Devils in Westfall\" is an Alliance errand undertaken for Collin Mauren in the Mage Quarter of Stormwind. Tasked with aiding an eccentric experiment by the gnome inventor Gaxim Rustfizzle, adventurers are sent into the desolate plains of Westfall to gather volatile debris from living dust devils. The collected dust provides the raw magical component needed to enchant a specialized messaging scroll.",
+ "sections": [
+  {
+   "title": "A Messenger's Components",
+   "body": "The wizard Collin Mauren is assisting the tinkerer Gaxim Rustfizzle with an unusual venture, but arcane work requires specialized reagents. To enchant a scroll capable of carrying Gaxim's desired messaging spell, Mauren cannot rely on simple ink and vellum alone. The swirling elemental magic trapped within Westfall's native dust devils provides the exact volatile medium needed to bind the spell into parchment form.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Elemental Wastes",
+   "body": "Westfall was once the fertile breadbasket of Stormwind, but drought, banditry, and neglect have left the land arid and wild. Swirling dust devils now roam the untamed fields, posing a hazard to travelers and lone homesteaders alike. By defeating one of these living whirlwinds and gathering its residue, adventurers retrieve the focused elemental essence required to bring the mage's enchantment to life.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Collin Mauren?",
+   "aliases": [
+    "collin mauren",
+    "who is the quest giver",
+    "mage in stormwind"
+   ],
+   "answer": "Collin Mauren is a human mage residing in the Mage Quarter of Stormwind. He works alongside other spellcasters in the city and occasionally assists outside researchers, such as the gnome engineer Gaxim Rustfizzle, by preparing enchanted scrolls and arcane components."
+  },
+  {
+   "q": "Why does Collin Mauren need dust devil debris?",
+   "aliases": [
+    "why dust devil debris",
+    "what is dust devil debris for",
+    "why go to westfall"
+   ],
+   "answer": "Mauren needs the debris to enchant a specialized messaging scroll for Gaxim Rustfizzle. The residual elemental energy contained within the dust devil's remains provides the necessary arcane affinity to impress the messaging spell onto parchment."
+  },
+  {
+   "q": "Where are dust devils found?",
+   "aliases": [
+    "dust devil location",
+    "where are dust devils",
+    "westfall dust devils"
+   ],
+   "answer": "Dust devils roam throughout the dry plains and barren fields of Westfall, particularly across the dusty stretches between neglected farmsteads south of the Sentinel Hill road."
+  },
+  {
+   "q": "Who is Gaxim Rustfizzle?",
+   "aliases": [
+    "gaxim",
+    "gaxim rustfizzle",
+    "who is gaxim"
+   ],
+   "answer": "Gaxim Rustfizzle is an ambitious gnome inventor involved in esoteric engineering projects. Collin Mauren assists him by drafting enchanted scrolls to facilitate his experiments."
+  },
+  {
+   "q": "What happens after bringing the debris to Mauren?",
+   "aliases": [
+    "quest reward",
+    "what comes next",
+    "after devils in westfall"
+   ],
+   "answer": "Once supplied with the debris, Mauren weaves the messaging enchantment into a completed scroll and instructs you to return it to Gaxim so the gnome can continue his experiments."
+  },
+  {
+   "q": "Are dust devils magical or natural creatures?",
+   "aliases": [
+    "are dust devils elementals",
+    "dust devil lore"
+   ],
+   "answer": "Dust devils are minor air and earth elementals that manifest as living whirlwinds of sand and grit, thriving in the parched, unsettled landscape of modern Westfall."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, gathering dust devil remains illustrates the practical craft of enchanting: capturing wild elemental resonance to bind complex communication spells into physical scrolls."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The entire errand stems from Gaxim Rustfizzle's tinkerings, underscoring how often advanced engineering projects must integrate arcane scrollcraft to solve communication hurdles."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Venturing between the civilized towers of Stormwind and the ruined, neglected soils of Westfall highlights the stark divide between the capital's comfort and the kingdom's crumbling frontier."
+  }
+ ],
+ "keywords": [
+  "collin mauren",
+  "dust devil",
+  "dust devil debris",
+  "gaxim rustfizzle",
+  "mage quarter",
+  "messaging spell",
+  "scroll",
+  "stormwind",
+  "westfall"
+ ],
+ "related": [
+  "npc:collin-mauren",
+  "quest:1075",
+  "zone:westfall",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Devils in Westfall"
+ ]
+}

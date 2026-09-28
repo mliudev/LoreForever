@@ -1,0 +1,87 @@
+{
+ "key": "subzone:broken-tusk",
+ "type": "subzone",
+ "name": "Broken Tusk",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Broken Tusk"
+ },
+ "summary": "The Broken Tusk is the bustling main tavern in Orgrimmar's Valley of Strength. Sitting right at the crossroads of the city's gates, bank, and auction house, it provides weary Horde champions with hearth, drink, and a place to rest. It is also famously home to the hapless tauren Gamon.",
+ "sections": [
+  {
+   "title": "Heart of the Valley",
+   "body": "Situated directly within the Valley of Strength, the Broken Tusk serves as the primary gathering place for travelers freshly arriving through Orgrimmar's massive front gates. Inside its timber-and-hide walls, patrons share grog, trade rumors from Durotar and the Barrens, and listen to traditional orcish songs of valor and sacrifice echoing over the din. Its central location beside the city's trade hub makes it perpetually crowded with adventurers binding their hearthstones before marching out to battle.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gamon's Misfortune",
+   "body": "Among the merchants, bartenders, and rowdy patrons, the tavern's most recognizable permanent resident is Gamon. This solitary tauren quietly nurses his drinks, but his presence regularly draws the ire and drunken rowdiness of fellow Horde members. Rogues frequently target him to practice their sleight of hand, and brawlers test their strength against him, making his tenure at the tavern a remarkably dangerous one.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Broken Tusk located?",
+   "aliases": [
+    "broken tusk location",
+    "where is the orgrimmar inn",
+    "valley of strength inn"
+   ],
+   "answer": "The Broken Tusk sits in the Valley of Strength, just inside the main southern gates of Orgrimmar. It is located directly across from the bank and auction house."
+  },
+  {
+   "q": "Who is Gamon and why does everyone attack him?",
+   "aliases": [
+    "who is gamon",
+    "gamon tavern",
+    "why attack gamon"
+   ],
+   "answer": "Gamon is a quiet tauren patron who stays inside the Broken Tusk. Because he is flagged neutral to Horde players and carries no faction guards to his defense, bored adventurers and rowdy brawlers regularly rough him up. Aspiring Horde rogues also target his pockets to hone their pickpocketing skills."
+  },
+  {
+   "q": "What services does the tavern provide?",
+   "aliases": [
+    "what can i do here",
+    "broken tusk services"
+   ],
+   "answer": "The tavern functions as a major rest area where adventurers can set their hearthstone with the innkeeper, purchase food and strong drink, or log out rested amidst the bustle of the capital city."
+  },
+  {
+   "q": "What kinds of songs are sung here?",
+   "aliases": [
+    "broken tusk songs",
+    "inn music",
+    "lok'vadnod"
+   ],
+   "answer": "Patrons and bards inside the Broken Tusk often sing lok'vadnods\u2014traditional orcish songs celebrating the heroic deeds and heritage of great warriors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As the foremost tavern greeting new arrivals through the Great Gate of Orgrimmar, the Broken Tusk is an indispensable landmark for setting hearthstones and meeting fellow champions of the Horde."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The tavern's unfortunate patron, Gamon, serves as a classic early mark for Horde rogues learning to pick pockets in the safety of friendly territory."
+  }
+ ],
+ "keywords": [
+  "broken tusk",
+  "durotar",
+  "gamon",
+  "inn",
+  "innkeeper",
+  "orgrimmar",
+  "tavern",
+  "valley of strength"
+ ],
+ "related": [
+  "subzone:valley-of-strength",
+  "zone:orgrimmar"
+ ],
+ "attribution": [
+  "Broken Tusk"
+ ]
+}

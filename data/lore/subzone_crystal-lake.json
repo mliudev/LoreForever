@@ -1,0 +1,91 @@
+{
+ "key": "subzone:crystal-lake",
+ "type": "subzone",
+ "name": "Crystal Lake",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Crystal Lake"
+ },
+ "summary": "Crystal Lake is a body of water lying just east of Goldshire in the heart of Elwynn Forest. While once a peaceful spot, its shores have been overrun by aggressive murlocs, turning it into a frequent hazard for local villagers and passing travelers.",
+ "sections": [
+  {
+   "title": "A Troubled Shore",
+   "body": "Situated within walking distance of Lion's Pride Inn, Crystal Lake should be an idyllic rural retreat, but it is plagued by dangerous wildlife. Tribes of freshwater murlocs have claimed the shoreline and shallow shoals, attacking anyone who strays too close. Local alchemist William Pestle frequently hires passing adventurers to venture to the water's edge, directing them to defeat the creatures and harvest the crystal kelp they carry for use in his experimental concoctions.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Silent Island",
+   "body": "Resting quietly in the center of the lake is a tiny, isolated islet. Solitary and overgrown, it bears a simple grave marked with the tender inscription: 'Deeply missed, never forgotten.' The identity of whoever rests beneath the soil remains unrecorded in town ledgers, providing a somber mystery amidst the surrounding croaks of the shoreline murlocs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Crystal Lake located?",
+   "aliases": [
+    "crystal lake location",
+    "where is crystal lake",
+    "find crystal lake"
+   ],
+   "answer": "Crystal Lake lies directly east of the crossroads town of Goldshire in central Elwynn Forest, easily reached by walking past the outskirts of the village."
+  },
+  {
+   "q": "Why are murlocs gathered at Crystal Lake?",
+   "aliases": [
+    "why murlocs crystal lake",
+    "murloc problem goldshire",
+    "crystal lake murlocs"
+   ],
+   "answer": "Like many waterways in Elwynn Forest, Crystal Lake provides a natural freshwater habitat where murlocs can nest and forage. Their numbers have swelled close to Goldshire due to the strained resources of Stormwind's local guard."
+  },
+  {
+   "q": "Whose grave is on the island in the lake?",
+   "aliases": [
+    "crystal lake grave",
+    "tombstone on island elwynn",
+    "who is buried at crystal lake"
+   ],
+   "answer": "The grave marker on the central island reads only 'Deeply missed, never forgotten.' There is no name etched upon the stone, leaving the identity of the person buried there an enduring local mystery."
+  },
+  {
+   "q": "What do adventurers need from Crystal Lake?",
+   "aliases": [
+    "william pestle crystal lake",
+    "kelp quest crystal lake",
+    "invisibility potion elwynn"
+   ],
+   "answer": "William Pestle, an apothecary working out of Lion's Pride Inn in Goldshire, contracts adventurers to slay the murlocs along the shore to gather crystal kelp, which he requires for an invisibility potion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "The freshwater shallows harbor Crystal Kelp, though it is primarily gathered directly from the resident murlocs who harvest it from the lake bed."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The murloc infestation so close to Goldshire underscores how thinly stretched the kingdom's military has become in safeguarding its core territories."
+  }
+ ],
+ "keywords": [
+  "crystal kelp",
+  "crystal lake",
+  "elwynn",
+  "goldshire",
+  "grave",
+  "jason mathers",
+  "murloc",
+  "william pestle"
+ ],
+ "related": [
+  "zone:elwynn",
+  "subzone:goldshire",
+  "npc:william-pestle",
+  "topic:murloc",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Crystal Lake"
+ ]
+}

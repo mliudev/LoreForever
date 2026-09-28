@@ -1,0 +1,91 @@
+{
+ "key": "subzone:sanctum-stromgarde-keep",
+ "type": "subzone",
+ "name": "Sanctum (Stromgarde Keep)",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Sanctum (Stromgarde Keep)"
+ },
+ "summary": "The Sanctum is a sacred redoubt tucked behind the chapel within Stromgarde Keep. Sheltered within the crumbling fortress, it guards the entrance to the ancestral Trollbane family crypt and stands as one of the few remaining bastions of the Holy Light amidst Arathi's ruin.",
+ "sections": [
+  {
+   "title": "A Bastion in the Ruins",
+   "body": "While much of Stromgarde Keep has fallen to Syndicate infiltrators and the Boulderfist ogres, the Sanctum and its adjacent chapel have remained under the fierce protection of the surviving Stromgarde defenders. Located behind the house of worship, the Sanctum borders the citadel's graveyard and marks the threshold to the royal crypt where the kings of Stromgarde rest. For the battered loyalists rallying around Prince Galen Trollbane, holding this hallowed ground represents more than a tactical foothold; it is a desperate fight to keep their kingdom's ancestral heritage and faith from being trampled by invaders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Threshold of the Kings",
+   "body": "Beneath the stone flags of the Sanctum lies the passage into the royal tomb. The ground here is consecrated, intended as a place of peaceful reflection and worship of the Holy Light. In the wake of King Thoras Trollbane's murder and the kingdom's subsequent collapse, the Sanctum has instead become a defensive retreat. Those seeking to breach the inner sanctum must contend not only with the royal guards garrisoned throughout the halls, but with the haunting reality of an ancient human lineage clinging to survival on its sacred threshold.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sanctum?",
+   "aliases": [
+    "what is sanctum",
+    "stromgarde sanctum",
+    "sanctum stromgarde keep"
+   ],
+   "answer": "The Sanctum is the inner area behind the Church of Light's chapel within Stromgarde Keep. It adjoins the keep's graveyard and leads directly into the ancestral Trollbane family crypt."
+  },
+  {
+   "q": "Who controls the Sanctum right now?",
+   "aliases": [
+    "who is in the sanctum",
+    "sanctum guards",
+    "who holds the sanctum"
+   ],
+   "answer": "The Sanctum is held by surviving Stromgarde soldiers loyal to the Alliance and Prince Galen Trollbane. Unlike the rest of the ruined city overrun by Syndicate bandits and Boulderfist ogres, the chapel and Sanctum remain under human guard."
+  },
+  {
+   "q": "What lies beyond the Sanctum?",
+   "aliases": [
+    "where does sanctum lead",
+    "sanctum crypt",
+    "what is behind the sanctum"
+   ],
+   "answer": "Past the Sanctum lies the Trollbane family crypt, where the fallen rulers of Stromgarde, including the recently slain King Thoras Trollbane, are entombed."
+  },
+  {
+   "q": "Why is this area important to Stromgarde?",
+   "aliases": [
+    "why care about sanctum",
+    "sanctum significance",
+    "why is sanctum defended"
+   ],
+   "answer": "Beyond serving as a consecrated center of worship for the Holy Light, the Sanctum protects the royal resting place of Stromgarde's kings. For the surviving defenders, surrendering it would mean allowing invaders to desecrate their ancestors' graves."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The chapel and Sanctum represent the last unconsecrated sanctuaries of the Holy Light within the fallen capital of Arathi, making its defense a matter of solemn duty."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Holding the Sanctum ensures the royal line of Trollbane retains a grasp on their ancestral seat, keeping the Alliance presence alive in the contested ruins of Stromgarde."
+  }
+ ],
+ "keywords": [
+  "arathi",
+  "chapel",
+  "church of light",
+  "crypt",
+  "galen",
+  "sanctum",
+  "stromgarde",
+  "trollbane"
+ ],
+ "related": [
+  "subzone:stromgarde-keep",
+  "subzone:crypt-stromgarde-keep",
+  "zone:arathi",
+  "topic:light",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Sanctum (Stromgarde Keep)"
+ ]
+}

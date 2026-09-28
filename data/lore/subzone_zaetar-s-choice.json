@@ -1,0 +1,89 @@
+{
+ "key": "subzone:zaetar-s-choice",
+ "type": "subzone",
+ "name": "Zaetar's Choice",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Zaetar's Choice"
+ },
+ "summary": "Zaetar's Choice is a cavernous crossroads deep within the approach to Maraudon in western Desolace. Named for the demigod Zaetar, progenitor of the centaur race, this junction splits into three paths leading to distinct wings of the sacred underground complex.",
+ "sections": [
+  {
+   "title": "The Fork in the Earth",
+   "body": "Descending through the outer caves of Maraudon brings explorers to Zaetar's Choice, the primary subterranean crossroads before entering the sanctum proper. Marked by contrasting crystal formations and ominous stone carvings, the cavern forks into three distinct routes. The left passageway glows with purple crystal and winds into the Wicked Tunnels toward the Wicked Grotto. To the right, bathed in orange crystal light, lies the route through the Foulspore Pools into Foulspore Cavern. Flanked by massive statues, the central route breaches the Earth Song Gate directly toward the lower falls.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Legacy of Ruin",
+   "body": "The chamber draws its name from Zaetar, son of the demigod Cenarius. Drawn into an unnatural union with Princess Theradras, an elemental power trapped beneath the earth, Zaetar fathered the first centaur. Horrified by the barbaric savagery of their own offspring, Zaetar was slain by his children, leaving Maraudon as both his tomb and the centaur's holiest shrine. Standing at this fork, adventurers stand at the threshold where Kalimdor's balance was torn asunder.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does each path lead from Zaetar's Choice?",
+   "aliases": [
+    "which way to go in maraudon",
+    "maraudon portal directions",
+    "purple or orange side"
+   ],
+   "answer": "The left tunnel, illuminated by purple crystals, routes through the upper Wicked Tunnels to the Wicked Grotto. The right tunnel, gleaming with orange crystals, heads into the Foulspore Pools and Foulspore Cavern. The central gate, flanked by statues, bypasses these outer wings directly toward the Earth Song Falls."
+  },
+  {
+   "q": "Who was Zaetar?",
+   "aliases": [
+    "who is zaetar",
+    "zaetar lore",
+    "zaetar father of centaur"
+   ],
+   "answer": "Zaetar was a keeper of the grove and son of Cenarius. He fell in love with Princess Theradras, the elemental daughter of Therazane. Their union birthed the first centaur, who promptly turned violent and slew Zaetar, entombing his remains deep within Maraudon."
+  },
+  {
+   "q": "Why is this area called a choice?",
+   "aliases": [
+    "why is it called zaetars choice",
+    "zaetar choice meaning"
+   ],
+   "answer": "The name reflects both the literal split in the caverns, where spelunkers must decide whether to delve into the purple Wicked Grotto, the orange Foulspore Cavern, or the central gate, and the tragic historical choice Zaetar made in communing with the earth elemental Theradras."
+  },
+  {
+   "q": "Is Zaetar's Choice safe from enemies?",
+   "aliases": [
+    "are there monsters at zaetars choice",
+    "zaetars choice safe"
+   ],
+   "answer": "While it functions as a staging point for adventurers preparing to enter the inner portals of Maraudon, the outer caverns around it are still prowled by troggs, subterranean oozes, and occasional rare beasts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids, traversing Zaetar's Choice carries a solemn weight; it marks the tragic descent of one of Cenarius's favored sons into ruin, an unnatural liaison that forever blighted the lands of Kalimdor."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Centuries of brutal warfare against the centaur make any site honoring Zaetar deeply resonant for the tauren, whose ancestral struggle originated directly from the sins committed in these caverns."
+  }
+ ],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "earth song gate",
+  "foulspore pools",
+  "maraudon",
+  "wicked tunnels",
+  "zaetar",
+  "zaetar's choice"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:centaur",
+  "subzone:wicked-tunnels",
+  "subzone:foulspore-pools",
+  "subzone:crossroads"
+ ],
+ "attribution": [
+  "Zaetar's Choice"
+ ]
+}

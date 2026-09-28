@@ -1,0 +1,120 @@
+{
+ "key": "quest:6462",
+ "type": "quest",
+ "name": "Troll Charm",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6462
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Mitsuwa",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Troll Charm (quest)",
+  "chain": []
+ },
+ "summary": "Troll Charm is a Horde quest offered by the Darkspear troll Mitsuwa at Zoram'gar Outpost in Ashenvale. After a traveling party of trolls was ambushed and slaughtered by the Thistlefur furbolgs, Mitsuwa asks adventurers to delve into their den to recover sacred talismans stolen from the dead.",
+ "sections": [
+  {
+   "title": "An Ambushed Caravan",
+   "body": "Zoram'gar Outpost serves as a remote western refuge for the Horde on Ashenvale's coast, making travel along the woodland paths fraught with danger. A party of Darkspear trolls journeying toward the post never arrived, having fallen victim to a violent ambush by the territorial Thistlefur tribe of furbolgs. While Mitsuwa accepts the deaths of her kin as an eventual reunion in the afterlife, the desecration and theft of their sacred charms is an intolerable insult.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sacred Trinkets",
+   "body": "In troll culture, charms and talismans are deeply tied to identity, spiritual protection, and connection with the Loa. Mitsuwa considers a troll without her charm to be as hollow and worthless as an orc devoid of battle scars. The Thistlefur furbolgs dragged these purloined artifacts back into Thistlefur Hold, deep within the cave systems past Thistlefur Village, stashing them in chests away from their rightful owners.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest and where are they located?",
+   "aliases": [
+    "quest giver",
+    "where is mitsuwa",
+    "who starts troll charm"
+   ],
+   "answer": "The quest is given by Mitsuwa, a Darkspear troll stationed at Zoram'gar Outpost along the Zoram Strand on the northwestern coast of Ashenvale."
+  },
+  {
+   "q": "Why are the troll charms so important to Mitsuwa?",
+   "aliases": [
+    "charm importance",
+    "why troll charms matter",
+    "significance of charms"
+   ],
+   "answer": "To trolls, sacred charms carry deep spiritual and cultural significance. Mitsuwa compares a troll without her charm to an orc without battle scars, viewing the possession of these relics by hostile furbolgs as an outrageous desecration of her slain kin."
+  },
+  {
+   "q": "Where are the troll charms located?",
+   "aliases": [
+    "charm location",
+    "where are chests",
+    "find charms"
+   ],
+   "answer": "The charms are stored inside chests within Thistlefur Hold, a deep cavern complex located at the northern edge of Thistlefur Village, situated north of the night elf settlement of Astranaar."
+  },
+  {
+   "q": "Who stole the charms?",
+   "aliases": [
+    "who took charms",
+    "ambush culprits"
+   ],
+   "answer": "The Thistlefur furbolgs ambushed and murdered Mitsuwa's kinfolk as they traveled toward Zoram'gar Outpost, looting their belongings and hauling the sacred charms into their caverns."
+  },
+  {
+   "q": "What happened to the trolls who originally carried the charms?",
+   "aliases": [
+    "caravan fate",
+    "slain trolls",
+    "mitsuwa kin"
+   ],
+   "answer": "They were killed by the Thistlefur furbolgs along the trail. Mitsuwa mourns their loss but believes she will eventually reunite with them in the afterlife, prioritizing the retrieval of their sacred relics."
+  },
+  {
+   "q": "Is this quest available to the Alliance?",
+   "aliases": [
+    "alliance troll charm",
+    "can alliance do it"
+   ],
+   "answer": "No. The quest originates at Zoram'gar Outpost and is strictly available to Horde players helping the Darkspear tribe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Recovering the charms is an act of spiritual duty for Darkspear trolls, ensuring sacred ancestral items are rescued from the clutches of savage furbolgs."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Pushing into Thistlefur territory strikes back against woodland threats that ambush Horde supply lines and travelers moving through Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "darkspear",
+  "furbolg",
+  "mitsuwa",
+  "thistlefur hold",
+  "thistlefur village",
+  "troll charm",
+  "zoram'gar outpost"
+ ],
+ "related": [
+  "npc:mitsuwa",
+  "subzone:zoram-gar-outpost",
+  "subzone:thistlefur-hold",
+  "subzone:thistlefur-village",
+  "topic:furbolg",
+  "topic:troll",
+  "zone:ashenvale",
+  "subzone:astranaar"
+ ],
+ "attribution": [
+  "Troll Charm (quest)"
+ ]
+}

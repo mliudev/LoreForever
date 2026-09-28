@@ -1,0 +1,127 @@
+{
+ "key": "quest:2160",
+ "type": "quest",
+ "name": "Supplies to Tannok",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   2160
+  ],
+  "level": "5",
+  "faction": "Alliance",
+  "start": "Hands Springsprocket",
+  "end": "Tannok Frosthammer",
+  "previous": null,
+  "next": null,
+  "wiki": "Supplies to Tannok",
+  "chain": []
+ },
+ "summary": "Supplies to Tannok is an errand entrusted to fledgling adventurers departing Coldridge Valley through the dangerous mountain pass into greater Dun Morogh. The gnome tinkerer Hands Springsprocket sends a crate of needed provisions to Tannok Frosthammer at the Thunderbrew Distillery inn in Kharanos, bypassing the trogg-infested trails that have severed routine trade.",
+ "sections": [
+  {
+   "title": "A Blockaded Valley",
+   "body": "Coldridge Valley is traditionally the proving ground and sanctuary for young Ironforge dwarves and exiled Gnomeregan survivors, but recent events have strained its connection to the rest of Dun Morogh. Trogg incursions have overrun Coldridge Pass, leaving the mountain defile perilous to cross. Mountaineers are spread thin guarding settlements and defensive perimeters, delaying scheduled supply escorts for days on end.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hands and the Innkeeper's Assistant",
+   "body": "Hands Springsprocket, a gnome staying in Anvilmar, found himself saddled with a crate of vital inn supplies meant for Kharanos without any safe way to deliver it personally. Recognizing that hearty adventurers are already preparing to brave the perilous pass, he enlists outward-bound travelers to carry the cargo to Tannok Frosthammer, the assistant at the bustling Thunderbrew inn.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Welcoming Hearth in Kharanos",
+   "body": "Reaching Kharanos marks an adventurer's entry into the broader world of Dun Morogh. Tannok Frosthammer eagerly receives the delivery, noting that word from Anvilmar has been scarce ever since the troggs disrupted travel through the pass. Delivering the goods restores a fragile line of communication and trade between the two isolated dwarf communities.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hands Springsprocket?",
+   "aliases": [
+    "hands springsprocket",
+    "quest giver",
+    "who gives supplies to tannok"
+   ],
+   "answer": "Hands Springsprocket is an enterprising gnome stationed at Anvilmar in Coldridge Valley. Unable to traverse the dangerous mountain pass alone, he relies on capable travelers to transport goods to Kharanos."
+  },
+  {
+   "q": "Who is Tannok Frosthammer?",
+   "aliases": [
+    "tannok",
+    "tannok frosthammer",
+    "kharanos innkeeper assistant"
+   ],
+   "answer": "Tannok Frosthammer is the innkeeper's assistant at the Thunderbrew Distillery in Kharanos. He helps manage local tavern logistics and receives incoming provisions sent from outposts like Anvilmar."
+  },
+  {
+   "q": "Why can't Hands deliver the supplies himself?",
+   "aliases": [
+    "why can't hands deliver it",
+    "why need adventurer",
+    "why is the pass dangerous"
+   ],
+   "answer": "The pass connecting Coldridge Valley to Kharanos has been overrun by hostile troggs. Hands is not equipped to fight his way through alone, and official Mountaineer escorts are heavily delayed."
+  },
+  {
+   "q": "Where is the inn in Kharanos located?",
+   "aliases": [
+    "where is tannok",
+    "thunderbrew distillery location",
+    "kharanos inn location"
+   ],
+   "answer": "Tannok Frosthammer is located inside the Thunderbrew Distillery, the large inn situated right in the center of Kharanos along the main road leading eastward toward Ironforge."
+  },
+  {
+   "q": "What is inside the Crate of Inn Supplies?",
+   "aliases": [
+    "what is in the crate",
+    "crate of inn supplies"
+   ],
+   "answer": "The crate contains essential tavern sundries and provisions gathered in Anvilmar to replenish the stocks at the Thunderbrew inn in Kharanos."
+  },
+  {
+   "q": "Why is communication between Anvilmar and Kharanos cut off?",
+   "aliases": [
+    "why scarce word from anvilmar",
+    "trogg problem pass"
+   ],
+   "answer": "Troggs emerging from subterranean tunnels have flooded Coldridge Pass. Their aggressive presence has severed easy foot travel and regular dispatches between Coldridge Valley and the rest of Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Carrying supplies from Anvilmar to Kharanos marks your rite of passage out of the sheltered valley and into service to the broader kingdom of Ironforge."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Helping Hands Springsprocket demonstrates the reliable cooperation between Gnomeregan exiles and their dwarven hosts in Dun Morogh."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Restoring trade between isolated outposts keeps Ironforge's inland supply lines moving despite wild trogg incursions."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge pass",
+  "hands springsprocket",
+  "kharanos",
+  "supplies to tannok",
+  "tannok frosthammer",
+  "thunderbrew",
+  "troggs"
+ ],
+ "related": [
+  "npc:hands-springsprocket",
+  "npc:tannok-frosthammer",
+  "subzone:kharanos",
+  "subzone:anvilmar",
+  "topic:trogg",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Supplies to Tannok"
+ ]
+}

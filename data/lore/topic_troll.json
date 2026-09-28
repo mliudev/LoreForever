@@ -1,0 +1,126 @@
+{
+ "key": "topic:troll",
+ "type": "topic",
+ "name": "Troll",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Troll"
+ },
+ "summary": "Trolls are among the oldest sentient races native to Azeroth, having arisen around the Well of Eternity long before the Sundering. Renowned for their incredible physical regeneration, worship of primal spirits known as loa, and mastery of voodoo, their fractured empires once ruled vast swaths of the ancient world. Today, while ancient kingdoms like the Gurubashi and Amani remain deeply hostile to outsiders, the Darkspear tribe has found a lasting haven within Thrall's Horde.",
+ "sections": [
+  {
+   "title": "Children of the Wilds",
+   "body": "Long before the Great Sundering shattered ancient Kalimdor, the primal energies of the Well of Eternity nurtured the rise of trollkind. Emerging as savage, highly agile hunter-gatherers, the early trolls possessed a unique physiology that granted them astonishing regenerative powers, allowing them to recover rapidly from grievous wounds and even regrow severed limbs over time. Settling around the sacred mountains of Zandalar, they directed their reverence toward Kalimdor's elusive Wild Gods, whom they called loa. Under the spiritual guidance of shadow hunters and witch doctors, these rituals coalesced into the practice of voodoo and the construction of holy temple peaks like Zuldazar.",
+   "spoiler": 0
+  },
+  {
+   "title": "The War of the Swarm",
+   "body": "Roughly sixteen thousand years ago, curious trolls unwittingly broke an ancient taboo, awakening the C'Thraxxi horror Kith'ix. The beast rallied the aqiri swarms from the underground warrens, threatening to consume all mortal life. Faced with total annihilation, the disparate tribes united under the Zandalari to forge the Empire of Zul. Through relentless guerrilla ambushes and the summoned might of the loa, the trolls drove back the swarms. Driven to eradicate the insectoid threat, mighty tribes branched outward across the continent: the Drakkari seized the frozen north, the Gurubashi battered the aqir in the southwest, and the fierce Amani slew Kith'ix itself, founding their city of Zul'Aman upon the monster's bones.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Fractured Legacy",
+   "body": "With the insect swarms broken and contained, the unity of the Empire of Zul dissolved. Each great faction withdrew into its own sovereign empire, developing distinct cultures, physical traits, and tribal hierarchies adapted to forests, jungles, and frozen wastes. Over millennia of separation, rivalry, and territorial wars against younger races, troll dominion slowly decayed into ruin and insularity. Most remaining troll kingdoms view all other races with fierce, unyielding hostility, clinging bitterly to the ruins of their former greatness. Only the exile jungle trolls of the Darkspear tribe have chosen a new path, joining the Horde alongside orcs and tauren.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can trolls really regenerate lost limbs?",
+   "aliases": [
+    "troll healing",
+    "troll limb regrowth",
+    "how do trolls heal"
+   ],
+   "answer": "Yes. Trolls possess an extraordinary regenerative physiology that allows them to recover from physical trauma at a speed unmatched by most other mortal races. Over time, a troll can even regrow lost fingers and entire limbs, making them exceptionally resilient in battle."
+  },
+  {
+   "q": "What are loa?",
+   "aliases": [
+    "who are loa",
+    "troll gods",
+    "what do trolls worship"
+   ],
+   "answer": "The loa are the primal deities worshipped by trollkind across virtually every tribe. In reality, they are Azeroth's elusive Wild Gods\u2014powerful animal spirits that trolls honor through offerings, meditation, and ritual magic. Priests and shadow hunters call upon the loa to grant blessings, guidance, and devastating power in battle."
+  },
+  {
+   "q": "What was the Empire of Zul?",
+   "aliases": [
+    "first troll empire",
+    "ancient troll kingdom",
+    "history of zul"
+   ],
+   "answer": "The Empire of Zul was the grand alliance of all troll tribes, formed roughly sixteen thousand years ago under the guidance of the Zandalari. It united the race to combat the rampaging aqiri insect swarms. After driving the aqir into the continental fringes, the alliance naturally disbanded as tribes founded their own independent kingdoms."
+  },
+  {
+   "q": "Why are most trolls hostile to players?",
+   "aliases": [
+    "why are trolls bad",
+    "hostile trolls",
+    "evil trolls"
+   ],
+   "answer": "Most troll tribes, such as the forest trolls of the Amani or the jungle trolls of the Gurubashi, possess ancient, insular cultures that harbor deep hatred for outsiders. Centuries of conflict with encroaching races have made them fiercely protective of their ancestral territories, attacking trespassers on sight."
+  },
+  {
+   "q": "How did the Darkspear join the Horde?",
+   "aliases": [
+    "why are trolls horde",
+    "darkspear horde origin",
+    "thrall and trolls"
+   ],
+   "answer": "The Darkspear jungle trolls were driven from their ancestral lands and trapped on an island under siege by murlocs and sea witches. Warchief Thrall and his orc fleet intervened, saving the Darkspear from annihilation. In gratitude and shared necessity, their chieftain pledged the tribe's loyalty to the newly formed Horde."
+  },
+  {
+   "q": "What is voodoo?",
+   "aliases": [
+    "troll voodoo",
+    "how does voodoo work",
+    "witch doctor magic"
+   ],
+   "answer": "Voodoo is an ancient school of spiritual and dark magic practiced by troll witch doctors, shadow hunters, and priests. It weaves together ancestral communion, loa worship, curses, hexes, and potent herbal concoctions to harm foes and empower allies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Your heritage stretches back further than almost any civilization on Azeroth. While your cousins in Zul'Gurub and Zul'Aman cling to bitter, isolationist pride, the Darkspear forge a surviving legacy through the strength of the Horde."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The cunning, agility, and spiritual strength of the Darkspear trolls provide essential scouts, shadow hunters, and shamans to the warchief's banner."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Elven history and ancient myths trace bitter rivalries back to troll kingdoms, viewing troll religious voodoo and sacrificial rites with severe wariness."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Troll priesthood is inextricably tied to the loa and shadow hunting, communing directly with animal spirits and primal dark forces rather than the Holy Light."
+  }
+ ],
+ "keywords": [
+  "amani",
+  "aqir",
+  "darkspear",
+  "drakkari",
+  "gurubashi",
+  "loa",
+  "regeneration",
+  "troll",
+  "trolls",
+  "voodoo",
+  "zandalari"
+ ],
+ "related": [
+  "topic:darkspear-tribe",
+  "npc:vol-jin",
+  "topic:horde",
+  "topic:old-god",
+  "topic:alliance",
+  "topic:titan"
+ ],
+ "attribution": [
+  "Troll"
+ ]
+}

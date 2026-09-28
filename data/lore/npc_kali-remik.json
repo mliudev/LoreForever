@@ -1,0 +1,80 @@
+{
+ "key": "npc:kali-remik",
+ "type": "npc",
+ "name": "Kali Remik",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "Kali Remik",
+  "refs": 1
+ },
+ "summary": "Kali Remik is a Darkspear troll hunter who spends her time lending guidance to travelers across the Horde's heartland. Familiar with the ways of tracking and survival in Durotar, she directs young hunters toward greater teachers in Orgrimmar.",
+ "sections": [
+  {
+   "title": "A Guide for the Hunt",
+   "body": "Kali Remik is a seasoned jungle troll tracker well-acquainted with the arid wastes of Durotar and the bustling hubs of the Horde. In coastal settlements like Sen'jin Village, she watches over young scouts taking their first steps outside the Valley of Trials. Knowing when a novice outgrows the local training grounds, she steps in to direct promising marksmen and beastmasters toward the grand halls of Orgrimmar, ensuring the Horde's frontier ranks stay sharp and disciplined.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kali Remik?",
+   "aliases": [
+    "kali remik lore",
+    "who is kali remik",
+    "kali remik npc"
+   ],
+   "answer": "Kali Remik is a Darkspear troll scout and quest giver. She helps guide fledgling Horde adventurers, especially hunters ready to advance their training beyond local outposts."
+  },
+  {
+   "q": "Where can Kali Remik be found?",
+   "aliases": [
+    "where is kali remik",
+    "kali remik location",
+    "find kali remik"
+   ],
+   "answer": "She can be found aiding her people in Durotar, notably around Sen'jin Village, though her duties also bring her into Orgrimmar's troll enclave, the Valley of Spirits."
+  },
+  {
+   "q": "What guidance does she offer to hunters?",
+   "aliases": [
+    "the hunters path quest",
+    "kali remik hunter quest",
+    "what does kali teach"
+   ],
+   "answer": "Through 'The Hunter's Path', Kali directs young orc and troll hunters who have proven their basic skills to travel to Orgrimmar, seeking advanced instruction from the veteran hunters stationed there."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For young orc and troll marksmen, Kali acts as a stepping stone, recognizing when your skills outstrip village drills and sending you forward to the master trainers in Orgrimmar."
+  },
+  {
+   "target": "race:Troll",
+   "text": "A fellow member of the Darkspear tribe, Kali keeps watch over her kin as they rebuild their lives along Durotar's coast and settle within Orgrimmar's Valley of Spirits."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "durotar",
+  "kali remik",
+  "sen'jin village",
+  "the hunter's path",
+  "tracker",
+  "valley of spirits"
+ ],
+ "related": [
+  "quest:6065",
+  "subzone:sen-jin-village",
+  "subzone:valley-of-spirits",
+  "zone:durotar",
+  "zone:orgrimmar",
+  "topic:troll",
+  "topic:horde",
+  "quest:8355"
+ ],
+ "attribution": [
+  "Kali Remik"
+ ]
+}

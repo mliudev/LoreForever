@@ -1,0 +1,93 @@
+{
+ "key": "npc:eleanor-shackleton",
+ "type": "npc",
+ "name": "Eleanor Shackleton",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Eleanor Shackleton",
+  "refs": 2
+ },
+ "summary": "Eleanor Shackleton is a Forsaken outdoorswoman found camping southwest of Brill in Tirisfal Glades. Rather than lingering within town or the Undercity, she assists wandering travelers in learning wilderness survival and field crafts. She shares her surname with other Forsaken surviving in the region, suggesting lingering ties from life before the plague.",
+ "sections": [
+  {
+   "title": "A Guide to the Glades",
+   "body": "While many newly awakened Forsaken head straight to Brill or delve into the Undercity, Eleanor Shackleton makes her camp in the haunted woods to the southwest. Surviving out in Tirisfal requires pragmatic self-reliance, and Eleanor serves as an instructor for fledgling adventurers seeking to live off the blighted land. Through her various field lessons, she guides travelers in establishing campsites, gathering firewood, and maintaining trade crafts while roaming far from civilization's forge fires and kitchens.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties from a Past Life",
+   "body": "In the shattered remnants of Lordaeron, family names often serve as the sole surviving tether to an undead's mortal past. Eleanor carries the surname Shackleton, shared by Pierce Shackleton in Brill and Samantha Shackleton elsewhere in Tirisfal. Whether the three maintain close bonds or merely carry common ancestry from their mortal days, each has carved out a distinct role in serving the Forsaken cause across the blighted kingdom.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Eleanor Shackleton?",
+   "aliases": [
+    "eleanor shackleton location",
+    "where is eleanor",
+    "shackleton spot"
+   ],
+   "answer": "Eleanor Shackleton makes her camp southwest of Brill, tucked into the woods of Tirisfal Glades away from the main paved road."
+  },
+  {
+   "q": "What does Eleanor Shackleton teach adventurers?",
+   "aliases": [
+    "eleanor quests",
+    "what does eleanor do",
+    "camping quests tirisfal"
+   ],
+   "answer": "Eleanor guides travelers through the basics of wilderness survival, offering instruction on camping, foraging, and practicing professions out in the wild."
+  },
+  {
+   "q": "Is Eleanor related to other Shackletons in Lordaeron?",
+   "aliases": [
+    "pierce shackleton relative",
+    "samantha shackleton",
+    "shackleton family lore"
+   ],
+   "answer": "She shares her family name with Pierce Shackleton in Brill and Samantha Shackleton, indicating potential kinship from their lives before the kingdom fell to the Scourge."
+  },
+  {
+   "q": "Why is she camping outside Brill instead of staying in town?",
+   "aliases": [
+    "why camp outside brill",
+    "eleanor shackleton camp"
+   ],
+   "answer": "Eleanor focuses on fieldcraft and wilderness survival. Setting up her camp in the woods allows her to meet wayfarers and train them directly where those skills are needed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, learning to survive in the wilderness without living comforts is vital, and Eleanor ensures that newly risen brethren adapt quickly to roughing it in Tirisfal."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Eleanor's instruction covers setting up a field campfire and preparing meals away from civilized hearths, making her camp a key stop for traveling cooks."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "camping 101",
+  "eleanor shackleton",
+  "shackleton",
+  "sticks and bones",
+  "the adventurer",
+  "the great outdoors",
+  "tirisfal glades"
+ ],
+ "related": [
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "quest:96658",
+  "quest:96607",
+  "quest:86784",
+  "quest:96627"
+ ],
+ "attribution": [
+  "Eleanor Shackleton"
+ ]
+}

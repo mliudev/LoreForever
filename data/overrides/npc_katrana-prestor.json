@@ -1,0 +1,37 @@
+{
+ "key": "npc:katrana-prestor",
+ "type": "npc",
+ "name": "Lady Katrana Prestor",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {"wiki": "Katrana Prestor", "override": "spoiler-free: the wiki page redirects to her secret identity"},
+ "summary": "Lady Katrana Prestor is a noblewoman of Stormwind and one of the most influential voices at court. With King Varian missing, she stands beside the boy-king Anduin and Highlord Bolvar Fordragon in Stormwind Keep as a trusted advisor.",
+ "sections": [
+  {
+   "title": "Voice of the Court",
+   "body": "Lady Prestor arrived at court some years ago and quickly rose to become one of its most trusted figures. The nobles of Stormwind seek her favor, and her counsel shapes many of the decisions made in the young king's name while Highlord Bolvar Fordragon rules as regent. Petitioners who come to Stormwind Keep asking for soldiers or aid often find that her opinion carries as much weight as the regent's.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lady Katrana Prestor?",
+   "aliases": ["who is katrana prestor", "who is lady prestor", "katrana prestor lore"],
+   "answer": "Lady Katrana Prestor is a Stormwind noblewoman and a trusted advisor at court. With King Varian missing, she stands beside the boy-king Anduin and Highlord Bolvar Fordragon in Stormwind Keep, and her voice carries great weight with the nobles."
+  },
+  {
+   "q": "Why is she advising the king?",
+   "aliases": ["why is prestor at court", "what does katrana do"],
+   "answer": "King Varian's disappearance left his young son Anduin on the throne, with Highlord Bolvar Fordragon ruling as regent. Lady Prestor sits at their side as an advisor. Many of the court's decisions, including how Stormwind answers requests for help from its outlying lands, pass through her counsel."
+  },
+  {
+   "q": "Where can I find Lady Prestor?",
+   "aliases": ["where is katrana prestor", "katrana prestor location"],
+   "answer": "She is usually found in the throne room of Stormwind Keep, standing near Highlord Bolvar Fordragon and the young King Anduin."
+  }
+ ],
+ "angles": [],
+ "keywords": ["katrana", "prestor", "katrana prestor", "lady prestor", "advisor", "stormwind keep", "court"],
+ "related": ["zone:stormwind", "npc:bolvar-fordragon", "npc:anduin-wrynn"],
+ "attribution": ["Katrana Prestor"]
+}

@@ -1,0 +1,129 @@
+{
+ "key": "quest:1069",
+ "type": "quest",
+ "name": "Deepmoss Spider Eggs",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1069
+  ],
+  "level": "20",
+  "faction": null,
+  "start": "Mebok Mizzyrix",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Deepmoss Spider Eggs",
+  "chain": []
+ },
+ "summary": "Mebok Mizzyrix in Ratchet aims to capitalize on an exotic culinary craze sweeping Booty Bay: spider egg omelettes. To supply the lucrative overseas market, he hires adventurers to venture into the Stonetalon Mountains and harvest fresh clutches of deepmoss spider eggs.",
+ "sections": [
+  {
+   "title": "A Taste for Luxury",
+   "body": "Booty Bay's high rollers and eccentric pirates have developed an insatiable appetite for spider egg omelettes, sparking high demand for rare ingredients across the Great Sea. Recognizing an easy fortune, Ratchet merchant Mebok Mizzyrix has jumped at the chance to supply the southern port. Because the Eastern Kingdoms lack this particular arachnid delicacies, Kalimdor's rugged wilderness provides the perfect supply chain.",
+   "spoiler": 0
+  },
+  {
+   "title": "Nests in the Mountains",
+   "body": "The harvest requires trekking into the Stonetalon Mountains to find deepmoss spiders. Clutches of their eggs can be discovered clinging beneath the surviving timber of the Venture Company's logging operations in Windshear Crag, or deeper within the web-strewn depths of Sishir Canyon. Gathering the eggs means risking venomous bites and confronting dense infestations that make even seasoned scavengers squeamish.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Steamer Clam Express",
+   "body": "Speed and logistics are critical when moving raw arachnid eggs across the sea before they spoil or hatch. Mebok coordinates closely with Ratchet's Wharfmaster Dizzywig, arranging freight passage on goblin merchant ships bound straight for the docks of Stranglethorn Vale. With the eggs safely packed in crates, Mebok turns a tidy profit on high-seas gastronomy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Mebok Mizzyrix want spider eggs?",
+   "aliases": [
+    "why spider eggs",
+    "mebok spider eggs",
+    "what are eggs for"
+   ],
+   "answer": "A new gourmet food fad has taken hold of Booty Bay: spider egg omelettes. Booty Bay lacks a native supply of these eggs, creating a lucrative export opportunity for goblin traders in Ratchet."
+  },
+  {
+   "q": "Where can the deepmoss spider eggs be found?",
+   "aliases": [
+    "where are deepmoss eggs",
+    "egg locations",
+    "stonetalon spider egg locations"
+   ],
+   "answer": "They are located in the Stonetalon Mountains northwest of the Barrens. The eggs can be gathered under the remaining trees in Windshear Crag or deeper inside the arachnid-infested Sishir Canyon."
+  },
+  {
+   "q": "Why does Mebok warn against Sishir Canyon?",
+   "aliases": [
+    "sishir canyon warning",
+    "weak stomach sishir"
+   ],
+   "answer": "Sishir Canyon is notorious for massive swarms of spiders, dense cobwebs, and partially digested prey. Mebok warns that anyone with a weak stomach should stick to foraging beneath the trees in Windshear Crag instead."
+  },
+  {
+   "q": "Who ships the eggs once collected?",
+   "aliases": [
+    "who ships the eggs",
+    "wharfmaster shipping",
+    "dizzywig eggs"
+   ],
+   "answer": "Mebok partners with Wharfmaster Dizzywig at the Ratchet docks to arrange merchant vessel transport across the sea directly to Booty Bay."
+  },
+  {
+   "q": "Are the eggs eaten raw or cooked?",
+   "aliases": [
+    "how are spider eggs eaten",
+    "spider omelettes"
+   ],
+   "answer": "They are prepared as omelettes, serving as an eccentric luxury dish for wealthy patrons and adventurers visiting Booty Bay's taverns."
+  },
+  {
+   "q": "Can players of both factions complete this task?",
+   "aliases": [
+    "is this quest neutral",
+    "horde or alliance spider eggs"
+   ],
+   "answer": "Yes. Ratchet is an open port managed by the Steamwheedle Cartel, so Mebok Mizzyrix offers the contract to both Alliance and Horde travelers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "The demand for deepmoss spider eggs highlights how adventurous palates in port cities like Booty Bay embrace monstrous, bizarre delicacies as culinary status symbols."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For travelers traversing the dry expanse of the Barrens toward Stonetalon, Ratchet offers quick coin to fund operations against local harpies and Venture Company loggers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts charting paths between the Barrens and Stonetalon's night elven enclaves can take advantage of goblin neutrality in Ratchet to earn traveling expenses."
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "deepmoss",
+  "dizzywig",
+  "mebok mizzyrix",
+  "omelette",
+  "ratchet",
+  "sishir canyon",
+  "spider eggs",
+  "windshear crag"
+ ],
+ "related": [
+  "npc:mebok-mizzyrix",
+  "quest:1492",
+  "subzone:ratchet",
+  "zone:stonetalon",
+  "subzone:windshear-crag",
+  "subzone:sishir-canyon",
+  "subzone:booty-bay",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Deepmoss Spider Eggs"
+ ]
+}

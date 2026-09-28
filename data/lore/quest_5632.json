@@ -1,0 +1,127 @@
+{
+ "key": "quest:5632",
+ "type": "quest",
+ "name": "Returning Home",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   5632
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Nara Meideros",
+  "end": "Priestess Alathea",
+  "previous": "Stars of Elune",
+  "next": null,
+  "wiki": "Returning Home (Nara Meideros)",
+  "chain": [
+   "Returning Home",
+   "Stars of Elune"
+  ]
+ },
+ "summary": "Returning Home is a summons sent to promising night elf priests serving outside the capital. Priestess Alathea calls initiates back to the Temple of the Moon in Darnassus to recognize their growth in the Sisterhood of Elune and bestow advanced guidance.",
+ "sections": [
+  {
+   "title": "A Messenger from the Sisterhood",
+   "body": "As nascent priests journey through Teldrassil tending to their people and confronting corrupted woodland spirits, their spiritual growth does not go unnoticed. While stationed with Nara Meideros, a messenger from the Sisterhood of Elune arrives bearing urgent word: the order's leaders require the initiate's presence in Darnassus. It serves as both an evaluation and a rite of recognition, marking the transition from a fledgling novitiate into an active servant of the Mother Moon.",
+   "spoiler": 0
+  },
+  {
+   "title": "Audience at the Temple of the Moon",
+   "body": "The summons directs the traveler straight to Priestess Alathea within Darnassus's crowning sanctuary, the Temple of the Moon. Overseen by High Priestess Tyrande Whisperwind, the Sisterhood keeps close watch over its dispersed members. Returning safely to the temple grounds honors the community and the goddess, demonstrating that Elune's grace has guided and preserved the priest through early trials in the wild.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the priestess summoning me back to Darnassus?",
+   "aliases": [
+    "why returning home",
+    "reason for summons",
+    "why visit alathea"
+   ],
+   "answer": "Priestess Alathea and the Sisterhood of Elune track the spiritual development of their disciples. You are recalled to the Temple of the Moon because of your rapid progress in the order's ways, leading directly into deeper training and a sacred blessing."
+  },
+  {
+   "q": "Who is Priestess Alathea?",
+   "aliases": [
+    "who is alathea",
+    "alathea lore",
+    "priestess alathea identity"
+   ],
+   "answer": "Priestess Alathea is a high-ranking mentor within the Sisterhood of Elune stationed at the Temple of the Moon. Working directly under High Priestess Tyrande Whisperwind, she trains promising night elf priests and initiates them into sacred rites."
+  },
+  {
+   "q": "Where does this summons lead next?",
+   "aliases": [
+    "what quest is after returning home",
+    "next step in returning home",
+    "stars of elune lead in"
+   ],
+   "answer": "Reporting to Priestess Alathea leads immediately into the trial known as Stars of Elune, an ancient priest quest where you learn to channel the celestial power of the goddess in defense of your people."
+  },
+  {
+   "q": "Who sends the message through Nara Meideros?",
+   "aliases": [
+    "who sent nara",
+    "messenger of the sisterhood"
+   ],
+   "answer": "A messenger dispatched directly from the Sisterhood of Elune passed word to Nara Meideros. The order keeps lines of communication open with sentinels and priestesses stationed throughout Teldrassil to monitor their initiates."
+  },
+  {
+   "q": "Do other races or classes receive this summons?",
+   "aliases": [
+    "can non night elves do this",
+    "is this priest only"
+   ],
+   "answer": "No. This quest is tied specifically to the night elf priesthood and the Sisterhood of Elune. Initiates of other races and faiths look to their own distinct spiritual mentors and holy orders for advancement."
+  },
+  {
+   "q": "Why does Alathea mention Tyrande Whisperwind?",
+   "aliases": [
+    "tyrande connection",
+    "tyrande alathea relation"
+   ],
+   "answer": "Tyrande Whisperwind is the High Priestess of Elune and the supreme leader of both the Sisterhood and the night elf government. Alathea works directly beneath her within the Temple of the Moon, ensuring Tyrande's will and spiritual guidance reach every initiate."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This summons marks an essential milestone in your priesthood, rewarding your early service with direct communion and further discipline under the Sisterhood of Elune."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, returning safely to the Temple of the Moon is a profound homecoming, reinforcing the enduring cultural and spiritual leadership of Elune's clergy."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Sisterhood of Elune forms the spiritual heart of the night elves within the Alliance, preparing adept healers and divine warriors to face threats across Kalimdor."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "nara meideros",
+  "priest quest",
+  "priestess alathea",
+  "returning home",
+  "sisterhood of elune",
+  "stars of elune",
+  "temple of the moon",
+  "tyrande whisperwind"
+ ],
+ "related": [
+  "quest:5627",
+  "npc:priestess-alathea",
+  "npc:nara-meideros",
+  "subzone:temple-of-the-moon",
+  "zone:darnassus",
+  "topic:elune",
+  "quest:2519",
+  "quest:5628"
+ ],
+ "attribution": [
+  "Returning Home (Nara Meideros)"
+ ]
+}

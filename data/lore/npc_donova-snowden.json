@@ -1,0 +1,87 @@
+{
+ "key": "npc:donova-snowden",
+ "type": "npc",
+ "name": "Donova Snowden",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Donova Snowden",
+  "refs": 2
+ },
+ "summary": "Donova Snowden is an intrepid dwarven researcher encamped alongside the thermal waters near Frostfire Hot Springs in Winterspring. Despite the bitter cold and hostile wildlife, she studies the strange thermal activity of the region and monitors the increasingly corrupted Winterfall furbolgs.",
+ "sections": [
+  {
+   "title": "A Lone Researcher in the Snow",
+   "body": "While most travelers stick to the safety of Everlook, Donova Snowden has chosen to camp in the freezing wilderness near the Frostfire Hot Springs. She spends her days investigating the curious geothermic anomalies bubbling up through the permafrost, as well as the dark influences encroaching upon Winterspring's native wildlife. Practical and determined, she enlists passing adventurers of both the Alliance and the Horde to gather samples and help curb local threats.",
+   "spoiler": 0
+  },
+  {
+   "title": "Investigating the Winterfall",
+   "body": "Much of Donova's attention centers on the Winterfall furbolgs, whose behavior has deteriorated into erratic aggression. Through investigating potent concoctions like Winterfall Firewater and strange toxic substances circulating among the tribes, she seeks to uncover the root cause behind their sudden fall into madness. Her field research makes her a critical contact for anyone hoping to understand the corruption spreading through the northern mountains.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Donova Snowden?",
+   "aliases": [
+    "donova snowden location",
+    "where is donova",
+    "donova snowden map"
+   ],
+   "answer": "Donova Snowden is camped by a small hot spring just southwest across the main road from the Frostfire Hot Springs in Winterspring."
+  },
+  {
+   "q": "Why is Donova out here in the freezing cold?",
+   "aliases": [
+    "why is donova in winterspring",
+    "donova snowden purpose"
+   ],
+   "answer": "She is conducting environmental research into Winterspring's unusual hot springs and investigating the corruption infecting the local Winterfall furbolg tribe."
+  },
+  {
+   "q": "Will Donova work with Horde players?",
+   "aliases": [
+    "is donova alliance only",
+    "can horde talk to donova",
+    "donova snowden faction"
+   ],
+   "answer": "Yes. While she is a dwarf, Donova operates as an independent researcher and offers tasks to both Alliance and Horde adventurers."
+  },
+  {
+   "q": "What is Donova investigating regarding the Winterfall furbolgs?",
+   "aliases": [
+    "donova furbolg quest",
+    "winterfall firewater research"
+   ],
+   "answer": "She is studying the mysterious corruption driving the Winterfall tribe to madness, specifically looking into their strange concoctions like Winterfall Firewater and foul, toxic substances found among their runners."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Finding a fellow dwarf braving the frozen peaks alone feels familiar, showcasing the enduring dwarven appetite for fieldwork and exploration far from Khaz Modan."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Despite her dwarven heritage, Donova is willing to overlook faction allegiance to recruit capable scouts against the wild beasts and corrupted furbolgs of Winterspring."
+  }
+ ],
+ "keywords": [
+  "donova snowden",
+  "firewater",
+  "frostfire hot springs",
+  "furbolg",
+  "researcher",
+  "winterfall",
+  "winterspring"
+ ],
+ "related": [
+  "zone:winterspring",
+  "subzone:frostfire-hot-springs",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Donova Snowden"
+ ]
+}

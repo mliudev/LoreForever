@@ -1,0 +1,122 @@
+{
+ "key": "quest:336",
+ "type": "quest",
+ "name": "A Noble Brew",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   336
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Zardeth of the Black Claw",
+  "end": "Lord Baurles K. Wishock",
+  "previous": "A Noble Brew",
+  "next": "You Have Served Us Well",
+  "wiki": "A Noble Brew (2)",
+  "chain": [
+   "A Noble Brew",
+   "A Noble Brew (2)",
+   "You Have Served Us Well"
+  ]
+ },
+ "summary": "A Noble Brew is the culmination of a covert scheme orchestrated from the shady cellar beneath the Slaughtered Lamb in Stormwind. Operating at the behest of Zardeth of the Black Claw, an unwitting or uncaring courier delivers a potent concoction known as Black Claw Stout to Lord Baurles K. Wishock inside the Royal Keep.",
+ "sections": [
+  {
+   "title": "A Noble Hypocrite",
+   "body": "Lord Baurles K. Wishock is a nobleman who frequents the Hall of Petitioners in Stormwind Keep, preaching self-importance and the future of the kingdom. Yet beneath his aristocratic posturing lies an open secret known to the patrons of the Slaughtered Lamb: by night, Wishock frequents the tavern's upper rooms, drinking heavily and running up massive tabs he never settles. Worse still in the eyes of the establishment, he spends his days petitioning to shut the tavern down entirely.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Lethal Toast",
+   "body": "Zardeth of the Black Claw, a warlock lurking in the dark recesses below the tavern, decides to settle Wishock's debt in a permanent fashion. He brews a specialized draught\u2014Black Claw Stout\u2014promising it carries 'quite a kick.' When presented with the foaming tankard in the Hall of Petitioners, the pompous noble mistakes the courier for a simple servant, flings a copper coin as a dismissal, and drinks greedily, collapsing dead moments later right within the halls of the keep.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zardeth of the Black Claw?",
+   "aliases": [
+    "who is zardeth",
+    "zardeth of the black claw",
+    "who gives the quest"
+   ],
+   "answer": "Zardeth of the Black Claw is a warlock affiliated with the shadowy cabal operating hidden catacombs beneath The Slaughtered Lamb in Stormwind's Mage Quarter. He conducts dangerous and clandestine operations out of sight of the city guard."
+  },
+  {
+   "q": "Why does Zardeth want Lord Wishock dead?",
+   "aliases": [
+    "why kill wishock",
+    "wishock motivation",
+    "why poisoned"
+   ],
+   "answer": "Wishock is a drunken hypocrite who spends his nights carousing in the upper floors of the Slaughtered Lamb without paying his bills, while spending his days in the Hall of Petitioners demanding the authorities shut the tavern down."
+  },
+  {
+   "q": "Where is Lord Wishock found?",
+   "aliases": [
+    "lord wishock location",
+    "where is wishock",
+    "hall of petitioners wishock"
+   ],
+   "answer": "Lord Baurles K. Wishock loiters in the Hall of Petitioners, an antechamber within Stormwind Keep where nobles and citizens gather to lobby the realm's regency."
+  },
+  {
+   "q": "What happens when Lord Wishock drinks the brew?",
+   "aliases": [
+    "does wishock die",
+    "wishock death",
+    "what does the stout do"
+   ],
+   "answer": "Upon receiving the Black Claw Stout, Wishock arrogantly dismisses the player with a single copper coin, drinks the brew, and drops dead on the floor from the lethal poison."
+  },
+  {
+   "q": "Is the player arrested for assassinating a noble in Stormwind Keep?",
+   "aliases": [
+    "do guards attack",
+    "am i wanted in stormwind",
+    "consequences of poisoning"
+   ],
+   "answer": "Remarkably, no. Because you simply delivered a drink that the arrogant noble eagerly accepted and drank of his own accord, the chaotic scene in the Hall of Petitioners lets you slip away clean to report back to the catacombs."
+  },
+  {
+   "q": "What is the follow-up quest after Wishock dies?",
+   "aliases": [
+    "what comes next",
+    "after a noble brew",
+    "next quest"
+   ],
+   "answer": "After poisoning Lord Wishock, you return to Zardeth beneath the Slaughtered Lamb to turn in the deed, leading directly into the quest 'You Have Served Us Well.'"
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This assassination highlights the cold pragmatism of the Stormwind warlock coven: when a petty noble threatens to draw official scrutiny to your hidden sanctum beneath the Slaughtered Lamb, a poisoned brew settles the problem quietly."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The quiet assassination of Lord Wishock right under the nose of Highlord Bolvar Fordragon's guards illustrates just how fractured and vulnerable Stormwind's political core truly is."
+  }
+ ],
+ "keywords": [
+  "baurles wishock",
+  "black claw stout",
+  "hall of petitioners",
+  "noble brew",
+  "poison",
+  "slaughtered lamb",
+  "stormwind keep",
+  "zardeth"
+ ],
+ "related": [
+  "quest:335",
+  "quest:397",
+  "npc:lord-baurles-k-wishock",
+  "npc:zardeth-of-the-black-claw"
+ ],
+ "attribution": [
+  "A Noble Brew (2)"
+ ]
+}

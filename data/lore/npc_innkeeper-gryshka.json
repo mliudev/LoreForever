@@ -1,0 +1,112 @@
+{
+ "key": "npc:innkeeper-gryshka",
+ "type": "npc",
+ "name": "Innkeeper Gryshka",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Innkeeper Gryshka",
+  "refs": 3
+ },
+ "summary": "Innkeeper Gryshka is an orc host who manages the Broken Tusk inn in Orgrimmar's Valley of Strength. Serving as the primary hospitality contact for travelers arriving through the city gates, she provides hearthstone bindings, food, and drink to visiting Horde adventurers. She maintains close ties with hunters and scouts across Durotar and the Barrens to keep her tavern stocked with choice cuts of meat.",
+ "sections": [
+  {
+   "title": "Hearth of the Valley of Strength",
+   "body": "Standing behind the counter of the Broken Tusk, Gryshka manages one of the most heavily trafficked inns in the Horde. Located just beyond the main gates of Orgrimmar in the Valley of Strength, her establishment serves as the first point of rest for warriors, messengers, and newly arrived champions seeking shelter under Thrall's banner.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Taste for Fresh Meat",
+   "body": "Running a bustling tavern in an arid canyon requires steady supply lines. Gryshka maintains a well-known affinity for fresh meat, relying on trusted hunters across the Horde territories to supply her kitchen. Companions such as Zargh in the Crossroads and Grimtak in Durotar routinely ship their finest game cuts back to the Broken Tusk to satisfy her demanding culinary standards.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Innkeeper Gryshka?",
+   "aliases": [
+    "who is gryshka",
+    "gryshka orgrimmar",
+    "innkeeper broken tusk"
+   ],
+   "answer": "Innkeeper Gryshka is the orc innkeeper who runs the Broken Tusk tavern inside Orgrimmar's Valley of Strength. She welcomes Horde travelers, sets hearthstone bindings, and sells food and drink to weary adventurers."
+  },
+  {
+   "q": "Where can Innkeeper Gryshka be found?",
+   "aliases": [
+    "where is gryshka",
+    "broken tusk inn location",
+    "valley of strength innkeeper"
+   ],
+   "answer": "She is located inside the Broken Tusk tavern in the Valley of Strength, the first major district you enter after passing through the main southern gates of Orgrimmar."
+  },
+  {
+   "q": "Where does Gryshka get her meat supplies?",
+   "aliases": [
+    "gryshka food sources",
+    "who supplies the broken tusk",
+    "zargh meat delivery"
+   ],
+   "answer": "Gryshka relies on friends and scouts throughout Horde lands to supply her larder, including Zargh stationed at the Crossroads in the Barrens and Grimtak in Durotar, who send her choice game cuts."
+  },
+  {
+   "q": "What services does Gryshka provide?",
+   "aliases": [
+    "can i bind my hearthstone here",
+    "broken tusk hearthstone",
+    "gryshka vendor items"
+   ],
+   "answer": "Gryshka can bind your hearthstone to the Broken Tusk so you can teleport directly to Orgrimmar. She also sells various foods, breads, and drinks to restore health and mana."
+  },
+  {
+   "q": "Does Gryshka have any connection to the wind rider roost?",
+   "aliases": [
+    "doras quest",
+    "wind rider master broken tusk",
+    "ride to orgrimmar inn"
+   ],
+   "answer": "Travelers sent on flight errands from the Barrens often deliver packages directly to Gryshka before being directed up to Doras, the wind rider master perched high on the mesa above the city."
+  },
+  {
+   "q": "What kind of personality does Gryshka have?",
+   "aliases": [
+    "is gryshka friendly",
+    "what is gryshka like"
+   ],
+   "answer": "Gryshka is a practical, hearty orc host who appreciates good meat, direct talk, and keeping her tavern well-stocked and orderly for the steady stream of Horde warriors passing through the capital."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For any Horde traveler arriving in Durotar, Gryshka's inn in the Valley of Strength is often the primary hub to bind hearthstones and re-supply before venturing deeper into Kalimdor."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Cooks will appreciate Gryshka's discerning palate, as she goes out of her way to source prime cuts from hunters stationed as far out as the Barrens."
+  }
+ ],
+ "keywords": [
+  "broken tusk",
+  "doras",
+  "gryshka",
+  "hearthstone",
+  "innkeeper",
+  "orgrimmar",
+  "valley of strength",
+  "zargh"
+ ],
+ "related": [
+  "subzone:broken-tusk",
+  "subzone:valley-of-strength",
+  "zone:orgrimmar",
+  "npc:zargh",
+  "npc:doras",
+  "quest:6384",
+  "quest:6385",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Innkeeper Gryshka"
+ ]
+}

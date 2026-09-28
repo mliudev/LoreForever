@@ -1,0 +1,128 @@
+{
+ "key": "quest:1739",
+ "type": "quest",
+ "name": "The Binding",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   1739
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Gakin the Darkbinder",
+  "end": "",
+  "previous": "Heartswood (quest)",
+  "next": null,
+  "wiki": "The Binding (Succubus, Stormwind)",
+  "chain": [
+   "Gakin's Summons (Succubus)",
+   "Devourer of Souls (Stormwind)",
+   "Heartswood (quest)",
+   "The Binding (Succubus, Stormwind)"
+  ]
+ },
+ "summary": "The Binding is the final initiation ritual for Alliance warlocks seeking to command a succubus in Stormwind. Using the enchanted core obtained from the Heartswood, the practitioner enters the summoning circle beneath The Slaughtered Lamb to drag forth and physically overpower the demon. Once defeated, the demon's will is chained, binding its servitude to the summoner.",
+ "sections": [
+  {
+   "title": "Descent into the Crypt",
+   "body": "Hidden beneath the floorboards of The Slaughtered Lamb in Stormwind's Mage Quarter lies a cavernous crypt dedicated to forbidden arts. Far from the watchful eyes of the city watch and the Cathedral of Light, the city's covert warlock enclave conducts its most dangerous rituals here. Summoning circles etched into stone channel the raw forces of the Nether, allowing ambitious initiates to pierce the veil between worlds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Subjugating the Seductress",
+   "body": "Summoning a succubus requires far more than merely chanting incantations. A warlock must bring a focus\u2014in this case, the prepared Heartswood Core\u2014and cast a ritual of breach at the circle. Succubi are known to corrupt, seduce, and overwhelm even fortified minds. To establish absolute mastery, the summoner must cut the beast down in single combat, banishing its physical form back to the Twisting Nether while securing its true tether.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gakin's Secrets",
+   "body": "Upon slaying the summoned creature, the triumphant initiate brings the depleted core back to Gakin the Darkbinder. Having proven both mental fortitude and martial prowess, the apprentice receives the fundamental knowledge needed to call the succubus forth across the void whenever needed. The ritual marks an Alliance warlock's maturation into an adept capable of handling volatile, sapient demons.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the summoning take place?",
+   "aliases": [
+    "where do i summon",
+    "succubus summoning location",
+    "crypt location"
+   ],
+   "answer": "The ritual takes place in the deep catacombs beneath The Slaughtered Lamb, an unremarkable tavern located in Stormwind's Mage Quarter. Warlocks descend down spiral stairs past the pub cellar into an underground sanctum equipped with arcane summoning circles."
+  },
+  {
+   "q": "What is the purpose of the Heartswood Core?",
+   "aliases": [
+    "why heartswood core",
+    "what does heartswood do"
+   ],
+   "answer": "The Heartswood Core serves as an anchor and catalyst. Carved from a corrupted tree in the wetlands and charged through earlier trials, it provides the precise spiritual resonance required to tear open a localized rift and lure a succubus across the Twisting Nether."
+  },
+  {
+   "q": "Why must the warlock kill the succubus?",
+   "aliases": [
+    "why do i fight the succubus",
+    "why kill the demon to bind it"
+   ],
+   "answer": "Demons of the Nether yield only to superior will and strength. A succubus specializes in psychological manipulation and mental subjugation; allowing it to manifest without immediate defeat invites ruin. Slaying the creature in combat establishes dominance, forcibly imprinting the warlock's authority onto the spirit before it coalesces back in the Nether."
+  },
+  {
+   "q": "Who is Gakin the Darkbinder?",
+   "aliases": [
+    "who is gakin",
+    "gakin darkbinder lore"
+   ],
+   "answer": "Gakin the Darkbinder is a senior warlock residing in The Slaughtered Lamb who oversees the training of Alliance practitioners in Stormwind. He coordinates the secretive procurement of demonology artifacts and evaluates whether acolytes have the willpower to bend demonic entities to their command."
+  },
+  {
+   "q": "Who is Surena that Gakin mentions?",
+   "aliases": [
+    "surena reference",
+    "who was surena"
+   ],
+   "answer": "Surena Caledor was an elusive figure tied to the earlier steps of Gakin's tasks. Gakin offhandedly jokes that her treacherous nature and beguiling cunning rivaled that of a true succubus sent to warp his mind."
+  },
+  {
+   "q": "Are succubi permitted in the streets of Stormwind?",
+   "aliases": [
+    "can guards see my succubus",
+    "is demon summoning legal in stormwind"
+   ],
+   "answer": "Open demonology is strictly forbidden by the Church of the Holy Light and the kingdom's authorities. While game mechanics allow bound demons to follow warlocks through the city, in lore the practice is confined to the shadows, basements, and secluded sanctums such as The Slaughtered Lamb's crypts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This rite marks a crucial milestone for human and gnome warlocks, graduating them from handling mindless imps and voidwalkers to commanding sapient, calculating demons."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The existence of this ritual deep beneath Stormwind shows how the Alliance quietly tolerates shadow magic in secret alcoves despite the Church's doctrines."
+  }
+ ],
+ "keywords": [
+  "binding",
+  "crypt",
+  "darkbinder",
+  "gakin",
+  "heartswood",
+  "slaughtered lamb",
+  "stormwind",
+  "succubus",
+  "summoning circle"
+ ],
+ "related": [
+  "npc:gakin-the-darkbinder",
+  "subzone:slaughtered-lamb",
+  "quest:1738",
+  "quest:1472",
+  "quest:1685",
+  "topic:stormwind-kingdom",
+  "quest:1471",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "The Binding (Succubus, Stormwind)"
+ ]
+}

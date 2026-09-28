@@ -1,0 +1,93 @@
+{
+ "key": "subzone:baradin-bay",
+ "type": "subzone",
+ "name": "Baradin Bay",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Baradin Bay"
+ },
+ "summary": "Baradin Bay is the expansive body of water lying between the shores of Khaz Modan, the Wetlands, the Arathi Highlands, and southern Lordaeron. Once vigorously patrolled by the powerful navy of Kul Tiras during the Second War, its waters now conceal treacherous reefs, sunken warships, and hostile aquatic predators.",
+ "sections": [
+  {
+   "title": "A Strategic Waterway",
+   "body": "Framed by the coasts of Dun Morogh to the south and Lordaeron to the north, Baradin Bay serves as a vital maritime passage connecting the harbors of the Eastern Kingdoms. The bay is anchored by busy ports like Menethil Harbor in the Wetlands and Southshore in the Hillsbrad Foothills. However, navigating these waters is perilous: shallow sandbanks, jagged shoals, and dangerous fauna like murlocs, crocolisks, and deep-sea sharks pose constant threats to sailors and travelers alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "Graveyard of the Fleets",
+   "body": "During the Second War, Baradin Bay witnessed heavy naval conflict as the fleets of Kul Tiras clashed with the Horde. Today, grim reminders of those battles litter the coast and the seabed. The shattered hulls of the Kul Tiran Third Fleet\u2014known locally as the Lost Fleet\u2014rest half-submerged along the Wetlands coast, while other vessels have plummeted down to Drowned Reef. Hostile spirits, opportunistic salvagers, and ravenous sea beasts now haunt the waters surrounding these decaying timber ruins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What major ports are located along Baradin Bay?",
+   "aliases": [
+    "baradin bay ports",
+    "harbors in baradin bay",
+    "where does baradin bay lead"
+   ],
+   "answer": "The most prominent settlements on the bay's coast are Menethil Harbor in the Wetlands and Southshore in the Hillsbrad Foothills, which sustain vital naval transit across the sea."
+  },
+  {
+   "q": "Why are there so many shipwrecks along the bay's coast?",
+   "aliases": [
+    "wetlands shipwrecks",
+    "why are ships sunken here",
+    "lost fleet origin"
+   ],
+   "answer": "Many of the wrecks, including the Lost Fleet along the Wetlands shore and those resting on Drowned Reef, were ships of the Kul Tiras navy sunk during intense naval clashes in the Second War."
+  },
+  {
+   "q": "What threats can be found in the waters of Baradin Bay?",
+   "aliases": [
+    "baradin bay monsters",
+    "murlocs in baradin bay",
+    "is it safe to swim in baradin bay"
+   ],
+   "answer": "The shallows are crawling with aggressive murlocs and swamp crocolisks, while the deeper waters are infested with predatory crabs, sharks, and the restless spirits of drowned sailors."
+  },
+  {
+   "q": "Which territories border Baradin Bay?",
+   "aliases": [
+    "what zones border baradin bay",
+    "baradin bay geography"
+   ],
+   "answer": "Baradin Bay is enclosed by northwestern Dun Morogh, the marshy shores of the Wetlands, the cliffs of the Arathi Highlands, and the coasts of southern Hillsbrad and Gilneas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Baradin Bay serves as the maritime lifeline connecting Alliance operations in Khaz Modan with their outposts in Arathi and Hillsbrad, though naval hazards and sunken wreckage make every crossing risky."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans, especially those tracing lineage back to Kul Tiras or Lordaeron, the bay is hallowed and somber ground holding the watery graves of Second War sailors."
+  }
+ ],
+ "keywords": [
+  "baradin bay",
+  "drowned reef",
+  "great sea",
+  "kul tiras",
+  "lost fleet",
+  "menethil harbor",
+  "southshore",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:menethil-harbor",
+  "zone:wetlands",
+  "subzone:lost-fleet",
+  "subzone:drowned-reef",
+  "subzone:southshore",
+  "topic:kul-tiras",
+  "topic:second-war",
+  "subzone:faldir-s-cove"
+ ],
+ "attribution": [
+  "Baradin Bay"
+ ]
+}

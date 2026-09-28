@@ -1,0 +1,121 @@
+{
+ "key": "quest:392",
+ "type": "quest",
+ "name": "The Curious Visitor",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   392
+  ],
+  "level": "29",
+  "faction": "Alliance",
+  "start": "Warden Thelwater",
+  "end": "Baros Alexston",
+  "previous": "The Stockade Riots",
+  "next": "Shadow of the Past (quest)",
+  "wiki": "The Curious Visitor",
+  "chain": []
+ },
+ "summary": "Following the containment of the Stockade uprising, Warden Thelwater reveals a troubling discovery regarding the insurgent leader, Bazil Thredd. For months before the riot, Thredd had been receiving regular visits from a mysterious man holding legitimate papers under the name Maelik.",
+ "sections": [
+  {
+   "title": "A Breach in Protocol",
+   "body": "Bazil Thredd spent the early years of his captivity in the Stormwind Stockade abandoned by his former comrades, or so the guards believed. That changed months before the prison riot, when a quiet visitor began meeting with Thredd once or twice a week. He passed every inspection, carried authorized paperwork, and gave his name as Maelik. Warden Thelwater, realizing these visits likely coordinated the bloody uprising that followed, gathers a physical description and sends adventurers to consult City Architect Baros Alexston to uncover who this visitor truly was.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ties to the Stonemasons",
+   "body": "Baros Alexston, who worked closely alongside Edwin VanCleef and the Stonemasons Guild before their rebellion, finds himself drawn into the investigation. While the name Maelik rings no bells and the physical description could match countless former craftsmen, the fact that the visitor possessed valid bureaucratic clearance points to something far deeper than mere common criminals slipping past guards. The mystery exposes how deeply embedded Defias sympathizers and agents remain within Stormwind's civic infrastructure.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the curious visitor mentioned in the quest?",
+   "aliases": [
+    "who is maelik",
+    "thredd visitor",
+    "curious visitor identity"
+   ],
+   "answer": "The visitor claimed his name was Maelik. He visited the prisoner Bazil Thredd once or twice a week for months leading up to the Stockade riot, carrying seemingly legitimate identification papers."
+  },
+  {
+   "q": "Why does Warden Thelwater send you to Baros Alexston?",
+   "aliases": [
+    "why baros alexston",
+    "who is baros",
+    "turn in to baros"
+   ],
+   "answer": "Baros Alexston is Stormwind's City Architect and once worked alongside Edwin VanCleef and the Stonemasons Guild. Because the Defias originated from the Stonemasons, Thelwater hopes Alexston can recognize the visitor from his past guild contacts."
+  },
+  {
+   "q": "How did Maelik enter the Stockade without being caught?",
+   "aliases": [
+    "how did visitor get in",
+    "maeliks papers",
+    "stockade security failure"
+   ],
+   "answer": "Maelik presented legitimate paperwork that fully cleared prison security checks. The guards had no legal cause to deny him entry, suggesting either a bureaucratic error or corrupt officials aiding his passage from inside the kingdom's administration."
+  },
+  {
+   "q": "What role did Bazil Thredd play in the prison riots?",
+   "aliases": [
+    "who is bazil thredd",
+    "what did thredd do"
+   ],
+   "answer": "Bazil Thredd was an imprisoned leader of the Defias Brotherhood inside the Stockade. He organized and led the violent uprising among the inmates, a coordinated effort likely orchestrated through his visits with Maelik."
+  },
+  {
+   "q": "What happens after Baros Alexston reads the description?",
+   "aliases": [
+    "does baros recognize maelik",
+    "what happens next"
+   ],
+   "answer": "Alexston does not recognize the name Maelik or the physical description provided by Thelwater. However, acknowledging that the visitor must be connected within the city, he agrees to investigate further to uncover the stranger's true identity."
+  },
+  {
+   "q": "Why is the visitor important to the investigation of the Defias?",
+   "aliases": [
+    "defias conspiracy",
+    "why does the visitor matter"
+   ],
+   "answer": "The regular visits demonstrate that the Stockade riot was not a spontaneous outburst of lawless rage, but a planned Defias plot enabled by someone with high-level access to Stormwind's official documentation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "The revelation of forged or sanctioned entry papers exposes the deep vulnerabilities and potential corruption festering inside the Kingdom of Stormwind's own government."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Tracking down Bazil Thredd's mysterious contact is critical to rooting out Defias sympathizers operating openly inside the capital city."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The quiet visitor's ability to walk straight through a maximum-security prison with proper documentation highlights the subtlety and craft of master infiltrators."
+  }
+ ],
+ "keywords": [
+  "baros alexston",
+  "bazil thredd",
+  "curious visitor",
+  "defias",
+  "maelik",
+  "stockade",
+  "stonemasons",
+  "warden thelwater"
+ ],
+ "related": [
+  "quest:391",
+  "npc:warden-thelwater",
+  "npc:baros-alexston",
+  "topic:defias-brotherhood",
+  "topic:stormwind-kingdom",
+  "quest:65"
+ ],
+ "attribution": [
+  "The Curious Visitor"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "key": "subzone:sentinel-hill",
+ "type": "subzone",
+ "name": "Sentinel Hill",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Sentinel Hill"
+ },
+ "summary": "Sentinel Hill is the primary bastion of the Alliance in Westfall, serving as the command center for the People's Militia. Surrounded by overgrown fields, scavenging gnolls, and hostile outlaws, this fortified rise is the only secure foothold for lawful citizens in the region.",
+ "sections": [
+  {
+   "title": "A Bastion in the Dust",
+   "body": "Perched on high ground in central Westfall, Sentinel Hill stands as a vital sanctuary in an otherwise lawless territory. It features a barracks-style inn, a gryphon roost connecting travelers to Stormwind and beyond, a forge, and a lumber mill, all anchored by the imposing Sentinel Tower. While the surrounding lands have fallen to banditry and ravenous beasts, the encampment maintains a fragile perimeter where travelers, beleaguered farmers, and recruits can regroup under the watchful eyes of veteran defenders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Heart of the Militia",
+   "body": "With the royal army detained in Stormwind and unable to spare soldiers to protect outlying territories, Gryan Stoutmantle established the People's Militia directly upon this hill. From here, volunteer fighters organize scouts, coordinate strikes against the Riverpaw gnolls, and investigate the organized banditry tearing through Westfall's abandoned farmsteads. Sentinel Hill is neither an opulent fort nor a comfortable refuge, but a working frontline camp determined to reclaim the kingdom's former breadbasket.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why hasn't Stormwind sent soldiers to defend Sentinel Hill?",
+   "aliases": [
+    "why no stormwind guards",
+    "where is stormwind army",
+    "why militia here"
+   ],
+   "answer": "With King Varian Wrynn missing and resources spread thin across the realm, Stormwind's regency has largely abandoned the western provinces to their own devices. Local citizens and veterans had to form the People's Militia themselves to hold Sentinel Hill and protect what remains of Westfall."
+  },
+  {
+   "q": "Who is in charge of Sentinel Hill?",
+   "aliases": [
+    "who leads sentinel hill",
+    "sentinel hill commander",
+    "gryan stoutmantle"
+   ],
+   "answer": "Gryan Stoutmantle commands the People's Militia from the base of Sentinel Tower. He coordinates local defense, gathers intelligence on surrounding threats, and directs visiting adventurers against the gnolls and highwaymen encroaching on the settlement."
+  },
+  {
+   "q": "What threats actively endanger the hill?",
+   "aliases": [
+    "what attacks sentinel hill",
+    "sentinel hill enemies",
+    "who is attacking"
+   ],
+   "answer": "The encampment faces constant pressure from aggressive Riverpaw gnolls roaming the western plains, as well as the insidious, coordinated sabotage of the Defias Brotherhood lurking throughout the abandoned farms."
+  },
+  {
+   "q": "What services are available here for travelers?",
+   "aliases": [
+    "sentinel hill amenities",
+    "sentinel hill flight path",
+    "is there an inn here"
+   ],
+   "answer": "Sentinel Hill provides a full set of frontier accommodations: a gryphon master offering travel to Stormwind City and other Alliance outposts, an innkeeper, a mailbox, trade supply vendors, and repair facilities around the local forge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Sentinel Hill is your only fortified outpost and supply hub in Westfall, anchoring the Alliance's presence against outlaws and raiders."
+  },
+  {
+   "target": "race:Human",
+   "text": "Seeing Westfall's farmers forced to raise their own militia here reflects the kingdom's deepening crisis while the throne remains vacant."
+  }
+ ],
+ "keywords": [
+  "gryan stoutmantle",
+  "gryphon roost",
+  "peoples militia",
+  "riverpaw gnolls",
+  "sentinel hill",
+  "sentinel tower",
+  "westfall"
+ ],
+ "related": [
+  "subzone:sentinel-tower",
+  "zone:westfall",
+  "npc:gryan-stoutmantle",
+  "topic:defias-brotherhood",
+  "subzone:gryphon-roost",
+  "zone:stormwind",
+  "topic:gnoll",
+  "quest:65"
+ ],
+ "attribution": [
+  "Sentinel Hill"
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "key": "quest:452",
+ "type": "quest",
+ "name": "Pyrewood Ambush",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   452
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Deathstalker Faerleia",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Pyrewood Ambush",
+  "chain": []
+ },
+ "summary": "Pyrewood Ambush is a critical strike coordinated by the Deathstalkers inside the cursed town of Pyrewood Village. By assassinating the local human council, the Forsaken hope to break Archmage Arugal's grip on the cursed inhabitants and weaken his fortress looming above.",
+ "sections": [
+  {
+   "title": "Striking the Puppets",
+   "body": "Perched inside the town hall of Pyrewood Village, Deathstalker Faerleia lies in wait for the village leadership. While Archmage Arugal isolates himself within Shadowfang Keep tending to his dark sorceries, he relies on the local Pyrewood Council as figureheads to maintain order among the afflicted populace. Faerleia intends to wipe out this leadership cadre in a swift ambush, hoping that without the council's mediation, the feral worgen roaming the surrounding woods and village streets will break free from Arugal's dominion.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Decapitation Strike",
+   "body": "The ambush targets every sitting member of the municipal government, culminating in the death of Lord Mayor Morrison. By clearing out the councilors as they file into their meeting chamber, the Forsaken strike a severe blow to the village's administrative chain of command. The Undercity views this slaughter not merely as revenge, but as a strategic prerequisite for conquering Pyrewood Village outright and laying siege to the mad archmage in Shadowfang Keep.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Deathstalker Faerleia?",
+   "aliases": [
+    "faerleia",
+    "deathstalker faerleia",
+    "who gives pyrewood ambush"
+   ],
+   "answer": "Deathstalker Faerleia is an operative of the Forsaken's premier espionage and assassination guild, the Deathstalkers. Operating behind enemy lines, she established a foothold directly inside Pyrewood Village to coordinate strikes against Archmage Arugal's local infrastructure."
+  },
+  {
+   "q": "Why does the Forsaken want the Pyrewood Council dead?",
+   "aliases": [
+    "why kill pyrewood council",
+    "pyrewood council purpose",
+    "pyrewood council lore"
+   ],
+   "answer": "Arugal uses the council as political puppets to keep the cursed human villagers compliant and under control. The Forsaken believe that eliminating these leaders will throw Pyrewood into chaos and cause the worgen to turn against Arugal."
+  },
+  {
+   "q": "Who leads the Pyrewood Council?",
+   "aliases": [
+    "lord mayor morrison",
+    "pyrewood mayor",
+    "who runs pyrewood"
+   ],
+   "answer": "The council is led by Lord Mayor Morrison, who oversees municipal matters alongside councilmen like Smithers, Thatcher, and Brunswick before the Deathstalkers ambush them."
+  },
+  {
+   "q": "Where does this ambush take place?",
+   "aliases": [
+    "pyrewood ambush location",
+    "where is faerleia",
+    "town hall pyrewood"
+   ],
+   "answer": "The ambush takes place inside the municipal town hall building within Pyrewood Village, located in southern Silverpine Forest just down the road from Shadowfang Keep."
+  },
+  {
+   "q": "What is the relationship between the Council and Arugal?",
+   "aliases": [
+    "arugal council",
+    "is council working for arugal",
+    "arugal control pyrewood"
+   ],
+   "answer": "The council serves as Arugal's administrative mouthpiece. While Arugal remains locked away inside Shadowfang Keep conducting his dark experiments, the council manages the villagers who transform into ferocious beasts under the cover of night."
+  },
+  {
+   "q": "Does killing the council free Pyrewood from the curse?",
+   "aliases": [
+    "is pyrewood cured",
+    "does ambush cure worgen",
+    "curse broken pyrewood"
+   ],
+   "answer": "No. Eliminating the council removes Arugal's mortal puppets, but it does not lift the lupine curse afflicting the villagers, leaving the Forsaken to contest a town filled with hostile, uncontrolled monsters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, securing southern Silverpine is vital to defending the Undercity's borders, and exterminating Arugal's sycophants brings them one step closer to claiming Pyrewood."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The ambush is classic Deathstalker tradecraft: infiltrating enemy strongholds, lying in wait, and eliminating enemy commanders in their own seat of power."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Disrupting Arugal's puppet network weakens the greater threat menacing the Horde's transit corridor through Silverpine Forest toward the southern borders."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "deathstalker faerleia",
+  "faerleia",
+  "lord mayor morrison",
+  "pyrewood ambush",
+  "pyrewood council",
+  "shadowfang keep",
+  "silverpine forest"
+ ],
+ "related": [
+  "npc:deathstalker-faerleia",
+  "npc:arugal",
+  "zone:shadowfang",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Pyrewood Ambush"
+ ]
+}

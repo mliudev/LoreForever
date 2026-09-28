@@ -1,0 +1,94 @@
+{
+ "key": "subzone:solliden-farmstead",
+ "type": "subzone",
+ "name": "Solliden Farmstead",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Solliden Farmstead"
+ },
+ "summary": "Solliden Farmstead is an active human pumpkin farm nestled in western Tirisfal Glades, just north of Deathknell. It represents a rare anomaly in northern Lordaeron: living native farmers who survived the Plague of Undeath and cling fiercely to their soil under the shadow of the Scarlet Crusade.",
+ "sections": [
+  {
+   "title": "A Defiant Remnant",
+   "body": "While most of Lordaeron fell to ruin and rot, the fields of Solliden Farmstead still produce healthy crops. The settlement traces its lineage back centuries to when immigrant noble families from Strom acquired pioneer plots across Tirisfal. Today, these surviving human farmers live under the watchful shield of the Scarlet Crusade garrisoned at the nearby Scarlet Palisade. Traumatized and insular, they defend their homestead with unyielding hostility, striking at any outsiders who draw near\u2014Horde and Alliance alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes in the Undercity",
+   "body": "To the Forsaken just emerging from Deathknell, Solliden is both a threat and a resource. The Royal Apothecary Society eyes the farm's pristine pumpkins as prime organic testing material for brewing their New Plague. Meanwhile, Forsaken military officers like Deathguard Simmer view these living enclaves as a dangerous potential foothold for Stormwind or Gilneas, dispatching operatives to cut down the farmers before they can ever organize into a southern-backed offensive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there living humans farming in Tirisfal Glades?",
+   "aliases": [
+    "why are they alive",
+    "who are these farmers",
+    "living humans in tirisfal"
+   ],
+   "answer": "The Solliden farmers are native Lordaeron humans who miraculously escaped infection during the Third War. Shielded by the nearby Scarlet Crusade at the Scarlet Palisade, they stubbornly continue cultivating the land rather than fleeing their ancestral home."
+  },
+  {
+   "q": "Why are the Solliden farmers hostile to Alliance players?",
+   "aliases": [
+    "why do farmers attack alliance",
+    "are they alliance",
+    "why red to alliance"
+   ],
+   "answer": "Living through the fall of Lordaeron has left the farmers paranoid, bitter, and completely untrusting of anyone outside their immediate circle. Protected by the fanatical Scarlet Crusade, they view all trespassers as potential threats or infected scavengers, attacking Alliance and Horde travelers indiscriminately."
+  },
+  {
+   "q": "Why do the Forsaken want pumpkins from Solliden Farmstead?",
+   "aliases": [
+    "why steal pumpkins",
+    "fields of grief pumpkin quest",
+    "royal apothecary society pumpkins"
+   ],
+   "answer": "Apothecaries serving the Royal Apothecary Society require fresh, uncorrupted organic matter to test and refine their New Plague. The plump, untainted pumpkins growing in Solliden's soil serve as ideal living hosts for developing toxic strains."
+  },
+  {
+   "q": "Who is Deathguard Simmer, and why does he target the farm?",
+   "aliases": [
+    "why kill the farmers",
+    "deathguard simmer quest",
+    "reaping the reapers"
+   ],
+   "answer": "Deathguard Simmer is a Forsaken officer stationed near Deathknell. He views the surviving farmers as a looming security risk, fearing that the Kingdom of Stormwind or neighboring Gilneas might eventually recruit and arm them as an Alliance vanguard against the Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the newly risen Forsaken, Solliden Farmstead is an immediate lesson in realpolitik: living Lordaeronians who despise what you have become, serving as both raw material for Apothecary toxins and a potential southern beachhead."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Seeing living humans tilling Lordaeron's soil brings a glimmer of hope, but the bitter reality is that these isolated survivors view Stormwind's citizens with the same xenophobic hatred they hold for the undead."
+  }
+ ],
+ "keywords": [
+  "deathguard simmer",
+  "deathknell",
+  "fields of grief",
+  "pumpkins",
+  "scarlet palisade",
+  "solliden",
+  "solliden farmstead",
+  "tirisfal glades"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "subzone:scarlet-palisade",
+  "subzone:deathknell",
+  "quest:365",
+  "npc:deathguard-simmer",
+  "topic:royal-apothecary-society",
+  "topic:scarlet-crusade",
+  "subzone:calston-estate"
+ ],
+ "attribution": [
+  "Solliden Farmstead"
+ ]
+}

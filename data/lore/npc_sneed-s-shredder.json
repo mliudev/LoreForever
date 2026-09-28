@@ -1,0 +1,109 @@
+{
+ "key": "npc:sneed-s-shredder",
+ "type": "npc",
+ "name": "Sneed's Shredder",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Sneed's Shredder",
+  "refs": 5
+ },
+ "summary": "Sneed's Shredder is an imposing mechanised lumber harvester stationed deep within the Deadmines. Piloted by the goblin taskmaster Sneed, this deadly machine acts as both heavy industrial machinery for Edwin VanCleef's shipwrights and a terrifying perimeter defender.",
+ "sections": [
+  {
+   "title": "Industrial Terror",
+   "body": "Within the goblin-dominated foundry of the Deadmines, mechanical shredders serve a dual purpose: processing vast amounts of timber and lumber required for Edwin VanCleef's hidden juggernaut, and serving as armored shock engines against intruders. Sneed, the overseer of the lumber works, operates this modified mechanical beast directly, turning an oversized buzzsaw into an instrument of defense.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Deadly Cockpit",
+   "body": "Defeating the machine does not end the threat. Sneed perches inside an open cockpit above the spinning blades, relying on heavy iron plating and terrifying clatter to scatter his foes. Even when the machinery breaks down and the shredder collapses in a shower of sparks, Sneed leaps from the smoking wreckage to fight to the bitter end.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Sneed's Shredder used for in the Deadmines?",
+   "aliases": [
+    "why is there a shredder in deadmines",
+    "shredder purpose deadmines"
+   ],
+   "answer": "The Defias Brotherhood relies heavily on goblin machinery to carve through subterranean stone and process massive quantities of timber needed to construct their secret juggernaut. Sneed uses this shredder to mill wood and brutally enforce order over the underground works."
+  },
+  {
+   "q": "What happens when the shredder is destroyed?",
+   "aliases": [
+    "does sneed die with the shredder",
+    "sneed shredder phase 2"
+   ],
+   "answer": "When the shredder suffers critical mechanical failure, Sneed himself survives the wreckage. The goblin pilot emerges directly from the ruined vehicle, brandishing his own weapons and attacking intruders with fierce tenacity."
+  },
+  {
+   "q": "Why do the Defias Brotherhood have goblin technology?",
+   "aliases": [
+    "defias goblins",
+    "why are goblins in deadmines"
+   ],
+   "answer": "Edwin VanCleef hired goblin engineers, craftsmen, and mercenary laborers to oversee the complex mechanical operations beneath Westfall, including steam-powered forges, gun foundries, and woodmills."
+  },
+  {
+   "q": "Can the shredder be hacked or controlled by engineers?",
+   "aliases": [
+    "control sneed shredder",
+    "gnomish universal remote sneed"
+   ],
+   "answer": "Clever inventors carrying a Gnomish Universal Remote can briefly override the shredder's control systems, temporarily wresting control of the machine away from Sneed."
+  },
+  {
+   "q": "Does Sneed's Shredder carry anything valuable?",
+   "aliases": [
+    "sneed shredder quest item",
+    "what drops from sneed shredder"
+   ],
+   "answer": "The shredder carries important mechanical parts sought by gnome investigators in Ironforge, notably serving as the focus for missions investigating the goblin machinery aiding the Defias rebellion."
+  },
+  {
+   "q": "Who pilots the shredder?",
+   "aliases": [
+    "who drives sneed shredder",
+    "sneed pilot"
+   ],
+   "answer": "The machine is commanded by Sneed, a seasoned goblin supervisor who directs the logging and carpentry operations deep within the Deadmines."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The shredder is a classic marvel of goblin mechanical design, though it remains vulnerable to the overrides of a Gnomish Universal Remote."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomish tinkers in Ironforge hold a keen interest in analyzing the components within this goblin-built monster to uncover the Defias engineering pipeline."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Eliminating Sneed and his machine cripples the lumber milling operations supporting Edwin VanCleef's secret war fleet."
+  }
+ ],
+ "keywords": [
+  "buzzsaw",
+  "deadmines",
+  "defias",
+  "goblin",
+  "lumber",
+  "remote",
+  "shredder",
+  "sneed",
+  "vancleef"
+ ],
+ "related": [
+  "npc:sneed",
+  "zone:deadmines",
+  "subzone:deadmines",
+  "quest:2040",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Sneed's Shredder"
+ ]
+}

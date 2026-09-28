@@ -1,0 +1,90 @@
+{
+ "key": "npc:sentinel-melyria-frostshadow",
+ "type": "npc",
+ "name": "Sentinel Melyria Frostshadow",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Sentinel Melyria Frostshadow",
+  "refs": 2
+ },
+ "summary": "Sentinel Melyria Frostshadow is a night elf sentinel stationed at Raynewood Tower in central Ashenvale. Standing guard along the contested forest roads, she directs Alliance adventurers to recover fallen comrades and investigate eerie disturbances taking root in the wild wood.",
+ "sections": [
+  {
+   "title": "The Vigil at Raynewood",
+   "body": "Raynewood Tower serves as a crucial night elf defensive post in the eastern reaches of Ashenvale, watching over the path between the Silverwing Outpost and Splintertree Post. Sentinel Melyria Frostshadow stands watch here, contending with the ongoing friction against Horde invaders and the local satyr and wildkin threats. From this vantage point, she coordinates local defensive efforts, tracking down fallen sentinels and keeping military lines of communication intact.",
+   "spoiler": 0
+  },
+  {
+   "title": "Echoes of Velinde Starsong",
+   "body": "Beyond routine skirmishes, Frostshadow is deeply troubled by unsettling mysteries that have crept into the woodland. She is one of the few sentinels willing to speak of the Howling Vale, an eerie den of ferocious lupine beasts nestled in the woods. Her investigations touch upon the lingering riddle of Sentinel Velinde Starsong, an honored night elf commander who mysteriously vanished after wielding an enigmatic, summoning artifact in the shadowed glades.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sentinel Melyria Frostshadow?",
+   "aliases": [
+    "who is melyria",
+    "melyria frostshadow info",
+    "raynewood sentinel"
+   ],
+   "answer": "She is a night elf sentinel officer stationed at Raynewood Tower in Ashenvale. She organizes local patrols, aids in recovering fallen night elf troops, and investigates strange supernatural happenings across the forest."
+  },
+  {
+   "q": "Where can I find Sentinel Melyria Frostshadow?",
+   "aliases": [
+    "melyria location",
+    "where is melyria frostshadow",
+    "find melyria"
+   ],
+   "answer": "She is stationed at Raynewood Tower, located along the main road in central-eastern Ashenvale, east of Astranaar and west of Splintertree Post."
+  },
+  {
+   "q": "What is Raynewood Tower?",
+   "aliases": [
+    "raynewood tower lore",
+    "what is raynewood"
+   ],
+   "answer": "Raynewood Tower is an Alliance outpost and watchtower in Ashenvale. It safeguards the highway through the forest against hostile wildlife, satyrs, and Horde military forces venturing from nearby bases."
+  },
+  {
+   "q": "What is the connection between Melyria and Velinde Starsong?",
+   "aliases": [
+    "velinde starsong quest",
+    "howling vale mystery"
+   ],
+   "answer": "Melyria directs adventurers to investigate the Howling Vale, a grove plagued by strange wolf-like horrors, in hopes of unraveling what truly became of Sentinel Velinde Starsong after she disappeared under mysterious circumstances."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Melyria provides critical operational support in central Ashenvale, anchoring Alliance resistance and uncovering dangerous mysteries behind enemy lines."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "As a sister of the Sentinels, Frostshadow honors fallen defenders and seeks truth regarding the fate of Velinde Starsong, one of the sisterhood's missing leaders."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "frostshadow",
+  "melyria",
+  "raynewood",
+  "sentinel",
+  "starsong",
+  "velinde"
+ ],
+ "related": [
+  "quest:1037",
+  "quest:1022",
+  "subzone:howling-vale",
+  "zone:ashenvale",
+  "topic:night-elf",
+  "quest:9521"
+ ],
+ "attribution": [
+  "Sentinel Melyria Frostshadow"
+ ]
+}

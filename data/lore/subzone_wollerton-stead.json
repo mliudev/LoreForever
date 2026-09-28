@@ -1,0 +1,77 @@
+{
+ "key": "subzone:wollerton-stead",
+ "type": "subzone",
+ "name": "Wollerton Stead",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Wollerton Stead"
+ },
+ "summary": "Wollerton Stead is a quiet rural homestead situated in the outskirts of Stormwind City. Nestled among the rolling hills just outside the capital's fortified walls, it offers a glimpse into the everyday pastoral life supporting the kingdom.",
+ "sections": [
+  {
+   "title": "A Homestead by the Capital",
+   "body": "Situated amidst the grassy knolls of the Stormwind City Outskirts, Wollerton Stead stands as a quiet reminder of human husbandry right beside the grand stone bastions of the capital. While the bustling trade of the city draws soldiers, merchants, and adventurers from across the Eastern Kingdoms, peaceful farms like Wollerton provide essential produce and sustenance to the realm's heart.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mysteries of the Countryside",
+   "body": "Though peaceful at a glance, the lands surrounding Stormwind's exterior walls are not entirely without quiet oddities. The tranquil knolls and surrounding thickets around the homestead harbor quiet secrets, including a strange, blood-caked altar hidden in the countryside behind the farmstead, hinting at darker histories buried beneath the kingdom's pastures.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Wollerton Stead?",
+   "aliases": [
+    "wollerton farm",
+    "wollerton stead location",
+    "where is wollerton stead"
+   ],
+   "answer": "Wollerton Stead is a small farmhouse and plot of land nestled in the grassy outskirts directly surrounding Stormwind City."
+  },
+  {
+   "q": "What is the strange altar nearby?",
+   "aliases": [
+    "blood caked altar",
+    "altar behind wollerton stead",
+    "wollerton altar"
+   ],
+   "answer": "A blood-caked stone altar rests a short distance behind the farmstead in the wilderness. Its true origin is unknown, but such relics often point to rogue cultists or ancient ritual practices outside the city guards' regular watch."
+  },
+  {
+   "q": "Is Wollerton Stead affiliated with Stormwind?",
+   "aliases": [
+    "who owns wollerton stead",
+    "wollerton alliance"
+   ],
+   "answer": "Yes. It is a peaceful human homestead situated within the territorial outskirts of the capital, loyal to the Kingdom of Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers leaving or approaching the Valley of Heroes, Wollerton Stead is a peaceful glimpse of the rural heartlands sustaining the crown."
+  },
+  {
+   "target": "race:Human",
+   "text": "The quiet stead reflects the resilient agrarian life of Stormwind's common folk, who continue farming the outskirts despite rumors of banditry and shadow in the surrounding lands."
+  }
+ ],
+ "keywords": [
+  "blood-caked altar",
+  "farmhouse",
+  "stormwind",
+  "stormwind outskirts",
+  "wollerton",
+  "wollerton stead"
+ ],
+ "related": [
+  "subzone:stormwind-city-outskirts",
+  "zone:stormwind",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Wollerton Stead"
+ ]
+}

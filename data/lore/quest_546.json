@@ -1,0 +1,122 @@
+{
+ "key": "quest:546",
+ "type": "quest",
+ "name": "Souvenirs of Death",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   546
+  ],
+  "level": "25",
+  "faction": "Horde",
+  "start": "Deathguard Samsa",
+  "end": "",
+  "previous": "Battle of Hillsbrad (quest)",
+  "next": null,
+  "wiki": "Souvenirs of Death",
+  "chain": []
+ },
+ "summary": "Souvenirs of Death is a quest given by Deathguard Samsa in Tarren Mill to Horde champions campaigning against the human settlements of the Hillsbrad Foothills. Envious of those sent to the front lines, Samsa asks for thirty human skulls taken in battle to add to his morbid collection.",
+ "sections": [
+  {
+   "title": "A Guard's Envy",
+   "body": "While High Executor Darthalia directs the full military might of the Forsaken against the Hillsbrad human settlements, Deathguard Samsa finds himself stranded on sentry duty in Tarren Mill. Harboring a bitter jealousy toward those dispatched to raid, burn, and pillage, Samsa views the open slaughter of the living as an enviable privilege denied to stationary town guards.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Gruesome Trophy",
+   "body": "Unable to leave his post, Samsa indulges his hatred by collecting the skulls of Hillsbrad humans slain across the ongoing campaign. Rather than serving an arcane ritual or a tactical strategy, his request for thirty skulls is a purely personal indulgence\u2014trophies of a war he longs to fight firsthand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this quest and where are they located?",
+   "aliases": [
+    "quest giver",
+    "who gives souvenirs of death",
+    "samsa location"
+   ],
+   "answer": "Deathguard Samsa offers the task. He is stationed as a sentry within Tarren Mill, the primary Forsaken bastion in the northern Hillsbrad Foothills."
+  },
+  {
+   "q": "What does Deathguard Samsa want?",
+   "aliases": [
+    "quest goal",
+    "what items needed",
+    "skulls required"
+   ],
+   "answer": "Samsa asks for thirty Hillsbrad Human Skulls, harvested from the human combatants and townsfolk you slay while fighting across Hillsbrad Fields and the town of Hillsbrad."
+  },
+  {
+   "q": "Why does Samsa want human skulls?",
+   "aliases": [
+    "why collect skulls",
+    "samsa motivation",
+    "what are skulls for"
+   ],
+   "answer": "Samsa is an avid collector of macabre trophies. Stuck on garrison duty in Tarren Mill while others wage total war, he gathers skulls to vicariously share in the slaughter of the living."
+  },
+  {
+   "q": "When does this quest become available?",
+   "aliases": [
+    "quest prerequisites",
+    "how to unlock",
+    "prereqs for souvenirs"
+   ],
+   "answer": "Samsa only approaches you after you have enlisted with High Executor Darthalia and completed the opening assault in the Battle of Hillsbrad quest line."
+  },
+  {
+   "q": "Are the skulls used for Forsaken alchemy or magic?",
+   "aliases": [
+    "are skulls for apothecary",
+    "magic skulls",
+    "necromancy use"
+   ],
+   "answer": "No. Unlike assignments from the Royal Apothecary Society that seek biological reagents for the New Plague, Samsa's request is entirely personal. He finds the severed skulls beautiful and cherishes them as souvenirs of war."
+  },
+  {
+   "q": "Which humans provide the skulls?",
+   "aliases": [
+    "where to farm skulls",
+    "which mobs drop skulls",
+    "hillsbrad humans"
+   ],
+   "answer": "Any of the human farmers, peasants, militia, and defenders living in Hillsbrad Fields or the town of Hillsbrad can yield the skulls while you fight on behalf of Tarren Mill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The campaign against Hillsbrad represents the Horde's direct push to dismantle remaining Alliance strongholds in Lordaeron, securing northern supply routes for Tarren Mill."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Deathguard Samsa reflects the casual cruelty and deep-seated animosity many Forsaken hold toward the living humans who view them as monsters."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The systematic collection of severed human heads highlights the brutal and existential threat the Forsaken pose to the surviving townsfolk of Hillsbrad."
+  }
+ ],
+ "keywords": [
+  "battle of hillsbrad",
+  "darthalia",
+  "deathguard samsa",
+  "forsaken",
+  "hillsbrad",
+  "hillsbrad human skull",
+  "souvenirs of death",
+  "tarren mill"
+ ],
+ "related": [
+  "npc:deathguard-samsa",
+  "quest:527",
+  "subzone:tarren-mill",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Souvenirs of Death"
+ ]
+}

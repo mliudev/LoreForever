@@ -1,0 +1,126 @@
+{
+ "key": "quest:155",
+ "type": "quest",
+ "name": "The Defias Brotherhood",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   155
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "The Defias Traitor",
+  "end": "Gryan Stoutmantle",
+  "previous": "The Defias Brotherhood (5)",
+  "next": "The Defias Brotherhood (7)",
+  "wiki": "The Defias Brotherhood (6)",
+  "chain": []
+ },
+ "summary": "This critical stage of the investigation sees the People's Militia make a breakthrough with the help of a turncoat rogue. In exchange for protection, the Defias Traitor agrees to guide Alliance champions directly to the Brotherhood's hidden base of operations. The journey cuts straight through the occupied ghost town of Moonbrook to uncover Edwin VanCleef's inner sanctum.",
+ "sections": [
+  {
+   "title": "A Turncoat's Bargain",
+   "body": "Gryan Stoutmantle's campaign against the Defias Brotherhood hits a turning point once a captured brigand agrees to talk. Facing execution or assassination by his former brothers, the Defias Traitor cuts a deal with the People's Militia: escort him safely through hostile territory, and he will expose the location where Edwin VanCleef and his ringleaders are hiding. Knowing the thieves' network will ruthlessly silence anyone who speaks out, the turncoat requires armed protection every step of the road.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road Through Moonbrook",
+   "body": "The path to the hideout leads straight southwest from Sentinel Hill down into Moonbrook, a township completely overrun by the Brotherhood. The traitor guides his protectors right past the abandoned town square and fountain, drawing the fury of every brigand, looter, and highwayman patrolling the ruins. The turncoat leads the way directly to the entrance of the sprawling Deadmines beneath Moonbrook, confirming the militia's worst fears: VanCleef has fortified an underground stronghold right under Westfall's nose.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the Defias Traitor?",
+   "aliases": [
+    "who is the traitor",
+    "defias traitor identity",
+    "defias rat"
+   ],
+   "answer": "He is a former member of the Defias Brotherhood who turned informant for Gryan Stoutmantle and the People's Militia. Fearing death at the hands of his former comrades, he traded the secret location of Edwin VanCleef's underground redoubt in exchange for an escort to safety."
+  },
+  {
+   "q": "Where does the traitor lead you?",
+   "aliases": [
+    "where is the defias hideout",
+    "traitor path",
+    "where does he go"
+   ],
+   "answer": "He leads you from Sentinel Hill down the road into Moonbrook, marching straight through the ruined town square past the fountain to the entrance of the Deadmines tunnels beneath the town."
+  },
+  {
+   "q": "Why does Gryan Stoutmantle need this information?",
+   "aliases": [
+    "why do we escort the traitor",
+    "stoutmantle purpose",
+    "why find the hideout"
+   ],
+   "answer": "Although the People's Militia has battled highwaymen across Westfall, they did not know where Edwin VanCleef was directing operations. Discovering the entrance to his underground lair gives the militia a clear target to strike at the heart of the rebellion."
+  },
+  {
+   "q": "Why is Moonbrook crawling with Defias?",
+   "aliases": [
+    "why are there defias in moonbrook",
+    "moonbrook takeover",
+    "who owns moonbrook"
+   ],
+   "answer": "Moonbrook was once a thriving agricultural center, but when the Kingdom of Stormwind fell into neglect and bandits moved in, the town was abandoned by its residents. The Defias Brotherhood claimed the empty buildings as an above-ground perimeter guarding the entrance to the Deadmines."
+  },
+  {
+   "q": "What happens after you discover the hideout?",
+   "aliases": [
+    "what comes next",
+    "after defias escort",
+    "quest progression"
+   ],
+   "answer": "Once the traitor reveals the entrance to the Deadmines, you report back to Gryan Stoutmantle at Sentinel Hill. Armed with proof of VanCleef's location, the militia prepares a direct assault on the underground lair."
+  },
+  {
+   "q": "Why does the Brotherhood want the traitor dead?",
+   "aliases": [
+    "why kill traitor",
+    "defias attacking traitor"
+   ],
+   "answer": "The Defias rely on secrecy, operating from hidden tunnels while orchestrating operations throughout Stormwind's territories. A turncoat revealing the front door of their central operation threatens to dismantle their entire conspiracy."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Uncovering the hideout is a major military breakthrough for the embattled People's Militia, offering the first real chance to strike a decisive blow against Westfall's criminal insurgency."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Walking alongside a former Defias rogue offers a harsh look at the price of betrayal in the criminal underworld, where broken vows are answered with daggers."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, seeing Moonbrook fallen to lawlessness and occupied by former Stonemasons underscores just how deeply the kingdom has fractured since the Third War."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "defias traitor",
+  "edwin vancleef",
+  "escort",
+  "gryan stoutmantle",
+  "moonbrook",
+  "peoples militia",
+  "sentinel hill",
+  "westfall"
+ ],
+ "related": [
+  "npc:the-defias-traitor",
+  "subzone:moonbrook",
+  "subzone:defias-hideout",
+  "npc:gryan-stoutmantle",
+  "subzone:sentinel-hill",
+  "topic:defias-brotherhood",
+  "zone:westfall",
+  "quest:65"
+ ],
+ "attribution": [
+  "The Defias Brotherhood (6)"
+ ]
+}

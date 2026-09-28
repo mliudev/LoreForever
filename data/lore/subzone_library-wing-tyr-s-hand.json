@@ -1,0 +1,89 @@
+{
+ "key": "subzone:library-wing-tyr-s-hand",
+ "type": "subzone",
+ "name": "Library Wing (Tyr's Hand)",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Library Wing (Tyr's Hand)"
+ },
+ "summary": "The Library Wing is a secluded hall inside Tyr's Hand Abbey, nestled within the Scarlet Crusade's heavily fortified redoubt in the Eastern Plaguelands. Once dedicated to holy study and contemplation, its shelves are now consumed by the zealous order's rigid dogma and propaganda. Members of the Crusade congregate here to study scripture and guard the sanctum's religious relics.",
+ "sections": [
+  {
+   "title": "Sanctum of Zealous Lore",
+   "body": "Situated off the central nave of Tyr's Hand Abbey opposite the martial quarters, the Library Wing reflects the ideological core of the Scarlet Crusade. Within these quiet stone alcoves, priests and crusaders immerse themselves in theological tracts, militant doctrines, and writings twisted by years of relentless warfare against the Scourge. Rather than preserving open scholarship, the texts sheltered here fuel the Crusade's paranoia, reinforcing their conviction that all outsiders carry the taint of corruption.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vessels of the Light",
+   "body": "Beyond its collection of partisan scrolls and scriptures, the Library Wing serves as a repository for sacred items maintained by the Scarlet priesthood. In the back rooms of the wing, crusaders keep ritually consecrated supplies, including basins of pure holy water used in high-ranking liturgical rites. Reaching these inner sanctums requires fighting through elite Scarlet defenders who treat the library as both a bastion of faith and an impenetrable fortress.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Library Wing located?",
+   "aliases": [
+    "library wing location",
+    "where is the library wing",
+    "how to find library wing tyr's hand"
+   ],
+   "answer": "The Library Wing is situated inside Tyr's Hand Abbey, found within the Scarlet Crusade enclave of Tyr's Hand in the southeastern Eastern Plaguelands. Inside the abbey, it lies south of the main entrance hall, opposite the Hall of Arms."
+  },
+  {
+   "q": "What kinds of books are kept here?",
+   "aliases": [
+    "what books are in the library",
+    "tyr's hand library tomes",
+    "what is stored in the library wing"
+   ],
+   "answer": "The shelves hold theological texts of the Holy Light alongside militant doctrines and zealously curated literature produced by the Scarlet Crusade to justify their endless crusade against the undead and outsiders."
+  },
+  {
+   "q": "Who controls this part of the abbey?",
+   "aliases": [
+    "who is in the library wing",
+    "who controls the library wing"
+   ],
+   "answer": "The Library Wing is firmly held by the elite forces of the Scarlet Crusade, including clerics, scholars, and heavily armed defenders stationed to guard their doctrinal texts and sanctified supplies."
+  },
+  {
+   "q": "Is the Library Wing dangerous to visit?",
+   "aliases": [
+    "is the library wing safe",
+    "tyr's hand library difficulty"
+   ],
+   "answer": "Yes, it is exceptionally hazardous. The library is deep within Tyr's Hand, an elite Scarlet Crusade stronghold populated by high-level zealots who attack trespassers on sight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "For holy practitioners, the Library Wing is a bitter display of how divine contemplation can be corrupted into narrow-minded extremism and paranoia."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Paladins view the wing as a perversion of the Silver Hand's original scholarly traditions, where devotion to the Light has been replaced by militant zealotry."
+  }
+ ],
+ "keywords": [
+  "abbey",
+  "eastern plaguelands",
+  "holy water",
+  "library wing",
+  "propaganda",
+  "scarlet crusade",
+  "tomes",
+  "tyr's hand"
+ ],
+ "related": [
+  "subzone:tyr-s-hand-abbey",
+  "subzone:tyr-s-hand",
+  "topic:scarlet-crusade",
+  "zone:easternplaguelands",
+  "topic:light"
+ ],
+ "attribution": [
+  "Library Wing (Tyr's Hand)"
+ ]
+}

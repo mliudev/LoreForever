@@ -1,0 +1,89 @@
+{
+ "key": "subzone:dormitory",
+ "type": "subzone",
+ "name": "Dormitory",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Dormitory"
+ },
+ "summary": "The Dormitory is a residential sector within the fallen technological capital of Gnomeregan. Once providing living quarters for countless gnome citizens, it now lies choked with radioactive fallout and crawls with savage, irradiated troggs.",
+ "sections": [
+  {
+   "title": "A Home Overrun",
+   "body": "Situated just past the decontamination chambers of the Clean Zone, the Dormitory formerly housed the inventors, laborers, and families of Gnomeregan. When High Tinker Mekkatorque initiated the emergency radiation venting to combat the invading trogg horde, this densely populated sector became a trap. Today, its communal halls and living units are completely abandoned by gnomish life, occupied instead by mutated troggs that thrive in the radioactive miasma. Travelers descending toward the lower levels of the city must fight through this tragic reminder of the catastrophe to reach the lower Hall of Gears.",
+   "spoiler": 0
+  },
+  {
+   "title": "Punchograph Terminals",
+   "body": "Amid the clutter of abandoned bunks and mutated subterranean invaders, remnants of the city's intricate administrative apparatus still function. The Matrix Punchograph 3005-B machines reside in this sector, processing the punched security data cards carried by gnome personnel. These automated terminals allow surviving gnomes and their allies to retrieve and encode authorization cards needed to access deeper city sectors and secure archival vaults.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was the Dormitory used for before the fall?",
+   "aliases": [
+    "what is dormitory",
+    "dormitory purpose",
+    "who lived here"
+   ],
+   "answer": "The Dormitory served as everyday living quarters for Gnomeregan's vast population of inventors, workers, and their families. Its proximity to industrial and civic sectors allowed gnome citizens easy access between their workstations and resting bunks before toxic radiation flooded the lower corridors."
+  },
+  {
+   "q": "Why is the Dormitory infested with troggs?",
+   "aliases": [
+    "why troggs here",
+    "trogg infestation dormitory",
+    "irradiated troggs"
+   ],
+   "answer": "When the troggs breached the city from beneath, High Tinker Mekkatorque flooded the city with toxic gas to kill them. Instead of wiping them out, the radiation mutated the surviving troggs, making them more vicious and entirely resistant to the irradiated environment of the residential blocks."
+  },
+  {
+   "q": "Where does the Dormitory lead?",
+   "aliases": [
+    "dormitory exits",
+    "where to go from dormitory",
+    "dormitory connections"
+   ],
+   "answer": "The Dormitory sits just beyond the sanitized airlocks of the Clean Zone and connects the upper levels to the lower level of the Hall of Gears, making it an unavoidable chokepoint for anyone pushing deeper into Gnomeregan."
+  },
+  {
+   "q": "What are the Matrix Punchograph machines found here?",
+   "aliases": [
+    "punchograph",
+    "matrix punchograph 3005-B",
+    "punch cards"
+   ],
+   "answer": "The Matrix Punchograph 3005-B terminals are automated data processing stations. Gnomish security protocols rely on punch cards, and these machines are used to upgrade and encode data cards to bypass security checkpoints deeper inside the facility."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Stepping into the Dormitory is personal for every gnome: this was once your home, now reduced to irradiated rubble and overrun by the very brutes who drove you from it."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Even amid total bio-containment failure, automated terminals like the Matrix Punchograph 3005-B continue processing algorithmic security punch cards flawlessly."
+  }
+ ],
+ "keywords": [
+  "clean zone",
+  "dormitory",
+  "gnomeregan",
+  "hall of gears",
+  "punchograph",
+  "trogg"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "subzone:clean-zone",
+  "subzone:hall-of-gears",
+  "topic:gnome",
+  "topic:trogg"
+ ],
+ "attribution": [
+  "Dormitory"
+ ]
+}

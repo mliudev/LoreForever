@@ -1,0 +1,78 @@
+{
+ "key": "subzone:salty-sailor-tavern",
+ "type": "subzone",
+ "name": "Salty Sailor Tavern",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Salty Sailor Tavern"
+ },
+ "summary": "The Salty Sailor Tavern is the beating heart of Booty Bay's social life, serving as the port's primary inn and watering hole. Run by the goblin Innkeeper Skindle, it welcomes scoundrels, mercenaries, and travelers from both factions seeking respite from the perils of the jungle.",
+ "sections": [
+  {
+   "title": "A Safe Haven in the Jungle",
+   "body": "Perched amidst the wooden tiers of Booty Bay, the Salty Sailor Tavern offers warm beds and strong drinks under the watchful eye of the Blackwater Raiders. Behind the bar stands Innkeeper Skindle, keeping glasses filled while a menagerie of buccaneers, traders, and adventurers mingle on neutral ground. Outside the establishment hangs a massive, curious curio\u2014a Zul'Gurub Protector Stone\u2014serving as a strange trophy in this bustling den of commerce.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who runs the Salty Sailor Tavern?",
+   "aliases": [
+    "innkeeper",
+    "who is the innkeeper",
+    "skindle"
+   ],
+   "answer": "The tavern and its inn services are managed by Innkeeper Skindle, an industrious goblin who caters to the assorted sailors, mercenaries, and adventurers passing through Booty Bay."
+  },
+  {
+   "q": "What is the tavern's specialty drink?",
+   "aliases": [
+    "drink",
+    "specialty drink",
+    "south island iced tea"
+   ],
+   "answer": "The house specialty is the South Island Iced Tea, a potent and refreshing beverage favored by thirsty sailors and jungle-weary travelers."
+  },
+  {
+   "q": "What is that large stone hanging outside the tavern?",
+   "aliases": [
+    "stone outside",
+    "zul'gurub stone",
+    "protector stone"
+   ],
+   "answer": "Suspended outside the building is a Zul'Gurub Protector Stone, an ominous relic brought back from the ancient troll ruins deep within the jungle."
+  },
+  {
+   "q": "Can both Alliance and Horde stay here?",
+   "aliases": [
+    "is it neutral",
+    "alliance and horde allowed",
+    "can horde use the inn"
+   ],
+   "answer": "Yes. As with the rest of Booty Bay, the Salty Sailor Tavern operates under the neutral authority of the Steamwheedle Cartel. So long as patrons mind their manners and do not draw weapons, both Alliance and Horde travelers are free to rest here."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The crowded, smoky floor of the Salty Sailor makes it the ideal place to swap rumors, listen for pirate chatter, and keep your purse guarded."
+  }
+ ],
+ "keywords": [
+  "blackwater raiders",
+  "booty bay inn",
+  "protector stone",
+  "salty sailor",
+  "skindle",
+  "south island iced tea"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "zone:stranglethorn",
+  "subzone:zul-gurub"
+ ],
+ "attribution": [
+  "Salty Sailor Tavern"
+ ]
+}

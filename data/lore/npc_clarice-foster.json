@@ -1,0 +1,75 @@
+{
+ "key": "npc:clarice-foster",
+ "type": "npc",
+ "name": "Clarice Foster",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Clarice Foster",
+  "refs": 1
+ },
+ "summary": "Clarice Foster is a Forsaken woman residing deep beneath the bluffs of Mulgore within the Pools of Vision. Far from the plagued glades of Lordaeron, she spends her days in contemplation among the tauren seers and mystics.",
+ "sections": [
+  {
+   "title": "A Forsaken in the Pools of Vision",
+   "body": "While most Forsaken remain in the northern lands of Lordaeron rebuilding their kingdom under the Undercity, Clarice Foster has traveled to the heart of the tauren lands in Kalimdor. Sheltered within the cavernous Pools of Vision beneath the mesa of Thunder Bluff, she dwells alongside Forsaken apothecaries and tauren shamans who study the spiritual and elemental mysteries of the earth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Clarice Foster?",
+   "aliases": [
+    "who is clarice",
+    "clarice foster npc",
+    "clarice foster backstory"
+   ],
+   "answer": "Clarice Foster is a Forsaken woman located in the subterranean Pools of Vision below Thunder Bluff. She is one of the few undead envoys and visitors dwelling among the tauren of Mulgore."
+  },
+  {
+   "q": "Where can I find Clarice Foster?",
+   "aliases": [
+    "clarice foster location",
+    "where is clarice foster",
+    "find clarice foster"
+   ],
+   "answer": "She is located in the Pools of Vision, a cave complex situated beneath the Spirit Rise in Thunder Bluff."
+  },
+  {
+   "q": "What quests does she offer?",
+   "aliases": [
+    "clarice foster quests",
+    "until death do us part quest"
+   ],
+   "answer": "She provides the quest 'Until Death Do Us Part', dispatching travelers on business connecting her quiet post in Kalimdor with the wider affairs of the Forsaken."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Clarice Foster represents Forsaken ties to their tauren allies in Kalimdor, resting far from the blight-stained soil of Tirisfal and Silverpine."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Welcomed into the sacred Pools of Vision beneath Spirit Rise, Clarice Foster shows the tauren's willingness to host the unconventional newcomers of the Horde."
+  }
+ ],
+ "keywords": [
+  "clarice foster",
+  "forsaken",
+  "pools of vision",
+  "spirit rise",
+  "thunder bluff",
+  "until death do us part"
+ ],
+ "related": [
+  "subzone:pools-of-vision",
+  "zone:thunderbluff",
+  "quest:264",
+  "topic:forsaken",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Clarice Foster"
+ ]
+}

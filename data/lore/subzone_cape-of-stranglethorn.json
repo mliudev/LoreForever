@@ -1,0 +1,103 @@
+{
+ "key": "subzone:cape-of-stranglethorn",
+ "type": "subzone",
+ "name": "Cape of Stranglethorn",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Cape of Stranglethorn"
+ },
+ "summary": "The Cape of Stranglethorn forms the sun-baked southern tip of Stranglethorn Vale, stretching south from the Gurubashi Arena down to the ocean cliffs. Anchored by the sprawling pirate port of Booty Bay, the region is a battleground contested by goblins, Bloodsail Buccaneers, ancient jungle trolls, and encroaching wildlife.",
+ "sections": [
+  {
+   "title": "Edge of the Continent",
+   "body": "South of the ancient colosseum of Gurubashi Arena, the dense jungle gives way to the coastline known as the Cape of Stranglethorn. Dotted with crumbling troll settlements like the Ruins of Jubuwal and the Ruins of Aboraz, the cape has long since slipped from imperial Gurubashi control. Today, its beaches, coves, and jungle clearings host a chaotic mix of dangerous predators, murloc encampments, and rival pirate crews warring over trade routes and buried plunder.",
+   "spoiler": 0
+  },
+  {
+   "title": "Booty Bay and the Buccaneer War",
+   "body": "The dominant power along the cape is the Blackwater Raiders, led by Baron Revilgaz and Fleet Master Seahorn from the pirate city of Booty Bay. Carved directly into the cliffs of the southern bay, this neutral harbor connects the Eastern Kingdoms to Kalimdor via steamships to Ratchet. However, goblin control remains precarious. The Bloodsail Buccaneers operate along the southern shoals and outer islands, raiding supply lines and openly scheming to overthrow Booty Bay and seize total dominion over the South Seas.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between Stranglethorn Vale and the Cape of Stranglethorn?",
+   "aliases": [
+    "cape vs vale",
+    "stranglethorn geography",
+    "where is the cape"
+   ],
+   "answer": "The Cape of Stranglethorn specifically refers to the southern portion of the larger Stranglethorn Vale, encompassing the land and coasts south of the Gurubashi Arena down to Booty Bay."
+  },
+  {
+   "q": "Who rules the Cape of Stranglethorn?",
+   "aliases": [
+    "who leads booty bay",
+    "cape ruler",
+    "who controls the cape"
+   ],
+   "answer": "No single authority controls the entire cape. Booty Bay and its surrounding waters are governed by Baron Revilgaz and the goblin-backed Blackwater Raiders, while the Bloodsail Buccaneers, naga, and troll remnants control various beaches and interior ruins."
+  },
+  {
+   "q": "Can Horde and Alliance both use Booty Bay?",
+   "aliases": [
+    "is booty bay neutral",
+    "alliance horde booty bay",
+    "can horde enter booty bay"
+   ],
+   "answer": "Yes. Booty Bay is an open, neutral port maintained by the Steamwheedle Cartel. So long as travelers keep their weapons sheathed and maintain peace within the city limits, both Alliance and Horde adventurers may access its docks, vendors, flight master, and auction house."
+  },
+  {
+   "q": "What is the Gurubashi Arena?",
+   "aliases": [
+    "gurubashi chest",
+    "arena rules",
+    "pvp arena stranglethorn"
+   ],
+   "answer": "Situated near the northern threshold of the cape, the Gurubashi Arena is an ancient troll fighting pit where law and faction cease to exist. Anyone who steps onto the arena floor can attack anyone else, with fighters regularly clashing over a treasure chest dropped periodically in the center."
+  },
+  {
+   "q": "How do travelers get between the Cape and Kalimdor?",
+   "aliases": [
+    "boat to ratchet",
+    "kalimdor transport",
+    "booty bay boat"
+   ],
+   "answer": "A goblin-operated steamship regularly runs between the docks of Booty Bay and the port town of Ratchet in the Barrens, providing one of the few trans-oceanic passenger links across the South Seas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The cape is a haven for privateers, scoundrels, and cutthroats, offering endless opportunities to pick pockets, run coastal contraband, or play the Blackwater Raiders against the Bloodsail Buccaneers."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "The surrounding South Seas and coastal waters provide valuable fishing grounds and rare recipes sold exclusively by the fishmongers and harbor cooks of Booty Bay."
+  }
+ ],
+ "keywords": [
+  "baron revilgaz",
+  "blackwater raiders",
+  "bloodsail buccaneers",
+  "booty bay",
+  "cape of stranglethorn",
+  "gurubashi arena",
+  "south seas",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "subzone:booty-bay",
+  "npc:baron-revilgaz",
+  "npc:fleet-master-seahorn",
+  "subzone:gurubashi-arena",
+  "subzone:ratchet",
+  "subzone:ruins-of-aboraz",
+  "subzone:ruins-of-jubuwal"
+ ],
+ "attribution": [
+  "Cape of Stranglethorn"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "key": "subzone:tower-of-estulan",
+ "type": "subzone",
+ "name": "Tower of Estulan",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Tower of Estulan"
+ },
+ "summary": "The Tower of Estulan is a solitary mage sanctuary standing south of Dire Maul in Feralas. Overseen by the sorcerer Estulan, the tower serves as an arcane enclave where Highborne practitioners study magic despite the wilderness and hostile ogres surrounding them.",
+ "sections": [
+  {
+   "title": "A Bastion of Arcane Study",
+   "body": "Perched south of the ancient ruins of Dire Maul, the Tower of Estulan stands apart from the surrounding primeval forest of Feralas. Directed by the mage Estulan, this enclave operates as a secluded academy dedicated to reviving arcane disciplines and mentoring Highborne spellcasters. Sheltered by magical wards and accompanied by unusual allies like the Arcane Ancient Arcosin, the resident scholars delve into forgotten sorcery while keeping a wary watch on nearby threats like the Gordunni ogres.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Tower of Estulan?",
+   "aliases": [
+    "why is tower of estulan here",
+    "estulan tower purpose",
+    "what is this tower"
+   ],
+   "answer": "The tower serves as a specialized academy and research outpost under the mage Estulan. Here, practitioners study arcane mysteries and instruct aspiring Highborne mages far removed from the scrutiny of Kalimdor's traditional druidic societies."
+  },
+  {
+   "q": "Who is Estulan?",
+   "aliases": [
+    "who is estulan",
+    "estulan lore"
+   ],
+   "answer": "Estulan is the lead mage residing in the tower. He directs the local arcane research and oversees the training of magical initiates while coordinating defenses against nearby Gordunni ogre incursions."
+  },
+  {
+   "q": "Who is Arcosin?",
+   "aliases": [
+    "arcosin",
+    "arcane ancient in feralas"
+   ],
+   "answer": "Arcosin is an Arcane Ancient found residing at the tower's grounds. Unlike the traditional ancients of lore allied with druids, Arcosin is infused with arcane energy and aids the tower's practitioners."
+  },
+  {
+   "q": "Why is the tower located so close to Dire Maul?",
+   "aliases": [
+    "why near dire maul",
+    "feralas tower location"
+   ],
+   "answer": "Dire Maul is an ancient capital of the Highborne saturated with immense arcane history and residual magical power. Establishing an academy nearby allows Estulan's mages to study ancient artifacts and residual magical currents firsthand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The Tower of Estulan represents a rare pocket of scholarly arcane devotion deep in Kalimdor's wild lands, making it a place of great curiosity for visiting mages."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elves traditionally view arcane magic with heavy suspicion following the Sundering, making an active Highborne academy on the doorstep of Eldre'Thalas a delicate political and cultural reality."
+  }
+ ],
+ "keywords": [
+  "arcosin",
+  "dire maul",
+  "estulan",
+  "feralas",
+  "highborne",
+  "mage tower",
+  "tower of estulan"
+ ],
+ "related": [
+  "subzone:dire-maul",
+  "zone:feralas",
+  "topic:highborne",
+  "topic:sentinels"
+ ],
+ "attribution": [
+  "Tower of Estulan"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "key": "subzone:shok-thokar",
+ "type": "subzone",
+ "name": "Shok'Thokar",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Shok'Thokar"
+ },
+ "summary": "Shok'Thokar is the name given to the demon-corrupted encampment nestled against the eastern mountains of southern Desolace. Known to locals as Magram Village, the settlement sits adjacent to the blighted depths of Shadowbreak Ravine and remains a bastion for the brutal Magram centaur clan.",
+ "sections": [
+  {
+   "title": "A Bastion of Bone and Dust",
+   "body": "Situated in southeastern Desolace, this encampment stands in the shadow of the mountains alongside the demonic fissures of Shadowbreak Ravine. Built from rough hide tents, cracked bones, and packed earth, it serves as the heart of the savage Magram centaur clan. While outsiders and mapmakers refer to the region as Shok'Thokar, travelers across Kalimdor know it best as Magram Village. Life here is defined by relentless blood feuds against their bitter rivals, the Gelkis clan, and a grim proximity to the dark demonic influences bleeding out of the nearby ravines.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between Shok'Thokar and Magram Village?",
+   "aliases": [
+    "is this magram village",
+    "shok'thokar vs magram village",
+    "what is this place called"
+   ],
+   "answer": "They are the same physical settlement. The area in southeastern Desolace where the Magram centaur make their camp is identified as Shok'Thokar on certain territorial maps, but travelers, adventurers, and locals almost universally know it as Magram Village."
+  },
+  {
+   "q": "Who lives in this settlement?",
+   "aliases": [
+    "who is here",
+    "who lives here",
+    "shokthokar residents"
+   ],
+   "answer": "The settlement is populated by the Magram clan, one of the primary centaur tribes warring for dominance across Desolace. Their warriors, scouts, pack runners, and bonepaw hyenas guard the perimeter fiercely against intruders and rival clans."
+  },
+  {
+   "q": "Why is this area significant to the centaur of Desolace?",
+   "aliases": [
+    "why do centaur fight here",
+    "centaur clan war",
+    "magram purpose"
+   ],
+   "answer": "The village serves as the home territory and seat of power for the Magram. From here, they wage a brutal, unending civil war against their sworn enemies, the Gelkis centaur, vying for scarce water, grazing land, and survival in the harsh wastes."
+  },
+  {
+   "q": "What is the danger of the nearby ravine?",
+   "aliases": [
+    "why are demons near",
+    "shadowbreak connection"
+   ],
+   "answer": "Directly abutting the camp lies Shadowbreak Ravine, a rift tainted by demonic energy and the cultists of the Burning Blade. The Magram live dangerously close to this creeping corruption, exposing the area to the dark forces lurking within the wastes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Horde maintains a delicate strategy regarding the centaur in Desolace: ensuring the warring clans remain fractured and fighting each other so they can never unite into a massive army that threatens Kalimdor."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Centaur have brought untold suffering to the shu'halo across generations. Any centaur stronghold is viewed with wariness and vigilance by tauren travelers passing through Desolace."
+  }
+ ],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "gelkis",
+  "magram",
+  "magram village",
+  "shadowbreak ravine",
+  "shok'thokar"
+ ],
+ "related": [
+  "subzone:magram-village",
+  "subzone:shadowbreak-ravine",
+  "zone:desolace",
+  "topic:centaur",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Shok'Thokar"
+ ]
+}

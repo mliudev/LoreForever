@@ -1,0 +1,91 @@
+{
+ "key": "subzone:timbermaw-hold",
+ "type": "subzone",
+ "name": "Timbermaw Hold",
+ "era": "classic",
+ "zone": "moonglade",
+ "meta": {
+  "wiki": "Timbermaw Hold"
+ },
+ "summary": "Timbermaw Hold is a fortified subterranean network of tunnels that links Felwood, Moonglade, and Winterspring. It serves as the stronghold for the Timbermaw furbolgs, one of the last tribes to resist the demonic corruption plaguing northern Kalimdor.",
+ "sections": [
+  {
+   "title": "A Sanctuary Amidst Decay",
+   "body": "Carved deep into the mountain roots between Felwood, Moonglade, and Winterspring, Timbermaw Hold stands as a desperately guarded bastion. While neighboring furbolg tribes fell to the foul taint of the Burning Legion during the Third War, the Timbermaw clan weathered the nightmare within these stone corridors. Though safe beneath the earth, they were forced to watch their beloved forests warp into corrupted mockeries. Extremely protective and deeply suspicious of outsiders, the furbolgs guard every tunnel entrance fiercely, expecting violence from anyone wandering in from the infected woods.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crossroads of the North",
+   "body": "Beyond its role as a tribal sanctuary, Timbermaw Hold is the only direct mountain highway connecting the tainted lowlands of Felwood, the sacred sanctuary of Moonglade, and the frozen expanse of Winterspring. Outsiders who wish to pass through without being torn apart by tribal sentries must prove their goodwill. Those who demonstrate their opposition to the region's corrupted furbolg clans find the Timbermaw to be steadfast allies willing to share their ancient shamanic knowledge and leathercrafting traditions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do the furbolgs in Timbermaw Hold attack visitors?",
+   "aliases": [
+    "why are timbermaw hostile",
+    "timbermaw attacking me",
+    "how to get timbermaw friendly"
+   ],
+   "answer": "The Timbermaw tribe is naturally distrustful of outsiders after seeing their neighboring kin succumb to the Burning Legion's corruption. Fearing that strangers will confuse them with feral, demonic furbolgs\u2014or bring the taint into their home\u2014they attack anyone approaching their tunnels until an outsider proves their peaceful intentions."
+  },
+  {
+   "q": "Which zones does Timbermaw Hold connect?",
+   "aliases": [
+    "timbermaw hold tunnel destinations",
+    "where does timbermaw hold lead",
+    "timbermaw exits"
+   ],
+   "answer": "The main cavern branches into three primary exits: northern Felwood to the southwest, the tranquil haven of Moonglade to the north, and the frosty valleys of Winterspring to the east. A walled-off gate also sits in northern Azshara."
+  },
+  {
+   "q": "How did the Timbermaw survive the Legion's taint?",
+   "aliases": [
+    "why are timbermaw uncorrupted",
+    "timbermaw not corrupted"
+   ],
+   "answer": "While the forests of Felwood withered under demonic fel energy, the Timbermaw tribe took shelter deep within their mountain caverns. By sealing themselves inside the hold during the height of the demonic invasion, they managed to preserve their minds and sacred shamanic ways while neighboring clans fell to madness."
+  },
+  {
+   "q": "What is the sealed wooden door inside the hold?",
+   "aliases": [
+    "blocked door in timbermaw hold",
+    "timbermaw hold locked gate"
+   ],
+   "answer": "Deeper in the tunnels sits a round wooden barrier blocking a side cavern. Its exact purpose is uncertain, though travelers theorize it seals off older tunnel complexes leading toward the Barrow Deeps or other ancient subterranean chambers under Mount Hyjal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The hold serves as a critical mountain thoroughfare between your sacred sanctuary in Moonglade and the wounded wilderness of Felwood, where furbolg spirits desperately need cleansing."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The Timbermaw have fiercely maintained their uncorrupted spiritual traditions and healing rituals despite the fel corruption festering directly outside their cave gates."
+  }
+ ],
+ "keywords": [
+  "felwood",
+  "furbolg",
+  "moonglade",
+  "timbermaw",
+  "timbermaw hold",
+  "tunnel",
+  "winterspring"
+ ],
+ "related": [
+  "topic:furbolg",
+  "zone:felwood",
+  "zone:winterspring",
+  "zone:moonglade",
+  "topic:burning-legion",
+  "subzone:blackmaw-hold",
+  "zone:azshara",
+  "subzone:irontree-woods"
+ ],
+ "attribution": [
+  "Timbermaw Hold"
+ ]
+}

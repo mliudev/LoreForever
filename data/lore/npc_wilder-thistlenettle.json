@@ -1,0 +1,86 @@
+{
+ "key": "npc:wilder-thistlenettle",
+ "type": "npc",
+ "name": "Wilder Thistlenettle",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Wilder Thistlenettle",
+  "refs": 2
+ },
+ "summary": "Wilder Thistlenettle is a dwarven miner brooding in a tavern within Stormwind's Dwarven District. The sole survivor of a tragic cave-in deep within the Deadmines, he is haunted by the gruesome fate of his mining company and his brother.",
+ "sections": [
+  {
+   "title": "A Bitter Survivor",
+   "body": "Wilder Thistlenettle can be found drowning his sorrows in an alehouse near the southeastern gates of the Dwarven District. Years ago, he joined an expedition into the deep lodes of Moonbrook's Deadmines alongside his brother and their companions. A catastrophic cave-in sealed the rest of the crew in the dark while Wilder barely made it to the surface alive.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ghosts of the Deep",
+   "body": "The disaster in the tunnels did not end in peaceful rest. Wilder eventually learned that his brother and the lost mining company did not merely perish in the rubble\u2014dark magic or unfinished business has animated them as restless undead, endlessly haunting the subterranean ruins. Consumed by grief and survivor's guilt, Wilder seeks brave adventurers willing to brave the Deadmines to recover mementos of the fallen and grant his brother final peace.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Wilder Thistlenettle?",
+   "aliases": [
+    "wilder thistlenettle location",
+    "where is wilder",
+    "thistlenettle stormwind"
+   ],
+   "answer": "He sits inside a quiet pub in Stormwind City's Dwarven District, located just inside the right side of the district's southeastern entrance."
+  },
+  {
+   "q": "What happened to his brother in the Deadmines?",
+   "aliases": [
+    "wilder brother deadmines",
+    "what happened to brother",
+    "thistlenettle brother lore"
+   ],
+   "answer": "Wilder's brother was trapped in a sudden tunnel collapse alongside their fellow miners. Instead of remaining at rest, the dead miners arose as undead horrors condemned to wander the shadowed subterranean shafts."
+  },
+  {
+   "q": "Why does Wilder need adventurers?",
+   "aliases": [
+    "wilder quests",
+    "what does wilder want",
+    "collecting memories quest"
+   ],
+   "answer": "Unable to face the horrors of the mines himself, Wilder asks travelers heading into the Deadmines to recover personal mining union badges from the lost workers and to put his undead brother out of his misery."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarven kin, Wilder's grief strikes a familiar cord, highlighting the ever-present perils of subterranean delvings and the sacred need to honor fallen guild brothers."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners readily understand the hazards of deep subterranean veins, where unstable earth and forgotten dark magic can entomb even seasoned crews."
+  }
+ ],
+ "keywords": [
+  "brother",
+  "cave-in",
+  "deadmines",
+  "dwarven district",
+  "miner",
+  "stormwind",
+  "thistlenettle",
+  "wilder"
+ ],
+ "related": [
+  "quest:167",
+  "quest:168",
+  "subzone:dwarven-district",
+  "zone:stormwind",
+  "zone:deadmines",
+  "subzone:deadmines",
+  "topic:dwarf",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Wilder Thistlenettle"
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "key": "quest:434",
+ "type": "quest",
+ "name": "The Attack!",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   434
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Tyrion",
+  "end": "Elling Trias",
+  "previous": "Items of Some Consequence",
+  "next": "The Head of the Beast",
+  "wiki": "The Attack!",
+  "chain": []
+ },
+ "summary": "\"The Attack!\" is the violent climax to an undercover investigation in Stormwind Keep, exposing the high-ranking noble Lord Gregor Lescovar. Working with the gnome tinkerer Tyrion and the secretive rogue Elling Trias, adventurers lure Lescovar and his Defias handler into an ambush within the royal gardens.",
+ "sections": [
+  {
+   "title": "A Garden Ambush",
+   "body": "Following an investigation orchestrated by the spy Tyrion and cheese merchant Elling Trias, the pieces fall into place inside Stormwind Keep. Using an engineered automaton disguised as Priestess Tyriona, Tyrion infiltrates the keep's library to deliver false information to Lord Gregor Lescovar. Tricked into believing an urgent meeting is required, Lescovar dismisses his guards and steps into the quiet keep garden to rendezvous with Marzon the Silent Blade, an assassin tied to the Defias Brotherhood.",
+   "spoiler": 0
+  },
+  {
+   "title": "Treason in the Keep",
+   "body": "Hidden in the shadows, investigators listen as Lescovar and Marzon confirm what investigators long suspected: high nobility in Stormwind is actively colluding with the Defias conspiracy threatening the kingdom. Once the treasonous talk concludes, the trap springs. Both Lescovar and the Silent Blade must be eliminated quickly in the courtyard before the royal guards return to find a nobleman dead on the cobblestones. The act firmly severs one of the Defias's deepest footholds inside the seat of power.",
+   "spoiler": 1
+  },
+  {
+   "title": "Shadow Games",
+   "body": "Though the immediate threat is neutralized, the aftermath leaves uneasy questions. Elling Trias takes immense satisfaction in settling personal scores against Marzon, though he begrudges that his private maneuvering indirectly helps Mathias Shaw and SI:7. Lescovar's severed head serves as undeniable proof of rot within the court, hinting that the Defias Brotherhood did not operate alone\u2014and that someone among the nobility allowed them to fester.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lord Gregor Lescovar?",
+   "aliases": [
+    "lescovar",
+    "who is lescovar",
+    "gregor lescovar"
+   ],
+   "answer": "Lord Gregor Lescovar is a prominent Stormwind nobleman residing in Stormwind Keep. Beneath his courtly stature, he secretly collaborated with the Defias Brotherhood, using his standing and influence to aid their subversion of the realm from within the palace itself."
+  },
+  {
+   "q": "Who is Marzon the Silent Blade?",
+   "aliases": [
+    "marzon",
+    "silent blade",
+    "who is marzon"
+   ],
+   "answer": "Marzon the Silent Blade is a lethal assassin representing the Defias Brotherhood. He acts as the direct underground conduit between the outlaws and Lord Lescovar, carrying messages and plotting schemes until lured into Tyrion's garden trap."
+  },
+  {
+   "q": "Why does Elling Trias care about this operation?",
+   "aliases": [
+    "trias role",
+    "why is cheese guy involved",
+    "elling trias why"
+   ],
+   "answer": "While ostensibly just a master of fine cheeses, Elling Trias is an influential rogue with deep ties to Stormwind's underworld. Marzon had targeted people close to Trias, prompting him to orchestrate the assassin's downfall, even if doing so incidentally assisted Mathias Shaw and SI:7."
+  },
+  {
+   "q": "How does Tyrion manage to lure Lescovar outside?",
+   "aliases": [
+    "spybot disguise",
+    "tyriona",
+    "how does lescovar get lured"
+   ],
+   "answer": "Tyrion deploys an engineered automaton disguised as Priestess Tyriona. The disguised bot walks past the palace guards into the library to feed Lescovar false intelligence, prompting him to send his guards away and hold a clandestine meeting in the garden."
+  },
+  {
+   "q": "Why do the guards not immediately defend Lescovar?",
+   "aliases": [
+    "why don't guards help lescovar",
+    "guards lescovar"
+   ],
+   "answer": "Lescovar dismisses his guards before the meeting to keep his illicit Defias dealings secret. This brief window of privacy allows investigators to ambush and execute both Lescovar and Marzon without royal guards intervening."
+  },
+  {
+   "q": "What happens after Lescovar is slain?",
+   "aliases": [
+    "what next after the attack",
+    "head of the beast"
+   ],
+   "answer": "With Lescovar and Marzon dead, Elling Trias sends you to present Lescovar's severed head to Highlord Bolvar Fordragon. This confronts the Regent with undeniable physical proof of noble complicity in the Defias uprising."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The mission mirrors the intricate, shadowy operations of the rogue underworld, proving that cheese shops and quiet garden corners often hold more political power than formal councils."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Executing Lescovar removes a Defias-aligned traitor from Stormwind Keep, though it exposes dangerous vulnerabilities in the leadership guiding boy-king Anduin."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this ambush reveals the heartbreaking reality that the bandit crisis ravaging Westfall and Redridge is secretly fueled by nobles within their own royal palace."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "elling trias",
+  "lescovar",
+  "marzon",
+  "priestess tyriona",
+  "silent blade",
+  "spybot",
+  "stormwind keep",
+  "the attack",
+  "tyrion"
+ ],
+ "related": [
+  "npc:tyrion",
+  "npc:elling-trias",
+  "quest:394",
+  "quest:2746",
+  "quest:2300",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "The Attack!"
+ ]
+}

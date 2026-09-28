@@ -1,0 +1,128 @@
+{
+ "key": "quest:2242",
+ "type": "quest",
+ "name": "Destiny Calls",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   2242
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Syurna",
+  "end": "",
+  "previous": "The Apple Falls",
+  "next": null,
+  "wiki": "Destiny Calls",
+  "chain": [
+   "The Apple Falls",
+   "Destiny Calls"
+  ]
+ },
+ "summary": "Destiny Calls is a discreet investigation assigned by Syurna to uncover the source of corruption seeping through Teldrassil's boughs. It tasks an operative with slipping past or confronting a hostile satyr named Sethir the Ancient near the Oracle Glade to recover his journal.",
+ "sections": [
+  {
+   "title": "A Silent Reconnaissance",
+   "body": "The night elf leadership in Darnassus has watched Teldrassil's growing malady with quiet anxiety. Rather than sending armed patrols that end up dead, the rogue trainer Syurna seeks someone capable of subtle work. Sethir the Ancient, a satyr roosting out on a remote bough near the Oracle Glade, has repelled every attempt at force and diplomatic overture alike. Uncovering what he knows requires slipping into his lair and seizing his personal possessions.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Looming Shadow from Darkshore",
+   "body": "The recovered pages of Sethir's journal yield grim revelations. The insidious taint threatening the newborn World Tree is directly linked to the ancient rot and corruption consuming the forests and waterways across the misty sea in Darkshore. Rather than an isolated illness of the soil, the affliction points to a wider, deliberate malice threatening the kaldorei heartland.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sethir the Ancient?",
+   "aliases": [
+    "sethir",
+    "who is sethir",
+    "satyr in oracle glade"
+   ],
+   "answer": "Sethir the Ancient is an elusive satyr hiding out on a bough along the northern outskirts of Teldrassil's Oracle Glade. Hostile and cunning, he has thwarted both martial assaults and peaceful inquiries sent to discover what he knows of the island's corruption."
+  },
+  {
+   "q": "Why does Syurna want Sethir's journal?",
+   "aliases": [
+    "why sethir journal",
+    "syurna objective",
+    "what is in the journal"
+   ],
+   "answer": "Syurna believes Sethir holds crucial insights into the unnatural sickness spreading through Teldrassil. His personal journal contains notes detailing the satyr's activities and the nature of the dark taint."
+  },
+  {
+   "q": "What does the journal reveal upon completion?",
+   "aliases": [
+    "journal lore",
+    "what did sethir find",
+    "darkshore connection"
+   ],
+   "answer": "The journal confirms that the sickness seizing Teldrassil's boughs is connected to the deeper, demonic blight gripping the ancient forests and coastlines of Darkshore across the channel."
+  },
+  {
+   "q": "Where is this quest received?",
+   "aliases": [
+    "where do i get destiny calls",
+    "destiny calls questgiver",
+    "who gives destiny calls"
+   ],
+   "answer": "The task is given by Syurna, the rogue trainer stationed within the shadows of Darnassus, after completing an initial assessment of your competence."
+  },
+  {
+   "q": "Where should adventurers go after completing this mission?",
+   "aliases": [
+    "what comes next",
+    "next step after destiny calls",
+    "after sethir"
+   ],
+   "answer": "Syurna notes that you have done all you can for Teldrassil on this matter, pointing young defenders toward Darkshore, where the true root of the mainland's corruption awaits."
+  },
+  {
+   "q": "Why is a rogue trainer handling forest corruption instead of druids?",
+   "aliases": [
+    "why rogue quest",
+    "why syurna",
+    "why not cenarion circle"
+   ],
+   "answer": "Conventional methods\u2014both martial forces and druidic diplomacy\u2014failed against Sethir with lethal consequences. Syurna turns to covert reconnaissance and infiltration when overt efforts meet bloody dead ends."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Given by Darnassus's own stealth trainers, this mission tests an infiltrator's ability to pilfer sensitive intelligence directly from under a dangerous satyr's nose."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For kaldorei defenders, learning that the ancient curse of Darkshore has crossed the sea into Teldrassil signals an alarming threat to their sacred refuge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The discovery links local woodland unrest on Teldrassil to broader continental corruption, setting the stage for Alliance forces traveling to northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "darnassus",
+  "destiny calls",
+  "journal",
+  "oracle glade",
+  "satyr",
+  "sethir the ancient",
+  "syurna",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:syurna",
+  "subzone:oracle-glade",
+  "zone:darkshore",
+  "topic:satyr",
+  "quest:940",
+  "quest:397"
+ ],
+ "attribution": [
+  "Destiny Calls"
+ ]
+}

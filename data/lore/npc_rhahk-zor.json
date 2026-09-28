@@ -1,0 +1,110 @@
+{
+ "key": "npc:rhahk-zor",
+ "type": "npc",
+ "name": "Rhahk'Zor",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Rhahk'Zor",
+  "refs": 5
+ },
+ "summary": "Rhahk'Zor is a hulking ogre serving as the head foreman within the Deadmines. Overseeing Edwin VanCleef's subterranean construction efforts, he keeps the Defias laborers and miners in line through sheer brute force and heavy-handed discipline.",
+ "sections": [
+  {
+   "title": "The Foreman of the Deep",
+   "body": "Deep beneath the rolling hills of Westfall, the Defias Brotherhood has transformed the abandoned gold mines of Moonbrook into an underground fortress. Coordinating this sprawling construction requires harsh discipline, a role filled by the ogre Rhahk'Zor. Appointed as head foreman, he oversees the excavation crews and laborers, driving them forward to carve out tunnels and assemble VanCleef's secret projects.",
+   "spoiler": 0
+  },
+  {
+   "title": "Brute Motivation",
+   "body": "Rhahk'Zor maintains order through relentless muscle rather than careful engineering. Armed with an immense stone-headed hammer, his idea of workplace supervision is direct and unforgiving. Defias diggers and goblin engineers alike step lively around him, knowing that falling behind schedule or showing defiance invites a crushing blow from the towering taskmaster.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rhahk'Zor?",
+   "aliases": [
+    "rhahkzor",
+    "who is the ogre boss in deadmines",
+    "deadmines first boss"
+   ],
+   "answer": "Rhahk'Zor is an ogre who acts as the primary foreman and enforcer for the Defias Brotherhood inside the Deadmines. He stands watch over the initial excavation tunnels, ensuring the workforce keeps digging without stepping out of line."
+  },
+  {
+   "q": "Why is an ogre working for the Defias Brotherhood?",
+   "aliases": [
+    "why is there an ogre in deadmines",
+    "rhahkzor defias"
+   ],
+   "answer": "Edwin VanCleef's rebellion relies on whatever muscle and mercenary talent they can acquire. An ogre provides unmatched physical intimidation, making Rhahk'Zor an ideal taskmaster to drive the grueling labor of excavating the mines."
+  },
+  {
+   "q": "What is Rhahk'Zor's job in the mines?",
+   "aliases": [
+    "what does rhahkzor do",
+    "rhahkzor role"
+   ],
+   "answer": "He serves as the head construction foreman. Rhahk'Zor supervises the miners, goblins, and Defias builders as they hollow out the caverns, maintain equipment, and build fortifications for the Brotherhood."
+  },
+  {
+   "q": "Where in the Deadmines is Rhahk'Zor located?",
+   "aliases": [
+    "rhahkzor location",
+    "where is rhahkzor"
+   ],
+   "answer": "Rhahk'Zor guards the early quarry chambers of the Deadmines, standing past the initial miner tunnels and right before the heavy iron threshold known as Rhahk'Zor's Door."
+  },
+  {
+   "q": "Does Rhahk'Zor have any connection to the ogres from the First War?",
+   "aliases": [
+    "first war ogres deadmines",
+    "ogre lore deadmines"
+   ],
+   "answer": "Ogres once inhabited the Deadmines during the First War before being wiped out by Blackhand's Horde. Whether Rhahk'Zor is a lingering remnant of those earlier clans or simply a brute hired by VanCleef remains unconfirmed."
+  },
+  {
+   "q": "What happens when Rhahk'Zor is defeated?",
+   "aliases": [
+    "rhahkzor door",
+    "after rhahkzor"
+   ],
+   "answer": "Defeating Rhahk'Zor breaks the Defias hold on the outer quarry, clearing the way through the reinforced blast door he guards and allowing trespassers deeper into the clandestine shipyards and workshops."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance adventurers pushing into Moonbrook, Rhahk'Zor is the first grim proof that the Defias Brotherhood has organized far beyond petty highway banditry into a heavily fortified army."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Facing Rhahk'Zor is a test of raw frontline endurance, pitted against a massive ogre swinging a sledgehammer that shatters stone and bone alike."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Rhahk'Zor drives his miners with crude brutality rather than respect for the veins of gold, churning Westfall's storied old mines into a rushed industrial war machine."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "defias",
+  "foreman",
+  "hammer",
+  "ogre",
+  "rhahk'zor",
+  "rhahkzor",
+  "vancleef"
+ ],
+ "related": [
+  "zone:deadmines",
+  "topic:defias-brotherhood",
+  "npc:edwin-vancleef",
+  "subzone:deadmines",
+  "quest:65",
+  "topic:first-war"
+ ],
+ "attribution": [
+  "Rhahk'Zor"
+ ]
+}

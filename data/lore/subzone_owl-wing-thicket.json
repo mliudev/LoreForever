@@ -1,0 +1,90 @@
+{
+ "key": "subzone:owl-wing-thicket",
+ "type": "subzone",
+ "name": "Owl Wing Thicket",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Owl Wing Thicket"
+ },
+ "summary": "Owl Wing Thicket is a rugged cluster of caves and stone roosts in southern Winterspring. It is heavily populated by berserk, moontouched, and crazed owlbeasts that prowl the snowy crags. Deep within, ancient night elf altars preserve sacred knowledge about the origin of these creatures and their connection to the moon goddess Elune.",
+ "sections": [
+  {
+   "title": "Sanctuary of the Moonkin",
+   "body": "Carved into the snowy highlands south of Everlook, Owl Wing Thicket serves as one of the densest nesting grounds for Winterspring's wild owlbeasts. Long ago, night elf caretakers revered these creatures as sacred guardians blessed by Elune. Ancient shrines and moonstone altars are still tucked among the cavern overhangs, watched over by the lingering spirits of the Guardians of Elune. Today, however, many of the beasts have succumbed to madness, lashing out at travelers who trespass upon their holy hollows.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lore of the Moonkin",
+   "body": "Night elf scholars and priests travel to Owl Wing Thicket to seek communion with the Guardians of Elune. Guided by the priestess Ranshalla, Alliance seekers light the sacred braziers throughout the cavern complex to awaken ancient spirits. These guardians recount the legend of how the wild moonkin were first fashioned by Elune to safeguard pristine natural sanctuaries, offering clarity on the beasts' divine ancestry despite their present feral hostility.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Owl Wing Thicket?",
+   "aliases": [
+    "owl wing thicket",
+    "where is owl wing thicket",
+    "owl wing thicket lore"
+   ],
+   "answer": "Owl Wing Thicket is a network of snowy crags and caves in southern Winterspring. It is famous for its dense population of wild owlbeasts and several ancient shrines dedicated to the night elf goddess Elune."
+  },
+  {
+   "q": "Why are the owlbeasts here so aggressive?",
+   "aliases": [
+    "why are moonkin mad",
+    "crazed owlbeasts winterspring",
+    "berserk owlbeasts"
+   ],
+   "answer": "While originally created as protectors of nature blessed by Elune, many of the owlbeasts in Winterspring have fallen into violent frenzy. In Owl Wing Thicket, they roam as crazed, berserk, and moontouched beasts, attacking anyone approaching their dens."
+  },
+  {
+   "q": "Who is Ranshalla?",
+   "aliases": [
+    "ranshalla",
+    "who is ranshalla winterspring",
+    "priestess ranshalla"
+   ],
+   "answer": "Ranshalla is a night elf priestess of Elune who journeys into Owl Wing Thicket. She seeks the guidance of the ancient Guardians of Elune to uncover the sacred origins and history of the moonkin race."
+  },
+  {
+   "q": "What are the Guardians of Elune found inside the thicket?",
+   "aliases": [
+    "guardians of elune",
+    "spirits in owl wing thicket",
+    "moonkin spirits"
+   ],
+   "answer": "The Guardians of Elune are ancient night elf spirits tied to altars within the caves. When summoned through the rekindling of sacred fires, they recount how the moonkin were created to watch over wild and holy lands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, Owl Wing Thicket is holy ground gone wild, preserving early accounts of Elune's grace alongside feral moonkin who have lost their ancient balance."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold the owlbeast form sacred, making this thicket a sobering site where creatures gifted with lunar affinity have slipped into unrestrained madness."
+  }
+ ],
+ "keywords": [
+  "elune",
+  "guardians of elune",
+  "moonkin",
+  "moontouched",
+  "owl wing thicket",
+  "owlbeast",
+  "ranshalla",
+  "winterspring"
+ ],
+ "related": [
+  "zone:winterspring",
+  "topic:elune",
+  "topic:night-elf",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Owl Wing Thicket"
+ ]
+}

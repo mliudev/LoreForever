@@ -1,0 +1,120 @@
+{
+ "key": "quest:418",
+ "type": "quest",
+ "name": "Thelsamar Blood Sausages",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   418
+  ],
+  "level": "11",
+  "faction": "Alliance",
+  "start": "Vidra Hearthstove",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Thelsamar Blood Sausages (Classic)",
+  "chain": []
+ },
+ "summary": "In the bustling town of Thelsamar, cook Vidra Hearthstove keeps the local laborers and miners fed with a famous highland staple: blood sausages. Preparing this hearty dwarven fare requires freshly gathered ingredients from the surrounding valley of Loch Modan.",
+ "sections": [
+  {
+   "title": "A Hearty Highland Dish",
+   "body": "Thelsamar is never short on hungry appetites. Between energetic children and weary miners returning from the Ironband Excavation, Vidra Hearthstove works tirelessly over the tavern stove. To keep the populace fed and satisfied, she relies on a local culinary tradition known across Loch Modan: savory blood sausages made from the wildlife wandering the rugged mountain pass.",
+   "spoiler": 0
+  },
+  {
+   "title": "Unconventional Spices",
+   "body": "While traditional blood sausage relies on fresh blood, seasoned meat, and natural casings, Vidra's recipe reflects the rugged pragmatism of the dwarves. Boar intestines provide the casings, bear meat forms the dense filling, and spider ichor is added to lend a sharp, pungent bite. Though collecting venomous fluid and entrails is not for the faint of heart, the result is a regional favorite that travelers quickly learn to appreciate.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Vidra Hearthstove?",
+   "aliases": [
+    "vidra",
+    "who is vidra",
+    "thelsamar cook"
+   ],
+   "answer": "Vidra Hearthstove is the resident cook and homemaker in Thelsamar, located within the Stoutlager Inn. She takes immense pride in feeding the hardworking folk of Loch Modan, especially the laborers from nearby excavation sites."
+  },
+  {
+   "q": "Why does the recipe use spider ichor?",
+   "aliases": [
+    "spider ichor in sausage",
+    "why spider ichor",
+    "spider spice"
+   ],
+   "answer": "Vidra uses spider ichor as a distinctive spice to give her blood sausages their signature kick. Dwarven palates are famously hardy, and the venomous fluid lends a pungent flavor that plain herbs cannot match."
+  },
+  {
+   "q": "Who eats Thelsamar blood sausages?",
+   "aliases": [
+    "who eats blood sausage",
+    "why make sausage"
+   ],
+   "answer": "The sausages feed the local townspeople, rambunctious children, and the weary workers returning each evening from grueling shifts at the Ironband Excavation site."
+  },
+  {
+   "q": "Where are the ingredients found?",
+   "aliases": [
+    "where to get bear meat",
+    "where to get boar intestines",
+    "ingredient locations"
+   ],
+   "answer": "All three components\u2014black bears, mountain boars, and wood lurker spiders\u2014roam the wilderness and wooded hills surrounding the lake across Loch Modan."
+  },
+  {
+   "q": "What casing is used for the sausages?",
+   "aliases": [
+    "sausage casings",
+    "boar intestines",
+    "casing recipe"
+   ],
+   "answer": "Vidra uses natural casings cleaned from local mountain boars, creating a sturdy shell capable of holding the dense bear meat and seasoned fillings intact over the fire."
+  },
+  {
+   "q": "Do travelers learn to cook these sausages?",
+   "aliases": [
+    "can i cook blood sausage",
+    "sausage recipe",
+    "cooking recipe"
+   ],
+   "answer": "Yes. If an adventurer brings Vidra the ingredients, she happily shares her recipe, allowing travelers with culinary skills to craft the hearty dwarven dish on their own."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Gathering ingredients for Vidra rewards aspiring chefs with the authentic recipe for Blood Sausage, expanding their repertoire of hearty field rations."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Blood sausage is a quintessential dwarven comfort food, embodying the rugged culinary tastes of Khaz Modan's mountain clans."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Supplying Vidra helps keep Thelsamar's local workforce nourished as they maintain key infrastructure and excavate ancient ruins across Loch Modan."
+  }
+ ],
+ "keywords": [
+  "bear meat",
+  "blood sausage",
+  "boar intestines",
+  "cooking",
+  "loch modan",
+  "spider ichor",
+  "thelsamar",
+  "vidra hearthstove"
+ ],
+ "related": [
+  "npc:vidra-hearthstove",
+  "subzone:thelsamar",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Thelsamar Blood Sausages (Classic)"
+ ]
+}

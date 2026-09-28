@@ -1,0 +1,134 @@
+{
+ "key": "quest:889",
+ "type": "quest",
+ "name": "Spirit of the Wind",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   889
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Mangletooth",
+  "end": "",
+  "previous": "Blood Shards of Agamaggan",
+  "next": null,
+  "wiki": "Spirit of the Wind",
+  "chain": [
+   "Blood Shards of Agamaggan",
+   "Agamaggan's Agility",
+   "Agamaggan's Strength",
+   "Razorhide",
+   "Rising Spirit",
+   "Spirit of the Wind",
+   "Wisdom of Agamaggan"
+  ]
+ },
+ "summary": "Spirit of the Wind is a repeatable ritual offered by the captive quilboar Mangletooth in Camp Taurajo. By channeling the residual power within Agamaggan's blood shards, Mangletooth infuses travelers with swiftness to outpace the vast savannas of the Barrens.",
+ "sections": [
+  {
+   "title": "A Gift from Blood Shards",
+   "body": "In the arid sprawl of the Barrens, crossing open territory quickly can mean the difference between survival and falling to predatory beasts or wandering centaur warbands. The captive quilboar Mangletooth, imprisoned within Camp Taurajo, understands the latent power sleeping within the red crystalline blood shards scattered across the region. When handed ten of these relics, he draws upon their primeval resonance to bestow the Spirit of the Wind, granting travelers a burst of fleet-footed momentum to outrun the howling drafts of the plains.",
+   "spoiler": 0
+  },
+  {
+   "title": "Agamaggan's Ancient Breath",
+   "body": "Quilboar tradition reveres Agamaggan, the Great Boar who shed his blood across central Kalimdor during the ancient War of the Ancients. Even in captivity, Mangletooth retains intimate knowledge of the wild god's rites. Channelling the god's spilled blood does not merely alter the flesh; it stirs wild vigor, allowing a runner to match the velocity of the galloping zhevra herds. Though the quilboar are bitter enemies of the Horde, Mangletooth remains willing to impart Agamaggan's boons to anyone willing to fuel his rituals with fresh shards.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Spirit of the Wind?",
+   "aliases": [
+    "what is spirit of the wind",
+    "spirit of the wind buff",
+    "speed buff mangletooth"
+   ],
+   "answer": "It is a temporary blessing granted by Mangletooth in Camp Taurajo. In exchange for ten blood shards, he bestows heightened running speed to help travelers cross the Barrens."
+  },
+  {
+   "q": "Who offers the Spirit of the Wind?",
+   "aliases": [
+    "who gives spirit of the wind",
+    "mangletooth",
+    "who turns in blood shards for speed"
+   ],
+   "answer": "Mangletooth, a quilboar held prisoner by the Horde at Camp Taurajo, performs the ritual once you earn his cooperation."
+  },
+  {
+   "q": "Why does Mangletooth require blood shards?",
+   "aliases": [
+    "why blood shards",
+    "blood shard purpose",
+    "what does mangletooth do with shards"
+   ],
+   "answer": "Blood shards are crystalline fragments formed from the spilled blood of Agamaggan. Mangletooth taps into the ancient demi-god's latent primal power stored within them to weave his various boons."
+  },
+  {
+   "q": "Can I receive this blessing more than once?",
+   "aliases": [
+    "is spirit of the wind repeatable",
+    "can i do this quest again",
+    "repeatable buff"
+   ],
+   "answer": "Yes. As long as you provide Mangletooth with ten blood shards each time, he will repeatedly channel the blessing whenever you return to him."
+  },
+  {
+   "q": "Why would a quilboar help members of the Horde?",
+   "aliases": [
+    "why does mangletooth help",
+    "friendly quilboar",
+    "why help horde"
+   ],
+   "answer": "Mangletooth is captive in Taurajo and bargained his ancestral knowledge of Agamaggan's magic to secure his survival, dealing with travelers who collect the sacred shards he values."
+  },
+  {
+   "q": "How long does the blessing last?",
+   "aliases": [
+    "how long is the buff",
+    "spirit of the wind duration",
+    "does speed buff last"
+   ],
+   "answer": "Mangletooth notes that the enchantment does not endure for long, but provides enough swiftness to significantly ease travel across the Barrens before fading."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Camp Taurajo's guards keep close watch over Mangletooth, but Horde scouts regularly exploit his knowledge of blood shard magic to traverse the southern plains faster."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids studying in the Barrens often find the lingering power of the Wild God Agamaggan in these rites a fascinating, if raw, manifestation of primeval nature."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Communing with the spirit of the wind through crystallized divine essence echoes shamanistic traditions of revering elemental and ancestral forces."
+  }
+ ],
+ "keywords": [
+  "agamaggan",
+  "barrens",
+  "blood shards",
+  "camp taurajo",
+  "mangletooth",
+  "quilboar",
+  "speed",
+  "spirit of the wind"
+ ],
+ "related": [
+  "npc:mangletooth",
+  "quest:5052",
+  "topic:agamaggan",
+  "zone:barrens",
+  "quest:5043",
+  "quest:5042",
+  "quest:5046",
+  "quest:5045"
+ ],
+ "attribution": [
+  "Spirit of the Wind"
+ ]
+}

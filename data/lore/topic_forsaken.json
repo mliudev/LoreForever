@@ -1,0 +1,125 @@
+{
+ "key": "topic:forsaken",
+ "type": "topic",
+ "name": "Forsaken",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Forsaken"
+ },
+ "summary": "The Forsaken are a free-willed faction of intelligent undead who broke away from the Scourge following the Third War. Led by the Banshee Queen Lady Sylvanas Windrunner, they dwell within the subterranean Undercity carved beneath the ruins of Lordaeron's capital. Though deeply distrusted across Azeroth, they maintain a tenuous alliance of convenience with the Horde.",
+ "sections": [
+  {
+   "title": "Broken Shackles",
+   "body": "When the Lich King's grip over his northern armies slipped after the Third War, thousands of undead in the blighted ruins of Lordaeron suddenly regained their sapience and memories. Horrified by the butchery they had been forced to carry out while enslaved to his will, these former citizens found themselves reviled and hunted by the living. Lady Sylvanas Windrunner, the fallen ranger-general of Quel'Thalas who had been transformed into an unholy banshee, rallied these adrift spirits, claimed the catacombs beneath Capital City, and dubbed her new nation the Forsaken.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Alliance of Convenience",
+   "body": "Hemmed in by relentless enemies\u2014chief among them the fanatic Scarlet Crusade and the Scourge\u2014Sylvanas dispatched emissaries seeking allies. Those sent to Stormwind were slaughtered before breaching the gates. Across the Great Sea in Kalimdor, however, Archdruid Hamuul Runetotem and elder tauren counseled compassion, believing the cursed people might yet find redemption or a cure through the earth. Despite intense misgivings from Warchief Thrall and Cairne Bloodhoof, the Horde admitted the Forsaken, gaining a vital northern foothold in the Eastern Kingdoms.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dark Laboratories",
+   "body": "While presenting a cooperative front to their Kalimdor allies, the Forsaken pursue their own grim survival. Beneath the Undercity in the Apothecarium, the Royal Apothecary Society works incessantly to concoct a 'New Plague' potent enough to extinguish both the Scourge and living threats alike. Meanwhile, Forsaken champions like Nathanos Blightcaller wage bitter wars across the Plaguelands, Hillsbrad Foothills, and the Scarlet Monastery to secure their sovereign borders.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Are the Forsaken part of the Scourge?",
+   "aliases": [
+    "scourge difference",
+    "are forsaken scourge",
+    "are undead evil"
+   ],
+   "answer": "No. The Forsaken broke free from the Lich King's mental domination after the Third War. They loathe the Scourge and consider the Lich King Arthas their absolute mortal enemy, fighting bitterly against his minions throughout the Plaguelands."
+  },
+  {
+   "q": "Where is the Forsaken capital?",
+   "aliases": [
+    "undead capital",
+    "forsaken city",
+    "where do undead live"
+   ],
+   "answer": "Their capital is the Undercity, a vast subterranean sprawl built beneath the ruins of Capital City in Tirisfal Glades. Sylvanas's forces expanded the royal crypts and sewers into a fortified sanctuary safe from the light and outdoor threats."
+  },
+  {
+   "q": "Why did the Horde let the Forsaken join?",
+   "aliases": [
+    "why are undead horde",
+    "how did forsaken join horde",
+    "thrall forsaken alliance"
+   ],
+   "answer": "Archdruid Hamuul Runetotem and the tauren advocated strongly for them, seeing potential for redemption and hoping the earth's powers might cure their affliction. Magatha Grimtotem also supported the pact. Warchief Thrall accepted because the Horde urgently needed a strategic military foothold in the Eastern Kingdoms."
+  },
+  {
+   "q": "Who rules the Forsaken?",
+   "aliases": [
+    "undead leader",
+    "forsaken queen",
+    "who leads forsaken"
+   ],
+   "answer": "Lady Sylvanas Windrunner, the Banshee Queen. Formerly the high elven ranger-general who fell defending Silvermoon, she liberated free-willed undead and rules from the Undercity alongside her dreadlord advisor, Varimathras."
+  },
+  {
+   "q": "Are the Forsaken all former humans?",
+   "aliases": [
+    "undead races",
+    "are forsaken only humans",
+    "what race are forsaken"
+   ],
+   "answer": "The vast majority are former humans from the fallen kingdom of Lordaeron who were slain and raised during the Scourge invasion. However, their leadership includes former elves like Sylvanas, and anyone who bends the knee to the Dark Lady is welcomed into their ranks."
+  },
+  {
+   "q": "Why does the Scarlet Crusade hate the Forsaken so much?",
+   "aliases": [
+    "scarlet crusade undead",
+    "crusade vs forsaken",
+    "why scarlet crusade attacks"
+   ],
+   "answer": "The Scarlet Crusade makes zero distinction between mindful Forsaken and mindless Scourge. Their zealots view all undead as abominations that must be purified through fire and holy wrath, regardless of free will or allegiances."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This is your people: cursed to walk the earth in rotting flesh, spurned by former kin, yet bound together under the Dark Lady to carve out an empire of your own."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Your elders, especially Archdruid Hamuul Runetotem, championed the Forsaken's entry into the Horde out of sympathy, hoping your shamanic and druidic rites might one day soothe or heal their tragic condition."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "To the Alliance, the Forsaken are nightmarish parodies of their fallen friends and family from Lordaeron, holding former imperial lands and answering overtures with poison and steel."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Thrall forged an alliance of convenience with the Undercity for territory in the East, but many orcs and trolls view their grim apothecary experiments and necromantic culture with deep suspicion."
+  }
+ ],
+ "keywords": [
+  "apothecary",
+  "forsaken",
+  "lordaeron",
+  "plaguelands",
+  "sylvanas",
+  "tirisfal",
+  "undead",
+  "undercity"
+ ],
+ "related": [
+  "npc:sylvanas-windrunner",
+  "zone:undercity",
+  "topic:scourge",
+  "topic:horde",
+  "topic:scarlet-crusade",
+  "quest:1489",
+  "npc:varimathras",
+  "npc:nathanos-blightcaller"
+ ],
+ "attribution": [
+  "Forsaken"
+ ]
+}

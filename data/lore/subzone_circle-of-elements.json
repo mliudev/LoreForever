@@ -1,0 +1,88 @@
+{
+ "key": "subzone:circle-of-elements",
+ "type": "subzone",
+ "name": "Circle of Elements",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Circle of Elements"
+ },
+ "summary": "The Circle of Elements is an ancient site of elemental power situated in the western Arathi Highlands. Bound spirits of earth, water, fire, and air surge across the area, making it a place of deep interest to mystics and elemental scholars.",
+ "sections": [
+  {
+   "title": "A Convergence of Primal Force",
+   "body": "Tucked away in the western grasslands of the Arathi Highlands, the Circle of Elements represents a rare nexus where the primal forces of Azeroth run wild. Elementals of various affinities\u2014including raging flames, crashing water, rumbling earth, and crackling storms\u2014roam the surrounding grounds, bound and agitated by the ancient magic concentrated in the soil. Travelers crossing Arathi are wise to approach with caution, as the native elementals do not distinguish between curious scholars and hostile invaders.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Prized Mystic Nexus",
+   "body": "Because of the raw magical and elemental energy flowing through the site, both the Alliance and the Horde recognize the tactical and mystical value of the Circle. Shamans seek to understand the turbulent spirits trapped in its boundaries, while mages observe the primal flows to bolster their arcane craft. As tensions brew across the Arathi basin and Stromgarde's remnants struggle for survival, sites of concentrated natural force like the Circle remain enduring points of tactical interest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Circle of Elements?",
+   "aliases": [
+    "what is circle of elements",
+    "arathi circle of elements",
+    "circle of elements location"
+   ],
+   "answer": "It is a potent elemental site located in the western Arathi Highlands where raw spirits of fire, earth, water, and air gather and roam."
+  },
+  {
+   "q": "What creatures wander the Circle of Elements?",
+   "aliases": [
+    "elementals in arathi",
+    "mobs at circle of elements",
+    "what spawns at circle of elements"
+   ],
+   "answer": "The area is populated by various hostile elemental exiles representing earth, air, fire, and water, alongside local wildlife and roaming Boulderfist ogres in nearby territories."
+  },
+  {
+   "q": "Who controls the Circle of Elements right now?",
+   "aliases": [
+    "who owns circle of elements",
+    "is circle of elements alliance or horde",
+    "circle of elements faction"
+   ],
+   "answer": "Neither faction holds full control over the site in 25 ADP. It remains a wild, contested elemental nexus claimed mostly by the spirits of nature that inhabit it."
+  },
+  {
+   "q": "Why is the Circle of Elements important to spellcasters?",
+   "aliases": [
+    "why do shamans care about circle of elements",
+    "circle of elements magic"
+   ],
+   "answer": "The site gathers powerful, unrefined primal magic in one place, offering shamans and mages an opportunity to study, bind, or draw upon raw elemental energy."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The mingling spirits of earth, fire, water, and air in close proximity make this one of the most concentrated places in the Eastern Kingdoms to witness elemental unrest firsthand."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The raw energy leaking from the elemental convergence offers arcanists a prime natural laboratory for understanding elemental binding and primal conjuration."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "circle of elements",
+  "elementals",
+  "exiles",
+  "primal magic",
+  "shaman",
+  "spirits of fire"
+ ],
+ "related": [
+  "zone:arathi",
+  "subzone:go-shek-farm",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Circle of Elements"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "npc:magistrate-henry-maleb",
+ "type": "npc",
+ "name": "Magistrate Henry Maleb",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Magistrate Henry Maleb",
+  "refs": 2
+ },
+ "summary": "Magistrate Henry Maleb oversees civic administration in the port town of Southshore, the Alliance's primary coastal bastion in the Hillsbrad Foothills. Tasked with maintaining order amid constant threats, he focuses much of his authority on hunting down the Syndicate conspirators targeting the town's leadership.",
+ "sections": [
+  {
+   "title": "Guardian of Southshore's Order",
+   "body": "Operating from the town hall in Southshore, Magistrate Henry Maleb handles civil governance for one of the last true Alliance settlements in Lordaeron. The town sits under constant siege from the Forsaken to the north and West, while ruthless highwaymen prowl the foothills. Maleb stepped into his current station after the mysterious assassination of the prior magistrate, an act he attributes directly to the Syndicate. Determined not to suffer the same fate, he coordinates active investigations to root out hidden assassins, dismantle Syndicate supply networks, and unmask the rogue nobles pulling the strings from the ruins of Alterac.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Web of Noble Treachery",
+   "body": "Maleb's enquiries into the Syndicate reveal a bitter regional conflict. The assassins creeping through the orchards outside Southshore are not mere bandits, but paid operatives taking contracts from fallen Alteraci aristocrats. Maleb directs trusted Alliance scouts to intercept their coded plans and eliminate their leaders, working relentlessly to break the Syndicate's hold before their plots can fully cripple the town's defenses.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Magistrate Henry Maleb?",
+   "aliases": [
+    "henry maleb",
+    "southshore magistrate",
+    "who is maleb"
+   ],
+   "answer": "He is the chief civic magistrate of Southshore in the Hillsbrad Foothills, responsible for keeping civil order and protecting the coastal Alliance haven from domestic threats."
+  },
+  {
+   "q": "Why is Maleb investigating the Syndicate?",
+   "aliases": [
+    "why syndicate",
+    "maleb syndicate",
+    "southshore assassins"
+   ],
+   "answer": "Maleb assumed his post following the assassination of Southshore's previous magistrate. His investigations point to hired Syndicate assassins sent by fallen nobles of Alterac, and he actively commissions Alliance adventurers to preempt another assassination attempt on his life."
+  },
+  {
+   "q": "Where can Magistrate Maleb be found?",
+   "aliases": [
+    "maleb location",
+    "where is henry maleb",
+    "find magistrate maleb"
+   ],
+   "answer": "He can be found inside the town hall building in Southshore, situated in the southern reaches of the Hillsbrad Foothills."
+  },
+  {
+   "q": "What threats does Maleb face in Hillsbrad?",
+   "aliases": [
+    "southshore threats",
+    "maleb enemies"
+   ],
+   "answer": "Aside from the ever-present threat of Forsaken expansion from the north and west, Maleb is specifically menaced by shadowy Syndicate killers stalking the town perimeter and plotting the downfall of Southshore's governance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions arriving in Hillsbrad, Magistrate Maleb represents legitimate civic authority in a lawless borderland, offering bounties on Syndicate cutthroats destabilizing the town."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Rogues will find Maleb deeply concerned with the arts of stealth and assassination, relying on keen-eyed operatives to outmaneuver the Syndicate's concealed killers."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "assassins",
+  "henry maleb",
+  "hillsbrad",
+  "magistrate maleb",
+  "southshore",
+  "syndicate"
+ ],
+ "related": [
+  "subzone:southshore",
+  "zone:hillsbrad",
+  "topic:syndicate",
+  "topic:alterac-kingdom",
+  "topic:alliance",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Magistrate Henry Maleb"
+ ]
+}

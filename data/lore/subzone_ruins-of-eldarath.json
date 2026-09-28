@@ -1,0 +1,95 @@
+{
+ "key": "subzone:ruins-of-eldarath",
+ "type": "subzone",
+ "name": "Ruins of Eldarath",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Ruins of Eldarath"
+ },
+ "summary": "The Ruins of Eldarath are the shattered remains of a pre-Sundering Highborne city perched along the rocky bluffs of Azshara. Once a bastion of Kaldorei arcane scholarship, its fallen plazas and crumbling temples are now overrun by hostile naga. Scholars and adventurers brave the dangerous coastal ruins searching for inscribed tablets and forgotten relics of the ancient past.",
+ "sections": [
+  {
+   "title": "A Shattered Highborne Bastion",
+   "body": "Before the Great Sundering shattered ancient Kalimdor ten thousand years ago, Eldarath was a flourishing night elven city. Renowned Highborne mages gathered here, carving their deepest arcane insights and fundamental magical rules into grand stone tablets left in public squares for their peers to study. During the apocalyptic War of the Ancients, the city became a battlefield between the Kaldorei Resistance and the demonic Burning Legion before the Sundering dropped much of Eldarath into the Bay of Storms. The portions that survived along the eastern cliffs have sat shunned by modern night elves for millennia, slowly claimed by creeping salt spray and ivy.",
+   "spoiler": 0
+  },
+  {
+   "title": "Naga Rule and Forgotten Relics",
+   "body": "In recent times, vicious naga have emerged from the sea to seize the shattered streets of Eldarath, commanded by warlords lurking within nearby sanctuaries like the Temple of Zin-Malor. Despite the danger posed by the serpents, the ruins remain an irresistible lure for outsiders. The Explorers' League has dispatched Alliance adventurers into the broken courtyards to take rubbings of Eldarath's ancient arcane tablets. Whispers of lost treasures and lingering magical energy also drew the blue dragon Azuregos to the surrounding wilderness, further confirming that secrets of immense power still sleep beneath the ruins' cracked flagstones.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Eldarath before it fell into ruins?",
+   "aliases": [
+    "what was eldarath",
+    "eldarath history",
+    "eldarath origin"
+   ],
+   "answer": "Before the Great Sundering ten thousand years ago, Eldarath was a grand night elven city populated by the Highborne. It served as a center for arcane study and a fortified haven until the War of the Ancients and the sundering of the world devastated it."
+  },
+  {
+   "q": "Who controls the Ruins of Eldarath today?",
+   "aliases": [
+    "who lives in eldarath",
+    "what is in eldarath",
+    "eldarath mobs"
+   ],
+   "answer": "Hostile naga have completely overrun the ruins, using the crumbling plazas and nearby structures like the Temple of Zin-Malor as coastal strongholds under the command of figures like Warlord Krellian."
+  },
+  {
+   "q": "Why do scholars and explorers travel to Eldarath?",
+   "aliases": [
+    "why go to eldarath",
+    "eldarath quests",
+    "what is at eldarath"
+   ],
+   "answer": "Scholars seek the preserved stone tablets left behind by ancient Highborne mages. These public markers contain fundamental rules of arcane magic and long-lost research, valuable enough that groups like the Dwarven Explorers' League send scouts to secure rubbings of the text."
+  },
+  {
+   "q": "Why is the blue dragon Azuregos roaming near the ruins?",
+   "aliases": [
+    "why is azuregos here",
+    "azuregos eldarath",
+    "blue dragon in azshara"
+   ],
+   "answer": "Azuregos is drawn to the extreme concentration of ancient arcane power lingering along Azshara's coast. Rumors suggest powerful relics from before the Sundering\u2014possibly even vials touched by the ancient Well of Eternity\u2014remain hidden within or around the ruins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Eldarath is a sacred, if cautionary, place of study: the stone tablets scattered across its plazas detail foundational arcane theories carved by the most gifted Highborne sorcerers before their empire fell."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "These sun-bleached ruins serve as a bitter reminder of the hubris of the Highborne and the Sundering, long avoided by modern Kaldorei and now desecrated by the twisted naga."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "azuregos",
+  "eldarath",
+  "explorers' league",
+  "highborne",
+  "kaldorei",
+  "naga",
+  "sundering",
+  "tablets"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:temple-of-zin-malor",
+  "subzone:bay-of-storms",
+  "npc:azuregos",
+  "topic:highborne",
+  "topic:naga",
+  "topic:war-of-the-ancients",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Ruins of Eldarath"
+ ]
+}

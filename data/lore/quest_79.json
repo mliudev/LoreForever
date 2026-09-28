@@ -1,0 +1,124 @@
+{
+ "key": "quest:79",
+ "type": "quest",
+ "name": "The Legend of Stalvan",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   79
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Tavernkeep Smitts",
+  "end": "Commander Althea Ebonlocke",
+  "previous": "The Legend of Stalvan (9)",
+  "next": "The Legend of Stalvan (11)",
+  "wiki": "The Legend of Stalvan (10)",
+  "chain": []
+ },
+ "summary": "This quest marks the moment where scattered rumors about Stalvan Mistmantle solidify into undeniable proof of a brutal crime. Tavernkeep Smitts hands over long-hidden muddy journal pages, directing the investigator straight to Night Watch Commander Althea Ebonlocke.",
+ "sections": [
+  {
+   "title": "A Breakthrough in Darkshire",
+   "body": "For years, the grim fate of a visiting noble family remained an unresolved tragedy in Duskwood. Tavernkeep Smitts and the local blacksmith, Madame Eva's brother Haggard, originally investigated the massacre site and discovered a handful of torn, muddy journal pages. Without handwriting samples or corroborating papers, the notes sat cold, unable to officially implicate the recluse rumored to dwell in the wilderness. The evidence gathered across Elwynn, Westfall, and Duskwood finally connects the handwriting to Stalvan Mistmantle, turning town gossip into an open-and-shut case of murder.",
+   "spoiler": 0
+  },
+  {
+   "title": "Taking It to the Watch",
+   "body": "Darkshire lives under constant siege from the undead, feral beasts, and worse horrors stalking the forest gloom. Commander Althea Ebonlocke has little patience for tall tales or ungrounded suspicions when the survival of her town hangs by a thread. Delivering these muddy pages bridges the gap between cold history and immediate military justice. Presented with concrete proof of a massacre on Duskwood soil, the Night Watch is finally forced to recognize Stalvan Mistmantle not just as an eccentric hermit or ghost story, but as a dangerous fugitive demanding retribution.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What evidence did Tavernkeep Smitts have all along?",
+   "aliases": [
+    "smitts journal pages",
+    "muddy journal pages",
+    "what did smitts find"
+   ],
+   "answer": "Years ago, Smitts joined Haggard to investigate the slaughter of visiting nobles. They recovered torn, muddy journal pages from the scene, but lacked matching handwriting samples to prove Stalvan Mistmantle was the author until now."
+  },
+  {
+   "q": "Why didn't Smitts report this to Commander Ebonlocke earlier?",
+   "aliases": [
+    "why wait so long",
+    "why keep the pages secret",
+    "why didn't smitts tell the guard"
+   ],
+   "answer": "Without proof linking the handwriting on the muddy pages to the reclusive tutor, Smitts and Haggard only held circumstantial scraps. Presenting unsubstantiated rumors to Commander Ebonlocke would have been dismissed as an unhelpful waste of the Night Watch's strained time."
+  },
+  {
+   "q": "Who is Commander Althea Ebonlocke?",
+   "aliases": [
+    "who is ebonlocke",
+    "althea ebonlocke role",
+    "commander of darkshire"
+   ],
+   "answer": "Commander Althea Ebonlocke is the leader of the Night Watch, the beleaguered town militia responsible for guarding Darkshire and patrolling Duskwood's roads against the Scourge and woodland predators."
+  },
+  {
+   "q": "What massacre took place in Duskwood?",
+   "aliases": [
+    "what massacre",
+    "slaughter of nobles",
+    "who was murdered"
+   ],
+   "answer": "A visiting noble family was butchered in Duskwood several years prior. While rumors pointed to their former tutor, Stalvan Mistmantle, local investigators initially lacked the definitive evidence needed to charge him."
+  },
+  {
+   "q": "Where does this step fit into the overall investigation?",
+   "aliases": [
+    "stalvan quest chain step",
+    "how far in is this",
+    "is this the end of the quest"
+   ],
+   "answer": "This step represents the transition from private investigation to formal justice. After scouring registries, school records, and family crates across three territories, you hand the assembled evidence over to the local authorities to sanction action against Stalvan."
+  },
+  {
+   "q": "Why is the Night Watch so reluctant to investigate old crimes?",
+   "aliases": [
+    "why is ebonlocke busy",
+    "darkshire defense priority",
+    "night watch priorities"
+   ],
+   "answer": "Darkshire faces immediate, daily extinction from wandering abominations, worgen packs, and spiders. Commander Ebonlocke must focus every available watchman on survival, meaning cold cases require undeniable proof before she will spare personnel."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The investigation demonstrates how the southern territories must lean on wandering Alliance heroes to enforce justice when Stormwind's official support is entirely absent."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Bringing long-buried murders to the light fulfills the calling of a paladin, demanding accountability for innocent lives violently taken in the shadows of Duskwood."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Piecing together handwriting samples across taverns and dusty trunks reflects the patient detective work often necessary to track elusive quarry."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "duskwood",
+  "ebonlocke",
+  "investigation",
+  "mistmantle",
+  "muddy journal",
+  "night watch",
+  "smitts",
+  "stalvan"
+ ],
+ "related": [
+  "subzone:darkshire",
+  "zone:duskwood",
+  "npc:althea-ebonlocke",
+  "npc:tavernkeep-smitts",
+  "topic:light"
+ ],
+ "attribution": [
+  "The Legend of Stalvan (10)"
+ ]
+}

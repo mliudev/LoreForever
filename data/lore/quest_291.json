@@ -1,0 +1,122 @@
+{
+ "key": "quest:291",
+ "type": "quest",
+ "name": "The Reports",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   291
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Senir Whitebeard",
+  "end": "Senator Barin Redstone",
+  "previous": "Frostmane Hold (quest)",
+  "next": null,
+  "wiki": "The Reports",
+  "chain": [
+   "Frostmane Hold (quest)",
+   "The Reports"
+  ]
+ },
+ "summary": "The Reports marks the culmination of mountaineer scouting efforts against the Frostmane trolls in southern Dun Morogh. Carrying Senir Whitebeard's official dispatch from Kharanos to the high halls of Ironforge, an Alliance courier discovers that local field operations have sparked fierce political friction between King Magni Bronzebeard and the dwarven Senate.",
+ "sections": [
+  {
+   "title": "A Dispatch to the Capital",
+   "body": "After daring reconnaissance deep inside Frostmane Hold, Senir Whitebeard drafts an urgent report detailing the growing troll threat facing Dun Morogh. Stationed out of Kharanos, the mountaineer needs a courier to deliver these intelligence findings directly to Senator Barin Redstone in Ironforge. Eager to preserve his own reputation in the eyes of the government, Whitebeard cheerfully advises his runner not to mention who actually did the hazardous legwork out in the snowy crags.",
+   "spoiler": 0
+  },
+  {
+   "title": "Friction in the High Seat",
+   "body": "When delivered to Senator Redstone in the royal court, the document causes immediate outrage. Rather than expressing gratitude for intelligence on hostile troll movements, the sour senator bristles at finding King Magni's personal authority invoked to sanction Whitebeard's operations. The delivery exposes an ongoing power struggle within Ironforge's governing halls, highlighting how deeply the Senate resents executive decrees and unapproved field initiatives undertaken in the King's name.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Senir Whitebeard?",
+   "aliases": [
+    "senir whitebeard",
+    "who gives the reports",
+    "whitebeard kharanos"
+   ],
+   "answer": "Senir Whitebeard is a dwarven mountaineer stationed near Kharanos in Dun Morogh. He oversees scouting and military reconnaissance against the Frostmane troll tribes encroaching on dwarven settlements."
+  },
+  {
+   "q": "Who is Senator Barin Redstone?",
+   "aliases": [
+    "barin redstone",
+    "who is the senator",
+    "redstone ironforge"
+   ],
+   "answer": "Barin Redstone is a sour, aristocratic dwarf senator residing in the throne room of Ironforge near King Magni Bronzebeard. He is fiercely protective of legislative authority and easily annoyed by common petitioners."
+  },
+  {
+   "q": "Why is Senator Redstone angry about the report?",
+   "aliases": [
+    "why is redstone mad",
+    "why does the senator yell",
+    "senate vs magni"
+   ],
+   "answer": "Redstone becomes incensed because the report indicates Senir Whitebeard acted under the direct authority of King Magni Bronzebeard rather than coordinating through the dwarven Senate, bypassing legislative oversight."
+  },
+  {
+   "q": "Why does Senir Whitebeard ask to keep your help secret?",
+   "aliases": [
+    "why does senir take credit",
+    "whitebeard stole credit",
+    "senir's secret"
+   ],
+   "answer": "Whitebeard wants his superiors in Ironforge to believe he personally managed and completed the arduous field scouting, bolstering his standing rather than admitting an itinerant adventurer carried out the mission."
+  },
+  {
+   "q": "Where is the report delivered?",
+   "aliases": [
+    "where to turn in the reports",
+    "barin redstone location",
+    "the reports turn in"
+   ],
+   "answer": "The report is delivered to Senator Barin Redstone inside the High Seat of Ironforge, the great chamber where King Magni Bronzebeard holds court."
+  },
+  {
+   "q": "What does this quest reveal about Ironforge politics?",
+   "aliases": [
+    "ironforge government lore",
+    "dwarf senate lore",
+    "magni vs senate"
+   ],
+   "answer": "It reveals that Ironforge does not operate under absolute autocracy. King Magni's unilateral decisions face outspoken pushback from a proud and prickly Senate that resents executive overreach in frontier defense."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, walking into the High Seat to deliver the dispatch offers a firsthand glimpse at the delicate balance between King Magni's crown and the parliamentary power of the dwarven Senate."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The delivery serves as an early introduction to Ironforge's civic layout and the political bureaucracy that shapes Alliance domestic policy within Dun Morogh."
+  }
+ ],
+ "keywords": [
+  "barin redstone",
+  "dwarf senate",
+  "frostmane",
+  "high seat",
+  "ironforge",
+  "kharanos",
+  "magni bronzebeard",
+  "senir whitebeard",
+  "the reports"
+ ],
+ "related": [
+  "npc:senir-whitebeard",
+  "quest:287",
+  "subzone:kharanos",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "The Reports"
+ ]
+}

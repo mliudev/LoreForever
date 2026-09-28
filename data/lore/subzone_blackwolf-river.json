@@ -1,0 +1,77 @@
+{
+ "key": "subzone:blackwolf-river",
+ "type": "subzone",
+ "name": "Blackwolf River",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Blackwolf River"
+ },
+ "summary": "Blackwolf River is a waterway flowing out of Cragpool Lake down through Windshear Crag in the Stonetalon Mountains. Once a clean mountain stream, its waters have become thoroughly polluted by the Venture Company's aggressive logging and industrial operations.",
+ "sections": [
+  {
+   "title": "Industrial Runoff",
+   "body": "Descending from Cragpool Lake, the Blackwolf River cuts across the basin of Windshear Crag. What should be a pristine alpine tributary has instead borne the brunt of unchecked goblin enterprise. As the Venture Company clears the surrounding woodlands with heavy machinery and buzzsaws, sludge, oil, and logging waste leach steadily into the current. The despoiled river stands as a vivid example of the commercial plunder threatening Stonetalon's wilderness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Blackwolf River start and lead?",
+   "aliases": [
+    "blackwolf river source",
+    "where is blackwolf river",
+    "blackwolf river location"
+   ],
+   "answer": "The river flows down out of Cragpool Lake in the upper reaches of the mountains and winds through the logged basin of Windshear Crag."
+  },
+  {
+   "q": "Why is the river water polluted?",
+   "aliases": [
+    "why is blackwolf river dirty",
+    "blackwolf river pollution",
+    "venture company pollution"
+   ],
+   "answer": "The Venture Company operates massive deforestation and mechanical logging rigs throughout Windshear Crag. Runoff from their steam machinery, waste, and clear-cutting drains directly into the watercourse."
+  },
+  {
+   "q": "Who is currently operating along the river?",
+   "aliases": [
+    "who controls blackwolf river",
+    "who is at blackwolf river",
+    "enemies near blackwolf river"
+   ],
+   "answer": "The Venture Company dominates the riverbank, utilizing the surrounding valley for heavy lumber harvesting and mechanical operations despite resistance from local wildlife and native inhabitants."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The desecration of Blackwolf River by goblin timber operations is a sharp affront to the Cenarion Circle and all who revere the untamed waters of Kalimdor."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Seeing the earth scarred and the waters fouled by profit-driven interlopers reinforces the tauren resolve to cleanse Stonetalon of reckless industrial blight."
+  }
+ ],
+ "keywords": [
+  "blackwolf river",
+  "cragpool lake",
+  "logging",
+  "pollution",
+  "stonetalon mountains",
+  "venture co",
+  "venture company",
+  "windshear crag"
+ ],
+ "related": [
+  "subzone:windshear-crag",
+  "subzone:cragpool-lake",
+  "topic:venture-company",
+  "zone:stonetalon",
+  "quest:764"
+ ],
+ "attribution": [
+  "Blackwolf River"
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "key": "subzone:camp-wurg",
+ "type": "subzone",
+ "name": "Camp Wurg",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Camp Wurg"
+ },
+ "summary": "Camp Wurg is an ogre encampment situated in the arid expanse of the Badlands. It serves as one of several outposts claimed by the territorial Dustbelcher ogres who dominate the eastern valleys.",
+ "sections": [
+  {
+   "title": "A Dustbelcher Stronghold",
+   "body": "Tucked among the crags of the Badlands, Camp Wurg is one of four primary camps settled by the Dustbelcher ogres, alongside Camp Cagg, Camp Boff, and Camp Kosh. The ogres stationed here guard their rugged territory fiercely, scavenging what they can from the unforgiving desert wastes. While rank-and-file brutes and enforcers dwell around the crude fires and rough hides of Wurg, their chieftain, Boss Tho'grun, maintains no permanent seat here, instead roaming the Badlands trails to keep watch over all his encampments.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives in Camp Wurg?",
+   "aliases": [
+    "camp wurg mobs",
+    "who is at camp wurg",
+    "who lives here"
+   ],
+   "answer": "Camp Wurg is populated by the Dustbelcher ogres, a fierce and territorial tribe that has carved out settlements across the Badlands."
+  },
+  {
+   "q": "Where is the leader of the camp?",
+   "aliases": [
+    "camp wurg boss",
+    "boss thogrun location",
+    "who leads camp wurg"
+   ],
+   "answer": "The leader of the Dustbelcher ogres, Boss Tho'grun, does not stay confined to Camp Wurg. Instead, he patrols the open paths of the Badlands between Wurg, Cagg, Boff, and Kosh."
+  },
+  {
+   "q": "What other camps belong to this tribe?",
+   "aliases": [
+    "dustbelcher camps",
+    "other ogre camps badlands",
+    "ogre settlements badlands"
+   ],
+   "answer": "The Dustbelchers control four main strongholds throughout the Badlands: Camp Wurg, Camp Cagg, Camp Boff, and Camp Kosh."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "boss tho'grun",
+  "camp boff",
+  "camp cagg",
+  "camp kosh",
+  "camp wurg",
+  "dustbelcher",
+  "ogre",
+  "wurg"
+ ],
+ "related": [
+  "zone:badlands"
+ ],
+ "attribution": [
+  "Camp Wurg"
+ ]
+}

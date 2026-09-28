@@ -1,0 +1,90 @@
+{
+ "key": "subzone:dawning-isles",
+ "type": "subzone",
+ "name": "Dawning Isles",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Dawning Isles"
+ },
+ "summary": "The Dawning Isles are a cluster of low-lying islets situated within Lordamere Lake along the eastern edge of Silverpine Forest. Once idyllic retreats, they have succumbed to the blight of the Plague of Undeath and are overrun by aggressive murlocs and contending military factions.",
+ "sections": [
+  {
+   "title": "Blight on the Lake",
+   "body": "Before the Third War, the Dawning Isles were known as scenic keys resting on the calm, clear waters of Lordamere Lake. When the Plague of Undeath swept across Lordaeron, corruption seeped into the lake's shallows. The vegetation turned pallid and rotting, driving away idyllic peacefulness. Today, the Vile Fin murloc tribe dominates the muddy shores and tangled brush, aggressively defending their burgeoning colonies from anyone seeking to traverse the lake.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Staging Ground",
+   "body": "Because of their proximity to the capital, the Dawning Isles occupy a perilous strategic position. The Scarlet Crusade has used these desolate islets as a beachhead to launch probing assaults against the Undercity and the Ruins of Lordaeron. In response, Forsaken forces regularly deploy to contest the waters, turning what was once a quiet chain of islands into a frontline battleground between the living zealots and the undead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Dawning Isles located?",
+   "aliases": [
+    "dawning isles location",
+    "where is dawning isles",
+    "dawning islands map"
+   ],
+   "answer": "The Dawning Isles are located in Lordamere Lake, bordering the eastern boundary of Silverpine Forest and resting just west of the Ruins of Lordaeron."
+  },
+  {
+   "q": "What creatures inhabit the Dawning Isles?",
+   "aliases": [
+    "mobs on dawning isles",
+    "what lives on dawning isles",
+    "dawning isle monsters"
+   ],
+   "answer": "The islands are primarily infested by the Vile Fin tribe of murlocs, which thrives along the corrupted shorelines. In the past, dangerous bog beasts also prowled the islets, though they have largely vanished in favor of the teeming murloc population."
+  },
+  {
+   "q": "Why are the trees and shores rotting here?",
+   "aliases": [
+    "why are dawning isles blighted",
+    "lake blight dawning isles"
+   ],
+   "answer": "The islands were tainted during the Third War when the Plague of Undeath swept Lordaeron. The water and soil absorbed the blight, poisoning the vegetation and leaving the islets murky, sickly, and decayed."
+  },
+  {
+   "q": "Why is the Scarlet Crusade interested in these islands?",
+   "aliases": [
+    "scarlet crusade dawning isles",
+    "crusaders in lordamere lake"
+   ],
+   "answer": "The islands offer a convenient staging ground across Lordamere Lake from which the Scarlet Crusade can mount skirmishes and strikes directly against the Forsaken holding the Ruins of Lordaeron."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Controlling the Dawning Isles is essential for safeguarding the western approaches to the Undercity against Scarlet Crusade incursions across Lordamere Lake."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The blighted islands serve as a grim reminder of how far the corruption of the Scourge reached into Lordaeron's most scenic waters."
+  }
+ ],
+ "keywords": [
+  "dawning isles",
+  "lordaeron",
+  "lordamere lake",
+  "scarlet crusade",
+  "silverpine forest",
+  "vile fin"
+ ],
+ "related": [
+  "subzone:lordamere-lake",
+  "zone:silverpine",
+  "zone:ruinsoflordaeron",
+  "topic:murloc",
+  "topic:scarlet-crusade",
+  "topic:forsaken",
+  "topic:plague-of-undeath",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Dawning Isles"
+ ]
+}

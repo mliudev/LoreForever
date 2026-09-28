@@ -1,0 +1,124 @@
+{
+ "key": "quest:441",
+ "type": "quest",
+ "name": "Raleigh and the Undercity",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   441
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Magistrate Sevren",
+  "end": "Raleigh Andrean",
+  "previous": "The Engraved Ring",
+  "next": "A Husband's Revenge",
+  "wiki": "Raleigh and the Undercity",
+  "chain": [
+   "The Engraved Ring",
+   "Raleigh and the Undercity",
+   "A Husband's Revenge"
+  ]
+ },
+ "summary": "This quest bridges an investigation from Brill to the Undercity, tasking an adventurer with delivering a recovered heirloom ring to a widower named Raleigh. Found on the corpse of a Scourge defiler, the jewelry points to a tragedy among Lordaeron's former inhabitants. Delivering it sets into motion a dark pursuit of vengeance.",
+ "sections": [
+  {
+   "title": "A Tragic Heirloom",
+   "body": "In Brill, Magistrate Sevren pieced together clues surrounding a stolen corpse and recovered an engraved ring that once belonged to a woman named Deliah. Hoping to confirm its origin and see it returned to her family, Sevren directed the finder deep into the subterranean halls of the Undercity to seek Deliah's surviving husband, Raleigh.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cold Hearts, Bitter Vengeance",
+   "body": "Located in the bustling Trade Quarter of the Undercity, Raleigh Andrean recognizes his former wife's ring without hesitation. Like many of the Forsaken, undeath has withered his capacity for sorrow, grief, or remorse over Deliah's passing and desecration. However, where tender emotions have died away, an unyielding thirst for retribution remains, prompting Raleigh to plot revenge against those who violated her final rest.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts this quest?",
+   "aliases": [
+    "where do i get raleigh and the undercity",
+    "quest giver",
+    "magistrate sevren quest"
+   ],
+   "answer": "Magistrate Sevren starts this quest in the town of Brill within Tirisfal Glades, immediately after you return Deliah's Ring to him."
+  },
+  {
+   "q": "Where is Raleigh Andrean located?",
+   "aliases": [
+    "raleigh location",
+    "where is raleigh",
+    "trade quarter raleigh"
+   ],
+   "answer": "Raleigh Andrean is located in the Trade Quarter of the Undercity, standing among the subterranean city's merchants and craftsmen."
+  },
+  {
+   "q": "Whose ring is being delivered?",
+   "aliases": [
+    "deliah ring",
+    "who was deliah",
+    "whose ring is this"
+   ],
+   "answer": "The ring belonged to Deliah, a woman from Brill who was Raleigh Andrean's wife prior to the fall of Lordaeron."
+  },
+  {
+   "q": "Why doesn't Raleigh mourn his dead wife?",
+   "aliases": [
+    "raleigh reaction",
+    "does raleigh care",
+    "why is raleigh cold"
+   ],
+   "answer": "As one of the Forsaken, Raleigh admits that tender emotions like grief and love have grown cold within his undead heart. Instead, his lingering passions have curdled into a cold desire for vengeance."
+  },
+  {
+   "q": "What happens after this quest?",
+   "aliases": [
+    "next quest",
+    "follow up to raleigh",
+    "what comes after"
+   ],
+   "answer": "Handing in the ring leads directly into the quest 'A Husband's Revenge', where Raleigh sends you to avenge his wife's desecration."
+  },
+  {
+   "q": "How was Deliah's ring found initially?",
+   "aliases": [
+    "ring origin",
+    "where did the ring come from"
+   ],
+   "answer": "The ring was recovered during the quest 'The Engraved Ring', retrieved from the defiler who plundered Deliah's grave in Tirisfal Glades."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Raleigh's cold reaction to his wife's tragic demise reflects the widespread psychological trauma shared by the Forsaken, whose mortal attachments have decayed into bitter wrath."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Carrying tokens of old Lordaeron through the gates of the Undercity illustrates the somber realities of life among your Forsaken allies."
+  }
+ ],
+ "keywords": [
+  "a husband's revenge",
+  "brill",
+  "deliah",
+  "deliah's ring",
+  "raleigh",
+  "sevren",
+  "trade quarter",
+  "undercity"
+ ],
+ "related": [
+  "quest:440",
+  "quest:530",
+  "npc:raleigh-andrean",
+  "npc:magistrate-sevren",
+  "zone:undercity",
+  "subzone:trade-quarter",
+  "subzone:brill"
+ ],
+ "attribution": [
+  "Raleigh and the Undercity"
+ ]
+}

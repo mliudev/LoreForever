@@ -1,0 +1,118 @@
+{
+ "key": "quest:956",
+ "type": "quest",
+ "name": "Bashal'Aran",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   956
+  ],
+  "level": "13",
+  "faction": "Alliance",
+  "start": "Asterion",
+  "end": "",
+  "previous": "Bashal'Aran (2)",
+  "next": "Bashal'Aran (4)",
+  "wiki": "Bashal'Aran (3)",
+  "chain": []
+ },
+ "summary": "Asterion, a night elf spirit trapped amidst the ruined pillars of Bashal'Aran, seeks the relic holding him bound to this world. Having sensed the corruption of his prison among the local grells, he directs travelers to hunt the satyrs who command them and recover the Ancient Moonstone Seal.",
+ "sections": [
+  {
+   "title": "A Prison of Ancient Stone",
+   "body": "For well over a thousand years, the spirit Asterion has remained tethered to the fallen ruins of Bashal'Aran. The surrounding marble pillars serve as an unyielding cage that neither his fading spiritual strength nor his ancient magic can crack. Bound by a cursed relic, he has spent centuries staring out at Darkshore's mist-shrouded canopy, wondering whether even the erosion of the stone around him would grant him release.",
+   "spoiler": 0
+  },
+  {
+   "title": "Satyrs and the Moonstone Seal",
+   "body": "After discovering that nearby grells bore traces of the magic maintaining his captivity, Asterion deduced that the source of the enchantment had fallen into the hands of the satyrs who direct the chaotic creatures. Wandering through the ancient groves, these demonic night elves keep a watchful grip on the Ancient Moonstone Seal. Reclaiming this talisman is the critical step toward shattering the invisible bars that anchor Asterion to his shrine.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Asterion?",
+   "aliases": [
+    "who is asterion",
+    "asterion lore",
+    "ghost in bashal aran"
+   ],
+   "answer": "Asterion is an ancient night elf ghost trapped within the ruins of Bashal'Aran. Bound by ancient magic, he has spent more than a thousand years confined to the shrine's standing pillars, unable to pass on or wander beyond his stony prison."
+  },
+  {
+   "q": "Why do the satyrs have the Ancient Moonstone Seal?",
+   "aliases": [
+    "why do satyrs have seal",
+    "satyr moonstone seal",
+    "ancient moonstone seal"
+   ],
+   "answer": "Satyrs lead and influence the wild grells infesting northern Darkshore. Because the grells carried traces of the binding magic, Asterion realized that their wicked satyr masters had seized the Ancient Moonstone Seal to keep the local spirits tormented and tethered."
+  },
+  {
+   "q": "What happens once the seal is recovered?",
+   "aliases": [
+    "what does seal do",
+    "recovering the seal"
+   ],
+   "answer": "Asterion takes hold of the very relic that has bound him for centuries. Recovering the Ancient Moonstone Seal is the penultimate step in his liberation, allowing the seal to be broken so he may finally walk the forests freely again."
+  },
+  {
+   "q": "What is Bashal'Aran?",
+   "aliases": [
+    "bashal aran lore",
+    "what is bashal aran"
+   ],
+   "answer": "Bashal'Aran is an ancient night elf ruin located along the mist-draped shores of northern Darkshore. Once a magnificent settlement or holy enclave, it now lies broken, plagued by grells, satyrs, and trapped spirits from an earlier age."
+  },
+  {
+   "q": "How long has Asterion been trapped here?",
+   "aliases": [
+    "how old is asterion",
+    "how long trapped"
+   ],
+   "answer": "Asterion has been imprisoned for more than a thousand years. Without physical means or magic to dismantle the boundary, he was forced to wait through the centuries, wondering if he would ever be freed."
+  },
+  {
+   "q": "Can Asterion simply walk away from the shrine?",
+   "aliases": [
+    "can asterion leave",
+    "why is ghost trapped"
+   ],
+   "answer": "No. The Ancient Moonstone Seal maintains a metaphysical barrier around the shrine. The stone pillars act as an impenetrable cage that prevents his spectral form from crossing beyond them."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Bashal'Aran is a somber reminder of your people's ancient past, where lingering ancestors remain chained to the earth by satyrs who embody the demonic betrayal of the Sundering."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The twisted influence of the satyrs continues to corrupt Darkshore's wildlife and disturb ancient spirits who should be resting peacefully in the cycle of nature."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Cleansing the ruins of Darkshore from satyr corruption secures Kalimdor's northern coast and aids the Kaldorei in laying their tragic past to rest."
+  }
+ ],
+ "keywords": [
+  "ancient moonstone seal",
+  "asterion",
+  "bashal'aran",
+  "darkshore",
+  "grell",
+  "kaldorei",
+  "night elf ghost",
+  "satyr"
+ ],
+ "related": [
+  "npc:asterion",
+  "quest:954",
+  "topic:satyr",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Bashal'Aran (3)"
+ ]
+}

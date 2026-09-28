@@ -1,0 +1,89 @@
+{
+ "key": "subzone:ironclad-cove",
+ "type": "subzone",
+ "name": "Ironclad Cove",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Ironclad Cove"
+ },
+ "summary": "Ironclad Cove is a massive subterranean cavern hidden beneath Westfall, housing an underground shipyard and dock. It serves as the secret construction dock for the Defias Brotherhood's war juggernaught and connects directly to the sea.",
+ "sections": [
+  {
+   "title": "The Hidden Shipyard",
+   "body": "Buried at the deepest point of the Deadmines, Ironclad Cove is a monumental sea cavern converted into a fortified dockyard. Here, Edwin VanCleef and the Defias Brotherhood have constructed an enormous warship known as the juggernaught. The cavern features extensive wooden scaffolding, islets, and loading catwalks manned by Defias pirates, deckhands, and overseers. Its existence reveals the true scale of the Defias threat: VanCleef intends not merely to raid Westfall's farmsteads, but to assemble a private naval force capable of bombarding the shores of Stormwind itself.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gateway to the Ocean",
+   "body": "The cavern is dominated by colossal iron-reinforced sea doors set into the rock wall. Once opened, these gates provide a direct outlet into the Great Sea, emerging along the coastline just north of Stranglethorn Vale. Before the Defias Brotherhood seized the cove, it was held by an independent pirate crew whom the Brotherhood slaughtered to ensure total secrecy. Shielded from the eyes of the Stormwind naval fleet, the cove provides the Brotherhood an unmonitored lane for moving contraband, staging maritime raids, and preparing their naval assault.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the ship in Ironclad Cove being built for?",
+   "aliases": [
+    "why is there a ship here",
+    "what is the juggernaught",
+    "deadmines ship purpose"
+   ],
+   "answer": "The juggernaught is the centerpiece of Edwin VanCleef's military ambitions. The Defias Brotherhood assembled this massive warship deep beneath the earth so it could launch undetected through subterranean water channels and strike at Stormwind from the sea."
+  },
+  {
+   "q": "Where does the large metal door in the cove lead?",
+   "aliases": [
+    "where do the sea gates open",
+    "deadmines iron doors",
+    "exit into the ocean"
+   ],
+   "answer": "The massive gates open directly into the ocean along the southern coast of Westfall, near the border of northern Stranglethorn Vale. When opened, the juggernaught can sail straight out into the Great Sea."
+  },
+  {
+   "q": "Who controls Ironclad Cove?",
+   "aliases": [
+    "who runs the cove",
+    "who lives in ironclad cove"
+   ],
+   "answer": "The Defias Brotherhood holds the cove under the command of Edwin VanCleef. While independent pirates originally used the secluded cavern, VanCleef's forces wiped them out to commandeer the docks and keep the juggernaught's construction entirely secret."
+  },
+  {
+   "q": "Who is the murloc aboard the ship?",
+   "aliases": [
+    "cookie the murloc",
+    "why is there a murloc pirate",
+    "chef cookie"
+   ],
+   "answer": "That is Cookie, the Defias ship's cook. Armed with a rolling pin and cooking cauldrons, he is an unusual ally among the human and goblin renegades, having claimed the galley as his personal domain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Finding a full-sized war galleon buried under Westfall transforms the Defias from a regional bandit gang into an existential military threat against the Kingdom of Stormwind."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The cove represents the zenith of Edwin VanCleef's craftsmanship, engineering prowess, and underground logistics, making it legendary among thieves and outlaws."
+  }
+ ],
+ "keywords": [
+  "cookie",
+  "deadmines ship",
+  "defias cove",
+  "edwin vancleef",
+  "ironclad cove",
+  "juggernaught",
+  "shipyard"
+ ],
+ "related": [
+  "zone:deadmines",
+  "subzone:deadmines",
+  "npc:cookie",
+  "topic:pirate",
+  "zone:stranglethorn"
+ ],
+ "attribution": [
+  "Ironclad Cove"
+ ]
+}

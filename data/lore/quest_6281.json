@@ -1,0 +1,127 @@
+{
+ "key": "quest:6281",
+ "type": "quest",
+ "name": "Continue to Stormwind",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   6281
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Thor",
+  "end": "Osric Strang",
+  "previous": "A Swift Message (Classic)",
+  "next": "Dungar Longdrink (Classic)",
+  "wiki": "Continue to Stormwind (Classic)",
+  "chain": [
+   "A Swift Message (Classic)",
+   "Continue to Stormwind (Classic)",
+   "Dungar Longdrink (Classic)",
+   "Return to Lewis"
+  ]
+ },
+ "summary": "This errand introduces adventurers in Westfall to the speed and convenience of the Kingdom of Stormwind's gryphon network. Entrusted with an urgent requisition from Sentinel Hill, travelers take flight directly to Old Town to deliver word to the merchant Osric Strang.",
+ "sections": [
+  {
+   "title": "Taking Wing",
+   "body": "After Quartermaster Lewis in Sentinel Hill prepares a requisition note, the local gryphon master Thor offers the fastest route out of the contested plains. For a modest fee, travelers mount one of the kingdom's trained gryphons and soar above the dusty farmlands, the river border of Elwynn Forest, and over the high white ramparts of Stormwind City itself.",
+   "spoiler": 0
+  },
+  {
+   "title": "Old Town Supply Lines",
+   "body": "Upon landing in the capital's trade roosts, the courier heads into Old Town to locate Osric Strang at his shop, Limited Immunity. Osric provides equipment and supplies to the frontier, though his grim reception highlights the growing rift between the beleaguered People's Militia in Westfall and the distracted rulers in Stormwind Keep.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do this quest",
+    "quest purpose",
+    "continue to stormwind objective"
+   ],
+   "answer": "The quest serves as a practical introduction to the Alliance's gryphon flight paths, teaching adventurers how to quickly travel between distant outposts and the capital city."
+  },
+  {
+   "q": "Where is Osric Strang located?",
+   "aliases": [
+    "where is osric strang",
+    "find osric strang",
+    "limited immunity location"
+   ],
+   "answer": "Osric Strang runs the shop Limited Immunity, located along the winding streets of Old Town inside Stormwind City."
+  },
+  {
+   "q": "Why does Sentinel Hill need supplies from Stormwind?",
+   "aliases": [
+    "why need supplies",
+    "westfall supply issue",
+    "sentinel hill gear"
+   ],
+   "answer": "The People's Militia at Sentinel Hill is struggling against the Defias Brotherhood and receive little formal military aid from the capital, forcing Quartermaster Lewis to purchase gear directly from civilian merchants."
+  },
+  {
+   "q": "Who is Thor?",
+   "aliases": [
+    "who is thor",
+    "westfall gryphon master",
+    "thor westfall"
+   ],
+   "answer": "Thor is the Alliance gryphon master stationed at Sentinel Hill, managing the flight routes connecting Westfall to Stormwind City and other friendly hubs."
+  },
+  {
+   "q": "What is inside Lewis' Note?",
+   "aliases": [
+    "lewis note",
+    "what does the note say",
+    "contents of note"
+   ],
+   "answer": "It is an urgent requisition from Quartermaster Lewis detailing gear and provisions desperately required to keep the Sentinel Hill garrison equipped."
+  },
+  {
+   "q": "What happens after delivering the note?",
+   "aliases": [
+    "what next",
+    "follow up quest",
+    "after osric strang"
+   ],
+   "answer": "After receiving the requisition, Osric directs you to speak with the Stormwind gryphon master, Dungar Longdrink, to arrange the transport of the ordered supplies back to Westfall."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The flight network maintained by gryphon masters binds the scattered outposts of the Alliance together, keeping remote garrisons tethered to the capital."
+  },
+  {
+   "target": "race:Human",
+   "text": "Returning to Old Town reveals how disconnected common citizens and isolated frontiersmen feel from the politics of the grand House of Nobles."
+  }
+ ],
+ "keywords": [
+  "flight path",
+  "gryphon",
+  "lewis' note",
+  "limited immunity",
+  "old town",
+  "osric strang",
+  "sentinel hill",
+  "thor"
+ ],
+ "related": [
+  "quest:6181",
+  "quest:6261",
+  "quest:6285",
+  "npc:thor",
+  "npc:osric-strang",
+  "npc:quartermaster-lewis",
+  "subzone:sentinel-hill",
+  "subzone:old-town"
+ ],
+ "attribution": [
+  "Continue to Stormwind (Classic)"
+ ]
+}

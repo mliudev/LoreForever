@@ -1,0 +1,117 @@
+{
+ "key": "npc:scout-thaelrid",
+ "type": "npc",
+ "name": "Scout Thaelrid",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "wiki": "Scout Thaelrid",
+  "refs": 3
+ },
+ "summary": "Scout Thaelrid is a wounded night elf scout sent by the Argent Dawn into the submerged ruins of Blackfathom Deeps. Trapped near the Pool of Ask'ar, he bears witness to the dark alliance taking root between the naga and the Twilight's Hammer cult.",
+ "sections": [
+  {
+   "title": "Eyes of the Argent Dawn",
+   "body": "When strange reports trickled out of the Zoram Strand concerning foul rites deep beneath the sea, the Argent Dawn took interest. Dedicated to watching for rising evils and unnatural corruption across Azeroth, the order dispatched Scout Thaelrid to slip inside Blackfathom Deeps. His mission was simple: assess the depth of the threat, observe the movements within the flooded temple, and report back so the Dawn could decide where aid was most desperately needed.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Grasping Darkness",
+   "body": "Thaelrid quickly discovered that the rumors fell far short of the horrific reality. The subterranean ruins harbor an unholy pact between savage naga and the doomsday zealots of the Twilight's Hammer. Deep within the halls, cultists under the command of Twilight Lord Kelris perform blood sacrifices to feed the hydra Aku'mai, bargaining with ancient terrors for dark power. Before Thaelrid could deliver this warning to the surface, he was grievously wounded and cut off, leaving him stranded near the Pool of Ask'ar.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Scout Thaelrid?",
+   "aliases": [
+    "who is thaelrid",
+    "thaelrid lore",
+    "thaelrid background"
+   ],
+   "answer": "He is a night elf operative serving the Argent Dawn. He was tasked with infiltrating Blackfathom Deeps along Ashenvale's coast to gather intelligence on the sinister forces gathering below."
+  },
+  {
+   "q": "Why is Thaelrid trapped inside Blackfathom Deeps?",
+   "aliases": [
+    "why is he stuck",
+    "how did he get wounded",
+    "why is thaelrid dying"
+   ],
+   "answer": "While reconnoitering the cavernous temple, Thaelrid was discovered and grievously wounded by the denizens within. Unable to fight his way back to the surface alone, he took shelter near the Pool of Ask'ar."
+  },
+  {
+   "q": "What did Thaelrid discover in the depths?",
+   "aliases": [
+    "what did thaelrid find",
+    "what are the cultists doing",
+    "blackfathom secrets"
+   ],
+   "answer": "He learned that the Twilight's Hammer cultists, led by Twilight Lord Kelris, have allied with the local naga. Together, they sacrifice innocent captives to nourish the primeval hydra Aku'mai in exchange for power."
+  },
+  {
+   "q": "Who does Thaelrid work for?",
+   "aliases": [
+    "thaelrid faction",
+    "is thaelrid argent dawn",
+    "is thaelrid alliance"
+   ],
+   "answer": "He belongs to the Argent Dawn, the neutral organization dedicated to combating corruption, evil, and apocalyptic threats throughout Azeroth regardless of faction lines."
+  },
+  {
+   "q": "What does Thaelrid ask adventurers to do?",
+   "aliases": [
+    "thaelrid quest",
+    "blackfathom villainy quest",
+    "what does he want"
+   ],
+   "answer": "Unable to leave his refuge, Thaelrid asks courageous adventurers to put an end to the butchery by slaying Twilight Lord Kelris, retrieving the cult leader's head to prove the threat is broken."
+  },
+  {
+   "q": "Where can Thaelrid be found?",
+   "aliases": [
+    "where is thaelrid",
+    "thaelrid location",
+    "pool of askar scout"
+   ],
+   "answer": "He rests injured in a secluded alcove near the Pool of Ask'ar, an area just past the flooded preliminary caverns of Blackfathom Deeps."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, seeing sacred, ancient temple grounds like Blackfathom defiled by naga and doomsday cults is a bitter outrage; Thaelrid represents their people's vigil over Kalimdor's deepest wounds."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts sent into Ashenvale follow up on Thaelrid's disappearance, eager to maintain the safety of the Zoram Strand and support the neutral work of the Argent Dawn."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Though Thaelrid is a night elf, his allegiance is to the Argent Dawn, meaning any adventurer willing to strike at the Twilight's Hammer and cleanse the cavern can aid him."
+  }
+ ],
+ "keywords": [
+  "aku'mai",
+  "argent dawn",
+  "ashenvale",
+  "blackfathom deeps",
+  "pool of ask'ar",
+  "scout thaelrid",
+  "thaelrid",
+  "twilight lord kelris"
+ ],
+ "related": [
+  "quest:1198",
+  "quest:1200",
+  "zone:blackfathom",
+  "subzone:pool-of-ask-ar",
+  "npc:twilight-lord-kelris",
+  "npc:aku-mai",
+  "topic:argent-dawn",
+  "topic:twilight-s-hammer"
+ ],
+ "attribution": [
+  "Scout Thaelrid"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "subzone:thelsamar",
+ "type": "subzone",
+ "name": "Thelsamar",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Thelsamar"
+ },
+ "summary": "Thelsamar is the primary dwarven settlement in Loch Modan, nestled on the western bluffs overlooking the great lake. Positioned along the main road between Dun Morogh and the Wetlands, it serves as a bustling hub of commerce, hospitality, and civic defense against surrounding trogg and ogre incursions.",
+ "sections": [
+  {
+   "title": "Heart of Loch Modan",
+   "body": "Thelsamar serves as the central bastion of dwarven civilian life in the valley. Built with traditional Khaz Modan stone and timber architecture, it features the lively Stoutlager Inn, a dedicated gryphon roost, crafting stations, and various supply merchants. Sitting directly on the thoroughfare connecting the South Gate Pass into Dun Morogh with the North Gate Pass toward the Wetlands, almost all travelers through the region pass beneath its warm hearths and stout roofs.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trouble on the Frontier",
+   "body": "Despite its cozy comforts, Thelsamar is in constant danger. To the south, troggs pouring from Stonesplinter Valley threaten the town's perimeter, while bears and predatory beasts haunt Grizzlepaw Ridge. With Ironforge's regular military forces stretched thin across the realm, the local magistrate and Mountaineers rely heavily on traveling adventurers and mercenaries to patrol the trade roads and beat back encroaching hostiles.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What services are available in Thelsamar?",
+   "aliases": [
+    "thelsamar vendors",
+    "what is in thelsamar",
+    "trainers in thelsamar"
+   ],
+   "answer": "Thelsamar offers a full suite of frontier amenities, including the Stoutlager Inn for lodging and refreshment, a flightmaster with connections across central Khaz Modan, trade vendors, and an outdoor forge. It also hosts several profession and combat trainers to assist growing adventurers."
+  },
+  {
+   "q": "Where does the road through Thelsamar lead?",
+   "aliases": [
+    "thelsamar road",
+    "where does the path go",
+    "travel from thelsamar"
+   ],
+   "answer": "The north-south road running west of the town connects south through the tunnel into Dun Morogh, leading straight toward Ironforge. Following it north takes travelers across the Stonewrought Dam and through the Algaz Gate down into the marshy Wetlands."
+  },
+  {
+   "q": "Why is the town hiring so many mercenaries?",
+   "aliases": [
+    "why are there quests in thelsamar",
+    "who is attacking thelsamar"
+   ],
+   "answer": "The local Mountaineers are overwhelmed by multiple emerging threats. Aggressive Stonesplinter troggs have overrun the southern excavations, wild beasts prowl the edges of settlement, and organized ogres have begun pressing in, forcing town leadership to offer bounties to independent fighters."
+  },
+  {
+   "q": "What is the famous local specialty here?",
+   "aliases": [
+    "thelsamar food",
+    "blood sausages loch modan"
+   ],
+   "answer": "The town is renowned among hunters and travelers for Thelsamar Blood Sausages, a rich dwarven dish prepared by Vidra Chimneyshaper at the Stoutlager Inn using the entrails and flesh of local wildlife."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves leaving cold Dun Morogh, Thelsamar is the first taste of warmer lowlands, boasting great ale, stout stone hearths, and active service to the Mountaineer guard."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary travelers often stop at the Stoutlager Inn to learn the regional recipe for hearty blood sausages made from the meat of local bears, spiders, and boars."
+  }
+ ],
+ "keywords": [
+  "blood sausages",
+  "grizzlepaw",
+  "loch modan",
+  "mountaineers",
+  "stonesplinter",
+  "stoutlager inn",
+  "thelsamar"
+ ],
+ "related": [
+  "zone:lochmodan",
+  "subzone:stoutlager-inn",
+  "subzone:the-loch",
+  "quest:418",
+  "quest:255",
+  "quest:256",
+  "subzone:stonesplinter-valley",
+  "subzone:grizzlepaw-ridge"
+ ],
+ "attribution": [
+  "Thelsamar"
+ ]
+}

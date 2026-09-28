@@ -1,0 +1,87 @@
+{
+ "key": "subzone:lakeridge-highway",
+ "type": "subzone",
+ "name": "Lakeridge Highway",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Lakeridge Highway"
+ },
+ "summary": "Lakeridge Highway is an old thoroughfare running along the southern shore of Lake Everstill in the Redridge Mountains. Once a vital and heavily traveled artery prior to the First War, it has fallen into ruin and disuse. Today, roving packs of gnolls and Blackrock orcs make passage along the road perilous for travelers.",
+ "sections": [
+  {
+   "title": "A Fallen Artery",
+   "body": "Before the devastation of the First War, the Lakeridge Highway served as a bustling trade corridor through Redridge, carrying goods and folk along the southern banks of Lake Everstill. In those peaceful days, travelers could journey between the valley settlements and the eastern heights under the protection of the Kingdom of Stormwind. That safety shattered when the Horde marched through the region, leaving eastern Redridge contested and desolate.",
+   "spoiler": 0
+  },
+  {
+   "title": "Peril on the Road",
+   "body": "Following the seizure of Stonewatch Keep by Blackrock orcs, regular maintenance and patrols along the highway ceased entirely. The road quickly deteriorated into an overgrown track contested by savage gnoll packs. With Stormwind's military spread thin and unable to reinforce Lakeshire, the highway remains officially unsafe. Any traveler seeking to reach the eastern ridges must now carve a path through gnoll ambushes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Lakeridge Highway lead?",
+   "aliases": [
+    "where does lakeridge highway go",
+    "lakeridge highway path",
+    "where is lakeridge highway"
+   ],
+   "answer": "The road tracks along the southern edge of Lake Everstill, heading eastward out of the Lakeshire area toward the foothills surrounding Stonewatch Keep and the eastern mountains of Redridge."
+  },
+  {
+   "q": "Why is the highway abandoned?",
+   "aliases": [
+    "why is it abandoned",
+    "why is lakeridge highway empty",
+    "lakeridge highway fallen into disuse"
+   ],
+   "answer": "The highway fell into disuse after the First War, particularly when Blackrock orcs fortified Stonewatch Keep. Without the manpower to secure the road, Stormwind could not maintain it, allowing hostile gnolls to move in and choke off civilian travel."
+  },
+  {
+   "q": "What threats wander the road today?",
+   "aliases": [
+    "dangers on lakeridge highway",
+    "mobs on lakeridge highway",
+    "who controls lakeridge highway"
+   ],
+   "answer": "The highway is primarily haunted by aggressive gnolls that ambush anyone wandering away from Lakeshire, as well as lingering Blackrock orc scouts operating out of the eastern strongholds."
+  },
+  {
+   "q": "Was the highway always dangerous?",
+   "aliases": [
+    "lakeridge highway history",
+    "highway before the war"
+   ],
+   "answer": "No. In the peaceful era before the First War, the Lakeridge Highway was a well-maintained, highly traveled route that safely connected the heart of Redridge to its eastern outposts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The highway is a visible reminder of Stormwind's neglected frontiers, where local roads just outside Lakeshire have been surrendered to gnolls and orcs due to a lack of reinforcements."
+  }
+ ],
+ "keywords": [
+  "gnolls",
+  "highway",
+  "lake everstill",
+  "lakeridge",
+  "redridge",
+  "road",
+  "stonewatch"
+ ],
+ "related": [
+  "zone:redridge",
+  "subzone:lake-everstill",
+  "subzone:lakeshire",
+  "subzone:stonewatch-keep",
+  "subzone:stonewatch",
+  "topic:gnoll",
+  "topic:first-war"
+ ],
+ "attribution": [
+  "Lakeridge Highway"
+ ]
+}

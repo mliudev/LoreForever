@@ -1,0 +1,87 @@
+{
+ "key": "subzone:south-gate-outpost",
+ "type": "subzone",
+ "name": "South Gate Outpost",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "South Gate Outpost"
+ },
+ "summary": "South Gate Outpost is a fortified dwarven mountain post situated along the South Gate Pass between Dun Morogh and Loch Modan. Manning the snowy southern road, its mountaineers guard the steady flow of travelers walking between Ironforge's frigid heights and the temperate valley of the Loch.",
+ "sections": [
+  {
+   "title": "Watchers of the Southern Road",
+   "body": "Perched midway through the high mountain cut of South Gate Pass, South Gate Outpost marks the frontier between the snowy slopes of Dun Morogh and the verdant basin of Loch Modan. Stationed here are Ironforge mountaineers tasked with patrolling the rocky switchbacks and keeping dangerous wildlife off the main highway. Compared to their hard-pressed kin up at North Gate Outpost, the defenders here have largely secured their stretch of road, allowing travelers, pilgrims, and trade wagons headed toward Thelsamar to journey in relative safety.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of South Gate Outpost?",
+   "aliases": [
+    "why is south gate outpost here",
+    "south gate outpost purpose",
+    "what is south gate outpost"
+   ],
+   "answer": "It serves as a fortified border checkpoint and garrison along South Gate Pass. Mountaineers stationed here keep the snowy transit road clear of mountain beasts and hostile interlopers traveling between Dun Morogh and Loch Modan."
+  },
+  {
+   "q": "Why is it so much calmer here than at North Gate Outpost?",
+   "aliases": [
+    "difference between north gate and south gate",
+    "is south gate safe",
+    "south gate vs north gate"
+   ],
+   "answer": "The garrison at South Gate Outpost has successfully culled the aggressive wildlife immediately bordering the road. North Gate Outpost, by contrast, contends with heavier incursions and wilder mountain terrain, leaving the southern pass comparatively calm."
+  },
+  {
+   "q": "Where does the road through South Gate Outpost lead?",
+   "aliases": [
+    "where does this road go",
+    "south gate road destination",
+    "south gate pass path"
+   ],
+   "answer": "Heading westward up the pass brings you into the snowy highlands of Dun Morogh toward Ironforge. Traveling eastward downhill leads directly out into the temperate valley of Loch Modan, with the road winding straight toward the settlement of Thelsamar."
+  },
+  {
+   "q": "Why does it look like Dun Morogh if it is in Loch Modan?",
+   "aliases": [
+    "why is there snow here",
+    "is south gate in dun morogh or loch modan",
+    "south gate weather"
+   ],
+   "answer": "The outpost sits high up in the mountain pass that divides the two regions. While geographically nestled right along the border, it retains the frosty snowpack and biting mountain chill characteristic of the Dun Morogh heights before dropping down into the warmer basin of the Loch."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves leaving Coldridge Valley and Dun Morogh for the first time, South Gate Outpost is the final chilly landmark before descending into the vibrant, sunlit lands of Loch Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The outpost serves as a dependable military shelter along one of Khaz Modan's primary domestic supply lines, keeping the passage between the capital and eastern settlements open."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "dwarf",
+  "ironforge road",
+  "loch modan",
+  "mountaineers",
+  "south gate outpost",
+  "south gate pass",
+  "thelsamar"
+ ],
+ "related": [
+  "subzone:south-gate-pass",
+  "zone:lochmodan",
+  "zone:dunmorogh",
+  "subzone:thelsamar",
+  "subzone:north-gate-outpost",
+  "subzone:the-loch"
+ ],
+ "attribution": [
+  "South Gate Outpost"
+ ]
+}

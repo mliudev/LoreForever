@@ -1,0 +1,119 @@
+{
+ "key": "quest:63",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   63
+  ],
+  "level": "23",
+  "faction": "Horde",
+  "start": "Islen Waterseer",
+  "end": "Brazier of Everfount",
+  "previous": "Call of Water (6)",
+  "next": "Call of Water (8)",
+  "wiki": "Call of Water (7)",
+  "chain": []
+ },
+ "summary": "This crucial rite of passage directs shamans from the Barrens across the Great Sea to the blighted shores of Silverpine Forest. In order to earn commune with the water spirits, an initiate must confront a corrupted elemental and cleanse an ancient coastal shrine tainted by the Scourge's plague.",
+ "sections": [
+  {
+   "title": "A Pilgrimage Across the Sea",
+   "body": "After securing drops of pure water under the guidance of the hermit Brine, the shaman returns to Islen Waterseer along the Barrens coast. Islen then tasks the initiate with a far more perilous duty: taking that purified essence across the sea to the haunted coast of Silverpine Forest, situated just west of the Forsaken refuge of the Sepulcher.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cleansing the Everfount",
+   "body": "The chosen sanctuary is the Brazier of Everfount, an ancient elemental focus whose waters have grown twisted and hostile under the ambient corruption of Lordaeron's plague. The residing water spirits have turned mute and feral. By defeating the corrupted manifestation bound there and offering both its bracers and the purest water to the brazier's flame, the shaman breaks the blight's grip and calls forth an untainted spirit of the tides.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does a shaman have to travel all the way to Silverpine Forest?",
+   "aliases": [
+    "why go to silverpine",
+    "why travel across sea",
+    "why silverpine water quest"
+   ],
+   "answer": "Islen Waterseer requires shamans to prove their mastery over corruption, not merely study peace. The coastal shrine west of the Sepulcher has fallen victim to Lordaeron's plague, giving an initiate the chance to heal an elemental sanctuary and reawaken water spirits that refuse to speak to anyone else."
+  },
+  {
+   "q": "What happens when you use the Brazier of Everfount?",
+   "aliases": [
+    "brazier of everfount event",
+    "what does the brazier do",
+    "how to cleanse the pool"
+   ],
+   "answer": "Placing the defeated elemental's bracers alongside the remaining drops of purest water onto the flame triggers a cleansing ritual taught by Islen. The crackling offering purges the local pool and summons a pure manifestation of water willing to grant its blessing."
+  },
+  {
+   "q": "Who is corrupting the water shrine in Silverpine?",
+   "aliases": [
+    "who corrupted the shrine",
+    "why is the manifestation corrupted",
+    "silverpine water corruption"
+   ],
+   "answer": "The water has been twisted by the ambient plague lingering throughout the fallen kingdom of Lordaeron. The corruption seeping down from the hills tainted the local spring and warped its native water spirits into feral, hostile abominations."
+  },
+  {
+   "q": "What do you receive after completing this trial?",
+   "aliases": [
+    "call of water reward",
+    "water totem unlock",
+    "what do i get"
+   ],
+   "answer": "Cleansing the Brazier of Everfount allows you to commune with a pure spirit of water. Taking proof of this cleansing back to Islen Waterseer in the Barrens will finally earn you your Water Totem and complete the long Call of Water trial."
+  },
+  {
+   "q": "Where exactly is the shrine located?",
+   "aliases": [
+    "brazier of everfount location",
+    "where is the shrine",
+    "silverpine shrine coords"
+   ],
+   "answer": "The shrine sits directly on the western coastline of Silverpine Forest, over the blighted ridge just west of the Sepulcher."
+  },
+  {
+   "q": "Who is Islen Waterseer?",
+   "aliases": [
+    "who is islen",
+    "islen waterseer background",
+    "barrens water trainer"
+   ],
+   "answer": "Islen Waterseer is an elemental hermit dwelling along the Merchant Coast of the Barrens, south of Ratchet. She acts as a revered spiritual guide who instructs young Horde shamans through the arduous rites needed to attune to the element of water."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This rite demonstrates that a shaman is not just a caller of storms, but a healer of broken lands tasked with purging spiritual blight."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Traveling into Silverpine Forest forces Kalimdor-born orcs and tauren to witness firsthand the grim, plague-ridden hardships faced by their Forsaken allies."
+  }
+ ],
+ "keywords": [
+  "brazier of everfount",
+  "brine",
+  "call of water",
+  "corrupt manifestation",
+  "islen waterseer",
+  "sepulcher",
+  "silverpine forest",
+  "water totem"
+ ],
+ "related": [
+  "npc:islen-waterseer",
+  "npc:brine",
+  "zone:silverpine",
+  "subzone:sepulcher",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Call of Water (7)"
+ ]
+}

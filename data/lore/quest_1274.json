@@ -1,0 +1,105 @@
+{
+ "key": "quest:1274",
+ "type": "quest",
+ "name": "The Missing Diplomat",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1274
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Thomas",
+  "end": "Bishop DeLavey",
+  "previous": null,
+  "next": "The Missing Diplomat (2)",
+  "wiki": "The Missing Diplomat",
+  "chain": []
+ },
+ "summary": "The Missing Diplomat is the introductory step in one of Stormwind's most critical and sensitive investigations. Brought to your attention discreetly on the city streets, the matter leads directly to Bishop DeLavey in Stormwind Keep. The Church and the crown require capable hands for an issue too perilous to trust to public channels.",
+ "sections": [
+  {
+   "title": "A Quiet Summons",
+   "body": "While traveling through Stormwind, an unassuming courier named Thomas approaches trustworthy adventurers with a quiet request. Bishop DeLavey, a respected figure within the Church of the Holy Light stationed at Stormwind Keep, needs an outsider's assistance. The matter is described strictly as delicate and urgent, requiring complete discretion to avoid inciting panic among the populace.",
+   "spoiler": 0
+  },
+  {
+   "title": "Whispers in the Keep",
+   "body": "Upon answering the summons within Stormwind Keep, Bishop DeLavey reveals the reason for such secrecy. A high-ranking dignitary from the kingdom has vanished under mysterious circumstances. In an era marked by brewing domestic unrest and the mysterious absence of King Varian Wrynn, any hint of high-level foul play threatens to destabilize the realm's fragile peace.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thomas?",
+   "aliases": [
+    "who is thomas",
+    "thomas stormwind",
+    "thomas quest giver"
+   ],
+   "answer": "Thomas is an errand runner in Stormwind employed by Bishop DeLavey. He keeps a watchful eye out for competent adventurers on the city streets, quietly directing them to Stormwind Keep whenever delicate Church or state affairs require capable intermediaries."
+  },
+  {
+   "q": "Who is Bishop DeLavey?",
+   "aliases": [
+    "who is bishop delavey",
+    "delavey",
+    "bishop delavey"
+   ],
+   "answer": "Bishop DeLavey is a senior cleric of the Church of the Holy Light stationed within Stormwind Keep. Working alongside the royal court, he handles discreet Kingdom security concerns and sensitive investigations that regular city guards cannot openly pursue."
+  },
+  {
+   "q": "Why is this matter handled in secret?",
+   "aliases": [
+    "why discreet",
+    "why secrecy",
+    "why secret"
+   ],
+   "answer": "Stormwind is already on edge with King Varian Wrynn missing and the Defias Brotherhood stirring rebellion across Westfall. If news spreads that another prominent diplomat or official has vanished, it could provoke widespread panic or expose court vulnerabilities to enemies."
+  },
+  {
+   "q": "Where does this investigation lead?",
+   "aliases": [
+    "where does missing diplomat go",
+    "missing diplomat next"
+   ],
+   "answer": "Meeting Bishop DeLavey in Stormwind Keep kicks off an extensive investigation that takes you deep into the heart of Kingdom politics, sprawling through the streets of Stormwind, outward into the surrounding human territories, and beyond into treacherous lands across the sea."
+  },
+  {
+   "q": "Who is the missing diplomat?",
+   "aliases": [
+    "who is the diplomat",
+    "identity of missing diplomat"
+   ],
+   "answer": "At the start of the inquiry, the exact identity of the diplomat is closely guarded by Bishop DeLavey. Public disclosure would threaten ongoing investigations and jeopardize the safety of both the missing official and the kingdom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Unraveling the mystery of the missing diplomat is vital for the integrity and defense of the Alliance, exposing deep threats rooted within Stormwind's own court."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this assignment touches upon the very stability of your homeland during a fragile regency."
+  }
+ ],
+ "keywords": [
+  "bishop delavey",
+  "diplomat",
+  "investigation",
+  "stormwind keep",
+  "the missing diplomat",
+  "thomas"
+ ],
+ "related": [
+  "quest:1241",
+  "subzone:stormwind-keep",
+  "npc:bishop-delavey",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "The Missing Diplomat"
+ ]
+}

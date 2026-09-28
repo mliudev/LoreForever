@@ -1,0 +1,94 @@
+{
+ "key": "subzone:sanctum-of-light",
+ "type": "subzone",
+ "name": "Sanctum of Light",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Sanctum of Light"
+ },
+ "summary": "The Sanctum of Light is a secret underground catacomb beneath Light's Hope Chapel in the Eastern Plaguelands. Created during the Third War, it holds the relocated remains of a thousand fallen champions of Lordaeron to protect them from Scourge necromancy.",
+ "sections": [
+  {
+   "title": "A Hidden Resting Place",
+   "body": "During the fall of Lordaeron in the Third War, Lord Maxwell Tyrosus and a devoted few undertook a covert mission to prevent the Scourge from raising the realm's greatest defenders into unholy servitude. Exhuming the bodies of a thousand noble paladins, priests, and warriors across Lordaeron\u2014including renowned heroes such as Killoren\u2014they brought them deep into the eastern frontier and reinterred them in hallowed catacombs beneath Light's Hope Chapel. Shielded by potent blessings of the Light, this hidden crypt protects the righteous dead from the defiling grasp of the Lich King.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Foundation of Light's Hope",
+   "body": "The presence of these honored remains explains why the Argent Dawn chose Light's Hope Chapel as their primary stronghold in the Eastern Plaguelands. After splitting away from the zealots who would form the Scarlet Crusade, Tyrosus and his comrades established their vanguard directly above the Sanctum to ensure the catacombs would never fall into enemy hands. The concentrated sanctity of a thousand uncorrupted heroes permeates the earth, transforming the chapel above into an enduring bastion of holy power amid a sea of undeath.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sanctum of Light?",
+   "aliases": [
+    "what is sanctum of light",
+    "underneath lights hope",
+    "lights hope catacombs"
+   ],
+   "answer": "It is a consecrated catacomb buried directly beneath Light's Hope Chapel. It houses the remains of a thousand heroes of Lordaeron, placed there to safeguard their corpses and souls from being raised by the Scourge."
+  },
+  {
+   "q": "Who created the Sanctum?",
+   "aliases": [
+    "who built the sanctum of light",
+    "who put bodies under lights hope",
+    "maxwell tyrosus catacombs"
+   ],
+   "answer": "Lord Maxwell Tyrosus and a select group of righteous allies exhumed the bodies from churchyards across fallen Lordaeron during the Third War and laid them to rest here in secret."
+  },
+  {
+   "q": "Why are the bodies buried here instead of their original graves?",
+   "aliases": [
+    "why exhumed",
+    "why moved to lights hope",
+    "scourge raising heroes"
+   ],
+   "answer": "The Lich King's necromancers actively sought the remains of mighty champions to bolster the Scourge's ranks. Tyrosus gathered and reinterred them under powerful holy protections so their martial and spiritual might could never be used against the living."
+  },
+  {
+   "q": "Can players enter the Sanctum of Light?",
+   "aliases": [
+    "how to get in",
+    "can i go inside",
+    "sanctum entrance"
+   ],
+   "answer": "No. The catacombs beneath the chapel are sealed and guarded in secret by the Argent Dawn, hidden from view to ensure the sacred dead remain undisturbed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The catacombs enshrine the uncorrupted remains of the Order of the Silver Hand's early heroes, preserved by Lord Maxwell Tyrosus to protect their legacy from the Scourge."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The concentrated faith and sanctity of a thousand holy souls buried beneath the chapel give Light's Hope its remarkable aura of purity amidst the surrounding plague."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "catacombs",
+  "eastern plaguelands",
+  "killoren",
+  "light's hope chapel",
+  "lord maxwell tyrosus",
+  "lordaeron",
+  "sanctum of light"
+ ],
+ "related": [
+  "subzone:light-s-hope-chapel",
+  "zone:easternplaguelands",
+  "npc:lord-maxwell-tyrosus",
+  "topic:argent-dawn",
+  "topic:knights-of-the-silver-hand",
+  "topic:scourge",
+  "topic:lordaeron",
+  "topic:third-war"
+ ],
+ "attribution": [
+  "Sanctum of Light"
+ ]
+}

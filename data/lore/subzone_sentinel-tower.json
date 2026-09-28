@@ -1,0 +1,88 @@
+{
+ "key": "subzone:sentinel-tower",
+ "type": "subzone",
+ "name": "Sentinel Tower",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Sentinel Tower"
+ },
+ "summary": "Sentinel Tower crowns the apex of Sentinel Hill, standing as the primary vantage point and headquarters for defenders in Westfall. From its heights, Gryan Stoutmantle and the People's Militia organize their desperate defense against bandits, gnolls, and the growing shadow of the Defias Brotherhood.",
+ "sections": [
+  {
+   "title": "Watch over the Wild West",
+   "body": "Erected upon the crest of Sentinel Hill, Sentinel Tower is the military heart of unsettled Westfall. With Stormwind's official army largely absent and withholding aid, local volunteers and veterans banded together to create a central redoubt. The stone tower grants lookouts an unbroken view across the dusty plains, from the abandoned pumpkin patches to the misty shores, giving early warning when rogue highwaymen or gnoll raiding parties begin to prowl.",
+   "spoiler": 0
+  },
+  {
+   "title": "Headquarters of the Militia",
+   "body": "The tower serves as the command post for Gryan Stoutmantle and the core of the local leadership. Surrounded by makeshift defenses, wounded refugees, and weary soldiers, it operates as both an administrative hub and an emergency shelter for homesteaders driven from their lands. Here, intelligence on the Defias Brotherhood is pieced together, coordinating volunteers into cohesive strikes against the syndicate that has choked the province into ruin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is in charge at Sentinel Tower?",
+   "aliases": [
+    "sentinel tower leader",
+    "who leads sentinel tower",
+    "who runs the tower"
+   ],
+   "answer": "Gryan Stoutmantle directs operations from the tower. As head of the People's Militia, he coordinates the defense of Westfall's displaced farmers and manages the recruitment of willing adventurers."
+  },
+  {
+   "q": "Why is the tower so important to Westfall?",
+   "aliases": [
+    "why sentinel tower matters",
+    "purpose of sentinel tower"
+   ],
+   "answer": "It is the only fortified garrison and lookout post left in the central plains. Because Stormwind has left Westfall largely undefended, the tower serves as the last organized bastion of order and safety for refugees in the region."
+  },
+  {
+   "q": "Who stays in and around the tower?",
+   "aliases": [
+    "who is at sentinel tower",
+    "sentinel tower occupants"
+   ],
+   "answer": "You will find militia officers, sentinels keeping watch, quartermasters, and fleeing farmsteader families who have abandoned their ruined lands to seek shelter near its sturdy stone walls."
+  },
+  {
+   "q": "What threats are watched from the tower?",
+   "aliases": [
+    "sentinel tower enemies",
+    "what does the tower guard against"
+   ],
+   "answer": "Sentinels monitor the movements of the Riverpaw gnolls, stray murlocs crawling inland from the coast, and above all, roaming highwaymen and brigands belonging to the Defias Brotherhood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Sentinel Tower represents the grit of ordinary Alliance subjects fighting for their homeland when the high lords in Stormwind have turned a blind eye."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of the kingdom, the tower is a painful reminder that the agrarian breadbasket of Stormwind is barely holding together against homegrown rebellion."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "gryan stoutmantle",
+  "peoples militia",
+  "sentinel hill",
+  "sentinel tower",
+  "watchtower",
+  "westfall"
+ ],
+ "related": [
+  "subzone:sentinel-hill",
+  "npc:gryan-stoutmantle",
+  "zone:westfall",
+  "topic:defias-brotherhood",
+  "quest:65",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Sentinel Tower"
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "key": "quest:1530",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1530
+  ],
+  "level": "22",
+  "faction": "Horde",
+  "start": "Islen Waterseer",
+  "end": "Brine",
+  "previous": "Call of Water (Thunder Bluff)",
+  "next": "Call of Water (3)",
+  "wiki": "Call of Water (2)",
+  "chain": []
+ },
+ "summary": "This leg of the Call of Water journey directs aspiring Horde shaman into the hostile southern reaches of the Barrens. Sent by Islen Waterseer, travelers must locate a hermit named Brine to further their understanding of water's purifying and restorative nature.",
+ "sections": [
+  {
+   "title": "Lessons of the Tide",
+   "body": "Before granting access to the water sapta, Islen Waterseer impresses a fundamental truth upon the initiate: water signifies rebirth. Its current can carve rock, cleanse impurities, and mend flesh, yet its healing power relies entirely on its purity. Polluted water brings blight rather than life, a fragile balance every shaman must internalize before attempting to commune with the element.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Recluse in the Dust",
+   "body": "To proceed, initiates must travel far south into the arid Barrens to find Brine. Choosing to dwell in isolation amidst relentless quilboar raids, Brine lives without guard or fear, holding the specific knowledge and trials required to forge an initiate's bond with water.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Islen Waterseer?",
+   "aliases": [
+    "islen",
+    "waterseer",
+    "who sends this quest"
+   ],
+   "answer": "Islen Waterseer is a shaman master perched along the coast of the Barrens, south of the Merchant Coast. She guides Horde shaman through the trials necessary to commune with the spirits of water."
+  },
+  {
+   "q": "Why live in the southern Barrens surrounded by quilboar?",
+   "aliases": [
+    "why does brine live there",
+    "brine quilboar",
+    "brine location"
+   ],
+   "answer": "Brine lives alone in the southern wastes despite constant quilboar harassment. While she acknowledges the danger seems foolish to outsiders, she keeps her motives to herself, testing whether initiates have the fortitude to track her down."
+  },
+  {
+   "q": "What is the purpose of the water sapta?",
+   "aliases": [
+    "sapta",
+    "water sapta use",
+    "why get water sapta"
+   ],
+   "answer": "A sapta is a ceremonial mixture that alters a shaman's perception, allowing them to see and communicate with elemental spirits that are otherwise invisible to mortal eyes."
+  },
+  {
+   "q": "What core lesson does water represent to a shaman?",
+   "aliases": [
+    "lesson of water",
+    "elemental meaning water",
+    "water rebirth"
+   ],
+   "answer": "Water embodies rebirth, cleansing, and rejuvenation. It possesses unmatched healing potential, but when tainted or stagnant, it can cause devastating decay and devastation."
+  },
+  {
+   "q": "Who can undertake this journey?",
+   "aliases": [
+    "who gets call of water",
+    "is call of water horde only"
+   ],
+   "answer": "Only Horde shaman who have proven their dedication and already attuned to the spirits of earth and fire are directed to complete the Call of Water trials."
+  },
+  {
+   "q": "What threats lie on the path to Brine?",
+   "aliases": [
+    "dangers southern barrens",
+    "path to brine"
+   ],
+   "answer": "The southern Barrens is perilous, plagued by aggressive quilboar tribes defending their thorned dens, as well as roaming beasts that prey upon unwary wanderers far from the safety of Crossroads or Camp Taurajo."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Communing with water marks a crucial milestone in a shaman's development, bridging martial earth and volatile fire with the restorative powers of healing."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde initiates travel across the vast expanse of Kalimdor to master the elements, showing reverence for the spirits that grant the Warchief's shamans their vital magic."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brine",
+  "call of water",
+  "islen waterseer",
+  "quilboar",
+  "rebirth",
+  "shaman",
+  "water sapta"
+ ],
+ "related": [
+  "npc:islen-waterseer",
+  "npc:brine",
+  "quest:972",
+  "zone:barrens",
+  "topic:quilboar"
+ ],
+ "attribution": [
+  "Call of Water (2)"
+ ]
+}

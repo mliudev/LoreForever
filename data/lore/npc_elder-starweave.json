@@ -1,0 +1,84 @@
+{
+ "key": "npc:elder-starweave",
+ "type": "npc",
+ "name": "Elder Starweave",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Elder Starweave",
+  "refs": 1
+ },
+ "summary": "Elder Starweave is an ancestral night elf spirit honored during the Lunar Festival. Found resting at the port town of Auberdine along the misty coast of Darkshore, she shares the wisdom of ancient ages with passing pilgrims.",
+ "sections": [
+  {
+   "title": "A Beacon in Auberdine",
+   "body": "Appearing as an ethereal shade among the coastal dwellings of Auberdine, Elder Starweave is one of the revered ancestors honored by the Cenarion Circle and the peoples of Kalimdor. While many travelers rush through the port on their way inland or across the sea, those who pause before her receive an ancestral blessing. Starweave speaks of celestial movements, observing that the stars of the modern era trace unfamiliar paths that serve as beacons of hope and fortitude for future generations.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elder Starweave?",
+   "aliases": [
+    "elder starweave lore",
+    "who is starweave",
+    "starweave the elder"
+   ],
+   "answer": "Elder Starweave is a night elf ancestral spirit who appears in Auberdine during the Lunar Festival to offer greetings, ancient wisdom, and Coins of Ancestry to travelers."
+  },
+  {
+   "q": "Where can Elder Starweave be found?",
+   "aliases": [
+    "where is elder starweave",
+    "elder starweave location",
+    "starweave spot"
+   ],
+   "answer": "She can be found lingering near the settlement of Auberdine along the shoreline of Darkshore."
+  },
+  {
+   "q": "Why does she appear as a spirit?",
+   "aliases": [
+    "why is starweave a ghost",
+    "is starweave dead",
+    "why ghost"
+   ],
+   "answer": "She is an honored ancestor brought forth during the Lunar Festival, appearing in spiritual form so the living may pay respects to those who shaped the night elves' distant past."
+  },
+  {
+   "q": "Can Horde players speak to her?",
+   "aliases": [
+    "can horde visit starweave",
+    "horde elder starweave"
+   ],
+   "answer": "Yes. Ancestral elders honored during the Lunar Festival welcome travelers of all affiliations, though Horde adventurers must navigate the Alliance-friendly port of Auberdine with caution."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Meeting Elder Starweave in Darkshore connects kaldorei adventurers directly to their long lineage of forebears who looked to Elune and the stars through ancient cataclysms."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids observing the festival find Starweave's celestial reflections aligned with the Cenarion teachings of renewal, memory, and harmony with the natural world."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "auberdine",
+  "coin of ancestry",
+  "darkshore",
+  "elder starweave",
+  "lunar festival",
+  "starweave"
+ ],
+ "related": [
+  "zone:darkshore",
+  "subzone:auberdine",
+  "topic:night-elf",
+  "quest:8721"
+ ],
+ "attribution": [
+  "Elder Starweave"
+ ]
+}

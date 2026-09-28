@@ -1,0 +1,124 @@
+{
+ "key": "npc:baron-revilgaz",
+ "type": "npc",
+ "name": "Baron Revilgaz",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Baron Revilgaz",
+  "refs": 4
+ },
+ "summary": "Baron Revilgaz is the cunning goblin leader of Booty Bay and the Blackwater Raiders, ruling the pirate haven on behalf of the Steamwheedle Cartel. Perched high on the balcony of the Salty Sailor Tavern, he balances fragile trade neutrality with ruthlessly pragmatic opportunism. He hires passing mercenaries to secure his investments, undermine rivals like the Bloodsail Buccaneers, and retrieve ancient relics of the jungle.",
+ "sections": [
+  {
+   "title": "Master of Booty Bay",
+   "body": "From his vantage atop the Salty Sailor Tavern, Baron Revilgaz watches the bustling docks of Blackwater Cove through a custom enchanted spyglass. Flanked by his trusted advisor, the tauren Fleet Master Seahorn, Revilgaz exercises firm control over the town's cutpurses, merchants, and privateers. Originally a human settlement overwhelmed by trolls before the First War, the port was claimed and fortified by goblins, eventually evolving into the pirate-leaning commercial nexus of the Blackwater Raiders. Revilgaz ensures the port remains officially open to both Alliance and Horde travelers, strictly enforcing neutrality within harbor limits so that trade continues uninterrupted.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Web of Ambition",
+   "body": "Revilgaz's influence extends far past the harbor docks. When business stagnated following recent wars elsewhere in Azeroth, he seized upon the discovery of tastyfish to establish the Stranglethorn Fishing Extravaganza, drawing crowds back to his shores. Across Stranglethorn Vale, he keeps a sharp eye on competitors and potential threats: he commissions sabotage against the Venture Company at Lake Nazferiti, closely monitors Nesingwary's hunting expedition and rogue human military camps in the north, and maintains racing trade ties with Monte Gazlowe and Pozzik at the Mirage Raceway.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Stone of the Tides",
+   "body": "Behind Revilgaz's mercantile front lies an obsession with ancient power and wealth. Investigating rumors of a haunted atoll off the coast known as the Vile Reef, Revilgaz dispatches adventurers to uncover the legendary Stone of the Tides. The search requires consulting ancient tomes in the Stormwind Library, studying elemental residues with Archmage Ansirem Runeweaver, and recovering an ancient troll dagger from the Bloodsail Buccaneers to shatter the coastal altar shielding the stone. In doing so, Revilgaz breaks a deadly elemental curse to secure the priceless relic for his own vaults.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Baron Revilgaz?",
+   "aliases": [
+    "who is revilgaz",
+    "revilgaz backstory",
+    "booty bay boss",
+    "leader of booty bay"
+   ],
+   "answer": "Baron Revilgaz is the ruler of Booty Bay and the leader of the Blackwater Raiders. Operating on behalf of the neutral Steamwheedle Cartel, he governs the pirate haven with a mix of ruthless greed and diplomatic pragmatism."
+  },
+  {
+   "q": "Where can Baron Revilgaz be found?",
+   "aliases": [
+    "where is revilgaz",
+    "revilgaz location",
+    "how to find revilgaz"
+   ],
+   "answer": "He stands on the top balcony of the Salty Sailor Tavern in Booty Bay, overlooking the cove alongside his first mate, Fleet Master Seahorn."
+  },
+  {
+   "q": "What is Revilgaz's relationship with the Bloodsail Buccaneers?",
+   "aliases": [
+    "revilgaz bloodsail",
+    "bloodsail vs revilgaz",
+    "why hate bloodsail"
+   ],
+   "answer": "They are bitter enemies. The Bloodsail Buccaneers operate outside the rules of the Steamwheedle Cartel and actively raid Booty Bay shipping. In fact, Bloodsail leadership regularly plots assassinations against Revilgaz and Seahorn."
+  },
+  {
+   "q": "What is Revilgaz's stake in the Mirage Raceway?",
+   "aliases": [
+    "revilgaz racing",
+    "revilgaz shimmer flats",
+    "revilgaz pozik"
+   ],
+   "answer": "Revilgaz sponsors the goblin racing team led by Pozzik against the gnomes in the Shimmering Flats. He uses adventurers to steal proprietary fuel regulator blueprints from the Venture Company at Lake Nazferiti and delivers them to the raceway."
+  },
+  {
+   "q": "What is the Stranglethorn Fishing Extravaganza?",
+   "aliases": [
+    "fishing tournament lore",
+    "who started the fishing contest",
+    "tastyfish revilgaz"
+   ],
+   "answer": "When trade dipped due to regional wars elsewhere in Azeroth, Revilgaz backed an angler named Riggle Bassbait after sampling the local 'tastyfish.' Revilgaz turned the catch into a weekly competitive tournament along the Stranglethorn coast to revitalize Booty Bay's economy."
+  },
+  {
+   "q": "What is the Stone of the Tides?",
+   "aliases": [
+    "stone of the tides quest",
+    "vile reef stone",
+    "altar of the tides"
+   ],
+   "answer": "It is an ancient, cursed magical stone hidden at the Vile Reef. Revilgaz unearths its legend through Stormwind records and employs Dalaran scholar Archmage Ansirem Runeweaver to help adventurers dismantle its elemental wards and claim the relic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Revilgaz respects thieves, spies, and opportunists. He frequently hires rogues for high-stakes theft, sabotage against rival cartels, and covert retrieval of rare jungle artifacts."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Booty Bay rests on the ruins of the pre-First War Stormwind enclave of Blackwater Cove, and Revilgaz routinely coordinates with human scholars and librarians in Stormwind when ancient lore translates to profit."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Revilgaz stays involved in goblin engineering rivalries, leveraging underhanded tactics to secure advanced blueprints and fuel regulators from the Venture Company."
+  }
+ ],
+ "keywords": [
+  "blackwater raiders",
+  "bloodsail buccaneers",
+  "booty bay",
+  "lake nazferiti",
+  "revilgaz",
+  "salty sailor tavern",
+  "seahorn",
+  "steamwheedle cartel",
+  "stone of the tides"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "npc:fleet-master-seahorn",
+  "zone:stranglethorn",
+  "subzone:salty-sailor-tavern",
+  "subzone:vile-reef",
+  "npc:archmage-ansirem-runeweaver",
+  "npc:monte-gazlowe",
+  "quest:764"
+ ],
+ "attribution": [
+  "Baron Revilgaz"
+ ]
+}

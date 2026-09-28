@@ -1,0 +1,125 @@
+{
+ "key": "quest:776",
+ "type": "quest",
+ "name": "Rites of the Earthmother",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   776
+  ],
+  "level": "14",
+  "faction": "Horde",
+  "start": "Cairne Bloodhoof",
+  "end": "",
+  "previous": "Journey into Thunder Bluff (Classic)",
+  "next": null,
+  "wiki": "Rites of the Earthmother (3)",
+  "chain": []
+ },
+ "summary": "This trial, set directly by High Chieftain Cairne Bloodhoof, tasks rising heroes with hunting down the great kodo beast Arra'chea across the plains of Mulgore. Though an initiate may have completed the traditional rites of passage, Cairne expects his people to continually reaffirm their strength, tracking, and devotion to the tribe. Returning with Arra'chea's horn proves an adventurer is ready to serve the wider Horde beyond the mesas.",
+ "sections": [
+  {
+   "title": "A Chieftain's Measure",
+   "body": "Reaching Thunder Bluff marks the end of simple youth for a tauren, but High Chieftain Cairne Bloodhoof does not let young hunters rest on their laurels. To Cairne, earning a place among the high bluffs is merely the beginning of one's responsibility to the United Tauren Tribes. Rather than sending initiates against petty pests, he demands proof of real fieldcraft: the tracking and clean harvest of one of Mulgore's most renowned wandering beasts.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hunt for Arra'chea",
+   "body": "The quarry is Arra'chea, a massive, legendary kodo whose looping trek winds across the golden grasses northeast of Thunder Bluff. To fell such a creature takes more than brute force; it demands patient stalking across the open savannah and respect for a titan of the plains. Bringing Arra'chea's horn back to the high rise earns not just personal glory, but provisions for the city, as Cairne immediately dispatches skinners and gatherers to ensure nothing of the sacred beast goes to waste.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who gives rites of the earthmother",
+    "cairne quest"
+   ],
+   "answer": "High Chieftain Cairne Bloodhoof himself assigns this task from his seat atop the high rise of Thunder Bluff."
+  },
+  {
+   "q": "What is Arra'chea?",
+   "aliases": [
+    "who is arrachea",
+    "what is arrachea",
+    "arrachea lore"
+   ],
+   "answer": "Arra'chea is a formidable, renowned kodo who wanders the plains of Mulgore. His great horn serves as proof of a hunter's tracking capability and martial prowess."
+  },
+  {
+   "q": "Where can I find Arra'chea?",
+   "aliases": [
+    "where is arrachea",
+    "arrachea location",
+    "arrachea path"
+   ],
+   "answer": "Arra'chea typically roams in a broad circular path northeast of the bluffs of Thunder Bluff, slowly circling the open rolling plains in a clockwise route."
+  },
+  {
+   "q": "Why does Cairne ask for this hunt after I already completed the earlier rites?",
+   "aliases": [
+    "why do this quest",
+    "why kill arrachea",
+    "point of rites"
+   ],
+   "answer": "In tauren culture, earning one's initial place is not the end of duty. Cairne teaches that strength, humility, and hunting skill must be continually demonstrated to sustain the tribe."
+  },
+  {
+   "q": "What happens to Arra'chea's body after the horn is taken?",
+   "aliases": [
+    "arrachea meat",
+    "what happens to the kodo",
+    "carcass lore"
+   ],
+   "answer": "In keeping with tauren traditions of honoring their prey, Cairne sends a gathering party to retrieve the fallen beast's meat and hide so that the kill feeds and clothes Thunder Bluff."
+  },
+  {
+   "q": "Is this the same quest as the early starter rites?",
+   "aliases": [
+    "rites of the earthmother differences",
+    "which rites quest",
+    "camp narache rites"
+   ],
+   "answer": "No. While the early trials in Camp Narache teach an initiate the foundational Rites of the Earthmother, this culminating trial in Thunder Bluff is Cairne's personal test of your ongoing worth as a hunter."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Standing before Cairne Bloodhoof to claim the horn of Arra'chea is the ultimate rite of passage for a young shu'halo, proving that your prowess honors both your ancestors and the herds of Mulgore."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Stalking a solitary, wandering behemoth like Arra'chea across the golden plains embodies the ancient hunting philosophies that tauren trackmasters pass down through generations."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Felling Arra'chea provides essential sustenance, leather, and materials for Thunder Bluff, demonstrating the collective survival mindset that sustains the nascent Horde."
+  }
+ ],
+ "keywords": [
+  "arra'chea",
+  "arrachea",
+  "bloodhoof",
+  "cairne",
+  "earthmother",
+  "horn",
+  "hunt",
+  "kodo",
+  "mulgore",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:cairne-bloodhoof",
+  "zone:thunderbluff",
+  "zone:mulgore",
+  "quest:763",
+  "quest:421"
+ ],
+ "attribution": [
+  "Rites of the Earthmother (3)"
+ ]
+}

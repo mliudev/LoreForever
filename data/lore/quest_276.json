@@ -1,0 +1,110 @@
+{
+ "key": "quest:276",
+ "type": "quest",
+ "name": "Tramping Paws",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   276
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "Rethiel the Greenwarden",
+  "end": "",
+  "previous": "The Greenwarden",
+  "next": "Fire Taboo",
+  "wiki": "Tramping Paws",
+  "chain": []
+ },
+ "summary": "Tramping Paws is an Alliance task given by Rethiel the Greenwarden at the Greenwarden's Grove in the Wetlands. Troubled by the surging Mosshide gnoll population near the Gate of Algaz, the dryad protector tasks adventurers with culling their numbers before their fires and trampling paws ruin the bog.",
+ "sections": [
+  {
+   "title": "A Swelling Fen Menace",
+   "body": "For many years, the Mosshide gnolls inhabited the Wetlands without utterly overwhelming its natural order. Lately, however, their pack numbers have exploded south toward the pass of Dun Algaz. Their heavy boots and pawprints trample rare fen flora, and their crude logging strips vital groves to feed their campsite blazes. Left unchecked, the burgeoning packs threaten to degrade the fragile marsh ecology.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Dryad's Judgment",
+   "body": "Rethiel the Greenwarden watches over the marsh with an eye for balance rather than civilization. To the dryad, the issue is not that gnolls exist, but that their runaway population outstrips what the Wetlands can support. By driving Mosshide gnolls and mongrels back into manageable numbers, adventurers help preserve the wetlands and earn the reluctant approval of an ancient wilderness guardian.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rethiel the Greenwarden?",
+   "aliases": [
+    "rethiel lore",
+    "who gives tramping paws",
+    "greenwarden wetlands"
+   ],
+   "answer": "Rethiel is a dryad dwelling in the Wetlands along the road between Ironforge's borders and Arathi. Dedicated to preserving the marsh, she monitors the land's health and tasks travelers with keeping destructive populations in check."
+  },
+  {
+   "q": "Why are the Mosshide gnolls a problem now?",
+   "aliases": [
+    "why kill gnolls wetlands",
+    "mosshide gnoll threat"
+   ],
+   "answer": "While the Mosshide pack once coexisted with the marsh without causing long-term harm, their recent population boom has led to heavy deforestation for firewood and widespread trampling of fragile marsh flora."
+  },
+  {
+   "q": "Where are the gnolls causing this damage?",
+   "aliases": [
+    "where are mosshide gnolls",
+    "tramping paws location"
+   ],
+   "answer": "The Mosshide gnolls and mongrels gather in large numbers to the south of the Wetlands, clustered particularly near the dwarven pass of Dun Algaz."
+  },
+  {
+   "q": "What comes after culling the gnolls?",
+   "aliases": [
+    "next quest after tramping paws",
+    "tramping paws follow up"
+   ],
+   "answer": "Once the packs are thinned, Rethiel looks deeper into the source of their unusual activity and fuel consumption, sending adventurers on the follow-up quest 'Fire Taboo'."
+  },
+  {
+   "q": "Why does Rethiel mention having her faith tested?",
+   "aliases": [
+    "rethiel dialogue",
+    "faith taxed in the past"
+   ],
+   "answer": "As a daughter of Cenarius, Rethiel views mortals and their rapid expansion with wariness. Helping her protect the wild fen proves that mortal adventurers can act as stewards of nature rather than exploiters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Rethiel's mission directly mirrors the Cenarion mandate to maintain ecological equilibrium, culling unnatural population spikes to ensure the marsh does not collapse."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elves share ancestral bonds with the dryads and Cenarion kin, making Rethiel's plea to heal the marsh a familiar and honored duty."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "With the gnolls swarming directly outside the Gate of Algaz, culling them not only preserves the fen but also secures the vital road linking Ironforge to Menethil Harbor."
+  }
+ ],
+ "keywords": [
+  "algaz",
+  "gnolls",
+  "greenwarden",
+  "mongrels",
+  "mosshide",
+  "rethiel",
+  "tramping paws",
+  "wetlands"
+ ],
+ "related": [
+  "npc:rethiel-the-greenwarden",
+  "quest:463",
+  "quest:277",
+  "zone:wetlands",
+  "topic:gnoll"
+ ],
+ "attribution": [
+  "Tramping Paws"
+ ]
+}

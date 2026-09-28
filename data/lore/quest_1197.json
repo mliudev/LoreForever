@@ -1,0 +1,123 @@
+{
+ "key": "quest:1197",
+ "type": "quest",
+ "name": "The Sacred Flame",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1197
+  ],
+  "level": "29",
+  "faction": "horde",
+  "start": "Rau Cliffrunner",
+  "end": "Rau Cliffrunner",
+  "previous": "The Sacred Flame (2)",
+  "next": null,
+  "wiki": "The Sacred Flame (3)",
+  "chain": [
+   "The Sacred Flame (quest)",
+   "The Sacred Flame (2)",
+   "The Sacred Flame (3)"
+  ]
+ },
+ "summary": "The Sacred Flame is the final task in Rau Cliffrunner's investigation into the Galak centaur of Thousand Needles. Armed with blessed waters, a Horde adventurer must penetrate Splithoof Hold, extinguish the tribe's revered brazier, and claim the ancient Cloven Hoof relic.",
+ "sections": [
+  {
+   "title": "Striking the Hearth",
+   "body": "North of Freewind Post lies Splithoof Crag, the heart of the Galak centaur domain in Thousand Needles. Deep within its cavernous den, Splithoof Hold, burns a fire that the centaur hold sacred. After preparing an etched phial filled with purified water, Rau Cliffrunner tasks his allies with penetrating the subterranean stronghold, using the water to momentarily quench the flame, and snatching the prize guarded within: a relic known as the Cloven Hoof.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets of the Hoof",
+   "body": "The Cloven Hoof is not merely an ornament of war; it radiates a strange, potent energy that catches Rau Cliffrunner's mystical senses the moment it is brought before him. Tauren scholars have long fought the marauding centaur tribes across Kalimdor, but relics such as this hint at deeper, poorly understood forces that fuel their zeal and tribal unity.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the sacred flame located?",
+   "aliases": [
+    "splithoof hold location",
+    "where is sacred flame",
+    "flame cave thousand needles"
+   ],
+   "answer": "The flame burns at the deepest end of Splithoof Hold, a cavern situated inside the centaur camp at Splithoof Crag, directly north of Freewind Post in Thousand Needles."
+  },
+  {
+   "q": "Who asks you to douse the flame?",
+   "aliases": [
+    "quest giver sacred flame",
+    "rau cliffrunner location",
+    "who gives the quest"
+   ],
+   "answer": "Rau Cliffrunner, an elder stationed high atop Freewind Post, commissions the mission as the culmination of his research into the Galak centaur."
+  },
+  {
+   "q": "How do you put out the flame?",
+   "aliases": [
+    "how to get cloven hoof",
+    "dousing flame item",
+    "quench sacred flame"
+   ],
+   "answer": "You must use the Filled Etched Phial provided by Rau Cliffrunner, which contains water gathered earlier in the quest chain, to temporarily douse the brazier."
+  },
+  {
+   "q": "What is the Cloven Hoof?",
+   "aliases": [
+    "cloven hoof lore",
+    "centaur relic",
+    "what did we steal"
+   ],
+   "answer": "The Cloven Hoof is a venerated tribal relic kept inside the flame by the Galak centaur. Rau Cliffrunner detects an unusual magical energy emanating from it, hoping it will yield secrets about centaur culture and power."
+  },
+  {
+   "q": "Why do the tauren want this relic?",
+   "aliases": [
+    "why steal cloven hoof",
+    "tauren centaur war"
+   ],
+   "answer": "Centaur tribes have driven tauren from their ancestral hunting grounds for generations. By seizing a sacred heirloom, the tauren disrupt Galak operations while seeking to understand the arcane or spiritual nature behind their enemies' savagery."
+  },
+  {
+   "q": "Which centaur clan guards Splithoof Hold?",
+   "aliases": [
+    "thousand needles centaur tribe",
+    "galak centaur"
+   ],
+   "answer": "Splithoof Crag and its cavern hold are controlled by the Galak tribe, the predominant centaur clan inhabiting the Thousand Needles canyon floor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, striking into the heart of a centaur den and claiming their sacred icon is both retribution for generations of raids and an invaluable scholarly prize for Freewind Post."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shaman who handle the Cloven Hoof will easily detect the strange energies radiating from the talisman, proving the centaur draw on mystical forces far beyond simple brute savagery."
+  }
+ ],
+ "keywords": [
+  "centaur",
+  "cloven hoof",
+  "freewind post",
+  "galak",
+  "rau cliffrunner",
+  "sacred flame",
+  "splithoof crag",
+  "splithoof hold",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:rau-cliffrunner",
+  "subzone:splithoof-hold",
+  "subzone:splithoof-crag",
+  "subzone:freewind-post",
+  "topic:centaur",
+  "quest:1195"
+ ],
+ "attribution": [
+  "The Sacred Flame (3)"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "key": "subzone:mystic-ward",
+ "type": "subzone",
+ "name": "Mystic Ward",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Mystic Ward"
+ },
+ "summary": "The Mystic Ward is the northwestern district of Ironforge, serving as the dwarven capital's quiet sanctuary for spiritual devotion and arcane study. Distinguishable by its cool, pale blue banners and quiet halls, it stands in stark contrast to the clanging anvils of the nearby Great Forge. Its grandest structure, the Hall of Mysteries, gathers priests, paladins, and mages beneath cavernous stone arches.",
+ "sections": [
+  {
+   "title": "A Sanctuary of Faith and Sorcery",
+   "body": "While dwarves are famed across Azeroth for their prowess at the forge and on the battlefield, the Mystic Ward represents the kingdom's quieter intellectual and spiritual pursuits. Marked by pale blue heraldry, this cavernous quarter connects the bustling Commons to the Forlorn Cavern and the Great Forge. Within its reaches, merchants supply scholars and spellweavers with regalia, scrolls, and alchemical reagents from shops like The Fighting Wizard and Maeva's Mystical Apparel. Dominating the district is the majestic Hall of Mysteries, where the holy disciplines of the Holy Light intersect with the practiced arts of arcane magic, offering guidance to those who wield unseen powers in defense of the Alliance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Mystic Ward used for?",
+   "aliases": [
+    "purpose of mystic ward",
+    "what happens here",
+    "mystic ward role"
+   ],
+   "answer": "The Mystic Ward is Ironforge's dedicated district for arcane magic, scholarly research, and spiritual worship. It provides spellcaster supplies, reagent shops, and training grounds for paladins, priests, and mages."
+  },
+  {
+   "q": "What is the main building in the Mystic Ward?",
+   "aliases": [
+    "hall of mysteries",
+    "big temple",
+    "mystic ward building"
+   ],
+   "answer": "The district is anchored by the Hall of Mysteries, a grand vaulted chamber housing the capital's trainers for holy and arcane spellcasters, as well as a prominent ornamental pool."
+  },
+  {
+   "q": "Why are the banners in this ward pale blue?",
+   "aliases": [
+    "blue banners ironforge",
+    "why blue flags"
+   ],
+   "answer": "Ironforge uses distinct heraldry to delineate its city districts. While the Military Ward flies martial red and the Great Forge features fiery orange, the Mystic Ward displays pale blue banners to symbolize contemplation, wisdom, and magical study."
+  },
+  {
+   "q": "Where does the Mystic Ward lead?",
+   "aliases": [
+    "mystic ward connections",
+    "how to get to mystic ward"
+   ],
+   "answer": "The ward sits in the northwestern quadrant of the city. Passages connect it south toward the Commons, southeast to the Great Forge, and east directly into the Forlorn Cavern."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For Alliance spellweavers, the Mystic Ward serves as the premier center in Khaz Modan for arcane supplies, spell tomes, and advanced study outside the academies of Stormwind."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The ward and its grand Hall of Mysteries provide a peaceful haven where dwarven and visiting practitioners of the Holy Light gather for prayer, guidance, and communion."
+  }
+ ],
+ "keywords": [
+  "hall of mysteries",
+  "ironforge",
+  "longberrys reagents",
+  "maevas mystical apparel",
+  "mage trainer",
+  "mystic ward",
+  "priest trainer",
+  "the fighting wizard"
+ ],
+ "related": [
+  "subzone:hall-of-mysteries",
+  "zone:ironforge",
+  "subzone:commons",
+  "subzone:great-forge",
+  "subzone:forlorn-cavern",
+  "subzone:military-ward"
+ ],
+ "attribution": [
+  "Mystic Ward"
+ ]
+}

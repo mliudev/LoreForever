@@ -1,0 +1,126 @@
+{
+ "key": "quest:430",
+ "type": "quest",
+ "name": "Return to Quinn",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   430
+  ],
+  "level": "11",
+  "faction": "Horde",
+  "start": "Apothecary Renferrel",
+  "end": "Quinn Yorick",
+  "previous": "Wild Hearts",
+  "next": "Ivar the Foul (quest)",
+  "wiki": "Return to Quinn",
+  "chain": [
+   "Lost Deathstalkers",
+   "Wild Hearts",
+   "Return to Quinn",
+   "Ivar the Foul (quest)"
+  ]
+ },
+ "summary": "Return to Quinn is a Horde quest in Silverpine Forest where an adventurer delivers a restorative draught concocted by Apothecary Renferrel to the wounded Deathstalker Quinn Yorick. Trapped and weakened at the Ivar Patch north of the Sepulcher, Quinn requires the draught before he can contemplate returning to duty.",
+ "sections": [
+  {
+   "title": "A Bitter Draught",
+   "body": "Following the harvesting of wild beast hearts for the Royal Apothecary Society, Apothecary Renferrel at the Sepulcher brews a restorative potion formulated to aid Quinn Yorick. Renferrel has little time for sentimentality or bedside manners, quickly handing off the mixture to return to his own clandestine alchemical research, leaving the adventurer to run the courier run back into the wilderness.",
+   "spoiler": 0
+  },
+  {
+   "title": "Respite at the Ivar Patch",
+   "body": "Quinn Yorick hides beside his sister, Deathstalker Erland, amid the ruined farmstead known as the Ivar Patch. Severely hurt and unable to march through hostile feral worgen territory, Quinn drinks the draught immediately upon arrival. While the concoction restores his strength enough to eventually travel, the surrounding territory remains fraught with danger, particularly under the watchful malice of the feral leader lurking nearby.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Quinn Yorick located?",
+   "aliases": [
+    "where is quinn",
+    "quinn yorick location",
+    "ivar patch location"
+   ],
+   "answer": "Quinn Yorick is sheltered at the Ivar Patch, an abandoned farmstead located just north of the Sepulcher along the western bluffs of Silverpine Forest."
+  },
+  {
+   "q": "Who made the potion for Quinn?",
+   "aliases": [
+    "who brewed the potion",
+    "apothecary renferrel potion"
+   ],
+   "answer": "Apothecary Renferrel, an alchemist of the Royal Apothecary Society stationed in the crypts of the Sepulcher, brewed the potion using wild beast hearts collected from the forest."
+  },
+  {
+   "q": "Why was Quinn unable to move on his own?",
+   "aliases": [
+    "why is quinn stuck",
+    "quinn yorick injured"
+   ],
+   "answer": "Quinn was ambushed and severely injured while scouting the area with his fellow Deathstalkers, leaving him incapacitated and dependent on his sister Erland and medicinal aid to recover."
+  },
+  {
+   "q": "What happens after giving Quinn the potion?",
+   "aliases": [
+    "what next after return to quinn",
+    "next quest after quinn"
+   ],
+   "answer": "Drinking the concoction restores Quinn's strength, paving the way to strike back against Ivar the Foul, the dangerous leader of the local worgen pack threatening their position."
+  },
+  {
+   "q": "Who is Quinn's sister?",
+   "aliases": [
+    "quinn yorick sister",
+    "quinn sister"
+   ],
+   "answer": "Quinn's sister is Deathstalker Erland, who stayed by his side at the Ivar Patch to protect him and coordinate their survival."
+  },
+  {
+   "q": "Does Apothecary Renferrel care about Quinn's fate?",
+   "aliases": [
+    "does renferrel care",
+    "renferrel attitude"
+   ],
+   "answer": "Renferrel shows minimal personal concern, viewing the concoction purely as an errand before dismissing the adventurer so he can resume his own secretive research for the Royal Apothecary Society."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The mission illustrates the practical utility of the Royal Apothecary Society, providing vital restorative mixtures to keep the Dark Lady's scouts operational in hostile terrain."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing scouts stranded behind enemy lines is crucial for cementing the Horde's foothold across Silverpine Forest against feral worgen packs."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Assisting fellow operatives of the Deathstalkers highlights the perilous reality of reconnaissance work when caught unawares by pack predators."
+  }
+ ],
+ "keywords": [
+  "apothecary renferrel",
+  "deathstalker erland",
+  "deathstalkers",
+  "ivar patch",
+  "quinn yorick",
+  "quinn's potion",
+  "sepulcher",
+  "silverpine forest"
+ ],
+ "related": [
+  "quest:429",
+  "quest:425",
+  "quest:428",
+  "npc:quinn-yorick",
+  "npc:apothecary-renferrel",
+  "subzone:ivar-patch",
+  "subzone:sepulcher",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Return to Quinn"
+ ]
+}

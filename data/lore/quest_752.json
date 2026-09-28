@@ -1,0 +1,117 @@
+{
+ "key": "quest:752",
+ "type": "quest",
+ "name": "A Humble Task",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   752
+  ],
+  "level": "2",
+  "faction": "Horde",
+  "start": "Chief Hawkwind",
+  "end": "Greatmother Hawkwind",
+  "previous": null,
+  "next": "A Humble Task (2)",
+  "wiki": "A Humble Task",
+  "chain": []
+ },
+ "summary": "A Humble Task is an early rite of duty given by Chief Hawkwind in Camp Narache. As the Chieftain attends to pressing tribal concerns on the Red Cloud Mesa, he asks a young adventurer to venture southeast and check on his elderly mother at the local water well. The request emphasizes communal responsibility, elder reverence, and the daily harmony essential to the tauren way of life.",
+ "sections": [
+  {
+   "title": "Communal Harmony and Duty",
+   "body": "In the shadow of Camp Narache, every member of the tribe is expected to pull their weight and share in the harmony of life. For young tauren coming of age, tribal duty is not measured solely in battle prowess against quillboars or predators; it begins with basic social responsibility. Chief Hawkwind demonstrates this ethos directly: bound to his post by administrative and defensive leadership, he places his trust in novice adventurers to watch over the community's vulnerable elders.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Well Southeast of Narache",
+   "body": "Mulgore's Red Cloud Mesa relies on vital natural water wells scattered beyond the perimeter of the encampment. Early in the morning, Greatmother Hawkwind left the village unattended to retrieve fresh water from the southeastern spring. In a land stalked by territorial wildlife and encroaching Bristleback quilboars, an elder remaining absent for hours raises quiet concern, prompting Hawkwind to send aid to ensure she is unharmed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers this quest and where do I find them?",
+   "aliases": [
+    "who gives a humble task",
+    "where to pick up quest",
+    "chief hawkwind location"
+   ],
+   "answer": "Chief Hawkwind, the leader of Camp Narache on the Red Cloud Mesa in Mulgore, offers the quest. He stands in the central pavilion of the camp overseeing local affairs."
+  },
+  {
+   "q": "Where is Greatmother Hawkwind located?",
+   "aliases": [
+    "greatmother hawkwind location",
+    "where is the mother",
+    "water well location"
+   ],
+   "answer": "Greatmother Hawkwind is located just southeast of Camp Narache, tending to the water well on the lower elevation of the mesa."
+  },
+  {
+   "q": "Why doesn't Chief Hawkwind check on his mother himself?",
+   "aliases": [
+    "why cant chief go",
+    "why doesn't hawkwind check",
+    "chief hawkwind busy"
+   ],
+   "answer": "Chief Hawkwind must remain at Camp Narache to oversee pressing tribal matters and guide young braves. As a chieftain, he relies on the tribe's collective responsibility and trusts rising adventurers to look after village affairs in his stead."
+  },
+  {
+   "q": "Is Greatmother Hawkwind in danger at the well?",
+   "aliases": [
+    "is she safe",
+    "is greatmother attacked",
+    "danger at water well"
+   ],
+   "answer": "While the surrounding plains host aggressive mountain cougars and striders, Greatmother Hawkwind is found safe and sound beside the well, pleasantly surprised that someone went out of their way to check on an elder."
+  },
+  {
+   "q": "What cultural significance does this quest carry for the tauren?",
+   "aliases": [
+    "tauren culture humble task",
+    "why is this a humble task",
+    "tauren elders"
+   ],
+   "answer": "Tauren culture places immense value on family, community cohesion, and reverence for elders. The quest teaches young heroes that true strength is rooted in humble service and protecting one's kin rather than chasing personal glory."
+  },
+  {
+   "q": "What happens after finding Greatmother Hawkwind?",
+   "aliases": [
+    "next quest",
+    "a humble task follow up",
+    "what to do after finding mother"
+   ],
+   "answer": "Once you speak with Greatmother Hawkwind, she completes the task and asks for further assistance in carrying the filled water pitcher back to the camp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren braves, answering the Chieftain's call demonstrates the core tenets of the Earth Mother's teachings: respect for elders and unhesitating commitment to the tribe's shared well-being."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The quiet, pastoral nature of Narache's tasks highlights how the tauren's tranquil communal philosophy contrasts with the harsher, survivalist grit found across the rest of the fledgling Horde."
+  }
+ ],
+ "keywords": [
+  "a humble task",
+  "camp narache",
+  "chief hawkwind",
+  "greatmother hawkwind",
+  "mulgore",
+  "red cloud mesa",
+  "water well"
+ ],
+ "related": [
+  "npc:chief-hawkwind",
+  "npc:greatmother-hawkwind",
+  "subzone:camp-narache",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "A Humble Task"
+ ]
+}

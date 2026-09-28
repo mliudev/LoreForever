@@ -1,0 +1,119 @@
+{
+ "key": "quest:1532",
+ "type": "quest",
+ "name": "Call of Air",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1532
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Xanis Flameweaver",
+  "end": "Prate Cloudseer",
+  "previous": null,
+  "next": null,
+  "wiki": "Call of Air (Thunder Bluff)",
+  "chain": []
+ },
+ "summary": "Call of Air marks a major milestone in a Horde shaman's spiritual path, directing them to seek communion with the unpredictable element of wind. Offered by Xanis Flameweaver in Thunder Bluff, this quest bids seasoned initiates journey south into Thousand Needles to learn from Prate Cloudseer. Mastering air grants a shaman the sacred totem required to channel the swiftest forces of nature.",
+ "sections": [
+  {
+   "title": "The Whispering Winds",
+   "body": "Having already attuned to the stability of earth, the ferocity of fire, and the restorative depths of water, a shaman reaches the final elemental pillar: air. Xanis Flameweaver, guiding practitioners from the heights of Thunder Bluff, acknowledges that the winds are far more fickle and difficult to control than the previous elements. The trial demands humility, focus, and an innate respect for the sky's tempestuous nature.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Pilgrimage South",
+   "body": "To attune to the winds, the shaman must travel south past the vast plains of the Barrens and descend into the wind-carved canyons of Thousand Needles. There, far to the east, dwells the hermit mystic Prate Cloudseer. Tucked away in a secluded cliffside cave where the canyon drafts howl day and night, she tests the initiate's preparedness before bestowing the Air Totem, the instrument essential for summoning gusts, lightning, and swift wind spirits.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me on this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts call of air",
+    "xanis flameweaver"
+   ],
+   "answer": "Xanis Flameweaver, a shaman trainer situated in Thunder Bluff, offers this quest once an initiate reaches sufficient experience to attune to the element of air."
+  },
+  {
+   "q": "Where is Prate Cloudseer located?",
+   "aliases": [
+    "prate cloudseer location",
+    "where is prate",
+    "find prate cloudseer"
+   ],
+   "answer": "Prate Cloudseer resides in a sheltered cave far to the east within the windblown canyon of Thousand Needles, just south of the Barrens."
+  },
+  {
+   "q": "Why is the element of air sought last?",
+   "aliases": [
+    "why air last",
+    "shaman air totem lore",
+    "elemental order"
+   ],
+   "answer": "Air is notoriously erratic, sudden, and elusive. Shamanic tradition requires an initiate to first master the grounded stability of earth, the volatile warmth of fire, and the fluidity of water before attempting to anchor the wild, invisible currents of wind."
+  },
+  {
+   "q": "What do I receive upon finding Prate Cloudseer?",
+   "aliases": [
+    "air totem reward",
+    "what does prate give",
+    "quest reward call of air"
+   ],
+   "answer": "Prate Cloudseer presents you with the Air Totem, the spiritual conduit that allows you to focus your elemental magic and call upon the air spirits for support."
+  },
+  {
+   "q": "Is this quest exclusive to Tauren?",
+   "aliases": [
+    "can orcs do this",
+    "is this tauren only",
+    "horde shaman air quest"
+   ],
+   "answer": "While started in the Tauren capital of Thunder Bluff, any Horde shaman who has attuned to the first three elements may take this path to Thousand Needles to claim their Air Totem."
+  },
+  {
+   "q": "What happens after finishing this quest?",
+   "aliases": [
+    "what comes next",
+    "after call of air",
+    "prate cloudseer quests"
+   ],
+   "answer": "Prate Cloudseer bestows your Air Totem upon arrival, allowing you to invoke wind-based totems immediately, and offers further training and trials to hone your connection with the sky."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The completion of your elemental set is a profound turning point, giving you access to the swift currents and lightning-wreathed powers of the Air Totem."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "By binding the wild winds of Kalimdor into a sacred totem, Horde shamans strengthen the spiritual backbone of their fledgling alliance."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Gazing down from the towering bluffs of Mulgore, the shu'halo revere the winds as sacred messengers, carrying the whispers of the Earth Mother across the plains."
+  }
+ ],
+ "keywords": [
+  "air totem",
+  "call of air",
+  "prate cloudseer",
+  "shaman",
+  "thousand needles",
+  "thunder bluff",
+  "xanis flameweaver"
+ ],
+ "related": [
+  "zone:thousandneedles",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Call of Air (Thunder Bluff)"
+ ]
+}

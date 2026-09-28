@@ -1,0 +1,110 @@
+{
+ "key": "npc:apothecary-johaan",
+ "type": "npc",
+ "name": "Apothecary Johaan",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Apothecary Johaan",
+  "refs": 7
+ },
+ "summary": "Apothecary Johaan is an alchemist and researcher of the Royal Apothecary Society stationed in Brill. Tasked by his order and Lady Sylvanas, he conducts lethal experiments on local flora and fauna to develop the Forsaken's new plague.",
+ "sections": [
+  {
+   "title": "A Servant of the Society",
+   "body": "Working openly out of the Forsaken settlement of Brill in Tirisfal Glades, Apothecary Johaan represents the scientific ambitions of the newly formed Royal Apothecary Society. Like his colleagues across Lordaeron, Johaan operates under direct orders to craft biological and alchemical weapons capable of securing the Forsaken's fragile future against the living and the Scourge alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "Brewing the New Plague",
+   "body": "Johaan coordinates early field trials for what the Society calls the 'New Plague'. Using raw materials harvested from Tirisfal's corrupted wildlife and agricultural blights\u2014such as gloom weed and the tainted soil of nearby farmsteads\u2014he tests toxin mixtures and evaluates their potency on living subjects before dispatching results down south to Silverpine Forest.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Apothecary Johaan?",
+   "aliases": [
+    "apothecary johaan",
+    "who is johaan",
+    "johaan brill"
+   ],
+   "answer": "Apothecary Johaan is an alchemical researcher stationed in Brill. He belongs to the Royal Apothecary Society and directs young Forsaken champions to gather vile reagents across Tirisfal Glades."
+  },
+  {
+   "q": "Where can I find Apothecary Johaan?",
+   "aliases": [
+    "johaan location",
+    "where is johaan",
+    "find johaan"
+   ],
+   "answer": "He can be found standing outside near the gallows and alchemical apparatus in the town of Brill, just north of the Undercity in Tirisfal Glades."
+  },
+  {
+   "q": "What is Johaan working on?",
+   "aliases": [
+    "johaan experiments",
+    "what does johaan do",
+    "johaan plague"
+   ],
+   "answer": "Johaan is formulating and refining early strains of the New Plague, testing biological agents and venomous extracts from Tirisfal's blighted fields and beasts."
+  },
+  {
+   "q": "What does he do with the plague samples?",
+   "aliases": [
+    "delivery to silverpine",
+    "where do plague samples go"
+   ],
+   "answer": "Once test mixtures are concocted and their lethality assessed, Johaan packages the samples and sends couriers to deliver them to allied apothecaries stationed in Silverpine Forest."
+  },
+  {
+   "q": "What organization does Johaan belong to?",
+   "aliases": [
+    "johaan faction",
+    "who does johaan work for"
+   ],
+   "answer": "He is an active member of the Royal Apothecary Society, the alchemical guild serving Lady Sylvanas Windrunner and the Forsaken in the Undercity."
+  },
+  {
+   "q": "Why is he interested in the local farms?",
+   "aliases": [
+    "fields of grief johaan",
+    "why send me to farms"
+   ],
+   "answer": "Human farms like the Solliden Farmstead and the nearby pumpkin patches contain fungal growths and blighted crops that provide key chemical precursors for his experimental toxins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Johaan's research is central to the Forsaken cause, developing the very weapons needed to carve out a permanent homeland free of Scourge and living threats."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While orcs and tauren might balk at alchemical blights, Johaan's deadly concoctions serve the strategic security of the Horde's foothold in the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "apothecary",
+  "brill",
+  "gloom weed",
+  "johaan",
+  "plague",
+  "royal apothecary society",
+  "silverpine",
+  "tirisfal"
+ ],
+ "related": [
+  "subzone:brill",
+  "topic:royal-apothecary-society",
+  "quest:367",
+  "quest:365",
+  "quest:445",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "Apothecary Johaan"
+ ]
+}

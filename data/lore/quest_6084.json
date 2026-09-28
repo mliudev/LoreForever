@@ -1,0 +1,123 @@
+{
+ "key": "quest:6084",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   6084
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Grif Wildheart",
+  "end": "",
+  "previous": "Taming the Beast (Dwarf 1)",
+  "next": "Taming the Beast (Dwarf 3)",
+  "wiki": "Taming the Beast (Dwarf 2)",
+  "chain": [
+   "The Hunter's Path (Dwarf)",
+   "Taming the Beast (Dwarf 1)",
+   "Taming the Beast (Dwarf 2)",
+   "Taming the Beast (Dwarf 3)",
+   "Training the Beast (Dwarf)"
+  ]
+ },
+ "summary": "This quest is the second trial in the dwarf hunter initiation given by Grif Wildheart in Kharanos. After learning to handle the brute resilience of a crag boar, the young hunter is tasked with mastering the swiftness and lethal grace of a native snow leopard.",
+ "sections": [
+  {
+   "title": "A Lesson in Finesse",
+   "body": "While crag boars teach a mountaineer how to withstand raw ferocity and absorb blows, Grif Wildheart emphasizes that a master hunter must understand different styles of combat. He points his students southeast toward the prowling snow leopards of Dun Morogh. Grif compares these graceful predators to an elegantly crafted rifle: outwardly striking, yet concealing devastating power beneath their pristine white coats.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mastering the Taming Rod",
+   "body": "Using an enchanted taming rod, the hunter must confront a wild leopard and bend its hunting instincts into partnership. Snow leopards test agility, speed, and sharp reflexes rather than pure endurance. Mastering such a creature demonstrates that the novice can harmonize with predators that strike swiftly from the snowy crags, taking another step toward true command over the beasts of the wild.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do this quest",
+    "snow leopard quest dwarf",
+    "taming the beast 2"
+   ],
+   "answer": "It is the second stage of the hunter rite of passage for dwarves. Hunter trainer Grif Wildheart requires his students to test their skills against diverse wilderness beasts before granting them the knowledge to permanently bond with animal companions."
+  },
+  {
+   "q": "Where do I find the snow leopards?",
+   "aliases": [
+    "snow leopard location",
+    "where are snow leopards dun morogh",
+    "leopard location"
+   ],
+   "answer": "Snow leopards can be found prowling the rocky crags and snowy slopes south and east of Kharanos in Dun Morogh."
+  },
+  {
+   "q": "Why does Grif Wildheart want me to tame a leopard?",
+   "aliases": [
+    "why snow leopard",
+    "grif wildheart leopard reasoning"
+   ],
+   "answer": "Grif believes a hunter must experience both burly strength and refined finesse. Where the crag boar relies on brute resilience, the snow leopard teaches the hunter how to fight alongside a swift, agile, and lethal damage dealer."
+  },
+  {
+   "q": "Do I get to keep this snow leopard permanently?",
+   "aliases": [
+    "can i keep the snow leopard",
+    "is the leopard permanent"
+   ],
+   "answer": "No. The beasts tamed during these initial trials are temporary training partners bound by the magic of the taming rod. Once Grif deems your training complete at the end of the quest chain, you gain the permanent ability to tame any wild beast you choose."
+  },
+  {
+   "q": "Who assigns this trial?",
+   "aliases": [
+    "who gives quest",
+    "quest giver",
+    "grif wildheart role"
+   ],
+   "answer": "Grif Wildheart, the dwarf hunter trainer stationed outside the inn in Kharanos, Dun Morogh."
+  },
+  {
+   "q": "What comes next in the chain?",
+   "aliases": [
+    "next quest",
+    "what after snow leopard"
+   ],
+   "answer": "After demonstrating mastery over the snow leopard, Grif sends you on a third and final taming trial to master an Ice Claw Bear before officially teaching you how to tame and train wild beasts on your own."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This rite of passage teaches novice dwarven hunters the contrast between high-durability pets like boars and swift, aggressive damage dealers like cats."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Mountaineers of Khaz Modan have long shared the frozen peaks of Dun Morogh with snow leopards, respecting both their stealth and lethal hunting prowess."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "grif wildheart",
+  "hunter quest",
+  "kharanos",
+  "snow leopard",
+  "taming rod",
+  "taming the beast"
+ ],
+ "related": [
+  "npc:grif-wildheart",
+  "quest:6061",
+  "quest:6081",
+  "quest:6065",
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Taming the Beast (Dwarf 2)"
+ ]
+}

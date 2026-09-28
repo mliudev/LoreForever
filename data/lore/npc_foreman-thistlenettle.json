@@ -1,0 +1,93 @@
+{
+ "key": "npc:foreman-thistlenettle",
+ "type": "npc",
+ "name": "Foreman Thistlenettle",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Foreman Thistlenettle",
+  "refs": 0
+ },
+ "summary": "Foreman Thistlenettle was once a dwarven overseer representing both the Miners' League and the Explorers' League within the depths of Westfall. After a catastrophic cave-in trapped his crew in the subterranean tunnels of the Deadmines, he perished alongside his workers and rose again as an undead ghoul. He now wanders the dark, collapsed corridors, unrecognizable to all except by the guild badge he still carries.",
+ "sections": [
+  {
+   "title": "Tragedy in the Deadmines",
+   "body": "Before the Defias Brotherhood took total control of the Deadmines, legitimate mining expeditions delved deep into its rich veins. Foreman Thistlenettle oversaw one such venture on behalf of the Miners' League and Explorers' League. Deep in the tunnels beneath Moonbrook, disaster struck when a violent cave-in sealed his party off from the surface. The trapped miners died in the darkness, but their rest did not last; a sinister, necrotic taint raised Thistlenettle and his crew as ravenous ghouls to stalk the shadowed passages.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Brother's Grief",
+   "body": "Back in Stormwind, his brother Wilder Thistlenettle spent restless months wondering about the fate of the missing mining crew. With no word escaping the occupied tunnels, rumors eventually surfaced that the fallen overseer still walked among the dead. Adventurers braving the outskirts of the Deadmines are asked to locate the undead foreman, end his torment, and recover his badge to bring closure to his grieving kin.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Foreman Thistlenettle before he died?",
+   "aliases": [
+    "thistlenettle lore",
+    "who is foreman thistlenettle",
+    "thistlenettle background"
+   ],
+   "answer": "He was a dwarven foreman associated with both the Miners' League and the Explorers' League. He led a crew of miners into the Deadmines prior to its complete fortification by outlaws, looking to excavate and survey the subterranean veins."
+  },
+  {
+   "q": "Why is Foreman Thistlenettle an undead ghoul?",
+   "aliases": [
+    "why is he a ghoul",
+    "how did thistlenettle die",
+    "thistlenettle undead"
+   ],
+   "answer": "A catastrophic cave-in collapsed the tunnels around Thistlenettle and his mining party, killing them. Dark subterranean energies or lingering necromancy within the labyrinthine mines subsequently animated their remains, turning the dwarves into restless ghouls."
+  },
+  {
+   "q": "Where is Foreman Thistlenettle located?",
+   "aliases": [
+    "where to find thistlenettle",
+    "thistlenettle location",
+    "deadmines foreman spot"
+   ],
+   "answer": "He haunts a dead-end, collapsed tunnel within the exterior maze of the Deadmines, located before the portal to the inner instance itself, surrounded by his reanimated former miners."
+  },
+  {
+   "q": "Who is looking for Foreman Thistlenettle?",
+   "aliases": [
+    "who wants thistlenettle dead",
+    "wilder brother",
+    "thistlenettle quest giver"
+   ],
+   "answer": "His brother, Wilder Thistlenettle, who resides in the Dwarven District of Stormwind City. Wilder seeks proof of his brother's fate and asks travelers to bring back Thistlenettle's Badge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The tragic loss of an Explorers' League foreman and an entire dwarven crew highlights the lingering dangers lurking beneath the human kingdoms."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Thistlenettle's fate is a somber reminder to all miners of the ever-present peril of tunnel collapses and hostile subterranean depths."
+  }
+ ],
+ "keywords": [
+  "badge",
+  "cave-in",
+  "deadmines",
+  "foreman",
+  "ghoul",
+  "miners' league",
+  "thistlenettle",
+  "wilder"
+ ],
+ "related": [
+  "npc:wilder-thistlenettle",
+  "quest:167",
+  "zone:deadmines",
+  "subzone:deadmines",
+  "topic:explorers-league",
+  "zone:westfall"
+ ],
+ "attribution": [
+  "Foreman Thistlenettle"
+ ]
+}

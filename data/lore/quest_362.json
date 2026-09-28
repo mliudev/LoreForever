@@ -1,0 +1,122 @@
+{
+ "key": "quest:362",
+ "type": "quest",
+ "name": "The Haunted Mills",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   362
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Coleman Farthing",
+  "end": "",
+  "previous": null,
+  "next": "Speak with Sevren (Classic)",
+  "wiki": "The Haunted Mills (Classic)",
+  "chain": [
+   "The Haunted Mills (Classic)",
+   "Speak with Sevren (Classic)",
+   "The Family Crypt (Classic)"
+  ]
+ },
+ "summary": "Coleman Farthing of Brill seeks vengeance against his former landowners, the Agamands, by having their restless undead remains collected and destroyed. This task sends you north to Agamand Mills to put down Devlin Agamand, the sharp-tongued younger son of the estate. It begins a bitter vendetta against the family who failed to protect Tirisfal's common folk from the Plague.",
+ "sections": [
+  {
+   "title": "A Bitter Harvest",
+   "body": "Before the Third War, Agamand Mills stood as the breadbasket of northern Tirisfal, owned by a wealthy landed family. When the Scourge swept across Lordaeron, the common folk looked to the noble landowners for safety, only to find neither sanctuary nor salvation. Coleman Farthing survived in undeath, but his heart remains consumed by hatred for the family he served. Rather than letting them roam in eternal torment, Farthing desires the morbid satisfaction of collecting their bones to desecrate them under his own heel.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Younger Brother",
+   "body": "Devlin Agamand was the younger brother of Thurman Agamand. In life, Devlin was widely remembered as a weak, spiteful, and sharp-tongued youth who stood in stark contrast to his gentle elder brother. When the Plague of Undeath crept into the mill estate, Devlin was among the quickest to fall prey to the corruption. Now, stripped of whatever fragile wit he possessed in life, his mindless corpse chatters incessantly along the northern road leading into the family mills.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Coleman Farthing want Devlin's remains?",
+   "aliases": [
+    "why coleman want bones",
+    "coleman farthing motive",
+    "why kill devlin"
+   ],
+   "answer": "Coleman Farthing blames the wealthy Agamand family for abandoning and failing him and his relatives when the Scourge overran Lordaeron. Seeking personal revenge in undeath, he wants to gather the Agamand bones so he can display them on his mantle and personally grind them into dust."
+  },
+  {
+   "q": "Where can Devlin Agamand be found?",
+   "aliases": [
+    "devlin location",
+    "find devlin agamand",
+    "where is devlin"
+   ],
+   "answer": "Devlin wanders near the road just south of the Agamand Mills in northern Tirisfal Glades, gibbering madly among the undead that prowl the outskirts of the estate."
+  },
+  {
+   "q": "What was Devlin like before the Plague?",
+   "aliases": [
+    "who was devlin",
+    "devlin agamand lore",
+    "devlin agamand in life"
+   ],
+   "answer": "According to Coleman Farthing, Devlin was the smaller, weaker, and distinctly sharp-tongued younger son of the Agamand household, very unlike his tall and mild-mannered older brother Thurman."
+  },
+  {
+   "q": "Is Devlin part of the Scourge or Forsaken?",
+   "aliases": [
+    "is devlin scourge",
+    "devlin faction"
+   ],
+   "answer": "Devlin is a mindless thrall of the Scourge. Unlike the Forsaken of the Undercity, he never broke free of the Lich King's grip and mindlessly stalks his family's ruined lands."
+  },
+  {
+   "q": "What other quests take place at Agamand Mills?",
+   "aliases": [
+    "agamand mills quests",
+    "quests near devlin"
+   ],
+   "answer": "The quest 'Deaths in the Family' also directs Forsaken adventurers to Agamand Mills to eliminate the rest of the Agamand household, making it natural to pursue both tasks concurrently."
+  },
+  {
+   "q": "What happens after turning in Devlin's remains?",
+   "aliases": [
+    "quest continuation",
+    "next quest after haunted mills"
+   ],
+   "answer": "After accepting the bones, Coleman Farthing directs you to speak with Sevren in Brill, which eventually leads deeper into the Agamand family crypt."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This task reflects the deep class resentments that survived Lordaeron's fall, showing how Forsaken retain mortal grudges against the landed nobility who failed to protect them from the Plague."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting the Forsaken in Tirisfal means helping them purge dangerous pockets of the Scourge from the borders of Brill and Undercity."
+  }
+ ],
+ "keywords": [
+  "agamand mills",
+  "brill",
+  "coleman farthing",
+  "devlin agamand",
+  "haunted mills",
+  "plague",
+  "scourge",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:coleman-farthing",
+  "subzone:agamand-mills",
+  "quest:354",
+  "quest:355",
+  "quest:408",
+  "subzone:brill",
+  "zone:tirisfal"
+ ],
+ "attribution": [
+  "The Haunted Mills (Classic)"
+ ]
+}

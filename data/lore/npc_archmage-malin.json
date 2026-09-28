@@ -1,0 +1,96 @@
+{
+ "key": "npc:archmage-malin",
+ "type": "npc",
+ "name": "Archmage Malin",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Archmage Malin",
+  "refs": 1
+ },
+ "summary": "Archmage Malin is a senior human wizard stationed just outside the Wizard's Sanctum in Stormwind City's Mage Quarter. A former pupil of Archmage Trelane, Malin coordinates arcane affairs and field operatives dispatched to recover magical artifacts and rare reagents across the Eastern Kingdoms.",
+ "sections": [
+  {
+   "title": "Watcher of the Wizard's Sanctum",
+   "body": "Standing sentinel beneath the towering spiral of the Wizard's Sanctum, Archmage Malin serves as a central point of contact for the arcane practitioners of Stormwind. He learned his craft under the tutelage of Archmage Trelane, a storied mage whose scattered legacy Malin now strives to protect. While younger acolytes study theory within the tower's swirling blue portals, Malin keeps his focus trained outward on matters across the realm that demand magical oversight.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes in the Highlands",
+   "body": "Much of Malin's attention is directed north to the perilous ruins of the Arathi Highlands. To recover Archmage Trelane's lost possessions and secure delicate spell components, Malin dispatched his trusted associates, Skuerto and Apprentice Kryten, into the field. Coordinating these distant operations from the capital, Malin relies on capable Alliance travelers to carry instructions, supplies, and intelligence to his agents operating in hostile territory.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Archmage Malin?",
+   "aliases": [
+    "archmage malin lore",
+    "who is malin",
+    "malin stormwind"
+   ],
+   "answer": "Archmage Malin is a high-ranking human mage of Stormwind City. Positioned outside the entrance to the Wizard's Sanctum in the Mage Quarter, he oversees research initiatives, dispatches field apprentices, and helps maintain order among the capital's magical practitioners."
+  },
+  {
+   "q": "What is Malin's connection to Archmage Trelane?",
+   "aliases": [
+    "malin trelane",
+    "who was malin master",
+    "archmage trelane connection"
+   ],
+   "answer": "Archmage Trelane was Malin's original master and mentor. Malin retains deep loyalty to Trelane, actively coordinating efforts to locate and recover his former master's personal belongings and magical relics scattered across the Arathi Highlands."
+  },
+  {
+   "q": "Why does Malin send adventurers to the Arathi Highlands?",
+   "aliases": [
+    "malin request quest",
+    "why arathi",
+    "skuerto quest"
+   ],
+   "answer": "Malin has two agents stationed in the Arathi Highlands: Skuerto and Apprentice Kryten. Because the journey is dangerous and communication difficult, Malin enlists traveling adventurers to reach his field operatives with vital requests, magical supplies, and instructions regarding the recovery of Trelane's artifacts."
+  },
+  {
+   "q": "Where can Archmage Malin be found?",
+   "aliases": [
+    "where is malin",
+    "archmage malin location",
+    "malin map"
+   ],
+   "answer": "He stands outside the base of the Wizard's Sanctum tower, at the heart of the Mage Quarter in Stormwind City, overlooking the ramps that lead up into the sanctum's portal chamber."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For Alliance mages visiting the Wizard's Sanctum, Malin represents the bridge between formal academy study in Stormwind and the hazardous realities of recovering lost relics in the wild."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Malin's operatives in Arathi work to secure powerful artifacts before they can fall into the hands of the Syndicate, the Boulderfist ogres, or the Horde."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "archmage malin",
+  "kryten",
+  "mage quarter",
+  "malin",
+  "skuerto",
+  "stormwind",
+  "trelane",
+  "wizard's sanctum"
+ ],
+ "related": [
+  "subzone:mage-quarter",
+  "zone:stormwind",
+  "npc:skuerto",
+  "quest:690",
+  "zone:arathi",
+  "subzone:sanctum-stromgarde-keep",
+  "topic:alliance",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Archmage Malin"
+ ]
+}

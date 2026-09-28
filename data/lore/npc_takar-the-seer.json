@@ -1,0 +1,83 @@
+{
+ "key": "npc:takar-the-seer",
+ "type": "npc",
+ "name": "Takar the Seer",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Takar the Seer",
+  "refs": 2
+ },
+ "summary": "Takar the Seer is an elusive human hermit encamped deep within the Barrens, east of Camp Taurajo. Despite sitting entirely within Horde-dominated territory, he maintains allegiance to the Alliance and assists certain travelers with esoteric occult knowledge.",
+ "sections": [
+  {
+   "title": "A Recluse in the Savannah",
+   "body": "Dwelling alone beneath a simple tent east of Camp Taurajo, Takar the Seer seems out of place amid the dry plains of the Barrens. Surrounding lands are watched constantly by tauren braves and orc patrols, yet Takar remains undisturbed in his remote clearing. Hostile to curious Horde interlopers but rarely eager to initiate violence, he keeps a sharp eye on the horizon and prefers solitude. His isolated existence suggests deliberate seclusion, far from the bustling politics of Stormwind.",
+   "spoiler": 0
+  },
+  {
+   "title": "Occult Counsel",
+   "body": "Though solitary, Takar is not entirely detached from the wider world. Initiates of darker arts\u2014particularly Alliance warlocks sent from the Eastern Kingdoms\u2014seek his cryptic guidance when attempting to bind dangerous otherworldly entities. His deep understanding of unseen forces and soulcraft makes his remote camp a vital, if perilous, pilgrimage site for practitioners looking to harness the powers of the Void.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is a human seer living alone in the Barrens?",
+   "aliases": [
+    "why is takar in the barrens",
+    "what is takar doing here",
+    "takar backstory"
+   ],
+   "answer": "Takar lives in deliberate exile to conduct his esoteric studies in peace. Far away from the eyes of authorities and inquisitors, the harsh and vast savannah provides an obscure sanctuary where he can practice his divinations unbothered."
+  },
+  {
+   "q": "Is Takar hostile to Horde players?",
+   "aliases": [
+    "is takar friendly",
+    "can horde talk to takar",
+    "takar horde reaction"
+   ],
+   "answer": "Yes, Takar is aligned with the Alliance and will appear hostile to Horde adventurers. However, he is not overly aggressive and generally will not strike unless provoked or approached too closely."
+  },
+  {
+   "q": "What brings Alliance adventurers to his camp?",
+   "aliases": [
+    "takar quests",
+    "why visit takar",
+    "who talks to takar"
+   ],
+   "answer": "Certain Alliance seekers, particularly warlocks pursuing binding rituals for powerful demons such as the Succubus, are directed to Takar. He provides cryptic instructions and insight into acquiring the reagents necessary to summon and dominate these entities."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "For Alliance warlocks, Takar is a vital contact in Kalimdor, guiding initiates through dangerous rites to summon and bind a Devourer of Souls into their service."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Finding a friendly human face deep in the heart of the Horde's core territory provides a rare, albeit solitary, contact point in central Kalimdor."
+  }
+ ],
+ "keywords": [
+  "barrens hermit",
+  "camp taurajo",
+  "devourer of souls",
+  "heartswood",
+  "succubus quest",
+  "takar the seer"
+ ],
+ "related": [
+  "quest:1472",
+  "quest:1738",
+  "zone:barrens",
+  "subzone:camp-taurajo",
+  "topic:alliance",
+  "topic:horde",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Takar the Seer"
+ ]
+}

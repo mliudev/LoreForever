@@ -1,0 +1,121 @@
+{
+ "key": "quest:919",
+ "type": "quest",
+ "name": "Timberling Sprouts",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "ids": [
+   919
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Denalan",
+  "end": "",
+  "previous": "Denalan's Earth",
+  "next": "",
+  "wiki": "Timberling Sprouts",
+  "chain": []
+ },
+ "summary": "Timberling Sprouts is a quest given by the nature-watcher Denalan near Lake Al'Ameth in central Teldrassil. Concerned by the sudden and unnatural proliferation of woodland sprouts around the lake shores, Denalan asks travelers to uproot them before they mature into hostile timberlings. The task highlights early signs that a creeping corruption is disturbing the balance of the newly grown World Tree.",
+ "sections": [
+  {
+   "title": "Weeding Lake Al'Ameth",
+   "body": "Around the serene banks of Lake Al'Ameth, strange plant-like creatures known as timberlings have begun multiplying at an alarming rate. Rather than thriving in harmony with the woodland, the emerging timberling sprouts display signs of corruption from the moment they take root. Denalan, a dedicated student of nature residing beside the lake, recognizes that these sprouts are beyond healing. Left unchecked, they rapidly mature into aggressive bark-covered creatures that menace local wildlife and unwary travelers. Gathering and destroying the sprouts serves as an immediate line of defense to keep the grove clean.",
+   "spoiler": 0
+  },
+  {
+   "title": "Signs of a Deeper Taint",
+   "body": "While uprooting sprouts helps manage the local hazard, Denalan notes with dread just how swiftly the sprouts appear. Their unchecked proliferation is an unnatural phenomenon on Teldrassil. Rather than being an isolated infestation, the tainted sprouts are a symptom of a deeper malaise that threatens the roots and soil of the World Tree itself\u2014a riddle Denalan and the druids of Darnassus are racing to unravel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are timberling sprouts?",
+   "aliases": [
+    "what are timberlings",
+    "timberling sprout lore",
+    "what is a sprout"
+   ],
+   "answer": "Timberling sprouts are the nascent, juvenile forms of timberlings\u2014small elemental plant beings native to Teldrassil's boughs. Unfortunately, those germinating along Lake Al'Ameth are tainted and rapidly grow into hostile, aggressive creatures."
+  },
+  {
+   "q": "Who is Denalan?",
+   "aliases": [
+    "who gives timberling sprouts",
+    "denalan lore",
+    "lake al'ameth questgiver"
+   ],
+   "answer": "Denalan is an herbalist and nature-tender living in a quiet camp near the shores of Lake Al'Ameth. He watches over the flora of the bough and studies the ecological shifts and strange corruptions taking hold on Teldrassil."
+  },
+  {
+   "q": "Why can't these sprouts simply be healed or purified?",
+   "aliases": [
+    "can sprouts be saved",
+    "why destroy timberlings",
+    "are sprouts beyond help"
+   ],
+   "answer": "Denalan observes that the sprouts are already tainted beyond redemption by the time they surface. Attempting to restore them is futile, making culling the only practical way to prevent them from maturing into dangerous hazards."
+  },
+  {
+   "q": "Where are the sprouts found?",
+   "aliases": [
+    "timberling sprout location",
+    "where to find sprouts",
+    "lake al'ameth sprouts"
+   ],
+   "answer": "The sprouts take root along the muddy shores, shallows, and lush banks surrounding Lake Al'Ameth in central Teldrassil."
+  },
+  {
+   "q": "What causes the timberlings to sprout so aggressively?",
+   "aliases": [
+    "why are timberlings mad",
+    "what taints the sprouts",
+    "timberling corruption"
+   ],
+   "answer": "The unnatural surge of hostile timberlings is driven by a corrupting influence spreading into Teldrassil's soil and waters. Even young growths are corrupted before they fully bloom, pointing toward an underlying blight afflicting the young World Tree."
+  },
+  {
+   "q": "What happens after clearing these sprouts?",
+   "aliases": [
+    "next quest after sprouts",
+    "what follows timberling sprouts"
+   ],
+   "answer": "Denalan continues his investigation into the nature of the lake's sickness, examining samples of soil, seeds, and water to trace the root source of the blight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, Teldrassil is meant to be a fresh sanctuary, making corrupted growth around sacred waters like Lake Al'Ameth a deeply troubling omen."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold responsibility for safeguarding the delicate balance of nature; pruning blighted sprouts is a sad but necessary duty to protect the broader ecosystem."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists have a keen eye for how healthy vegetation ought to grow, recognizing instantly that these sprouts are diseased and unnaturally twisted."
+  }
+ ],
+ "keywords": [
+  "corruption",
+  "denalan",
+  "lake al'ameth",
+  "taint",
+  "teldrassil",
+  "timberling sprouts",
+  "timberlings",
+  "weeding"
+ ],
+ "related": [
+  "npc:denalan",
+  "subzone:lake-al-ameth",
+  "quest:997",
+  "zone:teldrassil"
+ ],
+ "attribution": [
+  "Timberling Sprouts"
+ ]
+}

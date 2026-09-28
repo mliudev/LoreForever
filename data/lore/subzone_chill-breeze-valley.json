@@ -1,0 +1,74 @@
+{
+ "key": "subzone:chill-breeze-valley",
+ "type": "subzone",
+ "name": "Chill Breeze Valley",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Chill Breeze Valley"
+ },
+ "summary": "Chill Breeze Valley is a rugged, snow-covered pass in western Dun Morogh linking the dwarven settlement of Kharanos with the embattled city of Gnomeregan. While its main path is a well-traveled thoroughfare for young travelers and refugees, its secluded recesses harbor dangerous beasts and bloody dens.",
+ "sections": [
+  {
+   "title": "A Crossroads of Snow and Claws",
+   "body": "Chill Breeze Valley forms a T-shaped trench through the mountains of western Dun Morogh. The main east-west trail sees steady foot traffic from novice dwarves and gnomes journeying between Kharanos and the outskirts of Gnomeregan. However, straying into the valley's north-south offshoot is another matter entirely. Strewn with bloodstains and mangled carcasses, these shadowy reaches harbor ferocious predators\u2014most notably savage wendigos that lair in deep ice caves and prey on anyone reckless enough to wander into their hunting grounds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Chill Breeze Valley located?",
+   "aliases": [
+    "chill breeze valley location",
+    "where is chill breeze valley",
+    "chill breeze valley map"
+   ],
+   "answer": "Chill Breeze Valley is situated in western Dun Morogh, positioned directly between the bustling mountain hub of Kharanos to the east and the technological gnome city of Gnomeregan to the west."
+  },
+  {
+   "q": "Why is the valley so dangerous to travel through?",
+   "aliases": [
+    "chill breeze valley monsters",
+    "dangers in chill breeze valley",
+    "why are there bones here"
+   ],
+   "answer": "While the main path between Kharanos and Gnomeregan is relatively safe and heavily traveled, the northern and southern offshoots of the valley are hunting grounds for predatory beasts. The snow there is stained with blood and torn carcasses, leading to caves inhabited by vicious, territorial wendigos."
+  },
+  {
+   "q": "What kinds of beasts make their dens here?",
+   "aliases": [
+    "wendigo in chill breeze valley",
+    "what lives in chill breeze valley"
+   ],
+   "answer": "The deeper recesses of the valley are home to ferocious wendigos, including particularly large and elite alpha beasts that have claimed several cave dens as their personal lairs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomish refugees fleeing the fallout of Gnomeregan toward the safety of Kharanos and Ironforge, surviving the trek through Chill Breeze Valley's predatory perimeter is a critical first step."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Mountaineers and young dwarven hunters test their mettle clearing out the ferocious wendigos that menace the vital passage connecting central Dun Morogh to the western highlands."
+  }
+ ],
+ "keywords": [
+  "caves",
+  "chill breeze valley",
+  "dun morogh",
+  "gnomeregan",
+  "kharanos",
+  "t-shaped",
+  "wendigo"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "subzone:kharanos",
+  "zone:gnomeregan",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Chill Breeze Valley"
+ ]
+}

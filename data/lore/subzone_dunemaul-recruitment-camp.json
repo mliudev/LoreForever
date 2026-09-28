@@ -1,0 +1,69 @@
+{
+ "key": "subzone:dunemaul-recruitment-camp",
+ "type": "subzone",
+ "name": "Dunemaul Recruitment Camp",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Dunemaul Recruitment Camp"
+ },
+ "summary": "The Dunemaul Recruitment Camp is an outpost situated on the desert dunes of Tanaris, just east of the Dunemaul Compound. It serves as an effort by Horde emissaries and opportunistic goblin contractors to harness the brute strength of the local Dunemaul ogres.",
+ "sections": [
+  {
+   "title": "Cheap Labor in the Dunes",
+   "body": "While most wanderers view the Dunemaul ogres of Tanaris as little more than sun-baked brutes and highwaymen, goblin operatives see untapped economic potential. Positioned just outside the main Dunemaul Compound, this small encampment serves as a base to entice, bribe, or coerce the desert ogres into working directly under contractual oversight. By positioning intermediaries and envoys near the compound's edge, recruiters attempt to turn violent wasteland savages into profitable muscle for Horde endeavors.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Dunemaul Recruitment Camp?",
+   "aliases": [
+    "dunemaul camp",
+    "recruitment camp tanaris",
+    "ogre recruitment camp"
+   ],
+   "answer": "It is an outpost established just east of the Dunemaul Compound in Tanaris. Its primary function is to serve as a staging ground for recruiters seeking to bring local desert ogres into service as laborers and enforcers."
+  },
+  {
+   "q": "Why are goblins and the Horde trying to recruit the Dunemaul ogres?",
+   "aliases": [
+    "why recruit dunemaul",
+    "why hire ogres"
+   ],
+   "answer": "Ogres possess immense physical strength, making them ideal heavy laborers and shock troops. Rather than letting them simply raid desert caravans and squander their strength in isolation, enterprising recruiters aim to put them on the payroll as cheap, expendable muscle."
+  },
+  {
+   "q": "Where is the camp located?",
+   "aliases": [
+    "camp location",
+    "where is dunemaul recruitment camp"
+   ],
+   "answer": "You can find it in western Tanaris, positioned right beside the dunes bordering the eastern side of the Dunemaul Compound."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The camp reflects the Horde's pragmatic tradition of enlisting ogre clans for brute strength and heavy labor, bringing wild tribes under practical guidance."
+  }
+ ],
+ "keywords": [
+  "bilgewater",
+  "compound",
+  "dunemaul",
+  "labor",
+  "ogres",
+  "recruitment camp",
+  "tanaris"
+ ],
+ "related": [
+  "subzone:dunemaul-compound",
+  "zone:tanaris",
+  "topic:horde",
+  "subzone:maul-subzone"
+ ],
+ "attribution": [
+  "Dunemaul Recruitment Camp"
+ ]
+}

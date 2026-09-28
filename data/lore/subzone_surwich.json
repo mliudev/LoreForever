@@ -1,0 +1,68 @@
+{
+ "key": "subzone:surwich",
+ "type": "subzone",
+ "name": "Surwich",
+ "era": "classic",
+ "zone": "blastedlands",
+ "meta": {
+  "wiki": "Surwich"
+ },
+ "summary": "Surwich does not exist in this era. The jagged southwestern coast of the Blasted Lands remains a desolate, untamed shoreline battered by the sea and tainted by the fel energies spilling from the Dark Portal.",
+ "sections": [
+  {
+   "title": "A Wild and Desolate Shore",
+   "body": "Travelers making their way along the southern precipices of the Blasted Lands will find no docks, cottages, or fishing nets. The region is a barren wasteland dominated by jagged red earth, prowling scavengers, and the shadow of the Dark Portal to the north. In 25 ADP, the only significant settlement in the entire region is Nethergarde Keep, built by the Alliance to watch the rift. Any quiet coastal haven here is purely a figment of a future that has not come to pass.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the town of Surwich?",
+   "aliases": [
+    "surwich location",
+    "find surwich",
+    "surwich map"
+   ],
+   "answer": "Surwich does not exist in 25 ADP. The southwestern coast of the Blasted Lands where it would later be founded is currently unpopulated, rough wilderness."
+  },
+  {
+   "q": "Are there any Gilnean settlements here?",
+   "aliases": [
+    "gilneans in blasted lands",
+    "gilneas refuge"
+   ],
+   "answer": "No. The kingdom of Gilneas remains sealed entirely behind the colossal Greymane Wall in the north, isolated from the rest of the world and harboring no coastal colonies in the south."
+  },
+  {
+   "q": "Where is the nearest flight path or outpost?",
+   "aliases": [
+    "closest town",
+    "blasted lands flight path",
+    "where to rest"
+   ],
+   "answer": "The sole Alliance stronghold in the Blasted Lands is Nethergarde Keep, situated to the north along the road out of the Swamp of Sorrows. To the west lies Stranglethorn Vale, where Booty Bay sits far down the southern cape."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance explorers scouring the southern cliffs will find no friendly port or sanctuary beyond the fortified walls of Nethergarde Keep to the north."
+  }
+ ],
+ "keywords": [
+  "blasted lands",
+  "coast",
+  "gilneas",
+  "nethergarde",
+  "surwich"
+ ],
+ "related": [
+  "zone:blastedlands",
+  "subzone:nethergarde-keep",
+  "subzone:dark-portal",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Surwich"
+ ]
+}

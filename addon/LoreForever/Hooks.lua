@@ -1,0 +1,465 @@
+-- Ways in that don't need /lore: tooltip lines on NPCs and items, a Lore button on quest frames, clickable chat
+-- links, the addon compartment, and a one-time prompt to bind a key.
+-- Everything here touches Blizzard frames that may differ on the Forever client, so each hook checks first.
+
+local _, ns = ...
+local Hooks = {}
+ns.Hooks = Hooks
+
+local GOLD, GREY = "|cffffd100", "|cff9d9d9d"
+local LORE_TAG = "|cffd4a017Lore:|r "
+local LINK = "addon:LoreForever:"
+
+local function S() return (LoreForeverDB and LoreForeverDB.settings) or {} end
+local function say(msg) DEFAULT_CHAT_FRAME:AddMessage(GOLD .. "Lore Forever:|r " .. msg) end
+local function esc(s) return (tostring(s or ""):gsub("|", "||")) end
+
+-- Quest state the item notes need, refreshed on QUEST_LOG_UPDATE rather than per tooltip.
+Hooks.activeQuests = {}
+function Hooks.RefreshQuests()
+  local active = {}
+  for _, q in ipairs(ns.Context.Quests()) do if q.id then active[q.id] = q end end
+  Hooks.activeQuests = active
+end
+
+Hooks.professions = {}
+function Hooks.RefreshProfessions()
+  local set = {}
+  for _, p in ipairs(ns.Context.Professions()) do set[p.name] = true end
+  Hooks.professions = set
+end
+
+local function questDone(id)
+  local QL = _G.C_QuestLog
+  if QL and QL.IsQuestFlaggedCompleted then
+    local ok, done = pcall(QL.IsQuestFlaggedCompleted, id)
+    return ok and done
+  end
+  return false
+end
+
+local function questEntry(id)
+  local k = ns.DB.index.quest[id]
+  return k and ns.DB.entries[k], k
+end
+
+-- Trade-goods subclasses -> the profession that uses them (classID 7).
+local REAGENT_FOR = { [1] = "Engineering", [2] = "Engineering", [3] = "Engineering", [5] = "Tailoring",
+  [6] = "Leatherworking", [7] = "Blacksmithing", [8] = "Cooking", [9] = "Alchemy", [12] = "Enchanting" }
+
+-- Tooltip lines for an item: why you might want to keep it, then its story. At most two lines, often none.
+-- What the game itself says about quest items in your bags (itemID -> {questID, isActive, isQuestItem}). This covers
+-- delivery items and quest starters the wiki data misses, refreshed on BAG_UPDATE_DELAYED.
+Hooks.bagInfo = {}
+function Hooks.RefreshBags()
+  local CC, info = _G.C_Container, {}
+  if CC and CC.GetContainerNumSlots and CC.GetContainerItemInfo and CC.GetContainerItemQuestInfo then
+    for bag = 0, (NUM_BAG_SLOTS or 4) do
+      local okN, n = pcall(CC.GetContainerNumSlots, bag)
+      for slot = 1, (okN and n or 0) do
+        local ok, ii = pcall(CC.GetContainerItemInfo, bag, slot)
+        if ok and ii and ii.itemID then
+          local okQ, qi = pcall(CC.GetContainerItemQuestInfo, bag, slot)
+          if okQ and qi and (qi.isQuestItem or qi.questID) then
+            info[ii.itemID] = { questID = qi.questID, isActive = qi.isActive, isQuestItem = qi.isQuestItem }
+          end
+        end
+      end
+    end
+  end
+  Hooks.bagInfo = info
+end
+
+local function questTitle(id)
+  local e = questEntry(id)
+  if e then return e.n, e end
+  local q = Hooks.activeQuests[id]
+  if q and q.title then return q.title end
+  local QL = _G.C_QuestLog
+  if QL and QL.GetTitleForQuestID then
+    local ok, t = pcall(QL.GetTitleForQuestID, id)
+    if ok and t and t ~= "" then return t end
+  end
+  return nil
+end
+
+-- The active quest whose objectives mention this item, for quest items the data doesn't link.
+local function questNeeding(name)
+  local lname = name:lower()
+  for id, q in pairs(Hooks.activeQuests) do
+    for _, o in ipairs(q.objectives or {}) do
+      if o:lower():find(lname, 1, true) then return id, q.title end
+    end
+  end
+  return nil
+end
+
+-- Lines from the game's own quest flags for an item in your bags.
+local function bagLines(name, itemID, out)
+  local bi = itemID and Hooks.bagInfo[itemID]
+  if not bi then return end
+  if bi.questID and not bi.isActive then
+    -- The game already says the item begins a quest; name it, but don't tell its story before you've read it.
+    local title = questTitle(bi.questID)
+    out[#out + 1] = { text = "Starts a quest" .. (title and (": " .. title) or ""), r = 0.85, g = 0.85, b = 0.85 }
+  elseif bi.questID or bi.isQuestItem then
+    local id, title = bi.questID, nil
+    if id then title = questTitle(id) else id, title = questNeeding(name) end
+    if title then
+      out[#out + 1] = { text = "Needed for your quest: " .. title, r = 0.5, g = 0.9, b = 0.5 }
+    end
+  end
+end
+
+function Hooks.ItemLines(name, itemID)
+  local out = {}
+  if not name then return out end
+  bagLines(name, itemID, out)
+  local rec = ns.DB.index.item and ns.DB.index.item[name:lower()]
+  if rec and #out == 0 then
+    for _, id in ipairs(rec.p or {}) do
+      if Hooks.activeQuests[id] then
+        local e = questEntry(id)
+        out[#out + 1] = { text = "Carry this for your quest: " .. e.n, r = 0.5, g = 0.9, b = 0.5 }
+        break
+      end
+    end
+  end
+  if rec and #out == 0 then
+    for _, id in ipairs(rec.r or {}) do
+      if Hooks.activeQuests[id] then
+        local e = questEntry(id)
+        out[#out + 1] = { text = "Needed for your quest: " .. e.n, r = 0.5, g = 0.9, b = 0.5 }
+        break
+      end
+    end
+    -- No spoilers: quests you don't have yet are never named. Only the game's own "starts a quest" flag (bagLines,
+    -- title only) and rewards from quests you've already turned in are mentioned.
+    if #out == 0 and rec.w then
+      for _, id in ipairs(rec.w) do
+        local e = questEntry(id)
+        if e and questDone(id) then
+          out[#out + 1] = { text = LORE_TAG .. "earned from " .. e.n .. ".", r = 0.8, g = 0.8, b = 0.8 }
+          break
+        end
+      end
+    end
+  end
+  if #out < 2 and itemID and _G.C_Item and C_Item.GetItemInfoInstant then
+    local ok, _, _, _, _, _, classID, subclassID = pcall(C_Item.GetItemInfoInstant, itemID)
+    local prof = ok and classID == 7 and REAGENT_FOR[subclassID]
+    if prof and Hooks.professions[prof] then
+      out[#out + 1] = { text = "Useful for your " .. prof, r = 0.6, g = 0.85, b = 0.6 }
+    end
+  end
+  while #out > 2 do table.remove(out) end
+  return out
+end
+
+-- Lore line for an NPC or mob name, plus the entry key it came from.
+function Hooks.UnitLine(name)
+  if not (name and ns.engine) then return nil end
+  local key, how = ns.engine:KeyForName(name)
+  local e = key and ns.DB.entries[key]
+  if not e then return nil end
+  local text = e.h or e.s
+  if how == "mob" then text = e.n .. ": " .. text end
+  return LORE_TAG .. text, key
+end
+
+local function bindHint(tooltip)
+  local k = GetBindingKey and GetBindingKey("LOREFOREVER_TOGGLE")
+  local n = GetBindingKey and GetBindingKey("LOREFOREVER_NARRATE")
+  local parts = {}
+  if k then parts[#parts + 1] = k .. " for more" end
+  if n then parts[#parts + 1] = n .. " to listen" end
+  if #parts > 0 then tooltip:AddLine("Press " .. table.concat(parts, ", "), 0.5, 0.5, 0.5) end
+end
+
+local function onUnitTooltip(tooltip)
+  if tooltip ~= GameTooltip or not S().unitTooltips then return end
+  local ok, _, unit = pcall(tooltip.GetUnit, tooltip)
+  if not ok or not unit then return end
+  local name = ns.Context.NPCName(unit)
+  local line, key = Hooks.UnitLine(name)
+  if not line then return end
+  tooltip:AddLine(line, 0.85, 0.85, 0.85, true)
+  bindHint(tooltip)
+  Hooks.hover = { key = key, t = GetTime and GetTime() or 0 }
+  tooltip:Show()
+end
+
+local function onItemTooltip(tooltip)
+  -- Only the main and chat-link tooltips, not the side-by-side comparison ones.
+  if not S().itemTooltips or (tooltip ~= GameTooltip and tooltip ~= _G.ItemRefTooltip) then return end
+  local name, id
+  if _G.TooltipUtil and TooltipUtil.GetDisplayedItem then
+    local ok, n, _, i = pcall(TooltipUtil.GetDisplayedItem, tooltip)
+    if ok then name, id = n, i end
+  elseif tooltip.GetItem then
+    local ok, n, link = pcall(tooltip.GetItem, tooltip)
+    if ok then
+      name = n
+      id = link and tonumber(link:match("item:(%d+)"))
+    end
+  end
+  if not ns.Context.Usable(name) then return end
+  local lines = Hooks.ItemLines(name, id)
+  for _, l in ipairs(lines) do tooltip:AddLine(l.text, l.r, l.g, l.b, true) end
+  if #lines > 0 then tooltip:Show() end
+end
+
+function Hooks.Tooltips()
+  local TDP, E = _G.TooltipDataProcessor, _G.Enum and Enum.TooltipDataType
+  if TDP and TDP.AddTooltipPostCall and E then
+    TDP.AddTooltipPostCall(E.Unit, onUnitTooltip)
+    TDP.AddTooltipPostCall(E.Item, onItemTooltip)
+  elseif GameTooltip and GameTooltip.HookScript then   -- older clients
+    pcall(GameTooltip.HookScript, GameTooltip, "OnTooltipSetUnit", onUnitTooltip)
+    pcall(GameTooltip.HookScript, GameTooltip, "OnTooltipSetItem", onItemTooltip)
+  end
+end
+
+-- Quest frames ---------------------------------------------------------------------------------------------------
+
+local function questKeyFor(id, title)
+  local idx = ns.DB.index
+  return (id and idx.quest[id]) or (title and idx.questTitle[title:lower()])
+end
+
+local function loreButton(parent, name, anchor)
+  local b = CreateFrame("Button", name, parent, "UIPanelButtonTemplate")
+  b:SetSize(60, 20)
+  b:SetText("Lore")
+  b:SetPoint(unpack(anchor))
+  b:SetFrameLevel((parent:GetFrameLevel() or 1) + 5)
+  b:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine("Lore Forever")
+    GameTooltip:AddLine("The story behind this quest.", 1, 1, 1)
+    GameTooltip:Show()
+  end)
+  b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  b:SetScript("OnClick", function(self)
+    if self.key then ns.UI.Open(self.key, nil, self.via) end
+  end)
+  b:Hide()
+  return b
+end
+
+function Hooks.QuestFrames()
+  -- The NPC quest dialog (accept / progress / complete).
+  if _G.QuestFrame and not Hooks.questDialogButton then
+    Hooks.questDialogButton = loreButton(QuestFrame, "LoreForeverQuestDialogButton",
+      { "TOPRIGHT", QuestFrame, "TOPRIGHT", -28, -30 })
+    Hooks.questDialogButton.via = "questdialog"
+  end
+  -- The quest log: modern map-side details panel, or the classic standalone log.
+  local details = _G.QuestMapFrame and QuestMapFrame.DetailsFrame
+  if details and not Hooks.questLogButton then
+    Hooks.questLogButton = loreButton(details, "LoreForeverQuestLogButton", { "TOPRIGHT", details, "TOPRIGHT", -8, 28 })
+    Hooks.questLogButton.via = "questlog"
+    if hooksecurefunc and _G.QuestMapFrame_ShowQuestDetails then
+      hooksecurefunc("QuestMapFrame_ShowQuestDetails", function(questID) Hooks.UpdateQuestLogButton(questID) end)
+    end
+  elseif _G.QuestLogFrame and not Hooks.questLogButton then
+    Hooks.questLogButton = loreButton(QuestLogFrame, "LoreForeverQuestLogButton",
+      { "TOPRIGHT", QuestLogFrame, "TOPRIGHT", -40, -44 })
+    Hooks.questLogButton.via = "questlog"
+    if hooksecurefunc and _G.SelectQuestLogEntry then
+      hooksecurefunc("SelectQuestLogEntry", function() Hooks.UpdateQuestLogButton() end)
+    end
+  end
+end
+
+function Hooks.UpdateQuestDialogButton()
+  local b = Hooks.questDialogButton
+  if not b then return end
+  local id = GetQuestID and GetQuestID()
+  b.key = questKeyFor(id ~= 0 and id or nil, GetTitleText and GetTitleText())
+  b:SetShown(b.key ~= nil)
+end
+
+function Hooks.UpdateQuestLogButton(questID)
+  local b = Hooks.questLogButton
+  if not b then return end
+  if not questID and _G.C_QuestLog and C_QuestLog.GetSelectedQuest then
+    local ok, id = pcall(C_QuestLog.GetSelectedQuest)
+    questID = ok and id or nil
+  end
+  b.key = questKeyFor(questID)
+  b:SetShown(b.key ~= nil)
+end
+
+-- Chat links -------------------------------------------------------------------------------------------------------
+
+-- A clickable chat link. kind: "faq" (key + idx), "entry" (key), "primer" (zone key), "listen" (key), "open".
+function Hooks.Link(text, kind, key, idx)
+  return GOLD .. "|H" .. LINK .. kind .. ":" .. (idx or "") .. ":" .. (key or "") .. "|h[" .. esc(text) .. "]|h|r"
+end
+
+local lastLink, lastLinkAt = nil, 0
+function Hooks.HandleLink(link)
+  if type(link) ~= "string" or link:sub(1, #LINK) ~= LINK then return false end
+  local now = GetTime and GetTime() or 0
+  if link == lastLink and now - lastLinkAt < 0.3 then return true end   -- both handlers fired
+  lastLink, lastLinkAt = link, now
+  local kind, idx, key = link:sub(#LINK + 1):match("^(%a+):(%d*):(.*)$")
+  if kind == "faq" then ns.UI.Open(key, tonumber(idx), "chatlink")
+  elseif kind == "entry" then ns.UI.Open(key, nil, "chatlink")
+  elseif kind == "primer" then ns.UI.ShowPrimer(key, "chatlink")
+  elseif kind == "listen" then ns.UI.ListenTo(ns.UI.EntryTarget(key))
+  elseif kind == "open" then ns.UI.Open(nil, nil, "chatlink") end
+  return true
+end
+
+function Hooks.ChatLinks()
+  if _G.EventRegistry and EventRegistry.RegisterCallback then
+    pcall(EventRegistry.RegisterCallback, EventRegistry, "SetItemRef", function(_, link) Hooks.HandleLink(link) end, Hooks)
+  end
+  if hooksecurefunc and _G.SetItemRef then
+    hooksecurefunc("SetItemRef", function(link) Hooks.HandleLink(link) end)
+  end
+end
+
+-- Key binding prompt -------------------------------------------------------------------------------------------------
+
+local MODIFIER = { LSHIFT = true, RSHIFT = true, LCTRL = true, RCTRL = true, LALT = true, RALT = true,
+  LMETA = true, RMETA = true }
+
+-- The two bindable actions: open the panel, and play the narration for what you hover or where you are.
+local ACTIONS = {
+  toggle = { binding = "LOREFOREVER_TOGGLE", what = "open the lore panel from anywhere, like M for the map",
+             done = "to open the lore panel", cmd = "/lore key" },
+  narrate = { binding = "LOREFOREVER_NARRATE", what = "play the narration for where you are, or for what you're "
+              .. "hovering", done = "to hear the narration for where you are or what you hover", cmd = "/lore key narrate" },
+}
+
+function Hooks.CurrentKey(which)
+  return GetBindingKey and GetBindingKey(ACTIONS[which or "toggle"].binding)
+end
+
+local function bind(combo, which)
+  local a = ACTIONS[which]
+  if InCombatLockdown and InCombatLockdown() then
+    say("can't change key bindings in combat - try again after the fight.")
+    return false
+  end
+  local old = Hooks.CurrentKey(which)
+  if old and old ~= combo then SetBinding(old) end
+  SetBinding(combo, a.binding)
+  if SaveBindings and GetCurrentBindingSet then SaveBindings(GetCurrentBindingSet()) end
+  say("press " .. GOLD .. combo .. "|r " .. a.done .. ". Change it any time with " .. a.cmd .. ".")
+  return true
+end
+
+-- which: "toggle" (default) or "narrate".
+function Hooks.KeyPrompt(which)
+  which = which or "toggle"
+  if Hooks.keyFrame then
+    Hooks.keyFrame.which = which
+    if Hooks.keyFrame:IsShown() then Hooks.keyFrame.idle() end
+    return Hooks.keyFrame
+  end
+  local f = CreateFrame("Frame", "LoreForeverKeyPrompt", UIParent, BackdropTemplateMixin and "BackdropTemplate" or nil)
+  f.which = which
+  f:SetSize(380, 118)
+  f:SetPoint("TOP", 0, -140)
+  f:SetFrameStrata("DIALOG")
+  if f.SetBackdrop then
+    f:SetBackdrop({ bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
+      edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border", tile = true, tileSize = 32, edgeSize = 24,
+      insets = { left = 6, right = 6, top = 6, bottom = 6 } })
+  end
+  local text = f:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
+  text:SetPoint("TOPLEFT", 18, -18)
+  text:SetPoint("TOPRIGHT", -18, -18)
+  text:SetJustifyH("LEFT")
+  f.text = text
+  local choose = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
+  choose:SetSize(120, 22)
+  choose:SetPoint("BOTTOMLEFT", 18, 16)
+  choose:SetText("Choose a key")
+  local later = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
+  later:SetSize(90, 22)
+  later:SetPoint("BOTTOMRIGHT", -18, 16)
+  later:SetText("Not now")
+  f.choose, f.later = choose, later
+
+  local function idle()
+    f.capturing, f.pending = false, nil
+    if f.EnableKeyboard then f:EnableKeyboard(false) end
+    choose:Show()
+    local cur = Hooks.CurrentKey(f.which)
+    text:SetText(GOLD .. "Lore Forever|r\nPick a key to " .. ACTIONS[f.which].what .. "."
+      .. (cur and ("\nCurrently: " .. GOLD .. cur .. "|r") or ""))
+  end
+  f.idle = idle
+  choose:SetScript("OnClick", function()
+    if InCombatLockdown and InCombatLockdown() then
+      text:SetText(GOLD .. "Lore Forever|r\nYou're in combat - choose a key once the fight is over.")
+      return
+    end
+    f.capturing = true
+    choose:Hide()
+    if f.EnableKeyboard then f:EnableKeyboard(true) end
+    if f.SetPropagateKeyboardInput then f:SetPropagateKeyboardInput(false) end
+    text:SetText(GOLD .. "Press a key|r (with Shift/Ctrl/Alt if you like).\nEscape to cancel.")
+  end)
+  later:SetScript("OnClick", function()
+    S().onboarded = true
+    f:Hide()
+  end)
+  f:SetScript("OnKeyDown", function(self, key)
+    if not self.capturing or MODIFIER[key] then return end
+    if key == "ESCAPE" then return idle() end
+    local combo = (IsAltKeyDown() and "ALT-" or "") .. (IsControlKeyDown() and "CTRL-" or "")
+      .. (IsShiftKeyDown() and "SHIFT-" or "") .. key
+    local action = GetBindingAction and GetBindingAction(combo) or ""
+    if action ~= "" and action ~= ACTIONS[self.which].binding and self.pending ~= combo then
+      self.pending = combo
+      local what = _G["BINDING_NAME_" .. action] or action
+      text:SetText(GOLD .. combo .. "|r is already used for " .. esc(what)
+        .. ".\nPress it again to use it anyway, or press a different key.")
+      return
+    end
+    if bind(combo, self.which) then
+      if self.which == "toggle" then S().onboarded = true end
+      self:Hide()
+    end
+  end)
+  f:SetScript("OnShow", idle)
+  f:Hide()
+  Hooks.keyFrame = f
+  return f
+end
+
+-- Once per session, if no key is bound. (Bindings persist even though the beta may drop SavedVariables.)
+-- Combat started: stop capturing keys so they reach the action bars.
+function Hooks.OnCombat()
+  local f = Hooks.keyFrame
+  if f and f.capturing and f.idle then f.idle() end
+end
+
+function Hooks.MaybeOnboard()
+  if Hooks.CurrentKey() or S().onboarded or Hooks.onboardShown then return end
+  Hooks.onboardShown = true
+  Hooks.KeyPrompt():Show()
+end
+
+-- Setup ----------------------------------------------------------------------------------------------------------------
+
+function Hooks.Init()
+  Hooks.RefreshQuests()
+  Hooks.RefreshProfessions()
+  Hooks.RefreshBags()
+  for _, fn in ipairs({ Hooks.Tooltips, Hooks.QuestFrames, Hooks.ChatLinks }) do
+    local ok, err = pcall(fn)
+    if not ok and ns.debug then say("hook failed: " .. tostring(err)) end
+  end
+end
+
+-- Addon compartment (the minimap's add-on menu), declared in the .toc.
+function LoreForever_OnAddonCompartmentClick()
+  LoreForever_Toggle()
+end

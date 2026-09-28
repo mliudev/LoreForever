@@ -1,0 +1,113 @@
+{
+ "key": "quest:92484",
+ "type": "quest",
+ "name": "Embracing the Elements",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   92484
+  ],
+  "level": "2",
+  "faction": "Horde",
+  "start": "Rorian the Dayseeker",
+  "end": "Windshaper Boro",
+  "previous": "Harmony in Balance",
+  "next": null,
+  "wiki": "Embracing the Elements",
+  "chain": []
+ },
+ "summary": "Embracing the Elements is an introductory shaman quest in Thendal Grove on Zephras Isle. Initiated by Rorian the Dayseeker, the task directs young practitioners to Windshaper Boro, the local shaman trainer. It introduces the silent rift between the local people and the elemental spirits of the winds.",
+ "sections": [
+  {
+   "title": "A Summons to the Elements",
+   "body": "After helping manage the vuldren pest problem around the village, aspiring shamans are approached by Rorian the Dayseeker. During their time afield, Windshaper Boro left behind a humming recall crystal, signaling that it is time for formal elemental instruction to begin in the center of the grove.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Silent Winds",
+   "body": "Upon meeting Windshaper Boro, he explains the difficult state of local shamanism. The spirits of the four winds abruptly severed communication years ago, abandoning their former communion. Zephras shamans now dedicate themselves to deep study of the natural world, striving through rigorous training to bridge the silence and coax the spirits into dialogue once more.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Embracing the Elements?",
+   "aliases": [
+    "embracing the elements quest giver",
+    "who starts embracing the elements"
+   ],
+   "answer": "The quest is provided by Rorian the Dayseeker in Thendal Grove on Zephras Isle, immediately after you help handle the local vuldren problem."
+  },
+  {
+   "q": "Where is Windshaper Boro located?",
+   "aliases": [
+    "windshaper boro location",
+    "where is boro",
+    "find windshaper boro"
+   ],
+   "answer": "Windshaper Boro is located near the center of Thendal Grove on Zephras Isle, serving as the settlement's resident shaman trainer."
+  },
+  {
+   "q": "Why did the elemental spirits stop speaking to the people here?",
+   "aliases": [
+    "why are the winds silent",
+    "spirits of the four winds silent",
+    "what happened to the wind spirits"
+   ],
+   "answer": "According to Windshaper Boro, the elemental spirits abruptly ceased all dialogue and left the people years ago. The local shamans do not fully understand why the break occurred, but they continue their studies in hopes of renewing that lost connection."
+  },
+  {
+   "q": "What is the Humming Recall Crystal?",
+   "aliases": [
+    "humming recall crystal",
+    "recall crystal zephras"
+   ],
+   "answer": "The Humming Recall Crystal is an item left behind by Windshaper Boro while you were away helping the settlement. Examining it marks your readiness to take up elemental training under Boro's guidance."
+  },
+  {
+   "q": "What prerequisite quest leads to Embracing the Elements?",
+   "aliases": [
+    "embracing the elements prequest",
+    "what comes before embracing the elements"
+   ],
+   "answer": "It follows the quest Harmony in Balance, where you deal with the vuldren disrupting the surrounding area."
+  },
+  {
+   "q": "What role does Windshaper Boro play in Thendal Grove?",
+   "aliases": [
+    "what does boro do",
+    "windshaper boro role"
+   ],
+   "answer": "Windshaper Boro serves as the community's shaman trainer, guiding new initiates in elemental communion and the study of the natural world."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This quest represents an initiate's first formal introduction to Windshaper Boro, outlining the tragic silence of the elemental winds and the lifelong quest to restore communion."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For Horde travelers visiting Zephras Isle, the quest introduces the unique struggles of the island's elemental callers compared to the traditional earth and spirit traditions of the mainland."
+  }
+ ],
+ "keywords": [
+  "embracing the elements",
+  "humming recall crystal",
+  "rorian the dayseeker",
+  "shaman",
+  "spirits of the four winds",
+  "thendal grove",
+  "windshaper boro",
+  "zephras isle"
+ ],
+ "related": [
+  "npc:rorian-the-dayseeker",
+  "quest:92461",
+  "zone:zephras"
+ ],
+ "attribution": [
+  "Embracing the Elements"
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "key": "npc:keldran",
+ "type": "npc",
+ "name": "Keldran",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Keldran",
+  "refs": 2
+ },
+ "summary": "Keldran is an orc operative stationed just north of the Valley of Spirits in Orgrimmar. Dedicated to paving the way for eventual diplomacy with the Alliance, he coordinates covert strikes against demonic remnants to prove the modern Horde has truly forsaken the Burning Legion.",
+ "sections": [
+  {
+   "title": "A Diplomatic Crusade",
+   "body": "While Thrall governs from the Valley of Wisdom, Keldran works from the city's red rock terraces to solve a lingering diplomatic disaster. The Alliance still views all orcs as bloodthirsty puppets of demonic masters, a reputation cemented during the first wars. Convinced that even Thrall tires of endless conflict, Keldran believes true peace talks can never occur while demon-worshiping cults endure in Kalimdor. Without formal sanction from the Warchief, he takes the initiative upon himself, directing trusted agents toward distant threats to dismantle the demonic stain once and for all.",
+   "spoiler": 0
+  },
+  {
+   "title": "The War in Desolace",
+   "body": "To build his case to the Alliance, Keldran targets the grim wastes of Desolace. He dispatched Takata Steelblade and Maurin Bonesplitter to spearhead operations against the demonic infestations there, placing special emphasis on wiping out the Burning Blade cultists. By eradicating these demonic practitioners and bringing tangible proof back to Orgrimmar, Keldran hopes to demonstrate unequivocally that the new Horde is as much an enemy of the Legion as the humans and night elves are.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Keldran?",
+   "aliases": [
+    "who is keldran",
+    "keldran lore",
+    "keldran npc"
+   ],
+   "answer": "Keldran is an orc located north of the Valley of Spirits in Orgrimmar who organizes efforts to purge demonic influence and open a path toward diplomatic relations with the Alliance."
+  },
+  {
+   "q": "Why does Keldran care about relations with the Alliance?",
+   "aliases": [
+    "why alliance relations",
+    "keldran motives",
+    "why does he want peace"
+   ],
+   "answer": "Keldran believes that Thrall is growing weary of continuous war with the Alliance. He knows peace talks will remain impossible as long as the Alliance assumes the Horde is still in league with the Burning Legion."
+  },
+  {
+   "q": "Is Keldran acting under Thrall's official orders?",
+   "aliases": [
+    "did thrall send keldran",
+    "thrall orders keldran",
+    "is keldran sanctioned"
+   ],
+   "answer": "No. Keldran lacks official authorization from Warchief Thrall for his operation, choosing to act independently to clear the Horde's name and set the groundwork for future peace."
+  },
+  {
+   "q": "What is Keldran doing in Desolace?",
+   "aliases": [
+    "desolace operation",
+    "why desolace",
+    "keldran burning blade"
+   ],
+   "answer": "He dispatched Takata Steelblade and Maurin Bonesplitter to Desolace to purge the local demonic forces and decisively eradicate the presence of the Burning Blade cult."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Keldran represents the forward-thinking segment of the Horde that recognizes the dire need to shed their demonic reputation if they are ever to secure lasting peace on Kalimdor."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Keldran's covert war against the Burning Blade underscores how severely the Horde's leadership wishes to distance itself from uncontrolled demonic corruption."
+  }
+ ],
+ "keywords": [
+  "alliance relations",
+  "burning blade",
+  "desolace",
+  "keldran",
+  "maurin bonesplitter",
+  "orgrimmar",
+  "takata steelblade",
+  "valley of spirits"
+ ],
+ "related": [
+  "quest:1431",
+  "subzone:valley-of-spirits",
+  "zone:orgrimmar",
+  "npc:takata-steelblade",
+  "npc:maurin-bonesplitter",
+  "zone:desolace",
+  "npc:thrall",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "Keldran"
+ ]
+}

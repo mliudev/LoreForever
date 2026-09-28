@@ -1,0 +1,124 @@
+{
+ "key": "quest:1702",
+ "type": "quest",
+ "name": "The Shieldsmith",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1702
+  ],
+  "level": "22",
+  "faction": "Alliance",
+  "start": "Yorus Barleybrew",
+  "end": "Furen Longbeard",
+  "previous": "The Rethban Gauntlet",
+  "next": "Fire Hardened Mail",
+  "wiki": "The Shieldsmith",
+  "chain": []
+ },
+ "summary": "Following a harrowing trial in the Redridge Mountains, Yorus Barleybrew sends warriors to Stormwind's Dwarven District to collect their true reward. Bearing a potent cask of Barleybrew Scalder, martial travelers seek out master armorer Furen Longbeard to fashion a stout shield.",
+ "sections": [
+  {
+   "title": "A Promise Kept",
+   "body": "After proving their mettle against the gnolls and perils of the Rethban Gauntlet, warriors expect compensation from Yorus Barleybrew. While Yorus honors his bargain, the true prize cannot be hammered out in Lakeshire. Instead, he directs promising fighters back to Stormwind City, where a dwarven armorer stands ready to repay a personal debt.",
+   "spoiler": 0
+  },
+  {
+   "title": "Barleybrew's Finest",
+   "body": "Rather than a parchment letter of credit, Yorus provides currency far more persuasive to a thirsty Ironforge artisan: a heavy cask of Barleybrew Scalder. Delivered to Furen Longbeard amidst the clatter and soot of the Dwarven District, the brew serves as both introduction and payment, prompting the seasoned smith to lend his craft to an aspiring protector.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Furen Longbeard?",
+   "aliases": [
+    "furen longbeard",
+    "who is furen",
+    "who is the shieldsmith"
+   ],
+   "answer": "Furen Longbeard is a master dwarven armorer and shieldsmith stationed in the Dwarven District of Stormwind City. Renowned among Alliance warriors, he crafts specialized defensive gear and works closely with martial veterans who earn his respect."
+  },
+  {
+   "q": "Why does Yorus send you to Stormwind?",
+   "aliases": [
+    "why go to stormwind",
+    "why stormwind",
+    "yorus reward location"
+   ],
+   "answer": "While Yorus Barleybrew offered a reward for clearing the Rethban Gauntlet, he lacks the specialized smithing skills to forge the promised martial shield himself. He sends you to his friend Furen Longbeard, who owes him a significant favor."
+  },
+  {
+   "q": "What is Barleybrew Scalder?",
+   "aliases": [
+    "cask of scalder",
+    "barleybrew scalder",
+    "what is the scalder"
+   ],
+   "answer": "Barleybrew Scalder is an exceptionally potent dwarven beverage crafted by the Barleybrew family. Yorus sends a fresh cask to Furen Longbeard to quench the smith's thirst and grease the wheels of their arrangement."
+  },
+  {
+   "q": "Where can Furen Longbeard be found?",
+   "aliases": [
+    "furen location",
+    "where is furen longbeard",
+    "find furen"
+   ],
+   "answer": "Furen Longbeard can be found tending his forge in the heart of the Dwarven District in Stormwind City, surrounded by the soot, anvils, and workshops of dwarven crafters."
+  },
+  {
+   "q": "What happens after giving Furen the cask?",
+   "aliases": [
+    "what comes next",
+    "furen follow up quest"
+   ],
+   "answer": "Receiving the Scalder confirms that Yorus sent you. Furen acknowledges his debt and immediately offers to construct defensive armor suited for seasoned battle, beginning a path toward crafting fire-hardened gear."
+  },
+  {
+   "q": "Why is this errand important for Alliance warriors?",
+   "aliases": [
+    "warrior quest importance",
+    "why warriors care"
+   ],
+   "answer": "This errand introduces an Alliance warrior to one of the most capable armorers in the kingdom, opening the door to tailored martial gear and further instruction in the art of defensive warfare."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This delivery bridges the grit of Redridge with the mastercraft of Stormwind, proving your right to carry a shield forged by a legendary dwarven armorer."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Trading a cask of fine Barleybrew ale for forged iron in the heart of Stormwind's Dwarven District is about as quintessentially dwarven as business gets."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Meeting Furen Longbeard connects you with a master of the anvil whose specialized work on defensive armor is celebrated throughout the Alliance."
+  }
+ ],
+ "keywords": [
+  "barleybrew scalder",
+  "cask",
+  "dwarven district",
+  "furen longbeard",
+  "rethban",
+  "shieldsmith",
+  "stormwind",
+  "warrior",
+  "yorus barleybrew"
+ ],
+ "related": [
+  "npc:furen-longbeard",
+  "quest:1699",
+  "quest:1701",
+  "quest:1698",
+  "subzone:dwarven-district",
+  "topic:stormwind-kingdom",
+  "quest:116"
+ ],
+ "attribution": [
+  "The Shieldsmith"
+ ]
+}

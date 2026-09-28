@@ -1,0 +1,120 @@
+{
+ "key": "quest:1686",
+ "type": "quest",
+ "name": "The Shade of Elura",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   1686
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Elanaria",
+  "end": "",
+  "previous": "Vorlus Vilehoof (quest)",
+  "next": "Smith Mathiel",
+  "wiki": "The Shade of Elura",
+  "chain": []
+ },
+ "summary": "\"The Shade of Elura\" is an early rite of passage for young night elf warriors, directed by the warrior trainer Elanaria in Darnassus. It tasks the warrior with diving into the waters off Auberdine to lay a tormented sea captain's ghost to rest and salvage crates of rare Elunite ore. Securing these materials provides the foundation for crafting a custom martial weapon.",
+ "sections": [
+  {
+   "title": "A Captain's Eternal Guard",
+   "body": "Long ago, a vessel bearing a shipment of rare Elunite ore foundered upon the jagged coastal rocks near the Auberdine lighthouse. In despair and unyielding loyalty to her duty, the ship's captain, Elura, laid a curse upon her own soul. Bound to the wreckage beneath the waves, her shade lingers on the seabed to defend her lost cargo from any who dare disturb it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Weapons of Elunite",
+   "body": "For night elf warriors coming into their own, claiming their first true crafted weapon requires both martial skill and respect for fallen kin. Trainer Elanaria sends aspiring fighters into the cold surf of Darkshore not merely to salvage metal, but to defeat the Shade of Elura and recover her medallion. Putting Elura to rest frees the cursed captain from her vigil and yields the raw ore needed for Smith Mathiel's forge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the Shade of Elura?",
+   "aliases": [
+    "shade of elura lore",
+    "who is elura",
+    "captain elura"
+   ],
+   "answer": "Elura was the captain of an elven ship that wrecked on the treacherous shallows near the Auberdine lighthouse. Rather than abandoning her duty, she cursed herself in life or death to vigilantly guard her vessel's sunken cargo of Elunite ore for all time."
+  },
+  {
+   "q": "Why does Elanaria send warriors after Elura?",
+   "aliases": [
+    "why do we kill elura",
+    "elanaria quest purpose"
+   ],
+   "answer": "Elanaria seeks to both put Elura's tormented spirit to peace and recover the sunken Elunite ore. Defeating the captain and claiming her medallion proves a young warrior's prowess while securing the raw materials required to forge a superior weapon."
+  },
+  {
+   "q": "Where did the wreck happen?",
+   "aliases": [
+    "where is the shipwreck",
+    "elura ship location"
+   ],
+   "answer": "The wreck lies submerged off the coast of Auberdine in Darkshore, near the lighthouse and just south of the main harbor docks, scattered along the ocean bed."
+  },
+  {
+   "q": "What is Elunite ore used for?",
+   "aliases": [
+    "what is elunite",
+    "elunite ore purpose"
+   ],
+   "answer": "Elunite is a rare ore valued by night elven smiths. In this trial, the salvaged crates are brought to the blacksmith Smith Mathiel in Darnassus to forge a personalized martial weapon for promising warriors."
+  },
+  {
+   "q": "Does defeating the shade harm Elura permanently?",
+   "aliases": [
+    "did elura die",
+    "is elura saved"
+   ],
+   "answer": "Defeating her shade breaks the self-inflicted curse binding her spirit to the sea floor. As Elanaria notes, besting her in combat brings the captain much-deserved peace after centuries of cold, spectral vigil."
+  },
+  {
+   "q": "Who crafts the weapon once the ore is collected?",
+   "aliases": [
+    "who makes the elunite weapon",
+    "next quest after elura"
+   ],
+   "answer": "Once Elanaria receives the ore and medallion, she directs the warrior to Smith Mathiel in the Craftsmen's Terrace of Darnassus, who works the metal into an exceptional weapon."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This quest represents a defining step in a night elf warrior's career, testing aquatic grit and martial discipline to earn a forged weapon of Elunite."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Putting Elura's shade to rest honors a fellow kaldorei whose boundless sense of duty trapped her beneath the waves for generations."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The salvage of sunken Elunite highlights the unique metallurgical traditions of the night elves, who craft potent armaments from blessed materials."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "darnassus",
+  "elanaria",
+  "elunite ore",
+  "elura",
+  "shade of elura",
+  "smith mathiel",
+  "weapons of elunite"
+ ],
+ "related": [
+  "quest:1692",
+  "quest:1693",
+  "npc:elanaria",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "The Shade of Elura"
+ ]
+}

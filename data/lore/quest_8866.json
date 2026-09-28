@@ -1,0 +1,113 @@
+{
+ "key": "quest:8866",
+ "type": "quest",
+ "name": "Bronzebeard the Elder",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   8866
+  ],
+  "level": "",
+  "faction": null,
+  "start": "Elder Bronzebeard",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Bronzebeard the Elder",
+  "chain": []
+ },
+ "summary": "Bronzebeard the Elder is a Lunar Festival encounter with Elder Bronzebeard within the dwarven mountain city of Ironforge. Honoring him during this ancestral celebration rewards travelers with wisdom and a token of his esteem. It reflects the deep reverence the folk of Khaz Modan hold for their forebears and long-lived heritage.",
+ "sections": [
+  {
+   "title": "Homage to the Mountain Clan",
+   "body": "During the Lunar Festival, spirits and venerable elders manifest across Azeroth to share their wisdom with travelers honoring the past. In Ironforge, Elder Bronzebeard stands as an embodiment of the stalwart resilience of the Bronzebeard clan. When approached by adventurers seeking to pay their respects, he expresses quiet satisfaction that the people of this land still acknowledge and honor the lineage of the olden races.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tokens of Ancestral Esteem",
+   "body": "The encounter requires no great trial or perilous expedition, asking only that travelers pause, acknowledge the elder's presence, and offer greeting. In turn, Elder Bronzebeard extends his well wishes and bestows a Coin of Ancestry. These sacred festival tokens serve as physical reminders of the living connection between modern heroes and the generations who forged Khaz Modan from stone and fire.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elder Bronzebeard?",
+   "aliases": [
+    "elder bronzebeard",
+    "who is the elder",
+    "ironforge elder"
+   ],
+   "answer": "Elder Bronzebeard is an ancestral dwarf honored during the Lunar Festival, found resting inside the subterranean stronghold of Ironforge to greet visitors and celebrate their heritage."
+  },
+  {
+   "q": "What does honoring Elder Bronzebeard signify?",
+   "aliases": [
+    "why honor bronzebeard",
+    "bronzebeard elder purpose"
+   ],
+   "answer": "Greeting him is an act of venerating the ancestors during the Lunar Festival. He commends travelers for remembering the roots and ancient sacrifices of the early races of Azeroth."
+  },
+  {
+   "q": "Where in Ironforge is Elder Bronzebeard found?",
+   "aliases": [
+    "elder bronzebeard location",
+    "where is bronzebeard the elder",
+    "ironforge elder spot"
+   ],
+   "answer": "He can be found standing within Ironforge, accessible to those exploring the mountain city to seek festival elders and pay their respects."
+  },
+  {
+   "q": "Can Horde players speak with Elder Bronzebeard?",
+   "aliases": [
+    "can horde do this quest",
+    "horde elder bronzebeard"
+   ],
+   "answer": "Elder Bronzebeard will acknowledge anyone willing to greet him, but Horde adventurers must brave the fortified depths of Ironforge and dodge the dwarven guards to reach him."
+  },
+  {
+   "q": "What reward does the elder bestow?",
+   "aliases": [
+    "elder bronzebeard reward",
+    "what token does he give"
+   ],
+   "answer": "He offers his ancestral blessing alongside a festival coin, serving as a token of goodwill and proof of honoring the ancient generations."
+  },
+  {
+   "q": "Does this quest involve any combat?",
+   "aliases": [
+    "do i have to fight",
+    "bronzebeard the elder fight"
+   ],
+   "answer": "No combat is required to speak with him; it simply entails approaching the venerable elder respectfully, though hostile territory may pose danger along the journey."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, paying homage to Elder Bronzebeard is a direct communion with the noble ancestors who built their mountain kingdom out of stone and iron."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The elder resides peacefully within the capital of Ironforge, welcoming Alliance members looking to celebrate ancient traditions under the mountain."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Reaching Elder Bronzebeard represents a perilous intrusion into Ironforge's fortified core, requiring stealth or daring to offer greetings."
+  }
+ ],
+ "keywords": [
+  "ancestors",
+  "bronzebeard",
+  "coin of ancestry",
+  "elder",
+  "ironforge",
+  "lunar festival"
+ ],
+ "related": [
+  "npc:elder-bronzebeard"
+ ],
+ "attribution": [
+  "Bronzebeard the Elder"
+ ]
+}

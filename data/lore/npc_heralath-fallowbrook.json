@@ -1,0 +1,92 @@
+{
+ "key": "npc:heralath-fallowbrook",
+ "type": "npc",
+ "name": "Heralath Fallowbrook",
+ "era": "classic",
+ "zone": "razorfenkraul",
+ "meta": {
+  "wiki": "Heralath Fallowbrook",
+  "refs": 1
+ },
+ "summary": "Heralath Fallowbrook is a dying night elf druid imprisoned deep within Razorfen Kraul. Dispatched to investigate the thorny corruption surrounding the remains of the Ancient Agamaggan, he was captured and brutalized by the Razorfen tribe. With his final breaths, he seeks to send word of his fate and a cherished pendant back to his wife in Darnassus.",
+ "sections": [
+  {
+   "title": "A Tragic Mission",
+   "body": "Sent by his people to investigate the ancient boar god Agamaggan and the spreading briars choking the southern Barrens, Heralath Fallowbrook sought the root of Razorfen Kraul's corruption. Instead of unearthing answers, the night elf was taken prisoner by the quilboar. Locked in a squalid pen and relentlessly beaten, Heralath succumbed to severe wounds and raging fever. Before fading entirely, he shared what he knew with a fellow captive, the dwarf Henrig Lonebrow, urging him to warn the sentinel outpost at Thalanaar about the aggression stirred up by the quilboar crone Charlga Razorflank.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Dying Wish",
+   "body": "Though Lonebrow managed to escape, Heralath was far too weak to flee. Lingering at death's door within the tangled pens of the Kraul, the druid clings to consciousness only long enough to entreat passing adventurers. He asks not for rescue, but for his wife Treshala's pendant to be recovered from his captors and carried back to Darnassus, ensuring she learns of his fate and knows he held her memory to the end.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Heralath Fallowbrook?",
+   "aliases": [
+    "who is heralath",
+    "heralath fallowbrook",
+    "night elf in razorfen"
+   ],
+   "answer": "Heralath Fallowbrook is a night elf druid held captive inside Razorfen Kraul. He traveled to the Barrens to study the corruption of the brambles and the legacy of the fallen boar Ancient Agamaggan, but was captured and fatally tortured by the quilboar."
+  },
+  {
+   "q": "What happened to Heralath inside Razorfen Kraul?",
+   "aliases": [
+    "why is heralath dying",
+    "what happened to heralath fallowbrook"
+   ],
+   "answer": "After being taken prisoner by the Razorfen quilboar, Heralath was beaten and locked in a hut. Between relentless abuse and illness, his body failed him, leaving him near death by the time rescuers could reach him."
+  },
+  {
+   "q": "What does Heralath ask travelers to do?",
+   "aliases": [
+    "heralath quest",
+    "mortality wanes quest"
+   ],
+   "answer": "Knowing he will not survive, Heralath begs adventurers to recover his wife's pendant from the quilboar and bring it to her in Darnassus, bearing the tragic news of his death."
+  },
+  {
+   "q": "Who was Henrig Lonebrow to Heralath?",
+   "aliases": [
+    "henrig lonebrow heralath",
+    "dwarf captive razorfen"
+   ],
+   "answer": "Henrig Lonebrow was a dwarf captive held in the same pen as Heralath. Before Henrig managed to escape, Heralath shared vital information about Agamaggan with him and pleaded that word be delivered to the outpost of Thalanaar about Charlga Razorflank's movements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Seeing a fellow druid broken by the savage brambles of Razorfen Kraul is a stark reminder of the wild, unyielding corruption spreading unchecked through the southern Barrens."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Carrying Heralath's pendant back to Darnassus honors a fallen brother who gave his life attempting to understand and heal the wounded lands of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "agamaggan",
+  "fallowbrook",
+  "henrig lonebrow",
+  "heralath",
+  "mortality wanes",
+  "quilboar",
+  "razorfen kraul",
+  "treshala"
+ ],
+ "related": [
+  "quest:1142",
+  "npc:treshala-fallowbrook",
+  "zone:razorfenkraul",
+  "quest:1100",
+  "topic:agamaggan",
+  "npc:charlga-razorflank",
+  "subzone:thalanaar",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Heralath Fallowbrook"
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "key": "quest:846",
+ "type": "quest",
+ "name": "Revenge of Gann",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   846
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Gann Stonespire",
+  "end": "",
+  "previous": "Gann's Reclamation",
+  "next": "Revenge of Gann (2)",
+  "wiki": "Revenge of Gann",
+  "chain": [
+   "Gann's Reclamation",
+   "Revenge of Gann",
+   "Revenge of Gann (2)"
+  ]
+ },
+ "summary": "Revenge of Gann is a Horde quest in the southern Barrens where the grieving tauren exile Gann Stonespire plans retribution against the Bael Modan expedition. Having eliminated Prospector Khazgorm, Gann directs travelers into the dwarven fortress to gather volatile munitions for an explosive counterattack.",
+ "sections": [
+  {
+   "title": "A Taste of Their Own Medicine",
+   "body": "Prospector Khazgorm's death delivered a setback to the Bael Modan dig site, but Gann Stonespire knows it is merely temporary. Dwarven operations rarely pause for long, and a new foreman will soon arrive to oversee the machines gutting his ancestral territory. Refusing to watch the earth suffer further excavation, Gann resolves to strike back using the invaders' own technology. By turning their demolitions gear into an instrument of sabotage, he plans to rupture their stronghold from within.",
+   "spoiler": 0
+  },
+  {
+   "title": "Raiding the Keep",
+   "body": "Bael Modan's fortress serves as both an excavation base and a fortified garrison, outfitted with soldiers, riflemen, and officers protecting dwarven interests in the Barrens. Gann discovers that the defenders stockpile materials suited for industrial demolition: nitroglycerin, wood pulp, and sodium nitrate. He tasks Horde allies with infiltrating the perimeter to strip these volatile components directly from dwarven ranks, stockpiling enough raw material to assemble a devastating satchel charge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Gann Stonespire seeking revenge?",
+   "aliases": [
+    "why gann angry",
+    "gann stonespire motive",
+    "what did dwarves do to gann"
+   ],
+   "answer": "The Ironforge dwarves of Bael Modan overran Gann's ancestral homeland, desecrating the soil and driving his people out to establish their excavation site. After recovering his personal belongings and slaying the chief prospector, Gann aims to halt their ongoing destruction permanently."
+  },
+  {
+   "q": "Where are the explosive materials found?",
+   "aliases": [
+    "where to get nitroglycerin",
+    "how to get wood pulp",
+    "where is sodium nitrate"
+   ],
+   "answer": "The ingredients are carried by the dwarven personnel defending Bael Modan. Riflemen, soldiers, and officers within and around the fortified dig site in the southern Barrens carry the nitroglycerin vials, wood pulp bundles, and sodium nitrate samples."
+  },
+  {
+   "q": "Why does Gann need wood pulp and chemicals?",
+   "aliases": [
+    "why wood pulp",
+    "what does gann make",
+    "gann bomb ingredients"
+   ],
+   "answer": "Dwarven excavation schematics reveal that stabilizing volatile nitroglycerin with wood pulp and mixing it with sodium nitrate yields a reliable industrial explosive. Gann intends to craft a customized demolitions charge to blow apart key dwarven structures."
+  },
+  {
+   "q": "What happens after gathering the supplies?",
+   "aliases": [
+    "what next revenge of gann",
+    "after gathering ingredients"
+   ],
+   "answer": "Once you return the raw components, Gann assembles an explosive charge and tasks you with placing it deep within the Bael Modan fortress to cripple the excavation effort and shatter their command structure."
+  },
+  {
+   "q": "Why doesn't slaying Khazgorm end the dwarven threat?",
+   "aliases": [
+    "why didn't khazgorm death work",
+    "is bael modan stopped"
+   ],
+   "answer": "Khazgorm was merely the lead prospector. The dwarven military presence at Bael Modan is deeply entrenched, fortified with defensive walls and supply lines. Ironforge will simply send another foreman to continue digging unless the entire base suffers a catastrophic blow."
+  },
+  {
+   "q": "What is Bael Modan's strategic threat to the Horde?",
+   "aliases": [
+    "why horde care about bael modan",
+    "bael modan threat"
+   ],
+   "answer": "Though originally constructed as a fortified dig site to unearth ancient titan artifacts, Bael Modan has expanded into a heavily manned Alliance bastion. Poised along the trade routes of the southern Barrens, it presents an active military threat to nearby Kalimdor Horde settlements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For the tauren, Bael Modan represents a grievous wound against the Earth Mother, making the sabotage of dwarven machinery a spiritual and territorial duty."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Neutralizing dwarven operations in the southern Barrens prevents an Alliance military beachhead from severing transit between Mulgore, Crossroads, and the southern frontier."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The combination of nitroglycerin, sodium nitrate, and pulp demonstrates classic dwarven industrial dynamite formulation, adapted on the fly for asymmetric warfare."
+  }
+ ],
+ "keywords": [
+  "bael modan",
+  "barrens",
+  "dynamite",
+  "explosives",
+  "gann stonespire",
+  "ironforge",
+  "khazgorm",
+  "nitroglycerin",
+  "sodium nitrate",
+  "wood pulp"
+ ],
+ "related": [
+  "npc:gann-stonespire",
+  "quest:843",
+  "subzone:bael-modan",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Revenge of Gann"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "key": "npc:craven-drok",
+ "type": "npc",
+ "name": "Craven Drok",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Craven Drok",
+  "refs": 1
+ },
+ "summary": "Craven Drok is a wandering orc found skulking in the dimly lit tunnels of the Cleft of Shadow beneath Orgrimmar. True to his moniker, he keeps to the dark corners of the city, occasionally reaching out to travelers willing to deliver sensitive correspondence concerning the Horde's enemies.",
+ "sections": [
+  {
+   "title": "A Skulker in the Shadows",
+   "body": "While most orcs of Orgrimmar proudly walk the sunlit avenues of the Valley of Honor or the Valley of Strength, Craven Drok avoids the daylight entirely. He haunts the winding, subterranean paths of the Cleft of Shadow, an enclave typically reserved for warlocks, rogues, and practitioners of less honorable trades. Drok lives up to his cowardly reputation, preferring to stay out of sight while hiring passersby to carry out his discreet errands, including dispatches touching on Alliance activities.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Craven Drok?",
+   "aliases": [
+    "craven drok location",
+    "where is craven drok",
+    "drok orgrimmar loc"
+   ],
+   "answer": "Craven Drok wanders the cavernous underground pathways of the Cleft of Shadow, situated deep beneath the main thoroughfares of Orgrimmar."
+  },
+  {
+   "q": "Why is he called 'Craven'?",
+   "aliases": [
+    "why is he craven",
+    "craven drok name",
+    "is craven drok a coward"
+   ],
+   "answer": "Orcish culture prizes overt bravery and martial glory above all else. Drok earns his moniker by skulking in dark caverns, keeping his head down, and contracting others to handle tasks he prefers not to deal with personally."
+  },
+  {
+   "q": "What is his involvement with the Alliance?",
+   "aliases": [
+    "craven drok alliance",
+    "alliance relations drok"
+   ],
+   "answer": "Drok is connected to a dispatch regarding Alliance relations, serving as an intermediary who sends couriers across Horde territory with vital communications regarding enemy factions."
+  },
+  {
+   "q": "Is Craven Drok related to Captain Drok?",
+   "aliases": [
+    "captain drok relative",
+    "drok family"
+   ],
+   "answer": "While they share the same surname and heritage, any exact familial connection between Craven Drok and Captain Drok remains unconfirmed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Most orcs regard Craven Drok with disdain, as his preference for lurking in the gloomy Cleft of Shadow stands in stark contrast to traditional notions of orcish honor and courage."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The Cleft of Shadow is the natural gathering place for those who operate outside the spotlight, making contacts like Drok typical of the subterranean underworld beneath the capital."
+  }
+ ],
+ "keywords": [
+  "alliance relations",
+  "captain drok",
+  "cleft of shadow",
+  "craven drok",
+  "orgrimmar"
+ ],
+ "related": [
+  "subzone:cleft-of-shadow",
+  "zone:orgrimmar",
+  "quest:1431",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Craven Drok"
+ ]
+}

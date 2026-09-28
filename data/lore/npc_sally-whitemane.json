@@ -1,0 +1,124 @@
+{
+ "key": "npc:sally-whitemane",
+ "type": "npc",
+ "name": "Sally Whitemane",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Sally Whitemane",
+  "refs": 5
+ },
+ "summary": "Sally Whitemane is the High Inquisitor of the Scarlet Crusade, presiding over the Cathedral of the Scarlet Monastery. A powerful priestess of the Holy Light, her consuming hatred for the undead drives the Crusade's uncompromising zealotry. Together with Scarlet Commander Renault Mograine, she directs the order's military and ideological campaigns across Lordaeron.",
+ "sections": [
+  {
+   "title": "Tragedy in Lordaeron",
+   "body": "Sally Whitemane spent her youth in Southshore alongside childhood companions Renault Mograine and James Vishas. That innocence vanished during the Third War when her family traveled north through Lordaeron and succumbed to the plague of undeath. Forced to personally put down her own parents and siblings after they rose as mindless Scourge minions, Whitemane was left consumed by guilt, grief, and unyielding rage. From that day onward, she dedicated her life solely to eradicating undeath in all its forms.",
+   "spoiler": 0
+  },
+  {
+   "title": "High Inquisitor of the Crusade",
+   "body": "Rising rapidly through the Scarlet Crusade's hierarchy, Whitemane became its High Inquisitor and took command of the Scarlet Monastery's grand Cathedral. Renowned for her fearsome mastery of Holy magic, she led relief forces to rescue Hearthglen from the Scourge and stood as a guiding hand during the induction of high-ranking Crusaders like Taelan Fordring. Her absolute conviction has made her one of the Crusade's foremost symbols, wielding the Light as an unrelenting weapon against any deemed unclean.",
+   "spoiler": 0
+  },
+  {
+   "title": "Targets in the Cathedral",
+   "body": "By 25 ADP, Whitemane's fanaticism has drawn enemies from both factions. In Southshore, Raleigh the Devout believes the Crusade has strayed irreparably into corruption and madness, calling for the elimination of Whitemane and Mograine to restore the order's founding virtues. Meanwhile, within the Undercity, the dreadlord Varimathras orchestrates strikes against the Monastery to crush the zealots operating directly on the Forsaken's doorstep.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sally Whitemane?",
+   "aliases": [
+    "whitemane lore",
+    "who is high inquisitor whitemane",
+    "scarlet monastery boss"
+   ],
+   "answer": "Sally Whitemane is the High Inquisitor of the Scarlet Crusade. She commands the order's spiritual and inquisitorial efforts from the Cathedral inside the Scarlet Monastery in Tirisfal Glades, fighting alongside Commander Renault Mograine."
+  },
+  {
+   "q": "Why does Whitemane hate the undead so much?",
+   "aliases": [
+    "why does whitemane hate scourge",
+    "whitemane backstory",
+    "whitemane family"
+   ],
+   "answer": "During the Third War, Whitemane's family was infected by the plague of undeath while traveling through northern Lordaeron. She was forced to slay her own parents and siblings once they reanimated as mindless Scourge, scarring her with immense grief and driving her obsessive mission to eradicate all undead."
+  },
+  {
+   "q": "Where did Whitemane grow up?",
+   "aliases": [
+    "whitemane childhood",
+    "where is whitemane from"
+   ],
+   "answer": "She grew up in the town of Southshore in the Hillsbrad Foothills, playing games of monster-slaying alongside childhood friends Renault Mograine and James Vishas long before they joined the Scarlet Crusade."
+  },
+  {
+   "q": "Why does the Alliance want Whitemane dead?",
+   "aliases": [
+    "raleigh the devout whitemane",
+    "why kill whitemane alliance",
+    "in the name of the light quest"
+   ],
+   "answer": "Raleigh the Devout, a former Crusader in Southshore, believes the Scarlet Crusade has devolved into paranoia and madness. He asks Alliance champions to eliminate Whitemane and Mograine so the order can potentially return to its honorable origins."
+  },
+  {
+   "q": "Why does the Horde want Whitemane dead?",
+   "aliases": [
+    "varimathras whitemane quest",
+    "into the scarlet monastery",
+    "why horde kills whitemane"
+   ],
+   "answer": "Varimathras and the Forsaken in the Undercity view the Scarlet Crusade as an active, hostile presence right outside their capital. The dreadlord orders her death to shatter the Monastery's leadership and remove an immediate threat to the Forsaken realm."
+  },
+  {
+   "q": "What is Whitemane's relationship with Renault Mograine?",
+   "aliases": [
+    "whitemane and mograine",
+    "commander mograine and whitemane"
+   ],
+   "answer": "Whitemane and Renault Mograine were childhood companions in Southshore who grew into the dual leaders of the Scarlet Monastery. Fighting side by side in the Cathedral, they share an intimate bond and mutual devotion to the Crusade's crusade against undeath."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Whitemane demonstrates the terrifying power of the Holy Light when fused with unbending zealotry, serving as a cautionary example of how conviction can transform into fanatical ruthlessness."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "To paladins of the Silver Hand, Whitemane's leadership exemplifies the tragic corruption of Lordaeron's defenders, who abandoned mercy and justice in favor of indiscriminate purges."
+  },
+  {
+   "target": "race:Undead",
+   "text": "To the Forsaken, Whitemane embodies the Crusade's refusal to distinguish between mindless Scourge and free-willed undead, making her destruction essential for the survival of the Undercity."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though she was once an Alliance citizen of Lordaeron, Whitemane's Crusade now attacks any outsiders who approach their lands, forcing Southshore's loyalists to confront the monsters their former kin have become."
+  }
+ ],
+ "keywords": [
+  "cathedral",
+  "high inquisitor",
+  "raleigh the devout",
+  "renault mograine",
+  "sally whitemane",
+  "scarlet crusade",
+  "scarlet monastery",
+  "whitemane"
+ ],
+ "related": [
+  "zone:scarlet",
+  "topic:scarlet-crusade",
+  "subzone:southshore",
+  "subzone:hearthglen",
+  "zone:undercity",
+  "npc:varimathras",
+  "topic:plague-of-undeath",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Sally Whitemane"
+ ]
+}

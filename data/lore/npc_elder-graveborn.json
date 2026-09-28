@@ -1,0 +1,86 @@
+{
+ "key": "npc:elder-graveborn",
+ "type": "npc",
+ "name": "Elder Graveborn",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Elder Graveborn",
+  "refs": 1
+ },
+ "summary": "Elder Graveborn is an ancestral spirit who manifests just southeast of Brill during the Lunar Festival. Appearing as a spectral earthen elder, he honors travelers and guides pilgrims searching for other ancient spirits scattered throughout northern Lordaeron.",
+ "sections": [
+  {
+   "title": "A Spirit in Tirisfal",
+   "body": "Appearing just beyond the Forsaken town of Brill, Elder Graveborn stands among the haunted woods of Tirisfal Glades as part of the worldwide Lunar Festival. Despite the blighted surroundings and the troubled state of the kingdom, the spectral elder offers peaceful greetings to travelers seeking the festival's traditional blessings. In addition to bestowing his own ancestral wisdom, Graveborn shares news of other elders lingering nearby\u2014pointing pilgrims toward spirits abiding in the Undercity, the Sepulcher, and across the Plaguelands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elder Graveborn?",
+   "aliases": [
+    "elder graveborn lore",
+    "who is graveborn",
+    "brill ghost elder"
+   ],
+   "answer": "Elder Graveborn is a revered ancestral ghost who appears during the Lunar Festival. He materializes in Tirisfal Glades just southeast of Brill to grant festival blessings to passing adventurers."
+  },
+  {
+   "q": "Why is he in Tirisfal Glades?",
+   "aliases": [
+    "why brill",
+    "where is elder graveborn"
+   ],
+   "answer": "During the Lunar Festival, ancestral spirits appear across Azeroth to celebrate past heroes and communal heritage. Elder Graveborn watches over the lands outside Brill, maintaining an ancient presence amidst the fallen kingdom of Lordaeron."
+  },
+  {
+   "q": "Can Alliance adventurers speak to him?",
+   "aliases": [
+    "can alliance talk to graveborn",
+    "alliance elder brill"
+   ],
+   "answer": "Yes. Festival elders welcome travelers of both factions regardless of territory. However, Alliance characters must exercise caution when approaching his resting ground, as he stands in close proximity to the Forsaken hub of Brill."
+  },
+  {
+   "q": "What information does he offer travelers?",
+   "aliases": [
+    "elder graveborn directions",
+    "graveborn quotes"
+   ],
+   "answer": "Elder Graveborn guides pilgrims toward other local ancestors, sharing rumors of spirits residing in the Undercity, Silverpine's Sepulcher, Light's Hope Chapel, the Weeping Cave, and Scholomance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken walking the road between Brill and the Undercity, Graveborn serves as a tranquil reminder of Azeroth's ancient past, resting untroubled by the Scourge or the blight."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance pilgrims must skirt the outskirts of Brill carefully to pay their respects to Graveborn without drawing the wrath of Forsaken town guards and patrols."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "brill",
+  "earthen",
+  "elder graveborn",
+  "graveborn",
+  "lunar festival",
+  "tirisfal glades"
+ ],
+ "related": [
+  "quest:8652",
+  "subzone:brill",
+  "zone:tirisfal",
+  "zone:undercity",
+  "npc:elder-darkcore",
+  "npc:elder-obsidian",
+  "subzone:sepulcher",
+  "subzone:light-s-hope-chapel"
+ ],
+ "attribution": [
+  "Elder Graveborn"
+ ]
+}

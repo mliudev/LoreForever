@@ -1,0 +1,92 @@
+{
+ "key": "subzone:ambermill",
+ "type": "subzone",
+ "name": "Ambermill",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Ambermill"
+ },
+ "summary": "Ambermill is a fortified human settlement in central Silverpine Forest, situated just southwest of Lordamere Lake. Originally a Gilnean lumber village, it is now occupied by surviving wizards and apprentices of Dalaran who are tapping into ancient ley lines. Their presence represents a dangerous outpost of human resistance on the southern borders of the Forsaken realm.",
+ "sections": [
+  {
+   "title": "A Bastion of Dalaran",
+   "body": "Before the Third War, Ambermill was a quiet lumber town on lands owned by the Gilnean nobleman Darius Crowley. When King Genn Greymane erected the Greymane Wall to seal his kingdom away, Ambermill was left stranded outside alongside Pyrewood Village. In the chaotic aftermath of Lordaeron's fall, the surviving wizards of the Kirin Tor moved in and fortified the settlement. Dalaran spellscribes, conjurors, and apprentices now patrol its buildings and stables, using Ambermill as a forward redoubt against the undead.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tapping the Ley Lines",
+   "body": "The Kirin Tor's interest in Ambermill extends far beyond simple territorial defense. The village rests directly atop a dormant ley line energy node. Forsaken spies and Deathstalkers monitoring the town have discovered that the Dalaran magi are attempting to reactivate this nexus for large-scale arcane work. If completed, the surge of magical power could threaten the Forsaken's fragile hold on Silverpine Forest, prompting Shadow Priest Allister and the Deathstalkers to orchestrate sabotage, thefts of Kirin Tor documents, and assassinations across the mill grounds.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are Dalaran wizards occupying a village in Silverpine?",
+   "aliases": [
+    "why are wizards here",
+    "who controls ambermill",
+    "kirin tor silverpine"
+   ],
+   "answer": "Following the devastation of Dalaran during the Third War, surviving Kirin Tor forces moved into Ambermill to establish an outpost of living human resistance. More importantly, the village sits directly atop a dormant ley line energy node that the wizards are working to reactivate."
+  },
+  {
+   "q": "Was Ambermill always part of Dalaran?",
+   "aliases": [
+    "ambermill history",
+    "who owned ambermill",
+    "gilneas ambermill"
+   ],
+   "answer": "No. Ambermill was originally a lumber village belonging to the kingdom of Gilneas, located on estates held by Lord Darius Crowley. It was effectively cut off from its homeland when King Genn Greymane sealed the Greymane Wall."
+  },
+  {
+   "q": "Why do the Forsaken want to attack Ambermill?",
+   "aliases": [
+    "forsaken ambermill",
+    "why kill ambermill wizards"
+   ],
+   "answer": "Ambermill serves as an active hostile base near the heart of Silverpine Forest. The Forsaken fear that if the Kirin Tor succeeds in drawing power from the local ley lines, the humans will establish a staging ground powerful enough to break undead control over the southern roads."
+  },
+  {
+   "q": "What are the Deathstalkers searching for in Ambermill?",
+   "aliases": [
+    "ambermill documents",
+    "mennet carkad ambermill"
+   ],
+   "answer": "Forsaken Deathstalkers learned from captured human prisoners that the wizards in Ambermill keep secured documents detailing Dalaran's secret plans and military intentions, making the settlement a primary target for covert infiltration and theft."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For Forsaken operatives, Ambermill represents one of the few remaining pockets of living human resistance in Silverpine, threatening southern logistics and harboring dangerous arcane secrets."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The settlement demonstrates the Kirin Tor's desperate efforts to rebuild their magical influence after the Scourge sacked Dalaran, focusing their surviving mages on raw ley line manipulation."
+  }
+ ],
+ "keywords": [
+  "ambermill",
+  "dalaran",
+  "darius crowley",
+  "greymane wall",
+  "kirin tor",
+  "ley line",
+  "shadow priest allister",
+  "silverpine forest"
+ ],
+ "related": [
+  "zone:silverpine",
+  "subzone:dalaran",
+  "npc:shadow-priest-allister",
+  "quest:479",
+  "quest:482",
+  "quest:1999",
+  "subzone:greymane-wall",
+  "npc:darius-crowley"
+ ],
+ "attribution": [
+  "Ambermill"
+ ]
+}

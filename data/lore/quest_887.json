@@ -1,0 +1,126 @@
+{
+ "key": "quest:887",
+ "type": "quest",
+ "name": "Southsea Freebooters",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   887
+  ],
+  "level": "14",
+  "faction": null,
+  "start": "Gazlowe",
+  "end": "",
+  "previous": null,
+  "next": "The Missing Shipment",
+  "wiki": "Southsea Freebooters (Classic)",
+  "chain": [
+   "Southsea Freebooters (Classic)",
+   "The Missing Shipment",
+   "The Missing Shipment (2)",
+   "Stolen Booty"
+  ]
+ },
+ "summary": "Southsea Freebooters is an introductory bounty task commissioned by Gazlowe in Ratchet to curtail local piracy. Infuriated by pirate raids on goblin trading vessels, the chief engineer hires adventurers to assault a Southsea pirate encampment along the Merchant Coast just south of town.",
+ "sections": [
+  {
+   "title": "A Thorn in Gazlowe's Side",
+   "body": "Ratchet operates as the premier neutral trading port in central Kalimdor, built on the steady traffic of merchant vessels traveling between the eastern continents and Kalimdor. However, the Southsea Freebooters have established a fortified beach camp directly south along the Merchant Coast. From this staging ground, the buccaneers target incoming and outgoing goblin cargo ships, bleeding profits and destabilizing the local shipping lanes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Neglect from Undermine",
+   "body": "Gazlowe's anger stems not only from the pirates themselves, but from the perceived incompetence of the Steamwheedle Cartel's naval leadership. Despite immense sums invested by the Trade Princes into maintaining defensive fleets, Vice Admiral Grezzlik has failed to police the waters effectively. Frustrated by Undermine's sluggish response, Gazlowe bypasses naval channels and resorts to contracting independent mercenaries to thin out pirate brigands and cannoneers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the Southsea Freebooters?",
+   "aliases": [
+    "southsea pirates",
+    "who are southsea freebooters",
+    "freebooters lore"
+   ],
+   "answer": "The Southsea Freebooters are a notorious syndicate of human, dwarf, and gnome pirates operating across the southern oceans and the Great Sea. In the Barrens, they maintain an armed beachhead just south of Ratchet, raiding merchant ships and plundering trade goods bound for Kalimdor."
+  },
+  {
+   "q": "Why does Gazlowe care so much about these pirates?",
+   "aliases": [
+    "why gazlowe want pirates dead",
+    "gazlowe motivation",
+    "ratchet pirate problem"
+   ],
+   "answer": "Gazlowe oversees the port of Ratchet on behalf of the Steamwheedle Cartel. Every merchant ship intercepted or plundered by the Freebooters directly reduces the cartel's revenues and undermines Ratchet's reputation as a secure trading haven."
+  },
+  {
+   "q": "Where is the pirate camp located?",
+   "aliases": [
+    "where are southsea brigands",
+    "cannoneer location",
+    "where is pirate camp"
+   ],
+   "answer": "The Southsea encampment lies directly down the shoreline to the south of Ratchet, situated along the Merchant Coast. It features fortified tents, beached dinghies, and artillery positions manned by Southsea Cannoneers."
+  },
+  {
+   "q": "Who is Vice Admiral Grezzlik?",
+   "aliases": [
+    "who is grezzlik",
+    "vice admiral grezzlik lore",
+    "steamwheedle admiral"
+   ],
+   "answer": "Vice Admiral Grezzlik is the officer responsible for overseeing the Steamwheedle Cartel's trade fleets and protecting their sea lanes. Gazlowe considers him largely ineffective due to the brazen pirate activity taking place right off the coast of the Barrens."
+  },
+  {
+   "q": "What happens after culling the camp?",
+   "aliases": [
+    "what comes next",
+    "southsea freebooters follow up",
+    "missing shipment"
+   ],
+   "answer": "Thinning the camp's defenders only solves part of the problem. Once the brigands and cannoneers are routed, Gazlowe moves to track down the valuable cargo they hijacked, leading directly into investigations regarding his missing shipments."
+  },
+  {
+   "q": "Are the Southsea Freebooters affiliated with the Alliance or Horde?",
+   "aliases": [
+    "are freebooters horde",
+    "are pirates alliance",
+    "southsea faction"
+   ],
+   "answer": "No. The Southsea Freebooters operate entirely outside both factions, preying indiscriminately on Alliance vessels, Horde supply craft, and neutral goblin freighters alike."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The camp of the Southsea Freebooters is rich with opportunities for cutpurses, provided you can slip past their alert watchmen and heavy coastal artillery."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Ratchet serves as a vital resupply corridor for the Horde in Kalimdor; keeping sea routes clear of maritime raiders protects supply lines heading inward across the Barrens."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brigands",
+  "cannoneers",
+  "freebooters",
+  "gazlowe",
+  "grezzlik",
+  "pirates",
+  "ratchet",
+  "southsea",
+  "steamwheedle"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "quest:890",
+  "quest:888",
+  "zone:barrens",
+  "topic:pirate"
+ ],
+ "attribution": [
+  "Southsea Freebooters (Classic)"
+ ]
+}

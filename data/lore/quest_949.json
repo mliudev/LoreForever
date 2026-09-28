@@ -1,0 +1,109 @@
+{
+ "key": "quest:949",
+ "type": "quest",
+ "name": "The Twilight Camp",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   949
+  ],
+  "level": "17",
+  "faction": "Alliance",
+  "start": "Scrying Bowl",
+  "end": "Twilight Tome",
+  "previous": "The Master's Glaive (quest)",
+  "next": "Return to Onu",
+  "wiki": "The Twilight Camp",
+  "chain": []
+ },
+ "summary": "The Twilight Camp is an Alliance reconnaissance mission directed at the secretive cultists encamped around the Master's Glaive in southern Darkshore. Having caught a glimpse of their ritual site through a scrying bowl, investigators must infiltrate the excavation to uncover what the Twilight's Hammer seeks to unearth.",
+ "sections": [
+  {
+   "title": "Probing the Dig",
+   "body": "The Master's Glaive has long stood as an ominous, petrified mystery along the craggy hills of southern Darkshore, but the sudden arrival of the Twilight's Hammer cult transformed an ancient curiosity into an active threat. After using a scrying bowl to peer into their fortifications, scouts are sent into the thick of their camp to determine their true designs before defensive measures can be enacted.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Illustrated Tome",
+   "body": "Scouring the encampment reveals that the cultists are not mere scavengers or bandits; their operation is guided by deep, occult study. Deep within their northern camp rests an ancient, meticulously hand-printed tome illustrated with masterful yet unsettling artwork. This text serves as proof that the Twilight's Hammer is deliberately investigating the colossal entity buried beneath the earth.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the goal of The Twilight Camp quest?",
+   "aliases": [
+    "twilight camp quest objective",
+    "what do i do twilight camp"
+   ],
+   "answer": "You must infiltrate the Twilight's Hammer encampment near the Master's Glaive in southern Darkshore and recover a clue detailing their motives\u2014specifically a hand-printed ritual book resting within their camp."
+  },
+  {
+   "q": "Who sends you to investigate the camp?",
+   "aliases": [
+    "who gives twilight camp",
+    "twilight camp quest giver"
+   ],
+   "answer": "The quest is received directly from the Scrying Bowl at the overlook above the Master's Glaive, continuing the investigation initiated on behalf of the ancient protector Onu."
+  },
+  {
+   "q": "Where is the clue found in the camp?",
+   "aliases": [
+    "where is the book",
+    "twilight tome location",
+    "find clue twilight camp"
+   ],
+   "answer": "The valid clue is the Twilight Tome situated in the northern part of the encampment. Other tomes in the camp can be dangerous decoys that unleash warding magic against intruders."
+  },
+  {
+   "q": "Why is the Twilight's Hammer at the Master's Glaive?",
+   "aliases": [
+    "why are cultists at masters glaive",
+    "twilights hammer darkshore purpose"
+   ],
+   "answer": "The cultists are obsessed with ancient, dark powers of the Old Gods and their servants. They are excavating the massive petrified carcass pinned by the giant stone blade to study or awaken whatever ancient evil remains there."
+  },
+  {
+   "q": "What happens after finding the tome?",
+   "aliases": [
+    "next quest after twilight camp",
+    "where to go after twilight tome"
+   ],
+   "answer": "Recovering the tome leads to the quest Return to Onu, instructing you to carry the discovered writings north to the ancient treant in the Grove of the Ancients."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The Twilight's Hammer defiles sacred Kalimdor lands with dark sorceries right beneath the boughs of Darkshore's ancient groves."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Uncovering the cult's research is critical for Cenarion wardens seeking to keep corrupting ancient entities safely buried."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stopping the cult's strange excavations prevents a gathering threat from destabilizing northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "master's glaive",
+  "onu",
+  "scrying bowl",
+  "twilight camp",
+  "twilight tome",
+  "twilight's hammer"
+ ],
+ "related": [
+  "quest:944",
+  "quest:950",
+  "subzone:master-s-glaive",
+  "topic:twilight-s-hammer",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "The Twilight Camp"
+ ]
+}

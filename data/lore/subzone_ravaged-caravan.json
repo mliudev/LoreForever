@@ -1,0 +1,89 @@
+{
+ "key": "subzone:ravaged-caravan",
+ "type": "subzone",
+ "name": "Ravaged Caravan",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Ravaged Caravan"
+ },
+ "summary": "The Ravaged Caravan is a smoldering wreck located on the northeastern shore of Stonebull Lake in Mulgore. Once a supply convoy bound for Supervisor Fizsprocket's mining operations, it was ambushed and destroyed by local tauren determined to halt goblin exploitation of their homeland.",
+ "sections": [
+  {
+   "title": "Smoke Over Stonebull Lake",
+   "body": "Perched on a rise above Stonebull Lake, the Ravaged Caravan marks an early clash between the tauren of Bloodhoof Village and the encroaching Venture Company. Sent to deliver mining supplies, blueprints, and equipment to Supervisor Fizsprocket's dig site, the caravan was cut off and wrecked by tauren defenders before it could reach its destination. Despite the devastation, stubborn Venture Co. survivors still cling to the ruined wagons and smoldering crates, jealously guarding what little cargo remains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to this caravan?",
+   "aliases": [
+    "why is the caravan burned",
+    "what happened here",
+    "ravaged caravan backstory"
+   ],
+   "answer": "The caravan was intercepted and wrecked by local tauren who spotted the Venture Company moving deep into Mulgore. Seeking to stop the goblins from stripping the land, the tauren destroyed the convoy before its cargo could reach the nearby mine."
+  },
+  {
+   "q": "Who owns the wrecked wagons?",
+   "aliases": [
+    "whose caravan is this",
+    "who owns the caravan",
+    "venture company caravan"
+   ],
+   "answer": "The caravan belongs to the Venture Company, an unscrupulous goblin mining consortium attempting to establish unpermitted operations in the hills of Mulgore."
+  },
+  {
+   "q": "Where was the caravan heading?",
+   "aliases": [
+    "caravan destination",
+    "where was it going",
+    "fizsprocket supplies"
+   ],
+   "answer": "It was hauling tools, machinery, and supplies north toward Supervisor Fizsprocket, who leads the Venture Company's strip-mining operation at the Venture Co. Mine."
+  },
+  {
+   "q": "Why are there still Venture Co. workers lingering at the wreck?",
+   "aliases": [
+    "why are goblins still here",
+    "venture co survivors",
+    "who is guarding the wreck"
+   ],
+   "answer": "The surviving Venture Co. hirelings and workers are fiercely protective of company property. Rather than abandoning the loss, they remain entrenched around the charred wagons, attempting to salvage what little remains of their equipment."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The charred wagons represent your people's immediate and decisive refusal to let foreign industrial syndicates despoil the sacred pastures of Mulgore."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The black smoke choking the shore of Stonebull Lake serves as a stark reminder of the reckless damage goblin machinery inflicts on the natural balance."
+  }
+ ],
+ "keywords": [
+  "mulgore",
+  "ravaged caravan",
+  "stonebull lake",
+  "supervisor fizsprocket",
+  "tauren",
+  "venture co",
+  "venture company",
+  "wagon"
+ ],
+ "related": [
+  "quest:749",
+  "quest:764",
+  "quest:765",
+  "subzone:stonebull-lake",
+  "zone:mulgore",
+  "topic:venture-company",
+  "topic:tauren",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Ravaged Caravan"
+ ]
+}

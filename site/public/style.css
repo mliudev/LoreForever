@@ -1,0 +1,239 @@
+/* WoW-flavored styling built from plain CSS: no Blizzard logos, art or fonts. */
+:root {
+  color-scheme: dark;
+  --bg: #0d0b09;
+  --panel: rgba(8, 10, 22, 0.94);    /* in-game tooltip navy */
+  --panel-line: #5b5f6e;             /* tooltip silver border */
+  --line: #3a3128;
+  --text: #e8e0d2;
+  --muted: #a39683;
+  --gold: #ffd100;                   /* the game's UI gold */
+  --gold-soft: #d8b25a;
+  --link: #f0c96b;
+  --parchment: #e9d8ad;
+  --parchment-dark: #cdb27a;
+  --ink: #2a1c0d;
+  --heading: "Cinzel", Georgia, "Times New Roman", serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg) radial-gradient(ellipse at 50% 0, #2a2014 0, transparent 70%) no-repeat;
+  color: var(--text);
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+a { color: var(--link); }
+code { background: #00000066; padding: 1px 5px; border-radius: 3px; font-size: 0.92em; word-break: break-word; }
+
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+
+.top { border-bottom: 1px solid var(--line); background: #070605; }
+.crumb { display: block; padding: 10px 0; color: var(--muted); font-size: 0.85rem; }
+
+/* Fading gold rule under the hero and section headings */
+.hero::after, .tab-panel h2::after {
+  content: ""; display: block; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-soft), transparent);
+}
+
+/* Hero: dark banner that picks up screenshot 01 as its background once it exists */
+.hero {
+  position: relative; overflow: hidden;
+  background: linear-gradient(160deg, #221a10, #0d0b09);
+}
+/* The hero screenshot, blurred and darkened so the title stays readable */
+.hero::before {
+  content: ""; position: absolute; inset: -24px;
+  background: var(--hero-img, none) center 30% / cover no-repeat;
+  filter: blur(7px) brightness(0.4) saturate(1.2);
+}
+.hero > .title-bar, .hero::after { position: relative; }
+.title-bar {
+  display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between;
+  padding: 56px 16px 40px;
+}
+h1 {
+  margin: 0; font-family: var(--heading); font-weight: 700; font-size: 2.6rem; letter-spacing: 0.02em;
+  color: var(--gold); text-shadow: 0 2px 0 #000, 0 0 18px rgba(255, 170, 0, 0.25);
+}
+.subtitle { font-size: 1.15rem; color: var(--gold-soft); font-weight: 600; }
+@media (max-width: 600px) { .subtitle { display: block; margin-top: 4px; } h1 { font-size: 2.1rem; } }
+.pitch { margin: 8px 0 12px; font-size: 1.15rem; text-shadow: 0 1px 2px #000; }
+.stats { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0; padding: 0; list-style: none; color: var(--muted); font-size: 0.92rem; }
+.stats strong { color: var(--text); }
+.stats img { vertical-align: middle; }
+
+/* Download button styled after the game's red UI buttons */
+.title-actions { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.btn-download {
+  display: inline-block; padding: 14px 30px; border-radius: 4px;
+  background: linear-gradient(180deg, #b3201a 0%, #7d0f0b 55%, #5c0906 100%);
+  border: 2px solid #c9a24b; box-shadow: inset 0 1px 0 rgba(255, 220, 150, 0.35), 0 3px 10px rgba(0, 0, 0, 0.6);
+  color: var(--gold); font-family: var(--heading); font-weight: 700; font-size: 1.1rem; letter-spacing: 0.03em;
+  text-decoration: none; text-shadow: 0 1px 1px #000;
+}
+.btn-download:hover { background: linear-gradient(180deg, #d02a22 0%, #971410 55%, #6d0b07 100%); color: #fff2b0; }
+.file-note { color: var(--muted); font-size: 0.82rem; }
+
+/* Screenshot strip. Shots have mixed shapes (tooltips, chat lines, the full panel), so each sits whole
+   inside a same-size frame instead of being cropped. */
+.shots {
+  display: flex; align-items: flex-start; gap: 14px; overflow-x: auto; padding: 20px 0 10px; margin-bottom: 16px;
+  scroll-snap-type: x mandatory;
+}
+.shot { flex: 0 0 min(340px, 82vw); margin: 0; scroll-snap-align: start; }
+.shot a {
+  display: block; aspect-ratio: 4 / 3; background: #050403; border: 1px solid #c9a24b88; border-radius: 4px;
+  overflow: hidden;
+}
+.shot a:hover { border-color: var(--gold); }
+.shot img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.shot figcaption { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+
+/* Zone cards */
+.zones { margin-bottom: 32px; }
+.zones h2 { font-family: var(--heading); color: var(--gold); font-size: 1.35rem; margin-bottom: 6px; }
+.zones-intro { margin-top: 0; color: var(--muted); max-width: 760px; }
+.zone-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+.zone {
+  display: flex; flex-direction: column;
+  background: var(--panel); border: 1px solid var(--panel-line); border-radius: 5px; overflow: hidden;
+  box-shadow: inset 0 0 0 1px #000, 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+.zone-body { padding: 4px 16px 14px; }
+.zone h3 { font-family: var(--heading); color: var(--gold); font-size: 1.1rem; margin: 10px 0 2px; }
+.zone-where { color: var(--muted); font-size: 0.88rem; margin: 0 0 10px; }
+.zone-q { margin: 0 0 6px; padding-left: 10px; border-left: 2px solid var(--gold-soft); font-size: 0.92rem; font-style: italic; }
+.tag {
+  font: 600 0.7rem system-ui, sans-serif; vertical-align: middle; color: #a335ee; /* epic purple */
+  border: 1px solid #a335ee88; border-radius: 3px; padding: 1px 5px; margin-left: 4px; letter-spacing: 0.03em;
+}
+.zone-next { justify-content: center; border-style: dashed; background: rgba(8, 10, 22, 0.6); }
+.zone-next .zone-body { padding: 20px 16px; }
+.btn-small {
+  display: inline-block; margin-top: 4px; padding: 7px 16px; border-radius: 4px; text-decoration: none;
+  background: linear-gradient(180deg, #b3201a, #6d0b07); border: 1px solid #c9a24b; color: var(--gold);
+  font: 600 0.9rem var(--heading);
+}
+
+/* Main + sidebar */
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 28px; align-items: start; }
+@media (max-width: 800px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+
+.tabs { display: flex; flex-wrap: wrap; gap: 2px; border-bottom: 2px solid var(--line); }
+.tabs button {
+  background: none; border: 0; color: var(--muted); font: 600 0.95rem var(--heading); letter-spacing: 0.03em;
+  padding: 10px 16px; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -2px;
+}
+.tabs button:hover { color: var(--text); }
+.tabs button[aria-selected="true"] { color: var(--gold); border-bottom-color: var(--gold); }
+body:not(.js) .tabs { display: none; }
+
+.tab-panel { padding: 8px 0 24px; }
+.tab-panel h2 { font-family: var(--heading); color: var(--gold); font-size: 1.35rem; }
+.tab-panel h2::after { margin-top: 10px; }
+.tab-panel h3 { margin-top: 1.6em; color: var(--gold-soft); font-family: var(--heading); font-size: 1.05rem; letter-spacing: 0.02em; }
+.tab-panel li { margin-bottom: 6px; }
+
+/* Sample answer on parchment, like quest text */
+.sample { margin: 24px 0; }
+.scroll {
+  background: linear-gradient(180deg, var(--parchment), var(--parchment-dark));
+  color: var(--ink); padding: 18px 22px; border-radius: 3px;
+  border: 1px solid #8a6a36; box-shadow: inset 0 0 30px rgba(120, 80, 30, 0.35), 0 4px 14px rgba(0, 0, 0, 0.5);
+  font-family: Georgia, "Times New Roman", serif; font-size: 1.02rem;
+}
+.scroll p { margin: 0; }
+.scroll-q { font-family: var(--heading); font-weight: 700; color: #5a2a08; margin-bottom: 8px !important; }
+.sample figcaption { color: var(--muted); font-size: 0.82rem; margin-top: 6px; }
+
+table { border-collapse: collapse; width: 100%; }
+td { border-top: 1px solid var(--line); padding: 8px 10px 8px 0; vertical-align: top; }
+
+/* Sidebar boxes styled like in-game tooltips */
+.box {
+  background: var(--panel); border: 1px solid var(--panel-line); border-radius: 5px;
+  box-shadow: inset 0 0 0 1px #000, 0 4px 14px rgba(0, 0, 0, 0.5);
+  padding: 4px 16px 12px; margin-bottom: 16px;
+}
+.box h3 { color: var(--gold); font-family: var(--heading); font-size: 1rem; }
+dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; font-size: 0.92rem; }
+dt { color: var(--muted); }
+dd { margin: 0; }
+.links { list-style: none; padding: 0; margin: 0; }
+.links li { margin-bottom: 6px; }
+
+.foot { border-top: 1px solid var(--line); margin-top: 20px; padding-top: 12px; padding-bottom: 30px; color: var(--muted); font-size: 0.85rem; }
+.tag-new { color: #1eff00; border-color: #1eff0077; } /* uncommon green */
+
+/* Headline features: narration samples, then asking */
+.feature { padding: 28px 0 8px; }
+.feature h2 { font-family: var(--heading); color: var(--gold); font-size: 1.5rem; margin: 0 0 8px; }
+.feature-text { max-width: 760px; }
+.feature-text li { margin-bottom: 6px; }
+.feature-note { color: var(--muted); margin-bottom: 0; }
+.samples { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 14px; }
+.audio-sample {
+  margin: 0; padding: 14px 16px; background: var(--panel); border: 1px solid var(--panel-line); border-radius: 5px;
+  box-shadow: inset 0 0 0 1px #000, 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+.audio-sample figcaption { margin-bottom: 10px; }
+.audio-sample figcaption strong { font-family: var(--heading); color: var(--gold); font-size: 1.1rem; }
+.audio-sample figcaption span:last-child { display: block; color: var(--muted); font-size: 0.88rem; }
+.audio-sample audio { width: 100%; }
+.audio-sample details { margin-top: 8px; font-size: 0.9rem; }
+.audio-sample summary { cursor: pointer; color: var(--link); }
+.audio-sample details p { color: var(--muted); max-height: 220px; overflow-y: auto; }
+
+.feature-ask { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 28px; align-items: start; }
+@media (max-width: 860px) { .feature-ask { grid-template-columns: minmax(0, 1fr); } }
+.feature-ask .sample { margin: 18px 0 0; }
+.feature-shot { margin: 8px 0 0; }
+.feature-shot a { display: block; border: 1px solid #c9a24b88; border-radius: 4px; overflow: hidden; }
+.feature-shot img { width: 100%; display: block; }
+.feature-shot figcaption { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+
+/* Email sign-up band */
+.signup {
+  display: flex; flex-wrap: wrap; gap: 16px 28px; align-items: center; justify-content: space-between;
+  margin: 0 0 32px; padding: 18px 20px;
+  background: var(--panel); border: 1px solid var(--panel-line); border-radius: 5px;
+  box-shadow: inset 0 0 0 1px #000, 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+.signup h2 { font-family: var(--heading); color: var(--gold); font-size: 1.3rem; margin: 0 0 4px; }
+.signup-text { flex: 1 1 320px; }
+.signup-text p { margin: 0; color: var(--muted); }
+.signup-form { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; flex: 1 1 300px; max-width: 440px; }
+.signup-form input[type="email"] {
+  flex: 1 1 200px; min-width: 0; padding: 8px 10px; font: inherit; color: var(--text);
+  background: #000000aa; border: 1px solid var(--panel-line); border-radius: 4px;
+}
+.signup-form input[type="email"]:focus { outline: 2px solid var(--gold-soft); outline-offset: 1px; }
+.signup-form button { margin-top: 0; cursor: pointer; }
+.signup-form :disabled { opacity: 0.55; cursor: not-allowed; }
+.signup-note { flex-basis: 100%; margin: 0; color: var(--muted); font-size: 0.85rem; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Download pop-up */
+.dl-dialog {
+  width: min(460px, calc(100vw - 32px)); padding: 22px 22px 16px; color: var(--text);
+  background: var(--panel); border: 1px solid #c9a24b; border-radius: 6px;
+  box-shadow: inset 0 0 0 1px #000, 0 10px 40px rgba(0, 0, 0, 0.8);
+}
+.dl-dialog::backdrop { background: rgba(0, 0, 0, 0.7); }
+.dl-dialog h2 { font-family: var(--heading); color: var(--gold); font-size: 1.3rem; margin: 0 28px 8px 0; }
+.dl-dialog p { color: var(--muted); margin: 0 0 14px; }
+.dl-dialog .signup-form { max-width: none; }
+.dl-close {
+  position: absolute; top: 8px; right: 10px; background: none; border: 0; color: var(--muted);
+  font-size: 1.6rem; line-height: 1; cursor: pointer; padding: 4px 8px;
+}
+.dl-close:hover { color: var(--text); }
+.dl-skip {
+  display: block; margin: 12px auto 0; background: none; border: 0; color: var(--muted); font: inherit;
+  font-size: 0.9rem; text-decoration: underline; cursor: pointer;
+}
+.dl-skip:hover { color: var(--text); }

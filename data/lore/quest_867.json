@@ -1,0 +1,125 @@
+{
+ "key": "quest:867",
+ "type": "quest",
+ "name": "Harpy Raiders",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   867
+  ],
+  "level": "15",
+  "faction": "Horde",
+  "start": "Darsok Swiftdagger",
+  "end": "",
+  "previous": null,
+  "next": "Harpy Lieutenants (Classic)",
+  "wiki": "Harpy Raiders (Classic)",
+  "chain": [
+   "Harpy Raiders (Classic)",
+   "Harpy Lieutenants (Classic)",
+   "Serena Bloodfeather (Classic)",
+   "Letter to Jin'Zil (quest)"
+  ]
+ },
+ "summary": "Harpy Raiders is an early offensive task given by Darsok Swiftdagger at the Crossroads to curb the aggressive Witchwing flock. Tasked with hunting down baseline raiders and roguefeathers in the northwestern Barrens, adventurers harvest talons to cripple the flock's supply raids.",
+ "sections": [
+  {
+   "title": "Threat from Above",
+   "body": "Caravans crawling across the dusty trails of the Barrens face constant harassment from wild beasts and quillboar, but the Witchwing harpies pose a particularly deadly aerial nuisance. Striking from the rocky crags in the northwest, these feral creatures routinely sweep down upon merchant trains and supply wagons, slaughtering pack animals and pillaging critical goods bound for orcish outposts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Darsok's Plan",
+   "body": "Rather than launching a haphazard assault against the mountainous roosts, the orc rogue Darsok Swiftdagger has spent days scouting the flock's habits and hierarchy. He knows that an uncoordinated strike will scatter them into the winds. To decisively break the Witchwing, Darsok intends to systematically butcher the flock from the bottom rank up, beginning with the front-line raiders before moving against their commanders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Horde targeting the Witchwing harpies?",
+   "aliases": [
+    "why kill harpies",
+    "witchwing problem",
+    "why attack harpies"
+   ],
+   "answer": "The Witchwing flock nests in the northwestern crags of the Barrens and regularly swoops down to raid Horde supply caravans traveling along the main trails."
+  },
+  {
+   "q": "Who is Darsok Swiftdagger?",
+   "aliases": [
+    "darsok",
+    "darsok swiftdagger lore",
+    "who is darsok"
+   ],
+   "answer": "Darsok is an orc scout and rogue stationed at the Crossroads. He monitors local threats and has scoped out the chain of command within the local harpy flock to organize a calculated extermination effort."
+  },
+  {
+   "q": "Why does Darsok want Witchwing talons?",
+   "aliases": [
+    "why talons",
+    "harpy talons purpose"
+   ],
+   "answer": "Darsok demands the severed talons as concrete proof of the kill, collecting them as grim trophies and confirmation that the flock's lowest raiding ranks are shrinking."
+  },
+  {
+   "q": "Where are these harpies located?",
+   "aliases": [
+    "where to find harpies",
+    "witchwing location",
+    "harpy raiders location"
+   ],
+   "answer": "They make their roosts among the thorn-choked bluffs and ravines in the far northwestern stretches of the Barrens, north of the road to Stonetalon."
+  },
+  {
+   "q": "What happens after culling these raiders?",
+   "aliases": [
+    "next quest",
+    "after harpy raiders",
+    "what comes next"
+   ],
+   "answer": "Once the baseline raiders and roguefeathers are thinned, Darsok directs your attention further up the flock's chain of command toward their lieutenants and eventual matron."
+  },
+  {
+   "q": "Are the harpies working for anyone else?",
+   "aliases": [
+    "who leads the harpies",
+    "harpy allegiance",
+    "witchwing leaders"
+   ],
+   "answer": "The Witchwing harpies are wild, territorial scavengers answering directly to their own roost matron, Serena Bloodfeather, rather than any outside faction."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Securing the interior pathways through the Barrens is essential to keeping the newly established outposts supplied and unified under Orgrimmar's banners."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Darsok Swiftdagger's strategy appeals directly to assassins: scout the target, dissect the hierarchy, and eliminate leadership piece by piece."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "darsok",
+  "harpy",
+  "roguefeather",
+  "swiftdagger",
+  "talons",
+  "witchwing"
+ ],
+ "related": [
+  "quest:875",
+  "quest:876",
+  "quest:1060",
+  "npc:darsok-swiftdagger",
+  "subzone:crossroads",
+  "zone:barrens",
+  "topic:harpy"
+ ],
+ "attribution": [
+  "Harpy Raiders (Classic)"
+ ]
+}

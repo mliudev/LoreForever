@@ -1,0 +1,87 @@
+{
+ "key": "npc:scout-riell",
+ "type": "npc",
+ "name": "Scout Riell",
+ "era": "classic",
+ "zone": "deadmines",
+ "meta": {
+  "wiki": "Scout Riell",
+  "refs": 1
+ },
+ "summary": "Scout Riell is a vigilant lookout stationed atop the watchtower at Sentinel Hill in Westfall. Serving the local People's Militia, she watches the surrounding plains for Defias activity and enlists adventurers to hunt down the masked outlaws.",
+ "sections": [
+  {
+   "title": "Eyes Over Westfall",
+   "body": "Perched high above Sentinel Hill, Scout Riell keeps watch over a region besieged by banditry and harvest golems. With Stormwind's royal army absent and the crown refusing aid, local defense falls entirely to the People's Militia. From her vantage point atop the stone tower, Riell tracks the brazen movements of the Defias Brotherhood and gathers proof of their crimes, calling on passing travelers to strip the bandits of their iconic red silk bandanas.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Scout Riell?",
+   "aliases": [
+    "riell location",
+    "where is scout riell",
+    "find riell"
+   ],
+   "answer": "Scout Riell is located at Sentinel Hill in Westfall. Climb the stairs all the way to the open-air roof of the stone watchtower, where she keeps watch over the plains."
+  },
+  {
+   "q": "What does Scout Riell ask adventurers to do?",
+   "aliases": [
+    "riell quest",
+    "what quest does riell give",
+    "red silk bandanas quest"
+   ],
+   "answer": "Riell tasks adventurers with collecting red silk bandanas directly from the Defias cutpurses, highwaymen, and smugglers roaming Westfall and hiding out in the Deadmines, proving that local outlaws have been slain."
+  },
+  {
+   "q": "Why does Riell collect red silk bandanas?",
+   "aliases": [
+    "why bandanas",
+    "why red silk bandanas",
+    "defias masks"
+   ],
+   "answer": "The red silk bandana is the universal badge of the Defias Brotherhood. Collecting them serves as solid proof that the bandits terrorizing Westfall's homesteads are being reduced, and it denies the outlaws their unifying symbol."
+  },
+  {
+   "q": "Who does Scout Riell work for?",
+   "aliases": [
+    "riell faction",
+    "is riell stormwind army",
+    "who does riell serve"
+   ],
+   "answer": "Riell serves the People's Militia, the volunteer defense force formed by Gryan Stoutmantle to protect Westfall when the House of Nobles in Stormwind turned a blind eye to the province's plight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions, Scout Riell represents the grim reality of Westfall: an abandoned populace forced to hire mercenary aid to fight the rising threat of the Defias Brotherhood."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Tailors will note that the Defias' signature red masks are fashioned from genuine silk, a remarkably expensive fabric for common rural highwaymen."
+  }
+ ],
+ "keywords": [
+  "defias brotherhood",
+  "people's militia",
+  "red silk bandanas",
+  "riell",
+  "scout riell",
+  "sentinel hill",
+  "tower",
+  "westfall"
+ ],
+ "related": [
+  "subzone:sentinel-hill",
+  "zone:westfall",
+  "quest:214",
+  "quest:12",
+  "zone:deadmines"
+ ],
+ "attribution": [
+  "Scout Riell"
+ ]
+}

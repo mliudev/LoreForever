@@ -1,0 +1,117 @@
+{
+ "key": "quest:86",
+ "type": "quest",
+ "name": "Pie for Billy",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   86
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Billy Maclure",
+  "end": "\"Auntie\" Bernice Stonefield",
+  "previous": "Lost Necklace",
+  "next": "Back to Billy",
+  "wiki": "Pie for Billy",
+  "chain": []
+ },
+ "summary": "Pie for Billy is an errand caught in the crossfire of the longstanding feud between Elwynn Forest's Stonefield and Maclure families. Young Billy Maclure refuses to give up information regarding Auntie Bernice Stonefield's missing necklace without a pork belly pie in exchange. Adventurers must hunt local boars to gather meat for Bernice to bake the demanded bribe.",
+ "sections": [
+  {
+   "title": "A Boy's Bribe",
+   "body": "When approached regarding the theft of Auntie Bernice Stonefield's heirloom necklace, Billy Maclure exhibits none of the remorse an elder might hope for. Instead of returning the heirloom or confessing, the boy seizes an opportunity to indulge his appetite. He demands a freshly baked pork belly pie before he will utter a single word about who holds the necklace, knowing full well that Auntie Bernice is the finest cook in the valley.",
+   "spoiler": 0
+  },
+  {
+   "title": "Baking Through Bad Blood",
+   "body": "The Maclures and Stonefields have traded insults, brawls, and accusations across the pumpkin patches for generations. Despite her deep indignation at feeding the rascal who stole her family jewelry, Auntie Bernice agrees to fire up her oven. In exchange for tender boar meat collected from the wild beasts roaming the adjacent pastures, she swallows her pride to appease the unruly youth and recover her prized possession.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Billy want a pie before talking?",
+   "aliases": [
+    "why billy wants pie",
+    "billy bribe pie",
+    "billy pork belly pie"
+   ],
+   "answer": "Billy Maclure is an opportunistic farm boy using his knowledge of Auntie Bernice's stolen necklace as leverage. Knowing Bernice makes exceptional pork belly pies, he refuses to reveal who has the heirloom until his appetite is satisfied."
+  },
+  {
+   "q": "Why does Auntie Bernice agree to bake for a thief?",
+   "aliases": [
+    "why does bernice bake",
+    "bernice stonefield pie reason",
+    "stonefield baking for maclure"
+   ],
+   "answer": "Auntie Bernice is furious about rewarding the very boy who snatched her heirloom necklace, but she sees no other way to get it back. She reluctantly agrees to bake the pie once supplied with boar meat, prioritizing the return of her property over pride."
+  },
+  {
+   "q": "Where does the meat for the pie come from?",
+   "aliases": [
+    "where to get meat",
+    "tender boar meat source"
+   ],
+   "answer": "The meat comes from the wild boars foraging in the meadows and edges around the Stonefield and Maclure farms in Elwynn Forest."
+  },
+  {
+   "q": "What is the history between the Stonefields and Maclures?",
+   "aliases": [
+    "stonefield maclure feud",
+    "farm rivalry",
+    "maclure vs stonefield"
+   ],
+   "answer": "The Stonefield and Maclure families are neighboring farmers who have maintained a bitter, petty rivalry for years, constantly suspecting each other of theft, vandalism, and bad-faith squabbling across their property lines."
+  },
+  {
+   "q": "Did Billy actually steal the necklace?",
+   "aliases": [
+    "did billy steal necklace",
+    "who took necklace",
+    "billy necklace thief"
+   ],
+   "answer": "Auntie Bernice accuses Billy directly, and while he dances around a straight confession, he clearly knows where the heirloom ended up and uses that secret to barter for food."
+  },
+  {
+   "q": "What happens after Bernice gets the meat?",
+   "aliases": [
+    "next step after pie",
+    "what follows pie for billy"
+   ],
+   "answer": "Once provided with the tender boar meat, Auntie Bernice bakes a pork belly pie for you to deliver back to Billy so he will finally disclose who has her necklace."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Auntie Bernice notes that while wild boar meat can be tough and bland, proper spices and a slow simmer turn it into exceptional savory pie filling."
+  },
+  {
+   "target": "race:Human",
+   "text": "The squabble highlights the stubborn, insular rivalries that thrive among Elwynn's rural homesteaders just south of Stormwind's gates."
+  }
+ ],
+ "keywords": [
+  "bernice stonefield",
+  "billy maclure",
+  "elwynn forest",
+  "lost necklace",
+  "maclure vineyards",
+  "pork belly pie",
+  "stonefield farm",
+  "tender boar meat"
+ ],
+ "related": [
+  "quest:85",
+  "quest:84",
+  "npc:billy-maclure",
+  "npc:auntie-bernice-stonefield",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Pie for Billy"
+ ]
+}

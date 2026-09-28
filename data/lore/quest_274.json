@@ -1,0 +1,118 @@
+{
+ "key": "quest:274",
+ "type": "quest",
+ "name": "A Dark Threat Looms",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   274
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Ashlan Stonesmirk",
+  "end": "Chief Engineer Hinderweir VII",
+  "previous": "A Dark Threat Looms (3)",
+  "next": "A Dark Threat Looms (5)",
+  "wiki": "A Dark Threat Looms (4)",
+  "chain": []
+ },
+ "summary": "Following the discovery of suspicious powder in the Wetlands, Ashlan Stonesmirk identifies the substance as unstable Seaforium. Capable of catastrophic destruction if it comes into contact with water, the powder poses an immediate danger to the region and the nearby dwarven realm. Stonesmirk concocts a disarming colloid and sends word back to Chief Engineer Hinderweir VII to defuse the disaster.",
+ "sections": [
+  {
+   "title": "A Volatile Discovery",
+   "body": "Examining the samples brought from the marsh, Ashlan Stonesmirk immediately recognizes the telltale silver crystals and distinct odor of Seaforium. While inert in dry conditions, Seaforium reacts violently with moisture\u2014a terrifying reality given the soggy, waterlogged terrain of the Wetlands. Ashlan warns that an unchecked explosion from such a compound could blow Ironforge out of the mountain.",
+   "spoiler": 0
+  },
+  {
+   "title": "Racing the Clock",
+   "body": "To counteract the volatile explosive, Stonesmirk concocts a specialized disarming colloid. Neutralizing the reaction requires a specific chemical mixture: the colloid combined with marsh lurker venom, crushed Mo'Grosh crystal, and the tear of a crocolisk. Time is short, and Chief Engineer Hinderweir VII must be warned immediately before moisture triggers the disaster.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What kind of explosive was found in the Wetlands?",
+   "aliases": [
+    "what powder is this",
+    "what is the powder",
+    "seaforium powder"
+   ],
+   "answer": "Ashlan Stonesmirk identifies the mystery substance as Seaforium powder, marked by distinct silver crystals and a pungent chemical smell."
+  },
+  {
+   "q": "Why is Seaforium so dangerous here?",
+   "aliases": [
+    "why is seaforium dangerous",
+    "what makes seaforium explode"
+   ],
+   "answer": "Seaforium is relatively harmless while kept dry, but it triggers a catastrophic explosion when exposed to water\u2014making the flooded wetlands an extraordinarily hazardous place to handle it."
+  },
+  {
+   "q": "Who is Ashlan Stonesmirk?",
+   "aliases": [
+    "who is ashlan",
+    "ashlan stonesmirk identity"
+   ],
+   "answer": "Ashlan Stonesmirk is an Alliance dwarven specialist residing in the Wetlands who possesses the engineering and chemical expertise necessary to analyze mysterious powders and craft neutralizers."
+  },
+  {
+   "q": "Who is Chief Engineer Hinderweir VII?",
+   "aliases": [
+    "who is hinderweir",
+    "chief engineer hinderweir"
+   ],
+   "answer": "Chief Engineer Hinderweir VII oversees engineering and defense concerns in the region, operating out of the Wetlands to maintain and safeguard dwarven infrastructure."
+  },
+  {
+   "q": "How can the Seaforium be neutralized?",
+   "aliases": [
+    "how to defuse seaforium",
+    "seaforium defusal recipe",
+    "disarming colloid recipe"
+   ],
+   "answer": "Defusing the chemical reaction requires combining Ashlan's disarming colloid with three rare local ingredients: marsh lurker venom, a crushed Mo'Grosh crystal, and a crocolisk tear."
+  },
+  {
+   "q": "What is the danger to Ironforge?",
+   "aliases": [
+    "is ironforge in danger",
+    "how is ironforge threatened"
+   ],
+   "answer": "Ashlan warns that an uncontrolled detonation of the explosive in the surrounding mountain systems could cause devastating seismic failure capable of blowing Ironforge right out of the mountain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will recognize Seaforium as an extremely potent volatile compound, demanding delicate handling and precise chemical countermeasures to avoid massive shockwaves."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "For the dwarves of Khaz Modan, the thought of explosive saboteurs wielding volatile Seaforium near the gateway to Dun Morogh and Ironforge is an existential threat."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance defenders must act quickly to assist Chief Engineer Hinderweir VII and secure the lowlands before enemy saboteurs shatter strategic infrastructure."
+  }
+ ],
+ "keywords": [
+  "ashlan stonesmirk",
+  "blast powder",
+  "chief engineer hinderweir vii",
+  "dark threat looms",
+  "disarming colloid",
+  "ironforge",
+  "seaforium",
+  "wetlands"
+ ],
+ "related": [
+  "npc:ashlan-stonesmirk",
+  "npc:chief-engineer-hinderweir-vii",
+  "zone:wetlands",
+  "zone:ironforge"
+ ],
+ "attribution": [
+  "A Dark Threat Looms (4)"
+ ]
+}

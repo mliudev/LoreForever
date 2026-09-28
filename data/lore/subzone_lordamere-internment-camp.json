@@ -1,0 +1,94 @@
+{
+ "key": "subzone:lordamere-internment-camp",
+ "type": "subzone",
+ "name": "Lordamere Internment Camp",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "wiki": "Lordamere Internment Camp"
+ },
+ "summary": "Lordamere Internment Camp is a former Second War detention facility perched on the heights overlooking the Dalaran Crater. Once built to confine lethargic orcs, the camp is now occupied by surviving Dalaran magi and guards alongside a treacherous band of Forsaken defectors.",
+ "sections": [
+  {
+   "title": "From Prison to Research Outpost",
+   "body": "Following the Second War, the Alliance constructed internment camps across the northern kingdoms to contain the defeated orcish Horde. Lordamere was unique as the sole camp established within the Alterac Mountains, placed under Dalaran's jurisdiction. Years ago, Prince Arthas Menethil and Lady Jaina Proudmoore famously sneaked past the watchtowers as youths to peer at the captive orcs, debating the morality of their imprisonment. With the orcs long since liberated or fled, the camp today functions under Warden Belamoore as an outpost for Dalaran remnants studying dangerous magical relics.",
+   "spoiler": 0
+  },
+  {
+   "title": "Forsaken Defectors",
+   "body": "The camp has become entangled in the politics of Lordaeron's undead. Four Forsaken renegades\u2014Kegan Darkmar and his compatriots\u2014stole powerful Bloodstone artifacts from the Undercity and fled here, trading them to Warden Belamoore in exchange for sanctuary behind Dalaran's lines. The magi gladly accepted the artifacts for arcane study, while executors in Tarren Mill dispatch loyal Horde operatives to hunt the defectors down and recover the stolen bloodstones before Dalaran unlocks their power.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was this camp originally built for?",
+   "aliases": [
+    "internment camp history",
+    "why is there a camp here",
+    "what is this place"
+   ],
+   "answer": "It was established by the Alliance after the Second War to imprison captive orcs who had succumbed to lethargy after losing their demonic bloodlust. Dalaran manned the watchtowers and maintained oversight over the camp due to its close proximity to the magi's city."
+  },
+  {
+   "q": "Who controls the camp right now?",
+   "aliases": [
+    "who lives here",
+    "who runs the camp",
+    "who is warden belamoore"
+   ],
+   "answer": "Warden Belamoore and a detachment of Dalaran guards and magi hold the camp. Though Dalaran itself was heavily damaged and shielded within the nearby crater, these survivors continue their research from the fortified hilltop."
+  },
+  {
+   "q": "Why are there undead Forsaken inside the camp?",
+   "aliases": [
+    "undead here",
+    "kegan darkmar",
+    "forsaken deserters"
+   ],
+   "answer": "They are deserters from the Undercity led by Kegan Darkmar. Having betrayed Queen Sylvanas and stolen sacred Bloodstone artifacts, they traded the relics to Warden Belamoore in exchange for Dalaran's protection against Forsaken retribution."
+  },
+  {
+   "q": "What connection does this place have to Arthas and Jaina?",
+   "aliases": [
+    "arthas jaina camp",
+    "arthas visit",
+    "jaina camp"
+   ],
+   "answer": "Years before the Scourge fell upon Lordaeron, Prince Arthas Menethil and Lady Jaina Proudmoore slipped past the camp's guards one night to observe the captive orcs. The experience caused Jaina great sympathy for the imprisoned families, while Arthas maintained the camps were a harsh necessity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The deserters holed up in Lordamere represent a direct betrayal of the Dark Lady. Hunting down Kegan Darkmar and recovering the Bloodstones is vital to keeping Forsaken secrets out of human hands."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs, visiting this camp is a grim reminder of the post-Second War era when thousands of their kin withered in captivity before Thrall rallied their people."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "belamoore",
+  "bloodstone",
+  "dalaran",
+  "internment",
+  "kegan darkmar",
+  "lordamere",
+  "orcs"
+ ],
+ "related": [
+  "subzone:dalaran-crater",
+  "zone:alterac",
+  "subzone:dalaran",
+  "topic:second-war",
+  "topic:forsaken",
+  "npc:jaina-proudmoore",
+  "topic:arthas-menethil",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Lordamere Internment Camp"
+ ]
+}

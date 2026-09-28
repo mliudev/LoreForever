@@ -1,0 +1,90 @@
+{
+ "key": "npc:keeper-bel-dugur",
+ "type": "npc",
+ "name": "Keeper Bel'dugur",
+ "era": "classic",
+ "zone": "shadowfang",
+ "meta": {
+  "wiki": "Keeper Bel'dugur",
+  "refs": 1
+ },
+ "summary": "Keeper Bel'dugur is a scholarly Forsaken residing deep within the Apothecarium of the Undercity. While ostensibly serving the interests of his people by commissioning expeditions to recover dark tomes and magical artifacts, subtle clues reveal far more sinister allegiances.",
+ "sections": [
+  {
+   "title": "A Collector of Dark Relics",
+   "body": "Situated among the vats and researchers of the Apothecarium, Keeper Bel'dugur tasks adventurers with retrieving dangerous arcane and occult relics from across Azeroth. Among his most prominent interests is the Book of Ur, a legendary treatise on extra-dimensional beings locked away inside Shadowfang Keep. While many in the Undercity seek magical knowledge to cure or weaponize the condition of the undead, Bel'dugur's curated acquisitions appear tailored toward unearthing ancient, forbidden powers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hidden Loyalties",
+   "body": "Beneath his calm demeanor as an Undercity researcher lies a covert loyalty to the apocalyptic Twilight's Hammer cult. The quests and research tasks Bel'dugur assigns quietly further the cult's esoteric agenda, acquiring foundational grimoires of summoning and void magic under the unsuspecting nose of the Royal Apothecary Society and Lady Sylvanas.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Keeper Bel'dugur?",
+   "aliases": [
+    "keeper bel'dugur location",
+    "where is beldugur",
+    "beldugur map"
+   ],
+   "answer": "Keeper Bel'dugur is located in the Apothecarium, the alchemical district nestled within the southern lower ring of the Undercity."
+  },
+  {
+   "q": "Why does Bel'dugur want The Book of Ur?",
+   "aliases": [
+    "why book of ur",
+    "what does beldugur do with book of ur"
+   ],
+   "answer": "The Book of Ur contains the foundational research of the Dalaran mage Ur regarding other dimensions and the feral worgen. Bel'dugur seeks to harness these forbidden summoning principles for the dark schemes of his true masters."
+  },
+  {
+   "q": "Is Keeper Bel'dugur loyal to Lady Sylvanas?",
+   "aliases": [
+    "is beldugur evil",
+    "beldugur faction",
+    "who does beldugur serve"
+   ],
+   "answer": "Outwardly, he functions as an archivist and researcher for the Forsaken. In truth, subtle hints in his investigations reveal he operates as an undercover agent for the sinister Twilight's Hammer cult."
+  },
+  {
+   "q": "What other tasks does he give adventurers?",
+   "aliases": [
+    "beldugur quests",
+    "keeper beldugur quests"
+   ],
+   "answer": "Beyond Shadowfang Keep's Book of Ur, Bel'dugur directs travelers toward forgotten lore and forbidden tomes, including dark treatises tied to ancient rituals and forbidden knowledge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Bel'dugur seems like any other scholarly Forsaken seeking forbidden knowledge to bolster your kingdom, but his true ambitions lie outside the Banshee Queen's survivalist cause."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks frequently cross paths with Bel'dugur's requests, as his interests align heavily with dangerous grimoires, extraplanar summoning, and dark occultism."
+  }
+ ],
+ "keywords": [
+  "apothecarium",
+  "bel'dugur",
+  "keeper beldugur",
+  "shadowfang",
+  "the book of ur",
+  "twilight's hammer",
+  "undercity"
+ ],
+ "related": [
+  "subzone:apothecarium",
+  "zone:undercity",
+  "quest:1013",
+  "topic:twilight-s-hammer",
+  "zone:shadowfang",
+  "topic:forsaken"
+ ],
+ "attribution": [
+  "Keeper Bel'dugur"
+ ]
+}

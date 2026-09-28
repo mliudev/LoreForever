@@ -1,0 +1,113 @@
+{
+ "key": "quest:5727",
+ "type": "quest",
+ "name": "Hidden Enemies",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   5727
+  ],
+  "level": "12",
+  "faction": "Horde",
+  "start": "Thrall",
+  "end": "",
+  "previous": "Hidden Enemies",
+  "next": "Hidden Enemies (3)",
+  "wiki": "Hidden Enemies (2)",
+  "chain": []
+ },
+ "summary": "Following the discovery of cult activity in Skull Rock, Warchief Thrall directs you to infiltrate the Burning Blade within Orgrimmar itself. By presenting a cult lieutenant's insignia to the warlock Neeru Fireblade, you test his loyalties and pierce the veil of the Shadow Council operating right under the city's surface.",
+ "sections": [
+  {
+   "title": "The Warchief's Gambit",
+   "body": "Rather than strike directly at the sinister elements harboring in the Cleft of Shadow, Thrall chooses cunning over haste. He is well aware that Neeru Fireblade feigns loyalty while quietly serving the cultists. Striking Neeru immediately would merely alert his masters and sever any trail leading deeper into the conspiracy. Instead, Thrall provides the insignia taken from the cult in Durotar, bidding you to masquerade as an initiate to discover what Neeru knows.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cleft's Hidden Master",
+   "body": "Down in the murky caverns of the Cleft of Shadow, outside the entrance to Ragefire Chasm, Neeru Fireblade quickly takes the bait. Believing you to be a newly promoted lieutenant of his order, the warlock openly scoffs at Thrall's ignorance. He reveals that the Burning Blade and offshoots like the Searing Blade are merely front organizations answering directly to the Shadow Council, who serve the will of the Burning Legion. He boasts of manipulating the Warchief into throwing loyal soldiers against the cultists in the chasm, using Thrall's own armies to weed out the weak.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Thrall keep Neeru alive if he knows he is a traitor?",
+   "aliases": [
+    "why thrall trust neeru",
+    "why keep neeru alive",
+    "neeru traitor"
+   ],
+   "answer": "Thrall allows Neeru to live because an exposed traitor is more valuable than a dead one. If executed immediately, the Shadow Council would simply replace him with someone harder to detect. By keeping Neeru under watchful eyes, Thrall turns the warlock into an unwitting conduit for intelligence regarding cult movements in Orgrimmar."
+  },
+  {
+   "q": "Who is Neeru Fireblade?",
+   "aliases": [
+    "neeru backstory",
+    "who is neeru"
+   ],
+   "answer": "Neeru Fireblade is an orc warlock residing in the Cleft of Shadow. Outwardly, he pretends to help Thrall reform warlocks into dutiful servants of the Horde. In secret, he is a primary lieutenant of the Burning Blade cult, orchestrating treachery beneath the city in the name of the Shadow Council."
+  },
+  {
+   "q": "What is the relationship between the Burning Blade and the Shadow Council?",
+   "aliases": [
+    "burning blade shadow council connection",
+    "are burning blade shadow council"
+   ],
+   "answer": "As Neeru reveals, the Burning Blade is not an independent sect; it is an arm of the Shadow Council itself. The Council maintains several subsidiary cults\u2014including the Searing Blade inside Ragefire Chasm\u2014to divide, mislead, and control ambitious practitioners under the ultimate dominion of the Burning Legion."
+  },
+  {
+   "q": "Who leads the cultists inside Ragefire Chasm?",
+   "aliases": [
+    "ragefire chasm leaders",
+    "searing blade leaders"
+   ],
+   "answer": "The Searing Blade cult operating in the chasm below Orgrimmar is spearheaded by a satyr named Bazzalan alongside an orc warlock named Jergosh the Invoker. Neeru uses Thrall's adventurers to battle them, using the conflict both to thin Horde loyalists and to test his subordinates."
+  },
+  {
+   "q": "How did I obtain the Lieutenant's Insignia?",
+   "aliases": [
+    "where lieutenant insignia comes from",
+    "insignia source"
+   ],
+   "answer": "The insignia was recovered during Thrall's initial investigation into cult activity within Durotar, specifically from the Burning Blade cultists operating out of Skull Rock."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The revelation that demonic cults openly operate beneath the foundational rock of Orgrimmar threatens the very survival of the young Horde nation."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Neeru claims to advocate for warlocks seeking legitimate standing in the Horde, but his treachery risks bringing severe condemnation upon all who practice the fel arts under Thrall's rule."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs striving to shake off the legacy of bloodlust and demonic corruption, the Shadow Council's resurgence beneath their capital is a chilling echo of their dark past on Draenor."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "cleft of shadow",
+  "insignia",
+  "neeru fireblade",
+  "orgrimmar",
+  "ragefire chasm",
+  "shadow council",
+  "thrall"
+ ],
+ "related": [
+  "quest:5726",
+  "quest:829",
+  "quest:5761",
+  "npc:thrall",
+  "npc:bazzalan",
+  "subzone:cleft-of-shadow",
+  "zone:ragefire",
+  "topic:shadow-council"
+ ],
+ "attribution": [
+  "Hidden Enemies (2)"
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "key": "npc:mountaineer-barleybrew",
+ "type": "npc",
+ "name": "Mountaineer Barleybrew",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Mountaineer Barleybrew",
+  "refs": 2
+ },
+ "summary": "Mountaineer Barleybrew is an Ironforge mountaineer stationed at the South Gate Outpost in Dun Morogh. Guarding the pass leading eastward toward Loch Modan, he relies on hearty dwarven brews to keep sentries alert in the biting cold.",
+ "sections": [
+  {
+   "title": "A Watch on the Eastern Pass",
+   "body": "Perched at the South Gate Outpost guarding the snowy roadway toward Loch Modan, Mountaineer Wellart Barleybrew stands as part of Ironforge's border watch. Like many mountaineers serving in the bitter winds of Dun Morogh, he appreciates the fortifying qualities of fine dwarven drink. Bearing the name of the renowned Barleybrew clan, he helps see to it that shipments of potent Shimmer Stout make their way to fellow watchmen who need warmth and stamina during long shifts along the mountain passes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Mountaineer Barleybrew?",
+   "aliases": [
+    "barleybrew location",
+    "where is mountaineer barleybrew",
+    "barleybrew npc"
+   ],
+   "answer": "Mountaineer Barleybrew is stationed at South Gate Outpost, the dwarven fortification guarding the eastern pass between Dun Morogh and Loch Modan."
+  },
+  {
+   "q": "What is his duty at South Gate Outpost?",
+   "aliases": [
+    "barleybrew purpose",
+    "what does barleybrew do"
+   ],
+   "answer": "He serves as a mountain sentry protecting the roadway and helps coordinate supplies, including Shimmer Stout for fellow mountaineers stationed throughout the passes."
+  },
+  {
+   "q": "Is he related to the other Barleybrews?",
+   "aliases": [
+    "barleybrew family",
+    "yorus barleybrew relative"
+   ],
+   "answer": "Yes, his name ties him to the famous Barleybrew lineage of dwarven brewers, which includes Marleth, Malgin, and Yorus Barleybrew."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, Barleybrew embodies the essential balance of frontier duty and high-proof refreshment that keeps Khaz Modan secure."
+  }
+ ],
+ "keywords": [
+  "barleybrew",
+  "dun morogh",
+  "mountaineer",
+  "shimmer stout",
+  "south gate outpost",
+  "wellart"
+ ],
+ "related": [
+  "subzone:south-gate-outpost",
+  "quest:413",
+  "quest:414",
+  "npc:marleth-barleybrew",
+  "quest:1698",
+  "zone:dunmorogh",
+  "zone:lochmodan",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Mountaineer Barleybrew"
+ ]
+}

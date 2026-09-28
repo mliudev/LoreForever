@@ -1,0 +1,129 @@
+{
+ "key": "quest:92751",
+ "type": "quest",
+ "name": "Detonation at a Distance",
+ "era": "forever",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   92751
+  ],
+  "level": "16",
+  "faction": "Alliance",
+  "start": "Jasper Fel",
+  "end": "Sprite Jumpsprocket",
+  "previous": "",
+  "next": "",
+  "wiki": "Detonation at a Distance (2)",
+  "chain": []
+ },
+ "summary": "Detonation at a Distance is an Alliance assignment initiated by Jasper Fel within Stormwind's intelligence circle. Learning of dangerous operations beneath Moonbrook, the spymaster provides a specialized remote detonator to safely handle demolitions without blowing up friendly operatives.",
+ "sections": [
+  {
+   "title": "Eyes in the Shadows",
+   "body": "Jasper Fel and the operatives of SI:7 monitor nearly everything unfolding across Stormwind's territories, especially chaotic borderlands like Westfall. When word reaches Fel of explosive operations in Moonbrook, he is already well aware of what is brewing in the abandoned mining tunnels beneath the countryside.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Prototype Solution",
+   "body": "Setting off massive explosions in confined cavern systems carries obvious hazards. Fel provides a prototype Remote Detonator Kit developed by Alliance-aligned engineers, ensuring that any detonation beneath Westfall can be triggered safely from outside. He directs the courier to deliver the hardware to Sprite Jumpsprocket in the Dwarven District, while quietly reminding them not to mention SI:7's involvement to their elven associates.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jasper Fel?",
+   "aliases": [
+    "jasper fel",
+    "who gives detonation at a distance",
+    "quest giver"
+   ],
+   "answer": "Jasper Fel is an operative tied to Stormwind's intelligence service, SI:7. Working out of the shadows, he keeps tabs on covert threats across the kingdom and provides specialized tools to handle them."
+  },
+  {
+   "q": "Why does SI:7 care about Moonbrook?",
+   "aliases": [
+    "why moonbrook",
+    "defias connection",
+    "westfall caves"
+   ],
+   "answer": "Moonbrook has fallen into the grip of bandits and outlaws, serving as the surface entrance to the Deadmines. Any activities or demolition deep beneath Westfall immediately draw the attention of Stormwind's internal intelligence network."
+  },
+  {
+   "q": "Who is Sprite Jumpsprocket?",
+   "aliases": [
+    "sprite jumpsprocket",
+    "who receives the detonator",
+    "turn in npc"
+   ],
+   "answer": "Sprite Jumpsprocket is a gnome operative stationed in the Dwarven District of Stormwind who handles specialized technical equipment and prototypes."
+  },
+  {
+   "q": "Who is the 'elf friend' Jasper Fel mentions?",
+   "aliases": [
+    "elf friend",
+    "dont tell elf",
+    "jasper fel elf"
+   ],
+   "answer": "Jasper Fel is referring to an elven contact assisting your efforts against the Westfall insurgents. SI:7 prefers to operate with secrecy and plausible deniability, keeping outside allies in the dark regarding their direct support."
+  },
+  {
+   "q": "What is the Remote Detonator Kit used for?",
+   "aliases": [
+    "remote detonator",
+    "detonator kit",
+    "what does the kit do"
+   ],
+   "answer": "It is an engineering prototype designed to trigger demolition charges from a safe distance, allowing operatives to collapse or clear underground passages without being trapped inside."
+  },
+  {
+   "q": "Where does this quest take you?",
+   "aliases": [
+    "where do i go",
+    "quest route",
+    "turn in location"
+   ],
+   "answer": "The quest tasks you with carrying the detonator kit directly to Sprite Jumpsprocket in the Dwarven District of Stormwind City."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Dealing directly with Jasper Fel highlights SI:7's extensive covert network, showing how the kingdom's spymasters monitor field operatives and quietly supply them with the right tools."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "The delivery to Sprite Jumpsprocket showcases gnome ingenuity at work in Stormwind, supplying the kingdom's spies with cutting-edge prototypes."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The quest reflects Stormwind's struggle to reclaim Westfall, using covert engineering and intelligence rather than an open military deployment."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will appreciate the prototype remote detonator, designed to replace risky manual fuses during complex cave demolitions."
+  }
+ ],
+ "keywords": [
+  "deadmines",
+  "dwarven district",
+  "jasper fel",
+  "moonbrook",
+  "remote detonator",
+  "si:7",
+  "sprite jumpsprocket",
+  "westfall"
+ ],
+ "related": [
+  "npc:jasper-fel",
+  "npc:sprite-jumpsprocket",
+  "quest:2300",
+  "subzone:dwarven-district",
+  "subzone:moonbrook",
+  "zone:westfall",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Detonation at a Distance (2)"
+ ]
+}

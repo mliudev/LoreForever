@@ -1,0 +1,110 @@
+{
+ "key": "quest:1885",
+ "type": "quest",
+ "name": "Mennet Carkad",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   1885
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Marion Call",
+  "end": "Mennet Carkad",
+  "previous": null,
+  "next": "The Deathstalkers",
+  "wiki": "Mennet Carkad (quest)",
+  "chain": []
+ },
+ "summary": "Mennet Carkad is an introductory rogue quest in the Undercity that brings promising operatives into the fold of the Deathstalkers. Directed by Marion Call, aspiring assassins are summoned to report directly to Mennet Carkad deep within the Rogues' Quarter.",
+ "sections": [
+  {
+   "title": "A Summons from the Shadows",
+   "body": "Within the dark corridors of the Undercity, word travels quietly among the Forsaken's covert operatives. When a scout or assassin catches the eye of the higher leadership, an invitation is issued. Marion Call passes down word that Mennet Carkad, a prominent figure among the rogue handlers, has taken personal notice. Given the lethal reputation of the Forsaken intelligence apparatus, ignoring such a directive is not considered a viable option.",
+   "spoiler": 0
+  },
+  {
+   "title": "Joining the Deathstalkers",
+   "body": "Mennet Carkad waits in the shadowy alcoves of the Rogues' Quarter, watching over recruits and evaluating their readiness. Those who heed his call are not simply joining an ordinary guild of thieves; they are being tested for entry into the Deathstalkers, the dreaded espionage and assassination arm of the Forsaken. Swift obedience is merely the first baseline test for anyone seeking to serve the Dark Lady from the shadows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mennet Carkad?",
+   "aliases": [
+    "mennet carkad lore",
+    "who is carkad"
+   ],
+   "answer": "Mennet Carkad is a rogue trainer and Deathstalker handler operating within the Rogues' Quarter of the Undercity. He oversees promising covert agents and assigns critical missions on behalf of the Forsaken leadership."
+  },
+  {
+   "q": "What happens if someone ignores Mennet Carkad's summons?",
+   "aliases": [
+    "ignoring carkad",
+    "what happens if you ignore summons"
+   ],
+   "answer": "Marion Call warns that you would not want to know the fate of those who ignored Carkad's call in the past. In the ruthless hierarchy of the Forsaken, refusing or ignoring orders from intelligence commanders typically results in swift, fatal elimination."
+  },
+  {
+   "q": "Who are the Deathstalkers?",
+   "aliases": [
+    "deathstalker lore",
+    "what are the deathstalkers"
+   ],
+   "answer": "The Deathstalkers are the elite order of rogues, spies, and assassins serving the Forsaken. Operating from the shadows of the Undercity, they eliminate high-value targets, gather intelligence, and secure Lordaeron from enemies like the Scarlet Crusade and the Scourge."
+  },
+  {
+   "q": "Where can I find Mennet Carkad?",
+   "aliases": [
+    "carkad location",
+    "where is mennet carkad"
+   ],
+   "answer": "Mennet Carkad is located in the Rogues' Quarter of the Undercity, typically surrounded by other covert operatives, trainers, and shadowcraft supplies."
+  },
+  {
+   "q": "Who gives the quest to seek out Mennet Carkad?",
+   "aliases": [
+    "who starts this quest",
+    "marion call quest"
+   ],
+   "answer": "The task is assigned by Marion Call in the Rogues' Quarter, who notices your burgeoning skills and warns you that Carkad expects prompt obedience."
+  },
+  {
+   "q": "What comes after reporting to Mennet Carkad?",
+   "aliases": [
+    "next quest after carkad",
+    "what does carkad want"
+   ],
+   "answer": "Reporting to Mennet Carkad immediately leads into direct service for the Deathstalkers, starting with tasks designed to prove your cunning and loyalty to the Forsaken cause."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This summons marks your transition from an unproven cutpurse into a recognized asset of the Deathstalkers, the Forsaken's elite shadow network."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The Deathstalkers are essential to the survival of the Forsaken, hunting Scarlet zealots and Scourge remnants while protecting Queen Sylvanas from hidden threats."
+  }
+ ],
+ "keywords": [
+  "assassin",
+  "deathstalkers",
+  "forsaken rogue",
+  "marion call",
+  "mennet carkad",
+  "rogues' quarter",
+  "undercity"
+ ],
+ "related": [
+  "quest:1886",
+  "subzone:rogues-quarter",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "Mennet Carkad (quest)"
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "key": "quest:3741",
+ "type": "quest",
+ "name": "Nida's Necklace",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   3741
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Shawn",
+  "end": "Nida",
+  "previous": null,
+  "next": null,
+  "wiki": "Nida's Necklace (quest)",
+  "chain": []
+ },
+ "summary": "While fishing on the docks of Lakeshire, young Nida lost a cherished necklace given to her by her father. Forbidden by their parents from braving the treacherous waters of Lake Everstill, her friend Shawn asks passing adventurers to dive in and retrieve the sunken keepsake.",
+ "sections": [
+  {
+   "title": "A Day at the Docks",
+   "body": "Lakeshire's children often spend their days fishing along the lakefront, trying to carry on a normal childhood amidst the mounting threats encircling the Redridge Mountains. During one of these outings, young Nida accidentally dropped her treasured necklace into the depths of Lake Everstill. Having searched the wooden piers and shores in vain, her companion Shawn turns to capable adventurers for help.",
+   "spoiler": 0
+  },
+  {
+   "title": "Perils of Lake Everstill",
+   "body": "The town's parents strictly forbid their children from swimming in the lake, and for good reason. Lake Everstill teems with aggressive murlocs and hungry threshedons lurking just beneath the surface. For a couple of town kids, recovering an item lost in the glinting mud at the lake bottom is impossible, making outside help the only hope of recovering the family gift.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lost the necklace?",
+   "aliases": [
+    "who is nida",
+    "who lost it",
+    "necklace owner"
+   ],
+   "answer": "The necklace belongs to Nida, a young girl living in Lakeshire. It was a special present given to her by her father, which is why its loss upsets her so much."
+  },
+  {
+   "q": "Why can't Shawn or Nida swim down and get it themselves?",
+   "aliases": [
+    "why not get it themselves",
+    "why kids not swimming"
+   ],
+   "answer": "Their parents strictly forbid them from swimming in Lake Everstill due to the dangers lurking beneath the surface. Aggressive murlocs and predatory threshedons make the waters far too perilous for unsupervised children."
+  },
+  {
+   "q": "Where did the necklace end up?",
+   "aliases": [
+    "necklace location",
+    "where is necklace",
+    "where did it fall"
+   ],
+   "answer": "The necklace slipped off the docks and settled into a mound of glinting mud on the western lake bed of Lake Everstill."
+  },
+  {
+   "q": "Who is Effsee?",
+   "aliases": [
+    "effsee",
+    "nida cat"
+   ],
+   "answer": "Effsee is Nida's pet kitten who keeps her company in Lakeshire and happily joins her in thanking travelers who recover her necklace."
+  },
+  {
+   "q": "Who starts the request to find the necklace?",
+   "aliases": [
+    "who gives quest",
+    "shawn role"
+   ],
+   "answer": "Shawn, Nida's friend who was fishing alongside her on the docks, approaches travelers on her behalf because he knows how much the gift means to her."
+  },
+  {
+   "q": "Why does this task matter to Lakeshire?",
+   "aliases": [
+    "lakeshire importance",
+    "why help kids"
+   ],
+   "answer": "While simple compared to fighting gnolls or Blackrock orcs, small favors like this provide comfort and normalcy to the families struggling to live peacefully in a town under constant threat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Helping the beleaguered citizens of Lakeshire with small, personal hardships reinforces the Alliance's commitment to protecting everyday townsfolk, not just fighting larger strategic threats."
+  }
+ ],
+ "keywords": [
+  "effsee",
+  "glinting mud",
+  "lake everstill",
+  "lakeshire",
+  "necklace",
+  "nida",
+  "redridge",
+  "shawn"
+ ],
+ "related": [
+  "npc:nida",
+  "npc:shawn",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "quest:938"
+ ],
+ "attribution": [
+  "Nida's Necklace (quest)"
+ ]
+}

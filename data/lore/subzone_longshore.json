@@ -1,0 +1,89 @@
+{
+ "key": "subzone:longshore",
+ "type": "subzone",
+ "name": "Longshore",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Longshore"
+ },
+ "summary": "The Longshore is the expansive sandy coastline stretching along the entire western edge of Westfall. Despite its vast and scenic expanse, the shore is notoriously hazardous due to thick populations of aggressive murlocs and scattered wrecks off the coast.",
+ "sections": [
+  {
+   "title": "A Treacherous Coastline",
+   "body": "Running the full western length of Westfall, the Longshore is one of the widest unbroken beaches in the Eastern Kingdoms. Yet it offers little peace to travelers. Coastal murlocs dominate the surf, led by notorious terrors like Old Murk-Eye, while the remnants of sunken vessels\u2014including ruined elven destroyers\u2014litter the shallows. Near the southern reaches, isolated settlers like Daphne Stilwell struggle against marauding Defias bandits, standing within sight of the Westfall Lighthouse across the water.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Longshore so dangerous?",
+   "aliases": [
+    "why are there so many murlocs",
+    "longshore hazards",
+    "is longshore safe"
+   ],
+   "answer": "The shoreline is infested with aggressive murloc tribes that roam unchecked across the sands, ambushing anyone who strays too close to the surf. In addition to the murlocs, the southern end of the beach is troubled by Defias bandits raiding coastal homesteads."
+  },
+  {
+   "q": "Who is Daphne Stilwell?",
+   "aliases": [
+    "daphne stilwell",
+    "stilwell farm",
+    "woman on the beach"
+   ],
+   "answer": "Daphne Stilwell is a lone settler maintaining an isolated farm on the southwestern stretch of the Longshore. Her vulnerable position makes her a frequent target for raids by the Defias Brotherhood, prompting the Knights of the Silver Hand to dispatch paladin initiates to her defense."
+  },
+  {
+   "q": "What are the shipwrecks lying off the coast?",
+   "aliases": [
+    "elven destroyers westfall",
+    "sunken ships longshore",
+    "shipwrecks"
+   ],
+   "answer": "Numerous wrecks lie submerged off the Longshore, ranging from merchant vessels to elven destroyers lost during past naval conflicts. These underwater ruins attract scavengers, murlocs, and adventurers seeking relics lost beneath the waves."
+  },
+  {
+   "q": "Why do druids visit the Longshore?",
+   "aliases": [
+    "druid quest longshore",
+    "strange lockbox westfall",
+    "half pendant of aquatic endurance"
+   ],
+   "answer": "Alliance druids undertake a rite known as the Trial of the Sea Lion to master their aquatic form. Part of this trial requires seeking out a submerged chest near an offshore shipwreck along northwestern Longshore to retrieve the Half Pendant of Aquatic Endurance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Paladins following the guidance of Duthorian Rall in Stormwind are sent south to Daphne Stilwell's homestead on Longshore, proving their valor by shielding an innocent farmer from Defias raiders."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Alliance druids must brave the depths off the northwestern Longshore, locating a lockbox hidden near a sunken wreck to assemble the pendant required for their aquatic form."
+  }
+ ],
+ "keywords": [
+  "aquatic form",
+  "daphne stilwell",
+  "longshore",
+  "murloc",
+  "old murk-eye",
+  "shipwrecks",
+  "westfall",
+  "westfall lighthouse"
+ ],
+ "related": [
+  "zone:westfall",
+  "subzone:westfall-lighthouse",
+  "npc:daphne-stilwell",
+  "quest:1649",
+  "quest:31",
+  "npc:duthorian-rall",
+  "topic:murloc",
+  "topic:defias-brotherhood"
+ ],
+ "attribution": [
+  "Longshore"
+ ]
+}

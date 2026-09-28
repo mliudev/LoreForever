@@ -1,0 +1,85 @@
+{
+ "key": "subzone:fields-of-honor",
+ "type": "subzone",
+ "name": "Fields of Honor",
+ "era": "classic",
+ "zone": "burningsteppes",
+ "meta": {
+  "wiki": "Fields of Honor"
+ },
+ "summary": "The Fields of Honor are the dusty muster grounds stretching across the approach to Blackrock Stronghold in the Burning Steppes. Dark Horde forces gather here in formation under the stern command of Blackrock officers, preparing for war against any who contest Blackrock Mountain.",
+ "sections": [
+  {
+   "title": "Muster Grounds of the Dark Horde",
+   "body": "Spanning the ash-choked expanse between Black Tooth Hovel, the Ruins of Thaurissan, and the looming gates of Blackrock Stronghold, the Fields of Honor serve as the primary staging grounds for the Blackrock orcs. Blackrock sergeants continually drill squads of frontline soldiers, enforcing iron discipline over disparate allies. Alongside the orcs, Smolderthorn troll assassins and Firegut ogre flamespeakers stand in rigid formations. They wait under the watchful command of General Thorg'izog, ready to march against nearby Alliance scouts, venturing Horde emissaries, or rival Dark Iron dwarves.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Fields of Honor located?",
+   "aliases": [
+    "fields of honor location",
+    "where are fields of honor",
+    "burning steppes fields of honor"
+   ],
+   "answer": "The Fields of Honor lie in the heart of the Burning Steppes, positioned right before the entrance to Blackrock Stronghold. They reach eastward toward the Ruins of Thaurissan and stretch southward toward Black Tooth Hovel."
+  },
+  {
+   "q": "Who controls this area?",
+   "aliases": [
+    "who rules fields of honor",
+    "who lives here",
+    "who controls fields of honor"
+   ],
+   "answer": "The area is controlled by the Dark Horde, dominated by the Blackrock clan. Blackrock sergeants keep allied Smolderthorn forest trolls and Firegut ogres organized in battle ranks under the orders of General Thorg'izog."
+  },
+  {
+   "q": "Why are troll and ogre forces stationed here alongside orcs?",
+   "aliases": [
+    "why are there trolls and ogres",
+    "who fights here",
+    "blackrock allies"
+   ],
+   "answer": "The Smolderthorn troll tribe and the Firegut ogres are bound in alliance with the Blackrock clan under the banner of the Dark Horde, uniting their strength against common enemies across the Burning Steppes and within Blackrock Mountain."
+  },
+  {
+   "q": "Who leads the forces gathered on the fields?",
+   "aliases": [
+    "who is the commander",
+    "who leads the fields of honor",
+    "thorgizog"
+   ],
+   "answer": "The troops drilling on the Fields of Honor answer directly to General Thorg'izog, the military commander overseeing the defense and troop deployments outside Blackrock Stronghold."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The orcs gathered here belong to the renegade Dark Horde, who reject Thrall's leadership and view the new Horde as weak traitors to their warrior legacy."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The massive staging of orcs, trolls, and ogres right on the doorstep of the Redridge Mountains poses an imminent threat to the kingdom of Stormwind."
+  }
+ ],
+ "keywords": [
+  "blackrock clan",
+  "blackrock stronghold",
+  "burning steppes",
+  "fields of honor",
+  "firegut",
+  "general thorg'izog",
+  "smolderthorn"
+ ],
+ "related": [
+  "subzone:blackrock-stronghold",
+  "subzone:black-tooth-hovel",
+  "subzone:ruins-of-thaurissan",
+  "topic:blackrock-clan",
+  "zone:burningsteppes"
+ ],
+ "attribution": [
+  "Fields of Honor"
+ ]
+}

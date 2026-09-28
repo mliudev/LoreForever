@@ -1,0 +1,91 @@
+{
+ "key": "subzone:mardenholde-keep",
+ "type": "subzone",
+ "name": "Mardenholde Keep",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Mardenholde Keep"
+ },
+ "summary": "Mardenholde Keep is the imposing stone citadel overlooking Hearthglen in the northern reaches of the Western Plaguelands. Once the ancestral seat of Highlord Tirion Fordring, it now serves as the regional command center for the fanatical Scarlet Crusade under the rule of his son, Highlord Taelan Fordring.",
+ "sections": [
+  {
+   "title": "Seat of the Fordrings",
+   "body": "Built as the administrative heart of the Hearthglen principality, Mardenholde Keep was long celebrated by the people of Lordaeron for having never breached during the Second War. From its council chambers, Highlord Tirion Fordring governed the surrounding vales alongside his trusted advisors, maintaining peace until his controversial trial and exile for defending the orc Eitrigg. Following Tirion's fall, governance fell to his ambitious apprentice Barthilas and eventually passed to Tirion's son, Taelan, who inherited his father's domain on the eve of Lordaeron's destruction.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cradle of the Crusade",
+   "body": "When the Scourge swept through Lordaeron, Taelan opened Mardenholde to surviving commanders of the Knights of the Silver Hand, including Alexandros Mograine and Saidan Dathrohan. Within these halls, the remnants of the order plotted their resistance against the undead. However, internal paranoia and dark subversion soon fractured their fellowship. When accusations of treachery surfaced following Mograine's demise, Maxwell Tyrosus broke away to found the Argent Dawn, while Dathrohan and the remaining zealots reorganized Hearthglen into a fortified bastion of the newly minted Scarlet Crusade.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who controls Mardenholde Keep right now?",
+   "aliases": [
+    "who leads mardenholde",
+    "who is in charge of hearthglen keep",
+    "mardenholde boss"
+   ],
+   "answer": "The keep is held by the Scarlet Crusade and serves as their primary military command in the Western Plaguelands. It is governed directly by Highlord Taelan Fordring, who resides in the main hall surrounded by elite Scarlet protectors."
+  },
+  {
+   "q": "Why is this fortress so important to Tirion Fordring?",
+   "aliases": [
+    "tirion connection to mardenholde",
+    "did tirion live here"
+   ],
+   "answer": "Mardenholde was Tirion Fordring's ancestral home and the seat from which he ruled the region as an Alliance paladin. He raised his family within its walls until he was stripped of his titles and exiled for defending an honorable enemy."
+  },
+  {
+   "q": "How did the Scarlet Crusade take over Mardenholde?",
+   "aliases": [
+    "how did scarlet crusade get hearthglen",
+    "why is scarlet crusade here"
+   ],
+   "answer": "After Tirion's exile and the fall of Lordaeron during the Third War, Tirion's son Taelan offered the keep as a refuge for surviving Silver Hand paladins. Influenced by commanders like Saidan Dathrohan, Taelan pledged Hearthglen's garrison to their radical new order."
+  },
+  {
+   "q": "Can players enter Mardenholde Keep safely?",
+   "aliases": [
+    "is mardenholde friendly",
+    "can alliance enter mardenholde",
+    "can horde enter mardenholde"
+   ],
+   "answer": "No. The Scarlet Crusade considers all outsiders to be potential carriers of the plague or enemies of their cause. Any adventurer approaching the keep will be attacked on sight unless disguised through powerful illusion magic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Mardenholde represents a tragic chapter in paladin history: once a noble sanctuary of the Silver Hand, its halls were where the order splintered between the fanatical Scarlet Crusade and the vigilant Argent Dawn."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Lordaeron, Mardenholde stands as a bitter reminder of how their homeland's proudest strongholds survived the orcish wars only to succumb to madness and zealotry during the Scourge."
+  }
+ ],
+ "keywords": [
+  "dathrohan",
+  "hearthglen",
+  "mardenholde",
+  "scarlet crusade",
+  "silver hand",
+  "taelan fordring",
+  "tirion fordring"
+ ],
+ "related": [
+  "subzone:hearthglen",
+  "npc:tirion-fordring",
+  "topic:scarlet-crusade",
+  "topic:knights-of-the-silver-hand",
+  "topic:argent-dawn",
+  "zone:westernplaguelands",
+  "topic:lordaeron",
+  "npc:eitrigg"
+ ],
+ "attribution": [
+  "Mardenholde Keep"
+ ]
+}

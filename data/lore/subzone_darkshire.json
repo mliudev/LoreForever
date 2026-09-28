@@ -1,0 +1,102 @@
+{
+ "key": "subzone:darkshire",
+ "type": "subzone",
+ "name": "Darkshire",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Darkshire"
+ },
+ "summary": "Darkshire, formerly known as Grand Hamlet, is a battered settlement in eastern Duskwood. Cloaked in an enduring, unnatural gloom and neglected by Stormwind, the town survives only through the vigilance of the Night Watch and the stubborn endurance of its people.",
+ "sections": [
+  {
+   "title": "A Town Abandoned",
+   "body": "Once a peaceful woodland settlement called Grand Hamlet, the village was razed by the Old Horde during the First War and later rebuilt. Its fortune turned truly bitter following the fall of Medivh at Karazhan, whose lingering death throes cursed Brightwood into the shadowy wilderness now called Duskwood. Despite being a nominal holding of the Kingdom of Stormwind, the town hall receives virtually no aid from the crown. Political paralysis in Stormwind City has left the garrison unstaffed and the borders unpatrolled, forcing Mayor Ello Ebonlocke and the local council to administer their own harsh, insular justice in the shadows.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Line in the Dark",
+   "body": "Surrounded by walking dead from the western graveyards and feral worgen hunting through the woods, Darkshire clings to life along its palisades. The town's primary shield is the Night Watch, a voluntary civilian militia commanded by Althea Ebonlocke. Operating out of the town square and patrolling the pitch-black thoroughfares, these weary sentries keep the town's roads open and turn back the terrors prowling the tree line. Travelers arriving at the Scarlet Raven Tavern find the locals suspicious, frightened, and desperate for any mercenary capable of holding a blade.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was the town renamed from Grand Hamlet?",
+   "aliases": [
+    "why is it called darkshire",
+    "grand hamlet name change",
+    "darkshire history"
+   ],
+   "answer": "The settlement was originally named Grand Hamlet when the region was still the sunny forest of Brightwood. After the Guardian Medivh died at nearby Karazhan, dark magic crept across the woods, blocking the sunlight and raising the dead. As Brightwood decayed into Duskwood, the bleak reality of their cursed surroundings prompted the residents to rename the village Darkshire."
+  },
+  {
+   "q": "Why isn't Stormwind helping defend Darkshire?",
+   "aliases": [
+    "where is the stormwind army",
+    "why no guards in duskwood",
+    "why did stormwind abandon darkshire"
+   ],
+   "answer": "Stormwind is paralyzed by domestic political gridlock following the disappearance of King Varian Wrynn. Under the guidance of royal court advisors like Lady Katrana Prestor, the crown has focused its remaining resources narrowly around Elwynn and Redridge, leaving outlying settlements like Darkshire to fend entirely for themselves without soldiers or supplies."
+  },
+  {
+   "q": "Who leads Darkshire?",
+   "aliases": [
+    "who is in charge of darkshire",
+    "darkshire leadership",
+    "mayor of darkshire"
+   ],
+   "answer": "Civic authority rests with Lord Ello Ebonlocke and the Council of Darkshire, operating out of the town hall alongside town clerk Daltry. Martial defense is led by Ello's daughter, Commander Althea Ebonlocke, who commands the volunteer militia known as the Night Watch."
+  },
+  {
+   "q": "What is the Night Watch?",
+   "aliases": [
+    "what is the nightwatch",
+    "darkshire guards",
+    "who protects darkshire"
+   ],
+   "answer": "The Night Watch is a local civilian militia formed out of necessity by Althea Ebonlocke. Because the Stormwind Army will not deploy troops to Duskwood, local townsfolk took up arms to patrol the gloomy roads, secure the borders, and push back ghoul incursions and rogue beasts."
+  },
+  {
+   "q": "Who was Morgan Ladimore?",
+   "aliases": [
+    "morla dime lore",
+    "ladimore darkshire",
+    "who is the ladimore guy"
+   ],
+   "answer": "Morgan Ladimore was a returning veteran of the Third War who arrived in Darkshire only to discover his homestead ruined and his family gone. After a local priest suggested looking among the tombstones at Raven Hill Cemetery, grief and tragedy drove Ladimore to his death, leaving a dark legacy that still haunts the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Darkshire is a stark reminder of the kingdom's fracturing frontier. Alliance heroes will find grateful townsfolk, but also palpable bitterness toward the unresponsive nobility back in Stormwind City."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "With the dead rising in every surrounding cemetery and the Light all but forgotten by frightened locals, holy warriors find no shortage of unholy blights to purge around the village perimeter."
+  }
+ ],
+ "keywords": [
+  "brightwood",
+  "darkshire",
+  "duskwood",
+  "ebonlocke",
+  "grand hamlet",
+  "night watch",
+  "scarlet raven"
+ ],
+ "related": [
+  "zone:duskwood",
+  "npc:althea-ebonlocke",
+  "npc:lord-ello-ebonlocke",
+  "topic:night-watch",
+  "subzone:scarlet-raven-tavern",
+  "zone:stormwind",
+  "quest:56",
+  "subzone:raven-hill-cemetery"
+ ],
+ "attribution": [
+  "Darkshire"
+ ]
+}

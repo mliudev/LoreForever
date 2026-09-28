@@ -1,0 +1,128 @@
+{
+ "key": "quest:6123",
+ "type": "quest",
+ "name": "Gathering the Cure",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   6123
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Alanndarian Nightsong",
+  "end": "",
+  "previous": "The Principal Source (Alliance)",
+  "next": "Curing the Sick (Alliance)",
+  "wiki": "Gathering the Cure (Alliance)",
+  "chain": []
+ },
+ "summary": "Gathering the Cure is an essential trial for young night elf druids learning to master nature's healing powers in Darkshore. Guided by Alanndarian Nightsong in Auberdine, the druid collects vital natural reagents to brew a restorative salve for the region's ailing wildlife. This task lays the practical foundation for understanding how herbal remedies combat venom and disease.",
+ "sections": [
+  {
+   "title": "A Remedy for Darkshore's Wildlife",
+   "body": "Following the discovery of a contaminated water source plaguing the local wildlife, Alanndarian Nightsong in Auberdine sets out to concoct an effective curative salve. While pure water forms the base of the mixture, genuine healing requires potent natural catalysts. The afflicted forest deer cannot recover on their own, making the gathering of wholesome remedies a matter of urgency for the Cenarion Circle.",
+   "spoiler": 0
+  },
+  {
+   "title": "Roots and Lunar Blooms",
+   "body": "The restorative salve demands two crucial flora: Earthroot and Lunar Fungus. Earthroot provides pure curative properties, requiring the practiced eye of an herbalist to harvest from the rocky soil. To lend the mixture potency, Alanndarian sends the druid into the nearby eastern caves to gather fungal blooms that flourish in the dark, nestled among increasingly territorial and agitated moonkin.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Path to Poison Cleansing",
+   "body": "Synthesizing a specific antidote for every toxin is a meticulous and demanding task. By walking the initiate through the delicate gathering and brewing of physical ingredients, Alanndarian demonstrates the sheer effort conventional medicine requires. This hands-on brewing serves as a stepping stone toward mastering the innate druidic art of purging toxins purely through nature magic.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of Gathering the Cure?",
+   "aliases": [
+    "why do this quest",
+    "gathering the cure goal",
+    "what is gathering the cure for"
+   ],
+   "answer": "The quest tasks a druid initiate with gathering Earthroot and Lunar Fungus for Alanndarian Nightsong in Auberdine. These reagents are used to craft a curative salve to treat the sick deer of Darkshore, serving as an instructional step in learning to neutralize poisons."
+  },
+  {
+   "q": "Where does the Lunar Fungus grow?",
+   "aliases": [
+    "where is lunar fungus",
+    "lunar fungus location",
+    "how to find lunar fungus"
+   ],
+   "answer": "Lunar Fungus grows inside the caves situated in the hills directly east of Auberdine. Druids must navigate these dens carefully, as the resident wild moonkin have grown territorial and aggressive."
+  },
+  {
+   "q": "Do I need to be an herbalist to get Earthroot?",
+   "aliases": [
+    "need herbalism for earthroot",
+    "can non herbalists get earthroot",
+    "earthroot without profession"
+   ],
+   "answer": "You do not need Herbalism yourself, though Earthroot is harvested from wild herb nodes. If you do not practice the trade, you must trade with an herbalist or acquire it from others to complete Alanndarian's recipe."
+  },
+  {
+   "q": "Who is Alanndarian Nightsong?",
+   "aliases": [
+    "who is alanndarian",
+    "alanndarian nightsong lore"
+   ],
+   "answer": "Alanndarian Nightsong is a Cenarion Circle druid stationed in Auberdine. She monitors the health of Darkshore's flora and fauna, guiding young druids through their initial trials to cleanse and preserve the wilderness."
+  },
+  {
+   "q": "Why are the deer in Darkshore sick?",
+   "aliases": [
+    "why are deer poisoned",
+    "sick deer darkshore",
+    "what poisoned the deer"
+   ],
+   "answer": "The deer have consumed water tainted by a contaminated spring in the wilderness. The resulting poison leaves them incapacitated and suffering, requiring an active curative salve to relieve their symptoms."
+  },
+  {
+   "q": "How does this quest help me learn Cure Poison?",
+   "aliases": [
+    "cure poison quest druid",
+    "learn cure poison",
+    "power over poison chain"
+   ],
+   "answer": "This quest is part of the larger 'Power over Poison' training. By showing initiates how painstaking it is to prepare herbal antidotes for individual toxins, the Cenarion Circle prepares them to channel raw nature magic that can neutralize poisons effortlessly."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This rite of passage teaches young druids how mortal medicine interacts with natural toxins, laying the groundwork for channeling raw curative energy without mundane tools."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Alanndarian specifically notes the value of herbalists, who possess the trained eye needed to harvest Earthroot directly from the earth."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Protecting the sacred groves and fauna of Darkshore is a sacred duty for the kaldorei, who revere Elune and the spirits of the wild."
+  }
+ ],
+ "keywords": [
+  "alanndarian nightsong",
+  "auberdine",
+  "cure poison",
+  "darkshore",
+  "druid quest",
+  "earthroot",
+  "gathering the cure",
+  "lunar fungus",
+  "moonkin caves"
+ ],
+ "related": [
+  "npc:alanndarian-nightsong",
+  "quest:6125",
+  "topic:druid",
+  "subzone:auberdine",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Gathering the Cure (Alliance)"
+ ]
+}

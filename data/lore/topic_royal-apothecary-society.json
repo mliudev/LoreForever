@@ -1,0 +1,127 @@
+{
+ "key": "topic:royal-apothecary-society",
+ "type": "topic",
+ "name": "Royal Apothecary Society",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Royal Apothecary Society"
+ },
+ "summary": "The Royal Apothecary Society is an alchemical guild established under Lady Sylvanas Windrunner and based in the Apothecarium beneath the Undercity. Composed of Forsaken researchers, its primary mission is compounding a lethal New Plague capable of eradicating the Scourge while claiming vengeance against the living. While Horde allies believe the society seeks a cure for undeath, its researchers actively harvest venoms, slimes, and toxic reagents across Azeroth to perfect weapons of mass destruction.",
+ "sections": [
+  {
+   "title": "Vengeance Through Alchemy",
+   "body": "Founded in the wake of the Forsaken's liberation, the Royal Apothecary Society serves as the scientific and alchemical arm of Lady Sylvanas Windrunner's kingdom. From their vats and subterranean laboratories in the Apothecarium, researchers seek to weaponize the very force that damned them. Their preeminent endeavor is the creation of a 'New Plague'\u2014a concoction intended to eradicate the Scourge and destroy the Lich King. Unlike traditional human alchemy, which prioritizes elixirs of healing or transmutation, the Society experiments ruthlessly with foul pathogens, caustic acids, and necromantic blends, raising fallen warhorses as skeletal steeds and brewing deadlier strains of toxic blight.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Calculated Deception",
+   "body": "To the outside world, the Society presents an air of misunderstood scholars. When dealing with their allies in Orgrimmar and Thunder Bluff, Forsaken representatives suggest their alchemists toil tirelessly to uncover a remedy for the curse of undeath. In truth, curing the affliction is of little interest to Master Apothecary Faranell and the dark council. The Society works in absolute secrecy to hone toxins that spare no one, secretly testing their efficacy against both living and undead test subjects to ensure utter annihilation of their enemies.",
+   "spoiler": 1
+  },
+  {
+   "title": "Outposts Across Azeroth",
+   "body": "The reach of the Apothecary Society extends far beyond the canals of the Undercity. Field apothecaries are dispatched to remote outposts across Lordaeron and Kalimdor. In Silverpine and Hillsbrad, agents like Apothecaries Renferrel and Lydon gather local floras and distill venoms. In the arid Barrens, Apothecary Helbrim catalogs strange desert flora and creatures, while Apothecary Zamah operates beneath Thunder Bluff in the Pools of Vision. Wherever natural toxins, shifting oozes, or virulent organisms exist, the Society sends acolytes to collect samples for the Apothecarium's cauldrons.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Royal Apothecary Society?",
+   "aliases": [
+    "what is the ras",
+    "who are the apothecaries",
+    "forsaken alchemy guild"
+   ],
+   "answer": "The Royal Apothecary Society is the Forsaken alchemical organization headquartered in the Apothecarium within the Undercity. Created under Queen Sylvanas Windrunner, its members study virulent pathogens, necromancy, and toxic reagents to craft chemical weapons for the Forsaken."
+  },
+  {
+   "q": "What is the New Plague they are working on?",
+   "aliases": [
+    "new plague explained",
+    "what is the forsaken plague",
+    "why make a new plague"
+   ],
+   "answer": "The New Plague is a bespoke alchemical pathogen developed by the Society under Sylvanas's direct orders. Its ultimate purpose is to possess the power to exterminate the Scourge and the Lich King, while also remaining lethal to living beings who threaten the Forsaken."
+  },
+  {
+   "q": "Does the Horde know what the Society is really brewing?",
+   "aliases": [
+    "does thrall know about the plague",
+    "horde stance on apothecaries",
+    "do orcs know about the plague"
+   ],
+   "answer": "No. The Forsaken maintain the facade that their research focuses on curing the affliction of undeath and finding a peaceful place for their kind. The Tauren and Orcs believe the apothecaries seek a medical remedy, unaware that the Society is engineering a lethal weapon of eradication."
+  },
+  {
+   "q": "Who leads the Royal Apothecary Society?",
+   "aliases": [
+    "leader of the apothecaries",
+    "ras leader",
+    "who runs the apothecarium"
+   ],
+   "answer": "While the Society ultimately answers to Queen Sylvanas Windrunner, its daily scientific efforts and research within the Undercity are directed by senior overseers such as Master Apothecary Faranell."
+  },
+  {
+   "q": "Why are apothecaries stationed in places like the Barrens or Thunder Bluff?",
+   "aliases": [
+    "why are apothecaries in kalimdor",
+    "apothecaries outside tirisfal",
+    "apothecary zamah pools of vision"
+   ],
+   "answer": "Field apothecaries search for rare biological agents, exotic venom, fungi, and mutagenic oozes not found in Lordaeron. Agents like Helbrim in the Crossroads and Zamah in Thunder Bluff study local ecology and collect dangerous samples to send back to the laboratories in the Undercity."
+  },
+  {
+   "q": "How does the Society create Forsaken mounts?",
+   "aliases": [
+    "where do undead horses come from",
+    "forsaken mount lore",
+    "skeletal horse origin"
+   ],
+   "answer": "Rather than allowing fallen warhorses to rot, the Royal Apothecary Society blends dark alchemy and necromancy to reanimate deceased steeds, raising them as skeletal mounts to serve Forsaken riders in battle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Society represents the scientific might of your people, turning the very plague that butchered Lordaeron into an instrument of vengeance against the Scourge and all who oppose you."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Forsaken representatives claim their alchemical work seeks an antidote to restore their cursed condition, though their secluded cauldrons in the Apothecarium reek of deadlier ambitions."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The Society places an enormous premium on deadly flora, harvesting toxic fungi, stranglekelp, and grave moss from every corner of Azeroth to fuel their virulent cauldrons."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Out of pity for the cursed dead, the elders permitted Apothecary Zamah into the Pools of Vision, believing the Forsaken genuinely sought a cleansing cure for their affliction."
+  }
+ ],
+ "keywords": [
+  "alchemy",
+  "apothecarium",
+  "faranell",
+  "helbrim",
+  "lydon",
+  "new plague",
+  "royal apothecary society",
+  "sylvanas windrunner",
+  "undercity",
+  "zamah"
+ ],
+ "related": [
+  "subzone:apothecarium",
+  "npc:master-apothecary-faranell",
+  "npc:sylvanas-windrunner",
+  "quest:367",
+  "zone:undercity",
+  "topic:forsaken",
+  "topic:plague-of-undeath",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Royal Apothecary Society"
+ ]
+}

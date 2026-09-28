@@ -1,0 +1,123 @@
+{
+ "key": "quest:233",
+ "type": "quest",
+ "name": "Coldridge Valley Mail Delivery",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   233
+  ],
+  "level": "3",
+  "faction": "Alliance",
+  "start": "Sten Stoutarm",
+  "end": "Talin Keeneye",
+  "previous": null,
+  "next": "Coldridge Valley Mail Delivery (2)",
+  "wiki": "Coldridge Valley Mail Delivery",
+  "chain": [
+   "Coldridge Valley Mail Delivery",
+   "Coldridge Valley Mail Delivery (2)"
+  ]
+ },
+ "summary": "Coldridge Valley Mail Delivery is a simple courier task entrusted to recruits by Sten Stoutarm at Anvilmar. With mountain passes often choked with snow and troggs pressing nearby, carrying fresh correspondence out to the camps along the frozen lake keeps the valley's isolated defenders connected.",
+ "sections": [
+  {
+   "title": "A Courier in the Snow",
+   "body": "Life in Coldridge Valley is secluded even in the calmest of seasons. When winter couriers successfully navigate the south mountain passes with mail from the rest of Dun Morogh, the missives pile up quickly at Anvilmar. Sten Stoutarm, busy managing local supply concerns and security, relies on wandering recruits to carry these bundles down the western road rather than letting vital tidings languish in the hall.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frontier Outposts",
+   "body": "The intended recipient, Talin Keeneye, keeps watch by the frozen lake to the west, observing trogg movements and dangerous wildlife. Even out in the cold, word from Ironforge and surrounding outposts remains precious. However, mail sorting under harsh mountain conditions is rarely flawless, and letters bound for different scouts often travel together in a single bundle.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts the mail delivery?",
+   "aliases": [
+    "quest giver",
+    "who gives coldridge valley mail delivery",
+    "sten stoutarm quest"
+   ],
+   "answer": "Sten Stoutarm gives you the delivery task outside Anvilmar. He has received a stack of letters freshly brought through the mountain pass but cannot spare the time to personally leave his duties to deliver them."
+  },
+  {
+   "q": "Where is Talin Keeneye located?",
+   "aliases": [
+    "where is talin keeneye",
+    "talin keeneye location",
+    "finding talin keeneye"
+   ],
+   "answer": "Talin Keeneye is camped to the west of Anvilmar, right alongside the road next to the frozen lake in Coldridge Valley."
+  },
+  {
+   "q": "Are all the letters in the stack actually for Talin?",
+   "aliases": [
+    "is the mail all for talin",
+    "grelin whitebeard letter",
+    "misplaced mail"
+   ],
+   "answer": "No. When Talin sorts through the bundle, he discovers that one of the letters is addressed to Grelin Whitebeard, who is stationed nearby in the valley."
+  },
+  {
+   "q": "Why does Sten need an adventurer to run the mail?",
+   "aliases": [
+    "why run mail",
+    "why doesnt sten deliver it",
+    "mail delivery duty"
+   ],
+   "answer": "With Anvilmar actively dealing with trogg incursions and local threats, dwarven defenders like Sten are tied down with pressing logistical and defensive responsibilities. Passing travelers and young recruits provide the fastest way to get letters to outlying posts."
+  },
+  {
+   "q": "Does this quest lead to other tasks?",
+   "aliases": [
+    "next quest",
+    "mail chain",
+    "follow up to mail delivery"
+   ],
+   "answer": "Yes. Upon completing the delivery, Talin asks you to take the misdirected letter to Grelin Whitebeard in the second part of the mail delivery chain."
+  },
+  {
+   "q": "Where did the letters originally come from?",
+   "aliases": [
+    "where did mail come from",
+    "source of letters"
+   ],
+   "answer": "The letters came through the southern pass leading into Coldridge Valley, sent into the sheltered basin from the broader lands of Dun Morogh and Ironforge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Carrying word between outposts highlights the communal grit of Ironforge dwarves, ensuring even far-flung valley scouts remain bound to their clans."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "As guests and allies in Dun Morogh after Gnomeregan's fall, helping run communication lines reinforces trust with local dwarven defenders."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Every outpost in Coldridge Valley plays a part in keeping Dun Morogh secure, making reliable correspondence essential for early military coordination."
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "coldridge valley",
+  "dun morogh",
+  "grelin whitebeard",
+  "mail delivery",
+  "sten stoutarm",
+  "talin keeneye"
+ ],
+ "related": [
+  "npc:sten-stoutarm",
+  "npc:grelin-whitebeard",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Coldridge Valley Mail Delivery"
+ ]
+}

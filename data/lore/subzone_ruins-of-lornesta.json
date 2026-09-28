@@ -1,0 +1,87 @@
+{
+ "key": "subzone:ruins-of-lornesta",
+ "type": "subzone",
+ "name": "Ruins of Lornesta",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Ruins of Lornesta"
+ },
+ "summary": "The Ruins of Lornesta are the submerged remains of an ancient kaldorei settlement resting along the fog-laden coast of Darkshore. Long swallowed by the tides, the site is now infested by serpentine Darkscale naga led by Lady Janira.",
+ "sections": [
+  {
+   "title": "Sunken Remnants",
+   "body": "Situated along the Darkshore coastline, the Ruins of Lornesta stand as another tragic casualty of the ancient Sundering. Once an exquisite night elf settlement, its marble pillars and foundations have succumbed to the relentless saltwater surf. Today, the flooded arches and shallow pools harbor hazardous vegetation like fuming toadstools, making the drowned enclave as treacherous underfoot as it is bleak to behold.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Darkscale Threat",
+   "body": "Rather than lying peaceful in decay, Lornesta has been occupied by a forward contingent of Darkscale naga scouts commanded by Lady Janira. Slithering out from the coastal depths, these serpentine abominations utilize the drowned stonework as an entrenched staging ground, posing a direct threat to travelers and night elf scouts traversing the coastal paths of Darkshore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Ruins of Lornesta?",
+   "aliases": [
+    "lornesta history",
+    "what is lornesta",
+    "ruins of lornesta"
+   ],
+   "answer": "The Ruins of Lornesta are the half-submerged remains of an ancient night elf settlement located on the coast of Darkshore, swallowed by the ocean thousands of years ago."
+  },
+  {
+   "q": "Who controls the ruins right now?",
+   "aliases": [
+    "who lives at lornesta",
+    "enemies at ruins of lornesta",
+    "naga darkshore"
+   ],
+   "answer": "The ruins are currently occupied by Darkscale naga scouts who answer to their local commander, Lady Janira."
+  },
+  {
+   "q": "Who is Lady Janira?",
+   "aliases": [
+    "janira",
+    "lady janira darkshore"
+   ],
+   "answer": "Lady Janira is the leader of the Darkscale naga warband entrenched among the sunken pillars and waters of the Ruins of Lornesta."
+  },
+  {
+   "q": "What dangerous flora grows in the ruins?",
+   "aliases": [
+    "plants in lornesta",
+    "fuming toadstool"
+   ],
+   "answer": "Fuming toadstools grow wild throughout the brackish waters and damp stones of the flooded ruins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Seeing the ancestral halls of Lornesta half-drowned and crawling with the vile naga makes the ongoing defense of Darkshore all the more urgent."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The naga encamped at Lornesta represent a constant threat of flanking raids against nearby Alliance trade routes along the misty Darkshore coast."
+  }
+ ],
+ "keywords": [
+  "darkscale",
+  "darkshore",
+  "fuming toadstools",
+  "lady janira",
+  "lornesta",
+  "naga",
+  "ruins of lornesta"
+ ],
+ "related": [
+  "zone:darkshore",
+  "topic:naga",
+  "topic:sentinels",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Ruins of Lornesta"
+ ]
+}

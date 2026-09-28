@@ -1,0 +1,74 @@
+{
+ "key": "subzone:gates-of-ironforge",
+ "type": "subzone",
+ "name": "Gates of Ironforge",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Gates of Ironforge"
+ },
+ "summary": "The Gates of Ironforge serve as the monumental main entrance leading travelers from the snowy mountain vales of Dun Morogh into the dwarven capital. Carved directly into the sheer stone face of the mountain, they are guarded inside by a colossal statue of High King Modimus Anvilmar.",
+ "sections": [
+  {
+   "title": "The Threshold of the Mountain",
+   "body": "Approached by climbing the winding, fortified ramp ascending from central Dun Morogh, the Gates of Ironforge present an imposing facade visible across much of the snowy lowlands. Beyond the massive portal, visitors enter the city proper, greeted immediately by an enormous stone statue honoring High King Modimus Anvilmar\u2014the legendary ruler who united the dwarven clans before the War of the Three Hammers. Passing through these gates leads directly into the bustling commercial district of the Commons.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do the Gates of Ironforge lead?",
+   "aliases": [
+    "ironforge entrance",
+    "where do the gates go",
+    "gates of ironforge location"
+   ],
+   "answer": "They connect the exterior mountain terrain of Dun Morogh to the city of Ironforge. Passing through the threshold brings you directly into the southwestern part of the Commons, the city's lively trade and banking hub."
+  },
+  {
+   "q": "Who is the statue inside the gates depicting?",
+   "aliases": [
+    "ironforge gate statue",
+    "giant dwarf statue",
+    "who is the statue at the gate"
+   ],
+   "answer": "The monumental sculpture just inside the entrance depicts High King Modimus Anvilmar. He was the wise and revered monarch who presided over all dwarven clans before political rifts fractured them into the Bronzebeard, Wildhammer, and Dark Iron factions."
+  },
+  {
+   "q": "How do you reach the gates from Dun Morogh?",
+   "aliases": [
+    "how to get into ironforge",
+    "path to ironforge gates",
+    "ironforge ramp"
+   ],
+   "answer": "From central Dun Morogh, head north and climb the broad, fortified stone ramp carved into the mountainside. The ramp leads straight to the exterior threshold of the mountain fortress."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Standing beneath the grand likeness of High King Modimus Anvilmar reminds every dwarf of the ancient era when all clans lived under one mountain as a single kin."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Gates of Ironforge stand as one of the Alliance's most fortified redoubts, virtually impervious to siege from the frigid valleys of Dun Morogh."
+  }
+ ],
+ "keywords": [
+  "commons",
+  "dun morogh",
+  "gates of ironforge",
+  "ironforge entrance",
+  "ironforge main gate",
+  "modimus anvilmar"
+ ],
+ "related": [
+  "zone:ironforge",
+  "zone:dunmorogh",
+  "subzone:commons",
+  "subzone:anvilmar"
+ ],
+ "attribution": [
+  "Gates of Ironforge"
+ ]
+}

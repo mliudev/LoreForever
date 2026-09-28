@@ -1,0 +1,70 @@
+{
+ "key": "subzone:the-sunstrider",
+ "type": "subzone",
+ "name": "The Sunstrider",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "wiki": "The Sunstrider"
+ },
+ "summary": "The Sunstrider is a blood elven vessel bearing the regal lineage name of Quel'Thalas. Associated with the distant survivors of the Highborne kingdom, ships of this design reflect the intricate craftsmanship of the blood elves.",
+ "sections": [
+  {
+   "title": "A Legacy of Quel'Thalas",
+   "body": "Bearing the name of the ancient high elven royal dynasty, The Sunstrider represents the naval craftsmanship and enduring heritage of Quel'Thalas. In an era where the shattered remnants of the high elven kingdom are fighting to rebuild in the northern Eastern Kingdoms, vessels carrying such grand design embody the proud aesthetic of an embattled people seeking to preserve their culture and power.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is The Sunstrider?",
+   "aliases": [
+    "sunstrider ship",
+    "sunstrider vessel",
+    "blood elf ship"
+   ],
+   "answer": "The Sunstrider is an ornate blood elven vessel characterized by the sweeping arches and vibrant craftsmanship native to Quel'Thalas."
+  },
+  {
+   "q": "Why is it named Sunstrider?",
+   "aliases": [
+    "why called sunstrider",
+    "sunstrider name origin",
+    "sunstrider dynasty"
+   ],
+   "answer": "It is named after the Sunstrider dynasty, the ancient royal line founded by Dath'Remar Sunstrider that ruled the high elves of Quel'Thalas for millennia."
+  },
+  {
+   "q": "What faction does this ship belong to?",
+   "aliases": [
+    "who owns sunstrider",
+    "sunstrider faction",
+    "is sunstrider horde"
+   ],
+   "answer": "The vessel is created and crewed by the blood elves, the survivors of Quel'Thalas who adopted their new identity in honor of their fallen kin following the Scourge invasion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Though blood elven affairs remain largely centered in the battered north of the Eastern Kingdoms, contacts and envoys from Quel'Thalas occasionally seek alignment and diplomatic bridges across Azeroth."
+  }
+ ],
+ "keywords": [
+  "bladefist bay",
+  "blood elf",
+  "destroyer",
+  "quel'thalas",
+  "ship",
+  "sunstrider",
+  "vessel"
+ ],
+ "related": [
+  "subzone:bladefist-bay",
+  "zone:durotar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "The Sunstrider"
+ ]
+}

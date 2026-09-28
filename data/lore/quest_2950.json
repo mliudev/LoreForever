@@ -1,0 +1,126 @@
+{
+ "key": "quest:2950",
+ "type": "quest",
+ "name": "Nogg's Ring Redo",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   2950
+  ],
+  "level": "",
+  "faction": "Horde",
+  "start": "Nogg",
+  "end": "",
+  "previous": "Return of the Ring (Horde)",
+  "next": null,
+  "wiki": "Nogg's Ring Redo",
+  "chain": [
+   "Grime-Encrusted Ring (quest)",
+   "Return of the Ring (Horde)",
+   "Nogg's Ring Redo"
+  ]
+ },
+ "summary": "Nogg's Ring Redo concludes the investigation of a grime-encrusted trinket brought back from the ruins of Gnomeregan to Orgrimmar. In exchange for rare materials and valuable intel on Dark Iron dwarven activity, the goblin engineer Nogg refines the recovered jewelry, eager to prove goblin craft superior to gnomish design.",
+ "sections": [
+  {
+   "title": "Goblin Superiority",
+   "body": "When an adventurer returns a cleaned gold ring recovered from Gnomeregan's depths to Nogg's workshop in the Valley of Honor, the engineer's natural pride takes over. Snubbing the original craftsmanship as the modest work of a gnome, Nogg offers a deal. For raw materials and a modest fee, he promises to improve upon the Alliance trinket, fashioning an intricate silver and moss agate lattice designed to amplify the magic running through the band.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Dwarven Angle",
+   "body": "Nogg's sudden willingness to enhance the ring is not entirely driven by commercial interest. The reports of Dark Iron dwarves lurking within the besieged gnome city catch his keen attention. To Nogg, the dwarven presence explains why gnomes managed to construct sudden bursts of mechanical sophistication\u2014something goblins consider uniquely their own domain. Gathering that intelligence earns the adventurer an upgraded piece of jewelry and Nogg's grudging respect.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Nogg?",
+   "aliases": [
+    "who is nogg",
+    "nogg orgrimmar",
+    "nogg npc"
+   ],
+   "answer": "Nogg is a prominent goblin engineer operating in the Valley of Honor within Orgrimmar. He works closely with fellow tinkerers in the Drag and the Valley of Honor, frequently handling curious mechanical artifacts and schematics recovered from dangerous expeditions."
+  },
+  {
+   "q": "What materials are needed to reforge the ring?",
+   "aliases": [
+    "ring materials",
+    "nogg materials",
+    "what does nogg need"
+   ],
+   "answer": "Nogg requires the original Brilliant Gold Ring, one Silver Bar, one Moss Agate, and thirty silver coins to pay for his labor and workshop expenses."
+  },
+  {
+   "q": "Why is Nogg interested in Gnomeregan?",
+   "aliases": [
+    "why nogg care about gnomeregan",
+    "gnomeregan goblin interest"
+   ],
+   "answer": "Gnomeregan holds immense technological value. Goblins fiercely compete with gnomes in technical fields, and Nogg is especially intrigued by rumors that Dark Iron dwarves were involved in the technological anomalies inside the fallen techno-city."
+  },
+  {
+   "q": "What does Nogg actually do to the ring?",
+   "aliases": [
+    "ring upgrade lore",
+    "what changes on the ring"
+   ],
+   "answer": "Nogg constructs a silver and moss agate lattice directly around the golden band. This delicate framework channels and stabilizes the latent enchantments resting within the jewelry, yielding a stronger, more potent piece than the original gnomish design."
+  },
+  {
+   "q": "Where does this quest chain start?",
+   "aliases": [
+    "chain start",
+    "how to start nogg quest",
+    "ring questline start"
+   ],
+   "answer": "The quest chain begins deep inside Gnomeregan when an adventurer loots a Grime-Encrusted Ring from local troggs or subterranean hazards and washes it off using the Sparklematic 5200 machine."
+  },
+  {
+   "q": "Why does Nogg suspect Dark Iron dwarves?",
+   "aliases": [
+    "why dark irons",
+    "dark iron dwarf connection"
+   ],
+   "answer": "Goblin engineers view gnomish innovation with deep skepticism. To Nogg, any sudden spark of radical mechanical insight among gnomes must have been influenced or supplied by outside meddlers\u2014namely the scheming Dark Iron clan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The quest illustrates the constant ideological rivalry between goblin ingenuity and gnomish gadgetry, highlighting the goblin approach of aggressively modifying existing tech for maximum output."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Recovering technology from Alliance-aligned halls like Gnomeregan and turning it over to Orgrimmar's tinkers provides the Horde with crucial insights into enemy capabilities."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Refining the recovered ring requires valuable earth extracts\u2014a refined silver bar and a moss agate\u2014demanding the services of skilled miners and gem-cutters."
+  }
+ ],
+ "keywords": [
+  "brilliant gold ring",
+  "dark iron",
+  "gnomeregan",
+  "goblin engineering",
+  "moss agate",
+  "nogg",
+  "orgrimmar",
+  "silver bar"
+ ],
+ "related": [
+  "quest:2947",
+  "quest:2945",
+  "npc:nogg",
+  "zone:orgrimmar",
+  "topic:goblin",
+  "topic:gnome",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Nogg's Ring Redo"
+ ]
+}

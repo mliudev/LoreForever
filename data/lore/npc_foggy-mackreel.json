@@ -1,0 +1,87 @@
+{
+ "key": "npc:foggy-mackreel",
+ "type": "npc",
+ "name": "Foggy MacKreel",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Foggy MacKreel",
+  "refs": 1
+ },
+ "summary": "Foggy MacKreel is an intrepid dwarf stranded precariously on the ruined lower masonry of the Thandol Span. Despite the shattered stonework beneath his feet and the dizzying drop below, his only real concern is fulfilling his moonshine delivery north to Southshore.",
+ "sections": [
+  {
+   "title": "Stranded on the Span",
+   "body": "Perched on the broken pylons beneath the shattered Thandol Span, Foggy MacKreel appears utterly unfazed by his perilous predicament. While Dark Iron sabotage and war damage have left the grand bridge between the Wetlands and the Arathi Highlands fractured, MacKreel treats his precarious footing as a minor inconvenience. His primary thought is not his rescue, but an undelivered batch of potent moonshine destined for the patrons of Southshore in the Hillsbrad Foothills. He readily hires passing adventurers nimble enough to reach his ledge to finish the courier run on his behalf.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Foggy MacKreel?",
+   "aliases": [
+    "foggy mackreel",
+    "who is foggy",
+    "mackreel npc"
+   ],
+   "answer": "Foggy MacKreel is an eccentric dwarven courier stranded on the ruined stone pillars underneath the broken bridge of the Thandol Span. Despite the drop, he remains completely calm and focused on getting his moonshine delivered."
+  },
+  {
+   "q": "Where can I find Foggy MacKreel?",
+   "aliases": [
+    "where is foggy mackreel",
+    "foggy mackreel location",
+    "how to find mackreel"
+   ],
+   "answer": "He is located on a stone platform midway down the broken central span of the Thandol Span, accessible by carefully jumping down from the bridge structure on the Arathi Highlands side."
+  },
+  {
+   "q": "Why is Foggy MacKreel down there?",
+   "aliases": [
+    "why is foggy stranded",
+    "how did mackreel get there",
+    "why is he on the bridge"
+   ],
+   "answer": "Foggy ended up stuck amid the wreckage of the Thandol Span during his travels. Yet instead of seeking rescue, his main concern is finding someone willing to carry his moonshine cargo the rest of the way to Southshore."
+  },
+  {
+   "q": "What quest does Foggy MacKreel offer?",
+   "aliases": [
+    "foggy quest",
+    "mackreel moonshine quest",
+    "what quest does foggy give"
+   ],
+   "answer": "He offers 'MacKreel's Moonshine', asking travelers to deliver a jug of his potent brew to the tavern in Southshore across the Arathi Highlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "MacKreel embodies the stubborn grit\u2014and peculiar priorities\u2014of dwarven kind, valuing the timely delivery of strong liquor far above minor trifles like being marooned above a fatal chasm."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance couriers traveling between Ironforge and the northern outpost of Southshore often cross paths with Foggy, taking on his stranded cargo to help a fellow subject of the Alliance."
+  }
+ ],
+ "keywords": [
+  "arathi",
+  "foggy",
+  "mackreel",
+  "moonshine",
+  "southshore",
+  "thandol span",
+  "wetlands"
+ ],
+ "related": [
+  "quest:647",
+  "subzone:thandol-span",
+  "subzone:southshore",
+  "zone:arathi",
+  "zone:wetlands",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Foggy MacKreel"
+ ]
+}

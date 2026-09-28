@@ -1,0 +1,112 @@
+{
+ "key": "quest:8642",
+ "type": "quest",
+ "name": "Silvervein the Elder",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "ids": [
+   8642
+  ],
+  "level": "",
+  "faction": null,
+  "start": "Elder Silvervein",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Silvervein the Elder",
+  "chain": []
+ },
+ "summary": "Silvervein the Elder is an honored ancestral spirit who appears during the Lunar Festival atop the hills overlooking Thelsamar in Loch Modan. Travelers pay their respects to him to honor the ancient ties among Azeroth's elder peoples. In return for acknowledging his presence and heritage, he bestows his ancestral blessing.",
+ "sections": [
+  {
+   "title": "A Vigil Over Thelsamar",
+   "body": "Perched on the rolling ridges above Thelsamar, Elder Silvervein stands as a quiet guardian and reminder of antiquity. As a figure honored during the Lunar Festival, he represents the enduring memories of bygone eras. Even as the surrounding lands of Loch Modan grapple with trogg invasions and local disputes, Silvervein watches peacefully from his overlook.",
+   "spoiler": 0
+  },
+  {
+   "title": "Honoring the Olden Races",
+   "body": "The presence of spirits like Silvervein serves to bridge the divide between modern folk and ancient lineages. When adventurers seek him out, he expresses gratitude that travelers still pay homage to the olden races of Azeroth. His greeting carries the warmth of ancestral appreciation, offering a commemorative token to those who honor him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elder Silvervein?",
+   "aliases": [
+    "silvervein",
+    "who is silvervein",
+    "elder silvervein loch modan"
+   ],
+   "answer": "Elder Silvervein is an ancestral spirit who manifests during the Lunar Festival. He spends the festival resting atop the high bluffs near Thelsamar in Loch Modan."
+  },
+  {
+   "q": "Where can I find Elder Silvervein?",
+   "aliases": [
+    "silvervein location",
+    "where is elder silvervein",
+    "find silvervein"
+   ],
+   "answer": "He is located on a grassy hill overlooking the town of Thelsamar within Loch Modan."
+  },
+  {
+   "q": "What is the purpose of seeking out Elder Silvervein?",
+   "aliases": [
+    "why visit silvervein",
+    "what does silvervein do",
+    "silvervein purpose"
+   ],
+   "answer": "Adventurers seek him out during the Lunar Festival to pay their respects to the ancestors and ancient races, receiving a festive token and blessing in return."
+  },
+  {
+   "q": "What does he mean by 'the olden races'?",
+   "aliases": [
+    "olden races meaning",
+    "why olden races"
+   ],
+   "answer": "He refers to the ancient peoples of Azeroth who lived and shaped the world long before modern conflicts took center stage, honoring the enduring spirit of their heritage."
+  },
+  {
+   "q": "Is Elder Silvervein friendly to Horde travelers?",
+   "aliases": [
+    "can horde talk to silvervein",
+    "horde silvervein"
+   ],
+   "answer": "Yes. Ancestral elders honored during the Lunar Festival welcome travelers of all backgrounds who come in peace to honor the ancestors."
+  },
+  {
+   "q": "Does Elder Silvervein have any connection to the trogg invasion?",
+   "aliases": [
+    "silvervein troggs",
+    "is silvervein fighting troggs"
+   ],
+   "answer": "No. While Loch Modan is beset by trogg incursions and excavator troubles, Elder Silvervein remains entirely separate from local military conflicts, focused purely on ancestral reverence."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Resting right beside the dwarven settlement of Thelsamar, Elder Silvervein shares an appreciative bond with the rugged stonefolk and their reverence for ancient history."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers passing through Loch Modan, ascending the ridge above Thelsamar offers a quiet respite from trogg hunting to honor the ancient dead."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "coin of ancestry",
+  "elder",
+  "loch modan",
+  "lunar festival",
+  "silvervein",
+  "thelsamar"
+ ],
+ "related": [
+  "subzone:thelsamar",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Silvervein the Elder"
+ ]
+}

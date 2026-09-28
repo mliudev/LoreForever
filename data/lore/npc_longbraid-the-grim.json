@@ -1,0 +1,93 @@
+{
+ "key": "npc:longbraid-the-grim",
+ "type": "npc",
+ "name": "Longbraid the Grim",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "Longbraid the Grim",
+  "refs": 2
+ },
+ "summary": "Longbraid the Grim is an Ironforge dwarf commander stationed just outside the fallen fortress of Dun Modr in the northern Wetlands. Mourning the loss of his brother and the overrun of the Thandol Span, he coordinates the surviving dwarf forces against the invading Dark Iron clan.",
+ "sections": [
+  {
+   "title": "A Bitter Watch",
+   "body": "Positioned within sight of the bridge to the Arathi Highlands, Longbraid the Grim rallies what remains of the dwarven garrison after the Dark Iron clan seized Dun Modr. The sudden assault devastated the regional defenders and resulted in the death of Longbraid's own brother during the siege of the Thandol Span. Burdened by grief and hatred, Longbraid refuses to abandon the northern boundary, directing travelers and surviving mountaineers in surgical strikes to curb the Dark Iron advance.",
+   "spoiler": 0
+  },
+  {
+   "title": "Holding the Line",
+   "body": "Beyond defending the approach to the bridge, Longbraid oversees broader dwarven operations across the Wetlands. He dispatched vital soldiers to escort Prospector Whelgar into the marshlands and works relentlessly to reclaim the lost fortifications of Dun Modr, vowing retribution against the Dark Iron saboteurs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Longbraid the Grim?",
+   "aliases": [
+    "who is longbraid",
+    "longbraid identity",
+    "dun modr dwarf"
+   ],
+   "answer": "Longbraid the Grim is a dwarven commander stationed outside Dun Modr in the northern Wetlands. He leads the local Alliance resistance against the Dark Iron dwarfs who overran the area."
+  },
+  {
+   "q": "Why is Longbraid called 'the Grim'?",
+   "aliases": [
+    "why is he grim",
+    "longbraid brother",
+    "longbraid backstory"
+   ],
+   "answer": "He earned his grim demeanor after his brother was killed during the devastating Dark Iron attack on the Thandol Span. Ever since, he has been consumed by the drive to avenge his fallen kin."
+  },
+  {
+   "q": "What happened to Dun Modr?",
+   "aliases": [
+    "fall of dun modr",
+    "what happened to the bridge",
+    "thandol span attack"
+   ],
+   "answer": "Dun Modr was overrun and occupied by the Dark Iron clan, who ambushed the dwarven garrison and attempted to sever the Thandol Span, cutting off the main route between the Wetlands and the Arathi Highlands."
+  },
+  {
+   "q": "What is Longbraid's connection to Prospector Whelgar?",
+   "aliases": [
+    "whelgar longbraid",
+    "merrin letter"
+   ],
+   "answer": "Longbraid assigned soldiers from his forces to accompany and protect Prospector Whelgar as the dwarven excavation team delved deeper into the hazardous Wetlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Ironforge, Longbraid embodies the fierce, enduring blood feud against their treacherous Dark Iron cousins who struck directly at their northern gateway."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Longbraid holds the thin line guarding the northern gate of Khaz Modan, fighting to reopen the crucial land route across the Thandol Span into Arathi."
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "dun modr",
+  "longbraid",
+  "thandol span",
+  "the grim",
+  "wetlands",
+  "whelgar"
+ ],
+ "related": [
+  "subzone:dun-modr",
+  "subzone:thandol-span",
+  "topic:dark-iron-clan",
+  "quest:472",
+  "quest:304",
+  "quest:378",
+  "npc:prospector-whelgar",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Longbraid the Grim"
+ ]
+}

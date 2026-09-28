@@ -1,0 +1,69 @@
+{
+ "key": "subzone:drywhisker-mine",
+ "type": "subzone",
+ "name": "Drywhisker Mine",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Drywhisker Mine"
+ },
+ "summary": "Drywhisker Mine is an excavation tucked into the northern hills of the Arathi Highlands. Inhabited by industrious and territorial Drywhisker kobolds, the tunnels are rich in raw subterranean wealth and iron deposits.",
+ "sections": [
+  {
+   "title": "Tunnels of the Drywhisker",
+   "body": "Carved into the rugged bluffs of northern Arathi, the Drywhisker Mine is the central settlement and digging operation for the local Drywhisker kobolds. Like their kin across the Eastern Kingdoms, these subterranean creatures fiercely guard their claimed veins of ore and precious minerals from any surface dwellers who venture too deep into their dark, winding passages.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Drywhisker Mine?",
+   "aliases": [
+    "drywhisker mine info",
+    "what is drywhisker mine",
+    "drywhisker cave"
+   ],
+   "answer": "Drywhisker Mine is an underground network in the northern Arathi Highlands held by the Drywhisker kobolds, who dig into the rock faces searching for valuable ore."
+  },
+  {
+   "q": "Who controls Drywhisker Mine?",
+   "aliases": [
+    "who lives in drywhisker mine",
+    "drywhisker mine mobs",
+    "who controls drywhisker"
+   ],
+   "answer": "The mine is entirely overrun and maintained by Drywhisker kobolds, including diggers and surveyors who zealously protect their claimed tunnels from outsiders."
+  },
+  {
+   "q": "Where is the mine located in the Arathi Highlands?",
+   "aliases": [
+    "drywhisker mine location",
+    "where is drywhisker mine",
+    "how to find drywhisker mine"
+   ],
+   "answer": "It is carved into the mountain ridges along the northern border of the Arathi Highlands, north of the central basin."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The cavern walls are carved deep into mineral-rich Arathi stone, making its depths an enticing though hazardous spot for miners seeking raw ore."
+  }
+ ],
+ "keywords": [
+  "arathi",
+  "arathi highlands",
+  "drywhisker",
+  "drywhisker mine",
+  "iron",
+  "kobold",
+  "mine"
+ ],
+ "related": [
+  "zone:arathi",
+  "topic:kobold"
+ ],
+ "attribution": [
+  "Drywhisker Mine"
+ ]
+}

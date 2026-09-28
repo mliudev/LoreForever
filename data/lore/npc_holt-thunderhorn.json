@@ -1,0 +1,85 @@
+{
+ "key": "npc:holt-thunderhorn",
+ "type": "npc",
+ "name": "Holt Thunderhorn",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "wiki": "Holt Thunderhorn",
+  "refs": 1
+ },
+ "summary": "Holt Thunderhorn is a tauren hunter trainer stationed upon Hunter Rise in the elevated city of Thunder Bluff. He instructs novice and seasoned track-masters in their craft, offering basic martial guidance and pointing maturing marksmen toward specialized trials across Mulgore and beyond.",
+ "sections": [
+  {
+   "title": "Master of the Rise",
+   "body": "Perched on Hunter Rise above the sweeping plains of Mulgore, Holt Thunderhorn serves the Horde as a seasoned instructor in ranged combat, tracking, and survival. Like many elders of his craft, he guides young tauren as they make the transition from roaming hunters into disciplined defenders of their new capital. When aspirants reach an age to bind and train beasts of their own, Holt directs them to seasoned masters like Ormak Grimshot to undertake the necessary trials.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Holt Thunderhorn be found?",
+   "aliases": [
+    "holt thunderhorn location",
+    "where is holt",
+    "hunter trainer thunder bluff"
+   ],
+   "answer": "Holt Thunderhorn stands on Hunter Rise, the southeastern elevated plateau within the tauren capital of Thunder Bluff in Mulgore."
+  },
+  {
+   "q": "What does Holt Thunderhorn teach?",
+   "aliases": [
+    "what does holt teach",
+    "holt thunderhorn trainer",
+    "what abilities holt"
+   ],
+   "answer": "He is a hunter trainer who instructs players in essential marksmanship, wilderness survival, and beast-taming techniques, as well as directing novices to specialized beast mastery trials."
+  },
+  {
+   "q": "What is Holt's connection to Ormak Grimshot?",
+   "aliases": [
+    "ormak and holt",
+    "why send to ormak",
+    "ormak grimshot holt"
+   ],
+   "answer": "When growing hunters are ready to expand their knowledge of beasts and animal companion care, Holt sends them to confer with fellow veteran hunter Ormak Grimshot on Hunter Rise."
+  },
+  {
+   "q": "What role do hunters hold in Thunder Bluff?",
+   "aliases": [
+    "hunter rise purpose",
+    "tauren hunter lore"
+   ],
+   "answer": "Hunters form the traditional backbone of tauren society, providing sustenance, patrolling territorial borders against centaur raiding parties, and honoring the Earth Mother through balanced, reverent tracking."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Holt Thunderhorn serves as a central mentor in Thunder Bluff, offering weapon techniques, tracking training, and referrals for taming beasts."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Stationed on Hunter Rise, Holt embodies the traditional tauren hunting culture that fed and protected the nomadic tribes long before they established a permanent home atop the bluffs."
+  }
+ ],
+ "keywords": [
+  "holt thunderhorn",
+  "hunter rise",
+  "hunter trainer",
+  "mulgore",
+  "ormak grimshot",
+  "thunder bluff"
+ ],
+ "related": [
+  "subzone:hunter-rise",
+  "zone:thunderbluff",
+  "npc:ormak-grimshot",
+  "quest:6081",
+  "zone:mulgore",
+  "topic:tauren"
+ ],
+ "attribution": [
+  "Holt Thunderhorn"
+ ]
+}

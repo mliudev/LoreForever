@@ -1,0 +1,93 @@
+{
+ "key": "subzone:alther-s-mill",
+ "type": "subzone",
+ "name": "Alther's Mill",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Alther's Mill"
+ },
+ "summary": "Alther's Mill is a ruined lumber mill tucked into the rugged hills northeast of Lakeshire in the Redridge Mountains. Once a vital source of processed timber for local builders, the abandoned grounds have deteriorated into a haven for feral scavengers and prowling predators. For adventurers traveling east toward Stonewatch, the dilapidated structures serve as a grim landmark marking the boundary of safe frontier territory.",
+ "sections": [
+  {
+   "title": "An Abandoned Frontier Mill",
+   "body": "Before the region fell prey to invading predators and orc raids, Alther's Mill bustled with timber trade that supplied the construction of Lakeshire and surrounding settlements. Its quiet clearing northeast of Lake Everstill provided ready access to mountain timber stands. As turmoil mounted across the kingdom of Stormwind and the Blackrock clan pushed down from the heights of Stonewatch, local millers abandoned the facility, leaving the dry timber buildings and wheel to decay into rot.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows and Scrap",
+   "body": "In the absence of human workers, the mill became infested with monstrous tarantulas, carrion vultures, and opportunistic raiders. Travelers cutting through the path to the eastern passes must skirt its shadowed perimeter carefully. In recent years, shadowy operatives and thieves have also taken advantage of the abandoned compound, using its discarded storage boxes and hidden corners to hone illicit lockpicking crafts and covert trades far from the eyes of the Lakeshire Town Watch.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Alther's Mill?",
+   "aliases": [
+    "alther's mill",
+    "althers mill",
+    "what is this place",
+    "what was alther's mill"
+   ],
+   "answer": "Alther's Mill is a ruined lumber mill located northeast of Lakeshire in the Redridge Mountains. It previously harvested and processed timber for the surrounding settlements until mounting wilderness dangers forced its abandonment."
+  },
+  {
+   "q": "Why is the mill abandoned?",
+   "aliases": [
+    "why abandoned",
+    "who abandoned althers mill",
+    "what happened to the millers"
+   ],
+   "answer": "As regional defenses weakened following the First and Second Wars, aggressive wildlife like giant spiders and encroachment by Blackrock orcs made frontier operations too perilous for ordinary laborers to maintain without royal military protection."
+  },
+  {
+   "q": "What creatures roam around the mill?",
+   "aliases": [
+    "enemies at althers mill",
+    "creatures at mill",
+    "what lives here"
+   ],
+   "answer": "The grounds and surrounding scrublands are primarily overrun by giant mountain tarantulas, scavenger buzzards, and roving predators, along with stray marauders moving between Stonewatch and Lake Everstill."
+  },
+  {
+   "q": "Why do rogues visit Alther's Mill?",
+   "aliases": [
+    "rogue quest mill",
+    "althers mill lockpicking",
+    "thieving certificate"
+   ],
+   "answer": "The isolated, debris-strewn grounds make it a favored proving ground for Alliance rogues, who are directed here by their trainers to practice picking locked footlockers and retrieve valuable thieving certifications."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Alliance scoundrels know Alther's Mill well, as thieves' syndicates use the scattered, forgotten lockboxes and secluded grounds of the mill as a quiet training ground to practice delicate lockpicking."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The ruined mill stands as another stark reminder of Stormwind's strained frontier garrisons, where valuable industry lies broken and abandoned within sight of Lakeshire."
+  }
+ ],
+ "keywords": [
+  "alther's mill",
+  "althers mill",
+  "lakeshire",
+  "lockpicking",
+  "lumber mill",
+  "redridge",
+  "spiders",
+  "stonewatch"
+ ],
+ "related": [
+  "zone:redridge",
+  "subzone:lakeshire",
+  "subzone:stonewatch",
+  "topic:stormwind-kingdom",
+  "topic:alliance",
+  "subzone:stonewatch-keep"
+ ],
+ "attribution": [
+  "Alther's Mill"
+ ]
+}

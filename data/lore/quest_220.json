@@ -1,0 +1,126 @@
+{
+ "key": "quest:220",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   220
+  ],
+  "level": "23",
+  "faction": "Horde",
+  "start": "Brine",
+  "end": "Islen Waterseer",
+  "previous": "Call of Water (5)",
+  "next": "Call of Water (7), Water Sapta (quest)",
+  "wiki": "Call of Water (6)",
+  "chain": []
+ },
+ "summary": "This leg of the shamanic trial tasks an initiate with bringing purified water back across the Barrens to Islen Waterseer. Prepared and blessed by the recluse Brine, this vial contains the catalyst required to distill a spiritual sapta. Once brewed, the draught will reveal the elemental spirits dwelling in the distant waters of Silverpine Forest.",
+ "sections": [
+  {
+   "title": "Return to the Shore",
+   "body": "After trekking across the Southern Barrens and fulfilling the trials set by Brine, a shaman initiate receives a Vial of Purest Water. Filled from pristine springs and consecrated by Brine's secluded rites, this vessel represents the pure potential of the element. Carrying it safely back to the eastern coast where Islen Waterseer keeps vigil is the vital link connecting Brine's rustic wisdom with the formal rites of the totem.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Purpose of the Sapta",
+   "body": "Upon receiving the pure water, Islen explains that mortal eyes cannot easily behold the elusive spirits of water. To communes with them, an initiate must consume a specialized brew known as a sapta. The liquid brought from Brine will serve as the potent foundation for this draught, opening the shaman's senses to forces hidden from common sight. Yet, as Islen cautions, communion is only half the journey; the spirits themselves demand testing.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Crossing to Lordaeron",
+   "body": "Islen reveals that the culmination of the trial will not take place within the dry expanse of Kalimdor. Instead, the shaman must travel far across the sea to the ancient, mist-shrouded shores of Silverpine Forest, just south of the Undercity. There, beside an isolated shrine, the sapta must be drunk so the initiate can face the elementals directly and earn the right to manifest the Water Totem.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is inside the Vial of Purest Water?",
+   "aliases": [
+    "vial of purest water",
+    "brine's water",
+    "what did brine give me"
+   ],
+   "answer": "The vial holds water gathered by the initiate from pure springs and consecrated through the rites of the hermit Brine. It represents uncorrupted elemental water, which is essential for brewing the alchemical sapta required to communicate with water spirits."
+  },
+  {
+   "q": "Who is Islen Waterseer?",
+   "aliases": [
+    "islen",
+    "who is islen waterseer",
+    "islen waterseer lore"
+   ],
+   "answer": "Islen Waterseer is an elder shaman residing on the secluded southeastern coastline of the Barrens, south of Ratchet. She acts as the primary mentor for Horde shamans seeking to commune with the element of water and earn their Water Totem."
+  },
+  {
+   "q": "What is a sapta?",
+   "aliases": [
+    "sapta meaning",
+    "water sapta",
+    "what does sapta do"
+   ],
+   "answer": "A sapta is a ceremonial tonic crafted by shamanic mentors. When consumed, it alters the drinker's perception, allowing a shaman to clearly see and interact with elemental spirits that are otherwise invisible to mortal vision."
+  },
+  {
+   "q": "Why do I have to go to Silverpine Forest next?",
+   "aliases": [
+    "why silverpine",
+    "silverpine water totem",
+    "shrine in silverpine"
+   ],
+   "answer": "The elemental shrine tied to this communion lies in the coastal waters of Silverpine Forest, south of the Undercity in the Eastern Kingdoms. The spirits residing there require communion and a final trial before granting mastery over their element."
+  },
+  {
+   "q": "Where does Brine live?",
+   "aliases": [
+    "brine location",
+    "where is brine",
+    "finding brine"
+   ],
+   "answer": "Brine lives in a secluded hut high in the hills of the Southern Barrens, west of the road leading down toward the Great Lift and Thousand Needles."
+  },
+  {
+   "q": "Can any shaman bypass making the sapta?",
+   "aliases": [
+    "skip sapta",
+    "is sapta required",
+    "shaman vision quest"
+   ],
+   "answer": "No. The communion rituals require a shaman's spirit to be attuned to the unseen world. Without the perceptual bridge provided by the sapta, the water spirits at the shrine cannot be addressed or challenged."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Every Horde shaman must complete the Call of Water rituals to commune with the spirits and earn the right to carry their Water Totem, which governs healing and replenishment."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The trial spans Kalimdor and Lordaeron, demonstrating the geographic breadth of the Horde as young initiates travel from the Barrens into Forsaken-controlled Silverpine."
+  }
+ ],
+ "keywords": [
+  "brine",
+  "call of water",
+  "islen waterseer",
+  "sapta",
+  "silverpine forest",
+  "the barrens",
+  "vial of purest water",
+  "water sapta",
+  "water totem"
+ ],
+ "related": [
+  "npc:islen-waterseer",
+  "npc:brine",
+  "zone:barrens",
+  "zone:silverpine",
+  "zone:undercity",
+  "quest:63"
+ ],
+ "attribution": [
+  "Call of Water (6)"
+ ]
+}

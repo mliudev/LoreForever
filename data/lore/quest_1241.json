@@ -1,0 +1,133 @@
+{
+ "key": "quest:1241",
+ "type": "quest",
+ "name": "The Missing Diplomat",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1241
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Bishop DeLavey",
+  "end": "Jorgen",
+  "previous": "The Missing Diplomat",
+  "next": "The Missing Diplomat (3)",
+  "wiki": "The Missing Diplomat (2)",
+  "chain": []
+ },
+ "summary": "An urgent discreet investigation begins within Stormwind City after an Alliance diplomat fails to arrive at Theramore Isle. Bishop DeLavey suspects Defias foul play and dispatches trusted operatives to consult Jorgen, a quiet contact stationed in the Valley of Heroes.",
+ "sections": [
+  {
+   "title": "A Vanishing in the Shadows",
+   "body": "A high-ranking diplomat departed the Eastern Kingdoms bound for Theramore Isle to conduct sensitive talks with Lady Jaina Proudmoore. The envoy vanished before ever making landfall. While royal investigators comb Stormwind for leads, the disappearance has been kept strictly under wraps to avoid widespread panic or tipping off conspirators who might be watching the crown's every move.",
+   "spoiler": 0
+  },
+  {
+   "title": "Private Inquiries",
+   "body": "Believing the Defias Brotherhood is involved in the diplomat's abduction, Bishop DeLavey opts not to rely solely on the king's formal guard. Instead, the bishop reaches out to unofficial and discreet channels, turning to Jorgen, an old acquaintance who keeps a low profile fishing in the Valley of Heroes just inside the city gates.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Reluctant Informant",
+   "body": "Jorgen maintains a gruff demeanor and an unassuming cover by the city waters, but he honors past obligations to DeLavey. Recognizing the perilous nature of the mystery, Jorgen makes it clear that discovering the diplomat's trail carries deadly risks, demanding absolute silence from anyone drawn into the inquiry.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the missing diplomat?",
+   "aliases": [
+    "missing diplomat identity",
+    "who disappeared",
+    "who vanished",
+    "diplomat identity"
+   ],
+   "answer": "The Church of the Light and the Stormwind throne keep the envoy's identity closely guarded, officially referring to them only as a key diplomat sent across the Great Sea to Theramore."
+  },
+  {
+   "q": "Why was the diplomat traveling to Theramore?",
+   "aliases": [
+    "why theramore",
+    "diplomat purpose",
+    "what was diplomat doing"
+   ],
+   "answer": "The diplomat was tasked with meeting Lady Jaina Proudmoore for critical talks concerning the security and state of the Alliance between the Eastern Kingdoms and Kalimdor."
+  },
+  {
+   "q": "Who does Bishop DeLavey suspect?",
+   "aliases": [
+    "who took the diplomat",
+    "delavey suspect",
+    "who kidnapped the diplomat"
+   ],
+   "answer": "Bishop DeLavey suspects the Defias Brotherhood orchestrated the kidnapping, though their exact methods and accomplices in the city remain unknown."
+  },
+  {
+   "q": "Who is Jorgen?",
+   "aliases": [
+    "where is jorgen",
+    "jorgen identity",
+    "who is the fisherman"
+   ],
+   "answer": "Jorgen is an operative and longtime personal contact of Bishop DeLavey who keeps an unassuming post fishing by the waters in Stormwind's Valley of Heroes."
+  },
+  {
+   "q": "Why is the matter kept secret from the public?",
+   "aliases": [
+    "why secrecy",
+    "why keep it secret",
+    "why not tell the city"
+   ],
+   "answer": "Revealing that a vital envoy has been abducted under the throne's nose would incite chaos and alert the conspirators that royal agents are actively hunting them."
+  },
+  {
+   "q": "Where does this investigation lead?",
+   "aliases": [
+    "what happens next",
+    "where to go after jorgen"
+   ],
+   "answer": "Jorgen provides further instructions to dig into the underworld and hidden networks surrounding Stormwind to uncover where the diplomat was intercepted."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The disappearance of a royal diplomat threatens delicate negotiations between the kingdom of Stormwind and Lady Jaina Proudmoore's outpost in Theramore."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Bishop DeLavey leverages church connections to quietly investigate state crimes when traditional royal channels might be compromised."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Tracing missing envoys through low-profile informants like Jorgen highlights the underground espionage running beneath Stormwind's spotless streets."
+  },
+  {
+   "target": "race:Human",
+   "text": "The ongoing threat of the Defias Brotherhood strikes directly at the stability of the human kingdom, reaching far beyond Westfall into the capital itself."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "delavey",
+  "jaina",
+  "jorgen",
+  "missing diplomat",
+  "stormwind",
+  "theramore",
+  "valley of heroes"
+ ],
+ "related": [
+  "npc:bishop-delavey",
+  "npc:jorgen",
+  "npc:jaina-proudmoore",
+  "subzone:valley-of-heroes",
+  "zone:stormwind",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "The Missing Diplomat (2)"
+ ]
+}

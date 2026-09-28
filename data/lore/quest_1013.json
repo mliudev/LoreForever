@@ -1,0 +1,132 @@
+{
+ "key": "quest:1013",
+ "type": "quest",
+ "name": "The Book of Ur",
+ "era": "classic",
+ "zone": "shadowfang",
+ "meta": {
+  "ids": [
+   1013
+  ],
+  "level": "26",
+  "faction": "Horde",
+  "start": "Keeper Bel'dugur",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "The Book of Ur (quest)",
+  "chain": []
+ },
+ "summary": "The Book of Ur is a mission assigned by Keeper Bel'dugur in the Undercity's Apothecarium. Bel'dugur charges Horde champions with infiltrating Shadowfang Keep to recover the arcane treatise of Ur, a deceased mage of Dalaran. The Forsaken seek Ur's extraplanar research, intending to weaponize magical insights he was too scrupulous to exploit.",
+ "sections": [
+  {
+   "title": "A Relic of Extramundane Magic",
+   "body": "Before the Third War wiped out Dalaran, a brilliant human wizard named Ur dedicated his scholarship to realms beyond Azeroth. Unlike standard Kirin Tor doctrine, which strictly regulated conjuration and outer planar contacts, Ur cataloged entities from other dimensions, including the savage worgen. Despite his curiosity, Ur ultimately hesitated to manipulate these alien powers, deeming them dangerously uncontrollable. That restraint, however, made his written legacy a coveted prize for those who possess no such moral qualms.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall into Dark Hands",
+   "body": "Following Ur's demise during the Scourge invasion of Dalaran, his works scattered. His definitive treatise found its way into the clutches of Archmage Arugal, a grieving and unstable wizard who holed up in Shadowfang Keep. Arugal lacked Ur's ethical reservations and used the book's contents to summon bloodthirsty worgen into Silverpine, unleashing a curse that devoured Pyrewood and the surrounding valleys. The volume now rests neglected inside the keep's towers, watched over by Arugal's feral pets.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Forsaken's Ambition",
+   "body": "To the Royal Apothecary Society and Keeper Bel'dugur, Ur's downfall was not a cautionary tale of hubris, but an example of mortal frailty. Bel'dugur believes Ur perished because conscience paralyzed him at the moment of crisis. By securing the Book of Ur for the Undercity, the Forsaken intend to strip the text of its academic hesitation, harnessing extradimensional lore to ensure their survival and enforce Sylvanas Windrunner's dominion across Lordaeron.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Ur?",
+   "aliases": [
+    "ur lore",
+    "who is ur",
+    "mage ur"
+   ],
+   "answer": "Ur was a notable Dalaran mage who studied magical phenomena and other worlds prior to the Third War. He extensively researched extradimensional creatures, including the worgen, before being killed during the Scourge invasion of Dalaran."
+  },
+  {
+   "q": "Where is the Book of Ur located?",
+   "aliases": [
+    "where is the book",
+    "book of ur location",
+    "shadowfang book location"
+   ],
+   "answer": "The book rests inside Shadowfang Keep, resting on a bookshelf within the chamber belonging to Fenrus the Devourer, deep within the fortress."
+  },
+  {
+   "q": "Who is Keeper Bel'dugur?",
+   "aliases": [
+    "beldugur",
+    "keeper bel dugur",
+    "quest giver"
+   ],
+   "answer": "Keeper Bel'dugur is a Forsaken archivist and researcher stationed in the Apothecarium of the Undercity. He gathers dark, arcane, and extramundane lore to advance the power and survival of the Forsaken."
+  },
+  {
+   "q": "Why does the Forsaken want the book?",
+   "aliases": [
+    "why do forsaken want ur's book",
+    "undercity purpose book of ur"
+   ],
+   "answer": "Bel'dugur and his cohort desire Ur's research into extraplanar entities. The Forsaken believe Ur failed to survive the Scourge only because his moral conscience held him back from exploiting the powers he discovered\u2014a hesitation the Undercity has no intention of repeating."
+  },
+  {
+   "q": "How did the book end up in Shadowfang Keep?",
+   "aliases": [
+    "how did arugal get the book",
+    "why is the book in sfk"
+   ],
+   "answer": "After Dalaran's fall, Archmage Arugal acquired Ur's notes and utilized them to summon the worgen into Lordaeron. Arugal brought the research to Shadowfang Keep when he seized the fortress."
+  },
+  {
+   "q": "Is the Book of Ur related to the worgen curse?",
+   "aliases": [
+    "worgen origin book",
+    "book of ur worgen"
+   ],
+   "answer": "Yes. Ur's research detailed the terrifying dimension from which worgen originate. Arugal used the treatise to unleash those beasts upon Silverpine Forest, resulting in the infestation plaguing the region."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The Book of Ur serves as a grim artifact of Kirin Tor history, showing how Dalaran's theoretical research into otherworldly entities could be twisted into apocalyptic curses by unstable practitioners like Arugal."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Ur's willingness to peer beyond mortal reality mirrors a warlock's hunger for extraplanar knowledge, though Bel'dugur notes that Ur's failure lay in lacking the nerve to wield what he discovered."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Retrieving the book directly serves Lady Sylvanas and the Royal Apothecary Society, reinforcing the Forsaken belief that survival requires embracing forbidden lore without mortal squeamishness."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing Shadowfang Keep and securing Arugal's sources helps stabilize Silverpine Forest, curbing the feral worgen menace encroaching on Horde-held territories."
+  }
+ ],
+ "keywords": [
+  "apothecarium",
+  "arugal",
+  "bel'dugur",
+  "book of ur",
+  "dalaran",
+  "fenrus",
+  "kirin tor",
+  "shadowfang keep",
+  "worgen"
+ ],
+ "related": [
+  "npc:keeper-bel-dugur",
+  "zone:shadowfang",
+  "subzone:apothecarium",
+  "zone:undercity",
+  "subzone:dalaran",
+  "topic:forsaken",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "The Book of Ur (quest)"
+ ]
+}

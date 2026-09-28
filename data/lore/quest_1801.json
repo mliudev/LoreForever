@@ -1,0 +1,99 @@
+{
+ "key": "quest:1801",
+ "type": "quest",
+ "name": "Tome of the Cabal",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1801
+  ],
+  "level": "30",
+  "faction": "Horde",
+  "start": "Strahad Farsan",
+  "end": "Jorah Annison",
+  "previous": "Seeking Strahad (Orgrimmar)orSeeking Strahad (Undercity)",
+  "next": "Tome of the Cabal (Horde, 2)",
+  "wiki": "Tome of the Cabal (Horde)",
+  "chain": []
+ },
+ "summary": "This quest sends Horde warlocks on a journey from Strahad Farsan's encampment in the Barrens to the Undercity in search of ancient demonological lore. To summon and bind a felhunter, an initiate must track down the lost Tome of the Cabal, starting with a cartographer named Jorah Annison. It marks a critical step in mastering higher demonic summoning.",
+ "sections": [
+  {
+   "title": "A Hunt for Ancient Knowledge",
+   "body": "Summoning a felhunter is no minor trick of fel magic; the predatory beasts devour magical energies and resist standard summoning circles. Strahad Farsan explains that to draw one forth, an initiate requires the aid of specialized circles and an ancient grimoire known as the Tome of the Cabal. Authored by the first order of warlocks ever to bind a felhunter without outside aid, the book contains the exact rites and seals required to enslave such a dangerous demon.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cartographer of Undercity",
+   "body": "Because copies of the Tome of the Cabal have long been lost to the warlocks in Kalimdor, Strahad directs his student across the sea to Jorah Annison in the Undercity. Though nominally employed as a royal cartographer mapping Lordaeron, Annison possesses an extraordinary depth of knowledge regarding ancient and obscure texts. As Annison himself confesses, he despises the simple trade of mapmaking and hungers far more for rare histories, occult narratives, and treatises on dark magic.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Tome of the Cabal?",
+   "aliases": [
+    "tome of the cabal lore",
+    "what is this book",
+    "tome of cabal"
+   ],
+   "answer": "The Tome of the Cabal is a rare occult grimoire written by the first warlocks who successfully summoned and bound a felhunter without outside help. It contains the precise instructions, wards, and rites needed to safely bring one of the magic-devouring beasts into Azeroth."
+  },
+  {
+   "q": "Why does Strahad Farsan send you to the Undercity?",
+   "aliases": [
+    "why go to undercity",
+    "strahad farsan undercity",
+    "why see jorah"
+   ],
+   "answer": "Strahad and his acolytes in the Barrens lack a copy of the Tome of the Cabal. He knows that Jorah Annison, an Undercity cartographer, is an expert scholar of rare and ancient books who may know where to recover the lost pages or volumes."
+  },
+  {
+   "q": "Who is Jorah Annison?",
+   "aliases": [
+    "who is jorah",
+    "jorah annison lore"
+   ],
+   "answer": "Jorah Annison is a Forsaken scholar working in the Undercity. Although his official trade is cartography and drawing maps, his true passion lies in obscure texts, necromantic treatises, and ancient literature."
+  },
+  {
+   "q": "Why is a special book needed to summon a felhunter?",
+   "aliases": [
+    "why felhunter need book",
+    "why is felhunter hard to summon"
+   ],
+   "answer": "Felhunters naturally feed upon arcane and magical energies, making them difficult and dangerous to channel through ordinary demonic circles. The Tome of the Cabal details the specialized safeguards necessary to bind them before they consume the summoner."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This rite of passage is mandatory for Horde warlocks seeking to tame a felhunter, requiring travel between Kalimdor and the Eastern Kingdoms to assemble forgotten ritual components."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The quest illustrates the cooperation between Kalimdor's dark casters and Forsaken occult scholars residing beneath the ruins of Lordaeron."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "felhunter",
+  "jorah annison",
+  "ratchet",
+  "strahad farsan",
+  "tome of the cabal",
+  "undercity",
+  "warlock quest"
+ ],
+ "related": [
+  "npc:strahad-farsan",
+  "npc:jorah-annison",
+  "quest:1758",
+  "zone:undercity",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Tome of the Cabal (Horde)"
+ ]
+}

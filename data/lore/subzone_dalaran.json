@@ -1,0 +1,94 @@
+{
+ "key": "subzone:dalaran",
+ "type": "subzone",
+ "name": "Dalaran",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "wiki": "Dalaran"
+ },
+ "summary": "Dalaran was once the shining magocratic capital of the Kirin Tor, nestled on the southern shore of Lordamere Lake. Shattered by the Scourge and the demon lord Archimonde during the Third War, its ruins now lie sealed beneath an immense, opaque dome of crackling violet energy as surviving magi labor in secrecy to rebuild.",
+ "sections": [
+  {
+   "title": "Fall of the Magocracy",
+   "body": "Founded after the ancient Troll Wars by sorcerers of the Arathorian Empire, Dalaran stood for centuries as humanity's premier sanctuary for arcane study. Under the leadership of the Council of Six, the Kirin Tor amassed vast magical archives and guarded powerful artifacts within the Violet Citadel. That age of splendor ended abruptly during the Third War. The traitor prince Arthas led the Scourge through the city gates to seize the Book of Medivh, and soon after, the demon lord Archimonde channeled dark sorcery into a miniature sand construct, crushing Dalaran's soaring spires into rubble.",
+   "spoiler": 0
+  },
+  {
+   "title": "Behind the Violet Shield",
+   "body": "In the aftermath of the Legion's defeat, the surviving wizards of the Kirin Tor returned to their devastated homeland. Refusing to surrender their ancestral ground to the Scourge or scavengers, they erected an impassable, shimmering violet barrier over the city's heart. Today, the dome blankets the ruins completely, blocking all sight and entry. From within, arcane hums and pulses echo out toward the surrounding hills, confirming that the sorcerers remain hard at work reconstructing their fallen sanctuary away from the eyes of a hostile world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the giant purple bubble in the Alterac Mountains?",
+   "aliases": [
+    "purple bubble",
+    "purple shield alterac",
+    "what is the dome",
+    "dalaran dome"
+   ],
+   "answer": "It is a massive, impenetrable magical shield erected by the Kirin Tor. It seals off the ruins of Dalaran to protect the surviving magi while they secretly rebuild their city after its destruction in the Third War."
+  },
+  {
+   "q": "Can players enter Dalaran?",
+   "aliases": [
+    "can i get inside dalaran",
+    "how to enter dalaran",
+    "get past dalaran shield"
+   ],
+   "answer": "No. The shimmering barrier is entirely impassable, repelling all physical and magical intrusion. The Kirin Tor allows no outsiders into the reconstruction zone."
+  },
+  {
+   "q": "Who destroyed Dalaran?",
+   "aliases": [
+    "how did dalaran fall",
+    "who blew up dalaran",
+    "why is dalaran in ruins"
+   ],
+   "answer": "Dalaran was attacked by Prince Arthas and his Scourge army, who stole the Book of Medivh from its vaults. Shortly after, the demon lord Archimonde summoned dark sorcery to pulverize the city into ruins."
+  },
+  {
+   "q": "Who rules Dalaran?",
+   "aliases": [
+    "who runs dalaran",
+    "dalaran leadership",
+    "who leads kirin tor"
+   ],
+   "answer": "The city is governed by the Kirin Tor, an elite magocratic order led by a ruling assembly known as the Council of Six."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Dalaran is the historical cradle of human and high elven wizardry. Seeing its legendary spires concealed beneath a defensive shield serves as a solemn reminder of the devastating losses mages suffered in the Third War."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Dalaran was one of the seven founding kingdoms of the original Alliance of Lordaeron, and loyalists hope the secretive Kirin Tor will eventually emerge to aid the fight against the Scourge."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "archimonde",
+  "council of six",
+  "dalaran",
+  "dome",
+  "kirin tor",
+  "lordamere",
+  "shield",
+  "violet citadel"
+ ],
+ "related": [
+  "zone:alterac",
+  "subzone:lordamere-lake",
+  "topic:third-war",
+  "topic:scourge",
+  "topic:burning-legion",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Dalaran"
+ ]
+}

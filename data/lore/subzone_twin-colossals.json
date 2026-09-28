@@ -1,0 +1,89 @@
+{
+ "key": "subzone:twin-colossals",
+ "type": "subzone",
+ "name": "Twin Colossals",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Twin Colossals"
+ },
+ "summary": "The Twin Colossals are a pair of towering, sheer-faced mesas that dominate the northwestern skyline of Feralas. Rising high above the canopy, the narrow passage between their sheer cliffs forms the primary overland route connecting Feralas with the arid wastes of Desolace to the north.",
+ "sections": [
+  {
+   "title": "Pillars of the Rainforest",
+   "body": "Towering over the western reaches of Feralas, the Twin Colossals stand as the highest landforms in the region. Their vertical rock faces cut a striking silhouette against the sky, serving as unmistakable landmarks for travelers venturing south out of Desolace. While the lower slopes merge into the dense jungle and the lands stretching toward the Forgotten Coast, the summits are isolated plateaus far above the forest floor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Reaching the Heights",
+   "body": "Scaling the vertical cliffs on foot is impossible, yet the summits are not entirely deserted. An intrepid night elf named Marli Wishrunner assists travelers seeking passage to the eastern peak. Those who ascend find a tranquil pond perched atop the stone mesa\u2014though it is inhabited by an unusually large makrura named Diamond Head. To aid adventurers in returning to earth, Kalin Windflight offers sturdy parachutes to descend back into the jungle canopy below.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Twin Colossals located?",
+   "aliases": [
+    "twin colossals location",
+    "where are twin colossals",
+    "twin colossi map"
+   ],
+   "answer": "The Twin Colossals stand in northwestern Feralas, framing the main road that heads north into Desolace. The surrounding subzone extends westward toward the Forgotten Coast."
+  },
+  {
+   "q": "How do you reach the top of the Twin Colossals?",
+   "aliases": [
+    "how to climb twin colossals",
+    "get to top of twin colossi",
+    "to the top quest"
+   ],
+   "answer": "The sheer stone cliffs cannot be climbed normally. Travelers rely on the night elf Marli Wishrunner, who provides magical passage up to the eastern peak."
+  },
+  {
+   "q": "Who lives on the eastern summit?",
+   "aliases": [
+    "npc at top of twin colossals",
+    "who is on the mesa",
+    "diamond head feralas"
+   ],
+   "answer": "At the top of the eastern peak, you will find Kalin Windflight, who sells parachutes for a safe descent, along with a deep pond inhabited by a massive makrura known as Diamond Head."
+  },
+  {
+   "q": "How do you get down safely from the top?",
+   "aliases": [
+    "leaving twin colossals",
+    "jump off twin colossals",
+    "colossal parachute"
+   ],
+   "answer": "Kalin Windflight sells specialized Colossal Parachutes atop the eastern summit, allowing travelers to leap from the cliffs and glide harmlessly down into the Feralas jungle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The sheer heights and nearby corrupted moonwells of the subzone serve as a stark reminder of the ancient history of Feralas and the lingering shadows creeping into the wilderness."
+  }
+ ],
+ "keywords": [
+  "desolace",
+  "diamond head",
+  "feralas",
+  "kalin windflight",
+  "makrura",
+  "marli wishrunner",
+  "twin colossals",
+  "twin colossi"
+ ],
+ "related": [
+  "zone:feralas",
+  "zone:desolace",
+  "subzone:forgotten-coast",
+  "subzone:rage-scar-hold",
+  "topic:night-elf",
+  "topic:satyr",
+  "topic:emerald-dream"
+ ],
+ "attribution": [
+  "Twin Colossals"
+ ]
+}

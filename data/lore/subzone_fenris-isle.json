@@ -1,0 +1,91 @@
+{
+ "key": "subzone:fenris-isle",
+ "type": "subzone",
+ "name": "Fenris Isle",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Fenris Isle"
+ },
+ "summary": "Fenris Isle is a large, mist-shrouded island in Lordamere Lake, bordering the eastern edge of Silverpine Forest. Once home to a bustling Lordaeron military stronghold, the island now lies under the iron grip of undead Rot Hide gnolls and a rogue Scourge necromancer.",
+ "sections": [
+  {
+   "title": "A Fallen Stronghold on the Lake",
+   "body": "Before the Third War devastated northern Lordaeron, Fenris Isle served as a vital outpost for the kingdom, anchored by Fenris Keep. When the Scourge tore through the realm, the garrison was slaughtered or fled into exile, leaving the island abandoned to the dead. In the years since, the island became a stronghold for the Rot Hide gnolls\u2014vile, plague-ridden creatures who established a crude empire across the lake's shores. The Forsaken of Silverpine Forest keep a vigilant watch on the island, viewing its entrenched inhabitants as a severe threat to their northern territories.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Master of Fenris Keep",
+   "body": "The Rot Hide gnolls do not act alone. Within the crumbling stone halls of Fenris Keep dwells Thule Ravenclaw, a cunning necromancer formerly aligned with the Kirin Tor who turned to the dark arts of the Scourge. Thule bent the native gnolls to his will, using dark sorcery to animate their fallen kin and fortify the island against intrusion. From this isolated sanctuary, Thule oversees the lake's ferry crossings, prompting Forsaken scouts and Horde forces to launch preemptive strikes to break his hold on the archipelago.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Fenris Isle?",
+   "aliases": [
+    "where is fenris isle",
+    "fenris isle lore",
+    "what is this island"
+   ],
+   "answer": "Fenris Isle is an island located in Lordamere Lake off the eastern coast of Silverpine Forest. Prior to the Third War, it served as a fortress redoubt for the Kingdom of Lordaeron, but it is now infested with plague-ridden gnolls and servants of the Scourge."
+  },
+  {
+   "q": "Who controls Fenris Isle right now?",
+   "aliases": [
+    "who runs fenris isle",
+    "fenris isle bosses",
+    "who lives on fenris isle"
+   ],
+   "answer": "The island is occupied by the Rot Hide gnolls under the command of Thule Ravenclaw, a rogue necromancer aligned with the Scourge who directs them from Fenris Keep."
+  },
+  {
+   "q": "What happened to the humans who used to live here?",
+   "aliases": [
+    "what happened to fenris keep humans",
+    "who built fenris keep"
+   ],
+   "answer": "During the Third War, the human defenders and inhabitants of Fenris Keep were either murdered or driven away as the Scourge overran Lordaeron. The fortress was left ruined until gnolls and necromancers claimed the empty ramparts."
+  },
+  {
+   "q": "Why is the Horde interested in attacking the island?",
+   "aliases": [
+    "assault on fenris isle lore",
+    "why do horde attack fenris isle",
+    "forsaken fenris isle"
+   ],
+   "answer": "The Forsaken consider the entrenched Scourge forces and Rot Hide gnolls on Fenris Isle an active security threat to their holdings in Silverpine Forest. The Horde launches incursions across Lordamere Lake to eliminate Thule Ravenclaw and dismantle his operations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, Fenris Isle represents an intolerable Scourge bastion in their own backyard, requiring relentless strikes to keep Thule Ravenclaw's rot-hides from overrunning Silverpine's eastern waters."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde adventurers are enlisted by Forsaken commanders to board boats across Lordamere Lake, storm the island's defenses, and assassinate the renegade necromancer orchestrating attacks from Fenris Keep."
+  }
+ ],
+ "keywords": [
+  "fenris isle",
+  "fenris keep",
+  "lordamere lake",
+  "rot hide",
+  "silverpine forest",
+  "thule ravenclaw"
+ ],
+ "related": [
+  "subzone:fenris-keep",
+  "subzone:lordamere-lake",
+  "zone:silverpine",
+  "quest:442",
+  "quest:446",
+  "quest:439",
+  "subzone:decrepit-ferry",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Fenris Isle"
+ ]
+}

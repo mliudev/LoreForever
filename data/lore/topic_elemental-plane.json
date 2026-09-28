@@ -1,0 +1,127 @@
+{
+ "key": "topic:elemental-plane",
+ "type": "topic",
+ "name": "Elemental Plane",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Elemental Plane"
+ },
+ "summary": "The Elemental Plane is an interconnected pocket dimension forged by the titan-forged Keepers to imprison Azeroth's chaotic elementals. Divided into four distinct realms\u2014Skywall, Deepholm, the Abyssal Maw, and the Firelands\u2014it confines the primordial spirits away from the mortal world. Though sealed long ago, cracks in its barriers allow violent elemental incursions and catastrophic summonings into Azeroth.",
+ "sections": [
+  {
+   "title": "A Prison for Primordial Chaos",
+   "body": "In the ancient days following the fall of the Old Gods, the titan-forged Keepers faced a dilemma: Azeroth's chaotic elementals could not truly be destroyed, as their essences were fundamentally tied to the world. Highkeeper Ra and the sorceress Helya devised an enduring solution by weaving an isolated pocket dimension known as the Elemental Plane. Within it, they crafted four interlinked domains tailored to each primal force: Skywall for air, Deepholm for earth, the Abyssal Maw for water, and the Firelands for fire. The elemental lords and their myriad servants were banished into this realm, and powerful wards were set to sever the prison from the material world, allowing Azeroth's surface to finally know peace.",
+   "spoiler": 0
+  },
+  {
+   "title": "Endless Strife",
+   "body": "Banishment did not temper the fury of the elementals. Confined within their pocket dimensions, the primordial powers waged endless wars against one another. The most terrible conflict, the Elemental Sundering, pitted the domains of fire and air against each other in a war that raged for millennia across the core of their prison. Meanwhile, a handful of elementals left behind on Azeroth gradually lost their fiery tempestuousness over ages, their forms softening into creatures of flesh and blood.",
+   "spoiler": 0
+  },
+  {
+   "title": "Breaching the Wards",
+   "body": "The barriers separating Azeroth from the Elemental Plane are formidable, but not unbreakable. Two centuries ago, during the desperate climax of the War of the Three Hammers, Sorcerer-Thane Thaurissan pierced the veil to summon Ragnaros the Firelord from the Firelands, an apocalyptic event that ruptured the Redridge Mountains and forged Blackrock Mountain. In recent days, volatile cracks have opened across Kalimdor. Dimensional rifts repeatedly manifest in Silithus, Un'Goro Crater, Azshara, and Winterspring, disgorging waves of hostile elementals eager to test the defenses of the mortal world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Elemental Plane?",
+   "aliases": [
+    "what is elemental plane",
+    "elemental plane explained",
+    "elemental realms"
+   ],
+   "answer": "The Elemental Plane is an artificial pocket dimension created by the titan-forged to contain the chaotic elementals of Azeroth. It is composed of four distinct domains corresponding to the four primary elements: Skywall for air, Deepholm for earth, the Abyssal Maw for water, and the Firelands for fire."
+  },
+  {
+   "q": "Who created the Elemental Plane and why?",
+   "aliases": [
+    "who made elemental plane",
+    "why was elemental plane made",
+    "how was elemental plane made"
+   ],
+   "answer": "Highkeeper Ra and the sorceress Helya crafted the Elemental Plane after the war with the Old Gods. Because the elementals were bound directly to Azeroth and would simply reform if slain, the Keepers imprisoned them within this separate dimension so nature on the surface could flourish in peace."
+  },
+  {
+   "q": "What are the four realms within the plane?",
+   "aliases": [
+    "four elemental planes",
+    "elemental domains",
+    "names of elemental realms"
+   ],
+   "answer": "The four interlinked domains are Skywall (the realm of air), Deepholm (the realm of earth), the Abyssal Maw (the realm of water), and the Firelands (the realm of fire). Each realm is shaped as an ideal home and prison for its respective elemental spirits."
+  },
+  {
+   "q": "Can creatures travel between Azeroth and the Elemental Plane?",
+   "aliases": [
+    "portal to elemental plane",
+    "visiting elemental plane",
+    "how to get to elemental plane"
+   ],
+   "answer": "Travel between realms is strictly barred by ancient wards, but powerful sorcery and dimensional instability can create breaches. Mortal spellcasters have summoned entities across the veil, such as Thaurissan summoning Ragnaros, and volatile rifts periodically tear open in remote regions of Kalimdor."
+  },
+  {
+   "q": "Why are elementals invading Kalimdor right now?",
+   "aliases": [
+    "elemental invasions",
+    "why are elementals attacking",
+    "elemental rifts kalimdor"
+   ],
+   "answer": "Periodic incursions have begun erupting across Silithus, Un'Goro Crater, Azshara, and Winterspring. Portals tearing through the veil allow waves of invaders from the Elemental Plane to push into mortal territory until beaten back by the defenders of the Horde and Alliance."
+  },
+  {
+   "q": "How was Blackrock Mountain created by the plane?",
+   "aliases": [
+    "thaurissan ragnaros",
+    "creation of blackrock mountain",
+    "how did ragnaros get here"
+   ],
+   "answer": "During the War of the Three Hammers, Sorcerer-Thane Thaurissan attempted to conjure a fiery power to save his clan. He inadvertently tore open a gateway into the Firelands, wrenching Ragnaros into Azeroth. The Firelord's explosive arrival shattered the surrounding mountains, carving out the Burning Steppes, Searing Gorge, and Blackrock Mountain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Shaman seek harmony with spirits whose ancient rulers remain imprisoned across the veil. Understanding the division between Azeroth and the Elemental Plane is central to grasping why chaotic elements lash out when summoned."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Conjuring elemental familiars requires tapping into the fringe energies of these distant realms, demanding strict control to avoid tearing wider breaches into the material world."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The dark history of the Dark Iron clan serves as a grim warning of what happens when mortal ambition pierces the Elemental Plane to summon beings like Ragnaros."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "Zephras Isle floats within the towering expanse of Skywall, serving as a sanctuary within the windy domain of the Elemental Plane."
+  }
+ ],
+ "keywords": [
+  "abyssal maw",
+  "deepholm",
+  "elemental plane",
+  "elemental sundering",
+  "firelands",
+  "helya",
+  "highkeeper ra",
+  "invasions",
+  "ragnaros",
+  "skywall"
+ ],
+ "related": [
+  "topic:titan",
+  "topic:old-god",
+  "topic:skywall",
+  "topic:skyborne",
+  "subzone:blackrock-mountain",
+  "zone:burningsteppes",
+  "zone:searinggorge",
+  "npc:highlord-demitrian"
+ ],
+ "attribution": [
+  "Elemental Plane"
+ ]
+}

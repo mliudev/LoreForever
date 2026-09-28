@@ -1,0 +1,110 @@
+{
+ "key": "npc:gazrog",
+ "type": "npc",
+ "name": "Gazrog",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Gazrog",
+  "refs": 4
+ },
+ "summary": "Gazrog is an orc warrior stationed at the Crossroads in the heart of the Barrens. Tasked with maintaining logistics and security along the savannah's perilous roads, he recruits able Horde travelers to deal with regional threats and investigate lost patrols.",
+ "sections": [
+  {
+   "title": "A Sentinel of the Crossroads",
+   "body": "The Crossroads serves as the vital junction for all Horde transit through Kalimdor, but its isolation leaves supply lines vulnerable to marauders and beasts alike. Gazrog stands watch alongside the settlement's defenders, working to ensure that cargo, coin, and couriers reach their destinations. Maintaining order in a sprawling wilderness requires constant vigilance, and Gazrog relies heavily on passing adventurers to handle crises brewing beyond the outpost's stockades.",
+   "spoiler": 0
+  },
+  {
+   "title": "Savannah Hazards",
+   "body": "Between predatory raptors harassing trails and aggressive quillboar clans ambushing scouts, Gazrog's duties never end. He frequently coordinates responses to highway robberies\u2014such as retrieving stolen Horde shipments\u2014and investigates the sudden disappearance of Horde scouts like Dogran, whose fates often uncover grim confrontations with the local hostile tribes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can Gazrog be found?",
+   "aliases": [
+    "gazrog location",
+    "where is gazrog",
+    "gazrog crossroads"
+   ],
+   "answer": "Gazrog is located at the Crossroads, the central settlement connecting the northern, southern, and eastern routes of the Barrens."
+  },
+  {
+   "q": "What role does Gazrog play for the Horde?",
+   "aliases": [
+    "gazrog job",
+    "who is gazrog",
+    "what does gazrog do"
+   ],
+   "answer": "He acts as an operational coordinator and guard at the Crossroads, handing out tasks to safeguard regional supply lines, recover intercepted shipments, and locate missing Horde personnel."
+  },
+  {
+   "q": "What happened to the stolen silver Gazrog asks about?",
+   "aliases": [
+    "stolen silver quest",
+    "who stole the silver",
+    "barrens stolen shipment"
+   ],
+   "answer": "Horde coin convoys are frequently targeted by clever savannah raptors and opportunists roaming the Barrens trails, prompting Gazrog to send champions to hunt down the beasts and recover the cargo."
+  },
+  {
+   "q": "Who is Dogran?",
+   "aliases": [
+    "news of dogran",
+    "where is dogran",
+    "gazrog dogran"
+   ],
+   "answer": "Dogran is a missing Horde scout whose trail went cold in the savannah. Gazrog sends scouts to follow up on rumors and investigate nearby encampments to discover his fate."
+  },
+  {
+   "q": "Is Gazrog affiliated with Ratchet or the goblins?",
+   "aliases": [
+    "is gazrog ratchet",
+    "gazrog faction",
+    "gazrog goblin"
+   ],
+   "answer": "No. Gazrog serves the Horde directly out of the Crossroads, maintaining security for orc, tauren, and troll interests across the central Barrens."
+  },
+  {
+   "q": "Why are raptors stealing supplies in the Barrens?",
+   "aliases": [
+    "raptor thieves why",
+    "do raptors steal things",
+    "raptors shiny"
+   ],
+   "answer": "Sunscale and plainstrider predators are drawn to shiny metal and wagon remnants, often dragging pouches, silver, and gear back to their clutches and nesting grounds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Gazrog is an early contact for Horde adventurers leaving Durotar or Mulgore, offering critical work to establish secure travel corridors across Kalimdor."
+  },
+  {
+   "target": "race:Orc",
+   "text": "As an orc veteran holding down the Crossroads, Gazrog embodies the gritty, no-nonsense grit required to tame the unforgiving Kalimdor frontier."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "dogran",
+  "gazrog",
+  "horde outpost",
+  "raptor thieves",
+  "stolen silver"
+ ],
+ "related": [
+  "subzone:crossroads",
+  "zone:barrens",
+  "quest:3281",
+  "quest:869",
+  "quest:1509",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Gazrog"
+ ]
+}

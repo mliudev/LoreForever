@@ -1,0 +1,83 @@
+{
+ "key": "npc:blanchy",
+ "type": "npc",
+ "name": "Blanchy",
+ "era": "classic",
+ "zone": "multi",
+ "meta": {
+  "wiki": "Blanchy",
+  "refs": 0
+ },
+ "summary": "Old Blanchy is the loyal, hard-working mare belonging to Theodore and Verna Furlbrow, currently resting beside their wagon near the Jansen Stead in Westfall. Renowned for her gentle disposition and hefty appetite, she remains a steady companion to her owners amidst the turmoil gripping the countryside.",
+ "sections": [
+  {
+   "title": "A Faithful Farmhand",
+   "body": "Long before pulling the Furlbrows' wagon through the dust of Westfall, Blanchy was raised in the northern stables of Tarren Mill in Hillsbrad. Sold south across the sea to work the breadbasket of Stormwind, she earned a reputation as an exceptionally sweet-tempered, well-behaved mare. Decades of heavy labor have worn her down to 'Old Blanchy,' and the arduous journey fleeing troubled homesteads has left her exhausted. Though visibly weary, her appetite remains hearty, and travelers who bring her nourishing handfuls of oats scattered across the surrounding fields are rewarded by Verna with Blanchy's own treasured blanket and feed pouch.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns Blanchy?",
+   "aliases": [
+    "blanchy owner",
+    "who does blanchy belong to",
+    "furlbrow horse"
+   ],
+   "answer": "Blanchy belongs to Theodore and Verna Furlbrow, homesteaders traveling through Westfall. She serves as their steadfast draft horse and beloved family companion."
+  },
+  {
+   "q": "Where did Blanchy originally come from?",
+   "aliases": [
+    "blanchy origins",
+    "where is blanchy from",
+    "young blanchy"
+   ],
+   "answer": "She was born and raised far to the north in Lordaeron, stabled at Tarren Mill in the Hillsbrad Foothills. As a filly, she was transported through Southshore and shipped south across the Great Sea to live on a Westfall farm."
+  },
+  {
+   "q": "Why does Verna Furlbrow need oats for Blanchy?",
+   "aliases": [
+    "blanchy oats",
+    "why feed blanchy",
+    "furlbrows horse tired"
+   ],
+   "answer": "Years of labor and the long haul along Westfall's dangerous roads have left Old Blanchy completely drained. Verna asks passing adventurers to scavenge remaining bags of oats from nearby farmlands to restore the faithful horse's strength."
+  },
+  {
+   "q": "Where can Blanchy be found?",
+   "aliases": [
+    "blanchy location",
+    "where is old blanchy",
+    "blanchy map"
+   ],
+   "answer": "Old Blanchy stands hitched beside the Furlbrow wagon along the main road near the Jansen Stead in central Westfall."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers making the journey south from Elwynn Forest into Westfall, helping feed Old Blanchy is often one of the first quiet acts of charity they perform for the struggling local refugees."
+  }
+ ],
+ "keywords": [
+  "blanchy",
+  "furlbrow",
+  "jansen stead",
+  "oats",
+  "old blanchy",
+  "verna furlbrow",
+  "westfall"
+ ],
+ "related": [
+  "npc:verna-furlbrow",
+  "subzone:jansen-stead",
+  "zone:westfall",
+  "zone:hillsbrad",
+  "subzone:tarren-mill",
+  "subzone:southshore"
+ ],
+ "attribution": [
+  "Blanchy"
+ ]
+}

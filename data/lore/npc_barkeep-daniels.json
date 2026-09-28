@@ -1,0 +1,71 @@
+{
+ "key": "npc:barkeep-daniels",
+ "type": "npc",
+ "name": "Barkeep Daniels",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Barkeep Daniels",
+  "refs": 1
+ },
+ "summary": "Barkeep Daniels tends the counter at the Lakeshire Inn, serving weary town guards, local fishermen, and visiting travelers. With the Blackrock clan raiding across the Redridge Mountains and cutting off supply routes, keeping the tavern fully stocked has become an uphill battle.",
+ "sections": [
+  {
+   "title": "Keeping Spirits High in Lakeshire",
+   "body": "Behind the counter of the Lakeshire Inn stands Barkeep Daniels, pouring drinks and greeting whoever wanders in from the bridge. Lakeshire has spent months under constant pressure from gnolls and the Blackrock orcs, and the town's defenders rely on the tavern to unwind after grim patrols. Unfortunately for Daniels, the severed roads and relentless attacks have disrupted trade throughout the region. Finding himself dangerously low on liquor during a time when the town needs good cheer most, he is eager for any passing adventurer willing to fetch shipments from safer settlements.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Barkeep Daniels?",
+   "aliases": [
+    "daniels redridge",
+    "lakeshire barkeep",
+    "who is daniels"
+   ],
+   "answer": "Barkeep Daniels is the human tavern keeper working the counter at the Lakeshire Inn. He handles drink orders for local townsfolk, traveling adventurers, and the beleaguered town guard."
+  },
+  {
+   "q": "Why is he running low on drinks?",
+   "aliases": [
+    "why out of booze",
+    "dry times quest lore",
+    "why no alcohol"
+   ],
+   "answer": "Ongoing raids by the Blackrock orcs and neighboring gnoll tribes have choked off supply caravans and trade routes into the Redridge Mountains. With deliveries cut off and stressed defenders drinking through current stores, Daniels is struggling to replenish his shelves."
+  },
+  {
+   "q": "What does he need help with?",
+   "aliases": [
+    "barkeep daniels quest",
+    "what does he want",
+    "daniels errand"
+   ],
+   "answer": "Through the task 'Dry Times', Daniels looks for willing travelers to venture out and bring back fresh supplies of liquor from outside Redridge to keep the inn's patrons satisfied."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Maintaining morale in Lakeshire is essential for the Alliance, as the settlement serves as the kingdom's battered buffer against Blackrock stronghold in the north."
+  }
+ ],
+ "keywords": [
+  "barkeep daniels",
+  "bartender",
+  "daniels",
+  "dry times",
+  "lakeshire inn",
+  "redridge innkeeper"
+ ],
+ "related": [
+  "subzone:lakeshire-inn",
+  "subzone:lakeshire",
+  "zone:redridge",
+  "quest:116"
+ ],
+ "attribution": [
+  "Barkeep Daniels"
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "key": "quest:174",
+ "type": "quest",
+ "name": "Look To The Stars",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   174
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Viktori Prism'Antras",
+  "end": "",
+  "previous": null,
+  "next": "Look To The Stars (2)",
+  "wiki": "Look To The Stars (Classic)",
+  "chain": [
+   "Look To The Stars (Classic)",
+   "Look To The Stars (2)",
+   "Look To The Stars (3)",
+   "Look To The Stars (4)"
+  ]
+ },
+ "summary": "Look To The Stars begins Viktori Prism'Antras's endeavor to gaze past the eerie canopy of Duskwood. Believing that a scientific answer beyond arcane superstition explains the forest's dark curse, Viktori recruits you to gather components for a telescope designed by his gnomish associate.",
+ "sections": [
+  {
+   "title": "Searching the Skies",
+   "body": "Amid the gloom and fear shrouding Darkshire, Viktori Prism'Antras takes a distinctly unconventional view of Duskwood's misfortune. Rather than attributing the land's corruption purely to black magic, curses, or restless dead, Viktori suspects that greater truths await high above the canopy. With the aid of blueprints drawn up by his gnomish partner, Cog, he sets out to build an optical device capable of peering into the heavens.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Matter of Engineering",
+   "body": "To commence assembly on the stargazing apparatus, Viktori needs a sturdy frame. Following Cog's specifications, he asks travelers to procure a machined bronze tube. This first step relies directly on the ingenuity of mortal mechanics rather than spellcraft, highlighting Viktori's stubborn insistence that practical craft and observation might shed light where mysticism has failed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Viktori Prism'Antras?",
+   "aliases": [
+    "viktori",
+    "who gives look to the stars",
+    "viktori prismantras"
+   ],
+   "answer": "Viktori Prism'Antras is a scholarly resident of Darkshire. Unlike many locals paralyzed by fear or consumed by superstition, he seeks rational explanations for the corruption overtaking Duskwood by studying the stars."
+  },
+  {
+   "q": "Why does Viktori want to build a telescope?",
+   "aliases": [
+    "why look at stars",
+    "why bronze tube duskwood",
+    "telescope quest darkshire"
+   ],
+   "answer": "Viktori believes there is a tangible truth beyond magic that explains Duskwood's strange transformation. He hopes peering through a telescope into the skies will reveal insights that local legends and spellcasters have overlooked."
+  },
+  {
+   "q": "Who is Cog?",
+   "aliases": [
+    "cog gnome",
+    "who designed telescope"
+   ],
+   "answer": "Cog is a gnomish engineer and friend of Viktori. He drew up the mechanical blueprints required to construct the stargazing device."
+  },
+  {
+   "q": "Where does one obtain a bronze tube?",
+   "aliases": [
+    "how to get bronze tube",
+    "bronze tube location",
+    "where find bronze tube"
+   ],
+   "answer": "A bronze tube is typically crafted by engineers with moderate experience. Travelers who are not engineers themselves often acquire one through trade, auction houses, or from traveling engineering peddlers who happen to carry spare stock."
+  },
+  {
+   "q": "Is this part of a longer questline?",
+   "aliases": [
+    "look to the stars chain",
+    "how many look to the stars quests"
+   ],
+   "answer": "Yes. This task is the opening step of a multi-part effort to assemble and calibrate Viktori's stargazing apparatus in Darkshire."
+  },
+  {
+   "q": "Why is Viktori looking for natural explanations in Duskwood?",
+   "aliases": [
+    "why scientific explanation duskwood",
+    "magic vs science duskwood"
+   ],
+   "answer": "While the forest crawls with the undead and dark enchantments, Viktori believes fundamental cosmic or natural laws might still govern the transformation, driving him to seek answers in celestial study."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The entire undertaking hinges on gnomish design and skilled metalwork, offering tinkerers a direct role in aiding Viktori's astronomical pursuits."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Viktori relies on the ingenuity of his gnomish associate, Cog, demonstrating how gnomish craft brings order and reason even to the darkest corners of the kingdom."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "While Night Watch patrols fend off horrors along the roads of Darkshire, Viktori's project represents the town's small, stubborn hope to understand what poisoned their home."
+  }
+ ],
+ "keywords": [
+  "bronze tube",
+  "cog",
+  "darkshire",
+  "duskwood",
+  "look to the stars",
+  "telescope",
+  "viktori prism'antras"
+ ],
+ "related": [
+  "npc:viktori-prism-antras",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Look To The Stars (Classic)"
+ ]
+}

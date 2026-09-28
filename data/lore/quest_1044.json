@@ -1,0 +1,130 @@
+{
+ "key": "quest:1044",
+ "type": "quest",
+ "name": "Answered Questions",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1044
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Jonathan Carevin",
+  "end": "Thyn'tel Bladeweaver",
+  "previous": "The Scythe of Elune (Classic)",
+  "next": null,
+  "wiki": "Answered Questions",
+  "chain": []
+ },
+ "summary": "Answered Questions concludes the long investigation into the disappearance of the night elf priestess Velinde Starsong and the mysterious origin of the worgen. After uncovering her tragic fate in the dark reaches of Duskwood, an Alliance adventurer travels back to Darnassus to deliver the grim news to Thyn'tel Bladeweaver.",
+ "sections": [
+  {
+   "title": "A Tragic Truth",
+   "body": "The quest chain tracing Velinde Starsong begins in Ashenvale and stretches across continents to the haunted groves and abandoned mines of Duskwood. Following her trail reveals that Velinde, desperate to defend Kalimdor from demonic forces, wielded the Scythe of Elune and summoned the ferocious worgen. However, her control faltered, leading to tragedy and her demise deep in the Roland's Doom mine, while leaving Duskwood to grapple with the monstrous fallout.",
+   "spoiler": 1
+  },
+  {
+   "title": "Return to Darnassus",
+   "body": "Following the recovery of Velinde's journal and learning her ultimate end, Jonathan Carevin in Duskwood urges the adventurer to return to Teldrassil. In Darnassus, sentinel Thyn'tel Bladeweaver receives the report. Velinde was a close friend to High Priestess Tyrande Whisperwind, making the news of her fall a heavy personal and spiritual blow to the Sisterhood of Elune.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Missing Artifact",
+   "body": "While Velinde's fate is finally resolved, a deeper danger remains unresolved: the Scythe of Elune itself has vanished. Given by the goddess as a sacred boon and weapon, the scythe is now lost to the wild, far from the hands of the priestesses who revered it. The presence of the feral worgen across Eastern Kingdoms stands as a lingering, unpredictable threat born from that loss.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the quest Answered Questions?",
+   "aliases": [
+    "answered questions quest",
+    "answered questions classic",
+    "end of scythe of elune quest"
+   ],
+   "answer": "Answered Questions is an Alliance quest that concludes the investigation into Velinde Starsong. Started by Jonathan Carevin in Duskwood, it directs the player to deliver news of Velinde's death and the Scythe of Elune back to Thyn'tel Bladeweaver in Darnassus."
+  },
+  {
+   "q": "Who was Velinde Starsong?",
+   "aliases": [
+    "velinde starsong",
+    "who is velinde",
+    "what happened to velinde"
+   ],
+   "answer": "Velinde Starsong was a night elf priestess of Elune who received the Scythe of Elune during the Third War to fight the Burning Legion. She inadvertently summoned the feral worgen, lost control of them, and journeyed to the Eastern Kingdoms searching for answers before dying in Duskwood."
+  },
+  {
+   "q": "Where is the Scythe of Elune at the end of this quest?",
+   "aliases": [
+    "where is the scythe of elune",
+    "did we find the scythe",
+    "scythe of elune location"
+   ],
+   "answer": "The Scythe of Elune remains missing. Though the adventurer uncovers Velinde's journal and learns her fate in the mine of Roland's Doom, the ancient artifact itself has slipped out of the night elves' custody and into unknown hands."
+  },
+  {
+   "q": "How is Tyrande Whisperwind connected to Velinde?",
+   "aliases": [
+    "tyrande and velinde",
+    "high priestess connection"
+   ],
+   "answer": "High Priestess Tyrande Whisperwind and Velinde Starsong were close friends prior to Velinde's disappearance. Thyn'tel Bladeweaver notes upon the quest's completion that Tyrande will take the news of Velinde's demise hard."
+  },
+  {
+   "q": "Who is Jonathan Carevin?",
+   "aliases": [
+    "jonathan carevin",
+    "who gives answered questions"
+   ],
+   "answer": "Jonathan Carevin is a human resident of Duskwood who assists the adventurer in the search through the local mines. Despite the horror of the worgen unleashed upon Duskwood, he holds no personal grudge against Velinde and sends the player back to Kalimdor to inform her people."
+  },
+  {
+   "q": "Where does Thyn'tel Bladeweaver stand?",
+   "aliases": [
+    "where is thyntel bladeweaver",
+    "thyntel bladeweaver location",
+    "hand in answered questions"
+   ],
+   "answer": "Thyn'tel Bladeweaver is stationed in Darnassus on the isle of Teldrassil, serving the night elf leadership and overseeing the search for missing sentinels and priestesses."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves, this report brings mourning for a lost sister of the faith and deep concern that a sacred gift of Elune remains lost somewhere across the Great Sea."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests of Elune feel a keen spiritual resonance with Velinde's story, recognizing both the power of the goddess's gifts and the perilous folly of trying to bend unknown beasts to one's will."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The quest highlights the fragile cross-continental ties between the night elves of Kalimdor and the beleaguered human settlements of Duskwood dealing with common, shadowy threats."
+  }
+ ],
+ "keywords": [
+  "answered questions",
+  "darnassus",
+  "duskwood",
+  "jonathan carevin",
+  "roland's doom",
+  "scythe of elune",
+  "thyn'tel bladeweaver",
+  "velinde starsong",
+  "worgen"
+ ],
+ "related": [
+  "quest:1043",
+  "npc:thyn-tel-bladeweaver",
+  "npc:jonathan-carevin",
+  "zone:duskwood",
+  "zone:darnassus",
+  "topic:worgen",
+  "topic:elune",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Answered Questions"
+ ]
+}

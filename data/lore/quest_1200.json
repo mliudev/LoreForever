@@ -1,0 +1,141 @@
+{
+ "key": "quest:1200",
+ "type": "quest",
+ "name": "Blackfathom Villainy",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "ids": [
+   1200
+  ],
+  "level": "27",
+  "faction": "Alliance",
+  "start": "Argent Guard Thaelrid",
+  "end": "Dawnwatcher Selgorm",
+  "previous": "In Search of Thaelrid",
+  "next": null,
+  "wiki": "Blackfathom Villainy (Alliance)",
+  "chain": [
+   "In Search of Thaelrid",
+   "Blackfathom Villainy (Alliance)"
+  ]
+ },
+ "summary": "Blackfathom Villainy is an Alliance task given by Argent Guard Thaelrid deep within the ruined subterranean temple of Blackfathom Deeps. To halt the horrific sacrifices fueling an ancient horror, heroes are tasked with executing the cult leader Twilight Lord Kelris and bringing proof back to the Argent Dawn in Darnassus.",
+ "sections": [
+  {
+   "title": "A Defiled Sanctuary",
+   "body": "The flooded cavern now known as Blackfathom Deeps was once a pristine subterranean temple dedicated to Elune. That sacred past was shattered when the corruption of an ancient Old God seeped up through the rock, spoiling the temple's Moon Well and releasing Aku'mai, a voracious servant of that primordial darkness. In the wake of this defilement, the Twilight's Hammer cult forged an unholy alliance with local naga, turning holy halls into a den of ritual murder.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fallen Guard's Plea",
+   "body": "Argent Guard Thaelrid ventured into Blackfathom Deeps on behalf of his order, only to be captured and drained of his strength. Stranded amidst enemies, Thaelrid realizes he cannot finish his mission alone. He implores any brave Alliance travelers who reach him to strike down Twilight Lord Kelris, the sinister cultist orchestrating the sacrifice of innocents to Aku'mai in exchange for dark power.",
+   "spoiler": 0
+  },
+  {
+   "title": "Justice in Darnassus",
+   "body": "Presenting the severed head of Kelris to Dawnwatcher Selgorm at the Craftsmen's Terrace in Darnassus finally closes a long and troubling hunt. The Argent Dawn had feared Kelris was dead or lost to the shadows, given his recurring involvement whenever dark forces stirred in Kalimdor. Slaying him secures a vital victory against the cult's designs in Ashenvale.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Argent Guard Thaelrid?",
+   "aliases": [
+    "who is thaelrid",
+    "thaelrid lore",
+    "argent guard"
+   ],
+   "answer": "Thaelrid is an operative of the Argent Dawn sent to investigate the growing shadow within Blackfathom Deeps. Overwhelmed and imprisoned by the cultists, his depleted strength forces him to recruit passing adventurers to stop Kelris."
+  },
+  {
+   "q": "Why is Twilight Lord Kelris being targeted?",
+   "aliases": [
+    "who is kelris",
+    "why kill kelris",
+    "twilight lord kelris"
+   ],
+   "answer": "Kelris is the leader of the Twilight's Hammer cultists inhabiting Blackfathom Deeps. He has been systematically sacrificing innocent captives to Aku'mai, a foul beast linked to the Old Gods, in exchange for malevolent power."
+  },
+  {
+   "q": "Who is Dawnwatcher Selgorm?",
+   "aliases": [
+    "selgorm darnassus",
+    "who is selgorm",
+    "argent dawn darnassus"
+   ],
+   "answer": "Dawnwatcher Selgorm is an Argent Dawn representative stationed on the Craftsmen's Terrace in Darnassus. He oversees the order's efforts to thwart encroaching corruptions across northern Kalimdor."
+  },
+  {
+   "q": "What is the history of Blackfathom Deeps?",
+   "aliases": [
+    "bfd history",
+    "what was blackfathom deeps",
+    "temple of elune bfd"
+   ],
+   "answer": "Before it became a sunken lair of monsters and cultists, the caverns housed a great night elven temple dedicated to the goddess Elune. It fell into ruin after an Old God's malice bled upward and fouled its sacred Moon Well."
+  },
+  {
+   "q": "Who is Aku'mai?",
+   "aliases": [
+    "what is akumai",
+    "aku'mai lore",
+    "akumai beast"
+   ],
+   "answer": "Aku'mai is a monstrous, hydra-like servant of an Old God that crawled forth from the tainted waters beneath Blackfathom Deeps. The Twilight's Hammer reveres the creature, feeding it captives to gain dark blessings."
+  },
+  {
+   "q": "Why are the Twilight's Hammer and naga working together?",
+   "aliases": [
+    "naga cultists alliance",
+    "why are naga in bfd",
+    "twilight hammer and naga"
+   ],
+   "answer": "Both factions share an allegiance to dark, ancient masters tied to the depths. In Blackfathom Deeps, they have allied to claim the ruined temple grounds and commune with Aku'mai."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Avenging the defilement of an ancient temple of Elune and cleansing its poisoned Moon Well strikes directly at the heart of kaldorei heritage."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "By aiding the Argent Dawn against Kelris, the Alliance helps protect the vulnerable borders of Ashenvale from insidious cult infiltration."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Answering the call of the Argent Dawn to slay a cultist who sacrifices innocents to primordial horrors is the very definition of holy retribution."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Stopping Kelris brings an end to the blasphemous desecration of consecrated waters once held holy in devotion to the divine."
+  }
+ ],
+ "keywords": [
+  "aku'mai",
+  "argent dawn",
+  "blackfathom",
+  "darnassus",
+  "deeps",
+  "elune",
+  "kelris",
+  "moon well",
+  "selgorm",
+  "thaelrid",
+  "twilight's hammer"
+ ],
+ "related": [
+  "npc:twilight-lord-kelris",
+  "quest:1198",
+  "npc:dawnwatcher-selgorm",
+  "zone:blackfathom",
+  "npc:aku-mai",
+  "topic:twilight-s-hammer",
+  "topic:argent-dawn",
+  "zone:darnassus"
+ ],
+ "attribution": [
+  "Blackfathom Villainy (Alliance)"
+ ]
+}

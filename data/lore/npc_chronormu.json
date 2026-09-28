@@ -1,0 +1,91 @@
+{
+ "key": "npc:chronormu",
+ "type": "npc",
+ "name": "Chronormu",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Chronormu",
+  "refs": 2
+ },
+ "summary": "Chronormu, who goes by the mortal name Chromie, is a bronze dragon disguised as an energetic female gnome. Tasked with safeguarding the flow of time on Azeroth, she often works directly with mortals rather than observing from afar. In the Western Plaguelands, she quietly intervenes in the tragic aftermath of the Third War to right disrupted temporal threads.",
+ "sections": [
+  {
+   "title": "A Dragon in Small Guise",
+   "body": "Though she appears to mortals as an eccentric and cheerful gnome named Chromie, Chronormu is a member of the bronze dragonflight serving under the Timeless One, Nozdormu. Bronze dragons are charged by the titans with guarding history and correcting disruptions in the timeways. When deciding on her mortal visage, Chronormu sought counsel from dragons across the flights, including Kalecgos of the blue flight and Onyxia of the black. Ultimately rejecting notions of power or dominion, she chose the form of a female gnome so she could walk beside mortals as an approachable, optimistic peer.",
+   "spoiler": 0
+  },
+  {
+   "title": "Watcher of the Plaguelands",
+   "body": "Chronormu has taken up residence within the ruined ruins of Lordaeron, particularly watching the devastated Western Plaguelands. The catastrophic downfall of the kingdom and the spread of the Scourge tore deeply into the region's history, leaving temporal anomalies and trapped remnants. Working discreetly from places like the ruins of Andorhal, she enlists mortal adventurers to mend tangled timelines and investigate disturbances without revealing the full terrifying majesty of the dragonflight unless necessary.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is Chromie really a gnome?",
+   "aliases": [
+    "is chromie a gnome",
+    "chromie true form",
+    "who is chromie"
+   ],
+   "answer": "No. Chromie is merely the mortal visage of Chronormu, a bronze dragon. Bronze dragons adopt mortal guises to walk among the younger races without drawing undue terror or suspicion."
+  },
+  {
+   "q": "Why does Chronormu have a male dragon name?",
+   "aliases": [
+    "chronormu name gender",
+    "why is chromie called chronormu",
+    "chronormu gender"
+   ],
+   "answer": "Among bronze dragons, names ending in '-ormu' are traditionally given to males, while female bronze dragons typically have names ending in '-ormi'. Chronormu was born male, but during her Visage Day ceremony she chose to define herself as a female gnome, explaining simply that the form suited her."
+  },
+  {
+   "q": "What is Chromie doing in the Western Plaguelands?",
+   "aliases": [
+    "what is chromie doing here",
+    "why is chromie in andorhal",
+    "chromie western plaguelands"
+   ],
+   "answer": "The devastation caused by the Scourge in Lordaeron caused severe disruptions to history and the timeways. Chromie is stationed in the ruins to investigate temporal anomalies, undo historical disturbances, and enlist trustworthy adventurers to repair damaged threads of time."
+  },
+  {
+   "q": "Who are the bronze dragonflight?",
+   "aliases": [
+    "bronze dragons",
+    "what is bronze flight",
+    "nozdormu flight"
+   ],
+   "answer": "Led by the Dragon Aspect Nozdormu, the bronze dragonflight was blessed by the titans with the power to travel through and protect the pathways of time. They ensure that history unfolds as intended and intervene when time is altered or corrupted."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Chronormu deliberately chose a gnome visage because she admired their buoyant optimism, inventiveness, and unassuming nature when walking among larger races."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages studying the arcane discipline of chronomancy will find Chronormu's casual manipulation of time and localized temporal pockets both fascinating and staggering in scale."
+  }
+ ],
+ "keywords": [
+  "andorhal",
+  "bronze dragon",
+  "chromie",
+  "chronormu",
+  "nozdormu",
+  "timewalker",
+  "visage"
+ ],
+ "related": [
+  "zone:westernplaguelands",
+  "npc:kalecgos",
+  "npc:onyxia",
+  "topic:gnome",
+  "topic:black-dragonflight"
+ ],
+ "attribution": [
+  "Chronormu"
+ ]
+}

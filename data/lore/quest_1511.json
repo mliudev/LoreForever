@@ -1,0 +1,127 @@
+{
+ "key": "quest:1511",
+ "type": "quest",
+ "name": "Ken'zigla's Draught",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "ids": [
+   1511
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Ken'zigla",
+  "end": "Grunt Logmar",
+  "previous": "News of Dogran (2)",
+  "next": "Dogran's Captivity",
+  "wiki": "Ken'zigla's Draught (quest)",
+  "chain": [
+   "Devourer of Souls (Orgrimmar)",
+   "Blind Cazul",
+   "News of Dogran",
+   "News of Dogran (2)",
+   "Ken'zigla's Draught (quest)",
+   "Dogran's Captivity",
+   "Love's Gift",
+   "The Binding (Succubus, Orgrimmar)"
+  ]
+ },
+ "summary": "Ken'zigla's Draught is an urgent courier task in the Horde warlock chain to summon a succubus. Entrusted with a potent medicinal concoction from Malaka'jin in the Stonetalon Mountains, the warlock must rush across Kalimdor to Camp Taurajo to save an operative named Dogran.",
+ "sections": [
+  {
+   "title": "A Life-Saving Brew",
+   "body": "In the crags of the Stonetalon Mountains, the troll apothecary Ken'zigla anticipated trouble. Knowing that an earlier emissary sent to secure medicine for the missing scout Dogran never made it back, Ken'zigla prepared a second dose of his potent restorative draught. The concoction is volatile and powerful: half a dose grants a mortally wounded soldier the vigor to move without causing his injuries to hemorrhage, while the rest must be withheld until the next day to complete recovery.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rendezvous at Camp Taurajo",
+   "body": "Carrying the draught out of the mountains and into the southern Barrens, the warlock is directed to Grunt Logmar at Camp Taurajo. Logmar holds vital intelligence on Dogran's whereabouts, but his garrison is stripped bare by foraging expeditions. With Dogran trapped and bleeding in hostile territory, delivery of the draught to Taurajo marks the final preparations before staging a rescue operation.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Ken'zigla's Draught meant to do?",
+   "aliases": [
+    "what is the draught",
+    "kenziglas draught purpose",
+    "why make draught"
+   ],
+   "answer": "It is a potent medicinal brew crafted by Ken'zigla to revive the injured orc operative Dogran. Given in split doses, the first half grants a wounded fighter enough strength to move without reopening mortal wounds, while the second completes the healing process."
+  },
+  {
+   "q": "Who is Ken'zigla?",
+   "aliases": [
+    "kenzigla lore",
+    "who is kenzigla"
+   ],
+   "answer": "Ken'zigla is a troll apothecary situated in the Stonetalon Mountains. He provides specialized alchemical mixtures and concoctions to Horde agents operating in the region."
+  },
+  {
+   "q": "Why is Grunt Logmar waiting at Camp Taurajo?",
+   "aliases": [
+    "who is grunt logmar",
+    "logmar taurajo",
+    "grunt logmar role"
+   ],
+   "answer": "Grunt Logmar is stationed at Camp Taurajo in the southern Barrens. He monitors local scout movements and holds the last known intelligence on where Dogran disappeared, but lacks the grunts to mount a rescue on his own."
+  },
+  {
+   "q": "How does this quest connect to summoning a succubus?",
+   "aliases": [
+    "why succubus quest draught",
+    "succubus chain dogran"
+   ],
+   "answer": "To summon and bind a succubus, Horde warlocks in Orgrimmar require Dogran's pendant, an artifact suffused with passion and devotion. Securing the pendant requires finding Dogran and saving his life with Ken'zigla's draught."
+  },
+  {
+   "q": "Why didn't the first courier bring the draught?",
+   "aliases": [
+    "what happened to first messenger",
+    "previous courier"
+   ],
+   "answer": "The original messenger dispatched to Stonetalon never completed the mission, prompting Ken'zigla to prepare a backup dose for the next adventurer tracking Dogran down."
+  },
+  {
+   "q": "Where does the trail go after Camp Taurajo?",
+   "aliases": [
+    "where is dogran",
+    "next step after logmar"
+   ],
+   "answer": "Upon receiving the draught, Grunt Logmar points the warlock toward Dogran's captors in the southern Barrens, where the dying scout is held hostage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "This leg of your journey is a test of patience and resourcefulness; to command a creature of raw desire and seduction, you must first mend the broken mortal who holds the token of binding."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Shows the logistical stretch of the young Horde across central Kalimdor, where isolated outposts in Stonetalon and the Barrens rely on travelers to bridge critical communications and medical aid."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "dogran",
+  "draught",
+  "ken'zigla",
+  "logmar",
+  "stonetalon",
+  "succubus",
+  "taurajo"
+ ],
+ "related": [
+  "npc:grunt-logmar",
+  "quest:1509",
+  "quest:1515",
+  "quest:1512",
+  "quest:1471",
+  "quest:1472",
+  "subzone:camp-taurajo",
+  "zone:stonetalon"
+ ],
+ "attribution": [
+  "Ken'zigla's Draught (quest)"
+ ]
+}

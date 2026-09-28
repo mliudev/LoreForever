@@ -1,0 +1,78 @@
+{
+ "key": "npc:fel-zerul",
+ "type": "npc",
+ "name": "Fel'zerul",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Fel'zerul",
+  "refs": 2
+ },
+ "summary": "Fel'zerul is an orc warlock stationed at Stonard in the murky depths of the Swamp of Sorrows. Acting under direct orders from Warchief Thrall, he investigates the ominous presence lurking within the sunken Temple of Atal'Hakkar.",
+ "sections": [
+  {
+   "title": "Eyes on the Sunken Temple",
+   "body": "While Thrall's Horde generally views dark arts with suspicion, the Warchief recognizes that understanding sinister powers requires those who study them. Fel'zerul was dispatched to Stonard specifically to unravel the corruption surrounding the Pool of Tears and the submerged Temple of Atal'Hakkar. By directing adventurers to recover artifacts and investigate the exiled Atal'ai trolls, the warlock seeks to determine what evil stirs beneath the murky waters before it threatens the Horde's southern outpost.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Fel'zerul?",
+   "aliases": [
+    "felzerul",
+    "who is fel'zerul",
+    "stonard warlock"
+   ],
+   "answer": "Fel'zerul is an orc warlock residing in Stonard, the Horde's stronghold in the Swamp of Sorrows. He serves as an investigator analyzing the dark rituals unfolding within the nearby Temple of Atal'Hakkar."
+  },
+  {
+   "q": "Why did Thrall send a warlock to Stonard?",
+   "aliases": [
+    "thrall felzerul",
+    "why is felzerul here",
+    "felzerul mission"
+   ],
+   "answer": "Warchief Thrall dispatched Fel'zerul because dealing with ancient curses and blood rituals requires expertise in darker sorceries. Fel'zerul's mandate is to monitor the disturbing developments around the sunken temple and protect Horde interests in the swamp."
+  },
+  {
+   "q": "What is Fel'zerul investigating?",
+   "aliases": [
+    "felzerul quest lore",
+    "what does felzerul want",
+    "pool of tears investigation"
+   ],
+   "answer": "Fel'zerul is investigating the Atal'ai trolls and their profane rites within the Temple of Atal'Hakkar at the Pool of Tears. He enlists scouts and adventurers to dredge up artifacts and track down exiled priests who might hold crucial lore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Fel'zerul represents an official tasking of a warlock by Thrall, showcasing that the new Horde occasionally relies on practitioners of the dark arts to counter obscure, esoteric threats."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Stationed at Stonard, Fel'zerul acts as an early warning scout, ensuring that whatever dark magic festering in the swamp does not blindside the Horde's foothold in the region."
+  }
+ ],
+ "keywords": [
+  "atal'hakkar",
+  "fel'zerul",
+  "felzerul",
+  "stonard",
+  "swamp of sorrows",
+  "thrall",
+  "warlock"
+ ],
+ "related": [
+  "subzone:stonard",
+  "subzone:temple-of-atal-hakkar",
+  "subzone:pool-of-tears",
+  "zone:swampofsorrows",
+  "npc:thrall",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Fel'zerul"
+ ]
+}

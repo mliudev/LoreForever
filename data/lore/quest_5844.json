@@ -1,0 +1,116 @@
+{
+ "key": "quest:5844",
+ "type": "quest",
+ "name": "Welcome!",
+ "era": "classic",
+ "zone": "mulgore",
+ "meta": {
+  "ids": [
+   5844
+  ],
+  "level": "1",
+  "faction": "Horde",
+  "start": "Bloodhoof Village Gift Voucher",
+  "end": "Vorn Skyseer",
+  "previous": null,
+  "next": null,
+  "wiki": "Welcome! (Bloodhoof Village)",
+  "chain": []
+ },
+ "summary": "This errand serves as a festive greeting for adventurers arriving in Bloodhoof Village with a special gift voucher in hand. By presenting this token to Vorn Skyseer, travelers are granted a loyal companion creature to accompany them across Mulgore and beyond. It represents a warm, symbolic welcome to the land of the tauren.",
+ "sections": [
+  {
+   "title": "A Village Welcome",
+   "body": "New wanderers stepping through Mulgore occasionally carry a distinct voucher tucked away in their belongings. Rather than an official decree from the high chieftain or an urgent call to arms against local predators, this token functions as an invitation. Those who present it to Vorn Skyseer in Bloodhoof Village are greeted as honored newcomers deserving of a friendly mascot for the long trails ahead.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Skyseer's Favor",
+   "body": "Vorn Skyseer, stationed in the heart of Bloodhoof Village, gladly accepts these rare tokens. Recognizing the bearer as an extraordinary newcomer embarking on their journey through Azeroth, the tauren offers them a small beast companion to walk alongside them through the grasslands and wherever else their path leads.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "what is welcome quest",
+    "why do welcome",
+    "what does this quest do"
+   ],
+   "answer": "The quest is a straightforward welcoming gesture. You turn in your starting gift voucher to Vorn Skyseer in Bloodhoof Village to claim a special vanity companion pet for your travels."
+  },
+  {
+   "q": "Who is Vorn Skyseer?",
+   "aliases": [
+    "vorn skyseer identity",
+    "who is vorn",
+    "where is vorn"
+   ],
+   "answer": "Vorn Skyseer is a tauren resident situated in Bloodhoof Village within Mulgore. He acts as the local contact who accepts promotional gift vouchers and exchanges them for faithful companion animals."
+  },
+  {
+   "q": "Where does this quest begin and end?",
+   "aliases": [
+    "welcome turn in",
+    "where do i turn in welcome",
+    "bloodhoof voucher turn in"
+   ],
+   "answer": "The quest begins from a gift voucher item in your possession and finishes directly with Vorn Skyseer in Bloodhoof Village in Mulgore."
+  },
+  {
+   "q": "Does this quest involve any combat or dangerous travel?",
+   "aliases": [
+    "is welcome hard",
+    "do i have to fight for welcome",
+    "welcome danger"
+   ],
+   "answer": "No. It simply involves speaking to Vorn Skyseer inside the safe perimeter of Bloodhoof Village to exchange your voucher."
+  },
+  {
+   "q": "Can members of the Alliance complete this version of the quest?",
+   "aliases": [
+    "alliance welcome",
+    "can alliance do welcome",
+    "welcome faction"
+   ],
+   "answer": "No. This specific voucher exchange takes place in Bloodhoof Village and is reserved for Horde travelers who find themselves in Mulgore."
+  },
+  {
+   "q": "Why is Vorn Skyseer handing out companions?",
+   "aliases": [
+    "why do i get a pet",
+    "gift voucher pet lore",
+    "why companion"
+   ],
+   "answer": "Vorn Skyseer views the token as a sign of a uniquely favored newcomer to the world of Azeroth, welcoming them to the tauren homelands with a loyal pet to ease the isolation of long travels."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren braves setting out from Red Cloud Mesa toward Bloodhoof Village, Vorn Skyseer's greeting provides an immediate reminder of their people's warm hospitality."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Bloodhoof Village stands as one of the central gathering grounds for Horde allies traversing central Kalimdor, making it an ideal post for extending a welcoming hand."
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "collector's edition",
+  "companion pet",
+  "mulgore",
+  "vorn skyseer",
+  "voucher",
+  "welcome"
+ ],
+ "related": [
+  "npc:vorn-skyseer",
+  "subzone:bloodhoof-village",
+  "zone:mulgore"
+ ],
+ "attribution": [
+  "Welcome! (Bloodhoof Village)"
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "key": "npc:arcanist-doan",
+ "type": "npc",
+ "name": "Arcanist Doan",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Arcanist Doan",
+  "refs": 5
+ },
+ "summary": "Arcanist Doan is a master human mage residing within the Athenaeum of the Scarlet Monastery's Library wing. Formerly an associate of the Silver Hand who assisted in forging the legendary Ashbringer, he now serves the Scarlet Crusade as one of its most lethal arcane specialists and guardian of key crusade archives.",
+ "sections": [
+  {
+   "title": "A Mage Among Paladins",
+   "body": "Before the Scarlet Crusade turned inward and zealous, Arcanist Doan walked among the Knights of the Silver Hand. During the Third War, he met with Highlord Alexandros Mograine and other founders at Southshore. When Mograine revealed a shadowy crystal taken from an orc warlock during the Second War, Doan observed its unnatural ability to absorb holy energy. Joining his arcane insight with the holy magic of his peers, Doan helped cleanse the void crystal into radiant light, forming the heart of the weapon known as the Ashbringer.",
+   "spoiler": 0
+  },
+  {
+   "title": "Defense of Hearthglen",
+   "body": "As the Scourge swept across Lordaeron, Doan advocated for total plague containment. When the undead battered Hearthglen's fortifications, he held the ramparts alongside High Inquisitor Isillien. While others urged him to unleash magic immediately, Doan methodically gathered his strength, unleashing a devastating blizzard at the precise moment necessary to shatter the advancing undead ranks. His clinical patience proved his lethal mastery of battlefield evocation.",
+   "spoiler": 0
+  },
+  {
+   "title": "Keeper of the Athenaeum",
+   "body": "While the fanatical ranks of the Scarlet Crusade lean heavily on martial fury and holy fervor, Doan remained convinced that raw arcane power was essential to purging the Scourge from Lordaeron. Stationed deep inside the Athenaeum of the Monastery's library, he was entrusted as both a lorekeeper and an operational gatekeeper, safeguarding the Scarlet Key that secures crusade sanctuaries across the northern kingdoms.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is a mage in the Scarlet Crusade?",
+   "aliases": [
+    "why is doan a mage",
+    "crusade mage",
+    "doan magic"
+   ],
+   "answer": "Although the Crusade is dominated by zealot paladins and priests, Doan has been allied with its founders since the Silver Hand days. He firmly believes that masterwork arcane magic is an indispensable weapon needed to cleanse the Scourge from Lordaeron."
+  },
+  {
+   "q": "What is Arcanist Doan's connection to the Ashbringer?",
+   "aliases": [
+    "doan ashbringer",
+    "did doan make ashbringer",
+    "ashbringer crystal"
+   ],
+   "answer": "At a council in Southshore during the Third War, Alexandros Mograine presented an orb of darkness taken from an orc warlock. Doan helped direct the magical experiment where the Silver Hand poured their magic into the relic, successfully purifying it into the radiant core that forged the Ashbringer."
+  },
+  {
+   "q": "What does Doan guard in the Library?",
+   "aliases": [
+    "what does doan drop",
+    "scarlet key",
+    "why kill doan"
+   ],
+   "answer": "Doan keeps watch over the Monastery's repository of books and historical records in the Athenaeum. Behind him sits a lockbox containing the Scarlet Key, an essential key that opens the locked gates to the Monastery's Armory and Cathedral wings."
+  },
+  {
+   "q": "What magic does Doan use in combat?",
+   "aliases": [
+    "doan spells",
+    "doan abilities",
+    "arcanist doan bubble"
+   ],
+   "answer": "Doan blends abjuration and evocation magic. He is famous for casting an Arcane Bubble that renders him invulnerable while he channels a massive, room-engulfing Detonation spell. He also disrupts spellcasters with area silences and polymorphs threats into sheep."
+  },
+  {
+   "q": "Where did Doan fight during the Third War?",
+   "aliases": [
+    "doan war history",
+    "doan hearthglen",
+    "where was doan"
+   ],
+   "answer": "Beyond attending the pivotal war councils in Southshore, Doan fought on the front lines at Hearthglen, using catastrophic blizzard spells from the ramparts to break massive undead assault waves."
+  },
+  {
+   "q": "Does Doan harbor any personal secrets?",
+   "aliases": [
+    "doan dalaran fountain",
+    "doan abbendis",
+    "doan lore"
+   ],
+   "answer": "A silver coin tossed into Dalaran's wishing fountain reveals that Doan held an unrequited affection for Brigitte Abbendis, daughter of General Abbendis, while running with the early crusade leaders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Scholars of the arcane recognize Doan from 'The Schools of Arcane Magic: Abjuration,' where his ability to combine shielding with evocation to cast an impenetrable bubble is cited as an exceptionally rare feat."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Doan fought beside the founding members of the Silver Hand and was directly involved in purifying the crystal that created the Ashbringer before joining the crusade's descent into zealotry."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance forces, Doan represents what remains of Lordaeron's proud Kirin Tor and Silver Hand defenders who abandoned reason in favor of the Crusade's violent paranoia."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Forsaken and their Horde allies see Doan as a dangerous Scarlet commander whose library shelters vital intelligence and keys needed to breach the Crusade's inner sanctums."
+  }
+ ],
+ "keywords": [
+  "arcanist",
+  "ashbringer",
+  "athenaeum",
+  "detonation",
+  "doan",
+  "hearthglen",
+  "library",
+  "scarlet key",
+  "scarlet monastery"
+ ],
+ "related": [
+  "subzone:scarlet-monastery-library",
+  "subzone:athenaeum-scarlet-monastery",
+  "zone:scarlet",
+  "topic:scarlet-crusade",
+  "topic:knights-of-the-silver-hand",
+  "subzone:hearthglen",
+  "subzone:southshore",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Arcanist Doan"
+ ]
+}

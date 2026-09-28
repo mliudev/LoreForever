@@ -1,0 +1,114 @@
+{
+ "key": "quest:404",
+ "type": "quest",
+ "name": "A Putrid Task",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   404
+  ],
+  "level": "6",
+  "faction": "Horde",
+  "start": "Deathguard Dillinger",
+  "end": "",
+  "previous": null,
+  "next": "The Mills Overrun (Classic)",
+  "wiki": "A Putrid Task (Classic)",
+  "chain": []
+ },
+ "summary": "A Putrid Task is an early military assignment offered by Deathguard Dillinger in Brill. It directs adventurers to push back the mindlessly aggressive Scourge encroaching upon the old bridge west of the settlement. Collecting proof of the monsters' destruction secures the road and eases pressure on Tirisfal's defenders.",
+ "sections": [
+  {
+   "title": "Holding the Bridge",
+   "body": "Brill sits at a critical crossroads in eastern Tirisfal Glades, making any enemy approach a direct threat to the Forsaken power base. Mindless Scourge remnants constantly seep westward across the waterways, clustering around the broken remnants of the old stone bridge. Without regular patrols beating them back, the shambling corpses would quickly choke transit between Brill and the western farmsteads.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Grudge Against the Mindless",
+   "body": "For the Forsaken, Scourge roaming their borders is not merely a strategic nuisance; it is an insult. Every mindless ghoul and rotting corpse represents the servitude and torment that Lady Sylvanas Windrunner's followers broke away from. Deathguards like Dillinger take grim satisfaction in crushing their former captors, demanding severed claws as brutal proof that the mindless dead have been put to rest for good.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "where to get putrid task",
+    "deathguard dillinger quest"
+   ],
+   "answer": "Deathguard Dillinger, an officer of the Forsaken guard stationed at the western exit of Brill in Tirisfal Glades, assigns this mission."
+  },
+  {
+   "q": "Why does Deathguard Dillinger want putrid claws?",
+   "aliases": [
+    "why putrid claws",
+    "claws reason"
+   ],
+   "answer": "The claws serve as gruesome proof of death. The Deathguards need confirmation that wandering Scourge have been thoroughly destroyed, rather than merely driven slightly off the main road."
+  },
+  {
+   "q": "Where are the rotting dead found?",
+   "aliases": [
+    "rotting dead location",
+    "where are the ghouls",
+    "old bridge location"
+   ],
+   "answer": "They wander the overgrown fields and riverbanks immediately west of Brill, clustered heavily around the old stone bridge."
+  },
+  {
+   "q": "Why are there Scourge in Tirisfal Glades?",
+   "aliases": [
+    "why scourge here",
+    "scourge in tirisfal"
+   ],
+   "answer": "Although the Forsaken wrested control of Lordaeron's capital and the surrounding glades from the Scourge, wild remnants of the Lich King's armies still linger in corners of the woods, wandering aimlessly without necromantic commanders."
+  },
+  {
+   "q": "What happens after completing this task?",
+   "aliases": [
+    "next quest",
+    "what follows putrid task"
+   ],
+   "answer": "Clearing the bridge uncovers deeper trouble on the nearby farmsteads, prompting Deathguard Dillinger to dispatch you further west to inspect the overrun mills."
+  },
+  {
+   "q": "Are the Forsaken and the Scourge not the same thing?",
+   "aliases": [
+    "difference between forsaken and scourge",
+    "aren't they all undead"
+   ],
+   "answer": "No. The Forsaken are free-willed undead who broke the Lich King's telepathic control and fight to protect their autonomy. The Scourge remain mindless thralls bound to the Iron Will of the Frozen Throne."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Destroying Scourge is deeply personal for the Forsaken, serving as vengeance against the relentless force that once held their minds captive."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing Brill ensures that the fledgling Horde presence in the Eastern Kingdoms maintains a secure foothold against the Scourge."
+  }
+ ],
+ "keywords": [
+  "a putrid task",
+  "brill",
+  "deathguard dillinger",
+  "putrid claw",
+  "ravaged corpse",
+  "rotting dead",
+  "scourge",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:deathguard-dillinger",
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "A Putrid Task (Classic)"
+ ]
+}

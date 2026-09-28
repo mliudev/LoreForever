@@ -1,0 +1,126 @@
+{
+ "key": "quest:2039",
+ "type": "quest",
+ "name": "Find Bingles",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   2039
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Gnoarn",
+  "end": "Bingles Blastenheimer",
+  "previous": null,
+  "next": "Wing Nut",
+  "wiki": "Find Bingles",
+  "chain": [
+   "Find Bingles",
+   "Wing Nut"
+  ]
+ },
+ "summary": "Find Bingles is an Alliance breadcrumb quest initiated in Ironforge by the gnome Gnoarn. Concerned about an aviator who vanished over a week ago during an aerial reconnaissance flight toward fallen Gnomeregan, Gnoarn directs adventurers to scour the shores of Loch Modan. Tracking down the missing pilot leads right to Bingles Blastenheimer, who is very much alive but in desperate need of mechanical salvage.",
+ "sections": [
+  {
+   "title": "A Missing Pilot",
+   "body": "In the bustling gnome enclave of Tinker Town within Ironforge, anxiety runs high over missing kin and lost machinery. The gnome aviator Bingles Blastenheimer was dispatched on an aerial reconnaissance mission over the irradiated ruins of Gnomeregan. When more than a week passed without word, Gnoarn feared the worst\u2014suspecting Bingles had succumbed to gnome engineering's occupational hazard and blown himself out of the sky. The last reported sighting placed the eccentric flyer somewhere above the waters of the Loch.",
+   "spoiler": 0
+  },
+  {
+   "title": "Down at the Loch",
+   "body": "Rather than a tragic pile of smoldering wreckage, searchers discover Bingles alive and kicking along the Loch Modan shoreline. Unfazed by his prolonged absence and slightly offended that his piloting skills were doubted, the stranded inventor is fixated entirely on his grander cause. Instead of returning promptly to report to Gnoarn, Bingles immediately enlists his rescuer's aid to recover scattered aircraft components so he can resume his duties for the gnomish movement.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bingles Blastenheimer?",
+   "aliases": [
+    "who is bingles",
+    "bingles blastenheimer lore",
+    "who is the pilot"
+   ],
+   "answer": "Bingles Blastenheimer is an eccentric gnomish aviator and mechanic. He was sent aloft to conduct aerial surveillance over the fallen city of Gnomeregan before crashing his flying machine near Loch Modan."
+  },
+  {
+   "q": "Why was Bingles flying over Gnomeregan?",
+   "aliases": [
+    "bingles mission",
+    "why was bingles flying",
+    "gnomeregan recon"
+   ],
+   "answer": "Gnomish leadership and tinkerers continuously monitor Gnomeregan after its tragic fall to troggs and radiation. Bingles took to the skies to scout enemy positions and environmental conditions from above, serving the broader effort to reclaim their home."
+  },
+  {
+   "q": "Where is Bingles located?",
+   "aliases": [
+    "where is bingles",
+    "find bingles location",
+    "where to find bingles"
+   ],
+   "answer": "Bingles can be found grounded along the shores of the Loch in Loch Modan, just southeast of Thelsamar, trying to sort out his downed flying machine."
+  },
+  {
+   "q": "Who is Gnoarn?",
+   "aliases": [
+    "who is gnoarn",
+    "quest giver gnoarn"
+   ],
+   "answer": "Gnoarn is a gnome coordinator based in Tinker Town within Ironforge. He keeps tabs on gnomish personnel and missions, and he initiates the search when Bingles fails to return on schedule."
+  },
+  {
+   "q": "What happens after finding Bingles?",
+   "aliases": [
+    "what next after find bingles",
+    "wing nut quest",
+    "bingles follow up"
+   ],
+   "answer": "Finding Bingles opens the follow-up task Wing Nut, in which adventurers help him retrieve vital components such as his wrench, screwdriver, blast engine, and steering mechanism from the local wildlife and troggs along the shore."
+  },
+  {
+   "q": "Is Bingles hurt from the crash?",
+   "aliases": [
+    "is bingles injured",
+    "did bingles die"
+   ],
+   "answer": "Bingles is completely unharmed, though his pride is slightly ruffled that Gnoarn doubted his flying skills. His sole concern is repairing his aircraft to continue serving the movement."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomes, recovering Bingles is about maintaining hope for the retaking of Gnomeregan, where every scout and flying machine counts."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate the occupational hazards of gnomish aviation, where losing a wing nut or an engine blast is just another Tuesday in the field."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts frequently bridge the communications gap between the halls of Ironforge and the field operations across Loch Modan."
+  }
+ ],
+ "keywords": [
+  "bingles",
+  "blastenheimer",
+  "flying machine",
+  "gnoarn",
+  "gnomeregan",
+  "ironforge",
+  "loch modan",
+  "reconnaissance",
+  "tinker town"
+ ],
+ "related": [
+  "npc:bingles-blastenheimer",
+  "npc:gnoarn",
+  "zone:lochmodan",
+  "subzone:the-loch",
+  "zone:gnomeregan",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Find Bingles"
+ ]
+}

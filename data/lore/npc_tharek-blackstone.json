@@ -1,0 +1,94 @@
+{
+ "key": "npc:tharek-blackstone",
+ "type": "npc",
+ "name": "Tharek Blackstone",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Tharek Blackstone",
+  "refs": 1
+ },
+ "summary": "Tharek Blackstone is a hardworking toolsmith residing in Kharanos, in the snowy heart of Dun Morogh. Known for supplying heavy hardware to local craftsmen, his primary patron is Beldin Steelgrill of Steelgrill's Depot. Though constantly busy at his trade, he also serves as a reliable point of contact for travelers seeking work around the settlement.",
+ "sections": [
+  {
+   "title": "A Busy Toolsmith in Kharanos",
+   "body": "Situated amidst the cold drifts of Kharanos, Tharek Blackstone keeps busy turning out reliable dwarven tools. Between repairing gear for the locals and supplying larger operations, he rarely finds a moment to rest. His biggest headache\u2014and most reliable customer\u2014is Beldin Steelgrill, whose mechanostrider depot just outside town demands a steady stream of heavy wrenches, gears, and replacement implements. To keep his forge running without falling behind on deliveries, Tharek often hires wandering travelers to haul newly finished tool crates over to the depot for him.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Community Figure",
+   "body": "Beyond his trade at the anvil, Tharek carries considerable respect among the folk of Dun Morogh. When difficulties arise in nearby settlements like Coldridge Valley, local residents often advise newcomers to seek out Blackstone in Kharanos rather than wait on official dwarven authorities. While he holds no formal military title, his standing in town makes him an approachable liaison for odd jobs, supply runs, and coordinating local efforts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tharek Blackstone?",
+   "aliases": [
+    "tharek blackstone",
+    "who is tharek",
+    "blackstone dun morogh"
+   ],
+   "answer": "Tharek Blackstone is a dwarven toolsmith based in the town of Kharanos in Dun Morogh. He crafts and maintains heavy tools for local workers and frequently employs passing adventurers to deliver supplies around the valley."
+  },
+  {
+   "q": "What is his relationship with Beldin Steelgrill?",
+   "aliases": [
+    "tharek and beldin",
+    "steelgrill tools",
+    "why beldin"
+   ],
+   "answer": "Beldin Steelgrill runs Steelgrill's Depot just east of Kharanos, where mechanostriders and siege engines undergo repairs. Beldin is Tharek's primary customer, ordering so much ironware that Tharek frequently relies on adventurers to deliver finished shipments to the depot."
+  },
+  {
+   "q": "Where can I find Tharek Blackstone?",
+   "aliases": [
+    "tharek location",
+    "where is tharek blackstone",
+    "tharek blackstone loc"
+   ],
+   "answer": "He can be found standing outside near the center of Kharanos in Dun Morogh, within easy walking distance of the local inn and forge."
+  },
+  {
+   "q": "Does Tharek hold any official rank in Ironforge?",
+   "aliases": [
+    "is tharek a leader",
+    "tharek authority",
+    "blackstone rank"
+   ],
+   "answer": "He holds no military commission or political office, but he is a respected craftsman whose standing in Kharanos leads neighboring villagers to recommend him as a trustworthy first contact for newcomers seeking work."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "For smiths passing through Kharanos, Tharek exemplifies the day-to-day grind of a working toolsmith, churning out hard-wearing wrenches and iron fittings to sustain dwarven machinery."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Tharek represents the sturdy, self-reliant spirit of Dun Morogh's working class, helping keep local industry running through sheer perseverance at the anvil."
+  }
+ ],
+ "keywords": [
+  "beldin",
+  "blackstone",
+  "dun morogh",
+  "kharanos",
+  "steelgrill",
+  "tharek",
+  "toolsmith"
+ ],
+ "related": [
+  "npc:beldin-steelgrill",
+  "subzone:kharanos",
+  "subzone:steelgrill-s-depot",
+  "quest:400",
+  "quest:415",
+  "zone:dunmorogh",
+  "topic:dwarf",
+  "subzone:anvilmar"
+ ],
+ "attribution": [
+  "Tharek Blackstone"
+ ]
+}

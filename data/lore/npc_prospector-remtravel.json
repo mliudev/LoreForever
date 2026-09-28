@@ -1,0 +1,93 @@
+{
+ "key": "npc:prospector-remtravel",
+ "type": "npc",
+ "name": "Prospector Remtravel",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Prospector Remtravel",
+  "refs": 2
+ },
+ "summary": "Prospector Remtravel is a dwarven archaeologist affiliated with the Explorers' League, stationed deep in the gloomy woodlands of Darkshore. He oversees an excavation site unearthing ancient relics, though his scattered focus and perilous surroundings leave him in constant need of assistance.",
+ "sections": [
+  {
+   "title": "A Dwarven Dig in Elven Lands",
+   "body": "Sent far across the sea by the Explorers' League, Prospector Remtravel established his dig site along the southern reaches of Darkshore. While the night elves are often protective of their ancestral territories, the League's insatiable drive to uncover the origins of Azeroth pushes prospectors into every forgotten corner. Remtravel's work unearths fossilized history and ancient stones, but the aggressive native wildlife and hostile local threats make managing a frontier dig almost more than one scatterbrained dwarf can handle.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Absent-Minded Scholar",
+   "body": "True to his reputation, Remtravel easily becomes lost in his own thoughts and research notes. Venturing too far from camp in search of fossils or lost artifacts frequently leads to disaster, leaving him cornered by predators or hostile creatures. Those who run across him in the wild usually find themselves tasked with safeguarding his fragile discoveries\u2014and rescuing the prospector himself before the perils of Darkshore put an end to his mission.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Prospector Remtravel?",
+   "aliases": [
+    "who is remtravel",
+    "remtravel lore",
+    "who is the dwarf in darkshore"
+   ],
+   "answer": "He is an archaeologist and surveyor from Ironforge representing the Explorers' League. He has established a small excavation camp in southern Darkshore to uncover ancient relics and fossils."
+  },
+  {
+   "q": "Why is an Ironforge dwarf digging in Darkshore?",
+   "aliases": [
+    "why is a dwarf in darkshore",
+    "what is the explorers league doing in darkshore",
+    "why dig here"
+   ],
+   "answer": "The Explorers' League is scouring the known world for titan artifacts, lost history, and ancient fossils. Darkshore is an ancient, ruined land with deep ties to the distant past, making it a prime site for dwarven archaeological investigation."
+  },
+  {
+   "q": "Why is he called absent-minded?",
+   "aliases": [
+    "why absent minded",
+    "is remtravel crazy",
+    "what happened to remtravel"
+   ],
+   "answer": "Remtravel has a habit of losing track of his surroundings and his own equipment while absorbed in scholarly pursuits. He frequently wanders into dangerous territory without realizing the predators and beasts closing in around him."
+  },
+  {
+   "q": "Is Prospector Remtravel related to anyone in the League?",
+   "aliases": [
+    "remtravel family",
+    "karna remtravel uncle",
+    "who is karna remtravel"
+   ],
+   "answer": "He is believed to be the adventurous uncle mentioned by Karna Remtravel, an explorer who credits her uncle with inspiring her passion for discovery and the wider world."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Remtravel represents the Explorers' League's relentless determination to piece together dwarven origins, even when it requires pitching tents in the cold, damp woods of Kalimdor."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "While night elves tolerate peaceful Alliance guests, the League's noisy digging and disturbing of ancient soils often tests the patience of local sentinels and druids."
+  }
+ ],
+ "keywords": [
+  "absent minded prospector",
+  "darkshore",
+  "explorers league",
+  "fossils",
+  "ironforge",
+  "prospector remtravel",
+  "remtravel",
+  "remtravels excavation"
+ ],
+ "related": [
+  "subzone:remtravel-s-excavation",
+  "quest:729",
+  "topic:explorers-league",
+  "zone:darkshore",
+  "topic:dwarf",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Prospector Remtravel"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "subzone:greatwood-vale",
+ "type": "subzone",
+ "name": "Greatwood Vale",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Greatwood Vale"
+ },
+ "summary": "Greatwood Vale is a forested valley nestled in the eastern foothills of the Stonetalon Mountains, reached via the perilous Webwinder Path. It sits between the Horde outpost of Malaka'jin and the Alliance's Northwatch Expedition Base Camp, making its shaded woods a tense crossroads. Recently, the hostile Grimtotem tribe seized the vale, using it as a staging ground for bloody assaults on neighboring settlements.",
+ "sections": [
+  {
+   "title": "A Contested Valley",
+   "body": "Tucked away off the Webwinder Path, Greatwood Vale has become a violent frontier. Its position places it squarely between the Alliance soldiers pushing down from the Northwatch Expedition Base Camp to the north and the Horde camp of Malaka'jin to the south. Yet it is neither human nor orc who dominates the canopy today. The Grimtotem tribe, under the ruthless leadership of Grundig Darkcloud, has moved into the vale in force, cutting off safe passage and bringing terror to the surrounding foothills.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scourge of Camp Aparaje",
+   "body": "The Grimtotem did not merely occupy Greatwood Vale; they used it to orchestrate the butchery of nearby Camp Aparaje. Sweeping out of the woods, Darkcloud's raiders slaughtered nearly every tauren inhabiting the encampment. Makaba Flathoof, one of the few survivors who managed to flee the carnage, now directs vengeful Horde warriors straight into the heart of Greatwood Vale to cut down the renegade Grimtotem and put an end to Grundig Darkcloud.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Greatwood Vale located?",
+   "aliases": [
+    "greatwood vale location",
+    "how to get to greatwood vale",
+    "where is greatwood vale"
+   ],
+   "answer": "Greatwood Vale is tucked into the foothills of the Stonetalon Mountains, accessible via the Webwinder Path. It lies directly north of the Horde outpost Malaka'jin and south of the Northwatch Expedition Base Camp."
+  },
+  {
+   "q": "Who controls Greatwood Vale right now?",
+   "aliases": [
+    "who lives in greatwood vale",
+    "greatwood vale enemies",
+    "grimtotem in greatwood vale"
+   ],
+   "answer": "The valley is occupied by the hostile Grimtotem tribe, led locally by Grundig Darkcloud. They hold the woods with warbands and spellcasters, menacing anyone attempting to travel the region."
+  },
+  {
+   "q": "What happened at Camp Aparaje?",
+   "aliases": [
+    "camp aparaje lore",
+    "what happened to aparaje",
+    "why did grimtotem attack"
+   ],
+   "answer": "The Grimtotem launched a surprise attack from Greatwood Vale upon Camp Aparaje, massacring most of its peaceful tauren residents. Makaba Flathoof survived the slaughter and now seeks vengeance against the raiders and their leader."
+  },
+  {
+   "q": "Why is the Horde fighting the Grimtotem here?",
+   "aliases": [
+    "why kill grimtotem",
+    "makaba flathoof quest",
+    "avenge my village"
+   ],
+   "answer": "Although the Grimtotem are nominally part of the Horde through Thunder Bluff, their aggressive splinter factions attack fellow Horde members without hesitation. After the slaughter at Camp Aparaje, the Horde sanctions open warfare against Darkcloud's band in the vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Grimtotem's treacherous slaughter of fellow tauren at Camp Aparaje makes the cleansing of Greatwood Vale a deeply personal, sorrowful duty for Thunder Bluff's loyal children."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing Greatwood Vale is essential to protect the fragile southern outpost of Malaka'jin from sudden flank attacks by rogue Grimtotem."
+  }
+ ],
+ "keywords": [
+  "camp aparaje",
+  "greatwood vale",
+  "grimtotem",
+  "grundig darkcloud",
+  "makaba flathoof",
+  "malaka'jin",
+  "stonetalon",
+  "webwinder path"
+ ],
+ "related": [
+  "zone:stonetalon",
+  "subzone:camp-aparaje",
+  "npc:makaba-flathoof",
+  "quest:6548",
+  "quest:6629",
+  "topic:grimtotem-tribe",
+  "subzone:malaka-jin",
+  "subzone:webwinder-path"
+ ],
+ "attribution": [
+  "Greatwood Vale"
+ ]
+}

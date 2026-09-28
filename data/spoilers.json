@@ -1,0 +1,5967 @@
+{
+ "npc:abercrombie": {
+  "faq": {
+   "1": 2,
+   "2": 1,
+   "3": 1,
+   "4": 2,
+   "5": 1
+  },
+  "remove_keywords": [
+   "embalmer",
+   "the embalmer",
+   "stitches"
+  ]
+ },
+ "npc:advisor-duskingdawn": {},
+ "npc:advisor-sunsworn": {},
+ "npc:aelthalyste": {},
+ "npc:agathelos-the-raging": {},
+ "npc:aggem-thorncurse": {},
+ "npc:ahanu": {},
+ "npc:aku-mai": {},
+ "npc:alamar-grimm": {},
+ "npc:alanndarian-nightsong": {},
+ "npc:althea-ebonlocke": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "npc:altsoba-ragetotem": {},
+ "npc:ambassador-dawnsinger": {},
+ "npc:ambassador-sunsorrow": {},
+ "npc:amber-kearnen": {},
+ "npc:anastasia-hartwell": {},
+ "npc:anchorite-delan": {},
+ "npc:andron-gant": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  },
+  "remove_keywords": [
+   "syndicate"
+  ],
+  "summary": "Andron Gant is a reclusive, frequently intoxicated Forsaken residing in the murky depths of the Apothecarium in the Undercity, handling occasional research commissions and relic recoveries for local scholars."
+ },
+ "npc:anduin-wrynn": {},
+ "npc:apothecary-helbrim": {},
+ "npc:apothecary-johaan": {},
+ "npc:apothecary-renferrel": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:apothecary-zinge": {},
+ "npc:aramis-hammerhand": {},
+ "npc:arcanist-doan": {},
+ "npc:archaeologist-flagongut": {},
+ "npc:archaeologist-hollee": {},
+ "npc:archbishop-benedictus": {},
+ "npc:archmage-alturus": {},
+ "npc:archmage-ansirem-runeweaver": {},
+ "npc:archmage-leryda": {},
+ "npc:archmage-malin": {},
+ "npc:archmage-xylem": {},
+ "npc:argent-guard-manados": {},
+ "npc:argos-nightwhisper": {},
+ "npc:arugal": {},
+ "npc:ashlan-stonesmirk": {},
+ "npc:asterion": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "npc:athridas-bearmantle": {},
+ "npc:auntie-bernice-stonefield": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "npc:austil-de-mon": {},
+ "npc:ayessa-dawnsinger": {},
+ "npc:azar-stronghammer": {},
+ "npc:azuregos": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:bailiff-conacher": {},
+ "npc:bailor-stonehand": {},
+ "npc:baine-bloodhoof": {},
+ "npc:balthule-shadowstrike": {},
+ "npc:barithras-moonshade": {},
+ "npc:barkeep-daniels": {},
+ "npc:baron-revilgaz": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "npc:baron-silverlaine": {},
+ "npc:baros-alexston": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "npc:bartleby": {},
+ "npc:bashana-runetotem": {},
+ "npc:bath-rah-the-windwatcher": {},
+ "npc:bazzalan": {},
+ "npc:beldin-steelgrill": {},
+ "npc:bethor-iceshard": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:billy-maclure": {
+  "faq": {
+   "4": 1,
+   "5": 1,
+   "6": 1
+  }
+ },
+ "npc:bingles-blastenheimer": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:bink": {},
+ "npc:bishop-delavey": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:blanchy": {},
+ "npc:blind-hunter": {},
+ "npc:blind-mary": {},
+ "npc:bloodmage-drazial": {},
+ "npc:bloodmage-lynnore": {},
+ "npc:bloodmage-thalnos": {},
+ "npc:bluff-runner-windstrider": {},
+ "npc:bolvar-fordragon": {},
+ "npc:braelyn-firehand": {
+  "faq": {
+   "5": 2,
+   "6": 2
+  },
+  "remove_keywords": [
+   "shadow council",
+   "jaedenar"
+  ],
+  "summary": "Braelyn Firehand is an elven practitioner of the arcane residing quietly among the Horde at Sun Rock Retreat in the Stonetalon Mountains. Claiming an interest in clearing mystical obstructions across the highlands, she enlists travelers to strike against the night elven guardians of Stonetalon Peak."
+ },
+ "npc:braenna-flintcrag": {},
+ "npc:brainwashed-noble": {},
+ "npc:brandur-ironhammer": {},
+ "npc:brann-bronzebeard": {},
+ "npc:branstock-khalder": {},
+ "npc:brave-moonhorn": {},
+ "npc:brewmaster-drohn": {},
+ "npc:brewmeister-bilger": {},
+ "npc:brine": {},
+ "npc:brock-stoneseeker": {},
+ "npc:bromos-grummner": {},
+ "npc:brother-joshua": {},
+ "npc:brother-kristoff": {},
+ "npc:brother-neals": {},
+ "npc:brother-sarno": {},
+ "npc:brother-wilhelm": {},
+ "npc:bruegal-ironknuckle": {},
+ "npc:cain-firesong": {},
+ "npc:cairne-bloodhoof": {},
+ "npc:calor": {},
+ "npc:captain-danuvin": {},
+ "npc:captain-grayson": {},
+ "npc:captain-greenskin": {},
+ "npc:captain-rugelfuss": {},
+ "npc:captain-shatterskull": {},
+ "npc:captain-stoutfist": {},
+ "npc:captain-thalo-thas-brightsun": {},
+ "npc:captured-mountaineer": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:captured-scarlet-zealot": {},
+ "npc:carendin-halgar": {},
+ "npc:caretaker-folsom": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:cazul": {},
+ "npc:cerellean-whiteclaw": {},
+ "npc:charlga-razorflank": {
+  "faq": {
+   "4": 1
+  },
+  "summary": "Charlga Razorflank, widely known as the Crone of the Kraul, is the fierce and cunning geomancer chieftain presiding over Razorfen Kraul. Under her leadership, the Razorfen quilboar drove the tauren out of the southern Barrens through ruthless expansion, claiming to fight in the name of their fallen god, Agamaggan."
+ },
+ "npc:chef-breanna": {},
+ "npc:chef-grual": {},
+ "npc:chef-jessen": {},
+ "npc:chief-archaeologist-greywhisker": {},
+ "npc:chief-engineer-hinderweir-vii": {},
+ "npc:chief-hawkwind": {},
+ "npc:christoph-jeffcoat": {},
+ "npc:chronormu": {},
+ "npc:clarice-foster": {},
+ "npc:clerk-daltry": {},
+ "npc:cliffwatcher-longhorn": {},
+ "npc:coleman-farthing": {},
+ "npc:collin-mauren": {},
+ "npc:colonel-kurzen": {
+  "faq": {
+   "1": 2,
+   "5": 2,
+   "6": 1
+  },
+  "remove_keywords": [
+   "mai'zoth",
+   "mosh'ogg"
+  ]
+ },
+ "npc:commander-mar-alith": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:commander-springvale": {},
+ "npc:cookie": {},
+ "npc:corithras-moonrage": {},
+ "npc:councilman-millstipe": {},
+ "npc:count-remington-ridgewell": {},
+ "npc:crane-operator-bigglefuzz": {},
+ "npc:craven-drok": {},
+ "npc:cyrus-therepentous": {},
+ "npc:daio-the-decrepit": {},
+ "npc:dalar-dawnweaver": {},
+ "npc:daphne-stilwell": {},
+ "npc:darcy-parker": {},
+ "npc:darion-mograine": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "npc:darius-crowley": {},
+ "npc:dark-cleric-beryl": {},
+ "npc:dark-iron-ambassador": {},
+ "npc:darkmaster-gandling": {},
+ "npc:darla-drilldozer": {},
+ "npc:darn-talongrip": {},
+ "npc:darsok-swiftdagger": {},
+ "npc:daryl-the-youngling": {},
+ "npc:dashel-stonefist": {
+  "faq": {
+   "3": 1,
+   "4": 1,
+   "5": 2
+  }
+ },
+ "npc:dawnwatcher-selgorm": {},
+ "npc:dawnwatcher-shaedlass": {},
+ "npc:dazalar": {},
+ "npc:deathguard-bartholomew": {},
+ "npc:deathguard-burgess": {},
+ "npc:deathguard-dillinger": {},
+ "npc:deathguard-humbert": {},
+ "npc:deathguard-linnea": {},
+ "npc:deathguard-samsa": {},
+ "npc:deathguard-simmer": {},
+ "npc:deathstalker-faerleia": {},
+ "npc:deathstalker-lesh": {},
+ "npc:deathstalker-rane-yorick": {},
+ "npc:deathstalker-vincent": {},
+ "npc:deathwing": {
+  "faq": {
+   "6": 2
+  }
+ },
+ "npc:deino": {},
+ "npc:delgren-the-purifier": {},
+ "npc:demisette-cloyce": {},
+ "npc:denalan": {},
+ "npc:dendrite-starblaze": {},
+ "npc:deputy-feldon": {},
+ "npc:deputy-rainer": {},
+ "npc:devrak": {},
+ "npc:dextren-ward": {},
+ "npc:dirge-quikcleave": {},
+ "npc:doan-karhan": {},
+ "npc:doctor-gregory-victor": {},
+ "npc:doctor-gustaf-vanhowzen": {},
+ "npc:donova-snowden": {},
+ "npc:donyal-tovald": {},
+ "npc:doomsayer-wiserunner": {},
+ "npc:doras": {},
+ "npc:doren": {},
+ "npc:dorn-plainstalker": {},
+ "npc:drum-fel": {},
+ "npc:drusilla-la-salle": {},
+ "npc:duke-hydraxis": {},
+ "npc:dumass": {
+  "faq": {
+   "2": 1,
+   "4": 1
+  }
+ },
+ "npc:durnan-furcutter": {},
+ "npc:duthorian-rall": {},
+ "npc:ebru": {},
+ "npc:edwin-vancleef": {
+  "faq": {
+   "3": 1,
+   "6": 1
+  }
+ },
+ "npc:einar-stonegrip": {},
+ "npc:eitrigg": {},
+ "npc:elanaria": {},
+ "npc:elder-bladeleaf": {},
+ "npc:elder-bloodhoof": {},
+ "npc:elder-bronzebeard": {},
+ "npc:elder-darkcore": {},
+ "npc:elder-goldwell": {},
+ "npc:elder-graveborn": {},
+ "npc:elder-morningdew": {},
+ "npc:elder-obsidian": {},
+ "npc:elder-runetotem": {},
+ "npc:elder-skyseer": {},
+ "npc:elder-starweave": {},
+ "npc:eleanor-shackleton": {},
+ "npc:electrocutioner-6000": {},
+ "npc:elling-trias": {
+  "faq": {
+   "3": 1,
+   "6": 1
+  }
+ },
+ "npc:elu": {},
+ "npc:emissary-taluun": {},
+ "npc:emissary-valustraa": {},
+ "npc:eva-sarkhoff": {},
+ "npc:executor-arren": {},
+ "npc:executor-zygand": {},
+ "npc:falfindel-waywarder": {},
+ "npc:falla-sagewind": {},
+ "npc:fallen-hero-of-the-horde": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "npc:fandral-staghelm": {},
+ "npc:farmer-furlbrow": {},
+ "npc:farmer-saldean": {},
+ "npc:farseer-nobundo": {},
+ "npc:farthing": {},
+ "npc:feegly-the-exiled": {},
+ "npc:feero-ironhand": {},
+ "npc:fel-zerul": {},
+ "npc:felgur-twocuts": {},
+ "npc:fenrus-the-devourer": {},
+ "npc:field-marshal-snowfall": {},
+ "npc:field-marshal-stonebridge": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:first-mate-fitzsimmons": {},
+ "npc:fizzle-brassbolts": {},
+ "npc:fleet-master-seahorn": {},
+ "npc:foggy-mackreel": {},
+ "npc:force-commander-valen": {},
+ "npc:foreman-oslow": {},
+ "npc:foreman-stonebrow": {},
+ "npc:foreman-thistlenettle": {},
+ "npc:furen-longbeard": {},
+ "npc:furl-scornbrow": {},
+ "npc:gaerolas-talvethren": {},
+ "npc:gakin-the-darkbinder": {},
+ "npc:gan-rul-bloodeye": {},
+ "npc:gann-stonespire": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:gar-thok": {},
+ "npc:gart-mistrunner": {},
+ "npc:gath-ilzogg": {},
+ "npc:gaxim-rustfizzle": {},
+ "npc:gazin-tenorm": {},
+ "npc:gazrog": {},
+ "npc:gelbin-mekkatorque": {},
+ "npc:gelihast": {},
+ "npc:gelkak-gyromast": {},
+ "npc:general-grebo": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:general-marcus-jonathan": {},
+ "npc:gerard-tiller": {},
+ "npc:gerrig-bonegrip": {
+  "faq": {
+   "1": 2,
+   "2": 1,
+   "3": 2
+  },
+  "remove_keywords": [
+   "twilight's hammer"
+  ],
+  "summary": "Gerrig Bonegrip is an unassuming dwarven shopkeeper tucked away in the shadowy corridors of Ironforge's Forlorn Cavern. Behind the counter of Bonegrip's Runes and Dooms, he quietly buys and sells esoteric texts concerning dark rituals and forgotten ancient powers."
+ },
+ "npc:gershala-nightwhisper": {},
+ "npc:ghamoo-ra-classic": {},
+ "npc:gilnid": {},
+ "npc:gilthares-firebough": {},
+ "npc:glorin-steelbrow": {},
+ "npc:gnoarn": {},
+ "npc:godrick-farsan": {},
+ "npc:golnir-bouldertoe": {},
+ "npc:gorbold-steelhand": {},
+ "npc:gordon-wendham": {},
+ "npc:gornek": {},
+ "npc:gramma-stonefield": {},
+ "npc:grand-admiral-jes-tereth": {},
+ "npc:grand-mason-marblesten": {},
+ "npc:granis-swiftaxe": {},
+ "npc:great-father-winter": {},
+ "npc:greatfather-winter": {},
+ "npc:greatmother-hawkwind": {},
+ "npc:grelin-whitebeard": {},
+ "npc:greta-mosshoof": {},
+ "npc:grif-wildheart": {},
+ "npc:grimbooze-thunderbrew": {},
+ "npc:grish-longrunner": {},
+ "npc:grub": {},
+ "npc:grull-hawkwind": {},
+ "npc:grunt-dogran": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:grunt-logmar": {},
+ "npc:grunth": {},
+ "npc:gryan-stoutmantle": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "npc:guard-berton": {},
+ "npc:guard-howe": {},
+ "npc:guard-thomas": {},
+ "npc:gubber-blump": {},
+ "npc:gunther-arcanus": {
+  "faq": {
+   "5": 1,
+   "6": 1
+  }
+ },
+ "npc:gurda-ragescar": {},
+ "npc:gwennyth-bly-leggonde": {},
+ "npc:hagar-lightninghoof": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "npc:halaan-hawk-eye": {},
+ "npc:hamhock": {},
+ "npc:hands-springsprocket": {},
+ "npc:hansel-heavyhands": {},
+ "npc:harb-clawhoof": {},
+ "npc:harken-windtotem": {},
+ "npc:harlan-bagley": {},
+ "npc:harlo-barnaby": {},
+ "npc:hegnar-rumbleshot": {},
+ "npc:henze-faulk": {},
+ "npc:heralath-fallowbrook": {},
+ "npc:herod": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "npc:high-chieftain-cliffwalker": {},
+ "npc:high-executor-darthalia": {},
+ "npc:high-executor-derrington": {},
+ "npc:high-executor-hadrec": {},
+ "npc:high-inquisitor-fairbanks": {
+  "faq": {
+   "2": 2,
+   "4": 2,
+   "5": 2
+  },
+  "summary": "High Inquisitor Fairbanks was once a revered priest of the Knights of the Silver Hand and a trusted advisor to Highlord Alexandros Mograine. Once a prominent spiritual leader among Lordaeron's surviving defenders, his fate became tied to the dark descent of the Scarlet Crusade."
+ },
+ "npc:high-priest-rohan": {},
+ "npc:high-priestess-laurena": {},
+ "npc:highlord-demitrian": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "npc:hogger": {},
+ "npc:holt-thunderhorn": {},
+ "npc:houndmaster-loksey": {},
+ "npc:huldar": {},
+ "npc:huntress-kella-nightbow": {},
+ "npc:huraan": {},
+ "npc:illiyana": {},
+ "npc:illiyana-moonblaze": {},
+ "npc:innkeeper-allison": {},
+ "npc:innkeeper-farley": {},
+ "npc:innkeeper-firebrew": {},
+ "npc:innkeeper-grosk": {},
+ "npc:innkeeper-gryshka": {},
+ "npc:innkeeper-keldamyr": {},
+ "npc:innkeeper-norman": {},
+ "npc:innkeeper-pala": {},
+ "npc:interrogator-vishas": {},
+ "npc:islen-waterseer": {},
+ "npc:jahan-hawkwing": {},
+ "npc:jaina-proudmoore": {},
+ "npc:james-halloran": {},
+ "npc:jannok-breezesong": {},
+ "npc:jasper-fel": {},
+ "npc:je-neu-sancrea": {},
+ "npc:jennea-cannon": {},
+ "npc:jergosh-the-invoker": {},
+ "npc:jern-hornhelm": {},
+ "npc:jesper": {},
+ "npc:jitters": {
+  "faq": {
+   "1": 1,
+   "3": 1,
+   "4": 1,
+   "5": 1,
+   "6": 1
+  },
+  "summary": "Jitters is a trembling, reclusive human hiding out among the ruins of Raven Hill in western Duskwood. Consumed by constant paranoia and fear, he survives alone on Duskwood's perilous western edge, relying on passing adventurers for assistance while watching the encroaching shadows."
+ },
+ "npc:jocaste": {},
+ "npc:john-j-keeshan": {},
+ "npc:johnny-awesome": {},
+ "npc:jonathan-carevin": {},
+ "npc:jorah-annison": {},
+ "npc:jordan-stilwell": {},
+ "npc:jorgen": {},
+ "npc:josef-gregorian": {},
+ "npc:kaal-soulreaper": {},
+ "npc:kadrak": {},
+ "npc:kaela-shadowspear": {},
+ "npc:kalecgos": {},
+ "npc:kali-remik": {},
+ "npc:kam-deepfury": {},
+ "npc:kanati-greycloud": {},
+ "npc:kaplak": {},
+ "npc:karang-amakkar": {},
+ "npc:kargal-battlescar": {},
+ "npc:karos-razok": {},
+ "npc:katie-hunter": {},
+ "npc:kaymard-copperpinch": {},
+ "npc:keeper-albagorm": {},
+ "npc:keeper-bel-dugur": {
+  "faq": {
+   "2": 1,
+   "3": 2
+  },
+  "remove_keywords": [
+   "twilight's hammer"
+  ],
+  "summary": "Keeper Bel'dugur is a scholarly Forsaken residing deep within the Apothecarium of the Undercity. He serves his people by commissioning expeditions to recover dark tomes and magical artifacts from across Azeroth."
+ },
+ "npc:keeper-bel-varil": {},
+ "npc:keldran": {},
+ "npc:kelm-hargunth": {},
+ "npc:kelnir-leafsong": {},
+ "npc:kerlonian-evershade": {},
+ "npc:kernobee": {},
+ "npc:keryn-sylvius": {},
+ "npc:khelden-bremen": {},
+ "npc:kil-hala": {},
+ "npc:kin-weelay": {},
+ "npc:kindal-moonweaver": {},
+ "npc:kingslayer-orkus": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:kirge-sternhorn": {},
+ "npc:klannoc-macleod": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "npc:knight-lord-bloodvalor": {},
+ "npc:koltira-deathweaver": {},
+ "npc:kor-ghan": {},
+ "npc:korran": {},
+ "npc:kranal-fiss": {},
+ "npc:kravel-koalbeard": {},
+ "npc:kreldig-ungor": {},
+ "npc:krenk-choplimb": {},
+ "npc:krolg": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "npc:krom-stoutarm": {},
+ "npc:krusk": {},
+ "npc:kuray-bin": {},
+ "npc:lady-anacondra": {},
+ "npc:lady-sarevess": {},
+ "npc:laird": {},
+ "npc:lakota-windsong": {
+  "faq": {
+   "2": 1
+  }
+ },
+ "npc:lanka-farshot": {},
+ "npc:lar-prowltusk": {},
+ "npc:laris-geardawdle": {},
+ "npc:lars": {},
+ "npc:laurna-morninglight": {},
+ "npc:lelanai": {},
+ "npc:lieutenant-beitha": {},
+ "npc:lieutenant-farren-orinelle": {},
+ "npc:lieutenant-haggerdin": {},
+ "npc:lieutenant-lisande": {},
+ "npc:lieutenant-nevell": {},
+ "npc:lieutenant-orrin": {},
+ "npc:lindsay-ravensun": {
+  "faq": {
+   "1": 2,
+   "2": 2,
+   "4": 2
+  },
+  "remove_keywords": [
+   "sylvanas",
+   "sylvanas windrunner"
+  ],
+  "summary": "Lindsay Ravensun is a Forsaken operative stationed in the Western Plaguelands, assisting Horde forces and directing recruits in the ongoing campaign for the ruins of Andorhal."
+ },
+ "npc:loganaar": {},
+ "npc:lomac-gearstrip": {},
+ "npc:longbraid-the-grim": {},
+ "npc:lor-themar-theron": {},
+ "npc:loramus-thalipedes": {},
+ "npc:lord-arkkoroc": {},
+ "npc:lord-baurles-k-wishock": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "npc:lord-cobrahn": {},
+ "npc:lord-ello-ebonlocke": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "npc:lord-grayson-shadowbreaker": {},
+ "npc:lord-jorach-ravenholdt": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:lord-maxwell-tyrosus": {},
+ "npc:lord-pythas": {},
+ "npc:lord-serpentis": {},
+ "npc:lord-shalzaru": {},
+ "npc:lorekeeper-raintotem": {},
+ "npc:lorgus-jett": {},
+ "npc:lorna-crowley": {},
+ "npc:loslor-rudge": {},
+ "npc:lotwil-veriatus": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:lucius": {},
+ "npc:lyria-du-lac": {},
+ "npc:ma-stonefield": {},
+ "npc:mad-magus-tirth": {},
+ "npc:madame-eva": {},
+ "npc:magatha-grimtotem": {},
+ "npc:mage-darius": {},
+ "npc:magga": {},
+ "npc:maggran-earthbinder": {},
+ "npc:magis-sparkmantle": {},
+ "npc:magistrate-henry-maleb": {},
+ "npc:magistrate-sevren": {},
+ "npc:magistrate-solomon": {
+  "faq": {
+   "2": 1,
+   "3": 1
+  }
+ },
+ "npc:magistrix-elosai": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:magni-bronzebeard": {},
+ "npc:magus-rimtori": {},
+ "npc:mai-ah": {},
+ "npc:major-mattingly": {},
+ "npc:major-samuelson": {},
+ "npc:makaba-flathoof": {},
+ "npc:malfurion-stormrage": {},
+ "npc:mangletooth": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:mankrik": {},
+ "npc:marcus-redpath": {},
+ "npc:marek-ironheart": {},
+ "npc:marisa-du-paige": {},
+ "npc:marleth-barleybrew": {},
+ "npc:marshal-dughan": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:marshal-marris": {},
+ "npc:marshal-maxwell": {},
+ "npc:marshal-mcbride": {},
+ "npc:martie-jainrose": {},
+ "npc:marukai": {},
+ "npc:master-apothecary-faranell": {},
+ "npc:master-apothecary-lydon": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "npc:master-gadrin": {},
+ "npc:master-thal-darah": {},
+ "npc:master-vornal": {},
+ "npc:mastok-wrilehiss": {},
+ "npc:mathias-shaw": {},
+ "npc:mathredis-firestar": {},
+ "npc:mathrengyl-bearwalker": {},
+ "npc:maur-grimtotem": {},
+ "npc:maur-raincaller": {},
+ "npc:maurin-bonesplitter": {},
+ "npc:maxan-anvol": {},
+ "npc:maybell-maclure": {
+  "faq": {
+   "2": 1,
+   "4": 1
+  }
+ },
+ "npc:mebok-mizzyrix": {},
+ "npc:melor-stonehoof": {},
+ "npc:menara-voidrender": {},
+ "npc:merissa-stilwell": {},
+ "npc:merrin-rockweaver": {},
+ "npc:miles-welsh": {},
+ "npc:milli-featherwhistle": {},
+ "npc:milton-sheaf": {},
+ "npc:miner-johnson": {},
+ "npc:minor-manifestation-of-earth": {},
+ "npc:minor-manifestation-of-water": {},
+ "npc:misha": {},
+ "npc:misha-tor-kren": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:mitsuwa": {},
+ "npc:monte-gazlowe": {},
+ "npc:moon-priestess-amara": {},
+ "npc:mor-rogal": {},
+ "npc:morgan-pestle": {},
+ "npc:morgan-the-collector": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:morin-cloudstalker": {},
+ "npc:motega-firemane": {
+  "faq": {
+   "3": 1,
+   "4": 1,
+   "5": 1
+  }
+ },
+ "npc:mountaineer-barleybrew": {},
+ "npc:mountaineer-kadrell": {},
+ "npc:mountaineer-stormpike": {},
+ "npc:mountaineer-thalos": {},
+ "npc:mr-smite": {},
+ "npc:mull-thunderhorn": {},
+ "npc:mupsi-shacklefridd": {},
+ "npc:mutanus-the-devourer": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "npc:mux-manascrambler": {},
+ "npc:mydrannul": {},
+ "npc:nalpak": {},
+ "npc:nara-meideros": {},
+ "npc:narain-soothfancy": {},
+ "npc:naralex": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "npc:nat-pagle": {},
+ "npc:natalia-mar-alith": {
+  "faq": {
+   "1": 1,
+   "3": 1,
+   "4": 1
+  },
+  "summary": "Mistress Natalia Mar'alith is a night elf priestess and Cenarion Circle researcher who went missing deep within the silithid nests of Hive'Regal. She ventured into the wastes of Silithus alongside her husband, Commander Mar'alith, before departing on an expedition into the hives."
+ },
+ "npc:nathanos-blightcaller": {},
+ "npc:natoj": {},
+ "npc:nida": {},
+ "npc:nikova-raskol": {},
+ "npc:nissa-firestone": {},
+ "npc:nogg": {},
+ "npc:nori-pridedrift": {},
+ "npc:oben-rageclaw": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:oggleflint": {},
+ "npc:ogtinc": {},
+ "npc:ogunaro-wolfrunner": {},
+ "npc:old-murk-eye": {},
+ "npc:old-serra-kis": {},
+ "npc:onyxia": {
+  "faq": {
+   "1": 2,
+   "2": 2,
+   "3": 2
+  },
+  "remove_keywords": [
+   "katrana prestor"
+  ],
+  "summary": "Onyxia is the broodmother of the black dragonflight and the devious daughter of Deathwing. Lurking in her wyrm lair within Dustwallow Marsh, she tends to her burgeoning brood while coordinating with her sinister dragonflight to exert dominance over the mortal realms."
+ },
+ "npc:orendil-broadleaf": {},
+ "npc:orenthil-whisperwind": {},
+ "npc:orgnil-soulscar": {},
+ "npc:orgrim-doomhammer": {},
+ "npc:ormak-grimshot": {},
+ "npc:ormer-ironbraid": {},
+ "npc:orokk-omosh": {},
+ "npc:orphan-matron-battlewail": {},
+ "npc:orphan-matron-nightingale": {},
+ "npc:osric-strang": {},
+ "npc:overlord-krom-gar": {},
+ "npc:overlord-mok-morokk": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "npc:overlord-ramtusk": {},
+ "npc:ozzie-togglevolt": {},
+ "npc:packleader-ivar-bloodfang": {},
+ "npc:pao-ka-swiftmountain": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:parqual-fintallas": {},
+ "npc:pelturas-whitemoon": {},
+ "npc:pilot-bellowfiz": {},
+ "npc:pilot-hammerfoot": {},
+ "npc:pilot-longbeard": {},
+ "npc:pilot-stonegear": {},
+ "npc:pixel": {},
+ "npc:piznik": {},
+ "npc:pozzik": {},
+ "npc:priestess-a-moora": {},
+ "npc:priestess-alathea": {},
+ "npc:priestess-anetta": {},
+ "npc:priestess-josetta": {},
+ "npc:prospector-ironband": {},
+ "npc:prospector-remtravel": {},
+ "npc:prospector-ryedol": {},
+ "npc:prospector-stormpike": {},
+ "npc:prospector-whelgar": {},
+ "npc:quartermaster-lewis": {},
+ "npc:quinn-yorick": {},
+ "npc:raene-wolfrunner": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "npc:ragnar-thunderbrew": {},
+ "npc:rahauro": {},
+ "npc:raleigh-andrean": {},
+ "npc:randis": {},
+ "npc:ranger-glynda-nal-shea": {},
+ "npc:rau-cliffrunner": {},
+ "npc:razzle-sprysprocket": {},
+ "npc:red-jack-flint": {},
+ "npc:rejold-barleybrew": {},
+ "npc:rema-schneider": {},
+ "npc:remulos": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:remy-two-times": {},
+ "npc:renato-gallina": {},
+ "npc:renzik-the-shiv": {},
+ "npc:rethiel-the-greenwarden": {},
+ "npc:rezlak": {},
+ "npc:rhahk-zor": {},
+ "npc:rheastrasza": {
+  "faq": {
+   "1": 2,
+   "2": 1,
+   "3": 1
+  },
+  "remove_keywords": [
+   "rhea"
+  ],
+  "summary": "Rhea is a goblin researcher operating in the dusty expanses of the Badlands, employing mortal adventurers to help gather samples and assist with covert operations across the arid canyonlands."
+ },
+ "npc:rhinag": {},
+ "npc:ringo": {},
+ "npc:rivern-frostwind": {},
+ "npc:roetten-stonehammer": {},
+ "npc:rohaku-stonehoof": {},
+ "npc:rorian-the-dayseeker": {},
+ "npc:royal-historian-archesonus": {},
+ "npc:ruga-ragetotem": {},
+ "npc:rutgar-glyphshaper": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:ruul-eagletalon": {},
+ "npc:ruul-snowhoof": {},
+ "npc:saelienne": {},
+ "npc:sally-whitemane": {},
+ "npc:salma-saldean": {},
+ "npc:sara-balloo": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "npc:sara-timberlain": {},
+ "npc:scarlet-commander-mograine": {},
+ "npc:scooty": {},
+ "npc:scout-galiaan": {},
+ "npc:scout-riell": {},
+ "npc:scout-thaelrid": {},
+ "npc:searn-firewarder": {},
+ "npc:seer-graytongue": {},
+ "npc:seer-ravenfeather": {},
+ "npc:seereth-stonebreak": {},
+ "npc:senani-thunderheart": {},
+ "npc:senator-mehr-stonehallow": {},
+ "npc:senior-surveyor-fizzledowser": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:senir-whitebeard": {},
+ "npc:sentinel-arynia-cloudsbreak": {},
+ "npc:sentinel-aynasha": {},
+ "npc:sentinel-elissa-starbreeze": {},
+ "npc:sentinel-farsong": {},
+ "npc:sentinel-luciel-starwhisper": {},
+ "npc:sentinel-melyria-frostshadow": {},
+ "npc:sentinel-onaeya": {},
+ "npc:sentinel-selarin": {},
+ "npc:sentinel-thenysil": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "npc:sentinel-tysha-moonblade": {},
+ "npc:sentinel-velene-starstrike": {},
+ "npc:serge-hinott": {},
+ "npc:shadow-priest-allister": {},
+ "npc:shadow-priest-sarvis": {},
+ "npc:shael-dryn": {},
+ "npc:shanda": {},
+ "npc:shandris-feathermoon": {},
+ "npc:shari-stilwell": {},
+ "npc:shawn": {},
+ "npc:shenthul": {},
+ "npc:shindrell-swiftfire": {},
+ "npc:shoni-the-shilent": {},
+ "npc:sicco-thermaplugg": {},
+ "npc:sida": {},
+ "npc:sirra-von-indi": {},
+ "npc:sister-aquinne": {},
+ "npc:skorn-whitecloud": {},
+ "npc:skuerto": {},
+ "npc:smith-argus": {},
+ "npc:sneed": {},
+ "npc:sneed-s-shredder": {},
+ "npc:sprite-darter": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "npc:sprite-jumpsprocket": {},
+ "npc:sputtervalve": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:stanley": {},
+ "npc:sten-stoutarm": {},
+ "npc:stitches": {
+  "faq": {
+   "1": 2,
+   "2": 2,
+   "4": 1
+  },
+  "remove_keywords": [
+   "abercrombie"
+  ],
+  "summary": "Stitches is a colossal, stitched-together undead abomination that terrorizes Duskwood. Spawning in the western reaches of the zone, the monster relentlessly marches down the main road toward Darkshire, slaughtering unwary travelers and overwhelming Night Watch checkpoints."
+ },
+ "npc:strahad-farsan": {},
+ "npc:supervisor-raelen": {},
+ "npc:suzetta-gallina": {},
+ "npc:sven-yorgen": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "npc:sylvanas-windrunner": {},
+ "npc:syral-bladeleaf": {},
+ "npc:syurna": {},
+ "npc:tabetha": {},
+ "npc:tai-jin": {},
+ "npc:taiga-wisemane": {},
+ "npc:takar-the-seer": {},
+ "npc:takata-steelblade": {},
+ "npc:tal": {},
+ "npc:talen": {},
+ "npc:tallonkai-swiftroot": {},
+ "npc:tallow": {},
+ "npc:talvash-del-kissel": {},
+ "npc:tammra-windfield": {},
+ "npc:tannok-frosthammer": {},
+ "npc:taragaman-the-hungerer": {},
+ "npc:targorr-the-dread": {},
+ "npc:tarrel-rockweaver": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "npc:tatternack-steelforge": {},
+ "npc:tavernkeep-smitts": {
+  "faq": {
+   "2": 1,
+   "3": 1
+  }
+ },
+ "npc:telf-joolam": {},
+ "npc:tenaron-stormgrip": {},
+ "npc:terenthis": {},
+ "npc:teronis-corpse": {},
+ "npc:thadius-grimshade": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:thalia-amberhide": {},
+ "npc:tharek-blackstone": {},
+ "npc:tharnariun-treetender": {},
+ "npc:thassarian": {},
+ "npc:the-defias-traitor": {},
+ "npc:theldurin-the-lost": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "npc:theocritus": {},
+ "npc:therylune": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:therysil": {},
+ "npc:thor": {},
+ "npc:thorgrum-borrelson": {},
+ "npc:thork": {},
+ "npc:thorvald-deepforge": {},
+ "npc:thotar": {},
+ "npc:thrall": {},
+ "npc:thunderaan": {
+  "faq": {
+   "5": 1,
+   "6": 1
+  }
+ },
+ "npc:thyn-tel-bladeweaver": {},
+ "npc:tiffin-ellerian-wrynn": {},
+ "npc:tirion-fordring": {},
+ "npc:tiza-battleforge": {},
+ "npc:tommy-joe-stonefield": {},
+ "npc:tonga-runetotem": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:tormus-deepforge": {},
+ "npc:torwa-pathfinder": {},
+ "npc:treshala-fallowbrook": {},
+ "npc:tsunaman": {},
+ "npc:tuluun": {},
+ "npc:turak-runetotem": {},
+ "npc:twilight-lord-kelris": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:tyrande-whisperwind": {},
+ "npc:tyrion": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "npc:ukor": {},
+ "npc:ula-elek": {},
+ "npc:umpi": {},
+ "npc:ur-kyo": {},
+ "npc:uzzek": {},
+ "npc:valstag-ironjaw": {},
+ "npc:vanndar-stormpike": {},
+ "npc:varimathras": {},
+ "npc:varok-saurfang": {},
+ "npc:velarok": {
+  "faq": {
+   "1": 2,
+   "2": 2,
+   "3": 1,
+   "4": 2,
+   "5": 2,
+   "6": 2
+  },
+  "remove_keywords": [
+   "black dragonflight",
+   "the deceiver"
+  ]
+ },
+ "npc:velora-nitely": {},
+ "npc:ventaari-brightwish": {},
+ "npc:verdan-the-everliving": {},
+ "npc:verna-furlbrow": {},
+ "npc:verner-osgood": {},
+ "npc:veron-amberstill": {},
+ "npc:veronica-nials": {},
+ "npc:vesprystus": {},
+ "npc:vidra-hearthstove": {},
+ "npc:viktori-prism-antras": {},
+ "npc:vindicator-palanaar": {},
+ "npc:viscous-fallout": {},
+ "npc:vol-jin": {},
+ "npc:volcor": {},
+ "npc:vorn-skyseer": {},
+ "npc:warcaller-gorlach": {},
+ "npc:warden-thelwater": {},
+ "npc:warlord-gorchuk": {},
+ "npc:warlord-goretooth": {},
+ "npc:warmaster-laggrond": {},
+ "npc:warsong-outrider": {},
+ "npc:watch-captain-parker": {},
+ "npc:watcher-backus": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "npc:watcher-dodds": {},
+ "npc:wilder-thistlenettle": {},
+ "npc:wiley-the-black": {},
+ "npc:willem": {},
+ "npc:william-pestle": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "npc:williden-marshal": {},
+ "npc:winna-hazzard": {
+  "faq": {
+   "2": 1
+  },
+  "remove_keywords": [
+   "corrupted cat"
+  ]
+ },
+ "npc:winstone-wolfe": {},
+ "npc:witch-doctor-jin-zil": {},
+ "npc:witch-doctor-uzer-i": {},
+ "npc:wizbang-cranktoggle": {},
+ "npc:wizlo-bearingshiner": {},
+ "npc:wizzle-brassbolts": {},
+ "npc:wizzlecrank-s-shredder": {},
+ "npc:wrenix-the-wretched": {},
+ "npc:wynne-larson": {},
+ "npc:xavathras": {},
+ "npc:yaw-sharpmane": {},
+ "npc:yeh-kinya": {
+  "faq": {
+   "1": 2,
+   "2": 2,
+   "3": 1,
+   "4": 1
+  }
+ },
+ "npc:yvette-farthing": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "npc:zaldimar-wefhellt": {},
+ "npc:zamja": {},
+ "npc:zangen-stonehoof": {},
+ "npc:zankaja": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "npc:zardeth-of-the-black-claw": {},
+ "npc:zargh": {},
+ "npc:zarlman-two-moons": {},
+ "npc:zarrin": {},
+ "npc:zenn-foulhoof": {
+  "faq": {
+   "2": 1,
+   "3": 1
+  }
+ },
+ "npc:zevrost": {},
+ "npc:zjolnir": {},
+ "npc:zor-lonetree": {},
+ "npc:zureetha-fargaze": {},
+ "quest:100": {},
+ "quest:1001": {},
+ "quest:1002": {},
+ "quest:1003": {
+  "faq": {
+   "2": 1,
+   "3": 1,
+   "5": 1
+  }
+ },
+ "quest:1007": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1008": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1009": {},
+ "quest:101": {},
+ "quest:1010": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1011": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1012": {},
+ "quest:1013": {},
+ "quest:1014": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1016": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1017": {},
+ "quest:102": {},
+ "quest:1020": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1021": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:1022": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1023": {},
+ "quest:1024": {},
+ "quest:1025": {},
+ "quest:1026": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:1027": {},
+ "quest:1028": {},
+ "quest:1029": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:103": {},
+ "quest:1030": {},
+ "quest:1031": {},
+ "quest:1032": {},
+ "quest:1033": {},
+ "quest:1034": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1035": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1037": {},
+ "quest:1038": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1039": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:104": {},
+ "quest:1040": {},
+ "quest:1041": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1042": {},
+ "quest:1043": {
+  "faq": {
+   "3": 1,
+   "5": 1,
+   "6": 1
+  }
+ },
+ "quest:1044": {
+  "faq": {
+   "1": 1,
+   "2": 1,
+   "3": 1,
+   "4": 1
+  },
+  "summary": "Answered Questions is an Alliance quest concluding a cross-continental investigation into the disappearance of the night elf priestess Velinde Starsong. Following clues across Kalimdor and the Eastern Kingdoms, an adventurer returns to Darnassus to deliver a final report to Thyn'tel Bladeweaver."
+ },
+ "quest:1045": {},
+ "quest:1046": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:1054": {},
+ "quest:1055": {},
+ "quest:1057": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1058": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:1059": {},
+ "quest:1060": {},
+ "quest:1061": {},
+ "quest:1062": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1063": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1064": {},
+ "quest:1065": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1066": {},
+ "quest:1067": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1068": {},
+ "quest:1069": {},
+ "quest:1070": {},
+ "quest:1071": {},
+ "quest:1072": {},
+ "quest:1073": {},
+ "quest:1074": {},
+ "quest:1075": {},
+ "quest:1076": {},
+ "quest:1077": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1078": {},
+ "quest:1079": {},
+ "quest:1080": {},
+ "quest:1081": {},
+ "quest:1082": {},
+ "quest:1083": {},
+ "quest:1084": {},
+ "quest:1085": {},
+ "quest:1086": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1087": {
+  "faq": {
+   "1": 1,
+   "6": 1
+  }
+ },
+ "quest:1088": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1089": {},
+ "quest:109": {},
+ "quest:1090": {},
+ "quest:1091": {},
+ "quest:1092": {},
+ "quest:1093": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1094": {},
+ "quest:1095": {},
+ "quest:1096": {},
+ "quest:1097": {},
+ "quest:1098": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "quest:11": {},
+ "quest:1100": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1101": {},
+ "quest:1103": {},
+ "quest:1104": {},
+ "quest:1105": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:111": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1110": {},
+ "quest:112": {},
+ "quest:1130": {},
+ "quest:1131": {},
+ "quest:1132": {},
+ "quest:1133": {},
+ "quest:1134": {},
+ "quest:1135": {},
+ "quest:1138": {},
+ "quest:114": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:1140": {},
+ "quest:1141": {},
+ "quest:1142": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1143": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1149": {
+  "faq": {
+   "2": 1,
+   "3": 1
+  }
+ },
+ "quest:115": {},
+ "quest:1150": {},
+ "quest:1151": {},
+ "quest:1152": {},
+ "quest:1153": {},
+ "quest:1154": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1159": {},
+ "quest:116": {},
+ "quest:1167": {},
+ "quest:117": {},
+ "quest:1176": {},
+ "quest:1179": {},
+ "quest:118": {},
+ "quest:119": {},
+ "quest:1195": {},
+ "quest:1196": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1197": {},
+ "quest:1198": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1199": {},
+ "quest:12": {},
+ "quest:120": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1200": {},
+ "quest:1205": {},
+ "quest:121": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:122": {},
+ "quest:1221": {},
+ "quest:123": {},
+ "quest:124": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1241": {},
+ "quest:1242": {},
+ "quest:1243": {},
+ "quest:1244": {},
+ "quest:1245": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1246": {
+  "faq": {
+   "5": 1,
+   "6": 2
+  },
+  "remove_keywords": [
+   "varian wrynn"
+  ]
+ },
+ "quest:1247": {
+  "faq": {
+   "4": 2
+  }
+ },
+ "quest:125": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:126": {},
+ "quest:127": {},
+ "quest:1274": {},
+ "quest:1275": {},
+ "quest:128": {},
+ "quest:129": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:13": {},
+ "quest:130": {
+  "faq": {
+   "5": 1,
+   "6": 1
+  }
+ },
+ "quest:131": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "quest:132": {},
+ "quest:133": {},
+ "quest:1338": {},
+ "quest:1339": {},
+ "quest:134": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  },
+  "remove_keywords": [
+   "necromancer"
+  ]
+ },
+ "quest:135": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1358": {},
+ "quest:1359": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:136": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:1361": {},
+ "quest:1362": {},
+ "quest:138": {},
+ "quest:139": {},
+ "quest:14": {},
+ "quest:140": {},
+ "quest:141": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:142": {
+  "faq": {
+   "2": 1,
+   "5": 1
+  },
+  "summary": "This critical mission sends adventurers along the dusty roads of Westfall to hunt down a roving Defias Messenger. Intercepting his dispatches allows Gryan Stoutmantle and the People's Militia to uncover vital intelligence regarding the bandit uprising."
+ },
+ "quest:143": {
+  "faq": {
+   "5": 1,
+   "6": 1
+  }
+ },
+ "quest:1431": {},
+ "quest:1432": {},
+ "quest:144": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1442": {},
+ "quest:1447": {
+  "faq": {
+   "5": 1,
+   "6": 2
+  },
+  "remove_keywords": [
+   "varian"
+  ],
+  "summary": "This tense confrontation is a pivotal step in unraveling the mystery of the missing diplomat. Following a trail through Stormwind's underbelly, an investigator corners Dashel Stonefist in Old Town to force answers out of the stubborn ruffian."
+ },
+ "quest:145": {},
+ "quest:1453": {},
+ "quest:146": {},
+ "quest:147": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "quest:1471": {},
+ "quest:1472": {},
+ "quest:1473": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1474": {},
+ "quest:1476": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1478": {},
+ "quest:148": {},
+ "quest:1483": {},
+ "quest:1486": {},
+ "quest:1487": {},
+ "quest:1489": {},
+ "quest:149": {},
+ "quest:1490": {},
+ "quest:1491": {},
+ "quest:1492": {},
+ "quest:1498": {},
+ "quest:15": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:150": {},
+ "quest:1501": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1502": {},
+ "quest:1503": {},
+ "quest:1504": {},
+ "quest:1506": {},
+ "quest:1507": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1508": {},
+ "quest:1509": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:151": {},
+ "quest:1510": {
+  "faq": {
+   "4": 1
+  },
+  "remove_keywords": [
+   "succubus"
+  ]
+ },
+ "quest:1511": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1512": {
+  "faq": {
+   "3": 1,
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:1513": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:1515": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "quest:152": {},
+ "quest:1520": {},
+ "quest:1521": {},
+ "quest:1524": {},
+ "quest:1525": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1526": {},
+ "quest:1529": {},
+ "quest:153": {},
+ "quest:1530": {},
+ "quest:1531": {},
+ "quest:1532": {},
+ "quest:1534": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1535": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1536": {},
+ "quest:154": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:155": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:156": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:157": {},
+ "quest:1578": {},
+ "quest:1579": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:158": {},
+ "quest:1580": {},
+ "quest:1581": {},
+ "quest:1582": {},
+ "quest:159": {},
+ "quest:1598": {},
+ "quest:1599": {},
+ "quest:16": {},
+ "quest:160": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:161": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1618": {},
+ "quest:163": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "quest:1638": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1639": {},
+ "quest:164": {},
+ "quest:1640": {},
+ "quest:1641": {},
+ "quest:1645": {},
+ "quest:1649": {},
+ "quest:165": {},
+ "quest:1650": {},
+ "quest:1651": {},
+ "quest:1652": {},
+ "quest:1653": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1654": {},
+ "quest:1655": {},
+ "quest:166": {
+  "faq": {
+   "5": 1,
+   "6": 1
+  }
+ },
+ "quest:1665": {},
+ "quest:1666": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1667": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:167": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "quest:1679": {},
+ "quest:168": {},
+ "quest:1683": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1685": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1686": {},
+ "quest:1688": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1689": {},
+ "quest:169": {},
+ "quest:1692": {},
+ "quest:1693": {},
+ "quest:1698": {},
+ "quest:1699": {},
+ "quest:1700": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1701": {},
+ "quest:1702": {},
+ "quest:1703": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1704": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1705": {},
+ "quest:1706": {},
+ "quest:1708": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1709": {},
+ "quest:171": {},
+ "quest:1710": {},
+ "quest:1711": {},
+ "quest:1715": {},
+ "quest:1716": {},
+ "quest:1717": {},
+ "quest:1718": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1719": {},
+ "quest:173": {},
+ "quest:1738": {},
+ "quest:1739": {},
+ "quest:174": {},
+ "quest:1740": {},
+ "quest:175": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "quest:1758": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:176": {},
+ "quest:177": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:178": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1782": {},
+ "quest:179": {},
+ "quest:1791": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1793": {},
+ "quest:1795": {},
+ "quest:1796": {},
+ "quest:1798": {},
+ "quest:18": {},
+ "quest:180": {},
+ "quest:1801": {},
+ "quest:1802": {},
+ "quest:1803": {},
+ "quest:1804": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1805": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1806": {},
+ "quest:181": {},
+ "quest:1818": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1819": {},
+ "quest:182": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1820": {},
+ "quest:1821": {},
+ "quest:1824": {},
+ "quest:1825": {},
+ "quest:183": {},
+ "quest:1838": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "quest:1839": {},
+ "quest:184": {},
+ "quest:1840": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1841": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1842": {},
+ "quest:1843": {},
+ "quest:1844": {},
+ "quest:1845": {},
+ "quest:1846": {},
+ "quest:1848": {},
+ "quest:1858": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1859": {},
+ "quest:1860": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1861": {},
+ "quest:1879": {},
+ "quest:1881": {},
+ "quest:1882": {},
+ "quest:1885": {},
+ "quest:1886": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1898": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1899": {},
+ "quest:19": {},
+ "quest:1918": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1938": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1939": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:1940": {},
+ "quest:1941": {},
+ "quest:1942": {},
+ "quest:1943": {},
+ "quest:1944": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:1945": {},
+ "quest:1946": {},
+ "quest:1950": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  },
+  "remove_keywords": [
+   "chicken"
+  ]
+ },
+ "quest:1959": {},
+ "quest:1960": {},
+ "quest:1961": {},
+ "quest:1962": {},
+ "quest:1963": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:1978": {},
+ "quest:199": {},
+ "quest:1998": {},
+ "quest:1999": {},
+ "quest:2": {},
+ "quest:20": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:2038": {},
+ "quest:2039": {},
+ "quest:2040": {},
+ "quest:2041": {},
+ "quest:2078": {
+  "faq": {
+   "3": 1,
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:2098": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:21": {},
+ "quest:2118": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:2138": {},
+ "quest:2139": {},
+ "quest:214": {},
+ "quest:2159": {},
+ "quest:216": {},
+ "quest:2160": {},
+ "quest:2161": {},
+ "quest:217": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:2178": {},
+ "quest:218": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:219": {},
+ "quest:22": {},
+ "quest:220": {},
+ "quest:2205": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:2206": {},
+ "quest:221": {},
+ "quest:222": {},
+ "quest:223": {},
+ "quest:224": {},
+ "quest:2242": {
+  "faq": {
+   "3": 1,
+   "5": 1
+  }
+ },
+ "quest:2259": {},
+ "quest:226": {},
+ "quest:2260": {},
+ "quest:2281": {},
+ "quest:2282": {},
+ "quest:23": {},
+ "quest:230": {},
+ "quest:2300": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:233": {
+  "faq": {
+   "3": 1,
+   "5": 1
+  }
+ },
+ "quest:234": {},
+ "quest:235": {},
+ "quest:2359": {
+  "faq": {
+   "3": 1,
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:237": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:2378": {},
+ "quest:2379": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:2380": {},
+ "quest:2381": {},
+ "quest:2382": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:239": {},
+ "quest:2399": {},
+ "quest:24": {},
+ "quest:240": {},
+ "quest:2438": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:244": {},
+ "quest:245": {},
+ "quest:2458": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:2459": {},
+ "quest:246": {},
+ "quest:2460": {},
+ "quest:247": {},
+ "quest:2478": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:2479": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:248": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:2480": {},
+ "quest:249": {},
+ "quest:2498": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:2499": {},
+ "quest:25": {},
+ "quest:250": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:251": {
+  "faq": {
+   "5": 1,
+   "6": 1
+  }
+ },
+ "quest:2518": {},
+ "quest:2519": {},
+ "quest:252": {
+  "faq": {
+   "1": 2,
+   "3": 2,
+   "4": 2,
+   "5": 2,
+   "6": 1
+  },
+  "remove_keywords": [
+   "stitches"
+  ],
+  "summary": "Translation to Ello is a pivotal quest in the Abercrombie storyline in Duskwood. Having asked Sirra Von'Indi to decipher the hermit's cryptic writings, the adventurer is tasked with delivering the translated parchment directly to Lord Ello Ebonlocke in Darkshire."
+ },
+ "quest:2520": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:253": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:254": {
+  "faq": {
+   "1": 1,
+   "3": 1,
+   "4": 1,
+   "5": 1,
+   "6": 1
+  }
+ },
+ "quest:2541": {},
+ "quest:255": {},
+ "quest:256": {},
+ "quest:2561": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:257": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:258": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:26": {},
+ "quest:262": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "quest:263": {},
+ "quest:264": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:265": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:266": {},
+ "quest:267": {},
+ "quest:268": {
+  "faq": {
+   "2": 1,
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:269": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:27": {},
+ "quest:270": {},
+ "quest:273": {
+  "faq": {
+   "4": 1,
+   "5": 1,
+   "6": 1
+  }
+ },
+ "quest:274": {},
+ "quest:2745": {
+  "faq": {
+   "5": 1
+  },
+  "remove_keywords": [
+   "marzon"
+  ]
+ },
+ "quest:2746": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "quest:275": {},
+ "quest:2751": {},
+ "quest:2753": {},
+ "quest:2755": {},
+ "quest:276": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:277": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:278": {},
+ "quest:280": {},
+ "quest:282": {},
+ "quest:283": {
+  "faq": {
+   "5": 1,
+   "6": 1
+  },
+  "summary": "A Dark Threat Looms is an urgent mission to protect Loch Modan from disaster. Alliance adventurers are tasked with deploying a neutralizing chemical against a planted explosive charge before catastrophic damage can be dealt to the Stonewrought Dam."
+ },
+ "quest:287": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:288": {},
+ "quest:289": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:290": {},
+ "quest:2904": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:291": {
+  "faq": {
+   "3": 1,
+   "6": 1
+  }
+ },
+ "quest:292": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:2922": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:2923": {},
+ "quest:2924": {},
+ "quest:2925": {},
+ "quest:2926": {},
+ "quest:2927": {},
+ "quest:2928": {},
+ "quest:293": {},
+ "quest:2930": {},
+ "quest:2931": {},
+ "quest:294": {},
+ "quest:2945": {},
+ "quest:2947": {},
+ "quest:2948": {},
+ "quest:2949": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:295": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:2950": {},
+ "quest:2951": {},
+ "quest:2952": {},
+ "quest:2953": {},
+ "quest:296": {},
+ "quest:2962": {},
+ "quest:298": {},
+ "quest:2985": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:299": {
+  "faq": {
+   "1": 1,
+   "5": 1
+  },
+  "remove_keywords": [
+   "old gods"
+  ],
+  "summary": "Prospector Whelgar tasks adventurers with venturing into the overrun Whelgar's Excavation Site in the Wetlands to recover four missing pieces of an ancient tablet known as the Goaz Stone so its mysterious inscriptions can be translated."
+ },
+ "quest:2996": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:2997": {},
+ "quest:2998": {},
+ "quest:2999": {},
+ "quest:3000": {},
+ "quest:3001": {},
+ "quest:301": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:302": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:303": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:304": {},
+ "quest:305": {},
+ "quest:306": {},
+ "quest:307": {},
+ "quest:308": {},
+ "quest:309": {},
+ "quest:3092": {},
+ "quest:3094": {},
+ "quest:31": {},
+ "quest:310": {},
+ "quest:3103": {},
+ "quest:3104": {},
+ "quest:3107": {},
+ "quest:311": {},
+ "quest:312": {},
+ "quest:313": {},
+ "quest:314": {},
+ "quest:315": {},
+ "quest:317": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:318": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:319": {},
+ "quest:321": {},
+ "quest:3216": {},
+ "quest:322": {},
+ "quest:3221": {},
+ "quest:323": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:324": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:325": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:3261": {},
+ "quest:3281": {},
+ "quest:33": {},
+ "quest:330": {},
+ "quest:3301": {},
+ "quest:332": {},
+ "quest:333": {},
+ "quest:334": {
+  "faq": {
+   "3": 1,
+   "6": 1
+  }
+ },
+ "quest:335": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:336": {
+  "faq": {
+   "4": 1,
+   "5": 1,
+   "6": 1
+  }
+ },
+ "quest:3364": {},
+ "quest:3365": {},
+ "quest:3369": {},
+ "quest:337": {},
+ "quest:3370": {
+  "faq": {
+   "1": 1,
+   "4": 1
+  }
+ },
+ "quest:3376": {},
+ "quest:343": {},
+ "quest:344": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:345": {},
+ "quest:346": {},
+ "quest:347": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:35": {},
+ "quest:350": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:3513": {},
+ "quest:3514": {},
+ "quest:3524": {},
+ "quest:354": {},
+ "quest:355": {},
+ "quest:356": {},
+ "quest:357": {
+  "faq": {
+   "5": 1,
+   "6": 1
+  },
+  "remove_keywords": [
+   "gunther arcanus"
+  ]
+ },
+ "quest:358": {},
+ "quest:36": {},
+ "quest:360": {},
+ "quest:361": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:362": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:365": {},
+ "quest:366": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:367": {},
+ "quest:368": {},
+ "quest:3681": {},
+ "quest:369": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:37": {
+  "faq": {
+   "3": 1,
+   "4": 1,
+   "5": 1
+  }
+ },
+ "quest:370": {},
+ "quest:371": {},
+ "quest:372": {},
+ "quest:373": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:374": {},
+ "quest:3741": {},
+ "quest:3765": {},
+ "quest:377": {},
+ "quest:378": {},
+ "quest:38": {},
+ "quest:384": {},
+ "quest:385": {},
+ "quest:386": {},
+ "quest:3861": {},
+ "quest:387": {},
+ "quest:388": {},
+ "quest:389": {},
+ "quest:39": {},
+ "quest:3903": {},
+ "quest:3904": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:3905": {},
+ "quest:391": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:392": {},
+ "quest:3921": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:3922": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:3923": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:3924": {},
+ "quest:393": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "quest:394": {},
+ "quest:395": {
+  "faq": {
+   "3": 1,
+   "6": 1
+  }
+ },
+ "quest:396": {},
+ "quest:397": {
+  "faq": {
+   "2": 1
+  },
+  "summary": "You Have Served Us Well is a warlock quest in Stormwind City. Undertaken on behalf of Zardeth of the Black Claw, warlock practitioners report back to the cabal beneath the Slaughtered Lamb to finalize their service and claim their reward."
+ },
+ "quest:398": {},
+ "quest:399": {},
+ "quest:40": {},
+ "quest:400": {},
+ "quest:401": {
+  "faq": {
+   "2": 1,
+   "3": 2,
+   "5": 2
+  },
+  "remove_keywords": [
+   "stitches"
+  ]
+ },
+ "quest:4021": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "quest:403": {},
+ "quest:404": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:405": {},
+ "quest:407": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:408": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:409": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:410": {},
+ "quest:411": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:412": {},
+ "quest:413": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:414": {},
+ "quest:415": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:4161": {},
+ "quest:417": {},
+ "quest:418": {},
+ "quest:419": {
+  "faq": {
+   "4": 1,
+   "5": 1,
+   "6": 1
+  }
+ },
+ "quest:420": {},
+ "quest:421": {},
+ "quest:422": {},
+ "quest:423": {},
+ "quest:424": {},
+ "quest:425": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:426": {},
+ "quest:427": {},
+ "quest:428": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:429": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:430": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:431": {},
+ "quest:432": {},
+ "quest:433": {},
+ "quest:434": {
+  "faq": {
+   "1": 1,
+   "2": 1,
+   "4": 1,
+   "5": 1,
+   "6": 1
+  },
+  "summary": "\"The Attack!\" is a high-stakes quest in Stormwind Keep involving an undercover operation orchestrated by the gnome tinkerer Tyrion and cheese merchant Elling Trias. Adventurers assist in executing a covert sting within the royal gardens to catch treasonous conspirators red-handed."
+ },
+ "quest:435": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:436": {},
+ "quest:437": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:438": {},
+ "quest:439": {
+  "faq": {
+   "3": 1,
+   "6": 1
+  }
+ },
+ "quest:440": {
+  "faq": {
+   "1": 1,
+   "2": 1,
+   "6": 1
+  },
+  "summary": "High Executor Hadrec sends an adventurer to Brill carrying a recovered wedding band inscribed to a woman named Deliah. Magistrate Sevren consults town records to investigate her identity and determine where the ring originated."
+ },
+ "quest:441": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:442": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:443": {},
+ "quest:444": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:445": {},
+ "quest:446": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:447": {},
+ "quest:448": {},
+ "quest:449": {},
+ "quest:45": {
+  "faq": {
+   "1": 1,
+   "2": 1,
+   "4": 1,
+   "5": 1
+  }
+ },
+ "quest:450": {},
+ "quest:451": {},
+ "quest:4512": {},
+ "quest:4513": {},
+ "quest:452": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:453": {
+  "faq": {
+   "1": 1,
+   "3": 1,
+   "4": 1,
+   "5": 1,
+   "6": 1
+  },
+  "remove_keywords": [
+   "jitters"
+  ],
+  "summary": "Finding the Shadowy Figure is an Alliance quest that tasks adventurers with tracking down an elusive stranger connected to the tragedy at Sven Yorgen's farm. Guided by clues from Tavernkeep Smitts in Darkshire, travelers scour the haunted woods to the west in search of the fleeing fugitive."
+ },
+ "quest:454": {},
+ "quest:4542": {},
+ "quest:455": {},
+ "quest:4581": {},
+ "quest:46": {},
+ "quest:460": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:461": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:463": {},
+ "quest:464": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:465": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:466": {},
+ "quest:467": {},
+ "quest:468": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:4681": {},
+ "quest:469": {},
+ "quest:47": {},
+ "quest:470": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:471": {},
+ "quest:472": {
+  "faq": {
+   "3": 1,
+   "6": 1
+  }
+ },
+ "quest:4722": {},
+ "quest:4723": {},
+ "quest:4725": {},
+ "quest:4727": {},
+ "quest:4728": {},
+ "quest:473": {},
+ "quest:4730": {},
+ "quest:4731": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:4732": {},
+ "quest:4733": {},
+ "quest:4736": {},
+ "quest:4737": {},
+ "quest:4738": {},
+ "quest:4739": {},
+ "quest:474": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:4740": {},
+ "quest:475": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:476": {},
+ "quest:4761": {},
+ "quest:4762": {
+  "faq": {
+   "2": 1,
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:4763": {
+  "faq": {
+   "3": 1,
+   "5": 1
+  }
+ },
+ "quest:4767": {},
+ "quest:477": {
+  "faq": {
+   "3": 1,
+   "6": 1
+  }
+ },
+ "quest:4770": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:478": {},
+ "quest:479": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:480": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:481": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:4811": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:4812": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:4813": {
+  "faq": {
+   "1": 1,
+   "2": 1,
+   "4": 1
+  },
+  "summary": "\"The Fragments Within\" is the concluding task in the investigation of the mysterious red crystal jutting from the cliffs east of Auberdine. Equipped with purified moonwell water, you are sent back to the site to examine what lies within the strange formation and report back to Sentinel Glynda Nal'Shea."
+ },
+ "quest:482": {},
+ "quest:4821": {
+  "faq": {
+   "2": 1,
+   "4": 1,
+   "5": 1,
+   "6": 1
+  }
+ },
+ "quest:483": {},
+ "quest:484": {},
+ "quest:4841": {},
+ "quest:486": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:4865": {},
+ "quest:487": {},
+ "quest:488": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:4881": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:489": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:4904": {},
+ "quest:491": {},
+ "quest:492": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:493": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:494": {},
+ "quest:496": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:498": {
+  "faq": {
+   "3": 1,
+   "5": 1
+  }
+ },
+ "quest:499": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:5": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:501": {},
+ "quest:502": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:5041": {},
+ "quest:5042": {},
+ "quest:5043": {},
+ "quest:5044": {},
+ "quest:5045": {},
+ "quest:5046": {},
+ "quest:5052": {},
+ "quest:5061": {},
+ "quest:5062": {},
+ "quest:5064": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:5088": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "quest:509": {},
+ "quest:513": {},
+ "quest:5147": {},
+ "quest:515": {},
+ "quest:5151": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:516": {},
+ "quest:517": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:52": {},
+ "quest:524": {
+  "faq": {
+   "4": 1
+  },
+  "summary": "Elixir of Agony is the culmination of Apothecary Lydon's sinister brewing experiments in Tarren Mill. Tasked by the Royal Apothecary Society, Lydon seeks to test a deadly poison disguised as stolen dwarven ale on human prisoners held within the settlement."
+ },
+ "quest:5261": {},
+ "quest:527": {},
+ "quest:528": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:529": {},
+ "quest:530": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:532": {},
+ "quest:5321": {},
+ "quest:536": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:539": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:541": {},
+ "quest:543": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:546": {},
+ "quest:547": {},
+ "quest:5481": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:549": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:55": {
+  "faq": {
+   "5": 1,
+   "6": 1
+  }
+ },
+ "quest:550": {},
+ "quest:5502": {},
+ "quest:5541": {},
+ "quest:5545": {},
+ "quest:555": {},
+ "quest:556": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:559": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:56": {},
+ "quest:560": {},
+ "quest:561": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:562": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:5621": {},
+ "quest:5622": {},
+ "quest:5623": {},
+ "quest:5624": {},
+ "quest:5625": {},
+ "quest:5626": {},
+ "quest:5627": {},
+ "quest:5628": {},
+ "quest:5629": {},
+ "quest:563": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:5630": {},
+ "quest:5631": {},
+ "quest:5632": {},
+ "quest:5633": {},
+ "quest:5634": {},
+ "quest:5635": {},
+ "quest:5636": {},
+ "quest:5637": {},
+ "quest:5638": {},
+ "quest:5639": {},
+ "quest:5640": {},
+ "quest:5643": {},
+ "quest:5644": {},
+ "quest:5645": {},
+ "quest:5646": {},
+ "quest:5650": {},
+ "quest:5651": {},
+ "quest:5654": {},
+ "quest:567": {},
+ "quest:5672": {},
+ "quest:5674": {},
+ "quest:5676": {},
+ "quest:5677": {},
+ "quest:5678": {},
+ "quest:5679": {},
+ "quest:57": {},
+ "quest:5713": {},
+ "quest:5722": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:5723": {},
+ "quest:5724": {},
+ "quest:5725": {},
+ "quest:5726": {},
+ "quest:5727": {
+  "faq": {
+   "1": 1,
+   "2": 1,
+   "3": 1
+  }
+ },
+ "quest:5728": {
+  "faq": {
+   "2": 1
+  }
+ },
+ "quest:5729": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:5730": {
+  "faq": {
+   "2": 1,
+   "3": 1,
+   "4": 1
+  }
+ },
+ "quest:5761": {
+  "faq": {
+   "3": 1,
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:5762": {},
+ "quest:579": {},
+ "quest:58": {},
+ "quest:5805": {},
+ "quest:5841": {},
+ "quest:5842": {},
+ "quest:5843": {},
+ "quest:5844": {},
+ "quest:5847": {},
+ "quest:5881": {},
+ "quest:59": {},
+ "quest:5921": {},
+ "quest:5922": {},
+ "quest:5923": {},
+ "quest:5926": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:5931": {},
+ "quest:5932": {},
+ "quest:6": {},
+ "quest:60": {},
+ "quest:6001": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:6002": {},
+ "quest:6061": {},
+ "quest:6062": {},
+ "quest:6063": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:6064": {},
+ "quest:6065": {},
+ "quest:6068": {},
+ "quest:6074": {},
+ "quest:6081": {},
+ "quest:6082": {},
+ "quest:6083": {},
+ "quest:6084": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:6085": {},
+ "quest:6086": {},
+ "quest:6087": {},
+ "quest:6088": {},
+ "quest:6089": {},
+ "quest:61": {},
+ "quest:6101": {},
+ "quest:6102": {},
+ "quest:6103": {},
+ "quest:6121": {},
+ "quest:6122": {},
+ "quest:6123": {},
+ "quest:6124": {},
+ "quest:6125": {},
+ "quest:6126": {},
+ "quest:6127": {},
+ "quest:6128": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:6129": {},
+ "quest:6130": {},
+ "quest:6181": {},
+ "quest:62": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:6261": {},
+ "quest:6281": {},
+ "quest:6282": {},
+ "quest:6283": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:6284": {},
+ "quest:6285": {},
+ "quest:63": {},
+ "quest:6301": {},
+ "quest:631": {
+  "faq": {
+   "3": 1,
+   "6": 1
+  }
+ },
+ "quest:632": {
+  "faq": {
+   "1": 1,
+   "2": 1,
+   "3": 1,
+   "6": 1
+  },
+  "summary": "Rhag Garmason tasks adventurers with checking on Ol' Ebenezer Rustlocke, a scout sent to inspect the massive stone crossing of the Thandol Span after contact with him is lost. Investigating beneath the arches of the crossing reveals the circumstances surrounding his disappearance and threats to the northern supply lines."
+ },
+ "quest:6321": {},
+ "quest:6322": {},
+ "quest:6323": {},
+ "quest:6324": {},
+ "quest:633": {
+  "faq": {
+   "3": 1,
+   "6": 1
+  }
+ },
+ "quest:634": {},
+ "quest:6341": {},
+ "quest:6342": {},
+ "quest:6343": {},
+ "quest:6344": {},
+ "quest:6361": {},
+ "quest:6362": {},
+ "quest:6363": {},
+ "quest:6364": {},
+ "quest:6365": {},
+ "quest:637": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:6381": {},
+ "quest:6382": {},
+ "quest:6383": {},
+ "quest:6384": {},
+ "quest:6385": {},
+ "quest:6386": {},
+ "quest:6387": {},
+ "quest:6388": {},
+ "quest:6391": {},
+ "quest:6392": {},
+ "quest:64": {},
+ "quest:6401": {},
+ "quest:6421": {
+  "faq": {
+   "3": 1,
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:6441": {},
+ "quest:6442": {},
+ "quest:6461": {},
+ "quest:6462": {},
+ "quest:647": {},
+ "quest:6481": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:6482": {
+  "faq": {
+   "1": 1,
+   "3": 1,
+   "4": 1
+  },
+  "summary": "Deep within Thistlefur Hold in northern Ashenvale, a caged bear named Ruul awaits rescue from the corrupted Thistlefur furbolgs. Horde adventurers can assist the captive in fighting his way out of the furbolg den to safety."
+ },
+ "quest:65": {},
+ "quest:6503": {},
+ "quest:6504": {},
+ "quest:6523": {},
+ "quest:6541": {},
+ "quest:6542": {},
+ "quest:6543": {},
+ "quest:6544": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:6545": {},
+ "quest:6546": {},
+ "quest:6547": {},
+ "quest:6548": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:6561": {},
+ "quest:6562": {},
+ "quest:6563": {},
+ "quest:6564": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:6565": {},
+ "quest:6571": {},
+ "quest:6581": {},
+ "quest:66": {},
+ "quest:6608": {},
+ "quest:6611": {},
+ "quest:6621": {},
+ "quest:6623": {},
+ "quest:6625": {},
+ "quest:6627": {},
+ "quest:6628": {},
+ "quest:6629": {},
+ "quest:6641": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:67": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:676": {},
+ "quest:68": {},
+ "quest:683": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:686": {},
+ "quest:689": {},
+ "quest:69": {},
+ "quest:690": {},
+ "quest:6921": {},
+ "quest:6922": {},
+ "quest:6962": {},
+ "quest:6981": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:6984": {},
+ "quest:70": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:700": {},
+ "quest:7025": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:71": {
+  "faq": {
+   "2": 1,
+   "3": 1,
+   "4": 1,
+   "5": 1
+  },
+  "summary": "Report to Thomas is a quest in eastern Elwynn Forest concerning Guard Thomas's investigation into the missing Stormwind guards near the eastern waterways. An adventurer assists Guard Thomas at the eastern bridge by investigating the fate of his missing comrades and reporting back on the situation along the river."
+ },
+ "quest:7161": {},
+ "quest:7162": {},
+ "quest:72": {},
+ "quest:729": {},
+ "quest:730": {},
+ "quest:731": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:7321": {},
+ "quest:7383": {},
+ "quest:74": {},
+ "quest:741": {},
+ "quest:742": {},
+ "quest:743": {},
+ "quest:745": {},
+ "quest:746": {},
+ "quest:747": {},
+ "quest:748": {},
+ "quest:749": {},
+ "quest:7493": {},
+ "quest:7497": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:75": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:751": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:752": {},
+ "quest:753": {},
+ "quest:754": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:756": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:757": {},
+ "quest:758": {},
+ "quest:759": {},
+ "quest:76": {},
+ "quest:760": {},
+ "quest:761": {},
+ "quest:763": {},
+ "quest:764": {},
+ "quest:765": {},
+ "quest:766": {},
+ "quest:7660": {},
+ "quest:7661": {},
+ "quest:7662": {},
+ "quest:7663": {},
+ "quest:7664": {},
+ "quest:7665": {},
+ "quest:767": {},
+ "quest:7671": {},
+ "quest:7672": {},
+ "quest:7673": {},
+ "quest:7674": {},
+ "quest:7675": {},
+ "quest:7676": {},
+ "quest:7677": {},
+ "quest:7678": {},
+ "quest:768": {},
+ "quest:769": {},
+ "quest:770": {},
+ "quest:771": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:772": {},
+ "quest:773": {},
+ "quest:775": {},
+ "quest:776": {},
+ "quest:7781": {},
+ "quest:7782": {
+  "faq": {
+   "1": 1,
+   "3": 1,
+   "4": 1,
+   "6": 2
+  },
+  "summary": "This quest represents the final culmination of the campaign against the forces within Blackrock Mountain. After reporting to Grand Admiral Jes-Tereth in Stormwind Keep, heroes are directed to the Valley of Heroes where Field Marshal Stonebridge coordinates a public commemoration at the city gates for all the Alliance to see."
+ },
+ "quest:7783": {},
+ "quest:7784": {},
+ "quest:7789": {},
+ "quest:78": {},
+ "quest:780": {},
+ "quest:781": {},
+ "quest:783": {},
+ "quest:784": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:786": {},
+ "quest:7863": {},
+ "quest:7864": {},
+ "quest:7865": {},
+ "quest:7866": {},
+ "quest:7867": {},
+ "quest:7868": {},
+ "quest:787": {},
+ "quest:788": {},
+ "quest:79": {},
+ "quest:791": {},
+ "quest:80": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:8026": {},
+ "quest:806": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:808": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:809": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:812": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:813": {},
+ "quest:816": {
+  "faq": {
+   "2": 1,
+   "4": 1,
+   "5": 1
+  }
+ },
+ "quest:817": {},
+ "quest:818": {},
+ "quest:819": {},
+ "quest:821": {},
+ "quest:822": {},
+ "quest:823": {},
+ "quest:824": {},
+ "quest:8249": {},
+ "quest:825": {},
+ "quest:826": {},
+ "quest:827": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:828": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:829": {},
+ "quest:83": {},
+ "quest:830": {},
+ "quest:831": {},
+ "quest:8311": {},
+ "quest:832": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:833": {},
+ "quest:834": {},
+ "quest:835": {},
+ "quest:8353": {},
+ "quest:8354": {},
+ "quest:8355": {},
+ "quest:8356": {},
+ "quest:8357": {},
+ "quest:8358": {},
+ "quest:8359": {},
+ "quest:8360": {},
+ "quest:84": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:840": {},
+ "quest:842": {},
+ "quest:843": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:844": {},
+ "quest:845": {},
+ "quest:846": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:848": {},
+ "quest:849": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:85": {
+  "faq": {
+   "2": 1,
+   "5": 1
+  }
+ },
+ "quest:850": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:851": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:852": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:853": {},
+ "quest:854": {},
+ "quest:855": {},
+ "quest:8569": {},
+ "quest:857": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "quest:858": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:86": {},
+ "quest:860": {},
+ "quest:861": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:862": {},
+ "quest:863": {
+  "faq": {
+   "3": 1,
+   "5": 1,
+   "6": 1
+  }
+ },
+ "quest:8642": {},
+ "quest:8645": {},
+ "quest:8646": {},
+ "quest:8648": {},
+ "quest:8649": {},
+ "quest:865": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:8652": {},
+ "quest:8653": {},
+ "quest:867": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:8670": {},
+ "quest:8673": {},
+ "quest:8675": {},
+ "quest:8677": {},
+ "quest:8678": {},
+ "quest:86784": {},
+ "quest:868": {},
+ "quest:8680": {},
+ "quest:8682": {},
+ "quest:869": {},
+ "quest:87": {
+  "faq": {
+   "1": 1,
+   "4": 1
+  }
+ },
+ "quest:870": {},
+ "quest:871": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:8715": {},
+ "quest:8717": {},
+ "quest:8718": {},
+ "quest:872": {},
+ "quest:8721": {},
+ "quest:8724": {},
+ "quest:8725": {},
+ "quest:873": {},
+ "quest:874": {},
+ "quest:875": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:876": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:877": {},
+ "quest:878": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:879": {},
+ "quest:880": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:881": {},
+ "quest:882": {},
+ "quest:8827": {},
+ "quest:8828": {},
+ "quest:883": {},
+ "quest:884": {},
+ "quest:8846": {},
+ "quest:885": {},
+ "quest:8851": {},
+ "quest:8852": {},
+ "quest:886": {},
+ "quest:8866": {},
+ "quest:887": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:888": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:889": {},
+ "quest:89": {},
+ "quest:890": {},
+ "quest:891": {},
+ "quest:892": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:893": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:894": {},
+ "quest:895": {},
+ "quest:896": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:897": {},
+ "quest:898": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:899": {},
+ "quest:9": {},
+ "quest:90": {},
+ "quest:900": {},
+ "quest:901": {},
+ "quest:902": {
+  "faq": {
+   "3": 1,
+   "5": 1
+  }
+ },
+ "quest:903": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:905": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:906": {},
+ "quest:907": {},
+ "quest:90902": {},
+ "quest:91": {},
+ "quest:91208": {
+  "faq": {
+   "2": 1,
+   "6": 1
+  }
+ },
+ "quest:91209": {},
+ "quest:913": {},
+ "quest:914": {},
+ "quest:918": {},
+ "quest:91859": {},
+ "quest:9189": {},
+ "quest:919": {},
+ "quest:92": {},
+ "quest:92124": {},
+ "quest:922": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:923": {},
+ "quest:924": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:92460": {},
+ "quest:92461": {},
+ "quest:92462": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:92463": {},
+ "quest:92464": {},
+ "quest:92465": {},
+ "quest:92469": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:92470": {},
+ "quest:92471": {},
+ "quest:92472": {},
+ "quest:92473": {},
+ "quest:92474": {},
+ "quest:92481": {},
+ "quest:92482": {},
+ "quest:92483": {},
+ "quest:92484": {},
+ "quest:92485": {},
+ "quest:92532": {},
+ "quest:92544": {},
+ "quest:92597": {},
+ "quest:92598": {},
+ "quest:926": {},
+ "quest:9260": {},
+ "quest:9261": {},
+ "quest:9262": {},
+ "quest:9263": {},
+ "quest:9264": {},
+ "quest:9265": {},
+ "quest:9267": {},
+ "quest:927": {},
+ "quest:92742": {},
+ "quest:92744": {},
+ "quest:92745": {},
+ "quest:92747": {},
+ "quest:92748": {},
+ "quest:92749": {},
+ "quest:92750": {},
+ "quest:92751": {},
+ "quest:92752": {},
+ "quest:92753": {},
+ "quest:92819": {},
+ "quest:929": {},
+ "quest:93": {},
+ "quest:930": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:931": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:932": {},
+ "quest:933": {},
+ "quest:934": {},
+ "quest:935": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:93552": {},
+ "quest:937": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:93746": {},
+ "quest:938": {},
+ "quest:94": {},
+ "quest:940": {},
+ "quest:941": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:942": {},
+ "quest:9425": {},
+ "quest:9428": {},
+ "quest:9429": {},
+ "quest:943": {},
+ "quest:9431": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:9432": {},
+ "quest:9433": {},
+ "quest:9434": {},
+ "quest:9435": {},
+ "quest:944": {},
+ "quest:94414": {},
+ "quest:945": {},
+ "quest:9462": {},
+ "quest:947": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:948": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:949": {},
+ "quest:95": {},
+ "quest:950": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:951": {},
+ "quest:9516": {},
+ "quest:9518": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:952": {},
+ "quest:9520": {},
+ "quest:9521": {},
+ "quest:953": {},
+ "quest:9533": {},
+ "quest:9534": {},
+ "quest:9535": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:9536": {},
+ "quest:954": {},
+ "quest:955": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:9551": {},
+ "quest:956": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:957": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  },
+  "summary": "This quest tasks adventurers with helping the trapped spirit of Asterion in the ruins of Bashal'Aran. By carrying his binding seal south to the sister ruins of Ameth'Aran, adventurers seek a way to shatter his ancient bonds."
+ },
+ "quest:959": {},
+ "quest:96": {},
+ "quest:960": {},
+ "quest:962": {},
+ "quest:9621": {},
+ "quest:9626": {},
+ "quest:963": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:9633": {},
+ "quest:96390": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:96391": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:96392": {},
+ "quest:96393": {},
+ "quest:96408": {
+  "faq": {
+   "3": 1,
+   "5": 1,
+   "6": 1
+  }
+ },
+ "quest:965": {},
+ "quest:966": {},
+ "quest:96607": {},
+ "quest:96627": {},
+ "quest:96628": {},
+ "quest:96630": {},
+ "quest:96638": {},
+ "quest:96652": {},
+ "quest:96656": {},
+ "quest:96658": {},
+ "quest:96659": {},
+ "quest:967": {},
+ "quest:968": {},
+ "quest:9692": {},
+ "quest:97": {},
+ "quest:970": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:971": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:972": {},
+ "quest:973": {},
+ "quest:976": {},
+ "quest:981": {},
+ "quest:982": {},
+ "quest:983": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "quest:98389": {},
+ "quest:984": {},
+ "quest:985": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "quest:98576": {},
+ "quest:986": {},
+ "quest:98601": {},
+ "quest:99": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:990": {},
+ "quest:991": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:99134": {},
+ "quest:99141": {
+  "faq": {
+   "3": 1,
+   "6": 1
+  }
+ },
+ "quest:993": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "quest:994": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "quest:995": {},
+ "quest:997": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "subzone:7th-legion-base-camp": {},
+ "subzone:abandoned-kirin-tor-camp": {},
+ "subzone:addle-s-stead": {
+  "faq": {
+   "4": 1
+  },
+  "remove_keywords": [
+   "varian wrynn"
+  ]
+ },
+ "subzone:aegrim-s-study": {},
+ "subzone:agama-gor": {},
+ "subzone:agamand-family-crypt": {},
+ "subzone:agamand-mills": {},
+ "subzone:agmond-s-end": {},
+ "subzone:aku-mai-s-lair": {},
+ "subzone:alcaz-island": {
+  "faq": {
+   "3": 1
+  },
+  "remove_keywords": [
+   "varian wrynn"
+  ]
+ },
+ "subzone:aldrassil": {},
+ "subzone:alexston-farmstead": {},
+ "subzone:algaz-station": {},
+ "subzone:altar-of-storms-burning-steppes": {},
+ "subzone:alterac-mountains": {},
+ "subzone:alterac-mountains-classic": {},
+ "subzone:alther-s-mill": {},
+ "subzone:alturus-sanctum": {},
+ "subzone:ambermill": {},
+ "subzone:amberstill-ranch": {},
+ "subzone:ameth-aran": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:ancient-grove": {},
+ "subzone:andorhal": {},
+ "subzone:angerfang-encampment": {},
+ "subzone:anvilmar": {},
+ "subzone:apothecarium": {},
+ "subzone:apothecary-darkshore": {},
+ "subzone:ar-gorok": {},
+ "subzone:arcane-pinnacle": {},
+ "subzone:ariden-s-camp": {
+  "faq": {
+   "2": 2,
+   "3": 1
+  }
+ },
+ "subzone:ashwood-depot": {},
+ "subzone:astranaar": {},
+ "subzone:athenaeum-scarlet-monastery": {},
+ "subzone:auberdine": {},
+ "subzone:auberdine-coast": {},
+ "subzone:auberdine-refugee-camp": {},
+ "subzone:azurelode-mine": {},
+ "subzone:bael-dun-digsite": {},
+ "subzone:bael-dun-keep": {},
+ "subzone:bael-modan": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "subzone:bal-lal-ruins": {},
+ "subzone:balia-mah-ruins": {},
+ "subzone:balnir-farmstead": {},
+ "subzone:ban-ethil-barrow-den": {},
+ "subzone:ban-ethil-hollow": {},
+ "subzone:ban-thallow-barrow-den": {},
+ "subzone:bandarion-keep": {},
+ "subzone:baradin-bay": {},
+ "subzone:bashal-aran": {},
+ "subzone:bashal-aran-collapse": {},
+ "subzone:bathran-s-haunt": {},
+ "subzone:battleboar-pen": {},
+ "subzone:battlefront": {},
+ "subzone:battlescar-valley": {},
+ "subzone:bay-of-storms": {},
+ "subzone:bear-s-head": {},
+ "subzone:beezil-s-wreck": {},
+ "subzone:beggar-s-haunt": {},
+ "subzone:beren-s-peril": {},
+ "subzone:beryl-egress": {},
+ "subzone:bilgewater-harbor": {},
+ "subzone:bitter-reaches": {},
+ "subzone:bitterstone-quarry": {},
+ "subzone:black-channel-marsh": {},
+ "subzone:black-tooth-hovel": {},
+ "subzone:blackchar-cave": {},
+ "subzone:blackfathom-camp": {},
+ "subzone:blackfathom-deeps": {},
+ "subzone:blackhoof-village": {
+  "faq": {
+   "4": 1
+  },
+  "remove_keywords": [
+   "shady rest inn"
+  ]
+ },
+ "subzone:blackmaw-hold": {},
+ "subzone:blackrock-mountain": {},
+ "subzone:blackrock-pass": {},
+ "subzone:blackrock-stronghold": {},
+ "subzone:blackthorn-ridge": {},
+ "subzone:blackwolf-river": {},
+ "subzone:blackwood-camp": {
+  "faq": {
+   "2": 1
+  }
+ },
+ "subzone:blackwood-den": {},
+ "subzone:blackwood-lake": {},
+ "subzone:bladefist-bay": {},
+ "subzone:blazing-strand": {},
+ "subzone:bloodfen-burrow": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:bloodhoof-village": {},
+ "subzone:bloodmire": {},
+ "subzone:bloodtooth-camp": {},
+ "subzone:bloodvenom-falls": {},
+ "subzone:bloodvenom-post": {},
+ "subzone:bloodvenom-river": {},
+ "subzone:bloodwash-cavern": {},
+ "subzone:bloodwatcher-point": {},
+ "subzone:bluefen": {},
+ "subzone:bluegill-marsh": {},
+ "subzone:bogpaddle": {},
+ "subzone:bolgan-s-hole": {},
+ "subzone:bones-of-grakkarond": {},
+ "subzone:bootlegger-outpost": {},
+ "subzone:booty-bay": {},
+ "subzone:bough-shadow": {},
+ "subzone:boulder-gor": {},
+ "subzone:boulder-lode-mine": {},
+ "subzone:boulderfist-hall": {},
+ "subzone:boulderfist-outpost": {},
+ "subzone:boulderslide-cavern": {},
+ "subzone:boulderslide-ravine": {},
+ "subzone:brackenwall-village": {},
+ "subzone:brackwell-pumpkin-patch": {},
+ "subzone:brambleblade-ravine": {},
+ "subzone:bramblescar": {},
+ "subzone:brazie-farmstead": {},
+ "subzone:brew-bay": {},
+ "subzone:brewnall-village": {},
+ "subzone:brightwater-lake": {},
+ "subzone:brightwood-grove": {},
+ "subzone:brill": {},
+ "subzone:brill-town-hall": {},
+ "subzone:broken-hall": {},
+ "subzone:broken-pillar": {},
+ "subzone:broken-tusk": {},
+ "subzone:bronzebeard-encampment": {},
+ "subzone:browman-mill": {},
+ "subzone:bulwark": {},
+ "subzone:burning-blade-coven": {},
+ "subzone:caer-darrow": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:calmbreeze-inn": {},
+ "subzone:calston-estate": {},
+ "subzone:camp-aparaje": {},
+ "subzone:camp-ataya": {},
+ "subzone:camp-e-thok": {},
+ "subzone:camp-everstill": {},
+ "subzone:camp-kosh": {},
+ "subzone:camp-mojache": {},
+ "subzone:camp-narache": {},
+ "subzone:camp-taurajo": {},
+ "subzone:camp-wurg": {},
+ "subzone:canals-stormwind-city": {},
+ "subzone:canals-undercity": {},
+ "subzone:cape-of-stranglethorn": {},
+ "subzone:capital-gardens": {},
+ "subzone:cask-n-anvil": {},
+ "subzone:cathedral-of-light": {},
+ "subzone:cathedral-square": {},
+ "subzone:cauldron": {},
+ "subzone:cavern-of-mists": {},
+ "subzone:caverns-of-consumption": {},
+ "subzone:caverns-of-time": {},
+ "subzone:cenarion-enclave": {},
+ "subzone:cenarion-hold": {},
+ "subzone:cenarion-wildlands": {},
+ "subzone:chamber-of-atonement": {},
+ "subzone:champions-hall": {},
+ "subzone:charred-outpost": {},
+ "subzone:charred-vale": {},
+ "subzone:chill-breeze-valley": {},
+ "subzone:chillwind-camp": {},
+ "subzone:chillwind-point": {},
+ "subzone:chiselgrip": {},
+ "subzone:cinderfall-grove": {},
+ "subzone:circle-of-aquementas": {},
+ "subzone:circle-of-east-binding": {},
+ "subzone:circle-of-elements": {},
+ "subzone:circle-of-inner-binding": {},
+ "subzone:circle-of-west-binding": {},
+ "subzone:clean-zone": {},
+ "subzone:cleft": {},
+ "subzone:cleft-of-shadow": {},
+ "subzone:cliffspring-falls": {},
+ "subzone:cliffwalker-post": {},
+ "subzone:clockwerk-run": {},
+ "subzone:cold-hearth-manor": {},
+ "subzone:coldridge-pass": {},
+ "subzone:coldridge-valley": {},
+ "subzone:command-center": {},
+ "subzone:commons": {},
+ "subzone:cooper-residence": {},
+ "subzone:corin-s-crossing": {},
+ "subzone:corrahn-s-dagger": {},
+ "subzone:craftsmen-s-terrace": {},
+ "subzone:crag-of-the-everliving": {},
+ "subzone:cragpool-lake": {},
+ "subzone:crossroads": {},
+ "subzone:crown-guard-tower": {},
+ "subzone:crusader-outpost": {},
+ "subzone:crusader-s-armory": {},
+ "subzone:crusader-s-outpost": {},
+ "subzone:crushcog-s-arsenal": {},
+ "subzone:crypt-badlands": {},
+ "subzone:crypt-light-s-hope-chapel": {},
+ "subzone:crypt-of-remembrance": {},
+ "subzone:crypt-stromgarde-keep": {},
+ "subzone:crystal-lake": {},
+ "subzone:crystal-shore": {},
+ "subzone:crystal-vale": {},
+ "subzone:crystalvein-mine": {},
+ "subzone:cut-throat-alley": {},
+ "subzone:dabyrie-s-farmstead": {},
+ "subzone:dagger-hills": {},
+ "subzone:dalaran": {},
+ "subzone:dalaran-crater": {},
+ "subzone:dalson-s-farm": {},
+ "subzone:dalson-s-tears": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "subzone:dandred-s-fold": {},
+ "subzone:dark-portal": {},
+ "subzone:darkcloud-pinnacle": {},
+ "subzone:darkened-bank": {},
+ "subzone:darkmist-cavern": {},
+ "subzone:darkmist-ruins": {},
+ "subzone:darkshire": {},
+ "subzone:darkshire-town-hall": {},
+ "subzone:darkspear-hold": {},
+ "subzone:darkspear-isle": {},
+ "subzone:darkspear-shore": {},
+ "subzone:darkspear-strand": {},
+ "subzone:darkspear-training-grounds": {},
+ "subzone:darkwalk": {},
+ "subzone:darkwhisper-gorge": {},
+ "subzone:darnassian-base-camp": {},
+ "subzone:darnassus": {},
+ "subzone:darrow-hill": {},
+ "subzone:darrowmere-lake": {},
+ "subzone:darrowshire": {},
+ "subzone:dawning-isles": {},
+ "subzone:dawning-wood-catacombs": {},
+ "subzone:dead-acre": {},
+ "subzone:dead-field": {},
+ "subzone:deadeye-shore": {},
+ "subzone:deadman-s-crossing": {},
+ "subzone:deadmines": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:deadwood-village": {},
+ "subzone:death-cultist-base-camp": {},
+ "subzone:death-s-breach": {},
+ "subzone:death-s-step": {},
+ "subzone:death-s-watch-waystation": {},
+ "subzone:deathknell": {},
+ "subzone:deathknell-graves": {},
+ "subzone:decrepit-ferry": {},
+ "subzone:decrepit-fields": {},
+ "subzone:deep-elem-mine": {},
+ "subzone:deep-reaches": {},
+ "subzone:deeprun-tram": {},
+ "subzone:deepwater-tavern": {},
+ "subzone:defias-hideout": {},
+ "subzone:delaryn-s-demise": {},
+ "subzone:demon-fall-canyon": {},
+ "subzone:demon-fall-ridge": {},
+ "subzone:demont-s-place": {},
+ "subzone:den-of-flame": {},
+ "subzone:deserted-workshop": {},
+ "subzone:dire-maul": {},
+ "subzone:direforge-hill": {},
+ "subzone:direhorn-post": {},
+ "subzone:dolanaar": {},
+ "subzone:dor-danil-barrow-den": {},
+ "subzone:dormitory": {},
+ "subzone:drag": {},
+ "subzone:dragon-s-mouth": {},
+ "subzone:dragonmaw-gates": {},
+ "subzone:dragonmurk": {},
+ "subzone:dranosh-ar-blockade": {},
+ "subzone:dreadmaul-furnace": {},
+ "subzone:dreadmaul-post": {},
+ "subzone:dreadmaul-rock": {},
+ "subzone:dreadmist-camp": {},
+ "subzone:dreadmist-den": {},
+ "subzone:dreadmist-peak": {},
+ "subzone:dreadmurk-shore": {},
+ "subzone:dream-bough": {},
+ "subzone:dreamer-s-rest": {},
+ "subzone:dreamer-s-rock": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:dredge": {},
+ "subzone:drowned-reef": {},
+ "subzone:drowned-sacellum": {},
+ "subzone:dry-hills": {},
+ "subzone:drygulch-ravine": {},
+ "subzone:drywhisker-gorge": {},
+ "subzone:drywhisker-mine": {},
+ "subzone:dun-algaz": {},
+ "subzone:dun-garok": {},
+ "subzone:dun-mandarr": {},
+ "subzone:dun-modr": {},
+ "subzone:dunemaul-compound": {},
+ "subzone:dunemaul-recruitment-camp": {},
+ "subzone:durnholde-keep": {},
+ "subzone:dust-plains": {},
+ "subzone:dustbowl": {},
+ "subzone:dustfire-valley": {},
+ "subzone:dustwallow-bay": {},
+ "subzone:dustwind-cave": {},
+ "subzone:dustwind-dig": {},
+ "subzone:dwarven-district": {},
+ "subzone:eastern-earthshrine": {},
+ "subzone:eastern-strand": {},
+ "subzone:eastmoon-ruins": {},
+ "subzone:eastpoint-tower": {},
+ "subzone:eastvale-logging-camp": {},
+ "subzone:eastwall-gate": {},
+ "subzone:eastwall-tower": {},
+ "subzone:echo-isles": {},
+ "subzone:echo-ridge-mine": {},
+ "subzone:elder-rise": {},
+ "subzone:eldreth-row": {},
+ "subzone:emerald-sanctuary": {},
+ "subzone:engineering-labs": {},
+ "subzone:engineering-works-orgrimmar": {},
+ "subzone:ethel-rethor": {},
+ "subzone:everlook": {},
+ "subzone:eye-of-the-vortex": {},
+ "subzone:faldir-s-cove": {},
+ "subzone:falfarren-river": {},
+ "subzone:fallen-sky-lake": {},
+ "subzone:fallow-sanctuary": {},
+ "subzone:faol-s-rest": {},
+ "subzone:far-watch-post": {},
+ "subzone:fargaze-mesa": {},
+ "subzone:fargodeep-mine": {},
+ "subzone:farstrider-lodge": {},
+ "subzone:farwatcher-s-glen": {},
+ "subzone:feathermoon-stronghold": {},
+ "subzone:feathermoon-stronghold-classic": {},
+ "subzone:fel-rock": {},
+ "subzone:felfire-hill": {},
+ "subzone:felpaw-village": {},
+ "subzone:felstone-field": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "subzone:fenris-isle": {},
+ "subzone:fenris-keep": {},
+ "subzone:feral-scar-vale": {},
+ "subzone:field-of-giants": {},
+ "subzone:fields-of-honor": {},
+ "subzone:fire-plume-ridge": {},
+ "subzone:fire-scar-shrine": {},
+ "subzone:firewatch-ridge": {},
+ "subzone:fizzle-pozzik-s-speedbarge": {},
+ "subzone:flame-crest": {},
+ "subzone:flamestar-post": {},
+ "subzone:foothold-citadel": {},
+ "subzone:footman-s-armory": {},
+ "subzone:forest-s-edge": {},
+ "subzone:forest-song": {},
+ "subzone:forge-grounds": {},
+ "subzone:forgotten-coast": {},
+ "subzone:forgotten-crypt": {},
+ "subzone:forgotten-pool": {},
+ "subzone:forgotten-pools": {},
+ "subzone:forlorn-cavern": {},
+ "subzone:forlorn-cloister": {},
+ "subzone:forlorn-crossing": {},
+ "subzone:forlorn-ridge": {},
+ "subzone:forlorn-rowe": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:forsaken-front": {},
+ "subzone:forsaken-high-command": {},
+ "subzone:forsaken-rear-guard": {},
+ "subzone:fortune-s-fist": {},
+ "subzone:foulspore-pools": {},
+ "subzone:fray-island": {},
+ "subzone:frayfeather-highlands": {},
+ "subzone:freewind-post": {},
+ "subzone:frostfire-hot-springs": {},
+ "subzone:frostmane-front": {},
+ "subzone:frostmane-hold": {},
+ "subzone:frostmane-hovel": {},
+ "subzone:frostmane-retreat": {},
+ "subzone:frostsaber-rock": {},
+ "subzone:frostwhisper-gorge": {},
+ "subzone:fungal-rock": {},
+ "subzone:fungal-vale": {},
+ "subzone:furien-s-post": {},
+ "subzone:furlbrow-s-pumpkin-farm": {},
+ "subzone:fuselight": {},
+ "subzone:fuselight-by-the-sea": {},
+ "subzone:gadgetzan": {},
+ "subzone:gahrron-s-withering": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:galardell-valley": {},
+ "subzone:galen-s-fall": {},
+ "subzone:gallery-of-treasures": {},
+ "subzone:gallows-end-tavern": {},
+ "subzone:gallywix-pleasure-palace": {},
+ "subzone:gallywix-rocketway-exchange": {},
+ "subzone:galson-s-lode": {},
+ "subzone:gaping-chasm": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:garren-s-haunt": {},
+ "subzone:garrison-armory": {},
+ "subzone:gates-of-ironforge": {},
+ "subzone:gates-of-orgrimmar": {},
+ "subzone:gavin-s-naze": {},
+ "subzone:gelkis-village": {},
+ "subzone:ghost-walker-post": {},
+ "subzone:gilneas-liberation-front-base-camp": {},
+ "subzone:gloomtide-strand": {},
+ "subzone:gnarlpine-hold": {},
+ "subzone:gnomeregan": {},
+ "subzone:go-shek-farm": {},
+ "subzone:goblin-foundry": {},
+ "subzone:goblin-slums": {},
+ "subzone:gol-bolar-quarry": {},
+ "subzone:gol-bolar-quarry-mine": {},
+ "subzone:golakka-hot-springs": {},
+ "subzone:gold-coast-quarry": {},
+ "subzone:gold-road": {},
+ "subzone:golden-plains": {},
+ "subzone:goldshire": {},
+ "subzone:goodgrub-smoking-pit": {},
+ "subzone:gordok-commons": {},
+ "subzone:gordunni-outpost": {},
+ "subzone:grand-vestibule": {},
+ "subzone:grave-prison-of-zakajz": {},
+ "subzone:great-divide": {},
+ "subzone:great-forge": {},
+ "subzone:great-gate": {},
+ "subzone:great-lift": {},
+ "subzone:greatwood-vale": {},
+ "subzone:green-belt": {},
+ "subzone:greenpaw-village": {},
+ "subzone:greenwarden-s-grove": {},
+ "subzone:greymane-wall": {},
+ "subzone:grim-batol": {},
+ "subzone:grimesilt-dig-site": {},
+ "subzone:grimtotem-compound": {},
+ "subzone:grizzled-den": {},
+ "subzone:grizzlepaw-ridge": {},
+ "subzone:grol-dom-farm": {},
+ "subzone:grom-gol-base-camp": {},
+ "subzone:grommash-hold": {},
+ "subzone:grove-of-the-ancients": {},
+ "subzone:growless-cave": {},
+ "subzone:gryphon-roost": {},
+ "subzone:gunther-s-retreat": {},
+ "subzone:gurubashi-arena": {},
+ "subzone:haldarr-encampment": {},
+ "subzone:hall-of-arms": {},
+ "subzone:hall-of-arms-northshire": {},
+ "subzone:hall-of-arms-tyr-s-hand": {},
+ "subzone:hall-of-champions": {},
+ "subzone:hall-of-explorers": {},
+ "subzone:hall-of-gears": {},
+ "subzone:hall-of-legends": {},
+ "subzone:hall-of-masks": {},
+ "subzone:hall-of-mysteries": {},
+ "subzone:hall-of-repose-un-goro-crater": {},
+ "subzone:hall-of-the-brave": {},
+ "subzone:hammerfall": {},
+ "subzone:harborage": {},
+ "subzone:hatchet-ridge": {},
+ "subzone:headland": {},
+ "subzone:hearthglen": {},
+ "subzone:hellscream-s-fist": {},
+ "subzone:helm-s-bed-lake": {},
+ "subzone:heroes-vigil": {},
+ "subzone:hetaera-s-clutch": {},
+ "subzone:hidden-grove": {},
+ "subzone:hidden-path": {},
+ "subzone:high-perch": {},
+ "subzone:high-rise": {},
+ "subzone:high-seat": {},
+ "subzone:high-wilderness": {},
+ "subzone:highlands-mill": {},
+ "subzone:highperch": {},
+ "subzone:hillsbrad-fields": {},
+ "subzone:hive-ashi": {},
+ "subzone:hive-regal": {},
+ "subzone:hive-zora": {},
+ "subzone:hogger-hill": {},
+ "subzone:horizon-scout": {},
+ "subzone:howling-oak": {},
+ "subzone:howling-vale": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:hunter-rise": {},
+ "subzone:hushed-bank": {},
+ "subzone:ice-thistle-hills": {},
+ "subzone:iceflow-lake": {},
+ "subzone:infectis-scar": {},
+ "subzone:iris-lake": {},
+ "subzone:iron-summit": {},
+ "subzone:ironband-s-compound": {},
+ "subzone:ironband-s-excavation-site": {},
+ "subzone:ironbeard-s-tomb": {},
+ "subzone:ironclad-cove": {},
+ "subzone:ironforge": {},
+ "subzone:ironforge-airfield": {},
+ "subzone:ironstone-camp": {},
+ "subzone:irontree-clearing": {},
+ "subzone:irontree-woods": {},
+ "subzone:ironwing-cavern": {},
+ "subzone:isle-of-dread": {},
+ "subzone:itharius-s-cave": {},
+ "subzone:ivar-patch": {},
+ "subzone:jadefire-run": {},
+ "subzone:jaedenar": {},
+ "subzone:jagged-reef": {},
+ "subzone:jaggedswine-farm": {},
+ "subzone:jaguero-isle": {},
+ "subzone:janeiro-s-point": {},
+ "subzone:jangolode-mine": {},
+ "subzone:jansen-stead": {},
+ "subzone:jasperlode-mine": {},
+ "subzone:jerod-s-landing": {},
+ "subzone:jewelhammer-s-vault": {},
+ "subzone:karazhan": {},
+ "subzone:karazhan-catacombs": {},
+ "subzone:karazhan-raid": {},
+ "subzone:kargath": {},
+ "subzone:kargathia-keep": {},
+ "subzone:karnum-s-glade": {},
+ "subzone:keeshan-s-post": {},
+ "subzone:kharanos": {},
+ "subzone:kodo-graveyard": {},
+ "subzone:kodo-rock": {},
+ "subzone:kolkar-crag": {},
+ "subzone:kolkar-village": {},
+ "subzone:kor-gar": {},
+ "subzone:kormek-s-hut": {},
+ "subzone:krom-gar-fortress": {},
+ "subzone:kurzen-s-compound": {},
+ "subzone:lake-al-ameth": {},
+ "subzone:lake-dumont": {},
+ "subzone:lake-elune-ara": {},
+ "subzone:lake-everstill": {},
+ "subzone:lake-falathim": {},
+ "subzone:lake-kel-theril": {},
+ "subzone:lake-mennar": {},
+ "subzone:lake-mereldar": {},
+ "subzone:lake-nazferiti": {},
+ "subzone:lakeridge-highway": {},
+ "subzone:lakeshire": {
+  "faq": {
+   "2": 1
+  }
+ },
+ "subzone:lakeshire-inn": {},
+ "subzone:lakeshire-town-hall": {},
+ "subzone:lakkari-tar-pits": {},
+ "subzone:land-s-end-beach": {},
+ "subzone:lariss-pavilion": {},
+ "subzone:launch-bay": {},
+ "subzone:legacy-of-scholomance": {},
+ "subzone:lethlor-ravine": {},
+ "subzone:library-ironforge": {},
+ "subzone:library-wing-northshire": {},
+ "subzone:library-wing-tyr-s-hand": {},
+ "subzone:light-s-hope-chapel": {},
+ "subzone:light-s-shield-tower": {},
+ "subzone:lion-s-pride-inn": {},
+ "subzone:lion-s-rest": {},
+ "subzone:loading-room": {},
+ "subzone:long-wash": {},
+ "subzone:longshore": {},
+ "subzone:lor-danel": {},
+ "subzone:lor-danel-landing": {},
+ "subzone:lordamere-internment-camp": {},
+ "subzone:lordamere-lake": {},
+ "subzone:lost-fleet": {},
+ "subzone:lost-point": {
+  "faq": {
+   "3": 1
+  },
+  "remove_keywords": [
+   "hendel"
+  ]
+ },
+ "subzone:lost-rigger-cove": {},
+ "subzone:lower-wilds": {},
+ "subzone:lushwater-oasis": {},
+ "subzone:maclure-vineyards": {},
+ "subzone:maestra-s-post": {},
+ "subzone:mage-quarter": {},
+ "subzone:magic-quarter": {},
+ "subzone:magni-s-encampment": {},
+ "subzone:magram-village": {},
+ "subzone:main-hall-northshire": {},
+ "subzone:maker-s-terrace": {},
+ "subzone:malaka-jin": {},
+ "subzone:malden-s-orchard": {},
+ "subzone:maldraz": {},
+ "subzone:mannoroc-coven": {},
+ "subzone:manor-mistmantle": {
+  "faq": {
+   "2": 1,
+   "4": 1
+  }
+ },
+ "subzone:mardenholde-keep": {},
+ "subzone:marris-stead": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:marshal-s-refuge": {},
+ "subzone:marshal-s-stand": {},
+ "subzone:marshlands": {},
+ "subzone:marshtide-watch": {},
+ "subzone:mast-room": {},
+ "subzone:master-s-cellar": {},
+ "subzone:master-s-glaive": {},
+ "subzone:maul-subzone": {},
+ "subzone:maw-of-the-void": {},
+ "subzone:mazthoril": {
+  "faq": {
+   "4": 2
+  }
+ },
+ "subzone:menethil-bay": {},
+ "subzone:menethil-harbor": {},
+ "subzone:menethil-keep": {},
+ "subzone:merchant-coast": {},
+ "subzone:military-ward": {},
+ "subzone:mirage-abyss": {},
+ "subzone:mirage-flats": {},
+ "subzone:mirage-raceway": {},
+ "subzone:mirkfallon-lake": {},
+ "subzone:mirror-lake": {},
+ "subzone:mirror-lake-orchard": {},
+ "subzone:mist-s-edge": {},
+ "subzone:misty-pine-refuge": {},
+ "subzone:misty-reed-farm": {},
+ "subzone:misty-reed-post": {},
+ "subzone:misty-reed-strand": {},
+ "subzone:misty-shore": {},
+ "subzone:misty-valley": {},
+ "subzone:miwana-s-longhouse": {},
+ "subzone:mizjah-ruins": {},
+ "subzone:mo-grosh-stronghold": {},
+ "subzone:molsen-farm": {},
+ "subzone:moon-horror-den": {},
+ "subzone:moonbrook": {},
+ "subzone:moonbrook-schoolhouse": {},
+ "subzone:moonshrine-ruins": {},
+ "subzone:moonshrine-sanctum": {},
+ "subzone:moonspray": {},
+ "subzone:moontouched-den": {},
+ "subzone:moonwell-ashenvale": {},
+ "subzone:moonwell-of-cleansing": {},
+ "subzone:mor-shan-base-camp": {},
+ "subzone:mor-shan-rampart": {},
+ "subzone:morgan-s-plot": {},
+ "subzone:morgan-s-vigil": {},
+ "subzone:morlos-aran": {},
+ "subzone:mortwake-s-tower": {},
+ "subzone:mosh-ogg-ogre-mound": {},
+ "subzone:mosshide-fen": {},
+ "subzone:mossy-pile": {},
+ "subzone:mountain-den": {},
+ "subzone:mountainfoot-strip-mine": {},
+ "subzone:mudsprocket": {},
+ "subzone:mystic-ward": {},
+ "subzone:mystral-lake": {},
+ "subzone:nat-s-landing": {},
+ "subzone:nazj-vel": {},
+ "subzone:nek-mani-wellspring": {},
+ "subzone:nesingwary-s-expedition": {},
+ "subzone:nethander-stead": {},
+ "subzone:nethergarde-keep": {},
+ "subzone:nethergarde-mines": {},
+ "subzone:nethergarde-supply-camps": {},
+ "subzone:new-kargath": {},
+ "subzone:new-thalanaar": {},
+ "subzone:new-tinkertown": {},
+ "subzone:newstead": {},
+ "subzone:night-run": {},
+ "subzone:night-web-s-hollow": {},
+ "subzone:nighthaven": {},
+ "subzone:nightmare-vale": {},
+ "subzone:nightsong-woods": {},
+ "subzone:nijel-s-point": {},
+ "subzone:north-coast": {},
+ "subzone:north-gate-outpost": {},
+ "subzone:north-gate-pass": {},
+ "subzone:north-point-tower": {},
+ "subzone:north-tide-s-beachhead": {},
+ "subzone:north-tide-s-hollow": {},
+ "subzone:north-tide-s-run": {},
+ "subzone:northdale": {},
+ "subzone:northern-elwynn-mountains": {},
+ "subzone:northern-rocketway-exchange": {},
+ "subzone:northern-rocketway-terminus": {},
+ "subzone:northfold-crossing": {},
+ "subzone:northfold-manor": {},
+ "subzone:northpass-tower": {},
+ "subzone:northridge-lumber-camp": {},
+ "subzone:northshire-abbey": {},
+ "subzone:northshire-valley": {},
+ "subzone:northshire-vineyards": {},
+ "subzone:northwatch-expedition-base-camp": {},
+ "subzone:northwatch-foothold": {},
+ "subzone:noxious-glade": {},
+ "subzone:noxious-lair": {},
+ "subzone:okril-lon-hold": {},
+ "subzone:old-barracks": {},
+ "subzone:old-ironforge": {},
+ "subzone:old-port-authority": {},
+ "subzone:old-town": {},
+ "subzone:olivia-s-pond": {},
+ "subzone:olsen-s-farthing": {},
+ "subzone:oneiros": {},
+ "subzone:onyxia-s-lair": {},
+ "subzone:oracle-glade": {},
+ "subzone:orgrimmar": {},
+ "subzone:orgrimmar-embassy": {},
+ "subzone:orgrimmar-rear-gate": {},
+ "subzone:orgrimmar-rocketway-exchange": {},
+ "subzone:ortell-s-hideout": {},
+ "subzone:owl-wing-thicket": {},
+ "subzone:palemane-rock": {},
+ "subzone:park": {},
+ "subzone:path-of-uther": {},
+ "subzone:pestilent-scar": {},
+ "subzone:petitioner-s-chamber": {},
+ "subzone:pig-and-whistle-tavern": {},
+ "subzone:plaguemist-ravine": {},
+ "subzone:plaguewood": {},
+ "subzone:plaguewood-tower": {},
+ "subzone:pool-of-ask-ar": {},
+ "subzone:pool-of-tears": {},
+ "subzone:pools-of-arlithrien": {},
+ "subzone:pools-of-vision": {},
+ "subzone:purgation-isle": {},
+ "subzone:pyrewood-chapel": {},
+ "subzone:pyrewood-town-hall": {},
+ "subzone:pyrewood-village": {},
+ "subzone:quagmire": {},
+ "subzone:quel-lithien-lodge": {},
+ "subzone:raceway-ruins": {},
+ "subzone:rage-scar-hold": {},
+ "subzone:ragefire-chasm": {},
+ "subzone:ragefire-chasm-classic": {},
+ "subzone:raging-chasm": {},
+ "subzone:ranazjar-isle": {},
+ "subzone:raptor-grounds": {},
+ "subzone:raptor-ridge": {},
+ "subzone:ratchet": {},
+ "subzone:ravaged-caravan": {},
+ "subzone:ravaged-twilight-camp": {},
+ "subzone:raven-hill": {},
+ "subzone:raven-hill-cemetery": {},
+ "subzone:ravencrest-monument": {},
+ "subzone:ravenholdt-manor": {},
+ "subzone:raynewood-retreat": {},
+ "subzone:razor-hill": {},
+ "subzone:razor-hill-watchtower": {},
+ "subzone:razorfen-downs": {},
+ "subzone:razorfen-downs-classic": {},
+ "subzone:razorfen-kraul-classic": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:razormane-grounds": {},
+ "subzone:razorwind-canyon": {},
+ "subzone:rebel-camp": {},
+ "subzone:red-cloud-mesa": {},
+ "subzone:red-reaches": {},
+ "subzone:red-rocks": {},
+ "subzone:redridge-pass": {},
+ "subzone:refuge-pointe": {},
+ "subzone:remtravel-s-excavation": {},
+ "subzone:render-s-rock": {},
+ "subzone:render-s-valley": {},
+ "subzone:rethban-caverns": {},
+ "subzone:ridgepoint-tower": {},
+ "subzone:road-warrior": {},
+ "subzone:rockpool-village": {},
+ "subzone:rocktusk-farm": {},
+ "subzone:roguefeather-den": {},
+ "subzone:rogues-quarter": {},
+ "subzone:roiling-gardens": {},
+ "subzone:roland-s-doom": {
+  "faq": {
+   "2": 1,
+   "3": 1,
+   "4": 1
+  },
+  "summary": "Roland's Doom is an abandoned, shadow-drenched mine tucked into the southeastern hills of Duskwood, just east of the Rotting Orchard. Once an ordinary delve, it has become infamous as a dangerous den overrun by savage worgen."
+ },
+ "subzone:rolling-plains": {},
+ "subzone:room-of-hidden-secrets": {},
+ "subzone:rotbrain-encampment": {},
+ "subzone:rotting-orchard": {},
+ "subzone:royal-gallery": {},
+ "subzone:royal-library": {},
+ "subzone:royal-quarter": {},
+ "subzone:ruined-reaches": {},
+ "subzone:ruins-of-aboraz": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "subzone:ruins-of-alterac": {},
+ "subzone:ruins-of-andorhal": {},
+ "subzone:ruins-of-arkkoran": {},
+ "subzone:ruins-of-auberdine": {},
+ "subzone:ruins-of-constellas": {},
+ "subzone:ruins-of-eldarath": {},
+ "subzone:ruins-of-eldre-thar": {},
+ "subzone:ruins-of-feathermoon": {},
+ "subzone:ruins-of-isildien": {},
+ "subzone:ruins-of-jubuwal": {},
+ "subzone:ruins-of-kel-theril": {},
+ "subzone:ruins-of-lordaeron": {},
+ "subzone:ruins-of-lornesta": {},
+ "subzone:ruins-of-mathystra": {},
+ "subzone:ruins-of-nordressa": {},
+ "subzone:ruins-of-ordil-aran": {},
+ "subzone:ruins-of-ravenwind": {},
+ "subzone:ruins-of-southshore": {},
+ "subzone:ruins-of-stardust": {},
+ "subzone:ruins-of-thaurissan": {},
+ "subzone:ruins-of-the-scarlet-enclave": {},
+ "subzone:ruins-of-uldum": {},
+ "subzone:ruins-of-zul-mamwe": {},
+ "subzone:rustmaul-dig-site": {},
+ "subzone:rut-theran-village": {},
+ "subzone:saldean-s-farm": {},
+ "subzone:saltspray-glen": {},
+ "subzone:salty-sailor-tavern": {},
+ "subzone:sanctum-of-light": {},
+ "subzone:sanctum-stromgarde-keep": {},
+ "subzone:sandsorrow-watch": {},
+ "subzone:sar-theris-strand": {},
+ "subzone:sardor-isle": {},
+ "subzone:sargeron": {},
+ "subzone:satyrnaar": {},
+ "subzone:savage-coast": {},
+ "subzone:scar-of-the-worldbreaker": {},
+ "subzone:scarab-dais": {},
+ "subzone:scarab-wall": {},
+ "subzone:scarlet-base-camp": {},
+ "subzone:scarlet-basilica": {},
+ "subzone:scarlet-halls": {},
+ "subzone:scarlet-monastery": {},
+ "subzone:scarlet-monastery-armory": {},
+ "subzone:scarlet-monastery-cathedral": {},
+ "subzone:scarlet-monastery-graveyard": {},
+ "subzone:scarlet-monastery-instance": {},
+ "subzone:scarlet-monastery-library": {},
+ "subzone:scarlet-palisade": {},
+ "subzone:scarlet-raven-tavern": {},
+ "subzone:scarlet-watch-post": {},
+ "subzone:scarlet-watchtower": {},
+ "subzone:scholomance": {},
+ "subzone:scholomance-classic": {},
+ "subzone:screaming-gully": {},
+ "subzone:screaming-reaches": {},
+ "subzone:scuttle-coast": {},
+ "subzone:sea-of-cinders": {},
+ "subzone:secret-lab": {},
+ "subzone:sen-jin-village": {},
+ "subzone:sen-jin-village-outskirts": {},
+ "subzone:sentinel-hill": {},
+ "subzone:sentinel-tower": {},
+ "subzone:sentry-point": {},
+ "subzone:sepulcher": {},
+ "subzone:serpent-s-coil": {},
+ "subzone:sewers": {},
+ "subzone:shadow-grave": {},
+ "subzone:shadow-hold": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "subzone:shadowbreak-ravine": {},
+ "subzone:shadowfang-keep": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "subzone:shadowglen": {},
+ "subzone:shadowprey-village": {},
+ "subzone:shadowsong-shrine": {},
+ "subzone:shadowthread-cave": {},
+ "subzone:shady-rest-inn": {
+  "faq": {
+   "1": 1,
+   "4": 1
+  }
+ },
+ "subzone:shalewind-canyon": {},
+ "subzone:shalzaru-s-lair": {},
+ "subzone:shaper-s-terrace": {},
+ "subzone:shatter-scar-vale": {},
+ "subzone:shattered-beachhead": {},
+ "subzone:shattered-strand": {},
+ "subzone:shattershore": {},
+ "subzone:shatterspear-pass": {},
+ "subzone:shatterspear-vale": {},
+ "subzone:shatterspear-war-camp": {},
+ "subzone:shifting-mire": {},
+ "subzone:shimmer-ridge": {},
+ "subzone:shimmering-deep": {},
+ "subzone:shimmering-flats": {},
+ "subzone:shining-strand": {},
+ "subzone:shok-thokar": {},
+ "subzone:shrine-of-aessina": {},
+ "subzone:shrine-of-the-dormant-flame": {},
+ "subzone:shrine-of-the-fallen-warrior": {},
+ "subzone:si-7-stormwind-city": {},
+ "subzone:silithus-the-wound": {},
+ "subzone:silver-stream-mine": {},
+ "subzone:silverwind-refuge": {},
+ "subzone:silverwing-grove": {},
+ "subzone:silverwing-outpost": {},
+ "subzone:sishir-canyon": {},
+ "subzone:skittering-dark": {},
+ "subzone:skull-rock": {},
+ "subzone:skull-warren": {},
+ "subzone:skunkworks": {},
+ "subzone:slag-pit": {},
+ "subzone:slaughter-hollow": {},
+ "subzone:slaughtered-lamb": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:slither-rock": {},
+ "subzone:slitherblade-shore": {},
+ "subzone:slithering-scar": {},
+ "subzone:sludge-fen": {},
+ "subzone:sludge-fields": {},
+ "subzone:sludgewerks": {},
+ "subzone:solliden-farmstead": {},
+ "subzone:sorrow-hill": {},
+ "subzone:sorrow-hill-crypt": {},
+ "subzone:sorrowmurk": {},
+ "subzone:south-gate-outpost": {},
+ "subzone:south-gate-pass": {},
+ "subzone:south-seas": {},
+ "subzone:south-tide-s-run": {},
+ "subzone:southbreak-shore": {},
+ "subzone:southern-gold-road": {},
+ "subzone:southern-rocketway-terminus": {},
+ "subzone:southern-savage-coast": {},
+ "subzone:southfury-river": {},
+ "subzone:southfury-watershed": {},
+ "subzone:southmoon-ruins": {},
+ "subzone:southpoint-gate": {},
+ "subzone:southpoint-tower": {},
+ "subzone:southridge-beach": {},
+ "subzone:southsea-holdfast": {},
+ "subzone:southshore": {},
+ "subzone:southshore-town-hall": {},
+ "subzone:southwind-village": {},
+ "subzone:speedbarge-bar": {},
+ "subzone:spirit-rise": {},
+ "subzone:spirit-rock": {},
+ "subzone:spitescale-cove": {},
+ "subzone:splinterspear-junction": {},
+ "subzone:splintertree-post": {},
+ "subzone:splithoof-crag": {},
+ "subzone:splithoof-heights": {},
+ "subzone:splithoof-hold": {},
+ "subzone:stagalbog": {},
+ "subzone:stagalbog-cave": {},
+ "subzone:staghelm-point": {},
+ "subzone:stagnant-oasis": {},
+ "subzone:starbreeze-village": {},
+ "subzone:stardust-spire": {},
+ "subzone:starfall-village": {},
+ "subzone:steam-pools": {},
+ "subzone:steamwheedle-port": {},
+ "subzone:steelgrill-s-depot": {},
+ "subzone:stendel-s-pond": {},
+ "subzone:stillwater-pond": {},
+ "subzone:stonard": {},
+ "subzone:stone-cairn-lake": {},
+ "subzone:stonebull-lake": {},
+ "subzone:stonefield-farm": {},
+ "subzone:stonefire-tavern": {},
+ "subzone:stonemaul-hold": {},
+ "subzone:stonemaul-ruins": {},
+ "subzone:stonesplinter-valley": {},
+ "subzone:stonetalon-pass-mulgore": {},
+ "subzone:stonetalon-peak": {},
+ "subzone:stonewatch": {},
+ "subzone:stonewatch-falls": {},
+ "subzone:stonewatch-keep": {},
+ "subzone:stonewatch-tower": {},
+ "subzone:stonewrought-dam": {},
+ "subzone:stonewrought-pass": {},
+ "subzone:stormrage-barrow-dens": {},
+ "subzone:stormwind-city": {},
+ "subzone:stormwind-city-cemetery": {},
+ "subzone:stormwind-city-outskirts": {},
+ "subzone:stormwind-embassy": {},
+ "subzone:stormwind-gate": {},
+ "subzone:stormwind-harbor": {},
+ "subzone:stormwind-keep": {},
+ "subzone:stormwind-lake": {},
+ "subzone:stormwind-stockade": {},
+ "subzone:stormwind-stockade-classic": {},
+ "subzone:stoutlager-inn": {},
+ "subzone:strahnbrad": {},
+ "subzone:stratholme": {},
+ "subzone:stratholme-classic": {},
+ "subzone:stratholme-main-gate": {},
+ "subzone:stratholme-service-entrance": {},
+ "subzone:stromgarde-keep": {},
+ "subzone:sun-rock-retreat": {},
+ "subzone:sundown-marsh": {},
+ "subzone:sunken-dig-site": {},
+ "subzone:sunnyglade": {},
+ "subzone:sunveil-excursion": {},
+ "subzone:surwich": {},
+ "subzone:swamplight-manor": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:swarming-pillar": {},
+ "subzone:swiftgear-station": {},
+ "subzone:tabetha-s-farm": {},
+ "subzone:taelan-s-tower": {
+  "faq": {
+   "2": 1
+  }
+ },
+ "subzone:tahonda-ruins": {},
+ "subzone:tainted-scar": {},
+ "subzone:talonbranch-glade": {},
+ "subzone:talondeep-pass": {},
+ "subzone:talondeep-path": {},
+ "subzone:talondeep-vale": {},
+ "subzone:talrendis-point": {},
+ "subzone:tarren-mill": {},
+ "subzone:temple-gardens": {},
+ "subzone:temple-of-arkkoran": {},
+ "subzone:temple-of-atal-hakkar": {},
+ "subzone:temple-of-the-moon": {},
+ "subzone:temple-of-zin-malor": {},
+ "subzone:terrace-of-repose": {},
+ "subzone:terror-run": {},
+ "subzone:terror-wing-path": {},
+ "subzone:terrordale": {},
+ "subzone:terrorweb-tunnel": {},
+ "subzone:thal-darah-grove": {},
+ "subzone:thal-darah-overlook": {},
+ "subzone:thalanaar": {},
+ "subzone:thalassian-base-camp": {},
+ "subzone:thalassian-pass": {},
+ "subzone:thandol-span": {},
+ "subzone:the-den": {},
+ "subzone:the-fold": {},
+ "subzone:the-loch": {},
+ "subzone:the-sunstrider": {},
+ "subzone:thelgen-rock": {},
+ "subzone:thelsamar": {},
+ "subzone:theramore-isle": {},
+ "subzone:thistlefur-hold": {},
+ "subzone:thistlefur-village": {},
+ "subzone:thistlefuzz-arcanery": {},
+ "subzone:thistleshrub-valley": {},
+ "subzone:thondroril-river": {},
+ "subzone:thoradin-s-wall": {},
+ "subzone:thorium-point": {},
+ "subzone:thorn-hill": {},
+ "subzone:thornmantle-s-hideout": {},
+ "subzone:thornsnarl": {},
+ "subzone:three-corners": {},
+ "subzone:thunder-axe-fortress": {
+  "faq": {
+   "2": 1,
+   "3": 1
+  }
+ },
+ "subzone:thunder-bluff": {},
+ "subzone:thunder-falls": {},
+ "subzone:thunder-ridge": {},
+ "subzone:thunderbrew-distillery": {},
+ "subzone:thunderhorn-water-well": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:thunk-s-abode": {},
+ "subzone:tidefury-cove": {},
+ "subzone:tidus-stair": {},
+ "subzone:timbermaw-hold": {},
+ "subzone:timbermaw-post": {},
+ "subzone:tinker-town": {},
+ "subzone:tinkers-court": {},
+ "subzone:tiragarde-keep": {},
+ "subzone:tirth-s-haunt": {},
+ "subzone:tkashi-ruins": {},
+ "subzone:tomb-of-the-watchers": {},
+ "subzone:tomb-of-tyr": {},
+ "subzone:tor-kren-farm": {},
+ "subzone:tower-of-althalaxx": {},
+ "subzone:tower-of-arathor": {},
+ "subzone:tower-of-azora": {},
+ "subzone:tower-of-eldara": {},
+ "subzone:tower-of-estulan": {},
+ "subzone:tower-of-ilgalar": {},
+ "subzone:toxic-airfield": {},
+ "subzone:trade-district": {},
+ "subzone:trade-quarter": {},
+ "subzone:tradesmen-s-terrace": {},
+ "subzone:train-depot": {},
+ "subzone:tranquil-gardens-cemetery": {},
+ "subzone:trial-of-fire": {},
+ "subzone:trial-of-frost": {},
+ "subzone:trueshot-point": {},
+ "subzone:tundrid-hills": {},
+ "subzone:twilight-base-camp": {},
+ "subzone:twilight-bulwark": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:twilight-camp": {},
+ "subzone:twilight-grove": {},
+ "subzone:twilight-outpost": {},
+ "subzone:twilight-post": {},
+ "subzone:twilight-s-run": {},
+ "subzone:twilight-shore-darkshore": {},
+ "subzone:twilight-vale": {},
+ "subzone:twilight-withering": {},
+ "subzone:twin-colossals": {},
+ "subzone:tyr-s-fall": {},
+ "subzone:tyr-s-hand": {},
+ "subzone:tyr-s-hand-abbey": {},
+ "subzone:uldaman": {},
+ "subzone:uldaman-legacy-of-tyr": {},
+ "subzone:uldum": {},
+ "subzone:undercity": {},
+ "subzone:undercroft": {},
+ "subzone:unearthed-grounds": {},
+ "subzone:uplands": {},
+ "subzone:ursolan": {},
+ "subzone:uther-s-tomb": {},
+ "subzone:valgan-s-field": {},
+ "subzone:valley-of-ashes": {},
+ "subzone:valley-of-bones": {},
+ "subzone:valley-of-fangs": {},
+ "subzone:valley-of-heroes": {},
+ "subzone:valley-of-honor": {},
+ "subzone:valley-of-kings": {},
+ "subzone:valley-of-spears": {},
+ "subzone:valley-of-spirits": {},
+ "subzone:valley-of-strength": {},
+ "subzone:valley-of-the-watchers": {},
+ "subzone:valley-of-trials": {},
+ "subzone:valley-of-wisdom": {},
+ "subzone:valor-s-rest": {},
+ "subzone:valorcall-pass": {},
+ "subzone:valormok": {},
+ "subzone:vault-of-ironforge": {},
+ "subzone:venomweb-vale": {},
+ "subzone:venture-co-base-camp": {},
+ "subzone:venture-co-mine": {},
+ "subzone:vestibule-of-the-silver-hand": {},
+ "subzone:vice": {},
+ "subzone:vile-reef": {},
+ "subzone:vul-gol-ogre-mound": {},
+ "subzone:wailing-caverns": {},
+ "subzone:war-quarter": {},
+ "subzone:war-room": {},
+ "subzone:warpwood-quarter": {},
+ "subzone:warrior-s-terrace": {},
+ "subzone:warsong-labor-camp": {},
+ "subzone:warsong-lumber-camp": {},
+ "subzone:waterspring-field": {},
+ "subzone:wavestrider-beach": {},
+ "subzone:waygate-location": {},
+ "subzone:weathered-nook": {},
+ "subzone:weazel-s-crater": {},
+ "subzone:webwinder-path": {},
+ "subzone:weeping-cave": {},
+ "subzone:wellspring-lake": {},
+ "subzone:wellspring-river": {},
+ "subzone:westbrook-garrison": {},
+ "subzone:western-earthshrine": {},
+ "subzone:westfall-lighthouse": {},
+ "subzone:westreach-summit": {},
+ "subzone:whelgar-s-excavation-site": {},
+ "subzone:whelgar-s-retreat": {},
+ "subzone:whelping-downs": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:whispering-forest": {},
+ "subzone:whispering-gardens": {},
+ "subzone:whispering-shore": {},
+ "subzone:whisperwind-grove": {},
+ "subzone:whitereach-post": {},
+ "subzone:wicked-tunnels": {},
+ "subzone:wild-shore": {},
+ "subzone:wildbend-river": {},
+ "subzone:wildmane-water-well": {},
+ "subzone:wind-s-redemption": {},
+ "subzone:windbreak-canyon": {},
+ "subzone:windfury-ridge": {},
+ "subzone:windshear-crag": {},
+ "subzone:windshear-hold": {},
+ "subzone:windshear-valley": {},
+ "subzone:winterfall-village": {},
+ "subzone:winterhoof-water-well": {},
+ "subzone:witch-hill": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "subzone:witherbark-village": {},
+ "subzone:withering-thicket": {},
+ "subzone:wollerton-stead": {},
+ "subzone:woodpaw-den": {},
+ "subzone:woodpaw-hills": {},
+ "subzone:workshop-entrance": {},
+ "subzone:wreckage-of-the-silver-dawning": {},
+ "subzone:writhing-deep": {},
+ "subzone:writhing-haunt": {},
+ "subzone:wyrmbog": {},
+ "subzone:wyvern-s-tail": {},
+ "subzone:xavian": {},
+ "subzone:yojamba-isle": {},
+ "subzone:yorgen-farmstead": {},
+ "subzone:zaetar-s-choice": {},
+ "subzone:zalashji-s-den": {},
+ "subzone:zalazane-s-fall-subzone": {},
+ "subzone:zoram-gar-outpost": {},
+ "subzone:zoram-strand": {},
+ "subzone:zul-farrak": {},
+ "subzone:zul-gurub": {},
+ "subzone:zul-mashar": {},
+ "topic:agamaggan": {},
+ "topic:alliance": {},
+ "topic:alliance-of-lordaeron": {},
+ "topic:alterac-kingdom": {},
+ "topic:anduin-lothar": {},
+ "topic:argent-dawn": {},
+ "topic:arthas-menethil": {},
+ "topic:black-dragonflight": {},
+ "topic:blackrock-clan": {},
+ "topic:breadbasket-guild": {},
+ "topic:bronzebeard-clan": {},
+ "topic:brotherhood-of-northshire": {},
+ "topic:burning-blade-clan": {
+  "faq": {
+   "2": 2,
+   "3": 2,
+   "5": 1
+  },
+  "remove_keywords": [
+   "neeru fireblade"
+  ],
+  "summary": "Once an ancient orcish clan renowned for its deadly blademasters and consumed by chaotic frenzy during the early wars, the Burning Blade now largely persists as a sinister demon-worshiping cult. Infiltrating Durotar and the Barrens under the direction of the Shadow Council, its acolytes threaten the fragile peace of the region. Meanwhile, a handful of honorable blademasters have forsaken demonic corruption to serve Warchief Thrall in the New Horde."
+ },
+ "topic:burning-legion": {},
+ "topic:cenarion-circle": {},
+ "topic:cenarius": {},
+ "topic:centaur": {},
+ "topic:church-of-the-holy-light": {},
+ "topic:cult-of-the-damned": {},
+ "topic:dark-iron-clan": {},
+ "topic:dark-iron-dwarf": {},
+ "topic:dark-riders": {
+  "faq": {
+   "2": 1,
+   "4": 1
+  }
+ },
+ "topic:darkspear-tribe": {},
+ "topic:defias-brotherhood": {
+  "faq": {
+   "4": 2,
+   "6": 1,
+   "7": 2
+  },
+  "remove_keywords": [
+   "lescovar"
+  ]
+ },
+ "topic:dragonmaw-clan": {},
+ "topic:druid": {},
+ "topic:druids-of-the-fang": {},
+ "topic:dwarf": {},
+ "topic:earth-mother": {},
+ "topic:elemental-plane": {},
+ "topic:elune": {},
+ "topic:emerald-dream": {},
+ "topic:explorers-league": {},
+ "topic:first-war": {},
+ "topic:forsaken": {},
+ "topic:frostmane-tribe": {},
+ "topic:furbolg": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "topic:gnoll": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "topic:gnome": {},
+ "topic:goblin": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "topic:grimtotem-tribe": {
+  "faq": {
+   "5": 1,
+   "6": 1
+  }
+ },
+ "topic:grommash-hellscream": {},
+ "topic:harpy": {},
+ "topic:highborne": {},
+ "topic:horde": {},
+ "topic:house-of-nobles": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "topic:human": {},
+ "topic:juggernaught": {
+  "faq": {
+   "2": 1,
+   "3": 1,
+   "5": 1
+  },
+  "summary": "A Juggernaught is an enormous, heavily armored battleship bristling with heavy naval cannons. Originally engineered by ogres to serve as the iron core of the Old Horde's fleet during the Second War, these floating fortresses were built to pulverize coastal strongholds and trade routes. Their massive iron plating and siege-grade broadsides make them legendary instruments of naval warfare."
+ },
+ "topic:knights-of-the-silver-hand": {},
+ "topic:kobold": {},
+ "topic:kolkar-clan": {},
+ "topic:kul-tiras": {},
+ "topic:leper-gnome": {},
+ "topic:lich-king": {},
+ "topic:light": {},
+ "topic:llane-wrynn-i": {},
+ "topic:lordaeron": {},
+ "topic:medivh": {},
+ "topic:mor-ladim": {
+  "faq": {
+   "1": 1,
+   "2": 1,
+   "4": 1,
+   "5": 1
+  }
+ },
+ "topic:muradin-bronzebeard": {},
+ "topic:murloc": {},
+ "topic:naga": {},
+ "topic:new-horde": {},
+ "topic:night-elf": {},
+ "topic:night-watch": {},
+ "topic:nordrassil": {},
+ "topic:old-god": {},
+ "topic:old-horde": {},
+ "topic:orc": {},
+ "topic:pirate": {},
+ "topic:plague-of-undeath": {},
+ "topic:quilboar": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "topic:ravenholdt": {},
+ "topic:razorfen": {},
+ "topic:refugee": {},
+ "topic:riverpaw-pack": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "topic:royal-apothecary-society": {},
+ "topic:ruins-of-gilneas": {},
+ "topic:sargeras": {},
+ "topic:satyr": {},
+ "topic:scarlet-crusade": {
+  "faq": {
+   "5": 2
+  },
+  "remove_keywords": [
+   "balnazzar"
+  ]
+ },
+ "topic:scourge": {},
+ "topic:second-war": {},
+ "topic:sentinels": {},
+ "topic:shadow-council": {},
+ "topic:shan-do": {},
+ "topic:skyborne": {},
+ "topic:skywall": {},
+ "topic:steamwheedle-cartel": {},
+ "topic:stonefield-family": {},
+ "topic:stonemasons-guild": {
+  "remove_keywords": [
+   "prestor"
+  ]
+ },
+ "topic:stormwind-army": {},
+ "topic:stormwind-guard": {},
+ "topic:stormwind-kingdom": {},
+ "topic:syndicate": {
+  "faq": {
+   "5": 2
+  },
+  "remove_keywords": [
+   "argus wake"
+  ],
+  "summary": "The Syndicate is a widespread human criminal organization founded and led by dispossessed nobles of the fallen kingdom of Alterac. Operating out of fortified strongholds across the Alterac Mountains, Hillsbrad Foothills, and the ruins of Stromgarde Keep, they wage an uncompromising war against both the Alliance and the Horde to restore their lost aristocracy."
+ },
+ "topic:tauren": {},
+ "topic:terenas-menethil-ii": {},
+ "topic:third-war": {},
+ "topic:titan": {},
+ "topic:trogg": {},
+ "topic:troll": {},
+ "topic:twilight-s-hammer": {},
+ "topic:varian-wrynn": {},
+ "topic:venture-company": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "topic:war-of-the-ancients": {},
+ "topic:warsong-clan": {},
+ "topic:westfall-brigade": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "topic:wildhammer-clan": {},
+ "topic:worgen": {},
+ "zone:alterac": {},
+ "zone:arathi": {},
+ "zone:ashenvale": {},
+ "zone:azshara": {},
+ "zone:badlands": {},
+ "zone:barrens": {},
+ "zone:blackfathom": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "zone:blastedlands": {},
+ "zone:burningsteppes": {},
+ "zone:darkshore": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "zone:darnassus": {},
+ "zone:deadmines": {},
+ "zone:deadwind": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "zone:desolace": {},
+ "zone:dunmorogh": {},
+ "zone:durotar": {},
+ "zone:duskwood": {
+  "faq": {
+   "2": 1,
+   "5": 1
+  }
+ },
+ "zone:dustwallow": {
+  "faq": {
+   "3": 2,
+   "6": 2
+  }
+ },
+ "zone:easternplaguelands": {},
+ "zone:elwynn": {},
+ "zone:felwood": {},
+ "zone:feralas": {},
+ "zone:gnomeregan": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "zone:hallofthanes": {
+  "faq": {
+   "6": 1
+  }
+ },
+ "zone:hillsbrad": {},
+ "zone:hinterlands": {},
+ "zone:ironforge": {},
+ "zone:lochmodan": {},
+ "zone:moonglade": {},
+ "zone:mulgore": {},
+ "zone:orgrimmar": {},
+ "zone:ragefire": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  }
+ },
+ "zone:razorfenkraul": {},
+ "zone:redridge": {},
+ "zone:riverglades": {},
+ "zone:ruinsoflordaeron": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "zone:scarlet": {
+  "faq": {
+   "2": 1,
+   "5": 1
+  }
+ },
+ "zone:searinggorge": {},
+ "zone:shadowfang": {
+  "faq": {
+   "1": 1
+  }
+ },
+ "zone:shendralas": {},
+ "zone:silithus": {},
+ "zone:silverpine": {},
+ "zone:stockade": {},
+ "zone:stonetalon": {},
+ "zone:stormwind": {},
+ "zone:stranglethorn": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "zone:swampofsorrows": {},
+ "zone:tanaris": {},
+ "zone:teldrassil": {},
+ "zone:thousandneedles": {},
+ "zone:thunderbluff": {},
+ "zone:tirisfal": {},
+ "zone:undercity": {},
+ "zone:ungoro": {},
+ "zone:wailing": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "zone:westernplaguelands": {},
+ "zone:westfall": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "zone:wetlands": {},
+ "zone:winterspring": {},
+ "zone:zephras": {}
+}

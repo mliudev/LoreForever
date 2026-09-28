@@ -1,0 +1,80 @@
+{
+ "key": "npc:nida",
+ "type": "npc",
+ "name": "Nida",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Nida",
+  "refs": 1
+ },
+ "summary": "Nida is a young human girl living in the lakeside town of Lakeshire in the Redridge Mountains. Distraught after dropping a cherished gift from her father into the lake, she spends her time crying along the town's docks.",
+ "sections": [
+  {
+   "title": "A Child's Lost Keepsake",
+   "body": "Amid the mounting threats of gnoll invasions and Blackrock orc warbands pressing down on Lakeshire, the children of the town still face everyday childhood troubles. Nida accidentally dropped a necklace given to her by her father into the murky waters of Lake Everstill. Terrified that her father will be angry with her, the distraught girl waits by the town pier in tears, hoping someone brave enough will plunge into the lake to retrieve it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Nida?",
+   "aliases": [
+    "who is nida",
+    "nida lakeshire",
+    "crying girl lakeshire"
+   ],
+   "answer": "Nida is a young human child residing in Lakeshire in the Redridge Mountains, often found tearfully wandering near the docks."
+  },
+  {
+   "q": "Why is Nida crying?",
+   "aliases": [
+    "why is she crying",
+    "why is nida sad",
+    "nida crying sound"
+   ],
+   "answer": "Nida lost a precious necklace that her father bought for her. It slipped into the waters of Lake Everstill, and she is terrified of her father's anger once he discovers it is missing."
+  },
+  {
+   "q": "Who is trying to help her find the necklace?",
+   "aliases": [
+    "who helps nida",
+    "nida friend",
+    "who gives nida quest"
+   ],
+   "answer": "Her playmate Shawn notices her distress and asks passing adventurers to dive into Lake Everstill to retrieve the sunken necklace for her."
+  },
+  {
+   "q": "Where is the lost necklace located?",
+   "aliases": [
+    "where is nidas necklace",
+    "necklace location lake everstill"
+   ],
+   "answer": "The necklace rests beneath the surface of Lake Everstill, submerged near the town's docks where Nida dropped it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Even as the Redridge Mountains struggle with larger regional crises, helping Nida recovers a small sense of warmth and innocence for the troubled residents of Lakeshire."
+  }
+ ],
+ "keywords": [
+  "child",
+  "lake everstill",
+  "lakeshire",
+  "necklace",
+  "nida",
+  "redridge",
+  "shawn"
+ ],
+ "related": [
+  "quest:3741",
+  "npc:shawn",
+  "subzone:lakeshire",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Nida"
+ ]
+}

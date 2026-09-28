@@ -1,0 +1,120 @@
+{
+ "key": "quest:844",
+ "type": "quest",
+ "name": "Plainstrider Menace",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   844
+  ],
+  "level": "12",
+  "faction": "Horde",
+  "start": "Sergra Darkthorn",
+  "end": "",
+  "previous": "Sergra Darkthorn (quest)",
+  "next": "The Zhevra (Classic)",
+  "wiki": "Plainstrider Menace (Classic)",
+  "chain": []
+ },
+ "summary": "Plainstrider Menace is an introductory hunting task assigned by Sergra Darkthorn at the Crossroads. Newly arrived Horde adventurers are directed to cull the native plainstriders scavenging the settlement's supply routes, serving both as pest control and as an initial test of hunting prowess.",
+ "sections": [
+  {
+   "title": "Securing the Crossroads",
+   "body": "The Crossroads sits at the logistical heart of Kalimdor, coordinating supply caravans across the harsh savanna. However, the arid terrain leaves local wildlife desperate for sustenance. Flocks of tall, flightless plainstriders roaming just east of the outpost have taken to picking at food crates and disrupting the settlement's lifeline. To protect these vulnerable provisions, the huntress Sergra Darkthorn dispatches travelers to cull the aggressive birds before they inflict serious damage on the outpost's stores.",
+   "spoiler": 0
+  },
+  {
+   "title": "The First Hunt",
+   "body": "While pest management is an immediate practical goal, Sergra views the plainstriders as a measuring stick for newcomers. She considers the birds simple prey\u2014easy game intended to teach young hunters how to survive the elements and track quarry in the sun-baked plains. Bringing back their sharp beaks proves that a hunter has the patience and basic martial skill required to face the fiercer beasts native to the Barrens.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the plainstriders targeted?",
+   "aliases": [
+    "why kill plainstriders",
+    "plainstrider problem",
+    "what did plainstriders do"
+   ],
+   "answer": "Flocks of plainstriders east of the Crossroads have grown bold enough to raid food supplies and harass passing supply lines. Sergra Darkthorn orders them culled to preserve the settlement's vital provisions."
+  },
+  {
+   "q": "Who is Sergra Darkthorn?",
+   "aliases": [
+    "who is sergra",
+    "sergra darkthorn role",
+    "quest giver crossroads"
+   ],
+   "answer": "Sergra Darkthorn is an experienced orc huntress stationed at the Crossroads. She oversees the settlement's hunting trials, training incoming adventurers and directing them against wild beasts that threaten Horde operations."
+  },
+  {
+   "q": "Why does Sergra want their beaks specifically?",
+   "aliases": [
+    "why plainstrider beaks",
+    "plainstrider beak proof"
+   ],
+   "answer": "The tough, sharp beak is the plainstrider's primary weapon and tool for scavenging. Taking their beaks serves as undeniable proof that the scavenging birds have been slain."
+  },
+  {
+   "q": "What comes after this hunt?",
+   "aliases": [
+    "what is next",
+    "next quest after plainstriders",
+    "hunt sequence"
+   ],
+   "answer": "Once the plainstriders are handled, Sergra tests you against faster, more spirited prey by directing you to hunt the zhevra roaming the plains."
+  },
+  {
+   "q": "Where are these plainstriders located?",
+   "aliases": [
+    "where are plainstriders",
+    "plainstrider locations",
+    "hunting grounds"
+   ],
+   "answer": "They wander the savanna grasslands immediately east and southeast of the Crossroads, foraging along the trade roads."
+  },
+  {
+   "q": "Is this part of a larger hunting series?",
+   "aliases": [
+    "barrens hunting chain",
+    "sergra quest chain"
+   ],
+   "answer": "Yes. This task marks the very beginning of Sergra Darkthorn's hunting trials in the Barrens, which gradually escalate toward increasingly dangerous beasts across the savanna."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For young hunters, Sergra's trial is an essential baseline in stalking, tracking, and putting down quarry in the wide-open savanna."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Crossroads is an essential logistics junction, and keeping its food supplies secure from wildlife ensures the Horde can maintain its foothold across Kalimdor."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcs honor the discipline of the hunt, and Sergra expects every newcomer to prove their mettle against local beasts before taking on weightier duties."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "beak",
+  "crossroads",
+  "darkthorn",
+  "hunt",
+  "plainstrider",
+  "sergra",
+  "supplies"
+ ],
+ "related": [
+  "npc:thor",
+  "quest:860",
+  "subzone:crossroads",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Plainstrider Menace (Classic)"
+ ]
+}

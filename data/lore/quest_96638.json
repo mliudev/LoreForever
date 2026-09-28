@@ -1,0 +1,108 @@
+{
+ "key": "quest:96638",
+ "type": "quest",
+ "name": "The Adventurer",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   96638
+  ],
+  "level": "6",
+  "faction": null,
+  "start": "Aetheen of the Gales",
+  "end": "Raan Wildwind",
+  "previous": "Foul Matriarch",
+  "next": "",
+  "wiki": "The Adventurer (Zephras Isle)",
+  "chain": []
+ },
+ "summary": "\"The Adventurer\" is an introductory journey quest on Zephras Isle. Given by Aetheen of the Gales in Thendal Grove, it directs newly seasoned wanderers southwest toward Shen'dar Village to meet Raan Wildwind, a veteran camper who knows the wilds.",
+ "sections": [
+  {
+   "title": "Leaving the Grove",
+   "body": "While Thendal Grove provides shelter and quiet refuge, the wider expanses of Zephras Isle remain wild and perilous. Aetheen of the Gales watches over the initiates and sees when an aspiring traveler is ready to step beyond familiar borders. For those seeking fame, fortune, or purpose, remaining behind the grove's sheltered perimeter is no longer enough.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Guide on the Road",
+   "body": "Southwest of the grove along the road toward Shen'dar Village, another traveler has already made his camp. Raan Wildwind has spent time navigating the perils outside the safe haven. Seeking him out provides burgeoning wanderers a pragmatic introduction to survival beyond Thendal Grove, learning from someone who has already braved the open paths.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to find Raan Wildwind?",
+   "aliases": [
+    "who gives the adventurer",
+    "who starts the adventurer quest",
+    "aetheen quest"
+   ],
+   "answer": "Aetheen of the Gales gives the quest within Thendal Grove. After you prove yourself in the surrounding woods, she encourages you to seek out someone with firsthand experience of the wider isle."
+  },
+  {
+   "q": "Where is Raan Wildwind located?",
+   "aliases": [
+    "raan wildwind location",
+    "where is raan",
+    "how to find raan wildwind"
+   ],
+   "answer": "Raan Wildwind has set up camp southwest of Thendal Grove, situated right along the main road leading toward Shen'dar Village."
+  },
+  {
+   "q": "What is the purpose of this task?",
+   "aliases": [
+    "why do the adventurer",
+    "purpose of quest the adventurer",
+    "what does raan teach"
+   ],
+   "answer": "It serves as a breadcrumb guide, transitioning travelers out of the safe haven of Thendal Grove and connecting them with mentors and challenges deeper into Zephras Isle."
+  },
+  {
+   "q": "What prerequisite must be completed before receiving this quest?",
+   "aliases": [
+    "the adventurer prereq",
+    "requirements for the adventurer"
+   ],
+   "answer": "You must complete the task concerning the Foul Matriarch for Aetheen of the Gales before she directs you down the road to Raan Wildwind."
+  },
+  {
+   "q": "Is Shen'dar Village safe for travelers?",
+   "aliases": [
+    "is shendar safe",
+    "what is shendar village"
+   ],
+   "answer": "Shen'dar Village lies further southwest past Raan's encampment. While it marks a notable settlement on the isle, the roads and surrounding wilds require caution from young adventurers."
+  },
+  {
+   "q": "Who is Raan Wildwind?",
+   "aliases": [
+    "raan lore",
+    "who is raan wildwind"
+   ],
+   "answer": "Raan Wildwind is an adventurous wanderer who ventured beyond Thendal Grove to establish a camp outside Shen'dar Village, offering advice and tasks to newcomers heading down the road."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "For young Skyborne emerging from the sheltered canopy of Thendal Grove, meeting Raan Wildwind marks the first true step into the broader, untamed geography of their island home."
+  }
+ ],
+ "keywords": [
+  "aetheen of the gales",
+  "raan wildwind",
+  "shen'dar village",
+  "the adventurer",
+  "thendal grove",
+  "zephras isle"
+ ],
+ "related": [
+  "quest:92470",
+  "quest:92471",
+  "zone:zephras"
+ ],
+ "attribution": [
+  "The Adventurer (Zephras Isle)"
+ ]
+}

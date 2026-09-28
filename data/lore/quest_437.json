@@ -1,0 +1,120 @@
+{
+ "key": "quest:437",
+ "type": "quest",
+ "name": "The Dead Fields",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "ids": [
+   437
+  ],
+  "level": "14",
+  "faction": "Horde",
+  "start": "High Executor Hadrec",
+  "end": "",
+  "previous": null,
+  "next": "The Decrepit Ferry (quest)",
+  "wiki": "The Dead Fields (quest)",
+  "chain": []
+ },
+ "summary": "The Dead Fields is an assault mission issued by High Executor Hadrec from the Sepulcher. Forsaken scouts discovered that the Rot Hide gnolls infesting an abandoned northern farmstead are led and shielded by the Scourge banshee Nightlash, whose destruction is critical to securing Silverpine Forest.",
+ "sections": [
+  {
+   "title": "A Plague upon the Fields",
+   "body": "North of the Sepulcher lies an abandoned farmstead known as the Dead Fields. Once ordinary farmland, the grounds are now choked by Rot Hide gnolls\u2014pestilent, plagued scavengers that infest the Silverpine countryside. High Executor Hadrec previously sent small raiding parties to dislodge them, but every offensive stalled under unnatural magical resistance.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Banshee's Grasp",
+   "body": "The Rot Hides are not acting merely on feral instinct; they are reinforced by the Scourge. A banshee named Nightlash oversees the area, using dark sorcery to scatter Forsaken skirmishers whenever the gnolls face ruin. Hadrec dispatches Horde champions to cut down the gnolls until Nightlash is lured out, demanding her spectral essence as proof of her demise.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Dead Fields located?",
+   "aliases": [
+    "dead fields location",
+    "where is dead field",
+    "where to find dead fields"
+   ],
+   "answer": "The Dead Fields are situated north of the Sepulcher in Silverpine Forest. It is an overgrown, decaying farmstead heavily overrun by Rot Hide gnolls."
+  },
+  {
+   "q": "Who is Nightlash?",
+   "aliases": [
+    "who is nightlash",
+    "nightlash lore",
+    "banshee nightlash"
+   ],
+   "answer": "Nightlash is a Scourge banshee who commands and shields the Rot Hide gnolls at the Dead Fields, using dark magic to drive off previous Forsaken assault parties."
+  },
+  {
+   "q": "Why are gnolls working with a banshee?",
+   "aliases": [
+    "why rot hides with scourge",
+    "gnoll scourge connection",
+    "rot hide gnolls lore"
+   ],
+   "answer": "The Rot Hide gnolls of Silverpine Forest are tainted by the plague of undeath. The Scourge uses figures like Nightlash to direct these rabid creatures as vanguard foot soldiers against the Forsaken."
+  },
+  {
+   "q": "How do you draw out Nightlash?",
+   "aliases": [
+    "how to spawn nightlash",
+    "where is nightlash",
+    "nightlash not there"
+   ],
+   "answer": "Nightlash remains hidden until the gnolls under her protection are slaughtered in large numbers. Slaying enough Rot Hides forces her to manifest in the middle of the field to defend her domain."
+  },
+  {
+   "q": "Who gives the quest The Dead Fields?",
+   "aliases": [
+    "who gives the dead fields",
+    "dead fields quest giver",
+    "hadrec quest"
+   ],
+   "answer": "High Executor Hadrec, the Forsaken military commander stationed at the Sepulcher, issues the quest as part of his campaign to secure the region."
+  },
+  {
+   "q": "What happens after Nightlash is destroyed?",
+   "aliases": [
+    "dead fields followup",
+    "what comes after dead fields"
+   ],
+   "answer": "Bringing Nightlash's essence to High Executor Hadrec proves the Scourge has lost a vital presence in northern Silverpine, leading Hadrec to turn your attention toward the Decrepit Ferry to the west."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, destroying Nightlash is a personal strike against the Scourge and a grim reminder of the spectral torment Sylvanas and her banshees broke away from."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Breaking the Scourge hold over northern Silverpine Forest helps safeguard the travel corridor linking the Undercity to the southern territories of Lordaeron."
+  }
+ ],
+ "keywords": [
+  "banshee",
+  "dead fields",
+  "hadrec",
+  "nightlash",
+  "rot hide",
+  "scourge",
+  "sepulcher",
+  "silverpine"
+ ],
+ "related": [
+  "subzone:dead-field",
+  "npc:high-executor-hadrec",
+  "subzone:sepulcher",
+  "topic:scourge",
+  "topic:gnoll",
+  "topic:forsaken",
+  "zone:silverpine"
+ ],
+ "attribution": [
+  "The Dead Fields (quest)"
+ ]
+}

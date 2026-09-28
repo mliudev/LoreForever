@@ -1,0 +1,86 @@
+{
+ "key": "subzone:mannoroc-coven",
+ "type": "subzone",
+ "name": "Mannoroc Coven",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Mannoroc Coven"
+ },
+ "summary": "Mannoroc Coven is a demon-infested ruin in southern Desolace, named after the pit lord Mannoroth. Settled among ancient night elf architecture, it stands as the largest stronghold of the Burning Legion in central Kalimdor. Cultists of the Burning Blade maintain active summoning portals here, filling the ash-choked land with felhounds, succubi, and infernals.",
+ "sections": [
+  {
+   "title": "A Bastion of Fel Fire",
+   "body": "Situated south of Ghost Walker Post and east of Shadowprey Village, Mannoroc Coven blankets the ancient night elf ruins in an oppressive, fel-tainted pall. The coven is commanded on the ground by the dreadlord Azrethoc, alongside the Burning Blade warlock Jugkar Grim'rod. Together, they harness active summoning portals to pull demonic reinforcements straight into Kalimdor, including doomguards, infernals, and felhounds. Even as Horde-aligned travelers attempt to sever these links using relics like the Hand of Iruxos, new rifts continue to tear open through the scarred earth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this place called Mannoroc Coven?",
+   "aliases": [
+    "who is mannoroc",
+    "mannoroc name origin",
+    "why named mannoroc"
+   ],
+   "answer": "The encampment takes its name in homage to Mannoroth the Destructor, the infamous pit lord who subjugated the orcs through the blood curse and perished in Ashenvale."
+  },
+  {
+   "q": "Who rules over the coven?",
+   "aliases": [
+    "who leads mannoroc coven",
+    "mannoroc coven boss",
+    "azrethoc"
+   ],
+   "answer": "Demonic forces here are led by the demon Lord Azrethoc. Mortal interests are directed by Jugkar Grim'rod, a warlock representing the Burning Blade cult."
+  },
+  {
+   "q": "What ruins was the coven built upon?",
+   "aliases": [
+    "what ruins are here",
+    "mannoroc ancient ruins",
+    "elf ruins desolace"
+   ],
+   "answer": "The demonic encampment occupies the crumbling stone foundations of an ancient night elf settlement, long ruined even before the demons flooded the region with fel magic."
+  },
+  {
+   "q": "How are the demons arriving in Desolace?",
+   "aliases": [
+    "where do demons come from",
+    "burning blade portals desolace"
+   ],
+   "answer": "Burning Blade cultists maintain magical summoning portals across the ruins. These portals draw continuous reinforcements directly from the Twisting Nether, frustrating outside attempts to permanently cleanse the site."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The concentrated fel energy and active Legion summoning rifts make the coven an object of keen tactical interest, offering firsthand observation of raw demonic manifestation."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Seeing the stonework of your ancient ancestors desecrated and trampled by demonic invaders makes Mannoroc Coven an agonizing reminder of the War of the Ancients."
+  }
+ ],
+ "keywords": [
+  "azrethoc",
+  "burning blade",
+  "coven",
+  "desolace",
+  "felhounds",
+  "infernals",
+  "jugkar grim'rod",
+  "mannoroc"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:burning-legion",
+  "subzone:ghost-walker-post",
+  "subzone:shadowprey-village",
+  "npc:taiga-wisemane",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Mannoroc Coven"
+ ]
+}

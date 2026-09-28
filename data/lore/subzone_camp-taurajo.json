@@ -1,0 +1,78 @@
+{
+ "key": "subzone:camp-taurajo",
+ "type": "subzone",
+ "name": "Camp Taurajo",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Camp Taurajo"
+ },
+ "summary": "Camp Taurajo is a quiet tauren settlement nestled in the Southern Barrens, sitting right along the mountain pass leading west into Mulgore. It serves as a vital frontier haven, offering tired wanderers an inn, supplies, profession mentors, and wind rider transit between the plains and central Kalimdor.",
+ "sections": [
+  {
+   "title": "Frontier of the Red Rocks",
+   "body": "Situated at the eastern mouth of the pass to Mulgore, Camp Taurajo is often the first glimpse of the wider Barrens seen by young tauren venturing out from Bloodhoof Village. Surrounded by dry scrubland and rugged mesas, the camp operates as both an outpost and a trading hub. It shelters hunters, leathercrafters, and field herbalists while maintaining wind rider connections to Thunder Bluff, the Crossroads, and Freewind Post deeper south.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Camp Taurajo?",
+   "aliases": [
+    "camp taurajo overview",
+    "what is taurajo",
+    "taurajo lore"
+   ],
+   "answer": "Camp Taurajo is a tauren outpost and settlement in the Southern Barrens, acting as a crucial waypoint between the homeland of Mulgore and the arid scrublands of the Barrens."
+  },
+  {
+   "q": "Where does the road west lead?",
+   "aliases": [
+    "taurajo west pass",
+    "road west of camp taurajo",
+    "path to mulgore"
+   ],
+   "answer": "Following the dirt trail west past Camp Taurajo leads through the mountain pass into Mulgore, directly toward Bloodhoof Village and Thunder Bluff."
+  },
+  {
+   "q": "Where do the wind riders from Camp Taurajo fly?",
+   "aliases": [
+    "taurajo flight master",
+    "taurajo flight paths",
+    "flight connections taurajo"
+   ],
+   "answer": "The local flight master coordinates wyvern routes connecting the camp directly to the Crossroads to the north, Thunder Bluff to the west, and Freewind Post in Thousand Needles to the south."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren journeying out of Mulgore for the very first time, Camp Taurajo is the first friendly sanctuary encountered on the harsh plains of the Barrens."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Camp Taurajo secures a critical overland junction and flight path, binding Mulgore closely to the rest of Horde-controlled central Kalimdor."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bloodhoof village",
+  "camp taurajo",
+  "mulgore pass",
+  "southern barrens",
+  "taurajo",
+  "tauren outpost"
+ ],
+ "related": [
+  "zone:barrens",
+  "zone:mulgore",
+  "topic:tauren",
+  "subzone:crossroads",
+  "zone:thunderbluff",
+  "subzone:bloodhoof-village",
+  "subzone:freewind-post"
+ ],
+ "attribution": [
+  "Camp Taurajo"
+ ]
+}

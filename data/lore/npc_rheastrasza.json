@@ -1,0 +1,90 @@
+{
+ "key": "npc:rheastrasza",
+ "type": "npc",
+ "name": "Rheastrasza",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Rheastrasza",
+  "refs": 2
+ },
+ "summary": "Rheastrasza is a red dragon who operates under the goblin guise of Rhea in the dusty expanses of the Badlands. Dedicated to the salvation of all dragonkind, she conducts bold, covert research into purifying the tainted black dragonflight.",
+ "sections": [
+  {
+   "title": "A Hidden Mission in the Wastes",
+   "body": "Disguised as a common goblin named Rhea, the red dragon Rheastrasza has established a quiet camp within the harsh Badlands. Unlike many of her kin who view the black dragonflight purely as irredeemable foes, Rheastrasza has taken upon herself the perilous task of finding a cure for their deep-seated corruption. To that end, she enlists mortal mercenaries and employs unconventional methods, gathering biological samples across the arid canyonlands while laboring in absolute secrecy.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Quest for Purity",
+   "body": "Rheastrasza's pursuit requires capturing the black dragon Nyxondra and compelling her to lay clutches for experimental research. While deeply sorrowed by the harsh necessity of imprisoning a fellow dragon, Rheastrasza presses forward, convinced that extreme measures are warranted to cleanse their lineage of madness. She works tirelessly to craft an uncorrupted egg, knowing that any slip in secrecy will draw the immediate, lethal fury of the black dragonflight.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rhea really?",
+   "aliases": [
+    "is rhea a dragon",
+    "rhea true identity",
+    "who is rhea badlands"
+   ],
+   "answer": "Rhea is the mortal goblin disguise of Rheastrasza, an agent of the red dragonflight operating undercover in the Badlands."
+  },
+  {
+   "q": "What is Rheastrasza trying to accomplish?",
+   "aliases": [
+    "rhea goal",
+    "rhea experiment",
+    "why is rheastrasza in badlands"
+   ],
+   "answer": "She seeks to find a way to cleanse the black dragonflight of their madness by experimenting on black dragon clutches to create a purified egg."
+  },
+  {
+   "q": "Why is she holding Nyxondra captive?",
+   "aliases": [
+    "why capture nyxondra",
+    "rhea and nyxondra",
+    "black dragon prisoner badlands"
+   ],
+   "answer": "Rheastrasza captured Nyxondra to secure a steady supply of black dragon eggs for her purification experiments. Although she feels genuine pity for the captive drake, she believes the survival of an uncorrupted flight justifies the deed."
+  },
+  {
+   "q": "Who are the Bad Dogs?",
+   "aliases": [
+    "bad dogs badlands",
+    "rhea mercenaries",
+    "who did rhea hire"
+   ],
+   "answer": "The Bad Dogs are a group of mortal mercenaries hired by Rhea to assist with security, transport, and gathering research materials across the hostile wastes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Rheastrasza works closely with eccentric minds such as Doctor Blam to aid in the intricate, high-risk biological extraction required for her clutches."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers trekking through the Badlands will find Rhea's mission a rare sign of hope against the persistent threat posed by local black drakes."
+  }
+ ],
+ "keywords": [
+  "bad dogs",
+  "badlands",
+  "nyxondra",
+  "purified egg",
+  "red dragonflight",
+  "rhea",
+  "rheastrasza"
+ ],
+ "related": [
+  "zone:badlands",
+  "topic:black-dragonflight",
+  "topic:goblin",
+  "subzone:dragon-s-mouth"
+ ],
+ "attribution": [
+  "Rheastrasza"
+ ]
+}

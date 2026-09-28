@@ -1,0 +1,129 @@
+{
+ "key": "quest:335",
+ "type": "quest",
+ "name": "A Noble Brew",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   335
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Zardeth of the Black Claw",
+  "end": "",
+  "previous": null,
+  "next": "A Noble Brew (2)",
+  "wiki": "A Noble Brew",
+  "chain": [
+   "A Noble Brew",
+   "A Noble Brew (2)",
+   "You Have Served Us Well"
+  ]
+ },
+ "summary": "Deep within the shadowed recesses of the Slaughtered Lamb in Stormwind, Zardeth of the Black Claw schemes against the city's nobility. An inquisitive peer, Lord Wishock, threatens to uncover the warlock enclave beneath the tavern, prompting a quiet gathering of rare and potent reagents to neutralize the threat.",
+ "sections": [
+  {
+   "title": "Threat from the Nobility",
+   "body": "Beneath the streets of the Mage Quarter, the warlock coven operating out of the Slaughtered Lamb enjoys a precarious secrecy. That secrecy is jeopardized by Lord Wishock, a member of the House of Nobles who has caught wind of the dark magic simmering below the city. Wishock has begun lobbying his peers for a full investigation, which would bring the city guard and royal scrutiny down upon the coven.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Concoction in the Shadows",
+   "body": "Rather than risk open confrontation with Stormwind's ruling class, Zardeth of the Black Claw devises a discreet remedy to ensure Lord Wishock becomes permanently preoccupied. The preparation requires obscure botanical ingredients gathered from distant corners of the Eastern Kingdoms: a pale bloom known as the Tear of Tilloa from Duskwood, and a submerged Musquash Root plucked from beneath the Stonewrought Dam.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lord Wishock?",
+   "aliases": [
+    "wishock",
+    "lord wishock",
+    "who is wishock"
+   ],
+   "answer": "Lord Wishock is a nobleman within the Stormwind House of Nobles. After discovering hints of warlock activities hidden beneath the Mage Quarter, he began pressing the council for a formal investigation."
+  },
+  {
+   "q": "Who is Zardeth of the Black Claw?",
+   "aliases": [
+    "zardeth",
+    "zardeth black claw",
+    "who is zardeth"
+   ],
+   "answer": "Zardeth is a senior warlock operating from the crypts beneath the Slaughtered Lamb tavern in Stormwind. He works to shield the city's warlock cabal from being discovered and purged by authorities."
+  },
+  {
+   "q": "Where does the Tear of Tilloa come from?",
+   "aliases": [
+    "tear of tilloa location",
+    "tear of tilloa",
+    "where is tear of tilloa"
+   ],
+   "answer": "The Tear of Tilloa is a delicate white flower found growing in the overgrown Garden of Stalvan on the outskirts of Darkshire in Duskwood."
+  },
+  {
+   "q": "Where is the Musquash Root found?",
+   "aliases": [
+    "musquash root location",
+    "musquash root",
+    "where to get musquash root"
+   ],
+   "answer": "The Musquash Root grows only in the wetlands at the very base of the massive waterfalls tumbling beneath the Stonewrought Dam in the Wetlands."
+  },
+  {
+   "q": "Why doesn't Stormwind's government already know about the warlocks?",
+   "aliases": [
+    "stormwind warlocks secret",
+    "why are warlocks hiding",
+    "are warlocks illegal"
+   ],
+   "answer": "Fel magic is strictly forbidden and reviled within the Alliance. The warlocks under the Slaughtered Lamb must practice their craft entirely underground to avoid imprisonment or execution by the paladins and city guards."
+  },
+  {
+   "q": "What does Zardeth intend to brew with these reagents?",
+   "aliases": [
+    "what is the brew",
+    "noble brew purpose",
+    "why make the brew"
+   ],
+   "answer": "Zardeth claims the brew will keep Lord Wishock 'preoccupied' so the investigation stalls. In reality, it is a covert poison intended to quietly silence the inquisitive nobleman before he can rally the House of Nobles against the coven."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "The crypts beneath the Slaughtered Lamb are your safe haven in Stormwind. Assisting Zardeth protects your brothers and sisters of the dark arts from the prying eyes of the kingdom's righteous nobility."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "While King Varian Wrynn remains missing, political maneuvering among the House of Nobles is at an all-time high, making internal scandals especially dangerous for the city's stability."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The Tear of Tilloa and Musquash Root represent rare and specialized flora that thrive only in regions shaped by grim history or torrents of pristine water."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "house of nobles",
+  "musquash",
+  "slaughtered lamb",
+  "stonewrought dam",
+  "tilloa",
+  "wishock",
+  "zardeth"
+ ],
+ "related": [
+  "npc:zardeth-of-the-black-claw",
+  "quest:397",
+  "topic:house-of-nobles",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "subzone:stonewrought-dam",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "A Noble Brew"
+ ]
+}

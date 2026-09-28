@@ -1,0 +1,120 @@
+{
+ "key": "topic:muradin-bronzebeard",
+ "type": "topic",
+ "name": "Muradin Bronzebeard",
+ "era": "classic",
+ "zone": "multi",
+ "meta": {
+  "wiki": "Muradin Bronzebeard"
+ },
+ "summary": "Muradin Bronzebeard was the brother of King Magni Bronzebeard and Brann Bronzebeard, as well as a renowned warrior, diplomat, and co-founder of the Explorers' League. Revered across Khaz Modan and Lordaeron alike, he is believed to have died in the frozen wastes of Northrend when Prince Arthas Menethil claimed the cursed runeblade Frostmourne.",
+ "sections": [
+  {
+   "title": "A Brother and Ambassador",
+   "body": "Muradin fought with distinction during the Second War, acting as the vital liaison between the mountain halls of Khaz Modan and the Alliance of Lordaeron. He helped hold Ironforge during the Horde's siege and marched alongside Alliance forces all the way through Blackrock Spire to the Dark Portal. In the peaceful years that followed, Muradin settled into Capital City as Ironforge\u2019s official ambassador. Jovial yet formidable, he became a fixture in the palace, growing close to King Terenas Menethil, winning over the royal cooks, and taking it upon himself to tutor young Prince Arthas in the arts of swordplay and combat.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Explorers' League and Northrend",
+   "body": "Beyond politics and war, Muradin possessed a restless curiosity. Alongside his brothers, he helped establish the dwarven Explorers' League, dedicated to uncovering lost titan relics and chronicling the distant corners of the world. He fell in love with the desolate, windswept continent of Northrend, making frequent journeys north to sketch ancient architecture and document its fierce inhabitants. It was Northrend's rugged mysteries that ultimately drew him on his final expedition, seeking out lore, relics, and the whispered legend of a forgotten runeblade.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shattering of Frostmourne",
+   "body": "When Prince Arthas arrived in Northrend obsessed with hunting down the dreadlord Mal'Ganis, he reunited with Muradin and enlisted his dwarven expedition. Arthas sought the power of Frostmourne to turn the tide, ignoring Muradin's rising alarm as the prince betrayed his own mercenaries and abandoned all honor. At the altar of Frostmourne, Muradin read the warning inscribed upon its icy pedestal and pleaded with his former pupil to turn back. Arthas refused. As the prince seized the runeblade, the explosion of unholy ice struck Muradin down, leaving him dead upon the cavern floor.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Muradin Bronzebeard?",
+   "aliases": [
+    "who is muradin",
+    "muradin lore",
+    "magni brother muradin"
+   ],
+   "answer": "Muradin Bronzebeard was the middle brother of King Magni Bronzebeard and the explorer Brann. He was a veteran hero of the Second War, Ironforge's ambassador to Lordaeron, and a founding member of the Explorers' League."
+  },
+  {
+   "q": "What happened to Muradin in Northrend?",
+   "aliases": [
+    "how did muradin die",
+    "muradin death",
+    "did arthas kill muradin"
+   ],
+   "answer": "Muradin accompanied Prince Arthas to the cavern containing Frostmourne. When Arthas ignored Muradin's warnings and shattered the icy prison holding the runeblade, an exploding shard of enchanted ice struck Muradin, seemingly killing him on the spot. Arthas abandoned his body and took the blade."
+  },
+  {
+   "q": "What was Muradin's relationship with Prince Arthas?",
+   "aliases": [
+    "did muradin know arthas",
+    "muradin arthas teacher",
+    "muradin and arthas"
+   ],
+   "answer": "While serving as Ironforge's ambassador in Capital City, Muradin took Arthas under his wing. He trained the young prince in bladed combat and went on many adventures with him, viewing Arthas almost like a surrogate son or beloved nephew until Arthas's dark descent in Northrend."
+  },
+  {
+   "q": "What was Muradin's role in the Second War?",
+   "aliases": [
+    "muradin second war",
+    "muradin battles",
+    "did muradin fight the horde"
+   ],
+   "answer": "Muradin served as the Alliance liaison between Lordaeron and Khaz Modan. He defended Ironforge during the Horde's siege, then marched south with the united Alliance army to fight at Blackrock Spire and the Dark Portal."
+  },
+  {
+   "q": "Why did Muradin go to Northrend in the first place?",
+   "aliases": [
+    "why was muradin in northrend",
+    "muradin expedition",
+    "what was muradin looking for"
+   ],
+   "answer": "As a founder of the Explorers' League, Muradin was deeply fascinated by Northrend's archaeology and ancient ruins. He returned there on an expedition to uncover forgotten history and search for relics, which ultimately led him to the trail of Frostmourne."
+  },
+  {
+   "q": "How did King Magni react to Muradin's death?",
+   "aliases": [
+    "magni muradin reaction",
+    "ironforge muradin grief"
+   ],
+   "answer": "King Magni and the entire Bronzebeard clan were devastated by Muradin's loss. Muradin's apparent demise severed the once-warm bond between Ironforge and Prince Arthas, turning grief into bitter fury toward the Scourge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Muradin is remembered by the dwarves of Ironforge as a paragon of their people\u2014brave, fiercely loyal, and driven by an insatiable curiosity for the history of their makers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Muradin forged the bonds of camaraderie between Ironforge and the northern human kingdoms, standing as one of the Alliance's foundational heroes."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Muradin was considered one of the finest dwarven duelists and weapon masters of his era, having instructed Prince Arthas Menethil himself in the art of the blade."
+  }
+ ],
+ "keywords": [
+  "arthas",
+  "bronzebeard",
+  "explorers league",
+  "frostmourne",
+  "ironforge",
+  "magni",
+  "muradin",
+  "northrend"
+ ],
+ "related": [
+  "npc:magni-bronzebeard",
+  "npc:brann-bronzebeard",
+  "topic:arthas-menethil",
+  "topic:bronzebeard-clan",
+  "topic:explorers-league",
+  "zone:ironforge",
+  "topic:alliance-of-lordaeron",
+  "topic:second-war"
+ ],
+ "attribution": [
+  "Muradin Bronzebeard"
+ ]
+}

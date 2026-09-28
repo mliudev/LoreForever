@@ -1,0 +1,75 @@
+{
+ "key": "subzone:footman-s-armory",
+ "type": "subzone",
+ "name": "Footman's Armory",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Footman's Armory"
+ },
+ "summary": "The Footman's Armory is a fortified supply corridor deep within the Scarlet Monastery's armory wing. Lined with heavy crates and weapon racks, it houses the armaments and defenders responsible for outfitting the Crusade's ground forces. The hall directly connects the outer courtyards to the interior treasury.",
+ "sections": [
+  {
+   "title": "Arsenal of the Crusade",
+   "body": "Situated between the kennel grounds of the Huntsman's Cloister and the gilded chambers of the Gallery of Treasures, the Footman's Armory serves as a vital logistics artery inside the Scarlet Halls. The broad hallway is packed with racks of polished blades, shields, and crated war supplies destined for crusader garrisons fighting across Tirisfal and the Plaguelands. It is constantly staffed and guarded by zealous footmen and guards who ensure that only loyal members of the order pass further into the sanctuary's inner vaults.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Footman's Armory?",
+   "aliases": [
+    "why armory",
+    "what is this place",
+    "footman armory purpose"
+   ],
+   "answer": "It serves as an equipment depot and defensive checkpoint within the Scarlet Monastery. The Scarlet Crusade uses it to store weapons, maintain armor, and station guards before the inner reaches of the wing."
+  },
+  {
+   "q": "Where does this hall lead?",
+   "aliases": [
+    "where does it go",
+    "next area",
+    "armory exit"
+   ],
+   "answer": "Passing through the Footman's Armory brings you to a stone staircase at the far end, which ascends straight into the Gallery of Treasures."
+  },
+  {
+   "q": "Who guards the Footman's Armory?",
+   "aliases": [
+    "who is here",
+    "armory enemies",
+    "crusaders in armory"
+   ],
+   "answer": "It is garrisoned by rank-and-file Scarlet Crusade defenders, including footmen and guards tasked with keeping unauthorized intruders away from the inner cloister."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The armory is packed with neatly ordered weapon racks and crates of forged armor, illustrating the relentless industrial output the Crusade maintains to equip its zealots."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "The hall stands as a textbook example of a heavily defended martial bottleneck, where disciplined footmen guard armaments intended for frontline warfare."
+  }
+ ],
+ "keywords": [
+  "armory",
+  "footman",
+  "footman's armory",
+  "gallery of treasures",
+  "scarlet crusade",
+  "scarlet halls",
+  "scarlet monastery"
+ ],
+ "related": [
+  "subzone:scarlet-halls",
+  "zone:scarlet",
+  "subzone:gallery-of-treasures",
+  "topic:scarlet-crusade"
+ ],
+ "attribution": [
+  "Footman's Armory"
+ ]
+}

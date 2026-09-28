@@ -1,0 +1,122 @@
+{
+ "key": "quest:31",
+ "type": "quest",
+ "name": "Aquatic Form",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   31
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Dendrite Starblaze",
+  "end": "Turak Runetotem",
+  "previous": "Trial of the Sea Lion",
+  "next": null,
+  "wiki": "Aquatic Form (Horde)",
+  "chain": []
+ },
+ "summary": "This quest marks the final step in a young Horde druid's journey to master the waters. After proving their worthiness and attuning to the sea lion aspect in Moonglade, the druid returns home to Thunder Bluff to receive formal recognition and master their aquatic form.",
+ "sections": [
+  {
+   "title": "Return of the Sea Lion",
+   "body": "Having braved the trials in the sacred haven of Moonglade, an aspiring tauren druid is directed back to Mulgore by Dendrite Starblaze. Bearing the Pendant of the Sea Lion, the initiate carries physical proof of their balance and dedication across Kalimdor's waters. It serves as tangible evidence that they have respected the ancient traditions required to adopt an aquatic aspect.",
+   "spoiler": 0
+  },
+  {
+   "title": "Communion with the Waters",
+   "body": "Upon ascending to the heights of Thunder Bluff, the traveler presents the pendant to their mentor, Turak Runetotem. Delighted by the initiate's honoring of their ancestors and natural balance, Turak imparts the secret of the aquatic form. With this teaching, the druid gains the innate ability to slip beneath rivers and oceans, breathing freely and navigating the depths as a sea creature.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do this quest",
+    "aquatic form purpose",
+    "what does this quest do"
+   ],
+   "answer": "This quest concludes the rite of passage for young Horde druids, allowing them to turn in their hard-earned Pendant of the Sea Lion in Thunder Bluff to finally unlock their shapeshifting Aquatic Form."
+  },
+  {
+   "q": "Who do I bring the Pendant of the Sea Lion to?",
+   "aliases": [
+    "who turns this in",
+    "where to turn in aquatic form",
+    "turak runetotem location"
+   ],
+   "answer": "You must bring the pendant to Turak Runetotem, the druid trainer located on the upper rises of Thunder Bluff in Mulgore."
+  },
+  {
+   "q": "Who sends you back to Thunder Bluff?",
+   "aliases": [
+    "who gives aquatic form quest",
+    "dendrite starblaze quest"
+   ],
+   "answer": "Dendrite Starblaze, a night elf druid keeper stationed in the neutral sanctuary of Moonglade, sends you back once your aquatic trials are complete."
+  },
+  {
+   "q": "Can non-druids complete this quest?",
+   "aliases": [
+    "is this druid only",
+    "can other classes do aquatic form"
+   ],
+   "answer": "No. This quest line is strictly restricted to druids as part of their spiritual and magical progression to unlock animal forms."
+  },
+  {
+   "q": "Why does a night elf in Moonglade help a Horde druid?",
+   "aliases": [
+    "why does dendrite help horde",
+    "moonglade horde alliance",
+    "druid neutrality"
+   ],
+   "answer": "Moonglade is a neutral sanctuary overseen by the Cenarion Circle. When teaching the ancient arts of the Cenarion path, night elf mentors guide tauren druids without political hostility, focusing purely on keeping nature in balance."
+  },
+  {
+   "q": "What ability does completing this quest grant?",
+   "aliases": [
+    "what form do i get",
+    "aquatic form spell",
+    "water form"
+   ],
+   "answer": "Upon turning in the quest to Turak Runetotem, you are taught Aquatic Form, granting increased swimming speed and underwater breathing while shapeshifted."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Achieving your aquatic form bridges the gap between land and sea, allowing you to traverse bodies of water effortlessly and escape predators in the deep."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Turak Runetotem reminds you that mastering the beasts of the sea honors your ancestors, solidifying the tauren's sacred resurgence in druidic ways."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Tauren druids represent the Horde's spiritual link to the Cenarion Circle, walking between ancient neutral sanctuaries and their own tribal capitals."
+  }
+ ],
+ "keywords": [
+  "aquatic form",
+  "dendrite starblaze",
+  "druid",
+  "moonglade",
+  "pendant of the sea lion",
+  "sea lion",
+  "thunder bluff",
+  "turak runetotem"
+ ],
+ "related": [
+  "npc:turak-runetotem",
+  "npc:dendrite-starblaze",
+  "topic:druid",
+  "zone:thunderbluff",
+  "quest:5921",
+  "quest:1067"
+ ],
+ "attribution": [
+  "Aquatic Form (Horde)"
+ ]
+}

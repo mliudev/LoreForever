@@ -1,0 +1,116 @@
+{
+ "key": "npc:lady-anacondra",
+ "type": "npc",
+ "name": "Lady Anacondra",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "wiki": "Lady Anacondra",
+  "refs": 5
+ },
+ "summary": "Lady Anacondra is one of the Fanglords leading the Druids of the Fang within the Wailing Caverns. Once a night elf acolyte named Scarletleaf, she was the first to volunteer for Naralex's ambitious effort to heal the Barrens. When her master's Emerald Dream communion turned into a nightmare, her mind broke, twisting her devotion into a venomous drive to see Kalimdor overrun by serpents.",
+ "sections": [
+  {
+   "title": "From Scarletleaf to Serpent",
+   "body": "Before adopting her serpentine title, Lady Anacondra was known as Scarletleaf. When the elder druid Naralex conceived of tapping into the subterranean springs of the Barrens through the Emerald Dream, she stepped forward as his very first volunteer. Her eager loyalty, however, proved her undoing. As Naralex's mind was seized by dark visions, the nightmare seeped out from the dreaming realm and contaminated his disciples, shattering Scarletleaf's sanity and reshaping her reverie into a cold, reptilian obsession.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Fanglord in the Deep",
+   "body": "Now styling herself Lady Anacondra, she stands guard among the first subterranean chambers of the Wailing Caverns. Like her fellow Fanglords, she abandoned the traditional tenets of the Cenarion Circle in favor of the vicious aspects of the viper. Channeling lightning, nature magic, and slumbering trances, she enforces Naralex's twisted slumber and works to spread the nightmare's corruption into the arid land above.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Lady Anacondra originally?",
+   "aliases": [
+    "anacondra real name",
+    "who is scarletleaf",
+    "scarletleaf backstory"
+   ],
+   "answer": "She was originally a young night elf acolyte named Scarletleaf. She was the very first disciple to volunteer to accompany the druid Naralex on his mission into the Barrens."
+  },
+  {
+   "q": "Why did she turn against the Cenarion Circle?",
+   "aliases": [
+    "why is anacondra evil",
+    "how did she become a druid of the fang",
+    "why did scarletleaf fall"
+   ],
+   "answer": "When Naralex attempted to connect to the Emerald Dream beneath the Barrens, his thoughts were overrun by a nightmare. That same nightmare infected the minds of his acolytes, corrupting Scarletleaf and driving her to cast aside her old life to serve the twisted dream."
+  },
+  {
+   "q": "What is her role in the Wailing Caverns?",
+   "aliases": [
+    "what does anacondra do",
+    "lady anacondra purpose",
+    "why kill anacondra"
+   ],
+   "answer": "She serves as one of the four Fanglords leading the Druids of the Fang. She guards the upper reaches of the caverns, ensuring that Naralex remains trapped in his corrupted sleep while dreaming of a reptilian future for the world."
+  },
+  {
+   "q": "Where can she be found inside the caverns?",
+   "aliases": [
+    "anacondra location",
+    "where is lady anacondra",
+    "anacondra spawn"
+   ],
+   "answer": "Lady Anacondra wanders the first large network of caverns near the entrance of the Wailing Caverns. She patrols among the cavern's raptors and serpents, often shifting between a few resting spots."
+  },
+  {
+   "q": "What item is taken from her for the Cenarion Circle?",
+   "aliases": [
+    "gem of anacondra",
+    "leaders of the fang anacondra",
+    "anacondra quest item"
+   ],
+   "answer": "She carries the Gem of Anacondra. Slaying her and claiming the gem is required by the Cenarion druids outside the caverns to break the Fanglords' hold over the oasis network."
+  },
+  {
+   "q": "What powers does she wield in battle?",
+   "aliases": [
+    "anacondra abilities",
+    "anacondra spells",
+    "anacondra attacks"
+   ],
+   "answer": "She draws upon nature magic, striking her foes from afar with searing bolts of lightning and casting magical slumber to incapacitate invaders while her reptilian allies attack."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Anacondra represents a cautionary tragedy for Cenarion druids: an earnest acolyte whose zeal to heal the land made her vulnerable to the nightmare that twisted her communion into madness."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Seeing a sister of Kaldorei lineage discard her heritage and form in pursuit of a twisted serpentine dream is a sobering reminder of the perils lurking within the Emerald Dream."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde cannot allow Anacondra and the Fanglords to threaten the delicate lifelines of the Barrens, making her removal critical to securing Crossroads and the nearby oases."
+  }
+ ],
+ "keywords": [
+  "anacondra",
+  "barrens",
+  "druids of the fang",
+  "fanglord",
+  "gem of anacondra",
+  "lady anacondra",
+  "naralex",
+  "scarletleaf",
+  "wailing caverns"
+ ],
+ "related": [
+  "npc:naralex",
+  "topic:druids-of-the-fang",
+  "quest:914",
+  "zone:wailing",
+  "zone:barrens",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Lady Anacondra"
+ ]
+}

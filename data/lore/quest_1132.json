@@ -1,0 +1,120 @@
+{
+ "key": "quest:1132",
+ "type": "quest",
+ "name": "Fiora Longears",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   1132
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Red Jack Flint",
+  "end": "Fiora Longears",
+  "previous": null,
+  "next": "Journey to Astranaar",
+  "wiki": "Fiora Longears (quest)",
+  "chain": [
+   "Fiora Longears (quest)",
+   "Journey to Astranaar"
+  ]
+ },
+ "summary": "This errand introduces Alliance adventurers from the Eastern Kingdoms to the untamed continent of Kalimdor. Directed by the enthusiastic recruiter Red Jack Flint in Menethil Harbor, travelers take ship across the Great Sea to report to his night elf contact, Fiora Longears, on the docks of Auberdine.",
+ "sections": [
+  {
+   "title": "A Call to the West",
+   "body": "For many humans, dwarves, and gnomes, the Eastern Kingdoms feel fraught with old conflicts and scarred earth. In the bustling port of Menethil Harbor, the sailor Red Jack Flint spends his days urging adventurous travelers to board a vessel bound across the Great Sea. Describing Kalimdor as an uncharted realm of fortune and opportunity, Flint directs bold wanderers to Auberdine to meet his associate, an elf named Fiora Longears.",
+   "spoiler": 0
+  },
+  {
+   "title": "Arrival in Auberdine",
+   "body": "Crossing the ocean brings travelers to Darkshore, a misty, storm-swept coast governed by the night elves. Waiting on the wooden docks of Auberdine, Fiora Longears receives arrivals recommended by Flint. Trusting Flint's eye for character, Fiora welcomes newly arrived Alliance heroes and prepares to direct them inland toward the ancient forests of Ashenvale.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Fiora Longears?",
+   "aliases": [
+    "fiora longears",
+    "who is fiora"
+   ],
+   "answer": "Fiora Longears is a night elf stationed at the docks of Auberdine in Darkshore. She acts as a welcoming partner and contact for Red Jack Flint, greeting Alliance travelers arriving from the Eastern Kingdoms."
+  },
+  {
+   "q": "Who starts this quest?",
+   "aliases": [
+    "quest giver",
+    "where to get fiora longears quest",
+    "who gives quest"
+   ],
+   "answer": "The quest is offered by Red Jack Flint, an energetic human sailor located in Menethil Harbor along the coast of the Wetlands."
+  },
+  {
+   "q": "How do I reach Fiora Longears from Menethil Harbor?",
+   "aliases": [
+    "how to get to auberdine",
+    "ship to auberdine",
+    "boat from menethil"
+   ],
+   "answer": "Board the passenger vessel docked at Menethil Harbor that sails westward across the Great Sea directly to the harbor town of Auberdine in Darkshore."
+  },
+  {
+   "q": "What happens after meeting Fiora Longears?",
+   "aliases": [
+    "what comes next",
+    "follow up quest",
+    "journey to astranaar quest"
+   ],
+   "answer": "Upon greeting you in Auberdine, Fiora commends Flint's recommendation and offers the next leg of your journey, sending you inland to Astranaar in Ashenvale."
+  },
+  {
+   "q": "What is the relationship between Red Jack Flint and Fiora Longears?",
+   "aliases": [
+    "are flint and fiora partners",
+    "red jack flint fiora connection"
+   ],
+   "answer": "Flint refers to Fiora as his partner across the sea. While Flint scouts eager adventurers in the Eastern Kingdoms, Fiora receives them in Kalimdor to facilitate Alliance operations and travel inland."
+  },
+  {
+   "q": "Why is the Alliance recruiting travelers to Kalimdor?",
+   "aliases": [
+    "why go to kalimdor",
+    "why darkshore"
+   ],
+   "answer": "Kalimdor represents vast new territory and resources for the Alliance, as well as a front where night elven allies need assistance protecting their ancestral lands from threats like the Horde and demonic remnants."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This journey represents the bridge between the Eastern Kingdoms and the night elven territories of Kalimdor, uniting the Alliance's eastern and western frontiers."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Fiora Longears serves as an official welcoming presence for eastern allies arriving at Auberdine, preparing them for the ancient wilds of northern Kalimdor."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "boat",
+  "darkshore",
+  "fiora longears",
+  "kalimdor",
+  "menethil harbor",
+  "red jack flint",
+  "wetlands"
+ ],
+ "related": [
+  "npc:red-jack-flint",
+  "subzone:auberdine",
+  "subzone:menethil-harbor",
+  "zone:darkshore",
+  "quest:1133",
+  "subzone:astranaar"
+ ],
+ "attribution": [
+  "Fiora Longears (quest)"
+ ]
+}

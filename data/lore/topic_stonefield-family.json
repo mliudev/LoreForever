@@ -1,0 +1,111 @@
+{
+ "key": "topic:stonefield-family",
+ "type": "topic",
+ "name": "Stonefield family",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Stonefield family"
+ },
+ "summary": "The Stonefield family is a lineage of human farmers residing at the Stonefield Farm in western Elwynn Forest. Known for their long-standing rural roots, they tend their homestead while caught up in an ongoing rivalry with their neighboring peers, the Maclures. Despite the hostility between the two households, younger generations find themselves entangled across the family divide.",
+ "sections": [
+  {
+   "title": "Life on the Homestead",
+   "body": "The Stonefields are quintessential Elwynn agrarian stock, working the soil south of the road leading to Westfall. The homestead revolves around Gramma Mildred Stonefield, Ma Stonefield, and young Tommy Joe Stonefield. Daily life on the farm involves tending crops and managing livestock while fending off local pests and dealing with nearby kobold incursions that plague the region's mines and borders.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Maclure Feud",
+   "body": "Separated only by a thin strip of woodland and pasture, the Stonefields and their neighbors, the Maclures, maintain a bitter and protracted grudge. Little love is lost between the older generations of both houses, with petty squabbles and territorial animosity coloring every interaction. Despite this fierce neighborhood dispute, a secret romance has blossomed between young Tommy Joe Stonefield and Maybell Maclure, forcing sympathetic travelers to act as discreet go-betweens.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Stonefield family live?",
+   "aliases": [
+    "stonefield farm location",
+    "where are the stonefields",
+    "stonefield family location"
+   ],
+   "answer": "The Stonefields reside at the Stonefield Farm, located in southwestern Elwynn Forest, just south of the main road heading toward the Westfall border."
+  },
+  {
+   "q": "Who are the known members of the Stonefield family?",
+   "aliases": [
+    "who is in the stonefield family",
+    "stonefield members",
+    "stonefield family tree"
+   ],
+   "answer": "Prominent household members include matriarch Gramma Mildred Stonefield, Ma Stonefield, Homer Stonefield, and the young Tommy Joe Stonefield. Other kin mentioned in family history include Bernice Stonefield and the late Uncle Stonefield."
+  },
+  {
+   "q": "Why do the Stonefields hate the Maclures?",
+   "aliases": [
+    "stonefield maclure feud",
+    "why are stonefields fighting maclures",
+    "maclure rivalry"
+   ],
+   "answer": "The Stonefields and the Maclures are entangled in a classic rural family feud over old territorial grudges and neighborhood stubbornness, with both households stubbornly refusing to reconcile their grievances."
+  },
+  {
+   "q": "How does the feud affect Tommy Joe Stonefield?",
+   "aliases": [
+    "tommy joe maclure",
+    "tommy joe romance",
+    "who is tommy joe in love with"
+   ],
+   "answer": "Tommy Joe Stonefield is secretly in love with Maybell Maclure from the rival farmstead. Because of the open hostility between their kin, the pair must rely on discreet intermediaries to exchange letters and tokens of affection."
+  },
+  {
+   "q": "Is the family aligned with Stormwind?",
+   "aliases": [
+    "are stonefields alliance",
+    "stonefield loyalty"
+   ],
+   "answer": "Yes. As human residents of Elwynn Forest, they fall under the protection of the Kingdom of Stormwind and the Alliance, although they primarily concern themselves with the daily survival of their farm and regional threats."
+  },
+  {
+   "q": "What threats does the Stonefield family face?",
+   "aliases": [
+    "stonefield dangers",
+    "problems at stonefield farm"
+   ],
+   "answer": "Aside from their friction with the Maclure household, the Stonefields must deal with encroaching kobolds vermin, roving wildlife, and the general lack of Stormwind guards patrolling rural farmlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, the Stonefields reflect the resilient working-class backbone providing grain and produce to feed the kingdom."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers passing toward Westfall often handle the mundane chores and personal squabbles of the Stonefields to keep Elwynn's breadbasket stable."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "gramma stonefield",
+  "maclure",
+  "mildred stonefield",
+  "stonefield",
+  "stonefield family",
+  "stonefield farm",
+  "stonefields",
+  "tommy joe"
+ ],
+ "related": [
+  "subzone:stonefield-farm",
+  "npc:tommy-joe-stonefield",
+  "npc:gramma-stonefield",
+  "npc:ma-stonefield",
+  "npc:maybell-maclure",
+  "zone:elwynn",
+  "topic:human",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Stonefield family"
+ ]
+}

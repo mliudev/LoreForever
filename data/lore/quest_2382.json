@@ -1,0 +1,127 @@
+{
+ "key": "quest:2382",
+ "type": "quest",
+ "name": "Wrenix of Ratchet",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   2382
+  ],
+  "level": "16",
+  "faction": "Horde",
+  "start": "Zando'zan",
+  "end": "Wrenix the Wretched",
+  "previous": "Zando'zan (quest)",
+  "next": "Plundering the Plunderers",
+  "wiki": "Wrenix of Ratchet",
+  "chain": [
+   "To Orgrimmar!",
+   "Find the Shattered Hand",
+   "Zando'zan (quest)",
+   "Wrenix of Ratchet",
+   "Plundering the Plunderers"
+  ]
+ },
+ "summary": "Wrenix of Ratchet is a Horde rogue assignment directing aspiring agents out of Orgrimmar and down to the goblin port of Ratchet. The manic troll Zando'zan sends operatives south to assist a disreputable goblin named Wrenix the Wretched.",
+ "sections": [
+  {
+   "title": "A Prophet in the Shadows",
+   "body": "Within the winding crevices of the Drag in Orgrimmar, the rogue guild conducts its operations largely unseen. Operatives visiting Zando'zan are met with wild ramblings and ominous portents, including dark visions of Warchief Thrall's assassination by poison and blade. Rather than explain his prophecy, the eccentric troll swiftly dispatches agents to the port town of Ratchet in the Barrens.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ratchet's Problem Solver",
+   "body": "Sitting on the coast east of the Crossroads, the neutral port of Ratchet hosts all manners of scoundrels, mercenaries, and tinkerers. Wrenix the Wretched operates out of this bustling haven, though he has little patience for Zando'zan's eccentricities. According to Wrenix, the troll's previous recruits met unfortunate ends in the bay's predator-infested waters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends you to Ratchet?",
+   "aliases": [
+    "who gives quest",
+    "quest giver",
+    "zandozan"
+   ],
+   "answer": "Zando'zan, a troll associated with the rogue network in Orgrimmar's Shadowswift guild hall, sends you on this errand after blurting out strange visions."
+  },
+  {
+   "q": "Who is Wrenix the Wretched?",
+   "aliases": [
+    "who is wrenix",
+    "wrenix ratchet",
+    "wrenix identity"
+   ],
+   "answer": "Wrenix the Wretched is a goblin contact operating in the port town of Ratchet. He handles covert tasks and mechanical supplies for rogues operating across the Barrens."
+  },
+  {
+   "q": "What happened to the operatives sent before me?",
+   "aliases": [
+    "previous rogues",
+    "shark food",
+    "other recruits"
+   ],
+   "answer": "According to Wrenix, the previous five agents dispatched by Zando'zan failed their assignments and ended up as shark food off the coast of Ratchet."
+  },
+  {
+   "q": "What was Zando'zan talking about regarding Thrall?",
+   "aliases": [
+    "thrall prophecy",
+    "thrall poisoned",
+    "zandozan thrall vision"
+   ],
+   "answer": "Zando'zan claims to have had a vision of Thrall being struck down by a poisoned dagger in the back, though he quickly cuts himself off and changes the subject."
+  },
+  {
+   "q": "Where is Ratchet located?",
+   "aliases": [
+    "where is ratchet",
+    "find ratchet",
+    "ratchet location"
+   ],
+   "answer": "Ratchet is located on the eastern coast of the Barrens, directly east of the Crossroads. It is connected to Durotar by roads leading south from the Southfury River."
+  },
+  {
+   "q": "What comes next after meeting Wrenix?",
+   "aliases": [
+    "next quest",
+    "after wrenix",
+    "ratchet follow up"
+   ],
+   "answer": "Upon greeting Wrenix, he tasks you with 'Plundering the Plunderers,' which involves infiltrating the Southsea Freebooters along the coast south of Ratchet."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This journey is an essential step in a Horde rogue's training, guiding young operatives away from the safety of Orgrimmar and into neutral pirate territory."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Shattered Hand maintains eyes and ears beyond Durotar's borders, frequently relying on neutral ports like Ratchet to handle sensitive contracts."
+  }
+ ],
+ "keywords": [
+  "ratchet",
+  "rogue",
+  "shattered hand",
+  "the barrens",
+  "thrall",
+  "wrenix",
+  "zando'zan"
+ ],
+ "related": [
+  "quest:2379",
+  "quest:2381",
+  "quest:2378",
+  "npc:wrenix-the-wretched",
+  "subzone:ratchet",
+  "subzone:crossroads",
+  "zone:orgrimmar",
+  "npc:thrall"
+ ],
+ "attribution": [
+  "Wrenix of Ratchet"
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "key": "subzone:stormwind-embassy",
+ "type": "subzone",
+ "name": "Stormwind Embassy",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Stormwind Embassy"
+ },
+ "summary": "Tucked away near the northern outskirts of Stormwind City, the grounds near Wollerton Stead remain largely quiet pastoral land in this era. While diplomats and foreign emissaries from Ironforge and Darnassus frequently visit Stormwind's royal court, no formal unified embassy complex yet exists to house them.",
+ "sections": [
+  {
+   "title": "Diplomacy in the Royal City",
+   "body": "Stormwind City serves as a vital anchor for the Grand Alliance, welcoming ambassadors, dignitaries, and envoys from across Azeroth. Currently, formal diplomatic gatherings and state business do not take place in a dedicated diplomatic quarter or embassy building on the city's outskirts. Instead, foreign envoys address the throne directly within the majestic halls of Stormwind Keep, where Highlord Bolvar Fordragon and the young King Anduin Wrynn oversee the realm's political affairs. The rolling grassy knolls along the northern wall remain quiet farm plots and open yards.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Stormwind Embassy located?",
+   "aliases": [
+    "embassy location",
+    "where is the embassy",
+    "stormwind embassy map"
+   ],
+   "answer": "In this era, there is no formal embassy compound constructed in Stormwind. The land north of the city near Wollerton Stead consists primarily of quiet pastures and city outskirts, while high-level diplomatic affairs are handled directly within Stormwind Keep."
+  },
+  {
+   "q": "Where do foreign diplomats meet in Stormwind?",
+   "aliases": [
+    "where are ambassadors",
+    "stormwind diplomats",
+    "alliance envoys"
+   ],
+   "answer": "Visiting delegates from allied peoples\u2014including the dwarves of Ironforge, the gnomes of Gnomeregan, and the night elves of Darnassus\u2014conduct their business directly in the throne room of Stormwind Keep before Regent Lord Bolvar Fordragon and the boy-king Anduin Wrynn."
+  },
+  {
+   "q": "Why isn't there an embassy building here right now?",
+   "aliases": [
+    "why no embassy",
+    "missing embassy",
+    "where did embassy go"
+   ],
+   "answer": "Stormwind's governance is currently centralized entirely within the Keep, as the realm focuses on domestic recovery, regional stability, and the search for the missing King Varian Wrynn. Dedicated facilities for allied diplomacy have not been commissioned."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance loyalists visiting the capital, state craft and military coordination take place under the watchful eye of Highlord Bolvar Fordragon in Stormwind Keep, rather than in separate administrative grounds."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "diplomats",
+  "embassy",
+  "envoys",
+  "stormwind",
+  "stormwind keep",
+  "wollerton stead"
+ ],
+ "related": [
+  "zone:stormwind",
+  "subzone:wollerton-stead",
+  "topic:stormwind-kingdom",
+  "topic:alliance",
+  "topic:anduin-wrynn"
+ ],
+ "attribution": [
+  "Stormwind Embassy"
+ ]
+}

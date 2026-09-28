@@ -1,0 +1,112 @@
+{
+ "key": "npc:grand-mason-marblesten",
+ "type": "npc",
+ "name": "Grand Mason Marblesten",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Grand Mason Marblesten",
+  "refs": 3
+ },
+ "summary": "Grand Mason Marblesten is an esteemed dwarven stonemason stationed in the busy Commons of Ironforge. Deeply devoted to the royal legacy of Khaz Modan, he oversees the monument honoring King Magni Bronzebeard's late brother, Muradin. Adventurers often meet him when assisting with the materials needed to complete this solemn tribute.",
+ "sections": [
+  {
+   "title": "Master of the Stone",
+   "body": "Dwarven stonemasonry is not merely a trade; it is an enduring art form that shapes the very soul of Ironforge. Grand Mason Marblesten stands among the city's foremost masters of the chisel, representing the centuries-old tradition of carving halls, pillars, and great effigies straight from the living mountain. Based in the Commons, he oversees civic projects and commemorative monuments that immortalize Bronzebeard history.",
+   "spoiler": 0
+  },
+  {
+   "title": "A King's Tribute",
+   "body": "Marblesten's most poignant task is crafting a fitting memorial for Muradin Bronzebeard, King Magni's fallen brother who was lost in the frozen wastes of Northrend during the Third War. Recognizing that ordinary rock will not suffice for a prince of the mountain, the Grand Mason coordinates the collection of rare materials to ensure the monument withstands the test of ages.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Grand Mason Marblesten?",
+   "aliases": [
+    "who is marblesten",
+    "marblesten role",
+    "grand mason npc"
+   ],
+   "answer": "Grand Mason Marblesten is a senior dwarven stonemason located in the Commons of Ironforge. He is entrusted with civic and royal sculpting projects, most notably a grand monument honoring Prince Muradin Bronzebeard."
+  },
+  {
+   "q": "Where can I find Grand Mason Marblesten?",
+   "aliases": [
+    "marblesten location",
+    "where is marblesten",
+    "ironforge marblesten"
+   ],
+   "answer": "He can be found in the Commons district of Ironforge, surrounded by stone blocks and architectural works not far from the city's bustling shops and banks."
+  },
+  {
+   "q": "What monument is Marblesten working on?",
+   "aliases": [
+    "what is he building",
+    "kings tribute quest",
+    "marblesten statue"
+   ],
+   "answer": "He is overseeing the creation of a royal monument commemorating Muradin Bronzebeard, who perished in Northrend during Prince Arthas Menethil's ill-fated expedition."
+  },
+  {
+   "q": "Why does Marblesten need adventurers to gather materials?",
+   "aliases": [
+    "marblesten quests",
+    "why need stones",
+    "materials for monument"
+   ],
+   "answer": "A memorial honoring dwarven royalty demands resilient, high-quality materials. Marblesten enlists travelers to scour the mountain territories to retrieve the proper stone and components worthy of a Bronzebeard prince."
+  },
+  {
+   "q": "What does the title 'Grand Mason' mean in dwarven society?",
+   "aliases": [
+    "what is a grand mason",
+    "dwarf mason rank"
+   ],
+   "answer": "Among dwarves, stoneworking is revered alongside blacksmithing. A 'Grand Mason' is an accomplished master of stonecraft, trusted with major state projects, royal architectural designs, and ceremonial memorials."
+  },
+  {
+   "q": "Is Marblesten an Alliance official or a private contractor?",
+   "aliases": [
+    "who does marblesten work for",
+    "marblesten faction"
+   ],
+   "answer": "Marblesten operates directly within Ironforge and serves the Ironforge kingdom and the Alliance, coordinating closely with King Magni Bronzebeard's court for royal commissions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, stonecraft is ancestral heritage; aiding Marblesten pays homage both to the craft of Khaz Modan and to the memory of fallen hero Muradin Bronzebeard."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners who work closely with the rock of Dun Morogh and beyond will appreciate Marblesten's exacting standards for raw mineral quality."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Honoring the sacrifice of Muradin Bronzebeard unites the Alliance in shared remembrance of the devastating losses suffered during the Third War."
+  }
+ ],
+ "keywords": [
+  "a king's tribute",
+  "bronzebeard",
+  "commons",
+  "grand mason",
+  "ironforge",
+  "magni",
+  "marblesten",
+  "muradin",
+  "stonemason"
+ ],
+ "related": [
+  "quest:686",
+  "zone:ironforge",
+  "subzone:commons",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Grand Mason Marblesten"
+ ]
+}

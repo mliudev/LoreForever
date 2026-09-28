@@ -1,0 +1,114 @@
+{
+ "key": "quest:3365",
+ "type": "quest",
+ "name": "Bring Back the Mug",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   3365
+  ],
+  "level": "5",
+  "faction": "Alliance",
+  "start": "Durnan Furcutter",
+  "end": "Nori Pridedrift",
+  "previous": "Scalding Mornbrew Delivery",
+  "next": null,
+  "wiki": "Bring Back the Mug",
+  "chain": []
+ },
+ "summary": "After delivering a piping hot draught of Mornbrew across the snowdrifts of Dun Morogh, one final errand remains: returning the empty tankard. Durnan Furcutter sends the runner back to Kharanos to return Nori Pridedrift's prized mug. It is a simple courtesy, but one the tavernkeeper deeply appreciates.",
+ "sections": [
+  {
+   "title": "A Matter of Tavern Etiquette",
+   "body": "Serving piping hot Mornbrew out in the biting freeze of Dun Morogh is a delicate business. Once Durnan Furcutter has finished warming his bones with the scalding brew, the empty tankard cannot simply be tossed in the snow. Dwarven hospitality runs on mutual respect, and letting good dishware go missing is a sure way to find oneself cut off from future rounds.",
+   "spoiler": 0
+  },
+  {
+   "title": "Mugs Don't Grow on Trees",
+   "body": "Returning to Kharanos completes the delivery run for Nori Pridedrift. As Nori is fond of reminding forgetful couriers, sturdy drinkware does not simply grow on trees\u2014especially not in the subzero crags of the dwarven homeland. Returning the empty vessel in one piece cements an adventurer's reputation as a reliable hand in the local community.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who starts this errand?",
+   "aliases": [
+    "quest giver",
+    "who gives bring back the mug",
+    "durnan furcutter quest"
+   ],
+   "answer": "Durnan Furcutter gives you this task immediately after you deliver the freshly brewed Mornbrew to him out in Dun Morogh."
+  },
+  {
+   "q": "Who do I return the mug to?",
+   "aliases": [
+    "where do i take the mug",
+    "who gets the mug",
+    "nori location"
+   ],
+   "answer": "You return the empty mug to Nori Pridedrift, who is located back at Kharanos in Dun Morogh."
+  },
+  {
+   "q": "Is there a time limit to return the mug?",
+   "aliases": [
+    "is this quest timed",
+    "mug timer",
+    "do i have to hurry back"
+   ],
+   "answer": "No. While the initial delivery of the Scalding Mornbrew had a strict timer to keep the drink piping hot, returning the empty mug can be done at your own pace."
+  },
+  {
+   "q": "Why does Nori care so much about an empty mug?",
+   "aliases": [
+    "why does nori want the mug back",
+    "importance of the mug"
+   ],
+   "answer": "Quality mugs and steins are valuable barware in Dun Morogh. As Nori points out, mugs do not grow on trees, and taverns cannot afford to lose drinkware to every passing courier."
+  },
+  {
+   "q": "What quest leads directly into this one?",
+   "aliases": [
+    "prerequisite quest",
+    "what comes before bring back the mug"
+   ],
+   "answer": "This errand is the direct follow-up to 'Scalding Mornbrew Delivery', beginning the moment Durnan drinks the beverage you brought him."
+  },
+  {
+   "q": "Where can Durnan Furcutter be found?",
+   "aliases": [
+    "durnan location",
+    "where is durnan"
+   ],
+   "answer": "Durnan Furcutter is stationed out in the snowy wilderness of Dun Morogh, waiting along the road between Kharanos and the outlying camps."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Every dwarf knows that keeping a tavernkeeper's tankard is a quick route to a brawl; returning Nori's mug is basic dwarven manners."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Any proper cook or brewer knows that quality service does not end until the dishware is accounted for and returned to the kitchen."
+  }
+ ],
+ "keywords": [
+  "bring back the mug",
+  "dun morogh",
+  "durnan furcutter",
+  "kharanos",
+  "mornbrew",
+  "nori pridedrift",
+  "tankard"
+ ],
+ "related": [
+  "quest:3364",
+  "npc:nori-pridedrift",
+  "npc:durnan-furcutter",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Bring Back the Mug"
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "key": "quest:354",
+ "type": "quest",
+ "name": "Deaths in the Family",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "ids": [
+   354
+  ],
+  "level": "11",
+  "faction": "Horde",
+  "start": "Coleman Farthing",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Deaths in the Family (Classic)",
+  "chain": []
+ },
+ "summary": "Coleman Farthing, a former mill worker now dwelling in Brill, seeks personal vengeance against the aristocratic Agamand family. Convinced to stay and defend their estates against the Scourge during the Third War, Farthing and his fellow workers perished alongside their stubborn employers, only for the Agamands to rise as mindless thralls of the Lich King.",
+ "sections": [
+  {
+   "title": "A Legacy of Pride",
+   "body": "Before the Third War devastated Lordaeron, the Agamand family stood as the wealthiest and most influential agrarian dynasty in Tirisfal Glades. Their sprawling mills and fertile pastures produced bountiful grain, commanding the labor of dozens of tenant farmers and millers. When the Plague of Undeath crept across the kingdom, the Agamands refused to flee or abandon their ancestral holdings, convinced that stone walls and loyal workers could hold off the horrors advancing from the east.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Price of Loyalty",
+   "body": "Believing their lords' assurances, loyal employees like Coleman Farthing stood their ground to defend the estate. The defense proved futile against the Scourge's relentless onslaught. The Agamands and their workers were slaughtered, their bodies rotting where they fell before being raised into undeath. While Farthing eventually broke free through Sylvanas Windrunner's liberation, the Agamand patriarchs and heirs remained trapped under the Lich King's mental grip, wandering the ruined mills as mindless Scourge sentries.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bitter Retribution",
+   "body": "Now residing in Brill, Coleman Farthing harbors intense resentment toward the former masters whose arrogance cost him his mortal life. Seeking closure and retribution, he sends Forsaken champions to Agamand Mills to destroy Gregor, Nissa, and Thurman Agamand. Farthing openly hopes that behind their rotting visages, his former masters retained just enough consciousness to feel terror as their unlife was violently brought to an end.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was the Agamand family?",
+   "aliases": [
+    "who are the agamands",
+    "agamand backstory",
+    "agamand mills history"
+   ],
+   "answer": "The Agamands were the wealthiest and most prosperous landowning family in Tirisfal Glades before the fall of Lordaeron. They owned and operated the vast Agamand Mills, employing numerous local farmers and millers."
+  },
+  {
+   "q": "Why is Coleman Farthing so angry at them?",
+   "aliases": [
+    "coleman farthing grudge",
+    "why does farthing hate the agamands",
+    "farthing motive"
+   ],
+   "answer": "Farthing was employed at their mills in life. When the Scourge arrived, the Agamands convinced their workers to remain and fortify the estate rather than flee. Farthing views their aristocratic pride as the direct reason he and his peers died and became undead."
+  },
+  {
+   "q": "Did the Agamands join the Forsaken?",
+   "aliases": [
+    "are agamands forsaken",
+    "why are the agamands scourge",
+    "who controls the agamands"
+   ],
+   "answer": "No. Unlike Coleman Farthing and the other free-willed Forsaken, the Agamands never broke free from the Lich King's control. They remain mindless Scourge minions haunting the ruined family mills."
+  },
+  {
+   "q": "Which Agamand family members must be destroyed?",
+   "aliases": [
+    "who do you kill",
+    "agamand targets",
+    "which agamands"
+   ],
+   "answer": "The quest tasks you with hunting down Gregor Agamand, Nissa Agamand, and Thurman Agamand, collecting their remains from the family estate to confirm their destruction."
+  },
+  {
+   "q": "Where are Agamand Mills located?",
+   "aliases": [
+    "where is agamand mills",
+    "agamand location"
+   ],
+   "answer": "Agamand Mills lies in the northern reaches of Tirisfal Glades, northwest of Brill. The once-fertile estate consists of several ruined windmills and farmhouses infested with Scourge."
+  },
+  {
+   "q": "What does Coleman Farthing do with their remains?",
+   "aliases": [
+    "why collect remains",
+    "farthing remains"
+   ],
+   "answer": "Coleman asks for their remains purely to confirm their destruction. The trophy represents the closure of his mortal grudges and proof that the proud lords who doomed him have been permanently extinguished."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This task reflects the profound personal grudges many Forsaken still bear from their mortal lives, illustrating the lingering trauma of Lordaeron's fall and the bitterness toward those who led them to ruin."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Clearing the Agamand leadership removes dangerous Scourge commanders lurking uncomfortably close to Brill and the Undercity's northern approaches."
+  }
+ ],
+ "keywords": [
+  "agamand",
+  "agamand mills",
+  "brill",
+  "coleman farthing",
+  "deaths in the family",
+  "gregor agamand",
+  "nissa agamand",
+  "scourge",
+  "thurman agamand",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:coleman-farthing",
+  "subzone:brill",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Deaths in the Family (Classic)"
+ ]
+}

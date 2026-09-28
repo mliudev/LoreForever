@@ -1,0 +1,74 @@
+{
+ "key": "subzone:bloodvenom-river",
+ "type": "subzone",
+ "name": "Bloodvenom River",
+ "era": "classic",
+ "zone": "felwood",
+ "meta": {
+  "wiki": "Bloodvenom River"
+ },
+ "summary": "The Bloodvenom River is a foul waterway cutting through central Felwood, saturated with the demonic corruption that blighted the ancient forest. Its putrid waters seep downstream across the mountains into Darkshore, transforming into the tainted Wildbend River.",
+ "sections": [
+  {
+   "title": "A Vein of Corruption",
+   "body": "Running through the corrupted heart of Felwood, the Bloodvenom River serves as an open conduit of the land's spiritual and physical decay. Its banks are thick with vile oozes, mutated beasts, and foul run-off left in the wake of the Burning Legion's invasion. The corruption within the channel is potent enough to taint lands far beyond Felwood itself, flowing westward down into the coastal forests of Darkshore as the Wildbend River.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the river corrupted?",
+   "aliases": [
+    "bloodvenom river taint",
+    "why is the water green",
+    "felwood river poison"
+   ],
+   "answer": "The river runs through central Felwood, an ancient night elven forest deeply warped by the demonic magic of the Burning Legion during the Third War. The corruption thoroughly soaked into the land and its waters, turning the river into a conduit of noxious sludge and necrotic ooze."
+  },
+  {
+   "q": "Where does the Bloodvenom River flow?",
+   "aliases": [
+    "bloodvenom river path",
+    "where does it go",
+    "river to darkshore"
+   ],
+   "answer": "The river flows through the tainted valley of Felwood before spilling through the mountains into Darkshore. Beyond the ridge, its corrupted currents continue downstream under the name of the Wildbend River."
+  },
+  {
+   "q": "What creatures live along the riverbanks?",
+   "aliases": [
+    "bloodvenom river wildlife",
+    "mobs near bloodvenom river",
+    "monsters in the river"
+   ],
+   "answer": "The waters and muddy banks are inhabited by noxious oozes, warped wildlife, and corrupted predators drawn to or created by the virulent demonic blight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The Bloodvenom River is a glaring testament to the desecration of Kalimdor's sacred groves, carrying fel taint across regions and demanding nature's restoration."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the kaldorei, watching the waters of their ancestral woodland poison Darkshore via the Wildbend River is a bitter reminder of the Legion's lingering wound."
+  }
+ ],
+ "keywords": [
+  "bloodvenom river",
+  "corruption",
+  "darkshore",
+  "felwood",
+  "ooze",
+  "tainted water",
+  "wildbend river"
+ ],
+ "related": [
+  "zone:felwood",
+  "subzone:wildbend-river",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "Bloodvenom River"
+ ]
+}

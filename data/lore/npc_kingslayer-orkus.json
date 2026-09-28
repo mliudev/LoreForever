@@ -1,0 +1,91 @@
+{
+ "key": "npc:kingslayer-orkus",
+ "type": "npc",
+ "name": "Kingslayer Orkus",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "wiki": "Kingslayer Orkus",
+  "refs": 2
+ },
+ "summary": "Kingslayer Orkus is an eccentric and boastful orc adventurer seen throughout Hillsbrad Foothills, accompanied by his faithful frost wyrm companion, Kasha. Despite his bluster and exaggerated combat claims, he throws himself into the ongoing border clashes between the Horde and the Alliance.",
+ "sections": [
+  {
+   "title": "A Questionable Legend",
+   "body": "Orkus cuts an unmistakable figure across Hillsbrad, boldly claiming grand victories and brandishing an imposing title alongside his skeletal drake, Kasha. He professes a yearning for glorious battle, often seeking to strike at Alliance holdings while loudly reassuring anyone listening that victory is practically assured. Yet beneath his bluster and bizarre personal anecdotes\u2014such as claiming High Overlord Varok Saurfang personally struck him hard enough to rattle his memory\u2014Orkus frequently exhibits comical panic at the slightest actual peril, once even pleading for rescue in waist-deep coastal water.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hero of the Horde",
+   "body": "Whatever his absurdities or shortcomings, Orkus proves himself capable of true bravery when battle lines harden. After discovering an Alliance command meeting out on Purgation Isle, he and Kasha take the fight directly to enemy leadership to secure crucial battle orders. Surrounded and vastly outmatched, Orkus refuses to flee, buying precious time for the recovered tactical plans to be delivered safely to Tarren Mill. His sacrifice at the cost of his own life cements his name as an unexpected, genuine champion of the Horde.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kingslayer Orkus?",
+   "aliases": [
+    "orkus",
+    "kingslayer orkus",
+    "who is orkus"
+   ],
+   "answer": "Orkus is a boastful orc warrior who operates in the Hillsbrad Foothills. Known for his exaggerated exploits and his flying frost wyrm companion Kasha, he wanders the region looking to prove himself against Alliance forces."
+  },
+  {
+   "q": "Who is Kasha?",
+   "aliases": [
+    "kasha",
+    "orkus dragon",
+    "orkus frost wyrm",
+    "orkus mount"
+   ],
+   "answer": "Kasha is Orkus's loyal companion, a frost wyrm who carries him through the skies of Hillsbrad Foothills and assists him in combat against Alliance enemies."
+  },
+  {
+   "q": "Did Orkus really meet Varok Saurfang?",
+   "aliases": [
+    "saurfang orkus",
+    "did orkus know saurfang"
+   ],
+   "answer": "According to Orkus, he once approached High Overlord Varok Saurfang and asked him to autograph his muscles. Saurfang responded by backhanding him across the face, an impact Orkus blames for his occasional memory lapses."
+  },
+  {
+   "q": "What happens to Orkus at Purgation Isle?",
+   "aliases": [
+    "purgation isle orkus",
+    "does orkus die"
+   ],
+   "answer": "Orkus charges the Alliance leadership stationed on Purgation Isle to secure vital tactical documents. Though he sustains fatal injuries holding off the enemy commanders so the battle plans can escape to Tarren Mill, Kasha carries his body back, earning him posthumous honors as a true hero of the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Though initially regarded as a braggart and a liability, Orkus gives his life fighting Alliance leaders off the coast of Hillsbrad, earning honored recognition within Tarren Mill."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orkus embodies both the comical extremes of warrior bravado and the genuine orcish willingness to die fighting against overwhelming odds for the glory of the Horde."
+  }
+ ],
+ "keywords": [
+  "hillsbrad",
+  "kasha",
+  "kingslayer",
+  "orkus",
+  "purgation isle",
+  "saurfang",
+  "tarren mill"
+ ],
+ "related": [
+  "zone:hillsbrad",
+  "subzone:purgation-isle",
+  "subzone:tarren-mill",
+  "npc:varok-saurfang",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Kingslayer Orkus"
+ ]
+}

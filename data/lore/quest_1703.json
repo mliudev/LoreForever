@@ -1,0 +1,122 @@
+{
+ "key": "quest:1703",
+ "type": "quest",
+ "name": "Mathiel",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   1703
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Furen Longbeard",
+  "end": "Mathiel",
+  "previous": "Fire Hardened Mail",
+  "next": "Sunscorched Shells",
+  "wiki": "Mathiel (quest)",
+  "chain": []
+ },
+ "summary": "This quest sends an adventurer carrying Furen Longbeard's crafting notes across the seas to Darnassus. The recipient is Mathiel, an artisan smith residing on the Warrior's Terrace eager to study dwarven innovations in mail forging. It represents a vital exchange of martial metallurgy between Ironforge and the kaldorei.",
+ "sections": [
+  {
+   "title": "A Courier Across the Sea",
+   "body": "After mastering the difficult process of forging fire-hardened armor, the veteran dwarven smith Furen Longbeard resolves to share his breakthroughs with fellow Alliance craftsmen. Instead of hoarding his newfound metallurgy, Furen copies down detailed technical diagrams and sends his tested adventurer across continents to find Mathiel, an accomplished smith dwelling high in Teldrassil.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kaldorei Steel and Dwarven Craft",
+   "body": "Mathiel works his forge on the tree-canopied Warrior's Terrace in Darnassus, catering to the Sentinels and fighters who defend the night elven capital. Receiving Furen's notes marks a bridge between disparate crafting traditions: the rugged, subterranean subterranean smelting of the Khaz Modan dwarves and the graceful, nature-attuned armorsmithing of the kaldorei.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mathiel?",
+   "aliases": [
+    "mathiel lore",
+    "who is mathiel darnassus"
+   ],
+   "answer": "Mathiel is a night elf blacksmith stationed on the Warrior's Terrace in Darnassus. He crafts equipment for defenders of the capital and maintains collegial correspondence with fellow master smiths across the Alliance."
+  },
+  {
+   "q": "Why does Furen send you to Darnassus?",
+   "aliases": [
+    "why send notes to mathiel",
+    "furen notes reason"
+   ],
+   "answer": "Furen Longbeard wants his research on forging fire-hardened armor to benefit other Alliance craftsmen. Because Mathiel is a trusted colleague capable of appreciating and utilizing advanced metallurgical techniques, Furen entrusts you with carrying his personal crafting notes to him."
+  },
+  {
+   "q": "Where can I find Mathiel in Darnassus?",
+   "aliases": [
+    "mathiel location",
+    "where is mathiel"
+   ],
+   "answer": "Mathiel can be found at the forge on the Warrior's Terrace, located in the south-western district of Darnassus where warriors and sentinels train."
+  },
+  {
+   "q": "What happens after giving Mathiel the notes?",
+   "aliases": [
+    "next quest after mathiel",
+    "mathiel followup"
+   ],
+   "answer": "Impressed by Furen's discoveries, Mathiel decides to build upon the dwarven techniques, sending the warrior on further trials into Kalimdor's wilderness to gather exotic components like sunscorched shells."
+  },
+  {
+   "q": "What kind of notes are being delivered?",
+   "aliases": [
+    "furen notes contents",
+    "what are furen's notes"
+   ],
+   "answer": "The notes contain detailed metallurgical observations and forging techniques Furen learned while experimenting with scorpid scales, cindergut embers, and iron to produce reinforced mail."
+  },
+  {
+   "q": "Is this quest restricted to warriors?",
+   "aliases": [
+    "warrior quest mathiel",
+    "can other classes do mathiel"
+   ],
+   "answer": "Yes, this courier errand is part of the dedicated trial and progression for Alliance warriors developing their martial prowess and armorcraft."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Carrying these notes marks your journey from the fiery smithies of the Eastern Kingdoms to the proving grounds of Darnassus, expanding your personal armory."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Sharing Furen's metalworking breakthrough with the night elves highlights the pride dwarves take in their unmatched mastery of the forge."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Mathiel represents the kaldorei willingness to study subterranean dwarven smithing and blend it with traditional night elven armorsmithing."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "The delivery illustrates the vital collaboration between master smiths, as blueprints and thermal tempering techniques pass between distant anvils."
+  }
+ ],
+ "keywords": [
+  "blacksmith",
+  "darnassus",
+  "fire hardened mail",
+  "furen longbeard",
+  "furen's notes",
+  "mathiel",
+  "teldrassil",
+  "warrior's terrace"
+ ],
+ "related": [
+  "quest:1701",
+  "quest:1710",
+  "npc:furen-longbeard",
+  "subzone:warrior-s-terrace",
+  "zone:darnassus",
+  "quest:1692"
+ ],
+ "attribution": [
+  "Mathiel (quest)"
+ ]
+}

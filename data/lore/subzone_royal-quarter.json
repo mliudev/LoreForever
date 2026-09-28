@@ -1,0 +1,92 @@
+{
+ "key": "subzone:royal-quarter",
+ "type": "subzone",
+ "name": "Royal Quarter",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Royal Quarter"
+ },
+ "summary": "The Royal Quarter is the secluded seat of power within the Undercity, serving as the throne room for Lady Sylvanas Windrunner. Here, the Banshee Queen directs the Forsaken alongside her dreadlord enforcer, Varimathras, guarded by an elite cohort of Royal Dreadguards.",
+ "sections": [
+  {
+   "title": "The Seat of the Dark Lady",
+   "body": "Tucked away behind towering archways and shadowed corridors, the Royal Quarter\u2014also known as the Hall of the Dark Lady\u2014is the political and military nerve center of the Forsaken. Sylvanas Windrunner holds court in this cavernous subterranean chamber, plotting the survival of her free-willed undead and the destruction of the Scourge. Heavily armored Royal Dreadguards stand vigil along the dais, ensuring that uninvited guests and would-be assassins never reach their queen.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Dangerous Alliance",
+   "body": "Standing beside the Dark Lady is the nathrezim Varimathras, an unexpected and uneasy fixture in the heart of the Undercity. After siding with Sylvanas during the civil war in the ruins of Lordaeron to save his own life, the dreadlord pledged loyalty to her cause. From the Royal Quarter, he commands deathstalkers and coordinates defensive operations across the realm. While his tactical cunning serves the Forsaken well, his demonic nature leaves many Horde allies wary of his true allegiances.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who rules from the Royal Quarter?",
+   "aliases": [
+    "who is in the royal quarter",
+    "undercity throne room leader",
+    "who leads undercity"
+   ],
+   "answer": "Lady Sylvanas Windrunner, the Banshee Queen, rules the Forsaken from the throne within the Royal Quarter. She is flanked by the nathrezim Varimathras, who pledged allegiance to her after the liberation of Lordaeron."
+  },
+  {
+   "q": "Why is there a dreadlord standing in the throne room?",
+   "aliases": [
+    "why is varimathras here",
+    "dreadlord in undercity",
+    "why is demon in royal quarter"
+   ],
+   "answer": "Varimathras surrendered to Sylvanas Windrunner during the reconquest of Capital City after betraying his brothers Detheroc and Balnazzar. He spared his own life by swearing loyalty to Sylvanas, and now acts as her enforcer and master of scouts."
+  },
+  {
+   "q": "What are the Royal Dreadguards?",
+   "aliases": [
+    "dreadguards",
+    "undercity throne room guards",
+    "royal quarter guards"
+   ],
+   "answer": "The Royal Dreadguards are elite Forsaken protectors chosen specifically to guard Lady Sylvanas and the Royal Quarter. They are among the most disciplined and lethal defenders in the Undercity."
+  },
+  {
+   "q": "What other function does this chamber serve?",
+   "aliases": [
+    "what else is in royal quarter",
+    "royal quarter purpose",
+    "battlemasters royal quarter"
+   ],
+   "answer": "Beyond serving as the primary audience chamber for the Dark Lady and Varimathras, the Royal Quarter houses battlemasters who coordinate Horde combatants for foreign campaigns and strategic skirmishes across Azeroth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Royal Quarter represents the heart of Forsaken independence, where Sylvanas Windrunner and her dreadlord lieutenant chart the future of their liberated people."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Visiting Horde envoys to the Royal Quarter often view the Dark Lady's nathrezim councilor with intense suspicion, questioning the wisdom of trusting a demon in the heart of a Horde capital."
+  }
+ ],
+ "keywords": [
+  "banshee queen",
+  "hall of the dark lady",
+  "royal dreadguard",
+  "royal quarter",
+  "sylvanas windrunner",
+  "throne room",
+  "undercity",
+  "varimathras"
+ ],
+ "related": [
+  "zone:undercity",
+  "npc:sylvanas-windrunner",
+  "npc:varimathras",
+  "quest:1886",
+  "topic:horde",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "Royal Quarter"
+ ]
+}

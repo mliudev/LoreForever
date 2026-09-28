@@ -1,0 +1,94 @@
+{
+ "key": "subzone:sludge-fen",
+ "type": "subzone",
+ "name": "Sludge Fen",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Sludge Fen"
+ },
+ "summary": "Sludge Fen is a toxic industrial oil field operated by the Venture Company in the northeastern Barrens. Once a pristine, crystal-blue pool, the wetland was transformed into an oily quagmire after the goblins erected drilling platforms and machinery. The operation is overseen by Supervisor Lugwizzle and attracts constant industrial espionage and sabotage from rivals in Ratchet.",
+ "sections": [
+  {
+   "title": "Industrial Devastation",
+   "body": "Before the arrival of the Venture Company, Sludge Fen was an untainted pool of crystal-clear water fed by natural springs in the arid Barrens. Driven by the relentless pursuit of profit, the Venture Company constructed an extensive oil-drilling operation over the basin, despoiling the wetland into a sludge-filled reservoir coated in heavy industrial waste. Overseen by Supervisor Lugwizzle, goblin drillers, engineers, and overseers pump crude oil around the clock, heedless of the environmental ruin. The waters are now thick with runoff and toxic byproducts, leaving the native aquatic life choked beneath the grease.",
+   "spoiler": 0
+  },
+  {
+   "title": "Corporate Rivalry and Espionage",
+   "body": "The fen's machinery and shredder innovations have made it a prime target for industrial theft. In nearby Ratchet, Tinkers' Union engineer Sputtervalve has faced fierce pressure to match the Venture Company's cutting-edge logging and excavation technology. Rather than inventing his own designs, Sputtervalve dispatched an operative named Wizzlecrank to commandeer a Venture Company shredder straight from the Sludge Fen. Because Wizzlecrank foolishly hijacked the machine without securing the ignition key, hired mercenaries are often drawn into the mire to pry the keys from Lugwizzle and escort the stolen war machine out through a gauntlet of furious Venture Co. employees.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Sludge Fen like before the Venture Company arrived?",
+   "aliases": [
+    "sludge fen past",
+    "was sludge fen always polluted",
+    "sludge fen history"
+   ],
+   "answer": "Sludge Fen was originally a basin of pure, crystal-blue water. The Venture Company ruined the natural oasis when they built an oil rig and refining operation directly on top of it, drowning the surrounding wetland in crude oil and chemical refuse."
+  },
+  {
+   "q": "Who runs the operation at Sludge Fen?",
+   "aliases": [
+    "sludge fen boss",
+    "who leads sludge fen",
+    "supervisor lugwizzle"
+   ],
+   "answer": "The oil field is run by Supervisor Lugwizzle on behalf of the Venture Company. He oversees the labor force of overseers, drillers, and engineers alongside lieutenants like Overseer Glibby and Foreman Grills."
+  },
+  {
+   "q": "Why is there a hijacked shredder parked in the middle of the fen?",
+   "aliases": [
+    "wizzlecrank shredder",
+    "goblin in shredder sludge fen",
+    "why is shredder stuck"
+   ],
+   "answer": "The goblin Wizzlecrank was sent by Sputtervalve from Ratchet to steal the Venture Company's superior shredder design. However, he leaped into the cockpit without first securing the ignition key, leaving him stranded surrounded by hostile Venture Co. workers."
+  },
+  {
+   "q": "Why do druids dive into these polluted waters?",
+   "aliases": [
+    "druid quest sludge fen",
+    "aquatic agility half pendant",
+    "aquatic form trial"
+   ],
+   "answer": "Horde druids undergoing the Trial of the Sea Lion are guided to the bottom of the contaminated pool to recover the Half Pendant of Aquatic Agility from a submerged lockbox, testing their endurance against the foul environment."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Sludge Fen stands as a sickening testament to unnatural exploitation. Horde druids journey into its oily depths during the Trial of the Sea Lion to retrieve the Half Pendant of Aquatic Agility."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The Venture Company operates cutting-edge shredders and machinery here, making the site an irresistible target for blueprints, specialized components, and trade theft orchestrated from Ratchet."
+  }
+ ],
+ "keywords": [
+  "oil rig",
+  "shredder",
+  "sludge fen",
+  "sputtervalve",
+  "supervisor lugwizzle",
+  "the barrens",
+  "venture co",
+  "wizzlecrank"
+ ],
+ "related": [
+  "topic:venture-company",
+  "npc:sputtervalve",
+  "quest:114",
+  "quest:858",
+  "quest:31",
+  "subzone:boulder-lode-mine",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Sludge Fen"
+ ]
+}

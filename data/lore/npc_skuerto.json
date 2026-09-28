@@ -1,0 +1,92 @@
+{
+ "key": "npc:skuerto",
+ "type": "npc",
+ "name": "Skuerto",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Skuerto",
+  "refs": 1
+ },
+ "summary": "Skuerto is a dwarven scout stationed at Refuge Pointe in the Arathi Highlands. Displaced from his home in Ironforge during the refugee crisis, he now aids the Alliance in the field, helping secure ancient magical relics on behalf of Archmage Malin.",
+ "sections": [
+  {
+   "title": "A Displaced Scout in the Highlands",
+   "body": "Skuerto previously lived in Ironforge, but was displaced when city authorities made room to house thousands of gnome refugees escaping the radioactive fall of Gnomeregan. Relocating to the field, Skuerto took up work as a scout in the dangerous Arathi Highlands. Stationed alongside Apprentice Kryten at Refuge Pointe, he works under the direction of Archmage Malin to recover arcane reagents and potent magical artifacts that once belonged to Malin's old master, Archmage Trelane.",
+   "spoiler": 0
+  },
+  {
+   "title": "Pride and Peril",
+   "body": "Despite the harsh conditions of the Highlands, Skuerto takes considerable pride in his wilderness scouting and reacts poorly to anyone questioning his competence. His work regularly brushes up against regional perils, from the hostile Syndicate and Boulderfist ogres to dangerous ancient entities tied to the land. Through his extensive travels and network of acquaintances, he maintains ties with diverse figures across the region, including Shakes O'Breen down at Faldir's Cove and Gerrig Bonegrip in the Ironforge forges.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Skuerto stationed in Arathi instead of Ironforge?",
+   "aliases": [
+    "why is skuerto here",
+    "skuerto backstory",
+    "ironforge refugee"
+   ],
+   "answer": "Skuerto used to live in Ironforge, but lost his living space when the city cleared quarters to take in gnome refugees fleeing the disaster at Gnomeregan. Left without a home in the mountain capital, he took employment out in the field as an Alliance scout."
+  },
+  {
+   "q": "What is Skuerto's mission at Refuge Pointe?",
+   "aliases": [
+    "skuerto purpose",
+    "what does skuerto do",
+    "skuerto malin"
+   ],
+   "answer": "Archmage Malin sent Skuerto and Apprentice Kryten to the Arathi Highlands to collect arcane reagents and recover powerful magical artifacts once owned by Malin's former master, Archmage Trelane."
+  },
+  {
+   "q": "Who are Skuerto's allies in the region?",
+   "aliases": [
+    "skuerto friends",
+    "shakes obreen friend"
+   ],
+   "answer": "Beyond working directly with Apprentice Kryten and the Alliance garrison at Refuge Pointe, Skuerto is friends with Shakes O'Breen hiding out at Faldir's Cove, as well as Gerrig Bonegrip in Ironforge."
+  },
+  {
+   "q": "Does Skuerto hold a grudge against gnomes?",
+   "aliases": [
+    "skuerto hates gnomes",
+    "skuerto gnomeregan"
+   ],
+   "answer": "He harbors noticeable bitterness about losing his home in Ironforge to make room for displaced gnomes, though he remains dutifully in service to the Alliance cause out in Arathi."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Skuerto exemplifies the grit of dwarves forced out of the Great Forge into wild frontiers, though his pride as a scout is easily bruised."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnomes may find a chilly reception from Skuerto, who was ousted from his Ironforge lodging when the capital opened its doors to refugees after Gnomeregan fell."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "archmage malin",
+  "ironforge",
+  "refuge pointe",
+  "scout",
+  "skuerto",
+  "trelane"
+ ],
+ "related": [
+  "subzone:refuge-pointe",
+  "zone:arathi",
+  "npc:archmage-malin",
+  "subzone:faldir-s-cove",
+  "npc:gerrig-bonegrip",
+  "zone:ironforge",
+  "zone:gnomeregan",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Skuerto"
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "key": "quest:93746",
+ "type": "quest",
+ "name": "A Firm Response",
+ "era": "forever",
+ "zone": "zephras",
+ "meta": {
+  "ids": [
+   93746
+  ],
+  "level": "9",
+  "faction": "Horde",
+  "start": "Ayessa Dawnsinger",
+  "end": "",
+  "previous": "",
+  "next": "",
+  "wiki": "A Firm Response",
+  "chain": []
+ },
+ "summary": "\"A Firm Response\" is a Horde quest on Zephras Isle issued by Ayessa Dawnsinger. Tensions are boiling over as the mysterious High Order intrudes upon the territory and dealings of the local Windshapers. Ayessa orders a preemptive strike against Belathaan Brightwish on the road to the Shrine of Akir to establish clear boundaries through force.",
+ "sections": [
+  {
+   "title": "Drawing the Line",
+   "body": "The Windshapers of Zephras Isle do not tolerate uninvited scrutiny, especially from an organization as secretive and calculating as the High Order. Prior warnings have gone unheeded, forcing Ayessa Dawnsinger to escalate the matter. To safeguard their interests, she chooses to intercept Belathaan Brightwish in the isolated stretch of road leading north toward the Shrine of Akir, ensuring the altercation stays away from prying eyes in town.",
+   "spoiler": 0
+  },
+  {
+   "title": "Storms on the Road",
+   "body": "Belathaan's excursion north toward the ancient Shrine of Akir raises immediate suspicion, though his exact motives remain unclear. When confronted on the secluded road, the encounter quickly turns hostile, drawing Living Storms into the fray. Defeating these turbulent elementals and humbling Belathaan sends an unmistakable message back to the High Order: interference with the Windshapers will be answered with force.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ayessa Dawnsinger?",
+   "aliases": [
+    "ayessa dawnsinger",
+    "who gives a firm response",
+    "ayessa"
+   ],
+   "answer": "Ayessa Dawnsinger is a questgiver aligned with the Horde and the Windshapers on Zephras Isle. She is protective of their domain and ruthless when handling intruders who meddle in their affairs."
+  },
+  {
+   "q": "Who is Belathaan Brightwish?",
+   "aliases": [
+    "belathaan brightwish",
+    "belthaan",
+    "who is belathaan"
+   ],
+   "answer": "Belathaan Brightwish is an operative tied to the High Order. He is spotted heading alone toward the Shrine of Akir and becomes the target of Ayessa Dawnsinger's attempt to intimidate his organization."
+  },
+  {
+   "q": "What is the High Order?",
+   "aliases": [
+    "high order",
+    "the high order lore",
+    "what is the high order"
+   ],
+   "answer": "The High Order is a faction operating on Zephras Isle whose activities run counter to the local Windshapers. Despite explicit warnings, they continue probing into affairs that do not belong to them."
+  },
+  {
+   "q": "Where is the Shrine of Akir located?",
+   "aliases": [
+    "shrine of akir",
+    "where is shrine of akir",
+    "shrine akir zephras"
+   ],
+   "answer": "The Shrine of Akir lies to the north of town on Zephras Isle. Belathaan is intercepted along the secluded road leading toward this landmark."
+  },
+  {
+   "q": "Why does Ayessa want Belathaan beaten rather than killed?",
+   "aliases": [
+    "kill belathaan",
+    "why spare belathaan",
+    "why just bruises"
+   ],
+   "answer": "Ayessa explicitly aims to send a message rather than start a total war. By battering Belathaan and allowing him to return to his superiors, she hopes to instill fear and respect for the Windshapers' boundaries."
+  },
+  {
+   "q": "What are the Living Storms encountered during this task?",
+   "aliases": [
+    "living storms",
+    "what are living storms"
+   ],
+   "answer": "Living Storms are elemental entities that manifest during the confrontation with Belathaan on the road, reflecting the volatile elemental energies that define Zephras Isle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's presence on Zephras Isle relies on establishing secure positions and keeping rival factions like the High Order from encroaching on allied interests."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The clash with Living Storms on the road highlights the turbulent, untamed elemental air magic pervasive throughout Zephras Isle."
+  }
+ ],
+ "keywords": [
+  "a firm response",
+  "ayessa dawnsinger",
+  "belathaan brightwish",
+  "high order",
+  "living storms",
+  "shrine of akir",
+  "windshapers",
+  "zephras isle"
+ ],
+ "related": [
+  "npc:ayessa-dawnsinger",
+  "zone:zephras"
+ ],
+ "attribution": [
+  "A Firm Response"
+ ]
+}

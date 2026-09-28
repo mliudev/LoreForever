@@ -1,0 +1,116 @@
+{
+ "key": "quest:146",
+ "type": "quest",
+ "name": "Messenger to Darkshire",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   146
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Lord Ello Ebonlocke",
+  "end": "Magistrate Solomon",
+  "previous": "Messenger to Darkshire",
+  "next": null,
+  "wiki": "Messenger to Darkshire (2)",
+  "chain": []
+ },
+ "summary": "Messenger to Darkshire concludes the desperate diplomatic correspondence between Lakeshire and Darkshire. Magistrate Solomon's plea for military reinforcement is firmly rejected by Lord Ello Ebonlocke, exposing the bitter truth that both towns have been abandoned to their fates by Stormwind.",
+ "sections": [
+  {
+   "title": "A Desperate Request Denied",
+   "body": "Facing an onslaught of Blackrock orcs and gnolls, Magistrate Solomon of Redridge hoped his old peer in Duskwood could spare troops. But Lord Ello Ebonlocke's reaction is bordering on outrage. Darkshire is barely holding back the living dead, ravenous beasts, and cursed magic pressing in from every corner of the woods. Ebonlocke bluntly states that the Night Watch exists only because Stormwind abandoned Duskwood first. Stripping Darkshire of its defenders would ensure the settlement falls before the patrol even crosses the forest's edge.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Pattern of Abandonment",
+   "body": "When Solomon reads Ebonlocke's reply, the harsh reality of the kingdom sets in. The Stormwind Army pulled out of Westfall, left Darkshire to fend for itself, and has now ignored Lakeshire's calls for aid. Solomon is forced to confront what local leaders across the kingdom have begun whispering: this is not mere bureaucratic oversight or incompetence, but suspected treachery lurking at the heart of Stormwind itself.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why won't Lord Ebonlocke send the Night Watch to help Lakeshire?",
+   "aliases": [
+    "why ebonlocke refuse",
+    "why no night watch for lakeshire",
+    "darkshire refuses help"
+   ],
+   "answer": "Darkshire is besieged on all sides by undead, beasts, and foul sorcery. The Night Watch is an irregular local militia created precisely because Stormwind withdrew its garrisons. If Ebonlocke sent his guards to Redridge, Darkshire would be overrun before the troops even made it past the forest's edge."
+  },
+  {
+   "q": "What does Magistrate Solomon realize upon reading the response?",
+   "aliases": [
+    "solomon reaction",
+    "what does solomon realize"
+   ],
+   "answer": "Solomon realizes that Lakeshire's plight is part of a kingdom-wide crisis. With the army having retreated from Westfall and the guard completely gone from Darkshire, Solomon suspects active treachery within Stormwind's leadership rather than simple neglect."
+  },
+  {
+   "q": "Who formed the Night Watch?",
+   "aliases": [
+    "night watch origins",
+    "who made night watch"
+   ],
+   "answer": "The Night Watch was assembled by the beleaguered citizens and leaders of Duskwood, led by Lord Ello Ebonlocke, after Stormwind's official forces abandoned the territory to darkness and rot."
+  },
+  {
+   "q": "Where does Solomon go from here to get help?",
+   "aliases": [
+    "what does solomon do next",
+    "who else can help lakeshire"
+   ],
+   "answer": "With Darkshire refusing aid and Westfall overrun by the Defias Brotherhood, Lakeshire stands entirely alone. Solomon is forced to look closer at the palace court in Stormwind to find out why the crown refuses to protect its outlying territories."
+  },
+  {
+   "q": "Did Stormwind officially pull out of Duskwood and Westfall?",
+   "aliases": [
+    "why did stormwind leave",
+    "stormwind abandoned towns"
+   ],
+   "answer": "Yes. As dark magic corrupted Duskwood and unrest erupted in Westfall, regular Stormwind forces withdrew, leaving the frontier towns to raise local militias like the Night Watch and the People's Militia to survive."
+  },
+  {
+   "q": "What is the relation between Solomon and Ebonlocke?",
+   "aliases": [
+    "are solomon and ebonlocke friends",
+    "solomon and ello relationship"
+   ],
+   "answer": "They are long-standing peers and fellow magistrates governing frontier towns of the kingdom. Solomon counted on this personal relationship when asking for troops, but the sheer severity of Duskwood's perils made compliance impossible."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This dispatch exposes the deep cracks fracturing the southern kingdom, as peripheral Alliance settlements find themselves discarded and defenseless."
+  },
+  {
+   "target": "race:Human",
+   "text": "For human travelers, the correspondence is a sobering illustration of how isolated the towns of the realm have become while the royal court looks the other way."
+  }
+ ],
+ "keywords": [
+  "darkshire",
+  "ebonlocke",
+  "lakeshire",
+  "messenger",
+  "night watch",
+  "solomon",
+  "stormwind"
+ ],
+ "related": [
+  "quest:145",
+  "npc:lord-ello-ebonlocke",
+  "npc:magistrate-solomon",
+  "topic:night-watch",
+  "subzone:darkshire",
+  "subzone:lakeshire",
+  "zone:duskwood",
+  "topic:stormwind-army"
+ ],
+ "attribution": [
+  "Messenger to Darkshire (2)"
+ ]
+}

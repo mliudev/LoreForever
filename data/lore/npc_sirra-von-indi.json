@@ -1,0 +1,120 @@
+{
+ "key": "npc:sirra-von-indi",
+ "type": "npc",
+ "name": "Sirra Von'Indi",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Sirra Von'Indi",
+  "refs": 3
+ },
+ "summary": "Sirra Von'Indi is the resident historian of Darkshire, stationed within the town hall amid stacks of forgotten records. Versed in ancient languages and local history, he assists the township in deciphering mysterious documents and uncovering the dark past of Duskwood.",
+ "sections": [
+  {
+   "title": "The Town Historian",
+   "body": "Sirra Von'Indi serves as Darkshire's foremost scholar, keeping watch over the settlement's archives from inside the Darkshire Town Hall. While the town guard focuses on the immediate threats lurking in the woods, Sirra turns his attention to the written word, translating cryptic texts and preserving the fading history of Grand Hamlet before the shadow fell across the region.",
+   "spoiler": 0
+  },
+  {
+   "title": "Deciphering the Hermit's Words",
+   "body": "When town leadership becomes suspicious of the hermit Abercrombie living out on the lonesome hills of Duskwood, Sirra is called upon to translate the recluse's mysterious notes. His linguistic expertise allows the council to read between the lines of seemingly innocuous requests, unraveling the bizarre inquiries arriving from the haunted woods.",
+   "spoiler": 1
+  },
+  {
+   "title": "Tragedies of the Past",
+   "body": "Beyond routine translations, Sirra plays a crucial role in shedding light on the sorrowful history of Duskwood. Inquirers seeking to understand the mysterious weathered grave in the town cemetery find Sirra to be one of the few souls who remembers the tragic downfall of the paladin Morgan Ladimore, providing travelers with the context needed to lay restless spirits to peace.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sirra Von'Indi?",
+   "aliases": [
+    "who is sirra",
+    "sirra von'indi lore",
+    "darkshire historian"
+   ],
+   "answer": "Sirra Von'Indi is a human scholar and the official historian of Darkshire. He spends his days inside the Darkshire Town Hall studying ancient arts, translating obscure languages, and keeping the town's historical records."
+  },
+  {
+   "q": "Where can Sirra Von'Indi be found?",
+   "aliases": [
+    "where is sirra",
+    "sirra von'indi location",
+    "find sirra darkshire"
+   ],
+   "answer": "He can be found inside the Darkshire Town Hall in the settlement of Darkshire, located in central Duskwood. He is typically standing among desks and bookshelves consulting historical texts."
+  },
+  {
+   "q": "What role does he play with Abercrombie's note?",
+   "aliases": [
+    "abercrombie letter translator",
+    "translate abercrombie note",
+    "sirra note translation"
+   ],
+   "answer": "When Mayor Ello Ebonlocke suspects the eccentric hermit Abercrombie of hiding his true intentions, Sirra uses his linguistic skills to translate a strange note provided by the hermit, helping the council understand Abercrombie's odd demands."
+  },
+  {
+   "q": "What does Sirra know about Morgan Ladimore?",
+   "aliases": [
+    "sirra weathered grave",
+    "morgan ladimore lore sirra",
+    "story of the weathered grave"
+   ],
+   "answer": "Sirra is one of the few residents in Darkshire who knows the full history of Morgan Ladimore, the fallen paladin buried in the Weathered Grave. He helps recount Ladimore's descent into madness and tragedy after the Third War."
+  },
+  {
+   "q": "Is Sirra related to anyone in Karazhan?",
+   "aliases": [
+    "lady catriona von'indi",
+    "von'indi family",
+    "karazhan connection"
+   ],
+   "answer": "Sirra shares his uncommon surname with Lady Catriona Von'Indi, a spectral noblewoman haunting the nearby tower of Karazhan in Deadwind Pass, suggesting his family has longstanding ties to the nobility of the region."
+  },
+  {
+   "q": "Why does Sirra make travelers wait while translating?",
+   "aliases": [
+    "why is sirra busy",
+    "wait for sirra to finish",
+    "sirra translating wait"
+   ],
+   "answer": "Deciphering obscure dialects and archaic handwriting is meticulous work. Sirra often asks travelers to give him time while he cross-references references and finishes a reliable translation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Mages visiting Darkshire often appreciate Sirra's academic discipline, as his focus on ancient languages and historical study mirrors the archival research practiced in the Kirin Tor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Sirra represents the surviving civic institution of Darkshire, helping maintain the heritage of the Kingdom of Stormwind in a province otherwise consumed by darkness."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "darkshire",
+  "duskwood",
+  "historian",
+  "morgan ladimore",
+  "sirra",
+  "town hall",
+  "translation",
+  "von'indi",
+  "weathered grave"
+ ],
+ "related": [
+  "subzone:darkshire-town-hall",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "quest:251",
+  "quest:401",
+  "quest:252",
+  "npc:abercrombie",
+  "subzone:karazhan"
+ ],
+ "attribution": [
+  "Sirra Von'Indi"
+ ]
+}

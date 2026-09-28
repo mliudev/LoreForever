@@ -1,0 +1,88 @@
+{
+ "key": "subzone:demont-s-place",
+ "type": "subzone",
+ "name": "Demont's Place",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Demont's Place"
+ },
+ "summary": "Demont's Place is a ruined homestead nestled in southwestern Westfall, just west of the forsaken town of Moonbrook. Once a working agricultural plot, the farm was driven to ruin alongside the rest of the region and claimed by the rogue agents of the Defias Brotherhood. Today, its weathered fences and empty fields stand as another casualty of the realm's fading prosperity.",
+ "sections": [
+  {
+   "title": "A Ruined Homestead",
+   "body": "Situated within sight of Moonbrook and the rotting expanse of the Dead Acre, Demont's Place was once among the private family holdings feeding the Kingdom of Stormwind. Economic collapse and the sudden rise of outlaw brigands stripped the farm of its livelihood, forcing out its original caretakers. Much like its neighboring fields, the plot has degenerated into a rough hideout, overrun by outlaws using its weathered grounds as an extension of the Defias stronghold in Moonbrook.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Grip of the Brotherhood",
+   "body": "Because of its close proximity to Moonbrook, Demont's Place serves the Defias Brotherhood as an operational outpost on the outskirts of their regional center. Thugs, cutpurses, and displaced laborers linger among the fences and shattered structures, ambushing travelers who wander off the southern roads. Until Moonbrook is reclaimed and the outlaws broken, the ground remains far too dangerous for peaceful farming to ever return.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Demont's Place located?",
+   "aliases": [
+    "demont's place location",
+    "where is demonts place",
+    "demonts place map"
+   ],
+   "answer": "Demont's Place is situated in southwestern Westfall, immediately west of the abandoned town of Moonbrook and near the blighted fields of the Dead Acre."
+  },
+  {
+   "q": "Who owns Demont's Place?",
+   "aliases": [
+    "who owns demonts place",
+    "who is demont",
+    "demont farm owner"
+   ],
+   "answer": "The farm likely belonged to a settler named Demont before the peasant unrest and economic troubles swept the countryside. Any original inhabitants have long since fled or perished, leaving the ruined acreage to brigands."
+  },
+  {
+   "q": "Who currently occupies the farm?",
+   "aliases": [
+    "who is at demonts place",
+    "what enemies are at demonts place",
+    "demonts place mobs"
+   ],
+   "answer": "The homestead is currently infested by members of the Defias Brotherhood, who use the decrepit grounds as a peripheral staging point outside their base of operations in Moonbrook."
+  },
+  {
+   "q": "Can the farm be restored to production?",
+   "aliases": [
+    "can you fix demonts place",
+    "is demonts place abandoned"
+   ],
+   "answer": "Not under current conditions. With the Defias actively entrenched throughout southern Westfall and Stormwind unable to spare garrison troops, the homestead remains far too dangerous for ordinary tillers to rebuild."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance travelers, Demont's Place is a grim reminder of how far order has retreated from Westfall, with former farmland actively held by Defias outlaws right under the kingdom's nose."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "The sprawling ruined plots around Moonbrook, including Demont's Place, offer a stark look at the lawless network established by the Defias Brotherhood across the countryside."
+  }
+ ],
+ "keywords": [
+  "dead acre",
+  "defias",
+  "defias brotherhood",
+  "demont's place",
+  "demonts place",
+  "farmstead",
+  "moonbrook",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall",
+  "subzone:moonbrook",
+  "subzone:dead-acre"
+ ],
+ "attribution": [
+  "Demont's Place"
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "key": "npc:willem",
+ "type": "npc",
+ "name": "Willem",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "wiki": "Willem",
+  "refs": 3
+ },
+ "summary": "Deputy Willem is a human soldier of the Stormwind Army stationed directly outside Northshire Abbey. Serving under Marshal McBride, he acts as the primary field liaison directing new recruits to handle local threats in Northshire Valley. His immediate focus is suppressing the growing encroachment of the Defias Brotherhood.",
+ "sections": [
+  {
+   "title": "A Watchman at the Abbey",
+   "body": "Standing just steps from the gates of Northshire Abbey, Deputy Willem represents the frontline presence of the Stormwind Army in the valley. With the kingdom's military stretched thin across multiple territories, local security falls heavily on small detachments like McBride's garrison. Willem evaluates incoming volunteers, assigning them immediate tasks to assist local residents and safeguard the valley's perimeter.",
+   "spoiler": 0
+  },
+  {
+   "title": "Confronting the Defias",
+   "body": "Willem's most pressing concern is the brazen activity of the Defias Brotherhood. Bandits sporting red bandanas have pushed directly into Northshire, stealing supplies, menacing local farmers like Milly Osworth, and establishing footholds around the surrounding vineyards and hills. Willem coordinates bounties on known cutthroats such as Garrick Padfoot to break their leadership before they can seize the abbey grounds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Deputy Willem?",
+   "aliases": [
+    "who is willem",
+    "deputy willem role",
+    "willem northshire"
+   ],
+   "answer": "Deputy Willem is an officer of the Stormwind Army stationed at Northshire Abbey in Elwynn Forest. Serving under Marshal McBride, he coordinates new recruits to defend the valley against local threats."
+  },
+  {
+   "q": "Who does Deputy Willem report to?",
+   "aliases": [
+    "willem commander",
+    "who is willems boss",
+    "willem leader"
+   ],
+   "answer": "He reports directly to Marshal McBride, the senior commander responsible for the defense and military operations within Northshire Valley."
+  },
+  {
+   "q": "Why is Willem issuing bounties on the Defias?",
+   "aliases": [
+    "why defias bounty",
+    "willem red bandanas",
+    "willem defias"
+   ],
+   "answer": "The Defias Brotherhood has infiltrated Northshire Valley, threatening the abbey and terrorizing local laborers. Willem enlists adventurers to cut down their numbers and eliminate leaders like Garrick Padfoot to restore order."
+  },
+  {
+   "q": "Where can Deputy Willem be found?",
+   "aliases": [
+    "willem location",
+    "where is deputy willem",
+    "find willem"
+   ],
+   "answer": "Willem stands outside the main entrance of Northshire Abbey in northern Elwynn Forest, greeting travelers and recruits as they step out into the courtyard."
+  },
+  {
+   "q": "How does Willem assist the local workers?",
+   "aliases": [
+    "willem milly osworth",
+    "willem eagan",
+    "willem quests"
+   ],
+   "answer": "Willem directs able-bodied fighters to assist residents whose livelihoods are threatened, sending recruits to aid figures such as the orchardist Milly Osworth and the peltskinner Eagan."
+  },
+  {
+   "q": "Why are troops like Willem struggling to maintain order alone?",
+   "aliases": [
+    "why is stormwind army weak",
+    "why northshire undefended",
+    "stormwind manpower northshire"
+   ],
+   "answer": "Stormwind is suffering from internal strain, political tension, and distant military commitments. With King Varian missing, garrisons like Northshire must rely on untested recruits and volunteers to handle domestic unrest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans stepping out of Northshire Abbey into the world, Deputy Willem is often the very first military officer to welcome them into service for the kingdom of Stormwind."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Willem serves as an initial touchpoint for the Alliance's domestic security, demonstrating how deeply the Defias unrest threatens even the peaceful heartland of Elwynn."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Warrior recruits find in Deputy Willem a practical field liaison who directs their martial strength toward clearing out bandits and restoring order to the realm."
+  }
+ ],
+ "keywords": [
+  "defias",
+  "deputy willem",
+  "elwynn forest",
+  "garrick padfoot",
+  "marshal mcbride",
+  "northshire",
+  "northshire abbey",
+  "willem"
+ ],
+ "related": [
+  "npc:marshal-mcbride",
+  "subzone:northshire-valley",
+  "quest:783",
+  "quest:18",
+  "quest:6",
+  "topic:defias-brotherhood",
+  "topic:stormwind-army",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Willem"
+ ]
+}

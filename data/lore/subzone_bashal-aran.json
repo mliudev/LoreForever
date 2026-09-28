@@ -1,0 +1,95 @@
+{
+ "key": "subzone:bashal-aran",
+ "type": "subzone",
+ "name": "Bashal'Aran",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Bashal'Aran"
+ },
+ "summary": "Bashal'Aran is an ancient Highborne ruin situated in northern Darkshore, just east of Auberdine. Once a flourishing sister city to Ameth'Aran before the Great Sundering, the site now crawls with demonic satyrs and grells feeding on lingering arcane magic, while a solitary elven ghost remains trapped by a centuries-old curse.",
+ "sections": [
+  {
+   "title": "A Shattered Twin City",
+   "body": "Before the Great Sundering broke ancient Kalimdor ten thousand years ago, Queen Azshara settled favored Highborne subjects in the twin towns of Bashal'Aran and Ameth'Aran. Governed by the powerful mage Athrikus Narassin, the cities boasted splendid markets and temples dedicated to Elune. When the Well of Eternity collapsed, the cataclysm laid both settlements to waste. For reasons lost to time, Athrikus used his arcane mastery to bind his own second-in-command, the mage Asterion, into a moonstone seal within Bashal'Aran. Even after his physical body perished, Asterion's ghost remained shackled to the ruined shrine.",
+   "spoiler": 0
+  },
+  {
+   "title": "Demonic Infestation",
+   "body": "In the modern day, the crumbled stones of Bashal'Aran have been claimed by vile squatters: the Deth'ryll satyrs and mischievous grells. Drawn by residual magic clinging to the ancient masonry, these corrupted beings drink in the lingering energy to bolster their foul arts. Though they swarm the broken courtyards and terrorize travelers along Darkshore's forest paths, the demons give a wide berth to the central shrine where Asterion endures his endless vigil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Bashal'Aran before it was destroyed?",
+   "aliases": [
+    "bashal'aran history",
+    "who built bashal'aran",
+    "what was this ruin"
+   ],
+   "answer": "Bashal'Aran was a magnificent Kaldorei city established by Queen Azshara for favored Highborne aristocrats before the Great Sundering. Along with its twin city of Ameth'Aran, it was governed by the mage-lord Athrikus Narassin."
+  },
+  {
+   "q": "Who is the ghost wandering the shrine?",
+   "aliases": [
+    "who is asterion",
+    "bashal'aran ghost",
+    "why is there a ghost"
+   ],
+   "answer": "The spirit is Asterion, a respected Highborne warrior-mage who once oversaw both Bashal'Aran and Ameth'Aran. He was mysteriously betrayed and bound to the site with a moonstone seal by his governor, Athrikus Narassin, enduring imprisonment even beyond mortal death."
+  },
+  {
+   "q": "Why are satyrs inhabiting the ruins?",
+   "aliases": [
+    "why are there satyrs here",
+    "deth'ryll satyr lore",
+    "grells at bashal'aran"
+   ],
+   "answer": "Satyrs and grells were lured to Bashal'Aran by the remnants of powerful arcane energy left behind by the ancient Highborne. They feast on these lingering magical emanations to empower their dark demonic magic."
+  },
+  {
+   "q": "How does Bashal'Aran relate to Ameth'Aran?",
+   "aliases": [
+    "ameth'aran connection",
+    "twin cities darkshore",
+    "ameth'aran bashal'aran"
+   ],
+   "answer": "Bashal'Aran and Ameth'Aran were sister cities governed together under Queen Azshara's reign. Asterion made frequent journeys between both settlements to tend to the people's needs before both were shattered by the Sundering."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Bashal'Aran serves as a tragic reminder of the reckless arcane hubris that doomed the ancient Kaldorei Empire and paved the way for demonic corruption."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The moonstone ward binding Asterion showcases the terrifying permanence and potency of pre-Sundering Highborne spellcraft."
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "asterion",
+  "athrikus narassin",
+  "bashal'aran",
+  "darkshore",
+  "deth'ryll",
+  "grell",
+  "highborne",
+  "satyr"
+ ],
+ "related": [
+  "zone:darkshore",
+  "subzone:ameth-aran",
+  "npc:asterion",
+  "quest:954",
+  "topic:highborne",
+  "topic:satyr",
+  "topic:elune",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Bashal'Aran"
+ ]
+}

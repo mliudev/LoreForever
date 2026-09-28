@@ -1,0 +1,115 @@
+{
+ "key": "quest:37",
+ "type": "quest",
+ "name": "Find the Lost Guards",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   37
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Guard Thomas",
+  "end": "A half-eaten body",
+  "previous": "Further Concerns",
+  "next": "Discover Rolf's Fate",
+  "wiki": "Find the Lost Guards",
+  "chain": []
+ },
+ "summary": "Find the Lost Guards is an investigation tasked by Guard Thomas at the eastern bridge in Elwynn Forest. Dispatched to patrol the riverbanks against encroaching murlocs, guards Rolf and Malakai have gone missing, leaving Thomas in desperate need of confirmation on their fates.",
+ "sections": [
+  {
+   "title": "A Patrol Vanished",
+   "body": "Guard Thomas stands vigil at the eastern crossing of Elwynn Forest, where the King's road approaches Redridge. The local waters have grown increasingly treacherous with murloc incursions. Days prior, Thomas dispatched two Stormwind guards, Rolf and Malakai, northward along the riverbanks to scout the threat and clear out nests. When neither soldier returned, Thomas had to accept that something violent had interrupted their mission.",
+   "spoiler": 0
+  },
+  {
+   "title": "Grim Discovery",
+   "body": "Following the river north toward the shores of Stonebull Lake leads directly into swarming murloc territory. Along the water's edge, adventurers discover a gruesome scene: a half-eaten corpse left in the mud. Discarded beside the mauled remains lies an engraved medallion bearing the name Footman Malakai Stone, confirming the grim fate of one guard and leaving the whereabouts of Rolf still unresolved.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gave this quest and where are they located?",
+   "aliases": [
+    "quest giver",
+    "where is guard thomas",
+    "who starts find the lost guards"
+   ],
+   "answer": "Guard Thomas assigns this task. He is stationed along the river on the eastern border of Elwynn Forest, guarding the bridge that leads toward Redridge Mountains."
+  },
+  {
+   "q": "Who are the missing guards?",
+   "aliases": [
+    "missing guards elwynn",
+    "who are rolf and malakai",
+    "lost guards names"
+   ],
+   "answer": "The missing men are Rolf and Malakai, two Stormwind city footmen sent by Guard Thomas to scout the riverbanks and monitor aggressive murloc activity."
+  },
+  {
+   "q": "Where are the remains found?",
+   "aliases": [
+    "where is malakai corpse",
+    "half-eaten body location",
+    "lost guards location"
+   ],
+   "answer": "The half-eaten remains of Footman Malakai Stone lie on the eastern bank of the river just north of Guard Thomas's post, near the outskirts of a murloc settlement."
+  },
+  {
+   "q": "What killed Malakai?",
+   "aliases": [
+    "how did malakai die",
+    "who killed the guards"
+   ],
+   "answer": "Malakai was overrun and eaten by the local river murlocs that have infested the shores of eastern Elwynn Forest."
+  },
+  {
+   "q": "What happened to Rolf?",
+   "aliases": [
+    "where is rolf",
+    "did rolf survive"
+   ],
+   "answer": "Malakai's remains are found alone by the river. Rolf's fate remains an open mystery that requires further tracking deeper into the murloc camps."
+  },
+  {
+   "q": "Why were the guards sent out alone?",
+   "aliases": [
+    "why were they sent",
+    "stormwind guard shortage"
+   ],
+   "answer": "With Stormwind's military stretched thin across multiple territories, small garrisons like Guard Thomas's post must rely on minimal two-man patrols to monitor wilderness borders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The grim loss of footmen so close to Stormwind underscores how vulnerable Elwynn's outer borders have become to beast and murloc attacks."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Honoring fallen defenders and recovering their personal insignia brings closure and justice to the soldiers guarding the kingdom's frontier."
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "find the lost guards",
+  "guard thomas",
+  "half-eaten body",
+  "malakai",
+  "malakai stone",
+  "murlocs",
+  "rolf"
+ ],
+ "related": [
+  "npc:guard-thomas",
+  "quest:35",
+  "quest:45",
+  "zone:elwynn"
+ ],
+ "attribution": [
+  "Find the Lost Guards"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "key": "npc:hands-springsprocket",
+ "type": "npc",
+ "name": "Hands Springsprocket",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Hands Springsprocket",
+  "refs": 1
+ },
+ "summary": "Hands Springsprocket is an industrious gnome stationed at the entrance of Coldridge Pass in Dun Morogh. He coordinates shipments between the secluded training grounds of Coldridge Valley and the town of Kharanos, though recent trogg incursions have severely hampered his efforts.",
+ "sections": [
+  {
+   "title": "A Bottleneck in the Pass",
+   "body": "Perched at the mouth of Coldridge Pass, Hands Springsprocket finds his regular supply runs thoroughly disrupted. He routinely delivers provisions to the Thunderbrew distillery and the inn in Kharanos, but hostile Rockjaw troggs have overrun the subterranean tunnel leading out of the valley. With trade and foot traffic halted by the beasts, Hands is forced to rely on capable travelers to carry essential crates through the dangerous mountain corridor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hands Springsprocket?",
+   "aliases": [
+    "who is hands springsprocket",
+    "hands springsprocket lore",
+    "who is this gnome"
+   ],
+   "answer": "He is an Alliance-aligned gnome stationed in Coldridge Valley just outside the entrance to Coldridge Pass, responsible for ferrying supplies to the lower reaches of Dun Morogh."
+  },
+  {
+   "q": "Why does he need help moving supplies?",
+   "aliases": [
+    "why does hands need help",
+    "coldridge pass supplies",
+    "why are supplies stuck"
+   ],
+   "answer": "The pass connecting Coldridge Valley to the rest of Dun Morogh has been infested by vicious Rockjaw troggs, making routine transport too hazardous without armed escorts or capable adventurers."
+  },
+  {
+   "q": "Where are his supplies destined?",
+   "aliases": [
+    "where do supplies go",
+    "hands supply route",
+    "who gets the crate"
+   ],
+   "answer": "He arranges regular shipments to Kharanos, including goods intended for Tannok Frosthammer and the local innkeepers who rely on regular provisions from across the snowy peaks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomish refugees displaced from Gnomeregan, Hands represents the quiet determination of gnomes integrating into Dun Morogh's local trade and logistics alongside their dwarven allies."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Hands keeps vital internal supply lines moving between the dwarven military recruits in Coldridge Valley and the settlements deeper within Dun Morogh."
+  }
+ ],
+ "keywords": [
+  "coldridge pass",
+  "coldridge valley",
+  "dun morogh",
+  "hands springsprocket",
+  "kharanos",
+  "springsprocket",
+  "supplies to tannok"
+ ],
+ "related": [
+  "subzone:coldridge-pass",
+  "subzone:coldridge-valley",
+  "quest:2160",
+  "subzone:kharanos",
+  "zone:dunmorogh",
+  "topic:trogg",
+  "topic:gnome",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Hands Springsprocket"
+ ]
+}

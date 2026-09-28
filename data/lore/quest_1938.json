@@ -1,0 +1,129 @@
+{
+ "key": "quest:1938",
+ "type": "quest",
+ "name": "Ur's Treatise on Shadow Magic",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1938
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "High Sorcerer Andromath",
+  "end": "",
+  "previous": "High Sorcerer Andromath (quest)",
+  "next": "Pristine Spider Silk (quest)",
+  "wiki": "Ur's Treatise on Shadow Magic (quest)",
+  "chain": []
+ },
+ "summary": "Ur's Treatise on Shadow Magic is a quest given by High Sorcerer Andromath in the Mage Quarter of Stormwind. He charges adventurers with recovering a forbidden, magically sealed tome from the renegade mage Morganth, who fled with it to the Tower of Ilgalar in the Redridge Mountains.",
+ "sections": [
+  {
+   "title": "A Schism in the Tower",
+   "body": "Long ago, three promising mages studied together within the Wizard's Sanctum of Stormwind. Over time, one of them, Morganth, succumbed to the temptations of dark arts and shadow magic. Despite desperate warnings from his peers urging him to turn away from such corrupting power, he refused to abandon his obsession. He was formally banished from the city's magical order, but he did not leave empty-handed\u2014he stole a dangerous work penned by Ur, an infamous archmage whose studies ventured beyond orthodox arcana.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fallen Mage's Lair",
+   "body": "Morganth established a new redoubt far from Stormwind's scrutiny, seizing the Tower of Ilgalar in the heights of the Redridge Mountains. High Sorcerer Andromath cannot allow such hazardous knowledge to remain in the hands of an outcast practicing forbidden sorcery. Tasking Alliance adventurers with breaching the tower's defenses, Andromath seeks the recovery of the tome before its wards fall.",
+   "spoiler": 0
+  },
+  {
+   "title": "Intact Wards",
+   "body": "Upon recovering the treatise from Ilgalar's library and returning it to the Wizard's Sanctum, Andromath is greatly relieved. He feared Morganth had already unraveled its protective enchantments or hidden it beyond reach. Fortunately, the magical seals placed upon Ur's treatise held firm, preventing the rogue sorcerer from unleashing the catastrophic secrets bound within its pages.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote the treatise?",
+   "aliases": [
+    "who is ur",
+    "author of the treatise",
+    "urs treatise author"
+   ],
+   "answer": "The treatise was penned by Ur, a legendary Dalaran mage renowned for his esoteric research into extra-planar entities and shadow magic."
+  },
+  {
+   "q": "Who stole Ur's Treatise on Shadow Magic?",
+   "aliases": [
+    "who stole the book",
+    "who took the treatise",
+    "morganth book"
+   ],
+   "answer": "Morganth, a former mage of Stormwind, stole the book when he fell to dark magic and was banished from the Wizard's Sanctum."
+  },
+  {
+   "q": "Where is the book kept?",
+   "aliases": [
+    "where is the treatise",
+    "tower of ilgalar book location",
+    "where is urs treatise found"
+   ],
+   "answer": "The book is kept in the library within the Tower of Ilgalar, perched high in the Redridge Mountains where Morganth established his new sanctuary."
+  },
+  {
+   "q": "Did Morganth manage to read the book?",
+   "aliases": [
+    "did morganth open the book",
+    "was the treatise opened",
+    "are the seals broken"
+   ],
+   "answer": "No. When the treatise is returned to High Sorcerer Andromath, he confirms that the protective seals placed upon the book held firm, meaning Morganth never managed to open it."
+  },
+  {
+   "q": "Why do the mages of Stormwind want the book back?",
+   "aliases": [
+    "why recover the book",
+    "why is the treatise dangerous",
+    "andromath goal"
+   ],
+   "answer": "The tome contains profound secrets of shadow magic that can bring ruin to the untrained. Stormwind's mages consider it far too perilous to leave in the hands of a renegade like Morganth."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "where to get urs treatise quest",
+    "andromath quest"
+   ],
+   "answer": "The quest is offered by High Sorcerer Andromath, located inside the Wizard's Sanctum in the Mage Quarter of Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Stormwind's mages take internal disciplinary matters seriously, tasking trusted practitioners with cleaning up the dangerous fallout of a peer turned to forbidden shadow magic."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "While the Kirin Tor and Stormwind's mages fear Ur's treatises on the shadows, warlocks frequently covet the very powers of extra-planar summoning and dark casting sealed within."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Recovering the stolen tome secures the borders of Redridge from Morganth's growing magical menace while protecting the kingdom of Stormwind from rogue arcana."
+  }
+ ],
+ "keywords": [
+  "andromath",
+  "ilgalar",
+  "morganth",
+  "shadow magic",
+  "stormwind",
+  "treatise",
+  "ur",
+  "wizards sanctum"
+ ],
+ "related": [
+  "quest:1939",
+  "quest:249",
+  "subzone:tower-of-ilgalar",
+  "quest:115",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Ur's Treatise on Shadow Magic (quest)"
+ ]
+}

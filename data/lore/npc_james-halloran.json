@@ -1,0 +1,112 @@
+{
+ "key": "npc:james-halloran",
+ "type": "npc",
+ "name": "James Halloran",
+ "era": "classic",
+ "zone": "wetlands",
+ "meta": {
+  "wiki": "James Halloran",
+  "refs": 3
+ },
+ "summary": "James Halloran is a human tanner working out of the Wetlands to supply fine hides across the eastern continents. Situated near Swiftgear Station, he makes a living harvesting the tough, prized skins of the region's native crocolisks. He relies on passing travelers and nearby trade channels to gather raw materials and transport his finished leathers to market.",
+ "sections": [
+  {
+   "title": "A Tanner in the Marshes",
+   "body": "While most humans in the Wetlands cling to the stone ramparts and docks of Menethil Harbor, James Halloran makes his living out in the marshland. As an enterprising tanner, Halloran recognized that the perilous bogs offer a lucrative commodity: crocolisk skins. Transforming the rugged hide of marsh reptiles into high-quality leather requires rare craftsmanship, and Halloran's finished goods are shipped out through local trade channels to buyers all across Azeroth.",
+   "spoiler": 0
+  },
+  {
+   "title": "Hides, Apprentices, and Daily Trade",
+   "body": "Operating so close to the marsh comes with constant danger. Halloran cannot easily hunt every beast himself while tending to curing vats and trade logistics. He frequently hires hardy travelers to handle the rougher chores of skinning young marsh beasts and managing routine deliveries between his work site and surrounding settlements, ensuring his bustling leather craft stays fully supplied.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is James Halloran?",
+   "aliases": [
+    "james halloran",
+    "halloran",
+    "who is halloran",
+    "wetlands tanner"
+   ],
+   "answer": "James Halloran is a human tanner based in the Wetlands near Swiftgear Station. He specializes in hunting and skinning the region's indigenous crocolisks, curing their tough hides into leather goods that are exported across the world."
+  },
+  {
+   "q": "Where does James Halloran sell his leather?",
+   "aliases": [
+    "halloran leather trade",
+    "where do crocolisk skins go",
+    "halloran business"
+   ],
+   "answer": "Halloran processes raw crocolisk skins into fine leathers and ships them throughout Azeroth. He relies heavily on the maritime trade passing through Menethil Harbor to distribute his wares across the seas."
+  },
+  {
+   "q": "Why does Halloran need adventurers to collect young crocolisk skins?",
+   "aliases": [
+    "why kill young crocolisks",
+    "young crocolisk skins quest",
+    "crocolisk hides halloran"
+   ],
+   "answer": "Curing and tanning leather is time-consuming, labor-intensive work. Halloran employs traveling adventurers to cull the local marsh crocolisks and strip their hides so that he has a steady supply of raw material without abandoning his workshop."
+  },
+  {
+   "q": "What is Halloran's connection to Menethil Harbor?",
+   "aliases": [
+    "halloran menethil",
+    "halloran port connection",
+    "does halloran live in menethil"
+   ],
+   "answer": "Menethil Harbor serves as the primary trade and supply hub for the region. Halloran relies on the harbor and its shipping lanes to export his cured hides to distant markets and keep his tanning business viable."
+  },
+  {
+   "q": "Where can James Halloran be found?",
+   "aliases": [
+    "halloran location",
+    "where is james halloran",
+    "find halloran"
+   ],
+   "answer": "Halloran is stationed along the road near Swiftgear Station in the central Wetlands, positioned between the busy port of Menethil Harbor and the inland hills of the marsh."
+  },
+  {
+   "q": "Does Halloran have an apprentice?",
+   "aliases": [
+    "halloran apprentice",
+    "apprentice duties halloran",
+    "who works for halloran"
+   ],
+   "answer": "Yes, Halloran relies on help to manage the trade, tasking apprentices and traveling couriers with daily chores, errands, and delivery runs between his post and nearby settlements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Halloran's trade helps sustain the commercial presence of the Alliance in the rugged Wetlands, supplying valuable crafted leather to towns across the kingdom."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters navigating the sodden marshes will find common ground with Halloran, whose livelihood depends on stalking and harvesting the wetlands' aggressive reptilian predators."
+  }
+ ],
+ "keywords": [
+  "crocolisk",
+  "halloran",
+  "james halloran",
+  "leatherworking",
+  "menethil harbor",
+  "swiftgear station",
+  "tanner",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:swiftgear-station",
+  "subzone:menethil-harbor",
+  "zone:wetlands",
+  "quest:484",
+  "quest:469",
+  "quest:471"
+ ],
+ "attribution": [
+  "James Halloran"
+ ]
+}

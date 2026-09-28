@@ -1,0 +1,140 @@
+{
+ "key": "zone:wailing",
+ "type": "dungeon",
+ "name": "Wailing Caverns",
+ "era": "classic",
+ "zone": "wailing",
+ "meta": {
+  "wiki": [
+   "Wailing Caverns"
+  ],
+  "levels": "17-24",
+  "aliases": [],
+  "bosses": [
+   "Lady Anacondra",
+   "Lord Cobrahn",
+   "Kresh",
+   "Lord Pythas",
+   "Skum",
+   "Lord Serpentis",
+   "Verdan the Everliving",
+   "Mutanus the Devourer",
+   "Deviate Faerie Dragon",
+   "Naralex"
+  ]
+ },
+ "summary": "Tucked beneath the Lushwater Oasis in the arid Barrens lies the Wailing Caverns, a labyrinthine system of subterranean springs and fissures named for the eerie whistling of trapped steam. What began as a noble druidic effort to revitalize Kalimdor's sun-bleached savanna has devolved into a warped, poisonous underworld. The caverns now teem with twisted wildlife and fallen disciples corrupted by a deep, unnatural nightmare.",
+ "sections": [
+  {
+   "title": "A Noble Vision Turned Poisonous",
+   "body": "The night elf druid Naralex originally discovered this vast water system and devised an ambitious design: by opening a conduit straight into the Emerald Dream, he would siphon pure primal life essence through the subterranean springs, transforming the parched Barrens back into a thriving, verdant paradise. Deep in the Cavern of Mists, Naralex slipped into communion with the Dream, anchored by his loyal acolytes. Tragically, rather than tapping into pure vitality, the druid's sleeping mind touched the Emerald Nightmare. The festering corruption instantly seized him, transforming his well-intentioned conduit into a valve pouring venom and madness into the underground waterways.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Druids of the Fang",
+   "body": "As the Nightmare's dark energy radiated from Naralex's helpless form, his students succumbed to the madness. Forsaking the tranquil wisdom of the Cenarion Circle, they formed the fanatical Druids of the Fang. Taking reptilian forms, the sect's leaders\u2014Lady Anacondra, Lord Cobrahn, Lord Pythas, and Lord Serpentis\u2014now embrace the venomous mutation of the caverns rather than fighting it. They actively shield their sleeping master from any outside interference, believing this twisted growth is the true evolution of nature.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Nightmare Made Flesh",
+   "body": "Breaking the grip of the Druids of the Fang does not automatically save Naralex. When his remaining uncorrupted disciples initiate the ritual to gently rouse him from his trance at Dreamer's Rock, the slumbering elf's thrashing subconscious violently purges its deepest terror. The creature that erupts forth\u2014a monstrous, distorted murloc named Mutanus the Devourer\u2014is the physical manifestation of Naralex's worst nightmares. Only by slaying this abomination can the channel to the Nightmare be snapped, freeing Naralex to wake, assume avian form, and take flight from the tainted caves.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is it called the Wailing Caverns?",
+   "aliases": [
+    "why wailing caverns",
+    "name origin",
+    "why do they wail"
+   ],
+   "answer": "The cavern earns its name from the mournful, howling cries heard throughout the tunnels. These sounds are produced naturally when subterranean steam vents and high-pressure gusts of wind force their way through tight fissures in the limestone rock."
+  },
+  {
+   "q": "What caused the beasts inside to become 'deviate'?",
+   "aliases": [
+    "deviate corruption",
+    "why are raptors mutate",
+    "deviate beasts origin"
+   ],
+   "answer": "When Naralex fell under the sway of the Emerald Nightmare, the tainted dream energies bled directly into the underground springs. Drinking and living in these contaminated waters mutated the natural raptors, crocolisks, and serpents into unnatural 'deviate' variants."
+  },
+  {
+   "q": "Who are the Druids of the Fang?",
+   "aliases": [
+    "fang druids",
+    "druids of the fang lore",
+    "who is serpentis"
+   ],
+   "answer": "They were once the devoted night elf and tauren acolytes of Naralex. Corrupted alongside him by the Nightmare, their minds shattered and twisted their druidic arts into worship of serpents and venom, adopting titles like Cobrahn, Pythas, and Anacondra."
+  },
+  {
+   "q": "Why is the final boss a giant murloc named Mutanus?",
+   "aliases": [
+    "why mutanus murloc",
+    "what is mutanus",
+    "final boss lore"
+   ],
+   "answer": "Mutanus the Devourer is not a standard denizen of the caverns, but an ectoplasmic entity birthed from the Emerald Nightmare itself. As the waking ritual takes hold, Naralex's slumbering mind purges the horrific manifestation of his subconscious fear into physical reality."
+  },
+  {
+   "q": "What happens after Mutanus is defeated?",
+   "aliases": [
+    "waking naralex",
+    "naralex ending",
+    "what happens to naralex"
+   ],
+   "answer": "Once Mutanus is struck down, the psychic stranglehold on Naralex shatters. The night elf druid awakens from his horrific trance, transforms into a stormcrow, and flies out of the caverns to safety alongside his surviving disciple, finally ending the active channel into the Nightmare."
+  },
+  {
+   "q": "Who is living in the cave above the cavern entrance?",
+   "aliases": [
+    "cave above entrance",
+    "snake skull eye npcs",
+    "who is nalpak and ebru"
+   ],
+   "answer": "Perched inside the cavern's skull-like rock eye socket are Cenarion Circle loyalists, including Nalpak and Ebru. They seek brave travelers to harvest deviate hides and cleanse the corruption before it completely engulfs the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For druids of both Cenarion tradition and the tauren walk, the caverns are a tragic warning of the perils within the Emerald Dream and a solemn duty to purge their fallen brethren, the Druids of the Fang."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "The twisted waters threaten the fragile oases that sustain life across the Barrens, making the cleansing of the springs vital to the tribes of Mulgore and the Crossroads."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Naralex was a revered figure among night elf druids, and the tragedy of his corruption by the Emerald Nightmare represents a painful catastrophe for his kin across the sea."
+  }
+ ],
+ "keywords": [
+  "deviate",
+  "druids of the fang",
+  "emerald nightmare",
+  "lady anacondra",
+  "lord cobrahn",
+  "lord pythas",
+  "lord serpentis",
+  "lushwater oasis",
+  "mutanus",
+  "naralex",
+  "verdan"
+ ],
+ "related": [
+  "npc:naralex",
+  "topic:druids-of-the-fang",
+  "npc:mutanus-the-devourer",
+  "quest:914",
+  "subzone:lushwater-oasis",
+  "topic:emerald-dream",
+  "npc:lord-serpentis",
+  "zone:barrens"
+ ],
+ "attribution": [
+  "Wailing Caverns"
+ ]
+}

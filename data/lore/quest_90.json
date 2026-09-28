@@ -1,0 +1,123 @@
+{
+ "key": "quest:90",
+ "type": "quest",
+ "name": "Seasoned Wolf Kabobs",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   90
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Chef Grual",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Seasoned Wolf Kabobs (Classic)",
+  "chain": []
+ },
+ "summary": "Seasoned Wolf Kabobs is an Alliance culinary quest offered by Chef Grual at the Scarlet Raven Tavern in Darkshire. Grual seeks to prepare his signature house dish, tasking adventurers with hunting wild wolves in Duskwood and fetching rare seasoning herbs from a flower shop in Stormwind City. It highlights the everyday survival challenges and resourcefulness required to keep a besieged hamlet fed.",
+ "sections": [
+  {
+   "title": "A Dish for Darkshire",
+   "body": "Darkshire is an isolated settlement surrounded by the creeping horrors of Duskwood, where trade caravans rarely venture and normal agriculture has completely collapsed. Despite the ever-present gloom and lurking undead, the town's citizens still require sustenance. Chef Grual, presiding over the kitchens of the Scarlet Raven Tavern, makes practical use of the forest's dangerous fauna by transforming wild wolf meat into hearty skewers. Because local timber and soil cannot sustain delicate crops, Grual relies on specialized spices brought in from the capital to make the gamey forest meat palatable.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Stormwind",
+   "body": "To complete Grual's recipe, travelers must secure lean flanks from the ferocious wolves stalking Duskwood and travel north to Stormwind. The required seasoning herbs are sold by herbalist and florist Felicia Gump, whose canal-side shop, Fragrant Flowers, borders the city's Trade District and Old Town. This errand underscores Darkshire's delicate connection to the broader kingdom: while royal military aid has dwindled, small-scale civic ties and supply lines between the city merchants and outer hamlets still barely endure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Chef Grual?",
+   "aliases": [
+    "chef grual",
+    "grual darkshire",
+    "who gives seasoned wolf kabobs"
+   ],
+   "answer": "Chef Grual is the town cook stationed at the Scarlet Raven Tavern in Darkshire. He keeps the patrons, locals, and Night Watch members fed, crafting hearty meals out of whatever game can be hunted in the surrounding woods."
+  },
+  {
+   "q": "Where do you get the Stormwind Seasoning Herbs?",
+   "aliases": [
+    "stormwind herbs location",
+    "felicia gump location",
+    "where are seasoning herbs"
+   ],
+   "answer": "The seasoning herbs are procured from Felicia Gump, who runs the Fragrant Flowers shop in Stormwind City. Her storefront is situated along the canal path between the Trade District and Old Town."
+  },
+  {
+   "q": "Where are the wolves for the wolf flanks found?",
+   "aliases": [
+    "lean wolf flank location",
+    "wolf flanks duskwood",
+    "where to hunt wolves"
+   ],
+   "answer": "Wild wolves roam throughout the dark forests of Duskwood, particularly stalking the groves and pathways just outside Darkshire. Any of the local wolves yield the lean meat Chef Grual requires."
+  },
+  {
+   "q": "Why does Darkshire need wolf meat for food?",
+   "aliases": [
+    "why eat wolves",
+    "darkshire food supply",
+    "why wolf kabobs"
+   ],
+   "answer": "Duskwood's farmland is ruined and cut off by monsters, making traditional livestock and crop cultivation virtually impossible. The locals survive by hunting the dangerous wildlife prowling outside their borders, including the ubiquitous wolves."
+  },
+  {
+   "q": "Why can't Grual get herbs locally in Duskwood?",
+   "aliases": [
+    "why buy herbs in stormwind",
+    "duskwood herbs"
+   ],
+   "answer": "The pervasive curse blighting Duskwood has corrupted much of the native plant life, leaving little in the way of edible or fragrant cooking herbs. Grual must rely on cultivated varieties imported from Stormwind to season his dishes."
+  },
+  {
+   "q": "Does this quest tie into a larger storyline?",
+   "aliases": [
+    "wolf kabobs lore significance",
+    "is seasoned wolf kabobs important"
+   ],
+   "answer": "It is a standalone local flavor quest rather than part of a grand narrative. However, it vividly illustrates the rustic, self-reliant lifestyle of Darkshire's folk and their ongoing, tenuous supply link back to Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Chef Grual's recipe teaches adventurers how wilderness hunters make use of tough predator meat by masking wild gaminess with refined city spices."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The delivery run between Darkshire and Stormwind demonstrates how isolated settlements in the kingdom rely on the capital's markets even when military garrisons are withheld."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking down Duskwood's ravenous wolf packs requires classic tracking and culling skills to protect the hamlet while keeping the tavern larder stocked."
+  }
+ ],
+ "keywords": [
+  "chef grual",
+  "darkshire",
+  "duskwood",
+  "felicia gump",
+  "fragrant flowers",
+  "lean wolf flank",
+  "scarlet raven tavern",
+  "stormwind",
+  "wolf kabobs"
+ ],
+ "related": [
+  "npc:chef-grual",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "subzone:trade-district",
+  "subzone:old-town",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Seasoned Wolf Kabobs (Classic)"
+ ]
+}

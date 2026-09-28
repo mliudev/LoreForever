@@ -1,0 +1,126 @@
+{
+ "key": "quest:2951",
+ "type": "quest",
+ "name": "The Sparklematic 5200!",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2951,
+   4601,
+   4602
+  ],
+  "level": "",
+  "faction": "Neutral",
+  "start": "The Sparklematic 5200",
+  "end": "",
+  "previous": null,
+  "next": "The Sparklematic 5200! (2)",
+  "wiki": "The Sparklematic 5200! (1)",
+  "chain": [
+   "The Sparklematic 5200! (1)",
+   "The Sparklematic 5200! (2)",
+   "More Sparklematic Action"
+  ]
+ },
+ "summary": "Deep within the ruins of Gnomeregan, the Sparklematic 5200 is an automated cleaning device that continues to function amidst the chaos. By feeding it a grime-encrusted object scavenged from the subterranean halls along with a nominal coin fee, adventurers can restore salvaged trinkets, gems, and scrap to pristine condition. It stands as a vibrant testament to the enduring ingenuity and eccentricity of gnomish engineering.",
+ "sections": [
+  {
+   "title": "A Beacon in the Grime",
+   "body": "Amidst the radioactive fallback and trogg infestation consuming Gnomeregan, a pocket of surviving gnomes maintains a secure perimeter near an extraordinary invention: the Sparklematic 5200. Built to scrub the harsh subterranean filth off salvaged valuables, this sturdy contraption promises to put the 'shine back in shine-tastic.' Even while subterranean monstrosities pound on the bulkheads, the machine sits ready for commercial operation.",
+   "spoiler": 0
+  },
+  {
+   "title": "Frenzied Operation",
+   "body": "The cleaning mechanism is anything but gentle. Once an adventurer deposits a grime-caked relic alongside three silver coins, the Sparklematic surges into a violent, churning frenzy. The entire iron apparatus groans, vibrates, and lurches from side to side as it strips away toxic sludge, irradiated grease, and rock dust. Moments later, it expels whatever was buried beneath the muck, ranging from precious minerals to mechanical components.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sparklematic 5200?",
+   "aliases": [
+    "what does sparklematic 5200 do",
+    "sparklematic machine",
+    "cleaning machine gnomeregan"
+   ],
+   "answer": "The Sparklematic 5200 is an automated gnomish cleaning contraption stationed within the safe pocket of Gnomeregan. It is designed to strip stubborn radioactive grease, sludge, and dirt off encrusted items recovered throughout the fallen city."
+  },
+  {
+   "q": "What does the machine require to operate?",
+   "aliases": [
+    "how to use sparklematic",
+    "sparklematic cost",
+    "what do i put in sparklematic"
+   ],
+   "answer": "Operating the Sparklematic requires a Grime-Encrusted Object found among the monsters and debris of Gnomeregan, as well as a processing fee of three silver coins deposited directly into the machine's coin slot."
+  },
+  {
+   "q": "Why is there an operational machine in the middle of a war zone?",
+   "aliases": [
+    "why is sparklematic here",
+    "who put sparklematic in gnomeregan"
+   ],
+   "answer": "Gnomish civilization was built around automated domestic and industrial convenience. When the trogg invasion and toxic vents devastated the city, surviving gnomes fell back into fortified workshops where machines like the Sparklematic remained intact and powered."
+  },
+  {
+   "q": "What comes out after cleaning a grime-encrusted item?",
+   "aliases": [
+    "what do you get from sparklematic",
+    "sparklematic loot",
+    "grime-encrusted object rewards"
+   ],
+   "answer": "The machine returns your salvaged item completely purged of filth, revealing useful trade supplies, crafting stones, gems, or spare engineering parts that were buried beneath the muck."
+  },
+  {
+   "q": "Can I use the Sparklematic 5200 more than once?",
+   "aliases": [
+    "is sparklematic repeatable",
+    "can i clean multiple grime items",
+    "more sparklematic"
+   ],
+   "answer": "Yes. After the initial demonstration runs, the contraption can be used repeatedly via ongoing cleaning tasks as long as you provide additional grime-encrusted objects and silver coins."
+  },
+  {
+   "q": "Why does the machine shake so violently during cleaning?",
+   "aliases": [
+    "sparklematic shaking",
+    "is sparklematic broken"
+   ],
+   "answer": "The encrusted filth within Gnomeregan is dense, toxic, and hardened. The machine relies on high-velocity agitation and internal scrubbers to shear the grime away, causing the entire chassis to lurch and groan during operation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "The machine reflects classic gnomish resilience: even during a catastrophic homeland evacuation, commerce and sparkling cleanliness march on without interruption."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate the robust motor and sorting architecture required to cleanse and process unknown debris without jamming or exploding."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance salvage teams braving Gnomeregan's halls, the machine provides an immediate way to clean scavenged relics before carrying them back to Ironforge."
+  }
+ ],
+ "keywords": [
+  "cleaner",
+  "gnome",
+  "gnomeregan",
+  "grime-encrusted",
+  "machine",
+  "salvage",
+  "sparklematic",
+  "sparklematic 5200",
+  "trogg"
+ ],
+ "related": [
+  "quest:2953",
+  "zone:gnomeregan",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "The Sparklematic 5200! (1)"
+ ]
+}

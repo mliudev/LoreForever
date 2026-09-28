@@ -1,0 +1,94 @@
+{
+ "key": "subzone:krom-gar-fortress",
+ "type": "subzone",
+ "name": "Krom'gar Fortress",
+ "era": "classic",
+ "zone": "stonetalon",
+ "meta": {
+  "wiki": "Krom'gar Fortress"
+ },
+ "summary": "Krom'gar Fortress is a heavily fortified Horde military stronghold established in Windshear Crag within the Stonetalon Mountains. Built directly opposite the Alliance stronghold of Windshear Hold, it serves as the staging ground for Horde forces contesting the region. Beneath the cliffs of the base lies access to the subterranean tunnels known as the Deep Reaches.",
+ "sections": [
+  {
+   "title": "A Bastion in the Crag",
+   "body": "Perched amidst the craggy logging lands of Windshear Crag, Krom'gar Fortress serves as the primary military anchor for the Horde in central Stonetalon. Despite its modest construction\u2014consisting primarily of a reinforced burrow, a working blacksmith, and two watchtowers\u2014the post functions as a bristling frontline redoubt. It stands in direct defiance of the nearby Alliance forces at Windshear Hold, establishing a contested front over the resources and passages through the mountains.",
+   "spoiler": 0
+  },
+  {
+   "title": "Controlling the Reaches",
+   "body": "Beyond its vantage over the surface warfare of Windshear Crag, the fortress commands critical subterranean access. Directly beneath the fortress cliffs sits the Horde-held entrance leading down into the Deep Reaches. Through this subterranean network, Horde troops maintain tactical passage while keeping watch over underground threats and the mineral-rich depths beneath the range.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Krom'gar Fortress?",
+   "aliases": [
+    "kromgar base",
+    "what is this place",
+    "stonetalon horde fort"
+   ],
+   "answer": "It is a fortified Horde military redoubt located within Windshear Crag in the Stonetalon Mountains. It acts as an operational hub against local Alliance advances."
+  },
+  {
+   "q": "Where is the entrance to the Deep Reaches located?",
+   "aliases": [
+    "deep reaches entrance",
+    "how to enter deep reaches",
+    "cave below fortress"
+   ],
+   "answer": "The entrance to the Deep Reaches lies directly beneath the fortress cliffs at the base of the rock formation."
+  },
+  {
+   "q": "Who opposes the Horde at Krom'gar Fortress?",
+   "aliases": [
+    "enemies nearby",
+    "who is the alliance here",
+    "windshear hold alliance"
+   ],
+   "answer": "Alliance forces stationed across the valley at Windshear Hold directly contest Krom'gar Fortress for control over Windshear Crag."
+  },
+  {
+   "q": "What structures make up the fortress?",
+   "aliases": [
+    "what buildings are here",
+    "fortress size",
+    "layout of kromgar fortress"
+   ],
+   "answer": "Despite the grand name, the outpost consists of a fortified subterranean burrow, a functioning blacksmith forge, and two watchtowers guarding the perimeter."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The fortress provides a vital bastion in the contested Stonetalon Mountains, keeping the Alliance at Windshear Hold at bay and safeguarding subterranean supply lines."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Directly facing Windshear Hold, this fortified encampment represents the primary obstacle to Alliance supremacy over Windshear Crag."
+  }
+ ],
+ "keywords": [
+  "burrow",
+  "deep reaches",
+  "fortress",
+  "horde",
+  "krom'gar",
+  "stonetalon",
+  "windshear crag",
+  "windshear hold"
+ ],
+ "related": [
+  "subzone:windshear-crag",
+  "subzone:deep-reaches",
+  "subzone:windshear-hold",
+  "zone:stonetalon",
+  "topic:horde",
+  "topic:alliance",
+  "subzone:sun-rock-retreat",
+  "subzone:malaka-jin"
+ ],
+ "attribution": [
+  "Krom'gar Fortress"
+ ]
+}

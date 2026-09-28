@@ -1,0 +1,122 @@
+{
+ "key": "npc:mathrengyl-bearwalker",
+ "type": "npc",
+ "name": "Mathrengyl Bearwalker",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "wiki": "Mathrengyl Bearwalker",
+  "refs": 8
+ },
+ "summary": "Mathrengyl Bearwalker is a master druid trainer and respected elder of the Cenarion Circle residing in Darnassus's Cenarion Enclave. Having once served as Archdruid Fandral Staghelm's direct assistant, he guides young Alliance druids through their spiritual trials, shapeshifting rites, and duties across Kalimdor.",
+ "sections": [
+  {
+   "title": "Mentor of the Cenarion Enclave",
+   "body": "Perched within the verdant reaches of the Cenarion Enclave in Darnassus, Mathrengyl Bearwalker stands as one of the most venerable and balanced druids on Teldrassil. He serves as a primary guide for fledgling Alliance druids, overseeing their communion with Moonglade and testing their readiness to master primal animal forms. Having undergone the intense, bewildering communion with the Great Bear Spirit in his own youth, Mathrengyl understands the weight of these rites, personally charging initiates to prove their spirit against the sacred moonkin Lunaclaw before inducting them into the path of the Druid of the Claw.",
+   "spoiler": 0
+  },
+  {
+   "title": "Service to the Archdruid",
+   "body": "Mathrengyl has long operated as Fandral Staghelm's second, managing day-to-day circle affairs and handling recruitment for the Archdruid's ambitious endeavors. When Fandral demanded vast quantities of morrowgrain, Mathrengyl organized its collection from returning adventurers, despite privately confiding a quiet unease regarding the strange plant's unnatural essence. He also coordinates Alliance responses to summons from Moonglade, navigating the delicate politics of the Cenarion Circle while Fandral turns his gaze toward southern Kalimdor and the Plaguelands.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Broader Perspective",
+   "body": "While Staghelm is infamous for his fierce pride and disdain for other races, Mathrengyl often displays a more contemplative, open mind. When relics arrived in Darnassus from the fallen druid Mulgris Deepriver\u2014who perished fighting the Scourge in the Western Plaguelands\u2014Mathrengyl was deeply moved to discover the investigator was a tauren. Reflecting on the Cenarion Circle's shared mission, he quietly mused that the tauren may not have drifted nearly as far from the teachings of Cenarius as the Archdruid insists.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mathrengyl Bearwalker?",
+   "aliases": [
+    "who is mathrengyl",
+    "mathrengyl role",
+    "bearwalker"
+   ],
+   "answer": "Mathrengyl Bearwalker is a veteran night elf druid trainer stationed in the Cenarion Enclave in Darnassus. Revered as one of Teldrassil's most balanced sages, he instructs initiates in shapeshifting, poison cleansing, and duties on behalf of the Cenarion Circle."
+  },
+  {
+   "q": "What is his relationship with Fandral Staghelm?",
+   "aliases": [
+    "fandral assistant",
+    "staghelm and mathrengyl"
+   ],
+   "answer": "Mathrengyl served as Archdruid Fandral Staghelm's direct assistant and second. While obediently managing Fandral's requests\u2014including gathering morrowgrain and delegating missions\u2014Mathrengyl harbors subtle doubts regarding some of Fandral's harsh viewpoints and eccentric projects."
+  },
+  {
+   "q": "What forms does Mathrengyl help druids learn?",
+   "aliases": [
+    "bear form quest darnassus",
+    "aquatic form quest darnassus",
+    "druid forms mathrengyl"
+   ],
+   "answer": "Mathrengyl instructs young druids after their spiritual pilgrimages to Moonglade, overseeing their communion with Lunaclaw to earn Bear Form, as well as concluding their trials in Darkshore and Silverpine to master Aquatic Form."
+  },
+  {
+   "q": "Why is Mathrengyl gathering morrowgrain?",
+   "aliases": [
+    "morrowgrain quest",
+    "why morrowgrain darnassus"
+   ],
+   "answer": "He assists Archdruid Fandral Staghelm with ongoing botanical research on Teldrassil by collecting morrowgrain cultivated by adventurers. Even so, Mathrengyl has admitted to feeling deeply uneasy whenever he is in the plant's presence."
+  },
+  {
+   "q": "How does Mathrengyl feel about tauren druids?",
+   "aliases": [
+    "tauren druids",
+    "mathrengyl tauren"
+   ],
+   "answer": "Unlike Fandral Staghelm, who views tauren druids with open skepticism, Mathrengyl is more thoughtful. After reviewing the sacrifice of a tauren druid fighting the Scourge in the Western Plaguelands, he admitted the tauren might walk closer to the teachings of Cenarius than Fandral allows."
+  },
+  {
+   "q": "What does he do with the Nightmare Shard?",
+   "aliases": [
+    "nightmare shard mathrengyl",
+    "in nightmares quest"
+   ],
+   "answer": "When adventurers discover a corrupted Nightmare Shard in Teldrassil's barrows and bring it to the Enclave, Mathrengyl inspects it with great alarm, sensing the creeping corruption threatening the Emerald Dream."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "For Alliance druids, Mathrengyl is an essential mentor who bridges Darnassus with Moonglade, unlocking the secrets of Bear Form, Aquatic Form, and herbal cures for deadly poisons."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Mathrengyl represents the steady, traditional leadership of the Cenarion Circle in Darnassus, offering a temperate contrast to Fandral Staghelm's aggressive posturing."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "A paragon of Kaldorei druidism, Mathrengyl embodies devotion to nature and balance in the aftermath of the Third War and the growth of Teldrassil."
+  }
+ ],
+ "keywords": [
+  "aquatic form",
+  "bear form",
+  "bearwalker",
+  "cenarion circle",
+  "cenarion enclave",
+  "darnassus",
+  "druid of the claw",
+  "druid trainer",
+  "fandral staghelm",
+  "mathrengyl bearwalker",
+  "morrowgrain",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:fandral-staghelm",
+  "subzone:cenarion-enclave",
+  "zone:darnassus",
+  "npc:dendrite-starblaze",
+  "quest:6001",
+  "quest:31",
+  "quest:3369",
+  "topic:cenarion-circle"
+ ],
+ "attribution": [
+  "Mathrengyl Bearwalker"
+ ]
+}

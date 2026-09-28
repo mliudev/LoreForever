@@ -1,0 +1,89 @@
+{
+ "key": "subzone:sorrow-hill",
+ "type": "subzone",
+ "name": "Sorrow Hill",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Sorrow Hill"
+ },
+ "summary": "Sorrow Hill is an expansive graveyard resting south of Andorhal in the Western Plaguelands. Once the final resting place for commoners, soldiers, and nobility alike, it has been corrupted by nearby plague cauldrons into a sprawling haven of restless undead.",
+ "sections": [
+  {
+   "title": "A Burden of Graves",
+   "body": "Before the Third War, Sorrow Hill served as the primary burial ground for the city of Andorhal and its surrounding townships. When the Scourge unleashed the Plague of Undeath, the gravediggers could not keep pace with the dead. Neatly kept crypts were soon surrounded by shallow, poorly marked earthen pits. Eventually, terrified survivors ceased traditional burials entirely, instead resorting to burning the corpses of their loved ones in a mass pyre to the south out of fear they would rise. Before the town fell completely, the remnants of the populace entombed Lord Uther the Lightbringer atop the cemetery's high ground, bestowing upon the hill its tragic name.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Resurrected Dead",
+   "body": "The Scourge's foul plague cauldrons across the region have long since corrupted Sorrow Hill. The interred soldiers and citizens now wander the mist-shrouded headstones as skeletal flayers and ravenous ghouls, while skeletal mages and a local Scourge commander nest in the southeastern crypts. Because the cemetery sits directly along the road between Chillwind Point and Andorhal, both the Alliance and the Argent Dawn frequently order patrols to culled the ranks of undead here to maintain a vital foothold in the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why was this graveyard named Sorrow Hill?",
+   "aliases": [
+    "sorrow hill name meaning",
+    "why is it called sorrow hill"
+   ],
+   "answer": "It earned the name during the fall of Lordaeron, when the surviving people of Andorhal suffered catastrophic losses to the Scourge. Their final collective act before fleeing was laying their fallen champion, Lord Uther the Lightbringer, to rest in a grand tomb atop the hill."
+  },
+  {
+   "q": "Why are there so many shallow graves here?",
+   "aliases": [
+    "shallow graves sorrow hill",
+    "why are graves poorly marked"
+   ],
+   "answer": "When the Plague of Undeath struck Andorhal, deaths mounted so quickly that citizens had no time to construct proper tombs. They dug hasty, poorly marked plots until the onslaught became so overwhelming that they abandoned burial altogether in favor of mass burning."
+  },
+  {
+   "q": "Who is buried in Sorrow Hill?",
+   "aliases": [
+    "famous graves sorrow hill",
+    "notable people buried here"
+   ],
+   "answer": "Beyond thousands of fallen soldiers and citizens of Andorhal, the cemetery houses the great tomb of Uther the Lightbringer. It also features the resting place of the cannoneer Dargal and a monument honoring Joseph Redpath, whose body was destroyed."
+  },
+  {
+   "q": "What threat does Sorrow Hill pose today?",
+   "aliases": [
+    "scourge at sorrow hill",
+    "who controls sorrow hill"
+   ],
+   "answer": "Corrupted by the Lich King's plague cauldrons, the cemetery's dead have risen as skeletal flayers, slavering ghouls, and skeletal mages. Led by a Scourge commander residing within the southeastern crypt, these undead threaten the southern approach to Andorhal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Sorrow Hill is a place of profound mourning and reverence for paladins, who come to pay homage at Uther's Tomb while driving back the undead desecrating the grounds around their mentor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Positioned just down the road from Chillwind Camp, the cemetery represents both a strategic checkpoint toward Andorhal and the sacred resting place of Lordaeron's fallen defenders."
+  }
+ ],
+ "keywords": [
+  "andorhal cemetery",
+  "dargal",
+  "joseph redpath",
+  "skeletal flayers",
+  "sorrow hill",
+  "uther's tomb",
+  "western plaguelands"
+ ],
+ "related": [
+  "subzone:uther-s-tomb",
+  "subzone:andorhal",
+  "subzone:chillwind-camp",
+  "zone:westernplaguelands",
+  "topic:plague-of-undeath",
+  "subzone:cauldron",
+  "topic:argent-dawn",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Sorrow Hill"
+ ]
+}

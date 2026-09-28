@@ -1,0 +1,125 @@
+{
+ "key": "quest:70",
+ "type": "quest",
+ "name": "The Legend of Stalvan",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   70
+  ],
+  "level": "28",
+  "faction": "Alliance",
+  "start": "Innkeeper Farley",
+  "end": "Caretaker Folsom",
+  "previous": "The Legend of Stalvan (4)",
+  "next": "The Legend of Stalvan (6)",
+  "wiki": "The Legend of Stalvan (5)",
+  "chain": []
+ },
+ "summary": "This leg of the investigation directs searchers to an abandoned letter left behind at Goldshire's inn years ago. Following the trail of Stalvan Mistmantle leads out of Elwynn Forest and into Stormwind's Canal District.",
+ "sections": [
+  {
+   "title": "A Midnight Terror",
+   "body": "When Innkeeper Farley of the Lion's Pride Inn is asked about Stalvan Mistmantle, he recalls a stormy night years ago. A traveling courier had sought shelter from the pouring rain, only to rush downstairs around midnight in sheer panic. Dressed in only his sleepwear, the courier bolted straight out into the dark storm and was never seen again.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Leftover Parcel",
+   "body": "In his panicked flight, the courier abandoned his satchel and personal chest in the upstairs room. Among the forgotten cargo lay an unsent letter bearing the name Stalvan, addressed to someone residing in the Canal District of Stormwind City. The chest remained untouched at the foot of the bed until Farley permitted it to be opened.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Chilly Welcome",
+   "body": "Carrying the long-overdue letter into Stormwind leads to Caretaker Folsom, who watches over property along the canals near the Park. Rather than gratitude for completing a neglected delivery, the mention of Stalvan's name and the sight of his handwriting provokes immediate disgust and hostility, suggesting deep-seated scandals tied to the sender.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the undelivered letter kept?",
+   "aliases": [
+    "find letter",
+    "stalvan chest location",
+    "where is the chest"
+   ],
+   "answer": "The letter sits in a storage chest on the upper floor of the Lion's Pride Inn in Goldshire. Climb the stairs, turn right, and enter the bedroom with the bed; the chest rests at the foot of the bed frame."
+  },
+  {
+   "q": "Why was the letter never delivered originally?",
+   "aliases": [
+    "why abandoned letter",
+    "what scared the courier",
+    "why did messenger run"
+   ],
+   "answer": "The courier took shelter from a downpour at the Lion's Pride Inn years ago. Near midnight, something terrified him so severely that he fled into the storm wearing only his nightclothes, leaving his chest and deliveries behind."
+  },
+  {
+   "q": "Where do I find Caretaker Folsom in Stormwind?",
+   "aliases": [
+    "folsom location",
+    "where is caretaker folsom",
+    "canal district turn in"
+   ],
+   "answer": "Caretaker Folsom stands along the Canals in Stormwind City, close to the edge of the Park district."
+  },
+  {
+   "q": "Why is Caretaker Folsom angry about receiving the letter?",
+   "aliases": [
+    "why is folsom mad",
+    "folsom reaction",
+    "you have some nerve"
+   ],
+   "answer": "Folsom immediately recognizes Stalvan's handwriting and name, reacting with indignation. Stalvan Mistmantle left behind bitter memories and outrage among the people connected to his past in Stormwind."
+  },
+  {
+   "q": "How does this connect to the trouble in Duskwood?",
+   "aliases": [
+    "why duskwood quest in goldshire",
+    "how does this relate to duskwood"
+   ],
+   "answer": "The town council in Darkshire is investigating a lingering evil tied to the name Stalvan Mistmantle. Uncovering who Stalvan was in life requires retracing his earlier travels and associations through Elwynn Forest and Stormwind."
+  },
+  {
+   "q": "What happens after giving the letter to Caretaker Folsom?",
+   "aliases": [
+    "next step",
+    "what follows this quest"
+   ],
+   "answer": "Caretaker Folsom's sharp response opens up the Stormwind chapter of the investigation, pushing you to uncover Stalvan's former employment and the grim events that unfolded with the noble family he served."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Unraveling the mystery of Stalvan requires traveling through the heartlands of the Alliance, retracing an old trail from the sleepy hamlet of Goldshire to the capital's grand canals."
+  },
+  {
+   "target": "race:Human",
+   "text": "This investigation exposes the darker undercurrents of the Kingdom of Stormwind, showing that the evils haunting Duskwood have roots stretching right back to the capital's doorstep."
+  }
+ ],
+ "keywords": [
+  "canals",
+  "caretaker folsom",
+  "goldshire",
+  "innkeeper farley",
+  "lion's pride inn",
+  "mistmantle",
+  "stalvan",
+  "stormwind",
+  "undelivered letter"
+ ],
+ "related": [
+  "npc:innkeeper-farley",
+  "npc:caretaker-folsom",
+  "subzone:lion-s-pride-inn",
+  "subzone:canals-stormwind-city",
+  "subzone:park",
+  "zone:duskwood",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "The Legend of Stalvan (5)"
+ ]
+}

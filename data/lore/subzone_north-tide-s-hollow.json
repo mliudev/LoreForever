@@ -1,0 +1,84 @@
+{
+ "key": "subzone:north-tide-s-hollow",
+ "type": "subzone",
+ "name": "North Tide's Hollow",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "North Tide's Hollow"
+ },
+ "summary": "North Tide's Hollow is a rugged wilderness pocket in Silverpine Forest located just north of the Sepulcher. Haunted by feral Moonrage worgen loyal to the rogue Archmage Arugal, the clearing serves as a base of operations for the beasts stalking the coastal woods.",
+ "sections": [
+  {
+   "title": "A Feral Foothold",
+   "body": "Tucked away in the dense timber north of the Forsaken settlement of the Sepulcher, North Tide's Hollow is dominated by the savage Moonrage pack. These feral worgen, brought into Lordaeron through the reckless sorcery of Archmage Arugal, have established crude encampments throughout the hollow. Built with only the barest necessities required by the hardy beasts, these rough shelters provide a forward staging ground dangerously close to Forsaken travel routes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Under Shadowfang's Shadow",
+   "body": "Unlike ordinary wilderness predators, the worgen of North Tide's Hollow answer to the sinister will emanating from Shadowfang Keep. Their proximity to both the western shoreline and the main road through Silverpine makes them a constant menace to Forsaken couriers and patrols attempting to secure the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is North Tide's Hollow?",
+   "aliases": [
+    "north tides hollow location",
+    "where is north tides hollow",
+    "hollow location"
+   ],
+   "answer": "North Tide's Hollow is located in western Silverpine Forest, situated just to the north of the Forsaken outpost known as the Sepulcher, near the coastal bluffs."
+  },
+  {
+   "q": "What creatures inhabit North Tide's Hollow?",
+   "aliases": [
+    "who lives here",
+    "north tides hollow enemies",
+    "mobs in north tides hollow"
+   ],
+   "answer": "The hollow is infested with Moonrage worgen, supernatural wolf-beasts bound to the madness of Archmage Arugal."
+  },
+  {
+   "q": "Why do the worgen live in crude camps here?",
+   "aliases": [
+    "worgen camps",
+    "why do worgen have tents"
+   ],
+   "answer": "While worgen are vicious and wild, the Moonrage pack retains enough cunning to organize basic encampments. Being naturally resilient and hardened, they require only the most primitive shelters and survival necessities to endure the Lordaeron wilderness."
+  },
+  {
+   "q": "Who controls the worgen in this area?",
+   "aliases": [
+    "who leads the worgen",
+    "worgen master"
+   ],
+   "answer": "The worgen throughout Silverpine Forest, including those in North Tide's Hollow, are the servants and creations of the mad Archmage Arugal, who directs them from his lair in Shadowfang Keep."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Positioned uncomfortably close to the Sepulcher, the Moonrage pack in North Tide's Hollow poses an immediate threat to Forsaken sovereignty and logistical lines in Silverpine."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "beachhead",
+  "moonrage",
+  "north tide's hollow",
+  "sepulcher",
+  "silverpine forest",
+  "worgen"
+ ],
+ "related": [
+  "zone:silverpine",
+  "subzone:sepulcher",
+  "topic:worgen",
+  "npc:arugal",
+  "subzone:north-tide-s-beachhead"
+ ],
+ "attribution": [
+  "North Tide's Hollow"
+ ]
+}

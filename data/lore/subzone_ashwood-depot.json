@@ -1,0 +1,75 @@
+{
+ "key": "subzone:ashwood-depot",
+ "type": "subzone",
+ "name": "Ashwood Depot",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Ashwood Depot"
+ },
+ "summary": "Ashwood Depot does not exist in present-day Darkshore. In the current era of 25 ADP, the wooded coasts of northern Darkshore remain an undisturbed wilderness under the watchful eye of the night elves.",
+ "sections": [
+  {
+   "title": "Unbroken Wilderness",
+   "body": "Travelers trekking through northern Darkshore will find no fortified encampments, military supply lines, or deforested clearings under the name of Ashwood Depot. In this year, the kaldorei maintain quiet vigil over their ancestral woodlands, and neither the Horde nor foreign armies have established logging or munitions outposts along this desolate shoreline. The ancient trees stand undisturbed by the machines and blight of distant wars.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Ashwood Depot located in Darkshore?",
+   "aliases": [
+    "find ashwood depot",
+    "ashwood depot location",
+    "where is ashwood depot"
+   ],
+   "answer": "Ashwood Depot does not exist in the world today. The northern reaches of Darkshore consist purely of misty forests, wildlife, and ancient kaldorei ruins untouched by any such military installation."
+  },
+  {
+   "q": "Is Ashwood Depot a Horde settlement?",
+   "aliases": [
+    "horde base darkshore",
+    "is ashwood horde",
+    "who controls ashwood depot"
+   ],
+   "answer": "No. There is no Horde camp or depot established here. The Horde holds no foothold along the northern shores of Darkshore in the present era, leaving the territory firmly under the dominion of the night elves and the Alliance."
+  },
+  {
+   "q": "Are there Forsaken or goblin forces stationed here?",
+   "aliases": [
+    "forsaken in darkshore",
+    "goblin camp darkshore",
+    "ashwood npcs"
+   ],
+   "answer": "There are no Forsaken armies or goblin engineers operating in northern Darkshore. The shoreline remains wild, home only to native beasts and wandering spirits of the forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The northern forests of Darkshore remain sacred and untainted by foreign siege engines or timber operations, standing as a tranquil domain under the protection of the kaldorei."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde has established no major supply depots or outposts along the misty northern coast of Darkshore, making these territories dangerous and untamed ground for any wayward scout."
+  }
+ ],
+ "keywords": [
+  "ashwood depot",
+  "darkshore",
+  "forsaken",
+  "goblin",
+  "horde",
+  "kaldorei"
+ ],
+ "related": [
+  "zone:darkshore",
+  "topic:alliance",
+  "topic:horde",
+  "topic:forsaken",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Ashwood Depot"
+ ]
+}

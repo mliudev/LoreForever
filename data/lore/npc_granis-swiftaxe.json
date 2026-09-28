@@ -1,0 +1,85 @@
+{
+ "key": "npc:granis-swiftaxe",
+ "type": "npc",
+ "name": "Granis Swiftaxe",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Granis Swiftaxe",
+  "refs": 1
+ },
+ "summary": "Granis Swiftaxe is a dwarf warrior trainer stationed inside the Thunderbrew Distillery in Kharanos. Known for his blunt demeanor and hardy training regimen, he mentors fledgling Alliance fighters emerging from Coldridge Pass before directing seasoned warriors to the city of Ironforge.",
+ "sections": [
+  {
+   "title": "A Gruff Mentor in Kharanos",
+   "body": "Found warming himself among the casks of the Thunderbrew Distillery, Granis Swiftaxe serves as the primary combat instructor for young warriors traversing Dun Morogh. He possesses the unyielding pride typical of dwarven fighters, showing open amusement and disdain toward non-warriors who try to catch his ear. Once a student demonstrates sufficient prowess in combat, Granis sends them up the mountain path to seek out master trainer Muren Stormpike in the Military Ward of Ironforge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Granis Swiftaxe?",
+   "aliases": [
+    "granis swiftaxe",
+    "who is granis",
+    "kharanos warrior trainer"
+   ],
+   "answer": "Granis Swiftaxe is a dwarven warrior trainer located on the ground floor of the Thunderbrew Distillery in Kharanos. He teaches early martial techniques to young dwarf and gnome warriors adventuring across Dun Morogh."
+  },
+  {
+   "q": "Why does Granis mock my character?",
+   "aliases": [
+    "granis rude quote",
+    "why is granis laughing at me",
+    "granis non warrior text"
+   ],
+   "answer": "Granis has no patience for those who do not walk the path of the warrior. If an adventurer of another class speaks to him, he scoffs at the notion of them surviving even a single day under his intense training regimen."
+  },
+  {
+   "q": "Where does Granis send advancing warriors?",
+   "aliases": [
+    "muren stormpike quest",
+    "granis questline",
+    "who does granis send you to"
+   ],
+   "answer": "Once a warrior gains enough experience in Dun Morogh, Granis directs them to seek out Muren Stormpike, a senior warrior trainer located in the Military Ward of Ironforge."
+  },
+  {
+   "q": "Is Granis related to other Swiftaxes in Khaz Modan?",
+   "aliases": [
+    "swiftaxe family",
+    "granis swiftaxe relatives"
+   ],
+   "answer": "While not explicitly confirmed, his surname suggests ties to other prominent Swiftaxes in the region, such as Hegnar Swiftaxe in Loch Modan and Grendin Swiftaxe in Dun Morogh."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For dwarven and gnomish fighters leaving Coldridge Valley, Granis provides essential early combat instruction right alongside a fresh pint at the distillery."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Embodying the robust and stubborn spirit of Ironforge's foot soldiers, Granis blends martial discipline with the comforts of local ale."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "granis swiftaxe",
+  "kharanos",
+  "muren stormpike",
+  "thunderbrew distillery",
+  "warrior trainer"
+ ],
+ "related": [
+  "subzone:thunderbrew-distillery",
+  "subzone:kharanos",
+  "quest:1679",
+  "zone:dunmorogh",
+  "topic:dwarf",
+  "quest:117"
+ ],
+ "attribution": [
+  "Granis Swiftaxe"
+ ]
+}

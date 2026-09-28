@@ -1,0 +1,92 @@
+{
+ "key": "npc:wizzlecrank-s-shredder",
+ "type": "npc",
+ "name": "Wizzlecrank's Shredder",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Wizzlecrank's Shredder",
+  "refs": 2
+ },
+ "summary": "Wizzlecrank's Shredder is a lumber machine stranded in the foul depths of Sludge Fen in the northern Barrens. Operated by the gnome Pilot Wizzlecrank, the battered mechanical walker sits disabled amidst hostile Venture Company operators. Helping fire up its engine is the only way the trapped pilot can make a desperate bid for freedom.",
+ "sections": [
+  {
+   "title": "Trapped in the Sludge",
+   "body": "Deep within the oil-slicked, heavily polluted basin of Sludge Fen sits Wizzlecrank's Shredder, immobile and surrounded by hostile Venture Company mercenaries. The pilot inside, a gnome named Wizzlecrank, found himself cut off and trapped when the machine stalled out during his excursion into the drilling compound. Unable to open the cockpit safely amid hostile guards and mechanical overseers, the pilot remains sealed inside, frantically trying to bypass the ignition systems before the Venture Company decides to scrap the machine with him in it.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Clattering Breakout",
+   "body": "Once provided with an alternate ignition key salvaged from the Venture Company supervisors patrolling the oil pools, the shredder clatters violently back to life. With its whirling blades and heavy metal plating, Pilot Wizzlecrank uses the lumbering contraption to batter through the enclosing mercenary defenses, relying on sympathetic passersby to escort the vulnerable contraption up out of the basin to safety.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is inside Wizzlecrank's Shredder?",
+   "aliases": [
+    "who pilots the shredder",
+    "pilot wizzlecrank",
+    "who is in wizzlecranks shredder"
+   ],
+   "answer": "The mechanical walker is piloted by Pilot Wizzlecrank, an intrepid gnome engineer who ended up stranded right in the middle of Venture Company territory when his machine broke down."
+  },
+  {
+   "q": "Why is the shredder stranded at Sludge Fen?",
+   "aliases": [
+    "why is shredder stuck",
+    "wizzlecrank stuck",
+    "what happened to the shredder"
+   ],
+   "answer": "The shredder's ignition gave out while deep inside the Sludge Fen basin. Surrounded by hostile Venture Company laborers, drillers, and guards, the pilot cannot step out without being attacked, leaving him completely trapped inside his stalled contraption."
+  },
+  {
+   "q": "Why is the shredder sometimes missing?",
+   "aliases": [
+    "shredder despawned",
+    "where is wizzlecranks shredder",
+    "shredder missing"
+   ],
+   "answer": "If the shredder is missing from the northern depression of Sludge Fen, another traveler has recently started the ignition sequence and is escorting Wizzlecrank to safety. The shredder will reappear in its starting position shortly after the escort concludes."
+  },
+  {
+   "q": "What is the Venture Company doing at Sludge Fen?",
+   "aliases": [
+    "what is sludge fen",
+    "venture co sludge fen"
+   ],
+   "answer": "The Venture Company is aggressively exploiting the northern Barrens for crude oil, tar, and timber, turning what was once a natural water source into a toxic, oily quagmire overrun with hired goons and foremen."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "The goblin shredder is a marvel of crude steam-and-piston technology, though Pilot Wizzlecrank's predicament proves just how easily proprietary ignition systems can backfire in the field."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While the Horde typically despises the Venture Company's deforestation and toxic exploitation of the Barrens, assisting an errant pilot offers a convenient excuse to smash up their drilling operations."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "ignition",
+  "pilot wizzlecrank",
+  "sludge fen",
+  "the escape",
+  "venture company",
+  "wizzlecrank",
+  "wizzlecranks shredder"
+ ],
+ "related": [
+  "subzone:sludge-fen",
+  "quest:858",
+  "quest:114",
+  "zone:barrens",
+  "topic:goblin",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Wizzlecrank's Shredder"
+ ]
+}

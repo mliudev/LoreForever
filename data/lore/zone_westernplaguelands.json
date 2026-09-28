@@ -1,0 +1,133 @@
+{
+ "key": "zone:westernplaguelands",
+ "type": "zone",
+ "name": "Western Plaguelands",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": [
+   "Western Plaguelands (Classic)",
+   "Western Plaguelands"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Once the fertile agricultural breadbasket of northern Lordaeron, the Western Plaguelands now choke beneath a toxic mist and legions of undead. While Kel'Thuzad's cauldrons ruined the region's farms and towns, the soil still clings tenaciously to life. The Argent Dawn, the Alliance, the Forsaken, and the Scarlet Crusade all wage desperate campaigns across its blighted fields.",
+ "sections": [
+  {
+   "title": "The Breadbasket of Lordaeron",
+   "body": "Before the Third War, this land was a verdant corridor of farms stretching east from Tirisfal Glades toward Darrowmere Lake. Hearthglen governed the northern administration from Mardenholde Keep, while the sprawling town of Andorhal orchestrated the storage and export of grain across the kingdom. That crucial agricultural role made the region Kel'Thuzad's primary target. By introducing the Plague of Undeath directly into the grain shipments at Andorhal, the Cult of the Damned turned Lordaeron's sustenance into its doom.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Land Under Siege",
+   "body": "To permanently poison the soil, the Scourge raised four massive plague cauldrons across the largest agricultural estates: Felstone Field, Dalson's Tears, the Writhing Haunt, and Gahrron's Withering. Today, monstrous Cauldron Lords maintain these noxious vats, pumping venomous fog into the atmosphere. The surrounding trees twist with swollen, tumorous growths, and blighted wildlife rampages through the brush. Beneath Caer Darrow on Darrowmere Lake, Darkmaster Gandling trains necromancers within Scholomance, compounding the undead threat.",
+   "spoiler": 0
+  },
+  {
+   "title": "Divided Factions",
+   "body": "Despite the omnipresence of the Scourge, several factions maintain embattled footholds. The Scarlet Crusade controls the fortress of Hearthglen in the north, purging anything they deem tainted with rabid zeal. To the south, Alliance forces stage from Chillwind Camp, while the Forsaken defend their borders at the Bulwark. Mediating and directing the fight against the undead cauldrons is the neutral Argent Dawn, which aids champions of both factions and guards Uther's Tomb\u2014the last truly sanctified ground in the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why did the Plague hit this area so hard?",
+   "aliases": [
+    "why is western plaguelands plagued",
+    "what happened to andorhal",
+    "why cauldrons here"
+   ],
+   "answer": "Andorhal was the agricultural shipping hub of northern Lordaeron. Kel'Thuzad intentionally targeted the regional supply, infecting grain silos and installing massive plague cauldrons across four major farmsteads to rapidly distribute undeath through food shipments across the kingdom."
+  },
+  {
+   "q": "Who controls Hearthglen in the north?",
+   "aliases": [
+    "hearthglen faction",
+    "who lives in mardenholde keep",
+    "is hearthglen friendly"
+   ],
+   "answer": "Hearthglen and its fortress, Mardenholde Keep, are ruled by the Scarlet Crusade. Though originally a regional administrative hub for Lordaeron, the zealots now execute any outsiders who approach their borders, viewing all non-crusaders with suspicion."
+  },
+  {
+   "q": "Where can Alliance and Horde players find safe outposts?",
+   "aliases": [
+    "where are the flight paths",
+    "horde camp wpl",
+    "alliance camp wpl"
+   ],
+   "answer": "The Alliance maintains Chillwind Camp near the southern border with the Alterac Mountains, providing a flight master and Argent Dawn allies. The Horde operates from the Bulwark on the western border entering from Tirisfal Glades."
+  },
+  {
+   "q": "What is the purpose of the plague cauldrons in the fields?",
+   "aliases": [
+    "what are the cauldrons",
+    "cauldron purpose",
+    "felstone cauldron"
+   ],
+   "answer": "Erected by the Cult of the Damned at Felstone Field, Dalson's Tears, the Writhing Haunt, and Gahrron's Withering, these cauldrons pump constant plague vapors into the air and soil. Argent Dawn agents recruit adventurers to slay the Cauldron Lords and counter-engineer the toxic brews."
+  },
+  {
+   "q": "What is Scholomance and where is it located?",
+   "aliases": [
+    "scholomance location",
+    "where is scholomance",
+    "caer darrow dungeon"
+   ],
+   "answer": "Scholomance is a subterranean academy of necromancy run by the Scourge and the Cult of the Damned. It is hidden beneath the ruins of Caer Darrow, an island fortress situated in the southeastern waters of Darrowmere Lake."
+  },
+  {
+   "q": "Is any part of the Western Plaguelands uncorrupted?",
+   "aliases": [
+    "holy ground in wpl",
+    "is uther tomb clean",
+    "uther's tomb safe"
+   ],
+   "answer": "Uther's Tomb, located on Sorrow Hill near the southern edge of the zone, remains entirely holy and untouched by blight. It stands as a consecrated memorial to the fallen High General Uther the Lightbringer and the lost Order of the Silver Hand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Chillwind Camp serves as the forward Alliance garrison, where Commander Ashlam Valorfist directs campaigns to disrupt the plague cauldrons and avenge the fallen cities of Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Bulwark marks the frontier of Forsaken sovereignty; from here, the Horde pushes eastward to neutralize Scourge commanders and contest Scarlet zealots along their vulnerable flank."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The desecrated fields of Lordaeron are a somber trial for holy warriors, offering pilgrimage to Uther's Tomb as well as righteous war against the horrors of Scholomance and Hearthglen's corrupted zealots."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The lingering taint makes the region one of the few places where rare, dangerous flora like Plaguebloom and Arthas' Tears can take root among blighted pine groves."
+  }
+ ],
+ "keywords": [
+  "andorhal",
+  "bulwark",
+  "caer darrow",
+  "cauldrons",
+  "chillwind camp",
+  "hearthglen",
+  "mardenholde keep",
+  "scholomance",
+  "uther's tomb",
+  "western plaguelands"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "subzone:ruins-of-andorhal",
+  "subzone:scholomance",
+  "subzone:hearthglen",
+  "subzone:uther-s-tomb",
+  "subzone:bulwark",
+  "subzone:chillwind-camp",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Western Plaguelands (Classic)",
+  "Western Plaguelands"
+ ]
+}

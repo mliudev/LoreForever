@@ -1,0 +1,116 @@
+{
+ "key": "npc:targorr-the-dread",
+ "type": "npc",
+ "name": "Targorr the Dread",
+ "era": "classic",
+ "zone": "stockade",
+ "meta": {
+  "wiki": "Targorr the Dread",
+  "refs": 5
+ },
+ "summary": "Targorr the Dread is an infamous Blackrock orc executioner imprisoned deep within the Stormwind Stockade. Known for his brutal tortures of captured Stormwind soldiers, his execution was indefinitely delayed by bureaucratic incompetence and corruption. When the Stockade erupted into revolt under the Defias Brotherhood, Targorr broke free and allied with the rioting convicts.",
+ "sections": [
+  {
+   "title": "The Butcher of Redridge",
+   "body": "Before his capture, Targorr the Dread served as the supreme executioner for the Blackrock clan under Warlord Gath'Ilzogg. Operating out of the occupied ruins in Redridge, his cruelty stood out as exceptionally savage even by the violent standards of the Dark Horde. Stormwind guards and militiamen who fought to defend the borderlands were subjected to agonizing torment and slow death at his hands, making his name one of the most reviled in the kingdom.",
+   "spoiler": 0
+  },
+  {
+   "title": "Justice Denied",
+   "body": "When Alliance forces finally managed to capture Targorr alive, he was brought in chains to the capital and locked inside the high-security Stockade to await execution. However, the rot within Stormwind's judicial and political bureaucracy stalled the proceedings. Paralyzed by graft, endless paperwork, and neglect, the courts failed to deliver the death sentence he had earned, leaving a bloodthirsty war criminal sitting in a cell beneath the heart of the city.",
+   "spoiler": 0
+  },
+  {
+   "title": "Uprising in the Cells",
+   "body": "When the Defias Brotherhood staged their violent prison break, Targorr saw his opportunity. Breaking free from his cell, the ruthless orc threw his lot in with the Defias rioters, turning his cellblock into a slaughterhouse. With the prison entirely out of Warden Thelwater's control, towns like Lakeshire\u2014still nursing the bitter wounds Targorr inflicted on their defenders\u2014seek adventurers willing to venture into the riots and bring back the butcher's head.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Targorr the Dread?",
+   "aliases": [
+    "who is targorr",
+    "targorr lore",
+    "stockade orc boss"
+   ],
+   "answer": "Targorr the Dread is a Blackrock orc who served as the supreme executioner under Warlord Gath'Ilzogg. Notorious for torturing captured Stormwind soldiers, he was caught and imprisoned inside the Stormwind Stockade."
+  },
+  {
+   "q": "Why wasn't Targorr executed when he was captured?",
+   "aliases": [
+    "why wasn't he killed",
+    "why is targorr alive",
+    "stormwind corruption"
+   ],
+   "answer": "Although Targorr was captured and scheduled to face justice, Stormwind's inefficient, bloated, and corrupt legal administration dragged out the process. His execution was delayed by endless bureaucratic red tape until the prison riots erupted."
+  },
+  {
+   "q": "Why is an orc allied with the Defias Brotherhood?",
+   "aliases": [
+    "why defias working with orcs",
+    "targorr defias ally",
+    "stockade orcs"
+   ],
+   "answer": "Targorr does not share the Defias Brotherhood's political grievances, but during the chaos of the prison uprising, convicts of all stripes united against their jailers. He allied with the rioters simply to secure his freedom and slaughter any guards or adventurers who cross his path."
+  },
+  {
+   "q": "Who wants Targorr dead now?",
+   "aliases": [
+    "who gives the targorr quest",
+    "guard berton targorr",
+    "targorr bounty"
+   ],
+   "answer": "Guard Berton, stationed at Lakeshire in Redridge, offers a bounty for Targorr's severed head. The people of Lakeshire suffered extensively under Targorr's cruelty and want to see the execution Stormwind's courts failed to deliver."
+  },
+  {
+   "q": "Where can Targorr be found?",
+   "aliases": [
+    "where is targorr",
+    "targorr location",
+    "stockade room"
+   ],
+   "answer": "Targorr is located inside the Stormwind Stockade instance, holed up in one of the rear cellblocks alongside other rioting inmates."
+  },
+  {
+   "q": "What clan does Targorr belong to?",
+   "aliases": [
+    "targorr clan",
+    "is targorr horde",
+    "blackrock targorr"
+   ],
+   "answer": "Targorr belongs to the Blackrock orcs, part of the rogue Dark Horde remnants operating out of the Redridge Mountains and Blackrock Spire, rather than the New Horde led by Thrall."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind\u2014particularly those with ties to Redridge\u2014Targorr embodies the terrible cost of the kingdom's bureaucratic failures and the ongoing threat of the Blackrock orcs."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Putting down Targorr within the rioting Stockade brings long-overdue justice to the fallen defenders of Lakeshire and helps contain the chaos beneath the capital."
+  }
+ ],
+ "keywords": [
+  "berton",
+  "blackrock",
+  "dread",
+  "executioner",
+  "gath'ilzogg",
+  "lakeshire",
+  "stockade",
+  "targorr"
+ ],
+ "related": [
+  "zone:stockade",
+  "quest:386",
+  "npc:guard-berton",
+  "subzone:lakeshire",
+  "subzone:stormwind-stockade",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Targorr the Dread"
+ ]
+}

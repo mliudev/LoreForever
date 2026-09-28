@@ -1,0 +1,121 @@
+{
+ "key": "quest:1942",
+ "type": "quest",
+ "name": "Astral Knot Garment",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   1942
+  ],
+  "level": "26",
+  "faction": "Alliance",
+  "start": "Wynne Larson",
+  "end": "",
+  "previous": "Pristine Spider Silk",
+  "next": null,
+  "wiki": "Astral Knot Garment",
+  "chain": []
+ },
+ "summary": "Astral Knot Garment is the culmination of a dedicated crafting endeavor in Stormwind City. After braving the wilds to gather rare spider silk, an adventurer presents the materials to the skilled tailor Wynne Larson. The result is a fine, magical weave suited for both treacherous journeys and high-society gatherings.",
+ "sections": [
+  {
+   "title": "A Weaver's Wit",
+   "body": "In the bustling Mage Quarter of Stormwind, tailors and seamstresses cater to the arcane elite and visiting nobility alike. Wynne Larson is one such artisan, renowned for her ability to weave pristine spider silk into durable, enchanted vestments. Known for a playful sense of humor, she jokes about keeping extra scraps of precious silk for her own wardrobe before delivering her expertly tailored creations.",
+   "spoiler": 0
+  },
+  {
+   "title": "Versatile Elegance",
+   "body": "The Astral Knot Garment is prized by cloth-wearing spellcasters who demand both resilience and refinement. Woven from delicate yet hardy silk gathered from dangerous arachnids, the garment is designed to withstand the rigors of combat while maintaining the polished appearance expected at formal banquets within Stormwind Keep.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Astral Knot Garment?",
+   "aliases": [
+    "what is astral knot garment",
+    "astral knot robe",
+    "astral knot vestments"
+   ],
+   "answer": "It is a finely tailored garment crafted by Wynne Larson in Stormwind City. Built from pristine spider silk, it is specifically made to serve cloth-wearing practitioners in both adventurous combat and formal high-society affairs."
+  },
+  {
+   "q": "Who crafts the Astral Knot Garment?",
+   "aliases": [
+    "who makes astral knot",
+    "wynne larson quest",
+    "astral knot tailor"
+   ],
+   "answer": "Wynne Larson, a resident tailor working in Stormwind's Mage Quarter, crafts the piece once provided with the necessary exotic materials."
+  },
+  {
+   "q": "What materials are required to complete this garment?",
+   "aliases": [
+    "materials for astral knot",
+    "spider silk needed",
+    "how is it made"
+   ],
+   "answer": "The garment requires pristine spider silk harvested from deadly spiders across the wild regions of the world, woven together with tailoring techniques that preserve the silk's natural strength and enchantability."
+  },
+  {
+   "q": "Why does Wynne Larson tease about keeping leftover silk?",
+   "aliases": [
+    "did she steal my silk",
+    "wynne larson joke",
+    "short robe"
+   ],
+   "answer": "Pristine spider silk is exceptionally rare and prized among tailors. Wynne jokes about tailoring the garment short so she could hoard a few scraps for herself, though she delivers the completed work in full."
+  },
+  {
+   "q": "Where in Stormwind does this tailoring take place?",
+   "aliases": [
+    "where is wynne larson",
+    "astral knot location",
+    "where to turn in astral knot"
+   ],
+   "answer": "Wynne Larson is located in the Mage Quarter of Stormwind, a district home to scholars, arcanists, and specialized clothiers who understand enchanted textiles."
+  },
+  {
+   "q": "Who typically wears the Astral Knot Garment?",
+   "aliases": [
+    "who uses astral knot",
+    "what class is this for",
+    "who wears it"
+   ],
+   "answer": "Alliance spellcasters, especially mages, priests, and warlocks, favor the garment for its light, protective weave and dignified appearance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The Astral Knot Garment blends the arcane dignity of Stormwind's Mage Quarter with practical enchantments needed when traveling beyond the kingdom's fortified walls."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Wynne Larson's work represents the pinnacle of working with pristine spider silk, showing how raw monstrous materials can be refined into grand fashion."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stormwind's artisans pride themselves on providing Alliance champions with equipment suitable for royal halls and dangerous frontlines alike."
+  }
+ ],
+ "keywords": [
+  "astral knot garment",
+  "cloth armor",
+  "mage quarter",
+  "pristine spider silk",
+  "silk robe",
+  "stormwind",
+  "tailoring",
+  "wynne larson"
+ ],
+ "related": [
+  "npc:wynne-larson",
+  "quest:1940",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Astral Knot Garment"
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "key": "subzone:death-cultist-base-camp",
+ "type": "subzone",
+ "name": "Death Cultist Base Camp",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Death Cultist Base Camp"
+ },
+ "summary": "In the year 25 ADP, this location west of Tyr's Hand is known as the Scarlet Base Camp, an armed enclave of the Scarlet Crusade overlooking the road into their southeastern fortress. Though later claimed by Cult of the Damned necromancers brewing noxious toxins at a plague cauldron, travelers in the present era will find zealots of the crusade guarding the blighted hills.",
+ "sections": [
+  {
+   "title": "A Crusader Staging Ground",
+   "body": "Occupying high ground along the winding path toward Tyr's Hand, this outpost serves the Scarlet Crusade as an advanced guard post in the southeastern Eastern Plaguelands. From here, crusaders mount watches against both wandering undead and interloping travelers traveling along the blighted trails. While Scourge necromancers covet the territory for their dark arts, the camp remains firmly in the clutches of Scarlet zealots who answer any trespass with righteous steel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this area called Death Cultist Base Camp?",
+   "aliases": [
+    "why death cultist",
+    "cultist camp name",
+    "isn't this scarlet camp"
+   ],
+   "answer": "While cartographers of a later era note death cultists taking over the grounds and setting up a plague cauldron, in 25 ADP this encampment is the Scarlet Base Camp. It serves as an outer defensive position for the Scarlet Crusade guarding the approach to Tyr's Hand."
+  },
+  {
+   "q": "Who controls this encampment right now?",
+   "aliases": [
+    "who is here",
+    "who controls the camp",
+    "scarlet or scourge"
+   ],
+   "answer": "The camp is manned by soldiers of the Scarlet Crusade. They treat all outsiders\u2014both the mindless Scourge and living travelers of the Alliance or Horde\u2014as tainted enemies."
+  },
+  {
+   "q": "Where is this camp located?",
+   "aliases": [
+    "where is it",
+    "camp location",
+    "where is scarlet base camp"
+   ],
+   "answer": "It sits nestled in the hills of the southeastern Eastern Plaguelands, positioned directly west of the grand scarlet bastion of Tyr's Hand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The camp stands as a sobering reminder of how far the Scarlet Crusade has fallen, twisting the righteous light into paranoid zealotry against all outside their ranks."
+  }
+ ],
+ "keywords": [
+  "death cultist base camp",
+  "eastern plaguelands",
+  "plague cauldron",
+  "scarlet base camp",
+  "scarlet crusade",
+  "scourge",
+  "tyr's hand"
+ ],
+ "related": [
+  "subzone:scarlet-base-camp",
+  "subzone:tyr-s-hand",
+  "zone:easternplaguelands",
+  "topic:scourge",
+  "subzone:cauldron"
+ ],
+ "attribution": [
+  "Death Cultist Base Camp"
+ ]
+}

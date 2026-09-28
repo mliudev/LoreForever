@@ -1,0 +1,120 @@
+{
+ "key": "quest:6361",
+ "type": "quest",
+ "name": "A Bundle of Hides",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   6361
+  ],
+  "level": "10",
+  "faction": "Horde",
+  "start": "Jahan Hawkwing",
+  "end": "Devrak",
+  "previous": "",
+  "next": "Ride to Thunder Bluff (Classic)",
+  "wiki": "A Bundle of Hides (Classic)",
+  "chain": []
+ },
+ "summary": "A Bundle of Hides is an introductory delivery task in the Barrens given by the tauren Jahan Hawkwing at the Crossroads. He asks travelers to take cured game pelts across central Kalimdor to Thunder Bluff for leatherworking. The errand serves to introduce new Horde couriers to the Crossroads wind rider roost and the mechanics of flight transport.",
+ "sections": [
+  {
+   "title": "Trade Across the Savanna",
+   "body": "The Crossroads is the bustling heart of commerce and travel throughout the Barrens, connecting orcs, trolls, and tauren across the arid plains. Hunters constantly harvest hides and meat from the savanna's roaming beasts, but local outposts lack the facilities to process every raw material on site. Jahan Hawkwing gathers pelts from regional hunts and relies on passing travelers to route them west to Thunder Bluff, where master leatherworkers can craft vital gear for the Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "Taking to the Skies",
+   "body": "Carrying heavy cargo across the rugged trails of the Barrens and up into Mulgore on foot is a grueling journey exposed to quilboar ambushes and predators. To expedite trade, Jahan directs couriers straight to Devrak, the Crossroads' wind rider master. Entrusting goods to Devrak and taking wing aboard a trained wyvern demonstrates the vital logistical network tying the Horde's scattered settlements together.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest A Bundle of Hides?",
+   "aliases": [
+    "quest giver",
+    "who starts a bundle of hides",
+    "where to get bundle of hides"
+   ],
+   "answer": "Jahan Hawkwing, a tauren located at the Crossroads in the Barrens, offers the quest. He has collected hides from local fauna and seeks a reliable courier to help move them toward Thunder Bluff."
+  },
+  {
+   "q": "Who should I bring the bundle of hides to?",
+   "aliases": [
+    "turn in npc",
+    "where to take hides",
+    "who do i talk to"
+   ],
+   "answer": "You need to take the bundle directly to Devrak, the orc wind rider master stationed at the Crossroads perch. He handles aerial transit between the Crossroads and other major Horde hubs."
+  },
+  {
+   "q": "What happens after giving the hides to Devrak?",
+   "aliases": [
+    "next quest",
+    "what after a bundle of hides",
+    "follow up quest"
+   ],
+   "answer": "Devrak offers a follow-up task instructing you to mount a wind rider and fly the cargo straight to Ahanu, a leatherworker waiting atop the high bluffs of Thunder Bluff."
+  },
+  {
+   "q": "Why are these hides being sent to Thunder Bluff?",
+   "aliases": [
+    "why thunder bluff",
+    "ahanu hides",
+    "what are hides for"
+   ],
+   "answer": "Jahan Hawkwing works with a colleague named Ahanu in Thunder Bluff, who turns the raw pelts of Barrens game into finished leather armor and goods for the tauren and their Horde allies."
+  },
+  {
+   "q": "Why use a wind rider instead of walking?",
+   "aliases": [
+    "why fly to thunder bluff",
+    "wind rider travel"
+   ],
+   "answer": "Traveling on foot across the expanse of the Barrens and climbing the massive mesa of Thunder Bluff is dangerous and slow. A wind rider offers swift, safe transit above hostile savanna wildlife and quilboar packs."
+  },
+  {
+   "q": "Does this require prior flight master experience?",
+   "aliases": [
+    "flight path requirement",
+    "do i need flight path"
+   ],
+   "answer": "This quest is intended as an early introduction to the flight master system for Horde adventurers, familiarizing you with Devrak's roost so you can utilize wind riders for long-distance regional travel."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren travelers, this errand represents the ongoing partnership between wandering hunters in the ancestral Barrens and the craftsmen established on the great mesas of Thunder Bluff."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The delivery highlights the logistics linking Kalimdor's Horde bases, relying on orcish beast masters like Devrak to bridge the physical distances between allied territories."
+  }
+ ],
+ "keywords": [
+  "ahanu",
+  "bundle of hides",
+  "crossroads",
+  "devrak",
+  "jahan hawkwing",
+  "leatherworking",
+  "the barrens",
+  "thunder bluff",
+  "wind rider"
+ ],
+ "related": [
+  "npc:jahan-hawkwing",
+  "npc:devrak",
+  "npc:ahanu",
+  "subzone:crossroads",
+  "zone:barrens",
+  "zone:thunderbluff",
+  "quest:4767"
+ ],
+ "attribution": [
+  "A Bundle of Hides (Classic)"
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "key": "quest:1039",
+ "type": "quest",
+ "name": "The Barrens Port",
+ "era": "classic",
+ "zone": "darnassus",
+ "meta": {
+  "ids": [
+   1039
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Thyn'tel Bladeweaver",
+  "end": "Wharfmaster Dizzywig",
+  "previous": "Velinde's Effects",
+  "next": "Passage to Booty Bay",
+  "wiki": "The Barrens Port",
+  "chain": []
+ },
+ "summary": "The Barrens Port is an Alliance quest given by Thyn'tel Bladeweaver in Darnassus as part of the investigation into the disappearance of Velinde Starsong. Believing Velinde took a ship across the Great Sea to the Eastern Kingdoms, the Sentinels direct you across dangerous Horde territory to the goblin-run harbor of Ratchet to consult Wharfmaster Dizzywig's ledgers.",
+ "sections": [
+  {
+   "title": "Tracking the Priestess",
+   "body": "Following the inspection of Velinde Starsong's personal effects, the Sentinels discovered clues suggesting she sought passage across the sea toward the Eastern Kingdoms. Ratchet serves as the only operational maritime harbor in the Barrens, making it the solitary conduit through which a traveler from northern Kalimdor could arrange transport south or east without sailing directly out of night elf territory. Thyn'tel Bladeweaver sends you southward to search the harbor master's shipping ledgers for any sign of Velinde's name.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Dangerous Crossing",
+   "body": "Traveling to Ratchet requires an Alliance operative to brave the heart of Horde-controlled lands. South of Ashenvale, the Mor'shan Rampart and the arid savannas of the Barrens crawl with orcish outriders and Tauren patrols. The town of Ratchet itself, governed by the neutral Steamwheedle Cartel, provides safe harbor under goblin law, where trade supersedes faction rivalries and Wharfmaster Dizzywig keeps careful track of every passenger and cargo crate crossing the docks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do the Sentinels send me into the Barrens?",
+   "aliases": [
+    "why go to ratchet",
+    "why the barrens port"
+   ],
+   "answer": "Ratchet is the primary neutral trading port in central Kalimdor. Since Velinde Starsong vanished and sought passage toward the Eastern Kingdoms, the night elves deduce that she likely booked safe travel abroad aboard a goblin trading vessel rather than navigating official military channels."
+  },
+  {
+   "q": "Who is Wharfmaster Dizzywig?",
+   "aliases": [
+    "who is dizzywig",
+    "ratchet wharfmaster"
+   ],
+   "answer": "Wharfmaster Dizzywig is the goblin official overseeing maritime departures and cargo registries at the docks in Ratchet. Working on behalf of the Steamwheedle Cartel, he keeps exhaustive ledgers detailing every vessel, passenger, and shipment that sails in and out of the harbor."
+  },
+  {
+   "q": "Why would an Alliance member be safe in Ratchet?",
+   "aliases": [
+    "is ratchet safe for alliance",
+    "will guards attack me in ratchet"
+   ],
+   "answer": "Ratchet is operated by the neutral Steamwheedle Cartel rather than the Horde. The goblins prioritize commerce and profit above faction disputes, meaning their bruisers enforce peace and allow Alliance travelers to conduct business unmolested so long as they avoid drawing weapons inside the settlement."
+  },
+  {
+   "q": "What happens after finding Wharfmaster Dizzywig?",
+   "aliases": [
+    "what next after barrens port",
+    "velinde quest continuation"
+   ],
+   "answer": "Once Dizzywig checks his manifests, he confirms Velinde's departure aboard a vessel Bound for the Eastern Kingdoms, directing you onward toward Booty Bay in Stranglethorn Vale to pick up her trail on the other side of the Great Sea."
+  },
+  {
+   "q": "How does an Alliance traveler reach Ratchet safely?",
+   "aliases": [
+    "safest way to ratchet alliance",
+    "how to get to ratchet alliance"
+   ],
+   "answer": "Alliance travelers typically journey south from Ashenvale past Silverwing Grove, skirting the heavily guarded Mor'shan Rampart by cutting through the hills just east of the main road. Once in the Barrens, sticking to the paths toward the eastern coast leads directly to the docks of Ratchet."
+  },
+  {
+   "q": "Who is Velinde Starsong?",
+   "aliases": [
+    "who is velinde",
+    "velinde starsong lore"
+   ],
+   "answer": "Velinde Starsong was a night elf priestess and Sentinel who wielded the Scythe of Elune during the conflicts following the Third War. After summoning wild worgen to combat demons and subsequently losing control of the beasts, she disappeared while attempting to seek counsel or answers across the sea."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Velinde Starsong is an esteemed Sentinel whose loss weighs heavily on the leadership in Darnassus; retracing her desperate journey reflects the grave consequences of her experiments with the Scythe of Elune."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Navigating the heart of Kalimdor exposes Alliance scouts to heavy Horde patrols in the Barrens, requiring caution before reaching the neutral sanctuary of the goblin docks."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "ratchet",
+  "scythe of elune",
+  "steamwheedle cartel",
+  "the barrens",
+  "thyn'tel bladeweaver",
+  "velinde starsong",
+  "wharfmaster dizzywig"
+ ],
+ "related": [
+  "quest:1038",
+  "quest:1040",
+  "subzone:ratchet",
+  "npc:thyn-tel-bladeweaver",
+  "zone:barrens",
+  "zone:ashenvale",
+  "subzone:mor-shan-rampart",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "The Barrens Port"
+ ]
+}

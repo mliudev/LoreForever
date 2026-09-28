@@ -1,0 +1,89 @@
+{
+ "key": "subzone:ruins-of-isildien",
+ "type": "subzone",
+ "name": "Ruins of Isildien",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Ruins of Isildien"
+ },
+ "summary": "The Ruins of Isildien are the sprawling remains of an ancient night elven city in southwestern Feralas, destroyed ten millennia ago during the Great Sundering. Today, the overgrown stonework and cracked temple courtyards are occupied by brutish Gordunni ogres.",
+ "sections": [
+  {
+   "title": "A Fallen City of the Kaldorei",
+   "body": "Ten thousand years ago, before the world shattered, Isildien was a grand night elven settlement nestled in the primordial forests of ancient Kalimdor. Its graceful marble arches and grand terraces stood as monuments to kaldorei civilization and devotion. When the Well of Eternity imploded and tore the continents apart, Isildien fell into ruined desolation, smothered under millennia of untamed jungle growth. Dominating the upper terrace is a colossal domed structure remarkably reminiscent of Darnassus's Temple of the Moon, suggesting the city was once a significant sanctuary dedicated to Elune.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Gordunni Stronghold",
+   "body": "In the modern era, the elegant stonework of Isildien serves a far cruder purpose. The Gordunni ogres of Feralas have claimed the sprawling terraces and outcroppings as one of their primary settlements. The ogres have fortified the crumbling walkways, desecrating ancient plazas with crude bonfires, primitive barricades, and war banners, fiercely defending their stolen home against any outsiders who venture too close to the southern hills.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What was Isildien originally?",
+   "aliases": [
+    "what is isildien",
+    "isildien history",
+    "who built isildien"
+   ],
+   "answer": "Isildien was a major night elven city built before the Great Sundering ten thousand years ago. It featured extensive stone plazas, multi-tiered terraces, and prominent temples before the cataclysm left it in ruins."
+  },
+  {
+   "q": "Who controls the Ruins of Isildien now?",
+   "aliases": [
+    "who lives in isildien",
+    "isildien enemies",
+    "ogres in isildien"
+   ],
+   "answer": "The ruins have been seized and fortified by the Gordunni ogres, who use the broken marble halls and natural vantage points as a stronghold in southern Feralas."
+  },
+  {
+   "q": "What is the large circular pavilion at the top of the stairs?",
+   "aliases": [
+    "isildien temple",
+    "round building in isildien",
+    "temple of elune feralas"
+   ],
+   "answer": "The prominent circular pavilion closely mirrors the architecture of the Temple of the Moon in Darnassus, strongly indicating that the upper dais was once a sacred sanctuary dedicated to the worship of Elune."
+  },
+  {
+   "q": "Is there anything hidden inside the ruins?",
+   "aliases": [
+    "isildien cave",
+    "secrets in isildien"
+   ],
+   "answer": "A cave is nestled into the eastern cliffs bordering the ruins, used by the resident ogres alongside the scattered stone terraces across the northern and southern grounds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Walking through Isildien offers a bitter reminder of the heights of your pre-Sundering empire, now fallen into ruin and desecrated by barbaric Gordunni ogres."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The great rotunda at the summit shares the architectural layout of Elune's high sanctuaries, echoing prayers offered to the White Lady ten thousand years ago."
+  }
+ ],
+ "keywords": [
+  "elune",
+  "feralas",
+  "gordunni",
+  "isildien",
+  "kaldorei",
+  "ogres",
+  "sundering",
+  "temple of the moon"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:temple-of-the-moon",
+  "zone:darnassus",
+  "topic:elune"
+ ],
+ "attribution": [
+  "Ruins of Isildien"
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "key": "quest:127",
+ "type": "quest",
+ "name": "Selling Fish",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   127
+  ],
+  "level": "21",
+  "faction": "Alliance",
+  "start": "",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Selling Fish",
+  "chain": []
+ },
+ "summary": "Dockmaster Baren manages the bustling pier at Lakeshire, but finding fresh stock for his trade has grown difficult. He pays travelers to haul in spotted sunfish, a prized local staple of Lake Everstill that has become dangerous to gather due to the encroaching murlocs.",
+ "sections": [
+  {
+   "title": "A Staple of Lake Everstill",
+   "body": "Lake Everstill is known throughout the surrounding lands for its spotted sunfish, a delicate catch that remains in perpetual demand among the townspeople and passing merchants. Yet despite the abundance beneath the lake's surface, the town's supplies regularly run thin. With Lakeshire stretched to its limits under various local threats, even basic commerce requires the help of freelance adventurers.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trouble on the Shallows",
+   "body": "Normally, local anglers would have little trouble satisfying Dockmaster Baren's orders. However, the rise of aggressive murloc tribes along the shallows and banks has driven ordinary townsfolk away from the water. Travelers looking to fulfill Baren's request must either cast their own lines while watching their backs, or claim the catch directly from the foraging murlocs that plague the shores.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dockmaster Baren?",
+   "aliases": [
+    "baren",
+    "who is the dockmaster",
+    "dockmaster baren"
+   ],
+   "answer": "Dockmaster Baren oversees the docks and boat traffic on Lake Everstill in Lakeshire. He manages the town's aquatic trade and relies on capable travelers to help secure fresh fish and clear out threats around the water."
+  },
+  {
+   "q": "Why are spotted sunfish in such high demand?",
+   "aliases": [
+    "why sunfish",
+    "spotted sunfish lore",
+    "why does lakeshire want fish"
+   ],
+   "answer": "Lake Everstill is famed for its spotted sunfish, making them a staple delicacy and an important trade good for Lakeshire. Dockmaster Baren's stocks run low because ordinary town anglers cannot safely fish while the lake remains infested with hostiles."
+  },
+  {
+   "q": "How do murlocs end up with the sunfish?",
+   "aliases": [
+    "murloc fish",
+    "why do murlocs drop fish",
+    "murlocs stealing fish"
+   ],
+   "answer": "The murloc tribes along Lake Everstill actively forage and hunt the shallows. When they kill or drive away local fishermen, they gather the fish for their own camps, making their stores ripe for the taking by adventurers who would rather fight than cast a line."
+  },
+  {
+   "q": "Where can spotted sunfish be found?",
+   "aliases": [
+    "where are sunfish",
+    "lake everstill fish location",
+    "how to get spotted sunfish"
+   ],
+   "answer": "Spotted sunfish inhabit the waters of Lake Everstill in Redridge Mountains. They can be reeled in directly with a fishing rod or looted from the murlocs dwelling around the lake's banks and shallows."
+  },
+  {
+   "q": "How does this quest fit with Murloc Poachers?",
+   "aliases": [
+    "murloc poachers connection",
+    "baren other quest",
+    "dockmaster quests"
+   ],
+   "answer": "Dockmaster Baren offers both tasks simultaneously. Since murlocs prowl the lake and poach its resources, dealing with the poachers naturally overlaps with reclaiming the spotted sunfish they have hauled from the water."
+  },
+  {
+   "q": "Is fishing required to help Dockmaster Baren?",
+   "aliases": [
+    "do i need fishing",
+    "can i do this without fishing pole",
+    "fishing required"
+   ],
+   "answer": "No, you do not need fishing gear or skill. While angling is a peaceful way to gather spotted sunfish, Dockmaster Baren openly suggests taking them by force from the murloc tribes that hunt the lake."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Lakeshire's reputation for fine freshwater delicacies like spotted sunfish makes the local waters an enduring point of interest for aspiring cooks."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With the Kingdom of Stormwind offering little military aid to Redridge, even sustaining the local food supply relies on independent Alliance travelers lending a hand."
+  }
+ ],
+ "keywords": [
+  "dockmaster baren",
+  "lake everstill",
+  "lakeshire",
+  "murloc",
+  "redridge",
+  "selling fish",
+  "spotted sunfish"
+ ],
+ "related": [
+  "subzone:lakeshire",
+  "subzone:lake-everstill",
+  "quest:150",
+  "topic:murloc",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Selling Fish"
+ ]
+}

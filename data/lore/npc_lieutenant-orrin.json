@@ -1,0 +1,84 @@
+{
+ "key": "npc:lieutenant-orrin",
+ "type": "npc",
+ "name": "Lieutenant Orrin",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Lieutenant Orrin",
+  "refs": 1
+ },
+ "summary": "Lieutenant Orrin is an officer of the Argent Dawn stationed at the gates of Stormwind City. Positioned in the Valley of Heroes, he coordinates local defense against incursions by the Scourge and directs fresh recruits to investigate undead threats outside the capital's walls.",
+ "sections": [
+  {
+   "title": "A Sentinel at the Gates",
+   "body": "While the Argent Dawn is primarily known for holding the front lines in the ruined north, their presence extends south to safeguard vital strongholds like Stormwind City. Lieutenant Orrin stands near the towering statues of the Valley of Heroes, watching the road for signs of corruption. When necromantic magic stirs outside the capital, he is tasked with sounding the alarm and rallying adventurers before foul forces can threaten the populace.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes on the Unliving",
+   "body": "Orrin acts as a primary liaison between the independent order and volunteers within the southern kingdom. When signs of the Scourge surface beyond the city gates, he marshals able-bodied scouts and sends them out to gather intelligence and secure hazardous artifacts, such as cracked necrotic crystals, to better understand and repel the undead threat.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lieutenant Orrin?",
+   "aliases": [
+    "who is orrin",
+    "lieutenant orrin lore",
+    "who is the argent dawn officer"
+   ],
+   "answer": "Lieutenant Orrin is a human officer serving the Argent Dawn. He is stationed in the Valley of Heroes at the entrance of Stormwind City, tasked with coordinating defenses and enlisting scouts whenever the Scourge threatens the surrounding lands."
+  },
+  {
+   "q": "Why is the Argent Dawn in Stormwind City?",
+   "aliases": [
+    "why is argent dawn in stormwind",
+    "argent dawn stormwind",
+    "what is argent dawn doing here"
+   ],
+   "answer": "Although the Argent Dawn primarily wages war against the Scourge in the Plaguelands, they maintain outposts and liaisons across major Alliance and Horde hubs. Stationed at the capital's gates, officers like Orrin keep watch for necromantic incursions and recruit capable fighters to stem the spread of the undead."
+  },
+  {
+   "q": "What does Lieutenant Orrin ask adventurers to do?",
+   "aliases": [
+    "orrin quests",
+    "investigate the scourge of stormwind",
+    "what does orrin want"
+   ],
+   "answer": "Orrin directs recruits to scout the perimeter outside Stormwind City, investigate signs of Scourge activity, and recover artifacts like cracked necrotic crystals to study the unholy magic behind the incursions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions returning to the capital, Orrin serves as a stark reminder that even the southern heartlands are not entirely safe from the reach of the Lich King."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Paladins who uphold the Light often find natural common cause with the Argent Dawn's efforts to purge necromancy wherever it festers."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "lieutenant orrin",
+  "necrotic crystal",
+  "orrin",
+  "scourge",
+  "stormwind",
+  "undead",
+  "valley of heroes"
+ ],
+ "related": [
+  "topic:argent-dawn",
+  "topic:scourge",
+  "subzone:valley-of-heroes",
+  "zone:stormwind",
+  "quest:9260",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Lieutenant Orrin"
+ ]
+}

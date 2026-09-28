@@ -1,0 +1,94 @@
+{
+ "key": "subzone:freewind-post",
+ "type": "subzone",
+ "name": "Freewind Post",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Freewind Post"
+ },
+ "summary": "Freewind Post is the primary Horde outpost in Thousand Needles, perched high atop one of the canyon's dramatic stone mesas. Accessible primarily by tauren lift and winding rope bridges, it serves as a defensive refuge against centaur warbands and a vital frontier staging ground.",
+ "sections": [
+  {
+   "title": "A Fortress in the Sky",
+   "body": "Built directly upon the canyon mesas, Freewind Post relies on ingenuity and height to safeguard its people. The Galak centaur dominate the arid canyon floor below, but they cannot effectively scale the towering cliffs or breach the heavy wooden elevators that haul Horde travelers up into the sky. A labyrinth of rope and plank bridges connects Freewind to neighboring spires, forming a secure aerie. Beyond keeping centaur raiding parties at bay, the outpost also helps manage the screeching harpies nesting along the bluffs and tends to the nearby wyvern grounds at Highperch, where wild eggs are culled and trained as loyal wind rider mounts for the Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "Shadows from Darkcloud Pinnacle",
+   "body": "Despite its impregnable height, Freewind Post faces growing tension with its neighbors to the northwest: the Grimtotem tribe stationed at Darkcloud Pinnacle. Once tolerated as stubborn traditionalists, the Grimtotem under Chieftain Arnak have increasingly turned to violence, kidnapping, and murder. Suspicious rituals and whispers of dark power surround the nearby peaks. The local tauren watch the skies and rope bridges with growing dread, conscious that their most dangerous enemies do not prowl the salt flats below, but sit entrenched across the canyon winds.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Freewind Post built so high up on a mesa?",
+   "aliases": [
+    "why is freewind post in the sky",
+    "why mesa",
+    "freewind post elevation"
+   ],
+   "answer": "The vertical layout keeps the settlement safe from the hostile Galak centaur warbands patrolling the canyon bottom. Centaur excel on flat terrain but cannot scale sheer cliff faces or easily breach the mechanical wooden lifts used by the tauren."
+  },
+  {
+   "q": "How do you get up and down from the post?",
+   "aliases": [
+    "how to get up freewind post",
+    "freewind post elevator",
+    "freewind entrance"
+   ],
+   "answer": "Most travelers use the large mechanical wooden lifts stationed at the base of the main mesa. There is also a back route consisting of a precarious series of rope bridges and wooden ramps winding between neighboring rock pillars, though a careless step can mean a lethal plunge to the canyon floor."
+  },
+  {
+   "q": "What is the relationship between Freewind Post and the Grimtotem?",
+   "aliases": [
+    "grimtotem freewind post",
+    "darkcloud pinnacle freewind",
+    "why are grimtotem bad here"
+   ],
+   "answer": "Relations are deeply strained. The Grimtotem occupying Darkcloud Pinnacle northwest of Freewind Post are accused of murders, kidnappings, and unprovoked hostility toward other tauren, leaving the outpost's defenders in a state of quiet vigilance against their neighboring kin."
+  },
+  {
+   "q": "What importance does Highperch have to the post?",
+   "aliases": [
+    "why highperch",
+    "highperch wyverns freewind"
+   ],
+   "answer": "Highperch is an ancestral nesting ground for wild wyverns just across the canyon. The tauren of Freewind Post monitor these beasts and cull eggs from their nests, which are then nurtured and raised to serve as wind rider mounts throughout the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Freewind Post displays the architectural ingenuity of the shu'halo, adapting mesa heights to shut out traditional centaur marauders while tending the ancestral wyverns of the bluffs."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Freewind Post is the sole major Horde sanctuary and flight connection between the Southern Barrens and Tanaris, providing essential logistical support across central Kalimdor."
+  }
+ ],
+ "keywords": [
+  "darkcloud pinnacle",
+  "elevator",
+  "freewind post",
+  "galak",
+  "highperch",
+  "mesa",
+  "tauren",
+  "thousand needles",
+  "wyverns"
+ ],
+ "related": [
+  "zone:thousandneedles",
+  "subzone:darkcloud-pinnacle",
+  "subzone:highperch",
+  "topic:grimtotem-tribe",
+  "topic:centaur",
+  "topic:tauren",
+  "subzone:camp-taurajo",
+  "zone:thunderbluff"
+ ],
+ "attribution": [
+  "Freewind Post"
+ ]
+}

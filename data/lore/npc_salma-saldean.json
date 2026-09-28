@@ -1,0 +1,111 @@
+{
+ "key": "npc:salma-saldean",
+ "type": "npc",
+ "name": "Salma Saldean",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Salma Saldean",
+  "refs": 3
+ },
+ "summary": "Salma Saldean is a hardy Westfall homesteader who tends Saldean's Farm alongside her husband, Farmer Saldean. In a region overrun by bandits and abandoned by Stormwind, she keeps her door open and provides warm meals to travelers in exchange for a little help around the homestead.",
+ "sections": [
+  {
+   "title": "Hospitality in a Hard Land",
+   "body": "While neighboring homesteads have been ransacked and burned by the Defias Brotherhood, the Saldeans manage to keep their hearth lit. Salma greets travelers with a warm demeanor and a hearty pot on the stove, always on the lookout for capable wanderers willing to assist around the farmstead.",
+   "spoiler": 0
+  },
+  {
+   "title": "Putting Food on the Table",
+   "body": "Survival in Westfall requires resourcefulness. Salma makes use of whatever the land provides to feed her family and visitors, teaching travelers how to prepare local specialties like Goretusk liver pie and her famous Westfall stew from wild boar, vultures, murlocs, and stray okra.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Salma Saldean?",
+   "aliases": [
+    "who is salma",
+    "salma saldean lore",
+    "saldean farm wife"
+   ],
+   "answer": "Salma Saldean is a human farmer living at Saldean's Farm in central Westfall alongside her husband. She provides comfort and food to travelers while struggling to keep the farm running amid regional collapse."
+  },
+  {
+   "q": "Where is Salma Saldean located?",
+   "aliases": [
+    "salma location",
+    "where is salma saldean",
+    "where is saldean farm"
+   ],
+   "answer": "She can be found outside her farmhouse at Saldean's Farm, situated along the road in central Westfall, just north of the crossroads leading down toward Sentinel Hill."
+  },
+  {
+   "q": "What recipes does Salma Saldean teach?",
+   "aliases": [
+    "westfall stew recipe",
+    "salma food",
+    "goretusk liver pie"
+   ],
+   "answer": "Salma shares the secrets to making hearty local provisions, most notably Goretusk Liver Pie and Westfall Stew, utilizing local ingredients scavenged from the wildlife around Westfall."
+  },
+  {
+   "q": "Why is it so hard for the Saldeans to find help?",
+   "aliases": [
+    "why abandoned farm",
+    "why help needed saldean",
+    "westfall farm abandoned"
+   ],
+   "answer": "Most farmers and laborers in Westfall have abandoned their lands and fled due to marauding bandits, rogue harvest golems, and the absence of Stormwind's royal army, leaving the few remaining homesteaders completely shorthanded."
+  },
+  {
+   "q": "How do the Saldeans survive the Defias Brotherhood?",
+   "aliases": [
+    "saldean defias",
+    "why hasn't farm burned down"
+   ],
+   "answer": "The Saldeans rely on passing adventurers and their own resilience to defend the property. Though peril surrounds them, they stubbornly refuse to abandon their land and home."
+  },
+  {
+   "q": "Who is Salma's husband?",
+   "aliases": [
+    "salma husband",
+    "farmer saldean"
+   ],
+   "answer": "She is married to Farmer Saldean, who works alongside her on the farm trying to deal with malfunctioning harvest watchers and rogue beasts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Salma Saldean is a key contact for cooks traversing Westfall, offering practical recipes like Westfall Stew and Goretusk Liver Pie that make full use of local wildlife."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Salma exemplifies the stubborn fortitude of Alliance homesteaders who refuse to yield their livelihoods despite the Crown's neglect."
+  },
+  {
+   "target": "race:Human",
+   "text": "For human travelers, visiting Salma offers a poignant reminder of the hardship faced by Stormwind's common folk outside the kingdom's fortified capital."
+  }
+ ],
+ "keywords": [
+  "farmer saldean",
+  "goretusk liver pie",
+  "saldean's farm",
+  "salma saldean",
+  "stew",
+  "westfall",
+  "westfall stew"
+ ],
+ "related": [
+  "subzone:saldean-s-farm",
+  "quest:36",
+  "quest:22",
+  "zone:westfall",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Salma Saldean"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "key": "subzone:thistlefur-hold",
+ "type": "subzone",
+ "name": "Thistlefur Hold",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Thistlefur Hold"
+ },
+ "summary": "Thistlefur Hold is a cavernous den carved into northern Thistlefur Village in west-central Ashenvale. Once peaceful bears of the forest, the Thistlefur furbolgs residing here have succumbed to corruption and turn violent toward any outsider who draws near.",
+ "sections": [
+  {
+   "title": "A Corrupted Den",
+   "body": "Tucked into the northern reaches of Thistlefur Village, Thistlefur Hold serves as the heart of the Thistlefur tribe's territory. The furbolgs here were driven mad after coming into possession of the Idol of Remulos, falling into a state of feral hostility that makes them dangerous to travelers and neighbors alike. Deep within the winding caverns, the tribe hordes scavenged relics\u2014including troll charms of interest to the Darkspear\u2014and keeps captives bound in wooden cages, such as the imprisoned tauren brave Ruul Snowhoof.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Thistlefur Hold?",
+   "aliases": [
+    "thistlefur hold info",
+    "what is this cave",
+    "thistlefur cave"
+   ],
+   "answer": "Thistlefur Hold is the subterranean cavern complex at the northern end of Thistlefur Village in west-central Ashenvale. It houses the densest population of the hostile Thistlefur furbolg tribe."
+  },
+  {
+   "q": "Why are the furbolgs in Thistlefur Hold hostile?",
+   "aliases": [
+    "why are thistlefur mad",
+    "thistlefur corruption",
+    "why are furbolgs attacking"
+   ],
+   "answer": "The Thistlefur furbolgs were corrupted by the Idol of Remulos, an artifact they kept within their possession. The malign influence twisted their minds and drove them to lash out against all outsiders."
+  },
+  {
+   "q": "Who is trapped inside the hold?",
+   "aliases": [
+    "thistlefur captive",
+    "tauren in thistlefur hold",
+    "who is ruul snowhoof"
+   ],
+   "answer": "Ruul Snowhoof, a tauren brave, was captured by the Thistlefur tribe and sits locked in a wooden cage deep inside the caverns awaiting rescue by Horde champions."
+  },
+  {
+   "q": "Why is the Horde interested in Thistlefur Hold?",
+   "aliases": [
+    "horde quests thistlefur",
+    "troll charms thistlefur"
+   ],
+   "answer": "The Horde seeks to free the captured tauren Ruul Snowhoof and recover valuable troll charms that the furbolgs have hoarded within the depths of the cave."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The hold represents both a rescue mission and a salvage operation for the Horde, demanding warriors enter the den to liberate Ruul Snowhoof and retrieve stolen troll charms."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Seeing the Thistlefur furbolgs fall to madness under the sway of the Idol of Remulos is a tragic reminder of how easily nature's guardians can be corrupted in Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "furbolg",
+  "remulos",
+  "ruul snowhoof",
+  "thistlefur hold",
+  "thistlefur village",
+  "troll charms"
+ ],
+ "related": [
+  "subzone:thistlefur-village",
+  "zone:ashenvale",
+  "npc:ruul-snowhoof",
+  "topic:furbolg",
+  "npc:remulos",
+  "quest:6462",
+  "topic:horde",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Thistlefur Hold"
+ ]
+}

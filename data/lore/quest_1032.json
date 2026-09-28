@@ -1,0 +1,120 @@
+{
+ "key": "quest:1032",
+ "type": "quest",
+ "name": "Satyr Slaying!",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1032
+  ],
+  "level": "32",
+  "faction": "Alliance",
+  "start": "Illiyana",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Satyr Slaying! (Classic)",
+  "chain": []
+ },
+ "summary": "Grieving the loss of her sister Anilia, the dryad Illiyana at Forest Song seeks vengeance against the satyrs lurking in Ashenvale. She asks Alliance champions to cull the corrupted creatures and return with their horns as proof of their downfall.",
+ "sections": [
+  {
+   "title": "A Dryad's Grief",
+   "body": "Dryads are typically playful and serene forest spirits, deeply bonded to nature and elusive to mortals. The brutal slaying of Anilia shatters this tranquility for Illiyana, who dwells among the ruins of Forest Song. Pushed past her carefree nature into unfamiliar sorrow, she turns to travelers of the Alliance to strike down the demonic beasts responsible.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Corrupted Kin",
+   "body": "Satyrs represent a dark, twisted branch of ancient night elf ancestry, irrevocably tainted by demonic energy during the War of the Ancients. Lurking in defiled groves across Ashenvale, these vile servants of the Burning Legion actively prey upon the denizens of the woods. Taking their horns serves not only as proof of vengeance, but strikes a direct blow against the fel presence encroaching upon eastern Ashenvale.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Illiyana?",
+   "aliases": [
+    "illiyana lore",
+    "who is the quest giver",
+    "forest song dryad"
+   ],
+   "answer": "Illiyana is a dryad residing at Forest Song in eastern Ashenvale. Known for her gentle nature, she is mourning the tragic death of her sister, Anilia, who fell victim to the local satyrs."
+  },
+  {
+   "q": "Who was Anilia?",
+   "aliases": [
+    "anilia",
+    "illiyana sister",
+    "who died"
+   ],
+   "answer": "Anilia was a dryad and Illiyana's beloved sister. The two spent ages frolicking through Ashenvale's ancient canopies until Anilia was ambushed and killed by the region's prowling satyrs."
+  },
+  {
+   "q": "Why does Illiyana ask for satyr horns?",
+   "aliases": [
+    "why satyr horns",
+    "satyr horn proof"
+   ],
+   "answer": "Satyr horns serve as undeniable, physical proof that the corrupted fiends responsible for Anilia's murder have been slain, granting her sister's spirit peace."
+  },
+  {
+   "q": "What are satyrs?",
+   "aliases": [
+    "satyr lore",
+    "what are the satyrs in ashenvale"
+   ],
+   "answer": "Satyrs are former night elves cursed and mutated by the Burning Legion's demonic powers during the War of the Ancients. They dwell in corrupted enclaves, seeking to spread taint and destroy natural forest spirits."
+  },
+  {
+   "q": "Where is Forest Song?",
+   "aliases": [
+    "forest song location",
+    "where is forest song"
+   ],
+   "answer": "Forest Song is an ancient, ruined night elf outpost situated in eastern Ashenvale, near the border of Azshara. It serves as a sanctuary for Alliance scouts and forest guardians."
+  },
+  {
+   "q": "Is this connected to any other hunts at Forest Song?",
+   "aliases": [
+    "satyr horns quest",
+    "followup quest",
+    "repeatable satyr quest"
+   ],
+   "answer": "Illiyana continues to accept satyr horns even after her sister is avenged, demonstrating an ongoing campaign by the defenders of Forest Song to purge the satyr menace from Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Avenging a fallen dryad and severing the horns of demonic satyrs strikes directly at the corruption polluting Cenarius's favored wilderness."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Satyrs are a lingering, shameful reminder of the Highborne's ancient descent into fel servitude. Aiding Illiyana cleanses the land of this ancestral blight."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing the perimeter of Forest Song provides Alliance forces in eastern Ashenvale with a safer haven against the wild threats surrounding them."
+  }
+ ],
+ "keywords": [
+  "anilia",
+  "ashenvale",
+  "dryad",
+  "forest song",
+  "illiyana",
+  "satyr",
+  "satyr horns",
+  "satyr slaying"
+ ],
+ "related": [
+  "npc:illiyana",
+  "subzone:forest-song",
+  "topic:satyr",
+  "zone:ashenvale",
+  "quest:6441"
+ ],
+ "attribution": [
+  "Satyr Slaying! (Classic)"
+ ]
+}

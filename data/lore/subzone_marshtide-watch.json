@@ -1,0 +1,76 @@
+{
+ "key": "subzone:marshtide-watch",
+ "type": "subzone",
+ "name": "Marshtide Watch",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Marshtide Watch"
+ },
+ "summary": "Marshtide Watch is a coastal site situated along the eastern waters of the Swamp of Sorrows, just north of the Sunken Temple. In 25 ADP, the untamed wetlands remain dominated by wild beasts, the lost Draenei of the Harborage, and the Horde outpost of Stonard, leaving this stretch of shoreline undeveloped.",
+ "sections": [
+  {
+   "title": "The Eastern Coastline",
+   "body": "The eastern coast of the Swamp of Sorrows borders the Great Sea, lying north of the submerged ruins of the Temple of Atal'Hakkar. In 25 ADP, the region remains an untamed marshland. While the Alliance maintains a presence further south at Nethergarde Keep in the Blasted Lands, Stormwind has yet to establish an active military foothold or harbor along these misty shores.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is Marshtide Watch an active Alliance base?",
+   "aliases": [
+    "is there an alliance town here",
+    "alliance flight path swamp of sorrows",
+    "marshtide watch classic"
+   ],
+   "answer": "Not currently. In 25 ADP, the Alliance has no established settlement or port on this shoreline. The Swamp of Sorrows remains largely contested wild territory, anchored by Stonard to the west."
+  },
+  {
+   "q": "Where is the nearest Alliance outpost?",
+   "aliases": [
+    "closest alliance base",
+    "where is alliance base nearby",
+    "where do alliance rest"
+   ],
+   "answer": "Alliance travelers journeying through the marsh must turn south toward Nethergarde Keep in the Blasted Lands or cross back west into the safety of Duskwood and the Redridge Mountains."
+  },
+  {
+   "q": "What can be found in this part of the swamp?",
+   "aliases": [
+    "what is here",
+    "who lives near here",
+    "points of interest swamp of sorrows coast"
+   ],
+   "answer": "The surrounding marshes are inhabited by crocolisks, treacherous swamp oozes, and monstrous crawlers. Just to the south lie the murky waters concealing the Temple of Atal'Hakkar, where ancient Gurubashi exiles worship the Blood God."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scouts roaming the Swamp of Sorrows find themselves far from friendly walls, with Stonard holding the interior and the closest friendly haven situated at Nethergarde Keep."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde forces stationed out of Stonard control the dominant military presence across the marsh, keeping watchful eyes on coastal approaches and ancient ruins alike."
+  }
+ ],
+ "keywords": [
+  "harborage",
+  "marshtide watch",
+  "stonard",
+  "swamp of sorrows",
+  "temple of atal'hakkar"
+ ],
+ "related": [
+  "zone:swampofsorrows",
+  "subzone:stonard",
+  "subzone:temple-of-atal-hakkar",
+  "subzone:harborage",
+  "subzone:nethergarde-keep",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Marshtide Watch"
+ ]
+}

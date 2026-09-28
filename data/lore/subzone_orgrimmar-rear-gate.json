@@ -1,0 +1,89 @@
+{
+ "key": "subzone:orgrimmar-rear-gate",
+ "type": "subzone",
+ "name": "Orgrimmar Rear Gate",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Orgrimmar Rear Gate"
+ },
+ "summary": "The Orgrimmar Rear Gate is the heavily fortified northern exit of the Horde capital, tucked away past the Valley of Honor. It opens directly onto the rugged, autumn-tinged wilderness of Azshara, serving as a secondary threshold between Durotar's canyons and the coast.",
+ "sections": [
+  {
+   "title": "Northern Threshold",
+   "body": "While most travelers enter Orgrimmar through the towering southern gates facing Durotar, the Rear Gate provides a quiet escape out the back of the Valley of Honor. Carved directly through the crimson cliffs, this narrow passage winds along a steep canyon before giving way to the ruined, elemental-haunted forests of Azshara. It ensures that the capital retains access to the northern coast and leaves open a defensible line of communication should the main gate ever fall under siege.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Watch on the Wilds",
+   "body": "Guarded by vigilant orcish sentries, the Rear Gate overlooks a wilderness that is far from secure. Azshara is contested territory, prowled by naga, savage wildlife, and lingering night elf sentinels who resent any intrusion north of Durotar. The guards stationed along the gate's palisades maintain a constant watch over the pass, ensuring that none of the region's restless dangers slip into the city from behind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Rear Gate lead?",
+   "aliases": [
+    "where does back gate go",
+    "orgrimmar rear exit path",
+    "where is rear gate"
+   ],
+   "answer": "The gate connects the northeastern corner of the Valley of Honor directly to the southern border of Azshara. Travelers stepping through the portal find themselves on the rocky ridges overlooking the ancient autumn forests and coastal ruins."
+  },
+  {
+   "q": "Why would anyone use this gate instead of the main entrance?",
+   "aliases": [
+    "why use rear gate",
+    "point of rear gate",
+    "back gate purpose"
+   ],
+   "answer": "It serves as an alternative passage for anyone traveling to or from Azshara, cutting down the long trek around the mountains of Durotar. It also serves as a strategic defensive fallback for the Horde capital."
+  },
+  {
+   "q": "Is the area outside the gate safe?",
+   "aliases": [
+    "is azshara safe",
+    "rear gate danger",
+    "enemies outside rear gate"
+   ],
+   "answer": "No. The wilderness immediately beyond the canyon road is wild and unforgiving, occupied by dangerous beasts, hostile timberlings, and territorial night elf patrols that do not welcome the Horde."
+  },
+  {
+   "q": "Why is this exit so heavily defended?",
+   "aliases": [
+    "why guards at rear gate",
+    "rear gate defense",
+    "orgrimmar back door security"
+   ],
+   "answer": "Orgrimmar's warlords are cautious. A backdoor into the Valley of Honor represents an existential vulnerability if left unattended, so seasoned warriors watch the canyon day and night."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For Horde scouts and hunters, this gate offers a direct route into the untamed wilderness of Azshara without navigating the crowded streets of Durotar."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The gate represents an alarming encroachment, venting Horde warriors straight into the ancient, sacred lands of Azshara."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "back gate",
+  "canyon road",
+  "durotar",
+  "orgrimmar rear gate",
+  "valley of honor"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "subzone:valley-of-honor",
+  "zone:azshara",
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Orgrimmar Rear Gate"
+ ]
+}

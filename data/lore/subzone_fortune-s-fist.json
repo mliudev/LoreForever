@@ -1,0 +1,66 @@
+{
+ "key": "subzone:fortune-s-fist",
+ "type": "subzone",
+ "name": "Fortune's Fist",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Fortune's Fist"
+ },
+ "summary": "Fortune's Fist is an ill-fated shipping frigate anchored off the Misty Reed Strand in the eastern Swamp of Sorrows. Overrun and seized by aquatic hostiles, the ship sits derelict while its slain crew drift in the surrounding waters and stranded survivors struggle to survive on the nearby marshy coast.",
+ "sections": [
+  {
+   "title": "A Stranded Freighter",
+   "body": "Resting off the northern reaches of the Misty Reed Strand, the Fortune's Fist serves as a grim testament to the hazards of coastal trade in the Swamp of Sorrows. Intended as a merchant frigate navigating the Forbidding Sea, the vessel met a violent end when amphibious raiders swarmed its decks and slaughtered much of the crew. Floating cargo and drowned sailors litter the surf between the ship and the shore, while a desperate few survivors managed to escape and take refuge within the nearby Sorrowmurk.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Fortune's Fist?",
+   "aliases": [
+    "what ship is this",
+    "ship off swamp of sorrows",
+    "fortunes fist ship"
+   ],
+   "answer": "Fortune's Fist is a merchant shipping frigate anchored in the waters of the Forbidding Sea off the Misty Reed Strand in the Swamp of Sorrows. It was overrun and seized by hostile sea-dwellers, leaving it stranded near the marsh coast."
+  },
+  {
+   "q": "What happened to the crew of the ship?",
+   "aliases": [
+    "who owns fortunes fist",
+    "crew of fortunes fist",
+    "dead sailors in water"
+   ],
+   "answer": "Most of the crew were killed when the vessel was attacked, and their remains drift in the surf between the ship and the shore. A handful of survivors managed to escape the slaughter and establish a makeshift camp in the Sorrowmurk."
+  },
+  {
+   "q": "Where are the survivors located?",
+   "aliases": [
+    "survivor camp",
+    "where are survivors",
+    "sorrowmurk camp"
+   ],
+   "answer": "The surviving crew members fled inland from the coast and have taken shelter in a small encampment in the Sorrowmurk, struggling to survive the hostile wildlife and swamp conditions."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "forbidding sea",
+  "fortune's fist",
+  "fortunes fist",
+  "freighter",
+  "misty reed strand",
+  "shipwreck",
+  "sorrowmurk",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "subzone:misty-reed-strand",
+  "subzone:sorrowmurk",
+  "zone:swampofsorrows"
+ ],
+ "attribution": [
+  "Fortune's Fist"
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "key": "quest:6571",
+ "type": "quest",
+ "name": "Warsong Supplies",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   6571
+  ],
+  "level": "27",
+  "faction": "Horde",
+  "start": "Locke Okarr",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Warsong Supplies (quest)",
+  "chain": []
+ },
+ "summary": "Warsong Supplies is an expansive Horde logistics quest issued by Locke Okarr at Splintertree Post. Keeping the Warsong Lumber Camp operational demands reclaiming vital logging gear scattered across hostile furbolg and satyr territories, alongside imports arriving from distant goblin ports.",
+ "sections": [
+  {
+   "title": "Keeping the Saws Spinning",
+   "body": "The Warsong Clan's campaign to harvest Ashenvale's ancient timber requires an endless flow of heavy tools. From their outpost at Splintertree Post, Horde quartermasters face constant supply disruptions. Locke Okarr is charged with keeping the lumber camp fully outfitted, but local shipments have disintegrated under raids from indigenous wildlife and demonic cultists, leaving the operation starved for vital gear.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Scattered Logistics Chain",
+   "body": "Securing the needed equipment is an ordeal spanning much of Kalimdor and extending even across the sea. While circular saw blades await collection from the goblin engineer Pixel right in Splintertree Post, the crate of heavy axes requires picking up a delivery from Wharfmaster Lozgil down in Booty Bay. The remaining essential goods must be ripped directly from enemy hands: sturdy logging ropes seized by hostile Foulweald and Thistlefur furbolgs, and barrels of Warsong machinery oil stolen by the satyrs of Night Run, Satyrnaar, and Xavian to fuel their profane rituals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the required Warsong Supplies?",
+   "aliases": [
+    "warsong supplies list",
+    "what items needed",
+    "supplies needed"
+   ],
+   "answer": "Locke Okarr needs four essential items: a shipment of Warsong Saw Blades held by the goblin Pixel, a crate of Warsong Axes shipped to Booty Bay, heavy Logging Rope looted by local furbolgs, and barrels of Warsong Oil stolen by Ashenvale's satyrs."
+  },
+  {
+   "q": "Who is Locke Okarr?",
+   "aliases": [
+    "locke okarr lore",
+    "who gives warsong supplies",
+    "splintertree quest giver"
+   ],
+   "answer": "Locke Okarr is an orc stationed at Splintertree Post responsible for coordinating material deliveries to the Warsong Lumber Camp. Under heavy pressure to avoid operational delays, he enlists roaming Horde adventurers to recover his scattered shipments."
+  },
+  {
+   "q": "Why is the Horde shipping equipment from Booty Bay?",
+   "aliases": [
+    "why booty bay",
+    "booty bay axe shipment",
+    "steamwheedle tools"
+   ],
+   "answer": "The Horde relies on neutral trade networks like the Steamwheedle Cartel to import specialty manufactured goods that Durotar and the Barrens cannot easily forge in bulk. Heavy-duty lumbering axes ordered through goblin channels are routed via maritime trade hubs like Booty Bay before reaching Ashenvale."
+  },
+  {
+   "q": "Why do the satyrs want Warsong Oil?",
+   "aliases": [
+    "satyr oil lore",
+    "why do satyrs have oil",
+    "warsong oil rituals"
+   ],
+   "answer": "Rather than using it for machinery, the satyrs inhabiting ruins like Satyrnaar, Night Run, and Xavian divert the stolen industrial oil into dark, corrupted rites dedicated to the Burning Legion and the spreading taint of Felwood."
+  },
+  {
+   "q": "Which furbolgs stole the logging rope?",
+   "aliases": [
+    "who stole the rope",
+    "furbolg rope lore",
+    "foulweald thistlefur rope"
+   ],
+   "answer": "The Logging Rope was ambushed and taken by the Foulweald and Thistlefur furbolg tribes. Both tribes harbor fierce territorial hostility toward the Horde's clear-cutting operations across Ashenvale."
+  },
+  {
+   "q": "Why is the Warsong Lumber Camp so vital to the Horde?",
+   "aliases": [
+    "why harvest ashenvale",
+    "warsong lumber importance",
+    "orcs cutting trees"
+   ],
+   "answer": "The arid lands of Durotar provide virtually no usable timber for construction. The Warsong Clan was deployed into the lush borderlands of Ashenvale specifically to harvest the massive trees needed to build Orgrimmar and fuel the Horde's growing military infrastructure."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's expansion into Durotar hinges entirely on lumber secured by the Warsong Clan. Reclaiming these tools directly bolsters the foundation of Orgrimmar."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Honoring the Warsong Clan's legacy in Ashenvale means keeping their axes sharp and their camps supplied, despite constant harassment from forest natives."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The goblin components of this shipment highlight the essential mechanical supply chain\u2014from Pixel's saw blades to steam-engine lubricants\u2014required to chop down ancient forests."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "booty bay",
+  "locke okarr",
+  "logging rope",
+  "pixel",
+  "saw blades",
+  "splintertree post",
+  "warsong lumber camp",
+  "warsong oil",
+  "warsong supplies"
+ ],
+ "related": [
+  "subzone:splintertree-post",
+  "subzone:warsong-lumber-camp",
+  "quest:6581",
+  "npc:pixel",
+  "subzone:booty-bay",
+  "subzone:satyrnaar",
+  "subzone:xavian",
+  "subzone:night-run"
+ ],
+ "attribution": [
+  "Warsong Supplies (quest)"
+ ]
+}

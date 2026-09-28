@@ -1,0 +1,77 @@
+{
+ "key": "subzone:stonewrought-pass",
+ "type": "subzone",
+ "name": "Stonewrought Pass",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Stonewrought Pass"
+ },
+ "summary": "Stonewrought Pass is an underground tunnel cut directly through the southern mountains of Loch Modan into the blighted expanse of the Searing Gorge. Masterfully engineered by the famed architect Franclorn Forgewright, this passage connects the Valley of Kings directly to Dustfire Valley. Heavy iron gates secure both ends to protect peaceful dwarven lands from the volcanic terrors to the south.",
+ "sections": [
+  {
+   "title": "A Gateway Carved in Stone",
+   "body": "Carved out of the bedrock by the legendary master architect Franclorn Forgewright\u2014famed also for the massive Stonewrought Dam\u2014the Stonewrought Pass serves as a direct corridor between the pastoral beauty of Loch Modan and the scorched wastes of Searing Gorge. Emerging in Loch Modan near the colossal Valley of Kings, it cuts straight through the mountain ridge down into Dustfire Valley. Because Searing Gorge is infested with Dark Iron dwarves and fiery beasts, the Ironforge mountaineers keep the passage locked tight behind heavy gates to prevent danger from spilling into the north.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Stonewrought Pass lead?",
+   "aliases": [
+    "where does stonewrought pass go",
+    "tunnel connection",
+    "searing gorge to loch modan"
+   ],
+   "answer": "The pass cuts directly through the mountain range, connecting the Valley of Kings on the southern edge of Loch Modan to Dustfire Valley within the northern reaches of Searing Gorge."
+  },
+  {
+   "q": "Who designed this tunnel?",
+   "aliases": [
+    "who built stonewrought pass",
+    "architect of pass",
+    "franclorn forgewright tunnel"
+   ],
+   "answer": "It was designed by the master dwarven architect Franclorn Forgewright, the legendary artisan celebrated across Khaz Modan for designing the Stonewrought Dam and other monumental stone works."
+  },
+  {
+   "q": "Why are the gates locked?",
+   "aliases": [
+    "locked gate",
+    "why is pass locked",
+    "how to open gate"
+   ],
+   "answer": "The gates are heavily barred on both sides to keep the fiery monsters and hostile Dark Iron dwarves of Searing Gorge from invading the inhabited lands of Loch Modan. Mountaineer Pebblebitty guards the Loch Modan entrance and requires authorization before granting passage."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The tunnel stands as a testament to the engineering brilliance of Franclorn Forgewright, though it now abuts the grim, conquered territory of your wayward Dark Iron kin."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Guarded by the dwarven Mountaineers, this locked passageway shields vulnerable settlements in Loch Modan from the volcanic threats festering in Searing Gorge."
+  }
+ ],
+ "keywords": [
+  "dustfire valley",
+  "franclorn forgewright",
+  "loch modan",
+  "pebblebitty",
+  "searing gorge",
+  "stonewrought pass",
+  "valley of kings"
+ ],
+ "related": [
+  "subzone:dustfire-valley",
+  "subzone:valley-of-kings",
+  "zone:searinggorge",
+  "zone:lochmodan",
+  "subzone:stonewrought-dam",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Stonewrought Pass"
+ ]
+}

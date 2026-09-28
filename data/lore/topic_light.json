@@ -1,0 +1,136 @@
+{
+ "key": "topic:light",
+ "type": "topic",
+ "name": "Light",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Light"
+ },
+ "summary": "The Light is a boundless primal cosmic force whose energy connects and suffuses all living things across creation. Manifested in the mortal realm as Holy magic, it responds to willpower, meditation, and unyielding faith to mend flesh, shield allies, and purge darkness.",
+ "sections": [
+  {
+   "title": "A Primal Force",
+   "body": "The Light is an omnipresent cosmic ocean of living energy that predates the physical universe. In its pure state beyond the boundary of reality, it knows neither malice nor benevolence; it does not distinguish between love and righteous hatred. When brought into Azeroth, it manifests as Holy magic. Its power flows through living souls as a connective tissue, binding mortal hearts together. While mortals often personify it as a conscious protector, the Light fundamentally answers the absolute conviction of the soul calling upon it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Instruments of Faith",
+   "body": "To channel the Light requires intense self-abnegation, disciplined meditation, and unshakable willpower. Practitioners\u2014most famously the priests of the Church of the Holy Light and the holy paladins\u2014train for years to become clear, empty vessels for its radiance. Through their devotion, the Light manifests as restorative warmth to mend mortal wounds, brilliant wards to shelter the innocent, or searing fire to strike down demons and the risen undead.",
+   "spoiler": 0
+  },
+  {
+   "title": "Many Faces of Radiance",
+   "body": "While humanity and the dwarves revere the Light through formal scripture, other cultures access its brilliance through different spiritual traditions. The night elves channel sacred moonlight through devotion to the goddess Elune, weaving holy magic that cleanses and protects. Similarly, the tauren honor the sun deity An'she, recognizing the same primordial vitality in the life-giving dawn.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Light?",
+   "aliases": [
+    "holy light lore",
+    "what is the holy light",
+    "the light explained"
+   ],
+   "answer": "The Light is a fundamental cosmic energy that exists across all creation. It is the primal source of life and positive energy, binding sentient souls together. Mortals call upon it to produce Holy magic for healing, protection, and warfare."
+  },
+  {
+   "q": "Does the Light have a conscious will or mind?",
+   "aliases": [
+    "is the light alive",
+    "does light have a mind",
+    "is the light a god"
+   ],
+   "answer": "The Light is a primal cosmic force rather than a god. While mortals frequently speak of the 'will of the Light' and treat it as a guiding patron, it does not possess mortal morality. It responds directly to the certainty, willpower, and faith of the caster."
+  },
+  {
+   "q": "Why can evil zealots still use the Light?",
+   "aliases": [
+    "why do scarlet crusade have light",
+    "can bad guys use the light",
+    "evil paladins light"
+   ],
+   "answer": "Because the Light answers conviction, not abstract righteousness. If a caster possesses absolute faith that their cause is just and their spirit remains undivided, the Light will flow through them\u2014even if their deeds are ruthless or misguided."
+  },
+  {
+   "q": "How does the Light affect the undead?",
+   "aliases": [
+    "light vs undead",
+    "why does light hurt scourge",
+    "can undead use light"
+   ],
+   "answer": "Holy magic is violently reactive to the corruptive state of undeath. Channeling or touching the Light burns undead flesh and scourges the dark magic animating them, making it the premier weapon against the Scourge."
+  },
+  {
+   "q": "How do priests and paladins learn to wield it?",
+   "aliases": [
+    "how to use holy magic",
+    "paladin magic source",
+    "priest light training"
+   ],
+   "answer": "Wielding the Light requires rigorous mental discipline, emotional clarity, and years of meditation. The caster must quiet their personal ego and focus their spirit entirely, acting as a clear conduit through which the Holy magic can pour into reality."
+  },
+  {
+   "q": "Is Elune's magic connected to the Light?",
+   "aliases": [
+    "is elune holy magic",
+    "elune and the light",
+    "moonlight holy light"
+   ],
+   "answer": "Yes. The moonlight channeled by the priestesses of Elune manifests as a form of holy magic, sharing the same restorative, protective, and purifying capabilities as the spells wielded by paladins and church priests."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Paladins do not merely cast spells; they infuse their martial discipline and mortal bodies with the Light, wielding its incandescent fury against the Scourge and demonic evil."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests serve as spiritual shepherds and conduits, practicing profound meditation and prayer to mend flesh, steady broken spirits, and shield allies."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Church of the Holy Light forms the spiritual bedrock of Stormwind and Ironforge, offering hope in an era darkened by the fall of Lordaeron."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The Light burns undead flesh and rebukes necrotic magic, serving as a searing reminder of the mortal warmth the Forsaken were torn from."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elves channel holy energy not through church doctrine, but through reverence for the moon goddess Elune and her silver light."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tauren recognize the Light's primordial vitality as the warmth of An'she, the golden right eye of the Earth Mother."
+  }
+ ],
+ "keywords": [
+  "an'she",
+  "church",
+  "elune",
+  "faith",
+  "healing",
+  "holy light",
+  "holy magic",
+  "light",
+  "paladin",
+  "priest",
+  "scourge"
+ ],
+ "related": [
+  "topic:church-of-the-holy-light",
+  "npc:tirion-fordring",
+  "topic:elune",
+  "topic:lordaeron",
+  "topic:tauren",
+  "topic:alliance",
+  "quest:99134",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "Light"
+ ]
+}

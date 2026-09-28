@@ -1,0 +1,87 @@
+{
+ "key": "subzone:pestilent-scar",
+ "type": "subzone",
+ "name": "Pestilent Scar",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Pestilent Scar"
+ },
+ "summary": "The Pestilent Scar is a deep, blighted gorge carved into the blighted terrain of the Eastern Plaguelands. Unlike the jagged rents torn open by catastrophic Scourge blight, this chasm appears to be a natural canyon or dried lakebed that was subsequently corrupted and overrun by ravenous oozes.",
+ "sections": [
+  {
+   "title": "A Blighted Chasm",
+   "body": "Winding through the northern reaches of the Eastern Plaguelands, the Pestilent Scar forms a gloomy rift in the corrupted landscape. While nearby rifts like the Infectis Scar were ripped into the earth by sudden catastrophic eruptions of the Plague of Undeath, scholars note that the Pestilent Scar seems to have originated as a natural geological formation. It was likely a deep river canyon or natural lake that dried up when the Scourge swept across Lordaeron, leaving a barren trench that gradually pooled with noxious runoff and foul slime.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Slime Pits",
+   "body": "Deprived of pure water and bathed in persistent unholy decay, the hollow has become a breeding pit for mutated, acidic slimes and carrion vermin. Traveling near its crumbling rim is treacherous; the air above the drop is choked with acrid fumes, and the unstable soil frequently threatens to dump unwary adventurers straight into the churning muck below.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Pestilent Scar?",
+   "aliases": [
+    "pestilent scar lore",
+    "what is pestilent scar",
+    "pestilent scar canyon"
+   ],
+   "answer": "The Pestilent Scar is a sunken gorge located in the Eastern Plaguelands. Corrupted during the fall of Lordaeron, the canyon is filled with foul runoff, diseased soil, and aggressive ooze monstrosities."
+  },
+  {
+   "q": "How did the Pestilent Scar form?",
+   "aliases": [
+    "how was pestilent scar made",
+    "pestilent scar origin",
+    "who made pestilent scar"
+   ],
+   "answer": "Unlike the unnatural fissures torn through the earth by catastrophic Scourge eruptions, the Pestilent Scar appears to have been a natural valley, lake, or river canyon that dried up and withered under the blight of the Plague of Undeath."
+  },
+  {
+   "q": "How does it differ from the Infectis Scar?",
+   "aliases": [
+    "pestilent scar vs infectis scar",
+    "infectis scar difference"
+   ],
+   "answer": "The Infectis Scar was violently ripped open as an unnatural volcanic rupture oozing pure magical blight. The Pestilent Scar is an older, natural land depression that gradually collected corruption and runoff after the land died."
+  },
+  {
+   "q": "What creatures live in the Pestilent Scar?",
+   "aliases": [
+    "pestilent scar mobs",
+    "what lives in pestilent scar"
+   ],
+   "answer": "The chasm floor is dominated by acidic, plague-spawned oozes and carrion-eating vermin that thrive within the poisonous pools and rotting organic matter trapped at the bottom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "The edges of the gorge are steeped in concentrated rot, sometimes nurturing rare, blight-hardened flora like Arthas' Tears and Plaguebloom along its cliffs."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken apothecaries frequently study the slimes residing within such deep fissures to isolate unstable variations of the Scourge's foulest toxins."
+  }
+ ],
+ "keywords": [
+  "blight",
+  "eastern plaguelands",
+  "gorge",
+  "infectis scar",
+  "oozes",
+  "pestilent scar",
+  "slime"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "subzone:infectis-scar",
+  "topic:plague-of-undeath",
+  "topic:light"
+ ],
+ "attribution": [
+  "Pestilent Scar"
+ ]
+}

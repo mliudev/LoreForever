@@ -1,0 +1,109 @@
+{
+ "key": "quest:1950",
+ "type": "quest",
+ "name": "Get the Scoop",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "ids": [
+   1950
+  ],
+  "level": "30",
+  "faction": "Neutral",
+  "start": "Magus Tirth",
+  "end": "",
+  "previous": "Hidden Secrets",
+  "next": "Rituals of Power (quest) (Dungeon)",
+  "wiki": "Get the Scoop",
+  "chain": []
+ },
+ "summary": "Magus Tirth has locked a crucial spellbook inside his magically sealed strongbox, but he cannot recall the activation phrase to open it. To retrieve the tome, you must locate his missing apprentice somewhere around the Shimmering Flats racetrack and pry the forgotten words from him.",
+ "sections": [
+  {
+   "title": "A Magus and His Memory",
+   "body": "Magus Tirth is an eccentric spellcaster dwelling on the cracked salt bed of the Shimmering Flats in Thousand Needles. While he possesses the esoteric knowledge and tomes that advancing mages desperately seek, dealing with him requires patience. Tirth relies heavily on an assistant to manage mundane details, including the spoken passwords guarding his arcane repositories. When tasked with retrieving a book of power, visiting practitioners quickly learn that Tirth has locked the volume away behind magic words that have slipped his mind entirely.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fowl Play",
+   "body": "Tracking down Tirth's apprentice, Johnson, is not a matter of simply wandering the paddocks of the Mirage Raceway. After asking around the goblins and gnomes running the track, one discovers that Johnson has suffered the quintessential occupational hazard of serving an erratic wizard: transfiguration. Cursed by his master into the form of a common chicken, Johnson wanders the salt flats, unable to speak until a passing traveler draws near and breaks the magical haze long enough for him to squawk out the missing password.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Magus Tirth?",
+   "aliases": [
+    "tirth lore",
+    "who is magus tirth",
+    "tirth shimmer flats"
+   ],
+   "answer": "Magus Tirth is a reclusive human wizard stationed near the Mirage Raceway in the Shimmering Flats of Thousand Needles. He possesses advanced arcane lore sought out by mages looking to hone their craft."
+  },
+  {
+   "q": "Why does Tirth need the password to his own box?",
+   "aliases": [
+    "why tirth forgot",
+    "tirth strongbox password"
+   ],
+   "answer": "Tirth magically locked his strongbox using a spoken phrase, relying on his assistant to remember mundane details like passwords. True to his absent-minded nature, he forgot the words as soon as his apprentice vanished."
+  },
+  {
+   "q": "Where did the apprentice go?",
+   "aliases": [
+    "find tirth assistant",
+    "where is apprentice johnson",
+    "johnson location"
+   ],
+   "answer": "Johnson did not flee far. He is wandering near the racetrack east of Tirth's camp, though locating him is complicated by the fact that Tirth turned him into a chicken."
+  },
+  {
+   "q": "Why was the apprentice turned into a chicken?",
+   "aliases": [
+    "why johnson chicken",
+    "tirth polymorph apprentice"
+   ],
+   "answer": "Tirth placed a curse on Johnson before forgetting he had done so. Upon learning the fate of his assistant, Tirth vaguely assumes the apprentice deserved it for being an ungrateful pupil."
+  },
+  {
+   "q": "What is inside Tirth's strongbox?",
+   "aliases": [
+    "tirth strongbox contents",
+    "what book is in the chest"
+   ],
+   "answer": "The magically sealed chest holds a book containing rituals and instructions essential for a mage's continuing education and magical implements."
+  },
+  {
+   "q": "Who can undertake this task?",
+   "aliases": [
+    "can non mages do get the scoop",
+    "is this quest mage only"
+   ],
+   "answer": "This errand is part of a dedicated trial meant exclusively for mages seeking specialized instruction and materials to craft a potent wand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Dealing with Tirth offers a humorous yet cautionary glimpse into the perils of polymorph curses and the absent-mindedness that can afflict powerful scholars."
+  }
+ ],
+ "keywords": [
+  "chicken",
+  "get the scoop",
+  "johnson",
+  "magus tirth",
+  "mirage raceway",
+  "shimmering flats",
+  "strongbox",
+  "thousand needles",
+  "wand quest"
+ ],
+ "related": [
+  "zone:thousandneedles",
+  "subzone:drag"
+ ],
+ "attribution": [
+  "Get the Scoop"
+ ]
+}

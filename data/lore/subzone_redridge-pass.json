@@ -1,0 +1,63 @@
+{
+ "key": "subzone:redridge-pass",
+ "type": "subzone",
+ "name": "Redridge Pass",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Redridge Pass"
+ },
+ "summary": "Redridge Pass is a high mountain road cutting through the eastern peaks of the Redridge Mountains. It carves a direct route between the scorching crags of the Burning Steppes and the sodden marshes of the Swamp of Sorrows, perched high above the settled valleys below.",
+ "sections": [
+  {
+   "title": "A High Highway",
+   "body": "Running along the rugged eastern crests of the Redridge Mountains, Redridge Pass acts as an elevated corridor linking the northern wastes of the Burning Steppes to the misty lowlands of the Swamp of Sorrows. Towering cliffs cut the pass off from the valley floor below, leaving it unreachable by foot from Lake Everstill or Lakeshire. While inaccessible to local villagers, travelers daring enough to navigate the eastern peaks use this ridge to bypass the lower roads altogether.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Redridge Pass lead?",
+   "aliases": [
+    "redridge pass connections",
+    "where does redridge pass go",
+    "what zones connect to redridge pass"
+   ],
+   "answer": "Redridge Pass runs between Terror Wing Path on the edge of the Burning Steppes to the north and the outskirts of the Swamp of Sorrows to the south."
+  },
+  {
+   "q": "Can you climb up to the pass from Lakeshire?",
+   "aliases": [
+    "climb to redridge pass",
+    "access from redridge",
+    "how to get to redridge pass"
+   ],
+   "answer": "No. The pass sits high above the lower valleys of the Redridge Mountains and is walled off by sheer cliffs. You cannot reach it on foot from the settled basin around Lake Everstill or Lakeshire."
+  },
+  {
+   "q": "Why is the pass separate from the rest of the Redridge Mountains?",
+   "aliases": [
+    "why is redridge pass isolated",
+    "redridge pass geography"
+   ],
+   "answer": "The extreme topography of the Redridge range creates high ridges along the eastern border. These rocky bluffs divide the low-altitude lake basin from the high mountain rim that skirts the border of the eastern swamps and steppes."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning steppes",
+  "redridge mountains",
+  "redridge pass",
+  "swamp of sorrows",
+  "terror wing path"
+ ],
+ "related": [
+  "zone:redridge",
+  "zone:burningsteppes",
+  "zone:swampofsorrows",
+  "subzone:terror-wing-path"
+ ],
+ "attribution": [
+  "Redridge Pass"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "key": "subzone:lion-s-rest",
+ "type": "subzone",
+ "name": "Lion's Rest",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Lion's Rest"
+ },
+ "summary": "Lion's Rest does not exist in present-day Stormwind. In its place stands the Park, a lush sanctuary inhabited by night elf druids and travelers overlooking the sea. Later generations would remember this name after catastrophic changes that have not come to pass.",
+ "sections": [
+  {
+   "title": "A Place Unmade",
+   "body": "Anyone searching Stormwind for Lion's Rest will find only the vibrant greenery of the Park. Today, in 25 ADP, this tranquil promontory hosts druids from Kalimdor, moonkin ambassadors, and weary citizens enjoying the harbor breeze. The solemn memorial known in other eras does not exist, as King Varian Wrynn remains missing rather than deceased, and the boy-king Anduin rules under regent Bolvar Fordragon while Stormwind stands whole.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Lion's Rest located in Stormwind?",
+   "aliases": [
+    "lions rest location",
+    "find lions rest",
+    "where is lions rest"
+   ],
+   "answer": "Lion's Rest does not exist in present-day Stormwind. The physical area where it would eventually be constructed is currently occupied by the Park, a thriving district filled with moonwells, trees, and night elf delegates."
+  },
+  {
+   "q": "Why isn't there a memorial for King Varian here?",
+   "aliases": [
+    "where is varian memorial",
+    "varian tomb",
+    "king varian grave"
+   ],
+   "answer": "King Varian Wrynn is not dead\u2014he is merely missing under mysterious circumstances during an envoy mission to Theramore. Because he is believed to still be alive, no tomb or cenotaph has been built for him, and young Prince Anduin serves alongside Highlord Bolvar Fordragon to oversee the realm."
+  },
+  {
+   "q": "What currently stands on this ground?",
+   "aliases": [
+    "what is here instead",
+    "lions rest current area",
+    "what is in this spot"
+   ],
+   "answer": "The lush, wooded district known as the Park stands on these bluffs above the ocean. It serves as a home away from home for night elves in the human capital, featuring tranquil ponds and nature teachers rather than stone monuments to fallen warriors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Stormwind's citizens still hope for the return of their lost monarch, looking toward the royal keep for leadership rather than a place of mourning."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The ground that future historians remember as a quiet war memorial remains a living symbol of the Alliance's alliance with the night elves."
+  }
+ ],
+ "keywords": [
+  "cenotaph",
+  "lion's rest",
+  "memorial",
+  "stormwind",
+  "the park",
+  "varian wrynn"
+ ],
+ "related": [
+  "subzone:park",
+  "zone:stormwind",
+  "topic:varian-wrynn",
+  "topic:anduin-wrynn",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Lion's Rest"
+ ]
+}

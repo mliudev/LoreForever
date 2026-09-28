@@ -1,0 +1,120 @@
+{
+ "key": "quest:1143",
+ "type": "quest",
+ "name": "The Tower of Althalaxx",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   1143
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Balthule Shadowstrike",
+  "end": "",
+  "previous": "The Tower of Althalaxx (7)",
+  "next": "The Tower of Althalaxx (9)",
+  "wiki": "The Tower of Althalaxx (8)",
+  "chain": []
+ },
+ "summary": "This quest marks the direct assault on Athrikus Narassin, the ancient dark sorcerer holding the pinnacle of the Tower of Althalaxx. Under the direction of Balthule Shadowstrike, an Alliance operative must breach the ruined keep and execute the cabal's master. Eliminating Athrikus strikes a devastating blow to the demonic worship corrupting northern Darkshore.",
+ "sections": [
+  {
+   "title": "Breaching the Summit",
+   "body": "Perched upon the ruined heights of northern Darkshore, the Tower of Althalaxx has become a foul center of demonic summoning. Balthule Shadowstrike, monitoring the ruin from nearby, determines that the time to act is immediate. At the tower's peak dwells Athrikus Narassin, an ancient and formidable night elven warlock who orchestrates the dark rituals taking place beneath its shattered stone roof.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Decisive Strike",
+   "body": "Athrikus surrounds himself with loyal warlocks and dark magic far deadlier than the cultists patrolling the slopes below. Striking down the master cultist requires cutting through his inner circle and securing his severed head as proof. While Balthule notes that the demonic presence may one day seek to regroup, Athrikus's demise robs the cult of its commanding intellect and buys precious safety for Darkshore.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Athrikus Narassin?",
+   "aliases": [
+    "athrikus",
+    "who is athrikus",
+    "boss of althalaxx"
+   ],
+   "answer": "Athrikus Narassin is an ancient night elf warlock commanding the cultists stationed at the Tower of Althalaxx. He directs the dark summonings and demonic rites infesting the ruins in northern Darkshore."
+  },
+  {
+   "q": "Where can Athrikus Narassin be found?",
+   "aliases": [
+    "where is athrikus",
+    "athrikus location",
+    "top of althalaxx"
+   ],
+   "answer": "Athrikus resides at the very top of the Tower of Althalaxx, guarded by a coterie of seasoned warlocks and summoned minions."
+  },
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "balthule",
+    "balthule shadowstrike"
+   ],
+   "answer": "Balthule Shadowstrike, an Alliance scout camped near the base of the Tower of Althalaxx, issues the mission to slay Athrikus."
+  },
+  {
+   "q": "Who is Delgren mentioned in the quest?",
+   "aliases": [
+    "delgren",
+    "delgren the purifier"
+   ],
+   "answer": "Delgren the Purifier is an Alliance ally stationed nearby who sent you to coordinate with Balthule to eliminate the demonic cabal."
+  },
+  {
+   "q": "What happens after Athrikus is defeated?",
+   "aliases": [
+    "after athrikus",
+    "tower of althalaxx ending"
+   ],
+   "answer": "Balthule confirms that Athrikus's death deals a critical blow to demonic operations in the area, though he warns that the dark forces will eventually regroup."
+  },
+  {
+   "q": "Why is the Tower of Althalaxx dangerous to Darkshore?",
+   "aliases": [
+    "why clean tower",
+    "althalaxx threat"
+   ],
+   "answer": "The cultists and warlocks residing in the tower practice fel sorcery and summon demons into night elven lands, threatening the wilderness and the nearby settlements."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Confronting Athrikus Narassin represents a bitter reminder of the arcane and demonic corruption that once devastated night elven civilization."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Athrikus commands potent demonic magic from the summit of Althalaxx, serving as a lethal example of how unbound fel worship draws lethal attention."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing northern Darkshore from demonic cultists is vital to protecting Alliance travel corridors between Auberdine and the lands beyond."
+  }
+ ],
+ "keywords": [
+  "althalaxx",
+  "athrikus",
+  "balthule",
+  "darkshore",
+  "demonic",
+  "narassin",
+  "shadowstrike",
+  "warlock"
+ ],
+ "related": [
+  "npc:balthule-shadowstrike",
+  "subzone:tower-of-althalaxx",
+  "quest:965",
+  "quest:494",
+  "zone:darkshore"
+ ],
+ "attribution": [
+  "The Tower of Althalaxx (8)"
+ ]
+}

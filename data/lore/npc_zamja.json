@@ -1,0 +1,86 @@
+{
+ "key": "npc:zamja",
+ "type": "npc",
+ "name": "Zamja",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Zamja",
+  "refs": 1
+ },
+ "summary": "Zamja is a Darkspear troll cooking trainer found working in the bustling corridor of the Drag in Orgrimmar. Known for her steady hand with a meat cleaver, she instructs Horde adventurers in preparing hearty meals from the beasts of Kalimdor.",
+ "sections": [
+  {
+   "title": "A Cleaver in the Drag",
+   "body": "Stationed within the winding canyon path of the Drag, Zamja spends her days breaking down cuts of meat and teaching hungry Horde travelers how to sustain themselves. Practical cooking is a vital survival skill in the rugged terrain of Durotar and the Barrens, and Zamja ensures that anyone willing to hold a skillet learns the basics of turning raw game into wholesome rations. For cooks who have mastered basic recipes and seek further training, she directs them south toward Gadgetzan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zamja?",
+   "aliases": [
+    "zamja npc",
+    "who is zamja",
+    "zamja orgrimmar"
+   ],
+   "answer": "Zamja is a Darkspear troll cooking trainer situated in the Drag in Orgrimmar. She teaches culinary arts to members of the Horde and helps budding cooks refine their craft."
+  },
+  {
+   "q": "Where can I find Zamja?",
+   "aliases": [
+    "zamja location",
+    "where is zamja",
+    "zamja trainer spot"
+   ],
+   "answer": "She can be found in the Drag, the shaded, winding trench connecting the Valley of Strength to the Valley of Honor within Orgrimmar."
+  },
+  {
+   "q": "What training does Zamja offer?",
+   "aliases": [
+    "what does zamja teach",
+    "zamja cooking recipes",
+    "cooking trainer orgrimmar"
+   ],
+   "answer": "Zamja provides cooking training and teaches recipes that allow adventurers to prepare sustenance from beasts and game gathered throughout Kalimdor. When a cook advances far enough, she also directs them toward more advanced instructors."
+  },
+  {
+   "q": "Where does Zamja send advanced cooks?",
+   "aliases": [
+    "zamja quest",
+    "to gadgetzan you go quest",
+    "expert cooking horde"
+   ],
+   "answer": "Once a chef's skills outgrow the local training available in Orgrimmar, Zamja directs them to Gadgetzan in Tanaris via the quest 'To Gadgetzan You Go!' to seek out Dirge Quikcleave."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Zamja is one of the primary cooking trainers for Horde characters visiting Orgrimmar, teaching essential recipes and eventually pointing seasoned cooks south to Tanaris for advanced instruction."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Like many Darkspear trolls who have settled in Orgrimmar under Warchief Thrall's banner, Zamja brings troll resourcefulness and culinary craft to the heart of the Horde capital."
+  }
+ ],
+ "keywords": [
+  "cooking trainer",
+  "darkspear",
+  "orgrimmar",
+  "the drag",
+  "to gadgetzan you go",
+  "troll",
+  "zamja"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "subzone:drag",
+  "quest:6611",
+  "subzone:gadgetzan",
+  "topic:troll"
+ ],
+ "attribution": [
+  "Zamja"
+ ]
+}

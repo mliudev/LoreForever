@@ -1,0 +1,89 @@
+{
+ "key": "npc:gelkak-gyromast",
+ "type": "npc",
+ "name": "Gelkak Gyromast",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "wiki": "Gelkak Gyromast",
+  "refs": 2
+ },
+ "summary": "Gelkak Gyromast is an ambitious gnome inventor found stranded along the foggy shoreline of Mist's Edge in northern Darkshore. Trapped far from friendly workshops, he struggles to deal with the chaotic malfunction of his mechanical creation, the Threshwackonator 4100.",
+ "sections": [
+  {
+   "title": "Castaway on Mist's Edge",
+   "body": "Perched on the desolate northern coast of Darkshore just west of the ancient Ruins of Mathystra, Gelkak Gyromast represents a peculiar sight among the gloomy night elven shores. Like many enterprising gnomes, Gyromast brought intricate, untested engineering marvels into the wild, only to find the untamed world far more volatile than expected. Stranded on the misty sands, his immediate concern is dealing with the fallout of his rogue machine, the Threshwackonator 4100, and securing whatever salvage remains.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Threshwackonator Malfunction",
+   "body": "Rather than serving its intended purpose, Gyromast's mechanical contraption went haywire amid the coastal wildlife. Unable to rein in the berserk automaton himself, the beleaguered inventor relies on passing adventurers to dismantle the Threshwackonator 4100 and help him exact vengeance for his ruined enterprise.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gelkak Gyromast?",
+   "aliases": [
+    "gelkak",
+    "who is gelkak",
+    "gyromast"
+   ],
+   "answer": "Gelkak Gyromast is an eccentric gnome inventor stranded on the northern beach of Darkshore known as Mist's Edge, just west of the Ruins of Mathystra."
+  },
+  {
+   "q": "Why is Gelkak stranded in Darkshore?",
+   "aliases": [
+    "why is gelkak here",
+    "gelkak darkshore"
+   ],
+   "answer": "Gyromast traveled to Darkshore with his mechanical inventions, but an experiment gone wrong and a runaway automaton left him stranded on the desolate northern coast."
+  },
+  {
+   "q": "What is the Threshwackonator 4100?",
+   "aliases": [
+    "threshwackonator",
+    "gelkak machine",
+    "robot"
+   ],
+   "answer": "The Threshwackonator 4100 is Gelkak's mechanical creation. It malfunctioned completely, turning hostile and wandering the northern shoreline beyond its creator's control."
+  },
+  {
+   "q": "What help does Gelkak need from travelers?",
+   "aliases": [
+    "gelkak quests",
+    "gyromast quests"
+   ],
+   "answer": "Gelkak asks capable adventurers to track down and destroy the rampaging Threshwackonator 4100 and assist in salvaging his lost mechanical parts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Seeing a fellow gnome stranded on the edge of Kalimdor is a stark reminder of how quickly ambitious tinkering can backfire in the wild."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Gelkak's predicament is a classic tale of engineering hubris, proving that even a device as impressive as the Threshwackonator 4100 needs an emergency off switch."
+  }
+ ],
+ "keywords": [
+  "darkshore",
+  "gelkak gyromast",
+  "gnome inventor",
+  "mathystra",
+  "mist's edge",
+  "threshwackonator 4100"
+ ],
+ "related": [
+  "subzone:mist-s-edge",
+  "quest:2098",
+  "quest:2078",
+  "subzone:ruins-of-mathystra",
+  "zone:darkshore",
+  "topic:gnome"
+ ],
+ "attribution": [
+  "Gelkak Gyromast"
+ ]
+}

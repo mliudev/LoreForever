@@ -1,0 +1,114 @@
+{
+ "key": "quest:158",
+ "type": "quest",
+ "name": "Zombie Juice",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   158
+  ],
+  "level": "24",
+  "faction": "Alliance",
+  "start": "Abercrombie",
+  "end": "Tavernkeep Smitts",
+  "previous": "Deliver the Thread (Classic)",
+  "next": "Gather Rot Blossoms (Classic)",
+  "wiki": "Zombie Juice (Classic)",
+  "chain": []
+ },
+ "summary": "Zombie Juice is an errand run on behalf of Abercrombie, the peculiar hermit dwelling in the haunted wilds of Duskwood. Claiming to suffer from the oppressive midnight chill, he dispatches travelers to Darkshire's tavern to secure an unusually potent concoction.",
+ "sections": [
+  {
+   "title": "A Chilly Request",
+   "body": "Dwelling alone among the horrors of the shadowed woods, the hermit Abercrombie frequently sends sympathetic travelers on strange errands. Claiming that the creeping dusk drains his warmth and vitality, he asks that an adventurer make the trek east to Darkshire. His target is Tavernkeep Smitts of the Scarlet Raven Tavern, from whom he seeks a bottle of a potent, ominously named brew known as Zombie Juice to put fire back in his veins.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Scarlet Raven",
+   "body": "Darkshire's tavern sees plenty of weary guards and frightened townsfolk, but requests for Zombie Juice are rare even for Tavernkeep Smitts. The drink carries a reputation for being dangerously strong. While Smitts recognizes the vintage, Abercrombie's thirst for such a morbid concoction raises quiet eyebrows in a region already besieged by the restless dead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Zombie Juice?",
+   "aliases": [
+    "zombie juice drink",
+    "what is the liquor",
+    "zombie juice lore"
+   ],
+   "answer": "It is an exceptionally strong, morbidly named liquor sold by Tavernkeep Smitts at the Scarlet Raven Tavern in Darkshire. It is rarely requested by ordinary patrons."
+  },
+  {
+   "q": "Who sends you to fetch Zombie Juice?",
+   "aliases": [
+    "who gives quest zombie juice",
+    "abercrombie quest drink",
+    "hermit drink request"
+   ],
+   "answer": "The hermit Abercrombie, who lives isolated in a shack in western Duskwood, asks travelers to fetch it to help warm his cold bones."
+  },
+  {
+   "q": "Where do you turn in the quest?",
+   "aliases": [
+    "where is smitts",
+    "turn in zombie juice",
+    "smitts location"
+   ],
+   "answer": "You speak with Tavernkeep Smitts inside the Scarlet Raven Tavern, the central inn of Darkshire in eastern Duskwood."
+  },
+  {
+   "q": "Why does Abercrombie want it?",
+   "aliases": [
+    "why does abercrombie need juice",
+    "abercrombie cold",
+    "why does he drink zombie juice"
+   ],
+   "answer": "Abercrombie claims the gloomy, shadowed nights of Duskwood leave him shivering and that he needs the fiery drink to warm his blood."
+  },
+  {
+   "q": "Is Tavernkeep Smitts surprised by the order?",
+   "aliases": [
+    "smitts reaction",
+    "does smitts have zombie juice",
+    "smitts dialogue"
+   ],
+   "answer": "Yes. Smitts notes that Zombie Juice is extraordinarily potent stuff and mentions that he does not usually receive requests for it from his regular clientele."
+  },
+  {
+   "q": "Does this quest involve fighting any monsters?",
+   "aliases": [
+    "zombie juice combat",
+    "is zombie juice dangerous",
+    "zombie juice mobs"
+   ],
+   "answer": "No. The errand itself simply requires traveling along the road from Abercrombie's secluded hut to Darkshire and speaking with Tavernkeep Smitts, though the roads of Duskwood are always fraught with wandering beasts and undead."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers working to support the embattled outpost of Darkshire often find themselves serving as couriers for the eccentric recluses sheltering along Duskwood's perilous roads."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "darkshire",
+  "duskwood",
+  "liquor",
+  "scarlet raven tavern",
+  "tavernkeep smitts",
+  "zombie juice"
+ ],
+ "related": [
+  "npc:abercrombie",
+  "npc:tavernkeep-smitts",
+  "subzone:scarlet-raven-tavern",
+  "subzone:darkshire",
+  "zone:duskwood"
+ ],
+ "attribution": [
+  "Zombie Juice (Classic)"
+ ]
+}

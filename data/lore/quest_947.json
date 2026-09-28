@@ -1,0 +1,120 @@
+{
+ "key": "quest:947",
+ "type": "quest",
+ "name": "Cave Mushrooms",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   947
+  ],
+  "level": "17",
+  "faction": "Alliance",
+  "start": "Barithras Moonshade",
+  "end": "",
+  "previous": null,
+  "next": "Onu (quest)",
+  "wiki": "Cave Mushrooms",
+  "chain": []
+ },
+ "summary": "Cave Mushrooms is an Alliance assignment offered by the night elf Barithras Moonshade in Auberdine. While formulating a specialized potion, Barithras tasks an adventurer with venturing into a hidden cavern behind Cliffspring Falls to harvest rare fungi and verify disturbing premonitions felt by the Grove of the Ancients.",
+ "sections": [
+  {
+   "title": "A Recipe Behind the Falls",
+   "body": "Barithras Moonshade requires specific ingredients for a potent mixture: scaber stalks and an elusive death cap. These particular fungi thrive in the damp, shadowy cavern concealed directly behind Cliffspring Falls in northeastern Darkshore. While the alchemy itself is delicate, gathering these specimens is far more hazardous than harvesting typical woodland herbs.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Ancients' Warning",
+   "body": "Barithras did not avoid the cavern out of mere idleness. The venerable tree guardians at the Grove of the Ancients issued stern warnings, sensing that a foul presence had begun nesting inside the mountain caves. By sending a hardy explorer rather than investigating himself, Moonshade seeks to confirm whether the elders' dire intuitions about a creeping evil in northern Darkshore are indeed well founded.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does this task begin?",
+   "aliases": [
+    "where to pick up cave mushrooms",
+    "barithras moonshade location",
+    "cave mushrooms quest start"
+   ],
+   "answer": "You receive this assignment from Barithras Moonshade, who resides in the night elf coastal settlement of Auberdine in central Darkshore."
+  },
+  {
+   "q": "Where are the mushrooms located?",
+   "aliases": [
+    "where are scaber stalks",
+    "death cap location",
+    "cave behind waterfall darkshore"
+   ],
+   "answer": "They grow inside a cavern hidden behind Cliffspring Falls, situated along the mountain face to the northeast of Auberdine."
+  },
+  {
+   "q": "Why won't Barithras Moonshade retrieve the mushrooms himself?",
+   "aliases": [
+    "why barithras won't go",
+    "why barithras stays in auberdine"
+   ],
+   "answer": "Barithras was specifically advised by the Grove of the Ancients to stay clear of the falls. The great ancients sensed that an unnatural, rising evil has taken refuge inside that cave."
+  },
+  {
+   "q": "What specific mushrooms are needed?",
+   "aliases": [
+    "required mushrooms",
+    "which fungi for moonshade"
+   ],
+   "answer": "Moonshade needs five scaber stalks along with a single, highly dangerous death cap mushroom to complete his potion."
+  },
+  {
+   "q": "What does this errand lead to next?",
+   "aliases": [
+    "next quest after cave mushrooms",
+    "onu follow up"
+   ],
+   "answer": "Once the presence in the cave is verified and the fungi delivered, the journey turns south toward the ancient protector Onu at the Grove of the Ancients."
+  },
+  {
+   "q": "Are the Ancients' fears proven correct?",
+   "aliases": [
+    "is the cave actually evil",
+    "what is in cliffspring falls cave"
+   ],
+   "answer": "Yes. Upon returning the specimens, the adventurer confirms the dark foreboding of the elders, proving that a sinister force has indeed claimed the mountain cavern."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Foragers and herbalists will appreciate the hunt for the death cap and scaber stalks, though these specific specimens dwell in darkened caverns rather than lush woodland soil."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The Grove of the Ancients remains deeply attuned to the natural balance of Darkshore, making any disturbance they detect beneath the falls a matter of urgent concern to the Kaldorei."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Auberdine serves as the Alliance's primary bastion on the Kalimdor coast, and creeping evils in the eastern mountains directly endanger the stability of the entire shore."
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "barithras moonshade",
+  "cave mushrooms",
+  "cliffspring falls",
+  "darkshore",
+  "death cap",
+  "grove of the ancients",
+  "onu",
+  "scaber stalks"
+ ],
+ "related": [
+  "npc:barithras-moonshade",
+  "subzone:cliffspring-falls",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "quest:952"
+ ],
+ "attribution": [
+  "Cave Mushrooms"
+ ]
+}

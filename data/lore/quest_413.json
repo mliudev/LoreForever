@@ -1,0 +1,103 @@
+{
+ "key": "quest:413",
+ "type": "quest",
+ "name": "Shimmer Stout",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   413
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Rejold Barleybrew",
+  "end": "Mountaineer Barleybrew",
+  "previous": "Rejold's New Brew",
+  "next": "Stout to Kadrell",
+  "wiki": "Shimmer Stout (quest)",
+  "chain": [
+   "Rejold's New Brew",
+   "Shimmer Stout (quest)",
+   "Stout to Kadrell"
+  ]
+ },
+ "summary": "Following the creation of his experimental Shimmer Stout in Kharanos, Rejold Barleybrew asks travelers to carry a fresh barrel out to his brother Wellart. Wellart serves as a dwarf Mountaineer stationed at the southern guard tower guarding the pass toward Loch Modan, where a cold post makes a strong drink all the more welcome.",
+ "sections": [
+  {
+   "title": "A Family Recipe on the Frontier",
+   "body": "Rejold Barleybrew has perfected his new creation, Shimmer Stout, using shimmering fronds gathered from the icy crags of Dun Morogh. While the rest of the Barleybrew family dedicates their craft to the vats and kegs of the Thunderbrew Distillery, Rejold's brother Wellart chose the life of a Mountaineer. Knowing the lonely conditions of guard duty on the frontier, Rejold sends a fresh barrel along with passing travelers as both a brotherly favor and a true taste test.",
+   "spoiler": 0
+  },
+  {
+   "title": "The South Gate Guard Tower",
+   "body": "Wellart Barleybrew is stationed at the southern guard tower flanking the South Gate Pass into Loch Modan. High atop the mountain pass, the Mountaineers endure bitter winds and occasional beast attacks while keeping watch over travelers walking the mountain road. Running low on drink and restless for excitement, Wellart finds that Shimmer Stout delivers quite a punch\u2014so much so that it seems to brighten his vision in the dim mountain night.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mountaineer Barleybrew?",
+   "aliases": [
+    "who is wellart barleybrew",
+    "wellart barleybrew",
+    "mountaineer barleybrew lore"
+   ],
+   "answer": "Mountaineer Wellart Barleybrew is the brother of Rejold Barleybrew. Unlike his kin who brew ale at the Thunderbrew Distillery in Kharanos, Wellart chose service in the Dun Morogh Mountaineers, keeping watch over the high pass connecting Dun Morogh to Loch Modan."
+  },
+  {
+   "q": "Where is the southern guard tower located?",
+   "aliases": [
+    "where is southern guard tower",
+    "mountaineer barleybrew location",
+    "where is wellart"
+   ],
+   "answer": "The tower sits along the eastern border of Dun Morogh guarding the South Gate Pass, which cuts through the mountains toward the neighboring valley of Loch Modan."
+  },
+  {
+   "q": "What makes Shimmer Stout special?",
+   "aliases": [
+    "what does shimmer stout do",
+    "shimmer stout effect"
+   ],
+   "answer": "Shimmer Stout is brewed using special shimmering fronds collected in the snowy wilderness. According to Wellart, drinking it puts a bright shine in his eyes and makes him feel as though he can see straight through the dark."
+  },
+  {
+   "q": "What happens after Wellart drinks the stout?",
+   "aliases": [
+    "what is next after shimmer stout",
+    "next quest after shimmer stout"
+   ],
+   "answer": "Wellart enjoys the brew so much that he asks travelers to haul an additional keg down into Loch Modan to share with Mountaineer Kadrell at the valley's border outpost."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, sharing ale among family is as vital a duty as guarding the mountain passes, making this delivery a quintessential part of Ironforge frontier life."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Keeping the vigilant Mountaineers supplied helps sustain the network of guards protecting the highway between Dun Morogh and Loch Modan."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "kharanos",
+  "mountaineer barleybrew",
+  "rejold barleybrew",
+  "shimmer stout",
+  "south gate pass",
+  "wellart"
+ ],
+ "related": [
+  "npc:rejold-barleybrew",
+  "npc:mountaineer-barleybrew",
+  "quest:415",
+  "quest:414",
+  "zone:dunmorogh",
+  "zone:lochmodan"
+ ],
+ "attribution": [
+  "Shimmer Stout (quest)"
+ ]
+}

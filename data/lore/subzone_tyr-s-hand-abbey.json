@@ -1,0 +1,84 @@
+{
+ "key": "subzone:tyr-s-hand-abbey",
+ "type": "subzone",
+ "name": "Tyr's Hand Abbey",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Tyr's Hand Abbey"
+ },
+ "summary": "Tyr's Hand Abbey is a well-maintained sanctuary nestled within the fortified bastion of Tyr's Hand in the southeastern Eastern Plaguelands. Controlled by the zealots of the Scarlet Crusade, it serves as an auxiliary house of worship and study alongside the grand Scarlet Basilica.",
+ "sections": [
+  {
+   "title": "Sanctuary of the Zealots",
+   "body": "While the imposing Scarlet Basilica dominates the skyline of Tyr's Hand, the abbey provides a quieter, functional center of devotion and martial doctrine for the Scarlet Crusade. Its architecture closely mirrors traditional Holy Light foundations such as Northshire Abbey in Elwynn Forest, featuring a central Main Hall flanked by a Hall of Arms and a dedicated Library Wing. Despite the relentless horrors of the Plaguelands, the Crusade maintains the abbey with meticulous care, fiercely defending its cloisters from all outsiders.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Tyr's Hand Abbey used for?",
+   "aliases": [
+    "what is this building",
+    "tyrs hand abbey purpose",
+    "what happens in the abbey"
+   ],
+   "answer": "It serves as a secondary religious and logistical facility for the Scarlet Crusade in Tyr's Hand. While the grand Basilica hosts major ceremonies, the abbey provides living, training, and study quarters with its Hall of Arms and Library Wing."
+  },
+  {
+   "q": "Why does it look like Northshire Abbey?",
+   "aliases": [
+    "northshire clone",
+    "why does it look like northshire",
+    "abbey layout"
+   ],
+   "answer": "Both structures were built following standard Lordaeron and Stormwind architectural designs for Church of the Holy Light monastic compounds, dividing the building into a main assembly hall, a martial training wing, and an archive of sacred texts."
+  },
+  {
+   "q": "Who controls the abbey right now?",
+   "aliases": [
+    "who owns tyrs hand abbey",
+    "is scarlet crusade here"
+   ],
+   "answer": "The abbey is under the total control of the Scarlet Crusade. Like the rest of the heavily fortified city of Tyr's Hand, it is fiercely defended by crusader soldiers, priests, and paladins who attack anyone not bearing their colors."
+  },
+  {
+   "q": "Can players ring the bell in the belfry?",
+   "aliases": [
+    "church bell",
+    "belfry bell",
+    "interact with bell"
+   ],
+   "answer": "The abbey features a bell in its tower that shows an interaction cursor, similar to the alarm bells found in maritime towns like Booty Bay, though striking it currently produces no sound or reaction."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For holy warriors, the abbey represents the tragic corruption of the Silver Hand's legacy: a once-hallowed place of prayer turned into a bastion of fanaticism and bloodlust."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The Library Wing holds remnants of classical Holy Light doctrine, though preserved through the skewed and obsessive filter of the Scarlet Crusade."
+  }
+ ],
+ "keywords": [
+  "eastern plaguelands",
+  "hall of arms",
+  "library wing",
+  "scarlet basilica",
+  "scarlet crusade",
+  "tyr's hand abbey",
+  "tyrs hand"
+ ],
+ "related": [
+  "subzone:tyr-s-hand",
+  "subzone:scarlet-basilica",
+  "topic:scarlet-crusade",
+  "subzone:northshire-abbey",
+  "zone:easternplaguelands"
+ ],
+ "attribution": [
+  "Tyr's Hand Abbey"
+ ]
+}

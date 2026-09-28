@@ -1,0 +1,112 @@
+{
+ "key": "npc:chief-engineer-hinderweir-vii",
+ "type": "npc",
+ "name": "Chief Engineer Hinderweir VII",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Chief Engineer Hinderweir VII",
+  "refs": 11
+ },
+ "summary": "Chief Engineer Hinderweir VII is a veteran dwarven engineer stationed atop the Stonewrought Dam in Loch Modan. Tasked with the upkeep and defense of this monumental feat of engineering, he oversees its delicate mechanisms while keeping watch for sabotage. Those who speak with him quickly discover that grave dangers threaten the integrity of the great dam.",
+ "sections": [
+  {
+   "title": "Master of the Dam",
+   "body": "The Stonewrought Dam is one of the crowning achievements of dwarven stonecraft and engineering, holding back the massive waters of the Loch. Chief Engineer Hinderweir VII bears the immense responsibility of maintaining its structure and operational machinery. Perched along the crest of the dam, he monitors the waterways, sluice gates, and structural stress points against the elements and local hazards.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sabotage and Subversion",
+   "body": "Running the dam is more than routine maintenance; dark forces continually test its defenses. Hinderweir uncovers signs of calculated sabotage orchestrated by hostile elements in the region. Aware that a catastrophic breach would flood the lowlands and devastate Khaz Modan's delicate infrastructure, the Chief Engineer enlists reliable Alliance adventurers to trace the conspiracy, disarm hidden explosives, and neutralize the threat before the stone gives way.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Chief Engineer Hinderweir VII?",
+   "aliases": [
+    "hinderweir",
+    "chief engineer",
+    "dam engineer"
+   ],
+   "answer": "Chief Engineer Hinderweir VII is the dwarven supervisor in charge of maintaining and defending the Stonewrought Dam in northern Loch Modan."
+  },
+  {
+   "q": "Where can I find Chief Engineer Hinderweir VII?",
+   "aliases": [
+    "hinderweir location",
+    "where is hinderweir",
+    "find hinderweir"
+   ],
+   "answer": "He can be found standing along the top walkway of the Stonewrought Dam, which spans the northern edge of Loch Modan near the border to the Wetlands."
+  },
+  {
+   "q": "What is the Stonewrought Dam?",
+   "aliases": [
+    "what is the dam",
+    "stonewrought dam purpose",
+    "why is the dam important"
+   ],
+   "answer": "The Stonewrought Dam is a massive dwarven architectural wonder that holds back the waters of Loch Modan, preventing the lake from violently spilling into the lower wetlands to the north."
+  },
+  {
+   "q": "What threats is Hinderweir worried about?",
+   "aliases": [
+    "dam threats",
+    "a dark threat looms",
+    "who wants to destroy the dam"
+   ],
+   "answer": "Hinderweir investigates active sabotage against the dam, discovering evidence of dark plots and explosive devices planted to crack its foundations."
+  },
+  {
+   "q": "Why does his name include 'VII'?",
+   "aliases": [
+    "hinderweir name",
+    "why the seventh",
+    "hinderweir vii meaning"
+   ],
+   "answer": "The Roman numeral suggests a proud family lineage of dwarven engineers or architects who have served Khaz Modan over generations."
+  },
+  {
+   "q": "What quests does Chief Engineer Hinderweir offer?",
+   "aliases": [
+    "hinderweir quests",
+    "quests at the dam",
+    "a dark threat looms quest"
+   ],
+   "answer": "He offers the quest chain 'A Dark Threat Looms', which directs adventurers to investigate tampering and protect the Stonewrought Dam from destruction."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, Hinderweir represents the solemn duty of preserving Khaz Modan's greatest stonecraft achievements against outside malice."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate the sheer mechanical scale of Hinderweir's charge, as the Stonewrought Dam represents a peerless mix of civil architecture and mechanical control."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance cannot afford to let the dam fall; catastrophic failure would disrupt supply routes and devastate allied lands north of Loch Modan."
+  }
+ ],
+ "keywords": [
+  "a dark threat looms",
+  "dwarf",
+  "engineer",
+  "hinderweir",
+  "loch modan",
+  "sabotage",
+  "stonewrought dam"
+ ],
+ "related": [
+  "subzone:stonewrought-dam",
+  "quest:161",
+  "zone:lochmodan",
+  "topic:dwarf"
+ ],
+ "attribution": [
+  "Chief Engineer Hinderweir VII"
+ ]
+}

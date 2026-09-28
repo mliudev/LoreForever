@@ -1,0 +1,127 @@
+{
+ "key": "quest:530",
+ "type": "quest",
+ "name": "A Husband's Revenge",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "ids": [
+   530
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Raleigh Andrean",
+  "end": "",
+  "previous": "Raleigh and the Undercity",
+  "next": null,
+  "wiki": "A Husband's Revenge",
+  "chain": [
+   "The Engraved Ring",
+   "Raleigh and the Undercity",
+   "A Husband's Revenge"
+  ]
+ },
+ "summary": "A Husband's Revenge is the conclusion to a tragic tale of past betrayal carried into undeath. Raleigh Andrean, a Forsaken residing in the Undercity, charges travelers with tracking down his former friend Valdred Moray, who murdered his wife in life.",
+ "sections": [
+  {
+   "title": "A Bitter Memory",
+   "body": "When Raleigh Andrean received the engraved ring carried from Hillsbrad Foothills, it rekindled memories of his mortal life that undeath had mostly withered away. Among those memories was a profound betrayal: his close friend, Valdred Moray, had murdered Raleigh's wife, Deliah. While the chill of the Scourge and subsequent Forsaken existence dulled Raleigh's capacity for grief and love, his thirst for retribution remained entirely intact.",
+   "spoiler": 0
+  },
+  {
+   "title": "Justice at the Wall",
+   "body": "Fleeing the consequences of his past actions and the horrors of Lordaeron, Valdred Moray fled southward through Silverpine Forest, desperate to escape into the isolationist human kingdom behind the Greymane Wall. Yet the colossal gates remained sealed against refugees and outcasts alike. Trapped against the stonework, Valdred met his end at the behest of the friend he betrayed, his severed hands severed and carried back to the Undercity.",
+   "spoiler": 1
+  },
+  {
+   "title": "Cold Keepsakes",
+   "body": "Upon receiving the hands of his former friend, Raleigh feels no rush of warmth or redemption\u2014only cold finality. Having settled the score, he surrenders Deliah's wedding band without sentiment, declaring it a useless bauble. In its place, the severed hands of Valdred Moray remain in the Undercity as Raleigh's grim, permanent reminder of mortal betrayal.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Deliah?",
+   "aliases": [
+    "who is deliah",
+    "raleigh's wife",
+    "raleigh wife"
+   ],
+   "answer": "Deliah was Raleigh Andrean's wife during their mortal lives in Lordaeron. She was murdered by Raleigh's once-trusted friend, Valdred Moray, before the kingdom fell."
+  },
+  {
+   "q": "Why does Raleigh want Valdred's hands specifically?",
+   "aliases": [
+    "why hands",
+    "valdred hands",
+    "raleigh wants hands"
+   ],
+   "answer": "Raleigh demands Valdred's hands because they are the physical instruments that ended his wife's life. He intends to keep them in the Undercity as a permanent trophy and reminder of his friend's betrayal."
+  },
+  {
+   "q": "Where is Valdred Moray hiding?",
+   "aliases": [
+    "where is valdred",
+    "valdred location",
+    "valdred moray spot"
+   ],
+   "answer": "Valdred Moray is located in far southern Silverpine Forest, camped against the colossal Greymane Wall, having failed to gain entry into the closed kingdom of Gilneas."
+  },
+  {
+   "q": "Why does Raleigh give back the wedding ring?",
+   "aliases": [
+    "why give ring away",
+    "ring of scorn lore",
+    "why discard ring"
+   ],
+   "answer": "In undeath, Raleigh's emotional attachment to Deliah has withered away to nothing. Without the capacity for grief or affection, her ring is an empty trinket to him; only the malice of revenge held any real value."
+  },
+  {
+   "q": "Can Valdred Moray enter Gilneas?",
+   "aliases": [
+    "greymane wall closed",
+    "why is valdred outside wall"
+   ],
+   "answer": "No. King Genn Greymane ordered the wall sealed during the Third War to shut out the rest of the world and the Scourge. Valdred, like many desperate refugees, found himself stranded at the locked gates."
+  },
+  {
+   "q": "What quests lead up to this task?",
+   "aliases": [
+    "husband revenge chain",
+    "prerequisite quest",
+    "previous quest"
+   ],
+   "answer": "The chain begins with finding 'The Engraved Ring' in Hillsbrad Foothills, which directs you to the Undercity in 'Raleigh and the Undercity', unlocking 'A Husband's Revenge'."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Raleigh's cold detachment from his dead wife, paired with his lingering obsession with hatred and vengeance, is a stark portrait of how undeath warps mortal psychology."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Carrying out justice across Silverpine Forest helps secure the borders around the Undercity against lingering human outlaws."
+  }
+ ],
+ "keywords": [
+  "deliah",
+  "engraved ring",
+  "greymane wall",
+  "raleigh andrean",
+  "ring of scorn",
+  "silverpine forest",
+  "undercity",
+  "valdred moray"
+ ],
+ "related": [
+  "npc:raleigh-andrean",
+  "quest:441",
+  "quest:440",
+  "subzone:greymane-wall",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "A Husband's Revenge"
+ ]
+}

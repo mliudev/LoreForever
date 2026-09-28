@@ -1,0 +1,132 @@
+{
+ "key": "quest:4512",
+ "type": "quest",
+ "name": "A Little Slime Goes a Long Way",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "ids": [
+   4512
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Laris Geardawdle",
+  "end": "",
+  "previous": null,
+  "next": "A Little Slime Goes a Long Way (2)",
+  "wiki": "A Little Slime Goes a Long Way",
+  "chain": []
+ },
+ "summary": "In the bustling halls of Ironforge, the gnome researcher Laris Geardawdle seeks to uncover the evolutionary secrets of Azeroth by studying oozes and slimes. Curious about the Royal Apothecary Society's strange fascination with these vile puddles, he tasks Alliance adventurers with journeying to tainted Felwood to bottle up specimen samples.",
+ "sections": [
+  {
+   "title": "A Peculiar Obsession",
+   "body": "While most scholars of the Explorers' League concern themselves with ancient titan relics or buried dwarven genealogies, Laris Geardawdle has set his inquisitive mind on a squelchier subject: oozes. Ubiquitous across wetlands, cursed woods, and damp ruins, these living puddles defy standard biological classification. Having witnessed Forsaken apothecaries scooping up slime samples across Lordaeron, Laris has resolved to understand what makes these gelatinous horrors so uniquely interesting to the Undercity's alchemists.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Primordial Secretion",
+   "body": "Laris harbors a controversial theory that oozes are not mere unnatural vermin or magical byproducts, but primordial secretions intimately tied to the planetary genesis of Azeroth itself. To prove this hypothesis, he dispatches brave scouts across the ocean into the blighted canopy of Felwood to capture specimens of Cursed and Tainted Oozes in specially crafted jars.",
+   "spoiler": 0
+  },
+  {
+   "title": "Proving Gnomish Worth",
+   "body": "Behind Laris's academic pursuit lies a deeply personal motivation shared by many of his displaced kin. Following the devastating radioactive fall of Gnomeregan, thousands of gnomes found sanctuary as refugees within the Great Forge of Ironforge. By securing a breakthrough discovery for the Explorers' League, Laris hopes to silence dwarven skeptics and affirm that welcoming gnomes into the mountain city was no act of simple charity, but an enduring asset to Alliance science.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Laris Geardawdle?",
+   "aliases": [
+    "laris geardawdle",
+    "who is the quest giver",
+    "gnome ooze guy"
+   ],
+   "answer": "Laris Geardawdle is a gnomish researcher and scholar residing in Ironforge. Working alongside the Explorers' League, he dedicates himself to understanding the biological origins of oozes and slimes across Azeroth."
+  },
+  {
+   "q": "Why does Laris care so much about ooze?",
+   "aliases": [
+    "why study slimes",
+    "why ooze jars",
+    "ooze theory"
+   ],
+   "answer": "Laris suspects that oozes may be tied to the planetary origin of Azeroth as primordial secretions. Additionally, noticing that the Forsaken's Royal Apothecary Society aggressively harvests slime samples has made him eager to unravel their secret properties before the Horde does."
+  },
+  {
+   "q": "Where do you gather the ooze samples?",
+   "aliases": [
+    "where are the oozes",
+    "tainted ooze location",
+    "cursed ooze location"
+   ],
+   "answer": "The samples must be gathered from Cursed Oozes and Tainted Oozes wandering the corrupted forests of Felwood in northern Kalimdor, using empty glass containers provided by Laris."
+  },
+  {
+   "q": "Why are the Forsaken collecting oozes?",
+   "aliases": [
+    "undercity oozes",
+    "royal apothecary society slime",
+    "why do forsaken want ooze"
+   ],
+   "answer": "The Royal Apothecary Society routinely experiments with toxins, blights, and biological horrors to advance Forsaken alchemy. Their interest in raw oozes signals to Alliance scholars that the creatures harbor virulent or mutagenic compounds."
+  },
+  {
+   "q": "How does this quest connect to the fall of Gnomeregan?",
+   "aliases": [
+    "gnomeregan connection",
+    "dwarf gnome relations",
+    "gnome refugees ironforge"
+   ],
+   "answer": "Laris feels the pressure of being a refugee in Ironforge after Gnomeregan's loss to troggs and radiation. He believes that securing a major scientific triumph for the Explorers' League will prove that granting asylum to gnomes was truly worthwhile for the dwarven hosts."
+  },
+  {
+   "q": "What happens after you deliver the samples?",
+   "aliases": [
+    "slime quest follow up",
+    "what next after ooze jars"
+   ],
+   "answer": "Laris immediately begins testing the specimens in his laboratory setup in Ironforge, further developing his theories regarding ooze taxonomy and elemental origins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Laris embodies the relentless intellectual drive of gnomes rebuilding their reputations and pride after the heartbreaking loss of Gnomeregan."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Though traditional dwarven excavators favor stone and metal over gelatinous sludge, the Explorers' League nonetheless benefits from Laris's eccentric drive."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Monitoring the Royal Apothecary Society's gathering habits gives the Alliance vital intelligence on what sinister brews the Undercity may be concocting."
+  }
+ ],
+ "keywords": [
+  "cursed ooze",
+  "explorers league",
+  "felwood",
+  "gnomeregan",
+  "ironforge",
+  "laris geardawdle",
+  "ooze",
+  "royal apothecary society",
+  "slime",
+  "tainted ooze"
+ ],
+ "related": [
+  "npc:laris-geardawdle",
+  "zone:felwood",
+  "zone:ironforge",
+  "topic:explorers-league",
+  "topic:royal-apothecary-society",
+  "zone:gnomeregan",
+  "topic:gnome",
+  "zone:undercity"
+ ],
+ "attribution": [
+  "A Little Slime Goes a Long Way"
+ ]
+}

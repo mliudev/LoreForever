@@ -1,0 +1,78 @@
+{
+ "key": "subzone:trial-of-frost",
+ "type": "subzone",
+ "name": "Trial of Frost",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Trial of Frost"
+ },
+ "summary": "Perched among the frozen cliffs of Azshara's Bitter Reaches, the Trial of Frost is a testing ground established by Archmage Xylem. Here, aspiring spellcasters must brave biting cold and magical hazards to prove their mastery over arcane elements. From its sheer heights, one can gaze out across the region toward the dragons nesting on Sable Ridge.",
+ "sections": [
+  {
+   "title": "A Test of the Elements",
+   "body": "Overlooking the windswept crags of Azshara, the Trial of Frost serves as an arcane crucible designed by the eccentric Archmage Xylem. High among the Bitter Reaches, an image of the archmage himself oversees initiates attempting to navigate chilling magical manifestations and the hostile environment. Apprentices like Henny have been dispatched here to endure the bitter trials, aiming to prove their command over magic amidst freezing winds and watching eyes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Trial of Frost?",
+   "aliases": [
+    "trial of frost azshara",
+    "what is trial of frost",
+    "xylem trial"
+   ],
+   "answer": "The Trial of Frost is an elevated testing ground located within the Bitter Reaches of Azshara. It was created by Archmage Xylem to test the magical aptitude, agility, and fortitude of apprentices attempting to master frost magic."
+  },
+  {
+   "q": "Who oversees the trial?",
+   "aliases": [
+    "who runs the trial",
+    "who is in charge here",
+    "xylem image"
+   ],
+   "answer": "The trial is overseen by an arcane projection known as the Image of Archmage Xylem, allowing the secluded archmage to instruct and judge aspirants without leaving his sanctum."
+  },
+  {
+   "q": "Who is Henny?",
+   "aliases": [
+    "henny azshara",
+    "apprentice henny",
+    "who is henny"
+   ],
+   "answer": "Henny is an apprentice of Archmage Xylem who can be found here enduring the bitter elements in an attempt to pass the trial."
+  },
+  {
+   "q": "What can be seen from this peak?",
+   "aliases": [
+    "view from trial of frost",
+    "sable ridge view"
+   ],
+   "answer": "Due to its high vantage point in the Bitter Reaches, the ledge offers a wide view across the rugged landscapes of Azshara, including the dragons dwelling along Sable Ridge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, the trial represents one of the eccentric tests devised by Archmage Xylem to push mortal magic beyond standard Kirin Tor teachings."
+  }
+ ],
+ "keywords": [
+  "archmage xylem",
+  "azshara",
+  "bitter reaches",
+  "frost trial",
+  "henny",
+  "trial of frost",
+  "xylem"
+ ],
+ "related": [
+  "npc:archmage-xylem",
+  "subzone:bitter-reaches",
+  "zone:azshara"
+ ],
+ "attribution": [
+  "Trial of Frost"
+ ]
+}

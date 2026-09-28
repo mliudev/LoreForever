@@ -1,0 +1,123 @@
+{
+ "key": "quest:7782",
+ "type": "quest",
+ "name": "The Lord of Blackrock",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "ids": [
+   7782
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Grand Admiral Jes-Tereth",
+  "end": "Field Marshal Stonebridge",
+  "previous": "The Lord of Blackrock (Alliance)",
+  "next": null,
+  "wiki": "The Lord of Blackrock (Alliance 2)",
+  "chain": [
+   "The Lord of Blackrock (Alliance)",
+   "The Lord of Blackrock (Alliance 2)"
+  ]
+ },
+ "summary": "This quest marks the triumphant finale of the campaign against Nefarian, the master of Blackrock Mountain. After presenting proof of the black dragon's downfall to Grand Admiral Jes-Tereth in Stormwind Keep, heroes are sent to the Valley of Heroes where Field Marshal Stonebridge mounts the severed head of Nefarian on the city gates for all the Alliance to see.",
+ "sections": [
+  {
+   "title": "A City's Triumph",
+   "body": "The campaign against the Blackrock clan and the brood of the Black Dragonflight culminates in a public display of victory. Following the presentation of Nefarian's severed head inside Stormwind Keep, Grand Admiral Jes-Tereth directs the champions across the city to the Valley of Heroes. There, Field Marshal Stonebridge awaits to receive the gruesome trophy and commence citywide celebrations.",
+   "spoiler": 1
+  },
+  {
+   "title": "Rallying the Alliance",
+   "body": "When Field Marshal Stonebridge hoists the severed head of Nefarian upon the great arches of Stormwind's main entrance, the entire city feels the impact. The display is accompanied by the Rallying Cry of the Dragonslayer, inspiring city defenders, visiting dignitaries, and common citizens alike with the knowledge that the brood of Deathwing has suffered a catastrophic blow.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happens when you complete this quest?",
+   "aliases": [
+    "nefarian head quest turn in",
+    "what does stonebridge do",
+    "rallying cry trigger"
+   ],
+   "answer": "Field Marshal Stonebridge hangs the severed head of Nefarian high upon the stone gateway arch in the Valley of Heroes. This triggers the Rallying Cry of the Dragonslayer buff across Stormwind City, bolstering the combat prowess of all friendly players and guards."
+  },
+  {
+   "q": "Who is Field Marshal Stonebridge?",
+   "aliases": [
+    "stonebridge",
+    "field marshal stonebridge"
+   ],
+   "answer": "Field Marshal Stonebridge is a senior military officer of the Stormwind army stationed at the Valley of Heroes, near the entrance to Stormwind City. He organizes the public commemoration of major military triumphs, including hoisting the heads of defeated draconic threats."
+  },
+  {
+   "q": "Why does Grand Admiral Jes-Tereth send you here?",
+   "aliases": [
+    "jes-tereth",
+    "why go to valley of heroes"
+   ],
+   "answer": "After receiving confirmation of Nefarian's defeat in the throne room, Jes-Tereth orders you to bring word to the city gates so the Alliance military can display the victory openly to lift morale across the capital."
+  },
+  {
+   "q": "Does this turn-in affect the whole city?",
+   "aliases": [
+    "world buff nefarian",
+    "does stormwind get buff"
+   ],
+   "answer": "Yes. When Stonebridge takes the trophy, a grand proclamation echoes through Stormwind and the Rallying Cry of the Dragonslayer is cast upon everyone within the city borders."
+  },
+  {
+   "q": "Where is the Valley of Heroes located?",
+   "aliases": [
+    "valley of heroes location",
+    "where is stonebridge"
+   ],
+   "answer": "The Valley of Heroes is the grand entrance causeway into Stormwind City, lined with towering statues honoring the heroes of the Second War who entered the Dark Portal."
+  },
+  {
+   "q": "Who was the 'Lord of Blackrock'?",
+   "aliases": [
+    "who is lord of blackrock",
+    "nefarian identity"
+   ],
+   "answer": "The Lord of Blackrock is Lord Victor Nefarius, the human guise assumed by the black dragon Nefarian, eldest son of Deathwing and ruler of the upper spires of Blackrock Mountain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Displaying Nefarian's head at the Valley of Heroes unites all the Alliance races, reminding citizens from Ironforge, Darnassus, and Gnomeregan that the dark forces plaguing the Eastern Kingdoms can be broken."
+  },
+  {
+   "target": "race:Human",
+   "text": "For the kingdom of Stormwind, defeating the master of Blackrock removes an existential draconic threat lurking right on their northern border."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "The massive martial inspiration provided by the Rallying Cry of the Dragonslayer invigorates fighters heading out to defend the realm."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "dragonslayer",
+  "jes-tereth",
+  "nefarian",
+  "rallying cry",
+  "stonebridge",
+  "stormwind",
+  "valley of heroes"
+ ],
+ "related": [
+  "npc:field-marshal-stonebridge",
+  "npc:grand-admiral-jes-tereth",
+  "subzone:valley-of-heroes",
+  "zone:stormwind",
+  "quest:7781",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "The Lord of Blackrock (Alliance 2)"
+ ]
+}

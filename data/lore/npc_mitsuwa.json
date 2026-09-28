@@ -1,0 +1,87 @@
+{
+ "key": "npc:mitsuwa",
+ "type": "npc",
+ "name": "Mitsuwa",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Mitsuwa",
+  "refs": 1
+ },
+ "summary": "Mitsuwa is a Darkspear troll stationed at Zoram'gar Outpost along the misty coast of Ashenvale. Deeply troubled by the ambush of his traveling kin, he enlists Horde champions to avenge the fallen and reclaim stolen spiritual talismans.",
+ "sections": [
+  {
+   "title": "Avenging the Fallen Kin",
+   "body": "Situated at the remote Zoram'gar Outpost on the strand of the Zoram Strand, Mitsuwa serves the Horde alongside his companion Marukai. When a group of traveling trolls bound for the encampment was ambushed and slaughtered by the aggressive Thistlefur furbolgs of northern Ashenvale, Mitsuwa took the loss as a grievous offense. Driven by duty and anger, he directs able-bodied warriors toward the Thistlefur dens to reclaim the stolen troll charms, ensuring the spirits of his kin are honored and their sacred possessions recovered from the beasts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mitsuwa?",
+   "aliases": [
+    "mitsuwa",
+    "who is mitsuwa",
+    "mitsuwa lore"
+   ],
+   "answer": "Mitsuwa is a Darkspear jungle troll residing at Zoram'gar Outpost in northwestern Ashenvale. He watches over the frontier post alongside his companion Marukai and coordinates retribution against hostile regional threats."
+  },
+  {
+   "q": "What happened to the trolls traveling to Zoram'gar?",
+   "aliases": [
+    "dead trolls ashenvale",
+    "thistlefur attack trolls"
+   ],
+   "answer": "A group of trolls journeying across Ashenvale to reinforce or visit Zoram'gar Outpost was ambushed and slaughtered by the native Thistlefur furbolgs, who stripped the fallen travelers of their personal possessions."
+  },
+  {
+   "q": "Why are the troll charms so important to Mitsuwa?",
+   "aliases": [
+    "why troll charms",
+    "troll charm quest reason"
+   ],
+   "answer": "The charms carry spiritual and cultural significance for the Darkspear tribe. Leaving sacred relics in the hands of the Thistlefur furbolgs after a brutal massacre is a profound dishonor to the spirits of the slain."
+  },
+  {
+   "q": "Where are the charms located?",
+   "aliases": [
+    "where are troll charms",
+    "thistlefur village location"
+   ],
+   "answer": "The charms were carried off by the Thistlefur furbolgs to their village and foul den, located in northern Ashenvale east of the Zoram Strand."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Mitsuwa's call to arms strikes a deeply personal chord for Darkspear adventurers, as recovering sacred ancestral charms from crude furbolg marauders restores peace to their murdered brothers and sisters."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Zoram'gar Outpost is an isolated and besieged garrison; aiding Mitsuwa strengthens the Horde's perilous presence against wild beasts and Alliance scouts on the western reaches of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "darkspear",
+  "furbolg",
+  "marukai",
+  "mitsuwa",
+  "thistlefur",
+  "troll",
+  "troll charm",
+  "zoram'gar"
+ ],
+ "related": [
+  "quest:6462",
+  "subzone:zoram-gar-outpost",
+  "npc:marukai",
+  "topic:furbolg",
+  "topic:troll",
+  "topic:horde",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Mitsuwa"
+ ]
+}

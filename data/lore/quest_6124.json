@@ -1,0 +1,124 @@
+{
+ "key": "quest:6124",
+ "type": "quest",
+ "name": "Curing the Sick",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   6124
+  ],
+  "level": "14",
+  "faction": "Alliance",
+  "start": "Alanndarian Nightsong",
+  "end": "Dendrite Starblaze",
+  "previous": "Gathering the Cure (Alliance)",
+  "next": "Power over Poison (Alliance)",
+  "wiki": "Curing the Sick (Alliance)",
+  "chain": []
+ },
+ "summary": "Curing the Sick is an essential trial for young Alliance druids, tasking them with using a prepared salve to heal the poisoned wildlife wandering Darkshore. By directly relieving the afflicted deer, initiates address the encroaching malaise troubling northern Kalimdor before reporting back to the Cenarion Circle in Moonglade.",
+ "sections": [
+  {
+   "title": "A Plague in the Woodlands",
+   "body": "Across the shadowed forests of Darkshore, from the waters of the Cliffspring River south to the borders of Ashenvale, the local wildlife suffers from a persistent sickness. Sickly deer wander aimlessly through the mist, weakened by unnatural toxins seeped into the soil and streams. Having gathered the necessary reagents, the herbalist Alanndarian Nightsong entrusts an aspiring druid with a freshly brewed curative animal salve to treat the afflicted creatures in the field.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eyes Unveiled in Moonglade",
+   "body": "Once ten deer have been treated, the initiate is sent to report to Dendrite Starblaze in the sacred haven of Moonglade. While Auberdine breathes a small sigh of relief, Dendrite views the sickly herds as a harbinger of a far more sinister corruption sweeping northern Kalimdor. He warns that while leaders in Darnassus debate and overlook the creeping rot, the Cenarion Circle must remain vigilant against the true scale of the ecological rot taking root across the continent.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the deer in Darkshore sick?",
+   "aliases": [
+    "why are deer sick",
+    "darkshore sickly deer",
+    "what poisoned the deer"
+   ],
+   "answer": "The deer are suffering from a spreading ecological corruption that has begun seeping into the waters and soil of Darkshore, stretching from the Cliffspring River all the way south to Ashenvale. As wild grazers, the deer inadvertently consume the tainted flora and river water, becoming weak and diseased."
+  },
+  {
+   "q": "Who prepares the curative salve used on the deer?",
+   "aliases": [
+    "who makes the cure",
+    "alanndarian salve",
+    "curative animal salve maker"
+   ],
+   "answer": "Alanndarian Nightsong, an herbalist stationed in the night elf town of Auberdine, crafts the Curative Animal Salve from rare reagents gathered by the druid initiate. Her batch provides ten doses to immediately treat suffering animals while she attempts to produce more with the townsfolk."
+  },
+  {
+   "q": "Why does Dendrite Starblaze care about the deer?",
+   "aliases": [
+    "why dendrite moonglade",
+    "cenarion circle interest in deer",
+    "dendrite starblaze role"
+   ],
+   "answer": "Dendrite Starblaze oversees druidic training on behalf of the Cenarion Circle in Moonglade. For him, tending to the wildlife is both a practical test of a druid's duty and a stark confirmation that a wider, dangerous corruption is overtaking Kalimdor's wilderness."
+  },
+  {
+   "q": "What political tension does Dendrite Starblaze hint at?",
+   "aliases": [
+    "darnassus tension",
+    "who ignores the corruption",
+    "darnassus blinders"
+   ],
+   "answer": "Upon completing the task, Dendrite notes that while some night elf authorities in Darnassus acknowledge the growing environmental rot, others stubbornly ignore the warning signs. He urges the initiate never to place blinders over the uncomfortable truths facing the natural world."
+  },
+  {
+   "q": "Where can the sickly deer be found?",
+   "aliases": [
+    "sickly deer location",
+    "where are the deer",
+    "darkshore deer location"
+   ],
+   "answer": "The sickly deer wander across almost the entirety of Darkshore. They can be found starting south of the Cliffspring River just north of Auberdine and roam throughout the coastal forests southward all the way to the border of Ashenvale."
+  },
+  {
+   "q": "What does a druid learn from completing this task?",
+   "aliases": [
+    "what does this teach druids",
+    "cure poison training druid",
+    "lesson of curing the sick"
+   ],
+   "answer": "The quest forms the practical culmination of druidic poison-cleansing studies. By witnessing the suffering of forest animals and applying a physical cure, the druid bridges the gap between botanical remedies and spiritual mastery over poison."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This rite of passage tests an initiate's commitment to preserving balance, serving as the bridge to earning the innate ability to purge poisons with druidic magic."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Darkshore represents the ancestral perimeter of modern night elf settlement, making the sudden blight among the deer an ominous omen for the kaldorei."
+  }
+ ],
+ "keywords": [
+  "alanndarian nightsong",
+  "auberdine",
+  "cenarion circle",
+  "cliffspring river",
+  "curative animal salve",
+  "curing the sick",
+  "darkshore",
+  "dendrite starblaze",
+  "poison",
+  "sickly deer"
+ ],
+ "related": [
+  "npc:alanndarian-nightsong",
+  "npc:dendrite-starblaze",
+  "quest:6125",
+  "zone:darkshore",
+  "subzone:auberdine",
+  "quest:5921",
+  "topic:cenarion-circle",
+  "topic:druid"
+ ],
+ "attribution": [
+  "Curing the Sick (Alliance)"
+ ]
+}

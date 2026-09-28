@@ -1,0 +1,126 @@
+{
+ "key": "quest:555",
+ "type": "quest",
+ "name": "Soothing Turtle Bisque",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   555
+  ],
+  "level": "31",
+  "faction": "Alliance",
+  "start": "Chef Jessen",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Soothing Turtle Bisque (Alliance)",
+  "chain": []
+ },
+ "summary": "Chef Jessen of Southshore prides himself on preparing the finest cuisine north of Stormwind, but recent unrest has cut off his supply of fresh snapjaw turtle meat. To restore his famous Soothing Turtle Bisque to the tavern menu, he asks culinary-minded travelers to brave the dangerous northern waters near Dalaran and Lake Lordamere.",
+ "sections": [
+  {
+   "title": "A Northern Delicacy",
+   "body": "Southshore remains one of the Alliance's last intact coastal towns in Lordaeron, clinging proudly to civilian life amidst mounting regional strife. Chef Jessen claims that his cooking rivals any tavern north of Stormwind, with patrons supposedly trekking from as far as Darkshire in Duskwood just for a taste of his specialty: Soothing Turtle Bisque. The rich, restorative soup depends entirely on fresh meat from the snapjaw turtles indigenous to the rivers and lakes of the northern mountains.",
+   "spoiler": 0
+  },
+  {
+   "title": "Peril on Lordamere",
+   "body": "In calmer years, Jessen gathered turtle meat himself by journeying up past the magical bubble of Dalaran to the eastern shores of Lordamere Lake. However, rising tensions, hostile wildlife, the Syndicate, and Forsaken incursions have made foraging outside town lethal for ordinary townsfolk. To keep his pot simmering and his patrons satisfied, the chef relies on armed adventurers willing to harvest meat from the snapjaws lurking along the riverbanks and northern shores.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who offers the quest for Soothing Turtle Bisque?",
+   "aliases": [
+    "who gives soothing turtle bisque",
+    "where do i start soothing turtle bisque",
+    "chef jessen quest"
+   ],
+   "answer": "Chef Jessen, the culinary master residing in the coastal Alliance town of Southshore in Hillsbrad Foothills, offers this request to visiting cooks."
+  },
+  {
+   "q": "Why does Chef Jessen need outside help gathering turtle meat?",
+   "aliases": [
+    "why cant jessen get meat",
+    "why does jessen need turtles"
+   ],
+   "answer": "Jessen used to hunt the snapjaw turtles himself near Dalaran and Lordamere Lake, but the region has become far too dangerous due to political unrest and predatory beasts, forcing him to hire adventurers."
+  },
+  {
+   "q": "Where are snapjaw turtles found in the region?",
+   "aliases": [
+    "turtle meat location",
+    "where are snapjaws",
+    "where to farm turtle meat"
+   ],
+   "answer": "Snapjaw turtles dwell along the freshwater river flowing between Hillsbrad Foothills and the Alterac Mountains, as well as along the shores of Lordamere Lake north of Dalaran."
+  },
+  {
+   "q": "Do you need to know Cooking to take this quest?",
+   "aliases": [
+    "is cooking required",
+    "cooking profession required",
+    "can anyone take soothing turtle bisque"
+   ],
+   "answer": "Yes. Chef Jessen only shares this request and his culinary secrets with travelers who have trained in the Cooking profession, though it requires no specific skill rank to accept."
+  },
+  {
+   "q": "Why is Southshore's cuisine famous?",
+   "aliases": [
+    "southshore food",
+    "why is jessen famous",
+    "darkshire travel for bisque"
+   ],
+   "answer": "Chef Jessen boasts that Southshore serves the finest cuisine north of Stormwind, and his renowned turtle bisque has supposedly drawn traveling diners from as far away as Darkshire."
+  },
+  {
+   "q": "What is the unrest Chef Jessen laments?",
+   "aliases": [
+    "hillsbrad unrest",
+    "why is it dangerous now",
+    "what unrest"
+   ],
+   "answer": "Hillsbrad and Alterac are caught in open conflict between the Forsaken from the north, Syndicate outlaws roaming the ruins, and wild predators displaced by the fall of Lordaeron, making civilian travel hazardous."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Chef Jessen shares his craft exclusively with fellow culinarians, rewarding you with the recipe to prepare your own batch of Soothing Turtle Bisque."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Restoring Southshore's comforts helps keep local morale high as the town stands isolated against hostile Syndicate outlaws and Forsaken expansion."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans visiting from the southern kingdoms, Jessen's cooking offers a rare taste of home and hospitality in the embattled north."
+  }
+ ],
+ "keywords": [
+  "chef jessen",
+  "cooking",
+  "dalaran",
+  "hillsbrad",
+  "lordamere lake",
+  "snapjaw",
+  "soothing turtle bisque",
+  "southshore",
+  "turtle meat"
+ ],
+ "related": [
+  "npc:chef-jessen",
+  "subzone:southshore",
+  "zone:hillsbrad",
+  "subzone:lordamere-lake",
+  "zone:alterac",
+  "subzone:dalaran",
+  "subzone:darkshire",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Soothing Turtle Bisque (Alliance)"
+ ]
+}

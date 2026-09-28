@@ -1,0 +1,132 @@
+{
+ "key": "quest:135",
+ "type": "quest",
+ "name": "The Defias Brotherhood",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "ids": [
+   135
+  ],
+  "level": "18",
+  "faction": "Alliance",
+  "start": "Gryan Stoutmantle",
+  "end": "Master Mathias Shaw",
+  "previous": "The Defias Brotherhood (2)",
+  "next": "The Defias Brotherhood (4)",
+  "wiki": "The Defias Brotherhood (3)",
+  "chain": []
+ },
+ "summary": "This quest marks a critical turning point in the Westfall campaign against the bandits plaguing the countryside. Gryan Stoutmantle sends you to Stormwind to deliver an intriguing note to Master Mathias Shaw, suspecting the Defias gang is connected to the old Stonemasons Guild.",
+ "sections": [
+  {
+   "title": "A Slip of the Tongue",
+   "body": "While investigating the chaos in Westfall, Gryan Stoutmantle notices a curious detail in Wiley's communications: a mention of the Stonemasons. The guild of builders that rebuilt Stormwind City after the First War has long been thought scattered or dissolved. If the Defias Brotherhood shares ties with them, this rural insurgency is far more than a disorganized mob of outlaws.",
+   "spoiler": 0
+  },
+  {
+   "title": "Old Town Secrets",
+   "body": "Stoutmantle cannot verify these suspicions from Sentinel Hill. For true kingdom intelligence, he directs you to Master Mathias Shaw, leader of Stormwind's covert intelligence wing, SI:7. Operating from the Barracks in Old Town, Shaw gathers whispers and secrets from across the realm, making him the only man capable of untangling the Defias origins.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadow Over the Crown",
+   "body": "When presented with Wiley's Note, Shaw recognizes the gravity of the situation immediately. He confirms that the rebellion in Westfall runs much deeper and carries far more political complexity than a simple peasant militia commander like Stoutmantle understands, pointing directly back to Stormwind's own turbulent past.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Gryan Stoutmantle send you to Stormwind?",
+   "aliases": [
+    "why go to stormwind",
+    "why stormwind quest",
+    "stoutmantle stormwind errand"
+   ],
+   "answer": "Stoutmantle discovers a reference to the Stonemasons in Wiley's note. Realizing this points to potential political intrigue rather than simple banditry, he sends you to Master Mathias Shaw, Stormwind's spymaster, to confirm the connection."
+  },
+  {
+   "q": "Who is Mathias Shaw?",
+   "aliases": [
+    "who is shaw",
+    "mathias shaw role",
+    "si7 leader"
+   ],
+   "answer": "Master Mathias Shaw is the head of SI:7, the covert intelligence and espionage branch of the Kingdom of Stormwind. He operates out of the headquarters tucked away in the Old Town Barracks."
+  },
+  {
+   "q": "Where do I find Mathias Shaw?",
+   "aliases": [
+    "where is shaw",
+    "shaw location",
+    "find mathias shaw"
+   ],
+   "answer": "Shaw is located on the second floor of the SI:7 headquarters in the Barracks of Old Town, Stormwind City."
+  },
+  {
+   "q": "What is the connection between the Defias and the Stonemasons?",
+   "aliases": [
+    "defias stonemasons",
+    "are defias stonemasons",
+    "stonemason connection"
+   ],
+   "answer": "The Stonemasons Guild rebuilt Stormwind after its destruction in the First War. After a bitter dispute over payment with the House of Nobles, the guild was cheated and exiled, subsequently reforming in secret as the Defias Brotherhood to exact revenge."
+  },
+  {
+   "q": "What is Wiley's Note?",
+   "aliases": [
+    "wileys note",
+    "what is the note",
+    "note to shaw"
+   ],
+   "answer": "It is a dispatch written by Wiley, an operative connected to the Westfall investigations, which inadvertently links the actions of the Defias Brotherhood to the former Stonemasons Guild."
+  },
+  {
+   "q": "Does Highlord Bolvar or the boy-king know about this?",
+   "aliases": [
+    "does the king know",
+    "does bolvar know",
+    "stormwind government knowledge"
+   ],
+   "answer": "Matters of covert state security are filtered through Mathias Shaw and SI:7 before reaching Highlord Bolvar Fordragon and the throne. Shaw's response reveals that the upper echelons of intelligence are already quietly tracking this crisis."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Visiting SI:7 headquarters brings you face-to-face with Mathias Shaw, the grandmaster of Stormwind's rogues and spies, grounding Westfall's local turmoil in grander tradecraft."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans of Stormwind, this mission bridges the lawless frontier of Westfall with the bitter, unresolved political scandals that followed the rebuilding of their capital."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The quest exposes internal fractures within the Alliance's primary kingdom, showing that not all threats come from monstrous outsiders, but from betrayed citizens."
+  }
+ ],
+ "keywords": [
+  "brotherhood",
+  "defias",
+  "gryan stoutmantle",
+  "mathias shaw",
+  "old town",
+  "si:7",
+  "stonemasons",
+  "westfall",
+  "wiley's note"
+ ],
+ "related": [
+  "npc:mathias-shaw",
+  "npc:gryan-stoutmantle",
+  "topic:defias-brotherhood",
+  "quest:65",
+  "subzone:old-town",
+  "zone:westfall",
+  "topic:stormwind-kingdom",
+  "quest:2300"
+ ],
+ "attribution": [
+  "The Defias Brotherhood (3)"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "key": "subzone:gallery-of-treasures",
+ "type": "subzone",
+ "name": "Gallery of Treasures",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Gallery of Treasures"
+ },
+ "summary": "The Gallery of Treasures is an ornate, heavily guarded corridor inside the Scarlet Monastery's halls, connecting the Footman's Armory to the Athenaeum. Lined with recovered paintings, relics, and illuminated texts, it showcases the wealth and Lordaeron heritage preserved by the Scarlet Crusade amidst their zealous war against the undead.",
+ "sections": [
+  {
+   "title": "A Repository of Lost Heritage",
+   "body": "Situated deep within the Library wing of the Scarlet Monastery, the Gallery of Treasures serves as a grand hall connecting the training grounds of the Footman's Armory to the sacred archives of the Athenaeum. Unlike the functional weapon racks of the armory, this corridor is lined with fine paintings, historical artifacts, and small chambers filled with books salvaged from across the fallen kingdom of Lordaeron. To the Scarlet Crusade, these relics represent the untainted legacy of humanity they have sworn to protect, fiercely guarded against all outsiders who dare intrude upon their sanctuary.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Gallery of Treasures located?",
+   "aliases": [
+    "gallery location",
+    "where is gallery of treasures",
+    "how to find gallery of treasures"
+   ],
+   "answer": "It is located inside the Library wing of the Scarlet Monastery. The gallery sits directly past the Footman's Armory and serves as the final decorated passageway before reaching the Athenaeum."
+  },
+  {
+   "q": "What is kept in the Gallery of Treasures?",
+   "aliases": [
+    "what is in gallery of treasures",
+    "gallery loot",
+    "gallery relics"
+   ],
+   "answer": "The gallery houses preserved artwork, historical relics, illuminated texts, and paintings salvaged from the ruined kingdom of Lordaeron, displayed along the corridor and in adjoining reading chambers."
+  },
+  {
+   "q": "Why does the Scarlet Crusade collect these treasures?",
+   "aliases": [
+    "why do scarlet have treasures",
+    "crusade relics purpose"
+   ],
+   "answer": "The Scarlet Crusade views itself as the true remnant of Lordaeron. Salvaging and hoarding these cultural works allows them to preserve the memory and sacred heritage of their homeland while purging the lands of what they see as taint."
+  },
+  {
+   "q": "Who guards the gallery?",
+   "aliases": [
+    "gallery mobs",
+    "who is in gallery of treasures"
+   ],
+   "answer": "The corridor is patrolled by various zealots of the Scarlet Crusade, including defenders and initiates who guard the path leading toward Arcanist Doan and the monastery's deeper archives."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The artifacts and banners lining this gallery reflect the lost glory of the Silver Hand and fallen Lordaeron, though now held by zealots who have turned righteous conviction into indiscriminate fanaticism."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The paintings and historical heirlooms preserved here belonged to the ancestors of the Forsaken, jealously guarded by living crusaders who seek to wipe out the former citizens of Lordaeron."
+  }
+ ],
+ "keywords": [
+  "athenaeum",
+  "gallery of treasures",
+  "library",
+  "lordaeron relics",
+  "paintings",
+  "scarlet halls",
+  "scarlet monastery"
+ ],
+ "related": [
+  "subzone:athenaeum-scarlet-monastery",
+  "subzone:footman-s-armory",
+  "subzone:scarlet-halls",
+  "zone:scarlet",
+  "topic:scarlet-crusade"
+ ],
+ "attribution": [
+  "Gallery of Treasures"
+ ]
+}

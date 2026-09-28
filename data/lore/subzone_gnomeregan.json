@@ -1,0 +1,92 @@
+{
+ "key": "subzone:gnomeregan",
+ "type": "subzone",
+ "name": "Gnomeregan",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Gnomeregan"
+ },
+ "summary": "Gnomeregan was the magnificent subterranean capital of the gnomish race, renowned across Azeroth for its mechanical brilliance and technological marvels. Today, it stands as a radioactive tomb, overrun by subterranean troggs, haywire defense automatons, and deranged leper gnomes after a desperate defense ended in catastrophe.",
+ "sections": [
+  {
+   "title": "A Wonder of Engineering",
+   "body": "Carved into the snowy crags of western Dun Morogh, Gnomeregan was built with the aid of the Ironforge dwarves centuries ago. Inside, massive steam-driven gears, intricate copper piping, and cavernous assembly halls formed the intellectual and industrial beating heart of gnomekind. It was from these subterranean halls that gnomish designs, flying machines, and complex armaments supplied the Alliance throughout the Second War, standing firm even when besieged by Orgrim Doomhammer's Horde.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Fall and the Poisoned Halls",
+   "body": "During the Third War, a subterranean surge of troggs erupted from deep beneath the earth, breaching the city's lowest chambers. Unwilling to divert Alliance armies from the slaughter in Lordaeron, High Tinker Gelbin Mekkatorque attempted to handle the crisis alone. On the advice of his chief engineer, Sicco Thermaplugg, Mekkatorque ordered radioactive gas vented through the lower chambers to wipe out the brutes. The plan backfired horrifyingly: the gas empowered many troggs while killing nearly eighty percent of the gnomish populace. Those exposed who did not perish mutated into twisted leper gnomes, while Thermaplugg seized rule over the poisoned ruins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Gnomeregan full of radiation?",
+   "aliases": [
+    "why is it radioactive",
+    "gnomeregan toxic gas",
+    "what poisoned gnomeregan"
+   ],
+   "answer": "When subterranean troggs overran the city, High Tinker Mekkatorque released radioactive gas into the lower vents on the advice of Sicco Thermaplugg. The desperate gambit was intended to eradicate the beasts, but instead it slaughtered thousands of gnomes, mutated the survivors into leper gnomes, and left the city permanently irradiated."
+  },
+  {
+   "q": "Where are all the surviving gnomes now?",
+   "aliases": [
+    "where do gnomes live",
+    "gnome refugees",
+    "where is mekkatorque"
+   ],
+   "answer": "The survivors escaped to the nearby dwarven city of Ironforge. King Magni Bronzebeard granted them asylum within the Tinkers' Court, where High Tinker Gelbin Mekkatorque now coordinates efforts to aid his scattered people and plan the reclaiming of their home."
+  },
+  {
+   "q": "Who controls Gnomeregan now?",
+   "aliases": [
+    "who is the boss of gnomeregan",
+    "gnomeregan leader",
+    "thermaplugg"
+   ],
+   "answer": "Sicco Thermaplugg, Mekkatorque's former chief advisor, declared himself King of Gnomeregan. Driven mad by toxic exposure and megalomania, he commands the city's rogue defense automatons, irradiated leper gnomes, and mutant troggs from deep within the core."
+  },
+  {
+   "q": "Why didn't the Alliance help save Gnomeregan during the invasion?",
+   "aliases": [
+    "why alliance no help",
+    "why didn't humans help gnomes",
+    "gnomes in third war"
+   ],
+   "answer": "Mekkatorque deliberately chose not to ask the Alliance for help. With humanity collapsing under the weight of the Scourge during the Third War, the gnomes kept their subterranean struggle secret so as not to siphon vital defenders away from Lordaeron."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Every gnome carries the trauma of Gnomeregan's loss. Entering the irradiated halls is a solemn pilgrimage to destroy the usurper Thermaplugg and recover lost mechanical heirlooms."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Even choked with radioactive poison, Gnomeregan is the greatest concentration of schematics, advanced spare parts, and functional industrial machinery in the Eastern Kingdoms."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "gnomeregan",
+  "leper gnome",
+  "mekkatorque",
+  "thermaplugg",
+  "tinkers court",
+  "trogg"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "npc:gelbin-mekkatorque",
+  "npc:sicco-thermaplugg",
+  "topic:leper-gnome",
+  "topic:trogg",
+  "subzone:tinkers-court",
+  "quest:412"
+ ],
+ "attribution": [
+  "Gnomeregan"
+ ]
+}

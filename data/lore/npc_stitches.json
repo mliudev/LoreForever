@@ -1,0 +1,94 @@
+{
+ "key": "npc:stitches",
+ "type": "npc",
+ "name": "Stitches",
+ "era": "classic",
+ "zone": "duskwood",
+ "meta": {
+  "wiki": "Stitches",
+  "refs": 0
+ },
+ "summary": "Stitches is a colossal, stitched-together undead abomination forged in secret within Duskwood. Created by the reclusive hermit Abercrombie as an act of vengeance, the monster is dispatched to march down the main thoroughfare and destroy the town of Darkshire.",
+ "sections": [
+  {
+   "title": "The Terror of the Main Road",
+   "body": "Stitches is an undead abomination assembled from harvested corpses and unholy sorcery. Appearing near Abercrombie's shack northeast of Raven Hill Cemetery, the lumbering monstrosity immediately sets out eastward along the road toward Darkshire. Imbued with immense physical strength and relentless malice, Stitches tears through any Night Watch checkpoints stationed along the thoroughfare\u2014including the defense camp across from Vul'Gol Ogre Mound and the outpost outside the Rotting Orchard\u2014bringing outright slaughter to unwary travelers and town defenders alike.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Embalmer's Twisted Revenge",
+   "body": "Stitches did not appear in Duskwood by mere chance; he was deliberately crafted as an instrument of retribution. Abercrombie, known to passersby only as a harmless hermit, harbored a deep grudge against Lord Ello Ebonlocke, the mayor of Darkshire. By relying on unsuspecting adventurers to collect occult reagents, tools, and materials under innocent guises, Abercrombie finalized his horrific creation. He sent Stitches as a mocking \"gift\" to Darkshire, intent on breaking the town's defenses and punishing Lord Ebonlocke.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who created Stitches?",
+   "aliases": [
+    "stitches creator",
+    "who made stitches",
+    "abercrombie stitches"
+   ],
+   "answer": "Stitches was created by Abercrombie, a hermit living northeast of Raven Hill Cemetery. Abercrombie disguised himself as a harmless recluse while secretly practicing necromancy and orchestrating the abomination's construction."
+  },
+  {
+   "q": "Why is Stitches marching toward Darkshire?",
+   "aliases": [
+    "why stitches darkshire",
+    "stitches attack goal",
+    "where is stitches walking"
+   ],
+   "answer": "Abercrombie dispatched Stitches as a lethal 'gift' to Mayor Lord Ello Ebonlocke to enact revenge on the leadership of Darkshire. The abomination follows the road directly toward the town hall to butcher the Night Watch and slaughter the townsfolk."
+  },
+  {
+   "q": "Can the Night Watch stop Stitches on their own?",
+   "aliases": [
+    "guards vs stitches",
+    "night watch beat stitches",
+    "can darkshire guards kill stitches"
+   ],
+   "answer": "No. Left alone, Stitches easily overwhelms and decimates the Night Watch checkpoints outside Vul'Gol Ogre Mound and the Rotting Orchard before reaching the gates of Darkshire. It requires concerted militia defense and traveling adventurers to bring him down."
+  },
+  {
+   "q": "Where does Stitches spawn?",
+   "aliases": [
+    "where does stitches spawn",
+    "stitches location",
+    "stitches start point"
+   ],
+   "answer": "Stitches spawns behind Abercrombie's shack, situated along the road northeast of Raven Hill Cemetery, before beginning his long, deadly march eastward across Duskwood."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Stitches poses a catastrophic threat to Darkshire's beleaguered citizens, turning the Duskwood high road into a deadly gauntlet for fresh Alliance recruits."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "As a grotesque product of necromancy and profane flesh-crafting, Stitches represents everything the Holy Light is called upon to purge."
+  }
+ ],
+ "keywords": [
+  "abercrombie",
+  "abomination",
+  "darkshire",
+  "ello ebonlocke",
+  "night watch",
+  "raven hill",
+  "stitches"
+ ],
+ "related": [
+  "npc:abercrombie",
+  "npc:lord-ello-ebonlocke",
+  "topic:night-watch",
+  "subzone:darkshire",
+  "zone:duskwood",
+  "quest:252",
+  "subzone:raven-hill-cemetery",
+  "subzone:rotting-orchard"
+ ],
+ "attribution": [
+  "Stitches"
+ ]
+}

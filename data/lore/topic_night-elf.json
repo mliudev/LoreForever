@@ -1,0 +1,127 @@
+{
+ "key": "topic:night-elf",
+ "type": "topic",
+ "name": "Night elf",
+ "era": "classic",
+ "zone": "general",
+ "meta": {
+  "wiki": "Night elf"
+ },
+ "summary": "The night elves, or kaldorei, are an ancient and reclusive race native to the forests of northern Kalimdor. Once the masters of a sprawling magical empire, they abandoned arcane magic following the catastrophic War of the Ancients and turned to the worship of Elune and the path of druidism. In the wake of the Third War, having sacrificed their immortality to stop the Burning Legion, they joined the Alliance to defend their ancestral lands from Horde encroachment.",
+ "sections": [
+  {
+   "title": "Children of the Stars",
+   "body": "Millennia ago, an inquisitive nocturnal tribe gathered around the shores of the Well of Eternity, a vast font of raw arcane energy. Over generations, the Well's cosmic magic transformed them into tall, violet-skinned, long-lived beings who called themselves the kaldorei\u2014'children of the stars.' Guiding their early society were the moon goddess Elune and the forest demigod Cenarius, who nurtured their deep connection to the living wilds of Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Empire and the Sundering",
+   "body": "As centuries passed, the ruling caste\u2014the Highborne, led by Queen Azshara\u2014became obsessed with unlocking the Well's infinite arcane secrets. Their reckless use of sorcery shattered the troll empires and built breathtaking wonders, but it ultimately caught the attention of the Burning Legion. The ensuing demonic invasion ended in the Great Sundering: the Well imploded, shattering ancient Kalimdor into fragmented continents and destroying Azshara's realm. Horrified by the calamity, the surviving kaldorei strictly outlawed arcane magic under penalty of death or exile.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Long Vigil and the New Age",
+   "body": "For ten thousand years, the night elves retreated into seclusion. Druids slumbered in the Emerald Dream to heal the world while the Priestesses of Elune and Sentinels stood guard over Kalimdor's woodlands beneath the World Tree Nordrassil. This isolation ended during the Third War when the Legion returned to attack Mount Hyjal. The kaldorei sacrificed their immortality to defeat Archimonde. Now, led by High Priestess Tyrande Whisperwind and Archdruid Malfurion Stormrage, the night elves dwell in their young World Tree, Teldrassil, and fight alongside the Alliance to safeguard Ashenvale.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does 'kaldorei' mean?",
+   "aliases": [
+    "kaldorei meaning",
+    "what is kaldorei",
+    "night elf native name"
+   ],
+   "answer": "In their native language of Darnassian, kaldorei translates to 'children of the stars.' It was the name adopted by the early night elves after settling around the Well of Eternity and dedicating themselves to the moon goddess Elune."
+  },
+  {
+   "q": "Where did the night elves originate?",
+   "aliases": [
+    "night elf origins",
+    "where do night elves come from",
+    "are elves evolved trolls"
+   ],
+   "answer": "Roughly fifteen thousand years ago, a reclusive tribe of dark trolls settled along the radiant banks of the Well of Eternity. Exposed to the lake's raw magical energies over generations, their bodies and minds transformed, turning them into the graceful, long-lived kaldorei."
+  },
+  {
+   "q": "Why don't night elves practice arcane magic?",
+   "aliases": [
+    "why no night elf mages",
+    "night elf arcane ban",
+    "why did night elves ban magic"
+   ],
+   "answer": "Ten thousand years ago, Queen Azshara and her Highborne sorcerers drew the demonic Burning Legion to Azeroth through their reckless manipulation of the Well of Eternity. The resulting war shattered the world during the Great Sundering. Afterwards, the night elves outlawed arcane practice to prevent demons from ever finding Azeroth again."
+  },
+  {
+   "q": "Are night elves still immortal?",
+   "aliases": [
+    "are night elves immortal",
+    "did night elves lose immortality",
+    "how long do night elves live"
+   ],
+   "answer": "No. The night elves gained their immortality and agelessness from the World Tree Nordrassil, which had been blessed by the Dragon Aspects. During the Battle of Mount Hyjal in the Third War, the kaldorei detonated Nordrassil's ancestral power to destroy the demon lord Archimonde, forfeiting their immortality in the process."
+  },
+  {
+   "q": "Where is the night elf capital located?",
+   "aliases": [
+    "night elf capital",
+    "where do night elves live",
+    "darnassus location"
+   ],
+   "answer": "The night elf capital is Darnassus, constructed atop the massive canopy of Teldrassil, a colossal World Tree planted off the northwest coast of Kalimdor following the Third War."
+  },
+  {
+   "q": "Why did the night elves join the Alliance?",
+   "aliases": [
+    "why are night elves alliance",
+    "night elf alliance allegiance",
+    "why join alliance"
+   ],
+   "answer": "After centuries of isolation, the kaldorei fought alongside humans and dwarves against the Burning Legion at Mount Hyjal. Following the war, the Horde began heavily logging Ashenvale's sacred forests for lumber, prompting the night elves to formalize an alliance with the Eastern Kingdoms to defend their borders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Your people carry the wisdom and burdens of ten millennia, navigating a perilous new reality where mortality is real, your ancestral forests are under siege, and ancient traditions are tested."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Troll history remembers the kaldorei as the sorcerous upstarts who shattered the great Amani and Gurubashi empires thousands of years ago, cementing an ancient, bitter rivalry."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's aggressive lumber operations in Ashenvale have made the fierce Sentinels and watchful druids of the kaldorei some of your most relentless and deadly adversaries on Kalimdor."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Night elf tradition shaped modern druidism under the demigod Cenarius, binding kaldorei guardians to the Emerald Dream and the defense of the natural balance."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "cenarius",
+  "darnassus",
+  "elune",
+  "kaldorei",
+  "night elf",
+  "nordrassil",
+  "sundering",
+  "teldrassil",
+  "well of eternity"
+ ],
+ "related": [
+  "zone:darnassus",
+  "topic:elune",
+  "topic:cenarius",
+  "topic:nordrassil",
+  "topic:highborne",
+  "zone:ashenvale",
+  "npc:tyrande-whisperwind",
+  "npc:malfurion-stormrage"
+ ],
+ "attribution": [
+  "Night elf"
+ ]
+}

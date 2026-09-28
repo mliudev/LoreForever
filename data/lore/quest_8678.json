@@ -1,0 +1,114 @@
+{
+ "key": "quest:8678",
+ "type": "quest",
+ "name": "Wheathoof the Elder",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   8678
+  ],
+  "level": "",
+  "faction": null,
+  "start": "",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Wheathoof the Elder",
+  "chain": []
+ },
+ "summary": "Wheathoof the Elder is an ancestral tauren spirit honored during the Lunar Festival atop the heights of Thunder Bluff. Visiting him is an act of deep reverence, acknowledging the wisdom of the ancestors who watch over Mulgore and the Horde.",
+ "sections": [
+  {
+   "title": "A Spirit of Mulgore",
+   "body": "Perched high on the windblown mesas of Thunder Bluff, Wheathoof the Elder manifests as an ancestral presence during the Lunar Festival. Tauren culture holds the voices of their ancestors in the highest regard, believing that the spirits of ancient leaders and sages linger to offer guidance and strength to the living.",
+   "spoiler": 0
+  },
+  {
+   "title": "Homage and Ancestral Blessing",
+   "body": "Travelers who climb the heights to pay their respects to Elder Wheathoof are greeted not as strangers, but as vital flames of life. In exchange for the traveler's homage, the elder bestows a Coin of Ancestry, symbolizing communion between the enduring past and the living champions fighting for the world's future.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Wheathoof the Elder?",
+   "aliases": [
+    "wheathoof",
+    "elder wheathoof",
+    "who is wheathoof"
+   ],
+   "answer": "He is an honored tauren ancestral spirit manifested atop the city of Thunder Bluff during the Lunar Festival to receive homage from champions across Azeroth."
+  },
+  {
+   "q": "Where can I find Wheathoof the Elder?",
+   "aliases": [
+    "where is elder wheathoof",
+    "wheathoof location",
+    "thunder bluff elder"
+   ],
+   "answer": "Elder Wheathoof resides in the tauren capital of Thunder Bluff, located on the sweeping central mesas overlooking the plains of Mulgore."
+  },
+  {
+   "q": "What is the purpose of visiting him?",
+   "aliases": [
+    "why visit wheathoof",
+    "wheathoof quest",
+    "lunar festival elder"
+   ],
+   "answer": "Visiting Elder Wheathoof allows players to honor the spirits of the past during the Lunar Festival, receiving his blessing and a Coin of Ancestry in return."
+  },
+  {
+   "q": "Can Alliance players visit Elder Wheathoof?",
+   "aliases": [
+    "can alliance talk to wheathoof",
+    "alliance thunder bluff elder"
+   ],
+   "answer": "While the spirit will bestow his blessing upon any respectful traveler, entering Thunder Bluff as an Alliance adventurer is extremely perilous due to the vigilant city guards and Horde defenders."
+  },
+  {
+   "q": "What is a Coin of Ancestry?",
+   "aliases": [
+    "coin of ancestry",
+    "lunar festival coin"
+   ],
+   "answer": "It is a ceremonial token granted by the ancient spirits during the Lunar Festival, symbolizing respect and communion between the living and the ancestors."
+  },
+  {
+   "q": "How do the tauren view their elders?",
+   "aliases": [
+    "tauren ancestor worship",
+    "tauren elders lore"
+   ],
+   "answer": "Tauren revere their ancestors as guardians and teachers whose spiritual presence remains woven into the land, offering continuous guidance to those attuned to the Earth Mother."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Honoring Elder Wheathoof is a sacred homecoming for tauren champions, reaffirming their eternal bond with the spirits watching over Mulgore."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Located at the heart of tauren power, this elder welcomes all allies of the Horde who ascend Thunder Bluff to pay homage."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "For a shaman, communing with an ancestral elder is a profound ritual of communion with the enduring spirit world."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "coin of ancestry",
+  "elder",
+  "lunar festival",
+  "mulgore",
+  "spirit",
+  "thunder bluff",
+  "wheathoof"
+ ],
+ "related": [],
+ "attribution": [
+  "Wheathoof the Elder"
+ ]
+}

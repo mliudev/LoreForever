@@ -1,0 +1,129 @@
+{
+ "key": "quest:1065",
+ "type": "quest",
+ "name": "Journey to Tarren Mill",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1065
+  ],
+  "level": "18",
+  "faction": "Horde",
+  "start": "Apothecary Zamah",
+  "end": "Apothecary Lydon",
+  "previous": "Forsaken Aid",
+  "next": "Blood of Innocents (quest)",
+  "wiki": "Journey to Tarren Mill",
+  "chain": []
+ },
+ "summary": "Seeking an unconventional solution to drive the Venture Company out of Stonetalon Mountains without excessive bloodshed, Apothecary Zamah in Thunder Bluff dispatches an emissary across the sea to Lordaeron. The quest sends Horde travelers to Tarren Mill in the Hillsbrad Foothills, where the Royal Apothecary Society maintains a sinister laboratory under Apothecary Lydon.",
+ "sections": [
+  {
+   "title": "A Plea Across the Great Sea",
+   "body": "In Thunder Bluff, Apothecary Zamah represents the tenuous alliance between the newly formed Forsaken and the Earth Mother's children. When the tauren find their sacred lands in the Stonetalon Mountains defiled by the ruthless logging and mining of the Venture Company, conventional approaches fall short. Zamah proposes a different tactic: an unconventional chemical deterrent crafted by her peers in the Royal Apothecary Society. Rather than waging an outright war of attrition, she turns toward specialized alchemical concoctions engineered across the Great Sea.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Road to Hillsbrad",
+   "body": "The journey demands crossing continents, directing Kalimdor adventurers aboard zeppelinsbound for the ruins of Lordaeron and the Undercity. From the blighted meadows of Tirisfal Glades, the trail cuts southward through the shadowy forests of Silverpine before opening into the contested Hillsbrad Foothills. There, perched near human farmsteads and ruins, lies Tarren Mill\u2014a former human hamlet now fortified as a northern stronghold for the Forsaken and an outpost for Royal Apothecary Society research.",
+   "spoiler": 0
+  },
+  {
+   "title": "Apothecary Lydon's Craft",
+   "body": "Apothecary Lydon operates out of Tarren Mill with an eye for volatile chemistry and biological agents, often testing questionable mixtures on living subjects. Upon receiving Zamah's note outlining the Venture Company dilemma, Lydon expresses gleeful enthusiasm. The Royal Apothecary Society relishes every opportunity to field-test its compounds in new environments, and Lydon waste no time preparing dark reagents to address the goblin infestation.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Apothecary Zamah send me all the way to Tarren Mill?",
+   "aliases": [
+    "why go to tarren mill",
+    "why send to lydon",
+    "journey to tarren mill purpose"
+   ],
+   "answer": "Apothecary Zamah needs a specialized concoction to dislodge the Venture Company from Stonetalon Mountains without open warfare. Her colleague in the Royal Apothecary Society, Apothecary Lydon, specializes in the necessary alchemical compounds and operates out of Tarren Mill in Lordaeron."
+  },
+  {
+   "q": "Where is Tarren Mill located?",
+   "aliases": [
+    "where is tarren mill",
+    "tarren mill location",
+    "how do i get to tarren mill"
+   ],
+   "answer": "Tarren Mill is located in the northern region of the Hillsbrad Foothills on the continent of Lordaeron. To get there from Kalimdor, take the zeppelin from Durotar to the Undercity in Tirisfal Glades, then travel south through Silverpine Forest and east into Hillsbrad."
+  },
+  {
+   "q": "Who are Apothecary Zamah and Apothecary Lydon?",
+   "aliases": [
+    "who is zamah",
+    "who is lydon",
+    "who are the apothecaries"
+   ],
+   "answer": "Both are members of the Forsaken Royal Apothecary Society. Zamah acts as an emissary stationed in Thunder Bluff's Pools of Vision, studying local flora and assisting the tauren, while Lydon conducts more ruthless alchemical and plague experiments in Tarren Mill."
+  },
+  {
+   "q": "Why are the Forsaken helping with the Venture Company in Stonetalon?",
+   "aliases": [
+    "why do forsaken care about stonetalon",
+    "undead helping tauren stonetalon"
+   ],
+   "answer": "The Forsaken joined the Horde largely out of survival and convenience, relying heavily on the tauren's advocacy to secure their place in the faction. Assisting the tauren against the Venture Company helps cement this political alliance and provides a testing ground for Forsaken alchemy."
+  },
+  {
+   "q": "What is the Royal Apothecary Society?",
+   "aliases": [
+    "what is the royal apothecary society",
+    "forsaken apothecaries lore"
+   ],
+   "answer": "The Royal Apothecary Society is an order of Forsaken alchemists and scientists based beneath the ruins of Lordaeron in the Undercity. Guided by Lady Sylvanas Windrunner's mandates, they constantly develop new elixirs, poisons, and blight strains to defend the Forsaken and eradicate their enemies."
+  },
+  {
+   "q": "What happens after delivering the note to Lydon?",
+   "aliases": [
+    "next quest after journey to tarren mill",
+    "what does lydon need"
+   ],
+   "answer": "Upon receiving Zamah's request, Apothecary Lydon immediately begins formulating a solution, requiring travelers to harvest grisly ingredients from the surrounding Hillsbrad farmlands to create a suitable mixture."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The desecration of Stonetalon cuts deep for the tauren, but accepting Forsaken chemical solutions reveals the uneasy compromises required to protect sacred lands."
+  },
+  {
+   "target": "race:Undead",
+   "text": "This journey represents the reach of the Royal Apothecary Society, demonstrating how Undercity's chemical expertise is projected across the sea to assist distant Horde allies."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The logistical connection between Thunder Bluff and Tarren Mill serves as an early rite of passage, connecting young Horde defenders to the broader cross-continental alliance."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "apothecary zamah",
+  "hillsbrad",
+  "journey to tarren mill",
+  "stonetalon",
+  "tarren mill",
+  "thunder bluff",
+  "undercity",
+  "venture company"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "zone:hillsbrad",
+  "quest:1064",
+  "quest:853",
+  "topic:venture-company",
+  "zone:undercity",
+  "zone:tirisfal",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Journey to Tarren Mill"
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "key": "npc:magni-bronzebeard",
+ "type": "npc",
+ "name": "Magni Bronzebeard",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "wiki": "Magni Bronzebeard",
+  "refs": 4
+ },
+ "summary": "Magni Bronzebeard is the Lord of Ironforge, Thane of the Bronzebeard clan, and ruler of Khaz Modan. A peerless smith and veteran commander of the Second War, he leads his mountainous kingdom through grief and political tension while championing dwarven archaeology across Azeroth.",
+ "sections": [
+  {
+   "title": "Lord of the Mountain",
+   "body": "The eldest of three brothers, Magni grew up keenly aware of the weight awaiting him under the mountain. When the Horde invaded during the Second War, he held Ironforge behind its impenetrable gates, emerging to pledge Khaz Modan to the Alliance of Lordaeron once the siege was broken. In the years of peace that followed, Magni welcomed his gnomish allies into the city after the fall of Gnomeregan, granting High Tinker Gelbin Mekkatorque and his refugees sanctuary within the mountain. To unite the fractured southern and northern kingdoms, Magni petitioned Mekkatorque to engineer an unprecedented subterranean marvel: the Deeprun Tram, connecting Ironforge directly to Stormwind.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Hammer of Vengeance",
+   "body": "Beneath Magni's regal bearing lies deep personal tragedy. During the Third War, word arrived from Northrend that Prince Arthas Menethil had betrayed and murdered Magni's beloved younger brother, Muradin. Overwhelmed by sorrow and wrath, Magni took up his hammer at the Great Anvil when High Inquisitor Fairbanks and Alexandros Mograine brought him a crystal of pure, radiant Light. Over three tireless days, the dwarven king poured all his grief, rage, and desire for vengeance into the metal. The resulting blade\u2014the Ashbringer\u2014stands as the greatest masterwork of his lifetime, forged to bring ruin to Arthas and the Scourge.",
+   "spoiler": 0
+  },
+  {
+   "title": "Excavating the Past",
+   "body": "Under Magni's decree, dwarven society has turned much of its focus away from traditional commercial mining toward the unearthing of ancient history. Spurred by discoveries of strange titan relics deep beneath the earth, Magni co-founded the Explorers' League alongside his surviving brother, Brann Bronzebeard. Dwarven dig sites now dot the continents, from Dun Morogh to Kalimdor, striving to unlock the mystery of how the earthen became the modern dwarf. However, domestic peace remains fragile: Magni's daughter, Princess Moira, has gone missing, believed kidnapped by the hated Dark Iron clan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Magni Bronzebeard?",
+   "aliases": [
+    "king of ironforge",
+    "dwarf king",
+    "who is magni"
+   ],
+   "answer": "Magni Bronzebeard is the King of Khaz Modan, Thane of Ironforge, and chieftain of the Bronzebeard clan. He rules the mountain kingdom from the High Seat in Ironforge and is one of the staunch pillars of the Grand Alliance."
+  },
+  {
+   "q": "Who forged the Ashbringer?",
+   "aliases": [
+    "did magni make ashbringer",
+    "ashbringer creator",
+    "who made the ashbringer"
+   ],
+   "answer": "King Magni forged the legendary sword himself at the Great Anvil in Ironforge. Alexandros Mograine and High Inquisitor Fairbanks brought him an enigmatic crystal of living Light, and Magni poured his grief and fury over Muradin's reported death into the blade over three days of nonstop smithing."
+  },
+  {
+   "q": "What happened to Magni's brothers?",
+   "aliases": [
+    "muradin and brann",
+    "magni brothers",
+    "muradin bronzebeard fate"
+   ],
+   "answer": "Magni is the eldest of three brothers. His brother Muradin served as an Alliance ambassador to Lordaeron and was reported killed by Prince Arthas in Northrend. His youngest brother, Brann, is a renowned explorer who travels the far corners of the world leading the Explorers' League."
+  },
+  {
+   "q": "Where is Princess Moira?",
+   "aliases": [
+    "magni daughter",
+    "where is moira",
+    "what happened to moira bronzebeard"
+   ],
+   "answer": "Princess Moira Bronzebeard, Magni's only child, has disappeared from Ironforge. Official reports within the mountain hold that she was abducted by the antagonistic Dark Iron dwarves and is being held captive deep within Blackrock Mountain."
+  },
+  {
+   "q": "Why are gnomes living in Ironforge?",
+   "aliases": [
+    "tinker town",
+    "why are gnomes in the dwarf city",
+    "gnome refugees ironforge"
+   ],
+   "answer": "Following the horrific irradiation of Gnomeregan by troggs, King Magni opened Ironforge's gates to High Tinker Gelbin Mekkatorque and the gnomish survivors. Magni granted them an entire district of the city, now known as Tinker Town."
+  },
+  {
+   "q": "What is the Explorers' League?",
+   "aliases": [
+    "explorers guild",
+    "dwarf archaeologists",
+    "why are dwarves digging"
+   ],
+   "answer": "The Explorers' League is an archaeological organization founded by King Magni and his brother Brann. After discovering ancient titan ruins, Magni directed dwarven industries toward uncovering the truth behind their race's origins, sending survey teams across Azeroth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Magni is your undisputed sovereign and the protector of Khaz Modan, leading the Bronzebeard clan through external wars and the internal search for your race's earthen heritage."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "King Magni offered his city as a refuge to the survivors of Gnomeregan, maintaining a close friendship and technological alliance with High Tinker Mekkatorque."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "A stalwart founder of the Grand Alliance alongside Lordaeron and Stormwind, Magni provides martial strength, engineering prowess, and steadfast loyalty to the coalition."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Magni is considered one of the greatest living smiths on Azeroth, having shaped the fabled Ashbringer from an otherworldly crystal at Ironforge's Great Anvil."
+  }
+ ],
+ "keywords": [
+  "ashbringer",
+  "brann",
+  "bronzebeard",
+  "explorers league",
+  "ironforge",
+  "khaz modan",
+  "magni",
+  "moira",
+  "muradin"
+ ],
+ "related": [
+  "zone:ironforge",
+  "topic:bronzebeard-clan",
+  "topic:dwarf",
+  "npc:gelbin-mekkatorque",
+  "topic:explorers-league",
+  "subzone:deeprun-tram",
+  "topic:arthas-menethil",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Magni Bronzebeard"
+ ]
+}

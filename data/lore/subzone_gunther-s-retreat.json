@@ -1,0 +1,86 @@
+{
+ "key": "subzone:gunther-s-retreat",
+ "type": "subzone",
+ "name": "Gunther's Retreat",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Gunther's Retreat"
+ },
+ "summary": "Gunther's Retreat is an isolated island sanctuary set in Brightwater Lake in central Tirisfal Glades. It serves as the refuge of Gunther Arcanus, a renegade necromancer who broke free from the Scourge through raw willpower. Distrustful of all outsiders, the recluse surrounds his campsite with loyal undead minions to keep intruders away.",
+ "sections": [
+  {
+   "title": "A Recluse in Brightwater Lake",
+   "body": "Situated amid the misty waters of Brightwater Lake, Gunther's Retreat is an unassuming island encampment easily mistaken for another pocket of the Scourge. Its master, Gunther Arcanus, achieved what few mortal sorcerers could: when raised in undeath, his arcane mastery allowed him to tear away his soul from the Lich King's iron grip without any outside help. Mistrusting everyone, Gunther assumed the rest of the undead wandering Lordaeron were still puppets of the Scourge. He retired to this lonely isle to practice his craft in peace, posting zombie sentinels to tear apart anyone who crosses the water.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lives at Gunther's Retreat?",
+   "aliases": [
+    "gunther island",
+    "who is on the island",
+    "gunther's retreat master"
+   ],
+   "answer": "The island is inhabited by Gunther Arcanus, a powerful necromancer who broke free of the Lich King's control under his own power. He resides there alongside a retinue of undead thralls who guard his camp."
+  },
+  {
+   "q": "Why are the undead on the island hostile?",
+   "aliases": [
+    "why does gunther attack",
+    "why hostile",
+    "is gunther scourge"
+   ],
+   "answer": "Gunther Arcanus believes that every other undead being in Tirisfal is still enslaved by the Scourge. Because he values his independence above all else, his minions are commanded to attack anyone who approaches the island on sight."
+  },
+  {
+   "q": "Is Gunther aligned with the Forsaken?",
+   "aliases": [
+    "is gunther in the horde",
+    "gunther forsaken",
+    "gunther undercity"
+   ],
+   "answer": "Initially, no. While technically a free-willed undead like the Forsaken, Gunther isolates himself entirely. The authorities in the Undercity seek to prove to him that they too are free of the Lich King's grasp and recruit his talents to their cause."
+  },
+  {
+   "q": "What is the small islet southwest of the retreat?",
+   "aliases": [
+    "lillith dinner table",
+    "small island near gunther",
+    "table island"
+   ],
+   "answer": "Just off the southwestern edge of Gunther's Retreat lies a tiny, unnamed islet known as Lillith's Dinner Table, a curious and eerie landmark resting quietly in the waters of Brightwater Lake."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Gunther Arcanus mirrors the Forsaken's own tragedy: free from the Lich King, yet suspicious and guarded against a world he assumes remains in thrall to the Scourge."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Arcanists will appreciate Gunther's rare feat; his magical will was formidable enough to sever the Lich King's mental grip entirely unassisted."
+  }
+ ],
+ "keywords": [
+  "brightwater lake",
+  "gunther arcanus",
+  "gunther's retreat",
+  "lich",
+  "lillith's dinner table",
+  "tirisfal glades",
+  "undead"
+ ],
+ "related": [
+  "npc:gunther-arcanus",
+  "subzone:brightwater-lake",
+  "quest:357",
+  "zone:tirisfal",
+  "topic:forsaken",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Gunther's Retreat"
+ ]
+}

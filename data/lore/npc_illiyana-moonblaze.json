@@ -1,0 +1,116 @@
+{
+ "key": "npc:illiyana-moonblaze",
+ "type": "npc",
+ "name": "Illiyana Moonblaze",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Illiyana Moonblaze",
+  "refs": 3
+ },
+ "summary": "Illiyana Moonblaze is an unconventional night elf scout and quartermaster stationed at Silverwing Grove in Ashenvale. Operating alongside the Silverwing Sentinels, she supplies Alliance champions waging war against the Warsong Outriders. Despite her formal officer standing, her sharp instincts and roguish demeanor set her apart from traditional kaldorei military ranks.",
+ "sections": [
+  {
+   "title": "A Scout Outside the Ranks",
+   "body": "Illiyana Moonblaze serves as the primary supply officer for the Silverwing Sentinels nestled in Silverwing Grove. Yet, one look reveals she is far from an ordinary sentinel. Wielding twin blades and donning dark corsetry, she carries the swagger of a rogue or a buccaneer rather than the disciplined poise of Elune's faithful warriors. Traditional sentinel hierarchy has historically viewed those of her trade with wariness, likening them almost to lawless rogues. Nevertheless, her unmatched cunning and talent for tracking make her invaluable in the contested woodlands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Supplies for the Front Lines",
+   "body": "Beyond her unconventional scouting duties, Illiyana equips Alliance volunteers preparing to clash with the Warsong clan in Warsong Gulch. As champions earn favor with the Silverwing Sentinels, she rewards their service with custom rations, specialized draugths, and masterwork armaments designed specifically for woodland skirmishes. She also maintains weapons and armor for weary fighters returning from the frontline, keeping the Sentinels' war effort supplied and functional.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Illiyana Moonblaze?",
+   "aliases": [
+    "illiyana moonblaze location",
+    "where is illiyana",
+    "silverwing quartermaster location"
+   ],
+   "answer": "She is located at Silverwing Grove in southeastern Ashenvale, near the staging grounds and portal leading into Warsong Gulch."
+  },
+  {
+   "q": "Is Illiyana Moonblaze a member of the Sentinels?",
+   "aliases": [
+    "is illiyana a sentinel",
+    "illiyana rank",
+    "illiyana faction"
+   ],
+   "answer": "Technically, she holds officer standing to coordinate logistics, but she is not a traditional Sentinel. Her background aligns with kaldorei scouts and rogues\u2014a calling that conventional Sentinel society historically treated with suspicion."
+  },
+  {
+   "q": "What does Illiyana offer to Alliance champions?",
+   "aliases": [
+    "what does illiyana sell",
+    "warsong gulch rewards ashenvale",
+    "illiyana vendor"
+   ],
+   "answer": "She acts as the Silverwing Sentinels' quartermaster, offering care packages, battlefield armaments, rings, tabards, and consumables tailored for the struggle in Warsong Gulch to those who gain reputation with the faction."
+  },
+  {
+   "q": "Why does she look and act like a rogue?",
+   "aliases": [
+    "illiyana rogue lore",
+    "why is she dressed like a pirate",
+    "illiyana pirate"
+   ],
+   "answer": "Her skills rely on stealth, cunning, and lethal tracking rather than priestly devotion or martial sentinel discipline. While night elf society often viewed such roguish paths as dishonorable or akin to piracy, her practical wilderness survival skills prove vital in desperate times."
+  },
+  {
+   "q": "Does she provide equipment repairs?",
+   "aliases": [
+    "can illiyana repair",
+    "silverwing repair vendor",
+    "repair in silverwing grove"
+   ],
+   "answer": "Yes, alongside supplying specialized military gear, she offers standard weapon and armor repair services to Alliance defenders resting at the grove."
+  },
+  {
+   "q": "What care packages does she hand out?",
+   "aliases": [
+    "sentinel care package",
+    "illiyana quests",
+    "warsong gulch packages"
+   ],
+   "answer": "She assists Alliance fighters through logistical quests involving Sentinel Basic, Standard, and Advanced Care Packages, supplying frontline defenders with essential battlefield provisions."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Illiyana represents a rare sight among the kaldorei: a seasoned shadow-walker and tracker working openly alongside regular military forces despite traditional societal disdain."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance fighters marching south into the contested border of Warsong Gulch, Illiyana is the primary quartermaster supplying weapons, armor, and rations."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Her roguish presence offers a stark contrast to typical Priestesses and Sentinels, showing how kaldorei scouts adapt independent methods to safeguard Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "care package",
+  "illiyana moonblaze",
+  "rogue",
+  "sentinel",
+  "silverwing grove",
+  "warsong gulch"
+ ],
+ "related": [
+  "subzone:silverwing-grove",
+  "subzone:silverwing-outpost",
+  "zone:ashenvale",
+  "topic:sentinels",
+  "quest:7863",
+  "quest:7864",
+  "quest:7865",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Illiyana Moonblaze"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "key": "npc:gordon-wendham",
+ "type": "npc",
+ "name": "Gordon Wendham",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Gordon Wendham",
+  "refs": 2
+ },
+ "summary": "Gordon Wendham is a Forsaken weaponsmith and merchant operating out of the bustling Trade Quarter in the Undercity. He equips newly arrived champions and local defenders of the Dark Lady with reliable steel, blades, and bludgeons. Beyond hawking basic armaments, he frequently serves as a local point of contact for couriers arriving from the surface.",
+ "sections": [
+  {
+   "title": "Armaments of the Trade Quarter",
+   "body": "Situated amidst the damp stonework and chemical canals of the Undercity's Trade Quarter, Gordon Wendham provides essential weaponry to those taking up arms for the Forsaken. From basic daggers and hand axes to sturdy broadswords and maces, his stock caters to fledgling fighters who need dependable iron before venturing out into the contested reaches of Lordaeron.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Courier's Destination",
+   "body": "Beyond his merchant trade, Wendham is integrated into the capital's busy logistics network. Travelers sent on errands from flight masters and couriers\u2014such as those connecting from the bat handlers atop the ruins\u2014are often directed straight to his stall. His central location in the Trade Quarter makes him an accessible and recognizable fixture for coordinating basic supplies and dispatches throughout the underground city.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gordon Wendham?",
+   "aliases": [
+    "gordon wendham lore",
+    "who is wendham",
+    "undercity gordon"
+   ],
+   "answer": "Gordon Wendham is an undead merchant stationed in the Trade Quarter of the Undercity. He sells standard martial weapons and serves as a contact for couriers arriving in the capital."
+  },
+  {
+   "q": "Where is Gordon Wendham located?",
+   "aliases": [
+    "gordon wendham location",
+    "where is gordon undercity",
+    "trade quarter weapon vendor"
+   ],
+   "answer": "You can find him tending his weapon stall in the Trade Quarter, the commercial ring situated within the subterranean halls of the Undercity."
+  },
+  {
+   "q": "What does he sell?",
+   "aliases": [
+    "wendham wares",
+    "what does gordon sell",
+    "gordon wendham weapons"
+   ],
+   "answer": "He offers a wide array of basic, standard-grade weapons, including swords, daggers, maces, staves, axes, and various thrown armaments suited for leveling adventurers."
+  },
+  {
+   "q": "What quests involve him?",
+   "aliases": [
+    "gordon wendham quests",
+    "ride to the undercity",
+    "michael garrett quest"
+   ],
+   "answer": "He is tied into introductory delivery runs connecting the surface bat roosts to the undercity interior, including deliveries between himself and bat handler Michael Garrett."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For newly liberated Forsaken leaving Deathknell, merchants like Gordon Wendham in the Trade Quarter represent the practical backbone of their nascent nation's war effort."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Gordon offers dependable basic blades and blunt instruments for frontline fighters looking to practice their weapon proficiencies in the capital."
+  }
+ ],
+ "keywords": [
+  "forsaken",
+  "gordon wendham",
+  "michael garrett",
+  "trade quarter",
+  "undercity",
+  "weapon vendor"
+ ],
+ "related": [
+  "subzone:trade-quarter",
+  "zone:undercity",
+  "quest:6323",
+  "quest:6322",
+  "topic:forsaken",
+  "zone:ruinsoflordaeron",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Gordon Wendham"
+ ]
+}

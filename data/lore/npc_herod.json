@@ -1,0 +1,114 @@
+{
+ "key": "npc:herod",
+ "type": "npc",
+ "name": "Herod",
+ "era": "classic",
+ "zone": "scarlet",
+ "meta": {
+  "wiki": "Herod",
+  "refs": 5
+ },
+ "summary": "Herod is a renowned champion and berserker of the Scarlet Crusade, commanding the Armory within the Scarlet Monastery. Known for his ferocious martial prowess and unyielding zeal, he trains recruits in the brutal melee combat needed to wage holy war. His death is sought by both Alliance dissidents and the Horde's rulers in Undercity to weaken the Crusade's military core.",
+ "sections": [
+  {
+   "title": "The Champion of the Armory",
+   "body": "Within the fortified halls of the Scarlet Monastery's Armory, Herod stands as the embodiment of the Crusade's martial aggression. Unlike the spellcasters and paladins who channel holy magic in the Cathedral, Herod relies on raw, bloodthirsty physical power. Clad in mail and wielding a massive two-handed axe, he personally trains cohorts of Scarlet Trainees, instilling a furious devotion to exterminating anyone not allied with their fanatical cause.",
+   "spoiler": 0
+  },
+  {
+   "title": "A High-Priority Target",
+   "body": "Because Herod oversees the armaments and martial training of the Crusade's front-line warriors, taking him down is essential for anyone seeking to dismantle the order. Raleigh the Devout, an ex-Crusader disillusioned with the order's madness residing in Southshore, calls for Herod's demise to shatter their military leadership. Across Lordaeron, the dreadlord Varimathras in the Undercity similarly seeks his execution to clear out a dangerous human bastion bordering Forsaken territory.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Herod?",
+   "aliases": [
+    "herod lore",
+    "who is herod",
+    "herod scarlet monastery"
+   ],
+   "answer": "Herod is an elite human warrior and commander of the Armory in the Scarlet Monastery. He serves as one of the four principal leaders of the Monastery, responsible for outfitting and drilling the Crusade's zealous melee fighters."
+  },
+  {
+   "q": "Where is Herod located?",
+   "aliases": [
+    "where is herod",
+    "herod location",
+    "find herod"
+   ],
+   "answer": "Herod can be found at the heart of the Armory wing in the Scarlet Monastery, situated in northeastern Tirisfal Glades. He awaits challengers in a central training ring surrounded by viewing galleries."
+  },
+  {
+   "q": "Why does the Horde want Herod dead?",
+   "aliases": [
+    "varimathras herod quest",
+    "why horde kill herod",
+    "into the scarlet monastery"
+   ],
+   "answer": "The dreadlord Varimathras, acting on behalf of the Forsaken in the Undercity, seeks the elimination of the Monastery's key commanders\u2014including Herod\u2014to eradicate the Crusade's lingering threat right on the Forsaken capital's doorstep."
+  },
+  {
+   "q": "Why does the Alliance want Herod dead?",
+   "aliases": [
+    "in the name of the light",
+    "raleigh the devout herod",
+    "why alliance kill herod"
+   ],
+   "answer": "Raleigh the Devout, a former member of the Scarlet Crusade stationed in Hillsbrad Foothills, recognizes that the order has descended into fanatical zealotry. He asks Alliance champions to purge Herod to strip the Crusade of its brutal warrior leadership."
+  },
+  {
+   "q": "What happens when Herod is defeated?",
+   "aliases": [
+    "scarlet trainees",
+    "herod trainee rush",
+    "herod death event"
+   ],
+   "answer": "Upon Herod's defeat, a mob of young Scarlet Trainees surges out from the surrounding barracks into the ring to avenge their master, illustrating the sheer depth of devotion he fostered in his students."
+  },
+  {
+   "q": "What kind of fighter is Herod?",
+   "aliases": [
+    "herod fighting style",
+    "is herod a paladin"
+   ],
+   "answer": "Herod is a berserker and warrior rather than a traditional holy paladin. He uses vicious charges and sweeping whirlwind strikes to pulverize foes, relying on sheer physical frenzy over spells of the Holy Light."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Herod is a prime example of an enraged warrior whose furious whirlwind strikes and reckless aggression make him a feared martial paragon among the Scarlet Crusade's recruits."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde and the Forsaken in particular, eliminating Herod directly fulfills Varimathras's orders to break the leadership threatening the borders of Tirisfal Glades."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance heroes who answer Raleigh the Devout's plea can witness firsthand how the once-noble defenders of Lordaeron have fallen into deranged, fanatical bloodlust under leaders like Herod."
+  }
+ ],
+ "keywords": [
+  "armory",
+  "berserker",
+  "herod",
+  "raleigh the devout",
+  "ravager",
+  "scarlet crusade",
+  "scarlet monastery",
+  "varimathras"
+ ],
+ "related": [
+  "zone:scarlet",
+  "topic:scarlet-crusade",
+  "npc:varimathras",
+  "zone:hillsbrad",
+  "zone:undercity",
+  "topic:light"
+ ],
+ "attribution": [
+  "Herod"
+ ]
+}

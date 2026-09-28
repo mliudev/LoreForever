@@ -1,0 +1,75 @@
+{
+ "key": "npc:lieutenant-nevell",
+ "type": "npc",
+ "name": "Lieutenant Nevell",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Lieutenant Nevell",
+  "refs": 1
+ },
+ "summary": "Lieutenant Nevell is an officer of the Argent Dawn stationed outside the gates of Ironforge in Dun Morogh. Serving as a bulwark against the spreading darkness of the Scourge, he coordinates local defenders and alerts arriving adventurers to undead threats probing the dwarf kingdom's borders.",
+ "sections": [
+  {
+   "title": "A Watch in the Snow",
+   "body": "While the Argent Dawn is most renowned for holding the line in the shattered Plaguelands of Lordaeron, its vigilance reaches far into the south. Stationed in the freezing winds outside Ironforge, Lieutenant Nevell represents the order's proactive defense against necromantic incursions. When Scourge activity stirs in the mountain passes of Dun Morogh, Nevell directs recruits and capable adventurers toward the front lines to ensure Ironforge's snowy doorstep remains secure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lieutenant Nevell?",
+   "aliases": [
+    "nevell role",
+    "who is nevell",
+    "lieutenant nevell"
+   ],
+   "answer": "Lieutenant Nevell is an officer of the Argent Dawn stationed near Ironforge in Dun Morogh. His mission is to rally local defenders and investigate signs of Scourge presence encroaching upon the dwarven realm."
+  },
+  {
+   "q": "Why is the Argent Dawn outside Ironforge?",
+   "aliases": [
+    "argent dawn in dun morogh",
+    "argent dawn ironforge"
+   ],
+   "answer": "Though based primarily in Lordaeron, the Argent Dawn monitors the entire continent for undead incursions. If the Lich King attempts to strike deep into allied territories like Dun Morogh, officers like Nevell are dispatched to coordinate city defenses and scout enemy movements."
+  },
+  {
+   "q": "What does Lieutenant Nevell ask adventurers to do?",
+   "aliases": [
+    "nevell quests",
+    "investigate the scourge"
+   ],
+   "answer": "Nevell charges capable heroes with venturing beyond Ironforge's gates to scout and beat back nearby Scourge forces, neutralizing the undead threat before it can establish a foothold in the mountain passes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarves appreciate the Argent Dawn's watchful eye outside their mountain home, knowing that vigilance against necromancy is needed even on the cold slopes of Dun Morogh."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance champions heading into Ironforge, Nevell stands as a reminder that the war against the Scourge is not confined to the north."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "dun morogh",
+  "ironforge",
+  "lieutenant nevell",
+  "nevell",
+  "scourge"
+ ],
+ "related": [
+  "quest:9261",
+  "topic:argent-dawn",
+  "zone:ironforge",
+  "zone:dunmorogh",
+  "topic:scourge",
+  "npc:lieutenant-orrin"
+ ],
+ "attribution": [
+  "Lieutenant Nevell"
+ ]
+}

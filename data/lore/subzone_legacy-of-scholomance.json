@@ -1,0 +1,82 @@
+{
+ "key": "subzone:legacy-of-scholomance",
+ "type": "subzone",
+ "name": "Legacy of Scholomance",
+ "era": "classic",
+ "zone": "westernplaguelands",
+ "meta": {
+  "wiki": "Legacy of Scholomance"
+ },
+ "summary": "The Legacy of Scholomance encompasses the labyrinthine, crypt-like halls of the Scourge's premier necromantic academy beneath the ruined fortress of Caer Darrow. Here, mortal acolytes and undead monstrosities study under the gaze of Darkmaster Gandling and the lich Ras Frostwhisper, perfecting the arts of plaguecraft, resurrection, and shadow.",
+ "sections": [
+  {
+   "title": "The School of Necromancy",
+   "body": "Carved into the deep cellars and ancestral crypts of the Barov family beneath Caer Darrow, Scholomance functions as an underground academy for the Cult of the Damned. The complex sprawls across multiple subterranean vaults, from the ossuaries and dissection chambers of Doctor Theolen Krastinov to the Headmaster's Study. Mortals eager to embrace undeath train alongside animated skeletons, ghouls, and conjured monstrosities, all learning to wield shadow magic and refine the deadly plagues unleashed across Lordaeron.",
+   "spoiler": 0
+  },
+  {
+   "title": "Halls of the Damned",
+   "body": "The school is overseen by Darkmaster Gandling, who serves the Lich King by preparing new generations of necromancers. Deep within its chambers, the herald Kirtonos is fed blood upon unholy braziers, while the lich Ras Frostwhisper commands dark rituals in the lower laboratories. Those who delve into the academy must brave sprawling chambers like the Great Ossuary and the Viewing Room, confronting not just mindless undead but calculated practitioners of dark sorcery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Legacy of Scholomance?",
+   "aliases": [
+    "what is legacy of scholomance",
+    "what is scholomance",
+    "scholomance lore"
+   ],
+   "answer": "It is the sprawling network of crypts beneath Caer Darrow serving as the Scourge's primary school of necromancy. Within its halls, mortal cultists learn dark magic, necromancy, and plague distillation from high-ranking Scourge masters."
+  },
+  {
+   "q": "Who rules over Scholomance?",
+   "aliases": [
+    "who leads scholomance",
+    "headmaster of scholomance",
+    "who is in charge"
+   ],
+   "answer": "Darkmaster Gandling presides as the headmaster of the academy, directing its curriculum of undeath. He shares authority with the ancient lich Ras Frostwhisper, who oversees many of the lower laboratories."
+  },
+  {
+   "q": "Where is it located?",
+   "aliases": [
+    "where is scholomance",
+    "how to find scholomance",
+    "scholomance location"
+   ],
+   "answer": "Scholomance is hidden beneath the island keep of Caer Darrow in Darrowmere Lake, situated in the southern reaches of the Western Plaguelands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Scholomance represents a perversion of Kirin Tor teachings, where arcane scholars turned from Dalaran's traditions to embrace dark plagues and necromantic rites."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The Forsaken view the school with bitter hatred, as many of its instructors and torturers directly contributed to Lordaeron's fall and their own demise."
+  }
+ ],
+ "keywords": [
+  "caer darrow",
+  "cult of the damned",
+  "frostwhisper",
+  "gandling",
+  "krastinov",
+  "ossuary",
+  "scholomance",
+  "scourge"
+ ],
+ "related": [
+  "subzone:scholomance",
+  "npc:darkmaster-gandling",
+  "subzone:caer-darrow",
+  "quest:1066",
+  "zone:westernplaguelands"
+ ],
+ "attribution": [
+  "Legacy of Scholomance"
+ ]
+}

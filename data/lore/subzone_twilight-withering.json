@@ -1,0 +1,91 @@
+{
+ "key": "subzone:twilight-withering",
+ "type": "subzone",
+ "name": "Twilight Withering",
+ "era": "classic",
+ "zone": "thousandneedles",
+ "meta": {
+  "wiki": "Twilight Withering"
+ },
+ "summary": "The Twilight Withering is an elevated outpost held by the sinister Twilight's Hammer cult in Thousand Needles. Perched southeast of Freewind Post and east of the Twilight Bulwark, it serves as a staging ground for the cult's apocalyptic elemental rituals.",
+ "sections": [
+  {
+   "title": "A Looming Catastrophe",
+   "body": "Situated atop the arid mesas southeast of Freewind Post, the Twilight Withering represents a dire threat to Thousand Needles. Here, the nihilistic zealots of the Twilight's Hammer labor over dark elemental sorcery. Within the camp, cultists seek to harness raw primordial fury, binding and feeding elemental energies into unstable monstrosities designed to scour the surrounding canyon floor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dark Rituals on the Heights",
+   "body": "The camp operates in concert with the nearby Twilight Bulwark, securing the cult's presence overlooking the needle-rock spires. Amid their ritual circles and altars, cultists employ dark artifacts to subjugate primal powers, indifferent to the devastation such unchecked magic poses to the delicate balance of the arid landscape.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Twilight Withering?",
+   "aliases": [
+    "twilight withering",
+    "what is this place",
+    "cultist camp needles"
+   ],
+   "answer": "The Twilight Withering is a fortified encampment belonging to the Twilight's Hammer cult, located on an elevated shelf southeast of Freewind Post in Thousand Needles."
+  },
+  {
+   "q": "Who controls this outpost?",
+   "aliases": [
+    "who is here",
+    "twilight withering mobs",
+    "enemies here"
+   ],
+   "answer": "The camp is inhabited and defended by zealots, geomancers, and summoners of the Twilight's Hammer cult alongside their bound elemental servants."
+  },
+  {
+   "q": "What are the cultists doing here?",
+   "aliases": [
+    "what are they doing",
+    "twilight withering goal",
+    "cultist ritual"
+   ],
+   "answer": "The cultists are conducting dangerous elemental rituals, attempting to subjugate and combine disparate elemental forces into volatile weapons of mass devastation."
+  },
+  {
+   "q": "How does this site connect to the Twilight Bulwark?",
+   "aliases": [
+    "twilight bulwark connection",
+    "bulwark to withering",
+    "nearby camp"
+   ],
+   "answer": "The Twilight Withering lies just east of the Twilight Bulwark, forming an interconnected network of ritual encampments that overlook the canyons of Thousand Needles."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The blatant subjugation, binding, and corruption of primal elementals by the Twilight's Hammer cultists here represents a grave affront to the natural harmony of the elements."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Cultist encampments perched so close to Freewind Post pose an intolerable threat to the Tauren settled on the neighboring bluffs."
+  }
+ ],
+ "keywords": [
+  "cultists",
+  "elementals",
+  "freewind post",
+  "thousand needles",
+  "twilight bulwark",
+  "twilight withering",
+  "twilight's hammer"
+ ],
+ "related": [
+  "subzone:twilight-bulwark",
+  "topic:twilight-s-hammer",
+  "zone:thousandneedles",
+  "subzone:freewind-post",
+  "npc:magatha-grimtotem",
+  "quest:5088"
+ ],
+ "attribution": [
+  "Twilight Withering"
+ ]
+}

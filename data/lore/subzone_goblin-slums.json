@@ -1,0 +1,73 @@
+{
+ "key": "subzone:goblin-slums",
+ "type": "subzone",
+ "name": "Goblin Slums",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Goblin Slums"
+ },
+ "summary": "In the current era of 25 ADP, the area that would later be associated with goblins does not exist as an independent settlement or slum. The southern canyon remains an open, natural section of the Valley of Spirits inhabited by the Darkspear trolls. Any notion of Bilgewater refugees or oily goblin slums belongs entirely to future eras.",
+ "sections": [
+  {
+   "title": "Part of the Valley of Spirits",
+   "body": "Presently in Orgrimmar, this southern reach is not separated from the Valley of Spirits. The Darkspear tribe occupies the surrounding plateaus and waterways, keeping the district steeped in ritual totems, shaded huts, and untamed waters. Goblins may pass through the Horde capital as neutral traders, engineers, or Zeppelineers serving the Steamwheedle Cartel, but they hold no sovereign district or permanent residential quarters within Orgrimmar's carved stone ramparts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the goblin slums in Orgrimmar?",
+   "aliases": [
+    "goblin slums location",
+    "where is goblin slum",
+    "find goblin area"
+   ],
+   "answer": "There are no goblin slums in Orgrimmar. The southern portion of the city where such an enclave might be sought remains an undivided part of the Valley of Spirits, inhabited and maintained by the Darkspear trolls."
+  },
+  {
+   "q": "Do goblins have their own district in Orgrimmar?",
+   "aliases": [
+    "goblin quarter orgrimmar",
+    "do goblins live here"
+   ],
+   "answer": "No. The goblins living and working across Durotar belong to independent trade cartels like the Steamwheedle Cartel. They operate neutral ventures such as zeppelins and engineering works, but do not possess a segregated neighborhood or residential quarter within the city."
+  },
+  {
+   "q": "Who lives in this section of the city right now?",
+   "aliases": [
+    "who lives here",
+    "valley of spirits inhabitants"
+   ],
+   "answer": "The entire southern valley belongs to the Darkspear trolls. Witch doctors, shadow hunters, and troll tradesfolk live and practice their spiritual crafts throughout the water-carved ravines of the Valley of Spirits."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "The entire Valley of Spirits remains under Darkspear stewardship, free of noisy industrial drill sites or foreign enclaves."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "While goblin engineering instructors can be encountered operating across neutral settlements, Orgrimmar itself hosts no exclusive goblin workshop district."
+  }
+ ],
+ "keywords": [
+  "bilgewater",
+  "darkspear",
+  "goblin district",
+  "goblin slums",
+  "orgrimmar",
+  "valley of spirits"
+ ],
+ "related": [
+  "subzone:valley-of-spirits",
+  "zone:orgrimmar",
+  "topic:goblin",
+  "topic:troll",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Goblin Slums"
+ ]
+}

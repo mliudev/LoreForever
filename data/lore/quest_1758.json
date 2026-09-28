@@ -1,0 +1,136 @@
+{
+ "key": "quest:1758",
+ "type": "quest",
+ "name": "Tome of the Cabal",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   1758
+  ],
+  "level": "30",
+  "faction": "Alliance",
+  "start": "Strahad Farsan",
+  "end": "Krom Stoutarm",
+  "previous": "Seeking Strahad (Stormwind)",
+  "next": "Tome of the Cabal (Alliance, 2)",
+  "wiki": "Tome of the Cabal (Alliance)",
+  "chain": [
+   "Seeking Strahad (Stormwind)",
+   "Tome of the Cabal (Alliance)",
+   "Tome of the Cabal (Alliance, 2)",
+   "Tome of the Cabal (Alliance, 3)",
+   "The Binding (Felhunter)"
+  ]
+ },
+ "summary": "Tome of the Cabal sends an aspiring Alliance warlock from the heights above Ratchet back to the Library of Ironforge. To summon and dominate a ravenous felhunter, the summoner must locate a legendary manual written by the first warlocks who ever conquered the beast.",
+ "sections": [
+  {
+   "title": "A Beast That Feeds on Magic",
+   "body": "Subjugating an imp, a voidwalker, or a succubus requires ritual, but a felhunter poses an entirely different hazard. Felhunters do not merely serve the Burning Legion; they actively hunt and devour arcane energy. A standard summoning circle will crumble before one, draining the summoner's magic before a binding can even take hold. Strahad Farsan, watching over Ratchet from his redoubt in the Barrens, knows better than to let an amateur try such a binding unprepared.",
+   "spoiler": 0
+  },
+  {
+   "title": "The First Binding",
+   "body": "To safely draw forth and bind a felhunter, an acolyte requires the arcane formulas compiled within the Tome of the Cabal. Authored by the earliest mortal cabal of warlocks who successfully broke a felhunter without outside aid, the manuscript details the specific geomancy, materials, and binding runes necessary to withstand the creature's hunger. Unfortunately for Strahad and his circle, their copy of this masterwork was lost long ago.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hoarder of Dun Morogh",
+   "body": "Unable to provide the text himself, Strahad dispatches Alliance warlocks across the Great Sea to the Hall of Explorers in Ironforge. There skulks Krom Stoutarm, an itinerant dwarven warlock who spends his twilight years combing through ancient manuscripts and library records. If any trace of the lost grimoire remains recorded in the Eastern Kingdoms, it rests buried in Krom's meticulous catalogs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do I need to find the Tome of the Cabal?",
+   "aliases": [
+    "what is tome of cabal",
+    "why find book",
+    "tome of cabal purpose"
+   ],
+   "answer": "The Tome of the Cabal contains the precise instructions written by the first mortal warlocks who ever summoned and subdued a felhunter unaided. Ordinary summoning rituals are insufficient to entrap a demon that actively feeds on magical energy."
+  },
+  {
+   "q": "Who is Krom Stoutarm?",
+   "aliases": [
+    "where is krom",
+    "who is krom stoutarm",
+    "krom ironforge"
+   ],
+   "answer": "Krom Stoutarm is a wandering dwarven warlock residing in the Library of the Hall of Explorers in Ironforge. He spends his days holed up among dusty tomes and cataloguing ancient historical records."
+  },
+  {
+   "q": "Why is Strahad Farsan in the Barrens?",
+   "aliases": [
+    "strahad location",
+    "why ratchet",
+    "who is strahad"
+   ],
+   "answer": "Strahad Farsan is an accomplished human warlock who maintains a quiet, neutral redoubt on the bluffs above Ratchet. Operating outside the watchful eyes of the Kirin Tor and Stormwind's authorities, he trains both Alliance and Horde practitioners in powerful demonology."
+  },
+  {
+   "q": "What happens after I speak to Krom Stoutarm?",
+   "aliases": [
+    "next quest",
+    "after krom",
+    "tome of cabal next step"
+   ],
+   "answer": "Krom Stoutarm recalls references to the tome from old cataloguing registers. He will charge you with tracking down its lost parts and recovering the rare reagents needed to reconstruct the grimoire."
+  },
+  {
+   "q": "Can Horde warlocks do this quest?",
+   "aliases": [
+    "horde version",
+    "is this alliance only"
+   ],
+   "answer": "This specific journey to Ironforge is strictly for Alliance warlocks. Horde warlocks are given an equivalent task by Strahad that sends them to find knowledgeable contacts within Horde territory instead."
+  },
+  {
+   "q": "What demon does this questline unlock?",
+   "aliases": [
+    "which demon",
+    "felhunter quest",
+    "what pet do i get"
+   ],
+   "answer": "Completing the entire Tome of the Cabal quest chain culminates in ritual combat against a summoned felhunter, teaching the warlock how to summon and bind one as a permanent minion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Obtaining the Tome of the Cabal is the pivotal rite of passage for a practitioner of the dark arts seeking mastery over felhunters, moving past lesser servants into true anti-magic demonology."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance practitioners must cross back from the frontier of Kalimdor to the Hall of Explorers in Ironforge to tap into dwarven scholarship for illicit dark texts."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Krom Stoutarm proves that not every dwarf buried in the Hall of Explorers is digging up Titan artifacts\u2014some are privately compiling the lore of the Burning Shadow."
+  }
+ ],
+ "keywords": [
+  "felhunter",
+  "hall of explorers",
+  "ironforge",
+  "krom stoutarm",
+  "ratchet",
+  "strahad farsan",
+  "tome of the cabal",
+  "warlock"
+ ],
+ "related": [
+  "npc:strahad-farsan",
+  "npc:krom-stoutarm",
+  "quest:1798",
+  "quest:1471",
+  "subzone:library-ironforge",
+  "zone:ironforge",
+  "zone:barrens",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Tome of the Cabal (Alliance)"
+ ]
+}

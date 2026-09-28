@@ -1,0 +1,89 @@
+{
+ "key": "npc:ambassador-sunsorrow",
+ "type": "npc",
+ "name": "Ambassador Sunsorrow",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Ambassador Sunsorrow",
+  "refs": 2
+ },
+ "summary": "Ambassador Sunsorrow serves as the blood elf diplomatic envoy stationed beside Lady Sylvanas Windrunner in the Royal Quarter of the Undercity. Surrounded by the restless dead, he represents the interests of Quel'Thalas and helps coordinate communication and supplies between the Forsaken and his people.",
+ "sections": [
+  {
+   "title": "Diplomat in the Shadow of the Throne",
+   "body": "Standing beside Lady Sylvanas Windrunner in the shadowed depths of the Royal Quarter, Ambassador Sunsorrow acts as an official diplomatic link between the blood elves and the Forsaken. Even in the gloom of the Undercity, Sunsorrow maintains courtly composure, keeping a watchful eye over visitors and directing messengers southward to Forsaken bastions like the Sepulcher in Silverpine Forest and Tarren Mill in the Hillsbrad Foothills. He shares an unspoken understanding of tragic loss with the Banshee Queen, whose former life as Ranger-General of Silvermoon remains a deeply resonant memory to the people of Quel'Thalas.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ambassador Sunsorrow?",
+   "aliases": [
+    "sunsorrow who",
+    "who is sunsorrow",
+    "blood elf in undercity"
+   ],
+   "answer": "He is an envoy from the blood elves of Quel'Thalas, stationed directly in the Undercity's Royal Quarter beside Lady Sylvanas Windrunner to oversee diplomatic ties and logistics between their peoples."
+  },
+  {
+   "q": "Why is a blood elf standing beside Sylvanas Windrunner?",
+   "aliases": [
+    "why elf in undercity",
+    "blood elf sylvanas court",
+    "sunsorrow purpose"
+   ],
+   "answer": "Before her death and rebirth as the Banshee Queen, Lady Sylvanas was the Ranger-General of Silvermoon and died defending Quel'Thalas. The surviving blood elves maintain active diplomatic ties with her Forsaken kingdom, with Sunsorrow representing their interests."
+  },
+  {
+   "q": "What tasks does Ambassador Sunsorrow give to travelers?",
+   "aliases": [
+    "sunsorrow quests",
+    "what does sunsorrow do",
+    "delivery to the sepulcher"
+   ],
+   "answer": "He assists in coordinating field communications and vital supplies, dispatching adventurers with orders and deliveries to key Forsaken strongholds such as the Sepulcher in Silverpine and Tarren Mill in Hillsbrad."
+  },
+  {
+   "q": "How does he react to visitors in the Royal Quarter?",
+   "aliases": [
+    "sunsorrow dialogue",
+    "speaking to sunsorrow"
+   ],
+   "answer": "Sunsorrow maintains strict courtly etiquette. He expects proper decorum before the Banshee Queen and keeps a close eye on anyone granted an audience in the royal chamber."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, Sunsorrow is a visible reminder of their Queen's noble heritage and a rare living ally welcome at the foot of her throne."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Sunsorrow provides vital logistical dispatches for Horde travelers, routing hands and supplies through the Forsaken holdings of Silverpine Forest and Hillsbrad."
+  }
+ ],
+ "keywords": [
+  "ambassador sunsorrow",
+  "blood elf",
+  "diplomat",
+  "envoy",
+  "royal quarter",
+  "sunsorrow",
+  "sylvanas windrunner",
+  "undercity"
+ ],
+ "related": [
+  "npc:sylvanas-windrunner",
+  "subzone:royal-quarter",
+  "zone:undercity",
+  "topic:forsaken",
+  "topic:horde",
+  "subzone:sepulcher",
+  "subzone:tarren-mill",
+  "quest:9189"
+ ],
+ "attribution": [
+  "Ambassador Sunsorrow"
+ ]
+}

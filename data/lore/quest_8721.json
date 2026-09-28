@@ -1,0 +1,120 @@
+{
+ "key": "quest:8721",
+ "type": "quest",
+ "name": "Starweave the Elder",
+ "era": "classic",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   8721
+  ],
+  "level": "",
+  "faction": null,
+  "start": "Elder Starweave",
+  "end": "",
+  "previous": null,
+  "next": null,
+  "wiki": "Starweave the Elder",
+  "chain": []
+ },
+ "summary": "Starweave the Elder is a Lunar Festival quest encountered in Darkshore. Adventurers seek out Elder Starweave in the settlement of Auberdine to pay their respects to the ancestral spirits of Kalimdor. In exchange for honoring ancient traditions, she offers celestial wisdom and her blessing.",
+ "sections": [
+  {
+   "title": "A Beacon in Auberdine",
+   "body": "During the Lunar Festival, spirits of venerated ancestors manifest across the continents of Azeroth, battened in pillars of radiant celestial radiance. Elder Starweave takes her place among the night elves of Auberdine, a critical harbor town situated along the mist-shrouded coast of Darkshore. Travelers honoring the festival make pilgrimage to her side, seeking the timeless guidance of ages past.",
+   "spoiler": 0
+  },
+  {
+   "title": "Whispers of the Heavens",
+   "body": "Elder Starweave contemplates the cosmic tapestry above Kalimdor, reminding all who approach that the stars carry answers to mortal doubts and worldly riddles. Those who take the time to seek her council are urged to look skyward for truth and receive ancestral favor alongside tidings of other wandering spirits across the wild frontier.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Elder Starweave?",
+   "aliases": [
+    "starweave location",
+    "where is elder starweave",
+    "elder starweave darkshore"
+   ],
+   "answer": "Elder Starweave is located in the coastal night elf town of Auberdine in Darkshore. She stands illuminated by a brilliant beam of moonlight descending directly from the heavens."
+  },
+  {
+   "q": "What is the purpose of this quest?",
+   "aliases": [
+    "why do elder starweave",
+    "starweave the elder purpose",
+    "what does starweave do"
+   ],
+   "answer": "The quest is part of the yearly Lunar Festival celebration. Visiting and honoring the ancestral elders scattered across Azeroth awards recognition, festive currency, and ancestral goodwill."
+  },
+  {
+   "q": "Who is Elder Starweave?",
+   "aliases": [
+    "who is starweave",
+    "starweave lore",
+    "elder starweave backstory"
+   ],
+   "answer": "She is an ancient night elven spirit honoring the Lunar Festival. Bathed in starlight, she offers philosophical wisdom regarding the constellations and points pilgrims toward other revered elders, such as Elder Bladeswift."
+  },
+  {
+   "q": "Can Horde players visit Elder Starweave?",
+   "aliases": [
+    "can horde talk to starweave",
+    "horde elder starweave",
+    "starweave hostile horde"
+   ],
+   "answer": "Yes. Festival elders remain neutral and welcome respectful travelers of both factions. However, because Elder Starweave resides within the Alliance harbor of Auberdine, Horde adventurers must be cautious around the town's local night elven guards."
+  },
+  {
+   "q": "What does Elder Starweave tell travelers?",
+   "aliases": [
+    "starweave dialogue",
+    "what does elder starweave say"
+   ],
+   "answer": "Upon greeting visitors, she reminds them that the infinite stars above hold answers to mortal riddles, asking if the wise and fortunate might gaze upward to unveil truth."
+  },
+  {
+   "q": "Which elder does Starweave point to?",
+   "aliases": [
+    "who does starweave mention",
+    "elder after starweave",
+    "next elder darkshore"
+   ],
+   "answer": "Elder Starweave shares the location and tidings of Elder Bladeswift, guiding travelers onward across their festive journey through northern Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Honoring Elder Starweave in Auberdine connects night elves directly to the ancient spirits of their forebears and the revered mysteries of Elune and the stars."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids hold ancestral spirits and the celestial balance in deep reverence, making communion with Elder Starweave a natural reflection of their beliefs."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Reaching Elder Starweave requires Horde wanderers to carefully infiltrate the Alliance-held docks of Auberdine to pay their respects without provoking the local sentinels."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "auberdine",
+  "darkshore",
+  "elder bladeswift",
+  "elder starweave",
+  "lunar festival",
+  "starweave"
+ ],
+ "related": [
+  "npc:elder-starweave",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "topic:light"
+ ],
+ "attribution": [
+  "Starweave the Elder"
+ ]
+}

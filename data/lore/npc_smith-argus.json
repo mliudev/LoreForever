@@ -1,0 +1,114 @@
+{
+ "key": "npc:smith-argus",
+ "type": "npc",
+ "name": "Smith Argus",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Smith Argus",
+  "refs": 3
+ },
+ "summary": "Smith Argus is the resident blacksmith and trainer stationed in the heart of Goldshire in Elwynn Forest. From his open-air forge near the Lion's Pride Inn, he repairs traveler gear, teaches novice smiths their fundamentals, and coordinates with craftsmen across southern Azeroth. His network ties Goldshire's local trade directly to logistical hubs like Stormwind and distant frontiers like Redridge.",
+ "sections": [
+  {
+   "title": "The Anvil of Goldshire",
+   "body": "Situated just outside the Lion's Pride Inn, Smith Argus maintains one of the busiest anvils in Elwynn Forest. While Goldshire faces growing perils from nearby gnolls, kobolds, and Defias bandits, Argus keeps local militia and passing adventurers properly equipped. In addition to mending dented armor and forging sturdy implements, he serves as an apprentice blacksmithing trainer, initiating fledgling craftsmen into the fundamentals of working copper and bronze.",
+   "spoiler": 0
+  },
+  {
+   "title": "Inter-Town Trade and Demands",
+   "body": "Argus is not an isolated village smith; his workshop is a vital link in the Kingdom of Stormwind's regional supply chain. When craftsmen in neighboring settlements require specialized gear or raw materials, they look to Goldshire's central position. Farrier Verner Osgood in Redridge relies on Argus for shipments of crafted horseshoes to keep pack animals and cavalry moving, while metalworkers in Stormwind's Dwarven District regularly coordinate deliveries through him via the local gryphon couriers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Smith Argus?",
+   "aliases": [
+    "argus location",
+    "where is smith argus",
+    "smith argus elwynn"
+   ],
+   "answer": "Smith Argus is located in Goldshire in central Elwynn Forest. You can find him working at the outdoor anvil and forge set up behind the armor shop, near the Lion's Pride Inn."
+  },
+  {
+   "q": "What services does Smith Argus provide?",
+   "aliases": [
+    "what does argus teach",
+    "argus trainer",
+    "goldshire blacksmith trainer"
+   ],
+   "answer": "Argus acts as an Apprentice Blacksmithing trainer, teaching new players the basics of metallurgy and early metal recipes. He also offers full equipment repair services and sells blacksmithing supplies such as mining picks and smithing hammers."
+  },
+  {
+   "q": "Why does a blacksmith in Redridge send me to Smith Argus?",
+   "aliases": [
+    "the price of shoes quest",
+    "verner horseshoes",
+    "why argus horseshoes"
+   ],
+   "answer": "Verner Osgood, a craftsman in Lakeshire, has a high demand for horseshoes to keep supply wagons and mounts moving against the Blackrock orc threat. He contracts Argus in Goldshire to forge and supply the necessary iron footwear."
+  },
+  {
+   "q": "What is Argus's connection to Stormwind City?",
+   "aliases": [
+    "elmore's task",
+    "stormwind gryphon argus"
+   ],
+   "answer": "Argus coordinates supply runs with dwarven smiths in Stormwind City, such as Elmore Smith. He often relies on the local Goldshire gryphon master to send and receive urgent dispatches and heavy shipments quickly."
+  },
+  {
+   "q": "Can Smith Argus train advanced or expert blacksmithing?",
+   "aliases": [
+    "argus expert blacksmith",
+    "how high can argus train"
+   ],
+   "answer": "No. Argus only teaches Apprentice Blacksmithing. To learn Journeyman or Expert techniques, aspiring smiths must seek more advanced masters in larger settlements or the Dwarven District of Stormwind City."
+  },
+  {
+   "q": "Does Smith Argus belong to any particular guild?",
+   "aliases": [
+    "argus faction",
+    "argus guild"
+   ],
+   "answer": "Argus is a loyal subject of the Kingdom of Stormwind and a member of the local craftsmen community serving the Alliance in Elwynn Forest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "For Alliance characters starting in Elwynn, Argus is often the very first teacher of the forge, providing initial recipes for rough copper gear and essential utility items."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners frequent Argus's forge not only to purchase basic mining picks, but to utilize his anvil and forge for smelting raw copper nuggets into usable ingots."
+  },
+  {
+   "target": "race:Human",
+   "text": "Argus represents the hardworking tradesmen who keep Elwynn running despite the kingdom's broader political neglect and bandit unrest."
+  }
+ ],
+ "keywords": [
+  "blacksmith",
+  "elwynn forest",
+  "forge",
+  "goldshire",
+  "horseshoes",
+  "lion's pride",
+  "smith argus",
+  "trainer",
+  "verner osgood"
+ ],
+ "related": [
+  "subzone:goldshire",
+  "zone:elwynn",
+  "quest:118",
+  "quest:119",
+  "quest:1097",
+  "quest:6181",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Smith Argus"
+ ]
+}

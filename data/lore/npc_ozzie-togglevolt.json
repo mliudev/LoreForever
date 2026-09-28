@@ -1,0 +1,119 @@
+{
+ "key": "npc:ozzie-togglevolt",
+ "type": "npc",
+ "name": "Ozzie Togglevolt",
+ "era": "classic",
+ "zone": "gnomeregan",
+ "meta": {
+  "wiki": "Ozzie Togglevolt",
+  "refs": 3
+ },
+ "summary": "Ozzie Togglevolt is a gnome engineer and survivor of Gnomeregan's fall, currently operating out of the snowy village of Kharanos in Dun Morogh. Haunted by the tragedy that struck his people, he works alongside his partner Razzle Sprysprocket to research a remedy for the irradiated leper gnomes.",
+ "sections": [
+  {
+   "title": "Escape from the Deep",
+   "body": "Ozzie Togglevolt was inside the subterranean wonders of Gnomeregan when catastrophe struck. When the toxic fallout was vented throughout the corridors to stem the trogg invasion, Ozzie stood right beside his fellow gnome, Gnoarn. A sudden radioactive discharge struck Gnoarn directly, altering him forever before Ozzie's eyes. Though Ozzie made it to the surface alive and reached the haven of Dun Morogh, the horrifying memory of that disaster never left him.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Kharanos Workshop",
+   "body": "Now established in Kharanos, Ozzie spends his days tinkering alongside Razzle Sprysprocket. Despite minor mishaps and defensive scrambles against encroaching Frostmane trolls, their primary technological and scientific endeavor remains intensely personal: finding a way to reverse the horrific mutagenic fallout of their lost home and cure the suffering leper gnomes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ozzie Togglevolt?",
+   "aliases": [
+    "who is ozzie",
+    "ozzie togglevolt lore",
+    "kharanos gnome ozzie"
+   ],
+   "answer": "Ozzie Togglevolt is a gnomish engineer residing in Kharanos in Dun Morogh. He fled the radioactive devastation of Gnomeregan and now dedicates his technical expertise toward finding a cure for his afflicted brethren."
+  },
+  {
+   "q": "What is Ozzie trying to cure?",
+   "aliases": [
+    "what is ozzie researching",
+    "ozzie leper gnome cure",
+    "cure for leper gnomes"
+   ],
+   "answer": "Ozzie and his colleague Razzle Sprysprocket are researching a method to cleanse the toxic irradiation that turned so many of their kin into madness-stricken leper gnomes."
+  },
+  {
+   "q": "Who is Gnoarn to Ozzie?",
+   "aliases": [
+    "ozzie and gnoarn",
+    "what happened to gnoarn",
+    "who is gnoarn"
+   ],
+   "answer": "Gnoarn was with Ozzie in Gnomeregan when the toxic vents were unleashed. Ozzie witnessed a radioactive bolt strike Gnoarn directly, a tragic incident that drove Ozzie's obsession with reversing the contamination."
+  },
+  {
+   "q": "Who is working with Ozzie in Kharanos?",
+   "aliases": [
+    "ozzie partner",
+    "who is razzle",
+    "razzle sprysprocket"
+   ],
+   "answer": "Ozzie works alongside Razzle Sprysprocket. Together, they tinker in Kharanos, developing concoctions and gathering contaminated field specimens to analyze the radioactive fallout."
+  },
+  {
+   "q": "Did Ozzie help defend Kharanos from trolls?",
+   "aliases": [
+    "ozzie troll attack",
+    "frostmane troll kharanos",
+    "ozzie grenades"
+   ],
+   "answer": "Yes. When a massive Frostmane troll assaulted Kharanos, Ozzie and Razzle attempted to fend it off by hurling what they thought were impact grenades, only to discover they were actually delayed time bombs before fellow inventor Lazlo Grindwidget intervened."
+  },
+  {
+   "q": "What quests does Ozzie offer?",
+   "aliases": [
+    "ozzie quests",
+    "togglevolt quests",
+    "what quests does ozzie give"
+   ],
+   "answer": "Ozzie enlists travelers in Dun Morogh to gather irradiated residues and components from around Gnomeregan through tasks such as 'The Day After', 'Gnogaine', and 'The Only Cure is More Green Glow'."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnome adventurers, Ozzie represents the grief and determination of the survivors of Gnomeregan, refusing to abandon irradiated kin to their fate."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Ozzie showcases the trial-and-error realities of gnome craftsmanship, where devices can backfire dramatically in combat or yield ingenious breakthroughs in biochemical decontamination."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stationed right outside Ironforge in Kharanos, Ozzie aids travelers while maintaining Alliance footholds in the frigid hills of Dun Morogh."
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "gnoarn",
+  "gnomeregan",
+  "kharanos",
+  "leper gnome",
+  "ozzie",
+  "radiation",
+  "razzle",
+  "sprysprocket",
+  "togglevolt"
+ ],
+ "related": [
+  "npc:razzle-sprysprocket",
+  "npc:gnoarn",
+  "topic:leper-gnome",
+  "subzone:kharanos",
+  "zone:gnomeregan",
+  "quest:2927",
+  "quest:2926",
+  "quest:2962"
+ ],
+ "attribution": [
+  "Ozzie Togglevolt"
+ ]
+}

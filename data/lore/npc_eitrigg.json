@@ -1,0 +1,124 @@
+{
+ "key": "npc:eitrigg",
+ "type": "npc",
+ "name": "Eitrigg",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Eitrigg",
+  "refs": 4
+ },
+ "summary": "Eitrigg is a seasoned veteran of the First and Second Wars who stands beside Warchief Thrall as an esteemed advisor in Orgrimmar. Once a high-ranking lieutenant of the Blackrock clan, he became disillusioned with the old demonic Horde and lived in exile until an extraordinary friendship with a human paladin changed his fate. Today, he helps guide the New Horde back to its roots of honor and shamanism.",
+ "sections": [
+  {
+   "title": "A Veteran of the Old Horde",
+   "body": "Born on Draenor into the Blackrock clan, Eitrigg was once one of Warchief Blackhand's primary lieutenants alongside Orgrim Doomhammer and Varok Saurfang. When Doomhammer seized leadership of the Horde, Eitrigg remained a trusted officer and oversaw the captured half-orc assassin Garona. Although he initially dismissed her revelations regarding Gul'dan and the demonic corruption of the Shadow Council, the horrific battles and ultimate defeat of the Horde in the Second War forced him to confront the dark reality. Sickened by the realization of how his people had been manipulated, Eitrigg walked away from the scattered remnants and retreated into self-imposed exile, seeking only solitude in the wilds of Lordaeron.",
+   "spoiler": 0
+  },
+  {
+   "title": "Blood and Honor",
+   "body": "Years into his wilderness exile, Eitrigg was discovered sheltering in an abandoned tower near Hearthglen by the human paladin Tirion Fordring. Their initial clash collapsed the ruins, but instead of finishing the unconscious human, Eitrigg pulled him from the rubble to safety. Moved by this display of pure martial honor, Tirion swore an oath of friendship and refused to betray the hermit's location. When the local Alliance authorities ultimately captured Eitrigg and sentenced him to hang in Stratholme, Tirion threw away his own knighthood, lands, and freedom in an attack to rescue the condemned orc. This legendary bond proved to both warriors that honor transcended the bitter hatred between their species.",
+   "spoiler": 0
+  },
+  {
+   "title": "Counselor to the Warchief",
+   "body": "During Tirion's desperate attempt to free Eitrigg in Stratholme, Thrall's newly united Horde raided the city and extracted the aging warrior. Meeting Thrall convinced Eitrigg that the orcs were throwing off the demonic taint and rediscovering their ancestral shamanic heritage. Returning with Thrall across the Great Sea to Kalimdor, Eitrigg took up a revered post in the Valley of Wisdom within Orgrimmar. He now stands inside Grommash Hold as an advisor to the young Warchief, helping evaluate new recruits and imparting his hard-earned wisdom so that the New Horde never repeats the tragedies of the past.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Eitrigg?",
+   "aliases": [
+    "who is eitrigg",
+    "eitrigg lore",
+    "orc standing by thrall"
+   ],
+   "answer": "Eitrigg is an elderly Blackrock orc warrior who served as a lieutenant under Blackhand and Orgrim Doomhammer during the First and Second Wars. Today, he resides in Grommash Hold in Orgrimmar as a trusted counselor and advisor to Warchief Thrall."
+  },
+  {
+   "q": "Why does Eitrigg consider a human his brother?",
+   "aliases": [
+    "eitrigg and tirion",
+    "eitrigg human friend",
+    "blood and honor"
+   ],
+   "answer": "While living in exile in Lordaeron, Eitrigg saved the life of the paladin Tirion Fordring during a duel that brought down a stone tower. In return, Tirion defended Eitrigg's location and later fought his own people in Stratholme to prevent Eitrigg's execution, losing his title and lands in the process. Bound by mutual honor, Eitrigg views Tirion as his brother."
+  },
+  {
+   "q": "What clan does Eitrigg belong to?",
+   "aliases": [
+    "eitrigg clan",
+    "is eitrigg blackrock"
+   ],
+   "answer": "Eitrigg belongs to the Blackrock clan. He was a high-ranking commander during the old wars, though he abandoned the clan's corrupt remnants after learning the truth of the demonic corruption that guided them."
+  },
+  {
+   "q": "Why did Eitrigg leave the old Horde?",
+   "aliases": [
+    "why did eitrigg leave",
+    "eitrigg exile"
+   ],
+   "answer": "During the Second War, Eitrigg guarded the assassin Garona, who revealed the demon worship and manipulations of Gul'dan and the Shadow Council. Following the Horde's defeat, Eitrigg realized her claims were true and left in disgust, seeking a quiet place to die rather than serve a corrupt war machine."
+  },
+  {
+   "q": "How did Eitrigg end up in Orgrimmar?",
+   "aliases": [
+    "how did eitrigg meet thrall",
+    "eitrigg rescued"
+   ],
+   "answer": "When Alliance forces captured Eitrigg and prepared to execute him in Stratholme, Thrall and his forces raided the city and freed him. Seeing Thrall's commitment to honor and the rediscovery of shamanism, Eitrigg chose to follow the young Warchief to Kalimdor."
+  },
+  {
+   "q": "What role does Eitrigg play in Orgrimmar right now?",
+   "aliases": [
+    "eitrigg quest",
+    "what does eitrigg do"
+   ],
+   "answer": "Eitrigg advises Thrall directly within Grommash Hold and assists in testing and evaluating new recruits who swear loyalty to the New Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Eitrigg serves as the living institutional memory of the Horde, standing by Thrall to ensure the mistakes of the demon-tainted past are never repeated."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Eitrigg represents martial honor preserved through decades of tragedy, having survived two wars through sheer strength and unbroken discipline."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "The story of Eitrigg and Tirion Fordring is renowned among paladins as the ultimate test of duty versus righteous honor."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For the orcs of Durotar, Eitrigg is a revered elder whose Blackrock heritage proves that any orc can embrace honor and redeem their people's legacy."
+  }
+ ],
+ "keywords": [
+  "blackrock clan",
+  "blood and honor",
+  "eitrigg",
+  "grommash hold",
+  "hearthglen",
+  "orgrim doomhammer",
+  "orgrimmar",
+  "stratholme",
+  "thrall",
+  "tirion fordring"
+ ],
+ "related": [
+  "npc:thrall",
+  "npc:tirion-fordring",
+  "topic:blackrock-clan",
+  "topic:new-horde",
+  "zone:orgrimmar",
+  "npc:orgrim-doomhammer",
+  "npc:varok-saurfang",
+  "subzone:stratholme"
+ ],
+ "attribution": [
+  "Eitrigg"
+ ]
+}

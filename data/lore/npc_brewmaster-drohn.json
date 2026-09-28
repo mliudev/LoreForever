@@ -1,0 +1,112 @@
+{
+ "key": "npc:brewmaster-drohn",
+ "type": "npc",
+ "name": "Brewmaster Drohn",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Brewmaster Drohn",
+  "refs": 3
+ },
+ "summary": "Brewmaster Drohn is an orcish brewmaster living just uphill from the bustling port of Ratchet. Having learned the art of exotic fermentation through ties connected to the legendary wandering pandaren Chen Stormstout, Drohn crafts potent beverages on the arid frontier of the Barrens. Adventurers who discover discarded kegs across Kalimdor often find themselves directed straight to his porch.",
+ "sections": [
+  {
+   "title": "A Master of the Craft in Ratchet",
+   "body": "Overlooking the goblin docks of Ratchet sits Brewmaster Drohn, an orc who has devoted his craft to the science of brewing rather than simple combat. Running Drohn's Distillery from his hillside home, he operates peacefully within the neutral haven established by Gazlowe's Steamwheedle cartel. While most orcs settle for coarse grog or simple spirits, Drohn's work involves rare ingredients, refined balances of flavor, and techniques rarely practiced among his kin.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Pandaren Connection",
+   "body": "Drohn's craft is heavily shaped by Chen Stormstout, the famed pandaren wanderer who fought alongside Rexxar and the Horde during the founding of Durotar. Drohn's mentor studied directly under Chen, learning the guarded secrets of Stormstout brews, and Chen himself later instructed Drohn in crafting Trogg Ale. When travelers stumble across Chen's distinct, discarded kegs in the wilds, Drohn is the sole local authority capable of identifying the ingredients and recreating the wanderer's potent concoctions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Brewmaster Drohn?",
+   "aliases": [
+    "drohn lore",
+    "who is drohn",
+    "ratchet brewmaster"
+   ],
+   "answer": "Brewmaster Drohn is an orcish brewer living in Ratchet in the Barrens. He is renowned for his mastery of exotic ales and his direct ties to the brewing traditions of the wandering pandaren Chen Stormstout."
+  },
+  {
+   "q": "How does Drohn know Chen Stormstout?",
+   "aliases": [
+    "chen connection",
+    "how does he know chen",
+    "drohn and chen"
+   ],
+   "answer": "Drohn's mentor was taught how to brew Stormstout by Chen Stormstout himself, passing the knowledge down to Drohn. Later, Chen personally taught Drohn the recipe and methods required to brew Trogg Ale."
+  },
+  {
+   "q": "What should I do if I find Chen's Empty Keg?",
+   "aliases": [
+    "chens empty keg",
+    "found empty keg",
+    "keg quest"
+   ],
+   "answer": "Take the keg to Brewmaster Drohn in Ratchet. He recognizes Chen's personal handiwork immediately and will enlist you to track down the rare indigenous ingredients needed to reproduce the brew."
+  },
+  {
+   "q": "Is Brewmaster Drohn aligned with the Horde?",
+   "aliases": [
+    "is drohn horde",
+    "is drohn neutral",
+    "drohn faction"
+   ],
+   "answer": "Drohn is an orc, but he resides and plies his trade in the neutral goblin port of Ratchet. Attacking him ruins an Alliance adventurer's reputation with Ratchet and the Steamwheedle Cartel."
+  },
+  {
+   "q": "What kind of drinks does Drohn make?",
+   "aliases": [
+    "drohn recipes",
+    "drohns distillery brews"
+   ],
+   "answer": "Through Drohn's Distillery, he crafts potent mixtures including Trogg Ale and iterations of Chen Stormstout's recipes, which require local plants and creature essences found throughout Kalimdor."
+  },
+  {
+   "q": "Where exactly is Drohn located?",
+   "aliases": [
+    "drohn location",
+    "where is drohn",
+    "find brewmaster drohn"
+   ],
+   "answer": "He can be found standing outside his house on the hill overlooking the port town of Ratchet, just northwest of the main docks in the Barrens."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary adventurers will appreciate Drohn's precise blending of rare flora and fauna to craft world-class beverages in the middle of a desert."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Unlike most warriors who followed Thrall to Kalimdor to build fortresses, Drohn channels the newfound peace of Durotar and the Barrens into the refined art of brewing."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Though an orc, Drohn resides under Steamwheedle protection in Ratchet; attacking him will swiftly earn the wrath of the local goblin authorities."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "brewmaster",
+  "chen stormstout",
+  "distillery",
+  "drohn",
+  "ratchet",
+  "trogg ale"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "quest:819",
+  "zone:barrens",
+  "topic:trogg",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Brewmaster Drohn"
+ ]
+}

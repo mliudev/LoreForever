@@ -1,0 +1,71 @@
+{
+ "key": "npc:ambassador-dawnsinger",
+ "type": "npc",
+ "name": "Ambassador Dawnsinger",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "wiki": "Ambassador Dawnsinger",
+  "refs": 1
+ },
+ "summary": "Ambassador Dawnsinger is a blood elf diplomat stationed within Grommash Hold in Orgrimmar. Serving as the representative of Silvermoon City to the Horde, she works to cultivate ties between her people and the warchief's council while directing travelers to assist regional military outposts.",
+ "sections": [
+  {
+   "title": "Voice of Silvermoon",
+   "body": "Standing within the fortified halls of Grommash Hold, Ambassador Dawnsinger serves as the diplomatic bridge between the blood elves of Quel'Thalas and the leadership of the Horde. Her duties involve fostering goodwill, managing official communication with Warchief Thrall's court, and ensuring that blood elf interests are represented in Kalimdor. Rather than remaining entirely passive, she actively involves herself in Horde logistical affairs, coordinating with regional command posts such as Splintertree Post in Ashenvale to support shared strategic interests.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ambassador Dawnsinger?",
+   "aliases": [
+    "dawnsinger",
+    "who is the blood elf in grommash hold",
+    "dawnsinger identity"
+   ],
+   "answer": "Ambassador Dawnsinger is an emissary from Silvermoon City stationed inside Grommash Hold in Orgrimmar. She represents the blood elves and maintains diplomatic relations with the Horde leadership."
+  },
+  {
+   "q": "Where can Ambassador Dawnsinger be found?",
+   "aliases": [
+    "dawnsinger location",
+    "where is ambassador dawnsinger"
+   ],
+   "answer": "She is located inside Grommash Hold, the central seat of Horde leadership found in the Valley of Strength in Orgrimmar."
+  },
+  {
+   "q": "What is her role in Orgrimmar?",
+   "aliases": [
+    "what does dawnsinger do",
+    "dawnsinger purpose"
+   ],
+   "answer": "Her primary role is maintaining strong political ties between Silvermoon and Orgrimmar. She also assists the Horde's strategic efforts by directing capable adventurers to regional installations, such as Splintertree Post in Ashenvale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, Ambassador Dawnsinger represents vital political ties to Quel'Thalas, ensuring mutual cooperation between the eastern elves and the established forces in Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ambassador dawnsinger",
+  "blood elf",
+  "dawnsinger",
+  "grommash hold",
+  "orgrimmar",
+  "silvermoon",
+  "splintertree post"
+ ],
+ "related": [
+  "subzone:grommash-hold",
+  "zone:orgrimmar",
+  "quest:9428",
+  "subzone:splintertree-post",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Ambassador Dawnsinger"
+ ]
+}

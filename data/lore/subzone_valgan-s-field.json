@@ -1,0 +1,89 @@
+{
+ "key": "subzone:valgan-s-field",
+ "type": "subzone",
+ "name": "Valgan's Field",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Valgan's Field"
+ },
+ "summary": "Valgan's Field is an abandoned wheat farm nestled in northern Silverpine Forest, overlooking Lordamere Lake. Once a picturesque homestead, it now lies desolate and overrun by the feral Moonrage worgen unleashed by Archmage Arugal.",
+ "sections": [
+  {
+   "title": "A Ruined Homestead",
+   "body": "Situated just west of the Shining Strand and north of the nearby river, Valgan's Field was once a prosperous wheat farm offering scenic views of Lordamere Lake. That peaceful life vanished when the Scourge tore through Lordaeron, forcing its owner, Valgan, to flee or meet his end. Left untended, the ruined structures fell into the claws of feral Moonrage worgen prowling down from Shadowfang Keep. Before the Third War, the mage Arugal spent time here, leaving behind remnants of his arcane research that now draw the attention of the Forsaken.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Valgan?",
+   "aliases": [
+    "valgan",
+    "who is valgan",
+    "valgans field history"
+   ],
+   "answer": "Valgan was the human farmer who owned and worked this homestead before the Third War. When the Scourge swept across northern Lordaeron, Valgan either died or fled into exile, leaving the farm to fall into ruin."
+  },
+  {
+   "q": "Why are worgen roaming Valgan's Field?",
+   "aliases": [
+    "why are there worgen here",
+    "moonrage worgen valgan",
+    "who brought the worgen"
+   ],
+   "answer": "The feral Moonrage pack infesting the farm was summoned into Silverpine Forest by Archmage Arugal. Driven mad by guilt and dark magic, Arugal unleashed the beasts against the Scourge, but quickly lost control as they spread across the forest."
+  },
+  {
+   "q": "Why are the Forsaken interested in this farm?",
+   "aliases": [
+    "valgans field quest",
+    "why forsaken care about valgans field",
+    "arugal spellbook farm"
+   ],
+   "answer": "Archmage Arugal resided at the farm before the war and left behind valuable spellbooks. The Forsaken seek out these lost writings in their campaign to understand and counter Arugal's terrifying magic."
+  },
+  {
+   "q": "What rare threats appear near the farm?",
+   "aliases": [
+    "nightlash",
+    "rare spawn valgans field",
+    "monsters at valgan"
+   ],
+   "answer": "Aside from the packs of Moonrage worgen haunting the fields, a dangerous beast known as Nightlash is occasionally spotted prowling the surrounding perimeter."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, clearing Valgan's Field is essential to securing the road through Silverpine and recovering Arugal's notes before his monstrous pets spread further north."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Arugal's abandoned research at the farm offers a sobering warning of the catastrophic perils of unchecked summoning and extraplanar magic."
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "moonrage",
+  "nightlash",
+  "shining strand",
+  "silverpine forest",
+  "valgan",
+  "valgan's field",
+  "worgen"
+ ],
+ "related": [
+  "npc:arugal",
+  "quest:99",
+  "topic:worgen",
+  "zone:silverpine",
+  "subzone:shining-strand",
+  "subzone:lordamere-lake",
+  "topic:forsaken",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Valgan's Field"
+ ]
+}

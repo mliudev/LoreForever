@@ -1,0 +1,119 @@
+{
+ "key": "quest:5726",
+ "type": "quest",
+ "name": "Hidden Enemies",
+ "era": "classic",
+ "zone": "orgrimmar",
+ "meta": {
+  "ids": [
+   5726
+  ],
+  "level": "12",
+  "faction": "Horde",
+  "start": "Thrall",
+  "end": "",
+  "previous": null,
+  "next": "Hidden Enemies (2)",
+  "wiki": "Hidden Enemies",
+  "chain": []
+ },
+ "summary": "Hidden Enemies is the opening chapter of Warchief Thrall's investigation into cultist infiltration within Durotar. Aware that demonic sympathizers are operating right under the Horde's nose, Thrall tasks a promising young adventurer with recovering a Lieutenant's Insignia from Skull Rock to initiate a covert operation.",
+ "sections": [
+  {
+   "title": "The Rot Within Durotar",
+   "body": "While the nascent Horde struggles to carve out a secure home in Durotar, Warchief Thrall faces an insidious threat far deadlier than centaur raids or quilboar incursions: internal betrayal. The demonic cult known as the Burning Blade has rooted itself right outside the gates of Orgrimmar, preying on lingering demonic corruption and thirst for dark power. Thrall recognizes that sending his official Kor'kron guards or known commanders would merely scatter the cultists into deeper hiding. He needs someone untainted by high-profile associations to serve as his discreet eyes and ears.",
+   "spoiler": 0
+  },
+  {
+   "title": "Infiltrating Skull Rock",
+   "body": "East of Orgrimmar lies Skull Rock, a rugged cavern infested with warlocks, voidwalkers, and fanatical cultists. Thrall sends the adventurer straight into this nest with a specific mission: claim a Lieutenant's Insignia from one of the Burning Blade leaders. This emblem is far more than a battlefield trophy; it is a vital credential meant to grant the bearer access to the cult's shadowy hierarchy, enabling a deeper sting operation designed to reveal who directs the cult's movements from behind the scenes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives the quest Hidden Enemies?",
+   "aliases": [
+    "hidden enemies questgiver",
+    "who starts hidden enemies",
+    "where to start hidden enemies"
+   ],
+   "answer": "The quest is offered by Warchief Thrall himself, situated inside the Valley of Wisdom within Orgrimmar, once you have reported to Orgnil Soulweaver."
+  },
+  {
+   "q": "What is the goal of Hidden Enemies?",
+   "aliases": [
+    "hidden enemies objective",
+    "what do i need for hidden enemies"
+   ],
+   "answer": "Thrall tasks you with journeying to Skull Rock, located east of Orgrimmar, to slay Burning Blade cultists and bring back a Lieutenant's Insignia."
+  },
+  {
+   "q": "Why doesn't Thrall just send his elite guards to purge Skull Rock?",
+   "aliases": [
+    "why thrall needs adventurers",
+    "why not send the army"
+   ],
+   "answer": "Thrall fears open military intervention would cause the true conspirators to slip away and bury the corruption deeper. An unknown adventurer can quietly acquire credentials and infiltrate the network without tipping off the high-ranking traitors pulling the strings."
+  },
+  {
+   "q": "What is Skull Rock?",
+   "aliases": [
+    "where is skull rock",
+    "what is skull rock cave"
+   ],
+   "answer": "Skull Rock is a secluded cavern system located along the eastern coast of Durotar, northeast of Orgrimmar. It serves as a covert stronghold and summoning den for the Burning Blade cult."
+  },
+  {
+   "q": "What is the Lieutenant's Insignia used for?",
+   "aliases": [
+    "what is the insignia for",
+    "lieutenants insignia purpose"
+   ],
+   "answer": "The insignia serves as proof of rank among the cultists. Thrall plans to use it to disguise and establish an operative inside the Burning Blade's ranks to discover who orchestrates their operations."
+  },
+  {
+   "q": "What other quests can be completed alongside this one?",
+   "aliases": [
+    "skull rock quests",
+    "quests in skull rock"
+   ],
+   "answer": "Adventurers entering Skull Rock often complete the quest Skull Rock to collect cultist collars, and can loot the Eye of Burning Shadow from the cult leader Gazz'uz to begin the quest Burning Shadows."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This mission marks a critical moment where an adventurer is personally entrusted by Warchief Thrall to safeguard the heart of the new Horde from demonic subversion."
+  },
+  {
+   "target": "race:Orc",
+   "text": "For orcs striving to overcome the blood-haze and shame of the demon curse, hunting down the Burning Blade is a personal battle to keep the demonic blight from poisoning their people a second time."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Horde warlocks must tread carefully: while practicing fel arts under Thrall's strict oversight, they are summoned to root out cultists whose unbridled demonic servitude threatens the survival of Orgrimmar."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "durotar",
+  "hidden enemies",
+  "lieutenant's insignia",
+  "orgrimmar",
+  "skull rock",
+  "thrall"
+ ],
+ "related": [
+  "npc:thrall",
+  "topic:burning-blade-clan",
+  "quest:827",
+  "quest:832",
+  "quest:823",
+  "zone:orgrimmar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Hidden Enemies"
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "key": "quest:6563",
+ "type": "quest",
+ "name": "The Essence of Aku'Mai",
+ "era": "classic",
+ "zone": "blackfathom",
+ "meta": {
+  "ids": [
+   6563
+  ],
+  "level": "22",
+  "faction": "Horde",
+  "start": "Je'neu Sancrea",
+  "end": "",
+  "previous": "Trouble in the Deeps",
+  "next": null,
+  "wiki": "The Essence of Aku'Mai (Classic)",
+  "chain": [
+   "Trouble in the Deeps",
+   "The Essence of Aku'Mai (Classic)"
+  ]
+ },
+ "summary": "Je'neu Sancrea at Zoram'gar Outpost has noticed the naga of Blackfathom Deeps harvesting potent sapphire clusters from the caverns. Concerned by their magical properties and elemental water energies, the shaman tasks Horde adventurers with recovering the gems before they can be misused.",
+ "sections": [
+  {
+   "title": "A Threat in the Depths",
+   "body": "On the mist-shrouded shores of the Zoram Strand, the Darkspear shaman Je'neu Sancrea keeps watch over ancient Kaldorei ruins now overrun by sinister forces. Deep within the submerged chambers of Blackfathom Deeps, naga have begun mining vibrant sapphire formations that sprout along the damp cavern walls. Sensing that the serpentine invaders seek to harness this volatile power, Sancrea seeks to intercept the harvest before their designs can come to fruition.",
+   "spoiler": 0
+  },
+  {
+   "title": "Water Spirits and Arcane Power",
+   "body": "The Sapphires of Aku'mai are far more than ordinary gemstones; they thrum with elemental resonance and harbor clinging water spirits. In the hands of adept sorcerers, such conduits could fuel dangerous arcane rituals or amplify the influence of the shadowy hydra, Aku'mai, whose dark presence permeates the subterranean temple. Recovering these clusters deprives the naga of an invaluable reagent and safeguards the coastline from runaway elemental magic.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this quest?",
+   "aliases": [
+    "quest giver",
+    "who starts essence of akumai",
+    "jeneu sancrea location"
+   ],
+   "answer": "The quest is offered by Je'neu Sancrea, a Darkspear troll shaman stationed at Zoram'gar Outpost on the Zoram Strand in north-western Ashenvale."
+  },
+  {
+   "q": "Why do the naga want the Sapphires of Aku'Mai?",
+   "aliases": [
+    "why do naga want sapphires",
+    "what are the crystals for",
+    "sapphire purpose"
+   ],
+   "answer": "While their exact plot remains veiled, the sapphires possess potent elemental water energy and raw magical power, making them exceptionally dangerous reagents for naga spellcasting."
+  },
+  {
+   "q": "Where are the sapphire clusters found?",
+   "aliases": [
+    "where to find sapphires",
+    "sapphire of akumai location",
+    "crystal spawns"
+   ],
+   "answer": "They line the cavern walls and floors in the outer tunnels and flooded passages of Blackfathom Deeps, just inside the ruined underground entrance along the Zoram Strand."
+  },
+  {
+   "q": "What is Aku'mai?",
+   "aliases": [
+    "who is akumai",
+    "what is akumai",
+    "aku'mai"
+   ],
+   "answer": "Aku'mai is a monstrous three-headed hydra dwelling deep within the submerged temple ruins. He is revered by the Twilight's Hammer cultists and feared as a favored pet of the Old Gods."
+  },
+  {
+   "q": "Do I have to kill any dungeon bosses for this quest?",
+   "aliases": [
+    "do i need a full group",
+    "can i solo sapphires",
+    "boss requirement"
+   ],
+   "answer": "No. The sapphire clusters grow along the cavern walls in the earlier submerged tunnels before encountering the main bosses of Blackfathom Deeps."
+  },
+  {
+   "q": "Does this quest connect to any other storyline?",
+   "aliases": [
+    "quest chain",
+    "prerequisites",
+    "trouble in the deeps"
+   ],
+   "answer": "Yes. It follows 'Trouble in the Deeps', forming part of Je'neu Sancrea's investigation into the rising darkness and cultist activity festering within Blackfathom Deeps."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Je'neu Sancrea's reading of the crystals highlights the restless water spirits bound within them, a subtle warning that elemental forces are being corrupted beneath the temple."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde's foothold at Zoram'gar Outpost is perilous; keeping the nearby naga from acquiring raw magical power helps protect the shoreline encampment."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Je'neu Sancrea stands as an observant Darkspear mystic, relying on communion with the spirits and the wisdom of the ancestors to navigate the strange threats of Kalimdor."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "blackfathom deeps",
+  "je'neu sancrea",
+  "naga",
+  "sapphire of aku'mai",
+  "trouble in the deeps",
+  "water spirits",
+  "zoram strand"
+ ],
+ "related": [
+  "npc:je-neu-sancrea",
+  "quest:6562",
+  "zone:blackfathom",
+  "subzone:zoram-strand",
+  "npc:aku-mai",
+  "topic:naga",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "The Essence of Aku'Mai (Classic)"
+ ]
+}

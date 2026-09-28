@@ -1,0 +1,70 @@
+{
+ "key": "subzone:olivia-s-pond",
+ "type": "subzone",
+ "name": "Olivia's Pond",
+ "era": "classic",
+ "zone": "stormwind",
+ "meta": {
+  "wiki": "Olivia's Pond"
+ },
+ "summary": "Olivia's Pond is a tranquil freshwater pool resting in the grassy outskirts northwest of Stormwind City. Framed by neighboring farmlands, it serves as a peaceful retreat for anglers and city dwellers looking to escape the bustle of the capital.",
+ "sections": [
+  {
+   "title": "A Quiet Haven Outside the Walls",
+   "body": "Tucked away in the rolling meadows northwest of Stormwind City's main thoroughfares, Olivia's Pond is a quiet freshwater body situated near Wollerton Stead. While the nearby capital buzzes with political tension and military preparation, this corner of the outskirts offers an undisturbed landscape where locals can fish or stroll through the tall grass. The pond is known for its clear waters, populated regularly by Crystal Bass, making it a familiar destination for city anglers and common folk seeking respite from urban life.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Olivia's Pond located?",
+   "aliases": [
+    "where is olivias pond",
+    "olivia pond location",
+    "how to find olivias pond"
+   ],
+   "answer": "Olivia's Pond sits in the rural outskirts northwest of Stormwind City, resting just beyond the main walls near the open farmland of Wollerton Stead."
+  },
+  {
+   "q": "What is the pond known for?",
+   "aliases": [
+    "why visit olivias pond",
+    "fishing at olivias pond",
+    "what is at olivias pond"
+   ],
+   "answer": "It is best known as a quiet retreat for anglers and locals. The calm waters are restocked with freshwater fish like Crystal Bass, providing a tranquil escape from the noise and commotion of the capital."
+  },
+  {
+   "q": "What lies nearby Olivia's Pond?",
+   "aliases": [
+    "what is near olivias pond",
+    "olivia pond surroundings"
+   ],
+   "answer": "The pond lies close to the fields and barns of Wollerton Stead, surrounded by the green hills and quiet meadows of the Stormwind outskirts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For Alliance citizens living within the crowded quarters of Stormwind, Olivia's Pond offers a peaceful and accessible haven right outside the city gates."
+  }
+ ],
+ "keywords": [
+  "crystal bass",
+  "fishing pond",
+  "olivia's pond",
+  "olivias pond",
+  "stormwind",
+  "wollerton stead"
+ ],
+ "related": [
+  "zone:stormwind",
+  "subzone:stormwind-city-outskirts",
+  "subzone:wollerton-stead",
+  "topic:stormwind-kingdom",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Olivia's Pond"
+ ]
+}

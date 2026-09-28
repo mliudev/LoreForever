@@ -1,0 +1,119 @@
+{
+ "key": "quest:1007",
+ "type": "quest",
+ "name": "The Ancient Statuette",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "ids": [
+   1007
+  ],
+  "level": "20",
+  "faction": "Alliance",
+  "start": "Talen",
+  "end": "",
+  "previous": null,
+  "next": "Ruuzel (Classic)",
+  "wiki": "The Ancient Statuette",
+  "chain": [
+   "The Ancient Statuette",
+   "Ruuzel (Classic)"
+  ]
+ },
+ "summary": "Talen, an elf camped near the dangerous Zoram Strand in northwestern Ashenvale, seeks recovery of a lost relic. After being ambushed and run aground by vicious naga, he dropped his prized ancient statuette along the surf and needs an adventurer to retrieve it from the ruins.",
+ "sections": [
+  {
+   "title": "Ambush on the Coast",
+   "body": "The sunken ruins of Zoram along Ashenvale's northwestern shoreline have long attracted those curious about the ancient night elven past. Talen was navigating the shallows in a small vessel when hostile naga surfaced and tore into him with claw and trident. He managed to scramble ashore with bare provisions to make a hasty camp, but in his desperate sprint for survival, his most precious find was dropped into the sands.",
+   "spoiler": 0
+  },
+  {
+   "title": "Secrets of Old Zoram",
+   "body": "The ancient statuette left half-buried on the beach is more than a simple souvenir. Talen considers it the entire justification for braving the monster-infested Zoram Strand. Upon its recovery, he reveals that the drowned city holds centuries of forgotten mysteries, and this delicate carving acts as a vital key to understanding what remains hidden beneath the tides.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Talen and why is he alone on the Strand?",
+   "aliases": [
+    "who is talen",
+    "talen lore",
+    "talen ashenvale"
+   ],
+   "answer": "Talen is an elf explorer camping along the southern edge of the Zoram Strand. Driven by historical curiosity, he journeyed to explore the drowned ruins of Zoram, only to be cast ashore when vicious naga ambushed his craft."
+  },
+  {
+   "q": "Where did Talen lose the statuette?",
+   "aliases": [
+    "where is ancient statuette",
+    "statuette location",
+    "find ancient statuette"
+   ],
+   "answer": "Talen lost the carving near the shoreline north of his camp. It rests half-buried in the sand near an overturned boat and a fallen tree along the surf where his vessel was attacked."
+  },
+  {
+   "q": "What is the ancient statuette?",
+   "aliases": [
+    "what is the statuette",
+    "significance of statuette"
+   ],
+   "answer": "It is an ancient night elven relic salvaged from the submerged ruins of Zoram. According to Talen, the carving holds historical and mystical significance, acting as a crucial key to unlocking the drowned city's lingering secrets."
+  },
+  {
+   "q": "Why are there naga at the Zoram Strand?",
+   "aliases": [
+    "why naga here",
+    "zoram strand naga",
+    "naga in ashenvale"
+   ],
+   "answer": "The coastline of Ashenvale contains ancient pre-Sundering elven ruins that sank into the sea ten thousand years ago. Naga have claimed the drowned structures of Zoram as their territory, aggressively patrolling the beaches against outsiders."
+  },
+  {
+   "q": "What happens after returning the statuette?",
+   "aliases": [
+    "what next after statuette",
+    "quest follow up"
+   ],
+   "answer": "Recovering the statuette allows Talen to decipher more of the region's mysteries. However, dealing with the naga threat along the strand requires further action, directing you toward their leader, Ruuzel."
+  },
+  {
+   "q": "Is the statuette guarded?",
+   "aliases": [
+    "is statuette guarded",
+    "enemies near statuette"
+   ],
+   "answer": "The statuette lies along the water's edge in territory crawling with hostile naga warriors and shore-stalking beasts, making its retrieval perilous for lone wanderers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The ruins of Zoram represent lost Kaldorei civilization from before the Great Sundering, making the preservation of artifacts like this statuette a matter of ancestral memory."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance forces pushing through Ashenvale face threats not only from Horde outposts in the east, but from hostile naga staking claim over the western coastline."
+  }
+ ],
+ "keywords": [
+  "ancient statuette",
+  "ashenvale",
+  "naga",
+  "ruins of zoram",
+  "ruuzel",
+  "talen",
+  "zoram strand"
+ ],
+ "related": [
+  "npc:talen",
+  "quest:1009",
+  "subzone:zoram-strand",
+  "topic:naga",
+  "zone:ashenvale",
+  "quest:1008"
+ ],
+ "attribution": [
+  "The Ancient Statuette"
+ ]
+}

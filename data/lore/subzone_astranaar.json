@@ -1,0 +1,93 @@
+{
+ "key": "subzone:astranaar",
+ "type": "subzone",
+ "name": "Astranaar",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Astranaar"
+ },
+ "summary": "Astranaar is the primary Night Elf settlement in central Ashenvale, built across a serene lake island straddling the ancient forest road. Serving as the beating heart of Alliance operations in the region, it provides vital refuge to travelers facing encroaching threats from hostile furbolgs, satyrs, and the Horde.",
+ "sections": [
+  {
+   "title": "Heart of the Forest",
+   "body": "Situated atop an island in the middle of a forest lake, Astranaar stands as the largest night elven settlement in Ashenvale. Connected to the mainland by wooden footbridges spanning the waters, the town houses sentinels, priests, and artisans who keep vigil over the woodlands. In addition to offering basic comforts such as an inn, traders, and an expert leatherworker, its elevated perches host a flight master providing hippogryph travel to distant outposts across Kalimdor.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bastion Under Siege",
+   "body": "Despite its tranquil waters and glowing lanterns, Astranaar exists in a state of perpetual readiness. Local leaders like Raene Wolfrunner coordinate patrols and defensive actions against the corrupted Thistlefur furbolgs encroaching from the north, fearful they may mount a direct assault on the settlement. The town also bears quiet historical sorrow: across the lake in the cemetery lies the resting place of Valstann Staghelm, who fell millennia ago during the War of the Shifting Sands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What services are available in Astranaar?",
+   "aliases": [
+    "astranaar amenities",
+    "what is in astranaar",
+    "astranaar flight master"
+   ],
+   "answer": "Astranaar offers a full suite of amenities for Alliance travelers, including an inn, general goods vendors, an expert leatherworking trainer, and a flight master connecting to key outposts throughout Ashenvale and Kalimdor."
+  },
+  {
+   "q": "Who is buried in the graveyard across the lake?",
+   "aliases": [
+    "astranaar grave",
+    "valstann staghelm grave",
+    "who is buried here"
+   ],
+   "answer": "The cemetery by the lake contains the tomb of Valstann Staghelm, son of Archdruid Fandral Staghelm, who was slain during the ancient War of the Shifting Sands against the Qiraji in Silithus."
+  },
+  {
+   "q": "Why are the Sentinels in Astranaar worried about the local furbolgs?",
+   "aliases": [
+    "thistlefur threat",
+    "why fight furbolgs",
+    "raene wolfrunner quest"
+   ],
+   "answer": "The Thistlefur furbolgs to the north have fallen under dark, corrupting influences. Sentinel Raene Wolfrunner fears that left unchecked, their growing aggression will embolden them to mount an open assault against Astranaar itself."
+  },
+  {
+   "q": "Can Horde players visit Astranaar safely?",
+   "aliases": [
+    "is astranaar friendly to horde",
+    "horde in astranaar"
+   ],
+   "answer": "No. Astranaar is a heavily fortified Alliance stronghold guarded by armed Night Elf Sentinels who will attack Horde members on sight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "For the Kaldorei, Astranaar is the central bastion of their ancient homeland in central Kalimdor, safeguarding sacred groves and housing the grave of fallen hero Valstann Staghelm."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Astranaar serves as the Alliance's command post and primary logistical hub while maneuvering through the contested wilderness of Ashenvale."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "kalimdor",
+  "night elf",
+  "raene wolfrunner",
+  "sentinels",
+  "thistlefur",
+  "valstann staghelm"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "npc:raene-wolfrunner",
+  "quest:1054",
+  "quest:9432",
+  "subzone:forest-song",
+  "subzone:stardust-spire",
+  "topic:furbolg",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Astranaar"
+ ]
+}

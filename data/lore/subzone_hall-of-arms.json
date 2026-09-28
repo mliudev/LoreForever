@@ -1,0 +1,83 @@
+{
+ "key": "subzone:hall-of-arms",
+ "type": "subzone",
+ "name": "Hall of Arms",
+ "era": "classic",
+ "zone": "ironforge",
+ "meta": {
+  "wiki": "Hall of Arms"
+ },
+ "summary": "The Hall of Arms serves as the headquarters of Ironforge's military might and the chief arsenal of the dwarven kingdom. Located within the Military Ward, this fortified compound trains dwarven combatants and orchestrates the deployment of heavy armor and aerial war machines.",
+ "sections": [
+  {
+   "title": "Heart of the Mountain's Arsenal",
+   "body": "Situated in the southeastern corner of the Military Ward, the Hall of Arms is the operational command center for the armed forces of Ironforge. Beyond housing veteran trainers for warriors and hunters, the expansive facility serves as a massive depot and staging ground for mechanized warfare. Heavy steam tanks are assembled and maintained on-site to reinforce Alliance battlefields, while gyrocopters and flying machines are brought up via industrial conveyor belts and launched directly through vertical access shafts in the cavern ceiling toward the Ironforge Airfield above.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Hall of Arms?",
+   "aliases": [
+    "what is hall of arms",
+    "hall of arms role",
+    "why hall of arms exists"
+   ],
+   "answer": "It serves as the headquarters and command center for Ironforge's military forces. It functions as both a training ground for warriors and hunters and a vital depot where war machines like steam tanks and gyrocopters are maintained and deployed."
+  },
+  {
+   "q": "Where do the flying machines launched from the ceiling go?",
+   "aliases": [
+    "ceiling shaft ironforge",
+    "flying machine tunnel",
+    "where do copters go"
+   ],
+   "answer": "Dwarven flying machines are raised by conveyor systems and launched through vertical shafts in the ceiling directly out to the Ironforge Airfield on the mountain slopes above. This chimney is one of the only direct surface exits out of the mountain besides the main gates."
+  },
+  {
+   "q": "Who can I find training inside the Hall?",
+   "aliases": [
+    "trainers in hall of arms",
+    "who teaches here"
+   ],
+   "answer": "The facility houses instructors for warriors and hunters, as well as Alliance battlemasters organizing troop movements and enlistments for wider battlefronts across the continent."
+  },
+  {
+   "q": "Where is the Hall of Arms located?",
+   "aliases": [
+    "hall of arms location",
+    "how to get to hall of arms"
+   ],
+   "answer": "It is located in the southeastern quadrant of Ironforge, anchoring the back of the Military Ward."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves, the Hall of Arms exemplifies Khaz Modan's union of martial discipline and mechanical ingenuity, housing the tanks and aerial squadrons that protect the mountain kingdom."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "The facility functions as the premier gathering ground for dwarven armsmen and veterans in the capital, offering instruction and battlemaster leadership."
+  }
+ ],
+ "keywords": [
+  "battlemasters",
+  "dwarven army",
+  "flying machines",
+  "hall of arms",
+  "ironforge",
+  "military ward",
+  "steam tanks"
+ ],
+ "related": [
+  "subzone:military-ward",
+  "zone:ironforge",
+  "subzone:ironforge-airfield",
+  "topic:alliance",
+  "subzone:command-center"
+ ],
+ "attribution": [
+  "Hall of Arms"
+ ]
+}

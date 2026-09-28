@@ -1,0 +1,80 @@
+{
+ "key": "subzone:slitherblade-shore",
+ "type": "subzone",
+ "name": "Slitherblade Shore",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Slitherblade Shore"
+ },
+ "summary": "Slitherblade Shore stretches along the rugged northwestern coast of Desolace, running from the borders of Stonetalon Mountains down toward Sar'theris Strand. Dominated by hostile Slitherblade naga, the shoreline is littered with sunken shipwrecks and ancient sunken architecture that frames the promontory of Ethel Rethor.",
+ "sections": [
+  {
+   "title": "A Hostile Coastline",
+   "body": "Slitherblade Shore encompasses the windswept tidal sands of northern Desolace, bisected by the high promontory of Ethel Rethor. Off the surf lies Ranazjar Isle, where the serpent-like Slitherblade naga hold dominion under their sea priestesses. Shipwrecks churn in the shallow waters, washed ashore against ancient night elven stonework that sank during the Great Sundering and now slowly re-emerges from the tides.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What creatures inhabit Slitherblade Shore?",
+   "aliases": [
+    "who lives here",
+    "slitherblade shore enemies",
+    "mobs on shore"
+   ],
+   "answer": "The shoreline is heavily overrun by the Slitherblade naga, who patrol the shallows, tidal banks, and sunken ruins along the coast of Desolace."
+  },
+  {
+   "q": "Where does Slitherblade Shore begin and end?",
+   "aliases": [
+    "where is slitherblade shore",
+    "shore boundaries"
+   ],
+   "answer": "The shore extends from the northern cliffs bordering the Stonetalon Mountains down south toward Sar'theris Strand, centered around the ruined promontory of Ethel Rethor."
+  },
+  {
+   "q": "What are all the ruined structures in the water?",
+   "aliases": [
+    "why are there ruins here",
+    "sunken ruins desolace"
+   ],
+   "answer": "The stone pillars and crumbled foundations scattered along the coast and near Ranazjar Isle are the remnants of ancient night elven cities that were swallowed by the Great Sundering ten thousand years ago."
+  },
+  {
+   "q": "Why are there shipwrecks along the beach?",
+   "aliases": [
+    "slitherblade shipwrecks",
+    "broken ships"
+   ],
+   "answer": "The treacherous reefs, unpredictable coastal tides, and aggressive naga presence make this stretch of sea a graveyard for vessels sailing along western Kalimdor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The naga infesting Slitherblade Shore are a bitter reminder of Queen Azshara's cursed legacy, defiling the drowned ruins of your ancient Highborne ancestors."
+  }
+ ],
+ "keywords": [
+  "desolace",
+  "ethel rethor",
+  "naga",
+  "ranazjar isle",
+  "shipwrecks",
+  "slitherblade",
+  "slitherblade shore"
+ ],
+ "related": [
+  "subzone:ethel-rethor",
+  "subzone:ranazjar-isle",
+  "zone:desolace",
+  "subzone:sar-theris-strand",
+  "zone:stonetalon",
+  "topic:naga",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Slitherblade Shore"
+ ]
+}

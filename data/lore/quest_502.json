@@ -1,0 +1,129 @@
+{
+ "key": "quest:502",
+ "type": "quest",
+ "name": "Elixir of Pain",
+ "era": "classic",
+ "zone": "hillsbrad",
+ "meta": {
+  "ids": [
+   502
+  ],
+  "level": "24",
+  "faction": "Horde",
+  "start": "Apothecary Lydon",
+  "end": "Stanley",
+  "previous": "Elixir of Pain (quest)",
+  "next": null,
+  "wiki": "Elixir of Pain (2)",
+  "chain": [
+   "Elixir of Pain (quest)",
+   "Elixir of Pain (2)"
+  ]
+ },
+ "summary": "Commissioned by Apothecary Lydon in Tarren Mill, this quest tasks Horde agents with testing a newly brewed biological concoction known as the Elixir of Pain. The Forsaken apothecary selects Stanley, a pet dog belonging to Farmer Ray in the Hillsbrad Fields, as an unsuspecting test subject.",
+ "sections": [
+  {
+   "title": "Apothecary Science",
+   "body": "Operating out of Tarren Mill, Apothecary Lydon conducts experiments on behalf of the Royal Apothecary Society and Lady Sylvanas Windrunner. Utilizing fresh blood gathered from the local wildlife, Lydon concocts a volatile mixture he dubs the Elixir of Pain. Rather than relying purely on theoretical alchemy, the society requires empirical field data to observe the physiological effects of their experimental poisons and mutagens.",
+   "spoiler": 0
+  },
+  {
+   "title": "Testing on Stanley",
+   "body": "To evaluate the draught without alarming the human defenders of Hillsbrad, Lydon directs his agents to target the northern farm in Hillsbrad Fields. There lives Stanley, a seemingly harmless pet dog kept by Farmer Ray. Approaching the unsuspecting canine with the draft poured into an open hand, the agent administers the dose under the guise of an ordinary treat.",
+   "spoiler": 0
+  },
+  {
+   "title": "Violent Mutation",
+   "body": "The true nature of the Elixir of Pain manifests immediately upon ingestion. Instead of a straightforward lethal toxin, the concoction acts as a horrific mutagen, triggering instantaneous agony and violently warping Stanley's body into a savage, enraged wolf. The beast turns violently on anything nearby, proving the volatile efficacy of Lydon's alchemical formula.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the purpose of the Elixir of Pain?",
+   "aliases": [
+    "elixir of pain goal",
+    "why make elixir of pain",
+    "lydon elixir purpose"
+   ],
+   "answer": "Apothecary Lydon brewed the Elixir of Pain as part of the Royal Apothecary Society's ongoing efforts to engineer biological weapons and potent mutagens for Lady Sylvanas and the Forsaken."
+  },
+  {
+   "q": "Who is Stanley?",
+   "aliases": [
+    "who is stanley",
+    "farmer ray dog",
+    "stanley the dog"
+   ],
+   "answer": "Stanley is a pet dog belonging to Farmer Ray, residing outside the large farmhouse at the northern end of Hillsbrad Fields."
+  },
+  {
+   "q": "What happens when you feed Stanley the elixir?",
+   "aliases": [
+    "stanley transformation",
+    "what does elixir do to dog",
+    "stanley wolf"
+   ],
+   "answer": "Consuming the elixir causes Stanley to mutate violently into a ferocious, rabid wolf that immediately turns hostile and attacks."
+  },
+  {
+   "q": "Where is Stanley located?",
+   "aliases": [
+    "find stanley",
+    "stanley location",
+    "where is farmer ray dog"
+   ],
+   "answer": "Stanley wanders outside the large house on the northern farm within the Hillsbrad Fields, southwest of Tarren Mill."
+  },
+  {
+   "q": "Who gives the quest to test the elixir?",
+   "aliases": [
+    "elixir of pain questgiver",
+    "who gives elixir of pain",
+    "apothecary lydon quest"
+   ],
+   "answer": "Apothecary Lydon, stationed in the Forsaken settlement of Tarren Mill in the Hillsbrad Foothills, offers the quest after you gather the necessary reagents."
+  },
+  {
+   "q": "Why test the potion on a farmer's dog instead of humans?",
+   "aliases": [
+    "why test on dog",
+    "why stanley",
+    "why poison dog"
+   ],
+   "answer": "Testing on a domestic pet in Hillsbrad Fields provides a quiet, accessible trial run without immediately alerting Hillsbrad's town militia or armed guards to the nature of the alchemical trial."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "This experiment highlights the ruthless methodology of the Royal Apothecary Society, which seeks biological weapons to ensure the Forsaken's survival regardless of collateral damage."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Allies of the Forsaken are drawn directly into their grim chemical trials against the neighboring human farmlands of Hillsbrad."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Watching a gentle domestic pet violently warp into a savage, mutated predator illustrates the unnatural perversion of beast nature through Forsaken alchemy."
+  }
+ ],
+ "keywords": [
+  "apothecary lydon",
+  "elixir of pain",
+  "farmer ray",
+  "hillsbrad fields",
+  "royal apothecary society",
+  "stanley",
+  "tarren mill"
+ ],
+ "related": [
+  "npc:stanley",
+  "quest:501",
+  "subzone:hillsbrad-fields",
+  "zone:hillsbrad"
+ ],
+ "attribution": [
+  "Elixir of Pain (2)"
+ ]
+}

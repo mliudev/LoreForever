@@ -1,0 +1,117 @@
+{
+ "key": "npc:senani-thunderheart",
+ "type": "npc",
+ "name": "Senani Thunderheart",
+ "era": "classic",
+ "zone": "ashenvale",
+ "meta": {
+  "wiki": "Senani Thunderheart",
+  "refs": 8
+ },
+ "summary": "Senani Thunderheart is a tauren huntress stationed at Silverwind Refuge on the shores of Mystral Lake in Ashenvale. Serving the Horde, she tests the mettle of passing travelers by challenging them to pursue the fierce wild predators that roam the ancient forest. Through her trials, hunters prove their skill while thinning the deadly beasts prowling near Horde territory.",
+ "sections": [
+  {
+   "title": "The Master of the Hunt",
+   "body": "Found keeping camp at Silverwind Refuge, Senani Thunderheart represents the hunting traditions of the tauren amid the shadowed groves of Ashenvale. Far from the open plains of Mulgore, she directs Horde adventurers to test their tracking and combat prowess against the forest's apex beasts. She views the hunt as both an honorable challenge and a necessary ritual to survive in an untamed, contested land.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Beasts of Ashenvale",
+   "body": "Senani oversees the traditional hunting trials of Ashenvale, directing hunters toward three notorious predators: the bear Ursangous, the cat Shadumbra, and the hippogryph Sharptalon. Claiming their tokens\u2014a paw, a head, and a claw\u2014is a rite of passage that demonstrates a hunter's respect for the land and dominion over its fiercest denizens. In addition to these predatory challenges, she also watches the growing threat of corrupted wildlife and hostile furbolgs encroaching on the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Senani Thunderheart?",
+   "aliases": [
+    "who is senani",
+    "senani thunderheart lore",
+    "silverwind refuge questgiver"
+   ],
+   "answer": "Senani Thunderheart is a tauren huntress and quest giver located at Silverwind Refuge in Ashenvale. She serves the Horde by directing adventurers to hunt the most dangerous wildlife prowling the forest."
+  },
+  {
+   "q": "Where can I find Senani Thunderheart?",
+   "aliases": [
+    "senani location",
+    "where is senani",
+    "where is silverwind refuge"
+   ],
+   "answer": "Senani is stationed at Silverwind Refuge, an encampment on the southeastern bank of Mystral Lake in south-central Ashenvale, just off the main road."
+  },
+  {
+   "q": "What is the Ashenvale Hunt?",
+   "aliases": [
+    "the ashenvale hunt",
+    "what does senani want",
+    "hunting quests ashenvale"
+   ],
+   "answer": "The Ashenvale Hunt is a series of hunting challenges issued by Senani. Hunters are tasked with tracking down and slaying three legendary forest predators: Ursangous the bear, Shadumbra the nightsaber, and Sharptalon the hippogryph."
+  },
+  {
+   "q": "Which trophies does Senani require for the hunt?",
+   "aliases": [
+    "hunt trophies",
+    "ashenvale hunt items",
+    "what does senani need"
+   ],
+   "answer": "She asks hunters to return with Ursangous's Paw, Shadumbra's Head, and Sharptalon's Claw to prove that all three formidable beasts have been bested."
+  },
+  {
+   "q": "Does Senani have any connection to the furbolgs in the area?",
+   "aliases": [
+    "foulweald quest",
+    "king of the foulweald",
+    "senani furbolg"
+   ],
+   "answer": "Yes, Senani tracks threats to the refuge and the nearby roads, offering tasks like confronting the Foulweald furbolg tribe and their leader to prevent them from overrunning the area."
+  },
+  {
+   "q": "Is Senani affiliated with the Cenarion Circle?",
+   "aliases": [
+    "is senani a druid",
+    "senani cenarion circle"
+   ],
+   "answer": "No, Senani is aligned directly with the Horde and the tauren tribes, approaching the woods from the perspective of a traditional hunter rather than a Cenarion druidic guardian."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For tauren travelers, meeting Senani brings a reminder of the Earth Mother's trials, honoring the ancient balance between hunter and quarry even far from Mulgore."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Senani embodies the classic hunter's spirit, testing your tracking skills against Ashenvale's elusive beasts: Ursangous, Shadumbra, and Sharptalon."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Silverwind Refuge serves as a useful waystation in central Ashenvale, where Senani helps Horde scouts prove their worth and secure the wilderness."
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "ashenvale hunt",
+  "mystral lake",
+  "senani",
+  "shadumbra",
+  "sharptalon",
+  "silverwind refuge",
+  "thunderheart",
+  "ursangous"
+ ],
+ "related": [
+  "subzone:silverwind-refuge",
+  "zone:ashenvale",
+  "quest:235",
+  "quest:247",
+  "quest:23",
+  "quest:24",
+  "quest:2",
+  "quest:6621"
+ ],
+ "attribution": [
+  "Senani Thunderheart"
+ ]
+}

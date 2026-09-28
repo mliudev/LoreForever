@@ -1,0 +1,93 @@
+{
+ "key": "subzone:tyr-s-hand",
+ "type": "subzone",
+ "name": "Tyr's Hand",
+ "era": "classic",
+ "zone": "easternplaguelands",
+ "meta": {
+  "wiki": "Tyr's Hand"
+ },
+ "summary": "Tyr's Hand is a heavily fortified human stronghold situated in the southeastern hills of the Eastern Plaguelands. Long revered as an ancient holy site for the Church of the Holy Light, the city now serves as the primary regional bastion and supply hub for the zealous Scarlet Crusade.",
+ "sections": [
+  {
+   "title": "A City of Churches",
+   "body": "Perched defensively in what was once Lordaeron's green Eastweald, Tyr's Hand is one of humanity's most ancient sacred sites. Named in memory of the legendary keeper Tyr, whose sacrifice and silver hand inspired northern legends, the settlement became known as a 'city of churches' as shrines and holy structures were raised across its grounds. Unlike the blight-rotted ruins that litter the rest of the Plaguelands, Tyr's Hand remains remarkably preserved behind formidable masonry, thick walls, and the towering silhouette of the Scarlet Basilica.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fortress of the Scarlet Crusade",
+   "body": "When the Scourge swept through Lordaeron during the Third War, Lord Valdelmar kept the city standing through sheer military vigilance and faith. After the Knights of the Silver Hand shattered into rival factions, Tyr's Hand aligned firmly with the Crimson dawn of the Scarlet Crusade. Today, it operates as an impenetrable base of operations led by High General Brigitte Abbendis and Valdelmar. Elite crusaders train within its abbey, heavily guarded couriers maintain communication with scarlet forces holding Stratholme, and the city ruthlessly rebuffs all outsiders who approach its gates.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the city called Tyr's Hand?",
+   "aliases": [
+    "who is tyr",
+    "tyrs hand name meaning",
+    "origin of tyrs hand"
+   ],
+   "answer": "The city honors the heroic keeper Tyr, a figure of myth among the early northern humans. Legend tells that Tyr lost his hand battling a monstrous beast and replaced it with a hand of silver, inspiring humanity's earliest teachings on sacrifice and righteous justice."
+  },
+  {
+   "q": "Why hasn't the Scourge overrun Tyr's Hand?",
+   "aliases": [
+    "why did tyrs hand survive",
+    "how is tyrs hand not undead",
+    "how does tyrs hand hold out"
+   ],
+   "answer": "Tyr's Hand occupies a natural mountainous chokepoint and is shielded by formidable stone fortifications, barracks, and an abbey. In addition to defensive geography, the Scarlet Crusade maintains an elite, heavily armed standing garrison whose martial zeal and radiant holy magic have successfully repelled relentless Scourge assaults."
+  },
+  {
+   "q": "Are travelers and adventurers welcome in Tyr's Hand?",
+   "aliases": [
+    "can i visit tyrs hand",
+    "is tyrs hand friendly",
+    "are scarlet crusaders friendly here"
+   ],
+   "answer": "No. The Scarlet Crusade has descended into xenophobic paranoia, viewing anyone outside their ranks as potential carriers of the undead plague or secret agents of the Scourge. Outsiders from both the Alliance and the Horde are attacked on sight."
+  },
+  {
+   "q": "What role did the city play during the Second War?",
+   "aliases": [
+    "second war tyrs hand",
+    "peasant revolt tyrs hand"
+   ],
+   "answer": "During the Second War, Alterac provocateurs secretly stoked a peasant revolt within Tyr's Hand to mask an orcish mining outpost nearby. After the Alliance and the Silver Hand subdued the unrest, Horde ogre magi heavily bombarded the city and sacked the neighboring bay to cut Quel'Thalas supply lines."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "For holy warriors, seeing this ancient cradle of the Silver Hand twisted into a bastion of mad, unyielding Scarlet zealotry serves as a stark warning of what faith looks like when untempered by compassion."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The abbey and Scarlet Basilica stand as magnificent architectural marvels of the early Church of the Holy Light, even if the clergy inside have traded pastoral healing for blind crusade."
+  }
+ ],
+ "keywords": [
+  "abbendis",
+  "demetria",
+  "eastweald",
+  "holy light",
+  "scarlet basilica",
+  "scarlet crusade",
+  "tyr's hand",
+  "valdelmar"
+ ],
+ "related": [
+  "subzone:scarlet-basilica",
+  "subzone:tyr-s-hand-abbey",
+  "topic:scarlet-crusade",
+  "topic:church-of-the-holy-light",
+  "topic:knights-of-the-silver-hand",
+  "zone:easternplaguelands",
+  "subzone:stratholme",
+  "topic:scourge"
+ ],
+ "attribution": [
+  "Tyr's Hand"
+ ]
+}

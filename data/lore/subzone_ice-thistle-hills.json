@@ -1,0 +1,82 @@
+{
+ "key": "subzone:ice-thistle-hills",
+ "type": "subzone",
+ "name": "Ice Thistle Hills",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Ice Thistle Hills"
+ },
+ "summary": "The Ice Thistle Hills are a snow-covered highland rise lying just southeast of the goblin outpost of Everlook. Dominated by a rugged cavern system, the area is claimed by ferocious Ice Thistle yetis that threaten any travelers venturing off the main road.",
+ "sections": [
+  {
+   "title": "A Den of White Fur",
+   "body": "Rising sharply out of the central drifts of Winterspring, the Ice Thistle Hills serve as the primary hunting grounds and nesting territory for the valley's aggressive Ice Thistle yetis. Centered around a prominent cave dug deep into the rockface, these hulking beasts roam both the rocky slopes and the winding tunnels within. Because of their proximity to Everlook, the yetis present a constant nuisance and danger to goblin commerce and visiting prospectors, who regularly commission intrepid hunters to cull the beasts for their valuable thick pelts and pristine horns.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Ice Thistle Hills located?",
+   "aliases": [
+    "ice thistle hills location",
+    "where is ice thistle hills",
+    "yeti cave location"
+   ],
+   "answer": "The Ice Thistle Hills are located directly southeast of the goblin trading post of Everlook in central Winterspring."
+  },
+  {
+   "q": "What creatures live here?",
+   "aliases": [
+    "ice thistle monsters",
+    "what is in ice thistle hills",
+    "yeti types"
+   ],
+   "answer": "The slopes and the hill cavern are inhabited almost exclusively by Ice Thistle yetis, monstrous white-furred brutes that aggressively defend their territory."
+  },
+  {
+   "q": "Why do adventurers hunt in the Ice Thistle Hills?",
+   "aliases": [
+    "why kill yetis",
+    "yeti fur winterspring",
+    "ice thistle quest"
+   ],
+   "answer": "Travelers and tradesfolk based in Everlook frequently hire adventurers to collect the thick furs and pristine horns of the Ice Thistle yetis, which are prized for crafting and survival gear in the frigid valley."
+  },
+  {
+   "q": "What resources can be gathered around the hills?",
+   "aliases": [
+    "herbs ice thistle",
+    "mining ice thistle cave"
+   ],
+   "answer": "The outdoor slopes are home to rare alpine herbs such as Icecaps, while the deep recesses of the yeti cave harbor rich mineral deposits, including veins of thorium."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "The dark cavern burrowed into the hill is a dangerous but rewarding destination for seasoned miners seeking rich veins of thorium guarded by yeti packs."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "The freezing slopes surrounding the hills are prime ground for harvesting cold-weather flora like Icecaps, with rare blooms occasionally spotted near the cavern's mouth."
+  }
+ ],
+ "keywords": [
+  "everlook",
+  "ice thistle hills",
+  "ice thistle yetis",
+  "icecaps",
+  "pristine yeti horn",
+  "thick yeti fur",
+  "winterspring",
+  "yeti cave"
+ ],
+ "related": [
+  "subzone:everlook",
+  "zone:winterspring"
+ ],
+ "attribution": [
+  "Ice Thistle Hills"
+ ]
+}

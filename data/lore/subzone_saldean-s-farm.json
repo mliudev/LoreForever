@@ -1,0 +1,93 @@
+{
+ "key": "subzone:saldean-s-farm",
+ "type": "subzone",
+ "name": "Saldean's Farm",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Saldean's Farm"
+ },
+ "summary": "Saldean's Farm is the only homestead in Westfall that has not been completely overrun and abandoned to the Defias Brotherhood. Held by the stubborn Farmer Saldean and his wife Salma, the farmhouse operates as a desperate sanctuary for homeless refugees and orphans fleeing the region's turmoil.",
+ "sections": [
+  {
+   "title": "A Beacon in the Dust",
+   "body": "While neighboring lands fell to banditry and mechanical sabotage, the Saldean family refused to abandon their soil. Farmer Saldean and his wife Salma have turned their homestead into an informal halfway house, offering shelter and hot food to displaced vagrants, drifters, and orphans pushed out of Stormwind and the surrounding countryside. Despite their resilience, the fields remain plagued by rogue harvest golems deployed across the plains, forcing the family and their guests to stay close to the farmhouse walls.",
+   "spoiler": 0
+  },
+  {
+   "title": "Holding the Line",
+   "body": "Because the Stormwind crown has largely neglected Westfall, law enforcement here is thin. A handful of Sentinel Hill and Stormwind guards patrol the periphery, but the farm survives primarily through sheer grit and the aid of passing travelers. For the destitute souls huddled on the porch, Salma's famous liver pie and the shelter of the barn are the only barriers standing between them and starvation or death at the hands of the Defias.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this farm still standing when the others fell?",
+   "aliases": [
+    "why not overrun",
+    "saldean farm survival",
+    "how is the farm alive"
+   ],
+   "answer": "Farmer Saldean and his wife simply refused to pack up and flee when the Defias Brotherhood swept through Westfall. Though hostile harvest golems prowl their crops, the family stubbornly defends the immediate perimeter with the help of passing militia and adventurers."
+  },
+  {
+   "q": "Who are all the people gathered around the house?",
+   "aliases": [
+    "refugees at saldean",
+    "homeless westfall",
+    "orphans at farm"
+   ],
+   "answer": "The farm functions as a refuge and halfway house for transients, homeless Stormwind citizens, and orphans displaced by the region's collapse. Salma Saldean does her best to keep them fed and alive."
+  },
+  {
+   "q": "Why are mechanical golems attacking the fields?",
+   "aliases": [
+    "harvest golems",
+    "why are robots in crops",
+    "mechanical scarecrows"
+   ],
+   "answer": "The Defias Brotherhood repurposed the region's mechanical harvest reapers and golems into deadly sentries. They roam the fields attacking anyone who attempts to cultivate or clear the land."
+  },
+  {
+   "q": "Is the Stormwind Army protecting the farm?",
+   "aliases": [
+    "stormwind military presence",
+    "sentinel hill guards here",
+    "guard support"
+   ],
+   "answer": "Official military presence is practically nonexistent. A few scattered guards from Sentinel Hill and Stormwind provide minimal watch, but the crown has largely left Westfall's defense to local initiative."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Saldean's Farm represents the raw, failing edge of the kingdom's frontier, exposing how deeply ordinary citizens suffer when Stormwind's leadership is distracted."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Salma Saldean is renowned among travelers for turning scavenged Westfall ingredients into hearty, lifesaving dishes like Goretusk Liver Pie."
+  }
+ ],
+ "keywords": [
+  "farmer saldean",
+  "halfway house",
+  "harvest golem",
+  "refugees",
+  "saldean",
+  "salma saldean",
+  "westfall"
+ ],
+ "related": [
+  "npc:farmer-saldean",
+  "npc:salma-saldean",
+  "zone:westfall",
+  "subzone:sentinel-hill",
+  "topic:defias-brotherhood",
+  "topic:stormwind-kingdom",
+  "topic:stormwind-guard",
+  "quest:65"
+ ],
+ "attribution": [
+  "Saldean's Farm"
+ ]
+}

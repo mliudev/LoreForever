@@ -1,0 +1,77 @@
+{
+ "key": "subzone:beryl-egress",
+ "type": "subzone",
+ "name": "Beryl Egress",
+ "era": "classic",
+ "zone": "winterspring",
+ "meta": {
+  "wiki": "Beryl Egress"
+ },
+ "summary": "Beryl Egress is a cold encampment tucked against the cliffs outside the subterranean caverns of Mazthoril in Winterspring. It serves as a redoubt for displaced members of the blue dragonflight who have been driven from their ancestral roosts. From here, the dragon Haleh oversees efforts to reclaim their home from dark intruders.",
+ "sections": [
+  {
+   "title": "Refuge of the Blue Flight",
+   "body": "Perched on the icy ledges of southern Winterspring, Beryl Egress marks the staging point for the blue dragons displaced from Mazthoril below. Rather than roaming freely across the peaks or tending their sacred clutch-sites, the surviving drakes and whelps gather here under the watchful eye of Haleh. Their primary concern is the corruption and seizure of their home cavern by Umbranse the Spiritspeaker and his followers, leaving this bitter encampment as the blue flight's fragile foothold in the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Beryl Egress?",
+   "aliases": [
+    "beryl egress",
+    "what is this camp",
+    "blue dragon camp winterspring"
+   ],
+   "answer": "Beryl Egress is an encampment located just outside the cave of Mazthoril in southern Winterspring. It serves as a refuge and staging ground for blue dragons driven out of their subterranean territory."
+  },
+  {
+   "q": "Who leads the encampment at Beryl Egress?",
+   "aliases": [
+    "who is in charge here",
+    "haleh",
+    "beryl egress leader"
+   ],
+   "answer": "The camp is led by Haleh, a wyrm of the blue dragonflight. She coordinates the flight's presence in the area and plans the retaking of Mazthoril."
+  },
+  {
+   "q": "Why are the blue dragons camped outside Mazthoril?",
+   "aliases": [
+    "why are dragons outside",
+    "what happened to mazthoril",
+    "why did dragons leave mazthoril"
+   ],
+   "answer": "They were forced out of Mazthoril after the cave fell under the influence of Umbranse the Spiritspeaker. Unable to secure their home, the surviving dragons established Beryl Egress as a fallback position."
+  },
+  {
+   "q": "Who is Umbranse the Spiritspeaker?",
+   "aliases": [
+    "umbranse",
+    "who took mazthoril",
+    "who is umbranse"
+   ],
+   "answer": "Umbranse is a powerful figure who usurped control of the caves of Mazthoril, driving out Haleh and the blue flight and holding the cavern against them."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The blue dragonflight represents the guardians of arcane magic, making their displacement at Beryl Egress a notable concern for any practitioner of the arcane arts."
+  }
+ ],
+ "keywords": [
+  "beryl egress",
+  "blue dragonflight",
+  "haleh",
+  "mazthoril",
+  "umbranse",
+  "winterspring"
+ ],
+ "related": [
+  "subzone:mazthoril",
+  "zone:winterspring"
+ ],
+ "attribution": [
+  "Beryl Egress"
+ ]
+}

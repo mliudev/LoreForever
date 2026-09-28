@@ -1,0 +1,83 @@
+{
+ "key": "subzone:pools-of-arlithrien",
+ "type": "subzone",
+ "name": "Pools of Arlithrien",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Pools of Arlithrien"
+ },
+ "summary": "The Pools of Arlithrien are a cluster of secluded springs resting in western Teldrassil, just south of the gates to Darnassus. Once a tranquil retreat centered around a sacred moonwell, the area has fallen into neglect and danger as local wildlife and nearby hostile Gnarlpine furbolgs encroached upon it.",
+ "sections": [
+  {
+   "title": "A Troubled Sanctuary",
+   "body": "Tucked along the shaded boughs south of Darnassus, the Pools of Arlithrien were originally meant to be a quiet place of natural harmony. At their heart lies a stone moonwell, a vessel for the waters imbued with the grace of Elune. Yet despite its proximity to the night elven capital, the sanctuary has become perilous. Agitated beasts roam the shallows, and the persistent hostility of the displaced Gnarlpine furbolgs forced the night elves to abandon routine upkeep of the site, leaving a peaceful wonder shadowed by the island's growing malaise.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Pools of Arlithrien located?",
+   "aliases": [
+    "pools of arlithrien location",
+    "where is arlithrien",
+    "arlithrien map"
+   ],
+   "answer": "The pools are nestled in the western reaches of Teldrassil, located just south of the main bridge and entryway into the capital city of Darnassus."
+  },
+  {
+   "q": "Why was the moonwell here abandoned?",
+   "aliases": [
+    "why abandoned",
+    "arlithrien moonwell abandoned",
+    "empty moonwell"
+   ],
+   "answer": "The night elves withdrew from actively tending the moonwell due to mounting danger. Hostile Gnarlpine furbolgs established a threatening presence nearby, and aggressive forest wildlife overran the surrounding waters."
+  },
+  {
+   "q": "What threats can travelers find at the pools?",
+   "aliases": [
+    "arlithrien monsters",
+    "pools of arlithrien mobs",
+    "enemies at pools"
+   ],
+   "answer": "Travelers wandering near the pools must contend with aggressive woodland creatures that have taken over the waters, alongside the looming risk posed by nearby territorial Gnarlpine furbolgs."
+  },
+  {
+   "q": "Can players still use the moonwell at the Pools of Arlithrien?",
+   "aliases": [
+    "use arlithrien moonwell",
+    "is moonwell active",
+    "water at pools"
+   ],
+   "answer": "Yes. Though untended and abandoned by the priesthood and druids due to local dangers, the moonwell itself still holds its sacred waters and remains a functional source of lunar essence."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The abandonment of a holy moonwell so close to Darnassus is a troubling reminder to night elves of the corruption and disruption creeping across Teldrassil."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids studying the imbalances of Teldrassil see the unruly wildlife and the neglected moonwell here as another sign that the Great Tree lacks nature's true blessing."
+  }
+ ],
+ "keywords": [
+  "arlithrien",
+  "darnassus",
+  "furbolg",
+  "gnarlpine",
+  "moonwell",
+  "pools of arlithrien",
+  "teldrassil"
+ ],
+ "related": [
+  "zone:teldrassil",
+  "zone:darnassus",
+  "topic:furbolg"
+ ],
+ "attribution": [
+  "Pools of Arlithrien"
+ ]
+}

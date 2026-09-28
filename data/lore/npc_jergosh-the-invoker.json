@@ -1,0 +1,111 @@
+{
+ "key": "npc:jergosh-the-invoker",
+ "type": "npc",
+ "name": "Jergosh the Invoker",
+ "era": "classic",
+ "zone": "ragefire",
+ "meta": {
+  "wiki": "Jergosh the Invoker",
+  "refs": 5
+ },
+ "summary": "Jergosh the Invoker is a treacherous orc warlock hiding deep within Ragefire Chasm beneath Orgrimmar. As a high-ranking leader among the Searing Blade cultists, he practices demonic arts directly under the Warchief's nose and plots against the Horde.",
+ "sections": [
+  {
+   "title": "A Cult Beneath the City",
+   "body": "While Thrall works tirelessly to lead the orcs along a path of honor and shamanism, Jergosh rejected these ideals in favor of raw demonic power. Concealing himself within the subterranean labyrinth of Ragefire Chasm beneath Orgrimmar, he gathered followers into the Searing Blade, an insidious sect aligned with the remnants of the Shadow Council. Operating in the shadows directly below the Horde capital, Jergosh works to undo everything the new Horde stands for.",
+   "spoiler": 0
+  },
+  {
+   "title": "Demonic Ambitions",
+   "body": "Jergosh's presence in the chasm is far from aimless wandering. His dark rituals and dangerous schemes eventually grew bold enough to attract the direct scrutiny of Thrall himself. Among his sinister possessions is the Blood Filled Orb, a potent artifact tied to the summoning of demonic terrors such as Zelemar the Wrathful. Jergosh represents an existential infection within Durotar, reminding the Horde of the dark pacts they fought so desperately to leave behind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jergosh the Invoker?",
+   "aliases": [
+    "who is jergosh",
+    "jergosh lore",
+    "jergosh ragefire"
+   ],
+   "answer": "Jergosh the Invoker is a powerful orc warlock and a leader of the Searing Blade cultists operating within Ragefire Chasm. Rather than following Thrall's honorable path, he chose to embrace demonic sorcery."
+  },
+  {
+   "q": "Why is Jergosh hiding in Ragefire Chasm?",
+   "aliases": [
+    "why is jergosh under orgrimmar",
+    "jergosh location lore"
+   ],
+   "answer": "Ragefire Chasm provides the Searing Blade with a secluded network of fiery caverns directly beneath Orgrimmar. From there, Jergosh and his cultists can practice forbidden dark magic and conspire against the Horde undetected."
+  },
+  {
+   "q": "What faction does Jergosh belong to?",
+   "aliases": [
+    "jergosh faction",
+    "is jergosh shadow council",
+    "searing blade leader"
+   ],
+   "answer": "Jergosh is a leader within the Searing Blade, a cult linked to the Shadow Council and devoted to serving demonic interests like the Burning Legion."
+  },
+  {
+   "q": "Does Thrall know Jergosh is beneath Orgrimmar?",
+   "aliases": [
+    "thrall jergosh",
+    "does thrall know about ragefire"
+   ],
+   "answer": "Yes. Jergosh's plots grew dangerous enough that rumors reached Thrall, leading the Warchief to dispatch trusted adventurers into the chasm to eliminate the cultist menace."
+  },
+  {
+   "q": "What is the Blood Filled Orb Jergosh guards?",
+   "aliases": [
+    "blood filled orb",
+    "zelemar summoning orb"
+   ],
+   "answer": "The Blood Filled Orb is a dark ritual focus held by Jergosh. Warlocks undertaking specific trials can use it to summon the demon Zelemar the Wrathful."
+  },
+  {
+   "q": "Why does Jergosh practice fel magic instead of shamanism?",
+   "aliases": [
+    "why warlock",
+    "jergosh fel magic"
+   ],
+   "answer": "Jergosh willingly turned his back on the spiritual resurgence of his people, rejecting shamanistic harmony to chase the intoxicating power promised by the Burning Legion and dark arts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Jergosh represents the lingering poison of the old Horde\u2014the temptation of demonic blood and sorcery that Thrall strives to purge from orcish culture."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "For warlocks, Jergosh is both a dark mentor figure to surpass and the guardian of the Blood Filled Orb needed to summon Zelemar the Wrathful."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Having a Shadow Council cell thriving beneath the chieftain's throne room is an intolerable security threat that the Horde cannot afford to ignore."
+  }
+ ],
+ "keywords": [
+  "blood filled orb",
+  "invoker",
+  "jergosh",
+  "orgrimmar",
+  "ragefire chasm",
+  "searing blade",
+  "shadow council",
+  "warlock",
+  "zelemar"
+ ],
+ "related": [
+  "zone:ragefire",
+  "topic:shadow-council",
+  "npc:thrall",
+  "quest:9692",
+  "topic:burning-legion"
+ ],
+ "attribution": [
+  "Jergosh the Invoker"
+ ]
+}

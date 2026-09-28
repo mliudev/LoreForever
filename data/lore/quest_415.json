@@ -1,0 +1,123 @@
+{
+ "key": "quest:415",
+ "type": "quest",
+ "name": "Rejold's New Brew",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   415
+  ],
+  "level": "10",
+  "faction": "Alliance",
+  "start": "Tharek BlackstonePilot Bellowfiz",
+  "end": "Rejold Barleybrew",
+  "previous": null,
+  "next": "Shimmer Stout (quest)",
+  "wiki": "Rejold's New Brew",
+  "chain": [
+   "Rejold's New Brew",
+   "Shimmer Stout (quest)",
+   "Stout to Kadrell"
+  ]
+ },
+ "summary": "Rejold's New Brew is an Alliance errand in Dun Morogh summoning an adventurer back to Brewnall Village. Having perfected a new concoction using gathered Shimmerweed, brewmaster Rejold Barleybrew wants a trusted friend to sample his latest recipe. It serves as the bridge between gathering brewing supplies and distributing his prized Shimmer Stout across the mountain realm.",
+ "sections": [
+  {
+   "title": "A Summons to Brewnall",
+   "body": "Word spreads quickly through Dun Morogh when a dwarven brewer strikes gold in his cellar. After securing Shimmerweed from the bitter slopes, local contacts like Tharek Blackstone or Pilot Bellowfiz urge passing adventurers to report back to Brewnall Village. Rejold Barleybrew has finished fermenting his experimental batches and is eager to share the spoils with the traveler who made it possible.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tasting the Fruit of Labor",
+   "body": "Brewnall Village thrives on distinct ale craft, and Barleybrew's newest batch is no ordinary draught. Infusing local herbs into his mash produced a distinct beverage known as Shimmer Stout. Before shipping barrels off to neighboring outposts and thirsty patrons in Loch Modan, Rejold insists that the adventurer who risked life and limb for the herbs gets the honor of the inaugural sip.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me back to Rejold Barleybrew?",
+   "aliases": [
+    "who starts rejolds new brew",
+    "quest giver",
+    "where to get quest"
+   ],
+   "answer": "Allies stationed out in Dun Morogh, such as Tharek Blackstone or Pilot Bellowfiz, inform you that Rejold is asking for your presence back at Brewnall Village."
+  },
+  {
+   "q": "Where is Brewnall Village?",
+   "aliases": [
+    "where is brewnall",
+    "brewnall village location",
+    "rejold barleybrew location"
+   ],
+   "answer": "Brewnall Village sits nestled in the western reaches of Dun Morogh, along the shores of the frozen Iceflow Lake."
+  },
+  {
+   "q": "What is Rejold's new drink made of?",
+   "aliases": [
+    "what is in the brew",
+    "what did rejold make",
+    "shimmerweed recipe"
+   ],
+   "answer": "Rejold brewed his new concoction by incorporating wild Shimmerweed, a peculiar native flora found in the chilly crags of Dun Morogh, into his traditional ale recipes."
+  },
+  {
+   "q": "What happens after I speak to Rejold?",
+   "aliases": [
+    "next quest",
+    "what comes next",
+    "rejold chain"
+   ],
+   "answer": "Rejold offers you a sample of his new creation and then tasks you with bringing a barrel of Shimmer Stout out into the field to deliver to Mountaineer Kadrell."
+  },
+  {
+   "q": "Why does Rejold want me specifically to try it?",
+   "aliases": [
+    "why does rejold want me",
+    "who tested the beer"
+   ],
+   "answer": "Because you assisted him in obtaining the rare Shimmerweed needed for the experimental recipe, Rejold considers it proper dwarven courtesy to let you sample the final result first."
+  },
+  {
+   "q": "What is the name of the final beverage?",
+   "aliases": [
+    "what drink did he make",
+    "drink name",
+    "rejold's beer"
+   ],
+   "answer": "The experimental blend becomes known as Shimmer Stout, named after the key ingredient that gives it its distinct kick."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For a dwarf, there is hardly a higher honor than being personally summoned by a respected brewmaster to take the first pull from a fresh cask."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Hearty dwarven ales fuel Alliance garrisons throughout the Eastern Kingdoms, keeping spirits high in harsh frontier outposts like Dun Morogh."
+  }
+ ],
+ "keywords": [
+  "ale",
+  "brew",
+  "brewnall village",
+  "dun morogh",
+  "pilot bellowfiz",
+  "rejold barleybrew",
+  "shimmer stout",
+  "shimmerweed",
+  "tharek blackstone"
+ ],
+ "related": [
+  "npc:rejold-barleybrew",
+  "subzone:brewnall-village",
+  "quest:413",
+  "quest:414",
+  "zone:dunmorogh"
+ ],
+ "attribution": [
+  "Rejold's New Brew"
+ ]
+}

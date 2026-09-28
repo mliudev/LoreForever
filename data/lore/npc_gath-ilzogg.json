@@ -1,0 +1,105 @@
+{
+ "key": "npc:gath-ilzogg",
+ "type": "npc",
+ "name": "Gath'Ilzogg",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "wiki": "Gath'Ilzogg",
+  "refs": 0
+ },
+ "summary": "General Gath'Ilzogg is the fearsome Blackrock orc warlord who commands the invasion force occupying Stonewatch Keep in the Redridge Mountains. Under his brutal leadership, the orcs seized the fortress and launched devastating raids against the town of Lakeshire, earning him an urgent bounty from the town's desperate magistrate.",
+ "sections": [
+  {
+   "title": "The Scourge of Stonewatch",
+   "body": "Gath'Ilzogg marched south out of the Burning Steppes under orders to secure Redridge for the Blackrock clan. Aided by the foul sorcery of the renegade human warlock Morganth, Gath'Ilzogg's warband battered the defenders of Stonewatch Keep and seized the high ground overlooking the entire region. From this entrenched redoubt, he oversees aggressive raids into the valleys and down toward the bridge of Lakeshire, steadily suffocating the human settlement. He rarely fights alone, keeping elite Blackrock guards and a vicious black dragon whelp named Singe close at hand.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Fragile Hold",
+   "body": "Despite his conquest of Stonewatch, Gath'Ilzogg's victory created new complications. Morganth quickly turned on his former orcish allies, raising an army of Shadowhide gnolls under Lieutenant Fangore that prey on Blackrock patrols and human travelers alike. Concurrently, Magistrate Solomon placed an open bounty on the warlord's head, pleading for any Alliance mercenaries or adventurers to scale the ramparts of Stonewatch Keep and end Gath'Ilzogg's terror before the town falls entirely.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gath'Ilzogg?",
+   "aliases": [
+    "gath'ilzogg lore",
+    "who is gathilzogg",
+    "blackrock boss redridge"
+   ],
+   "answer": "Gath'Ilzogg is an orc warlord belonging to the Blackrock clan. He leads the vanguard that invaded Redridge and successfully captured Stonewatch Keep from the Alliance."
+  },
+  {
+   "q": "Where can Gath'Ilzogg be found?",
+   "aliases": [
+    "gath'ilzogg location",
+    "where is gathilzogg",
+    "find gathilzogg"
+   ],
+   "answer": "He is entrenched at the very top of Stonewatch Keep, located in the eastern crags of the Redridge Mountains."
+  },
+  {
+   "q": "Why does Gath'Ilzogg have a dragon whelp?",
+   "aliases": [
+    "why whelp next to gathilzogg",
+    "singe dragon",
+    "black dragon whelp gathilzogg"
+   ],
+   "answer": "Gath'Ilzogg is accompanied by a black dragon whelp named Singe, widely believed to be a gift from Lord Victor Nefarius to reward the warlord for successfully seizing Stonewatch Keep."
+  },
+  {
+   "q": "Why is there a bounty on his head?",
+   "aliases": [
+    "wanted gath'ilzogg",
+    "who wants gathilzogg dead",
+    "magistrate solomon bounty"
+   ],
+   "answer": "Magistrate Solomon of Lakeshire posted a high-priority bounty for Gath'Ilzogg's head because the warlord's constant raids and occupation of Stonewatch directly threaten Lakeshire with complete destruction."
+  },
+  {
+   "q": "What happened between Gath'Ilzogg and Morganth?",
+   "aliases": [
+    "morganth gathilzogg alliance",
+    "why are gnolls attacking orcs",
+    "morganth betrayal"
+   ],
+   "answer": "The human warlock Morganth initially aided Gath'Ilzogg with dark magic to conquer Stonewatch. However, once the fortress fell, Morganth betrayed the orcs and raised an army of Shadowhide gnolls to attack both humanity and the Blackrock clan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Taking down Gath'Ilzogg breaks the backbone of the Blackrock offensive threatening Lakeshire and answers the desperate call of Magistrate Solomon."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Gath'Ilzogg represents the old, warmongering ways of the Blackrock clan under the Dark Horde, wholly separate from Thrall's new Horde in Kalimdor."
+  }
+ ],
+ "keywords": [
+  "blackrock",
+  "gath'ilzogg",
+  "gathilzogg",
+  "lakeshire",
+  "morganth",
+  "singe",
+  "solomon",
+  "stonewatch",
+  "stonewatch keep"
+ ],
+ "related": [
+  "quest:169",
+  "subzone:stonewatch-keep",
+  "subzone:stonewatch",
+  "npc:magistrate-solomon",
+  "quest:249",
+  "topic:blackrock-clan",
+  "subzone:lakeshire",
+  "zone:redridge"
+ ],
+ "attribution": [
+  "Gath'Ilzogg"
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "key": "quest:219",
+ "type": "quest",
+ "name": "Missing In Action",
+ "era": "classic",
+ "zone": "redridge",
+ "meta": {
+  "ids": [
+   219
+  ],
+  "level": "25",
+  "faction": "Alliance",
+  "start": "Corporal Keeshan",
+  "end": "Marshal Marris",
+  "previous": null,
+  "next": null,
+  "wiki": "Missing In Action",
+  "chain": []
+ },
+ "summary": "Missing In Action is an Alliance escort mission in the Redridge Mountains to rescue Corporal Keeshan from Blackrock orc captivity. After his regiment was wiped out in the hills, Keeshan was knocked unconscious and dragged into a cave fortress. Guiding the wounded soldier safely back to Lakeshire helps the local garrison confirm the grim fate of their missing men.",
+ "sections": [
+  {
+   "title": "A Regiment Overrun",
+   "body": "The Redridge Mountains have grown increasingly perilous as Blackrock orcs descend from the northern peaks. Patrols sent out by the town guard frequently run into ambushes, and Corporal Keeshan's unit suffered the worst of it. Outnumbered and overwhelmed, most of the soldiers in his regiment were cut down on the spot. Keeshan survived only because a crushing blow knocked him cold before he could be executed, allowing the orcs to drag him back to their cave as a prisoner.",
+   "spoiler": 0
+  },
+  {
+   "title": "Escape from the Caves",
+   "body": "Battered, concussed, and held deep within enemy territory, Keeshan could not make the trek back down the mountain alone. Escorting him down to the safety of Lakeshire takes him past swarming orc warbands that occupy the ridgelines. Reaching Town Hall alive brings sorely needed relief to Marshal Marris, who has been trying to piece together what happened to the missing regiment while bracing Lakeshire for further attacks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Corporal Keeshan?",
+   "aliases": [
+    "corporal keeshan",
+    "who is keeshan",
+    "keeshan lore"
+   ],
+   "answer": "Corporal Keeshan is an Alliance infantryman stationed in the Redridge Mountains. During a patrol in the rocky hills, his regiment was overwhelmed by Blackrock orcs, leaving him the sole known survivor before he was dragged away into captivity."
+  },
+  {
+   "q": "Where was Corporal Keeshan captured?",
+   "aliases": [
+    "where is keeshan",
+    "keeshan location",
+    "keeshan cave"
+   ],
+   "answer": "He is held captive deep inside an orc-infested cave in the northern hills of Redridge, surrounded by hostile Blackrock warriors."
+  },
+  {
+   "q": "What happened to the rest of Keeshan's unit?",
+   "aliases": [
+    "keeshan squad",
+    "what happened to the regiment",
+    "keeshan men"
+   ],
+   "answer": "According to Keeshan, the Blackrock orcs ambushed and overpowered his regiment, killing nearly all of the men during the initial skirmish."
+  },
+  {
+   "q": "Who sends players to rescue Keeshan?",
+   "aliases": [
+    "who starts missing in action",
+    "quest giver",
+    "where to pick up missing in action"
+   ],
+   "answer": "The quest begins directly with Corporal Keeshan himself inside his prison cave when Alliance adventurers discover and liberate him."
+  },
+  {
+   "q": "Where does Keeshan go after being freed?",
+   "aliases": [
+    "turn in missing in action",
+    "where does keeshan run",
+    "keeshan destination"
+   ],
+   "answer": "He must be escorted down the mountainside to the town of Lakeshire, where he reports in to Marshal Marris at the town hall."
+  },
+  {
+   "q": "Why are the Blackrock orcs in Redridge?",
+   "aliases": [
+    "blackrock orcs redridge",
+    "why orcs in lakeshire",
+    "blackrock invasion"
+   ],
+   "answer": "The Blackrock clan pushes south from their strongholds in the Burning Steppes into Redridge, threatening the poorly reinforced settlement of Lakeshire and ambushing Kingdom patrols."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Lakeshire's garrison is strained to the breaking point, making every rescued soldier vital for the Kingdom's defenses against the Blackrock clan."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Breaking Keeshan out of an armed orc encampment requires holding the frontline against waves of relentless Blackrock attackers while shielding a concussed comrade."
+  }
+ ],
+ "keywords": [
+  "blackrock orcs",
+  "corporal keeshan",
+  "escort",
+  "keeshan",
+  "lakeshire",
+  "marshal marris",
+  "missing in action",
+  "redridge"
+ ],
+ "related": [
+  "npc:marshal-marris",
+  "zone:redridge",
+  "topic:alliance"
+ ],
+ "attribution": [
+  "Missing In Action"
+ ]
+}

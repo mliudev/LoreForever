@@ -1,0 +1,84 @@
+{
+ "key": "subzone:old-port-authority",
+ "type": "subzone",
+ "name": "Old Port Authority",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Old Port Authority"
+ },
+ "summary": "The Old Port Authority is a bustling, multi-vendor warehouse nestled along the boardwalks of Booty Bay. While goblin construction crews constantly patch its weathered roof, travelers inside browse everything from exotic pets and firearms to hearty rations and first aid supplies.",
+ "sections": [
+  {
+   "title": "Commerce Beneath a Leaky Roof",
+   "body": "Perched inside the pirate haven of Booty Bay, the Old Port Authority serves as an indoor marketplace divided into distinct stalls. While goblin builders hammer away at the rooftop overhead, the interior buzzes with brisk commerce. Merchants hawk general adventuring supplies, firearms, food, and bandaging services to scoundrels and privateers alike. It also houses exotic imports, offering colorful birds and nautical oddities straight off the docks to anyone with coin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Old Port Authority?",
+   "aliases": [
+    "what is this building",
+    "booty bay warehouse",
+    "port authority booty bay"
+   ],
+   "answer": "It is a prominent commercial warehouse in Booty Bay partitioned into several market stalls. Adventurers and buccaneers visit it to purchase food, ammunition, first aid goods, and trade sundries beneath a roof under near-constant goblin repair."
+  },
+  {
+   "q": "Why are goblins working on the roof?",
+   "aliases": [
+    "why construction on roof",
+    "goblin roof repair",
+    "roof workers"
+   ],
+   "answer": "The damp, salty sea air of Stranglethorn Vale constantly erodes Booty Bay's wooden structures. Goblin construction crews can frequently be found hammering away at the timber rafters to keep the bustling market sheltered."
+  },
+  {
+   "q": "What shops are found inside?",
+   "aliases": [
+    "vendors inside",
+    "shops in port authority",
+    "what can i buy here"
+   ],
+   "answer": "The warehouse contains five distinct merchant stalls: Nautical Needs, Good Food, Swift Flights, Boomstick Imports East, and Cuts-N-Bruises Incorporated, covering rations, weapons, pet birds, and basic provisions."
+  },
+  {
+   "q": "Can you buy pets here?",
+   "aliases": [
+    "pet vendor booty bay",
+    "parrots booty bay",
+    "nautical needs vendor"
+   ],
+   "answer": "Yes. Inside Nautical Needs, travelers can acquire exotic avian companions such as cockatiels and Senegal parrots, popular sidekicks among the local sailors and privateers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The merchants at Boomstick Imports East make this building a dependable stop to restock shot and powder before setting out into the deep jungles of Stranglethorn."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary travelers can stop by Good Food to pick up regional cooking ingredients and provisions brought in by passing trading vessels."
+  }
+ ],
+ "keywords": [
+  "blackwater cartel",
+  "boomstick imports",
+  "booty bay",
+  "cuts-n-bruises",
+  "goblin construction",
+  "nautical needs",
+  "old port authority",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "zone:stranglethorn",
+  "topic:goblin"
+ ],
+ "attribution": [
+  "Old Port Authority"
+ ]
+}

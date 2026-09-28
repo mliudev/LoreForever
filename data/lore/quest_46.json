@@ -1,0 +1,126 @@
+{
+ "key": "quest:46",
+ "type": "quest",
+ "name": "Bounty on Murlocs",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   46
+  ],
+  "level": "",
+  "faction": "Alliance",
+  "start": "Bounty Board",
+  "end": "Guard Thomas",
+  "previous": null,
+  "next": null,
+  "wiki": "Bounty on Murlocs",
+  "chain": []
+ },
+ "summary": "The Stormwind Army has issued a public bounty on the murloc tribes spreading through eastern Elwynn Forest. With the garrison stretched thin, Guard Thomas relies on traveling adventurers to cull the shoreline encampments around Stone Cairn Lake and the southern waterways before they overrun the region's farms and roads.",
+ "sections": [
+  {
+   "title": "A Threat on the Waterways",
+   "body": "While Elwynn Forest's western roads are comparatively secure, the waters of the east harbor an escalating amphibious infestation. Murloc lurkers and foragers have established aggressive shoreline settlements around Stone Cairn Lake and along the fork of the southern streams. What initially seemed like a minor nuisance has rapidly turned into a territorial expansion, with armed murlocs attacking travelers and encroaching upon human settlements.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stretched Defenses",
+   "body": "Stationed at the eastern bridge bordering the Redridge Mountains, Guard Thomas finds himself caught between external perils and local disorder. With King Varian Wrynn missing and Stormwind's military command bogged down in bureaucratic paralysis, town garrisons rarely receive the reinforcements they request. Marshal Dughan and local officers have turned to official bounties, trading coin for severed fins to stem the aquatic tide.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is there a bounty on murlocs in Elwynn?",
+   "aliases": [
+    "why kill murlocs",
+    "murloc bounty reason",
+    "why bounty on murlocs"
+   ],
+   "answer": "The murlocs have established growing encampments at Stone Cairn Lake and the southern streams of eastern Elwynn. Their foraging parties threaten nearby farms, roads, and travelers, compelling the Stormwind Army to pay adventurers to cull their numbers."
+  },
+  {
+   "q": "Who is paying for the bounty?",
+   "aliases": [
+    "who rewards this quest",
+    "who pays the bounty",
+    "stormwind army bounty"
+   ],
+   "answer": "The bounty is financed by the Stormwind Army through Goldshire's command under Marshal Dughan, with Guard Thomas serving as the field contact paying out travelers stationed at the eastern river crossing."
+  },
+  {
+   "q": "Where are the murloc settlements located?",
+   "aliases": [
+    "murloc locations elwynn",
+    "where are elwynn murlocs",
+    "stone cairn lake murlocs"
+   ],
+   "answer": "The main colonies reside along the shores and islands of Stone Cairn Lake to the north, as well as along the riverbanks to the south where the eastern stream forks."
+  },
+  {
+   "q": "Why can't the Stormwind guards handle this themselves?",
+   "aliases": [
+    "why guard thomas needs help",
+    "why aren't guards fighting murlocs",
+    "guard shortage elwynn"
+   ],
+   "answer": "Stormwind's military is severely overstretched across the kingdom due to political strife, missing leadership, and banditry. Outposts like Guard Thomas's bridge have only a handful of men, leaving them unable to mount sustained offensive assaults on shoreline tribes."
+  },
+  {
+   "q": "What proof of the cull does Guard Thomas require?",
+   "aliases": [
+    "what drops torn murloc fins",
+    "quest proof",
+    "murloc fins"
+   ],
+   "answer": "Guard Thomas asks for torn murloc fins harvested directly from the lurkers and foragers inhabiting Elwynn's eastern waterways."
+  },
+  {
+   "q": "Does Marshal Dughan know about the severity of the murloc problem?",
+   "aliases": [
+    "marshal dughan murlocs",
+    "is goldshire aware",
+    "dughan reaction"
+   ],
+   "answer": "Yes. Guard Thomas notes that Marshal Dughan is quite anxious about the murloc situation across eastern Elwynn, making positive reports on culled settlements vital for local morale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Clearing the waterways keeps vital supply lines and rural homesteads safe between Goldshire and the border to Redridge."
+  },
+  {
+   "target": "race:Human",
+   "text": "For citizens of Stormwind, this contract is a stark reminder of how thin their kingdom's protection has worn right outside the capital's heartland."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The marshy shores and reed-filled banks around Stone Cairn Lake offer ideal proving grounds for stalking nimble, swarm-minded aquatic predators."
+  }
+ ],
+ "keywords": [
+  "bounty",
+  "elwynn",
+  "fins",
+  "foragers",
+  "guard thomas",
+  "lurkers",
+  "marshal dughan",
+  "murlocs",
+  "stone cairn lake"
+ ],
+ "related": [
+  "npc:guard-thomas",
+  "npc:marshal-dughan",
+  "subzone:stone-cairn-lake",
+  "zone:elwynn",
+  "topic:stormwind-army",
+  "topic:murloc",
+  "topic:stormwind-kingdom"
+ ],
+ "attribution": [
+  "Bounty on Murlocs"
+ ]
+}

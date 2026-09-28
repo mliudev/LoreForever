@@ -1,0 +1,87 @@
+{
+ "key": "subzone:witch-hill",
+ "type": "subzone",
+ "name": "Witch Hill",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Witch Hill"
+ },
+ "summary": "Witch Hill is a dreary, mist-shrouded rise in the heart of Dustwallow Marsh along the path toward Theramore. It is best known for the secluded Swamplight Manor, scattered camps of hostile Mirefin murlocs, and sinister rumors of dark hauntings.",
+ "sections": [
+  {
+   "title": "A Blighted Rise",
+   "body": "Rising out of the stagnant waters of Dustwallow Marsh, Witch Hill sits roughly a third of the way along the peninsula leading southeast toward Theramore Isle. The elevated ground provides little refuge from the hazards of the swamp, as aggressive Mirefin murlocs claim the surrounding waters. At its center stands Swamplight Manor, the lonely and unsettling residence of the hermit known as 'Swamp Eye' Jarl. Travelers passing through frequently report eerie phenomena and lingering dark presences across the knoll.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Haunting of the Hill",
+   "body": "Behind its quiet, gloomy exterior, Witch Hill harbors foul magic. A demonic presence known as Zelfrax lurks within the area, drawing dark power to the desolate ground and adding to the local paranoia. Those who brave the hill must contend not only with the primitive savagery of the Mirefin, but with occult threats that make even seasoned Theramore patrols uneasy.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Witch Hill located?",
+   "aliases": [
+    "witch hill location",
+    "where is witch hill",
+    "how to find witch hill"
+   ],
+   "answer": "Witch Hill is located in Dustwallow Marsh, situated about a third of the way down the peninsula that connects the western marsh to Theramore Isle."
+  },
+  {
+   "q": "Who lives on Witch Hill?",
+   "aliases": [
+    "who lives here",
+    "witch hill inhabitants",
+    "swamplight manor resident"
+   ],
+   "answer": "The most prominent resident is 'Swamp Eye' Jarl, an eccentric hermit living inside Swamplight Manor near the hill's center. The surrounding lowlands are also infested by camps of Mirefin murlocs."
+  },
+  {
+   "q": "Why is the area called Witch Hill?",
+   "aliases": [
+    "why witch hill",
+    "is there a witch here",
+    "witch hill lore"
+   ],
+   "answer": "The knoll has long had a sinister reputation for dark magic, odd lights, and supernatural danger, compounded by the presence of the demon Zelfrax and the eerie solitude of Swamplight Manor."
+  },
+  {
+   "q": "What threats should travelers look out for on Witch Hill?",
+   "aliases": [
+    "witch hill dangers",
+    "witch hill enemies",
+    "mobs on witch hill"
+   ],
+   "answer": "Travelers must beware of roaming Mirefin murlocs establishing camps around the hill, as well as demonic entities and dark spirits tied to the lingering corruption in the soil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks passing along the Theramore road may sense the demonic footprint left by Zelfrax haunting the dreary knoll."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Witch Hill borders the primary overland route toward Theramore Isle, making its murloc tribes and dark entities an ongoing nuisance for travelers and couriers."
+  }
+ ],
+ "keywords": [
+  "dustwallow marsh",
+  "mirefin",
+  "swamp eye jarl",
+  "swamplight manor",
+  "witch hill",
+  "zelfrax"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "subzone:swamplight-manor",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Witch Hill"
+ ]
+}

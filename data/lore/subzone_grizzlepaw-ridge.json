@@ -1,0 +1,73 @@
+{
+ "key": "subzone:grizzlepaw-ridge",
+ "type": "subzone",
+ "name": "Grizzlepaw Ridge",
+ "era": "classic",
+ "zone": "lochmodan",
+ "meta": {
+  "wiki": "Grizzlepaw Ridge"
+ },
+ "summary": "Grizzlepaw Ridge is a rugged, craggy hillside rising south of Thelsamar in Loch Modan. It is notorious among local mountaineers for its dense population of wild bears, led by the legendary beast Ol' Sooty.",
+ "sections": [
+  {
+   "title": "Home of the Bears",
+   "body": "Overlooking the road south of Thelsamar and bordering Stonesplinter Valley to the west, Grizzlepaw Ridge is rough country dominated by predatory wildlife. The slopes are claimed by territorial bears that pose a hazard to travelers skirting the mountains. Deep within the ridge dwells Ol' Sooty, a massive and unusually fierce bear feared by local hunters. Travelers moving between the dwarven settlements must keep a wary eye on the tree line and rocky terraces above.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Grizzlepaw Ridge located?",
+   "aliases": [
+    "where is grizzlepaw ridge",
+    "grizzlepaw ridge location",
+    "how to get to grizzlepaw ridge"
+   ],
+   "answer": "Grizzlepaw Ridge lies in the central hills of Loch Modan, directly south of the town of Thelsamar and east of the trogg-infested Stonesplinter Valley."
+  },
+  {
+   "q": "What dangerous creatures live on Grizzlepaw Ridge?",
+   "aliases": [
+    "bears at grizzlepaw ridge",
+    "who is ol sooty",
+    "ol sooty loch modan"
+   ],
+   "answer": "The ridge is crawling with aggressive bears. Its most infamous resident is Ol' Sooty, an exceptionally large and ferocious beast that occasionally prowls down toward the mountain base."
+  },
+  {
+   "q": "Who is Gorick Guzzledraught?",
+   "aliases": [
+    "gorick guzzledraught",
+    "dwarf on grizzlepaw ridge"
+   ],
+   "answer": "Gorick Guzzledraught is a dwarf found in the area, keeping an eye on the surrounding wilderness and the dangerous wildlife roaming the hillside."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The ridge provides a classic proving ground for tracking wild beasts and confronting apex predators like Ol' Sooty."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Perched right beside Thelsamar, the ridge's bear population represents a constant nuisance to local mountaineers and supply routes."
+  }
+ ],
+ "keywords": [
+  "bears",
+  "gorick guzzledraught",
+  "grizzlepaw ridge",
+  "loch modan",
+  "ol' sooty",
+  "sooty",
+  "thelsamar"
+ ],
+ "related": [
+  "zone:lochmodan",
+  "subzone:thelsamar",
+  "subzone:stonesplinter-valley"
+ ],
+ "attribution": [
+  "Grizzlepaw Ridge"
+ ]
+}

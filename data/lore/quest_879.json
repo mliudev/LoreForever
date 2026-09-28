@@ -1,0 +1,125 @@
+{
+ "key": "quest:879",
+ "type": "quest",
+ "name": "Betrayal from Within",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   879
+  ],
+  "level": "25",
+  "faction": "Horde",
+  "start": "Mangletooth",
+  "end": "",
+  "previous": null,
+  "next": "Betrayal from Within (2)",
+  "wiki": "Betrayal from Within (1)",
+  "chain": []
+ },
+ "summary": "Betrayal from Within is a task offered by Mangletooth, an imprisoned quilboar held in a cage at Camp Taurajo. Spurned and left for dead by his own kin, Mangletooth seeks bloody vengeance against the trio of Razormane warlords who emerged from Razorfen Kraul to organize assaults across the Barrens.",
+ "sections": [
+  {
+   "title": "A Grudge in a Cage",
+   "body": "Languishing in captivity beneath the sun at Camp Taurajo, the quilboar Mangletooth harbors no remaining loyalty toward his Razormane kin. Left behind in defeat and facing certain execution, his only surviving ambition is vengeance against the leaders who abandoned him. To achieve this, he offers Horde travelers vital intelligence on the true architects behind the ruthless raids tormenting the plains.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Warlords of the Kraul",
+   "body": "While Horde leaders at the Crossroads like Thork struggle to curb the constant quilboar aggression, Mangletooth reveals the core of the problem: three seasoned commanders from deep within Razorfen Kraul. Led by the formidable warrior Lok Orcbane, accompanied by the tracker Kuz and the spellcaster Nak, this trio directs Razormane raiders from encampments far to the south. Mangletooth demands their severed skulls as proof that his betrayers have fallen before his own end arrives.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is a quilboar helping the Horde?",
+   "aliases": [
+    "why mangletooth helps",
+    "mangletooth motive",
+    "why quilboar betraying kin"
+   ],
+   "answer": "Mangletooth is motivated entirely by revenge, not friendship toward the Horde. His brethren turned their backs on him and left him behind to die in a cage at Camp Taurajo. Since his own demise is inevitable, he gladly aids the Horde simply to ensure his betrayers die first."
+  },
+  {
+   "q": "Who are Nak, Kuz, and Lok Orcbane?",
+   "aliases": [
+    "who are the targets",
+    "razormane leaders",
+    "lok orcbane lore"
+   ],
+   "answer": "They are three prominent Razormane leaders who emerged from Razorfen Kraul to organize raids across the Barrens. Lok Orcbane is a vicious warrior and leader, accompanied by the mystic spellcaster Nak and the tracker Kuz."
+  },
+  {
+   "q": "Where are the three targets found?",
+   "aliases": [
+    "where is lok orcbane",
+    "where are nak and kuz",
+    "target locations"
+   ],
+   "answer": "They make their camps far to the south of the Barrens, entrenched within Razormane territories near the boundary of the southern brushlands."
+  },
+  {
+   "q": "What does Mangletooth mean about Thork being wrong?",
+   "aliases": [
+    "thork mistake",
+    "what did thork get wrong",
+    "thork and mangletooth"
+   ],
+   "answer": "Thork, managing defenses from the Crossroads, believes he knows who directs the quilboar assaults on Horde supply lines. Mangletooth claims Thork is mistaken about the true masterminds, asserting that Lok Orcbane, Nak, and Kuz are the ones actually orchestrating the devastating attacks."
+  },
+  {
+   "q": "Will killing these leaders truly bring peace with the Razormane?",
+   "aliases": [
+    "will barrens have peace",
+    "end of razormane",
+    "razormane defeated"
+   ],
+   "answer": "Mangletooth boasts that taking down these three will grant the Crossroads and much of the Barrens relief from Razormane raids. While it shatters their immediate southern leadership, deep-seated quilboar hostility across the Barrens remains far from extinguished."
+  },
+  {
+   "q": "What happens to Mangletooth after this?",
+   "aliases": [
+    "does mangletooth go free",
+    "mangletooth fate",
+    "is mangletooth executed"
+   ],
+   "answer": "Mangletooth accepts that his death is inescapable while locked in a Horde encampment. He does not seek escape or mercy, only the satisfaction of bringing down his treacherous tribe mates before his end."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Stopping Lok Orcbane and his cohorts strikes directly at the leaders responsible for brutalizing Horde caravans and outposts throughout the southern Barrens."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The warlord Lok bears the moniker 'Orcbane' specifically for his prowess and hatred in slaughtering orcish travelers across the territory."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Camp Taurajo sits right along the southern corridor where Razormane aggression runs hottest, making the elimination of these warlords critical to local security."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "camp taurajo",
+  "kraul",
+  "kuz",
+  "lok orcbane",
+  "mangletooth",
+  "nak",
+  "razormane",
+  "thork"
+ ],
+ "related": [
+  "npc:mangletooth",
+  "subzone:camp-taurajo",
+  "npc:thork",
+  "zone:barrens",
+  "subzone:crossroads",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Betrayal from Within (1)"
+ ]
+}

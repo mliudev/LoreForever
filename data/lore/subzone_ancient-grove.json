@@ -1,0 +1,73 @@
+{
+ "key": "subzone:ancient-grove",
+ "type": "subzone",
+ "name": "Ancient Grove",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Ancient Grove"
+ },
+ "summary": "The Ancient Grove is a dwindling forest nestled on the southern cliffside of Azshara, directly north of Durotar. Long watched over by local night elves and ancient guardians, the grove has steadily shrunk under the lumber demands of nearby Orgrimmar.",
+ "sections": [
+  {
+   "title": "A Dwindling Sanctuary",
+   "body": "Perched on the southern edge of Azshara, the Ancient Grove was once a quiet sanctuary of Kalimdor's primeval woodlands. That peace shattered with the founding of Durotar and the construction of Orgrimmar's rear mountain gate just to the east. Hunger for timber quickly drove orcish woodcutters into the surrounding hills, reducing vast stretches of old-growth woodland to scattered stumps. Today, only a handful of genuine giants still stand, guarded fiercely by night elf sentries and an enraged treant protector known as the Talrendis Ancient.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Ancient Grove being cut down?",
+   "aliases": [
+    "why are trees cut down",
+    "who is logging ancient grove",
+    "ancient grove deforestation"
+   ],
+   "answer": "The grove sits directly north of Durotar, near the rear exit of Orgrimmar. Building and sustaining the Horde's desert capital requires massive quantities of timber, making the nearby woodlands of southern Azshara a natural target for orcish logging operations."
+  },
+  {
+   "q": "Who defends the remaining trees?",
+   "aliases": [
+    "who protects the grove",
+    "who lives in ancient grove",
+    "ancient grove defenders"
+   ],
+   "answer": "A contingent of night elf defenders and a towering protector known as the Talrendis Ancient stand guard over the surviving trees, resisting Horde incursions into the forest."
+  },
+  {
+   "q": "What is the Talrendis Ancient?",
+   "aliases": [
+    "who is talrendis ancient",
+    "talrendis ancient azshara"
+   ],
+   "answer": "The Talrendis Ancient is a powerful living tree guardian bound to the grove. It watches over the region's flora and fauna and violently drives off any woodcutters who approach the remaining groves."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Watching the ancient trees felled to fuel the orcish war machine in Durotar cuts deep for night elves, who treat the grove's lingering guardians as kin."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Wood is scarce in the arid plains of Durotar, making the timber reserves right outside Orgrimmar's back door an essential resource worth defending against elven ambushes."
+  }
+ ],
+ "keywords": [
+  "ancient grove",
+  "azshara",
+  "deforestation",
+  "logging",
+  "lumber",
+  "orgrimmar",
+  "talrendis ancient"
+ ],
+ "related": [
+  "zone:azshara",
+  "zone:orgrimmar",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Ancient Grove"
+ ]
+}

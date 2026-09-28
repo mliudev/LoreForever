@@ -1,0 +1,85 @@
+{
+ "key": "npc:elder-darkcore",
+ "type": "npc",
+ "name": "Elder Darkcore",
+ "era": "classic",
+ "zone": "undercity",
+ "meta": {
+  "wiki": "Elder Darkcore",
+  "refs": 1
+ },
+ "summary": "Elder Darkcore is an ancient spirit who appears during the Lunar Festival within the throne room of the Ruins of Lordaeron above the Undercity. Representing the honored ancestors of the world, he offers his blessing and festive tokens to travelers who seek him out. His presence marks a peaceful, reflective moment amidst the ruins of a fallen human kingdom.",
+ "sections": [
+  {
+   "title": "A Spirit in the Throne Room",
+   "body": "During the annual Lunar Festival, the spirits of ancient elders manifest across Azeroth to share their wisdom with adventurers. Elder Darkcore takes his vigil in one of the world's most somber locations: the royal throne room in the Ruins of Lordaeron, directly above the entrance to the Undercity. Surrounded by the blood-stained floor where King Terenas Menethil II fell, this spectral ancestor offers a Coin of Ancestry and his blessing to those brave enough to enter the heart of Forsaken territory to pay their respects.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elder Darkcore?",
+   "aliases": [
+    "elder darkcore",
+    "darkcore",
+    "who is darkcore"
+   ],
+   "answer": "Elder Darkcore is one of the honored spectral ancestors who manifests during the seasonal Lunar Festival. He appears in the throne room above the Undercity to bestow blessings and Coins of Ancestry on visitors."
+  },
+  {
+   "q": "Where can I find Elder Darkcore?",
+   "aliases": [
+    "where is darkcore",
+    "darkcore location",
+    "undercity elder"
+   ],
+   "answer": "He is located in the ruined throne room of Capital City, in the Ruins of Lordaeron right above the entrance descent leading down into the Undercity."
+  },
+  {
+   "q": "Is Elder Darkcore hostile to the Alliance?",
+   "aliases": [
+    "can alliance talk to darkcore",
+    "is darkcore horde",
+    "undercity lunar festival alliance"
+   ],
+   "answer": "Elder Darkcore himself is neutral and welcomes all travelers who come to honor him. However, because he stands within the Forsaken stronghold of the Ruins of Lordaeron, Alliance adventurers must carefully evade the hostile guards patrolling nearby."
+  },
+  {
+   "q": "What does honoring Elder Darkcore give you?",
+   "aliases": [
+    "darkcore reward",
+    "darkcore quest"
+   ],
+   "answer": "Paying respects to him completes the festival quest to honor his memory, rewarding a Coin of Ancestry and a lucky red packet containing festive treats."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Visiting Elder Darkcore requires slipping past high-level Forsaken sentries and royal guards stationed around Capital City's ruins, making him one of the festival's most perilous stops for the Alliance."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Elder Darkcore lingers mere steps from the surface elevators of the Undercity, standing upon the very stones where the kingdom of Lordaeron was torn down."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "coin of ancestry",
+  "darkcore",
+  "elder darkcore",
+  "lunar festival",
+  "ruins of lordaeron",
+  "throne room",
+  "undercity"
+ ],
+ "related": [
+  "quest:8648",
+  "zone:undercity",
+  "zone:ruinsoflordaeron",
+  "topic:lordaeron"
+ ],
+ "attribution": [
+  "Elder Darkcore"
+ ]
+}

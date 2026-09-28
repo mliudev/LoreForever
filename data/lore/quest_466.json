@@ -1,0 +1,119 @@
+{
+ "key": "quest:466",
+ "type": "quest",
+ "name": "Search for Incendicite",
+ "era": "classic",
+ "zone": "dunmorogh",
+ "meta": {
+  "ids": [
+   466
+  ],
+  "level": "22",
+  "faction": "Alliance",
+  "start": "Pilot Stonegear",
+  "end": "",
+  "previous": "Stonegear's Search",
+  "next": null,
+  "wiki": "Search for Incendicite",
+  "chain": []
+ },
+ "summary": "Pilot Stonegear at Steelgrill's Depot seeks samples of volatile incendicite ore discovered in the Wetlands. Believing its explosive properties could revolutionize artillery munitions, he tasks miners with venturing north to extract the dangerous mineral from a secluded cave.",
+ "sections": [
+  {
+   "title": "A Volatile Discovery",
+   "body": "Word of a rare and unstable mineral known as incendicite has reached the aviators and mechanics at Steelgrill's Depot. Rumors place rich veins inside a cavern northwest of Algaz Gate in the sodden marshlands of the Wetlands. Highly reactive and hazardous to handle, incendicite has developed a reputation for detonating in the faces of careless miners.",
+   "spoiler": 0
+  },
+  {
+   "title": "Munitions of Tomorrow",
+   "body": "Where others see a mining hazard, Pilot Stonegear sees military potential. If refined properly, incendicite could serve as a devastating propellant or payload for dwarven artillery, producing cannon shells capable of shattering fortified defenses. Stonegear aims to procure raw samples so courageous, or foolhardy, researchers can begin testing smelting techniques without leveling the depot.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is incendicite ore used for?",
+   "aliases": [
+    "incendicite uses",
+    "what does incendicite do"
+   ],
+   "answer": "Incendicite is an intensely volatile, explosive mineral. Pilot Stonegear intends to test smelting methods to harness its reactive nature for high-yield artillery ammunition and cannon shells."
+  },
+  {
+   "q": "Where is incendicite found?",
+   "aliases": [
+    "incendicite location",
+    "where to get incendicite"
+   ],
+   "answer": "Veins of the ore are located within a cave system northwest of Algaz Gate, nestled in the southern mountains of the Wetlands."
+  },
+  {
+   "q": "Who is Pilot Stonegear?",
+   "aliases": [
+    "pilot stonegear",
+    "who gives this quest"
+   ],
+   "answer": "Pilot Stonegear is a dwarven aviator stationed at Steelgrill's Depot in Dun Morogh, working alongside mechanics and siege engineers to improve dwarven combat machinery."
+  },
+  {
+   "q": "Why does harvesting this ore require a pickaxe?",
+   "aliases": [
+    "do i need mining",
+    "mining skill needed"
+   ],
+   "answer": "Incendicite occurs naturally in raw mineral veins rather than loose surface deposits. Miners must have sufficient skill to safely chip the brittle, explosive ore from the rock face without setting it off."
+  },
+  {
+   "q": "Is incendicite safe to handle?",
+   "aliases": [
+    "is incendicite dangerous",
+    "does incendicite explode"
+   ],
+   "answer": "No. The ore is notoriously unstable and poses a severe threat of accidental detonation during excavation, transportation, and smelting."
+  },
+  {
+   "q": "How does this connect to Stonegear's Search?",
+   "aliases": [
+    "stonegear search followup",
+    "quest chain"
+   ],
+   "answer": "This assignment directly follows 'Stonegear's Search', wherein Pilot Stonegear initially gathered intelligence on potential material innovations before directing prospects to the Wetlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Extracting incendicite requires practiced hands with a pick; the mineral's volatility makes delicate vein extraction a true test of a miner's craftsmanship."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven engineers and artillerymen are renowned for pushing gunpowder technology forward, and unlocking incendicite shells fits right into Khaz Modan's siege traditions."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Explosive compounds that threaten to blow up their creators are everyday business for tinkering engineers looking for the next big blast."
+  }
+ ],
+ "keywords": [
+  "algaz gate",
+  "artillery",
+  "cannon shells",
+  "dun morogh",
+  "incendicite",
+  "mining",
+  "ore",
+  "pilot stonegear",
+  "steelgrill's depot",
+  "wetlands"
+ ],
+ "related": [
+  "npc:pilot-stonegear",
+  "subzone:steelgrill-s-depot",
+  "quest:467",
+  "zone:dunmorogh",
+  "zone:wetlands"
+ ],
+ "attribution": [
+  "Search for Incendicite"
+ ]
+}

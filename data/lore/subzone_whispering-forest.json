@@ -1,0 +1,101 @@
+{
+ "key": "subzone:whispering-forest",
+ "type": "subzone",
+ "name": "Whispering Forest",
+ "era": "classic",
+ "zone": "tirisfal",
+ "meta": {
+  "wiki": "Whispering Forest"
+ },
+ "summary": "The Whispering Forest is a secluded, mountainous woodland nestled behind the steep cliffs west of Deathknell. Largely cut off from the rest of Tirisfal Glades, it harbors uncanny wildlife, a mysterious fairy circle, and deep-seated corruption sleeping far beneath the soil.",
+ "sections": [
+  {
+   "title": "The Hidden Glen",
+   "body": "Tucked away behind Northface Rock and Bandarion Keep, the Whispering Forest feels entirely alienated from the surrounding plague-touched kingdom. While it contains afflicted deer and roaming predators, it also features a tranquil lake and a strange ring of giant mushrooms. At regular intervals, ethereal Fey-Drunk Darters appear from the mist, gathering around the fairy circle in an eerie ritual of converging beams and song. Spectators from the surrounding wild gather in silence, observing a natural magic that seems to defy the Scourge-ruined land.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shadow Beneath the Woods",
+   "body": "Despite its outward wonder, the forest is tainted by an ancient dread. Centuries ago, the high elves briefly attempted to settle in Tirisfal Glades before being driven away when the latent evil sleeping deep underground began driving them mad. Around the local lake, Vile Fin murlocs and the undead threshadon Blightsculler prowl the waters, while the ruined settlement of Shadowvale lies blighted by necromantic remnants. Even mad wanderers across Lordaeron mutter fearful warnings of the consuming darkness resting beneath Tirisfal's roots.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Whispering Forest located?",
+   "aliases": [
+    "whispering forest location",
+    "where is whispering forest",
+    "how to get to whispering forest"
+   ],
+   "answer": "The forest lies in the mountains of western Tirisfal Glades, positioned just west of Deathknell and south of Tyr's Fall. It is walled off by Northface Rock, the steep ridge upon which Bandarion Keep rests."
+  },
+  {
+   "q": "What happens at the giant mushroom circle?",
+   "aliases": [
+    "mushroom circle tirisfal",
+    "faerie dragon ring",
+    "fairy ring ritual"
+   ],
+   "answer": "Several Fey-Drunk Darters manifest around the giant glowing mushrooms, converging over the mist to perform a singing ritual with focused beams of light. Nearby wildlife gathers peacefully to watch before the darters fade back into the ether."
+  },
+  {
+   "q": "Who watches over the forest?",
+   "aliases": [
+    "who guards whispering forest",
+    "bandarion keep whispering forest"
+   ],
+   "answer": "The overlooking heights of Bandarion Keep are held by Tyr's Watch, an order of Forsaken paladins. Near the fairy circle itself, the spectral Knight of Mourning is bound by oath to wander the woods."
+  },
+  {
+   "q": "Why did the high elves abandon this region long ago?",
+   "aliases": [
+    "high elves tirisfal",
+    "why elves left tirisfal",
+    "madness beneath tirisfal"
+   ],
+   "answer": "When the high elves originally landed on Lordaeron's shores, they attempted to build a settlement in Tirisfal. Within a few years, an unsettling presence buried deep underground began eroding their sanity, compelling them to abandon the glades and travel north."
+  },
+  {
+   "q": "What is Shadowvale?",
+   "aliases": [
+    "shadowvale tirisfal",
+    "ruined village whispering forest"
+   ],
+   "answer": "Shadowvale is a ruined village situated southwest of the forest's lake. It is occupied by the Tarnished alongside mindless undead afflicted by a necromantic crystal fragment dating back to clashes involving the Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The gathering of Fey-Drunk Darters and their ritualistic communion over the faerie ring stands out as one of the few vibrant pulses of natural magic remaining within blighted Lordaeron."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Nestled just past Deathknell and overseen by Tyr's Watch at Bandarion Keep, the secluded woodland hides forgotten dangers that pose a silent threat right on the Undercity's doorstep."
+  }
+ ],
+ "keywords": [
+  "bandarion keep",
+  "blightsculler",
+  "deathknell",
+  "faerie ring",
+  "fey-drunk darter",
+  "shadowvale",
+  "tirisfal",
+  "whispering forest"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "subzone:bandarion-keep",
+  "subzone:deathknell",
+  "subzone:tyr-s-fall",
+  "topic:lordaeron",
+  "topic:forsaken",
+  "npc:nat-pagle",
+  "topic:murloc"
+ ],
+ "attribution": [
+  "Whispering Forest"
+ ]
+}

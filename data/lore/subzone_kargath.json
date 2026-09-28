@@ -1,0 +1,92 @@
+{
+ "key": "subzone:kargath",
+ "type": "subzone",
+ "name": "Kargath",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Kargath"
+ },
+ "summary": "Kargath is a fortified Horde outpost perched in the western Badlands, serving as their sole foothold in Khaz Modan. Established by the Kargath Expeditionary Force under Warchief Thrall's orders, the settlement anchors crucial transit lines across the Eastern Kingdoms while staging operations toward Blackrock Mountain and the excavation at Uldaman.",
+ "sections": [
+  {
+   "title": "A Bastion in Hostile Territory",
+   "body": "Named in honor of the Shattered Hand chieftain Kargath Bladefist, the outpost of Kargath stands as the Horde's solitary settlement throughout the mountain realms of Khaz Modan. Surrounded by arid wastes, aggressive wildlife, and hostile dwarven factions, the garrison provides a vital midway sanctuary for travelers crossing the continent. Its flight master bridges the long divide between northern holdings like the Undercity and Hammerfall and southern redoubts like Stonard and Grom'gol Base Camp.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Expeditionary Mission",
+   "body": "Dispatched on direct orders from Warchief Thrall, the Kargath Expeditionary Force maintains a dual objective in the region. Troops make frequent forays into the ancient titan halls of Uldaman to uncover why Ironforge's Prospectors prize the dig site so dearly. Concurrently, scouts labor to carve a path through the Searing Gorge into Blackrock Mountain, seeking to strike at Rend Blackhand's false 'Dark Horde' while contending with the entrenched Dark Iron dwarves.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is this Horde town out in the middle of the Badlands?",
+   "aliases": [
+    "why is kargath here",
+    "purpose of kargath",
+    "who built kargath"
+   ],
+   "answer": "Warchief Thrall ordered the Kargath Expeditionary Force to establish the outpost to secure regional footholds, probe the mysteries of the dwarven dig at Uldaman, and forge an invasion corridor into Blackrock Mountain against the Dark Horde."
+  },
+  {
+   "q": "Who is Kargath named after?",
+   "aliases": [
+    "kargath name origin",
+    "who was kargath",
+    "kargath bladefist outpost"
+   ],
+   "answer": "The outpost is named after Kargath Bladefist, the famed chieftain of the Shattered Hand orc clan."
+  },
+  {
+   "q": "Why are the flight routes from Kargath so important?",
+   "aliases": [
+    "kargath flight path",
+    "why fly to kargath"
+   ],
+   "answer": "Kargath serves as the vital logistical link connecting Horde outposts in northern Lordaeron, such as Undercity and Hammerfall, with their southern territories in Stranglethorn Vale and the Swamp of Sorrows."
+  },
+  {
+   "q": "What threat is the garrison at Kargath preparing to fight?",
+   "aliases": [
+    "kargath enemies",
+    "who does kargath fight"
+   ],
+   "answer": "The garrison regularly contends with local Dark Iron dwarves, investigates the Ironforge presence at Uldaman, and prepares an offensive against Rend Blackhand and his rival Dark Horde entrenched within Blackrock Mountain."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Kargath is the Horde's only friendly fortress in all of Khaz Modan, offering essential resupply, flight connections, and launch points for strikes against Blackrock Mountain."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Bearing the name of chieftain Kargath Bladefist, this outpost directly advances Thrall's campaign to eradicate Rend Blackhand's corrupted Dark Horde."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "blackrock mountain",
+  "expeditionary force",
+  "kargath",
+  "kargath bladefist",
+  "shattered hand",
+  "thrall",
+  "uldaman"
+ ],
+ "related": [
+  "zone:badlands",
+  "subzone:uldaman",
+  "subzone:blackrock-mountain",
+  "zone:searinggorge",
+  "npc:thrall",
+  "zone:undercity",
+  "subzone:hammerfall",
+  "subzone:stonard"
+ ],
+ "attribution": [
+  "Kargath"
+ ]
+}

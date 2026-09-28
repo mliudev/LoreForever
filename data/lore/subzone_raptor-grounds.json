@@ -1,0 +1,81 @@
+{
+ "key": "subzone:raptor-grounds",
+ "type": "subzone",
+ "name": "Raptor Grounds",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "wiki": "Raptor Grounds"
+ },
+ "summary": "Tucked into the dusty hills of the southern Barrens, the Raptor Grounds is a secluded valley claimed by the Sunscale raptors. Unlike ordinary wild beasts, the pack here exhibits an eerie, tool-using cunning and a compulsive urge to steal bright trinkets from nearby settlements.",
+ "sections": [
+  {
+   "title": "Uncanny Beasts of the Southern Wastes",
+   "body": "Located west of Northwatch Hold, the Raptor Grounds serves as the primary nesting territory for the Sunscale raptors. Travelers quickly discover that these creatures are far from mindless predators: they display an unnatural intelligence, fashioning crude shelters, assembling primitive tools, and coordinating their hunts. Driven by a relentless fascination with shiny and unusual items, the pack regularly raids passing caravans and Horde encampments, dragging coins, trinkets, and supplies back into their canyon dens.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Raptor Grounds?",
+   "aliases": [
+    "raptor grounds location",
+    "where are the raptor grounds",
+    "raptor grounds map"
+   ],
+   "answer": "The Raptor Grounds is a small, sunken valley in the southern portion of the Barrens, nestled in the rocky hills west of Northwatch Hold."
+  },
+  {
+   "q": "Why are the raptors here different from normal beasts?",
+   "aliases": [
+    "sunscale raptor intelligence",
+    "why do raptors have huts",
+    "smart raptors barrens"
+   ],
+   "answer": "The Sunscale raptors show an unnatural degree of intelligence. Rather than relying purely on feral instinct, they assemble primitive tools and construct crude huts to shelter their pack and hide stolen goods."
+  },
+  {
+   "q": "Why do the raptors attack caravans and steal items?",
+   "aliases": [
+    "stolen silver raptors",
+    "why do raptors steal",
+    "raptor shiny things"
+   ],
+   "answer": "The pack possesses an obsessive attraction to shiny, glittering, or unusual objects. This fascination drives them to ambush travelers and loot Horde settlements, hoarding stolen coin and metal deep in their valley."
+  },
+  {
+   "q": "Who controls this valley?",
+   "aliases": [
+    "who owns raptor grounds",
+    "is raptor grounds horde"
+   ],
+   "answer": "Neither faction holds the valley. It remains the untamed hunting and nesting territory of the wild Sunscale raptors, who fiercely defend it against any who venture inside."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Sunscale raptors pose a recurring threat to Horde caravans and outposts across the southern Barrens, prompting bounties and recovery expeditions for stolen wealth."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The Sunscale pack's unusual cunning, pack coordination, and ability to construct rudimentary shelters make them a fascinating subject of study for any skilled tracker."
+  }
+ ],
+ "keywords": [
+  "northwatch hold",
+  "raptor grounds",
+  "raptors",
+  "stolen silver",
+  "sunscale raptor",
+  "the barrens"
+ ],
+ "related": [
+  "quest:3281",
+  "zone:barrens",
+  "topic:horde"
+ ],
+ "attribution": [
+  "Raptor Grounds"
+ ]
+}

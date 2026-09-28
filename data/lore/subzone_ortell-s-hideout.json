@@ -1,0 +1,60 @@
+{
+ "key": "subzone:ortell-s-hideout",
+ "type": "subzone",
+ "name": "Ortell's Hideout",
+ "era": "classic",
+ "zone": "silithus",
+ "meta": {
+  "wiki": "Ortell's Hideout"
+ },
+ "summary": "Ortell's Hideout is a modest, secluded cave nestled against the mountains in southeastern Silithus. It serves as the refuge of Hermit Ortell, one of the few solitary souls hardy or foolish enough to dwell alone in this barren wasteland.",
+ "sections": [
+  {
+   "title": "A Hermit's Shelter",
+   "body": "Tucked away in the jagged cliffs of southeastern Silithus, Ortell's Hideout offers sparse sanctuary from the raging sandstorms and prowling silithid swarms that dominate the wastes. The cave is occupied solely by Hermit Ortell, an eccentric recluse who ekes out an existence far from civilization and the fortified garrisons of the Cenarion Hold. Travelers who brave the dangerous journey to this remote corner often seek his peculiar knowledge of the desert and its hazards.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Ortell's Hideout?",
+   "aliases": [
+    "where is ortell",
+    "ortell location",
+    "how to find ortell cave"
+   ],
+   "answer": "The hideout is carved into the mountain rock along the southeastern edge of Silithus, far from the central desert roads and nestled deep against the border cliffs."
+  },
+  {
+   "q": "Who is Hermit Ortell?",
+   "aliases": [
+    "who is ortell",
+    "hermit ortell lore"
+   ],
+   "answer": "Hermit Ortell is a solitary dweller living apart from the Cenarion Circle expedition and the factions of the world. He chooses to reside alone amidst the dangers of Silithus, keeping to his small cave."
+  },
+  {
+   "q": "Is Ortell's Hideout safe from the silithid?",
+   "aliases": [
+    "are there bugs in the cave",
+    "is ortell cave safe"
+   ],
+   "answer": "While the cave itself is not infested, it lies isolated in a deeply hostile zone teeming with insectoid silithid and Twilight's Hammer cultists. Reaching the hideout requires cutting through perilous terrain."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cave",
+  "hermit ortell",
+  "ortell's hideout",
+  "silithus",
+  "southeastern silithus"
+ ],
+ "related": [
+  "zone:silithus",
+  "subzone:mountain-den"
+ ],
+ "attribution": [
+  "Ortell's Hideout"
+ ]
+}

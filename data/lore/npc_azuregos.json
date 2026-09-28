@@ -1,0 +1,95 @@
+{
+ "key": "npc:azuregos",
+ "type": "npc",
+ "name": "Azuregos",
+ "era": "classic",
+ "zone": "azshara",
+ "meta": {
+  "wiki": "Azuregos",
+  "refs": 2
+ },
+ "summary": "Azuregos is an eccentric blue dragon stationed along the coast of Azshara to protect ancient Highborne relics. Entrusted with safeguarding immense magical power by the Spell-Weaver Malygos, he prefers quiet study over violence, but he will readily swat aside any adventurer foolish enough to disturb his vigil.",
+ "sections": [
+  {
+   "title": "The Guardian of Eldarath",
+   "body": "Drawn to the magic-soaked shores of Azshara, Azuregos chose the ancient ruins of Eldarath as his sanctuary. Countless relics survived the Great Sundering along these shattered coasts, and Azuregos considers it his sacred duty as a servant of Malygos to keep such powerful artifacts away from careless mortals. Rather than lurking in a dark cave, he freely roams the crags and beaches, proudly dubbing himself the lord of all magic in the region. Though blessed with a sardonic sense of humor, he fiercely defends Azshara's treasures against the endless stream of adventurers seeking fame or plunder.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Reluctant Custodian",
+   "body": "Following the War of the Shifting Sands, Azuregos was saddled with safeguarding the Blue Scepter Shard\u2014a fragmented key needed to break the barrier at the Scarab Wall. Despising the constant headaches, treasure-seekers, and would-be heroes drawn to the artifact, the clever drake eventually discarded the relic in the most unceremonious way imaginable: by feeding it to an empowered minnow named Maws, ensuring anyone hoping to claim the shard would have to dredge the depths rather than pester him.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Azuregos?",
+   "aliases": [
+    "azuregos lore",
+    "who is the blue dragon in azshara",
+    "azuregos background"
+   ],
+   "answer": "Azuregos is a powerful blue dragon sent by the dragon aspect Malygos to patrol the ruins of Azshara. While many dragons are dour or wrathful, Azuregos is distinctly eccentric and witty, though he will mercilessly crush mortals who interrupt his magical studies or covet the treasures of Eldarath."
+  },
+  {
+   "q": "Why is Azuregos in Azshara?",
+   "aliases": [
+    "why is azuregos here",
+    "what is azuregos doing in azshara",
+    "azuregos purpose"
+   ],
+   "answer": "He came to study and secure the potent arcane artifacts left behind by the ancient Highborne civilization after the Great Sundering. He guards the ruins of Eldarath against reckless plunderers seeking dangerous magic."
+  },
+  {
+   "q": "What is his connection to the Scarab Wall?",
+   "aliases": [
+    "azuregos scepter shard",
+    "azuregos shifting sands",
+    "shifting sands shard"
+   ],
+   "answer": "After Archdruid Fandral Staghelm shattered the Scepter of the Shifting Sands, the shards were given to the four dragonflights for safekeeping. Azuregos was charged with protecting the Blue Scepter Shard, though he quickly grew tired of the attention it brought and hid it inside a magically altered minnow named Maws."
+  },
+  {
+   "q": "Why does his spirit appear in Azshara?",
+   "aliases": [
+    "spirit of azuregos",
+    "ghost azuregos",
+    "why is azuregos a ghost"
+   ],
+   "answer": "Azuregos is frequently attacked by raiding bands of adventurers seeking magical treasures or dragon scales. When slain, his spirit lingers near the shorelines, casually conversing with passerby while he awaits the rejuvenation of his physical form."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "As an agent of the blue dragonflight, Azuregos embodies the mastery and regulation of the arcane, regarding mortal spellcasters as reckless children meddling with forces beyond their understanding."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Azuregos wanders among the shattered remnants of Eldarath, keeping vigilant watch over the very Highborne sorceries that nearly tore Kalimdor apart during the Sundering."
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "azuregos",
+  "bay of storms",
+  "blue dragon",
+  "eldarath",
+  "malygos",
+  "scepter shard",
+  "shifting sands"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:ruins-of-eldarath",
+  "subzone:bay-of-storms",
+  "subzone:scarab-wall",
+  "npc:fandral-staghelm",
+  "topic:highborne",
+  "subzone:bear-s-head",
+  "subzone:bitter-reaches"
+ ],
+ "attribution": [
+  "Azuregos"
+ ]
+}

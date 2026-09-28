@@ -1,0 +1,83 @@
+{
+ "key": "npc:scout-galiaan",
+ "type": "npc",
+ "name": "Scout Galiaan",
+ "era": "classic",
+ "zone": "westfall",
+ "meta": {
+  "wiki": "Scout Galiaan",
+  "refs": 1
+ },
+ "summary": "Scout Galiaan is a human scout stationed at Sentinel Hill, serving the defense of Westfall under the People's Militia. Tasked with reconnaissance across the overrun plains, he relies on passing adventurers to curb the Defias Brotherhood and investigate regional rumors.",
+ "sections": [
+  {
+   "title": "Watcher of Sentinel Hill",
+   "body": "Perched at the fortified encampment of Sentinel Hill, Scout Galiaan keeps a watchful eye over the lawless expanses of Westfall. With Stormwind's royal army failing to intervene in the province's plight, local volunteers like Galiaan have banded together into the People's Militia to hold back bandits and gnolls. Galiaan helps coordinate skirmishes against the Defias Brotherhood, asking fighters to cut down highwaymen and collect their red leather bandanas as proof of their downfall.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tales of the Coast",
+   "body": "Beyond monitoring Defias activity across the contested farmsteads, Galiaan keeps tabs on maritime tales whispered along the Longshore. He directs curious adventurers toward the lonely western shores to investigate the ghostly rumors surrounding Captain Grayson, proving that the militia's eyes stretch well beyond the farmlands of Sentinel Hill.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Scout Galiaan?",
+   "aliases": [
+    "scout galiaan",
+    "who is galiaan",
+    "sentinel hill scout"
+   ],
+   "answer": "Scout Galiaan is a human scout stationed at Sentinel Hill in Westfall. He serves the People's Militia, keeping watch over the region's perilous roads and directing adventurers to fight back against the Defias Brotherhood."
+  },
+  {
+   "q": "What does Galiaan want with red leather bandanas?",
+   "aliases": [
+    "why red bandanas",
+    "red leather bandanas",
+    "defias bandanas"
+   ],
+   "answer": "The red leather bandana is the trademark uniform of the Defias Brotherhood. Galiaan collects them as bounties to confirm that local highwaymen, pathstalkers, and thieves have been slain, thinning the criminal syndicate's grip on Westfall."
+  },
+  {
+   "q": "Why does Galiaan mention Captain Grayson?",
+   "aliases": [
+    "captain grayson quest",
+    "galiaan grayson",
+    "ghost ship westfall"
+   ],
+   "answer": "Galiaan hears reports from all corners of the province, including strange sightings on the western coast. He sends brave wanderers out toward the Longshore to verify the eerie local legend of the spectral Captain Grayson."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Scout Galiaan embodies the self-reliance of Westfall's settlers, who must defend their own towns while Stormwind's throne offers no soldiers to safeguard the region."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans visiting from Elwynn, Galiaan's plea highlights the bitter divide between the comfortable streets of the capital and the desperate struggle of Westfall's local militia."
+  }
+ ],
+ "keywords": [
+  "captain grayson",
+  "defias",
+  "galiaan",
+  "people's militia",
+  "red leather bandanas",
+  "scout galiaan",
+  "sentinel hill",
+  "westfall"
+ ],
+ "related": [
+  "subzone:sentinel-hill",
+  "zone:westfall",
+  "quest:153",
+  "npc:captain-grayson",
+  "quest:12"
+ ],
+ "attribution": [
+  "Scout Galiaan"
+ ]
+}

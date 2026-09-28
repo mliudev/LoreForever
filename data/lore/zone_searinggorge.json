@@ -1,0 +1,136 @@
+{
+ "key": "zone:searinggorge",
+ "type": "zone",
+ "name": "Searing Gorge",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": [
+   "Searing Gorge (Classic)",
+   "Searing Gorge"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Searing Gorge is a scorched, desolate canyon in southern Khaz Modan, bordering Blackrock Mountain to the south. Once a verdant expanse of the Redridge Mountains, it was devastated over two centuries ago by the apocalyptic summoning of Ragnaros the Firelord. Today, the gorge is heavily worked by the Dark Iron clan, whose extensive slave mines in the Cauldron are closely monitored by the breakaway Thorium Brotherhood.",
+ "sections": [
+  {
+   "title": "A Scorched Wasteland",
+   "body": "Before the War of the Three Hammers, the territory that is now Searing Gorge was a green, rolling mountain region connected to the Redridge chain. That lush landscape ceased to exist over two hundred and thirty years ago when Sorcerer-Thane Thaurissan, desperate to turn the tide of defeat, summoned Ragnaros from the depths beneath the world. The cataclysmic emergence of the Firelord tore the earth asunder, raised Blackrock Mountain, reduced the grand Dark Iron city of Thaurissan to smoking ruins, and burned the northern valley into a cracked expanse of ash, sulfur, and volcanic glass.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cauldron and the Slag Pit",
+   "body": "Seeking raw materials to supply their war machine after the loss of their old capital, the Dark Iron dwarves seized the desolate gorge. In the center of the valley lies the Cauldron, a colossal open-pit excavation plunging deep into the stone. Within its lower recesses sits the Slag Pit, a brutal subterranean mining complex. Here, Dark Iron overseers and lumbering war golems drive captured enemies into grueling slave labor, pulling iron, mithril, and rare deposits of Dark Iron ore out of the burning rock under the constant threat of lava surges and roaming beasts.",
+   "spoiler": 0
+  },
+  {
+   "title": "Thorium Brotherhood and Contested Paths",
+   "body": "Perched on the northern crags overlooking the excavation sits Thorium Point, the fortified outpost of the Thorium Brotherhood. Having split from their kin in Blackrock Mountain, these master craftsmen offer neutral shelter to travelers willing to undermine the Dark Iron operations or supply them with rare smelting components. Access to the gorge itself is tightly restricted: the Alliance keeps the Stonewrought Pass locked down behind heavy iron gates toward Loch Modan, while Horde expeditions from nearby Kargath have cut a narrow trail through the eastern badlands to scout the region.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is the Searing Gorge burned and covered in ash?",
+   "aliases": [
+    "why is it burnt",
+    "searing gorge lore",
+    "how was searing gorge created"
+   ],
+   "answer": "Over two hundred and thirty years ago, during the War of the Three Hammers, the Dark Iron Sorcerer-Thane Thaurissan attempted to summon a supernatural power to avoid defeat. Instead, he summoned Ragnaros the Firelord. The cataclysmic eruption shattered the southern Redridge range, created the volcano of Blackrock Mountain, and incinerated the surrounding valleys into Searing Gorge and the Burning Steppes."
+  },
+  {
+   "q": "Who are the dwarves living at Thorium Point?",
+   "aliases": [
+    "thorium point dwarves",
+    "who is thorium brotherhood",
+    "thorium brotherhood lore"
+   ],
+   "answer": "They belong to the Thorium Brotherhood, an independent faction of Dark Iron dwarves who severed ties with their imperial kin under Blackrock Mountain. From their camp atop Thorium Point, they work as master smiths and artificers, trading knowledge and crafting secrets to any traveler who aids them against the Dark Iron forces below."
+  },
+  {
+   "q": "What is going on in the Cauldron?",
+   "aliases": [
+    "what is the cauldron",
+    "the slag pit lore",
+    "what are dark irons mining"
+   ],
+   "answer": "The Cauldron is a massive open excavation dominated by the Dark Iron clan, containing the subterranean Slag Pit. Dark Iron overseers and war golems use captured prisoners as slave labor to extract precious ores\u2014including valuable Dark Iron deposits\u2014to feed the great forges inside Blackrock Mountain."
+  },
+  {
+   "q": "How do you get into Searing Gorge from Loch Modan?",
+   "aliases": [
+    "stonewrought pass gate",
+    "how to open searing gorge door",
+    "key to searing gorge"
+   ],
+   "answer": "The passage from Loch Modan through Stonewrought Pass is barred by a heavy locked gate guarded by Ironforge mountaineers. Travelers must either obtain the Key to Searing Gorge through an official task for Curator Thorius, have a skilled rogue pick the mechanism, or bypass the gate entirely by taking the open trail south of Kargath in the Badlands."
+  },
+  {
+   "q": "Why is the Horde interested in Searing Gorge?",
+   "aliases": [
+    "why is horde here",
+    "kargath gorge connection",
+    "horde presence"
+   ],
+   "answer": "Operating from the nearby fortress of Kargath in the Badlands, Horde commanders carved a mountain pass into the gorge to scout Dark Iron troop movements and secure tactical routes toward Blackrock Mountain, which holds immense strategic importance."
+  },
+  {
+   "q": "Are there any dungeons or raid entrances inside Searing Gorge?",
+   "aliases": [
+    "searing gorge instances",
+    "dungeons in searing gorge",
+    "where is molten core"
+   ],
+   "answer": "There are no instance portals directly in the gorge itself, but the southern entrance leads straight into Blackrock Mountain. That mountain houses Blackrock Depths, Blackrock Spire, and the deep passages leading into the Molten Core."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "For dwarves of Ironforge, Searing Gorge is a bitter reminder of the War of the Three Hammers and the catastrophic folly of the Dark Iron clan, whose excavations now threaten Khaz Modan's southern approaches."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance keeps the gate at Stonewrought Pass locked to isolate the Dark Irons from peaceful dwarven settlements in Loch Modan, though courageous adventurers are sanctioned to strike into the gorge."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Using Kargath as a staging base, the Horde cut an overland approach into the gorge to gather intelligence on Blackrock Mountain and disrupt Dark Iron operations in Khaz Modan."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The volcanic landscape and deep excavations in the Slag Pit make Searing Gorge one of the primary hunting grounds for rich veins of mithril, truesilver, and coveted Dark Iron ore."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Rogues with seasoned lockpicking skill are valued travelers here, as they can bypass the locked Stonewrought Pass gate connecting Loch Modan directly to the gorge."
+  }
+ ],
+ "keywords": [
+  "blackrock mountain",
+  "cauldron",
+  "dark iron clan",
+  "ragnaros",
+  "searing gorge",
+  "slag pit",
+  "stonewrought pass",
+  "thorium brotherhood",
+  "thorium point"
+ ],
+ "related": [
+  "subzone:blackrock-mountain",
+  "subzone:thorium-point",
+  "subzone:cauldron",
+  "subzone:slag-pit",
+  "subzone:stonewrought-pass",
+  "zone:badlands",
+  "zone:burningsteppes",
+  "topic:dark-iron-clan"
+ ],
+ "attribution": [
+  "Searing Gorge (Classic)",
+  "Searing Gorge"
+ ]
+}

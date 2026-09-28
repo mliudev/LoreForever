@@ -1,0 +1,77 @@
+{
+ "key": "npc:elder-bladeleaf",
+ "type": "npc",
+ "name": "Elder Bladeleaf",
+ "era": "classic",
+ "zone": "teldrassil",
+ "meta": {
+  "wiki": "Elder Bladeleaf",
+  "refs": 1
+ },
+ "summary": "Elder Bladeleaf is an honored night elf ancestral spirit who appears in Dolanaar during the Lunar Festival. Revering the ancestors is a core aspect of the festival, and Bladeleaf welcomes travelers wishing to pay their respects beneath the canopy of Teldrassil.",
+ "sections": [
+  {
+   "title": "A Spirit of Dolanaar",
+   "body": "Standing amidst the trees of Dolanaar, Elder Bladeleaf manifests as a spectral ancestor during the Lunar Festival. Night elves hold their forebears in high regard, and during this auspicious season, the barrier between the living and the honored dead thins. Bladeleaf bestows blessings and festival tokens upon any who seek him out in friendship, offering a quiet reminder of the wisdom and longevity carried within night elf heritage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elder Bladeleaf?",
+   "aliases": [
+    "elder bladeleaf lore",
+    "who is bladeleaf",
+    "bladeleaf ghost"
+   ],
+   "answer": "Elder Bladeleaf is a night elf ancestral spirit who manifests in Dolanaar during the annual Lunar Festival. He exists to share wisdom, receive the honor of visiting adventurers, and offer traditional festival tokens."
+  },
+  {
+   "q": "Why is Elder Bladeleaf only here sometimes?",
+   "aliases": [
+    "where is elder bladeleaf",
+    "can't find elder bladeleaf",
+    "is bladeleaf seasonal"
+   ],
+   "answer": "Elder Bladeleaf is tied to the Lunar Festival, a time when spirits and ancestors across Azeroth return to walk among the living. When the festival concludes, his spirit returns to the realm beyond until the next cycle."
+  },
+  {
+   "q": "Is Elder Bladeleaf related to the other Bladeleafs in Dolanaar?",
+   "aliases": [
+    "syral bladeleaf related",
+    "bladeleaf family",
+    "hannah bladeleaf relation"
+   ],
+   "answer": "Given that several living night elves in Dolanaar\u2014such as Syral Bladeleaf\u2014share his surname, he is believed to be an ancient forebear of their family line watching over his kin's modern settlement."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Honoring Elder Bladeleaf is a sacred observance in your homelands, connecting you to ancient forebears who walked Kalimdor long before Teldrassil was grown."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers visiting Teldrassil during the Lunar Festival can easily pay homage to Elder Bladeleaf just outside the barrow dens of Dolanaar."
+  }
+ ],
+ "keywords": [
+  "ancestor",
+  "bladeleaf the elder",
+  "dolanaar",
+  "elder bladeleaf",
+  "lunar festival",
+  "spirit",
+  "teldrassil"
+ ],
+ "related": [
+  "quest:8715",
+  "subzone:dolanaar",
+  "npc:syral-bladeleaf",
+  "zone:teldrassil",
+  "topic:night-elf"
+ ],
+ "attribution": [
+  "Elder Bladeleaf"
+ ]
+}

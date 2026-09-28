@@ -1,0 +1,127 @@
+{
+ "key": "quest:865",
+ "type": "quest",
+ "name": "Raptor Horns",
+ "era": "classic",
+ "zone": "barrens",
+ "meta": {
+  "ids": [
+   865
+  ],
+  "level": "18",
+  "faction": null,
+  "start": "",
+  "end": "",
+  "previous": null,
+  "next": "Smart Drinks",
+  "wiki": "Raptor Horns",
+  "chain": [
+   "Raptor Horns",
+   "Smart Drinks"
+  ]
+ },
+ "summary": "Mebok Mizzyrix, an enterprising goblin in Ratchet, believes the cunning of local raptors is stored entirely in their horns. He hires travelers to hunt Sunscale Scytheclaws across the Barrens to collect intact horns for a bizarre commercial venture.",
+ "sections": [
+  {
+   "title": "Goblin Entrepreneurship",
+   "body": "Ratchet is full of goblins seeking their next fortune, and Mebok Mizzyrix is no exception. Observing that the raptors of the Barrens display unusual craftiness and coordination compared to beasts in other regions, Mebok arrived at an eccentric conclusion: their intelligence must be concentrated within their horns. Naturally, rather than conducting formal scientific inquiry, his immediate instinct was to exploit this theoretical resource for profit.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Sunscale Scytheclaws",
+   "body": "To test his theory, Mebok needs pristine specimens from Sunscale Scytheclaws, some of the deadliest predators in the region. These raptors prowl both the southern stretches of the Barrens and the northern borders approaching Ashenvale. Slaying them and extracting their horns undamaged requires considerable martial skill, as the beasts hunt in packs and defend their territory fiercely.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Recipe for Riches",
+   "body": "Once secured, Mebok's plan is simple and characteristically crude: grind the intact horns down into fine powder and brew them into consumable concoctions. Dubbing the resulting mixture 'smart drinks,' he envisions selling the draft to patrons eager to purchase wit in a bottle, fully convinced it will make him wealthy overnight.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Mebok Mizzyrix want raptor horns?",
+   "aliases": [
+    "why raptor horns",
+    "mebok goal",
+    "what does mebok want"
+   ],
+   "answer": "Mebok believes that the exceptional intelligence shown by Barrens raptors is stored in their horns. He intends to grind them into a powder to brew 'smart drinks' and sell them for a handsome profit."
+  },
+  {
+   "q": "Where are Sunscale Scytheclaws located?",
+   "aliases": [
+    "where are scytheclaws",
+    "sunscale scytheclaw location",
+    "raptor horn location"
+   ],
+   "answer": "Sunscale Scytheclaws roam two distinct parts of the Barrens: the southern regions and the northern plains up near the border of Ashenvale Forest."
+  },
+  {
+   "q": "Are raptor horns actually magical or mind-enhancing?",
+   "aliases": [
+    "do smart drinks work",
+    "are raptors smart",
+    "raptor intelligence lore"
+   ],
+   "answer": "While Barrens raptors are known for their cunning, Mebok's belief that their brains or wit reside in their cranial horns is goblin pseudoscience driven purely by profit rather than natural history."
+  },
+  {
+   "q": "Who is Mebok Mizzyrix?",
+   "aliases": [
+    "who is mebok",
+    "mebok mizzyrix lore",
+    "mebok ratchet"
+   ],
+   "answer": "Mebok Mizzyrix is an ambitious goblin merchant based in the port town of Ratchet, always cooking up dubious schemes and concoctions to make a fortune off passing travelers."
+  },
+  {
+   "q": "What happens after collecting the horns?",
+   "aliases": [
+    "next quest after raptor horns",
+    "smart drinks quest",
+    "raptor horns chain"
+   ],
+   "answer": "Once Mebok receives the intact horns, he sets to work grinding them into powder and mixing them into wine, leading directly into his next venture, 'Smart Drinks'."
+  },
+  {
+   "q": "Can Alliance players help Mebok with this task?",
+   "aliases": [
+    "is this quest horde only",
+    "alliance raptor horns",
+    "can alliance do raptor horns"
+   ],
+   "answer": "Yes. Ratchet is an open port managed by the Steamwheedle Cartel, and Mebok is a neutral goblin who gladly does business with both the Horde and the Alliance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Hunters familiar with the raptor packs of Kalimdor understand their deadly cunning well, though Mebok's belief that their wit can be bottled is pure goblin quackery."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Ratchet offers Alliance adventurers a rare neutral foothold in the Horde-dominated Barrens, giving them a chance to earn coin and Steamwheedle favor through odd jobs like Mebok's."
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "intact raptor horn",
+  "mebok mizzyrix",
+  "raptor horns",
+  "ratchet",
+  "smart drinks",
+  "steamwheedle cartel",
+  "sunscale scytheclaw"
+ ],
+ "related": [
+  "npc:mebok-mizzyrix",
+  "quest:1491",
+  "subzone:ratchet",
+  "zone:barrens",
+  "zone:ashenvale"
+ ],
+ "attribution": [
+  "Raptor Horns"
+ ]
+}

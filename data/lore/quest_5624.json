@@ -1,0 +1,131 @@
+{
+ "key": "quest:5624",
+ "type": "quest",
+ "name": "Garments of the Light",
+ "era": "classic",
+ "zone": "elwynn",
+ "meta": {
+  "ids": [
+   5624
+  ],
+  "level": "4",
+  "faction": "Alliance",
+  "start": "Priestess Josetta",
+  "end": "",
+  "previous": "In Favor of the Light (Elwynn Forest)",
+  "next": null,
+  "wiki": "Garments of the Light (Elwynn Forest)",
+  "chain": [
+   "In Favor of the Light (Elwynn Forest)",
+   "Garments of the Light (Elwynn Forest)"
+  ]
+ },
+ "summary": "Garments of the Light is an early trial for novice priests in Goldshire, assigned by Priestess Josetta. Rather than an abstract test of faith, the church sends the acolyte east to Crystal Lake to mend and bolster the wounded Guard Roberts. Fulfilling this duty proves the student's mastery of healing and earns them their first official vestments recognized by the Church of the Holy Light.",
+ "sections": [
+  {
+   "title": "A Practical Test of Faith",
+   "body": "Within the traditions of the Church of the Holy Light, novice disciples are rarely elevated purely on doctrine. Priestess Josetta, who instructs acolytes arriving in Goldshire from Northshire Abbey, tests an initiate's practical mastery over divine power before granting formal church recognition. When reports reach town that Guard Roberts lies wounded by the lake east of Goldshire, Josetta turns an everyday misfortune into a proving ground, dispatching the young priest to tend to him.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sustaining the Realm",
+   "body": "The assignment requires more than simply closing flesh; the acolyte must mend the guard's wounds with restorative prayers and bolster his resilience with a blessing of fortitude. In these troubled times, with Stormwind's military stretched thin and local garrisons beleaguered by kobolds and bandits, Josetta stresses that the priesthood's duty extends directly into martial survival. Returning Guard Roberts to active duty serves the township immediately while demonstrating that the initiate can sustain defenders under fire.",
+   "spoiler": 0
+  },
+  {
+   "title": "Vestments of the Order",
+   "body": "Upon returning to the Lion's Pride Inn after treating the soldier, the young priest receives their first formal set of robes. These garments signify outward approval and fellowship from the priesthood in Stormwind. Though wearing them is not strictly mandatory for future training, the robes stand as a visible declaration that the church recognizes the wearer as an ordained servant of the Holy Light.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Guard Roberts?",
+   "aliases": [
+    "guard roberts location",
+    "where is guard roberts",
+    "find guard roberts"
+   ],
+   "answer": "Guard Roberts is stationed just east of Goldshire, near the shores of Crystal Lake. He can be found resting by the roadside and water's edge, recovering from wounds sustained while on watch."
+  },
+  {
+   "q": "What spells are required to complete this quest?",
+   "aliases": [
+    "spells needed",
+    "what spells do i cast on roberts",
+    "how to heal guard roberts"
+   ],
+   "answer": "You must tend to Guard Roberts using Lesser Heal (Rank 2) to restore his health, followed by casting Power Word: Fortitude to bolster his stamina, before returning to Priestess Josetta."
+  },
+  {
+   "q": "Who is Priestess Josetta?",
+   "aliases": [
+    "josetta lore",
+    "priestess josetta goldshire",
+    "who gives garments of the light"
+   ],
+   "answer": "Priestess Josetta is a priest trainer for the Church of the Holy Light residing in Goldshire's Lion's Pride Inn. She mentors young acolytes who have left Northshire Abbey, guiding them in practical ministry and divine magic."
+  },
+  {
+   "q": "Why does the Church give out robes for this task?",
+   "aliases": [
+    "why garments of the light",
+    "priest robe reward lore",
+    "church robes meaning"
+   ],
+   "answer": "The robes are an outward sign that the Church of the Holy Light formally approves of the acolyte and supports their ministry. Completing this practical healing duty proves the initiate has the competence and discipline worthy of bearing the church's vestments."
+  },
+  {
+   "q": "Can other classes complete this quest?",
+   "aliases": [
+    "is garments of the light priest only",
+    "can paladins do garments of the light",
+    "priest class quest"
+   ],
+   "answer": "No. This quest is part of the introductory class questline specifically for Alliance priests who have mastered their fundamental healing and warding prayers."
+  },
+  {
+   "q": "What happens after completing Garments of the Light?",
+   "aliases": [
+    "next quest after garments of the light",
+    "garments of the light followup"
+   ],
+   "answer": "Garments of the Light concludes the early level 4 priest initiation line in Goldshire. While there is no immediate breadcrumb follow-up, Priestess Josetta and other trainers throughout the kingdom will offer advanced training and further trials as you grow in experience."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "This rite of passage bridges classroom theology in Northshire with active field service, reinforcing that a priest's highest calling is keeping frontline allies alive through direct healing and fortifying wards."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With the Stormwind army strained and absent from local hamlets, the town guard relies heavily on the assistance of local church disciples to remain standing against encroaching threats."
+  },
+  {
+   "target": "race:Human",
+   "text": "Human culture places great reverence on the Church of the Holy Light; earning ordained vestments from a township priestess marks an important civic and spiritual milestone in an acolyte's life."
+  }
+ ],
+ "keywords": [
+  "crystal lake",
+  "elwynn forest",
+  "garments of the light",
+  "goldshire",
+  "guard roberts",
+  "lesser heal",
+  "power word fortitude",
+  "priest robe",
+  "priestess josetta"
+ ],
+ "related": [
+  "npc:priestess-josetta",
+  "subzone:goldshire",
+  "quest:5623",
+  "zone:elwynn",
+  "topic:light"
+ ],
+ "attribution": [
+  "Garments of the Light (Elwynn Forest)"
+ ]
+}

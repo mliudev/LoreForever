@@ -1,0 +1,88 @@
+{
+ "key": "subzone:forsaken-high-command",
+ "type": "subzone",
+ "name": "Forsaken High Command",
+ "era": "classic",
+ "zone": "silverpine",
+ "meta": {
+  "wiki": "Forsaken High Command"
+ },
+ "summary": "Forsaken High Command marks the fortified gateway where the southern borders of Tirisfal Glades meet northern Silverpine Forest. Under the gaze of the Dark Lady's field officers, this staging camp coordinates troop movements and logistical supplies heading deeper into the contested wilderness. For fresh recruits marching out of the Undercity's shadow, it represents the front line of Forsaken expansion.",
+ "sections": [
+  {
+   "title": "Staging the Southern Push",
+   "body": "Positioned squarely along the main northern road into Silverpine Forest, the Forsaken High Command serves as the operational nerve center for operations south of Tirisfal Glades. Dreadguards, apothecaries, and scouts gather here under orders directly tied to Lady Sylvanas Windrunner's broader ambitions for Lordaeron. The camp provides incoming soldiers with fresh directives, routing them toward key strongholds like the Sepulcher while keeping watchful eyes on local threats lurking in the misty woods.",
+   "spoiler": 0
+  },
+  {
+   "title": "Securing the Border",
+   "body": "Beyond acting as a waystation, the command post forms a defensive bulwark shielding the Glades from southern incursions. With hostile Dalaran wizards, rogue feral beasts, and the encroaching shadow of Shadowfang Keep threatening the road, High Command ensures that supply lines to Undercity remain unbroken. Sentries posted along the palisades scrutinize everyone journeying south, ensuring only those serving the Dark Lady pass unchallenged into the dark canopy of Silverpine.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Forsaken High Command?",
+   "aliases": [
+    "what is this camp",
+    "forsaken high command purpose",
+    "high command silverpine"
+   ],
+   "answer": "It is the primary military outpost and staging ground situated at the northern border of Silverpine Forest. It serves as an administrative and defensive hub for Forsaken troops, apothecaries, and messengers transitioning between Tirisfal Glades and operations farther south."
+  },
+  {
+   "q": "Who controls this camp?",
+   "aliases": [
+    "who runs high command",
+    "who is in charge here"
+   ],
+   "answer": "The outpost is manned entirely by the Forsaken and answers directly to the military leadership of the Undercity and Lady Sylvanas Windrunner. Local field commanders, Dreadguard officers, and Royal Apothecary Society agents organize and issue regional orders from this position."
+  },
+  {
+   "q": "Why is this outpost located here?",
+   "aliases": [
+    "why here",
+    "why silverpine border"
+   ],
+   "answer": "The encampment sits on the main thoroughfare connecting Tirisfal Glades to the rest of Silverpine Forest. Securing this choke point keeps Undercity's southern borders safe while maintaining a clear logistical pipeline for Forsaken patrols pushing toward the Sepulcher and Pyrewood Village."
+  },
+  {
+   "q": "What threats are the troops here monitoring?",
+   "aliases": [
+    "silverpine dangers",
+    "what are they fighting"
+   ],
+   "answer": "Forces based here keep watch over the unruly wildlife of Silverpine, regional worgen beasts, remnant human pockets, and the arcane agents of Dalaran operating near Ambermill. They also ensure the Scarlet Crusade cannot flank Tirisfal from the southwest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For Forsaken newly risen in Deathknell, reaching High Command marks the first real step beyond home soil and into active service for Lady Sylvanas."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The camp acts as a fortified waypoint for Horde travelers entering the wild, contested terrain of Silverpine Forest from Tirisfal."
+  }
+ ],
+ "keywords": [
+  "apothecary",
+  "dreadguard",
+  "forsaken high command",
+  "sepulcher",
+  "silverpine forest",
+  "sylvanas windrunner",
+  "tirisfal glades",
+  "undercity"
+ ],
+ "related": [
+  "zone:silverpine",
+  "zone:tirisfal",
+  "npc:sylvanas-windrunner",
+  "topic:forsaken",
+  "subzone:forsaken-front"
+ ],
+ "attribution": [
+  "Forsaken High Command"
+ ]
+}
