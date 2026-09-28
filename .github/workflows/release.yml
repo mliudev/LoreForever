@@ -1,0 +1,101 @@
+# Builds the download zip and the Windows installer, then publishes them as a GitHub release.
+# Runs when a version tag is pushed (git tag v0.3.0 && git push origin v0.3.0). The tag must match
+# "## Version" in addon/LoreForever/LoreForever.toc. Run it by hand (Actions > Release > Run workflow) to
+# rebuild the assets of an existing tag.
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing tag to rebuild, e.g. v0.2.0"
+        required: true
+
+permissions:
+  contents: write
+
+env:
+  TAG: ${{ github.event.inputs.tag || github.ref_name }}
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TAG }}
+      - id: version
+        name: Check the tag matches the .toc
+        run: |
+          version=$(sed -n 's/^## Version: *//p' addon/LoreForever/LoreForever.toc | tr -d '\r')
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          [ "v$version" = "$TAG" ] || { echo "::error::tag $TAG doesn't match .toc version $version"; exit 1; }
+      - name: Build the zip
+        run: |
+          bash scripts/build-release.sh
+          mv "dist/LoreForever-${{ steps.version.outputs.version }}.zip" dist/LoreForever.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zip
+          path: dist/LoreForever.zip
+
+  installer:
+    needs: zip
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TAG }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: zip
+          path: dist
+      - name: Install Inno Setup
+        shell: pwsh
+        run: |
+          if (-not (Test-Path "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe")) { choco install innosetup -y --no-progress }
+      - name: Build the installer
+        shell: pwsh
+        run: |
+          Expand-Archive dist\LoreForever.zip -DestinationPath dist\stage
+          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /Q "/DAppVersion=${{ needs.zip.outputs.version }}" `
+            "/DSourceDir=$PWD\dist\stage" "/DOutputDir=$PWD\dist" release\installer\LoreForever.iss
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+      - name: Smoke test (silent install into a fake WoW folder)
+        shell: pwsh
+        run: |
+          $wow = "$env:RUNNER_TEMP\wow"
+          New-Item -ItemType Directory "$wow\_classic_beta_" | Out-Null
+          Start-Process dist\LoreForever-Setup.exe -ArgumentList "/VERYSILENT", "/SUPPRESSMSGBOXES", "/DIR=$wow" -Wait
+          $toc = "$wow\_classic_beta_\Interface\AddOns\LoreForever\LoreForever.toc"
+          if (-not (Test-Path $toc)) { Write-Error "installer didn't place $toc"; exit 1 }
+          "installed $((Get-ChildItem "$wow\_classic_beta_\Interface\AddOns\LoreForever" -Recurse -File).Count) files"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: installer
+          path: dist/LoreForever-Setup.exe
+
+  release:
+    needs: [zip, installer]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          cd dist && sha256sum LoreForever.zip LoreForever-Setup.exe | tee SHA256SUMS.txt
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" LoreForever.zip LoreForever-Setup.exe SHA256SUMS.txt --clobber
+          else
+            gh release create "$TAG" LoreForever.zip LoreForever-Setup.exe SHA256SUMS.txt \
+              --title "Lore Forever ${{ needs.zip.outputs.version }}" --generate-notes --latest
+          fi
